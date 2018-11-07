@@ -1,0 +1,63 @@
+#site-header {
+  display: grid;
+  grid-template-rows: 1fr 3px;
+  grid-column: full;
+
+  &> * {
+    display: grid;
+
+    grid-template-columns:
+      [full-start] minmax(1em, 1fr)
+      [main-start] minmax(0, 80em) [main-end]
+      minmax(1em, 1fr) [full-end];
+
+    &> * {
+      grid-column: main;
+    }
+  }
+
+  .wrapper {
+    background-color: #333333;
+    height: 100px;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-bottom: 20px;
+  }
+}
+
+.site-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.site-logo {
+  position: absolute;
+  top: 20px;
+}
+
+.site-banner {
+  font-size: 20px;
+  padding-left: 120px;
+
+  a {
+    color: #fff;
+  }
+}
+
+.site-navigation {
+  display:flex;
+  align-items: flex-end;
+
+  a {
+    color: #fff;
+    margin-left: auto;
+  }
+}
+
+.bottom-bar {
+  background-color: #e90e8b;
+}

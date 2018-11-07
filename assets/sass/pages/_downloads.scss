@@ -1,0 +1,84 @@
+#download-page {
+  padding: 50px 0 0 0;
+  display: grid;
+    grid-template-columns:
+      [full-start] minmax(1em, 1fr)
+      [main-start] minmax(0, 80em) [main-end]
+      minmax(1em, 1fr) [full-end];
+    grid-row-gap: 1em;
+
+  &> * {
+    grid-column: main;
+  }
+
+  h1 {
+
+  }
+
+  .download-search {
+
+    .search-wrapper {
+      position: relative;
+
+      &:before {
+        font-family: 'Font Awesome\ 5 Free';
+        font-size: 24px;
+        font-weight: 900;
+        color: #652f8f;
+        content: "\f002";
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    input {
+      width: 40%;
+      height: 50px;
+      padding: 15px;
+      border-radius: 5px;
+      border: 3px solid #652f8f;
+      box-sizing: border-box;
+    }
+
+    .sort {
+      float: right;
+    }
+  }
+
+  .download-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+
+    .download {
+      img {
+        width: 100%;
+      }
+
+      a {
+        display: block;
+        padding: 5px 5px 15px 5px;
+        color: #000;
+        border: 1px solid #cecece;
+        margin: 1px;
+        border-radius: 5px;
+
+        &:hover {
+          border-radius: 5px;
+          margin: 0px;
+          border: 2px solid #e90e8b;
+        }
+
+      }
+
+      h3 {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 5px 0 5px 0;
+      }
+    }
+  }
+}

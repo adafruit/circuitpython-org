@@ -1,0 +1,47 @@
+title: Circuit Python
+email: justin@adafruit.com
+description: >-
+  Circuit Python Organization
+baseurl: ""
+url: https://circuitpython.org
+timezone: America/New_York
+twitter_username: adafruit
+github_username:  adafruit
+paginate: 5
+excerpt_separator: <!--more-->
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  
+# Sass settings
+sass:
+  add_charset: true
+  sass_dir: assets/sass
+style: :compressed
+
+### Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _src
+  - _images
+  - LICENSE
+  - package.json
+  - README.md
+  - webpack.config.js
+  - yarn-error.log
+  - yarn.lock
+  - config
+  - optimization-fix
+  - optimization-fix-this-file-is-ignored.js
+  - icon.png
