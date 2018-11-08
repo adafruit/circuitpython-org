@@ -20,12 +20,17 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-  
+
 # Sass settings
 sass:
   add_charset: true
   sass_dir: assets/sass
 style: :compressed
+
+# Collections
+collections:
+  downloads:
+    output: true
 
 ### Exclude from processing.
 exclude:
