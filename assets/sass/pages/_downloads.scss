@@ -1,4 +1,4 @@
-#download-page {
+#downloads-page {
   padding: 50px 0 0 0;
   display: grid;
     grid-template-columns:
@@ -47,7 +47,7 @@
     }
   }
 
-  .download-section {
+  .downloads-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 1em;
@@ -84,13 +84,13 @@
 }
 
 @media (max-width: $screen-md) {
-  #download-page .download-section {
+  #downloads-page .download-section {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: $screen-xs-max) {
-  #download-page .download-section {
+  #downloads-page .download-section {
     grid-template-columns: 1fr;
   }
 }

@@ -4,7 +4,7 @@ title: Downloads
 permalink: /downloads
 ---
 
-<div id="download-page">
+<div id="downloads-page">
   <h1>Downloads</h1>
   <div class="download-search">
     <label class="search-wrapper">
@@ -13,7 +13,7 @@ permalink: /downloads
     <span class="filter">...</span>
     <span class="sort">SORT BY</span>
   </div>
-  <div class="download-section">
+  <div class="downloads-section">
   {% for boards in site.data.downloads.data %}
     <div class="download" data-id="{{ boards.id }}">
       <a href="/download/{{ boards.id | url_encode }}">

@@ -1,0 +1,48 @@
+#download-page {
+  padding: 50px 0 0 0;
+  display: grid;
+    grid-template-columns:
+      [full-start] minmax(1em, 1fr)
+      [main-start] minmax(0, 80em) [main-end]
+      minmax(1em, 1fr) [full-end];
+    grid-row-gap: 0.5em;
+
+  &> * {
+    grid-column: main;
+  }
+
+  h1, h3 {
+    margin: 0;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+  }
+
+  .download-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(min-content, max-content);
+
+    .section {
+      border: 1px solid #cecece;
+      border-radius: 5px;
+      padding: 20px;
+    }
+
+    .details {
+      img {
+        width: 100%;
+      }
+    }
+
+    .download {
+
+    }
+  }
+}

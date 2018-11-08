@@ -1,5 +1,31 @@
 ---
 layout: default
 ---
+<div id="download-page">
+  <h1>{{ page.name }}</h1>
+  <h3>by {{ page.manufacturer }}</h3>
 
-{{ page.name }}
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        <img src="{{ page.board_image }}">
+
+        <p>
+          {{ page.description }}
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      <div class="section">
+        <h3>CircuitPython {{ page.version }}</h3>
+        <p>
+          This is the latest stable release of CircuitPython that will work
+          with the {{ page.name }}
+        </p>
+        <div>
+          *dropdown here*
+          *download button here*
+      </div>
+    </div>
+  </div>
+</div>
