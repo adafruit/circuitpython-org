@@ -4,7 +4,7 @@ TODO
 - [ ] add feed_meta and seo tags to layout head
 - [ ] setup github_pages gemfile
 - [ ] favicons
-- [ ] search of Downloads
+- [ ] filtering and sorting of Downloads
 - [x] layout of Downloads
 - [ ] responsive snap sizes
 - [ ] download details pages

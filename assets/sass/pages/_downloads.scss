@@ -82,3 +82,15 @@
     }
   }
 }
+
+@media (max-width: $screen-md) {
+  #download-page .download-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  #download-page .download-section {
+    grid-template-columns: 1fr;
+  }
+}
