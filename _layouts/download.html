@@ -23,9 +23,31 @@ layout: default
           with the {{ page.name }}
         </p>
         <div>
-          *dropdown here*
-          *download button here*
+          <label class="language-select">
+            <select>
+              {% for language in page.files %}
+              <option value="{{ language[1] }}">
+                {% case language[0] %}
+                  {% when 'en' %}
+                    ENGLISH
+                  {% when 'de' %}
+                    GERMAN
+                  {% when 'fil' %}
+                    FILIPINO
+                  {% when 'fr' %}
+                    FRENCH
+                  {% when 'es' %}
+                    SPANISH
+                {% endcase %}
+              </option>
+              {% endfor %}
+            </select>
+          </label>
+          <a class="download-button" href="{{ page.files.en }}">DOWNLOAD NOW <i class="fas fa-download"></i></a>
+          <div class="clear"></div>
       </div>
     </div>
   </div>
 </div>
+
+<script src="/assets/javascript/download.js"></script>

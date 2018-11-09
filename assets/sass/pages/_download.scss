@@ -42,7 +42,78 @@
     }
 
     .download {
+      .language-select {
+        float: left;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 2px solid $purple;
+        overflow: hidden;
+        height: 45px;
+        width: 200px;
+        position: relative;
+        display: block;
+      }
 
+      select{
+        height: 45px;
+        padding: 5px;
+        border: 0;
+        font-size: 16px;
+        width: 200px;
+       -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+      .language-select:after {
+        content: "\f0dc";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        color: $purple;
+        padding: 15px 8px;
+        position: absolute; right: 0; top: 0;
+        background: #fff;
+        z-index: 1;
+        text-align: center;
+        width: 15%;
+        height: 100%;
+        pointer-events: none;
+        box-sizing: border-box;
+      }
+
+      a {
+        float: left;
+        padding: 15px 37px 15px 37px;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        background-color: $purple;
+
+        i {
+          padding-left: 10px;
+        }
+      }
     }
+  }
+}
+
+@media (max-width: $screen-lg) {
+  #download-page .download-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: $screen-md) {
+  #download-page .download-section {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .language-select {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  #download-page .download-section {
+    grid-template-columns: 1fr;
   }
 }
