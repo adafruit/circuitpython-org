@@ -26,7 +26,7 @@ layout: default
           <label class="language-select">
             <select>
               {% for language in page.files %}
-              <option value="{{ language[1] }}">
+              <option value="{{ language[1] }}" data-locale={{ language[0] }}>
                 {% case language[0] %}
                   {% when 'en' %}
                     ENGLISH

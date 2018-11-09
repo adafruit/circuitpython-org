@@ -12,3 +12,4 @@ TODO
 - [ ] help page
 - [ ] setup travis for generate_downloads.rb
 - [ ] update header to latest version (different logo)
+- [ ] deploy accounts, and update url to accounts production in download.js
