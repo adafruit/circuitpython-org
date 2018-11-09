@@ -2,7 +2,7 @@ require 'json'
 require 'erb'
 require 'cgi'
 
-template = ERB.new <<-EOF
+template = <<-EOF
 ---
 layout: download
 title: "<%= id %> Download"
@@ -14,20 +14,21 @@ board_url: "<%= attributes["board_url"] %>"
 board_image: "<%= attributes["board_image"] %>"
 description: "<%= attributes["description"] %>"
 files:
-  "en": "<%= attributes["files"]["en"] %>"
-  "de": "<%= attributes["files"]["de"] %>"
-  "es": "<%= attributes["files"]["es"] %>"
-  "fil": "<%= attributes["files"]["fil"] %>"
+  <%- attributes["files"].each do |file| -%>
+  "<%= file[0] %>": "<%= file[1] %>"
+  <%- end -%>
 permalink: "/download/<%= CGI.escape(id) %>/"
 ---
 EOF
 
-downloads = File.read('../_data/downloads.json')
+erb = ERB.new(template, nil, '-')
+
+downloads = File.read('_data/downloads.json')
 downloads = JSON.parse(downloads)
 
 downloads["data"].each do |download|
-  path = File.join('../_downloads', "#{CGI.escape(download["id"])}.md")
+  path = File.join('_downloads', "#{CGI.escape(download["id"])}.md")
   File.open(path, 'w') do |f|
-    f.write template.result_with_hash(download)
+    f.write erb.result_with_hash(download)
   end
 end

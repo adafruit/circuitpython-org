@@ -13,5 +13,6 @@ files:
   "de": "https://github.com/adafruit/circuitpython/releases/download/4.0.0-alpha.1/adafruit-circuitpython-arduino_zero-de_DE-4.0.0-alpha.1.bin"
   "es": "https://github.com/adafruit/circuitpython/releases/download/4.0.0-alpha.1/adafruit-circuitpython-arduino_zero-es-4.0.0-alpha.1.bin"
   "fil": "https://github.com/adafruit/circuitpython/releases/download/4.0.0-alpha.1/adafruit-circuitpython-arduino_zero-fil-4.0.0-alpha.1.bin"
+  "fr": "https://github.com/adafruit/circuitpython/releases/download/4.0.0-alpha.1/adafruit-circuitpython-arduino_zero-fr-4.0.0-alpha.1.bin"
 permalink: "/download/Arduino+Zero/"
 ---

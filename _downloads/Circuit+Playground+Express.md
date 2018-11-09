@@ -13,5 +13,6 @@ files:
   "de": "https://github.com/adafruit/circuitpython/releases/download/4.0.0-alpha.1/adafruit-circuitpython-circuitplayground_express-de_DE-4.0.0-alpha.1.uf2"
   "es": "https://github.com/adafruit/circuitpython/releases/download/4.0.0-alpha.1/adafruit-circuitpython-circuitplayground_express-es-4.0.0-alpha.1.uf2"
   "fil": "https://github.com/adafruit/circuitpython/releases/download/4.0.0-alpha.1/adafruit-circuitpython-circuitplayground_express-fil-4.0.0-alpha.1.uf2"
+  "fr": "https://github.com/adafruit/circuitpython/releases/download/4.0.0-alpha.1/adafruit-circuitpython-circuitplayground_express-fr-4.0.0-alpha.1.uf2"
 permalink: "/download/Circuit+Playground+Express/"
 ---
