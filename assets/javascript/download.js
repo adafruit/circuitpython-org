@@ -1,5 +1,7 @@
+var languageSelect;
+
 document.addEventListener('DOMContentLoaded',function() {
-  var languageSelect = document.querySelector(".language-select select");
+  languageSelect = document.querySelector(".language-select select");
   languageSelect.onchange = languageSelectHandler;
 
   var script = document.createElement('script');
@@ -9,13 +11,11 @@ document.addEventListener('DOMContentLoaded',function() {
 },false);
 
 function languageSelectHandler(event) {
-  var languageSelect = document.querySelector(".language-select select");
   document.querySelector(".download-button").href = languageSelect.value;
 }
 
 function setLocale(response) {
   var languages = response.languages.join(' ')
-  var languageSelect = document.querySelector(".language-select select");
   var options = languageSelect.options;
 
   for (var i = 0; i < options.length; i++) {
