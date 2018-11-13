@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 2.5.3
+install:
+  - gem install git
+script:
+  - ruby _scripts/generate_downloads.rb
+  - ruby _scripts/copy_newsletter_posts.rb

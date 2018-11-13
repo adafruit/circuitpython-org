@@ -8,6 +8,7 @@ TODO
 - [x] layout of Downloads
 - [ ] responsive sizes
 - [x] download details pages
+- [x] landing page
 - [ ] news page?
 - [ ] help page
 - [ ] setup travis for generate_downloads.rb
