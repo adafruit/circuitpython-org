@@ -9,8 +9,10 @@ TODO
 - [ ] responsive sizes
 - [x] download details pages
 - [x] landing page
-- [ ] news page?
-- [ ] help page
+- [ ] news page
+- [x] help page
 - [ ] setup travis for generate_downloads.rb
 - [ ] update header to latest version (different logo)
-- [ ] deploy accounts, and update url to accounts production in download.js
+- [x] deploy accounts, and update url to accounts production in download.js
+- [ ] setup travis for git commits (example: http://awestruct.org/auto-deploy-to-github-pages/)
+- [ ] authenticate github api for newsletter posts

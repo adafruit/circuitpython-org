@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',function() {
   languageSelect.onchange = languageSelectHandler;
 
   var script = document.createElement('script');
-  script.src = '//accounts.adafruit.vm/users/locale?callback=setLocale';
+  script.src = '//accounts.adafruit.com/users/locale?callback=setLocale';
   document.head.appendChild(script);
 
 },false);
