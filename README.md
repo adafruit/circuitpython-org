@@ -7,7 +7,7 @@ TODO
 - [ ] filtering and sorting of Downloads
 - [x] layout of Downloads
 - [ ] responsive sizes
-- [ ] download details pages
+- [x] download details pages
 - [ ] news page?
 - [ ] help page
 - [ ] setup travis for generate_downloads.rb
