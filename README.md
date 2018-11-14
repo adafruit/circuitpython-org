@@ -11,8 +11,7 @@ TODO
 - [x] landing page
 - [ ] news page
 - [x] help page
-- [ ] setup travis for generate_downloads.rb
-- [ ] update header to latest version (different logo)
+- [x] setup travis for generate_downloads.rb
+- [x] update header to latest version (different logo)
 - [x] deploy accounts, and update url to accounts production in download.js
-- [ ] setup travis for git commits (example: http://awestruct.org/auto-deploy-to-github-pages/)
 - [ ] authenticate github api for newsletter posts
