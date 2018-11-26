@@ -1,0 +1,15 @@
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+      line-height: 24px;
+      a {
+       color: #000;
+      }
+    }
+}
