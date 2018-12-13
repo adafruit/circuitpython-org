@@ -5,7 +5,7 @@ install:
   - gem install git
 script:
   - rake generate_downloads
-  - rake copy_newsletter_posts
+#  - rake copy_newsletter_posts
 # - rake travis
 #deploy: # https://docs.travis-ci.com/user/deployment/pages/
 #  provider: pages
