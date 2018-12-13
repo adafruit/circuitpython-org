@@ -20,6 +20,7 @@ function setLocale(response) {
 
   for (var i = 0; i < options.length; i++) {
     if (languages.includes(options[i].dataset.locale)) {
+      console.log(options[i].dataset.locale);
       options[i].selected = true;
       languageSelect.onchange();
     }

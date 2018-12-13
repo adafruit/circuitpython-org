@@ -9,44 +9,52 @@ layout: default
     <div class="details">
       <div class="section">
         <img src="{{ page.board_image }}">
-
         <p>
-          {{ page.description }}
+          {{ content }}
         </p>
       </div>
     </div>
     <div class="download">
-      <div class="section">
-        <h3>CircuitPython {{ page.version }}</h3>
-        <p>
-          This is the latest stable release of CircuitPython that will work
-          with the {{ page.name }}
-        </p>
-        <div>
-          <label class="language-select">
-            <select>
-              {% for language in page.files %}
-              <option value="{{ language[1] }}" data-locale={{ language[0] }}>
-                {% case language[0] %}
-                  {% when 'en' %}
-                    ENGLISH
-                  {% when 'de' %}
-                    GERMAN
-                  {% when 'fil' %}
-                    FILIPINO
-                  {% when 'fr' %}
-                    FRENCH
-                  {% when 'es' %}
-                    SPANISH
-                {% endcase %}
-              </option>
-              {% endfor %}
-            </select>
-          </label>
-          <a class="download-button" href="{{ page.files.en }}">DOWNLOAD NOW <i class="fas fa-download"></i></a>
-          <div class="clear"></div>
+      {% for version in site.data.files[page.board_id].versions %}
+        <div class="section">
+          <h3>CircuitPython {{ version.version }}</h3>
+          <p>
+            This is the latest {% if version.stable %}stable{% else %}unstable{% endif %}
+            release of CircuitPython that will work with the {{ page.name }}.
+          </p>
+          <div>
+            <label class="language-select">
+              <select>
+                {% for file in version.files %}
+                <option value="{{ file[1][0] }}" data-files={{ file[1] }} data-locale={{ file[0] | replace: '_', '-' }}>
+                  {% case file[0] %}
+                    {% when 'en_US' %}
+                      ENGLISH
+                    {% when 'de_DE' %}
+                      GERMAN
+                    {% when 'fil' %}
+                      FILIPINO
+                    {% when 'fr' %}
+                      FRENCH
+                    {% when 'es' %}
+                      SPANISH
+                    {% when 'it_IT' %}
+                      ITALIAN
+                    {% when 'pt_BR' %}
+                      PORTUGUESE (BRAZILIAN)
+                  {% endcase %}
+                </option>
+                {% endfor %}
+              </select>
+            </label>
+            {% for file in version.files['en_US'] %}
+              <a class="download-button" href="{{ file }}">DOWNLOAD NOW <i class="fas fa-download"></i></a>
+            {% endfor %}
+            <div class="clear"></div>
+
+        </div>
       </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
 
