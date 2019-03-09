@@ -3,7 +3,8 @@ rvm:
   - 2.5.3
 install:
   - gem install git
-# script:
+script:
+    -
 #  - rake generate_downloads
 #  - rake copy_newsletter_posts
 # - rake travis
