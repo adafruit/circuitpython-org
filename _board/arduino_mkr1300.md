@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "<board id>"
-title: "<board name> Download"
-name: "<board name>"
-manufacturer: "<board manufacturer>"
-board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_id: "arduino_mkr1300"
+title: "MKR WAN 1300 Download"
+name: "MKR WAN 1300"
+manufacturer: "Arduino"
+board_url: "https://www.arduino.cc/en/Guide/MKRWAN1300"
+board_image: "/assets/images/boards/arduino_mkr1300.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
@@ -13,8 +13,7 @@ This board hasn't been fully documented yet. Please make a pull request adding m
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
 
 ## Purchase
-Add any links to purchase the board
-* [Adafruit](https://www.adafruit.com/product/3857)
+* [Arduino](https://store.arduino.cc/usa/mkr-wan-1300)
 
 ## Contribute
 

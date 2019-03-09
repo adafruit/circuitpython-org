@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "<board id>"
-title: "<board name> Download"
-name: "<board name>"
-manufacturer: "<board manufacturer>"
+board_id: "hallowing_m0_express"
+title: "HalloWing M0 Express Download"
+name: "HalloWing M0 Express"
+manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/hallowing_m0_express.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
@@ -13,8 +13,7 @@ This board hasn't been fully documented yet. Please make a pull request adding m
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
 
 ## Purchase
-Add any links to purchase the board
-* [Adafruit](https://www.adafruit.com/product/3857)
+* [Adafruit](https://www.adafruit.com/product/3900)
 
 ## Contribute
 

@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "<board id>"
-title: "<board name> Download"
-name: "<board name>"
-manufacturer: "<board manufacturer>"
+board_id: "circuitplayground_express_crickit"
+title: "Circuit Playground Express + Crickit Download"
+name: "Circuit Playground Express + Crickit"
+manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/circuitplayground_express_crickit.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
@@ -14,7 +14,8 @@ The description should be written to inform a CircuitPython user what makes the 
 
 ## Purchase
 Add any links to purchase the board
-* [Adafruit](https://www.adafruit.com/product/3857)
+* [Circuit Playground Express - Adafruit](https://www.adafruit.com/product/3333)
+* [CRICKIT for CircuitPlayground Express - Adafruit](https://www.adafruit.com/product/3093)
 
 ## Contribute
 

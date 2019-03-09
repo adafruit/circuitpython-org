@@ -1,9 +1,9 @@
 ---
 layout: download
-board_id: "<board id>"
-title: "<board name> Download"
-name: "<board name>"
-manufacturer: "<board manufacturer>"
+board_id: "makerdiary_nrf52840_mdk_usb_dongle"
+title: "nRF52840 Micro Dev Kit USB Dongle Download"
+name: "nRF52840 Micro Dev Kit USB Dongle"
+manufacturer: "MakerDiary"
 board_url: ""
 board_image: "/assets/images/boards/unknown.jpg"
 ---
@@ -13,8 +13,9 @@ This board hasn't been fully documented yet. Please make a pull request adding m
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
 
 ## Purchase
-Add any links to purchase the board
-* [Adafruit](https://www.adafruit.com/product/3857)
+* [MakerDiary](https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-usb-dongle)
+* [Seeed Studio](https://www.seeedstudio.com/nRF52840-MDK-USB-Dongle-p-3184.html)
+* [Amazon](https://www.amazon.com/gp/product/B07MJ12XLG)
 
 ## Contribute
 

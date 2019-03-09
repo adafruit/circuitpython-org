@@ -1,20 +1,21 @@
 ---
 layout: download
-board_id: "<board id>"
-title: "<board name> Download"
-name: "<board name>"
-manufacturer: "<board manufacturer>"
+board_id: "sparkfun_samd21_mini"
+title: "SAMD21 Mini Download"
+name: "SAMD21 Mini"
+manufacturer: "SparkFun"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/sparkfun_samd21_mini.jpg"
 ---
+
+Image by SparkFun. CC BY 2.0
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
 
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
 
 ## Purchase
-Add any links to purchase the board
-* [Adafruit](https://www.adafruit.com/product/3857)
+* [SparkFun](https://www.sparkfun.com/products/13664)
 
 ## Contribute
 
