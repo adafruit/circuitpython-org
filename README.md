@@ -19,6 +19,6 @@ TODO
 
 # To add a new board to the site:
 
-1. Edit _data/metadata.json and add a new object in the array with the board details.
-2. Commit and push the code. A file will be automatically generated in _downloads/board_id.description_type
-3. Edit the description and save the file
+1. Duplicate `_board/template.md` to `_board/<board id>.md`.
+2. Edit `_board/<board id>.md` according to the template's instructions.
+3. Create a pull request with the file changes.
