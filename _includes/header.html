@@ -3,10 +3,11 @@
     <div class="content">
       <div class="site-brand">
         <div class="site-logo">
-          <a href="https://circuitpython.org">
-            <img src="/assets/images/logo.png" srcset="/assets/images/logo.png 1x,
-                                         /assets/images/logo@2x.png 2x,
-                                         /assets/images/logo@3x.png 3x"
+          <a href="{{ site.url }}">
+            <img src="{{ "/assets/images/logo.png" | relative_url }}"
+                 srcset="{{ "/assets/images/logo.png" | relative_url }} 1x,
+                         {{ "/assets/images/logo@2x.png" | relative_url }} 2x,
+                         {{ "/assets/images/logo@3x.png" | relative_url }} 3x"
                                          alt="CircuitPython Logo"
                                          height="60" width="136">
           </a>
@@ -14,8 +15,8 @@
       </div>
 
       <div class="site-navigation">
-        <a href="/downloads">DOWNLOADS</a>
-        <a href="/news">NEWS</a>
+        <a href="{{ "/downloads" | relative_url  }}">DOWNLOADS</a>
+        <a href="{{ "/news" | relative_url }}">NEWS</a>
         <a href="https://learn.adafruit.com/welcome-to-circuitpython">HELP</a>
       </div>
     </div>
