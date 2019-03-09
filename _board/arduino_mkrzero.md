@@ -1,10 +1,10 @@
 ---
 layout: download
-board_id: "<board id>"
-title: "<board name> Download"
-name: "<board name>"
-manufacturer: "<board manufacturer>"
-board_url: ""
+board_id: "arduino_mkrzero"
+title: "MKR Zero Download"
+name: "MKR Zero"
+manufacturer: "Arduino"
+board_url: "https://www.arduino.cc/en/Guide/ArduinoMKRZero"
 board_image: "/assets/images/boards/unknown.jpg"
 ---
 
@@ -13,8 +13,7 @@ This board hasn't been fully documented yet. Please make a pull request adding m
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
 
 ## Purchase
-Add any links to purchase the board
-* [Adafruit](https://www.adafruit.com/product/3857)
+* [Arduino](https://store.arduino.cc/usa/arduino-mkrzero)
 
 ## Contribute
 

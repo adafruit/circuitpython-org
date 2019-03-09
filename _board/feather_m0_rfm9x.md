@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "<board id>"
-title: "<board name> Download"
-name: "<board name>"
-manufacturer: "<board manufacturer>"
+board_id: "feather_m0_rfm9x"
+title: "Feather M0 RFM9x Download"
+name: "Feather M0 RFM9x"
+manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/feather_m0_rfm9x.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
@@ -13,8 +13,8 @@ This board hasn't been fully documented yet. Please make a pull request adding m
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
 
 ## Purchase
-Add any links to purchase the board
-* [Adafruit](https://www.adafruit.com/product/3857)
+* [Feather M0 RFM95 - Adafruit](https://www.adafruit.com/product/3178)
+* [Feather M0 RFM96 - Adafruit](https://www.adafruit.com/product/3179)
 
 ## Contribute
 
