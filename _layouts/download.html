@@ -15,7 +15,8 @@ layout: default
       </div>
     </div>
     <div class="download">
-      {% for version in site.data.files[page.board_id].versions %}
+      {% assign files = site.data.files | where: "id", page.board_id %}
+      {% for version in files[0].versions %}
         <div class="section">
           <h3>CircuitPython {{ version.version }}</h3>
           <p>
@@ -26,7 +27,7 @@ layout: default
             <label class="language-select">
               <select>
                 {% for file in version.files %}
-                <option value="{{ file[1][0] }}" data-files={{ file[1] }} data-locale={{ file[0] | replace: '_', '-' }}>
+                <option value="{{ file[1][0] }}" data-files={{ file[1] }} data-locale={{ file[0] | replace: '_', '-' }} {% if file[0] == "en_US" %}selected{% endif %}>
                   {% case file[0] %}
                     {% when 'en_US' %}
                       ENGLISH
@@ -42,13 +43,17 @@ layout: default
                       ITALIAN
                     {% when 'pt_BR' %}
                       PORTUGUESE (BRAZILIAN)
+                    {% when 'ID' %}
+                      INDONESIAN
+                    {% else %}
+                      {{ file[0] | upcase }}
                   {% endcase %}
                 </option>
                 {% endfor %}
               </select>
             </label>
             {% for file in version.files['en_US'] %}
-              <a class="download-button" href="{{ file }}">DOWNLOAD NOW <i class="fas fa-download"></i></a>
+              <a class="download-button" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
             {% endfor %}
             <div class="clear"></div>
 

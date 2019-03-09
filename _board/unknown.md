@@ -1,0 +1,10 @@
+---
+layout: download
+board_id: "unknown"
+title: "Unknown Board Download"
+manufacturer: "Unknown"
+board_url: ""
+board_image: "/assets/images/boards/unknown.jpeg"
+---
+
+Oops! Looks like we don't know anything about this board. This means it's likely very new.

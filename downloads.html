@@ -12,15 +12,21 @@ permalink: /downloads
     </label>
   </div>
   <div class="downloads-section">
-  {% for boards in site.data.downloads.data %}
-    <div class="download" data-id="{{ boards.id }}">
-      <a href="/download/{{ boards.id | url_encode }}">
-        <img src="{{ boards.attributes.board_image }}">
+  {% assign boards = site.data.files | sort: "downloads" | reverse %}
+  {% for board in boards %}
+    {% assign info = site.board | where: 'board_id', board.id %}
+    {% if info.size == 0 %}
+      {% assign info = site.board | where: 'board_id', 'unknown' %}
+    {% endif %}
+    {% assign info = info[0] %}
+    <div class="download" data-id="{{ board.id }}">
+      <a href="{{ info.url }}">
+        <img src="{{ info.board_image }}">
         <div class="details">
-          <h3>{{ boards.id }}</h3>
-          By {{ boards.attributes.manufacturer}}
+          <h3>{{ info.name | default: board.id }}</h3>
+          By {{ info.manufacturer }}
         </div>
-    </a>
+      </a>
     </div>
   {% endfor %}
   </div>
