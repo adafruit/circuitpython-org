@@ -7,9 +7,9 @@ layout: home
 
 <div id="home-page">
   <div class="content">
-    <img src="/assets/images/blinka-computer.png" srcset="/assets/images/blinka-computer.png 1x,
-                                 /assets/images/blinka-computer@2x.png 2x,
-                                 /assets/images/blinka-computer@3x.png 3x" alt="Blinka at a computer">
+    <img src="{{ "/assets/images/blinka-computer.png" | relative_url }}" srcset="{{ "/assets/images/blinka-computer.png" | relative_url }} 1x,
+                                 {{ "/assets/images/blinka-computer@2x.png" | relative_url }} 2x,
+                                 {{ "/assets/images/blinka-computer@3x.png" | relative_url }} 3x" alt="Blinka at a computer">
     <h1>The easiest way to program microcontrollers</h1>
     <p>
       CircuitPython is a programming language designed to simplify experimenting
@@ -96,7 +96,7 @@ layout: home
       <div class="item">
         <h3>Strong Hardware Support</h3>
         <p>
-          There are many libraries and drivers for sensors, breakout boards 
+          There are many libraries and drivers for sensors, breakout boards
           and other external components.
         </p>
       </div>
