@@ -20,8 +20,8 @@ permalink: /downloads
     {% endif %}
     {% assign info = info[0] %}
     <div class="download" data-id="{{ board.id }}">
-      <a href="{{ info.url }}">
-        <img src="{{ info.board_image }}">
+      <a href="{{ info.url | relative_url }}">
+        <img src="{{ info.board_image | relative_url }}">
         <div class="details">
           <h3>{{ info.name | default: board.id }}</h3>
           By {{ info.manufacturer }}
