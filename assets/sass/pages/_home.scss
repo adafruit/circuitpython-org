@@ -3,11 +3,11 @@
   text-align: center;
 
   display: grid;
-    grid-template-columns:
+  grid-template-columns:
       [full-start] minmax(1em, 1fr)
       [main-start] minmax(0, 80em) [main-end]
       minmax(1em, 1fr) [full-end];
-    grid-row-gap: 1em;
+  grid-row-gap: 1em;
 
   &> * {
     grid-column: main;
@@ -49,6 +49,28 @@
       }
     }
   }
+}
 
+@media only screen and (max-width: 768px) {
+  #home-page {
+    padding: 0;
+    grid-template-columns:
+        [full-start] minmax(0em, 1fr)
+        [main-start] minmax(0, 80em) [main-end]
+        minmax(0em, 1fr) [full-end];
+    .content {
+      background-color: #fff;
+      border: none;
+      border-radius: 0;
+      padding: 40px 10px 0 10px;
+      .home-table {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 0em;
+      }
 
+      h1, p {
+        width: 100%;
+      }
+    }
+  }
 }
