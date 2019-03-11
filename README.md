@@ -9,12 +9,11 @@ TODO
 - [ ] responsive sizes
 - [x] download details pages
 - [x] landing page
-- [ ] news page
+- [ ] news page, import newsletter repo as a submodule
 - [x] help page
 - [x] setup travis for generate_downloads.rb
 - [x] update header to latest version (different logo)
 - [x] deploy accounts, and update url to accounts production in download.js
-- [ ] authenticate github api for newsletter posts
 
 
 # To add a new board to the site:
