@@ -9,7 +9,6 @@ TODO
 - [ ] responsive sizes
 - [x] download details pages
 - [x] landing page
-- [ ] news page, import newsletter repo as a submodule
 - [x] help page
 - [x] setup travis for generate_downloads.rb
 - [x] update header to latest version (different logo)
