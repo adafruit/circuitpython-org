@@ -92,7 +92,16 @@
 }
 
 @media (max-width: $screen-xs-max) {
-  #downloads-page .download-section {
-    grid-template-columns: 1fr;
+  #downloads-page {
+    .download-search {
+      input {
+        width: 100%;
+      }
+    }
+    .downloads-section {
+      grid-template-columns: repeat(1, 1fr);
+      grid-column-gap: 1em;
+      grid-row-gap: 1em;
+    }
   }
 }
