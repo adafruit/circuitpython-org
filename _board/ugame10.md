@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "pewpew10"
+board_id: "ugame10"
 title: "µGame Download"
 name: "µGame"
 manufacturer: "Radomir Dopieralski"
