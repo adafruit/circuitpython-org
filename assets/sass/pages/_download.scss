@@ -88,19 +88,16 @@
             color: $purple;
         }
         a {
-          background-color: $gray;
-        }
-        a:hover {
           background-color: $purple;
         }
       }
 
       .unstable {
         .language-select {
-            border-color: $pink;
+            border-color: $gray;
         }
           .language-select:after {
-              color: $pink;
+              color: $gray;
           }
 
         a {
