@@ -10,6 +10,7 @@ permalink: /downloads
     <label class="search-wrapper">
       <input type="text" id="search" placeholder="Search for CircuitPython boards" />
     </label>
+    Sorted by number of downloads.
   </div>
   <div class="downloads-section">
   {% assign boards = site.data.files | sort: "downloads" | reverse %}

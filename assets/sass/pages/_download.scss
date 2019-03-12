@@ -47,7 +47,7 @@
         float: left;
         margin-right: 10px;
         border-radius: 5px;
-        border: 2px solid $purple;
+        border: 2px solid $gray;
         overflow: hidden;
         height: 45px;
         width: 200px;
@@ -69,7 +69,6 @@
         content: "\f0dc";
         font-family: 'Font Awesome 5 Free';
         font-weight: 900;
-        color: $purple;
         padding: 15px 8px;
         position: absolute; right: 0; top: 0;
         background: #fff;
@@ -81,13 +80,50 @@
         box-sizing: border-box;
       }
 
+      .stable {
+        .language-select {
+            border-color: $purple;
+        }
+        .language-select:after {
+            color: $purple;
+        }
+        a {
+          background-color: $purple;
+        }
+      }
+
+      .unstable {
+        .language-select {
+            border-color: $gray;
+        }
+          .language-select:after {
+              color: $gray;
+          }
+
+        a {
+          background-color: $gray;
+        }
+        a:hover {
+          background-color: $pink;
+        }
+      }
+
+      .unrecommended {
+          .language-select:after {
+              color: $gray;
+          }
+
+        a {
+          background-color: $gray;
+        }
+      }
+
       a {
         float: left;
         padding: 15px 37px 15px 37px;
         color: #fff;
         border-radius: 5px;
         border: none;
-        background-color: $purple;
 
         i {
           padding-left: 10px;
