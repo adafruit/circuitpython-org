@@ -32,7 +32,7 @@ layout: default
             Unstable builds have the latest features but are more likely to have critical bugs.
             {% endif %}
           </p>
-          <div>
+          <div class="download-details">
             <label class="language-select">
               <select>
                 {% for file in version.files %}
@@ -61,12 +61,12 @@ layout: default
                 {% endfor %}
               </select>
             </label>
+            <div class="download-buttons">
             {% for file in version.files['en_US'] %}
               <a class="download-button-{{stable}}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
             {% endfor %}
-            <div class="clear"></div>
-
-        </div>
+            </div>
+          </div>
       </div>
     {% endfor %}
     {% endif %}
