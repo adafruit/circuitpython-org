@@ -15,13 +15,22 @@ layout: default
       </div>
     </div>
     <div class="download">
-      {% assign files = site.data.files | where: "id", page.board_id %}
-      {% for version in files[0].versions %}
-        <div class="section">
+      {% assign board = site.data.files | where: "id", page.board_id %}
+      {% if board[0] %}
+      {% assign releases = board[0].versions | sort: "version" %}
+      {% for version in releases %}
+        <div class="section {% if version.stable %}stable{% else %}unstable{% endif %}">
           <h3>CircuitPython {{ version.version }}</h3>
           <p>
-            This is the latest {% if version.stable %}stable{% else %}unstable{% endif %}
+            This is the latest {% if version.stable %}<strong>stable</strong>{% else %}unstable{% endif %}
             release of CircuitPython that will work with the {{ page.name }}.
+          </p>
+          <p>
+            {% if version.stable %}
+            <strong>Start here</strong> if you are new to CircuitPython.
+            {% else %}
+            Unstable builds have the latest features but are more likely to have critical bugs.
+            {% endif %}
           </p>
           <div>
             <label class="language-select">
@@ -53,13 +62,37 @@ layout: default
               </select>
             </label>
             {% for file in version.files['en_US'] %}
-              <a class="download-button" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
+              <a class="download-button-{{stable}}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
             {% endfor %}
             <div class="clear"></div>
 
         </div>
       </div>
     {% endfor %}
+    {% endif %}
+    <div class="section unrecommended">
+      <h3>Absolute Newest</h3>
+      <p>
+        Every time we commit new code to CircuitPython we automatically build binaries for it. They
+        are stored on Amazon S3 by language (some which may be unreleased.) Try them if you want
+        the absolute latest and are feeling risky.
+      </p>
+      <div>
+          <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right"></i></a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="section unrecommended">
+      <h3>Past Releases</h3>
+      <p>
+        All previous releases are available on GitHub. They are handy for testing but we recommend
+        the latest stable otherwise.
+      </p>
+      <div>
+          <a class="download-button" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github"></i></a>
+        <div class="clear"></div>
+      </div>
+    </div>
   </div>
 </div>
 
