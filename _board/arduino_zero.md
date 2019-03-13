@@ -5,7 +5,7 @@ title: "Zero Download"
 name: "Zero"
 manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/ArduinoZero"
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/arduino_zero.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
