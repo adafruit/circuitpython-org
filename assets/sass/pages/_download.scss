@@ -34,6 +34,7 @@
       background-color: #fff;
       border-radius: 5px;
       padding: 20px;
+      margin-bottom: 1em;
     }
 
     .details {
@@ -43,24 +44,41 @@
     }
 
     .download {
+      a {
+        display: inline-block;
+        width: auto;
+        padding: 15px 30px 15px 30px;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+
+        i {
+          padding-left: 10px;
+        }
+      }
+
+      .download-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
       .language-select {
         float: left;
-        margin-right: 10px;
+        margin-right: 1em;
         border-radius: 5px;
         border: 2px solid $gray;
         overflow: hidden;
         height: 45px;
-        width: 200px;
         position: relative;
         display: block;
       }
 
       select{
         height: 45px;
+        width: 100%;
         padding: 5px;
         border: 0;
         font-size: 16px;
-        width: 200px;
        -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
@@ -118,15 +136,18 @@
         }
       }
 
-      a {
-        float: left;
-        padding: 15px 37px 15px 37px;
-        color: #fff;
-        border-radius: 5px;
-        border: none;
+      .download-buttons {
+        a {
+          width: 100%;
+          height: 49px;
+          padding: 0;
+          text-align: center;
+          line-height: 49px;
+          margin-bottom: 1em;
 
-        i {
-          padding-left: 10px;
+          &:last-child {
+            margin-bottom: 0;
+          }
         }
       }
     }
@@ -140,12 +161,21 @@
 }
 
 @media (max-width: $screen-md) {
-  #download-page .download-section {
-    grid-template-columns: 1fr 1fr;
-  }
+  #download-page {
+    .download-section {
+      grid-template-columns: 1fr 1fr;
 
-  .language-select {
-    margin-bottom: 10px;
+      .download {
+        .download-details {
+          grid-template-columns: repeat(1, 1fr);
+        }
+
+        .language-select {
+          margin-right: 0;
+          margin-bottom: 1em;
+        }
+      }
+    }
   }
 }
 
