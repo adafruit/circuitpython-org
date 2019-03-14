@@ -13,7 +13,7 @@ This board hasn't been fully documented yet. Please make a pull request adding m
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
 
 ## Purchase
-Add any links to purchase the board
+
 * [Adafruit](https://www.adafruit.com/product/3500)
 
 ## Contribute
