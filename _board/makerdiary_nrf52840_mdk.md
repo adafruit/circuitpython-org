@@ -5,7 +5,7 @@ title: "nRF52840 Micro Dev Kit Download"
 name: "nRF52840 Micro Dev Kit"
 manufacturer: "MakerDiary"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/nRF52840_micro_dev_kit.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
