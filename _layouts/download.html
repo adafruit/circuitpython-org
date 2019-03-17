@@ -64,7 +64,7 @@ layout: default
               </select>
             </label>
             <div class="download-buttons">
-            {% for file in version.files %}
+            {% for file in version.files['en_US'] %}
               <a class="download-button-{{stable}}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
             {% endfor %}
             </div>
