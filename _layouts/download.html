@@ -36,7 +36,7 @@ layout: default
             <label class="language-select">
               <select>
                 {% for file in version.files %}
-                <option value="{{ file[1][0] }}" data-files={{ file[1] }} data-locale={{ file[0] | replace: '_', '-' }} {% if file[0] == "en_US" %}selected{% endif %}>
+                <option value="{{ file[1] | join: ',' }}" data-files={{ file[1] | join: ',' }} data-locale={{ file[0] | replace: '_', '-' }} {% if file[0] == "en_US" %}selected{% endif %}>
                   {% case file[0] %}
                     {% when 'en_US' %}
                       ENGLISH
@@ -65,7 +65,7 @@ layout: default
             </label>
             <div class="download-buttons">
             {% for file in version.files['en_US'] %}
-              <a class="download-button-{{stable}}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
+              <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ file | slice: -3, 3 }}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
             {% endfor %}
             </div>
           </div>
@@ -91,7 +91,7 @@ layout: default
         the latest stable otherwise.
       </p>
       <div>
-          <a class="download-button" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github"></i></a>
+          <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github"></i></a>
         <div class="clear"></div>
       </div>
     </div>
