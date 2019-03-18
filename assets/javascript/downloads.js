@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded',function() {
     var i, downloads = document.getElementsByClassName("download");
     for (i = 0; i < downloads.length; i++) {
       download = downloads[i];
-      var id = download.dataset.id;
+      var name = download.dataset.name;
 
-      if (id.match(regex)) {
+      if (name.match(regex)) {
         download.style.display = 'block';
       } else {
         download.style.display = 'none';

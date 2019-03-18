@@ -20,7 +20,7 @@ permalink: /downloads
       {% assign info = site.board | where: 'board_id', 'unknown' %}
     {% endif %}
     {% assign info = info[0] %}
-    <div class="download" data-id="{{ board.id }}">
+    <div class="download" data-id="{{ board.id }}" data-name="{{ info.name }}">
       <a href="{{ info.url | relative_url }}">
         <div class="img-responsive-4by3">
           <img src="{{ info.board_image | relative_url }}">
