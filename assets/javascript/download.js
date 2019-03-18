@@ -1,20 +1,27 @@
-var languageSelect;
-
 document.addEventListener('DOMContentLoaded',function() {
-  languageSelect = document.querySelectorAll(".language-select select");
+  var languageSelect = document.querySelectorAll(".language-select select");
   languageSelect.forEach(function(select) {
     select.onchange = languageSelectHandler;
   });
 
   var script = document.createElement('script');
-  script.src = '//accounts.adafruit.com/users/locale?callback=setLocale';
-  document.head.appendChild(script);
+  script.setAttribute('src', '//accounts.adafruit.com/users/locale?callback=setLocale');
+  document.body.appendChild(script);
 },false);
 
 function languageSelectHandler(event) {
   // find download-details, two levels up from select
-  var parentNode = event.target.parentNode.parentNode;
-  var files = event.target.value.split(',');
+  // event may either be an event from selection, or passed from setLocale
+  // as a select element.
+  if (event.target) {
+    var selectedOption = event.target;
+    var parentNode = event.target.parentNode.parentNode;
+  } else {
+    var selectedOption = event.selectedOptions[0];
+    var parentNode = event.parentNode.parentNode;
+  }
+
+  var files = selectedOption.value.split(',');
 
   files.forEach(function(file) {
     var extension = file.substr(file.lastIndexOf('.') + 1);
@@ -23,14 +30,17 @@ function languageSelectHandler(event) {
 }
 
 function setLocale(response) {
-  var languages = response.languages.join(' ')
-  var options = languageSelect.options;
+  var languages = response.languages;
+  var languageSelect = document.querySelectorAll(".language-select select");
 
-  for (var i = 0; i < options.length; i++) {
-    if (languages.includes(options[i].dataset.locale)) {
-      console.log(options[i].dataset.locale);
-      options[i].selected = true;
-      languageSelect.onchange();
+  languageSelect.forEach(function(select) {
+    var options = select.options;
+
+    for (var i = 0; i < options.length; i++) {
+      if (languages.includes(options[i].dataset.locale)) {
+        options[i].selected = true;
+        select.onchange(select);
+      }
     }
-  }
+  });
 }
