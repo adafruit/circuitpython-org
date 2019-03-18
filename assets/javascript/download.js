@@ -1,17 +1,25 @@
 var languageSelect;
 
 document.addEventListener('DOMContentLoaded',function() {
-  languageSelect = document.querySelector(".language-select select");
-  languageSelect.onchange = languageSelectHandler;
+  languageSelect = document.querySelectorAll(".language-select select");
+  languageSelect.forEach(function(select) {
+    select.onchange = languageSelectHandler;
+  });
 
   var script = document.createElement('script');
   script.src = '//accounts.adafruit.com/users/locale?callback=setLocale';
   document.head.appendChild(script);
-
 },false);
 
 function languageSelectHandler(event) {
-  document.querySelector(".download-button").href = languageSelect.value;
+  // find download-details, two levels up from select
+  var parentNode = event.target.parentNode.parentNode;
+  var files = event.target.value.split(',');
+
+  files.forEach(function(file) {
+    var extension = file.substr(file.lastIndexOf('.') + 1);
+    parentNode.querySelector(".download-button." + extension).href = file;
+  });
 }
 
 function setLocale(response) {
