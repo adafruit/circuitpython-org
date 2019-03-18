@@ -5,10 +5,8 @@ title: "nRF52840 Mini Download"
 name: "Pro nRF52840 Mini"
 manufacturer: "SparkFun"
 board_url: ""
-board_image: "/assets/images/boards/sparkfun_nrf52840_mini.jpg"
+board_image: "/assets/images/boards/sparkfun_nrf52840_mini-01.jpg"
 ---
-
-Image by SparkFun. CC BY 2.0
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
 
