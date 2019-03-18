@@ -5,7 +5,7 @@ title: "nRF52840 Micro Dev Kit USB Dongle Download"
 name: "nRF52840 Micro Dev Kit USB Dongle"
 manufacturer: "MakerDiary"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/nRF52840_micro_dev_kit_usb_dongle.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
