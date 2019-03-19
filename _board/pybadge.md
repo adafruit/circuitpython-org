@@ -2,7 +2,7 @@
 layout: download
 board_id: "pybadge"
 title: "PyBadge Download"
-name: "Adafruit PyBadge"
+name: "PyBadge"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/unknown.jpg"
