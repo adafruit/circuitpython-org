@@ -5,7 +5,7 @@ title: "MKR WAN 1300 Download"
 name: "MKR WAN 1300"
 manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/MKRWAN1300"
-board_image: "/assets/images/boards/arduino_mkr1300.jpg"
+board_image: "/assets/images/boards/arduino_mkr1300_01.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
