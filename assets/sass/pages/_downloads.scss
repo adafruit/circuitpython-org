@@ -15,35 +15,98 @@
 
   }
 
-  .download-search {
+  .downloads-inputs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 
-    .search-wrapper {
-      position: relative;
+    .downloads-search {
+      width: 40%;
+      padding-right: 10px;
 
-      &:before {
-        font-family: 'Font Awesome\ 5 Free';
-        font-size: 24px;
-        font-weight: 900;
-        color: #652f8f;
-        content: "\f002";
-        position: absolute;
-        right: 15px;
-        top: 50%;
-        transform: translateY(-50%);
+      .search-wrapper {
+        position: relative;
+
+        &:before {
+          font-family: 'Font Awesome\ 5 Free';
+          font-size: 24px;
+          font-weight: 900;
+          color: #652f8f;
+          content: "\f002";
+          position: absolute;
+          right: 15px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      input {
+        width: 100%;
+        height: 50px;
+        padding: 15px;
+        border-radius: 5px;
+        border: 3px solid #652f8f;
+        box-sizing: border-box;
       }
     }
 
-    input {
-      width: 40%;
-      height: 50px;
-      padding: 15px;
-      border-radius: 5px;
-      border: 3px solid #652f8f;
-      box-sizing: border-box;
+    .downloads-filter {
+      .filter {
+        display: inline-block;
+        padding: 12px;
+        font-size: 24px;
+        background-color: $purple;
+        float: left;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .downloads-filter-content {
+    display: none;
+    // this row spans to the edge
+    grid-column: span 3;
+    // we need a new grid to match the outer grid for the content in this
+    // container
+    grid-template-columns:
+      [full-start] minmax(1em, 1fr)
+      [main-start] minmax(0, 80em) [main-end]
+      minmax(1em, 1fr) [full-end];
+    grid-column-gap: 0.5em;
+    background-color: #fff;
+    border-top: 1px solid $gray-border;
+    border-bottom: 1px solid $gray-border;
+    padding: 20px;
+
+    &> div {
+      grid-column: main;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(200px, 1fr));
     }
 
-    .sort {
-      float: right;
+    h2 {
+      margin: 0 0 10px 0;
+    }
+
+    ul {
+      list-style-type: none;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        padding: 2px;
+
+        input {
+          margin-right: 5px;
+        }
+      }
     }
   }
 
@@ -79,7 +142,7 @@
         background-color: #fff;
         padding: 5px 5px 5px 5px;
         color: #000;
-        border: 1px solid #cecece;
+        border: 1px solid $gray-border;
         margin: 1px;
         border-radius: 5px;
 

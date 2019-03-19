@@ -6,11 +6,31 @@ permalink: /downloads
 
 <div id="downloads-page">
   <h1>Downloads</h1>
-  <div class="download-search">
-    <label class="search-wrapper">
-      <input type="text" id="search" placeholder="Search for CircuitPython boards" />
-    </label>
-    Sorted by number of downloads.
+  <div class="downloads-inputs">
+    <div class="downloads-search">
+      <label class="search-wrapper">
+        <input type="text" id="search" placeholder="Search for CircuitPython boards" />
+      </label>
+    </div>
+    <div class="downloads-filter">
+      <button class="filter"><i class="fas fa-sliders-h"></i></button>
+    </div>
+  </div>
+  <div class="downloads-filter-content">
+    <div>
+      <div class="manufacturers">
+        <h2>Manufacturers</h2>
+        <ul class="content"></ul>
+      </div>
+      <div class="features">
+        <h2>Features</h2>
+        <ul class="content"></ul>
+      </div>
+      <div class="sort-by">
+        <h2>Sort By</h2>
+        <ul class="content"></ul>
+      </div>
+    </div>
   </div>
   <div class="downloads-section">
   {% assign boards = site.data.files | sort: "downloads" | reverse %}
@@ -20,7 +40,10 @@ permalink: /downloads
       {% assign info = site.board | where: 'board_id', 'unknown' %}
     {% endif %}
     {% assign info = info[0] %}
-    <div class="download" data-id="{{ board.id }}" data-name="{{ info.name }}">
+    <div class="download" data-id="{{ board.id }}"
+                          data-name="{{ info.name }}"
+                          data-manufacturer="{{ info.manufacturer }}"
+                          data-features="{{ info.features | join: ','}}">
       <a href="{{ info.url | relative_url }}">
         <div class="img-responsive-4by3">
           <img src="{{ info.board_image | relative_url }}">
