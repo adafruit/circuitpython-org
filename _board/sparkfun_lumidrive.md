@@ -5,10 +5,8 @@ title: "LumiDrive Download"
 name: "LumiDrive"
 manufacturer: "SparkFun"
 board_url: ""
-board_image: "/assets/images/boards/sparkfun_lumidrive.jpg"
+board_image: "/assets/images/boards/sparkfun_lumidrive_01.jpg"
 ---
-
-Image by SparkFun. CC BY 2.0
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
 
