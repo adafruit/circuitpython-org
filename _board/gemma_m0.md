@@ -12,7 +12,7 @@ The **Adafruit Gemma M0** is a super small microcontroller board, with just enou
 
 The Gemma M0 will super-charge your wearables! It's just as small, and it's easier to use, so you can do more.
 
-The most exciting part of the Gemma M0 is that is hips with CircuitPython on board. When you plug it in, it will show up as a very small disk drive with **code.py** on it. Edit **code.py** with your favorite text editor to build your project using Python, the most popular programming language. No installs, IDE or compiler needed, so you can use it on any computer, even ChromeBooks or computers you can't install software on. When you're done, unplug the Gemma M0 and your code will go with you.
+The most exciting part of the Gemma M0 is that it ships with CircuitPython on board. When you plug it in, it will show up as a very small disk drive with **code.py** on it. Edit **code.py** with your favorite text editor to build your project using Python, the most popular programming language. No installs, IDE or compiler needed, so you can use it on any computer, even ChromeBooks or computers you can't install software on. When you're done, unplug the Gemma M0 and your code will go with you.
 
 Gemma M0 features:
 
