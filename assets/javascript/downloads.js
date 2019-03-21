@@ -146,8 +146,17 @@ function filterResults(searchTerm) {
     Array.prototype.push.apply(displayedManufacturers, downloadsSearch.manufacturers[manufacturer]);
   });
 
-  selectedFeatures.forEach(function(feature) {
-    Array.prototype.push.apply(displayedFeatures, downloadsSearch.features[feature]);
+  selectedFeatures.forEach(function(feature, index) {
+    // if multiple features are selected, only add the id if it is included
+    // in all feature types
+    if (selectedFeatures.length > 1 && index > 0) {
+      displayedFeatures = displayedFeatures.filter(function(displayed) {
+        return downloadsSearch.features[feature].indexOf(displayed) !== -1;
+      });
+    } else {
+      Array.prototype.push.apply(displayedFeatures, downloadsSearch.features[feature]);
+    }
+
   });
 
   var downloads = document.querySelectorAll('.download');
