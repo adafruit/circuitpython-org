@@ -1,5 +1,6 @@
 var downloadsSearch = {
   initFilter: false,
+  featuresChecked: false,
   manufacturers: {},
   features: {},
   selected: {
@@ -160,6 +161,11 @@ function filterResults(searchTerm) {
 
   });
 
+
+  // we need to ensure that we check if features are checked, if you check
+  // too many features, there is a good chance no boards will be visible.
+  setFeaturesChecked();
+
   var downloads = document.querySelectorAll('.download');
 
   downloads.forEach(function(download) {
@@ -171,8 +177,12 @@ function filterResults(searchTerm) {
   });
 }
 
+function setFeaturesChecked() {
+  downloadsSearch.featuresChecked = document.querySelectorAll('input[name="feature"]:checked').length > 0;
+}
+
 function shouldDisplayDownload(download, searchTerm, displayedManufacturers, displayedFeatures) {
-  var shouldFilterFeatures = displayedFeatures.length > 0;
+  var shouldFilterFeatures = downloadsSearch.featuresChecked;
   var shouldFilterManufacturers = displayedManufacturers.length > 0;
   var shouldDisplay = false;
 
