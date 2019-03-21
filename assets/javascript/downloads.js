@@ -31,31 +31,8 @@ function handleFilter(event) {
 function initFilter() {
   var downloads = document.querySelectorAll('.download');
 
-  downloads.forEach(function(download) {
-    var manufacturer = download.dataset.manufacturer;
-    if (manufacturer in downloadsSearch.manufacturers) {
-      downloadsSearch.manufacturers[manufacturer].push(download.dataset.id);
-    } else {
-      downloadsSearch.manufacturers[manufacturer] = [download.dataset.id];
-    }
-
-    var features = download.dataset.features.split(',');
-    features.forEach(function(feature) {
-      if (!feature.length) {
-        return;
-      }
-
-      if (feature in downloadsSearch.features) {
-        downloadsSearch.features[feature].push(download.dataset.id);
-      } else {
-        downloadsSearch.features[feature] = [download.dataset.id];
-      }
-    });
-  });
-
-
-  setupManufacturers();
-  setupFeatures();
+  setupManufacturers(downloads);
+  setupFeatures(downloads);
   setupFilterListeners();
 
   downloadsSearch.initFilter = true;
@@ -71,7 +48,16 @@ function toggleFilterContainer() {
   }
 }
 
-function setupManufacturers() {
+function setupManufacturers(downloads) {
+  downloads.forEach(function(download) {
+    var manufacturer = download.dataset.manufacturer;
+    if (manufacturer in downloadsSearch.manufacturers) {
+      downloadsSearch.manufacturers[manufacturer].push(download.dataset.id);
+    } else {
+      downloadsSearch.manufacturers[manufacturer] = [download.dataset.id];
+    }
+  });
+
   var manufacturerList = document.querySelector('.manufacturers .content');
 
   for (manufacturer in downloadsSearch.manufacturers) {
@@ -89,7 +75,22 @@ function setupManufacturers() {
   }
 }
 
-function setupFeatures() {
+function setupFeatures(downloads) {
+  downloads.forEach(function(download) {
+    var features = download.dataset.features.split(',');
+    features.forEach(function(feature) {
+      if (!feature.length) {
+        return;
+      }
+
+      if (feature in downloadsSearch.features) {
+        downloadsSearch.features[feature].push(download.dataset.id);
+      } else {
+        downloadsSearch.features[feature] = [download.dataset.id];
+      }
+    });
+  });
+
   var featureList = document.querySelector('.features .content');
 
   for (feature in downloadsSearch.features) {
@@ -176,7 +177,6 @@ function shouldDisplayDownload(download, searchTerm, displayedManufacturers, dis
   var shouldDisplay = false;
 
   var id = download.dataset.id;
-
 
   if (!shouldFilterFeatures && !shouldFilterManufacturers) {
     shouldDisplay = true;
