@@ -1,6 +1,7 @@
 var downloadsSearch = {
   initFilter: false,
   featuresChecked: false,
+  searchTerm: null,
   manufacturers: {},
   features: {},
   selected: {
@@ -17,7 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function handleSearch(event) {
-  filterResults(event.target.value);
+  downloadsSearch.searchTerm = event.target.value;
+  filterResults();
 }
 
 function handleFilter(event) {
@@ -156,7 +158,7 @@ function setupFilterListeners() {
   });
 }
 
-function filterResults(searchTerm) {
+function filterResults() {
   var displayedManufacturers = [], displayedFeatures = [];
 
   var selectedManufacturers = downloadsSearch.selected.manufacturers;
@@ -187,7 +189,7 @@ function filterResults(searchTerm) {
   var downloads = document.querySelectorAll('.download');
 
   downloads.forEach(function(download) {
-    if (!shouldDisplayDownload(download, searchTerm, displayedManufacturers, displayedFeatures)) {
+    if (!shouldDisplayDownload(download, displayedManufacturers, displayedFeatures)) {
       download.style.display = 'none';
     } else {
       download.style.display = 'block';
@@ -199,7 +201,7 @@ function setFeaturesChecked() {
   downloadsSearch.featuresChecked = document.querySelectorAll('input[name="feature"]:checked').length > 0;
 }
 
-function shouldDisplayDownload(download, searchTerm, displayedManufacturers, displayedFeatures) {
+function shouldDisplayDownload(download, displayedManufacturers, displayedFeatures) {
   var shouldFilterFeatures = downloadsSearch.featuresChecked;
   var shouldFilterManufacturers = displayedManufacturers.length > 0;
   var shouldDisplay = false;
@@ -224,8 +226,8 @@ function shouldDisplayDownload(download, searchTerm, displayedManufacturers, dis
     shouldDisplay = true;
   }
 
-  if (searchTerm && searchTerm.length > 0 && shouldDisplay) {
-    var regex = new RegExp(searchTerm, "gi");
+  if (downloadsSearch.searchTerm && downloadsSearch.searchTerm.length > 0 && shouldDisplay) {
+    var regex = new RegExp(downloadsSearch.searchTerm, "gi");
     var name = download.dataset.name;
 
     shouldDisplay = name.match(regex);
