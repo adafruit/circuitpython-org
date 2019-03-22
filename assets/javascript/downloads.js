@@ -10,11 +10,9 @@ var downloadsSearch = {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-  var searchElement = document.getElementById("search");
-  searchElement.addEventListener('keyup', handleSearch);
-
-  var filterElement = document.querySelector(".downloads-filter .filter");
-  filterElement.addEventListener('click', handleFilter);
+  document.getElementById("search").addEventListener('keyup', handleSearch);
+  document.querySelector(".downloads-filter .filter").addEventListener('click', handleFilter);
+  document.querySelector(".filter-buttons .save-changes").addEventListener('click', handleSaveChanges);
 });
 
 function handleSearch(event) {
@@ -47,6 +45,10 @@ function toggleFilterContainer() {
   } else {
     filterContainer.style.display = 'grid';
   }
+}
+
+function handleSaveChanges() {
+  toggleFilterContainer();
 }
 
 function setupManufacturers(downloads) {
