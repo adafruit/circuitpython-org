@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("search").addEventListener('keyup', handleSearch);
   document.querySelector(".downloads-filter .filter").addEventListener('click', handleFilter);
   document.querySelector(".filter-buttons .save-changes").addEventListener('click', handleSaveChanges);
+  document.addEventListener('click', handleRemoveTag);
 });
 
 function handleSearch(event) {
@@ -37,6 +38,21 @@ function initFilter() {
   downloadsSearch.initFilter = true;
 }
 
+function handleSaveChanges() {
+  toggleFilterContainer();
+}
+
+function handleRemoveTag(event) {
+  if (event.target && /tag-remove/gi.test(event.target.className)) {
+    var tag = event.target;
+    var name = tag.dataset.name;
+    var type = tag.dataset.type;
+    var selector = "input[name='" + type + "'][value='" + name + "']";
+
+    document.querySelector(selector).click();
+  }
+}
+
 function toggleFilterContainer() {
   var filterContainer = document.querySelector('.downloads-filter-content');
 
@@ -45,10 +61,6 @@ function toggleFilterContainer() {
   } else {
     filterContainer.style.display = 'grid';
   }
-}
-
-function handleSaveChanges() {
-  toggleFilterContainer();
 }
 
 function setupManufacturers(downloads) {
@@ -117,10 +129,12 @@ function setupFilterListeners() {
     if (checkbox.name === 'manufacturer') {
       if (checkbox.checked) {
         downloadsSearch.selected.manufacturers.push(checkbox.value);
+        appendFilterTag('manufacturer', checkbox.value);
       } else {
         var index = downloadsSearch.selected.manufacturers.indexOf(checkbox.value);
         if (index > -1) {
           downloadsSearch.selected.manufacturers.splice(index, 1);
+          removeFilterTag('manufacturer', checkbox.value);
         }
       }
       filterResults();
@@ -129,10 +143,12 @@ function setupFilterListeners() {
     if (checkbox.name === 'feature') {
       if (checkbox.checked) {
         downloadsSearch.selected.features.push(checkbox.value);
+        appendFilterTag('feature', checkbox.value);
       } else {
         var index = downloadsSearch.selected.features.indexOf(checkbox.value);
         if (index > -1) {
           downloadsSearch.selected.features.splice(index, 1);
+          removeFilterTag('feature', checkbox.value);
         }
       }
       filterResults();
@@ -216,4 +232,17 @@ function shouldDisplayDownload(download, searchTerm, displayedManufacturers, dis
   }
 
   return shouldDisplay;
+}
+
+function appendFilterTag(type, name) {
+  var tagHtml = "<span class='tag'><i class='fas fa-times tag-remove' ";
+  tagHtml += "data-type='" + type + "' ";
+  tagHtml += "data-name='" + name + "'></i>";
+  tagHtml += name + "</span>";
+
+  document.querySelector('.downloads-filter-tags').insertAdjacentHTML('beforeend', tagHtml);
+}
+
+function removeFilterTag(type, name) {
+  document.querySelector("[data-type='" + type + "'][data-name='" + name + "']").parentNode.remove();
 }

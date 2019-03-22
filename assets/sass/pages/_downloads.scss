@@ -66,6 +66,27 @@
         }
       }
     }
+
+    .downloads-filter-tags {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      span {
+        padding: 5px 7px 5px 7px;
+        margin-left: 5px;
+        background-color: $purple;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        text-transform: capitalize;
+
+        i {
+          margin-right: 5px;
+          cursor: pointer;
+        }
+      }
+    }
   }
 
   .downloads-filter-content {
@@ -102,6 +123,7 @@
 
       li {
         padding: 2px;
+        text-transform: capitalize;
 
         input {
           margin-right: 5px;
