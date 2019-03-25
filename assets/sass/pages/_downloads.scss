@@ -178,10 +178,12 @@
       }
 
       a {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         height: 100%;
         background-color: #fff;
-        padding: 5px 5px 5px 5px;
+        padding: 5px 5px 0px 5px;
         color: #000;
         border: 1px solid $gray-border;
         margin: 1px;
@@ -191,6 +193,23 @@
           border-radius: 5px;
           margin: 0px;
           border: 2px solid #e90e8b;
+        }
+
+        .details {
+          margin-left: 3px;
+        }
+
+        .features {
+          margin: 20px 0 8px 3px;
+          .feature {
+            float: left;
+            font-size: 13px;
+            padding: 3px 5px 3px 5px;
+            margin: 0px 5px 0px 0px;
+            color: #fff;
+            background-color: $purple;
+            border-radius: 5px;
+          }
         }
 
       }
