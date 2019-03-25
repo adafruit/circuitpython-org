@@ -1,4 +1,4 @@
-﻿---
+---
 layout: download
 board_id: "uchip"
 title: "uChip Download"
