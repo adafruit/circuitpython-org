@@ -14,7 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("search").addEventListener('keyup', handleSearch);
   document.querySelector(".downloads-filter .filter").addEventListener('click', handleFilter);
   document.querySelector(".filter-buttons .save-changes").addEventListener('click', handleSaveChanges);
+
   document.addEventListener('click', handleRemoveTag);
+
+  var sortRadios = document.querySelectorAll(".downloads-filter-content .sort-by input");
+  for(var i = 0; i < sortRadios.length; i++) {
+    sortRadios[i].addEventListener('click', handleSortResults);
+  }
 });
 
 function handleSearch(event) {
@@ -195,6 +201,26 @@ function filterResults() {
       download.style.display = 'block';
     }
   });
+}
+
+function handleSortResults(event) {
+  var sortType = event.target.value;
+  var downloads = document.querySelector('.downloads-section');
+
+  Array.prototype.slice.call(downloads.children)
+    .map(function (download) { return downloads.removeChild(download); })
+    .sort(function (a, b) {
+      switch(sortType) {
+        case 'alpha-asc':
+          return a.dataset.name.localeCompare(b.dataset.name);
+        case 'alpha-desc':
+          return b.dataset.name.localeCompare(a.dataset.name);
+        default:
+          // sort by download count is the deafult
+          return parseInt(a.dataset.downloads, 10) < parseInt(b.dataset.downloads, 10);
+      }
+    })
+    .forEach(function (download) { downloads.appendChild(download); });
 }
 
 function setFeaturesChecked() {

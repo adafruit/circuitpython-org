@@ -30,7 +30,11 @@ permalink: /downloads
       </div>
       <div class="sort-by">
         <h2>Sort By</h2>
-        <ul class="content"></ul>
+        <ul class="content">
+          <li><input type="radio" name="sort-by" value="downloads" checked> Downloads</li>
+          <li><input type="radio" name="sort-by" value="alpha-asc"> Board Name (A to Z)</li>
+          <li><input type="radio" name="sort-by" value="alpha-desc"> Board Name (Z to A)</li>
+        </ul>
       </div>
     </div>
     <div class="filter-buttons">
@@ -46,7 +50,8 @@ permalink: /downloads
     {% endif %}
     {% assign info = info[0] %}
     <div class="download" data-id="{{ board.id }}"
-                          data-name="{{ info.name }}"
+                          data-name="{{ info.name | default: board.id }}"
+                          data-downloads="{{ board.downloads }}"
                           data-manufacturer="{{ info.manufacturer }}"
                           data-features="{{ info.features | join: ','}}">
       <a href="{{ info.url | relative_url }}">
