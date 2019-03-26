@@ -51,13 +51,20 @@
 .site-navigation {
   display:flex;
   align-items: flex-end;
+  justify-content: flex-end;
 
   a {
     color: #fff;
-    margin-left: auto;
+    margin-left: 10px;
   }
 }
 
 .bottom-bar {
   background-color: #e90e8b;
+}
+
+@media (max-width: $screen-xs-max) {
+  .site-navigation {
+    flex-wrap: wrap;
+  }
 }

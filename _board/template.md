@@ -6,6 +6,10 @@ name: "<board name>"
 manufacturer: "<board manufacturer>"
 board_url: ""
 board_image: "/assets/images/boards/unknown.jpg"
+features:
+  - ~5 interesting
+  - features
+  - such as bluetooth
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

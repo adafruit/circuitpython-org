@@ -1,5 +1,5 @@
 #home-page {
-  padding: 20px;
+  padding: 20px 0 200px 0;
   text-align: center;
 
   display: grid;
@@ -14,9 +14,11 @@
   }
 
   hr {
-    width: 100%;
-    margin: 40px 0 40px 0;
-    color: #cecece;
+    width: 75%;
+    margin: 40px auto 40px auto;
+    background-color: #cecece;
+    border: none;
+    height: 1px;
   }
 
   .content {
