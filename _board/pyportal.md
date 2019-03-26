@@ -6,6 +6,11 @@ name: "PyPortal"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/pyportal.jpg"
+features:
+  - wifi
+  - speaker
+  - light sensor
+  - temperature sensor
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
