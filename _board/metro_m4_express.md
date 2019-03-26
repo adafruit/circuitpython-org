@@ -21,8 +21,6 @@ To start off the ATSAMD51 journey it has a classic 'Arduino compatible' shape an
 *   6 x hardware SERCOM (I2C, SPI or UART)
 *   22 x PWM outputs
 *   Stereo I2S input/output with MCK pin
-*   10-bit Parallel capture controller (for camera/video in)
-*   Built in crypto engines with AES (256 bit), true RNG, Pubkey controller
 *   64 QFN
 
 Includes:
