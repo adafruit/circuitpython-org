@@ -42,36 +42,72 @@ permalink: /downloads
     </div>
   </div>
   <div class="downloads-section">
-  {% assign boards = site.data.files | sort: "downloads" | reverse %}
-  {% for board in boards %}
-    {% assign info = site.board | where: 'board_id', board.id %}
-    {% if info.size == 0 %}
-      {% assign info = site.board | where: 'board_id', 'unknown' %}
-    {% endif %}
-    {% assign info = info[0] %}
-    <div class="download" data-id="{{ board.id }}"
-                          data-name="{{ info.name | default: board.id }}"
-                          data-downloads="{{ board.downloads }}"
-                          data-manufacturer="{{ info.manufacturer }}"
-                          data-features="{{ info.features | join: ','}}">
-      <a href="{{ info.url | relative_url }}">
-        <div>
-          <div class="img-responsive-4by3">
-            <img src="{{ info.board_image | relative_url }}">
+    {% comment %}
+      The following are boards that are in the _data/files.json build
+      process. Seperate loops due to wanting to sort by download count first.
+    {% endcomment %}
+    {% assign boards = site.data.files | sort: "downloads" | reverse %}
+    {% for board in boards %}
+      {% assign info = site.board | where: 'board_id', board.id %}
+      {% if info.size == 0 %}
+        {% assign info = site.board | where: 'board_id', 'unknown' %}
+      {% endif %}
+      {% assign info = info[0] %}
+      <div class="download" data-id="{{ board.id }}"
+                            data-name="{{ info.name | default: board.id }}"
+                            data-downloads="{{ board.downloads }}"
+                            data-manufacturer="{{ info.manufacturer }}"
+                            data-features="{{ info.features | join: ','}}">
+        <a href="{{ info.url | relative_url }}">
+          <div>
+            <div class="img-responsive-4by3">
+              <img src="{{ info.board_image | relative_url }}">
+            </div>
+            <div class="details">
+              <h3>{{ info.name | default: board.id }}</h3>
+              By {{ info.manufacturer }}
+            </div>
           </div>
-          <div class="details">
-            <h3>{{ info.name | default: board.id }}</h3>
-            By {{ info.manufacturer }}
+          <div class="features">
+            {% for feature in info.features %}
+              <span class="feature">{{ feature }}</span>
+            {% endfor %}
           </div>
+        </a>
+      </div>
+    {% endfor %}
+
+    {% comment %}
+      The following are boards that are not yet in the _data/files.json build
+      process and have no downloads.
+    {% endcomment %}
+    {% for board in site.board %}
+      {% assign info = site.data.files | where: 'id', board.board_id | first %}
+      {% if info == nil and board.board_id != 'unknown' %}
+        <div class="download" data-id="{{ board.board_id }}"
+                              data-name="{{ board.name }}"
+                              data-downloads="0"
+                              data-manufacturer="{{ board.manufacturer }}"
+                              data-features="{{ board.features | join: ','}}">
+          <a href="{{ board.url | relative_url }}">
+            <div>
+              <div class="img-responsive-4by3">
+                <img src="{{ board.board_image | relative_url }}">
+              </div>
+              <div class="details">
+                <h3>{{ board.name }}</h3>
+                By {{ board.manufacturer }}
+              </div>
+            </div>
+            <div class="features">
+              {% for feature in board.features %}
+                <span class="feature">{{ feature }}</span>
+              {% endfor %}
+            </div>
+          </a>
         </div>
-        <div class="features">
-          {% for feature in info.features %}
-            <span class="feature">{{ feature }}</span>
-          {% endfor %}
-        </div>
-      </a>
-    </div>
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
 
