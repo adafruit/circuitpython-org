@@ -12,7 +12,7 @@ board_image: "/assets/images/boards/feather_m0_express_crickit.jpg"
 
 Plug in _any_ Feather mainboard you want into the center, and you're good to go! **The Crickit is powered by seesaw, an I2C-to-whatever bridge firmware. So you only need to use two I2C data pins to control the huge number of inputs and outputs on the Crickit. All those timers, PWMs, sensors are offloaded to the co-processor.**
 
-The only thing that is _not_ managed by seesaw is the audio output. Provided is a small jumper you can solder to connect the audio amplifier to the first analog pin. On Feather M0's this is a true analog output (DAC) and you can play audio clips with CircuitPython. Other Feathers _may not have a DAC!_In that case, you can solder a wire to jumper the audio amp to a PWM pin.
+The only thing that is _not_ managed by seesaw is the audio output. Provided is a small jumper you can solder to connect the audio amplifier to the first analog pin. On Feather M0's this is a true analog output (DAC) and you can play audio clips with CircuitPython. Other Feathers _may not have a DAC!_ In that case, you can solder a wire to jumper the audio amp to a PWM pin.
 
 You get to use all the non-I2C signal pins on your feather and get a boat-load of extra in/out pins, motor controllers, capacitive touch sensors, a NeoPixel driver and amplified speaker output. It complements & extends your Feather so you can still use all the goodies, including stacking FeatherWings on top. But now you have a robotics playground as well.
 
