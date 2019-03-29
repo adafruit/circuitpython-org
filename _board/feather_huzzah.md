@@ -8,7 +8,7 @@ board_url: ""
 board_image: "/assets/images/boards/feather_huzzah.jpg"
 ---
 
-Feather the open ecosystem format from Adafruit, and like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be an open standard for portable microcontroller cores.
+Feather from Adafruit, like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be an open standard for portable microcontroller cores.
 
 This is the **Adafruit Feather HUZZAH ESP8266** - Adafruit's take on an 'all-in-one' ESP8266 WiFi development board with built in USB and battery charging. It is an ESP8266 WiFi module with all the extras.
 
