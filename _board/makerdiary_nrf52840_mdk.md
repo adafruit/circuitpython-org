@@ -8,14 +8,16 @@ board_url: ""
 board_image: "/assets/images/boards/nRF52840_micro_dev_kit.jpg"
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
+The nRF52840-MDK is a versatile, easy-to-use IoT hardware platform for Bluetooth 5, Bluetooth Mesh, Thread, IEEE 802.15.4, ANT and 2.4GHz proprietary wireless applications using the nRF52840 SoC.
 
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
+The development kit comes with a fully integrated debugger (also known as DAPLink)that provides USB drag-and-drop programming, USB Virtual COM port and CMSIS-DAP interface.
+
+The kit contains a Microchip USB 2.0 Hi-Speed hub controller with two downstream ports: one for DAPLink interface and one for nRF52840 USB device controller. The kit also features ultra-low power 64-Mb QSPI FLASH memory, programmable user button, RGB LED, up to 24 GPIOs, antenna selection for custom applications.
+
+It supports the standard Nordic Software Development Tool-chain using GCC, Keil and IAR. It can also be used to play with many popular frameworks, such as nRF5 SDK, nRF5 SDK for Mesh, OpenThread, ZigBee 3.0, Mbed OS 5, Zephyr, Mynewt, Web Bluetooth, iBeacon, Eddystone, and more.
 
 ## Purchase
 * [MakerDiary](https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-iot-development-kit)
-* [Seeed Studio](https://www.seeedstudio.com/nRF52840-Micro-Development-Kit-p-3079.html)
-* [Amazon](https://www.amazon.com/gp/product/B07MPPHY5B)
 
 ## Contribute
 
