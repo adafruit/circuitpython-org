@@ -8,14 +8,14 @@ board_url: ""
 board_image: "/assets/images/boards/nRF52840_micro_dev_kit_usb_dongle.jpg"
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
+The nRF52840 Micro Dev Kit USB Dongle is a small and low-cost development platform enabled by the nRF52840 multi-protocol SoC in a convenient USB dongle form factor.
 
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
+The nRF52840 Micro Dev Kit USB Dongle features a programmable user button, RGB LED, up to 12 GPIOs and 2.4G Chip antenna on board.
+
+The USB Dongle can be used as a low-cost Bluetooth5/Tread/802.15.4/ANT/2.4GHz multi-protocol node or development board. Alternatively the USB Dongle can be used as a Network Co-Processor(NCP) with a simple connection to a PC or other USB enabled device.
 
 ## Purchase
 * [MakerDiary](https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-usb-dongle)
-* [Seeed Studio](https://www.seeedstudio.com/nRF52840-MDK-USB-Dongle-p-3184.html)
-* [Amazon](https://www.amazon.com/gp/product/B07MJ12XLG)
 
 ## Contribute
 
