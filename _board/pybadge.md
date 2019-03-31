@@ -5,7 +5,7 @@ title: "PyBadge Download"
 name: "PyBadge"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/pybadge.jpg"
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
