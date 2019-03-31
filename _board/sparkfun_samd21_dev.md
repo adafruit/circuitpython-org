@@ -8,11 +8,7 @@ board_url: ""
 board_image: "/assets/images/boards/sparkfun_samd21_dev.jpg"
 ---
 
-Image by SparkFun. CC BY 2.0
-
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
-
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
+The SparkFun SAMD21 Dev Breakout is an Arduino-sized breakout for the Atmel ATSAMD21G18, a 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz.
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/13672)
