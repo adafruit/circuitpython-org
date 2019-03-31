@@ -8,13 +8,9 @@ board_url: ""
 board_image: "/assets/images/boards/pybadge.jpg"
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
+[![PyBadge](http://img.youtube.com/vi/2f-gZwdTFyo/0.jpg)](http://www.youtube.com/watch?v=2f-gZwdTFyo "PyBadge")
 
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
-
-## Purchase
-Add any links to purchase the board
-
+The PyBadge is coming soon from Adafruit, check out the weekly "Top Secret" segment on ASK AN ENGINEER or the upcoming new product videos on [YouTube](https://www.youtube.com/adafruit).
 
 ## Contribute
 
