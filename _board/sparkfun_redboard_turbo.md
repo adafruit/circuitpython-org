@@ -8,11 +8,9 @@ board_url: ""
 board_image: "/assets/images/boards/sparkfun_redboard_turbo.jpg"
 ---
 
-Image by SparkFun. CC BY 2.0
+The RedBoard Turbo uses the ATSAMD21G18, which is an ARM Cortex M0+, 32-bit microcontroller that can run at up to 48MHz. With 4MB of external flash memory and a UF2 (USB Flashing Format) bootloader, the RedBoard Turbo provides an economical and easy to use development platform.
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
-
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
+The RedBoard Turbo can be flashed over the Mass Storage Class (MSC) just like a removable flash drive, thanks the the UF2 bootloader. With this bootloader, the RedBoard Turbo shows up on your computer as a USB storage device without having to install drivers and can be used with CircuitPython.
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/14812)
