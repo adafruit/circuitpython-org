@@ -5,6 +5,8 @@ title: "Feather M4 Express Download"
 name: "Feather M4 Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com"
+features:
+  - battery charging
 board_image: "/assets/images/boards/feather_m4_express.jpg"
 ---
 
