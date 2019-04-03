@@ -5,7 +5,7 @@ title: "CatWAN USB Stick Download"
 name: "CatWAN USB Stick"
 manufacturer: "Electronic Cats"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/catwan_usbstick.jpg"
 ---
 
 Are you interested in learning how LoRa works at the package level? Debugging your own LoRa hardware and trying to detect where something is wrong? Or maybe you’re writing a custom application for your Internet of Things (IoT) network with LoraWAN?
