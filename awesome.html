@@ -1,0 +1,12 @@
+---
+layout: home
+title: Awesome
+permalink: /awesome
+---
+
+<div id="awesome-page">
+  <div class="content">
+    {% capture awesome_include %}{% include_relative awesome-circuitpython/README.md %}{% endcapture %}
+    {{ awesome_include | markdownify }}
+  <div>
+</div>
