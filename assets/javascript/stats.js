@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
       boards.sort(function(a, b) {
-        return a.downloads < b.downloads;
+        return b.downloads - a.downloads;
       });
 
       displayBoardStats(boards);
