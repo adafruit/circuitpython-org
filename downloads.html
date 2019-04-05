@@ -68,11 +68,6 @@ permalink: /downloads
               By {{ info.manufacturer }}
             </div>
           </div>
-          <div class="features">
-            {% for feature in info.features %}
-              <span class="feature">{{ feature }}</span>
-            {% endfor %}
-          </div>
         </a>
       </div>
     {% endfor %}
@@ -98,11 +93,6 @@ permalink: /downloads
                 <h3>{{ board.name }}</h3>
                 By {{ board.manufacturer }}
               </div>
-            </div>
-            <div class="features">
-              {% for feature in board.features %}
-                <span class="feature">{{ feature }}</span>
-              {% endfor %}
             </div>
           </a>
         </div>
