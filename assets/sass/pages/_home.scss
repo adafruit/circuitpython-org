@@ -1,17 +1,5 @@
 #home-page {
-  padding: 20px 0 200px 0;
   text-align: center;
-
-  display: grid;
-  grid-template-columns:
-      [full-start] minmax(1em, 1fr)
-      [main-start] minmax(0, 80em) [main-end]
-      minmax(1em, 1fr) [full-end];
-  grid-row-gap: 1em;
-
-  &> * {
-    grid-column: main;
-  }
 
   hr {
     width: 75%;
@@ -22,11 +10,6 @@
   }
 
   .content {
-    background-color: #fff;
-    border: 1px solid #cecece;
-    border-radius: 5px;
-    padding-top: 40px;
-
     h1 {
       width: 75%;
       margin: 20px auto;
