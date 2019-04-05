@@ -53,6 +53,11 @@ permalink: /downloads
         {% assign info = site.board | where: 'board_id', 'unknown' %}
       {% endif %}
       {% assign info = info[0] %}
+
+      {% if info.downloads_display == false %}
+        {% continue %}
+      {% endif %}
+      
       <div class="download" data-id="{{ board.id }}"
                             data-name="{{ info.name | default: board.id }}"
                             data-downloads="{{ board.downloads }}"
