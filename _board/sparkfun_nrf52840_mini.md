@@ -6,6 +6,9 @@ name: "Pro nRF52840 Mini"
 manufacturer: "SparkFun"
 board_url: ""
 board_image: "/assets/images/boards/sparkfun_nrf52840_mini-01.jpg"
+features:
+  - Battery Charging
+  - Bluetooth/BTLE
 ---
 
 The SparkFun Pro nRF52840 Mini is a breakout and development board for Nordic Semiconductor’s nRF52840 – a powerful combination of ARM Cortex-M4 CPU and 2.4GHz Bluetooth radio. With the nRF52840 at the heart of your project, you’ll be presented with a seemingly endless list of project-possibilities in an incredibly small package.
