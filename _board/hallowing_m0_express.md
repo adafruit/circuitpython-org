@@ -6,6 +6,12 @@ name: "HalloWing M0 Express"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/hallowing_m0_express.jpg"
+features:
+  - Display
+  - Speaker
+  - Feather-compatible
+  - Battery Charging
+  - Solder-free Alligator clip
 ---
 
 This is Hallowing..this is Hallowing... Hallowing! Hallowing! 
