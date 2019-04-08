@@ -6,6 +6,10 @@ name: "Feather M0 RFM9x"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/feather_m0_rfm9x.jpg"
+features:
+  - Feather-compatible
+  - Battery Charging
+  - LoRa/Radio
 ---
 
 This is the **Adafruit Feather M0 RFM96 LoRa Radio (433 MHz).** Also called _RadioFruits**,**_ Adafruit's take on an microcontroller with a "[Long Range (LoRa)](https://www.lora-alliance.org/)" packet radio transceiver with built in USB and battery charging. It is an Adafruit Feather M0 with a 433MHz radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.
