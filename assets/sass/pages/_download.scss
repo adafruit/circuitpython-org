@@ -44,7 +44,7 @@
     }
 
     .download {
-      a {
+      a.download-button, a.download-button-unrecommended {
         display: inline-block;
         width: auto;
         padding: 15px 30px 15px 30px;
@@ -105,7 +105,7 @@
         .language-select:after {
             color: $purple;
         }
-        a {
+        a.download-button, a.download-button-unrecommended {
           background-color: $purple;
         }
       }
@@ -118,10 +118,10 @@
               color: $gray;
           }
 
-        a {
+        a.download-button, a.download-button-unrecommended {
           background-color: $gray;
         }
-        a:hover {
+        a.download-button:hover, a.download-button-unrecommended:hover {
           background-color: $pink;
         }
       }
@@ -131,7 +131,7 @@
               color: $gray;
           }
 
-        a {
+        a.download-button, a.download-button-unrecommended {
           background-color: $gray;
         }
       }
