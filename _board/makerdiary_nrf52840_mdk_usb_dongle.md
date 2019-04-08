@@ -6,6 +6,8 @@ name: "nRF52840 Micro Dev Kit USB Dongle"
 manufacturer: "MakerDiary"
 board_url: ""
 board_image: "/assets/images/boards/nRF52840_micro_dev_kit_usb_dongle.jpg"
+features:
+  - Bluetooth/BTLE
 ---
 
 The nRF52840 Micro Dev Kit USB Dongle is a small and low-cost development platform enabled by the nRF52840 multi-protocol SoC in a convenient USB dongle form factor.
