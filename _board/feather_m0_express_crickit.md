@@ -6,6 +6,11 @@ name: "Feather M0 Express + Crickit"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/feather_m0_express_crickit.jpg"
+features:
+  - Speaker
+  - Feather-compatible
+  - Battery Charging
+  - Robotics
 ---
 
 **Crickit** is Adafruit's **C**reative **R**obotics & **I**nteractive **C**onstruction **Kit**. It's an add-on to popular Feather ecosystem boards that lets you **#MakeRobotFriend **using CircuitPython.
