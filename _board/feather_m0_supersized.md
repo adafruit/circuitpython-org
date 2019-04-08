@@ -6,6 +6,9 @@ name: "Feather M0 Supersized"
 manufacturer: "Dave Astels"
 board_url: ""
 board_image: "/assets/images/boards/feather_m0_supersized.jpg"
+features:
+  - Feather-compatible
+  - Battery Charging
 ---
 
 This is a [Feather M0 Express]({{ "/board/feather_m0_express/" | relative_url }}) that has been
