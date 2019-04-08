@@ -6,6 +6,9 @@ name: "Feather M4 Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com"
 board_image: "/assets/images/boards/feather_m4_express.jpg"
+features:
+  - Feather-compatible
+  - Battery Charging
 ---
 
 This feather is powered by the ATSAMD51J19 -  with its 120MHz Cortex M4 with floating point support and 512KB Flash and 192KB RAM. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.
