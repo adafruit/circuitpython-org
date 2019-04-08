@@ -6,6 +6,9 @@ name: "Feather M0 Adalogger"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/feather_m0_adalogger.jpg"
+features:
+  - Feather-compatible
+  - Battery Charging
 ---
 
 Feather is a development board from Adafruit, and like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be a new open standard for portable microcontroller cores.

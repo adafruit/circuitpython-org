@@ -6,6 +6,11 @@ name: "PyBadge"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/pybadge.jpg"
+features:
+  - Display
+  - Speaker
+  - Feather-compatible
+  - Battery Charging
 ---
 
 [![PyBadge](http://img.youtube.com/vi/2f-gZwdTFyo/0.jpg)](http://www.youtube.com/watch?v=2f-gZwdTFyo "PyBadge")

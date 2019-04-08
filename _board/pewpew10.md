@@ -6,6 +6,8 @@ name: "PewPew"
 manufacturer: "Radomir Dopieralski"
 board_url: "https://pewpew.rtfd.io"
 board_image: "/assets/images/boards/pewpew_10.2.jpg"
+features:
+  - Display
 ---
 
 This board was designed to be an affordable device for teaching game

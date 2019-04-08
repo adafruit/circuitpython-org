@@ -6,6 +6,8 @@ name: "RedBoard Turbo"
 manufacturer: "SparkFun"
 board_url: ""
 board_image: "/assets/images/boards/sparkfun_redboard_turbo.jpg"
+features:
+  - Battery Charging
 ---
 
 The RedBoard Turbo uses the ATSAMD21G18, which is an ARM Cortex M0+, 32-bit microcontroller that can run at up to 48MHz. With 4MB of external flash memory and a UF2 (USB Flashing Format) bootloader, the RedBoard Turbo provides an economical and easy to use development platform.

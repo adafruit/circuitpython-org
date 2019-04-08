@@ -6,6 +6,8 @@ name: "nRF52840 Micro Dev Kit"
 manufacturer: "MakerDiary"
 board_url: ""
 board_image: "/assets/images/boards/nRF52840_micro_dev_kit.jpg"
+features:
+  - Bluetooth/BTLE
 ---
 
 The nRF52840-MDK is a versatile, easy-to-use IoT hardware platform for Bluetooth 5, Bluetooth Mesh, Thread, IEEE 802.15.4, ANT and 2.4GHz proprietary wireless applications using the nRF52840 SoC.

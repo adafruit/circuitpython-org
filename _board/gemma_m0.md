@@ -6,6 +6,8 @@ name: "Gemma M0"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/gemma_m0.jpg"
+features:
+  - Solder-free Alligator clip
 ---
 
 The **Adafruit Gemma M0** is a super small microcontroller board, with just enough built-in to create many simple projects. It may look small and cute: round, about the size of a quarter, with friendly alligator-clip sew pads. But do not be fooled! The Gemma M0 is incredibly powerful! Adafruit used the same form factor from [the original ATtiny85-based Gemma](https://www.adafruit.com/product/1222) and gave it an upgrade. The Gemma M0 has swapped out the lightweight ATtiny85 for a ATSAMD21E18 powerhouse.

@@ -6,6 +6,10 @@ name: "Xenon"
 manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/xenon-datasheet/"
 board_image: "/assets/images/boards/particle_xenon.jpg"
+features:
+  - Feather-compatible
+  - Battery Charging
+  - Bluetooth/BTLE
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

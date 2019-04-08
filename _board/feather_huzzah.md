@@ -6,6 +6,10 @@ name: "Feather Huzzah"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/feather_huzzah.jpg"
+features:
+  - Feather-compatible
+  - Battery Charging
+  - Wi-Fi
 ---
 
 Feather from Adafruit, like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be an open standard for portable microcontroller cores.

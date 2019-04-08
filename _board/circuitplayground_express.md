@@ -6,6 +6,9 @@ name: "Circuit Playground Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com"
 board_image: "/assets/images/boards/circuitplayground_express.jpg"
+features:
+  - Speaker
+  - Solder-free Alligator clip
 ---
 
 The Circuit Playground Express is Adafruit's flagship educational board designed for CircuitPython.

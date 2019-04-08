@@ -6,6 +6,10 @@ name: "Circuit Playground Express + Crickit"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/circuitplayground_express_crickit.jpg"
+features:
+  - Speaker
+  - Robotics
+  - Solder-free Alligator clip
 ---
 
 **Crickit** is a **C**reative **R**obotics & **I**nteractive **C**onstruction **Kit**. It's an add-on for the popular Circuit Playground Express that lets you **#MakeRobotFriend** using CircuitPython (and more).
