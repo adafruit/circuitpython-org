@@ -6,6 +6,10 @@ name: "Feather nRF52832"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "/assets/images/boards/feather_nrf52832.jpg"
+features:
+  - Feather-compatible
+  - Battery Charging
+  - Bluetooth/BTLE
 ---
 
 The **Adafruit Feather nRF52 Bluefruit** is an easy-to-use all-in-one Bluetooth Low Energy board, with a native-Bluetooth chip, the nRF52832!  It's an 'all-in-one' Bluetooth Low Energy board with built in USB and battery charging.
