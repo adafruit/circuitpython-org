@@ -3,19 +3,22 @@ layout: download
 board_id: "sam32"
 title: "sam32 Download"
 name: "sam32"
-manufacturer: "unknown"
-board_url: ""
+manufacturer: "Max Holliday"
+board_url: "https://github.com/maholli/SAM32"
 board_image: "/assets/images/boards/unknown.jpg"
 downloads_display: false
 features:
+  - SAMD51 with WROOM ESP32 Co-processor
+  - MicroSD Card
+  - Feather Wing Compatible
+  - LiPo Charging
+  - Mini "breadboard" Area
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
-
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
+Open source and running on CircuitPython, the SAM32 board was designed to be an all-in-one tool for common embedded hardware/software projects. With the powerful SAMD51 accompanied by an ESP32 co-processor and microSD card slot, this board has the hardware needed for many data acquisition, networking, and distributed computing applications. 
 
 ## Purchase
-Add any links to purchase the board
+Coming Soon?
 
 ## Contribute
 
