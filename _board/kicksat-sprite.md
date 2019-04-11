@@ -6,7 +6,7 @@ name: "kicksat-sprite"
 manufacturer: "Stanford Robotic Exploration Lab"
 board_url: "https://github.com/RoboticExplorationLab/sprite"
 board_image: "/assets/images/boards/unknown.jpg"
-downloads_display: true
+downloads_display: false
 features:
   - CC1101 Radio
   - 720p Camera
