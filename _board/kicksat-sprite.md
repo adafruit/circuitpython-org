@@ -4,7 +4,7 @@ title: "KickSat Sprite Download"
 name: "KickSat Sprite"
 manufacturer: "Max Holliday"
 board_url: "https://github.com/RoboticExplorationLab/sprite"
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "/assets/images/boards/kicksat-sprite.jpg"
 features:
   - Satellite/Space Exploration
 ---
