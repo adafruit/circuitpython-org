@@ -6,7 +6,6 @@ name: "sam32"
 manufacturer: "unknown"
 board_url: ""
 board_image: "/assets/images/boards/unknown.jpg"
-downloads_display: false
 features:
 ---
 
