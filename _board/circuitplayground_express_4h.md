@@ -5,7 +5,7 @@ title: "Circuit Playground Express 4-H Download"
 name: "Circuit Playground Express 4-H"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com"
-board_image: "/assets/images/boards/circuitplayground_express.jpg"
+board_image: "/assets/images/boards/circuitplayground_express_4h.jpg"
 features:
   - Speaker
   - Solder-free Alligator clip
@@ -42,6 +42,4 @@ Here's some of the great goodies baked in to each Circuit Playground Express:
 * [Circuit Playground Express Overview](https://learn.adafruit.com/adafruit-circuit-playground-express)
 
 ## Purchase
-* [Adafruit](https://www.adafruit.com/product/3333)
-* [Digi-Key](https://www.digikey.com/short/p88cfj)
-* [Pimoroni](https://shop.pimoroni.com/products/circuit-playground-express-developer-edition)
+* [Adafruit](https://www.adafruit.com/product/4180)
