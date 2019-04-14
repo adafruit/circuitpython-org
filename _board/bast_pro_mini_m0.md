@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "bast_pro_mini_m0.md"
+board_id: "bast_pro_mini_m0"
 title: "bast_pro_mini_m0 Download"
 name: "bast_pro_mini_m0"
 manufacturer: "unknown"
