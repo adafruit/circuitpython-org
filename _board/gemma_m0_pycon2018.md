@@ -5,7 +5,7 @@ title: "Gemma M0 PyCon 2018 Download"
 name: "Gemma M0 PyCon 2018"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/gemma_m0.jpg"
+board_image: "/assets/images/boards/gemma_m0_pycon2018.jpg"
 features:
   - Solder-free Alligator clip
 ---
@@ -37,9 +37,6 @@ Gemma M0 features:
 *   **JST battery connector** for plugging in AAA's or LiPoly battery (no built-in LiPoly charging so it is safe to use with NiMH/Alkalines)
 
 Fully assembled and tested Gemma M0 with CircuitPython & example code programmed in.
-
-## Purchase
-* [Adafruit](https://www.adafruit.com/product/3501)
 
 ## Contribute
 
