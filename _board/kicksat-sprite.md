@@ -1,3 +1,4 @@
+---
 layout: download
 board_id: "kicksat-sprite"
 title: "KickSat Sprite Download"
