@@ -5,7 +5,7 @@ title: "Circuit Playground Express Digi-Key PyCon 2019 Download"
 name: "Circuit Playground Express Digi-Key"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com"
-board_image: "/assets/images/boards/circuitplayground_express.jpg"
+board_image: "/assets/images/boards/circuitplayground_express_digikey_pycon2019.jpg"
 features:
   - Speaker
   - Solder-free Alligator clip
@@ -41,7 +41,3 @@ Here's some of the great goodies baked in to each Circuit Playground Express:
 ## Tutorials
 * [Circuit Playground Express Overview](https://learn.adafruit.com/adafruit-circuit-playground-express)
 
-## Purchase
-* [Adafruit](https://www.adafruit.com/product/3333)
-* [Digi-Key](https://www.digikey.com/short/p88cfj)
-* [Pimoroni](https://shop.pimoroni.com/products/circuit-playground-express-developer-edition)
