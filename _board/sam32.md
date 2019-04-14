@@ -1,11 +1,11 @@
 ---
 layout: download
 board_id: "sam32"
-title: "sam32 Download"
-name: "sam32"
-manufacturer: "unknown"
-board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+title: "SAM32 Download"
+name: "SAM32"
+manufacturer: "Max Holliday"
+board_url: "https://github.com/maholli/SAM32"
+board_image: "/assets/images/boards/sam32.jpg"
 features:
 ---
 
@@ -13,8 +13,8 @@ This board hasn't been fully documented yet. Please make a pull request adding m
 
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
 
-## Purchase
-Add any links to purchase the board
+## Resources
+SAM32 - [GitHub](https://github.com/maholli/SAM32).
 
 ## Contribute
 
