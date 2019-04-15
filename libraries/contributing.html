@@ -1,0 +1,26 @@
+---
+layout: default
+title: Libraries - Contributing
+permalink: /libraries/contributing
+---
+
+<div id="libraries-page" class="common-layout">
+  <div class="content">
+    <h1>Contributing</h1>
+    <p>Quick bit about contributing (TODO TEXT FROM KATTNI)</p>
+
+    <div class="libraries open-issues">
+       <h3>Open Issues</h3>
+       <ul>
+       {% for library in site.data.libraries.open_issues %}
+         <li>
+           {{library[0]}}
+           {% for issue in library[1] %}
+              <li><a href="{{issue}}">{{issue}}</a></li>
+           {% endfor %}
+         </li>
+       {% endfor %}
+       </ul>
+    </div>
+  </div>
+</div>
