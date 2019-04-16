@@ -38,22 +38,25 @@ permalink: /libraries
     <p>
     <h2>Contributing</h2>
     <p>Quick bit about contributing (TODO TEXT FROM KATTNI)</p>
-    <div class="libraries new">
+    <p class="libraries new">
       <h3>New Libraries</h3>
       <ul>
       {% for library in site.data.libraries.library_updates.new %}
         <li><a href="{{library[1]}}">{{library[0]}}</a></li>
       {% endfor %}
       </ul>
-    </div>
-    <div class="libraries updated">
+    </p>
+    <p class="libraries updated">
       <h3>Updated Libraries</h3>
       <ul>
       {% for library in site.data.libraries.library_updates.updated %}
         <li><a href="{{library[1]}}">{{library[0]}}</a></li>
       {% endfor %}
       </ul>
-    </div>
+    </p>
+    <p>
+      <a href="{{ "/libraries/contributing" | relative_url  }}">Contributing link</a>. (TODO TEXT FROM KATTNI)</p>
+    </p>
   </div>
 </div>
 
