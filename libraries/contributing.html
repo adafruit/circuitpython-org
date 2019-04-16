@@ -15,9 +15,11 @@ permalink: /libraries/contributing
        {% for library in site.data.libraries.open_issues %}
          <li>
            {{library[0]}}
+           <ul>
            {% for issue in library[1] %}
-              <li><a href="{{issue}}">{{issue}}</a></li>
+              <li><a href="{{issue[0]}}">{{issue[1]}}</a></li>
            {% endfor %}
+           </ul>
          </li>
        {% endfor %}
        </ul>
