@@ -6,10 +6,21 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function buildReleaseLinks(data) {
+    console.log(data);
     let releaseList = document.querySelector('.release-list');
 
     data.assets.forEach(function(asset) {
-      let liElement = document.createElement('li');
+      let name = asset.name;
+
+      if (name.slice(-6) === 'ignore') {
+        return;
+      }
+
+      let versionId = name.replace(/(-[\d]+.zip$)/, '');
+
+      console.log(name);
+      return;
+      let divElement = document.createElement('div');
       let linkElement = document.createElement('a');
       linkElement.title = asset.name;
       linkElement.href = asset.browser_download_url;
