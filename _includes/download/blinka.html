@@ -1,0 +1,18 @@
+<div class="section stable">
+  <h3>Adafruit Blinka Installation</h3>
+  <p>
+    We use a special library called adafruit_blinka (named after Blinka, the
+    CircuitPython mascot) to provide the layer that translates the CircuitPython
+    hardware API to whatever library the Linux board provides.
+  </p>
+  <p>
+    For example, on Raspberry Pi we use the python RPi.GPIO library.
+    For any I2C interfacing we'll use ioctl messages to the /dev/i2c device.
+    For SPI we'll use the spidev python library, etc. These details don't matter
+    so much because they all happen underneath the adafruit_blinka layer.
+  </p>
+  <div>
+      <a class="download-button" href="{{ page.download_instructions }}">INSTALLATION INSTRUCTIONS<i class="fas fa-arrow-circle-right"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
