@@ -21,7 +21,7 @@ permalink: /libraries
     <p>
       The full list of all the CircuitPython libraries contained in the following bundles
       can be found on the
-      <a href="https://circuitpython.readthedocs.io/projects/bundle/en/latest/drivers.html">libraries page</a>.
+      <a href="https://circuitpython.readthedocs.io/projects/bundle/en/latest/drivers.html" title="">libraries page</a>.
     <h2>Download and Installation Instructions</h2>
     <p>
       The libraries in each release are compiled to .mpy for all recent major versions
@@ -32,7 +32,7 @@ permalink: /libraries
       .mpy library bundle!
     </p>
     <p>
-      To install, download the appropriate bundle for your version of CircuitPython.
+      <b>To install</b>, download the appropriate bundle for your version of CircuitPython.
       Unzip the file, open the resulting folder and find the lib folder. Open the lib
       folder and find the library files you need to load. Create a lib folder on your
       CIRCUITPY drive. Copy the individual library files you need to the lib folder
@@ -80,13 +80,20 @@ permalink: /libraries
       If you'd like to contribute to the CircuitPython project, the CircuitPython
       libraries are a great way to begin. Everyone is welcome to contribute!
       Regardless of your experience level, we have many resources to get you
-      started. Check out the link below for more detailed information about how
-      you can contribute to CircuitPython libraries!
+      started. Check out the Contributing page for detailed information!
+    </p>
+    <p>
+      Find out more about how you can
+      <a href="{{ "/libraries/contributing" | relative_url  }}" title="Contributing Page">contribute to CircuitPython libraries</a>.
     </p>
     <!-- (can we even include the date like this?) -->
     <h2>Library Activity for Week of  {{ site.data.libraries.updated_at | date: "%a, %b %d, %Y" }}</h2>
     <p>
-      Thank you to this week's contributors!
+      Thank you to this week's contributors:
+      {% for contributor in site.data.libraries.contributors %}
+        <a href="https://github.com/{{contributor}}" title="Contributor Name">{{contributor}}</a>{% if forloop.last != true %}, {% endif %}
+
+      {% endfor %}
     </p>
     <!-- pull the first section of the script report into this spot - (the PR's merged authors/reviewers and Issues opened/closed bit) -->
     <p>
@@ -96,7 +103,7 @@ permalink: /libraries
       <h3>New Libraries</h3>
       <ul>
       {% for library in site.data.libraries.library_updates.new %}
-        <li><a href="{{library[1]}}">{{library[0]}}</a></li>
+        <li><a href="{{library[1]}}" title="New Library Location">{{library[0]}}</a></li>
       {% endfor %}
       </ul>
     </div>
@@ -104,14 +111,10 @@ permalink: /libraries
       <h3>Updated Libraries</h3>
       <ul>
       {% for library in site.data.libraries.library_updates.updated %}
-        <li><a href="{{library[1]}}">{{library[0]}}</a></li>
+        <li><a href="{{library[1]}}" title="Updated Library Location">{{library[0]}}</a></li>
       {% endfor %}
       </ul>
     </div>
-    <p>
-      Find out more about how you can
-      <a href="{{ "/libraries/contributing" | relative_url  }}">contribute to CircuitPython libraries</a>.</p>
-    </p>
   </div>
 </div>
 
