@@ -7,6 +7,8 @@ manufacturer: "<board manufacturer>"
 board_url: ""
 board_image: "/assets/images/boards/unknown.jpg"
 downloads_display: true
+blinka: false
+download_instructions: "BLINKA ONLY - url"
 features:
   - ~5 interesting
   - features
