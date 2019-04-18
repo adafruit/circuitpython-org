@@ -1,0 +1,66 @@
+---
+layout: default
+title: Blinka
+permalink: /blinka
+---
+
+<div id="downloads-page">
+  <h1>Blinka</h1>
+  <div class="downloads-inputs">
+    <div class="downloads-search">
+      <label class="search-wrapper">
+        <input type="text" id="search" placeholder="Search for CircuitPython boards" />
+      </label>
+    </div>
+    <div class="downloads-filter">
+      <button class="filter"><i class="fas fa-sliders-h"></i></button>
+    </div>
+    <div class="downloads-filter-tags">
+    </div>
+  </div>
+  <div class="downloads-filter-content">
+    <div class="filter-buttons">
+      <button class="save-changes"><i class="fas fa-times"></i></button>
+    </div>
+    <div>
+      <div class="manufacturers">
+        <h2>Manufacturers</h2>
+        <ul class="content"></ul>
+      </div>
+      <div class="features">
+        <h2>Features</h2>
+        <ul class="content"></ul>
+      </div>
+      <div class="sort-by">
+        <h2>Sort By</h2>
+        <ul class="content">
+          <li><input type="radio" name="sort-by" value="alpha-asc" checked> Board Name (A to Z)</li>
+          <li><input type="radio" name="sort-by" value="alpha-desc"> Board Name (Z to A)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="downloads-section">
+    {% for board in site.blinka %}
+        <div class="download" data-id="{{ board.board_id }}"
+                              data-name="{{ board.name }}"
+                              data-downloads="0"
+                              data-manufacturer="{{ board.manufacturer }}"
+                              data-features="{{ board.features | join: ','}}">
+          <a href="{{ board.url | relative_url }}">
+            <div>
+              <div class="img-responsive-4by3">
+                <img src="{{ board.board_image | relative_url }}">
+              </div>
+              <div class="details">
+                <h3>{{ board.name }}</h3>
+                By {{ board.manufacturer }}
+              </div>
+            </div>
+          </a>
+        </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script src="/assets/javascript/downloads.js"></script>

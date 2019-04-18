@@ -1,18 +1,16 @@
 ---
 layout: download
-board_id: "<board id>"
-title: "<board name> Download"
-name: "<board name>"
-manufacturer: "<board manufacturer>"
-board_url: ""
+board_id: "raspberry_pi"
+title: "Raspberry Pi Download"
+name: "Raspberry Pi"
+manufacturer: "Raspberry Pi Foundation"
+board_url: "raspberrypi.org"
 board_image: "/assets/images/boards/unknown.jpg"
+download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
-blinka: false
-download_instructions: "BLINKA ONLY - url"
+blinka: true
 features:
-  - ~5 interesting
-  - features
-  - such as bluetooth
+  - Wi-Fi
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
