@@ -26,12 +26,27 @@ permalink: /libraries/contributing
       Have an idea for a new driver or library?
       <a href="https://github.com/adafruit/circuitpython/issues">File an issue on the CircuitPython repo!</a>
     </p>
-    <!-- another subheader here -->
     <h2>Current Status for Week of {{ site.data.libraries.updated_at | date: "%a, %b %d, %Y" }}</h2>
     <p>
       This is the current status of open pull requests and issues across all of the library repos.
     </p>
-    <!-- open PRs should come before Open Issues -->
+    <div class="libraries open-pull-requests">
+       <h3>Open Pull Requests</h3>
+       <ul>
+       {% for library in site.data.libraries.pull_requests %}
+         <li>
+           {{library[0]}}
+           <ul>
+           {% for issue in library[1] %}
+              {% for details in issue %}
+                <li><a href="{{ details[0] }}">{{ details[1] }}</a></li>
+              {% endfor %}
+           {% endfor %}
+           </ul>
+         </li>
+       {% endfor %}
+       </ul>
+    </div>
     <div class="libraries open-issues">
        <h3>Open Issues</h3>
        <ul>
@@ -49,7 +64,6 @@ permalink: /libraries/contributing
        {% endfor %}
        </ul>
     </div>
-    <!-- I think I managed to get this in the right div at the right indent level... -->
     <h2>Repo-Level Issues</h2>
     <p>
       The following are further issues we've identified with the library repositories. Most of these
@@ -57,8 +71,6 @@ permalink: /libraries/contributing
       that require changes to GitHub settings. If you are interested in addressing any of these issues,
       please feel free to contact us with any questions.
     </p>
-    <!-- is my use of <code> accurate in the paragraph below? The intention is to format the file names. -->
-    <!-- or would they look better bold and not code formatted? -->
     <p>
       If you're looking for a Good First Issue to begin contributing, consider the two issues related to
       example naming: "Example file(s) missing sensor/library name." and "Missing simpletest example."
