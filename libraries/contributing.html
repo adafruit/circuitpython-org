@@ -40,7 +40,9 @@ permalink: /libraries/contributing
            {{library[0]}}
            <ul>
            {% for issue in library[1] %}
-              <li><a href="{{issue[0]}}">{{issue[1]}}</a></li>
+              {% for details in issue %}
+                <li><a href="{{ details[0] }}">{{ details[1] }}</a></li>
+              {% endfor %}
            {% endfor %}
            </ul>
          </li>
@@ -67,6 +69,19 @@ permalink: /libraries/contributing
       Learn guides. You should mention in your pull request that it is possible that guides will
       require updating to match the new example name.
     </p>
-    <!-- The rest of the script info goes here -->
+    <div class="libraries">
+       <ul>
+       {% for repo_issue in site.data.libraries.repo_infrastructure_errors %}
+         <li>
+           {{repo_issue[0]}}
+           <ul>
+           {% for issue in repo_issue[1] %}
+             <li><a href="{{ issue }}">{{ issue }}</a></li>
+           {% endfor %}
+           </ul>
+         </li>
+       {% endfor %}
+       </ul>
+    </div>
   </div>
 </div>
