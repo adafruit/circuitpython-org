@@ -1,0 +1,85 @@
+{% assign board = site.data.files | where: "id", page.board_id %}
+{% if board[0] %}
+{% assign releases = board[0].versions | sort: "version" %}
+{% for version in releases %}
+  <div class="section {% if version.stable %}stable{% else %}unstable{% endif %}">
+    <h3>CircuitPython {{ version.version }}</h3>
+    <p>
+      This is the latest {% if version.stable %}<strong>stable</strong>{% else %}unstable{% endif %}
+      release of CircuitPython that will work with the {{ page.name }}.
+    </p>
+    <p>
+      {% if version.stable %}
+      <strong>Start here</strong> if you are new to CircuitPython.
+      {% else %}
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      {% endif %}
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
+    </p>
+    <div class="download-details">
+      <label class="language-select">
+        <select>
+          {% for file in version.files %}
+          <option value="{{ file[1] | join: ',' }}" data-files={{ file[1] | join: ',' }} data-locale={{ file[0] | replace: '_', '-' }} {% if file[0] == "en_US" %}selected{% endif %}>
+            {% case file[0] %}
+              {% when 'en_US' %}
+                ENGLISH
+              {% when 'en_x_pirate' %}
+                PIRATE (ENGLISH)
+              {% when 'de_DE' %}
+                GERMAN
+              {% when 'fil' %}
+                FILIPINO
+              {% when 'fr' %}
+                FRENCH
+              {% when 'es' %}
+                SPANISH
+              {% when 'it_IT' %}
+                ITALIAN
+              {% when 'pl' %}
+                POLISH
+              {% when 'pt_BR' %}
+                PORTUGUESE (BRAZILIAN)
+              {% when 'ID' %}
+                INDONESIAN
+              {% else %}
+                {{ file[0] | upcase }}
+            {% endcase %}
+          </option>
+          {% endfor %}
+        </select>
+      </label>
+      <div class="download-buttons">
+      {% for file in version.files['en_US'] %}
+        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ file | slice: -3, 3 }}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+{% endif %}
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically build binaries for it. They
+    are stored on Amazon S3 by language (some which may be unreleased.) Try them if you want
+    the absolute latest and are feeling risky.
+  </p>
+  <div>
+      <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are available on GitHub. They are handy for testing but we recommend
+    the latest stable otherwise.
+  </p>
+  <div>
+      <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
