@@ -86,16 +86,27 @@ permalink: /libraries
       Find out more about how you can
       <a href="{{ "/libraries/contributing" | relative_url  }}" title="Contributing Page">contribute to CircuitPython libraries</a>.
     </p>
-    <!-- (can we even include the date like this?) -->
     <h2>Library Activity for Week of  {{ site.data.libraries.updated_at | date: "%a, %b %d, %Y" }}</h2>
     <p>
-      Thank you to this week's contributors:
-      {% for contributor in site.data.libraries.contributors %}
-        <a href="https://github.com/{{contributor}}" title="Contributor Name">{{contributor}}</a>{% if forloop.last != true %}, {% endif %}
-
-      {% endfor %}
+      Thank you to all of our contributors!
     </p>
-    <!-- pull the first section of the script report into this spot - (the PR's merged authors/reviewers and Issues opened/closed bit) -->
+    <p>
+      This week there were [x] pull requests merged:
+      <ul>
+        <li>
+          Authors:
+          {% for contributor in site.data.libraries.contributors %}
+            <a href="https://github.com/{{contributor}}" title="Contributor Name">{{contributor}}</a>{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </li>
+        <li>
+          Reviewers:
+          {% for reviewer in site.data.libraries.reviewers %}
+            <a href="https://github.com/{{reviewer}}" title="Contributor Name">{{reviewer}}</a>{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </li>
+      </ul>
+    </p>
     <p>
       These are the new and updated libraries from the past week.
     </p>
