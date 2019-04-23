@@ -1,21 +1,19 @@
 ---
 layout: download
 board_id: "gb_m4"
-title: "gb_m4 Download"
-name: "gb_m4"
-manufacturer: "unknown"
-board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
-downloads_display: false
-features:
+title: "Python powered GameBoy-compatible cartridge Download"
+name: "Python powered GameBoy-compatible cartridge"
+manufacturer: "Scott Shawcroft"
+board_url: "https://github.com/chickadee-tech/pygb"
+board_image: "/assets/images/boards/gb_m4.jpg"
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
+CircuitPython for Game Boy is a work in progress, check out the weekly "Show and Tell" or “Top Secret” segment on ASK AN ENGINEER or when it's ready, the new product videos on [YouTube](https://www.youtube.com/adafruit).
 
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
-
-## Purchase
-Add any links to purchase the board
+## Links and more
+- [Twitter thread](https://twitter.com/adafruit/status/1119323846857904128).
+- A Python powered GameBoy-compatible cartridge with a SAMD51 - [GitHub](https://github.com/chickadee-tech/pygb).
+- GBIO branch - [GitHub](https://github.com/tannewt/circuitpython/tree/gbio).
 
 ## Contribute
 
