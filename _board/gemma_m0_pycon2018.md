@@ -38,6 +38,11 @@ Gemma M0 features:
 
 Fully assembled and tested Gemma M0 with CircuitPython & example code programmed in.
 
-## Contribute
+## Tutorials
+* [Adafruit Gemma M0](https://learn.adafruit.com/adafruit-gemma-m0)
 
+## Downloads
+* [PyCon 2018 Gemma Files](https://github.com/adafruit/CircuitPython_Badge_README/tree/master/final_versions/PYCON_2018)
+
+## Contribute
 Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
