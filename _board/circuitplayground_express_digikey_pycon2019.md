@@ -40,4 +40,13 @@ Here's some of the great goodies baked in to each Circuit Playground Express:
 
 ## Tutorials
 * [Circuit Playground Express Overview](https://learn.adafruit.com/adafruit-circuit-playground-express)
+* [CircuitPython Made Easy on Circuit Playground Express](https://learn.adafruit.com/circuitpython-made-easy-on-circuit-playground-express/)
 
+## Downloads
+* [PyCon 2019 Circuit Playground Express Default Files](https://github.com/adafruit/PyCon2019/tree/master/Default_Files)
+* [PyCon 2019 Open Spaces Example Content](https://github.com/adafruit/PyCon2019/)
+* [Pycon 2019 Circuit Playground Express Quickstart Worksheet](https://github.com/adafruit/PyCon2019/blob/master/PyCon%202019%20Circuit%20Playground%20Express%20Quickstart.pdf)
+
+## More Information
+* [CircuitPython Open Spaces Planned for PyCon 2019](https://blog.adafruit.com/2019/04/01/circuitpython-open-spaces-planned-for-pycon-2019-pycon-circuitplaygroundexpress-adafruit-adafruit-circuitpython/)
+* [Digi-Key and Adafruit at PyCon - All attendees will receive a Circuit Playground Express!](https://blog.adafruit.com/2019/02/23/digi-key-and-adafruit-at-pycon-all-attendees-will-receive-a-circuit-playground-express-digikey-adafruit-pycon-pycon2019/)
