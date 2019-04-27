@@ -1,0 +1,129 @@
+---
+layout: default
+title: Libraries
+permalink: /libraries
+---
+
+<div id="libraries-page" class="common-layout">
+  <div class="content">
+    <h1>CircuitPython Libraries</h1>
+    <p>
+      The CircuitPython Library Bundle contains all current libraries available for
+      CircuitPython. They are designed for use with CircuitPython and may or may not
+      work with MicroPython. The bundle options are explained below.
+    <p>
+      CircuitPython libraries are separate files designed to work with CircuitPython code.
+      CircuitPython programs require a lot of information to run. CircuitPython is so simple
+      to use because most of this information is processed in the background and stored in
+      libraries. Some libraries are built into CircuitPython. Others are downloaded and
+      stored on your CIRCUITPY drive in a folder called lib.
+    </p>
+    <p>
+      The full list of all the CircuitPython libraries contained in the following bundles
+      can be found on the
+      <a href="https://circuitpython.readthedocs.io/projects/bundle/en/latest/drivers.html" title="">libraries page</a>.
+    <h2>Download and Installation Instructions</h2>
+    <p>
+      The libraries in each release are compiled to .mpy for all recent major versions
+      of CircuitPython. Please download the bundle that matches the major version
+      of your CircuitPython. For example, if you are running 4.0.0 you should
+      download the 4.x bundle. The .mpy files are designed to take up less space on
+      your CIRCUITPY drive. Unless you have a specific reason, choose the appropiate
+      .mpy library bundle!
+    </p>
+    <p>
+      <b>To install</b>, download the appropriate bundle for your version of CircuitPython.
+      Unzip the file, open the resulting folder and find the lib folder. Open the lib
+      folder and find the library files you need to load. Create a lib folder on your
+      CIRCUITPY drive. Copy the individual library files you need to the lib folder
+      on your CIRCUITPY drive.
+    </p>
+    <p>
+      You can always find the
+      <a href="https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest">latest releases of the libraries bundle</a>
+      on GitHub.
+    <div class="release-section">
+      <div id="adafruit-circuitpython-bundle-4.x-mpy">
+        <h3>Bundle Version 4.x</h3>
+        <p>
+          This bundle is built for use with CircuitPython 4.x.x. If you are using
+          CircuitPython 4, please download this bundle.
+        </p>
+      </div>
+      <div id="adafruit-circuitpython-bundle-3.x-mpy">
+        <h3>Bundle Version 3.x</h3>
+        <p>
+          This bundle is built for use with CircuitPython 3.x.x. If you are using
+          CircuitPython 3, please download this bundle.
+        </p>
+      </div>
+      <div id="adafruit-circuitpython-bundle-py">
+        <h3>Bundle Version py</h3>
+        <p>
+          This bundle is the uncompiled source code for every library. It is not
+          intended for general use! It is only recommended if you need to edit
+          a library file. This bundle works with all versions of CircuitPython.
+        </p>
+      </div>
+      <div id="adafruit-circuitpython-bundle-examples">
+        <h3>Bundle Examples</h3>
+        <p>
+          Every CircuitPython library has examples to go along with it. This bundle
+          contains every library example. This bundle will have examples that
+          require the latest version of CircuitPython, and therefore contains files
+          that may not work with all versions.
+        </p>
+      </div>
+    </div>
+    <h2>Contributing</h2>
+    <p>
+      If you'd like to contribute to the CircuitPython project, the CircuitPython
+      libraries are a great way to begin. Everyone is welcome to contribute!
+      Regardless of your experience level, we have many resources to get you
+      started. Check out the Contributing page for detailed information!
+    </p>
+    <p>
+      Find out more about how you can
+      <a href="{{ "/libraries/contributing" | relative_url }}" title="Contributing Page">contribute to CircuitPython libraries</a>.
+    </p>
+    <h2>Library Activity for Week of  {{ site.data.libraries.updated_at | date: "%a, %b %d, %Y" }}</h2>
+    <p>
+      Thank you to all of our contributors!
+    </p>
+    <p>
+      This week there were {{ site.data.libraries.merged_pr_count }} pull requests merged:
+      <ul>
+        <li>
+          Authors:
+          {% for contributor in site.data.libraries.contributors %}
+            <a href="https://github.com/{{contributor}}" title="Contributor Name">{{contributor}}</a>{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </li>
+        <li>
+          Reviewers:
+          {% for reviewer in site.data.libraries.reviewers %}
+            <a href="https://github.com/{{reviewer}}" title="Contributor Name">{{reviewer}}</a>{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </li>
+      </ul>
+    </p>
+    <div class="libraries new">
+      <h3>New Libraries</h3>
+      <ul>
+      {% for library in site.data.libraries.library_updates.new %}
+        <li><a href="{{library[1]}}" title="New Library Location">{{library[0]}}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div class="libraries updated">
+      <h3>Updated Libraries</h3>
+      <ul>
+      {% for library in site.data.libraries.library_updates.updated %}
+        <li><a href="{{library[1]}}" title="Updated Library Location">{{library[0]}}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/libraries.js"></script>
