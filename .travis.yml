@@ -1,7 +1,23 @@
-language: ruby
-rvm:
-  - 2.5.3
-install:
-  - gem install git
-script:
-    -
+# TravisCI config for circuitpython.org
+
+dist: xenial
+
+matrix:
+  include:
+    - language: ruby
+      rvm: 2.5.3
+      name: "rvm"
+      install:
+        - gem install git
+      script:
+        -
+
+    - language: python
+      python: "3.6"
+      name: "adabot auto-updater"
+      install:
+          - pip install --user -r adabot/requirements.txt
+      script:
+        - cd adabot
+        - python -u -m adabot.update_cp_org_libraries
+      if: $TRAVIS_EVENT_TYPE="cron"
