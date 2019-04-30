@@ -1,7 +1,15 @@
-language: ruby
-rvm:
-  - 2.5.3
+# TravisCI config for circuitpython.org
+
+# only run if triggered by a cron
+if: $TRAVIS_EVENT_TYPE="cron"
+
+dist: xenial
+language: python
+python: "3.6"
+
 install:
-  - gem install git
+  - pip install --user -r adabot/requirements.txt
+
 script:
-    -
+  - cd adabot
+  - python -u -m adabot.update_cp_org_libraries
