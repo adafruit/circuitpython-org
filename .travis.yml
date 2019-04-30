@@ -1,7 +1,7 @@
 # TravisCI config for circuitpython.org
 
 # only run if triggered by a cron
-if: $TRAVIS_EVENT_TYPE="cron"
+if: type = cron
 
 dist: xenial
 language: python
