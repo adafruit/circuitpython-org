@@ -1,0 +1,46 @@
+---
+layout: download
+board_id: "google_coral"
+title: "Google Coral Dev Board"
+name: "Google Coral Dev Board"
+manufacturer: "Google"
+board_url: "https://coral.withgoogle.com/products/dev-board"
+board_image: "/assets/images/boards/google_coral.jpg"
+download_instructions: "https://learn.adafruit.com/circuitpython-on-google-coral-linux-blinka"
+downloads_display: true
+blinka: true
+features:
+  - Wi-Fi
+  - Bluetooth/BLE
+  - Ethernet
+  - HDMI
+  - 40-pin GPIO
+---
+
+A development board to quickly prototype on-device ML products. Scale from prototype to production with a removable system-on-module (SOM).
+
+Edge TPU Module
+- CPU	NXP i.MX 8M SOC (quad Cortex-A53, Cortex-M4F)
+- GPU	Integrated GC7000 Lite Graphics
+- ML accelerator	Google Edge TPU coprocessor
+- RAM	1 GB LPDDR4
+- Flash memory	8 GB eMMC
+- Wireless	Wi-Fi 2x2 MIMO (802.11b/g/n/ac 2.4/5GHz) Bluetooth 4.1
+- Dimensions	48mm x 40mm x 5mm
+
+Baseboard
+- Flash memory	MicroSD slot
+- USB	Type-C OTG Type-C power Type-A 3.0 host Micro-B serial console
+- LAN	Gigabit Ethernet port
+- Audio	3.5mm audio jack (CTIA compliant) Digital PDM microphone (x2) 2.54mm 4-pin terminal for stereo speakers
+- Video	HDMI 2.0a (full size) 39-pin FFC connector for MIPI-DSI display (4-lane) 24-pin FFC connector for MIPI-CSI2 camera (4-lane)
+- GPIO	3.3V power rail 40 - 255 ohms programmable impedance ~82 mA max current
+- Power	5V DC (USB Type-C)
+- Dimensions	88 mm x 60 mm x 24mm
+
+## Purchase
+* [Google](https://coral.withgoogle.com/products/dev-board)
+
+## Contribute
+
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).
