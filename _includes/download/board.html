@@ -55,7 +55,7 @@
       </label>
       <div class="download-buttons">
       {% for file in version.files['en_US'] %}
-        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ file | slice: -3, 3 }}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download"></i></a>
+        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ file | slice: -3, 3 }}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
       </div>
     </div>
@@ -70,7 +70,7 @@
     the absolute latest and are feeling risky.
   </p>
   <div>
-      <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right"></i></a>
+      <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
     <div class="clear"></div>
   </div>
 </div>
@@ -81,7 +81,7 @@
     the latest stable otherwise.
   </p>
   <div>
-      <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github"></i></a>
+      <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
     <div class="clear"></div>
   </div>
 </div>
