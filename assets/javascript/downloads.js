@@ -2,6 +2,7 @@ var downloadsSearch = {
   initFilter: false,
   featuresChecked: false,
   searchTerm: null,
+  urlTimeout: null,
   manufacturers: {},
   features: {},
   selected: {
@@ -21,22 +22,79 @@ document.addEventListener('DOMContentLoaded', function() {
   for(var i = 0; i < sortRadios.length; i++) {
     sortRadios[i].addEventListener('click', handleSortResults);
   }
+
+  handlePageLoad();
 });
+
+function setURL(query, value) {
+  clearTimeout(downloadsSearch.urlTimeout);
+
+  downloadsSearch.urlTimeout = setTimeout(function() {
+    var url = new URL(window.location.href);
+    if (!value.length) {
+      url.searchParams.delete(query);
+    } else if (Array.isArray(value)) {
+      url.searchParams.delete(query);
+      value.forEach(function(v) {
+        url.searchParams.append(query, v);
+      })
+    } else {
+      url.searchParams.set(query, value);
+    }
+
+    window.history.pushState(null, document.title, url.href);
+  }, 1000);
+}
+
+function handlePageLoad() {
+  initFilter();
+
+  var url = new URL(window.location.href);
+  //get values from URL
+  var manufacturers = url.searchParams.getAll('manufacturers');
+  var features = url.searchParams.getAll('features');
+  var sort_by = url.searchParams.get('sort-by');
+  downloadsSearch.searchTerm = url.searchParams.get('q');
+
+  if (downloadsSearch.searchTerm) {
+    document.getElementById("search").value = downloadsSearch.searchTerm;
+    filterResults();
+  }
+
+  if (manufacturers.length) {
+    manufacturers.forEach(function(selected) {
+      document.querySelector("input[name='manufacturer'][value='" + selected + "']").click();
+    });
+  }
+
+  if (features.length) {
+    features.forEach(function(selected) {
+      document.querySelector("input[name='feature'][value='" + selected + "']").click();
+    });
+  }
+
+  if (sort_by.length) {
+    document.querySelector("input[name='sort-by'][value='" + sort_by + "']").click();
+  }
+}
 
 function handleSearch(event) {
   downloadsSearch.searchTerm = event.target.value;
+  setURL('q', downloadsSearch.searchTerm);
+
   filterResults();
 }
 
 function handleFilter(event) {
-  if (!downloadsSearch.initFilter) {
-    initFilter();
-  }
-
+  initFilter();
   toggleFilterContainer();
 }
 
 function initFilter() {
+  if (downloadsSearch.initFilter) {
+    return;
+  }
+
   var downloads = document.querySelectorAll('.download');
 
   setupManufacturers(downloads);
@@ -134,17 +192,20 @@ function setupFeatures(downloads) {
 function setupFilterListeners() {
   document.body.addEventListener('change', function (event) {
     var checkbox = event.target;
+    var index = downloadsSearch.selected.manufacturers.indexOf(checkbox.value);
     if (checkbox.name === 'manufacturer') {
       if (checkbox.checked) {
-        downloadsSearch.selected.manufacturers.push(checkbox.value);
-        appendFilterTag('manufacturer', checkbox.value);
+        if (index == -1) {
+          downloadsSearch.selected.manufacturers.push(checkbox.value);
+          appendFilterTag('manufacturer', checkbox.value);
+        }
       } else {
-        var index = downloadsSearch.selected.manufacturers.indexOf(checkbox.value);
         if (index > -1) {
           downloadsSearch.selected.manufacturers.splice(index, 1);
           removeFilterTag('manufacturer', checkbox.value);
         }
       }
+      setURL('manufacturers', downloadsSearch.selected.manufacturers);
       filterResults();
     }
 
@@ -159,6 +220,7 @@ function setupFilterListeners() {
           removeFilterTag('feature', checkbox.value);
         }
       }
+      setURL('features', downloadsSearch.selected.manufacturers);
       filterResults();
     }
   });
@@ -205,6 +267,7 @@ function filterResults() {
 
 function handleSortResults(event) {
   var sortType = event.target.value;
+  setURL('sort-by', sortType);
   var downloads = document.querySelector('.downloads-section');
 
   Array.prototype.slice.call(downloads.children)
