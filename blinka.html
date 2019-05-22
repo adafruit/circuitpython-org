@@ -9,34 +9,41 @@ permalink: /blinka
   <div class="downloads-inputs">
     <div class="downloads-search">
       <label class="search-wrapper">
-        <input type="text" id="search" placeholder="Search for CircuitPython boards" />
+        <input aria-label="Search for Blinka boards" type="text" id="search" placeholder="Search for Blinka boards" />
       </label>
     </div>
     <div class="downloads-filter">
-      <button class="filter"><i class="fas fa-sliders-h"></i></button>
+      <button class="filter" title="Filter Boards"><i class="fas fa-sliders-h" aria-hidden="true"></i></button>
     </div>
     <div class="downloads-filter-tags">
     </div>
   </div>
   <div class="downloads-filter-content">
     <div class="filter-buttons">
-      <button class="save-changes"><i class="fas fa-times"></i></button>
+      <button class="save-changes" title="Close and Save Changes"><i class="fas fa-times" aria-hidden="true"></i></button>
     </div>
     <div>
       <div class="manufacturers">
-        <h2>Manufacturers</h2>
-        <ul class="content"></ul>
+        <fieldset>
+          <legend>Manufacturers</legend>
+          <ul class="content"></ul>
+        </fieldset>
       </div>
       <div class="features">
-        <h2>Features</h2>
-        <ul class="content"></ul>
+        <fieldset>
+          <legend>Features</legend>
+          <ul class="content"></ul>
+        </fieldset>
       </div>
       <div class="sort-by">
-        <h2>Sort By</h2>
-        <ul class="content">
-          <li><input type="radio" name="sort-by" value="alpha-asc" checked> Board Name (A to Z)</li>
-          <li><input type="radio" name="sort-by" value="alpha-desc"> Board Name (Z to A)</li>
-        </ul>
+        <fieldset>
+          <legend>Sort By</legend>
+          <ul class="content">
+            <li><input type="radio" name="sort-by" value="downloads" aria-label="Downloads" checked> Downloads</li>
+            <li><input type="radio" name="sort-by" value="alpha-asc" aria-label="Board Name (A to Z)"> Board Name (A to Z)</li>
+            <li><input type="radio" name="sort-by" value="alpha-desc" aria-label="Board Name (Z to A)"> Board Name (Z to A)</li>
+          </ul>
+        </fieldset>
       </div>
     </div>
   </div>
@@ -50,7 +57,7 @@ permalink: /blinka
           <a href="{{ board.url | relative_url }}">
             <div>
               <div class="img-responsive-4by3">
-                <img src="{{ board.board_image | relative_url }}">
+                <img src="{{ board.board_image | relative_url }}" alt="Image of Board">
               </div>
               <div class="details">
                 <h3>{{ board.name }}</h3>

@@ -33,3 +33,12 @@ a.purple-button-link {
     padding-left: 10px;
   }
 }
+
+fieldset {
+    border: 0;
+
+    legend {
+      font-size: 1.5em;
+      font-weight: 500;
+    }
+}

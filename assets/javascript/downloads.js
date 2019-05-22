@@ -326,7 +326,7 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedFeatur
 }
 
 function appendFilterTag(type, name) {
-  var tagHtml = "<span class='tag'><i class='fas fa-times tag-remove' ";
+  var tagHtml = "<span class='tag'><i class='fas fa-times tag-remove' title='Remove Filtered Option'";
   tagHtml += "data-type='" + type + "' ";
   tagHtml += "data-name='" + name + "'></i>";
   tagHtml += name + "</span>";
