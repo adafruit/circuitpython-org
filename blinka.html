@@ -24,19 +24,26 @@ permalink: /blinka
     </div>
     <div>
       <div class="manufacturers">
-        <h2>Manufacturers</h2>
-        <ul class="content"></ul>
+        <fieldset>
+          <legend>Manufacturers</legend>
+          <ul class="content"></ul>
+        </fieldset>
       </div>
       <div class="features">
-        <h2>Features</h2>
-        <ul class="content"></ul>
+        <fieldset>
+          <legend>Features</legend>
+          <ul class="content"></ul>
+        </fieldset>
       </div>
       <div class="sort-by">
-        <h2>Sort By</h2>
-        <ul class="content">
-          <li><input type="radio" name="sort-by" value="alpha-asc" checked> Board Name (A to Z)</li>
-          <li><input type="radio" name="sort-by" value="alpha-desc"> Board Name (Z to A)</li>
-        </ul>
+        <fieldset>
+          <legend>Sort By</legend>
+          <ul class="content">
+            <li><input type="radio" name="sort-by" value="downloads" aria-label="Downloads" checked> Downloads</li>
+            <li><input type="radio" name="sort-by" value="alpha-asc" aria-label="Board Name (A to Z)"> Board Name (A to Z)</li>
+            <li><input type="radio" name="sort-by" value="alpha-desc" aria-label="Board Name (Z to A)"> Board Name (Z to A)</li>
+          </ul>
+        </fieldset>
       </div>
     </div>
   </div>
