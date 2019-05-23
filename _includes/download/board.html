@@ -1,6 +1,8 @@
 {% assign board = site.data.files | where: "id", page.board_id %}
 {% if board[0] %}
-{% assign releases = board[0].versions | sort: "version" %}
+{% assign stable = board[0].versions | where: "stable", true | sort: "version" %}
+{% assign unstable = board[0].versions | where: "stable", false | sort: "version" %}
+{% assign releases = stable | concat: unstable %}
 {% for version in releases %}
   <div class="section {% if version.stable %}stable{% else %}unstable{% endif %}">
     <h3>CircuitPython {{ version.version }}</h3>
