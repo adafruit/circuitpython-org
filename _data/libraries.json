@@ -1,35 +1,48 @@
 {
-  "updated_at": "2019-05-20T21:41:30Z",
+  "updated_at": "2019-05-28T14:24:45Z",
   "contributors": [
     "tannewt",
-    "ladyada",
-    "caternuson",
-    "mrmcwethy",
-    "dherrada",
+    "tgs",
     "makermelissa",
+    "peterhinch",
+    "dherrada",
     "matt-land",
+    "jpecor",
+    "siddacious",
+    "dhalbert",
     "brentru",
-    "fezthedev"
+    "ZachNo",
+    "caternuson"
   ],
   "reviewers": [
-    "kattni",
     "tannewt",
-    "ladyada",
-    "siddacious",
-    "caternuson",
-    "dherrada",
     "makermelissa",
-    "matt-land"
+    "matt-land",
+    "sommersoft",
+    "kattni",
+    "siddacious",
+    "ladyada",
+    "caternuson"
   ],
-  "merged_pr_count": "13",
+  "merged_pr_count": "17",
   "library_updates": {
-    "new": {},
+    "new": {
+      "Adafruit_CircuitPython_AzureIoT": "https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT",
+      "Adafruit_CircuitPython_BD3491FS": "https://github.com/adafruit/Adafruit_CircuitPython_BD3491FS"
+    },
     "updated": {
-      "Adafruit_CircuitPython_EPD": "https://github.com/adafruit/Adafruit_CircuitPython_EPD",
-      "Adafruit_CircuitPython_GPS": "https://github.com/adafruit/Adafruit_CircuitPython_GPS",
-      "Adafruit_CircuitPython_LIFX": "https://github.com/adafruit/Adafruit_CircuitPython_LIFX",
+      "Adafruit_CircuitPython_Bitmap_Font": "https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font",
+      "Adafruit_CircuitPython_BMP280": "https://github.com/adafruit/Adafruit_CircuitPython_BMP280",
+      "Adafruit_CircuitPython_CircuitPlayground": "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground",
+      "Adafruit_CircuitPython_ESP32SPI": "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI",
+      "Adafruit_CircuitPython_FocalTouch": "https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch",
+      "Adafruit_CircuitPython_HID": "https://github.com/adafruit/Adafruit_CircuitPython_HID",
+      "Adafruit_CircuitPython_INA260": "https://github.com/adafruit/Adafruit_CircuitPython_INA260",
+      "Adafruit_CircuitPython_LPS35HW": "https://github.com/adafruit/Adafruit_CircuitPython_LPS35HW",
       "Adafruit_CircuitPython_MCP230xx": "https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx",
-      "Adafruit_CircuitPython_Motor": "https://github.com/adafruit/Adafruit_CircuitPython_Motor"
+      "Adafruit_CircuitPython_PyPortal": "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal",
+      "Adafruit_CircuitPython_STMPE610": "https://github.com/adafruit/Adafruit_CircuitPython_STMPE610",
+      "Adafruit_CircuitPython_Waveform": "https://github.com/adafruit/Adafruit_CircuitPython_Waveform"
     }
   },
   "open_issues": {
@@ -39,9 +52,6 @@
       }
     ],
     "Adafruit_CircuitPython_AMG88xx": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx/issues/15": "Handling of negative pixel temperature values is incorrect"
-      },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx/issues/11": "Strange values from simpletest.py"
       }
@@ -66,6 +76,9 @@
       }
     ],
     "Adafruit_CircuitPython_BME280": [
+      {
+        "https://github.com/adafruit/Adafruit_CircuitPython_BME280/issues/25": "Don't use frozenset"
+      },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_BME280/issues/23": "Align code in this library to Adafruit code for ESP32, ESP8266, etc."
       },
@@ -141,6 +154,9 @@
     ],
     "Adafruit_CircuitPython_Display_Text": [
       {
+        "https://github.com/adafruit/Adafruit_CircuitPython_Display_Text/issues/11": "Group full when assigning longer text"
+      },
+      {
         "https://github.com/adafruit/Adafruit_CircuitPython_Display_Text/issues/10": "Failing to Deploy"
       },
       {
@@ -170,24 +186,27 @@
     ],
     "Adafruit_CircuitPython_EPD": [
       {
+        "https://github.com/adafruit/Adafruit_CircuitPython_EPD/issues/21": "fill() method does not seem to work after first time eink 1.54 display"
+      },
+      {
         "https://github.com/adafruit/Adafruit_CircuitPython_EPD/issues/16": "fill_rect not filling on SSD1675 2.13\" monochrome eInk display"
       }
     ],
     "Adafruit_CircuitPython_ESP32SPI": [
       {
+        "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/issues/46": "Analog read"
+      },
+      {
         "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/issues/41": "Using Adafruit.io weather API, responses often truncated"
       },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/issues/28": "requests fails sending large header values or paths over socket"
-      },
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/issues/11": "hang during get"
-      },
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/issues/9": "json error in get"
       }
     ],
     "Adafruit_CircuitPython_ESP_ATcontrol": [
+      {
+        "https://github.com/adafruit/Adafruit_CircuitPython_ESP_ATcontrol/issues/30": "simpletest and webclient seem to be failing on the Particle Argon"
+      },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_ESP_ATcontrol/issues/20": "MAC addr reading"
       },
@@ -234,9 +253,6 @@
         "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad/issues/6": "AttributeError: 'Bitmap' object has no attribute '_load_row'"
       },
       {
-        "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad/issues/5": "adafruit_imageload missing 'bmp' directory in Adafruit_CircuitPython_Bundle releases"
-      },
-      {
         "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad/issues/3": "https://image.online-convert.com/convert-to-bmp bmp does not display from converted png"
       },
       {
@@ -254,11 +270,6 @@
       },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_MAX31865/issues/10": "OSError: [Errno 12] Cannot allocate memory"
-      }
-    ],
-    "Adafruit_CircuitPython_MCP230xx": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx/issues/12": "No module named 'adafruit_mcp230xx'"
       }
     ],
     "Adafruit_CircuitPython_MCP3xxx": [
@@ -306,6 +317,9 @@
     ],
     "Adafruit_CircuitPython_NeoPixel": [
       {
+        "https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/46": "Default pixel_order and bpp don't match"
+      },
+      {
         "https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/42": "Board not supported - beagle bone"
       },
       {
@@ -313,9 +327,6 @@
       }
     ],
     "Adafruit_CircuitPython_PN532": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_PN532/issues/20": "Authenticate with card key"
-      },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_PN532/issues/19": "SPI read_passive_target timeout not working correctly"
       },
@@ -327,6 +338,9 @@
       }
     ],
     "Adafruit_CircuitPython_PyPortal": [
+      {
+        "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal/issues/37": "Improve error handling for HTTP response errors and exception handling for JSON parse parsing in fetch()"
+      },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal/issues/22": "Problems with adafruit.io image conversion calls (no response and no timeout, short data)"
       },
@@ -422,6 +436,11 @@
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_TSL2591/issues/7": "Equation for Lux calculation does not reflect Library"
       }
+    ],
+    "Adafruit_CircuitPython_VEML7700": [
+      {
+        "https://github.com/adafruit/Adafruit_CircuitPython_VEML7700/issues/4": "VEML7700 Not loading"
+      }
     ]
   },
   "pull_requests": {
@@ -431,11 +450,6 @@
       },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_AdafruitIO/pull/20": "Adding Example for API Coverage Tests"
-      }
-    ],
-    "Adafruit_CircuitPython_AzureIoT": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT/pull/1": "Initial Commit! "
       }
     ],
     "Adafruit_CircuitPython_BitbangIO": [
@@ -450,9 +464,6 @@
     ],
     "Adafruit_CircuitPython_BNO055": [
       {
-        "https://github.com/adafruit/Adafruit_CircuitPython_BNO055/pull/31": "Rename .reset ._reset as per issue #28"
-      },
-      {
         "https://github.com/adafruit/Adafruit_CircuitPython_BNO055/pull/30": "Add calibration offsets and radii as properties on BNO055 library"
       },
       {
@@ -465,9 +476,6 @@
       }
     ],
     "Adafruit_CircuitPython_CircuitPlayground": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground/pull/58": "Added module name to beginning of example filenames & updated docs to match"
-      },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground/pull/57": "volume"
       },
@@ -493,20 +501,12 @@
         "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/pull/45": "Adding WPA2 Enterprise support to the WiFi manager library"
       },
       {
-        "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/pull/42": "Fixed infinite loop when socket readline fails"
-      },
-      {
         "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/pull/29": "Chunk buffer sends into 64 byte chunks"
       }
     ],
     "Adafruit_CircuitPython_Fingerprint": [
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint/pull/11": "library expansion and compatibility with other ZhianTec fp sensors"
-      }
-    ],
-    "Adafruit_CircuitPython_FocalTouch": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch/pull/8": "Added module name to beginning of example filenames & updated docs to match"
       }
     ],
     "Adafruit_CircuitPython_framebuf": [
@@ -519,11 +519,6 @@
         "https://github.com/adafruit/Adafruit_CircuitPython_GFX/pull/6": "add text and rounded rectangle via methods and dir change "
       }
     ],
-    "Adafruit_CircuitPython_GPS": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_GPS/pull/31": "Fixed some errors travis was throwing."
-      }
-    ],
     "Adafruit_CircuitPython_HT16K33": [
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/pull/37": "Added a module to support 8 character 14 segment LED displays"
@@ -532,11 +527,6 @@
     "Adafruit_CircuitPython_Hue": [
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_Hue/pull/6": "Add SimpleIO and ESP libraries to README"
-      }
-    ],
-    "Adafruit_CircuitPython_ImageLoad": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad/pull/12": "Working P1-P6 formats"
       }
     ],
     "Adafruit_CircuitPython_LSM303": [
@@ -549,27 +539,27 @@
         "https://github.com/adafruit/Adafruit_CircuitPython_MAX31865/pull/9": "Fix for below 0C measurements with nominal resistance other than 100 ohms"
       }
     ],
+    "Adafruit_CircuitPython_MCP230xx": [
+      {
+        "https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx/pull/14": "Improve interrupt"
+      }
+    ],
     "Adafruit_CircuitPython_MIDI": [
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_MIDI/pull/13": "Removing the original method per MIDI message (event) API"
       }
     ],
-    "Adafruit_CircuitPython_miniQR": [
+    "Adafruit_CircuitPython_Motor": [
       {
-        "https://github.com/adafruit/Adafruit_CircuitPython_miniQR/pull/7": "Add Adafruit-Blinka to requirements"
-      }
-    ],
-    "Adafruit_CircuitPython_NeoPixel": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/pull/28": "variant that works with pixelbuf"
+        "https://github.com/adafruit/Adafruit_CircuitPython_Motor/pull/29": "Remove call to _update_coils in __init__"
       }
     ],
     "Adafruit_CircuitPython_PyPortal": [
       {
-        "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal/pull/34": "Add sd_check function to pyportal"
+        "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal/pull/36": "Added IO_push"
       },
       {
-        "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal/pull/29": "Added IO_push"
+        "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal/pull/34": "Add sd_check function to pyportal"
       },
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal/pull/20": "Allo JSON raw data requests"
@@ -583,14 +573,6 @@
     "Adafruit_CircuitPython_TLC59711": [
       {
         "https://github.com/adafruit/Adafruit_CircuitPython_TLC59711/pull/5": "adding alternative TLC59711Multi driver implementation"
-      }
-    ],
-    "Adafruit_CircuitPython_Waveform": [
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_Waveform/pull/8": "Add Adafruit-Blinka to requirements"
-      },
-      {
-        "https://github.com/adafruit/Adafruit_CircuitPython_Waveform/pull/7": "Added module name to beginning of example filenames & updated docs to match"
       }
     ],
     "Adafruit_CircuitPython_WS2801": [
@@ -607,31 +589,25 @@
       "https://github.com/adafruit/Adafruit_CircuitPython_VCNL4040",
       "https://github.com/adafruit/Adafruit_CircuitPython_RPLIDAR",
       "https://github.com/adafruit/Adafruit_CircuitPython_Logger",
-      "https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font",
       "https://github.com/adafruit/Adafruit_CircuitPython_MIDI",
       "https://github.com/adafruit/Adafruit_CircuitPython_ESP_ATcontrol",
       "https://github.com/adafruit/Adafruit_CircuitPython_Display_Text",
+      "https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font",
       "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal"
-    ],
-    "CircuitPythonLibrarians team missing or does not have write access": [
-      "https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT"
     ],
     "Example file(s) missing sensor/library name": [
       "https://github.com/adafruit/Adafruit_CircuitPython_GFX",
       "https://github.com/adafruit/Adafruit_CircuitPython_DotStar",
-      "https://github.com/adafruit/Adafruit_CircuitPython_Waveform",
       "https://github.com/adafruit/Adafruit_CircuitPython_framebuf",
       "https://github.com/adafruit/Adafruit_CircuitPython_AdafruitIO",
-      "https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch",
       "https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display",
       "https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15",
       "https://github.com/adafruit/Adafruit_CircuitPython_SSD1306",
-      "https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx",
       "https://github.com/adafruit/Adafruit_CircuitPython_AVRprog",
-      "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground",
-      "https://github.com/adafruit/Adafruit_CircuitPython_BNO055",
+      "https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx",
       "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad",
-      "https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx"
+      "https://github.com/adafruit/Adafruit_CircuitPython_BNO055",
+      "https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx"
     ],
     "Failed to fetch latest release from GitHub": [
       "https://github.com/adafruit/Adafruit_CircuitPython_VCNL4040"
@@ -651,8 +627,8 @@
       "https://github.com/adafruit/Adafruit_CircuitPython_ST7735",
       "https://github.com/adafruit/Adafruit_CircuitPython_ST7735R",
       "https://github.com/adafruit/Adafruit_CircuitPython_ST7789",
-      "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground",
-      "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad"
+      "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad",
+      "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground"
     ],
     "For pypi compatibility, missing setup.py": [
       "https://github.com/adafruit/Adafruit_CircuitPython_CPython",
@@ -665,31 +641,29 @@
       "https://github.com/adafruit/Adafruit_CircuitPython_ST7735",
       "https://github.com/adafruit/Adafruit_CircuitPython_ST7735R",
       "https://github.com/adafruit/Adafruit_CircuitPython_ST7789",
-      "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground",
       "https://github.com/adafruit/Adafruit_CircuitPython_Display_Text",
-      "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad"
+      "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad",
+      "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground"
     ],
     "Library has new commits since last release over a month ago": [
-      "https://github.com/adafruit/Adafruit_CircuitPython_MCP9808 (84 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_TLC59711 (84 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_HID (54 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground (84 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad (37 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx (35 days)"
+      "https://github.com/adafruit/Adafruit_CircuitPython_MCP9808 (91 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_TLC59711 (91 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx (42 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad (45 days)"
     ],
     "Library has new commits since last release within the last month": [
-      "https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch (14 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_DS2413 (14 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_HTU21D (12 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_FancyLED (13 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal (16 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_IRRemote (9 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_PN532 (13 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_GPS (9 days)",
-      "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI (24 days)"
+      "https://github.com/adafruit/Adafruit_CircuitPython_DS2413 (21 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_HTU21D (20 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_FancyLED (20 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_IRRemote (16 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_PN532 (20 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_miniesptool (12 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_BNO055 (13 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_GPS (16 days)"
     ],
     "Library has new commits since last release within the last week": [
-      "https://github.com/adafruit/Adafruit_CircuitPython_miniesptool (4 days)"
+      "https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx (6 days)",
+      "https://github.com/adafruit/Adafruit_CircuitPython_Motor (3 days)"
     ],
     "Library repository has no releases": [
       "https://github.com/adafruit/Adafruit_CircuitPython_CPython",
@@ -700,15 +674,15 @@
     "Missing simpletest example.": [
       "https://github.com/adafruit/Adafruit_CircuitPython_BoardTest",
       "https://github.com/adafruit/Adafruit_CircuitPython_OneWire",
-      "https://github.com/adafruit/Adafruit_CircuitPython_Waveform",
-      "https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch",
       "https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO",
       "https://github.com/adafruit/Adafruit_CircuitPython_FancyLED",
       "https://github.com/adafruit/Adafruit_CircuitPython_AVRprog",
       "https://github.com/adafruit/Adafruit_CircuitPython_BusDevice",
       "https://github.com/adafruit/Adafruit_CircuitPython_Register",
       "https://github.com/adafruit/Adafruit_CircuitPython_miniesptool",
-      "https://github.com/adafruit/Adafruit_CircuitPython_Motor"
+      "https://github.com/adafruit/Adafruit_CircuitPython_Motor",
+      "https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch",
+      "https://github.com/adafruit/Adafruit_CircuitPython_Waveform"
     ],
     "New repo(s) currently in work, and unreleased": [
       "https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233",
@@ -716,8 +690,7 @@
       "https://github.com/adafruit/Adafruit_CircuitPython_MFRC630",
       "https://github.com/adafruit/Adafruit_CircuitPython_BitbangIO",
       "https://github.com/adafruit/Adafruit_CircuitPython_MCP9600",
-      "https://github.com/adafruit/Adafruit_CircuitPython_NRF24L01",
-      "https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT"
+      "https://github.com/adafruit/Adafruit_CircuitPython_NRF24L01"
     ],
     "Not in bundle.": [
       "https://github.com/adafruit/Adafruit_CircuitPython_CPython",
@@ -745,13 +718,11 @@
       "https://github.com/adafruit/Adafruit_CircuitPython_ST7789",
       "https://github.com/adafruit/Adafruit_CircuitPython_HX8357",
       "https://github.com/adafruit/Adafruit_CircuitPython_AdafruitIO",
-      "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground",
       "https://github.com/adafruit/Adafruit_CircuitPython_Display_Text",
+      "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad",
+      "https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT",
       "https://github.com/adafruit/Adafruit_CircuitPython_PyPortal",
-      "https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad"
-    ],
-    "Only allow merges, disallow rebase and squash": [
-      "https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT"
+      "https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground"
     ],
     "PyLint version not fixed": [
       "https://github.com/adafruit/Adafruit_CircuitPython_CPython"
@@ -772,16 +743,13 @@
       "https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI"
     ],
     "ReadTheDocs project missing adabot as owner": [
-      "https://github.com/adafruit/Adafruit_CircuitPython_LPS35HW"
+      "https://github.com/adafruit/Adafruit_CircuitPython_LPS35HW",
+      "https://github.com/adafruit/Adafruit_CircuitPython_BD3491FS"
     ],
     "Unable to find or create (no auth) GITHUB_TOKEN env variable": [
       "https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233",
       "https://github.com/adafruit/Adafruit_CircuitPython_SK9822",
-      "https://github.com/adafruit/Adafruit_CircuitPython_CPython",
-      "https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT"
-    ],
-    "Wiki should be disabled": [
-      "https://github.com/adafruit/Adafruit_CircuitPython_AzureIoT"
+      "https://github.com/adafruit/Adafruit_CircuitPython_CPython"
     ]
   }
 }
