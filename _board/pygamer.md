@@ -26,7 +26,7 @@ For built in sensors, there's a light sensor that points out the front, and a 3-
 
 You can power the PyGamer from any Adafruit LiPoly battery, but [this 350mAh one](https://www.adafruit.com/product/2750) is suggested as it will fit into the [Adafruit PyGamer acrylic case](https://www.adafruit.com/product/4238) (sold separately). An on-off switch will save battery power when not in use. Or power the PyGamer from the Micro USB port - it will also charge up the battery if one is attached.
 
-[![PyGamer](http://img.youtube.com/vi/2f-gZwdTFyo/0.jpg)](https://youtu.be/yX2SuS0rK2A?t=1167 "PyGamer")
+[![PyGamer](http://img.youtube.com/vi/yX2SuS0rK2A/0.jpg)](https://youtu.be/yX2SuS0rK2A?t=1167 "PyGamer")
 
 ## Purchase
 
