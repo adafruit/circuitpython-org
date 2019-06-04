@@ -5,7 +5,7 @@ title: "Xenon Download"
 name: "Xenon"
 manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/xenon-datasheet/"
-board_image: "/assets/images/boards/particle_xenon.jpg"
+board_image: "particle_xenon.jpg"
 features:
   - Feather-compatible
   - Battery Charging

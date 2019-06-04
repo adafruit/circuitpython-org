@@ -5,7 +5,7 @@ title: "Gemma M0 Download"
 name: "Gemma M0"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/gemma_m0.jpg"
+board_image: "gemma_m0.jpg"
 features:
   - Solder-free Alligator clip
 ---

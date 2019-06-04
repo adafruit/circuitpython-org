@@ -5,7 +5,7 @@ title: "CatWAN USB Stick Download"
 name: "CatWAN USB Stick"
 manufacturer: "Electronic Cats"
 board_url: ""
-board_image: "/assets/images/boards/catwan_usbstick.jpg"
+board_image: "catwan_usbstick.jpg"
 features:
   - LoRa/Radio
 ---

@@ -5,7 +5,7 @@ title: "nRF52840 Micro Dev Kit Download"
 name: "nRF52840 Micro Dev Kit"
 manufacturer: "MakerDiary"
 board_url: ""
-board_image: "/assets/images/boards/nRF52840_micro_dev_kit.jpg"
+board_image: "nRF52840_micro_dev_kit.jpg"
 features:
   - Bluetooth/BTLE
 ---

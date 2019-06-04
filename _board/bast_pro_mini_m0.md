@@ -5,7 +5,7 @@ title: "bast_pro_mini_m0 Download"
 name: "bast_pro_mini_m0"
 manufacturer: "unknown"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "unknown.jpg"
 downloads_display: false
 features:
 ---

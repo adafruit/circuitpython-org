@@ -5,7 +5,7 @@ title: "LumiDrive Download"
 name: "LumiDrive"
 manufacturer: "SparkFun"
 board_url: ""
-board_image: "/assets/images/boards/sparkfun_lumidrive_01.jpg"
+board_image: "sparkfun_lumidrive_01.jpg"
 features:
   - Battery Charging
 ---

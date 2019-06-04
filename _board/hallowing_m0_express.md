@@ -5,7 +5,7 @@ title: "HalloWing M0 Express Download"
 name: "HalloWing M0 Express"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/hallowing_m0_express.jpg"
+board_image: "hallowing_m0_express.jpg"
 features:
   - Display
   - Speaker

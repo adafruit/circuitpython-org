@@ -5,7 +5,7 @@ title: "SAMD21 Mini Download"
 name: "SAMD21 Mini"
 manufacturer: "SparkFun"
 board_url: ""
-board_image: "/assets/images/boards/sparkfun_samd21_mini.jpg"
+board_image: "sparkfun_samd21_mini.jpg"
 ---
 
 The SAMD21 Mini Breakout is a Pro Mini-sized breakout for the Atmel ATSAMD21G18, a 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz. 

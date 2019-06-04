@@ -5,7 +5,7 @@ title: "Circuit Playground Express + Crickit Download"
 name: "Circuit Playground Express + Crickit"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/circuitplayground_express_crickit.jpg"
+board_image: "circuitplayground_express_crickit.jpg"
 features:
   - Speaker
   - Robotics

@@ -5,7 +5,7 @@ title: "Papyr Download"
 name: "Papyr"
 manufacturer: "Electronut Labs"
 board_url: "https://docs.electronut.in/papyr/"
-board_image: "/assets/images/boards/electronut_labs_papyr.jpg"
+board_image: "electronut_labs_papyr.jpg"
 downloads_display: true
 features:
   - E-Ink/E-Paper

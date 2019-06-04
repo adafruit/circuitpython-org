@@ -5,7 +5,7 @@ title: "Zero Download"
 name: "Zero"
 manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/ArduinoZero"
-board_image: "/assets/images/boards/arduino_zero.jpg"
+board_image: "arduino_zero.jpg"
 ---
 
 The Arduino Zero is a simple and powerful 32-bit extension of the platform established by the UNO. The Zero board expands the family by providing increased performance, enabling a variety of project opportunities for devices, and acts as a great educational tool for learning about 32-bit application development.  

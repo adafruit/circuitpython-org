@@ -5,7 +5,7 @@ title: "Feather M0 Basic Download"
 name: "Feather M0 Basic"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/feather_m0_basic.jpg"
+board_image: "feather_m0_basic.jpg"
 features:
   - Feather-compatible
   - Battery Charging

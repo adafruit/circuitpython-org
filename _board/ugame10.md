@@ -5,7 +5,7 @@ title: "µGame Download"
 name: "µGame"
 manufacturer: "Radomir Dopieralski"
 board_url: "https://ugame.rtfd.io"
-board_image: "/assets/images/boards/ugame_10.jpg"
+board_image: "ugame_10.jpg"
 features:
   - Display
   - Speaker

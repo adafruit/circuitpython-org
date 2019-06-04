@@ -22,9 +22,9 @@ namespace :images do
 
       large_path = File.join(board_image_path, 'large', path.basename)
       small_path = File.join(board_image_path, 'small', path.basename)
-      
+
       `mozcjpeg -quality 80 -optimize -outfile #{large_path} #{large_processed.path}`
-      `mozcjpeg -quality 80 -optimize -outfile #{small_path} #{small_processed.path}``
+      `mozcjpeg -quality 80 -optimize -outfile #{small_path} #{small_processed.path}`
     end
   end
 end

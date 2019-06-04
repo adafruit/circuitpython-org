@@ -5,7 +5,7 @@ title: "Raspberry Pi 3 Model B+ Download"
 name: "Raspberry Pi 3 Model B+"
 manufacturer: "Raspberry Pi Foundation"
 board_url: "https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/"
-board_image: "/assets/images/boards/raspberry_pi.jpg"
+board_image: "raspberry_pi.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
