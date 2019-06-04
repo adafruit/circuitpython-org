@@ -76,7 +76,7 @@ permalink: /downloads
                            {{ "/assets/images/boards/large/" | append: info.board_image | relative_url }} 700w"
                    sizes="(max-width: 1024px) 700px,
                           300px"
-                   src="{{ "/assets/images/boards/" | append: info.board_image | relative_url }}" alt="Image of Board">
+                   src="{{ "/assets/images/boards/original" | append: info.board_image | relative_url }}" alt="Image of Board">
             </div>
             <div class="details">
               <h3>{{ info.name | default: board.id }}</h3>
@@ -106,7 +106,7 @@ permalink: /downloads
                              {{ "/assets/images/boards/large/" | append: board.board_image | relative_url }} 700w"
                      sizes="(max-width: 1024px) 700px,
                             300px"
-                     src="{{ "/assets/images/boards/" | append: board.board_image | relative_url }}" alt="Image of Board">
+                     src="{{ "/assets/images/boards/original" | append: board.board_image | relative_url }}" alt="Image of Board">
               </div>
               <div class="details">
                 <h3>{{ board.name }}</h3>
