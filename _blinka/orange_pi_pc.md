@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "orange_pi"
-title: "OrangePi Download"
-name: "OrangePi"
+board_id: "orange_pi_pc"
+title: "Orange Pi PC Download"
+name: "Orange Pi PC"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
 board_url: "http://www.orangepi.org/orangepipc/"
-board_image: "/assets/images/boards/orange_pi.jpg"
+board_image: "/assets/images/boards/orange_pi_pc.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true
@@ -28,10 +28,10 @@ What’s Orange Pi PC？It’s an open-source single-board computer. It can run 
 - A CSI input connector Camera
 - Supports 8-bit YUV422 CMOS sensor interface
 - Supports CCIR656 protocol for NTSC and PAL
-- Supports SM pixel camera sensor 
+- Supports SM pixel camera sensor
 - Supports video capture solution up to 1080p@30fps
 - MIC
-- Supports HDMI output with HDCP 
+- Supports HDMI output with HDCP
 - Supports HDMI CEC
 - Supports HDMI 30 function
 - Integrated CVBS
