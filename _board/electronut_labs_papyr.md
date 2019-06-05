@@ -12,7 +12,7 @@ features:
   - Bluetooth/BTLE
 ---
 
-Papyr is a connected e-paper display powered by Nordic Semiconductor's nRF52840 chip. You can read more details on the hardware, and installation instructions for Circuitpython on the [docs site](here https://docs.electronut.in/papyr/circuitpython/) for [Electronut Labs](https://electronut.in).
+Papyr is a connected e-paper display powered by Nordic Semiconductor's nRF52840 chip. You can read more details on the hardware, and installation instructions for Circuitpython on the [docs site](https://docs.electronut.in/papyr/circuitpython/) for [Electronut Labs](https://electronut.in).
 
 ## Purchase
 
