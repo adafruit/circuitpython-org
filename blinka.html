@@ -57,11 +57,7 @@ permalink: /blinka
           <a href="{{ board.url | relative_url }}">
             <div>
               <div class="img-responsive-4by3">
-                <img srcset="{{ "/assets/images/boards/small/" | append: board.board_image | relative_url }} 300w,
-                             {{ "/assets/images/boards/large/" | append: board.board_image | relative_url }} 700w"
-                     sizes="(max-width: 1024px) 700px,
-                            300px"
-                     src="{{ "/assets/images/boards/original/" | append: info.board_image | relative_url }}" alt="Image of Board">
+                {% include downloads/board_image.html board_image=board.board_image %}
               </div>
               <div class="details">
                 <h3>{{ board.name }}</h3>
