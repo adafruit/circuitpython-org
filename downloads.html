@@ -72,7 +72,7 @@ permalink: /downloads
         <a href="{{ info.url | relative_url }}">
           <div>
             <div class="img-responsive-4by3">
-              <img src="{{ info.board_image | relative_url }}" alt="Image of Board">
+              {% include downloads/board_image.html board_image=info.board_image %}
             </div>
             <div class="details">
               <h3>{{ info.name | default: board.id }}</h3>
@@ -98,7 +98,7 @@ permalink: /downloads
           <a href="{{ board.url | relative_url }}">
             <div>
               <div class="img-responsive-4by3">
-                <img src="{{ board.board_image | relative_url }}" alt="Image of Board">
+                {% include downloads/board_image.html board_image=board.board_image %}
               </div>
               <div class="details">
                 <h3>{{ board.name }}</h3>

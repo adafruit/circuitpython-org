@@ -5,7 +5,7 @@ title: "NeoTrellis M4 Download"
 name: "NeoTrellis M4"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/trellis_m4_express.jpg"
+board_image: "trellis_m4_express.jpg"
 features:
   - Display
 ---

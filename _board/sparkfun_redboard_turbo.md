@@ -5,7 +5,7 @@ title: "RedBoard Turbo Download"
 name: "RedBoard Turbo"
 manufacturer: "SparkFun"
 board_url: ""
-board_image: "/assets/images/boards/sparkfun_redboard_turbo.jpg"
+board_image: "sparkfun_redboard_turbo.jpg"
 features:
   - Battery Charging
 ---

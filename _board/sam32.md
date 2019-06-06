@@ -5,7 +5,7 @@ title: "SAM32 Download"
 name: "SAM32"
 manufacturer: "Max Holliday"
 board_url: "https://github.com/maholli/SAM32"
-board_image: "/assets/images/boards/sam32.jpg"
+board_image: "sam32.jpg"
 features:
 ---
  

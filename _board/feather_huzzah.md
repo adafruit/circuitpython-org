@@ -5,7 +5,7 @@ title: "Feather Huzzah Download"
 name: "Feather Huzzah"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/feather_huzzah.jpg"
+board_image: "feather_huzzah.jpg"
 features:
   - Feather-compatible
   - Battery Charging

@@ -5,7 +5,7 @@ title: "PyGamer Download"
 name: "PyGamer"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4242"
-board_image: "/assets/images/boards/pygamer.jpg"
+board_image: "pygamer.jpg"
 features:
   - Display
   - Speaker

@@ -5,7 +5,7 @@ title: "PewPew Download"
 name: "PewPew"
 manufacturer: "Radomir Dopieralski"
 board_url: "https://pewpew.rtfd.io"
-board_image: "/assets/images/boards/pewpew_10.2.jpg"
+board_image: "pewpew_10.2.jpg"
 features:
   - Display
 ---

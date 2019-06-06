@@ -5,7 +5,7 @@ title: "Feather M0 RFM69 Download"
 name: "Feather M0 RFM69"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/feather_m0_rfm69.jpg"
+board_image: "feather_m0_rfm69.jpg"
 features:
   - Feather-compatible
   - Battery Charging

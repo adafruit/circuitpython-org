@@ -5,7 +5,7 @@ title: "Argon Download"
 name: "Argon"
 manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/argon-datasheet/"
-board_image: "/assets/images/boards/particle_argon.jpg"
+board_image: "particle_argon.jpg"
 features:
   - Feather-compatible
   - Battery Charging

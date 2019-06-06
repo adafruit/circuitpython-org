@@ -5,7 +5,7 @@ title: "Feather nRF52840 Express Download"
 name: "Feather nRF52840 Express"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/feather_nrf52840_express.jpg"
+board_image: "feather_nrf52840_express.jpg"
 features:
   - Feather-compatible
   - Battery Charging

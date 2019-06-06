@@ -5,7 +5,7 @@ title: "pewpew13 Download"
 name: "pewpew13"
 manufacturer: "unknown"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "unknown.jpg"
 downloads_display: false
 features:
 ---

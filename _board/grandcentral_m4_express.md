@@ -5,7 +5,7 @@ title: "Grand Central M4 Express Download"
 name: "Grand Central M4 Express"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/grandcentral_m4_express.jpg"
+board_image: "grandcentral_m4_express.jpg"
 ---
 
 The **Adafruit Grand Central** features the **Microchip ATSAMD51**. This dev board is so big, it's not named after a Metro train, it's a whole freakin' _station_!

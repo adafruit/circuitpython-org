@@ -5,7 +5,7 @@ title: "feather_radiofruit_zigbee Download"
 name: "feather_radiofruit_zigbee"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "unknown.jpg"
 downloads_display: false
 features:
 ---

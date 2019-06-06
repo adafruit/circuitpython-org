@@ -5,11 +5,11 @@ title: "Programmable USB Hub Download"
 name: "Programmable USB Hub"
 manufacturer: "Capable Robot Components"
 board_url: "https://www.crowdsupply.com/capable-robot-components/programmable-usb-hub"
-board_image: "/assets/images/boards/capablerobot_usbhub.jpg"
+board_image: "capablerobot_usbhub.jpg"
 ---
 
 In addition to being a 4-port USB 2 High-Speed hub, this Programmable USB hub is also:
-  
+
 *   A CircuitPython based development board.
 *   A bridge between your computer and I2C (via Sparkfun Qwiic connectors), GPIO, and SPI (via its mikroBUS header).
 *   A power supply, providing 6 A of 5 V power to downstream devices and 13 mA resolution monitoring (per-port).

@@ -5,7 +5,7 @@ title: "Orange Pi PC Download"
 name: "Orange Pi PC"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
 board_url: "http://www.orangepi.org/orangepipc/"
-board_image: "/assets/images/boards/orange_pi_pc.jpg"
+board_image: "orange_pi_pc.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true

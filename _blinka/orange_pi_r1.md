@@ -5,7 +5,7 @@ title: "Orange Pi R1 Download"
 name: "Orange Pi R1"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
 board_url: "http://www.orangepi.org/OrangePiR1/"
-board_image: "/assets/images/boards/orange_pi_r1.jpg"
+board_image: "orange_pi_r1.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true

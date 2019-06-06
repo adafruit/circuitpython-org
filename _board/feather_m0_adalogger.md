@@ -5,7 +5,7 @@ title: "Feather M0 Adalogger Download"
 name: "Feather M0 Adalogger"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/feather_m0_adalogger.jpg"
+board_image: "feather_m0_adalogger.jpg"
 features:
   - Feather-compatible
   - Battery Charging

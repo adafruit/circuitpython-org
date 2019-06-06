@@ -5,7 +5,7 @@ title: "ItsyBitsy M0 Express Download"
 name: "ItsyBitsy M0 Express"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/itsybitsy_m0_express.jpg"
+board_image: "itsybitsy_m0_express.jpg"
 ---
 
 What's smaller than a Feather but larger than a Trinket? It's an **Adafruit ItsyBitsy M0 Express**! Small, powerful, with a rockin' ATSAMD21 Cortex M0 processor running at 48 MHz - this microcontroller board is perfect when you want something very compact, but still with a bunch of pins.

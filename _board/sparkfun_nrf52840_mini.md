@@ -5,7 +5,7 @@ title: "nRF52840 Mini Download"
 name: "Pro nRF52840 Mini"
 manufacturer: "SparkFun"
 board_url: ""
-board_image: "/assets/images/boards/sparkfun_nrf52840_mini-01.jpg"
+board_image: "sparkfun_nrf52840_mini-01.jpg"
 features:
   - Battery Charging
   - Bluetooth/BTLE

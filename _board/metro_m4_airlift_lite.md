@@ -5,7 +5,7 @@ title: " Metro M4 AirLift Lite Download"
 name: "Metro M4 AirLift Lite"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4000"
-board_image: "/assets/images/boards/metro_m4_airlift_lite.jpg"
+board_image: "metro_m4_airlift_lite.jpg"
 features:
   - Wi-Fi
 ---

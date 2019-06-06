@@ -5,7 +5,7 @@ title: "Meow Meow Download"
 name: "Meow Meow"
 manufacturer: "Electronic Cats"
 board_url: ""
-board_image: "/assets/images/boards/meowmeow.jpg"
+board_image: "meowmeow.jpg"
 features:
   - Solder-free Alligator clip
 ---

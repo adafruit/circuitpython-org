@@ -5,7 +5,7 @@ title: "Google Coral Dev Board"
 name: "Google Coral Dev Board"
 manufacturer: "Google"
 board_url: "https://coral.withgoogle.com/products/dev-board"
-board_image: "/assets/images/boards/google_coral.jpg"
+board_image: "google_coral.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-google-coral-linux-blinka"
 downloads_display: true
 blinka: true

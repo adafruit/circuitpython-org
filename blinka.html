@@ -57,7 +57,7 @@ permalink: /blinka
           <a href="{{ board.url | relative_url }}">
             <div>
               <div class="img-responsive-4by3">
-                <img src="{{ board.board_image | relative_url }}" alt="Image of Board">
+                {% include downloads/board_image.html board_image=board.board_image %}
               </div>
               <div class="details">
                 <h3>{{ board.name }}</h3>

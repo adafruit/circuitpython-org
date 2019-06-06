@@ -5,7 +5,7 @@ title: "Escornabot Makech Download"
 name: "Escornabot Makech"
 manufacturer: "Electronic Cats"
 board_url: "https://github.com/ElectronicCats/escornabot"
-board_image: "/assets/images/boards/escornabot_makech.jpg"
+board_image: "escornabot_makech.jpg"
 features:
   - Robotics
 ---

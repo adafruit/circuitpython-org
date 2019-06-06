@@ -5,7 +5,7 @@ title: "Robo HAT MM1 Download"
 name: "Robo HAT MM1"
 manufacturer: "Robotics Masters"
 board_url: "https://www.crowdsupply.com/robotics-masters/robo-hat-mm1"
-board_image: "/assets/images/boards/robohatmm1.jpg"
+board_image: "robohatmm1.jpg"
 features:
   - Robotics
 ---

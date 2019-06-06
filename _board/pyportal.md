@@ -5,7 +5,7 @@ title: "PyPortal Download"
 name: "PyPortal"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/pyportal.jpg"
+board_image: "pyportal.jpg"
 features:
   - Display
   - Speaker

@@ -5,7 +5,7 @@ title: "PyBadge Download"
 name: "PyBadge"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/pybadge.jpg"
+board_image: "pybadge.jpg"
 features:
   - Display
   - Speaker

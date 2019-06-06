@@ -5,7 +5,7 @@ title: "datalore_ip_m4 Download"
 name: "datalore_ip_m4"
 manufacturer: "unknown"
 board_url: ""
-board_image: "/assets/images/boards/unknown.jpg"
+board_image: "unknown.jpg"
 downloads_display: false
 features:
 ---

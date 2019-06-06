@@ -5,7 +5,7 @@ title: "Feather nRF52832 Download"
 name: "Feather nRF52832"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "/assets/images/boards/feather_nrf52832.jpg"
+board_image: "feather_nrf52832.jpg"
 features:
   - Feather-compatible
   - Battery Charging
