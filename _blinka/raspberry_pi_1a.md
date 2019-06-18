@@ -1,0 +1,32 @@
+---
+layout: download
+board_id: "raspberry_pi_1a"
+title: "Raspberry Pi 1 Model A Download"
+name: "Raspberry Pi 1 Model A"
+manufacturer: "Raspberry Pi Foundation"
+board_url: "https://www.adafruit.com/product/998"
+board_image: "raspberry_pi_1b.jpg"
+download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
+downloads_display: true
+blinka: true
+features:
+- HDMI
+- Composite Video
+- 26-pin GPIO
+---
+
+The Raspberry Pi 1 Model A is the original Model A.  In November 2014 It was superseded by the Raspberry Pi 1 Model A+
+
+- Broadcom BCM2835, ARM11 76JZF-S SoC @ 700MHz
+- 256MB RAM
+- 26-pin GPIO header
+- Separate Composite Video Output
+- 1 USB 2.0 port
+- CSI camera port for connecting a Raspberry Pi camera
+- DSI display port for connecting a Raspberry Pi touchscreen display
+- Stereo audio output port
+- Full-size SD port for loading your operating system and storing data
+
+## Contribute
+
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "raspberry_pi"
+board_id: "raspberry_pi_3bplus"
 title: "Raspberry Pi 3 Model B+ Download"
 name: "Raspberry Pi 3 Model B+"
 manufacturer: "Raspberry Pi Foundation"
 board_url: "https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/"
-board_image: "raspberry_pi.jpg"
+board_image: "raspberry_pi_3bplus.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
@@ -17,7 +17,7 @@ features:
   - 40-pin GPIO
 ---
 
-The Raspberry Pi 3 Model B is the most popular Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 3 better? How about a faster processor, 5 GHz WiFi, and updated Ethernet chip with PoE capability? Good guess - that's exactly what they did!
+The Raspberry Pi 3 Model B+ is the most popular Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 3 better? How about a faster processor, 5 GHz WiFi, and updated Ethernet chip with PoE capability? Good guess - that's exactly what they did!
 
 The Raspberry Pi 3 Model B+ is the latest product in the Raspberry Pi 3 range, boasting an updated 64-bit quad core processor running at 1.4GHz with built-in metal heatsink, dual-band 2.4GHz and 5GHz wireless LAN, faster (300 mbps) Ethernet, and PoE capability via a separate PoE HAT.
 
