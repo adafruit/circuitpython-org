@@ -5,7 +5,7 @@ title: "Blip Download"
 name: "Blip"
 manufacturer: "Electronut Labs"
 board_url: "https://docs.electronut.in/blip/"
-board_image: "/assets/images/boards/electronut_labs_blip.png"
+board_image: "electronut_labs_blip.png"
 downloads_display: true
 features:
   - Bluetooth/BTLE
