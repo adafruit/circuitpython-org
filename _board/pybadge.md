@@ -4,7 +4,7 @@ board_id: "pybadge"
 title: "PyBadge Download"
 name: "PyBadge"
 manufacturer: "Adafruit"
-board_url: ""
+board_url: "https://www.adafruit.com/product/4200"
 board_image: "pybadge.jpg"
 features:
   - Display
