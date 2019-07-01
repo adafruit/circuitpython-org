@@ -2,7 +2,7 @@
 layout: download
 board_id: "pygamer_advance"
 title: "PyGamer Advance Download"
-name: "PyGamer"
+name: "PyGamer Advance"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "pygamer_advance.jpg"
