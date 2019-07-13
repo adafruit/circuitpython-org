@@ -19,6 +19,9 @@ It can also apply filters such as min, mix, mean, and RMS to the data stream. Th
 ## Learn more
 * [datum-Light Website](https://jandjstudios.io/datum/datum-Light/)
 
+## Purchase
+* [GroupGets](https://groupgets.com/campaigns/574-datum-light)
+
 ## Contribute
 
 Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
