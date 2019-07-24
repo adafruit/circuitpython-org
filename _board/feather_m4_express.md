@@ -4,7 +4,7 @@ board_id: "feather_m4_express"
 title: "Feather M4 Express Download"
 name: "Feather M4 Express"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com"
+board_url: "https://www.adafruit.com/product/3857"
 board_image: "feather_m4_express.jpg"
 features:
   - Feather-compatible
@@ -26,3 +26,7 @@ Comes fully assembled and tested, with the UF2 USB bootloader. We also toss in s
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3857)
 * [Digi-Key](https://www.digikey.com/short/p87f17)
+
+## Contribute
+
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
