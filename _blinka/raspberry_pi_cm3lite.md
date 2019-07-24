@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "raspberry_pi_cm3lite.md"
+board_id: "raspberry_pi_cm3lite"
 title: "Raspberry Pi Compute Module 3 Lite Download"
 name: "Raspberry Pi Compute Module 3 Lite"
 manufacturer: "Raspberry Pi Foundation"
 board_url: "https://www.raspberrypi.org/products/compute-module-3/"
-board_image: "raspberry_pi_cm3lite.md.jpg"
+board_image: "raspberry_pi_cm3lite.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
