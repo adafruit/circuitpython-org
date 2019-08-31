@@ -5,7 +5,7 @@ title: "Circuit Playground Bluefruit Download"
 name: "Circuit Playground Bluefruit"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "feather_nrf52840_express.jpg"
+board_image: "circuitplayground_bluefruit.jpg"
 features:
   - Speaker
   - Solder-free Alligator Cip
