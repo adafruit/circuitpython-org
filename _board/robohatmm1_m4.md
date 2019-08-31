@@ -1,8 +1,8 @@
 ---
 layout: download
-board_id: "robohatmm1_m0"
+board_id: "robohatmm1_m4"
 title: "Robo HAT MM1 Download"
-name: "Robo HAT MM1 M0"
+name: "Robo HAT MM1 M4"
 manufacturer: "Robotics Masters"
 board_url: "https://www.crowdsupply.com/robotics-masters/robo-hat-mm1"
 board_image: "robohatmm1.jpg"
