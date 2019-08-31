@@ -1,8 +1,8 @@
 ---
 layout: download
-board_id: "robohatmm1_m4"
+board_id: "robohatmm1_m0"
 title: "Robo HAT MM1 Download"
-name: "Robo HAT MM1 M4"
+name: "Robo HAT MM1 M0"
 manufacturer: "Robotics Masters"
 board_url: "https://www.crowdsupply.com/robotics-masters/robo-hat-mm1"
 board_image: "robohatmm1.jpg"
@@ -15,8 +15,6 @@ The Robotics Masters Robo HAT MM1 is an open source robotics controller board fo
 With support for Adafruit CircuitPython and other libraries the Robo HAT is able to act as a single solution for all projects great and small.
 
 The Robo HAT MM1 removes the need for buying lots of individual components by including them on the board. It can act as a PWM driver, provide on-board power through voltage regulators, and measure movement with the on-board IMU - all at the same time.
-
-The M4 version of the board opens up many more capabilities with extra RAM, more processing power and additional serial communication interfaces.  For CircuitPython this means you can run more NeoPixels, use more sensors and deploy code faster without having to worry about RAM limitations. 
 
 The wide compatibility with many open source software platforms such as CircuitPython means you can use all existing software for sensors while creating your project in the way that works best for you. The hardware schematics and software are fully open source.
 

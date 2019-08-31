@@ -14,7 +14,7 @@ features:
 
 The **Adafruit Feather nRF52840 Express** is the new Feather family member with Bluetooth Low Energy and _native USB support_ featuring the nRF52840!  It is Adafruit's take on an 'all-in-one' Bluetooth Low Energy device with built in USB plus battery charging. With native USB it's part of the CircuitPython party.
 
-This chip has twice the flash, and four times the SRAM of it's earlier sibling, the nRF52832 - 1 MB of FLASH and 256KB of SRAM. Compared to the nRF51, this board has 4-8 times more of everything.
+This chip has twice the flash, and four times the SRAM of its earlier sibling, the nRF52832 - 1 MB of FLASH and 256KB of SRAM. Compared to the nRF51, this board has 4-8 times more of everything.
 
 **This is Adafruit's first BLE-friendly CircuitPython board**! CircuitPython works best with disk drive access, and this is the only BLE-plus-USB-native chip that has the memory to handle running the Python interpreter. The massive RAM and speedy Cortex M4F chip makes this a good match.
 
