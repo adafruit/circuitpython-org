@@ -1,4 +1,4 @@
-﻿---
+---
 layout: download
 board_id: "uchip"
 title: "uChip Download"
@@ -10,7 +10,7 @@ board_image: "/assets/images/boards/uchip.jpg"
 
 **Small. Yet powerful!**
 
-Despite a size smaller than the ATMEGA328 which powers Arduino Uno, uChip mounts the same ATSAMD21 series of Arduino Zero! Everything that runs on Arduino Zero runs also on uChip, at the same speed! However, unlike Arduino Zero, it fits a 16-pin DIP socket and it leaves a lot of space on your breadboard. No more bulky shields or flying wires all around your breadboard!
+Despite a size smaller than the ATMEGA328 which powers Arduino Uno, **uChip** mounts the same ATSAMD21 series of Arduino Zero! Everything that runs on Arduino Zero runs also on uChip, at the same speed! However, unlike Arduino Zero, it **fits a 16-pin DIP socket** and it leaves a lot of space on your breadboard. No more bulky shields or flying wires all around your breadboard!
 
 And now uChip runs CircuitPython too!
 
@@ -45,7 +45,7 @@ You can program uChip using virtually any IDE, in many languages (CircuitPython 
 
 ## Purchase
 
-* [Kickstarter Campaign](https://www.kickstarter.com/projects/1186620431/uchip-arduino-zero-compatible-in-a-narrow-dip-16-p)
+* [Itaca Innovation Store](https://shop.itaca-innovation.com)
 
 ## Contribute
 
