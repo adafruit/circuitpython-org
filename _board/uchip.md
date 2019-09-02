@@ -45,7 +45,7 @@ You can program uChip using virtually any IDE, in many languages (CircuitPython 
 
 ## Purchase
 
-* [Kickstarter Campaign](https://www.kickstarter.com/projects/1186620431/uchip-arduino-zero-compatible-in-a-narrow-dip-16-p)
+* [Itaca Innovation Store](https://shop.itaca-innovation.com)
 
 ## Contribute
 
