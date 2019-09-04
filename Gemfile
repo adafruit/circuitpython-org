@@ -26,3 +26,5 @@ group :development do
   gem 'rake'
   gem 'image_processing'
 end
+
+gem "jekyll-get-json", "~> 0.0.1"

@@ -12,6 +12,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-get-json
 # Build settings
 markdown: kramdown
 kramdown:
@@ -30,6 +31,10 @@ collections:
     output: true
   blinka:
     output: true
+
+jekyll_get_json:
+  - data: libraries
+    json: 'https://adafruit-circuit-python.s3.amazonaws.com/adabot/web/libraries.json'
 
 ### Exclude from processing.
 exclude:
