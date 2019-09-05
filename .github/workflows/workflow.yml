@@ -1,0 +1,40 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches:
+      - master
+      - actions
+      - libraries
+  schedule:
+    - cron: 0 10 * * *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        submodules: true
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.x'
+    - name: Build the site in the jekyll/builder container
+      run: |
+        bundle install
+        bundle exec jekyll build -d build
+        cd build
+        touch .nojekyll
+        remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" && \
+        git init && \
+        git config user.name "${GITHUB_ACTOR}" && \
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
+        git add . && \
+        git commit -m 'jekyll build from Action' && \
+        git push --force $remote_repo HEAD:gh-pages && \
+        curl -XPOST -H"Authorization: token ${GITHUB_TOKEN}" -H"Accept: application/vnd.github.mister-fantastic-preview+json" https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds && \
+        rm -fr .git && \
+        cd ..
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
