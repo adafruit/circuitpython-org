@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - master
-      - actions
-      - libraries
   schedule:
     - cron: 0 10 * * *
 
