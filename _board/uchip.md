@@ -5,7 +5,7 @@ title: "uChip Download"
 name: "uChip M0"
 manufacturer: "Itaca Innovation"
 board_url: ""
-board_image: "/assets/images/boards/uchip.jpg"
+board_image: "uchip.jpg"
 ---
 
 **Small. Yet powerful!**
