@@ -1,9 +1,9 @@
 ---
 layout: download
 board_id: "jetson_nano"
-title: "Nvidia Jetson Nano Dev Kit"
-name: "Nvidia Jetson Nano Dev Kit"
-manufacturer: "Nvidia"
+title: "Jetson Nano Dev Kit"
+name: "Jetson Nano Dev Kit"
+manufacturer: "NVIDIA"
 board_url: "https://developer.nvidia.com/embedded/jetson-nano-developer-kit"
 board_image: "jetson_nano.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-nvidia-jetson-nano"
