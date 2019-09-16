@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "stm32f411"
+board_id: "stm32f411ve_discovery"
 title: "Discovery kit for STM32F411 Download"
 name: "Discovery kit for STM32F411"
 manufacturer: "ST"
