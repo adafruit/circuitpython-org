@@ -8,7 +8,7 @@ board_url: "https://hackaday.io/project/165032-pewpew-m4"
 board_image: "pewpew_m4.jpg"
 features:
   - Display
-  ---
+---
 
 Also known as the PewPew Standalone, this board was designed to 
 be a balance between size, simplicity, ease of use, functionality and,
