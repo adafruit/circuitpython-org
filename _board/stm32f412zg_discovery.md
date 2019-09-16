@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "stm32f412"
+board_id: "stm32f412zg_discovery"
 title: "STM32F412 Discovery kit Download"
 name: "STM32F412 Discovery kit"
 manufacturer: "ST"
