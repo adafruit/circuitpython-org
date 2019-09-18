@@ -23,8 +23,8 @@ In order to support CircuitPython, a 2MB Quad-SPI flash memory chip is included.
 The boards include a 600mA 3.3V regulator, more than enough to power this little board and its built-in features. The board can be powered from a micro-USB or via a battery connected to the BAT pin – it will automatically switch between the two.  There are exposed pads to solder on an optional 2-JST battery connector on the back or directly to the BAT pin.
 
 ## Purchase
-When in stock, you can purchase a board from minisam.cc
-* [Minisam.cc](https://www.minisam.cc/product/mini-sam-development-board/)
+When in stock, you can purchase a board from minifigboards.com
+* [Minifigboards.com](https://www.minifigboards.com/product/mini-sam-m4/)
 
 ## Contribute
 
