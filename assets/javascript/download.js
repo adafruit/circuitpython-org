@@ -40,6 +40,7 @@ function setLocale(response) {
       if (languages.includes(options[i].dataset.locale)) {
         options[i].selected = true;
         select.onchange(select);
+        break;
       }
     }
   });
