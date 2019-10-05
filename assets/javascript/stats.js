@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function displayBoardHeader(release) {
     let contentElement = document.querySelector('.stats-wrapper');
     let h2Element = document.createElement('h2');
-    let nameContent = document.createTextNode(release.name);
+    let nameContent = document.createTextNode(`${release.tag_name} - ${release.name}`);
     h2Element.appendChild(nameContent);
     contentElement.appendChild(h2Element);
   }
