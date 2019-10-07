@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "monster_m4sk"
-title: "HalloWing M0 Express Download"
-name: "HalloWing M0 Express"
+title: "MONSTER M4SK Download"
+name: "MONSTER M4SK"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "monster_m4sk.jpg"

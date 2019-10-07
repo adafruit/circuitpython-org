@@ -89,7 +89,7 @@ permalink: /libraries/contributing
            {{repo_issue[0]}}
            <ul>
            {% for issue in repo_issue[1] %}
-             <li><a href="{{ issue }}">{{ issue }}</a></li>
+             <li><a href="{{ issue | split: " " | first }}">{{ issue }}</a></li>
            {% endfor %}
            </ul>
          </li>
