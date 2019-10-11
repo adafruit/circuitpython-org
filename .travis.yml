@@ -20,5 +20,5 @@ addons:
 script:
   - mkdir -p web
   - cd adabot
-  - python -u -m adabot.update_cp_org_libraries -o $TRAVIS_BUILD_DIR/web/libraries.json
+  - python -u -m adabot.update_cp_org_libraries -o $TRAVIS_BUILD_DIR/web/libraries.v2.json
   - cd ..
