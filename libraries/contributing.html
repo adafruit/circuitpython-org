@@ -48,16 +48,34 @@ permalink: /libraries/contributing
        </ul>
     </div>
     <div class="libraries open-issues">
-       <h3>Open Issues</h3>
-       <ul>
+      {% comment %}
+        create labels array by looping through labels of each issue
+        ensuring unique for select list
+      {% endcomment %}
+      {% assign labels = "" | split: "," %}
+      {% for library in site.data.libraries.open_issues %}
+        {% for issue in library[1] %}
+            {% for label in issue.labels %}
+              {% if label == "None" %}
+                {% continue %}
+              {% endif %}
+              {% assign labels = labels | push: label | uniq %}
+            {% endfor %}
+        {% endfor %}
+      {% endfor %}
+      <select>
+        {% for label in labels %}
+          <option value='{{ label }}'>{{ label }}</option>
+        {% endfor %}
+      <select>
+      <h3>Open Issues</h3>
+      <ul>
        {% for library in site.data.libraries.open_issues %}
          <li>
            {{library[0]}}
            <ul>
            {% for issue in library[1] %}
-              {% for details in issue %}
-                <li><a href="{{ details[0] }}">{{ details[1] }}</a></li>
-              {% endfor %}
+              <li><a href="{{ issue.url }}">{{ issue.title }}</a></li>
            {% endfor %}
            </ul>
          </li>
@@ -98,3 +116,5 @@ permalink: /libraries/contributing
     </div>
   </div>
 </div>
+
+<script src="/assets/javascript/contributing.js"></script>
