@@ -17,11 +17,14 @@ permalink: /libraries/contributing/open-issues
         {% endfor %}
     {% endfor %}
   {% endfor %}
-  <select>
-    {% for label in labels %}
-      <option value='{{ label | downcase | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
-    {% endfor %}
-  <select>
+  <p>
+    Sort by issue labels
+    <select>
+      {% for label in labels %}
+        <option value='{{ label | downcase | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
+      {% endfor %}
+    <select>
+  </p>
   <h3>Open Issues</h3>
   <ul>
     {% for library in site.data.libraries.open_issues %}
