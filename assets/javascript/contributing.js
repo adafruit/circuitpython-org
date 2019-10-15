@@ -13,7 +13,8 @@ function issueSelectHandler(event) {
   });
 
   // show the selected options
-  var items = document.querySelectorAll(`.issues-list .${selectedOption}`);
+  var selectedOption = selectedOption === 'all' ? 'li' : `.${selectedOption}`;
+  var items = document.querySelectorAll(`.issues-list ${selectedOption}`);
   items.forEach(function(item) {
     item.style.display = 'block'
     item.parentElement.closest('li').style.display = 'block';
