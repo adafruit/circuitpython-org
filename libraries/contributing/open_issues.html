@@ -1,0 +1,43 @@
+---
+layout: contributing
+title: Libraries - Contributing - Open Issues
+permalink: /libraries/contributing/open-issues
+---
+
+<div class="libraries open-issues">
+  {% comment %}
+    create labels array by looping through labels of each issue
+    ensuring unique for select list
+  {% endcomment %}
+  {% assign labels = "All" | split: "," %}
+  {% for library in site.data.libraries.open_issues %}
+    {% for issue in library[1] %}
+        {% for label in issue.labels %}
+          {% assign labels = labels | push: label | uniq %}
+        {% endfor %}
+    {% endfor %}
+  {% endfor %}
+  <select>
+    {% for label in labels %}
+      <option value='{{ label | downcase | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
+    {% endfor %}
+  <select>
+  <h3>Open Issues</h3>
+  <ul>
+    {% for library in site.data.libraries.open_issues %}
+      <li>
+        {{library[0]}}
+        <ul class="issues-list">
+        {% for issue in library[1] %}
+        {% capture classes %}
+          {% for label in issue.labels %}
+            {{ label | downcase | replace: ' ', '-' }}
+          {% endfor %}
+        {% endcapture %}
+        <li class="{{ classes | strip }}"><a href="{{ issue.url }}">{{ issue.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
+</div>
