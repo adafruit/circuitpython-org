@@ -1,0 +1,38 @@
+---
+layout: contributing
+title: Libraries - Contributing - Library Infrastructure Issues
+permalink: /libraries/contributing/library-infrastructure-issues
+---
+
+<h2>Library Infrastructure Issues</h2>
+<p>
+  The following are issues with the library infrastructure. Having a standard library structure
+  greatly improves overall maintainability. Accordingly, we have a series of checks to ensure
+  the standard is met. Most of these are changes that can be made via a pull request, however
+  there are a few checks reported here that require changes to GitHub settings. If you are
+  interested in addressing any of these issues, please feel free to contact us with any questions.
+</p>
+<p>
+  If you're looking for a Good First Issue to begin contributing, consider the two issues related to
+  example naming: "Example file(s) missing sensor/library name." and "Missing simpletest example."
+  Every repo should have a <code>libraryname_simpletest.py</code> file in the examples folder at a
+  minimum. Any other included examples should be prefixed with <code>libraryname_</code> so all
+  examples found in any given repo folder start with the library name followed by an underscore.
+  The GitHub end of things is a simple fix, however, please be aware many examples are linked in
+  Learn guides. You should mention in your pull request that it is possible that guides will
+  require updating to match the new example name.
+</p>
+<div class="libraries">
+    <ul>
+    {% for repo_issue in site.data.libraries.repo_infrastructure_errors %}
+      <li>
+        {{repo_issue[0]}}
+        <ul>
+        {% for issue in repo_issue[1] %}
+          <li><a href="{{ issue | split: " " | first }}">{{ issue }}</a></li>
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
+</div>

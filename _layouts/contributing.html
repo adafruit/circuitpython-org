@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<!-- https://github.com/adafruit/circuitpython/issues/1246 -->
+<div id="libraries-page" class="common-layout">
+  <div class="content">
+    <h1>Contributing</h1>
+    <p>
+      If you'd like to contribute to the CircuitPython project, the CircuitPython
+      libraries are a great way to begin. This page is updated weekly with status
+      information from the CircuitPython libraries, including open issues and
+      repo-level issues.
+    </p>
+    <p>
+      If this is your first time contributing, or you'd
+      like to see our recommended contribution workflow, we have a guide on
+      <a href="https://learn.adafruit.com/contribute-to-circuitpython-with-git-and-github">Contributing to CircuitPython with Git and Github</a>.
+      You can also find us in the #circuitpython channel on the
+      <a href="https://adafru.it/discord">Adafruit Discord</a>.
+    </p>
+    <p>
+      Have an idea for a new driver or library?
+      <a href="https://github.com/adafruit/circuitpython/issues">File an issue on the CircuitPython repo!</a>
+    </p>
+    <h2>Current Status for Week of {{ site.data.libraries.updated_at | date: "%a, %b %d, %Y" }}</h2>
+
+    {% assign current = page.url | downcase | split: '/' %}
+    <ul class='tabbed-navigation'>
+      <li>
+        <a href="/libraries/contributing" {% if current[3] ==
+        nil %}class='active'{% endif %}>Pull Requests</a>
+      </li>
+      <li>
+        <a href="/libraries/contributing/open-issues" {% if current[3] ==
+           'open-issues' %}class='active'{% endif %}>Open Issues</a>
+      </li>
+      <li>
+        <a href="/libraries/contributing/library-infrastructure-issues" {% if
+           current[3] ==
+        'library-infrastructure-issues' %}class='active'{% endif %}>Library Infrastructure Issues</a>
+      </li>
+    </ul>
+    <div class="clear"></div>
+    {{ content }}
+  </div>
+</div>
+
+<script src="/assets/javascript/contributing.js"></script>
+

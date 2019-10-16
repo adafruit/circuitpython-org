@@ -1,0 +1,26 @@
+---
+layout: contributing
+title: Libraries - Contributing - Pull Requests
+permalink: /libraries/contributing
+---
+
+<p>
+  This is the current status of open pull requests and issues across all of the library repos.
+</p>
+<div class="libraries open-pull-requests">
+  <h3>Open Pull Requests</h3>
+  <ul>
+    {% for library in site.data.libraries.pull_requests %}
+      <li>
+        {{library[0]}}
+        <ul>
+        {% for issue in library[1] %}
+          {% for details in issue %}
+            <li><a href="{{ details[0] }}">{{ details[1] }}</a></li>
+          {% endfor %}
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
+</div>
