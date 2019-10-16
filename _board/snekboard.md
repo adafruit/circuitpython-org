@@ -21,7 +21,7 @@ with CircuitPython or the simpler
 
 Snekboard is 48mm × 48mm, which is the same size as 6 x 6 Lego studs
 allowing you to build a box out of Lego to hold it attached to your
-Leo design. It uses a single cell lithium polymer battery that fits
+Lego design. It uses a single cell lithium polymer battery that fits
 under the board and charges over USB while snekboard is being
 programmed from the host.
 
