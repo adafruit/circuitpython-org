@@ -28,15 +28,15 @@ layout: default
     {% assign current = page.url | downcase | split: '/' %}
     <ul class='tabbed-navigation'>
       <li>
-        <a href="/libraries/contributing" {% if current[3] ==
+        <a href="/contributing" {% if current[3] ==
         nil %}class='active'{% endif %}>Pull Requests</a>
       </li>
       <li>
-        <a href="/libraries/contributing/open-issues" {% if current[3] ==
+        <a href="/contributing/open-issues" {% if current[3] ==
            'open-issues' %}class='active'{% endif %}>Open Issues</a>
       </li>
       <li>
-        <a href="/libraries/contributing/library-infrastructure-issues" {% if
+        <a href="/contributing/library-infrastructure-issues" {% if
            current[3] ==
         'library-infrastructure-issues' %}class='active'{% endif %}>Library Infrastructure Issues</a>
       </li>
