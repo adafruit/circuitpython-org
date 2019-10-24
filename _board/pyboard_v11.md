@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "pyboard"
+board_id: "pyboard_v11"
 title: "Pyboard Download"
 name: "Pyboard"
 manufacturer: "Damien George"
 board_url: "https://www.adafruit.com/product/2390"
-board_image: "pyboard.jpg"
+board_image: "pyboard_v11.jpg"
 features:
   - Micro SD Slot
   - Accelerometer
