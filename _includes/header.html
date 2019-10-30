@@ -1,4 +1,15 @@
 <header id="site-header">
+  <div class="top-navigation">
+    <div>
+    <div class="navigation">
+      <a href="{{ "/contributing" | relative_url  }}">Contributing</a>
+      <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+      <a href="{{ "/awesome" | relative_url  }}">Awesome</a>
+      <a href="https://learn.adafruit.com/welcome-to-circuitpython">Help</a>
+      <a href="https://adafru.it/discord"><i class="fab fa-discord"></i></a>
+    </div>
+    </div>
+  </div>
   <div class="wrapper">
     <div class="content">
       <div class="site-brand">
@@ -12,17 +23,14 @@
                                          height="60" width="136">
           </a>
         </div>
-      </div>
-
-      <div class="site-navigation">
-        <a href="{{ "/downloads" | relative_url  }}">DOWNLOADS</a>
-        <a href="{{ "/libraries" | relative_url  }}">LIBRARIES</a>
-        <a href="{{ "/contributing" | relative_url  }}">CONTRIBUTING</a>
-        <a href="{{ "/blinka" | relative_url  }}">BLINKA</a>
-        <a href="https://blog.adafruit.com/category/circuitpython">NEWS</a>
-        <a href="https://adafru.it/discord">DISCORD</a>
-        <a href="{{ "/awesome" | relative_url  }}">AWESOME</a>
-        <a href="https://learn.adafruit.com/welcome-to-circuitpython">HELP</a>
+        <div class="site-navigation">
+          <a class="downloads" href="{{ "/downloads" | relative_url  }}">Downloads</a>
+          <a href="{{ "/libraries" | relative_url  }}">Libraries</a>
+          <a href="{{ "/blinka" | relative_url  }}">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="#">Get Started</a>
+        </div>
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 #site-header {
   display: grid;
-  grid-template-rows: 1fr 3px;
+  grid-template-rows: 40px 1fr 3px;
   grid-column: full;
 
   &> * {
@@ -23,20 +23,36 @@
 
   .content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
     padding-bottom: 20px;
   }
 }
 
+.top-navigation {
+  background-color: #151515;
+  padding-top: 10px;
+
+  .navigation {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    a {
+      margin-left: 40px;
+      font-size: 14px;
+      color: #999999;
+
+    }
+  }
+}
+
 .site-brand {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
 
 .site-logo {
-  position: absolute;
-  top: 20px;
 }
 
 .site-banner {
@@ -48,19 +64,34 @@
   }
 }
 
-.site-navigation {
-  display:flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+.get-started {
+  margin-left: auto;
+  padding-bottom: 10px;
 
   a {
+    display: block;
+    padding: 7px 50px 7px 50px;
     color: #fff;
-    margin-left: 10px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+  }
+}
+
+.site-navigation {
+  padding: 0 0 10px 0;
+
+  a {
+    margin-left: 40px;
+    color: #999999;
+
+    &.downloads {
+      color: #fff;
+    }
   }
 }
 
 .bottom-bar {
-  background-color: #e90e8b;
+  background-color: #e71c8c;
 }
 
 @media (max-width: $screen-xs-max) {
