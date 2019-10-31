@@ -25,6 +25,10 @@
     display: grid;
     padding-bottom: 20px;
   }
+
+  a.active {
+    color: #fff;
+  }
 }
 
 .top-navigation {
@@ -83,10 +87,6 @@
   a {
     margin-left: 40px;
     color: #999999;
-
-    &.downloads {
-      color: #fff;
-    }
   }
 }
 

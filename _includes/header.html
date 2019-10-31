@@ -1,13 +1,14 @@
 <header id="site-header">
+  {% assign current = page.url | downcase | split: '/' %}
   <div class="top-navigation">
     <div>
-    <div class="navigation">
-      <a href="{{ "/contributing" | relative_url  }}">Contributing</a>
-      <a href="https://blog.adafruit.com/category/circuitpython">News</a>
-      <a href="{{ "/awesome" | relative_url  }}">Awesome</a>
-      <a href="https://learn.adafruit.com/welcome-to-circuitpython">Help</a>
-      <a href="https://adafru.it/discord"><i class="fab fa-discord"></i></a>
-    </div>
+      <div class="navigation">
+        <a {% if current[1] == 'contributing' %}class='active'{% endif %} href="{{ "/contributing" | relative_url  }}">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a {% if current[1] == 'awesome' %}class='active'{% endif %} href="{{ "/awesome" | relative_url  }}">Awesome</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
+        <a href="https://adafru.it/discord"><i class="fab fa-discord"></i></a>
+      </div>
     </div>
   </div>
   <div class="wrapper">
@@ -24,12 +25,12 @@
           </a>
         </div>
         <div class="site-navigation">
-          <a class="downloads" href="{{ "/downloads" | relative_url  }}">Downloads</a>
-          <a href="{{ "/libraries" | relative_url  }}">Libraries</a>
-          <a href="{{ "/blinka" | relative_url  }}">Blinka</a>
+          <a {% if current[1] == 'downloads' %}class='active'{% endif %} href="{{ "/downloads" | relative_url  }}">Downloads</a>
+          <a {% if current[1] == 'libraries' %}class='active'{% endif %} href="{{ "/libraries" | relative_url  }}">Libraries</a>
+          <a {% if current[1] == 'blinka' %}class='active'{% endif %} href="{{ "/blinka" | relative_url  }}">Blinka</a>
         </div>
         <div class="get-started">
-          <a href="#">Get Started</a>
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
         </div>
       </div>
     </div>
