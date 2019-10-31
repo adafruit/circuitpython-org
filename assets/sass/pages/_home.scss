@@ -1,12 +1,72 @@
 #home-page {
-  text-align: center;
+  @include readable-content;
+  grid-row-grap: 1em;
 
-  hr {
-    width: 75%;
-    margin: 40px auto 40px auto;
-    background-color: #cecece;
-    border: none;
-    height: 1px;
+  .headline-banner {
+    grid-column: full;
+
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 80px;
+
+    @media (max-width: $screen-sm) {
+      margin-bottom: 30px;
+    }
+
+    .image-headline, .video-headline {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .text {
+      color: white;
+      font-weight: 300;
+
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+
+      @include readable-content;
+      grid-template-rows: 1fr 1fr 1fr 8fr;
+
+      &> * {
+        grid-column: main;
+      }
+
+      .title, .tagline {
+        span {
+          line-height: 1.40;
+          margin-left: 16px;
+          padding: 5px 0;
+          opacity: 0.9;
+
+          box-decoration-break: clone;
+          -webkit-box-decoration-break: clone;
+        }
+      }
+
+      .title {
+        width: 75%;
+        grid-column: 2;
+        grid-row: 2;
+        font-size: 58px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      .tagline {
+        width: 40%;
+        grid-column: 2;
+        grid-row: 3;
+        font-size: 20px;
+      }
+    }
   }
 
   .content {

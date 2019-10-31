@@ -1,0 +1,11 @@
+@mixin readable-content {
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(15px, 1fr)
+    [main-start] minmax(0, 1300px) [main-end]
+    minmax(15px, 1fr) [full-end];
+
+  &> * {
+    grid-column: main;
+  }
+}
