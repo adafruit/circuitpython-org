@@ -4,7 +4,7 @@ board_id: "itsybitsy_m0_express"
 title: "ItsyBitsy M0 Express Download"
 name: "ItsyBitsy M0 Express"
 manufacturer: "Adafruit"
-board_url: ""
+board_url: "https://www.adafruit.com/product/3727"
 board_image: "itsybitsy_m0_express.jpg"
 ---
 

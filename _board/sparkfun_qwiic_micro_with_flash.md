@@ -1,8 +1,8 @@
 ---
 layout: download
-board_id: "sparkfun_qwiic_micro"
-title: "SparkFun Qwiic Micro"
-name: "SparkFun Qwiic Micro"
+board_id: "sparkfun_qwiic_micro_with_flash"
+title: "SparkFun Qwiic Micro with Flash Download"
+name: "SparkFun Qwiic Micro with Flash"
 manufacturer: "SparkFun"
 board_url: "https://www.sparkfun.com/products/15423"
 board_image: "sparkfun_qwiic_micro.jpg"
