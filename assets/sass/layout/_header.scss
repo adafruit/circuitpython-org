@@ -96,6 +96,8 @@
 
 @media (max-width: $screen-xs-max) {
   #site-header {
+    display: none;
+
     .wrapper {
       height: auto;
     }

@@ -1,0 +1,48 @@
+#mobile-header {
+  background-color: #333;
+  padding: 5px;
+
+  .site-logo {
+    float: left;
+  }
+
+  #mobile-menu {
+    float: right;
+
+    .menu-toggle {
+      font-size: 34px;
+      padding: 10px 20px 10px 0;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  #mobile-menu-contents {
+    &.hidden {
+      display: none;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 20px;
+      font-size: 20px;
+
+      li {
+        padding: 5px 0 5px 0;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-xs-max) {
+  #mobile-header {
+    display: none;
+  }
+}
+
