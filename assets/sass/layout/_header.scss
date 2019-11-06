@@ -96,23 +96,6 @@
 
 @media (max-width: $screen-xs-max) {
   #site-header {
-    display: none;
-
-    .wrapper {
-      height: auto;
-    }
-
-    .content {
-      padding-bottom: 10px;
-    }
-  }
-
-  .site-navigation {
-    margin-top: 10px;
-    flex-wrap: wrap;
-
-    a {
-      padding: 2px;
-    }
+    display: none !important;
   }
 }
