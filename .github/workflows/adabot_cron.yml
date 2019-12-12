@@ -47,7 +47,7 @@ jobs:
       run: mkdir -p bin/adabot
     - name: Run adabot.update_cp_org_libraries
       run: |
-        python3 -u -m adabot.update_cp_org_libraries -o bin/adabot/libraries.v2.json
+        python3 -u -m adabot.adabot.update_cp_org_libraries -o bin/adabot/libraries.v2.json
     - name: Check For Files
       run: |
         ls bin/adabot
