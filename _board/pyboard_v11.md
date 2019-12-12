@@ -6,12 +6,6 @@ name: "Pyboard"
 manufacturer: "Damien George"
 board_url: "https://www.adafruit.com/product/2390"
 board_image: "pyboard_v11.jpg"
-features:
-  - Micro SD Slot
-  - Accelerometer
-  - RTC
-  - ADC
-  - DAC
 ---
 
 The pyboard is a compact and powerful electronics development board that runs MicroPython. It connects to your PC over USB, giving you a USB flash drive to save your Python scripts, and a serial Python prompt (a REPL) for instant programming. Requires a micro USB cable, and will work with Windows, Mac and Linux.

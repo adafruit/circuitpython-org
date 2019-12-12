@@ -6,10 +6,6 @@ name: "Discovery kit for STM32F411"
 manufacturer: "ST"
 board_url: "https://www.st.com/en/evaluation-tools/32f411ediscovery.html"
 board_image: "stm32f411.jpg"
-features:
-  - Accelerometer/Gyroscope
-  - Microphone
-  - Audio Amplifier
 ---
 
 The Discovery kit for STM32F411 line helps you to discover the entry level microcontrollers of the STM32 F4 series and to develop your applications easily. It offers everything required for beginners and experienced users to get started quickly.

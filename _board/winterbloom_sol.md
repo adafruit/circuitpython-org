@@ -9,11 +9,6 @@ board_image: "winterbloom_sol.jpg"
 downloads_display: true
 blinka: false
 download_instructions: "BLINKA ONLY - url"
-features:
-  - Eurorack module
-  - USB MIDI in to CV/gate out
-  - 2 CV outs (0-10v), 4 gate outputs (0 or 5v)
-  - 16-bit DAC for CV outs
 ---
 
 Winterbloom Sol is a modular synthesizer (Eurorack) module. It is a multi-purpose, scriptable USB MIDI to CV/gate converter. Its code can be modified while in use to change how it processes MIDI data into CV and gate outputs.

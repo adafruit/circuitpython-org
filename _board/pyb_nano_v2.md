@@ -6,11 +6,6 @@ name: "PYB Nano v2"
 manufacturer: "Elecrow"
 board_url: "https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html"
 board_image: "pyb_nano_v2.jpg"
-features:
-  - 4 x LEDs
-  - RTC
-  - ADC
-  - Dual UARTs
 ---
 
 DETAILS

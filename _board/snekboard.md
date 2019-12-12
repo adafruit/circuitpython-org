@@ -7,11 +7,7 @@ manufacturer: "keithp.com"
 board_url: "https://keithp.com/snek/snekboard"
 board_image: "snekboard.jpg"
 features:
-  - Four 9V Lego-compatible motor controllers
-  - Eight GPIO pins with power and ground
-  - Two NeoPixels
-  - USB
-  - Battery Charger
+  - Battery Charging
 ---
 
 Snekboard is designed to hook up to Lego Power Functions motors and

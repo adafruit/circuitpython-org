@@ -8,10 +8,7 @@ board_url: ""
 board_image: "monster_m4sk.jpg"
 features:
   - Display
-  - Headphone and speaker out
-  - Feather-compatible
   - Battery Charging
-  - Boop nose
 ---
 
 Peep dis! Have you always wanted to have another pair of eyes on the back of your
