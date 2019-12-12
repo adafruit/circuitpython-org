@@ -9,7 +9,6 @@ board_image: "edgebadge.jpg"
 features:
   - Display
   - Speaker
-  - Microphone
   - Feather-compatible
   - Battery Charging
 ---
