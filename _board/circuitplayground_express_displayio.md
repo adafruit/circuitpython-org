@@ -8,7 +8,7 @@ board_url: ""
 board_image: "circuitplayground_express_displayio.jpg"
 features:
   - Speaker
-  - TFT Display
+  - Display
   - Solder-free Alligator clip
 ---
 
