@@ -1,9 +1,6 @@
 name: Update Libraries/Contributing Info
 
 on:
-  push:
-    branches:
-      - action-ify
   schedule:
     - cron: 45 9 * * *
 
@@ -24,7 +21,7 @@ jobs:
     # Only run the build on Adafruit's repository. Forks won't have the secrets.
     # Its necessary to do this here, since 'schedule' events cannot (currently)
     # be limited (they run on all forks' default branches).
-    #if: startswith(github.repository, 'adafruit/')
+    if: startswith(github.repository, 'adafruit/')
     steps:
     - name: Dump GitHub context
       env:
@@ -58,4 +55,4 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      run: "[ -z \"$AWS_ACCESS_KEY_ID\" ] || aws s3 cp bin/adabot/ s3://sommersoft-travis-testing/adabot/web/ --recursive --no-progress --region us-east-1"
+      run: "[ -z \"$AWS_ACCESS_KEY_ID\" ] || aws s3 cp bin/adabot/ s3://adafruit-circuit-python/adabot/web/ --recursive --no-progress --region us-east-1"
