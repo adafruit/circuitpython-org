@@ -44,10 +44,10 @@ jobs:
       run: |
         pip install -r adabot/requirements.txt
     - name: Make Directory For Report Files
-        run: mkdir -p bin/adabot
+      run: mkdir -p bin/adabot
     - name: Run adabot.update_cp_org_libraries
-        run: |
-          python3 -u -m adabot.update_cp_org_libraries -o bin/adabot/libraries.v2.json
+      run: |
+        python3 -u -m adabot.update_cp_org_libraries -o bin/adabot/libraries.v2.json
     - name: Check For Files
       run: |
         ls bin/adabot
