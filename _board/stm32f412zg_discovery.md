@@ -7,9 +7,7 @@ manufacturer: "ST"
 board_url: "https://www.st.com/en/evaluation-tools/32f412gdiscovery.html"
 board_image: "stm32f412.jpg"
 features:
-  - TFT Touchscreen
-  - Microphone
-  - Audio Amplifier
+  - Display
 ---
 
 The STM32F412 Discovery kit (32F412GDISCOVERY) allows users to easily develop applications with the STM32F412 high performance MCUs with ARM® Cortex®-M4 core.

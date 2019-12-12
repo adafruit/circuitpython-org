@@ -9,10 +9,6 @@ board_image: "serpente.jpg"
 downloads_display: true
 blinka: false
 download_instructions: ""
-features:
-  - Choice of USB Type-C or PCB A
-  - 4MB Flash
-  - Small footprint
 ---
 
 There are two Serpente boards, they are both virtually the same, except for the USB connector. The standard Serpente board contains a USB Type-C connector, and the Serpente Plug uses the board itself as a Type-A USB plug.
