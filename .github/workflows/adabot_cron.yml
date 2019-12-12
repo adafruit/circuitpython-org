@@ -46,6 +46,8 @@ jobs:
     - name: Make Directory For Report Files
       run: mkdir -p bin/adabot
     - name: Run adabot.update_cp_org_libraries
+      env:
+        ADABOT_GITHUB_ACCESS_TOKEN: ${{ secrets.ADABOT_GITHUB_ACCESS_TOKEN }}
       run: |
         cd adabot
         python3 -u -m adabot.update_cp_org_libraries -o $GITHUB_WORKSPACE/bin/adabot/libraries.v2.json
