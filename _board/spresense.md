@@ -7,8 +7,7 @@ manufacturer: "Sony"
 board_url: "https://developer.sony.com/develop/spresense/docs/introduction_en.html"
 board_image: "spresense.jpg"
 features:
-  - Camera connector
-  - GPS Antenna
+  - GPS
 ---
 
 The Spresense project consists of a Arduino compatible board with Sony’s high performance CXD5602 micro-controller. The CXD5602 has built-in GPS and high-resolution audio capabilities.

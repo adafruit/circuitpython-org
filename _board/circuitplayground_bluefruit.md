@@ -8,7 +8,7 @@ board_url: ""
 board_image: "circuitplayground_bluefruit.jpg"
 features:
   - Speaker
-  - Solder-free Alligator Cip
+  - Solder-free Alligator clip
   - Bluetooth/BTLE
 ---
 
