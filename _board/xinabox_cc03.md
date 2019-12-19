@@ -1,7 +1,7 @@
 ---
 layout: download
 board_id: "xinabox_cc03"
-title: "CC03 download"
+title: "XinaBox CC03 download"
 name: "XinaBox CC03"
 manufacturer: "XinaBox"
 board_url: "https://drive.google.com/file/d/13xfg0SRZEeO-_xMElqdf0Sne8rjAcfyn/view"
