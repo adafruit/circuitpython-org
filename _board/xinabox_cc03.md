@@ -6,9 +6,6 @@ name: "XinaBox CC03"
 manufacturer: "XinaBox"
 board_url: "https://drive.google.com/file/d/13xfg0SRZEeO-_xMElqdf0Sne8rjAcfyn/view"
 board_image: "xinabox_cc03.jpg"
-features:
-  - ARM Cortex-M0+ Architecture
-  - SWD Debugging with IP03 Interface and Capable Programmer
 ---
 
 This xCHIP forms part of the core modules. The SAM D21 is a series of low-power micro controllers using the 32-bit ARM® Cortex® -M0+ processor, with 256 KB Flash and 32KB of SRAM. Compatible with Arduino platform due to the shared architecture with the Arduino M0.
