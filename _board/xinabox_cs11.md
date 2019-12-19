@@ -1,15 +1,11 @@
 ---
 layout: download
 board_id: "xinabox_cs11"
-title: "CS11 Download"
+title: "XinaBox CS11 Download"
 name: "XinaBox CS11"
 manufacturer: "XinaBox"
 board_url: "https://drive.google.com/file/d/1ZGZZyPdnp49XdEDqoT0ZOT0FdfJ4DM-z/view"
 board_image: "xinabox_cs11.jpg"
-features:
-  - ARM Cortex-M0+ Architecture
-  - SD card datalogger
-  - SWD Debugging with IP03 Interface and Capable Programmer
 ---
 
 This xCHIP forms part of the core modules. The SAM D21 is a series of low-power micro controllers using the 32-bit ARM® Cortex® -M0+ processor, with 256 KB Flash and 32KB of SRAM. Compatible with Arduino platform due to the shared architecture with the Arduino M0.
