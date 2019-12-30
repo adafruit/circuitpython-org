@@ -9,8 +9,8 @@ board_image: "odroid_n2.jpg"
 downloads_display: true
 blinka: true
 features:
-  - Gigabit Ethernet
-  - 4 USB 3.0 Ports
+  - Ethernet
+  - USB 3.0
   - HDMI
   - 40-pin GPIO
   - Infrared Receiver

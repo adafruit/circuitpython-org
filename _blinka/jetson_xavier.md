@@ -9,10 +9,9 @@ board_image: "jetson_xavier.jpg"
 downloads_display: true
 blinka: true
 features:
-  - Gigabit Ethernet
-  - USB-C
+  - Ethernet
   - HDMI
-  - 4 x USB 3.0 Ports
+  - USB 3.0
   - 40-pin GPIO
 ---
 

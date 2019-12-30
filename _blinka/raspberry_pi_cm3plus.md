@@ -11,10 +11,6 @@ downloads_display: true
 blinka: true
 features:
   - HDMI
-  - eMMC Flash
-  - SD Card Interface
-  - Modular
-  - 46 GPIO Pins
 ---
 
 The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is more eMMC Flash memory and the new heat spreader on the main processor which will let it run at full speed much faster without overheating.

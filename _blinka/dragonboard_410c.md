@@ -10,7 +10,7 @@ download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-li
 downloads_display: true
 blinka: true
 features:
-  - WiFi
+  - Wi-Fi
   - HDMI
   - 40-pin GPIO
   - GPS

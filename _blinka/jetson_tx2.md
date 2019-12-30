@@ -9,9 +9,9 @@ board_image: "jetson_tx2.jpg"
 downloads_display: true
 blinka: true
 features:
-  - Gigabit Ethernet
+  - Ethernet
   - HDMI
-  - 4 x USB 3.0 Ports
+  - USB 3.0
   - 40-pin GPIO
 ---
 

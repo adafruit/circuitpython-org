@@ -11,10 +11,6 @@ downloads_display: true
 blinka: true
 features:
   - HDMI
-  - eMMC Flash
-  - SD Card Interface
-  - Modular
-  - 46 GPIO Pins
 ---
 
 The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application.
