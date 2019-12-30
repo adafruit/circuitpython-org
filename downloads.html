@@ -47,6 +47,32 @@ permalink: /downloads
       </div>
     </div>
   </div>
+  <div class="download-count">
+      {% comment %}
+        Get a total number of boards by running through both loops
+        to get an accurate total.
+      {% endcomment %}
+      {% assign board_count = 0 %}
+      {% assign boards = site.data.files %}
+      {% for board in boards %}
+        {% assign info = site.board | where: 'board_id', board.id %}
+        {% if info.size == 0 %}
+          {% assign info = site.board | where: 'board_id', 'unknown' %}
+        {% endif %}
+        {% assign info = info[0] %}
+        {% if info.downloads_display == false %}
+          {% continue %}
+        {% endif %}
+        {% assign board_count = board_count | plus: 1 %}
+      {% endfor %}
+      {% for board in site.board %}
+        {% assign info = site.data.files | where: 'id', board.board_id | first %}
+        {% if info == nil and board.board_id != 'unknown' %}
+          {% assign board_count = board_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      Displaying <span id="board_count">{{ board_count }}</span> boards.
+  </div>
   <div class="downloads-section">
     {% comment %}
       The following are boards that are in the _data/files.json build

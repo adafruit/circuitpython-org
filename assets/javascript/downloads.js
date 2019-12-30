@@ -255,14 +255,16 @@ function filterResults() {
   setFeaturesChecked();
 
   var downloads = document.querySelectorAll('.download');
-
+  var board_count = 0
   downloads.forEach(function(download) {
     if (!shouldDisplayDownload(download, displayedManufacturers, displayedFeatures)) {
       download.style.display = 'none';
     } else {
       download.style.display = 'block';
+      board_count++;
     }
   });
+  document.getElementById("board_count").innerHTML = board_count;
 }
 
 function handleSortResults(event) {
