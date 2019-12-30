@@ -47,6 +47,12 @@ permalink: /blinka
       </div>
     </div>
   </div>
+  <div class="download-count">
+      {% comment %}
+        Display the total number of boards.
+      {% endcomment %}
+      Displaying <span id="board_count">{{ site.blinka.size }}</span> boards.
+  </div>
   <div class="downloads-section">
     {% for board in site.blinka %}
         <div class="download" data-id="{{ board.board_id }}"
