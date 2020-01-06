@@ -9,9 +9,6 @@ board_image: "binho_nova.jpg"
 downloads_display: true
 blinka: true
 features:
-  - 10-pin Connector
-  - USB-C
-  - Multi-Protocol
 ---
 
 The Binho Nova brings Multi-Protocol USB Host Adapters into the 21st Century. No more fumbling through development with cumbersome, clunky, out-dated adapters. Let your productivity soar to new heights!

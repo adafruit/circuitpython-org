@@ -11,7 +11,7 @@ blinka: true
 features:
   - Ethernet
   - HDMI
-  - 4 x USB 3.0 Ports
+  - USB 3.0
   - 40-pin GPIO
 ---
 

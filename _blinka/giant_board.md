@@ -9,7 +9,7 @@ board_image: "giant_board.jpg"
 downloads_display: true
 blinka: true
 features:
-  - Feather Form Factor
+  - Feather-Compatible
 ---
 
 The Giant Board is a super tiny single-board computer (SBC) based on the Adafruit Feather form factor. We always want more power in a smaller package, and the Giant Board delivers! It provides a small, powerful platform that is compatible with a wide range of pre-existing accessories. FeatherWing support makes the Giant Board a flexible, drop-in component for most Feather based projects.

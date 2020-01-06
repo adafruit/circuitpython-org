@@ -12,10 +12,7 @@ blinka: true
 features:
   - Wi-Fi
   - Bluetooth/BLE
-  - USB
   - Ethernet
-  - 26-pin GPIO
-  - 13-pin Expansion
 ---
 
 Orange Pi Zero is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.

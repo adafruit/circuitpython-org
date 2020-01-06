@@ -12,9 +12,7 @@ blinka: true
 features:
   - Wi-Fi
   - Bluetooth/BLE
-  - Dual Ethernet
-  - 26-pin GPIO
-  - 13-pin Expansion
+  - Ethernet
 ---
 
 What’s Orange Pi R1？It’s an open-source single-board computer. It can run Android 4.4, Ubuntu, Debian Image. It uses the AllWinner H2 SoC, and has 256MB DDR3 SDRAM.
