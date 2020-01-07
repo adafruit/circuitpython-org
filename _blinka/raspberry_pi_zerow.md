@@ -12,7 +12,7 @@ blinka: true
 features:
   - Wi-Fi
   - Bluetooth/BLE
-  - Mini HDMI
+  - HDMI
   - 40-pin GPIO
 ---
 

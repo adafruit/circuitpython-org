@@ -7,10 +7,7 @@ manufacturer: "Cedar Grove Studios"
 board_url: "https://github.com/CedarGroveStudios/StringCar_M0_Express"
 board_image: "stringcar_m0_express.jpg"
 features:
-  - 2MB Flash Memory
-  - DC Motor Controller
-  - LiPo Battery Management (500mA charge rate)
-  - 3.3-Volt Stemma-QT
+  - Battery Charging
 ---
 
 The Cedar Grove StringCar M0 Express is an ATSAMD21-based CircuitPython compatible board used to control a simple string car racer robot. The board is architecturally similar to the Adafruit Trinket M0 and ItsyBitsy M0 Express microcontroller boards with the addition of battery management and a DC motor controller. This board features JST connectors for the racer's battery, motor output, and sensor input. LiPo battery management charge rate is 500mA. For sensor experimentation, a 3.3-volt Stemma-QT connection is available on-board. The micro-USB connector used for REPL operation, operational status data output, and battery charging. On-board flash memory size is 2MB.

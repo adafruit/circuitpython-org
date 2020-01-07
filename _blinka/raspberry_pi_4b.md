@@ -13,8 +13,9 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
   - Ethernet
-  - Dual micro-HDMI
+  - HDMI
   - 40-pin GPIO
+  - USB 3.0
 ---
 
 The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that's exactly what they did!

@@ -8,7 +8,7 @@ board_url: "https://docs.electronut.in/papyr/"
 board_image: "electronut_labs_papyr.jpg"
 downloads_display: true
 features:
-  - E-Ink/E-Paper
+  - Display
   - Bluetooth/BTLE
 ---
 

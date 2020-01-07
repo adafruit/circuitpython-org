@@ -11,8 +11,6 @@ downloads_display: true
 blinka: true
 features:
 - HDMI
-- Composite Video
-- 26-pin GPIO
 ---
 
 The Raspberry Pi 1 Model A is the original Model A.  In November 2014 It was superseded by the Raspberry Pi 1 Model A+

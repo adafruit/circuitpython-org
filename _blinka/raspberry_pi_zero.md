@@ -10,7 +10,7 @@ download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-
 downloads_display: true
 blinka: true
 features:
-- Mini HDMI
+- HDMI
 - 40-pin GPIO
 ---
 
