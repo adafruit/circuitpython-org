@@ -4,7 +4,7 @@ board_id: "clue_nrf52840_express"
 title: "CLUE NRF52840 Express Download"
 name: "CLUE NRF52840 Express"
 manufacturer: "Adafruit"
-board_url: ""
+board_url: "https://www.adafruit.com/product/4500"
 board_image: "clue_nrf52840_express.jpg"
 features:
   - Display
@@ -13,19 +13,20 @@ features:
   - Solder-free Alligator clip
 
 ---
-We wanted to build some projects that have a small screen and a lot of sensors. this board has a 1.3″ 240×240 ips tft display, two buttons, and a ton of sensors:
+We wanted to build some projects that have a small screen and a lot of sensors. This board has a 1.3″ 240×240 IPS TFT display, two buttons, and a ton of sensors:
 
-lsm series 9 dof motion, apds9960 light/color/proximity, pdm microphone, humidity, temperature and barometric environmental sensing.
+LSM series 9-DoF motion - LSM6DS33 Accel/Gyro + LIS3MDL magnetometer
+APDS9960 Proximity, Light, RGB, and Gesture Sensor
+PDM Microphone sound sensor
+Humidity, temperature and barometric environmental sensing
+There’s a Qwiic / STEMMA QT connector for adding more sensors, like PM2.5 air quality and others that were too big to fit on the board.
 
-There’s a qwiic/stemmaqt connector for adding more sensors like pm2.5 air quality and others that were too big to fit on the board.
+We’ll be primarily using CircuitPython for programming it, but it will also work in Arduino. And of course, we’d love to see MakeCode on it!
 
-We’ll be primarily using circuitpython for programming it, but it will also work in arduino. and of course, we’d love to see makecode on it!
+After designing it, the board was close enough to micro:bit-shape-size that we moved a few parts to make it fit in micro:bit robots and some projects – the nrf52840 is a big upgrade chip and can do stuff like Tensorflow Lite for Microcontrollers, BLE central and peripheral, and more.
 
-After designing it, the board was close enough to micro:bit-shape-size that we moved a few parts to make it fit in micro:bit robots and some projects – the nrf52840 is a big upgrade chip and can do stuff like tensorflow lite for microcontrollers, ble central and peripheral, and more.
-
-## Learn More
-* [YouTube](https://youtu.be/uNDqkglM8_Y)
-* [Adafruit Blog](https://blog.adafruit.com/2019/12/24/adafruit-top-secret-december-24-2019-get-a-clue-adafruit-clue/)
+## Purchase
+* [Adafruit](https://www.adafruit.com/product/4500)
 
 ## Contribute
 
