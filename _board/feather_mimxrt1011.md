@@ -3,17 +3,30 @@ layout: download
 board_id: "feather_mimxrt1011"
 title: "Feather MIMXRT1011 Download"
 name: "Feather MIMXRT1011"
-manufacturer: "Arturo182"
-board_url: ""
+manufacturer: "arturo182"
+board_url: "https://hackaday.io/project/169387-mimxrt10xx-feathers-rt1011-and-rt1062"
 board_image: "feather_mimxrt1011.jpg"
 features:
   - Feather-Compatible
+  - Battery Charging
 
 ---
-CircuitPython snakes its way to the powerful NXP i.MX RT family of MCUs, 500+ MHz and up to 1 MB RAM.
+
+A Work-In-Progress Feather featuring the NXP i.MX RT1011 MCU and a ESP32.
+
+## Technical details
+
+- ARM Cortex-M7 MCU running at 500MHz, 128KB of RAM
+- 8MB of Flash shared between MCU code and CircuitPython storage
+- USB Type-C connector
+- ESP32 that can be used as a SPI slave with the AirLift firmware
+- Neopixel indicator
+- Works with CircuitPython!
+- I2C, UART, SPI, GPIO, ADCs
+- Comes with a UF2 bootloader for easy FW update
 
 ## Learn More
-* [Twitter](https://twitter.com/arturo182/status/1199841134253682690)
+* [Reveal Tweet](https://twitter.com/arturo182/status/1199841134253682690)
 
 ## Contribute
 
