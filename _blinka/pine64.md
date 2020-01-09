@@ -41,7 +41,7 @@ The Pine64 is the first pine64.org Single Board Computer powered by Allwinner’
 ## Purchase
 * [pine64 2GB](https://store.pine64.org/?product=pine-a64-board-2gb)
 * [pine64 1GB](https://store.pine64.org/?product=pine-a64-board-1gb)
-* [pine64 521MB](https://store.pine64.org/?product=pine-a64-board)
+* [pine64 512MB](https://store.pine64.org/?product=pine-a64-board)
 
 ## Contribute
 
