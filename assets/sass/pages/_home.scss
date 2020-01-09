@@ -89,6 +89,10 @@
     padding: 20px 55px 20px 55px;
     margin-bottom: 5px;
 
+    h2 {
+      color: #fff;
+    }
+
     &.purple {
       background-color: #63338f;
     }
@@ -101,6 +105,11 @@
 
   .content {
     text-align: center;
+    margin: 100px 0 100px 0;
+
+    &.short {
+      margin: 50px 0 50px 0;
+    }
 
     h2 {
       width: 75%;
@@ -109,7 +118,7 @@
     }
 
     p {
-      font-size: 20px;
+      font-size: 24px;
       width: 75%;
       margin: 0 auto;
       padding-bottom: 20px;
@@ -123,8 +132,28 @@
       margin-bottom: 20px;
 
       .item {
+        h3 {
+          font-size: 24px;
+        }
 
+        p {
+          font-size: 18px;
+        }
       }
+    }
+  }
+
+  a.action-link {
+    display: inline-block;
+    padding: 5px 75px 5px 75px;
+    border-radius: 50px;
+    border: solid 3px #fff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+
+    &.include-gap {
+      margin-top: 50px;
     }
   }
 }
