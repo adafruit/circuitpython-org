@@ -1,12 +1,12 @@
 ---
 layout: download
 board_id: "pine64"
-title: "Pine64 Download"
-name: "Pine64"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://store.pine64.org/?product=pine-a64-board"
+title: "Pine A64+ Download"
+name: "Pine A64+"
+manufacturer: "Pine64"
+board_url: "https://www.pine64.org/devices/single-board-computers/pine-a64/"
 board_image: "pine64.png"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
+download_instructions: ""
 downloads_display: false
 blinka: true
 features:
@@ -17,7 +17,9 @@ features:
   - 40-pin GPIO
 ---
 
-The Pine64 is the first pine64.org Single Board Computer powered by Allwinner’s A64 Quad-Core ARM Cortex A53 64-Bit SOC
+The PINE A64 (+) is our first Single Board Computer powered by Allwinner’s A64 Quad-Core ARM Cortex A53 64-Bit SOC. There are many Operating Systems available for the PINE A64 (+) created by the open source community and various partner projects. Currently the majority of Linux distributions for the PINE A64 are using mainline Linux but there are a number of BSP-based distribution and / or legacy systems that you can download too.
+
+Apart from Linux, you also have a choice of a selection of *BSDs, Android, Remix OS and Windows IoT.
 
 - Allwinner A64 Quad Core SOC with Mali 400 MP2 GPU
 - DDR3 RAM (up to 2GB)
