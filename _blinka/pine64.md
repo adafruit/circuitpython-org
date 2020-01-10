@@ -17,7 +17,7 @@ features:
   - 40-pin GPIO
 ---
 
-The PINE A64 (+) is our first Single Board Computer powered by Allwinner’s A64 Quad-Core ARM Cortex A53 64-Bit SOC. There are many Operating Systems available for the PINE A64 (+) created by the open source community and various partner projects. Currently the majority of Linux distributions for the PINE A64 are using mainline Linux but there are a number of BSP-based distribution and / or legacy systems that you can download too.
+The PINE A64 (+) is the first pine64.org Single Board Computer powered by Allwinner’s A64 Quad-Core ARM Cortex A53 64-Bit SOC. There are many Operating Systems available for the PINE A64 (+) created by the open source community and various partner projects. Currently the majority of Linux distributions for the PINE A64 are using mainline Linux but there are a number of BSP-based distribution and / or legacy systems that you can download too.
 
 Apart from Linux, you also have a choice of a selection of *BSDs, Android, Remix OS and Windows IoT.
 
