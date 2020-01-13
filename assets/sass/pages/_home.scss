@@ -24,7 +24,7 @@
 
     .text {
       color: white;
-      font-weight: 300;
+      font-weight: 400;
 
       position: absolute;
       width: 100%;
@@ -55,7 +55,7 @@
         width: 75%;
         grid-column: 2;
         grid-row: 2;
-        font-size: 54px;
+        font-size: 64px;
         font-weight: bold;
         margin-bottom: 15px;
       }
@@ -64,7 +64,7 @@
         width: 40%;
         grid-column: 2;
         grid-row: 3;
-        font-size: 20px;
+        font-size: 24px;
       }
     }
 
@@ -144,13 +144,7 @@
   }
 
   a.action-link {
-    display: inline-block;
-    padding: 5px 75px 5px 75px;
-    border-radius: 50px;
-    border: solid 3px #fff;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
+    @include rounded-button;
 
     &.include-gap {
       margin-top: 50px;
@@ -165,11 +159,36 @@
         [full-start] minmax(0em, 1fr)
         [main-start] minmax(0, 80em) [main-end]
         minmax(0em, 1fr) [full-end];
+
+    .headline-banner {
+      height: 400px;
+      margin-bottom: 0;
+
+      .text {
+        .title {
+          font-size: 26px;
+        }
+
+        .tagline {
+          width: 80%;
+        }
+
+      }
+
+      img.pinball {
+        object-fit: fill;
+      }
+
+      &.supported-section {
+        height: 400px;
+      }
+    }
+
     .content {
-      background-color: #fff;
       border: none;
       border-radius: 0;
       padding: 40px 10px 0 10px;
+      margin: 20px 0 20px 0 !important;
       .home-table {
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 0em;
