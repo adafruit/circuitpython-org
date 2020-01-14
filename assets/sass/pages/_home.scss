@@ -152,6 +152,14 @@
   }
 }
 
+@media only screen and (max-width: $screen-md-max) {
+  #home-page {
+    .headline-banner {
+      @include img-overlay;
+    }
+  }
+}
+
 @media only screen and (max-width: $screen-xs-max) {
   #home-page {
     padding: 0;
@@ -186,14 +194,7 @@
 
       }
 
-      .img-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.6);
-      }
+      @include img-overlay;
 
       img.pinball {
         object-fit: fill;
