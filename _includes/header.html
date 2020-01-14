@@ -1,4 +1,16 @@
 <header id="site-header">
+  {% assign current = page.url | downcase | split: '/' %}
+  <div class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a {% if current[1] == 'contributing' %}class='active'{% endif %} href="{{ "/contributing" | relative_url  }}">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a {% if current[1] == 'awesome' %}class='active'{% endif %} href="{{ "/awesome" | relative_url  }}">Awesome</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
+        <a href="https://adafru.it/discord"><i class="fab fa-discord"></i></a>
+      </div>
+    </div>
+  </div>
   <div class="wrapper">
     <div class="content">
       <div class="site-brand">
@@ -12,17 +24,14 @@
                                          height="60" width="136">
           </a>
         </div>
-      </div>
-
-      <div class="site-navigation">
-        <a href="{{ "/downloads" | relative_url  }}">DOWNLOADS</a>
-        <a href="{{ "/libraries" | relative_url  }}">LIBRARIES</a>
-        <a href="{{ "/contributing" | relative_url  }}">CONTRIBUTING</a>
-        <a href="{{ "/blinka" | relative_url  }}">BLINKA</a>
-        <a href="https://blog.adafruit.com/category/circuitpython">NEWS</a>
-        <a href="https://adafru.it/discord">DISCORD</a>
-        <a href="{{ "/awesome" | relative_url  }}">AWESOME</a>
-        <a href="https://learn.adafruit.com/welcome-to-circuitpython">HELP</a>
+        <div class="site-navigation">
+          <a {% if current[1] == 'downloads' %}class='active'{% endif %} href="{{ "/downloads" | relative_url  }}">Downloads</a>
+          <a {% if current[1] == 'libraries' %}class='active'{% endif %} href="{{ "/libraries" | relative_url  }}">Libraries</a>
+          <a {% if current[1] == 'blinka' %}class='active'{% endif %} href="{{ "/blinka" | relative_url  }}">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
       </div>
     </div>
   </div>

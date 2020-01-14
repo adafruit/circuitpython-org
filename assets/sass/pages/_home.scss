@@ -1,15 +1,116 @@
 #home-page {
-  text-align: center;
+  @include readable-content;
+  grid-row-grap: 1em;
+  background-color: #fff;
 
-  hr {
-    width: 75%;
-    margin: 40px auto 40px auto;
-    background-color: #cecece;
-    border: none;
-    height: 1px;
+  .headline-banner {
+    grid-column: full;
+
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 800px;
+
+    @media (max-width: $screen-sm) {
+      margin-bottom: 30px;
+    }
+
+    .image-headline {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .text {
+      color: white;
+      font-weight: 400;
+
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+
+      @include readable-content;
+      grid-template-rows: 1fr 1fr 1fr 8fr;
+
+      &> * {
+        grid-column: main;
+      }
+
+      .title, .tagline {
+        span {
+          line-height: 1.40;
+          margin-left: 16px;
+          padding: 5px 0;
+          opacity: 0.9;
+
+          box-decoration-break: clone;
+          -webkit-box-decoration-break: clone;
+        }
+      }
+
+      .title {
+        width: 75%;
+        grid-column: 2;
+        grid-row: 2;
+        font-size: 64px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      .tagline {
+        width: 40%;
+        grid-column: 2;
+        grid-row: 3;
+        font-size: 24px;
+      }
+    }
+
+    &.supported-section {
+      height: 680px;
+      text-align: center;
+
+      .text {
+        grid-template-rows: 4fr 1fr 1fr 4fr;
+
+        .title, .tagline {
+          width: 100%;
+        }
+
+      }
+    }
+  }
+
+  .banner {
+    grid-column: full;
+    text-align: center;
+    padding: 20px 55px 20px 55px;
+    margin-bottom: 5px;
+
+    h2 {
+      color: #fff;
+    }
+
+    &.purple {
+      background-color: #63338f;
+    }
+
+    p {
+      font-size: 28px;
+      color: #fff;
+    }
   }
 
   .content {
+    text-align: center;
+    margin: 100px 0 100px 0;
+
+    &.short {
+      margin: 50px 0 50px 0;
+    }
+
     h2 {
       width: 75%;
       margin: 20px auto;
@@ -17,7 +118,7 @@
     }
 
     p {
-      font-size: 20px;
+      font-size: 24px;
       width: 75%;
       margin: 0 auto;
       padding-bottom: 20px;
@@ -31,8 +132,22 @@
       margin-bottom: 20px;
 
       .item {
+        h3 {
+          font-size: 24px;
+        }
 
+        p {
+          font-size: 18px;
+        }
       }
+    }
+  }
+
+  a.action-link {
+    @include rounded-button;
+
+    &.include-gap {
+      margin-top: 50px;
     }
   }
 }
@@ -44,11 +159,56 @@
         [full-start] minmax(0em, 1fr)
         [main-start] minmax(0, 80em) [main-end]
         minmax(0em, 1fr) [full-end];
+
+    .headline-banner {
+      height: 400px;
+      margin-bottom: 0;
+
+      .text {
+        .title {
+          text-align: center;
+          font-size: 26px;
+          width: 100%;
+
+          span {
+            margin-left: 0;
+          }
+        }
+
+        .tagline {
+          text-align: center;
+          width: 100%;
+
+          span {
+            margin-left: 0;
+          }
+        }
+
+      }
+
+      .img-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+      }
+
+      img.pinball {
+        object-fit: fill;
+      }
+
+      &.supported-section {
+        height: 400px;
+      }
+    }
+
     .content {
-      background-color: #fff;
       border: none;
       border-radius: 0;
       padding: 40px 10px 0 10px;
+      margin: 20px 0 20px 0 !important;
       .home-table {
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 0em;

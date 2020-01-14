@@ -1,6 +1,6 @@
 #site-header {
   display: grid;
-  grid-template-rows: 1fr 3px;
+  grid-template-rows: 40px 1fr 3px;
   grid-column: full;
 
   &> * {
@@ -23,20 +23,43 @@
 
   .content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
     padding-bottom: 20px;
+  }
+
+  a.active {
+    color: #fff;
+  }
+}
+
+.top-navigation {
+  background-color: #151515;
+  padding-top: 10px;
+
+  .navigation {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    a {
+      margin-left: 40px;
+      font-size: 16px;
+      color: #999999;
+
+      &:hover {
+        color: #fff;
+      }
+    }
   }
 }
 
 .site-brand {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
 
 .site-logo {
-  position: absolute;
-  top: 20px;
 }
 
 .site-banner {
@@ -48,38 +71,35 @@
   }
 }
 
-.site-navigation {
-  display:flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+.get-started {
+  margin-left: auto;
+  padding-bottom: 10px;
 
   a {
-    color: #fff;
-    margin-left: 10px;
+    @include rounded-button;
+  }
+}
+
+.site-navigation {
+  padding: 0 0 10px 0;
+  font-size: 18px;
+
+  a {
+    margin-left: 40px;
+    color: #999999;
+
+    &:hover {
+      color: #fff;
+    }
   }
 }
 
 .bottom-bar {
-  background-color: #e90e8b;
+  background-color: #e71c8c;
 }
 
 @media (max-width: $screen-xs-max) {
   #site-header {
-    .wrapper {
-      height: auto;
-    }
-
-    .content {
-      padding-bottom: 10px;
-    }
-  }
-
-  .site-navigation {
-    margin-top: 10px;
-    flex-wrap: wrap;
-
-    a {
-      padding: 2px;
-    }
+    display: none !important;
   }
 }

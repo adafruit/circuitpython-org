@@ -1,0 +1,26 @@
+@mixin readable-content {
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(15px, 1fr)
+    [main-start] minmax(0, 1300px) [main-end]
+    minmax(15px, 1fr) [full-end];
+
+  &> * {
+    grid-column: main;
+  }
+}
+
+@mixin rounded-button {
+  display: inline-block;
+  font-size: 18px;
+  padding: 7px 50px 7px 50px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 3px solid #fff;
+
+  &:hover {
+    color: #000;
+    background-color: #fff;
+  }
+}
