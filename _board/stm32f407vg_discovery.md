@@ -14,6 +14,7 @@ It includes an ST-LINK embedded debug tool, one ST-MEMS digital accelerometer, a
 
 ## Purchase
 * [ST](https://www.st.com/en/evaluation-tools/stm32f4discovery.html)
+*
 
 ## Contribute
 
