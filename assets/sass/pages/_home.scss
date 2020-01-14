@@ -169,11 +169,19 @@
           text-align: center;
           font-size: 26px;
           width: 100%;
+
+          span {
+            margin-left: 0;
+          }
         }
 
         .tagline {
           text-align: center;
           width: 100%;
+
+          span {
+            margin-left: 0;
+          }
         }
 
       }
