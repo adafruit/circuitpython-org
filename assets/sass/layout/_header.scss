@@ -44,6 +44,10 @@
       margin-left: 40px;
       font-size: 16px;
       color: #999999;
+
+      &:hover {
+        color: #fff;
+      }
     }
   }
 }
@@ -83,6 +87,10 @@
   a {
     margin-left: 40px;
     color: #999999;
+
+    &:hover {
+      color: #fff;
+    }
   }
 }
 
