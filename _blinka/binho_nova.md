@@ -34,6 +34,7 @@ Enclosure
 - USB Type-C Connector
 
 ## Purchase
+* [Adafruit](https://www.adafruit.com/product/4459)
 * [Binho](https://binho.io/)
 
 ## Contribute
