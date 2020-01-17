@@ -9,6 +9,16 @@ board_image: "ohs2020_badge.jpg"
 downloads_display: true
 blinka: false
 features:
+  - Bluetooth/BTLE
+  - Display
+  - Battery Charging
+---
+
+This is the badge for the Open Hardware Summit in NYC on on March 13th.
+[Conference Link](https://2020.oshwa.org/)
+
+It is going to be in a wrist watch form factor with several awesome features.
+
   - Rigado BMD340 (Nordic nRF52840)
   - 1.54" LCD
   - 4 user buttons
@@ -18,12 +28,7 @@ features:
   - SPH0645LM4H-B Microphone (Optional)
   - Sparkfun QWIIC connector
   - LiPo Charger
----
 
-This is the badge for the Open Hardware Summit in NYC on on March 13th.
-[Conference Link](https://2020.oshwa.org/)
-
-It is going to be in a wrist watch form factor with several awesome features.
 
 ## Purchase
 Not available for direct purchase.
