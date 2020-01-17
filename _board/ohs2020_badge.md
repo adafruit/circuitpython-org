@@ -2,7 +2,7 @@
 layout: download
 board_id: "ohs2020_badge"
 title: "OHS2020 Badge Download"
-name: "Open Hardware Summit 2020 Badg"
+name: "Open Hardware Summit 2020 Badge"
 manufacturer: "OSHWA"
 board_url: "https://hackaday.io/project/168483-open-hardware-summit-2020-badge"
 board_image: "ohs2020_badge.jpg"
