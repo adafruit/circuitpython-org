@@ -9,10 +9,19 @@ board_image: "unknown.jpg"
 downloads_display: true
 blinka: false
 download_instructions: "BLINKA ONLY - url"
+# Features are tags; they should be limited to the items in this list and spelled exactly the same.
+# Include only the features your board supports, and remove these comment lines before committing.
 features:
-  - ~5 interesting
-  - features
-  - such as bluetooth
+  - Speaker
+  - Solder-Free Alligator Clip
+  - Feather-Compatible
+  - Battery Charging
+  - Display
+  - Wi-Fi
+  - Bluetooth/BTLE
+  - Robotics
+  - LoRa/Radio
+  - GPS
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
