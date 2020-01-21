@@ -17,8 +17,25 @@ features:
   - 40-pin GPIO
 ---
 
-What’s Orange Pi PC？ 
-It’s an open-source single-board computer. It can run Android 4.4 , Ubuntu, Debian Image, it uses the AllWinner H3 SoC, and has 2GB DDR3 SDRAM
+What's Orange Pi Plus 2E？
+It's an open-source single-board computer. It can run Android 4.4 , Ubuntu, Debian Image, it uses the AllWinner H3 SoC, and has 2GB DDR3 SDRAM
+
+
+
+What can I do with Orange Pi Plus 2E?
+Build…
+A computer
+A wireless server
+Games
+Music and sounds
+HD video
+A speaker
+Android
+Scratch
+Pretty much anything else, because Orange Pi Plus 2E is open source
+
+Who's it for?
+Orange Pi Plus 2E is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.
 
 - H3 Quad-core Cortex-A7 H.265/HEVC 4K
 - Mali400MP2 GPU @600MHz
@@ -42,7 +59,7 @@ It’s an open-source single-board computer. It can run Android 4.4 , Ubuntu, De
 - v3.5 mm Jack and HDMI
 - vDC input can supply power, but USB OTG input don’t supply power
 - Three USB 2.0 HOST, one USB 2.0 OTG
-- Power Button(SW4)
+- Power Button(SW4), Recovery Button(SW3), Uboot Button(SW2)
 - 40 Pins Header
 - GPIO(1x3) pin
 - UART, ground.

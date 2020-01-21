@@ -16,13 +16,32 @@ features:
   - 40-pin GPIO
 ---
 
-What’s Orange Pi PC？It’s an open-source single-board computer. It can run Android 4.4, Ubuntu, Debian Image. It uses the AllWinner H3 SoC, and has 512MB DDR3 SDRAM.
+What's Orange Pi Lite？
+It's an open-source single-board computer. It can run Android 4.4, Ubuntu, Debian Image. It uses the AllWinner H3 SoC, and has 512MB DDR3 SDRAM.
+
+
+
+What can I do with Orange Pi Lite?
+You can use it to build…
+A computer
+A wireless server
+Games
+Music and sounds
+HD video
+A speaker
+Android
+Scratch
+Pretty much anything else, because Orange Pi is open source
+
+Who's it for?
+Orange Pi Lite is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.
 
 - H3 Quad-core Cortex-A7 H.265/HEVC 4K
 - Mali400MP2 GPU @600MHz
 - Supports OpenGL ES 2.0
 - 512MB DDR3 (shared with GPU)
 - TF card (Max. 32GB) / MMC card slot
+- WiFi with external antenna
 - A CSI input connector Camera
 - Supports 8-bit YUV422 CMOS sensor interface
 - Supports CCIR656 protocol for NTSC and PAL
