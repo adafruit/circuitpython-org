@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "orange_pi_lite
+board_id: "orange_pi_lite"
 title: "Orange Pi Lite Download"
 name: "Orange Pi Lite"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"

@@ -5,7 +5,7 @@ title: "Orange Pi One Download"
 name: "Orange Pi One"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
 board_url: "http://www.orangepi.org/orangepione/"
-board_image: "orange_pi_one.jpg"
+board_image: "orange_pi_one.png"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true
