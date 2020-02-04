@@ -22,3 +22,6 @@ Coming soon!
 ## Contribute
 
 Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
+
+
+Any info on self heating and or optimal calibration for the sensors on n this board would be greatly appreciated. 
