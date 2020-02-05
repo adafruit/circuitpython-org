@@ -15,26 +15,26 @@ specifications and aesthetics.
 
 ### Where the Hero Image is specified in the Site Layout
 
-The hero image on circuitpython.org may be changed by editing a value in the _config.yml file.
+The hero image on circuitpython.org may be changed by editing a value in the **_config.yml** file.
 
-The _config.yml file is located in the root directory of the circuitpython.org repo on GitHub.
+The **_config.yml** file is located in the root directory of the circuitpython.org repo on GitHub.
 
 The typical contents (truncated after a number of lines) is similar to:
 
-  title: CircuitPython
-  email: justin@adafruit.com
-  description: >-
-    The easiest way to program microcontrollers
-  site_image: "https://circuitpython.org/assets/images/CircuitPythonLogo_Black.png"
-  **hero_image: CircuitPython_Hero.jpg**
-  timezone: America/New_York
-  twitter_username: circuitpython
-  github_username:  adafruit
-  baseurl: ""
-  url: "https://circuitpython.org"
-  paginate: 5
-  excerpt_separator: <!--more-->
-  permalink: pretty ...
+    title: CircuitPython
+    email: justin@adafruit.com
+    description: >-
+      The easiest way to program microcontrollers
+    site_image: "https://circuitpython.org/assets/images/CircuitPythonLogo_Black.png"
+    **hero_image: CircuitPython_Hero.jpg**
+    timezone: America/New_York
+    twitter_username: circuitpython
+    github_username:  adafruit
+    baseurl: ""
+    url: "https://circuitpython.org"
+    paginate: 5
+    excerpt_separator: <!--more-->
+    permalink: pretty ...
 
 ### Adding New Potential Hero Images to the Repository
 
@@ -60,7 +60,7 @@ reviewers on the right of the screen.
 
 First, ensure that a properly formatted hero image is in the /assets/images/heroes directory. 
 
-Edit _config.yml. This is best done with the text edit tool built into GitHub. To do this:
+Edit **_config.yml**. This is best done with the text edit tool built into GitHub. To do this:
 
 - Go to [https://github.com/adafruit/circuitpython-org/blob/master/_config.yml](https://github.com/adafruit/circuitpython-org/blob/master/_config.yml) 
 and click on the pencil icon on the right side.
