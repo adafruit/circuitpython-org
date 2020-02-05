@@ -6,8 +6,9 @@ layout: home
   <div class="headline-banner">
     <div class="img-overlay"></div>
       <img class="image-headline" alt="hero image"
-                                  src="{{ "assets/images/CircuitPython_Hero.jpg" |
-                                  relative_url }}"
+                                  src="{{ "assets/images/heroes/" |
+                                          append: site.hero_image |
+                                          relative_url }}"
           />
     <div class="text">
       <div class="title"><span>The easiest way to program microcontrollers</span></div>
