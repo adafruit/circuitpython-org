@@ -3,9 +3,9 @@ layout: download
 board_id: "ndgarage_ndbit6"
 title: "Ndbit6 Download"
 name: "Ndbit6"
-manufacturer: "ndGarage"
+manufacturer: "n°Garage"
 board_url: ""
-board_image: "unknown.jpg"
+board_image: "ndgarage_ndbit6.jpg"
 downloads_display: true
 blinka: false
 features:
