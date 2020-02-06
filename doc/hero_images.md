@@ -49,7 +49,7 @@ To add the files:
 - Keep the value "Create a new branch for this commit and start a pull request" checked.
 - Click the green "Commit changes" button.
 
-This will place you in a new screen where you can describe the changes you have made in the "Leave a ccomment" block.
+This will place you in a new screen where you can describe the changes you have made in the "Leave a comment" block.
 
 When ready, click the green "Create pull request" button.
 
@@ -71,7 +71,7 @@ for example Gamer_Hero.png.
 - Keep the value "Create a new branch and start a pull request" checked.
 - Click the green "Commit changes" button.
 
-This will place you in a new screen where you can describe the changes you have made in the "Leave a ccomment" block.
+This will place you in a new screen where you can describe the changes you have made in the "Leave a comment" block.
 
 When ready, click the green "Create pull request" button.
 
