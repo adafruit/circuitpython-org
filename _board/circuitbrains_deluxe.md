@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "circuitbrains_deluxe"
+board_id: "circuitbrains_deluxe_m4"
 title: "CircuitBrains Deluxe Download"
 name: "CircuitBrains Deluxe"
 manufacturer: "Null Byte Labs LLC"
