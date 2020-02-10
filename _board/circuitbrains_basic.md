@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "circuitbrains_basic"
+board_id: "circuitbrains_basic_m0"
 title: "CircuitBrains Basic Download"
 name: "CircuitBrains Basic"
 manufacturer: "Null Byte Labs LLC"
