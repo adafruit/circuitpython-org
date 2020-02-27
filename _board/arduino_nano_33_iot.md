@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "arduino_nano_33_iot"
-title: "NANO 33 BLE Download"
-name: "NANO 33 BLE"
+title: "NANO 33 IoT Download"
+name: "NANO 33 IoT"
 manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/NANO33IoT"
 board_image: "arduino_nano_33_iot.jpg"
