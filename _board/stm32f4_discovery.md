@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "stm32f407vg_discovery"
+board_id: "stm32f4_discovery"
 title: "STM32F407 Discovery kit Download"
 name: "STM32F407 Discovery kit"
 manufacturer: "ST"
