@@ -30,6 +30,10 @@ Includes:
 
 All are powered via 5V DC, so you can use any 5V-powered servos, DC motors, steppers, solenoids, relays etc. To keep things simple and safe, CRIKIT does not support mixing voltages, use only 5V - not for use with 9V or 12V robotic components.
 
+## Tutorial
+
+- [Circuit Playground Express + Crickit](https://learn.adafruit.com/adafruit-crickit-creative-robotic-interactive-construction-kit)
+
 ## Purchase
 
 * [Circuit Playground Express - Adafruit](https://www.adafruit.com/product/3333)

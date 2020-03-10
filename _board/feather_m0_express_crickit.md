@@ -32,6 +32,10 @@ Features:
 
 All are powered via 5V DC, so you can use any 5V-powered servos, DC motors, steppers, solenoids, relays etc. To keep things simple and safe, we don't support mixing voltages, so only 5V, not for use with 9V or 12V robotic components.
 
+## Tutorial
+
+- [Feather M0 Express + Crickit Overview](https://learn.adafruit.com/adafruit-crickit-creative-robotic-interactive-construction-kit)
+
 ## Purchase
 
 * [Feather M0 Express - Adafruit](https://www.adafruit.com/product/3403)

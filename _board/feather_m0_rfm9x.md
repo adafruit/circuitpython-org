@@ -54,7 +54,12 @@ The initial tests with default library settings: over 1.2mi/2Km line-of-sight wi
 
 Comes fully assembled and tested, with a USB bootloader. Also includes some headers so you can solder it in and plug into a solderless breadboard. You will need to cut and solder on a small piece of wire (any solid or stranded core is fine) in order to create your antenna.
 
+## Tutorial
+
+- [Feather M0 RFM9x](https://learn.adafruit.com/adafruit-feather-m0-radio-with-lora-radio-module)
+
 ## Purchase
+
 * [Feather M0 RFM95 - Adafruit](https://www.adafruit.com/product/3178)
 * [Feather M0 RFM96 - Adafruit](https://www.adafruit.com/product/3179)
 

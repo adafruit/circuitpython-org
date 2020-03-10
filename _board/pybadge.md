@@ -29,7 +29,12 @@ You can power the PyBadge from any of Adafruit's LiPoly batteries, but [this 400
 
 There is a variant on the Adafruit PyBadge, the Adafruit PyBadge LC, which has a subset of the PyBadge features.
 
+## Tutorial
+
+- [PyBadge Overview](https://learn.adafruit.com/adafruit-pybadge)
+
 ## Purchase
+
 * [Adafruit](https://www.adafruit.com/product/4200)
 
 ## Contribute

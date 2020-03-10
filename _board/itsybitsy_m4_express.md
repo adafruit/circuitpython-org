@@ -39,6 +39,11 @@ Here are some of the updates you can look forward to when using ItsyBitsy M4:
 *   Comes pre-loaded with the [UF2 bootloader](https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader), which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython or Arduino IDE (it is bossa v1.8 compatible)
 
 Comes assembled and tested, with headers that can be soldered in for use with a breadboard. ItsyBitsy M4 comes with CircuitPython programmed in.
+
+## Tutorials
+
+* [Overview](https://learn.adafruit.com/introducing-adafruit-itsybitsy-m4)
+
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/3800)

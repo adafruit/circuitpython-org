@@ -33,6 +33,10 @@ Includes:
 *   **Easy reprogramming**, comes pre-loaded with the [UF2 bootloader](https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader), which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython (it is bossa v1.8 compatible)
 
 The primary target for this board is CircuitPython - with 120 MHz, and 192KB of RAM CircuitPython runs really well on this chip. At this time, the latest versions of CircuitPython working on this board, and more API parts are added every week.
+## Tutorial
+
+- [Metro M4 Express Overview]([https://learn.adafruit.com/search?q=Metro%20M4%20Express](https://learn.adafruit.com/search?q=Metro M4 Express))
+
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/3382)

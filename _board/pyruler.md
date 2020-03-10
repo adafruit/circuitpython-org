@@ -14,6 +14,10 @@ The first time you soldered up a surface mount component you may have been surpr
 
 While you can use the PyRuler with the Arduino IDE, it ships with CircuitPython on board. When you plug it in, it will show up as a very small disk drive with code.py on it. Edit code.py with your favorite text editor to build your project using Python, the most popular programming language. No installs, IDE or compiler needed, so you can use it on any computer, even ChromeBooks or computers you can't install software on. When you're done, unplug the Trinket M0 and your code will go with you. CircuitPython is easier to code but not as low-level and complete as Arduino.
 
+## Tutorial
+
+- [PyRuler Overview](https://learn.adafruit.com/adafruit-pyruler)
+
 ## Contribute
 
 Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

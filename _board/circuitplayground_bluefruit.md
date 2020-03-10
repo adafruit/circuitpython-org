@@ -48,7 +48,12 @@ on the go!
 * MicroUSB port for programming and debugging
 * USB port can act like serial port, keyboard, mouse, joystick or MIDI!
 
+## Tutorials
+
+* [Circuit Playground Overview](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
+
 ## Purchase
+
 * [Adafruit](https://www.adafruit.com/product/4333)
 
 ## Contribute

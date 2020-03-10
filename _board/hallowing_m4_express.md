@@ -16,6 +16,10 @@ features:
 
 This is Hallowing, now with SAMD51 M4 processor! More later!
 
+## Tutorial
+
+- [HalloWing M4 Express](https://learn.adafruit.com/adafruit-hallowing-m4)
+
 ## Purchase
 * [Adafruit](https://www.adafruit.com/)
 

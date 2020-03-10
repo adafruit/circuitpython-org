@@ -42,6 +42,10 @@ Extras:
 
 The primary target for this board is CircuitPython - with 120 MHz, and 256KB of RAM CircuitPython runs _really_ well on this chip!
 
+## Tutorial
+
+- [Grand Central M4 Express Overview](https://learn.adafruit.com/adafruit-grand-central)
+
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4064)

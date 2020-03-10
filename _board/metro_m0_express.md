@@ -21,6 +21,9 @@ At the Metro M0's heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48
 
 Comes fully assembled with headers, tested, and with the UF2 bootloader loaded on. Includes 4 rubber bumpers to keep it from slipping off your desk. No soldering required to use, plug and play!
 
+## Tutorial
+* [Metro M0 Express Overview](https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/overview)
+
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3505)
 

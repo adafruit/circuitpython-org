@@ -41,7 +41,12 @@ On each side of the Hallowing are JST-PH plugs for connecting external devices. 
 
 Comes fully assembled and ready to be your spooky friend. Comes installed with the UF2 bootloader.
 
+## Tutorial
+
+- [HalloWing M0 Express Overview](https://learn.adafruit.com/adafruit-hallowing)
+
 ## Purchase
+
 * [Adafruit](https://www.adafruit.com/product/3900)
 
 ## Contribute

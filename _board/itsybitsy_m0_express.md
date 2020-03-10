@@ -36,6 +36,10 @@ Here are some of the updates you can look forward to when using ItsyBitsy M0:
 
 Comes assembled and tested ItsyBitsy M0, with header that can be soldered in for use with a breadboard. ItsyBity M0 comes with CircuitPython & example code programmed in.
 
+## Tutorials
+
+* [ItsyBitsy M4 Express Overview](https://learn.adafruit.com/introducing-itsy-bitsy-m0)
+
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3727)
 
