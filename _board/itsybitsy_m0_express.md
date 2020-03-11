@@ -38,7 +38,7 @@ Comes assembled and tested ItsyBitsy M0, with header that can be soldered in for
 
 ## Tutorials
 
-* [ItsyBitsy M4 Express Overview](https://learn.adafruit.com/introducing-itsy-bitsy-m0)
+* [ItsyBitsy M0 Express Overview](https://learn.adafruit.com/introducing-itsy-bitsy-m0)
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3727)
