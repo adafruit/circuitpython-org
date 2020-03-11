@@ -23,6 +23,9 @@ Easy reprogramming: the Feather M4 comes pre-loaded with the UF2 bootloader, whi
 
 Comes fully assembled and tested, with the UF2 USB bootloader. We also toss in some headers so you can solder it in and plug into a solderless breadboard.
 
+## Tutorials
+* [Feather M4 Express Overview](https://learn.adafruit.com/adafruit-feather-m4-express-atsamd51)
+
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3857)
 * [Digi-Key](https://www.digikey.com/short/p87f17)

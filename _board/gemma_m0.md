@@ -38,6 +38,10 @@ Gemma M0 features:
 
 Fully assembled and tested Gemma M0 with CircuitPython & example code programmed in.
 
+## Tutorials
+
+* [Gemma M0 Overview](https://learn.adafruit.com/adafruit-gemma-m0)
+
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3501)
 

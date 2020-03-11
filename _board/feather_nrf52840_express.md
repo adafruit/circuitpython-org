@@ -42,6 +42,10 @@ Comes pre-programed the chip with a UF2 bootloader, which can use either command
 *   Reset button
 *   SWD connector for debugging
 
+## Tutorial
+
+- [Feather nRF52840 Express Overview](https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather)
+
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4062)
 

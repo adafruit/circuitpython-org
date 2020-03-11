@@ -16,6 +16,10 @@ ItsyBitsy nRF52840 Express is only 1.4" long by 0.7" wide, but has 6 power pins,
 
 The most exciting part of the ItsyBitsy is that while we ship it with an Arduino IDE compatible demo, you can also install CircuitPython on board with only a few clicks. When you plug it in, it will show up as a very small disk drive with code.py on it. Edit code.py with your favorite text editor to build your wireless-enabled project using Python, the most popular programming language. No installs, IDE or compiler needed, so you can use it on any computer, even ChromeBooks or computers you can't install software on. When you're done, unplug the Itsy' and your code will go with you.
 
+## Tutorial
+
+- [ItsyBitsy NRF52840 Express Overview](https://learn.adafruit.com/adafruit-itsybitsy-nrf52840-express)
+
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4481)

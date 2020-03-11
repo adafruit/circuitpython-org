@@ -57,7 +57,12 @@ Gaze upon these features:
 * Light sensor
 * On/Off Switch and reset button
 
+## Tutorial
+
+- [MONSTER M4SK Overview](https://learn.adafruit.com/adafruit-monster-m4sk-eyes)
+
 ## Purchase
+
 * [Adafruit](https://www.adafruit.com/product/4343)
 
 ## Contribute

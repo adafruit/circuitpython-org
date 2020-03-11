@@ -28,6 +28,10 @@ You can power the PyGamer from any Adafruit LiPoly battery, but [this 350mAh one
 
 [![PyGamer](http://img.youtube.com/vi/yX2SuS0rK2A/0.jpg)](https://youtu.be/yX2SuS0rK2A?t=1167 "PyGamer")
 
+## Tutorial
+
+- [PyGamer Overview](https://learn.adafruit.com/search?q=PyGamer)
+
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4242)

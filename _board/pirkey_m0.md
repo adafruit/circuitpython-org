@@ -18,6 +18,10 @@ When you plug it in, the pIRkey shows up as a triple device: USB disk drive to s
 
 By default it ships with simple example code to read NEC remotes but **you can use _any_ remote that has about 38KHz output frequency which is the vast majority of remote controls**. CircuitPython makes this all very easy to customize and adapt to your own needs.
 
+## Tutorial
+
+- [pIRkey Overview](https://learn.adafruit.com/adafruit-pirkey-python-programmable-infrared-usb-adapter/)
+
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/3364)

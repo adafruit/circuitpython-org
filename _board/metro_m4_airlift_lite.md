@@ -43,7 +43,12 @@ The primary target for this board is CircuitPython - with 120 MHz, and 192KB of 
 
 Metro M4 AirLift, see how easy and fast it is to get started with IoT projects using CircuitPython!
 
+## Tutorial
+
+- [Metro M4 AirLift Lite Overview](https://learn.adafruit.com/adafruit-metro-m4-express-airlift-wifi)
+
 ## Purchase:
+
 * [Adafruit](https://www.adafruit.com/product/4000)
 
 ## Contribute

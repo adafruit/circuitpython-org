@@ -34,6 +34,10 @@ Arduino is supported through STM32duino. There's no auto-reset bootloader suppor
 MicroPython support is very solid but Adafruit does not provide MicroPython libraries for sensors!
 We tested this in Arduino STM32duino with all our FeatherWings and only the RFM69/RFM9x libraries did not work (they are very platform specific). Its an extraordinarily fast Feather, and our first foray into STM32 - very exciting!
 
+## Tutorial
+
+- [Feather STM32F405 Express Overview](https://learn.adafruit.com/adafruit-stm32f405-feather-express)
+
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4382)
 
