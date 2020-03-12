@@ -28,7 +28,7 @@ After designing it, the board was close enough to micro:bit-shape-size that we m
 ## Tutorials
 
 [CLUE Overview](https://learn.adafruit.com/adafruit-clue)
-[Projects and Guides](https://learn.adafruit.com/search?q=CLUE)
+[Projects and Guides](https://learn.adafruit.com/products/4500/guides)
 
 ## Purchase
 * [Adafruit CLUE](https://www.adafruit.com/product/4500)

@@ -39,7 +39,7 @@ Features:
 
 ## Tutorials
 * [NeoTrellis M4 Overview](https://learn.adafruit.com/adafruit-neotrellis-m4)
-* [Projects and Guides](https://learn.adafruit.com/search?q=NeoTrellis%20M4)
+* [Projects and Guides](https://learn.adafruit.com/products/4020/guides)
 
 ## Purchase
 * [Full Kit - Adafruit](https://www.adafruit.com/product/4020)

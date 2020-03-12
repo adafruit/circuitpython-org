@@ -51,7 +51,7 @@ on the go!
 ## Tutorials
 
 * [Circuit Playground Bluefruit Overview](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
-* [Projects and Guides](https://learn.adafruit.com/search?q=Circuit%20Playground%20Bluefruit)
+* [Projects and Guides](https://learn.adafruit.com/products/4333/guides)
 
 ## Purchase
 
