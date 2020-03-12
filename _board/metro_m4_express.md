@@ -36,6 +36,7 @@ The primary target for this board is CircuitPython - with 120 MHz, and 192KB of 
 ## Tutorial
 
 - [Metro M4 Express Overview](https://learn.adafruit.com/adafruit-metro-m4-express-featuring-atsamd51)
+- [Projects and Guides](https://learn.adafruit.com/search?q=Metro%20M4)
 
 ## Purchase
 

@@ -50,7 +50,8 @@ on the go!
 
 ## Tutorials
 
-* [Circuit Playground Overview](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
+* [Circuit Playground Bluefruit Overview](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
+* [Projects and Guides](https://learn.adafruit.com/search?q=Circuit%20Playground%20Bluefruit)
 
 ## Purchase
 

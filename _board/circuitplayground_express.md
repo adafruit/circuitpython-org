@@ -40,6 +40,7 @@ Here's some of the great goodies baked in to each Circuit Playground Express:
 
 ## Tutorials
 * [Circuit Playground Express Overview](https://learn.adafruit.com/adafruit-circuit-playground-express)
+* [Projects and Guides](https://learn.adafruit.com/search?q=Circuit%20Playground%20Express)
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3333)

@@ -22,6 +22,7 @@ The M4 and ESP32 are a great couple - and each bring their own strengths to this
 
 ## Tutorials
 * [PyPortal Overview](https://learn.adafruit.com/adafruit-pyportal)
+* [Projects and Guides](https://learn.adafruit.com/search?q=PyPortal)
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4116)

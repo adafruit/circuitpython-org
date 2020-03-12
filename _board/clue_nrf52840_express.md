@@ -25,8 +25,13 @@ We’ll be primarily using CircuitPython for programming it, but it will also wo
 
 After designing it, the board was close enough to micro:bit-shape-size that we moved a few parts to make it fit in micro:bit robots and some projects – the nrf52840 is a big upgrade chip and can do stuff like Tensorflow Lite for Microcontrollers, BLE central and peripheral, and more.
 
+## Tutorials
+
+[CLUE Overview](https://learn.adafruit.com/adafruit-clue)
+[Projects and Guides](https://learn.adafruit.com/search?q=CLUE)
+
 ## Purchase
-* [Adafruit](https://www.adafruit.com/product/4500)
+* [Adafruit CLUE](https://www.adafruit.com/product/4500)
 
 ## Contribute
 
