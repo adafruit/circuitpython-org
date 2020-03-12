@@ -44,6 +44,7 @@ Comes fully assembled and ready to be your spooky friend. Comes installed with t
 ## Tutorial
 
 - [HalloWing M0 Express Overview](https://learn.adafruit.com/adafruit-hallowing)
+- [Projects and Guides](https://learn.adafruit.com/products/3900/guides)
 
 ## Purchase
 

@@ -37,6 +37,10 @@ Features:
 *   [Analog Devices ADXL343 triple-axis accelerometer](https://www.analog.com/en/products/adxl343.html)
 *   Really fun to press buttons and have sounds come out!
 
+## Tutorials
+* [NeoTrellis M4 Overview](https://learn.adafruit.com/adafruit-neotrellis-m4)
+* [Projects and Guides](https://learn.adafruit.com/products/4020/guides)
+
 ## Purchase
 * [Full Kit - Adafruit](https://www.adafruit.com/product/4020)
 * [Mainboard - Adafruit](https://www.adafruit.com/product/3938)

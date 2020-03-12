@@ -60,6 +60,7 @@ Gaze upon these features:
 ## Tutorial
 
 - [MONSTER M4SK Overview](https://learn.adafruit.com/adafruit-monster-m4sk-eyes)
+- [Projects and Guides](https://learn.adafruit.com/products/4343/guides)
 
 ## Purchase
 

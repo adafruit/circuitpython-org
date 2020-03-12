@@ -32,6 +32,7 @@ There is a variant on the Adafruit PyBadge, the Adafruit PyBadge LC, which has a
 ## Tutorial
 
 - [PyBadge Overview](https://learn.adafruit.com/adafruit-pybadge)
+- [Projects and Guides](https://learn.adafruit.com/products/4200/guides)
 
 ## Purchase
 
