@@ -2,7 +2,7 @@ name: Update Libraries/Contributing Info
 
 on:
   schedule:
-    - cron: 45 9 * * *
+    - cron: 15 9 * * *
 
 jobs:
   check-repo-owner:
