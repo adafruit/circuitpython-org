@@ -3,7 +3,7 @@ layout: download
 board_id: "beaglebone_black_wireless"
 title: "BeagleBone Black Wireless"
 name: "BeagleBone Black Wireless"
-manufacturer: "SeeedStudio"
+manufacturer: "BeagleBoard"
 board_url: "https://beagleboard.org/black-wireless"
 board_image: "beaglebone_black_wireless.jpg"
 downloads_display: true
