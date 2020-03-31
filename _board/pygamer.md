@@ -6,6 +6,7 @@ name: "PyGamer"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4242"
 board_image: "pygamer.jpg"
+date_added: 2019-5-25
 features:
   - Display
   - Speaker

@@ -6,6 +6,7 @@ name: "Mini SAM M4"
 manufacturer: "Benjamin Shockley"
 board_url: "www.minisam.cc"
 board_image: "mini_sam_m4.jpg"
+date_added: 2019-3-12
 ---
 
 Mini SAM is a LEGO® minifigure-sized development board based on the Microchip SAMD51G 48-Pin 32-Bit ARM® Cortex®-M4F MCU  running at 48Mhz.

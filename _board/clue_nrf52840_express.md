@@ -6,6 +6,7 @@ name: "CLUE NRF52840 Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4500"
 board_image: "clue_nrf52840_express.jpg"
+date_added: 2019-12-30
 features:
   - Display
   - Wi-Fi

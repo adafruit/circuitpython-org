@@ -6,6 +6,7 @@ name: "PyBadge AirLift"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "pybadge_airlift.jpg"
+date_added: 2019-7-1
 features:
   - Display
   - Speaker

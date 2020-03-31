@@ -6,6 +6,7 @@ name: "feather_radiofruit_zigbee"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "unknown.jpg"
+date_added: 2019-4-5
 downloads_display: false
 features:
 ---

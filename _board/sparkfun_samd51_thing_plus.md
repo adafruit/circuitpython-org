@@ -6,6 +6,7 @@ name: "SAMD51 Thing Plus"
 manufacturer: "Sparkfun"
 board_url: "https://www.sparkfun.com/products/14713"
 board_image: "sparkfun_samd51_thing_plus.jpg"
+date_added: 2020-2-26
 features:
   - Feather-compatible
   - Battery Charging

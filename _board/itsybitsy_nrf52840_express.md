@@ -6,6 +6,7 @@ name: "ItsyBitsy NRF52840 Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4481"
 board_image: "itsybitsy_nrf52840_express.jpg"
+date_added: 2019-11-4
 features:
   - Bluetooth/BTLE
 ---

@@ -6,6 +6,7 @@ name: "Programmable USB Hub"
 manufacturer: "Capable Robot Components"
 board_url: "https://www.crowdsupply.com/capable-robot-components/programmable-usb-hub"
 board_image: "capablerobot_usbhub.jpg"
+date_added: 2019-5-25
 ---
 
 In addition to being a 4-port USB 2 High-Speed hub, this Programmable USB hub is also:

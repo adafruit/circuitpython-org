@@ -6,6 +6,7 @@ name: "PyCubed"
 manufacturer: "Robot Exploration Lab"
 board_url: "https://rexlab.stanford.edu/projects/pycubed.html"
 board_image: "pycubed.jpg"
+date_added: 2020-2-27
 features:
 ---
 

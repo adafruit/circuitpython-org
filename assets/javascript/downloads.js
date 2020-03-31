@@ -271,18 +271,23 @@ function handleSortResults(event) {
   var sortType = event.target.value;
   setURL('sort-by', sortType);
   var downloads = document.querySelector('.downloads-section');
-
   Array.prototype.slice.call(downloads.children)
     .map(function (download) { return downloads.removeChild(download); })
     .sort(function (a, b) {
       switch(sortType) {
         case 'alpha-asc':
+          console.log(a.dataset.name.localeCompare(b.dataset.name));
           return a.dataset.name.localeCompare(b.dataset.name);
         case 'alpha-desc':
           return b.dataset.name.localeCompare(a.dataset.name);
+        case 'date-asc':
+          return a.dataset.date < b.dataset.date ? 1 : -1;
+        case 'date-desc':
+          //console.log(a.dataset.date + " is greater than " + b.dataset.date + " = " + (a.dataset.date > b.dataset.date));
+          return a.dataset.date > b.dataset.date ? 1 : -1;
         default:
-          // sort by download count is the deafult
-          return parseInt(a.dataset.downloads, 10) < parseInt(b.dataset.downloads, 10);
+          // sort by download count is the default
+          return parseInt(a.dataset.downloads, 10) < parseInt(b.dataset.downloads, 10) ? 1 : -1;
       }
     })
     .forEach(function (download) { downloads.appendChild(download); });

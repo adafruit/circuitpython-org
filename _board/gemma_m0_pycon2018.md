@@ -6,6 +6,7 @@ name: "Gemma M0 PyCon 2018"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "gemma_m0_pycon2018.jpg"
+date_added: 2019-4-13
 features:
   - Solder-free Alligator clip
 ---

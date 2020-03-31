@@ -6,6 +6,7 @@ name: "Circuit Playground Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com"
 board_image: "circuitplayground_express.jpg"
+date_added: 2018-12-13
 features:
   - Speaker
   - Solder-free Alligator clip

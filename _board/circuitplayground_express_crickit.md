@@ -6,6 +6,7 @@ name: "Circuit Playground Express + Crickit"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "circuitplayground_express_crickit.jpg"
+date_added: 2019-3-9
 features:
   - Speaker
   - Robotics

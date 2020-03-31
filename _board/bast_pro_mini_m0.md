@@ -6,6 +6,7 @@ name: "bast_pro_mini_m0"
 manufacturer: "unknown"
 board_url: ""
 board_image: "unknown.jpg"
+date_added: 2019-4-13
 downloads_display: false
 features:
 ---

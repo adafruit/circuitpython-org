@@ -6,6 +6,7 @@ name: "Circuit Playground Express + Displayio"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "circuitplayground_express_displayio.jpg"
+date_added: 2019-10-17
 features:
   - Speaker
   - Display
