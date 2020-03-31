@@ -11,8 +11,10 @@
     For SPI we'll use the spidev python library, etc. These details don't matter
     so much because they all happen underneath the adafruit_blinka layer.
   </p>
+  {% if page.download_instructions != nil %}
   <div>
       <a class="download-button" href="{{ page.download_instructions }}">INSTALLATION INSTRUCTIONS<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
     <div class="clear"></div>
   </div>
+  {% endif %}
 </div>
