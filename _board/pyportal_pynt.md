@@ -6,6 +6,7 @@ name: "PyPortal Pynt"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4465"
 board_image: "pyportal_pynt.jpg"
+date_added: 2019-12-11
 features:
   - Display
   - Speaker

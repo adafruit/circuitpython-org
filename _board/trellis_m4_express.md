@@ -6,6 +6,7 @@ name: "NeoTrellis M4"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "trellis_m4_express.jpg"
+date_added: 2019-3-9
 features:
   - Display
 ---

@@ -42,6 +42,8 @@ permalink: /downloads
             <li><input type="radio" name="sort-by" value="downloads" aria-label="Downloads" checked> Downloads</li>
             <li><input type="radio" name="sort-by" value="alpha-asc" aria-label="Board Name (A to Z)"> Board Name (A to Z)</li>
             <li><input type="radio" name="sort-by" value="alpha-desc" aria-label="Board Name (Z to A)"> Board Name (Z to A)</li>
+            <li><input type="radio" name="sort-by" value="date-desc" aria-label="Date Added (Newest First)"> Date Added (Newest First)</li>
+            <li><input type="radio" name="sort-by" value="date-asc" aria-label="Date Added (Oldest First)"> Date Added (Oldest First)</li>
           </ul>
         </fieldset>
       </div>
@@ -94,7 +96,8 @@ permalink: /downloads
                             data-name="{{ info.name | default: board.id }}"
                             data-downloads="{{ board.downloads }}"
                             data-manufacturer="{{ info.manufacturer }}"
-                            data-features="{{ info.features | join: ','}}">
+                            data-features="{{ info.features | join: ','}}"
+                            data-date="{{ info.date_added }}">
         <a href="{{ info.url | relative_url }}">
           <div>
             <div class="img-responsive-4by3">
@@ -120,7 +123,8 @@ permalink: /downloads
                               data-name="{{ board.name }}"
                               data-downloads="0"
                               data-manufacturer="{{ board.manufacturer }}"
-                              data-features="{{ board.features | join: ','}}">
+                              data-features="{{ board.features | join: ','}}"
+                              data-date="{{ board.date_added }}">
           <a href="{{ board.url | relative_url }}">
             <div>
               <div class="img-responsive-4by3">

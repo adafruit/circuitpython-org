@@ -6,6 +6,7 @@ name: "PyPortal"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "pyportal.jpg"
+date_added: 2019-3-9
 features:
   - Display
   - Speaker

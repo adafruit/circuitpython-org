@@ -6,6 +6,7 @@ name: "Seeeduino XIAO"
 manufacturer: "SEEED"
 board_url: ""
 board_image: "seeeduino_xiao.jpg"
+date_added: 2020-1-17
 ---
 
 The SEEED Seeeduino XIAO is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a 32-bit ARM Cortex-M0+ processor with 256KB flash and 32KB SRAM running at 48MHz.  The board is 20 x 17.5mm, and uses a USB-C connector.

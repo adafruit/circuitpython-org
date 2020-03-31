@@ -6,6 +6,7 @@ name: "Feather M0 Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/3403"
 board_image: "feather_m0_express.jpg"
+date_added: 2019-3-8
 features:
   - Feather-compatible
   - Battery Charging

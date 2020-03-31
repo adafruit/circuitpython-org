@@ -6,6 +6,7 @@ name: "Espruino WiFi"
 manufacturer: "Espruino"
 board_url: "https://www.adafruit.com/product/3514"
 board_image: "espruino_wifi.jpg"
+date_added: 2020-2-13
 features:
   - Wi-Fi
 ---

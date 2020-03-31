@@ -6,6 +6,7 @@ name: "PyGamer Advance"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "pygamer_advance.jpg"
+date_added: 2019-7-1
 features:
   - Display
   - Speaker

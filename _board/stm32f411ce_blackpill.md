@@ -6,6 +6,7 @@ name: "STM32F411CE Black Pill"
 manufacturer: "TZT"
 board_url: "https://www.aliexpress.com/item/4000068998794.html"
 board_image: "stm32f411ce_blackpill.jpg"
+date_added: 2019-12-20
 features:
 ---
 In the F401 series, the chip is the cheapest, even cheaper than some F1, and crushed F1 on the main frequency, and has a floating-point arithmetic module, the IO port contains all the basic functions. Therefore, it is possible to provide a learning platform with a very high cost performance for beginners. In practical applications, it is not because the computing power is insufficient, and the IO port is incomplete and hinders development.

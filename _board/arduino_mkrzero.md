@@ -6,6 +6,7 @@ name: "MKR Zero"
 manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/ArduinoMKRZero"
 board_image: "arduino_mkr_zero.jpg"
+date_added: 2019-3-9
 features:
   - Battery Charging
 ---
