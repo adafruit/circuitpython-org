@@ -8,6 +8,7 @@ board_url: "https://beagleboard.org/e14-bbbi"
 board_image: "beaglebone_black_industrial.jpg"
 downloads_display: true
 blinka: true
+date_added: 2019-12-3
 features:
   - Ethernet
   - HDMI

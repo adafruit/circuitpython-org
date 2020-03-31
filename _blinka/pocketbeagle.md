@@ -2,12 +2,13 @@
 layout: download
 board_id: "pocketbeagle"
 title: "PocketBeagle"
-name: "BeagleBone Black"
+name: "PocketBeagle"
 manufacturer: "BeagleBoard"
 board_url: "https://beagleboard.org/pocket"
 board_image: "pocketbeagle.jpg"
 downloads_display: true
 blinka: true
+date_added: 2019-12-3
 features:
   - Ethernet
   - HDMI

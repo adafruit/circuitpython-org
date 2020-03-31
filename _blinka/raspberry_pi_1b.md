@@ -9,6 +9,7 @@ board_image: "raspberry_pi_1b.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
+date_added: 2019-6-17
 features:
 - Ethernet
 - HDMI

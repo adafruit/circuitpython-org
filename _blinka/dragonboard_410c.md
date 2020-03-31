@@ -9,6 +9,7 @@ board_image: "dragonboard_410c.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-96boards-dragonboard-410c"
 downloads_display: true
 blinka: true
+date_added: 2019-6-29
 features:
   - Wi-Fi
   - HDMI
