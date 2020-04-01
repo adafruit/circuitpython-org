@@ -8,38 +8,11 @@ permalink: /feed.rss
 <link>{{ "/" | absolute_url }}</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
 <lastBuildDate>{{ "now" | date_to_rfc822 }}</lastBuildDate>
-{%- comment -%}
-  The following are boards that are in the _data/files.json build
-  process. Seperate loops due to wanting to sort by download count first.
-{%- endcomment -%}
-{%- assign twelve_hours = 12 | times: 60 | times: 60 -%}
-{%- assign boards = site.data.files | sort: "downloads" | reverse -%}
-{%- for board in boards -%}
-  {%- assign info = site.board | where: 'board_id', board.id -%}
-  {%- if info.size == 0 %}
-    {%- assign info = site.board | where: 'board_id', 'unknown' -%}
-  {%- endif -%}
-  {%- assign info = info[0] -%}
-  {%- if info.downloads_display == false -%}
+{% for board in site.board %}
+  {%- if board.downloads_display == false -%}
     {%- continue -%}
   {%- endif -%}
-    <item>
-      <title>{{ info.name | default: board.id }}</title>
-      <link>{{ info.url | absolute_url }}</link>
-      <description><![CDATA[ <p>By {{ info.manufacturer }}</p> {{ info.content }} ]]></description>
-      <category>CircuitPython</category>
-      <pubDate>{{ info.date_added | date: '%s' | plus: twelve_hours | date_to_rfc822 }}</pubDate>
-      <guid>{{ info.url | absolute_url }}</guid>
-    </item>
-{% endfor %}
-
-{% comment %}
-  The following are boards that are not yet in the _data/files.json build
-  process and have no downloads.
-{% endcomment %}
-{% for board in site.board %}
-  {% assign info = site.data.files | where: 'id', board.board_id | first %}
-  {% if info == nil and board.board_id != 'unknown' %}
+  {%- if board.board_id != 'unknown' -%}
   <item>
     <title>{{ board.name }}</title>
     <link>{{ board.url | absolute_url }}</link>
@@ -48,7 +21,7 @@ permalink: /feed.rss
     <pubDate>{{ board.date_added | date: '%s' | plus: twelve_hours | date_to_rfc822 }}</pubDate>
     <guid>{{ board.url | absolute_url }}</guid>
   </item>
-  {% endif %}
+  {%- endif -%}
 {% endfor %}
 {% for board in site.blinka %}
     <item>
