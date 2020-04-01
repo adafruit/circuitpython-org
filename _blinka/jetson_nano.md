@@ -9,6 +9,7 @@ board_image: "jetson_nano.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-nvidia-jetson-nano"
 downloads_display: true
 blinka: true
+date_added: 2019-9-10
 features:
   - Ethernet
   - HDMI

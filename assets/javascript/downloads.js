@@ -73,7 +73,7 @@ function handlePageLoad() {
     });
   }
 
-  if (sort_by.length) {
+  if (sort_by != null && sort_by.length) {
     document.querySelector("input[name='sort-by'][value='" + sort_by + "']").click();
   }
 }
@@ -276,15 +276,13 @@ function handleSortResults(event) {
     .sort(function (a, b) {
       switch(sortType) {
         case 'alpha-asc':
-          console.log(a.dataset.name.localeCompare(b.dataset.name));
           return a.dataset.name.localeCompare(b.dataset.name);
         case 'alpha-desc':
           return b.dataset.name.localeCompare(a.dataset.name);
         case 'date-asc':
-          return a.dataset.date < b.dataset.date ? 1 : -1;
-        case 'date-desc':
-          //console.log(a.dataset.date + " is greater than " + b.dataset.date + " = " + (a.dataset.date > b.dataset.date));
           return a.dataset.date > b.dataset.date ? 1 : -1;
+        case 'date-desc':
+          return a.dataset.date < b.dataset.date ? 1 : -1;
         default:
           // sort by download count is the default
           return parseInt(a.dataset.downloads, 10) < parseInt(b.dataset.downloads, 10) ? 1 : -1;

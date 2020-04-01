@@ -8,6 +8,7 @@ board_url: "https://beagleboard.org/black-wireless"
 board_image: "beaglebone_black_wireless.jpg"
 downloads_display: true
 blinka: true
+date_added: 2020-3-25
 features:
   - Wi-Fi
   - Bluetooth/BLE
