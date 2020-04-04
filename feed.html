@@ -16,7 +16,7 @@ permalink: /feed.rss
   <item>
     <title>{{ board.name }}</title>
     <link>{{ board.url | absolute_url }}</link>
-    <description><![CDATA[ <p>By {{ board.manufacturer }}</p> {{ board.content }} ]]></description>
+    <description><![CDATA[ {% include downloads/board_image.html board_image=board.board_image %}<p>By {{ board.manufacturer }}</p> {{ board.content }} ]]></description>
     <category>CircuitPython</category>
     <pubDate>{{ board.date_added | date: '%s' | plus: twelve_hours | date_to_rfc822 }}</pubDate>
     <guid>{{ board.url | absolute_url }}</guid>
@@ -27,7 +27,7 @@ permalink: /feed.rss
     <item>
       <title>{{ board.name }}</title>
       <link>{{ board.url | absolute_url }}</link>
-      <description><![CDATA[ <p>By {{ board.manufacturer }}</p> {{ board.content }} ]]></description>
+      <description><![CDATA[ {% include downloads/board_image.html board_image=board.board_image %}<p>By {{ board.manufacturer }}</p> {{ board.content }} ]]></description>
       <category>Blinka</category>
       <pubDate>{{ board.date_added | date: '%s' | plus: twelve_hours | date_to_rfc822 }}</pubDate>
       <guid>{{ board.url | absolute_url }}</guid>
