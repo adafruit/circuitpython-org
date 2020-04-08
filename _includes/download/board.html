@@ -67,12 +67,14 @@
 <div class="section unrecommended">
   <h3>Absolute Newest</h3>
   <p>
-    Every time we commit new code to CircuitPython we automatically build binaries for each board and language.
-    The binaries are stored on Amazon S3, organized by board, and then by language. Try them if you want
-    the absolute latest and are feeling daring or want to see if a problem has been fixed.
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language.  The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
   </p>
   <div>
-      <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
     <div class="clear"></div>
   </div>
 </div>
@@ -80,11 +82,12 @@
   <h3>Past Releases</h3>
   <p>
     All previous releases are listed on GitHub, with release notes,
-    and are available for download from Amazon S3.
-    They are handy for testing, but otherwise we recommend using the latest stable release.
-    Some older GitHub release pages include the same binaries for downloading.
-    But we have discontinued including binaries as assets on newer release pages
-    because of the large number of files for each release.
+    and are available for download from Amazon S3.  They are handy for
+    testing, but otherwise we recommend using the latest stable
+    release.  Some older GitHub release pages include the same
+    binaries for downloading.  But we have discontinued including
+    binaries as assets on newer release pages because of the large
+    number of files for each release.
   </p>
   <p>
     <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
@@ -93,3 +96,63 @@
     <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
   </div>
 </div>
+
+
+{% comment %}
+Only output bootloader information if we have complete info about a board, and we know the latest
+version of its bootloader family.
+By the way, boolean operation precedence is right to left! (yeesh)
+{% endcomment %}
+
+{% assign bootloaders = site.data.bootloaders.bootloaders %}
+{% assign bootloader_board = site.data.bootloaders.boards[page.board_id] %}
+{% assign bootloader_version = bootloaders[bootloader_board.family].version %}
+{% assign bootloader_id = bootloader_board.bootloader_id %}
+{% if bootloader_version and bootloader_id and bootloader_board %}
+<div class="section unrecommended">
+  <h3>UF2 Bootloader</h3>
+  <p>
+    Latest version: {{ bootloader_version }}
+  </p>
+  <p>
+    <strong>The bootloader allows you to load CircuitPython, Makecode, and Arduino programs.
+      The bootloader is not CircuitPython.</strong>
+    You can check the current version of your bootloader by looking in
+    the INFO_UF2.TXT file when the BOOT drive is visible (FEATHERBOOT, CPLAYBOOT, etc.).
+  </p>
+
+{% if bootloader_board.family == 'nrf52840' %}
+  <p>
+    Updating the bootloader on nRF52840 boards is an involved process right now.
+    Follow the instructions in this
+    <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/blob/master/README.md">README</a>.
+    It is not necessary to update on each release if your bootloader is working fine.
+    Read the release notes on GitHub to see what has been changed.
+  </p>
+  <p>
+    After you update, check INFO_UF2.TXT to verify that the bootloader version has been updated.
+    Then you will need to reload CircuitPython.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/tag/{{ bootloader_version }}">BROWSE ON GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </div>
+{% endif %}
+
+{% if bootloader_board.family == 'atmel-samd' %}
+  <p>
+    To update, first save the contents of CIRCUITPY, just in case.
+    Then double-click the reset button to show the BOOT drive.
+    Drag the update-bootloader .uf2 file to the BOOT drive.
+    Wait a few tens of seconds for the bootloader to update; the BOOT drive will reappear.
+    Check INFO_UF2.TXT to verify that the bootloader version has been updated.
+    Then you will need to reload CircuitPython.
+  </p>
+  <p>
+    <a class="download-button" href="https://github.com/adafruit/uf2-samdx1/releases/download/{{ bootloader_version }}/update-bootloader-{{ bootloader_id }}-{{ bootloader_version }}.uf2">DOWNLOAD UPDATER UF2<i class="fas fa-download" aria-hidden="true"></i></a>
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/uf2-samdx1/releases/tag/{{ bootloader_version }}">BROWSE ON GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </div>
+{% endif %}
+</div>
+{% endif %}

@@ -1,0 +1,469 @@
+{
+    "bootloaders": {
+        "nrf52840": {
+            "version": "0.3.2",
+        },
+        "atmel-samd": {
+            "version": "v3.8.0",
+        },
+        "stm": {
+        },
+        "cxd56": {
+        },
+        "mimxrt10xx": {
+        },
+    },
+    "boards": {
+        "8086_commander": {
+            "family": "atmel-samd",
+        },
+        "aramcon_badge_2019": {
+            "family": "nrf52840",
+            "bootloader_id": "aramcon_badge_2019",
+        },
+        "arduino_mkr1300": {
+            "family": "atmel-samd",
+            "bootloader_id": "mkr1300",
+        },
+        "arduino_mkrzero": {
+            "family": "atmel-samd",
+            "bootloader_id": "mkrzero",
+        },
+        "arduino_nano_33_ble": {
+            "family": "nrf52840",
+            "bootloader_id": "arduino_nano_33_ble",
+        },
+        "arduino_nano_33_iot": {
+            "family": "atmel-samd",
+            "bootloader_id": "nano33iot",
+        },
+        "arduino_zero": {
+            "family": "atmel-samd",
+            "bootloader_id": "zero",
+        },
+        "bast_pro_mini_m0": {
+            "family": "atmel-samd",
+        },
+        "capablerobot_usbhub": {
+            "family": "atmel-samd",
+            "bootloader_id": "capablerobot_usbhub",
+        },
+        "catwan_usbstick": {
+            "family": "atmel-samd",
+        },
+        "circuitbrains_basic_m0": {
+            "family": "atmel-samd",
+            "bootloader_id": "circuitbrains_basic_m0",
+        },
+        "circuitbrains_deluxe_m4": {
+            "family": "atmel-samd",
+            "bootloader_id": "circuitbrains_deluxe_m4",
+        },
+        "circuitplayground_bluefruit": {
+            "family": "nrf52840",
+            "bootloader_id": "circuitplayground_nrf52840",
+        },
+        "circuitplayground_express_4h": {
+            "family": "atmel-samd",
+            "bootloader_id": "circuitplay_m0",
+        },
+        "circuitplayground_express_crickit": {
+            "family": "atmel-samd",
+            "bootloader_id": "circuitplay_m0",
+        },
+        "circuitplayground_express_digikey_pycon2019": {
+            "family": "atmel-samd",
+            "bootloader_id": "circuitplay_m0",
+        },
+        "circuitplayground_express_displayio": {
+            "family": "atmel-samd",
+            "bootloader_id": "circuitplay_m0",
+        },
+        "circuitplayground_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "circuitplay_m0",
+        },
+        "clue_nrf52840_express": {
+            "family": "nrf52840",
+            "bootloader_id": "clue_nrf52840",
+        },
+        "cp32-m4": {
+            "family": "atmel-samd",
+        },
+        "datalore_ip_m4": {
+            "family": "atmel-samd",
+        },
+        "datum_distance": {
+            "family": "atmel-samd",
+        },
+        "datum_imu": {
+            "family": "atmel-samd",
+        },
+        "datum_light": {
+            "family": "atmel-samd",
+        },
+        "datum_weather": {
+            "family": "atmel-samd",
+        },
+        "edgebadge": {
+            "family": "atmel-samd",
+            "bootloader_id": "arcade_pybadge",
+        },
+        "electronut_labs_blip": {
+            "family": "nrf52840",
+        },
+        "electronut_labs_papyr": {
+            "family": "nrf52840",
+            "bootloader_id": "clue_nrf52840",
+        },
+        "escornabot_makech": {
+            "family": "atmel-samd",
+        },
+        "espruino_pico": {
+            "family": "stm",
+        },
+        "espruino_wifi": {
+            "family": "stm",
+        },
+        "feather_bluefruit_sense": {
+            "family": "nrf52840",
+            "bootloader_id": "clue_nrf52840",
+        },
+        "feather_m0_adalogger": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m0",
+        },
+        "feather_m0_basic": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m0",
+        },
+        "feather_m0_express_crickit": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m0_express",
+        },
+        "feather_m0_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m0_express",
+        },
+        "feather_m0_rfm69": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m0",
+        },
+        "feather_m0_rfm9x": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m0",
+        },
+        "feather_m0_supersized": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m0_express",
+        },
+        "feather_m4_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m4",
+        },
+        "feather_m7_1011": {
+            "family": "mimxrt10xx",
+        },
+        "feather_mimxrt1011": {
+            "family": "mimxrt10xx",
+        },
+        "feather_mimxrt1062": {
+            "family": "mimxrt10xx",
+        },
+        "feather_nrf52840_express": {
+            "family": "nrf52840",
+            "bootloader_id": "feather_nrf52840_express",
+        },
+        "feather_radiofruit_zigbee": {
+            "family": "atmel-samd",
+            "bootloader_id": "feather_m0",
+        },
+        "feather_stm32f405_express": {
+            "family": "atmel-samd",
+        },
+        "gb_m4": {
+            "family": "atmel-samd",
+        },
+        "gemma_m0": {
+            "family": "atmel-samd",
+            "bootloader_id": "gemma_m0",
+        },
+        "gemma_m0_pycon2018": {
+            "family": "atmel-samd",
+            "bootloader_id": "gemma_m0",
+        },
+        "grandcentral_m4_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "grandcentral_m4",
+        },
+        "hallowing_m0_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "hallowing_m0",
+        },
+        "hallowing_m4_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "hallowing_m4",
+        },
+        "imxrt1010_evk": {
+            "family": "mimxrt10xx",
+        },
+        "imxrt1020_evk": {
+            "family": "mimxrt10xx",
+        },
+        "imxrt1060_evk": {
+            "family": "mimxrt10xx",
+        },
+        "itsybitsy_m0_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "itsybitsy_m0",
+        },
+        "itsybitsy_m4_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "itsybitsy_m4",
+        },
+        "itsybitsy_nrf52840_express": {
+            "family": "nrf52840",
+            "bootloader_id": "feather_nrf52840_express",
+        },
+        "kicksat-sprite": {
+            "family": "atmel-samd",
+            "bootloader_id": "itsybitsy_m0",
+        },
+        "makerdiary_nrf52840_mdk": {
+            "family": "nrf52840",
+        },
+        "makerdiary_nrf52840_mdk_usb_dongle": {
+            "family": "nrf52840",
+        },
+        "meowbit_v121": {
+            "family": "stm",
+            "bootloader_id": "meowbit_v121",
+        },
+        "meowmeow": {
+            "family": "atmel-samd",
+            "bootloader_id": "meowmeow",
+        },
+        "metro_m0_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "metro_m0",
+        },
+        "metro_m4_airlift_lite": {
+            "family": "atmel-samd",
+            "bootloader_id": "metro_m4_airlift",
+        },
+        "metro_m4_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "metro_m4",
+        },
+        "metro_nrf52840_express": {
+            "family": "nrf52840",
+            "bootloader_id": "metro_nrf52840_express",
+        },
+        "monster_m4sk": {
+            "family": "atmel-samd",
+            "bootloader_id": "hallowing_mask",
+        },
+        "ndgarage_ndbit6": {
+            "family": "atmel-samd",
+            "bootloader_id": "ndbit6",
+        },
+        "ohs2020_badge": {
+            "family": "nrf52840",
+            "bootloader_id": "ohs2020_badge",
+        },
+        "openbook_m4": {
+            "family": "atmel-samd",
+            "bootloader_id": "openbook_m4",
+        },
+        "particle_argon": {
+            "family": "nrf52840",
+            "bootloader_id": "particle_argon",
+        },
+        "particle_boron": {
+            "family": "nrf52840",
+            "bootloader_id": "particle_boron",
+        },
+        "particle_xenon": {
+            "family": "nrf52840",
+            "bootloader_id": "particle_xenon",
+        },
+        "pca10040": {
+        },
+        "pca10056": {
+            "family": "nrf52840",
+            "bootloader_id": "pca10056",
+        },
+        "pca10059": {
+            "family": "nrf52840",
+            "bootloader_id": "pca10059",
+        },
+        "pewpew10": {
+            "family": "atmel-samd",
+            "bootloader_id": "trinket_m0",
+        },
+        "pewpew13": {
+            "family": "atmel-samd",
+            "bootloader_id": "trinket_m0",
+        },
+        "pewpew_m4": {
+            "family": "atmel-samd",
+            "bootloader_id": "pewpew_m4",
+        },
+        "pirkey_m0": {
+            "family": "atmel-samd",
+            "bootloader_id": "pirkey",
+        },
+        "pybadge_airlift": {
+            "family": "atmel-samd",
+            "bootloader_id": "arcade_pybadge",
+        },
+        "pybadge": {
+            "family": "atmel-samd",
+            "bootloader_id": "arcade_pybadge",
+        },
+        "pyb_nano_v2": {
+            "family": "stm",
+            "bootloader_id": "pyb_nano_v2",
+        },
+        "pyboard_v11": {
+            "family": "stm",
+            "bootloader_id": "pyboard_v11",
+        },
+        "pycubed": {
+            "family": "atmel-samd",
+            "bootloader_id": "pycubed",
+        },
+        "pygamer_advance": {
+            "family": "atmel-samd",
+            "bootloader_id": "arcade_pygamer",
+        },
+        "pygamer": {
+            "family": "atmel-samd",
+            "bootloader_id": "arcade_pygamer",
+        },
+        "pyportal": {
+            "family": "atmel-samd",
+            "bootloader_id": "pyportal_m4",
+        },
+        "pyportal_pynt": {
+            "family": "atmel-samd",
+            "bootloader_id": "pyportal_m4",
+        },
+        "pyportal_titano": {
+            "family": "atmel-samd",
+            "bootloader_id": "pyportal_m4",
+        },
+        "pyruler": {
+            "family": "atmel-samd",
+            "bootloader_id": "trinket_m0",
+        },
+        "robohatmm1_m4": {
+            "family": "atmel-samd",
+            "bootloader_id": "robohatmm1_m4",
+        },
+        "sam32": {
+            "family": "atmel-samd",
+            "bootloader_id": "sam32",
+        },
+        "seeeduino_xiao": {
+            "family": "atmel-samd",
+        },
+        "serpente": {
+            "family": "atmel-samd",
+            "bootloader_id": "serpente",
+        },
+        "shirtty": {
+            "family": "atmel-samd",
+            "bootloader_id": "shirtty",
+        },
+        "snekboard": {
+            "family": "atmel-samd",
+            "bootloader_id": "snekboard",
+        },
+        "sparkfun_lumidrive": {
+            "family": "atmel-samd",
+        },
+        "sparkfun_qwiic_micro_no_flash": {
+            "family": "atmel-samd",
+        },
+        "sparkfun_qwiic_micro_with_flash": {
+            "family": "atmel-samd",
+        },
+        "sparkfun_redboard_turbo": {
+            "family": "atmel-samd",
+        },
+        "sparkfun_samd21_dev": {
+            "family": "atmel-samd",
+            "bootloader_id": "sparkfun_samd21_dev",
+        },
+        "sparkfun_samd51_thing_plus": {
+            "family": "atmel-samd",
+        },
+        "spresense": {
+            "family": "cxd56",
+        },
+        "stm32f411ce_blackpill": {
+            "family": "stm",
+        },
+        "stm32f411ve_discovery": {
+            "family": "stm",
+        },
+        "stm32f412zg_discovery": {
+            "family": "stm",
+        },
+        "stm32f4_discovery": {
+            "family": "stm",
+        },
+        "stringcar_m0_express": {
+            "family": "atmel-samd",
+        },
+        "teensy40": {
+            "family": "stm",
+        },
+        "teknikio_bluebird": {
+            "family": "nrf52840",
+        },
+        "TG-Watch02A": {
+            "family": "atmel-samd",
+        },
+        "trellis_m4_express": {
+            "family": "atmel-samd",
+            "bootloader_id": "trellis_m4_express",
+        },
+        "trinket_m0_haxpress": {
+            "family": "atmel-samd",
+            "bootloader_id": "trinket_m0",
+        },
+        "trinket_m0": {
+            "family": "atmel-samd",
+            "bootloader_id": "trinket_m0",
+        },
+        "uartlogger2": {
+            "family": "atmel-samd",
+            "bootloader_id": "trinket_m0",
+        },
+        "uchip": {
+            "family": "atmel-samd",
+        },
+        "ugame10": {
+            "family": "atmel-samd",
+            "bootloader_id": "trinket_m0",
+        },
+        "unknown": {
+        },
+        "winterbloom_big_honking_button": {
+            "family": "atmel-samd",
+            "bootloader_id": "winterbloom_big_honking_button",
+        },
+        "winterbloom_sol": {
+            "family": "atmel-samd",
+            "bootloader_id": "winterbloom_sol",
+        },
+        "xinabox_cc03": {
+            "family": "atmel-samd",
+        },
+        "xinabox_cs11": {
+            "family": "atmel-samd",
+        },
+    }
+}
