@@ -6,6 +6,7 @@ name: "Gemma M0"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "gemma_m0.jpg"
+date_added: 2019-3-9
 features:
   - Solder-free Alligator clip
 ---

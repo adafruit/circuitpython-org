@@ -6,6 +6,7 @@ name: "Boron"
 manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/boron-datasheet/"
 board_image: "particle_boron.jpg"
+date_added: 2019-3-9
 features:
   - Feather-compatible
   - Battery Charging

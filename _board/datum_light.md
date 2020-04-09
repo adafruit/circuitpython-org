@@ -6,6 +6,7 @@ name: "datum-Light"
 manufacturer: "J&J Studios"
 board_url: "https://jandjstudios.io/datum/datum-Light/"
 board_image: "datum_light.jpg"
+date_added: 2019-7-12
 ---
 
 The datum-Light sensor combines the same SAMD21G18 microcontroller used on the Arduino Zero with the APDS-9960 light sensor from Broadcom to create the simplest, easiest to use light sensor for your application.

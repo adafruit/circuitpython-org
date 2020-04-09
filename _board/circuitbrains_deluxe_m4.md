@@ -6,6 +6,7 @@ name: "CircuitBrains Deluxe"
 manufacturer: "Null Byte Labs LLC"
 board_url: ""
 board_image: "circuitbrains_deluxe.jpg"
+date_added: 2020-2-27
 downloads_display: true
 blinka: false
 download_instructions: ""

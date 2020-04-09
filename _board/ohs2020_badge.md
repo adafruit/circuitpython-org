@@ -8,6 +8,7 @@ board_url: "https://hackaday.io/project/168483-open-hardware-summit-2020-badge"
 board_image: "ohs2020_badge.jpg"
 downloads_display: true
 blinka: false
+date_added: 2020-1-16
 features:
   - Bluetooth/BTLE
   - Display

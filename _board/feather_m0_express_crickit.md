@@ -6,6 +6,7 @@ name: "Feather M0 Express + Crickit"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "feather_m0_express_crickit.jpg"
+date_added: 2019-3-9
 features:
   - Speaker
   - Feather-compatible

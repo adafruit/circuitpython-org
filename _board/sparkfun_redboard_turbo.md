@@ -6,6 +6,7 @@ name: "RedBoard Turbo"
 manufacturer: "SparkFun"
 board_url: ""
 board_image: "sparkfun_redboard_turbo.jpg"
+date_added: 2019-3-9
 features:
   - Battery Charging
 ---

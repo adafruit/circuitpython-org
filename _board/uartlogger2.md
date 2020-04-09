@@ -1,13 +1,13 @@
 ---
 layout: download
-board_id: "pewpew13"
-title: "pewpew13 Download"
-name: "pewpew13"
+board_id: "uartlogger2"
+title: "uartlogger2 Download"
+name: "uartlogger2"
 manufacturer: "unknown"
 board_url: ""
 board_image: "unknown.jpg"
 downloads_display: false
-date_added: 2019-4-13
+date_added: 2020-3-31
 features:
 ---
 

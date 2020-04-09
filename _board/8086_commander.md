@@ -6,6 +6,8 @@ name: "Commander"
 manufacturer: "8086 Consultancy"
 board_url: "https://8086.net/p/commander"
 board_image: "8086_commander.jpg"
+date_added: 2020-3-24
+
 ---
 
 The Commander is a handheld button and LED board supplied with the UF2 bootloader and CircuitPython.

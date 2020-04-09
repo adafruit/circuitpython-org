@@ -6,6 +6,7 @@ name: "HalloWing M4 Express"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "hallowing_m4_express.jpg"
+date_added: 2019-8-30
 features:
   - Display
   - Speaker

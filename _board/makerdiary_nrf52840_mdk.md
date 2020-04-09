@@ -6,6 +6,7 @@ name: "nRF52840 Micro Dev Kit"
 manufacturer: "MakerDiary"
 board_url: ""
 board_image: "nRF52840_micro_dev_kit.jpg"
+date_added: 2019-3-9
 features:
   - Bluetooth/BTLE
 ---

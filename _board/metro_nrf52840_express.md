@@ -6,6 +6,7 @@ name: "Metro nRF52840 Express"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "metro_nrf52840_express.png"
+date_added: 2019-8-30
 features:
   - Bluetooth/BTLE
 ---

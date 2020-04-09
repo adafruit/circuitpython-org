@@ -6,6 +6,7 @@ name: "ARAMCON Badge 2019"
 manufacturer: "ARAMCON Badge Team"
 board_url: "https://github.com/aramcon-badge/"
 board_image: "aramcon_badge_2019.jpg"
+date_added: 2020-1-25
 features:
   - Display
   - Bluetooth/BTLE

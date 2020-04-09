@@ -6,6 +6,7 @@ name: "Espruino Pico"
 manufacturer: "Espruino"
 board_url: "https://www.adafruit.com/product/2621"
 board_image: "espruino_pico.jpg"
+date_added: 2020-2-7
 features:
 
 ---

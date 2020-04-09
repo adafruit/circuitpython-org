@@ -6,6 +6,7 @@ name: "NANO 33 BLE"
 manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/NANO33BLE"
 board_image: "arduino_nano_33_ble.jpg"
+date_added: 2019-10-26
 ---
 
 This compact and reliable NANO board is built around the NINA B306 module, based on Nordic nRF 52840 and containing a powerful Cortex M4F. Its architecture, fully compatible with Arduino IDE Online and Offline, has a 9 axis Inertial Measurement Unit (IMU) and a reduced power consumption compared to other same size boards.

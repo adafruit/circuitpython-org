@@ -8,6 +8,7 @@ board_url: "https://www.adafruit.com/product/4324"
 board_image: "meowbit_v121.jpg"
 downloads_display: true
 blinka: false
+date_added: 2020-1-26
 features:
   - Speaker
   - Solder-Free Alligator Clip

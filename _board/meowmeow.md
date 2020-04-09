@@ -6,6 +6,7 @@ name: "Meow Meow"
 manufacturer: "Electronic Cats"
 board_url: ""
 board_image: "meowmeow.jpg"
+date_added: 2019-4-1
 features:
   - Solder-free Alligator clip
 ---

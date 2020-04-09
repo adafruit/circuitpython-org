@@ -6,6 +6,7 @@ name: "Feather M7 1011"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "feather_m7_1011.jpg"
+date_added: 2020-2-27
 features:
   - Feather-compatible
   - Battery Charging
