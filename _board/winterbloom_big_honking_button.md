@@ -1,17 +1,17 @@
 ---
 layout: download
-board_id: "winterbloom_sol"
-title: "Winterbloom Sol Download"
-name: "Winterbloom Sol"
+board_id: "winterbloom_big_honking_button"
+title: "Winterbloom Big Honking Button Download"
+name: "Winterbloom Big Honking Button"
 manufacturer: "Alethea Flowers"
 board_url: "https://winterbloom.com"
-board_image: "sol.jpg"
+board_image: "honk.jpg"
 downloads_display: true
 blinka: false
-date_added: 2019-11-7
+date_added: 2019-4-10
 ---
 
-Winterbloom Sol is a modular synthesizer (Eurorack) module. It is a multi-purpose, scriptable USB MIDI to CV/gate converter. Its code can be modified while in use to change how it processes MIDI data into CV and gate outputs.
+Winterbloom Big Honking Button is a modular synthesizer (Eurorack) module. It is very simple sampler in a very silly package. It makes a nice goose honk when you press its large orange button, and you can use CircuitPython to customize its behavior and samples.
 
 ## Purchase
 
