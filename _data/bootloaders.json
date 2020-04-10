@@ -4,7 +4,7 @@
             "version": "0.3.2",
         },
         "atmel-samd": {
-            "version": "v3.7.0",
+            "version": "v3.9.0",
         },
         "stm": {
         },
@@ -16,6 +16,7 @@
     "boards": {
         "8086_commander": {
             "family": "atmel-samd",
+            "bootloader_id": "8086_commander",
         },
         "aramcon_badge_2019": {
             "family": "nrf52840",
@@ -440,7 +441,7 @@
         },
         "uartlogger2": {
             "family": "atmel-samd",
-            "bootloader_id": "trinket_m0",
+            "bootloader_id": "uartlogger2",
         },
         "uchip": {
             "family": "atmel-samd",
