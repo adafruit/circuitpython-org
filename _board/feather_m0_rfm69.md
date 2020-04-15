@@ -13,11 +13,11 @@ features:
   - LoRa/Radio
 ---
 
-This is the** Adafruit Feather M0 RFM69 Packet Radio (868 or 915 MHz)****.** Also called _RadioFruits**,**_ Adafruit's take on an microcontroller with a RFM69HCW packet radio transceiver plus built in USB and battery charging. Its an Adafruit Feather M0 with a 900MHz radio module cooked in!
+This is the** Adafruit Feather M0 RFM69 Packet Radio (433, 868, or 915 MHz)****.** Also called _RadioFruits**,**_ Adafruit's take on an microcontroller with a RFM69HCW packet radio transceiver plus built in USB and battery charging. Its an Adafruit Feather M0 with a VHF radio module cooked in!
 
 Feather is the development platform from Adafruit, and like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be an open standard for portable microcontroller cores. [Adafruit has other boards in the Feather family here.](https://www.adafruit.com/feather)
 
-**This is the 900 MHz radio version, which can be used for either 868MHz or 915MHz transmission/reception** - the exact radio frequency is determined when you load the software since it can be tuned around dynamically.
+**There are two versions: 433 MHz and 900 MHz. The 900 MHz version can be used for either 868MHz or 915MHz transmission/reception** - the exact radio frequency is determined when you load the software since it can be tuned around dynamically.
 
 At the Feather M0's heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48 MHz and at 3.3V logic, the same one used in the new [Arduino Zero](https://www.adafruit.com/products/2843). This chip has a whopping 256K of FLASH (8x more than the Atmega328 or 32u4) and 32K of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program & debug capability built in with no need for an FTDI-like chip.
 
@@ -45,7 +45,8 @@ To make it easy to use for portable projects, Adafruit added a connector for 3.7
 The **Feather M0 Radio** uses the extra space left over to add an RFM69HCW 433 or 900MHz radio module. These radios are not good for transmitting audio or video, but they do work quite well for small data packet transmission when you need more range than 2.4 GHz (BT, BLE, WiFi, ZigBee)
 
 *   SX1231 based module with SPI interface
-*   Uses the license-free ISM band ("European ISM" @ 868MHz or "American ISM" @ 915MHz)
+*   433 MHz version: Uses the amateur or license-free ISM band (ITU "Europe" license-free ISM or ITU "American" amateur with limitations)
+*   900 MHz version: Uses the license-free ISM band ("European ISM" @ 868MHz or "American ISM" @ 915MHz)
 *   +13 to +20 dBm up to 100 mW Power Output Capability (power output selectable in software)
 *   50mA (+13 dBm) to 150mA (+20dBm) current draw for transmissions
 *   Range of approx. 350 meters, depending on obstructions, frequency, antenna and power output
@@ -61,7 +62,8 @@ Comes fully assembled and tested, with a USB bootloader. Includes some headers s
 
 ## Purchase
 
-* [Adafruit](https://www.adafruit.com/product/3176)
+* [Adafruit](https://www.adafruit.com/product/3177) (433 MHz version)
+* [Adafruit](https://www.adafruit.com/product/3176) (900 MHz version)
 
 ## Contribute
 
