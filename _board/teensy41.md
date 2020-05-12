@@ -5,7 +5,7 @@ title: "Teensy 4.1 Download"
 name: "Teensy 4.1"
 manufacturer: "PJRC"
 board_url: "https://www.pjrc.com/store/teensy41.html"
-board_image: "unknown.jpg"
+board_image: "teensy41.jpg"
 date_added: 2020-05-11
 features:
 

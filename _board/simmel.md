@@ -5,7 +5,7 @@ title: "Simmel Download"
 name: "Simmel Board"
 manufacturer: "Simmel Project"
 board_url: "https://github.com/simmel-project/frontpage"
-board_image: "unknown.jpg"
+board_image: "simmel.jpg"
 date_added: 2019-04-29
 ---
 
