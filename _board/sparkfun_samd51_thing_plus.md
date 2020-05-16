@@ -3,7 +3,7 @@ layout: download
 board_id: "sparkfun_samd51_thing_plus"
 title: "SAMD51 Thing Plus Download"
 name: "SAMD51 Thing Plus"
-manufacturer: "Sparkfun"
+manufacturer: "SparkFun"
 board_url: "https://www.sparkfun.com/products/14713"
 board_image: "sparkfun_samd51_thing_plus.jpg"
 date_added: 2020-2-26
