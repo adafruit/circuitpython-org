@@ -7,7 +7,32 @@ manufacturer: "Hangzhou LeBan"
 board_url: ""
 board_image: "hiibot_bluefi.jpg"
 date_added: 2020-5-19
+
 features:
+  - Microbit-compatible
+  - BlueTooth 5 (nRF52840)
+  - WiFi (ESP32)
+  - 2 MB Flash storage
+  - Battery Charging
+  - DC-DC
+  - Display
+  - Neopixel
+  - Speaker
+  - LEDs
+  - Buttons
+  - Sound sensor
+  - Optical sensor
+  - Temperature sensor
+  - Humidity sensor
+  - Magnetometer sensor
+  - Accelerometer sensor
+  - Gyroscope sensor
+  - mini-Grove connector
+
+---
+
+The HiiBot BlueFi is a microbit-compatible single board computer, but has enhanced computing ability, and connectivity. BlueFi uses Nordic nRF52840 (64MHz Cortex M4F, 1MB Flash and 256KB SRAM) as main processor, ESP32 (160MHz dual CPU, 4MB Flash and 520KB SRAM) as a co-processor. Features:
+
   - Microbit-compatible (board size, extended interface)
   - Built-in BlueTooth 5 (nRF52840) and WiFi (ESP32)
   - 2 MB of QSPI Flash storage
@@ -25,10 +50,6 @@ features:
   - 1x 3-axis Accelerometer and 3-axis Gyroscope (LSM6DS)
   - 1x mini-Grove/Qwiic/STEMMA QT connector
 
----
-
-The HiiBot BlueFi is a microbit-compatible single board computer, but has enhanced computing ability, and connectivity. BlueFi uses Nordic nRF52840 (64MHz Cortex M4F, 1MB Flash and 256KB SRAM) as main processor, ESP32 (160MHz dual CPU, 4MB Flash and 520KB SRAM) as a co-processor. 1.3" TFT LCD be used, vs 5x5 leds display on the microbit, BlueFi can show more information. In addition, built-in a variety of output devices, including a red LED, a white LED, 5x NeoPixel, and a Speaker with class-D amolifier. 
-
 The HiiBot BlueFi have a lot of sensors, vs 6-DoF motion sensor of microbit, including 9-DoF motion sensors, sound sensor, temperature & humidity sensor, and integrated optical sensor. At the same time, BlueFi have two buttons, three touchpads, and 40-Pin extended interface on the microbit. 
 
 In a variety of IoT application scenario, BlueTooth and WiFi is an integral part of the wireless connection channel. BlueTooth and WiFi be supportted at the same time on the BlueFI board. You can realize bridges, gateways and other net equipment with BlueFi. 
@@ -38,6 +59,7 @@ Built-in a lot of sensors and output devices on the HiiBot BlueFi, but a low-cos
 The most exciting part of the HiiBot BlueFi is that while you can use it with the Arduino IDE - and it's bonkers fast when you do, we are shipping it with CircuitPython on board. When you plug it in, it will show up as a very small disk drive with code.py on it. Edit code.py with your favorite text editor to build your project using Python, the most popular programming language. No installs, IDE or compiler needed, so you can use it on any computer, even ChromeBooks or computers you can't install software on. When you're done, unplug the BlueFi and your code will go with you.
 
 Easy reprogramming: the HiiBot BlueFi comes pre-loaded with the UF2 bootloader, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython or Arduino IDE.
+
 
 
 
