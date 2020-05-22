@@ -16,7 +16,7 @@ features:
 
 The Evo M51 is an FPGA-enhanced Feather compatible compute module from Alorium Technology that features a 32-bit SAMD51 microcontroller along with an Intel MAX 10 FPGA.  
 
-Designed for use as an embeddable system-on-module, all of standard Feather I/O are also routed to castellated vias along the edge of the board. There are 34 additional castellated digital I/O connected to the FPGA and accessible via the SAMD51.
+Designed for use as an embeddable system-on-module, all of the standard Feather I/O are also routed to castellated vias along the edge of the board. There are 34 additional castellated digital I/O connected to the FPGA and accessible via the SAMD51.
 
 Most digital I/O connections are routed through the FPGA to and from the primary and castellated I/O.  This provides the opportunity for developers to immediately capture inputs or drive outputs from the FPGA without requiring direct interaction with the SAMD controller.  
 
@@ -29,13 +29,14 @@ __Features__
 - Intel MAX 10 FPGA
 - 512KB FLASH / 192KB RAM
 - 2MB External QSPI FLASH
+- 6 Analog Inputs
+- 2 Analog Outputs
+- 55 Digital I/O
+  - 21 Through-Hole/Castellated
+  - 34 Additional Castellated-Only
 - STEMMA QT (QWIIC Compatible)
-- 2 Dedicated Analog I/O
-- 4 Analog Out / Digital I/O
-- 15 Digital I/O
-- Additional 34 Castellated Digital I/O
 - Feather Footprint
-- 0.9 inches x 2.2 inches
+- 0.9 in. x 2.2 in.
 
 ## Purchase
 Add any links to purchase the board
