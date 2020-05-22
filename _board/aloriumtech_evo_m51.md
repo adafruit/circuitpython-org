@@ -9,9 +9,6 @@ board_image: "aloriumtech_evo_m51.jpg"
 date_added: 2020-5-21
 downloads_display: true
 blinka: false
-download_instructions: "BLINKA ONLY - url"
-# Features are tags; they should be limited to the items in this list and spelled exactly the same.
-# Include only the features your board supports, and remove these comment lines before committing.
 features:
   - Feather-Compatible
   - Battery Charging
