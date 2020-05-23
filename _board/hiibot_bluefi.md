@@ -9,25 +9,13 @@ board_image: "hiibot_bluefi.jpg"
 date_added: 2020-5-19
 
 features:
-  - Microbit-compatible
-  - BlueTooth 5 (nRF52840)
-  - WiFi (ESP32)
-  - 2 MB Flash storage
-  - Battery Charging
-  - DC-DC
-  - Display
-  - Neopixel
   - Speaker
-  - LEDs
-  - Buttons
-  - Sound sensor
-  - Optical sensor
-  - Temperature sensor
-  - Humidity sensor
-  - Magnetometer sensor
-  - Accelerometer sensor
-  - Gyroscope sensor
-  - mini-Grove connector
+  - Solder-Free Alligator Clip
+  - Battery Charging
+  - Display
+  - Wi-Fi
+  - Bluetooth/BTLE
+
 
 ---
 
