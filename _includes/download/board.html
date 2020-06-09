@@ -26,28 +26,36 @@
           {% for file in version.files %}
           <option value="{{ file[1] | join: ',' }}" data-files={{ file[1] | join: ',' }} data-locale={{ file[0] | replace: '_', '-' }} {% if file[0] == "en_US" %}selected{% endif %}>
             {% case file[0] %}
+              {% when 'cs' %}
+                CZECH
+              {% when 'de_DE' %}
+                GERMAN
               {% when 'en_US' %}
                 ENGLISH
               {% when 'en_x_pirate' %}
                 PIRATE (ENGLISH)
-              {% when 'zh_Latn_pinyin' %}
-                CHINESE (PINYIN)
-              {% when 'de_DE' %}
-                GERMAN
+              {% when 'es' %}
+                SPANISH
               {% when 'fil' %}
                 FILIPINO
               {% when 'fr' %}
                 FRENCH
-              {% when 'es' %}
-                SPANISH
+              {% when 'ID' %}
+                INDONESIAN
               {% when 'it_IT' %}
                 ITALIAN
+              {% when 'ko' %}
+                KOREAN
+              {% when 'nl' %}
+                DUTCH
               {% when 'pl' %}
                 POLISH
               {% when 'pt_BR' %}
                 PORTUGUESE (BRAZILIAN)
-              {% when 'ID' %}
-                INDONESIAN
+              {% when 'sv' %}
+                SWEDISH
+              {% when 'zh_Latn_pinyin' %}
+                CHINESE (PINYIN)
               {% else %}
                 {{ file[0] | upcase }}
             {% endcase %}
