@@ -16,7 +16,6 @@ features:
   - Wi-Fi
   - Bluetooth/BTLE
 
-
 ---
 
 The HiiBot BlueFi is a microbit-compatible single board computer, but has enhanced computing ability, and connectivity. BlueFi uses Nordic nRF52840 (64MHz Cortex M4F, 1MB Flash and 256KB SRAM) as main processor, ESP32 (160MHz dual CPU, 4MB Flash and 520KB SRAM) as a co-processor. Features:
