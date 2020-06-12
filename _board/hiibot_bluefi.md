@@ -6,7 +6,6 @@ name: "HiiBot BlueFi"
 manufacturer: "Hangzhou LeBan"
 board_url: ""
 board_image: "hiibot_bluefi.jpg"
-downloads_display: false
 date_added: 2020-5-19
 features:
   - Speaker
