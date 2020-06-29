@@ -69,6 +69,12 @@
       {% endfor %}
       </div>
     </div>
+    {% if version.modules %}
+    <p>
+        Built-in modules available:
+        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.modules | join: ', ' }}</span>
+    </p>
+    {% endif %}
   </div>
 {% endfor %}
 {% endif %}

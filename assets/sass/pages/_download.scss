@@ -108,6 +108,10 @@
         a.download-button, a.download-button-unrecommended {
           background-color: $purple;
         }
+
+        .download-modules {
+            color: $purple;
+        }
       }
 
       .unstable {
@@ -123,6 +127,9 @@
         }
         a.download-button:hover, a.download-button-unrecommended:hover {
           background-color: $pink;
+        }
+        .download-modules {
+            color: $gray;
         }
       }
 
