@@ -5,7 +5,7 @@ title: "Saola 1 w/WROVER Download"
 name: "Saola 1 w/WROVER"
 manufacturer: "Espressif"
 board_url: "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html"
-board_image: "unknown.jpg"
+board_image: "espressif_saola_1_wrover.jpg"
 date_added: 2020-05-15
 ---
 
@@ -15,6 +15,7 @@ This is the Saola dev board with a WROVER ESP32-S2 module. The module includes 2
 
 ## Learn More
 * [User Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html)
+* [How to load CircuitPython](https://gist.github.com/askpatrickw/0a276c7e2d4f54e442b2cb6eaa0d32ea)
 
 ## Contribute
 
