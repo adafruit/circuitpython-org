@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "wio_terminal"
-title: "Wio Terminal Download"
-name: "Wio Terminal"
+board_id: "seeeduino_wio_terminal"
+title: "Seeeduino Wio Terminal Download"
+name: "Seeeduino Wio Terminal"
 manufacturer: "SEEED"
 board_url: ""
-board_image: "wio_terminal.jpg"
+board_image: "seeeduino_wio_terminal.jpg"
 date_added: 2020-7-3
 ---
 
