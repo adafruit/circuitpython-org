@@ -17,6 +17,8 @@ The Xplained Pro MCU series evaluation kits include an on-board Embedded Debugge
 
 Note: Not all peripherals are supported by CircuitPython.  The Ethernet, CAN, and Q-Touch button are not supported by CircuitPython at this time.  Only 16MB (128MiB) of the QSPI flash is accessible via the CIRCUITPY drive.
 
+CircuitPython requires that the board be flashed with the UF2 bootloader.  This can be done using the second USB connector, which provides a debug interface.  After this has been done once, CircuitPython can be installed and updated in the usual way using the UF2 bootloader, or by using the debug USB connector.
+
 * ATSAME54P20A microcontroller
 * Embedded Debugger
 * Digital I/O - Two mechanical buttons (user and reset button). One Atmel QTouch button. One yellow user LED. Three Xplained Pro extension headers.
