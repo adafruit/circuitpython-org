@@ -5,7 +5,7 @@ title: "Unexpected Maker Feather S2 Download"
 name: "Unexpected Maker Feather S2"
 manufacturer: "Unexpected Maker"
 board_url: ""
-board_image: "unknown.jpg"
+board_image: "unexpectedmaker_feathers2.jpg"
 date_added: 2020-6-14
 features:
   - Feather-Compatible
