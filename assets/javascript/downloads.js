@@ -326,9 +326,9 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedFeatur
 
   if (downloadsSearch.searchTerm && downloadsSearch.searchTerm.length > 0 && shouldDisplay) {
     var regex = new RegExp(downloadsSearch.searchTerm, "gi");
-    var name = download.dataset.name;
+    var haystack = download.dataset.name + " " + download.dataset.id + " " + download.dataset.manufacturer + " " + download.dataset.features;
 
-    shouldDisplay = name.match(regex);
+    shouldDisplay = haystack.match(regex);
   }
 
   return shouldDisplay;
