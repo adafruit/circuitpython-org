@@ -23,6 +23,9 @@ layout: default
       Have an idea for a new driver or library?
       <a href="https://github.com/adafruit/circuitpython/issues">File an issue on the CircuitPython repo!</a>
     </p>
+    <p>
+      Contribute localizations (translations) of CircuitPython using <a href="https://hosted.weblate.org/engage/circuitpython/">Weblate</a>.
+    </p>
     <h2>Current Status for {{ site.data.libraries.updated_at | date: "%a, %b %d, %Y" }}</h2>
 
     {% assign current = page.url | downcase | split: '/' %}
@@ -39,6 +42,10 @@ layout: default
         <a href="/contributing/library-infrastructure-issues" {% if
            current[2] ==
         'library-infrastructure-issues' %}class='active'{% endif %}>Library Infrastructure Issues</a>
+      </li>
+      <li>
+        <a href="/contributing/weblate" {% if current[2] ==
+        'weblate' %}class='active'{% endif %}>Localization</a>
       </li>
     </ul>
     <div class="clear"></div>
