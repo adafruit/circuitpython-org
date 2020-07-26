@@ -1,12 +1,3 @@
-<div class="section alert" id="chrome-alert">
-  <i class="fa fa-exclamation-circle"></i>
-  <p>
-    Google chrome recently blocked downloading UF2 files if safe browsing
-    is enabled. If you are experiencing problems, you can either <a href="https://support.google.com/chrome/answer/9890866">disable
-    safe browsing in settings</a> or go to your downloads page and manually
-    permit it.
-  </p>
-</div>
 {% assign board = site.data.files | where: "id", page.board_id %}
 {% if board[0] %}
 {% assign stable = board[0].versions | where: "stable", true | sort: "version" %}
