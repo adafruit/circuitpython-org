@@ -7,10 +7,6 @@ document.addEventListener('DOMContentLoaded',function() {
   var script = document.createElement('script');
   script.setAttribute('src', '//accounts.adafruit.com/users/locale?callback=setLocale');
   document.body.appendChild(script);
-
-  if (navigator.userAgent.indexOf("Chrome") !== -1) {
-      document.getElementById("chrome-alert").style.display = "flex";
-  }
 },false);
 
 function languageSelectHandler(event) {

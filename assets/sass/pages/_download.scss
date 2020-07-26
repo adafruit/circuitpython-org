@@ -22,10 +22,6 @@
     margin: 0 0 10px 0;
   }
 
-  #chrome-alert {
-      display: none;
-  }
-
   .download-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -145,16 +141,6 @@
         a.download-button, a.download-button-unrecommended {
           background-color: $gray;
         }
-      }
-
-      .alert {
-          background-color: #fabfbe;
-          display: flex;
-          align-items: center;
-          i {
-              padding-right: 15px;
-              font-size: 33px;
-          }
       }
 
       .download-buttons {
