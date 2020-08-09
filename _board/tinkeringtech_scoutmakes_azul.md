@@ -1,12 +1,12 @@
 ---
 layout: download
-board_id: "scoutmakes_azul"
+board_id: "tinkeringtech_scoutmakes_azul"
 title: "ScoutMakes Azul Download"
 name: "ScoutMakes Azul"
 manufacturer: "TinkeringTech"
 board_url: "https://tinkeringtech.com/blog/scoutmakes-azul/"
 board_image: "scoutmakes_azul.jpg"
-date_added: 2020-8-8
+date_added: 2020-07-27
 features:
   - Feather-compatible
   - Battery Charging
