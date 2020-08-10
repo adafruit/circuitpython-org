@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
+  gem "jekyll-get-json", "~> 0.0.1"
 end
 
 group :development do
@@ -28,4 +29,3 @@ group :development do
   gem 'image_processing'
 end
 
-gem "jekyll-get-json", "~> 0.0.1"
