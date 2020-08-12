@@ -28,7 +28,7 @@ permalink: /contributing/open-issues
   <h3>Open Issues</h3>
   <ul>
     {% for library in site.data.libraries.open_issues %}
-      <li>
+      <li class="library-open-issue-li">
         {{library[0]}}
         <ul class="issues-list">
         {% for issue in library[1] %}
