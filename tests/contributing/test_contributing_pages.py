@@ -46,12 +46,18 @@ def test_library_data(contrib_data_json, page_data):
     source = BeautifulSoup(result.content, "html.parser")
     assert source.title.string == page_data["page_title"]
 
-    open_prs = BeautifulSoup(
+    # Get the specific content that is generated from libraries.v2.json
+    # on the S3 bucket.
+    page_content = BeautifulSoup(
         str(source),
         "html.parser",
         parse_only=SoupStrainer("div", class_=page_data["div_class_name"])
     )
-    assert open_prs
+    assert page_content
 
-    pr_list = open_prs.find_all("li", class_=page_data["list_item_class_name"])
-    assert len(pr_list) == len(contrib_data_json[page_data["json_data_key"]])
+    # Get the list items so that we can compare those to the source.
+    content_li = page_content.find_all(
+        "li",
+        class_=page_data["list_item_class_name"]
+    )
+    assert len(content_li) == len(contrib_data_json[page_data["json_data_key"]])
