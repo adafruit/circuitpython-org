@@ -1,0 +1,31 @@
+name: Test Jekyll Site
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          submodules: true
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.x'
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Ruby Dependencies
+        run: |
+          gem install bundler:1.17.3
+          bundle install
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tests/requirements.txt
+      - name: Build & Serve site with jekyll
+        run: |
+          bundle exec jekyll serve --port 4000 --detach
+      - name: Run tests
+        run: |
+          pytest tests
