@@ -9,15 +9,7 @@ board_image: "picoplanet.jpg"
 date_added: 2020-3-31
 downloads_display: true
 blinka: false
-download_instructions: "BLINKA ONLY - url"
-# Features are tags; they should be limited to the items in this list and spelled exactly the same.
-# Include only the features your board supports, and remove these comment lines before committing.
-features:
-  - procedurally generated design
-  - 3 capacitive touch buttons
-  - 1 RGB LED
-  - USB-C
-  - SAMD21
+download_instructions: ""
 ---
 
 PicoPlanet is a procedurally generated series of PCBs. The three planets act as capacitive touch buttons. The board also has a RGB LED on top, a USB-C connector and 4 more pin pads on the bottom. The board's brain is a powerful SAMD21. The design also has stars that are not covered by  copper or soldermask and are perfect spots to place more LEDs.
