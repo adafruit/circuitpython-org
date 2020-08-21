@@ -42,6 +42,13 @@ __Features__
 Add any links to purchase the board
 * [Alorium Technology](https://www.aloriumtech.com/evom51-buy/)
 
+## Evo M51 CircuitPython Library Bundle
+In order to take full advantage of the additional I/O on Evo M51 using CircuitPython, we have created a custom
+library bundle that can be found on the Alorium Technology GitHub page:
+
+- [AloriumTech_CircuitPython_EvoM51](https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51)
+- Download the .ZIP file here: [Download .ZIP](https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51/archive/master.zip)
+
 ## Contribute
 
 Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
