@@ -8,8 +8,6 @@ board_url: ""
 board_image: "microdev_micro_s2.jpg"
 date_added: 2020-08-26
 features:
-  - Qwiic/Stemma-Compatible
-  - Small form factor
   - Wi-Fi
 ---
 
