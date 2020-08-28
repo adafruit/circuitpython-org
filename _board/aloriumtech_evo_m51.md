@@ -38,6 +38,12 @@ __Features__
 - Feather Footprint
 - 0.9 in. x 2.2 in.
 
+__Evo M51 CircuitPython Library Bundle__
+In order to take full advantage of the additional I/O on Evo M51 using CircuitPython, we have created a custom library bundle that can be found on the Alorium Technology GitHub page:
+
+- [AloriumTech_CircuitPython_EvoM51](https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51)
+- Download the .ZIP file here: [Download .ZIP](https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51/archive/master.zip)
+
 ## Purchase
 Add any links to purchase the board
 * [Alorium Technology](https://www.aloriumtech.com/evom51-buy/)
