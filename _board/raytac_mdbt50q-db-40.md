@@ -5,7 +5,7 @@ title: "MDBT50Q-DB-40 Download"
 name: "MDBT50Q-DB-40"
 manufacturer: "Raytac Corporation"
 board_url: "https://www.raytac.com/product/ins.php?index_id=81"
-board_image: "unknown.jpg"
+board_image: "raytac_mdbt50q-db-40.jpg"
 date_added: 2020-07-27
 features:
   - Bluetooth/BTLE
