@@ -5,7 +5,7 @@ title: "M60 Mechanical Keyboard Download"
 name: "M60 Mechanical Keyboard"
 manufacturer: "MakerDiary"
 board_url: "https://makerdiary.com/pages/m60-mechanical-keyboard"
-board_image: "unknown.jpg"
+board_image: "makerdiary_m60_keyboard.jpg"
 date_added: 2020-07-27
 features:
   - Bluetooth/BTLE

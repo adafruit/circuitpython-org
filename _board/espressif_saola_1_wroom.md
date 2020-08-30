@@ -5,7 +5,7 @@ title: "Saola 1 w/WROOM Download"
 name: "Saola 1 w/WROOM"
 manufacturer: "Espressif"
 board_url: "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html"
-board_image: "unknown.jpg"
+board_image: "espressif_saola_1_wroom.jpg"
 date_added: 2020-05-15
 ---
 
