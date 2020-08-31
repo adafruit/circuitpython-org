@@ -1,9 +1,9 @@
 ---
 layout: download
 board_id: "ikigaisense_vita"
-title: "ikigaisense_vita Download"
-name: "ikigaisense_vita"
-manufacturer: "ikigaisense"
+title: "Ikigaisense Vita Download"
+name: "Ikigaisense Vita"
+manufacturer: "Ikigaisense"
 board_url: "https://hackaday.io/project/173761-vita-hardware"
 board_image: "ikigaisense_vita.jpg"
 date_added: 2020-08-30
