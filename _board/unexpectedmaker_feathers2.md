@@ -27,6 +27,7 @@ Introducing the FeatherS2 - The PRO ESP32-S2 based development board in a Feathe
  - Power (red), Charge (orange) & IO13 (blue) LEDs
  - 21x GPIO
  - USB-C
+ - USB Backfeed protection
  - APA102 RGB LED (CLK IO45, DATA IO40)
  - ALS-PT19 Ambient Light Sensor (IO14)
  - QWIIC/STEMMA connector
