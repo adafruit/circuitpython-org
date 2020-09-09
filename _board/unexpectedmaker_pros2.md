@@ -27,10 +27,12 @@ Introducing the ProS2 - The PRO ESP32-S2 based development board!
  - Power (red), Charge (orange)
  - 26x GPIO
  - USB-C
- - ESD Protection
- - USB Backfeed protection
+ - ESD protection
+ - USB backfeed protection
  - APA102 RGB LED (CLK IO45, DATA IO40)
  - Compatible with the TinyPICO shields 
+ - Small & breadboard friendly!
+ - Only 53mm x 18mm!
 
 **2x LDO Voltage Regulators?**
 Yup! The first one is for the general operation of the board and the ESP32-S2, RAM and Flash. 
