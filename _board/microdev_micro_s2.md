@@ -11,7 +11,7 @@ features:
   - Wi-Fi
 ---
 
-Introducing the microS2 (**Pre-Release**) - An ESP32-S2 based development board with the size of an esp12 module!
+Introducing the microS2 - An ESP32-S2 based development board in the size of an esp32 module!
 
 **Features & Specifications**
  - 32-bit 240 MHz single-core processor 
@@ -27,8 +27,8 @@ Introducing the microS2 (**Pre-Release**) - An ESP32-S2 based development board 
  - QWIIC/STEMMA connector
  - Small form factor
 
-**Pre Release Hardware?**
-The board design is final and it works great. But right now, the only way to develop on it is with an unfinished pre-beta IDF and there is no CircuitPython, MicroPython or Arduino support. So I can’t really call this board final until I at-least have a feature complete IDF to test it against :)
+## Learn More
+* [GitHub](https://github.com/microDev1/microS2)
 
 ## Purchase
 * [Tindie](https://www.tindie.com/stores/microDev/)
