@@ -12,7 +12,7 @@ features:
   - Wi-Fi
 ---
 
-Folks love our [wide selection of RGB matrices](https://www.adafruit.com/category/327) and accessories, for making custom colorful LED displays... and our RGB Matrix Shields and FeatherWings can be quickly soldered together to make the wiring much easier. But what if we made it even easier than that? **Like, no solder, no wiring, just instant plug-and-play?** Dream no more - with the **Adafruit Matrix Portal add-on for RGB Matricies**, there's never been an easier way to create powerful Internet-connected LED displays.
+Folks love our [wide selection of RGB matrices](https://www.adafruit.com/category/327) and accessories, for making custom colorful LED displays... and our RGB Matrix Shields and FeatherWings can be quickly soldered together to make the wiring much easier. But what if we made it even easier than that? **Like, no solder, no wiring, just instant plug-and-play?** Dream no more - with the **Adafruit Matrix Portal add-on for RGB Matrices**, there's never been an easier way to create powerful Internet-connected LED displays.
 
 Plug directly into the back of [any HUB-75 compatible display (all the ones we stock will work) from 16x32 up to 64x64](https://www.adafruit.com/category/327)! Use the included screws to attach the power cable to the power plugs with a common screwdriver, then power it with any USB C power supply. (For larger projects, power the matrices with a separate 5V power adapter)
 
