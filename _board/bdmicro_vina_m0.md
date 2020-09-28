@@ -6,7 +6,6 @@ name: "Vina M0"
 manufacturer: "BDMICRO, LLC"
 board_url: "https://bdmicro.com/products/vina-m0"
 board_image: "bdmicro_vina_m0.jpg"
-downloads_display: false
 date_added: 2020-4-16
 features:
   - Battery Charging
