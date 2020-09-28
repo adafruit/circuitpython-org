@@ -3,20 +3,28 @@ layout: download
 board_id: "TG-Watch02A"
 title: "TG-Watch02A Download"
 name: "TG-Watch02A"
-manufacturer: "unknown"
-board_url: ""
-board_image: "unknown.jpg"
-downloads_display: false
+manufacturer: "TG-Techie"
+board_url: "https://github.com/TG-Techie/TG-Watch02-PCB"
+board_image: "TG-Watch02A.jpg"
 date_added: 2020-3-31
 features:
+  - Display
+  - Bluetooth/BTLE
+  - Battery Charging
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
+Why buy an apple watch when you can spend your weekends building a microcontroller based "smart" watch instead? the TG-Watch is an open source, not-dumb watch meant for makers who want to hack on their watch or as great starting point to learn about programming.
 
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
+Some of its features include:
+ * a 240x240, 1.54" lcd
+ * capacitive touchscreen
+ * USB Type-C port (2.0)
+ * Step counter and pedometer
+ * vibration motor and haptic motor driver
+ * Bluetooth 5, Bluetooth mesh, Thread, ZigBee
 
-## Purchase
-Add any links to purchase the board
+## Learn More
+[Github](https://github.com/TG-Techie/TG-Watch02-PCB)
 
 ## Contribute
 
