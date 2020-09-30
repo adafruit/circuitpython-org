@@ -1,4 +1,4 @@
-# CircuitPython organization site
+# Circuit Python Organization Site
 
 **To add a new board to the site:**
 
@@ -19,4 +19,4 @@ were tested with ruby 2.5 and ruby-bundler 1.17.3 on a Debian Stretch system.
 4. Run `bundle exec jekyll serve` to generate the site locally
 5. Visit the displayed "server address"
 6. After most local edits, the content will be updated.  You will need to
-reload (ctrl-r or F5) your browser
+press (ctrl-r) or (F5) to reload your browser.
