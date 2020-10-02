@@ -10,9 +10,9 @@ date_added: 2019-8-30
 features:
   - Display
   - Speaker
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
-  - Solder-free Alligator clip
+  - Solder-Free Alligator Clip
 ---
 
 This is Hallowing, now with SAMD51 M4 processor! More later!

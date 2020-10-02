@@ -10,6 +10,7 @@ date_added: 2020-9-16
 features:
   - Display
   - Wi-Fi
+  - STEMMA QT/QWIIC
 ---
 
 Folks love our [wide selection of RGB matrices](https://www.adafruit.com/category/327) and accessories, for making custom colorful LED displays... and our RGB Matrix Shields and FeatherWings can be quickly soldered together to make the wiring much easier. But what if we made it even easier than that? **Like, no solder, no wiring, just instant plug-and-play?** Dream no more - with the **Adafruit Matrix Portal add-on for RGB Matrices**, there's never been an easier way to create powerful Internet-connected LED displays.

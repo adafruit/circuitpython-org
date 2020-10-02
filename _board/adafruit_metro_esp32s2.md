@@ -1,21 +1,25 @@
 ---
 layout: download
-board_id: "feather_m4_can"
-title: "Feather M4 CAN Download"
-name: "Feather M4 CAN"
+board_id: "adafruit_metro_esp32s2"
+title: " Metro ESP32-S2 Download"
+name: "Metro ESP32-S2"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "feather_m4_can.jpg"
-date_added: 2020-9-28
+board_image: "adafruit_metro_esp32s2.jpg"
+date_added: 2020-10-2
 features:
-  - Feather-Compatible
+  - Wi-Fi
   - Battery Charging
+  - STEMMA QT/QWIIC
+
 ---
- 
+
 Coming Soon!
 
-## Learn More
-* [YouTube](https://youtu.be/jrf9OJQgm5g?t=4561)
+
+## Learn More:
+
+* [YouTube](https://youtu.be/yXwwPuIPtzI?t=4264)
 
 ## Contribute
 

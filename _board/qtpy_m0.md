@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4600"
 board_image: "qtpy_m0.jpg"
 date_added: 2020-9-28
+features:
+  - STEMMA QT/QWIIC
 ---
 
 What a cutie pie! Or is it... a QT Py? This diminutive dev board comes with our favorite lil chip, the SAMD21 (as made famous in our GEMMA M0 and Trinket M0 boards).

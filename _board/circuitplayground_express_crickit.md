@@ -10,7 +10,7 @@ date_added: 2019-3-9
 features:
   - Speaker
   - Robotics
-  - Solder-free Alligator clip
+  - Solder-Free Alligator Clip
 ---
 
 **Crickit** is a **C**reative **R**obotics & **I**nteractive **C**onstruction **Kit**. It's an add-on for the popular Circuit Playground Express that lets you **#MakeRobotFriend** using CircuitPython (and more).

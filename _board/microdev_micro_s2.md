@@ -9,6 +9,7 @@ board_image: "microdev_micro_s2.jpg"
 date_added: 2020-08-26
 features:
   - Wi-Fi
+  - STEMMA QT/QWIIC
 ---
 
 Introducing the microS2 - An ESP32-S2 based development board in the size of an esp32 module!

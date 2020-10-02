@@ -12,6 +12,8 @@ blinka: false
 features:
   - Feather-Compatible
   - Battery Charging
+  - STEMMA QT/QWIIC
+
 ---
 
 The Evo M51 is an FPGA-enhanced Feather compatible compute module from Alorium Technology that features a 32-bit SAMD51 microcontroller along with an Intel MAX 10 FPGA.  

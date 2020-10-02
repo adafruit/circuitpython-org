@@ -10,7 +10,7 @@ date_added: 2019-5-25
 features:
   - Display
   - Speaker
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
 ---
 
