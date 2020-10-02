@@ -1,20 +1,22 @@
 ---
 layout: download
 board_id: "unexpectedmaker_feathers2_prerelease"
-title: "FeatherS2 Prerelease Download"
-name: "FeatherS2 Prerelease"
+title: "Unexpected Maker FeatherS2 Prerelease Download"
+name: " Unexpected MakerFeatherS2 Prerelease"
 manufacturer: "Unexpected Maker"
 board_url: ""
-board_image: "unexpectedmaker_feathers2.jpg"
-date_added: 2020-10-2
+board_image: "unexpectedmaker_feathers2_prerelease.jpg"
+date_added: 2020-6-14
 features:
   - Feather-Compatible
   - Battery Charging
+  - Dual LDO
   - Wi-Fi
   - STEMMA QT/QWIIC
 ---
 
-Introducing the FeatherS2 - The PRO ESP32-S2 based development board in a Feather format!
+Pre-Release version of the FeatherS2
+For those that purchased the pre-release version and would like to run CircuitPython on it without having to compile from source.
 
 **Features & Specifications**
  - 32-bit 240 MHz single-core processor 
@@ -40,7 +42,7 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 The second LDO is for you to use to connect external 3V3 modules, sensors and peripherals, and it has programmable EN control tied to GPIO21 + it’s connected to the deep sleep capabilities of the S2, so if the S2 goes into deep sleep, the 2nd LDO is automatically shut down for you!
 
 ## Purchase
-* [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
+No longer available for purchase
 
 ## Contribute
 

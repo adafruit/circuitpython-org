@@ -1,15 +1,16 @@
 ---
 layout: download
 board_id: "unexpectedmaker_feathers2"
-title: "Unexpected Maker Feather S2 Download"
-name: "Unexpected Maker Feather S2"
+title: "Unexpected Maker FeatherS2 Download"
+name: "Unexpected Maker FeatherS2"
 manufacturer: "Unexpected Maker"
 board_url: ""
 board_image: "unexpectedmaker_feathers2.jpg"
-date_added: 2020-6-14
+date_added: 2020-10-1
 features:
   - Feather-Compatible
   - Battery Charging
+  - Dual LDO
   - Wi-Fi
   - STEMMA QT/QWIIC
 ---
