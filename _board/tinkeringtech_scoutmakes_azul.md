@@ -8,7 +8,7 @@ board_url: "https://tinkeringtech.com/blog/scoutmakes-azul/"
 board_image: "scoutmakes_azul.jpg"
 date_added: 2020-07-27
 features:
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
   - Bluetooth/BTLE
   - Display

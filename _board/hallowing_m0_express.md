@@ -10,9 +10,9 @@ date_added: 2019-3-9
 features:
   - Display
   - Speaker
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
-  - Solder-free Alligator clip
+  - Solder-Free Alligator Clip
 ---
 
 This is Hallowing..this is Hallowing... Hallowing! Hallowing! 

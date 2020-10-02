@@ -1,13 +1,12 @@
 ---
 layout: download
-board_id: "unexpectedmaker_feathers2"
-title: "Unexpected Maker Feather S2 Download"
-name: "Unexpected Maker Feather S2"
+board_id: "unexpectedmaker_feathers2_prerelease"
+title: "FeatherS2 Prerelease Download"
+name: "FeatherS2 Prerelease"
 manufacturer: "Unexpected Maker"
 board_url: ""
 board_image: "unexpectedmaker_feathers2.jpg"
-date_added: 2020-6-14
-downloads_display: false
+date_added: 2020-10-2
 features:
   - Feather-Compatible
   - Battery Charging
