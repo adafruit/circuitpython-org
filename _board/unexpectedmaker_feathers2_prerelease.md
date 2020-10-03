@@ -2,7 +2,7 @@
 layout: download
 board_id: "unexpectedmaker_feathers2_prerelease"
 title: "Unexpected Maker FeatherS2 Prerelease Download"
-name: " Unexpected MakerFeatherS2 Prerelease"
+name: " Unexpected Maker FeatherS2 Prerelease"
 manufacturer: "Unexpected Maker"
 board_url: ""
 board_image: "unexpectedmaker_feathers2_prerelease.jpg"
