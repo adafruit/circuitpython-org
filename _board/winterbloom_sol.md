@@ -4,8 +4,8 @@ board_id: "winterbloom_sol"
 title: "Winterbloom Sol Download"
 name: "Winterbloom Sol"
 manufacturer: "Alethea Flowers"
-board_url: "https://github.com/theacodes"
-board_image: "winterbloom_sol.jpg"
+board_url: "https://winterbloom.com"
+board_image: "sol.jpg"
 downloads_display: true
 blinka: false
 date_added: 2019-11-7
@@ -15,7 +15,7 @@ Winterbloom Sol is a modular synthesizer (Eurorack) module. It is a multi-purpos
 
 ## Purchase
 
-Sol is not yet available for purchase, however, you may [contact the creator](https://thea.codes) for more details.
+Sol is available for purchase on [Winterbloom.com](https://winterbloom.com) and several modular synthesizer distributors.
 
 ## Contribute
 

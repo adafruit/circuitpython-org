@@ -11,8 +11,8 @@ features:
   - Display
   - Wi-Fi
   - Bluetooth/BTLE
-  - Solder-free Alligator clip
-
+  - Solder-Free Alligator Clip
+  - STEMMA QT/QWIIC
 ---
 We wanted to build some projects that have a small screen and a lot of sensors. This board has a 1.3″ 240×240 IPS TFT display, two buttons, and a ton of sensors:
 

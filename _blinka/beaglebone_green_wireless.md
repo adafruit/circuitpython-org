@@ -8,6 +8,7 @@ board_url: "https://beagleboard.org/green-wireless"
 board_image: "beaglebone_green_wireless.jpg"
 downloads_display: true
 blinka: true
+date_added: 2019-12-3
 features:
   - Wi-Fi
 ---

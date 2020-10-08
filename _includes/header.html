@@ -8,7 +8,10 @@
         <a {% if current[1] == 'awesome' %}class='active'{% endif %} href="{{ "/awesome" | relative_url  }}">Awesome</a>
         <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
         <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
-        <a href="https://adafru.it/discord"><i class="fab fa-discord"></i></a>
+        <span>
+            <a href="https://adafru.it/discord"><i class="fab fa-discord"></i></a>
+            <a href="{{ '/feed.rss' | relative_url  }}" type="application/rss+xml"><i class="fas fa-rss-square"></i></a>
+        </span>
       </div>
     </div>
   </div>

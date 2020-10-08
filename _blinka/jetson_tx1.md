@@ -8,6 +8,7 @@ board_url: "https://developer.nvidia.com/embedded/jetson-tx1"
 board_image: "jetson_tx1.jpg"
 downloads_display: true
 blinka: true
+date_added: 2019-12-3
 features:
   - Ethernet
   - HDMI

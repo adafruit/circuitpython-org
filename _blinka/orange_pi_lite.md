@@ -9,6 +9,7 @@ board_image: "orange_pi_lite.png"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true
+date_added: 2020-1-18
 features:
   - Wi-Fi
   - Bluetooth/BLE

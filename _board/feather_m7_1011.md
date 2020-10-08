@@ -8,8 +8,9 @@ board_url: ""
 board_image: "feather_m7_1011.jpg"
 date_added: 2020-2-27
 features:
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
+  - STEMMA QT/QWIIC
 ---
 
 Coming Soon!
