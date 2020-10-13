@@ -9,6 +9,7 @@ board_image: "pine64.png"
 download_instructions: ""
 downloads_display: false
 blinka: true
+date_added: 2020-1-9
 features:
   - Wi-Fi
   - Bluetooth/BLE

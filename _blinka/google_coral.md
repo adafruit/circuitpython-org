@@ -9,6 +9,7 @@ board_image: "google_coral.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-google-coral-linux-blinka"
 downloads_display: true
 blinka: true
+date_added: 2019-5-13
 features:
   - Wi-Fi
   - Bluetooth/BLE

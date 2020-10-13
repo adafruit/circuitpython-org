@@ -8,6 +8,7 @@ board_url: "https://www.crowdsupply.com/sifive/hifive-unleashed"
 board_image: "hifive_unleashed.jpg"
 downloads_display: true
 blinka: true
+date_added: 2020-3-25
 features:
   - Ethernet
 ---

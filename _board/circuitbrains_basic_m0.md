@@ -14,6 +14,8 @@ download_instructions: ""
 
 CircuitPython on an ARM Cortex M0 in 1 square inch! This "Just Add Solder" castellated module is perfect for incorporating into your own project. The CircuitBrains Basic board footprint is small enough to fit into narrow spaces and wearable projects.
 
+**NOTE:** This board does not have a USB connector for the native USB. Native USB is broken out on the header/castellations and therefore requires a non-standard USB connection such as mounting to a motherboard PCB.
+
 ## Technical Specs
 
 - Dimensions: 25 x 25 x 3.5 millimeters / 1 x 1 x 0.15 inches

@@ -9,7 +9,7 @@ board_image: "circuitplayground_express_digikey_pycon2019.jpg"
 date_added: 2019-4-13
 features:
   - Speaker
-  - Solder-free Alligator clip
+  - Solder-Free Alligator Clip
 ---
 
 The Circuit Playground Express is Adafruit's flagship educational board designed for CircuitPython.

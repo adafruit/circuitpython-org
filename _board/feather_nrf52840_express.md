@@ -8,7 +8,7 @@ board_url: ""
 board_image: "feather_nrf52840_express.jpg"
 date_added: 2019-3-9
 features:
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
   - Bluetooth/BTLE
 ---

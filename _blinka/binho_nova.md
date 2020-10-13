@@ -8,6 +8,7 @@ board_url: "https://binho.io/"
 board_image: "binho_nova.jpg"
 downloads_display: true
 blinka: true
+date_added: 2019-12-3
 features:
 ---
 
