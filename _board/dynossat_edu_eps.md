@@ -1,8 +1,8 @@
 ---
 layout: download
-board_id: "dynossat_edu_epc"
-title: "DynOSSAT-EDU EPC Download"
-name: "DynOSSAT-EDU EPC"
+board_id: "dynossat_edu_eps"
+title: "DynOSSAT-EDU EPS Download"
+name: "DynOSSAT-EDU EPS"
 manufacturer: "BH Dynamics"
 board_url: ""
 board_image: "unknown.jpg"
