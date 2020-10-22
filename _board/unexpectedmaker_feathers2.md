@@ -40,8 +40,12 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 
 The second LDO is for you to use to connect external 3V3 modules, sensors and peripherals, and it has programmable EN control tied to GPIO21 + it’s connected to the deep sleep capabilities of the S2, so if the S2 goes into deep sleep, the 2nd LDO is automatically shut down for you!
 
+You can find out more about the FeatherS2 at [feathers2.io](https://feathers2.io)
+
 ## Purchase
+You can ourchase your very own FeatherS2 from:
 * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
+* [Adafruit](https://www.adafruit.com/product/4769)
 
 ## Contribute
 
