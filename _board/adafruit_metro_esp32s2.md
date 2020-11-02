@@ -19,7 +19,7 @@ What's Metro shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connec
 
 **Features:**
  * **ESP32-S2 240MHz Tensilica processor** - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!
- * **WROVER module** has FCC/CE certification and comes with 4 MByte of Flash and 8 MByte of PSRAM - you can have huge data buffers
+ * **WROVER module** has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers
  * **Lotsa power options** - 6-12VDC barrel jack or USB type C or Lipoly battery
  * **Built in battery charging** when powered over DC or USB
  * UNO-shape so shields can plug in
