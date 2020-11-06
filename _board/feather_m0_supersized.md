@@ -6,8 +6,9 @@ name: "Feather M0 Supersized"
 manufacturer: "Dave Astels"
 board_url: ""
 board_image: "feather_m0_supersized.jpg"
+date_added: 2019-3-19
 features:
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
 ---
 

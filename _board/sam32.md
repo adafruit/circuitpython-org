@@ -6,6 +6,7 @@ name: "SAM32"
 manufacturer: "Max Holliday"
 board_url: "https://github.com/maholli/SAM32"
 board_image: "sam32.jpg"
+date_added: 2019-4-5
 features:
 ---
  

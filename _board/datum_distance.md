@@ -6,6 +6,7 @@ name: "datum-Distance"
 manufacturer: "J&J Studios"
 board_url: "https://jandjstudios.io/datum/datum-Distance/"
 board_image: "datum_distance.jpg"
+date_added: 2019-7-12
 ---
 
 The datum-Distance sensor combines the same SAMD21G18 microcontroller used on the Arduino Zero with the VL53LX1 distance sensor from ST Microelectronics to create the simplest, easiest to use distance sensor for your application.

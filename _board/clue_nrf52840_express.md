@@ -6,12 +6,13 @@ name: "CLUE NRF52840 Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4500"
 board_image: "clue_nrf52840_express.jpg"
+date_added: 2019-12-30
 features:
   - Display
   - Wi-Fi
   - Bluetooth/BTLE
-  - Solder-free Alligator clip
-
+  - Solder-Free Alligator Clip
+  - STEMMA QT/QWIIC
 ---
 We wanted to build some projects that have a small screen and a lot of sensors. This board has a 1.3″ 240×240 IPS TFT display, two buttons, and a ton of sensors:
 

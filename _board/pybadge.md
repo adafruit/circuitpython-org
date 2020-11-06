@@ -6,10 +6,11 @@ name: "PyBadge"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4200"
 board_image: "pybadge.jpg"
+date_added: 2019-3-19
 features:
   - Display
   - Speaker
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
 ---
 

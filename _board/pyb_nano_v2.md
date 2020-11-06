@@ -6,6 +6,7 @@ name: "PYB Nano v2"
 manufacturer: "Elecrow"
 board_url: "https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html"
 board_image: "pyb_nano_v2.jpg"
+date_added: 2019-12-10
 ---
 
 DETAILS
@@ -19,6 +20,7 @@ It is convenient to extend features via I2C, SPI, UART and other interfaces. By 
 - Supports 2 UART, 3 I2C, 3 SPI, 10 ADC and RTC.
 - It allows two power input type, power by battery or USB.
 - The 4 LED on the board support luminance regulation function.
+- 8M flash
 
 ## Purchase
 * [Elecrow](https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html)

@@ -8,6 +8,7 @@ board_url: "https://beagleboard.org/black"
 board_image: "beaglebone_black.jpg"
 downloads_display: true
 blinka: true
+date_added: 2019-12-3
 features:
   - Ethernet
   - HDMI

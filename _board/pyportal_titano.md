@@ -6,6 +6,7 @@ name: "PyPortal Titano"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4444"
 board_image: "pyportal_titano.jpg"
+date_added: 2019-8-30
 features:
   - Display
   - Speaker

@@ -6,9 +6,10 @@ name: "Circuit Playground Bluefruit"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "circuitplayground_bluefruit.jpg"
+date_added: 2019-8-30
 features:
   - Speaker
-  - Solder-free Alligator clip
+  - Solder-Free Alligator Clip
   - Bluetooth/BTLE
 ---
 

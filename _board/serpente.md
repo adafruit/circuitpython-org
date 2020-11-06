@@ -6,6 +6,7 @@ name: "Serpente"
 manufacturer: "arturo182"
 board_url: "https://serpente.solder.party/"
 board_image: "serpente.jpg"
+date_added: 2019-9-17
 downloads_display: true
 blinka: false
 download_instructions: ""

@@ -6,12 +6,15 @@ name: "CircuitBrains Deluxe"
 manufacturer: "Null Byte Labs LLC"
 board_url: ""
 board_image: "circuitbrains_deluxe.jpg"
+date_added: 2020-2-27
 downloads_display: true
 blinka: false
 download_instructions: ""
 ---
 
 CircuitPython on an ARM Cortex M4 in almost 1 square inch! This "Just Add Solder" castellated module is perfect for incorporating into your own project. The CircuitBrains Deluxe board footprint is small enough to fit into narrow spaces and wearable projects.
+
+**NOTE:** This board does not have a USB connector for the native USB. Native USB is broken out on the header/castellations and therefore requires a non-standard USB connection such as mounting to a motherboard PCB.
 
 ## Technical Specs
 

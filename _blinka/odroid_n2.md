@@ -8,6 +8,7 @@ board_url: "https://www.hardkernel.com/shop/odroid-n2-with-2gbyte-ram/"
 board_image: "odroid_n2.jpg"
 downloads_display: true
 blinka: true
+date_added: 2019-12-3
 features:
   - Ethernet
   - USB 3.0

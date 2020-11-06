@@ -8,6 +8,7 @@ board_url: "https://www.crowdsupply.com/groboards/giant-board"
 board_image: "giant_board.jpg"
 downloads_display: true
 blinka: true
+date_added: 2019-12-3
 features:
   - Feather-Compatible
 ---

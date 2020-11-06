@@ -6,8 +6,9 @@ name: "Feather M0 Basic"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "feather_m0_basic.jpg"
+date_added: 2019-3-9
 features:
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
 ---
 Feather is thin, light, and lets you fly! Adafruit designed Feather to be a new open standard for portable microcontroller cores.

@@ -6,8 +6,9 @@ name: "Xenon"
 manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/xenon-datasheet/"
 board_image: "particle_xenon.jpg"
+date_added: 2019-3-9
 features:
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
   - Bluetooth/BTLE
 ---

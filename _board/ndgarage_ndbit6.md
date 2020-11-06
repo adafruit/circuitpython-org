@@ -6,6 +6,7 @@ name: "Ndbit6"
 manufacturer: "n°Garage"
 board_url: ""
 board_image: "ndgarage_ndbit6.jpg"
+date_added: 2020-2-5
 downloads_display: true
 blinka: false
 features:

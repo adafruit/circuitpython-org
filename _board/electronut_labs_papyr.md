@@ -7,6 +7,7 @@ manufacturer: "Electronut Labs"
 board_url: "https://docs.electronut.in/papyr/"
 board_image: "electronut_labs_papyr.jpg"
 downloads_display: true
+date_added: 2019-4-23
 features:
   - Display
   - Bluetooth/BTLE

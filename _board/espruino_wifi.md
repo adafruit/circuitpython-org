@@ -6,6 +6,7 @@ name: "Espruino WiFi"
 manufacturer: "Espruino"
 board_url: "https://www.adafruit.com/product/3514"
 board_image: "espruino_wifi.jpg"
+date_added: 2020-2-13
 features:
   - Wi-Fi
 ---
@@ -35,6 +36,8 @@ The Espruino's fast response time has a lot of advantages. It allows for quick a
 The Espruino also interacts well with our [NeoPixels](https://www.adafruit.com/category/168). For more info, check out [Espruino's page on the WS2811 and WS2812](http://www.espruino.com/WS2811).
 
 While the main advantage of the Espruino is its instant execution, it can also be used as a traditional board through a Web-based IDE hosted on your computer. The microcontroller also uses less power than Linux Boards (although its of course a lot less powerful as well) so will run longer on battery power, it has loads of IO pins, and it can be used as an IO board for PCs, Macs, or Rasp Pis without having to program it first. Simply take the Espruino out of its packaging and get started!
+
+**NOTE:** The Wifi of this board is based on ESP8266 and might not work with CircuitPython. CircuitPython typically use Airlift that rely on ESP32 with better support for TLS such as this [breakout board](https://www.adafruit.com/product/4201).
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3514)

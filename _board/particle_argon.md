@@ -6,8 +6,9 @@ name: "Argon"
 manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/argon-datasheet/"
 board_image: "particle_argon.jpg"
+date_added: 2019-3-9
 features:
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
   - Wi-Fi
   - Bluetooth/BTLE

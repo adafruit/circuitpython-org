@@ -6,8 +6,9 @@ name: "Feather M4 Express"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/3857"
 board_image: "feather_m4_express.jpg"
+date_added: 2019-3-8
 features:
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
 ---
 

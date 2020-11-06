@@ -6,6 +6,7 @@ name: "MONSTER M4SK"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "monster_m4sk.jpg"
+date_added: 2019-8-30
 features:
   - Display
   - Battery Charging

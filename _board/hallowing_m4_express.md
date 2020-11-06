@@ -6,12 +6,13 @@ name: "HalloWing M4 Express"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "hallowing_m4_express.jpg"
+date_added: 2019-8-30
 features:
   - Display
   - Speaker
-  - Feather-compatible
+  - Feather-Compatible
   - Battery Charging
-  - Solder-free Alligator clip
+  - Solder-Free Alligator Clip
 ---
 
 This is Hallowing, now with SAMD51 M4 processor! More later!
