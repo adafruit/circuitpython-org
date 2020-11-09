@@ -29,6 +29,9 @@ A Work-In-Progress Feather featuring the NXP i.MX RT1011 MCU and a ESP32.
 ## Learn More
 * [Reveal Tweet](https://twitter.com/arturo182/status/1199841134253682690)
 
+## Purchase
+* [Tindie](https://www.tindie.com/products/arturo182/nxp-mimxrt1011-feather-with-esp32/)
+
 ## Contribute
 
 Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
