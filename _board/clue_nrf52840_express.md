@@ -9,7 +9,6 @@ board_image: "clue_nrf52840_express.jpg"
 date_added: 2019-12-30
 features:
   - Display
-  - Wi-Fi
   - Bluetooth/BTLE
   - Solder-Free Alligator Clip
   - STEMMA QT/QWIIC
