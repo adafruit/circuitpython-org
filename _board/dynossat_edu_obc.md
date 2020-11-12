@@ -17,7 +17,7 @@ in Low Earth Orbit (LEO) that would serve as a device for teaching, training, an
 This is the On-Board Computer (OBC), the module responsible for managing the satellite and process sensor data. It
 integrates a 9-axis IMU, a gas sensor, a temperature sensor and carries a powerful ATSAMD51.
 
-Hardware in this repository is licenced under **CERN OHL v1.2**.
+Hardware is licensed under **CERN OHL v1.2**.
 
 ## Technical details
 
@@ -39,7 +39,7 @@ This board is open source hardware. You can check the docs and contribute [here]
 
 ## Purchase
 
-* Very soon!
+* [Tindie](https://www.tindie.com/products/21832/)
 
 ## Contribute
  

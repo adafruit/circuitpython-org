@@ -17,7 +17,7 @@ in Low Earth Orbit (LEO) that would serve as a device for teaching, training, an
 This is the EPS (Electric Power System), the module responsible for battery management and power distribution subsystems,
 including charging through solar panels using flight-proven MPPT electronics.
 
-Hardware in this repository is licenced under **CERN OHL v1.2**.
+Hardware is licensed under **CERN OHL v1.2**.
 
 ## Technical details
 
@@ -40,7 +40,7 @@ This board is open source hardware. You can check the docs and contribute [here]
 
 ## Purchase
 
-* Very soon!
+* [Tindie](https://www.tindie.com/products/21832/)
  
 ## Contribute
  
