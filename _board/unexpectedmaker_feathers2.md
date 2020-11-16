@@ -10,7 +10,6 @@ date_added: 2020-10-1
 features:
   - Feather-Compatible
   - Battery Charging
-  - Dual LDO
   - Wi-Fi
   - STEMMA QT/QWIIC
 ---
