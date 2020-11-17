@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "bast_ble"
+board_id: "bastble"
 title: "BAST BLE Download"
 name: "BAST BLE"
 manufacturer: "Electronic Cats"
 board_url: "https://electroniccats.com/store/bast-ble/"
-board_image: "bast_ble.jpg"
+board_image: "bastble.jpg"
 date_added: 2020-11-05
 
 features:
