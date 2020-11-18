@@ -3,6 +3,7 @@
 {% assign stable = board[0].versions | where: "stable", true | sort: "version" %}
 {% assign unstable = board[0].versions | where: "stable", false | sort: "version" %}
 {% assign releases = stable | concat: unstable %}
+{% capture board_url %}https://downloads.circuitpython.org/bin/{{ page.board_id}}{% endcapture %}
 {% for version in releases %}
   <div class="section {% if version.stable %}stable{% else %}unstable{% endif %}">
     <h3>CircuitPython {{ version.version }}</h3>
@@ -24,8 +25,8 @@
       <label class="language-select">
         <select>
           {% for language in version.languages %}
-          {% capture prefix %}https://downloads.circuitpython.org/bin/{{ page.board_id}}/{{ language }}/adafruit-circuitpython-{{ page.board_id }}-{{ language }}-{{ version.version }}{% endcapture %}
-          {% capture files %}{% for ext in version.extensions %}{{ prefix }}.{{ext}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
+          {% capture no_extension %}{{ board_url }}/{{ language }}/adafruit-circuitpython-{{ page.board_id }}-{{ language }}-{{ version.version }}{% endcapture %}
+          {% capture files %}{% for ext in version.extensions %}{{ no_extension }}.{{ext}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
           <option value={{ files }}
                   data-files={{ files }}
                   data-locale={{ language | replace: '_', '-' }}
@@ -76,7 +77,7 @@
       </label>
       <div class="download-buttons">
       {% for extension in version.extensions %}
-        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ prefix }}/en_US/adafruit-circuitpython-{{ page.board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ board_url }}/en_US/adafruit-circuitpython-{{ page.board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
       </div>
     </div>
