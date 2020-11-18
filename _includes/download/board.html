@@ -23,9 +23,14 @@
     <div class="download-details">
       <label class="language-select">
         <select>
-          {% for file in version.files %}
-          <option value="{{ file[1] | join: ',' }}" data-files={{ file[1] | join: ',' }} data-locale={{ file[0] | replace: '_', '-' }} {% if file[0] == "en_US" %}selected{% endif %}>
-            {% case file[0] %}
+          {% for language in version.languages %}
+          {% capture prefix %}https://downloads.circuitpython.org/bin/{{ page.board_id}}/{{ language }}/adafruit-circuitpython-{{ page.board_id }}-{{ language }}-{{ version.version }}{% endcapture %}
+          {% capture files %}{% for ext in version.extensions %}{{ prefix }}.{{ext}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
+          <option value={{ files }}
+                  data-files={{ files }}
+                  data-locale={{ language | replace: '_', '-' }}
+                  {% if language == "en_US" %}selected{% endif %}>
+            {% case language %}
               {% when 'cs' %}
                 CZECH
               {% when 'de_DE' %}
@@ -40,10 +45,16 @@
                 FILIPINO
               {% when 'fr' %}
                 FRENCH
+              {% when 'el' %}
+                GREEK
+              {% when 'hi' %}
+                HINDI
               {% when 'ID' %}
                 INDONESIAN
               {% when 'it_IT' %}
                 ITALIAN
+              {% when 'ja' %}
+                JAPANESE
               {% when 'ko' %}
                 KOREAN
               {% when 'nl' %}
@@ -64,8 +75,8 @@
         </select>
       </label>
       <div class="download-buttons">
-      {% for file in version.files['en_US'] %}
-        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ file | slice: -3, 3 }}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      {% for extension in version.extensions %}
+        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ prefix }}/en_US/adafruit-circuitpython-{{ page.board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
       </div>
     </div>
