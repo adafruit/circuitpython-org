@@ -286,7 +286,7 @@ function handleSortResults(event) {
         case 'date-desc':
           dateA = new Date(a.dataset.date)
           dateB = new Date(b.dataset.date)
-          return dateA.getTime() > dateB.getTime() ? -1 : 1;
+          return dateA.getTime() < dateB.getTime() ? 1 : -1;
         default:
           // sort by download count is the default
           return parseInt(a.dataset.downloads, 10) < parseInt(b.dataset.downloads, 10) ? 1 : -1;
