@@ -42,7 +42,7 @@ The second LDO is for you to use to connect external 3V3 modules, sensors and pe
 You can find out more about the FeatherS2 at [feathers2.io](https://feathers2.io)
 
 ## Purchase
-You can ourchase your very own FeatherS2 from:
+You can purchase your very own FeatherS2 from:
 * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
 * [Adafruit](https://www.adafruit.com/product/4769)
 
