@@ -8,12 +8,7 @@ board_url: "https://www.targettpcb.co.uk/s2-mcb-1"
 board_image: "targett_module_clip_wrover.jpg"
 date_added: 2020-12-6
 features:
-  - Change modules
-  - Direct USB
-  - UART to USB
   - Wi-Fi
-  - All GPIO broken out
-  - WROOM and WROVER boards
 ---
 
 This board will allow you to clip in an ESP32-S2 WROOM or WROVER module for programming, prototyping and testing. Slot the module into the pins where it will be held securely while you upload your code.
