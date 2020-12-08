@@ -7,6 +7,8 @@ manufacturer: "Espressif"
 board_url: "https://www.adafruit.com/product/4729"
 board_image: "espressif_kaluga_1.jpg"
 date_added: 2020-08-30
+features:
+  - Wi-Fi
 ---
 
 The **ESP32-S2-Kaluga-1** kit is a full featured development kit by Espressif for the ESP32-S2 that comes with everything but the kitchen sink! From TFTs to touch panels, this dev board has it all. Espressif designed this kit to demonstrate the ESP32-S2’s human-computer interaction functionalities and provide the users with the tools for development of human-computer interaction applications based on their new WiFi modules with the ESP32-S2 chip
