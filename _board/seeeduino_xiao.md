@@ -9,26 +9,24 @@ board_image: "seeeduino_xiao.jpg"
 date_added: 2020-1-17
 ---
 # Seeduino XIAO:
-The SEEED Studio's Seeeduino XIAO is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256KB Flash and 32KB SRAM.  The board is 20 x 17.5mm in size which is perfect for wearable devices and small projects. It has multiple development interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It's Compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.
+SEEED Studio's Seeeduino XIAO is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256KB Flash and 32KB SRAM.  The board is 20 x 17.5mm in size which is perfect for wearable devices and small projects. It has multiple interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It's compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.
 
 Specifications:
-* CPU : ARM Cortex-M0+ CPU(SAMD21G18) running at up to 48MHz
-* Flash Memory : 256KB
-* SRAM : 32KB
-* Digital I/O pins : 11
-* Analog I/O pins : 11
-* I2C interface : 1
-* SPI interface : 1
-* UART interface : 1
-* Power supply and downloading interface : Type-C
-* Power : 3.3V/5V DC
-* Dimensions : 20 × 17.5 × 3.5 mm
+* CPU: ARM Cortex-M0+ CPU (SAMD21G18) running at up to 48MHz
+* Flash Memory: 256KB
+* SRAM: 32KB
+* Digital I/O pins: 11
+* Analog I/O pins: 11
+* I2C interfaces: 1
+* SPI interfaces: 1
+* UART interfaces: 1
+* USB Type-C connector for transferring code and power
+* Power requirements: 3.3V/5V DC
+* Dimensions  20 × 17.5 × 3.5 mm
 
-Note: For general I/O pins: Working voltage of MCU is 3.3V . Voltage input connected to general I/O pins may cause chip damage if it' higher than 3.3V .
+Note: This microcontroller runs at 3.3V logic. Using a 5V device may damage the chip or device.
 
-For power supply pins: The built-in DC-DC converter circuit able to change 5V voltage into 3.3V allows to power the device with a 5V supply via VIN-PIN and 5V-PIN.
-
-Please pay attention to use, do not lift the shield cover.
+For power supply pins: The built-in DC-DC converter circuit is able to change 5V voltage into 3.3V, which allows you to power the device with a 5V supply via the VIN pin or 5V pin.
 
 ## Purchase
 * [Seeed](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html)
