@@ -4,9 +4,20 @@ document.addEventListener('DOMContentLoaded',function() {
     select.onchange = languageSelectHandler;
   });
 
-  var script = document.createElement('script');
-  script.setAttribute('src', '//accounts.adafruit.com/users/locale?callback=setLocale');
-  document.body.appendChild(script);
+  var languages = null;
+  if (window.localStorage) {
+    var storedLanguage = localStorage.getItem("language");
+    if (storedLanguage != null && storedLanguage != "") {
+      languages = { languages: storedLanguage };
+    }
+  }
+  if (languages != null) {
+    setLocale(languages);
+  } else {
+    var script = document.createElement('script');
+    script.setAttribute('src', '//accounts.adafruit.com/users/locale?callback=setLocale');
+    document.body.appendChild(script);
+  }
 },false);
 
 function languageSelectHandler(event) {
@@ -14,11 +25,16 @@ function languageSelectHandler(event) {
   // event may either be an event from selection, or passed from setLocale
   // as a select element.
   if (event.target) {
-    var selectedOption = event.target;
+    var selectedOption = event.target.selectedOptions[0];
     var parentNode = event.target.parentNode.parentNode;
   } else {
     var selectedOption = event.selectedOptions[0];
     var parentNode = event.parentNode.parentNode;
+  }
+  
+  if (window.localStorage) {
+    var selectedLanguage = selectedOption.dataset.locale;
+    localStorage.setItem("language",selectedLanguage);
   }
 
   var files = selectedOption.value.split(',');
