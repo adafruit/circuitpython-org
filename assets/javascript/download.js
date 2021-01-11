@@ -4,60 +4,77 @@ document.addEventListener('DOMContentLoaded',function() {
     select.onchange = languageSelectHandler;
   });
 
-  var languages = null;
+  // get the language from memory
+  var storedLanguage = null;
   if (window.localStorage) {
-    var storedLanguage = localStorage.getItem("language");
+    storedLanguage = localStorage.getItem("language");
     if (storedLanguage != null && storedLanguage != "") {
-      languages = { languages: storedLanguage };
+      language = storedLanguage;
+      updateLanguageMenus([language]);
     }
   }
-  if (languages != null) {
-    setLocale(languages);
-  } else {
+  // or get the language from the browser
+  if (storedLanguage == null) {
     var script = document.createElement('script');
     script.setAttribute('src', '//accounts.adafruit.com/users/locale?callback=setLocale');
     document.body.appendChild(script);
   }
 },false);
 
-function languageSelectHandler(event) {
-  // find download-details, two levels up from select
-  // event may either be an event from selection, or passed from setLocale
-  // as a select element.
-  if (event.target) {
-    var selectedOption = event.target.selectedOptions[0];
-    var parentNode = event.target.parentNode.parentNode;
-  } else {
-    var selectedOption = event.selectedOptions[0];
-    var parentNode = event.parentNode.parentNode;
-  }
-  
-  if (window.localStorage) {
-    var selectedLanguage = selectedOption.dataset.locale;
-    localStorage.setItem("language",selectedLanguage);
-  }
-
-  var files = selectedOption.value.split(',');
-
+// update the links of the download buttons for the given langage menu item
+function updateFileLinks(option, language) {
+  var files = option.value.split(',');
+  parentNode = option.parentNode.parentNode.parentNode;
   files.forEach(function(file) {
     var extension = file.substr(file.lastIndexOf('.') + 1);
     parentNode.querySelector(".download-button." + extension).href = file;
   });
 }
 
-function setLocale(response) {
-  var languages = response.languages;
+// update language menus
+function updateLanguageMenus(languages) {
   var languageSelect = document.querySelectorAll(".language-select select");
-
   languageSelect.forEach(function(select) {
     var options = select.options;
-
-    for (var i = 0; i < options.length; i++) {
-      if (languages.includes(options[i].dataset.locale)) {
-        options[i].selected = true;
-        select.onchange(select);
-        break;
+    // find and set one menu with one language
+    function findAndSetLocale(language) {
+      for (var i = 0; i < options.length; i++) {
+        if (language.toLowerCase() == options[i].dataset.locale.toLowerCase()) {
+          options[i].selected = true;
+          updateFileLinks(options[i],language);
+          return true;
+        }
+      }
+      return false;
+    }
+    // match languages to menu items
+    for (var j = 0; j < languages.length; j++) {
+    var language = languages[j];
+      // test the full language-region string first
+      if (findAndSetLocale(language)) return;
+      var pos = language.search("-");
+      if (pos > 0) {
+        // test the language string to catch eg: "fr-FR" as "fr"
+        var shortLang = language.substr(0,pos);
+        if (findAndSetLocale(shortLang)) return;
       }
     }
   });
+}
+
+function languageSelectHandler(event) {
+  // set language from selection
+  var selectedOption = event.target.selectedOptions[0];
+  var selectedLanguage = selectedOption.dataset.locale;
+  // save to memory
+  if (window.localStorage && event.target) {
+    localStorage.setItem("language",selectedLanguage);
+  }
+  // synchronize all the menus if possible
+  updateLanguageMenus([selectedLanguage]);
+}
+
+function setLocale(response) {
+  var languages = response.languages;
+  updateLanguageMenus(languages);
 }
