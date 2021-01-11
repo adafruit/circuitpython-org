@@ -127,6 +127,34 @@ layout: home
     </section>
   </div>
 
+  <div class="headline-banner supported-section">
+    <img class="image-headline pinball" alt="hero image"
+                                src="{{ "assets/images/CircuitPython_Sensors.jpg" |
+                                relative_url }}"
+         />
+    <div class="text">
+      <div class="title"><span>280+ libraries all written in Python</span></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <section>
+      <img class="responsive" src="{{ "/assets/images/raspberry_pi.png" | relative_url }}"
+           srcset="{{ "/assets/images/raspberry_pi.png" | relative_url }} 1x,
+                   {{ "/assets/images/raspberry_pi@2x.png" | relative_url }} 2x,
+                   {{ "/assets/images/raspberry_pi@3x.png" | relative_url }} 3x"  alt="Raspberry Pi">
+      <h2>CircuitPython libraries on single board computers</h2>
+      <p>
+        Most CircuitPython libraries also work on <a href="/blinka">single board computers (SBCs)</a>, such as the Raspberry Pi.
+        Linux runs "desktop" Python (commonly known as CPython) instead of CircuitPython.
+        Our CPython Blinka library provides CircuitPython's low level hardware APIs, such as `digitalio`.
+      </p>
+      <p>
+        Blinka and CircuitPython libraries are just a `pip install` away.
+      </p>
+    </section>
+  </div>
+
   <div class="purple banner">
     <div class="content short">
     <h2>Just the beginning...</h2>
@@ -164,4 +192,3 @@ layout: home
     </section>
   </div>
 </div>
-
