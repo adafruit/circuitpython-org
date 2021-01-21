@@ -7,9 +7,9 @@ manufacturer: "Pine64"
 board_url: "https://www.pine64.org/pine-h64-ver-b/"
 board_image: "pine_h64.jpg"
 download_instructions: ""
-downloads_display: false
+downloads_display: true
 blinka: true
-date_added: 2020-11-5
+date_added: 2020-11-1
 features:
   - Wi-Fi
   - Bluetooth/BLE

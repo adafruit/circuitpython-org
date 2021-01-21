@@ -1,7 +1,7 @@
 ---
 layout: download
 board_id: "beaglebone_black"
-title: "BeagleBone Black"
+title: "BeagleBone Black Download"
 name: "BeagleBone Black"
 manufacturer: "BeagleBoard"
 board_url: "https://beagleboard.org/black"

@@ -8,7 +8,7 @@ board_url: "https://developer.nvidia.com/clara-agx-devkit"
 board_image: "clara_agx_xavier.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-11-5
+date_added: 2020-10-6
 features:
 
 ---

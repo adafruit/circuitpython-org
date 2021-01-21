@@ -7,7 +7,7 @@ manufacturer: "Radxa Limited"
 board_url: "https://wiki.radxa.com/RockpiS"
 board_image: "rock_pi_s.jpg"
 download_instructions: ""
-downloads_display: false
+downloads_display: true
 blinka: true
 date_added: 2020-4-29
 features:
