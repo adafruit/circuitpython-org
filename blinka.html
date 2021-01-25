@@ -56,10 +56,31 @@ permalink: /blinka
       {% comment %}
         Display the total number of boards.
       {% endcomment %}
-      Displaying <span id="board_count">{{ site.blinka.size }}</span> boards.
+      {% assign board_count = 0 %}
+      {% for board in site.blinka %}
+        {% if board.downloads_display == false %}
+          {% continue %}
+        {% endif %}
+        {% assign board_count = board_count | plus: 1 %}
+      {% endfor %}
+      Displaying <span id="board_count">{{ board_count }}</span> boards.
   </div>
   <div class="downloads-section">
-    {% for board in site.blinka %}
+      {% comment %}
+        Display the boards. If an image is missing, it is replaced with unknown.jpg.
+      {% endcomment %}
+      {% for board in site.blinka %}
+      {% if board.downloads_display == false %}
+        {% continue %}
+      {% endif %}
+      {% assign board_path = "/assets/images/boards/small/" | append: board.board_image %}
+      {% assign board_image = 'unknown.jpg' %}
+      {% for static_file in site.static_files %}
+        {% if static_file.path == board_path %}
+          {% assign board_image = board.board_image %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
         <div class="download" data-id="{{ board.board_id }}"
                               data-name="{{ board.name }}"
                               data-downloads="0"
@@ -69,7 +90,7 @@ permalink: /blinka
           <a href="{{ board.url | relative_url }}">
             <div>
               <div class="img-responsive-4by3">
-                {% include downloads/board_image.html board_image=board.board_image %}
+                {% include downloads/board_image.html board_image=board_image %}
               </div>
               <div class="details">
                 <h3>{{ board.name }}</h3>

@@ -1,7 +1,7 @@
 ---
 layout: download
 board_id: "beaglebone_green_wireless"
-title: "BeagleBone Green Wireless"
+title: "BeagleBone Green Wireless Download"
 name: "BeagleBone Green Wireless"
 manufacturer: "SeeedStudio"
 board_url: "https://beagleboard.org/green-wireless"

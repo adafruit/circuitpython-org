@@ -9,7 +9,7 @@ board_image: "banana_pi_m2_zero.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-11-5
+date_added: 2020-10-31
 features:
   - Wi-Fi
   - Bluetooth/BLE

@@ -9,7 +9,7 @@ board_image: "orange_pi_zero_plus2.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-11-5
+date_added: 2020-11-2
 features:
   - Wi-Fi
   - Bluetooth/BLE

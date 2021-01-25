@@ -7,7 +7,7 @@ manufacturer: "Pine64"
 board_url: "https://www.pine64.org/devices/single-board-computers/pine-a64/"
 board_image: "pine64.png"
 download_instructions: ""
-downloads_display: false
+downloads_display: true
 blinka: true
 date_added: 2020-1-9
 features:
