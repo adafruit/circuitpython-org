@@ -1,6 +1,6 @@
 [
  {
-  "downloads": 123,
+  "downloads": 0,
   "id": "8086_commander",
   "versions": [
    {
@@ -101,7 +101,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -213,13 +213,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -229,6 +232,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -247,7 +251,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -359,13 +363,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -375,6 +382,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -393,7 +401,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -508,6 +516,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -516,10 +525,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -530,6 +541,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -549,7 +561,7 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -664,6 +676,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -672,10 +685,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -686,6 +701,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -705,7 +721,7 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -737,14 +753,48 @@
      "en_x_pirate",
      "fil"
     ],
-    "modules": "[]",
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "analogio",
+     "binascii",
+     "bitbangio",
+     "board",
+     "busio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "gamepad",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "os",
+     "pwmio",
+     "random",
+     "re",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 419,
+  "downloads": 0,
   "id": "adafruit_magtag_2.9_grayscale",
   "versions": [
    {
@@ -854,6 +904,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -862,10 +913,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -876,6 +929,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -895,12 +949,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 184,
+  "downloads": 0,
   "id": "adafruit_metro_esp32s2",
   "versions": [
    {
@@ -1010,6 +1064,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -1018,10 +1073,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -1032,6 +1089,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -1051,12 +1109,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 105,
+  "downloads": 0,
   "id": "aloriumtech_evo_m51",
   "versions": [
    {
@@ -1164,16 +1222,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -1184,6 +1245,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -1201,12 +1263,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 99,
+  "downloads": 0,
   "id": "aramcon_badge_2019",
   "versions": [
    {
@@ -1313,13 +1375,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -1329,6 +1394,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -1347,12 +1413,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 34,
+  "downloads": 0,
   "id": "arduino_mkr1300",
   "versions": [
    {
@@ -1455,12 +1521,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 73,
+  "downloads": 0,
   "id": "arduino_mkrzero",
   "versions": [
    {
@@ -1563,12 +1629,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 125,
+  "downloads": 0,
   "id": "arduino_nano_33_ble",
   "versions": [
    {
@@ -1675,13 +1741,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -1691,6 +1760,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -1709,12 +1779,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 64,
+  "downloads": 0,
   "id": "arduino_nano_33_iot",
   "versions": [
    {
@@ -1817,12 +1887,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 75,
+  "downloads": 0,
   "id": "arduino_zero",
   "versions": [
    {
@@ -1925,12 +1995,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 150,
+  "downloads": 0,
   "id": "bast_pro_mini_m0",
   "versions": [
    {
@@ -2031,12 +2101,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 33,
+  "downloads": 0,
   "id": "bastble",
   "versions": [
    {
@@ -2143,13 +2213,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -2159,6 +2232,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -2177,12 +2251,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 167,
+  "downloads": 0,
   "id": "bdmicro_vina_d21",
   "versions": [
    {
@@ -2276,6 +2350,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -2285,6 +2360,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -2297,12 +2373,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 65,
+  "downloads": 0,
   "id": "bdmicro_vina_d51",
   "versions": [
    {
@@ -2410,16 +2486,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -2430,6 +2509,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -2447,7 +2527,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -2457,7 +2537,7 @@
   "versions": []
  },
  {
-  "downloads": 221,
+  "downloads": 0,
   "id": "bless_dev_board_multi_sensor",
   "versions": [
    {
@@ -2564,13 +2644,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -2580,6 +2663,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -2598,12 +2682,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 90,
+  "downloads": 0,
   "id": "blm_badge",
   "versions": [
    {
@@ -2700,12 +2784,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 120,
+  "downloads": 0,
   "id": "capablerobot_usbhub",
   "versions": [
    {
@@ -2811,16 +2895,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -2831,6 +2918,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -2848,12 +2936,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 89,
+  "downloads": 0,
   "id": "catwan_usbstick",
   "versions": [
    {
@@ -2952,12 +3040,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 71,
+  "downloads": 0,
   "id": "circuitbrains_basic_m0",
   "versions": [
    {
@@ -3052,6 +3140,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -3062,6 +3151,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -3074,12 +3164,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 103,
+  "downloads": 0,
   "id": "circuitbrains_deluxe_m4",
   "versions": [
    {
@@ -3187,16 +3277,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -3207,6 +3300,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -3224,12 +3318,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 292,
+  "downloads": 0,
   "id": "circuitplayground_bluefruit",
   "versions": [
    {
@@ -3336,13 +3430,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -3352,6 +3449,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -3370,12 +3468,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 404,
+  "downloads": 0,
   "id": "circuitplayground_express",
   "versions": [
    {
@@ -3470,6 +3568,7 @@
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -3479,6 +3578,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -3490,12 +3590,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 193,
+  "downloads": 0,
   "id": "circuitplayground_express_4h",
   "versions": [
    {
@@ -3552,12 +3652,12 @@
     ],
     "modules": "[]",
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 147,
+  "downloads": 0,
   "id": "circuitplayground_express_crickit",
   "versions": [
    {
@@ -3648,6 +3748,7 @@
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -3657,6 +3758,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "storage",
      "struct",
      "supervisor",
@@ -3666,12 +3768,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 0,
   "id": "circuitplayground_express_digikey_pycon2019",
   "versions": [
    {
@@ -3728,12 +3830,12 @@
     ],
     "modules": "[]",
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 168,
+  "downloads": 0,
   "id": "circuitplayground_express_displayio",
   "versions": [
    {
@@ -3823,6 +3925,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -3842,12 +3945,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 210,
+  "downloads": 0,
   "id": "clue_nrf52840_express",
   "versions": [
    {
@@ -3954,13 +4057,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -3970,6 +4076,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -3988,12 +4095,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 0,
   "id": "cp32-m4",
   "versions": [
    {
@@ -4099,16 +4206,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -4119,6 +4229,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -4136,12 +4247,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 74,
+  "downloads": 0,
   "id": "cp_sapling_m0",
   "versions": [
    {
@@ -4242,7 +4353,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -4337,6 +4448,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -4347,6 +4459,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -4360,7 +4473,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -4473,16 +4586,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -4493,6 +4609,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -4510,12 +4627,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 56,
+  "downloads": 0,
   "id": "datum_distance",
   "versions": [
    {
@@ -4616,12 +4733,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 98,
+  "downloads": 0,
   "id": "datum_imu",
   "versions": [
    {
@@ -4722,12 +4839,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 47,
+  "downloads": 0,
   "id": "datum_light",
   "versions": [
    {
@@ -4828,12 +4945,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "datum_weather",
   "versions": [
    {
@@ -4934,12 +5051,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 69,
+  "downloads": 0,
   "id": "dynossat_edu_eps",
   "versions": [
    {
@@ -5030,6 +5147,7 @@
      "board",
      "busio",
      "digitalio",
+     "errno",
      "gamepad",
      "i2cperipheral",
      "math",
@@ -5041,6 +5159,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "storage",
      "struct",
@@ -5050,12 +5169,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 89,
+  "downloads": 0,
   "id": "dynossat_edu_obc",
   "versions": [
    {
@@ -5163,16 +5282,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -5183,6 +5305,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -5200,12 +5323,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 132,
+  "downloads": 0,
   "id": "edgebadge",
   "versions": [
    {
@@ -5262,12 +5385,12 @@
     ],
     "modules": "[]",
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 35,
+  "downloads": 0,
   "id": "electroniccats_bastwifi",
   "versions": [
    {
@@ -5376,6 +5499,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -5384,10 +5508,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -5397,6 +5523,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -5416,12 +5543,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 116,
+  "downloads": 0,
   "id": "electronut_labs_blip",
   "versions": [
    {
@@ -5530,13 +5657,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -5546,6 +5676,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -5564,12 +5695,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 146,
+  "downloads": 0,
   "id": "electronut_labs_papyr",
   "versions": [
    {
@@ -5676,13 +5807,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -5692,6 +5826,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -5710,12 +5845,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 113,
+  "downloads": 0,
   "id": "escornabot_makech",
   "versions": [
    {
@@ -5814,12 +5949,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 63,
+  "downloads": 0,
   "id": "espressif_kaluga_1",
   "versions": [
    {
@@ -5929,6 +6064,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -5937,10 +6073,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -5951,6 +6089,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -5970,12 +6109,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 127,
+  "downloads": 0,
   "id": "espressif_saola_1_wroom",
   "versions": [
    {
@@ -6085,6 +6224,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -6093,10 +6233,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -6107,6 +6249,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -6126,12 +6269,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 115,
+  "downloads": 0,
   "id": "espressif_saola_1_wrover",
   "versions": [
    {
@@ -6241,6 +6384,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -6249,10 +6393,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -6263,6 +6409,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -6282,12 +6429,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 45,
+  "downloads": 0,
   "id": "espruino_pico",
   "versions": [
    {
@@ -6374,13 +6521,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -6389,6 +6539,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -6400,12 +6551,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 0,
   "id": "espruino_wifi",
   "versions": [
    {
@@ -6493,13 +6644,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -6508,6 +6662,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -6520,12 +6675,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 258,
+  "downloads": 0,
   "id": "feather_bluefruit_sense",
   "versions": [
    {
@@ -6632,13 +6787,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -6648,6 +6806,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -6666,12 +6825,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 81,
+  "downloads": 0,
   "id": "feather_m0_adalogger",
   "versions": [
    {
@@ -6774,12 +6933,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 93,
+  "downloads": 0,
   "id": "feather_m0_basic",
   "versions": [
    {
@@ -6882,12 +7041,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 237,
+  "downloads": 0,
   "id": "feather_m0_express",
   "versions": [
    {
@@ -6981,6 +7140,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -6990,6 +7150,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -7002,12 +7163,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 71,
+  "downloads": 0,
   "id": "feather_m0_express_crickit",
   "versions": [
    {
@@ -7099,6 +7260,7 @@
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -7107,6 +7269,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -7118,12 +7281,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 58,
+  "downloads": 0,
   "id": "feather_m0_rfm69",
   "versions": [
    {
@@ -7212,12 +7375,12 @@
      "time"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 86,
+  "downloads": 0,
   "id": "feather_m0_rfm9x",
   "versions": [
    {
@@ -7306,12 +7469,12 @@
      "time"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 97,
+  "downloads": 0,
   "id": "feather_m0_supersized",
   "versions": [
    {
@@ -7405,6 +7568,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -7414,6 +7578,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -7426,12 +7591,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 128,
+  "downloads": 0,
   "id": "feather_m4_can",
   "versions": [
    {
@@ -7538,6 +7703,7 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -7545,10 +7711,12 @@
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -7558,6 +7726,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -7574,12 +7743,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 330,
+  "downloads": 0,
   "id": "feather_m4_express",
   "versions": [
    {
@@ -7687,16 +7856,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -7707,6 +7879,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -7724,12 +7897,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 42,
+  "downloads": 0,
   "id": "feather_m7_1011",
   "versions": [
    {
@@ -7821,13 +7994,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -7836,6 +8012,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -7850,12 +8027,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 39,
+  "downloads": 0,
   "id": "feather_mimxrt1011",
   "versions": [
    {
@@ -7947,13 +8124,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -7962,6 +8142,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -7976,12 +8157,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 57,
+  "downloads": 0,
   "id": "feather_mimxrt1062",
   "versions": [
    {
@@ -8073,13 +8254,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -8088,6 +8272,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -8102,12 +8287,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 226,
+  "downloads": 0,
   "id": "feather_nrf52840_express",
   "versions": [
    {
@@ -8214,13 +8399,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -8230,6 +8418,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -8248,12 +8437,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 92,
+  "downloads": 0,
   "id": "feather_radiofruit_zigbee",
   "versions": [
    {
@@ -8342,6 +8531,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -8352,6 +8542,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "storage",
      "struct",
@@ -8364,12 +8555,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 88,
+  "downloads": 0,
   "id": "feather_stm32f405_express",
   "versions": [
    {
@@ -8460,14 +8651,17 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "canio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -8476,6 +8670,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "sdcardio",
      "sdioio",
@@ -8490,12 +8685,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 96,
+  "downloads": 0,
   "id": "fluff_m0",
   "versions": [
    {
@@ -8596,12 +8791,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 80,
+  "downloads": 0,
   "id": "fomu",
   "versions": [
    {
@@ -8676,14 +8871,18 @@
     ],
     "modules": [
      "_pixelbuf",
+     "binascii",
      "digitalio",
+     "errno",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
      "neopixel_write",
      "os",
      "random",
+     "re",
      "storage",
      "struct",
      "supervisor",
@@ -8694,7 +8893,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -8704,7 +8903,7 @@
   "versions": []
  },
  {
-  "downloads": 159,
+  "downloads": 0,
   "id": "gemma_m0",
   "versions": [
    {
@@ -8805,12 +9004,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 74,
+  "downloads": 0,
   "id": "gemma_m0_pycon2018",
   "versions": [
    {
@@ -8867,12 +9066,12 @@
     ],
     "modules": "[]",
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 145,
+  "downloads": 0,
   "id": "grandcentral_m4_express",
   "versions": [
    {
@@ -8981,16 +9180,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -9001,6 +9203,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -9019,12 +9222,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 153,
+  "downloads": 0,
   "id": "hallowing_m0_express",
   "versions": [
    {
@@ -9114,6 +9317,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "math",
      "microcontroller",
      "msgpack",
@@ -9123,6 +9327,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "storage",
      "struct",
      "supervisor",
@@ -9133,12 +9338,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 112,
+  "downloads": 0,
   "id": "hallowing_m4_express",
   "versions": [
    {
@@ -9246,16 +9451,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -9266,6 +9474,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -9283,12 +9492,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 121,
+  "downloads": 0,
   "id": "hiibot_bluefi",
   "versions": [
    {
@@ -9395,13 +9604,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -9411,6 +9623,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -9429,12 +9642,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 71,
+  "downloads": 0,
   "id": "ikigaisense_vita",
   "versions": [
    {
@@ -9541,13 +9754,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -9557,6 +9773,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -9575,12 +9792,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 45,
+  "downloads": 0,
   "id": "imxrt1010_evk",
   "versions": [
    {
@@ -9672,13 +9889,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -9687,6 +9907,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -9701,12 +9922,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 43,
+  "downloads": 0,
   "id": "imxrt1020_evk",
   "versions": [
    {
@@ -9798,13 +10019,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -9813,6 +10037,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -9827,12 +10052,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 46,
+  "downloads": 0,
   "id": "imxrt1060_evk",
   "versions": [
    {
@@ -9924,13 +10149,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -9939,6 +10167,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -9953,12 +10182,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 164,
+  "downloads": 0,
   "id": "itsybitsy_m0_express",
   "versions": [
    {
@@ -10049,6 +10278,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "math",
      "microcontroller",
      "msgpack",
@@ -10058,6 +10288,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "storage",
      "struct",
@@ -10069,12 +10300,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 0,
   "id": "itsybitsy_m4_express",
   "versions": [
    {
@@ -10180,16 +10411,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -10200,6 +10434,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -10217,12 +10452,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 248,
+  "downloads": 0,
   "id": "itsybitsy_nrf52840_express",
   "versions": [
    {
@@ -10329,13 +10564,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -10345,6 +10583,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -10363,12 +10602,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 87,
+  "downloads": 0,
   "id": "kicksat-sprite",
   "versions": [
    {
@@ -10462,14 +10701,17 @@
      "audiocore",
      "audioio",
      "audiomixer",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -10479,6 +10721,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -10491,12 +10734,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 55,
+  "downloads": 0,
   "id": "loc_ber_m4_base_board",
   "versions": [
    {
@@ -10599,12 +10842,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 166,
+  "downloads": 0,
   "id": "makerdiary_m60_keyboard",
   "versions": [
    {
@@ -10711,13 +10954,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -10727,6 +10973,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -10745,12 +10992,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 204,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_m2_devkit",
   "versions": [
    {
@@ -10857,13 +11104,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -10873,6 +11123,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -10891,12 +11142,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 84,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_mdk",
   "versions": [
    {
@@ -11003,13 +11254,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -11019,6 +11273,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -11037,12 +11292,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 98,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_mdk_usb_dongle",
   "versions": [
    {
@@ -11151,13 +11406,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -11167,6 +11425,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -11185,12 +11444,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 337,
+  "downloads": 0,
   "id": "matrixportal_m4",
   "versions": [
    {
@@ -11298,16 +11557,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -11318,6 +11580,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -11335,12 +11598,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 162,
+  "downloads": 0,
   "id": "meowbit_v121",
   "versions": [
    {
@@ -11427,13 +11690,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -11442,6 +11708,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -11453,12 +11720,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 116,
+  "downloads": 0,
   "id": "meowmeow",
   "versions": [
    {
@@ -11555,12 +11822,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 177,
+  "downloads": 0,
   "id": "metro_m0_express",
   "versions": [
    {
@@ -11654,6 +11921,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -11663,6 +11931,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -11675,12 +11944,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 223,
+  "downloads": 0,
   "id": "metro_m4_airlift_lite",
   "versions": [
    {
@@ -11788,16 +12057,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -11808,6 +12080,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -11825,12 +12098,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 154,
+  "downloads": 0,
   "id": "metro_m4_express",
   "versions": [
    {
@@ -11938,16 +12211,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -11958,6 +12234,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -11975,12 +12252,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "metro_m7_1011",
   "versions": [
    {
@@ -12072,13 +12349,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -12087,6 +12367,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -12101,12 +12382,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 117,
+  "downloads": 0,
   "id": "metro_nrf52840_express",
   "versions": [
    {
@@ -12213,13 +12494,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -12229,6 +12513,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -12247,12 +12532,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 63,
+  "downloads": 0,
   "id": "microdev_micro_s2",
   "versions": [
    {
@@ -12362,6 +12647,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -12370,10 +12656,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -12384,6 +12672,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -12403,12 +12692,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 146,
+  "downloads": 0,
   "id": "mini_sam_m4",
   "versions": [
    {
@@ -12514,16 +12803,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -12534,6 +12826,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -12551,12 +12844,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 101,
+  "downloads": 0,
   "id": "monster_m4sk",
   "versions": [
    {
@@ -12664,16 +12957,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -12684,6 +12980,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -12701,12 +12998,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 111,
+  "downloads": 0,
   "id": "muselab_nanoesp32_s2",
   "versions": [
    {
@@ -12816,6 +13113,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -12824,10 +13122,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -12838,6 +13138,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -12857,12 +13158,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 47,
+  "downloads": 0,
   "id": "ndgarage_ndbit6",
   "versions": [
    {
@@ -12963,12 +13264,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 0,
   "id": "ndgarage_ndbit6_v2",
   "versions": [
    {
@@ -13069,7 +13370,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -13163,12 +13464,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 128,
+  "downloads": 0,
   "id": "nfc_copy_cat",
   "versions": [
    {
@@ -13269,12 +13570,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 87,
+  "downloads": 0,
   "id": "nice_nano",
   "versions": [
    {
@@ -13381,13 +13682,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -13397,6 +13701,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -13415,12 +13720,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 18,
+  "downloads": 0,
   "id": "nucleo_f746zg",
   "versions": [
    {
@@ -13505,13 +13810,16 @@
     "modules": [
      "_bleio",
      "_pixelbuf",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -13519,6 +13827,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -13531,12 +13840,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 32,
+  "downloads": 0,
   "id": "nucleo_f767zi",
   "versions": [
    {
@@ -13621,13 +13930,16 @@
     "modules": [
      "_bleio",
      "_pixelbuf",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -13635,6 +13947,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -13647,12 +13960,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 22,
+  "downloads": 0,
   "id": "nucleo_h743zi_2",
   "versions": [
    {
@@ -13735,18 +14048,22 @@
     "modules": [
      "_bleio",
      "_pixelbuf",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
      "os",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -13759,12 +14076,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 114,
+  "downloads": 0,
   "id": "ohs2020_badge",
   "versions": [
    {
@@ -13871,13 +14188,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -13887,6 +14207,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -13905,12 +14226,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 153,
+  "downloads": 0,
   "id": "openbook_m4",
   "versions": [
    {
@@ -14019,17 +14340,20 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "gamepadshift",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -14040,6 +14364,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -14057,12 +14382,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 19,
+  "downloads": 0,
   "id": "openmv_h7",
   "versions": [
    {
@@ -14145,18 +14470,22 @@
     "modules": [
      "_bleio",
      "_pixelbuf",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
      "os",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -14169,12 +14498,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 132,
+  "downloads": 0,
   "id": "particle_argon",
   "versions": [
    {
@@ -14281,13 +14610,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -14297,6 +14629,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -14315,12 +14648,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 99,
+  "downloads": 0,
   "id": "particle_boron",
   "versions": [
    {
@@ -14427,13 +14760,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -14443,6 +14779,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -14461,12 +14798,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 128,
+  "downloads": 0,
   "id": "particle_xenon",
   "versions": [
    {
@@ -14573,13 +14910,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -14589,6 +14929,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -14607,7 +14948,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -14617,7 +14958,7 @@
   "versions": []
  },
  {
-  "downloads": 70,
+  "downloads": 0,
   "id": "pca10056",
   "versions": [
    {
@@ -14726,13 +15067,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -14742,6 +15086,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -14760,12 +15105,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 98,
+  "downloads": 0,
   "id": "pca10059",
   "versions": [
    {
@@ -14874,13 +15219,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -14890,6 +15238,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -14908,12 +15257,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 136,
+  "downloads": 0,
   "id": "pca10100",
   "versions": [
    {
@@ -15000,16 +15349,20 @@
      "audiocore",
      "audiomixer",
      "audiopwmio",
+     "binascii",
      "board",
      "busio",
      "digitalio",
+     "errno",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "os",
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "storage",
      "struct",
@@ -15020,12 +15373,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 100,
+  "downloads": 0,
   "id": "pewpew10",
   "versions": [
    {
@@ -15122,12 +15475,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "pewpew13",
   "versions": [
    {
@@ -15184,12 +15537,12 @@
     ],
     "modules": "[]",
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 146,
+  "downloads": 0,
   "id": "pewpew_m4",
   "versions": [
    {
@@ -15292,12 +15645,12 @@
      "time"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 118,
+  "downloads": 0,
   "id": "picoplanet",
   "versions": [
    {
@@ -15398,12 +15751,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 79,
+  "downloads": 0,
   "id": "pirkey_m0",
   "versions": [
    {
@@ -15492,12 +15845,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 0,
   "id": "pitaya_go",
   "versions": [
    {
@@ -15604,13 +15957,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -15620,6 +15976,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -15638,12 +15995,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 16,
+  "downloads": 0,
   "id": "pyb_nano_v2",
   "versions": [
    {
@@ -15731,13 +16088,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -15746,6 +16106,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -15758,12 +16119,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 143,
+  "downloads": 0,
   "id": "pybadge",
   "versions": [
    {
@@ -15874,17 +16235,20 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "gamepadshift",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -15895,6 +16259,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -15912,12 +16277,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 95,
+  "downloads": 0,
   "id": "pybadge_airlift",
   "versions": [
    {
@@ -16028,17 +16393,20 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "gamepadshift",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -16049,6 +16417,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -16066,12 +16435,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 39,
+  "downloads": 0,
   "id": "pyboard_v11",
   "versions": [
    {
@@ -16162,14 +16531,17 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "canio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -16178,6 +16550,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "sdcardio",
      "sdioio",
@@ -16192,12 +16565,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 104,
+  "downloads": 0,
   "id": "pycubed",
   "versions": [
    {
@@ -16295,13 +16668,16 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "frequencyio",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -16311,6 +16687,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -16324,12 +16701,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 67,
+  "downloads": 0,
   "id": "pycubed_mram",
   "versions": [
    {
@@ -16427,13 +16804,16 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "frequencyio",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -16443,6 +16823,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -16456,12 +16837,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 109,
+  "downloads": 0,
   "id": "pygamer",
   "versions": [
    {
@@ -16572,17 +16953,20 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "gamepadshift",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -16593,6 +16977,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -16610,12 +16995,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 124,
+  "downloads": 0,
   "id": "pygamer_advance",
   "versions": [
    {
@@ -16726,17 +17111,20 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "gamepadshift",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -16747,6 +17135,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -16764,12 +17153,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 261,
+  "downloads": 0,
   "id": "pyportal",
   "versions": [
    {
@@ -16877,16 +17266,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -16897,6 +17289,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -16914,12 +17307,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 132,
+  "downloads": 0,
   "id": "pyportal_pynt",
   "versions": [
    {
@@ -16976,12 +17369,12 @@
     ],
     "modules": "[]",
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 0,
   "id": "pyportal_titano",
   "versions": [
    {
@@ -17089,16 +17482,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -17109,6 +17505,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -17126,12 +17523,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 118,
+  "downloads": 0,
   "id": "pyruler",
   "versions": [
    {
@@ -17230,12 +17627,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 280,
+  "downloads": 0,
   "id": "qtpy_m0",
   "versions": [
    {
@@ -17336,12 +17733,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 194,
+  "downloads": 0,
   "id": "qtpy_m0_haxpress",
   "versions": [
    {
@@ -17434,6 +17831,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -17443,6 +17841,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -17456,7 +17855,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -17488,14 +17887,48 @@
      "en_x_pirate",
      "fil"
     ],
-    "modules": "[]",
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "analogio",
+     "binascii",
+     "bitbangio",
+     "board",
+     "busio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "gamepad",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "os",
+     "pwmio",
+     "random",
+     "re",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 152,
+  "downloads": 0,
   "id": "raytac_mdbt50q-db-40",
   "versions": [
    {
@@ -17602,13 +18035,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -17618,6 +18054,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -17636,12 +18073,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 83,
+  "downloads": 0,
   "id": "robohatmm1_m4",
   "versions": [
    {
@@ -17740,13 +18177,16 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -17757,6 +18197,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -17770,12 +18211,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 74,
+  "downloads": 0,
   "id": "sam32",
   "versions": [
    {
@@ -17882,16 +18323,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -17902,6 +18346,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -17920,12 +18365,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 48,
+  "downloads": 0,
   "id": "same54_xplained",
   "versions": [
    {
@@ -18033,6 +18478,7 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -18040,10 +18486,12 @@
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -18053,6 +18501,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -18070,12 +18519,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 250,
+  "downloads": 0,
   "id": "seeeduino_wio_terminal",
   "versions": [
    {
@@ -18183,16 +18632,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -18203,6 +18655,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -18220,12 +18673,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 426,
+  "downloads": 0,
   "id": "seeeduino_xiao",
   "versions": [
    {
@@ -18326,12 +18779,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 158,
+  "downloads": 0,
   "id": "serpente",
   "versions": [
    {
@@ -18429,6 +18882,7 @@
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "i2cperipheral",
      "math",
      "microcontroller",
@@ -18439,6 +18893,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -18452,12 +18907,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 0,
   "id": "shirtty",
   "versions": [
    {
@@ -18558,12 +19013,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 63,
+  "downloads": 0,
   "id": "simmel",
   "versions": [
    {
@@ -18652,16 +19107,19 @@
      "audiocore",
      "audiomixer",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
+     "json",
      "math",
      "microcontroller",
      "os",
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "storage",
      "struct",
@@ -18672,12 +19130,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 116,
+  "downloads": 0,
   "id": "snekboard",
   "versions": [
    {
@@ -18772,6 +19230,7 @@
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -18780,6 +19239,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -18792,12 +19252,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 112,
+  "downloads": 0,
   "id": "sparkfun_lumidrive",
   "versions": [
    {
@@ -18891,6 +19351,7 @@
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "i2cperipheral",
      "math",
@@ -18902,6 +19363,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -18914,12 +19376,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 232,
+  "downloads": 0,
   "id": "sparkfun_nrf52840_mini",
   "versions": [
    {
@@ -19026,13 +19488,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -19042,6 +19507,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -19060,12 +19526,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "sparkfun_qwiic_micro_no_flash",
   "versions": [
    {
@@ -19166,12 +19632,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 209,
+  "downloads": 0,
   "id": "sparkfun_qwiic_micro_with_flash",
   "versions": [
    {
@@ -19272,12 +19738,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 168,
+  "downloads": 0,
   "id": "sparkfun_redboard_turbo",
   "versions": [
    {
@@ -19370,6 +19836,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -19378,6 +19845,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -19390,12 +19858,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 150,
+  "downloads": 0,
   "id": "sparkfun_samd21_dev",
   "versions": [
    {
@@ -19496,12 +19964,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 156,
+  "downloads": 0,
   "id": "sparkfun_samd21_mini",
   "versions": [
    {
@@ -19602,12 +20070,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 102,
+  "downloads": 0,
   "id": "sparkfun_samd51_thing_plus",
   "versions": [
    {
@@ -19715,16 +20183,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -19735,6 +20206,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -19752,12 +20224,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 155,
+  "downloads": 0,
   "id": "spresense",
   "versions": [
    {
@@ -19812,9 +20284,37 @@
      "en_x_pirate",
      "fil"
     ],
-    "modules": "[]",
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "analogio",
+     "binascii",
+     "bitbangio",
+     "board",
+     "busio",
+     "camera",
+     "digitalio",
+     "errno",
+     "gnss",
+     "json",
+     "math",
+     "microcontroller",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rtc",
+     "sdcardio",
+     "sdioio",
+     "storage",
+     "struct",
+     "supervisor",
+     "time",
+     "ulab"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -19913,6 +20413,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -19922,6 +20423,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "storage",
@@ -19934,12 +20436,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 70,
+  "downloads": 0,
   "id": "stm32f411ce_blackpill",
   "versions": [
    {
@@ -20027,13 +20529,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -20042,6 +20547,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -20054,7 +20560,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -20090,13 +20596,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -20105,6 +20614,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -20117,12 +20627,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 0,
   "id": "stm32f411ve_discovery",
   "versions": [
    {
@@ -20210,13 +20720,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -20225,6 +20738,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -20237,12 +20751,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 0,
   "id": "stm32f412zg_discovery",
   "versions": [
    {
@@ -20331,13 +20845,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -20346,6 +20863,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -20359,12 +20877,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 31,
+  "downloads": 0,
   "id": "stm32f4_discovery",
   "versions": [
    {
@@ -20452,13 +20970,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -20467,6 +20988,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -20479,12 +21001,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 23,
+  "downloads": 0,
   "id": "stm32f746g_discovery",
   "versions": [
    {
@@ -20569,13 +21091,16 @@
     "modules": [
      "_bleio",
      "_pixelbuf",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -20583,6 +21108,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -20595,12 +21121,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 105,
+  "downloads": 0,
   "id": "stringcar_m0_express",
   "versions": [
    {
@@ -20693,6 +21219,7 @@
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "math",
      "microcontroller",
      "msgpack",
@@ -20702,6 +21229,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "storage",
      "struct",
@@ -20713,12 +21241,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 46,
+  "downloads": 0,
   "id": "targett_module_clip_wroom",
   "versions": [
    {
@@ -20828,6 +21356,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -20836,10 +21365,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -20850,6 +21381,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -20869,12 +21401,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 37,
+  "downloads": 0,
   "id": "targett_module_clip_wrover",
   "versions": [
    {
@@ -20984,6 +21516,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -20992,10 +21525,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -21006,6 +21541,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -21025,12 +21561,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 177,
+  "downloads": 0,
   "id": "teensy40",
   "versions": [
    {
@@ -21122,13 +21658,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -21137,6 +21676,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -21151,12 +21691,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 161,
+  "downloads": 0,
   "id": "teensy41",
   "versions": [
    {
@@ -21248,13 +21788,16 @@
      "_bleio",
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -21263,6 +21806,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -21277,12 +21821,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 23,
+  "downloads": 0,
   "id": "teknikio_bluebird",
   "versions": [
    {
@@ -21389,13 +21933,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -21405,6 +21952,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -21423,7 +21971,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -21519,13 +22067,16 @@
     "modules": [
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -21535,6 +22086,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -21546,7 +22098,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
@@ -21638,13 +22190,16 @@
     "modules": [
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -21654,6 +22209,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "sdcardio",
      "sharpdisplay",
      "storage",
@@ -21666,12 +22222,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 87,
+  "downloads": 0,
   "id": "tinkeringtech_scoutmakes_azul",
   "versions": [
    {
@@ -21778,13 +22334,16 @@
      "audiomixer",
      "audiomp3",
      "audiopwmio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "gamepad",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -21794,6 +22353,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -21812,12 +22372,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 202,
+  "downloads": 0,
   "id": "trellis_m4_express",
   "versions": [
    {
@@ -21923,16 +22483,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -21943,6 +22506,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -21960,12 +22524,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 393,
+  "downloads": 0,
   "id": "trinket_m0",
   "versions": [
    {
@@ -22066,12 +22630,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 145,
+  "downloads": 0,
   "id": "trinket_m0_haxpress",
   "versions": [
    {
@@ -22164,6 +22728,7 @@
      "busio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -22174,6 +22739,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "storage",
      "struct",
@@ -22186,12 +22752,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 146,
+  "downloads": 0,
   "id": "uartlogger2",
   "versions": [
    {
@@ -22299,16 +22865,19 @@
      "audioio",
      "audiomixer",
      "audiomp3",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "i2cperipheral",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -22319,6 +22888,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rgbmatrix",
      "rotaryio",
      "rtc",
@@ -22336,12 +22906,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 28,
+  "downloads": 0,
   "id": "uchip",
   "versions": [
    {
@@ -22444,12 +23014,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 90,
+  "downloads": 0,
   "id": "ugame10",
   "versions": [
    {
@@ -22540,6 +23110,7 @@
      "countio",
      "digitalio",
      "displayio",
+     "errno",
      "gamepad",
      "math",
      "microcontroller",
@@ -22549,6 +23120,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "storage",
      "struct",
@@ -22558,12 +23130,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 263,
+  "downloads": 0,
   "id": "unexpectedmaker_feathers2",
   "versions": [
    {
@@ -22673,6 +23245,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -22681,10 +23254,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -22695,6 +23270,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -22714,12 +23290,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 35,
+  "downloads": 0,
   "id": "unexpectedmaker_feathers2_prerelease",
   "versions": [
    {
@@ -22829,6 +23405,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
@@ -22837,10 +23414,12 @@
      "digitalio",
      "displayio",
      "dualbank",
+     "errno",
      "framebufferio",
      "frequencyio",
      "gamepad",
      "ipaddress",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -22851,6 +23430,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -22870,12 +23450,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 127,
+  "downloads": 0,
   "id": "winterbloom_big_honking_button",
   "versions": [
    {
@@ -22962,6 +23542,7 @@
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "math",
      "microcontroller",
      "msgpack",
@@ -22971,6 +23552,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "storage",
      "struct",
@@ -22978,12 +23560,12 @@
      "time"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 110,
+  "downloads": 0,
   "id": "winterbloom_sol",
   "versions": [
    {
@@ -23068,12 +23650,15 @@
     "modules": [
      "_pixelbuf",
      "analogio",
+     "binascii",
      "bitbangio",
      "board",
      "busio",
      "countio",
      "digitalio",
+     "errno",
      "frequencyio",
+     "json",
      "math",
      "microcontroller",
      "msgpack",
@@ -23083,6 +23668,7 @@
      "pulseio",
      "pwmio",
      "random",
+     "re",
      "rotaryio",
      "rtc",
      "sdcardio",
@@ -23094,12 +23680,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 39,
+  "downloads": 0,
   "id": "xinabox_cc03",
   "versions": [
    {
@@ -23188,12 +23774,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  },
  {
-  "downloads": 20,
+  "downloads": 0,
   "id": "xinabox_cs11",
   "versions": [
    {
@@ -23278,7 +23864,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "6.2.0-beta.0"
+    "version": "6.2.0-beta.1"
    }
   ]
  }
