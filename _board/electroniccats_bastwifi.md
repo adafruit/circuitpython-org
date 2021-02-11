@@ -9,9 +9,9 @@ board_image: "bast_wifi.jpg"
 date_added: 2020-10-13
 
 features:
-  -Feather-Compatible
-  -Wifi
-  -Battery Charging
+  - Feather-Compatible
+  - Wi-Fi
+  - Battery Charging
 
 ---
 

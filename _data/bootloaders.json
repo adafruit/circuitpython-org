@@ -45,6 +45,9 @@
         "bast_pro_mini_m0": {
             "family": "atmel-samd",
         },
+        "bastble": {
+            "family": "nrf52840",
+        },
         "capablerobot_usbhub": {
             "family": "atmel-samd",
             "bootloader_id": "capablerobot_usbhub",
@@ -180,6 +183,9 @@
             "bootloader_id": "radiofruit_m0",
         },
         "feather_stm32f405_express": {
+            "family": "atmel-samd",
+        },
+        "fluff_m0": {
             "family": "atmel-samd",
         },
         "gb_m4": {
@@ -432,7 +438,7 @@
         "teknikio_bluebird": {
             "family": "nrf52840",
         },
-        "TG-Watch02A": {
+        "TG-Watch": {
             "family": "atmel-samd",
         },
         "trellis_m4_express": {

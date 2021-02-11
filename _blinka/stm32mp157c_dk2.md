@@ -7,9 +7,9 @@ manufacturer: "STMicroelectronics"
 board_url: "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html"
 board_image: "stm32mp157c_dk2.jpg"
 download_instructions: ""
-downloads_display: false
+downloads_display: true
 blinka: true
-date_added: 2020-11-5
+date_added: 2020-9-10
 features:
   - Wi-Fi
   - Bluetooth/BLE

@@ -78,7 +78,7 @@ permalink: /downloads
   <div class="downloads-section">
     {% comment %}
       The following are boards that are in the _data/files.json build
-      process. Seperate loops due to wanting to sort by download count first.
+      process. Separate loops due to wanting to sort by download count first.
     {% endcomment %}
     {% assign boards = site.data.files | sort: "downloads" | reverse %}
     {% for board in boards %}

@@ -15,6 +15,11 @@
 
   }
 
+  &> p {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+
   .downloads-inputs {
     display: flex;
     flex-direction: row;

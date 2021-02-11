@@ -6,6 +6,7 @@ name: "BLM Badge"
 manufacturer: "Adafruit"
 board_url: "https://github.com/adafruit/BLM-Badge-PCB"
 board_image: "blmbadge.jpg"
+date_added: 2020-9-1
 features:
   - STEMMA QT/QWIIC
 ---

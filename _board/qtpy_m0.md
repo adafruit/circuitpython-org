@@ -11,6 +11,8 @@ features:
   - STEMMA QT/QWIIC
 ---
 
+> **Note:** If you soldered the [optional SOIC-8 SPI Flash chip](https://www.adafruit.com/product/4763) on to your QT Py, see the ["QT Py Haxpress"](../qtpy_m0_haxpress/) page to make use of the extra space!
+
 What a cutie pie! Or is it... a QT Py? This diminutive dev board comes with our favorite lil chip, the SAMD21 (as made famous in our GEMMA M0 and Trinket M0 boards).
 
 This time it comes with [our favorite connector - the STEMMA QT](http://adafruit.com/stemma), a chainable I2C port that can be used with [any of our STEMMA QT sensors and accessories](https://www.adafruit.com/category/620).
