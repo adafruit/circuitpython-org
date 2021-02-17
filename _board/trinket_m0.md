@@ -46,7 +46,7 @@ Each is fully assembled and tested Trinket M0 with CircuitPython & example code 
 So what are you waiting for? Pick up a Trinket M0 today and be amazed at how easy and fast it is to get started with Trinket and CircuitPython!
 
 ## Tutorials
-* [Trinket MO Overview](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino)
+* [Trinket M0 Overview](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino)
 
 ## Purchase
 
