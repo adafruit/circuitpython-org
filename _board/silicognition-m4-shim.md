@@ -4,7 +4,7 @@ board_id: "silicognition-m4-shim"
 title: "M4-Shim Download"
 name: "M4-Shim"
 manufacturer: "Silicognition LLC"
-board_url: "https://www.adafruit.com/product/3857"
+board_url: "https://github.com/xorbit/M4-Shim"
 board_image: "silicognition-m4-shim.jpg"
 date_added: 2021-2-19
 features:
