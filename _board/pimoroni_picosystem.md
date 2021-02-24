@@ -8,8 +8,9 @@ board_url: "https://shop.pimoroni.com/products/picosystem"
 board_image: "pimoroni_picosystem.jpg"
 date_added: 2021-2-24
 features:
-  - RP2040
-  - LCD
+  - Speaker
+  - Battery Charging
+  - Display
 ---
 
 An all-in-one pocket sized games console with RP2040 at its heart, ready for filling up with all the most fun pixels! PicoSystem has a nice tactile joypad and buttons, a vibrant 240x240 screen and a lipo battery, neatly wrapped up in some shiny abstract PCB art.
@@ -31,4 +32,3 @@ One very exciting feature of the RP2040 microcontroller are the programmable IOs
 
 ## Purchase
 * [Pimoroni](https://shop.pimoroni.com/products/picosystem)
-
