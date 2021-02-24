@@ -7,9 +7,6 @@ manufacturer: "Pimoroni"
 board_url: "https://shop.pimoroni.com/products/keybow-2040"
 board_image: "pimoroni_keybow2040.jpg"
 date_added: 2021-2-24
-features:
-  - RP2040
-  - RGB
 ---
 
 A luxe 16 key USB-C keyboard with tactile mechanical switches and fully customisable RGB lighting, ideal for custom macro pads, midi controllers and stream decks. RP2040 gives Keybow 2040 low latency input, zero boot time and a new, compact footprint.
@@ -27,4 +24,3 @@ One very exciting feature of the RP2040 microcontroller are the programmable IOs
 
 ## Purchase
 * [Pimoroni](https://shop.pimoroni.com/products/keybow-2040)
-
