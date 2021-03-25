@@ -22,56 +22,78 @@
       <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
     </p>
     <div class="download-details">
+      {% comment %}
+      Create a list of language codes and names so it can be sorted.
+      Jumping through hoops so that the new lines and spaces from the case are removed at the start of the names.
+      Finally the array is sorted, which is possible because each entry is now guaranteed to start with the language name, no whitespace.
+      Whitespaces still need to be filtered before outputing the strings.
+      {% endcomment %}
+      {% capture languages_with_names %}
+      {% for language in version.languages %}
+        {% case language %}
+          {% when 'cs' %}
+            CZECH
+          {% when 'de_DE' %}
+            GERMAN
+          {% when 'en_US' %}
+            ENGLISH
+          {% when 'en_x_pirate' %}
+            PIRATE (ENGLISH)
+          {% when 'es' %}
+            SPANISH
+          {% when 'fil' %}
+            FILIPINO
+          {% when 'fr' %}
+            FRENCH
+          {% when 'el' %}
+            GREEK
+          {% when 'hi' %}
+            HINDI
+          {% when 'ID' %}
+            INDONESIAN
+          {% when 'it_IT' %}
+            ITALIAN
+          {% when 'ja' %}
+            JAPANESE
+          {% when 'ko' %}
+            KOREAN
+          {% when 'nl' %}
+            DUTCH
+          {% when 'pl' %}
+            POLISH
+          {% when 'pt_BR' %}
+            PORTUGUESE (BRAZILIAN)
+          {% when 'sv' %}
+            SWEDISH
+          {% when 'zh_Latn_pinyin' %}
+            CHINESE (PINYIN)
+          {% else %}
+            {{ file[0] | upcase }}
+        {% endcase %}
+        ::{{ language }},
+      {% endfor %}
+      {% endcapture %}
+      {% assign languages_with_names_array = languages_with_names | split: "," %}
+      {% capture languages_with_names_strip %}{% for language_info in languages_with_names_array %}{{ language_info | strip }},{% endfor %}{% endcapture %}
+      {% assign languages_sorted = languages_with_names_strip | split: "," | sort_natural %}
       <label class="language-select">
         <select>
-          {% for language in version.languages %}
-          {% capture no_extension %}{{ board_url }}/{{ language }}/adafruit-circuitpython-{{ page.board_id }}-{{ language }}-{{ version.version }}{% endcapture %}
-          {% capture files %}{% for ext in version.extensions %}{{ no_extension }}.{{ext}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
-          <option value={{ files }}
-                  data-files={{ files }}
-                  data-locale={{ language | replace: '_', '-' }}
-                  {% if language == "en_US" %}selected{% endif %}>
-            {% case language %}
-              {% when 'cs' %}
-                CZECH
-              {% when 'de_DE' %}
-                GERMAN
-              {% when 'en_US' %}
-                ENGLISH
-              {% when 'en_x_pirate' %}
-                PIRATE (ENGLISH)
-              {% when 'es' %}
-                SPANISH
-              {% when 'fil' %}
-                FILIPINO
-              {% when 'fr' %}
-                FRENCH
-              {% when 'el' %}
-                GREEK
-              {% when 'hi' %}
-                HINDI
-              {% when 'ID' %}
-                INDONESIAN
-              {% when 'it_IT' %}
-                ITALIAN
-              {% when 'ja' %}
-                JAPANESE
-              {% when 'ko' %}
-                KOREAN
-              {% when 'nl' %}
-                DUTCH
-              {% when 'pl' %}
-                POLISH
-              {% when 'pt_BR' %}
-                PORTUGUESE (BRAZILIAN)
-              {% when 'sv' %}
-                SWEDISH
-              {% when 'zh_Latn_pinyin' %}
-                CHINESE (PINYIN)
-              {% else %}
-                {{ file[0] | upcase }}
-            {% endcase %}
-          </option>
+          {% for language_info in languages_sorted %}
+            {% assign language_split = language_info | split: "::" %}
+            {% assign language_name = language_split[0] | strip %}
+            {% assign language_code = language_split[1] | strip %}
+            {% if language_name == "" %}
+              {% comment %} Unnecessary ? {% endcomment %}
+              {% continue %}
+            {% endif %}
+            {% capture no_extension %}{{ board_url }}/{{ language_code }}/adafruit-circuitpython-{{ page.board_id }}-{{ language_code }}-{{ version.version }}{% endcapture %}
+            {% capture files %}{% for ext in version.extensions %}{{ no_extension }}.{{ext}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
+            <option value={{ files }}
+                    data-files={{ files }}
+                    data-locale={{ language_code | replace: '_', '-' }}
+                    {% if language_code == "en_US" %}selected{% endif %}>
+              {{ language_name }}
+            </option>
           {% endfor %}
         </select>
       </label>
