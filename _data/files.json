@@ -1,6 +1,6 @@
 [
  {
-  "downloads": 30,
+  "downloads": 0,
   "id": "8086_commander",
   "versions": [
    {
@@ -54,20 +54,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -93,7 +94,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -172,20 +173,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -236,12 +238,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 0,
   "id": "TG-Watch",
   "versions": [
    {
@@ -315,20 +317,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -379,7 +382,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -464,20 +467,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -532,7 +536,7 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -617,20 +621,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -685,12 +690,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 118,
+  "downloads": 0,
   "id": "adafruit_feather_rp2040",
   "versions": [
    {
@@ -698,20 +703,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -719,6 +725,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "audiomp3",
      "audiopwmio",
      "binascii",
      "bitbangio",
@@ -739,10 +746,12 @@
      "neopixel_write",
      "nvm",
      "os",
+     "pulseio",
      "pwmio",
      "random",
      "re",
      "rgbmatrix",
+     "rotaryio",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -759,12 +768,173 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 170,
+  "downloads": 0,
+  "id": "adafruit_funhouse",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "framebufferio",
+     "frequencyio",
+     "gamepad",
+     "ipaddress",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
+  "id": "adafruit_itsybitsy_rp2040",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "bitops",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "gamepad",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "adafruit_magtag_2.9_grayscale",
   "versions": [
    {
@@ -844,20 +1014,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -912,12 +1083,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 100,
+  "downloads": 0,
   "id": "adafruit_metro_esp32s2",
   "versions": [
    {
@@ -997,20 +1168,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -1065,12 +1237,90 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 95,
+  "downloads": 0,
+  "id": "adafruit_qtpy_rp2040",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "bitops",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "gamepad",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "aloriumtech_evo_m51",
   "versions": [
    {
@@ -1146,20 +1396,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -1212,12 +1463,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 65,
+  "downloads": 0,
   "id": "aramcon_badge_2019",
   "versions": [
    {
@@ -1291,20 +1542,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -1355,12 +1607,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 20,
+  "downloads": 0,
   "id": "arduino_mkr1300",
   "versions": [
    {
@@ -1416,20 +1668,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -1455,12 +1708,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 30,
+  "downloads": 0,
   "id": "arduino_mkrzero",
   "versions": [
    {
@@ -1516,20 +1769,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -1555,12 +1809,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 141,
+  "downloads": 0,
   "id": "arduino_nano_33_ble",
   "versions": [
    {
@@ -1634,20 +1888,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -1698,12 +1953,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 32,
+  "downloads": 0,
   "id": "arduino_nano_33_iot",
   "versions": [
    {
@@ -1759,20 +2014,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -1798,12 +2054,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 45,
+  "downloads": 0,
   "id": "arduino_zero",
   "versions": [
    {
@@ -1859,20 +2115,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -1898,12 +2155,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 98,
+  "downloads": 0,
   "id": "bast_pro_mini_m0",
   "versions": [
    {
@@ -1957,20 +2214,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -1996,12 +2254,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 0,
   "id": "bastble",
   "versions": [
    {
@@ -2075,20 +2333,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -2139,12 +2398,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 78,
+  "downloads": 0,
   "id": "bdmicro_vina_d21",
   "versions": [
    {
@@ -2205,20 +2464,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -2253,12 +2513,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 132,
+  "downloads": 0,
   "id": "bdmicro_vina_d51",
   "versions": [
    {
@@ -2334,20 +2594,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -2400,7 +2661,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -2410,7 +2671,7 @@
   "versions": []
  },
  {
-  "downloads": 95,
+  "downloads": 0,
   "id": "bless_dev_board_multi_sensor",
   "versions": [
    {
@@ -2484,20 +2745,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -2548,12 +2810,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 92,
+  "downloads": 0,
   "id": "blm_badge",
   "versions": [
    {
@@ -2605,20 +2867,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -2642,12 +2905,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 38,
+  "downloads": 0,
   "id": "capablerobot_usbhub",
   "versions": [
    {
@@ -2722,20 +2985,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -2787,12 +3051,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 76,
+  "downloads": 0,
   "id": "catwan_usbstick",
   "versions": [
    {
@@ -2845,20 +3109,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -2883,12 +3148,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 86,
+  "downloads": 0,
   "id": "circuitbrains_basic_m0",
   "versions": [
    {
@@ -2950,20 +3215,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -2999,12 +3265,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 94,
+  "downloads": 0,
   "id": "circuitbrains_deluxe_m4",
   "versions": [
    {
@@ -3080,20 +3346,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -3146,12 +3413,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 227,
+  "downloads": 0,
   "id": "circuitplayground_bluefruit",
   "versions": [
    {
@@ -3225,20 +3492,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -3289,12 +3557,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 295,
+  "downloads": 0,
   "id": "circuitplayground_express",
   "versions": [
    {
@@ -3355,20 +3623,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -3403,12 +3672,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 115,
+  "downloads": 0,
   "id": "circuitplayground_express_4h",
   "versions": [
    {
@@ -3440,29 +3709,61 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
-    "modules": "[]",
+    "modules": [
+     "_pixelbuf",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audioio",
+     "bitbangio",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "errno",
+     "gamepad",
+     "math",
+     "microcontroller",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rotaryio",
+     "rtc",
+     "storage",
+     "struct",
+     "supervisor",
+     "time",
+     "touchio",
+     "usb_hid",
+     "usb_midi"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 145,
+  "downloads": 0,
   "id": "circuitplayground_express_crickit",
   "versions": [
    {
@@ -3520,20 +3821,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -3565,12 +3867,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 73,
+  "downloads": 0,
   "id": "circuitplayground_express_digikey_pycon2019",
   "versions": [
    {
@@ -3602,29 +3904,61 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
-    "modules": "[]",
+    "modules": [
+     "_pixelbuf",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audioio",
+     "bitbangio",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "errno",
+     "gamepad",
+     "math",
+     "microcontroller",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rotaryio",
+     "rtc",
+     "storage",
+     "struct",
+     "supervisor",
+     "time",
+     "touchio",
+     "usb_hid",
+     "usb_midi"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 135,
+  "downloads": 0,
   "id": "circuitplayground_express_displayio",
   "versions": [
    {
@@ -3682,20 +4016,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -3726,12 +4061,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 182,
+  "downloads": 0,
   "id": "clue_nrf52840_express",
   "versions": [
    {
@@ -3805,20 +4140,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -3869,7 +4205,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -3949,20 +4285,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -4014,12 +4351,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 0,
   "id": "cp_sapling_m0",
   "versions": [
    {
@@ -4073,20 +4410,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -4112,7 +4450,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -4177,25 +4515,25 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
      "analogio",
-     "bitmaptools",
      "board",
      "busio",
      "digitalio",
@@ -4225,12 +4563,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 55,
+  "downloads": 0,
   "id": "datalore_ip_m4",
   "versions": [
    {
@@ -4306,20 +4644,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -4372,12 +4711,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 19,
+  "downloads": 0,
   "id": "datum_distance",
   "versions": [
    {
@@ -4431,20 +4770,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -4470,12 +4810,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 27,
+  "downloads": 0,
   "id": "datum_imu",
   "versions": [
    {
@@ -4529,20 +4869,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -4568,12 +4909,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 85,
+  "downloads": 0,
   "id": "datum_light",
   "versions": [
    {
@@ -4627,20 +4968,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -4666,12 +5008,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 44,
+  "downloads": 0,
   "id": "datum_weather",
   "versions": [
    {
@@ -4725,20 +5067,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -4764,12 +5107,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 0,
   "id": "dynalora_usb",
   "versions": [
    {
@@ -4777,20 +5120,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -4816,12 +5160,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 31,
+  "downloads": 0,
   "id": "dynossat_edu_eps",
   "versions": [
    {
@@ -4880,20 +5224,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -4926,12 +5271,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 60,
+  "downloads": 0,
   "id": "dynossat_edu_obc",
   "versions": [
    {
@@ -5007,20 +5352,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -5073,12 +5419,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 57,
+  "downloads": 0,
   "id": "edgebadge",
   "versions": [
    {
@@ -5110,29 +5456,81 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
-    "modules": "[]",
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "_stage",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audioio",
+     "audiomixer",
+     "audiomp3",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "frequencyio",
+     "gamepad",
+     "gamepadshift",
+     "i2cperipheral",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 22,
+  "downloads": 0,
   "id": "electroniccats_bastwifi",
   "versions": [
    {
@@ -5211,20 +5609,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -5278,12 +5677,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 95,
+  "downloads": 0,
   "id": "electronut_labs_blip",
   "versions": [
    {
@@ -5358,20 +5757,21 @@
      "hex"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -5423,12 +5823,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 71,
+  "downloads": 0,
   "id": "electronut_labs_papyr",
   "versions": [
    {
@@ -5502,20 +5902,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -5566,12 +5967,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 0,
   "id": "escornabot_makech",
   "versions": [
    {
@@ -5624,20 +6025,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -5662,12 +6064,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 29,
+  "downloads": 0,
   "id": "espressif_kaluga_1",
   "versions": [
    {
@@ -5747,20 +6149,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -5815,12 +6218,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 104,
+  "downloads": 0,
   "id": "espressif_saola_1_wroom",
   "versions": [
    {
@@ -5900,20 +6303,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -5968,12 +6372,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 91,
+  "downloads": 0,
   "id": "espressif_saola_1_wrover",
   "versions": [
    {
@@ -6053,20 +6457,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -6121,12 +6526,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 41,
+  "downloads": 0,
   "id": "espruino_pico",
   "versions": [
    {
@@ -6186,20 +6591,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -6233,12 +6639,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 13,
+  "downloads": 0,
   "id": "espruino_wifi",
   "versions": [
    {
@@ -6299,20 +6705,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -6350,12 +6757,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 152,
+  "downloads": 0,
   "id": "feather_bluefruit_sense",
   "versions": [
    {
@@ -6429,20 +6836,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -6493,12 +6901,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 33,
+  "downloads": 0,
   "id": "feather_m0_adalogger",
   "versions": [
    {
@@ -6554,20 +6962,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -6593,12 +7002,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 42,
+  "downloads": 0,
   "id": "feather_m0_basic",
   "versions": [
    {
@@ -6654,20 +7063,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -6693,12 +7103,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 202,
+  "downloads": 0,
   "id": "feather_m0_express",
   "versions": [
    {
@@ -6759,20 +7169,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -6807,12 +7218,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 0,
   "id": "feather_m0_express_crickit",
   "versions": [
    {
@@ -6871,20 +7282,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -6917,12 +7329,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 21,
+  "downloads": 0,
   "id": "feather_m0_rfm69",
   "versions": [
    {
@@ -6971,20 +7383,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -7003,12 +7416,12 @@
      "time"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 41,
+  "downloads": 0,
   "id": "feather_m0_rfm9x",
   "versions": [
    {
@@ -7057,20 +7470,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -7089,12 +7503,12 @@
      "time"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 45,
+  "downloads": 0,
   "id": "feather_m0_supersized",
   "versions": [
    {
@@ -7155,20 +7569,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -7203,12 +7618,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 141,
+  "downloads": 0,
   "id": "feather_m4_can",
   "versions": [
    {
@@ -7283,20 +7698,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -7348,12 +7764,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 247,
+  "downloads": 0,
   "id": "feather_m4_express",
   "versions": [
    {
@@ -7429,20 +7845,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -7495,12 +7912,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 15,
+  "downloads": 0,
   "id": "feather_m7_1011",
   "versions": [
    {
@@ -7565,20 +7982,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -7615,15 +8033,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 18,
+  "downloads": 0,
   "id": "feather_mimxrt1011",
   "versions": [
    {
@@ -7688,20 +8107,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -7738,15 +8158,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 27,
+  "downloads": 0,
   "id": "feather_mimxrt1062",
   "versions": [
    {
@@ -7811,20 +8232,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -7861,15 +8283,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 203,
+  "downloads": 0,
   "id": "feather_nrf52840_express",
   "versions": [
    {
@@ -7943,20 +8366,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -8007,12 +8431,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 0,
   "id": "feather_radiofruit_zigbee",
   "versions": [
    {
@@ -8071,25 +8495,25 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
      "analogio",
-     "bitmaptools",
      "board",
      "busio",
      "digitalio",
@@ -8118,12 +8542,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 56,
+  "downloads": 0,
   "id": "feather_stm32f405_express",
   "versions": [
    {
@@ -8187,20 +8611,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -8241,12 +8666,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 0,
   "id": "fluff_m0",
   "versions": [
    {
@@ -8300,20 +8725,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -8339,12 +8765,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 75,
+  "downloads": 0,
   "id": "fomu",
   "versions": [
    {
@@ -8394,20 +8820,21 @@
      "dfu"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -8433,7 +8860,173 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
+  "id": "franzininho_wifi_wroom",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "framebufferio",
+     "frequencyio",
+     "gamepad",
+     "ipaddress",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
+  "id": "franzininho_wifi_wrover",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "framebufferio",
+     "frequencyio",
+     "gamepad",
+     "ipaddress",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -8443,7 +9036,7 @@
   "versions": []
  },
  {
-  "downloads": 118,
+  "downloads": 0,
   "id": "gemma_m0",
   "versions": [
    {
@@ -8497,20 +9090,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -8536,12 +9130,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 139,
+  "downloads": 0,
   "id": "gemma_m0_pycon2018",
   "versions": [
    {
@@ -8573,29 +9167,52 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
-    "modules": "[]",
+    "modules": [
+     "analogio",
+     "board",
+     "busio",
+     "digitalio",
+     "math",
+     "microcontroller",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "rotaryio",
+     "rtc",
+     "storage",
+     "struct",
+     "supervisor",
+     "time",
+     "touchio",
+     "usb_hid",
+     "usb_midi"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 143,
+  "downloads": 0,
   "id": "grandcentral_m4_express",
   "versions": [
    {
@@ -8672,20 +9289,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -8739,12 +9357,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 147,
+  "downloads": 0,
   "id": "hallowing_m0_express",
   "versions": [
    {
@@ -8802,20 +9420,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -8848,12 +9467,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 124,
+  "downloads": 0,
   "id": "hallowing_m4_express",
   "versions": [
    {
@@ -8929,20 +9548,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -8995,12 +9615,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 119,
+  "downloads": 0,
   "id": "hiibot_bluefi",
   "versions": [
    {
@@ -9074,20 +9694,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -9138,12 +9759,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 88,
+  "downloads": 0,
   "id": "ikigaisense_vita",
   "versions": [
    {
@@ -9217,20 +9838,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -9281,12 +9903,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 21,
+  "downloads": 0,
   "id": "imxrt1010_evk",
   "versions": [
    {
@@ -9351,20 +9973,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -9401,15 +10024,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 29,
+  "downloads": 0,
   "id": "imxrt1020_evk",
   "versions": [
    {
@@ -9474,20 +10098,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -9524,15 +10149,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 17,
+  "downloads": 0,
   "id": "imxrt1060_evk",
   "versions": [
    {
@@ -9597,20 +10223,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -9647,15 +10274,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 148,
+  "downloads": 0,
   "id": "itsybitsy_m0_express",
   "versions": [
    {
@@ -9714,20 +10342,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -9760,12 +10389,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 106,
+  "downloads": 0,
   "id": "itsybitsy_m4_express",
   "versions": [
    {
@@ -9840,20 +10469,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -9905,12 +10535,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 146,
+  "downloads": 0,
   "id": "itsybitsy_nrf52840_express",
   "versions": [
    {
@@ -9984,20 +10614,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -10048,12 +10679,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 20,
+  "downloads": 0,
   "id": "kicksat-sprite",
   "versions": [
    {
@@ -10118,20 +10749,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -10172,12 +10804,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "lilygo_ttgo_t8_s2_st7789",
   "versions": [
    {
@@ -10186,20 +10818,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -10254,12 +10887,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 0,
   "id": "loc_ber_m4_base_board",
   "versions": [
    {
@@ -10314,20 +10947,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -10354,12 +10988,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 95,
+  "downloads": 0,
   "id": "makerdiary_m60_keyboard",
   "versions": [
    {
@@ -10433,20 +11067,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -10497,12 +11132,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 94,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_m2_devkit",
   "versions": [
    {
@@ -10576,20 +11211,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -10640,12 +11276,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 84,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_mdk",
   "versions": [
    {
@@ -10719,20 +11355,21 @@
      "hex"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -10783,12 +11420,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_mdk_usb_dongle",
   "versions": [
    {
@@ -10864,20 +11501,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -10928,12 +11566,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 177,
+  "downloads": 0,
   "id": "matrixportal_m4",
   "versions": [
    {
@@ -11009,20 +11647,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -11075,12 +11714,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 138,
+  "downloads": 0,
   "id": "meowbit_v121",
   "versions": [
    {
@@ -11140,20 +11779,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -11190,12 +11830,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 107,
+  "downloads": 0,
   "id": "meowmeow",
   "versions": [
    {
@@ -11247,20 +11887,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -11284,12 +11925,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 155,
+  "downloads": 0,
   "id": "metro_m0_express",
   "versions": [
    {
@@ -11350,20 +11991,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -11398,12 +12040,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 137,
+  "downloads": 0,
   "id": "metro_m4_airlift_lite",
   "versions": [
    {
@@ -11479,20 +12121,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -11545,12 +12188,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 136,
+  "downloads": 0,
   "id": "metro_m4_express",
   "versions": [
    {
@@ -11626,20 +12269,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -11692,12 +12336,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 32,
+  "downloads": 0,
   "id": "metro_m7_1011",
   "versions": [
    {
@@ -11762,20 +12406,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -11812,15 +12457,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "metro_nrf52840_express",
   "versions": [
    {
@@ -11894,20 +12540,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -11958,12 +12605,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 35,
+  "downloads": 0,
   "id": "microdev_micro_s2",
   "versions": [
    {
@@ -12043,20 +12690,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -12111,12 +12759,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 115,
+  "downloads": 0,
   "id": "mini_sam_m4",
   "versions": [
    {
@@ -12191,20 +12839,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -12256,12 +12905,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 153,
+  "downloads": 0,
   "id": "monster_m4sk",
   "versions": [
    {
@@ -12337,20 +12986,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -12403,12 +13053,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 60,
+  "downloads": 0,
   "id": "muselab_nanoesp32_s2",
   "versions": [
    {
@@ -12488,20 +13138,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -12556,12 +13207,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 0,
   "id": "ndgarage_ndbit6",
   "versions": [
    {
@@ -12615,20 +13266,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -12654,12 +13306,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 0,
   "id": "ndgarage_ndbit6_v2",
   "versions": [
    {
@@ -12713,20 +13365,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -12752,7 +13405,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -12805,20 +13458,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -12838,12 +13492,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 115,
+  "downloads": 0,
   "id": "nfc_copy_cat",
   "versions": [
    {
@@ -12897,20 +13551,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -12936,12 +13591,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 117,
+  "downloads": 0,
   "id": "nice_nano",
   "versions": [
    {
@@ -13015,20 +13670,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -13079,12 +13735,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 12,
+  "downloads": 0,
   "id": "nucleo_f746zg",
   "versions": [
    {
@@ -13143,20 +13799,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -13192,12 +13849,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 15,
+  "downloads": 0,
   "id": "nucleo_f767zi",
   "versions": [
    {
@@ -13256,20 +13913,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -13305,12 +13963,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 0,
   "id": "nucleo_h743zi_2",
   "versions": [
    {
@@ -13367,20 +14025,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -13414,12 +14073,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 80,
+  "downloads": 0,
   "id": "ohs2020_badge",
   "versions": [
    {
@@ -13493,20 +14152,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -13557,12 +14217,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 190,
+  "downloads": 0,
   "id": "openbook_m4",
   "versions": [
    {
@@ -13639,20 +14299,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -13706,12 +14367,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 13,
+  "downloads": 0,
   "id": "openmv_h7",
   "versions": [
    {
@@ -13768,20 +14429,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -13815,12 +14477,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 125,
+  "downloads": 0,
   "id": "particle_argon",
   "versions": [
    {
@@ -13894,20 +14556,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -13958,12 +14621,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 96,
+  "downloads": 0,
   "id": "particle_boron",
   "versions": [
    {
@@ -14037,20 +14700,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -14101,12 +14765,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 109,
+  "downloads": 0,
   "id": "particle_xenon",
   "versions": [
    {
@@ -14180,20 +14844,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -14244,7 +14909,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -14254,7 +14919,7 @@
   "versions": []
  },
  {
-  "downloads": 44,
+  "downloads": 0,
   "id": "pca10056",
   "versions": [
    {
@@ -14330,20 +14995,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -14394,12 +15060,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 57,
+  "downloads": 0,
   "id": "pca10059",
   "versions": [
    {
@@ -14475,20 +15141,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -14539,12 +15206,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 116,
+  "downloads": 0,
   "id": "pca10100",
   "versions": [
    {
@@ -14601,20 +15268,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -14647,12 +15315,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 83,
+  "downloads": 0,
   "id": "pewpew10",
   "versions": [
    {
@@ -14704,20 +15372,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pew",
@@ -14741,12 +15410,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 0,
   "id": "pewpew13",
   "versions": [
    {
@@ -14778,29 +15447,50 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
-    "modules": "[]",
+    "modules": [
+     "_pew",
+     "analogio",
+     "board",
+     "busio",
+     "digitalio",
+     "math",
+     "microcontroller",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "storage",
+     "struct",
+     "supervisor",
+     "time",
+     "touchio",
+     "usb_hid"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 99,
+  "downloads": 0,
   "id": "pewpew_m4",
   "versions": [
    {
@@ -14855,20 +15545,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_stage",
@@ -14895,12 +15586,12 @@
      "time"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 0,
   "id": "picoplanet",
   "versions": [
    {
@@ -14954,20 +15645,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -14993,12 +15685,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 23,
+  "downloads": 0,
   "id": "pimoroni_keybow2040",
   "versions": [
    {
@@ -15006,20 +15698,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -15027,6 +15720,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "audiomp3",
      "audiopwmio",
      "binascii",
      "bitbangio",
@@ -15047,10 +15741,12 @@
      "neopixel_write",
      "nvm",
      "os",
+     "pulseio",
      "pwmio",
      "random",
      "re",
      "rgbmatrix",
+     "rotaryio",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -15067,12 +15763,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 16,
+  "downloads": 0,
   "id": "pimoroni_picosystem",
   "versions": [
    {
@@ -15080,20 +15776,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -15101,6 +15798,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "audiomp3",
      "audiopwmio",
      "binascii",
      "bitbangio",
@@ -15121,10 +15819,12 @@
      "neopixel_write",
      "nvm",
      "os",
+     "pulseio",
      "pwmio",
      "random",
      "re",
      "rgbmatrix",
+     "rotaryio",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -15141,12 +15841,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 55,
+  "downloads": 0,
   "id": "pimoroni_tiny2040",
   "versions": [
    {
@@ -15154,20 +15854,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -15175,6 +15876,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "audiomp3",
      "audiopwmio",
      "binascii",
      "bitbangio",
@@ -15195,10 +15897,12 @@
      "neopixel_write",
      "nvm",
      "os",
+     "pulseio",
      "pwmio",
      "random",
      "re",
      "rgbmatrix",
+     "rotaryio",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -15215,12 +15919,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 90,
+  "downloads": 0,
   "id": "pirkey_m0",
   "versions": [
    {
@@ -15268,20 +15972,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "board",
@@ -15301,12 +16006,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 77,
+  "downloads": 0,
   "id": "pitaya_go",
   "versions": [
    {
@@ -15380,20 +16085,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -15444,12 +16150,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 13,
+  "downloads": 0,
   "id": "pyb_nano_v2",
   "versions": [
    {
@@ -15510,20 +16216,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -15561,12 +16268,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 85,
+  "downloads": 0,
   "id": "pybadge",
   "versions": [
    {
@@ -15644,20 +16351,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -15712,12 +16420,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 119,
+  "downloads": 0,
   "id": "pybadge_airlift",
   "versions": [
    {
@@ -15795,20 +16503,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -15863,12 +16572,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 30,
+  "downloads": 0,
   "id": "pyboard_v11",
   "versions": [
    {
@@ -15932,20 +16641,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -15986,12 +16696,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 114,
+  "downloads": 0,
   "id": "pycubed",
   "versions": [
    {
@@ -16058,20 +16768,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -16114,12 +16825,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 23,
+  "downloads": 0,
   "id": "pycubed_mram",
   "versions": [
    {
@@ -16186,20 +16897,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -16242,12 +16954,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 81,
+  "downloads": 0,
   "id": "pygamer",
   "versions": [
    {
@@ -16325,20 +17037,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -16393,12 +17106,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 68,
+  "downloads": 0,
   "id": "pygamer_advance",
   "versions": [
    {
@@ -16476,20 +17189,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -16544,12 +17258,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 142,
+  "downloads": 0,
   "id": "pyportal",
   "versions": [
    {
@@ -16625,20 +17339,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -16691,12 +17406,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 65,
+  "downloads": 0,
   "id": "pyportal_pynt",
   "versions": [
    {
@@ -16728,29 +17443,79 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
-    "modules": "[]",
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audioio",
+     "audiomixer",
+     "audiomp3",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "frequencyio",
+     "gamepad",
+     "i2cperipheral",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio"
+    ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 168,
+  "downloads": 0,
   "id": "pyportal_titano",
   "versions": [
    {
@@ -16826,20 +17591,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -16892,12 +17658,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 90,
+  "downloads": 0,
   "id": "pyruler",
   "versions": [
    {
@@ -16950,20 +17716,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -16988,12 +17755,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 158,
+  "downloads": 0,
   "id": "qtpy_m0",
   "versions": [
    {
@@ -17047,20 +17814,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -17086,12 +17854,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 135,
+  "downloads": 0,
   "id": "qtpy_m0_haxpress",
   "versions": [
    {
@@ -17152,20 +17920,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -17200,86 +17969,17 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
   "downloads": 0,
   "id": "qtpy_rp2040",
-  "versions": [
-   {
-    "extensions": [
-     "uf2"
-    ],
-    "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
-     "en_US",
-     "ja",
-     "pl",
-     "de_DE"
-    ],
-    "modules": [
-     "_bleio",
-     "_pixelbuf",
-     "analogio",
-     "audiobusio",
-     "audiocore",
-     "audiopwmio",
-     "binascii",
-     "bitbangio",
-     "bitmaptools",
-     "bitops",
-     "board",
-     "busio",
-     "countio",
-     "digitalio",
-     "displayio",
-     "errno",
-     "framebufferio",
-     "gamepad",
-     "json",
-     "math",
-     "microcontroller",
-     "msgpack",
-     "neopixel_write",
-     "nvm",
-     "os",
-     "pwmio",
-     "random",
-     "re",
-     "rgbmatrix",
-     "rtc",
-     "sdcardio",
-     "sharpdisplay",
-     "storage",
-     "struct",
-     "supervisor",
-     "terminalio",
-     "time",
-     "touchio",
-     "ulab",
-     "usb_hid",
-     "usb_midi",
-     "vectorio",
-     "watchdog"
-    ],
-    "stable": false,
-    "version": "6.2.0-beta.4"
-   }
-  ]
+  "versions": []
  },
  {
-  "downloads": 480,
+  "downloads": 0,
   "id": "raspberry_pi_pico",
   "versions": [
    {
@@ -17287,20 +17987,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -17308,6 +18009,7 @@
      "analogio",
      "audiobusio",
      "audiocore",
+     "audiomp3",
      "audiopwmio",
      "binascii",
      "bitbangio",
@@ -17328,10 +18030,12 @@
      "neopixel_write",
      "nvm",
      "os",
+     "pulseio",
      "pwmio",
      "random",
      "re",
      "rgbmatrix",
+     "rotaryio",
      "rtc",
      "sdcardio",
      "sharpdisplay",
@@ -17348,12 +18052,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 125,
+  "downloads": 0,
   "id": "raytac_mdbt50q-db-40",
   "versions": [
    {
@@ -17427,20 +18131,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -17491,12 +18196,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 104,
+  "downloads": 0,
   "id": "robohatmm1_m4",
   "versions": [
    {
@@ -17564,20 +18269,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -17621,12 +18327,58 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 86,
+  "downloads": 0,
+  "id": "rotary_trinkey_m0",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_pixelbuf",
+     "board",
+     "digitalio",
+     "microcontroller",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "random",
+     "rotaryio",
+     "struct",
+     "supervisor",
+     "time",
+     "usb_hid",
+     "usb_midi"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "sam32",
   "versions": [
    {
@@ -17702,20 +18454,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -17768,12 +18521,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 111,
+  "downloads": 0,
   "id": "same54_xplained",
   "versions": [
    {
@@ -17849,20 +18602,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -17915,12 +18669,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 0,
   "id": "seeeduino_wio_terminal",
   "versions": [
    {
@@ -17996,20 +18750,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -18062,12 +18817,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 214,
+  "downloads": 0,
   "id": "seeeduino_xiao",
   "versions": [
    {
@@ -18121,20 +18876,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -18160,12 +18916,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 118,
+  "downloads": 0,
   "id": "serpente",
   "versions": [
    {
@@ -18229,20 +18985,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -18280,12 +19037,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 80,
+  "downloads": 0,
   "id": "shirtty",
   "versions": [
    {
@@ -18339,20 +19096,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -18378,12 +19136,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 0,
   "id": "silicognition-m4-shim",
   "versions": [
    {
@@ -18391,20 +19149,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -18457,12 +19216,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 117,
+  "downloads": 0,
   "id": "simmel",
   "versions": [
    {
@@ -18520,20 +19279,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -18565,12 +19325,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 133,
+  "downloads": 0,
   "id": "snekboard",
   "versions": [
    {
@@ -18631,20 +19391,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -18679,12 +19440,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 0,
   "id": "sparkfun_lumidrive",
   "versions": [
    {
@@ -18746,20 +19507,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -18795,12 +19557,90 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 98,
+  "downloads": 0,
+  "id": "sparkfun_nrf52840_micromod",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "aesio",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "gamepad",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "sparkfun_nrf52840_mini",
   "versions": [
    {
@@ -18874,20 +19714,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -18938,12 +19779,90 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 100,
+  "downloads": 0,
+  "id": "sparkfun_pro_micro_rp2040",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "bitops",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "gamepad",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "sparkfun_qwiic_micro_no_flash",
   "versions": [
    {
@@ -18997,20 +19916,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -19036,12 +19956,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 89,
+  "downloads": 0,
   "id": "sparkfun_qwiic_micro_with_flash",
   "versions": [
    {
@@ -19095,20 +20015,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -19134,12 +20055,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 97,
+  "downloads": 0,
   "id": "sparkfun_redboard_turbo",
   "versions": [
    {
@@ -19199,20 +20120,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -19246,12 +20168,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 86,
+  "downloads": 0,
   "id": "sparkfun_samd21_dev",
   "versions": [
    {
@@ -19305,20 +20227,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -19344,12 +20267,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 123,
+  "downloads": 0,
   "id": "sparkfun_samd21_mini",
   "versions": [
    {
@@ -19403,20 +20326,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -19442,12 +20366,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 91,
+  "downloads": 0,
   "id": "sparkfun_samd51_thing_plus",
   "versions": [
    {
@@ -19523,20 +20447,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -19589,12 +20514,90 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 94,
+  "downloads": 0,
+  "id": "sparkfun_thing_plus_rp2040",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "_pixelbuf",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "bitops",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "framebufferio",
+     "gamepad",
+     "json",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "terminalio",
+     "time",
+     "touchio",
+     "ulab",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "6.2.0-rc.0"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "spresense",
   "versions": [
    {
@@ -19626,20 +20629,21 @@
      "spk"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -19671,7 +20675,7 @@
      "ulab"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -19737,20 +20741,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -19785,12 +20790,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 105,
+  "downloads": 0,
   "id": "stm32f411ce_blackpill",
   "versions": [
    {
@@ -19851,20 +20856,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -19902,12 +20908,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 0,
   "id": "stm32f411ce_blackpill_with_flash",
   "versions": [
    {
@@ -19915,20 +20921,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -19966,12 +20973,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 0,
   "id": "stm32f411ve_discovery",
   "versions": [
    {
@@ -20032,20 +21039,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -20083,12 +21091,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 0,
   "id": "stm32f412zg_discovery",
   "versions": [
    {
@@ -20150,20 +21158,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -20201,12 +21210,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 24,
+  "downloads": 0,
   "id": "stm32f4_discovery",
   "versions": [
    {
@@ -20267,20 +21276,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -20291,6 +21301,7 @@
      "bitmaptools",
      "board",
      "busio",
+     "canio",
      "digitalio",
      "displayio",
      "errno",
@@ -20307,6 +21318,7 @@
      "random",
      "re",
      "sdcardio",
+     "sdioio",
      "sharpdisplay",
      "storage",
      "struct",
@@ -20318,12 +21330,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 21,
+  "downloads": 0,
   "id": "stm32f746g_discovery",
   "versions": [
    {
@@ -20382,20 +21394,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -20431,12 +21444,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 123,
+  "downloads": 0,
   "id": "stringcar_m0_express",
   "versions": [
    {
@@ -20496,20 +21509,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -20543,12 +21557,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 43,
+  "downloads": 0,
   "id": "targett_module_clip_wroom",
   "versions": [
    {
@@ -20628,20 +21642,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -20696,12 +21711,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 41,
+  "downloads": 0,
   "id": "targett_module_clip_wrover",
   "versions": [
    {
@@ -20781,20 +21796,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -20849,12 +21865,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 95,
+  "downloads": 0,
   "id": "teensy40",
   "versions": [
    {
@@ -20919,20 +21935,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -20969,15 +21986,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 93,
+  "downloads": 0,
   "id": "teensy41",
   "versions": [
    {
@@ -21042,20 +22060,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -21092,15 +22111,16 @@
      "touchio",
      "ulab",
      "usb_hid",
+     "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 75,
+  "downloads": 0,
   "id": "teknikio_bluebird",
   "versions": [
    {
@@ -21174,20 +22194,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -21238,7 +22259,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -21308,20 +22329,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -21358,7 +22380,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -21424,20 +22446,21 @@
      "bin"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -21475,12 +22498,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 143,
+  "downloads": 0,
   "id": "tinkeringtech_scoutmakes_azul",
   "versions": [
    {
@@ -21554,20 +22577,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -21618,12 +22642,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 0,
   "id": "trellis_m4_express",
   "versions": [
    {
@@ -21698,20 +22722,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -21763,12 +22788,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 188,
+  "downloads": 0,
   "id": "trinket_m0",
   "versions": [
    {
@@ -21822,20 +22847,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -21861,12 +22887,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 23,
+  "downloads": 0,
   "id": "trinket_m0_haxpress",
   "versions": [
    {
@@ -21927,20 +22953,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -21975,12 +23002,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 68,
+  "downloads": 0,
   "id": "uartlogger2",
   "versions": [
    {
@@ -22056,20 +23083,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -22122,12 +23150,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 19,
+  "downloads": 0,
   "id": "uchip",
   "versions": [
    {
@@ -22183,20 +23211,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "analogio",
@@ -22222,12 +23251,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 70,
+  "downloads": 0,
   "id": "ugame10",
   "versions": [
    {
@@ -22285,20 +23314,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_stage",
@@ -22328,12 +23358,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 107,
+  "downloads": 0,
   "id": "unexpectedmaker_feathers2",
   "versions": [
    {
@@ -22413,20 +23443,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -22481,12 +23512,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 20,
+  "downloads": 0,
   "id": "unexpectedmaker_feathers2_prerelease",
   "versions": [
    {
@@ -22566,20 +23597,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -22634,7 +23666,7 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
@@ -22648,20 +23680,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_bleio",
@@ -22716,12 +23749,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 40,
+  "downloads": 0,
   "id": "winterbloom_big_honking_button",
   "versions": [
    {
@@ -22776,20 +23809,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -22818,12 +23852,12 @@
      "time"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 60,
+  "downloads": 0,
   "id": "winterbloom_sol",
   "versions": [
    {
@@ -22882,20 +23916,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "_pixelbuf",
@@ -22930,12 +23965,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 0,
   "id": "xinabox_cc03",
   "versions": [
    {
@@ -22983,20 +24018,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "board",
@@ -23016,12 +24052,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  },
  {
-  "downloads": 75,
+  "downloads": 0,
   "id": "xinabox_cs11",
   "versions": [
    {
@@ -23067,20 +24103,21 @@
      "uf2"
     ],
     "languages": [
-     "fil",
-     "it_IT",
-     "fr",
-     "en_x_pirate",
-     "ID",
-     "es",
-     "zh_Latn_pinyin",
-     "nl",
-     "sv",
-     "pt_BR",
+     "de_DE",
+     "en_GB",
      "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
      "ja",
+     "nl",
      "pl",
-     "de_DE"
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
     ],
     "modules": [
      "board",
@@ -23098,7 +24135,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "6.2.0-beta.4"
+    "version": "6.2.0-rc.0"
    }
   ]
  }
