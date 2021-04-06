@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "unknown"
+board_id: "ADM_B_NRF52840_1"
 title: "Unknown Board Download"
 name: "Unknown Board"
 manufacturer: "Unknown"
