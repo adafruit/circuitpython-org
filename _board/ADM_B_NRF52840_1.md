@@ -1,9 +1,9 @@
 ---
 layout: download
-board_id: "unknown"
-title: "Unknown Board Download"
-name: "Unknown Board"
-manufacturer: "Unknown"
+board_id: "ADM_B_NRF52840_1"
+title: "ADM 52480 board for Holyiot_18010 module Download"
+name: "ADM 52480 board for Holyiot_18010 module"
+manufacturer: "AtelierDuMaker"
 board_url: ""
 board_image: "unknown.jpg"
 downloads_display: false

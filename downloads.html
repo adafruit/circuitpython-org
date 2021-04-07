@@ -70,6 +70,9 @@ permalink: /downloads
       {% for board in site.board %}
         {% assign info = site.data.files | where: 'id', board.board_id | first %}
         {% if info == nil and board.board_id != 'unknown' %}
+          {% if board.downloads_display == false %}
+            {% continue %}
+          {% endif %}
           {% assign board_count = board_count | plus: 1 %}
         {% endif %}
       {% endfor %}
@@ -119,6 +122,9 @@ permalink: /downloads
     {% for board in site.board %}
       {% assign info = site.data.files | where: 'id', board.board_id | first %}
       {% if info == nil and board.board_id != 'unknown' %}
+        {% if board.downloads_display == false %}
+          {% continue %}
+        {% endif %}
         <div class="download" data-id="{{ board.board_id }}"
                               data-name="{{ board.name }}"
                               data-downloads="0"
