@@ -2,7 +2,7 @@
 layout: download
 board_id: "adafruit_feather_esp32s2_tftback_nopsram"
 title: "Feather ESP32-S2 with TFT Download"
-name: "Feather ESP32-S2 with TFT "
+name: "Feather ESP32-S2 with TFT"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "adafruit_feather_esp32s2_tftback_nopsram.jpg"
