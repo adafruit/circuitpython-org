@@ -220,7 +220,7 @@ function setupFilterListeners() {
           removeFilterTag('feature', checkbox.value);
         }
       }
-      setURL('features', downloadsSearch.selected.manufacturers);
+      setURL('features', downloadsSearch.selected.features);
       filterResults();
     }
   });
