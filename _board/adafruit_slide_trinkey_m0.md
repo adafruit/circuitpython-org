@@ -1,12 +1,12 @@
 ---
 layout: download
-board_id: "rotary_trinkey_m0"
-title: "Rotary Trinkey - SAMD21 Download"
-name: "Rotary Trinkey - SAMD21"
+board_id: "adafruit_slide_trinkey_m0"
+title: "Slide Trinkey - SAMD21 Download"
+name: "Slide Trinkey - SAMD21"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "rotary_trinkey_m0.jpg"
-date_added: 2021-4-6
+board_image: "adafruit_slide_trinkey_m0.jpg"
+date_added: 2021-4-14
 features:
 
 ---
@@ -15,7 +15,7 @@ Coming Soon!
 
 ## Learn More
 
-* [YouTube](https://youtu.be/jk4j2jGonpU)
+* [YouTube](https://youtu.be/hDlh4BuvJ-g)
 
 ## Contribute
 
