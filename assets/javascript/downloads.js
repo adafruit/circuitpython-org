@@ -12,6 +12,7 @@ var downloadsSearch = {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('here')
   document.getElementById("search").addEventListener('keyup', handleSearch);
   document.querySelector(".downloads-filter .filter").addEventListener('click', handleFilter);
   document.querySelector(".filter-buttons .save-changes").addEventListener('click', handleSaveChanges);
@@ -141,7 +142,12 @@ function setupManufacturers(downloads) {
 
   var manufacturerList = document.querySelector('.manufacturers .content');
 
-  for (manufacturer in downloadsSearch.manufacturers) {
+  // build an alpha sorted array of manufacturer names
+  var manufacturers = Object.keys(downloadsSearch.manufacturers).sort(function(a, b) {
+    return a.localeCompare(b, 'en', {'sensitivity': 'base'});
+  });
+
+  manufacturers.forEach(function(manufacturer) {
     var li = document.createElement("li");
     var checkbox = document.createElement('input');
     checkbox.type = "checkbox";
@@ -153,7 +159,7 @@ function setupManufacturers(downloads) {
     li.appendChild(document.createTextNode(manufacturer));
 
     manufacturerList.appendChild(li);
-  }
+  });
 }
 
 function setupFeatures(downloads) {
@@ -174,7 +180,11 @@ function setupFeatures(downloads) {
 
   var featureList = document.querySelector('.features .content');
 
-  for (feature in downloadsSearch.features) {
+  var features = Object.keys(downloadsSearch.features).sort(function(a, b) {
+    return a.localeCompare(b, 'en', {'sensitivity': 'base'});
+  });
+
+  features.forEach(function(feature) {
     var li = document.createElement("li");
     var checkbox = document.createElement('input');
     checkbox.type = "checkbox";
@@ -186,7 +196,7 @@ function setupFeatures(downloads) {
     li.appendChild(document.createTextNode(feature));
 
     featureList.appendChild(li);
-  }
+  });
 }
 
 function setupFilterListeners() {
