@@ -12,7 +12,6 @@ var downloadsSearch = {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('here')
   document.getElementById("search").addEventListener('keyup', handleSearch);
   document.querySelector(".downloads-filter .filter").addEventListener('click', handleFilter);
   document.querySelector(".filter-buttons .save-changes").addEventListener('click', handleSaveChanges);
