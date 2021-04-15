@@ -21,7 +21,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
-  gem "jekyll-get-json", "~> 0.0.1"
+  gem "jekyll-get-json", "~> 1"
 end
 
 group :development do
