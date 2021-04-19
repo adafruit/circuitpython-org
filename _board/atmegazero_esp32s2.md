@@ -9,7 +9,6 @@ board_image: "atmegazero_esp32s2.jpg"
 date_added: 2021-4-19
 features:
   - Wi-Fi
-  - SD Card
 ---
 
 ** COMING SOON! **
