@@ -29,7 +29,7 @@ Introducing the new ATMegaZero ESP32-S2
 * [ATMegaZero Official Website](https://www.atmegazero.com)
 
 ## Purchase
-* [ATMegaZero Store](https://shop.atmegazero.com)
+* [Pre-Order on GroupGets.com](https://groupgets.com/campaigns/936-atmegazero-esp32-s2)
 
 ## Contribute
 
