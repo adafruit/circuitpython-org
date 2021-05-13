@@ -9,7 +9,7 @@
                {{ "/assets/images/boards/large/" | append: include.board_image | relative_url }} 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="{{ "/assets/images/boards/original/" | append: include.board_image | relative_url }}" alt="Image of Board">
+       src="{{ "/assets/images/boards/original/" | append: include.board_image | relative_url }}" alt="Image of Board" loading="lazy">
 {% else %}
-  <img src="{{ "/assets/images/boards/original/" | append: include.board_image | relative_url }}" alt="Image of Board">
+  <img src="{{ "/assets/images/boards/original/" | append: include.board_image | relative_url }}" alt="Image of Board" loading="lazy">
 {% endif %}

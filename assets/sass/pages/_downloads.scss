@@ -60,14 +60,15 @@
         display: inline-block;
         padding: 12px;
         font-size: 24px;
+        color: #fff;
         background-color: $purple;
         float: left;
         border-radius: 5px;
         border: none;
         cursor: pointer;
 
-        i {
-          color: #fff;
+        &:hover {
+          background-color: darken($purple, 15%);
         }
       }
     }
@@ -152,6 +153,10 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
+
+        &:hover {
+          background-color: darken($purple, 15%);
+        }
       }
     }
   }
