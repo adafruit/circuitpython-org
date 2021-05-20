@@ -45,6 +45,7 @@ You can find out more about the FeatherS2 at [feathers2.io](https://feathers2.io
 You can purchase your very own FeatherS2 from:
 * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
 * [Adafruit](https://www.adafruit.com/product/4769)
+* [Pimoroni](https://shop.pimoroni.com/products/feathers2-esp32-s2)
 
 ## Contribute
 
