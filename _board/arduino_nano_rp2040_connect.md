@@ -10,7 +10,7 @@ date_added: 2021-5-24
 features:
     Wi-Fi
     Bluetooth/BTLE
- ---
+---
 
 Meet the only connected RP2040 board. It fits the Arduino Nano form factor, making it a small board with BIG features.
 
