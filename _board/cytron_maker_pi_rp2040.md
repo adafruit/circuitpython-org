@@ -12,7 +12,7 @@ features:
   - Robotics
 ---
 
-##Simplifying Robotics with Raspberry Pi® RP2040
+## Simplifying Robotics with Raspberry Pi® RP2040
 
 Cytron Maker Pi RP2040 features the first microcontroller designed by Raspberry Pi - RP2040, embedded on a robot controller board. The board also comes with 2-channel DC motor driver, 4 servo motor ports and 7 Grove I/O connectors, ready for your next DIY robot / motion control projects. Now you can build a robot, while trying out the new RP2040 chip.
 
@@ -50,7 +50,7 @@ While connected to your computer, a new CIRCUITPY drive appears. Explore and edi
   - 4x 4.8mm mounting hole (LEGO® pin compatible)
   - 6x M3 screw hole
 
-##Resources:
+## Resources:
 - [Getting Started with Maker Pi RP2040 & Example Code](https://github.com/CytronTechnologies/MAKER-PI-RP2040)
 - [Maker Pi RP2040 Datasheet](https://docs.google.com/document/d/1DJASwxgbattM37V4AIlJVR4pxukq0up25LppA8-z_AY/edit)
 
