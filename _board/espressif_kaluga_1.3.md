@@ -6,7 +6,7 @@ name: "ESP32-S2 Kaluga Dev Kit (v1.3) featuring WROVER"
 manufacturer: "Espressif"
 board_url: "https://www.adafruit.com/product/4729"
 board_image: "espressif_kaluga_1.jpg"
-date_added: 2020-08-30
+date_added: 2021-06-09
 features:
   - Wi-Fi
 ---
