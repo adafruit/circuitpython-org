@@ -1,19 +1,19 @@
 ---
 layout: download
-board_id: "espressif_kaluga_1"
-title: "ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER Download"
-name: "ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER"
+board_id: "espressif_kaluga_1.3"
+title: "ESP32-S2 Kaluga Dev Kit (v1.3) featuring WROVER Download"
+name: "ESP32-S2 Kaluga Dev Kit (v1.3) featuring WROVER"
 manufacturer: "Espressif"
 board_url: "https://www.adafruit.com/product/4729"
 board_image: "espressif_kaluga_1.jpg"
-date_added: 2020-08-30
+date_added: 2021-06-09
 features:
   - Wi-Fi
 ---
 
-The **ESP32-S2-Kaluga-1** version 1.2 kit is a full featured development kit by Espressif for the ESP32-S2 that comes with everything but the kitchen sink! From TFTs to touch panels, this dev board has it all. Espressif designed this kit to demonstrate the ESP32-S2’s human-computer interaction functionalities and provide the users with the tools for development of human-computer interaction applications based on their new WiFi modules with the ESP32-S2 chip
+The **ESP32-S2-Kaluga-1** version 1.3 kit is a full featured development kit by Espressif for the ESP32-S2 that comes with everything but the kitchen sink! From TFTs to touch panels, this dev board has it all. Espressif designed this kit to demonstrate the ESP32-S2’s human-computer interaction functionalities and provide the users with the tools for development of human-computer interaction applications based on their new WiFi modules with the ESP32-S2 chip
 
-A newer version, 1.3, was released starting in Summer 2020, and [also has a CircuitPython port](/board/espressif_kaluga_1.3/).  The pinouts are slightly different between the two vesions.  You can tell which version you have by the silkscreen on the bottom of the main board.
+Version 1.3 was released starting in Summer 2020.  The original version, 1.2, [also has a CircuitPython port](/board/espressif_kaluga_1/).  The pinouts are slightly different between the two vesions.  You can tell which version you have by the silkscreen on the bottom of the main board.
 
 The Kaluga comes with a WROVER module, which has 2 MB (8 Mbit) PSRAM mounted for a roomy development environment!
 
