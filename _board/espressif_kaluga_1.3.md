@@ -15,7 +15,7 @@ The **ESP32-S2-Kaluga-1** version 1.3 kit is a full featured development kit by 
 
 Version 1.3 was released starting in Summer 2020.  The original version, 1.2, [also has a CircuitPython port](/board/espressif_kaluga_1/).  The pinouts are slightly different between the two versions.  You can tell which version you have by the silkscreen on the bottom of the main board.
 
-The Kaluga comes with a WROVER module, which has 2 MB (8 Mbit) PSRAM mounted for a roomy development environment!
+The Kaluga comes with a WROVER module, which has 2 MB (16 Mbit) PSRAM mounted for a roomy development environment!
 
 The micro USB connector on the Kaluga is wired through a CP210x USB to serial converter chip for debugging and programming. The native USB is not available on a USB connector - instead you'll want to pick up a [Micro B USB](https://www.adafruit.com/product/1833) connector breakout, [Type C USB](https://www.adafruit.com/product/4090) connector breakout or [USB data cable](https://www.adafruit.com/product/4448) and hand-wire D19/D20 to D- and D+ pads.
 
