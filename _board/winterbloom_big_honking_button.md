@@ -15,7 +15,7 @@ Winterbloom Big Honking Button is a modular synthesizer (Eurorack) module. It is
 
 ## Purchase
 
-Sol is available for purchase on [Winterbloom.com](https://winterbloom.com) and several modular synthesizer distributors.
+The BHB is available for purchase on [Winterbloom.com](https://winterbloom.com) and several modular synthesizer distributors.
 
 ## Contribute
 
