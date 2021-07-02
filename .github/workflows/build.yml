@@ -40,18 +40,8 @@ jobs:
     - name: Build site with jekyll
       run: |
         bundle exec jekyll build -d build
-    - name: Commit and Push to gh-pages
-      run: |
-        # https://github.com/helaili/jekyll-action/blob/master/entrypoint.sh#L49
-        cd build
-        touch .nojekyll
-        git init
-        git config user.name "${GITHUB_ACTOR}"
-        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git add .
-        git commit -m 'jekyll build from Action'
-        git push --force https://${ADABOT_PAT}@github.com/${GITHUB_REPOSITORY}.git HEAD:gh-pages
-        rm -fr .git
-        cd ..
-      env:
-        ADABOT_PAT: ${{ secrets.ADABOT_PAT }}
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
