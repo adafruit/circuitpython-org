@@ -23,6 +23,8 @@ features:
   - Robotics
   - LoRa/Radio
   - GPS
+  - STEMMA QT/QWIIC
+  - USB-C
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

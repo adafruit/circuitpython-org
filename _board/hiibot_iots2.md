@@ -12,6 +12,7 @@ features:
   - Wi-Fi
   - Battery Charging
   - STEMMA QT/QWIIC
+  - USB-C
 ---
 
 Introducing the microS2 - An ESP32-S2 based development board with smaller size (25.4*45.9mm). Features:

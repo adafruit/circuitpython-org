@@ -7,6 +7,9 @@ manufacturer: "Nice Keyboards"
 board_url: "https://docs.nicekeyboards.com/#/nice!nano/"
 board_image: "nice_nano.jpg"
 date_added: 2020-06-05
+
+features: 
+  - USB-C
 ---
 
 ## Learn More

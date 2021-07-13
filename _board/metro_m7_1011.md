@@ -10,6 +10,7 @@ date_added: 2020-10-16
 features:
   - Wi-Fi
   - STEMMA QT/QWIIC
+  - USB-C
 ---
 
 Watch Adafruit's Ask an Engineer on YouTube to learn more. 

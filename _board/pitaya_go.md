@@ -9,6 +9,7 @@ board_image: "pitaya_go.jpg"
 date_added: 2019-05-11
 features:
   - Bluetooth/BTLE
+  - USB-C
 ---
 
 BLE and Wifi board in a small for factor.

@@ -11,6 +11,7 @@ features:
   - Display
   - Speaker
   - Wi-Fi
+  - USB-C
 ---
 
 The **PyPortal Titano** is the big sister to our [popular PyPortal](https://www.adafruit.com/product/4116) now with _twice as many pixels!_ The PyPortal is our easy-to-use IoT device that allows you to create all the things for the “Internet of Things” in minutes. Make custom touch screen interface GUIs, all open-source, and Python-powered using tinyJSON / APIs to get news, stock, weather, cat photos, and more – all over Wi-Fi with the latest technologies. Create little pocket universes of joy that connect to something good. Rotate it 90 degrees, it’s a web-connected conference badge #badgelife.

@@ -10,6 +10,7 @@ date_added: 2021-03-20
 features:
   - Battery Charging
   - Wi-Fi
+  - USB-C
 ---
 
 Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!

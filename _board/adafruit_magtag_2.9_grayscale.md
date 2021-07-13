@@ -13,6 +13,7 @@ features:
   - STEMMA QT/QWIIC
   - Speaker
   - Display
+  - USB-C
 ---
 
 The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9" grayscale E-Ink display to make a low-power IoT display that can show data on its screen even when power is removed! The ESP32-S2 is great because it builds on the years of code and support for the ESP32 and also adds native USB support so you can use this board with Arduino _or_ CircuitPython!

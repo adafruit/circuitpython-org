@@ -12,6 +12,7 @@ features:
   - Battery Charging
   - Bluetooth/BTLE
   - Display
+  - USB-C
 ---
 
 The **ScoutMakes Azul** is an open source Bluetooth (BLE) development platform featuring the nRF52840 (32bit ARM Cortex-M4 processor) from Nordic semiconductors enabling excellent Bluetooth development capabilities for your project. It conforms to the Adafruit feather format, runs CircuitPython, Arduino. The platform also has native USB support.
