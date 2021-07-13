@@ -12,6 +12,7 @@ features:
   - Battery Charging
   - Wi-Fi
   - STEMMA QT/QWIIC
+  - USB-C
 ---
 
 Pre-Release version of the FeatherS2

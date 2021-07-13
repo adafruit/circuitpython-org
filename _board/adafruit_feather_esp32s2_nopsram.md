@@ -8,7 +8,7 @@ board_url: ""
 board_image: "adafruit_feather_esp32s2_nopsram.jpg"
 date_added: 2021-4-6
 features:
-
+  - USB-C
 ---
 
 Coming Soon!

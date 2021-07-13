@@ -12,6 +12,7 @@ features:
   - Battery Charging
   - Wi-Fi
   - STEMMA QT/QWIIC
+  - USB-C
 ---
 
 Introducing the FeatherS2 - The PRO ESP32-S2 based development board in a Feather format!

@@ -10,6 +10,7 @@ date_added: 2020-1-8
 features:
   - Feather-Compatible
   - Battery Charging
+  - USB-C
 
 ---
 

@@ -8,7 +8,8 @@ board_url: "https://www.seeedstudio.com/Wio-Terminal-p-4509.html"
 board_image: "seeeduino_wio_terminal.jpg"
 date_added: 2020-7-3
 features:
-    Display
+    - Display
+    - USB-C
 ---
 
 Instead of being a single embedded functional module, **Wio Terminal** is more of a complete system equipped with Screen + Development Board + Input/Output Interface + Enclosure. Because it uses the SAMD51, it is compatible with Arduino and CircuitPython - using the same Arduino & CircuitPython core we have developed here at Adafruit!

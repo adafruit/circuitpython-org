@@ -9,6 +9,7 @@ board_image: "metro_nrf52840_express.png"
 date_added: 2019-8-30
 features:
   - Bluetooth/BTLE
+  - USB-C
 ---
 
 The **Adafruit Metro nRF52840 Express** is a new Metro family member with Bluetooth Low Energy and _native USB support_ featuring the nRF52840! 

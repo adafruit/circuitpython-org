@@ -11,6 +11,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - STEMMA QT/QWIIC
+  - USB-C
 ---
 
 Coming Soon!

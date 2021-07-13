@@ -7,6 +7,9 @@ manufacturer: "senseBox"
 board_url: "https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/"
 board_image: "sensebox_mcu.jpg"
 date_added: 2021-4-12
+
+features:
+  - USB-C
 ---
 
 The senseBox-microcontroller (MCU) is specially designed and developed for the [senseBox project](https://sensebox.de/en/). The three main advantages and characteristics of the microcontroller are: expandability, speed, and efficiency.

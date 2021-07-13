@@ -10,6 +10,7 @@ features:
   - Wi-Fi
   - Display 
   - Battery Charging
+  - USB-C
 ---
 
 **Features & Specifications:**

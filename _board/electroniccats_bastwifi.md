@@ -12,6 +12,7 @@ features:
   - Feather-Compatible
   - Wi-Fi
   - Battery Charging
+  - USB-C
 
 ---
 

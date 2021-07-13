@@ -9,6 +9,7 @@ board_image: "pimoroni_picolipo.jpg"
 date_added: 2021-5-12
 features:
   - Battery Charging
+  - USB-C
 ---
 
 A top of the line Pirate-brand RP2040-powered microcontroller with all the extras - lots of flash memory, USB-C, STEMMA QT/Qwiic and debug connectors... and onboard LiPo charging! Pimoroni Pico boards add extra functionality whilst keeping to the Pico footprint, ensuring compatibility with existing Pico addons.

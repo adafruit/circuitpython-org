@@ -9,6 +9,7 @@ board_image: "makerdiary_m60_keyboard.jpg"
 date_added: 2020-07-27
 features:
   - Bluetooth/BTLE
+  - USB-C
   
 ---
 

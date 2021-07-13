@@ -7,6 +7,9 @@ manufacturer: "Muselab"
 board_url: "https://www.muselab-tech.com/nanoesp32-s2kai-fa-ban/"
 board_image: "muselab_nanoesp32_s2.jpg"
 date_added: 2020-09-16
+
+features:
+  - USB-C
 ---
 
 This is the nanoESP32-S2 board with a WROOM ESP32-S2 module.

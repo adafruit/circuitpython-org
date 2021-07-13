@@ -10,6 +10,7 @@ date_added: 2021-1-21
 features:
   - Feather-Compatible
   - Battery Charging
+  - USB-C
 ---
 
 A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought "this chip is going to be awesome when we give it the Feather Treatment" and so we did! This Feather features the **RP2040**, and all niceties you know and love about Feather

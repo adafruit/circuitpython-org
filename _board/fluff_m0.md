@@ -7,6 +7,9 @@ manufacturer: "Radomir Dopieralski"
 board_url: "https://hackaday.io/project/171381-fluff-m0"
 board_image: "fluff_m0.jpg"
 date_added: 2020-5-22
+
+features:
+  - USB-C
 ---
 A minimal CircuitPython board compatible with the Feather M0 Basic. Everything
 that is non-essential has been removed, and the smallest possible chip is used.

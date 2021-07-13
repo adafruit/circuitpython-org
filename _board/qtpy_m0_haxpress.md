@@ -9,6 +9,7 @@ board_image: "qtpy_m0_haxpress.jpg"
 date_added: 2020-9-28
 features:
   - STEMMA QT/QWIIC
+  - USB-C
 
 ---
 
