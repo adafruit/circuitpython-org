@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Odroid C2 Download</title>
+<meta name="description" content="The ODROID-C2 is a 64-bit quad-core single board computer(SBC) that is one of the most cost-effective 64bit development boards available in the ARM world. It..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/blinka/odroid_c2/" />
+
+<meta property="og:title"   content="CircuitPython - Odroid C2 Download" />
+
+
+
+<meta property="og:description" content="The ODROID-C2 is a 64-bit quad-core single board computer(SBC) that is one of the most cost-effective 64bit development boards available in the ARM world. It can function as a home theater set-top box, a general purpose computer for web browsing, gaming and socializing, a compact tool for college..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/odroid_c2.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/blinka/odroid_c2/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">API</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
+        <span>
+            <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i></a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a class="active" aria-current="page" href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a class='active'
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a></li>
+        <li><a href="https://adafru.it/discord">Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Odroid C2</h1>
+  <h3>by Hardkernel co., Ltd.</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/odroid_c2.jpg" alt="Image of Board">
+        
+        <p>
+          <p>The ODROID-C2 is a 64-bit quad-core single board computer(SBC) that is one of the most cost-effective 64bit development boards available in the ARM world. It can function as a home theater set-top box, a general purpose computer for web browsing, gaming and socializing, a compact tool for college or office work, a prototyping device for hardware tinkering, a controller for home automation, a workstation for software development, and much more.</p>
+
+<p>Some of the modern operating systems that run on the ODROID-C2 are Ubuntu, Android, ARCHLinux, Debian, with thousands of free open-source software packages available. The ODROID-C2 is an ARM device — the most advanced architecture for mobile devices and embedded 64-bit computing. The ARM processor’s small size, reduced complexity and low power consumption makes it very suitable for miniaturized devices such as wearables and embedded controllers.</p>
+
+<ul>
+  <li>Amlogic S905 ARM Cortex-A53(ARMv8) 1.5Ghz quad core CPUs</li>
+  <li>Mali-450 GPU</li>
+  <li>Supports OpenGL ES 2.0 / 1.1</li>
+  <li>3 Pixel-processors</li>
+  <li>2 Vertex shader processors</li>
+  <li>2GB DDR3 SDRAM</li>
+  <li>Gigabit Ethernet</li>
+  <li>HDMI 2.0 4K/60Hz display</li>
+  <li>H.265 4K/60FPS and H.264 4K/30FPS capable VPU</li>
+  <li>40pin GPIOs + 7pin I2S</li>
+  <li>eMMC5.0 HS400 Flash Storage slot</li>
+  <li>UHS-1 SDR50 MicroSD Card slot</li>
+  <li>USB 2.0 Host x 4</li>
+  <li>USB OTG x 1 (power + data capable)</li>
+  <li>Infrared(IR) Receiver</li>
+  <li>Ubuntu 16.04 or Android 6.0 Marshmallow based on Kernel 3.14LTS</li>
+  <li>Armbian Support</li>
+  <li>Guaranteed production of C2 to the end of 2019</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.hardkernel.com/shop/odroid-c2/">Hardkernel</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/odroid_c2.md">here</a>.</p>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        <div class="section stable">
+  <h3>Adafruit Blinka Installation</h3>
+  <p>
+    We use a special library called adafruit_blinka (named after Blinka, the
+    CircuitPython mascot) to provide the layer that translates the CircuitPython
+    hardware API to whatever library the Linux board provides.
+  </p>
+  <p>
+    For example, on Raspberry Pi we use the python RPi.GPIO library.
+    For any I2C interfacing we'll use ioctl messages to the /dev/i2c device.
+    For SPI we'll use the spidev python library, etc. These details don't matter
+    so much because they all happen underneath the adafruit_blinka layer.
+  </p>
+  
+  <div>
+      <a class="download-button" href="https://learn.adafruit.com/circuitpython-libaries-linux-odroid-c2">INSTALLATION INSTRUCTIONS<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+  
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

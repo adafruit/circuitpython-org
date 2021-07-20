@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Jetson AGX Xavier Dev Kit</title>
+<meta name="description" content="With the NVIDIA Jetson AGX Xavier developer kit, you can easily create and deploy end-to-end AI robotics applications for manufacturing, delivery, retail, ag..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/blinka/jetson_xavier/" />
+
+<meta property="og:title"   content="CircuitPython - Jetson AGX Xavier Dev Kit" />
+
+
+
+<meta property="og:description" content="With the NVIDIA Jetson AGX Xavier developer kit, you can easily create and deploy end-to-end AI robotics applications for manufacturing, delivery, retail, agriculture, and more.Supported by NVIDIA JetPack and DeepStream SDKs, as well as CUDA®, cuDNN, and TensorRT software libraries, the kit provi..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/jetson_xavier.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/blinka/jetson_xavier/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">API</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
+        <span>
+            <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i></a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a class="active" aria-current="page" href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a class='active'
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a></li>
+        <li><a href="https://adafru.it/discord">Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Jetson AGX Xavier Dev Kit</h1>
+  <h3>by NVIDIA</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/jetson_xavier.jpg" alt="Image of Board">
+        
+        <p>
+          <p>With the NVIDIA Jetson AGX Xavier developer kit, you can easily create and deploy end-to-end AI robotics applications for manufacturing, delivery, retail, agriculture, and more.</p>
+
+<p>Supported by NVIDIA JetPack and DeepStream SDKs, as well as CUDA®, cuDNN, and TensorRT software libraries, the kit provides all the tools you need to get started right away. And because it’s powered by the new NVIDIA Xavier processor, you now have more than 20X the performance and 10X the energy efficiency of its predecessor, the NVIDIA Jetson TX2.</p>
+
+<ul>
+  <li>GPU    512-core Volta GPU with Tensor Cores</li>
+  <li>CPU    8-core ARM v8.2 64-bit CPU, 8MB L2 + 4MB L3</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Memory    16GB 256-Bit LPDDR4x</td>
+          <td>137GB/s</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Storage    32 GB eMMC 5.1</li>
+  <li>Connectivity to 802.11ac Wi-Fi and Bluetooth-Enabled Devices</li>
+  <li>10/100/1000BASE-T Ethernet</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Video: (2x) 4Kp60</td>
+          <td>HEVC/(2x) 4Kp60</td>
+          <td>12-Bit Support</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>USB-C   2x USB 3.1, DP (Optional), PD (Optional) Close-System Debug and Flashing Support on 1 Port</li>
+  <li>Ethernet  1</li>
+  <li>I2C   1</li>
+  <li>CAN  1</li>
+  <li>SPI   1</li>
+  <li>UART  1</li>
+  <li>GPIO  1</li>
+  <li>Display Interface HDMI 2.0, eDP 1.2a, DP 1.4</li>
+  <li>Operating Systems  Linux Ubuntu 64-bit v14.04</li>
+  <li>PC Card Interface SD/UFS</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.arrow.com/en/products/945-82771-0000-000/nvidia">Arrow</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/jetson_xavier.md">here</a>.</p>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        <div class="section stable">
+  <h3>Adafruit Blinka Installation</h3>
+  <p>
+    We use a special library called adafruit_blinka (named after Blinka, the
+    CircuitPython mascot) to provide the layer that translates the CircuitPython
+    hardware API to whatever library the Linux board provides.
+  </p>
+  <p>
+    For example, on Raspberry Pi we use the python RPi.GPIO library.
+    For any I2C interfacing we'll use ioctl messages to the /dev/i2c device.
+    For SPI we'll use the spidev python library, etc. These details don't matter
+    so much because they all happen underneath the adafruit_blinka layer.
+  </p>
+  
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

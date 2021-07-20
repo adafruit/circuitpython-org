@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Pico Download</title>
+<meta name="description" content="The Raspberry Pi foundation changed single-board computing when they released the Raspberry Pi computer, now they’re ready to do the same for microcontroller..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/blinka/raspberry_pi_pico/" />
+
+<meta property="og:title"   content="CircuitPython - Pico Download" />
+
+
+
+<meta property="og:description" content="The Raspberry Pi foundation changed single-board computing when they released the Raspberry Pi computer, now they’re ready to do the same for microcontrollers with the release of the brand new Raspberry Pi Pico. This low-cost microcontroller board features a powerful new chip, the RP2040, and all..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/blinka/raspberry_pi_pico/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">API</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
+        <span>
+            <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i></a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a class="active" aria-current="page" href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a class='active'
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a></li>
+        <li><a href="https://adafru.it/discord">Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Pico</h1>
+  <h3>by Raspberry Pi Foundation</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/raspberry_pi_pico.jpg" alt="Image of Board">
+        
+        <p>
+          <p>The Raspberry Pi foundation changed single-board computing when they released the Raspberry Pi computer, now they’re ready to do the same for microcontrollers with the release of the brand new <strong>Raspberry Pi Pico</strong>. This low-cost microcontroller board features a powerful new chip, the <strong>RP2040</strong>, and all the fixin’s to get started with embedded electronics projects at a stress-free price.</p>
+
+<p>The Pico is 0.825” x 2” and can have headers soldered in for use in a breadboard or perfboard, or can be soldered directly onto a PCB with the castellated pads. There’s 20 pads on each side, with groups of general purpose input-and-output (GPIO) pins interleaved with plenty of ground pins. All of the GPIO pins are 3.3V logic, and are not 5V-safe so stick to 3V! You get a total of 25 GPIO pins (technically there are 26 but IO #15 has a special purpose and should not be used by projects), 3 of those can be analog inputs (the chip has 4 ADC but one is not broken out). There are no true analog output (DAC) pins.</p>
+
+<p>On the slim green board is minimal circuitry to get you going: A 5V to 3.3V power supply converter, single green LED on GP25, boot select button, RP2040 chip with dual-core Cortex M0, 2 MegaBytes of QSPI flash storage, and crystal.</p>
+
+<p><strong>Inside the RP2040 is a ‘permanent ROM’ USB UF2 bootloader.</strong> What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique all our native-USB boards. Just note you don’t double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!</p>
+
+<p>The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD21). Since it is an M0 chip, it does not have a floating point unit, or DSP hardware support - so if you’re doing something with heavy floating point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you’ll get close-to-M4 speeds!</p>
+
+<p>For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).</p>
+
+<p>You’ll note there’s no I2S peripheral, or SDIO, or camera, what’s up with that? Well instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system which is a unique and powerful way to create custom hardware logic and data processing blocks that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use a PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. Same with I2S audio in or out, LED matrix displays, 8-bit or SPI based TFTs, even VGA! In MicroPython and CircuitPython you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.</p>
+
+<p><strong>At the time of launch, there is no Arduino core support for this board. There is <a href="https://github.com/raspberrypi/pico-sdk">great C/C++ support</a>, an official <a href="https://github.com/raspberrypi/micropython">MicroPython port</a>, and a CircuitPython port!</strong> We of course <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think its the easiest way to get started</a> and it has support with most our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
+
+<p>While the RP2040 has lots of onboard RAM (264KB), it does not have built in FLASH memory. Instead that is provided by the external QSPI flash chip. On this board there is 2MB, which is shared between the program its running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 1 MB remaining for code, files, images, fonts, etc.</p>
+
+<p><strong>RP2040 Chip features:</strong></p>
+<ul>
+  <li>Dual ARM Cortex-M0+ @ 133MHz</li>
+  <li>264kB on-chip SRAM in six independent banks</li>
+  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>
+  <li>DMA controller</li>
+  <li>Fully-connected AHB crossbar</li>
+  <li>Interpolator and integer divider peripherals</li>
+  <li>On-chip programmable LDO to generate core voltage</li>
+  <li>2 on-chip PLLs to generate USB and core clocks</li>
+  <li>30 GPIO pins, 4 of which can be used as analog inputs</li>
+  <li>Peripherals</li>
+  <li>2 UARTs</li>
+  <li>2 SPI controllers</li>
+  <li>2 I2C controllers</li>
+  <li>16 PWM channels</li>
+  <li>USB 1.1 controller and PHY, with host and device support</li>
+  <li>8 PIO state machines</li>
+</ul>
+
+<p><a href="https://raspberrypi.org/documentation/pico/getting-started/">Click here for the Raspberry Pi documentation.</a>
+<a href="https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico">Click here for CircuitPython Libraries on MicroPython using the Raspberry Pi Pico.</a>
+<a href="https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico">Click here for CircuitPython Libraries on any Computer with Raspberry Pi Pico.</a></p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/4883">Adafruit</a></li>
+</ul>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        <div class="section stable">
+  <h3>Adafruit Blinka Installation</h3>
+  <p>
+    We use a special library called adafruit_blinka (named after Blinka, the
+    CircuitPython mascot) to provide the layer that translates the CircuitPython
+    hardware API to whatever library the Linux board provides.
+  </p>
+  <p>
+    For example, on Raspberry Pi we use the python RPi.GPIO library.
+    For any I2C interfacing we'll use ioctl messages to the /dev/i2c device.
+    For SPI we'll use the spidev python library, etc. These details don't matter
+    so much because they all happen underneath the adafruit_blinka layer.
+  </p>
+  
+  <div>
+      <a class="download-button" href="https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico">INSTALLATION INSTRUCTIONS<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+  
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

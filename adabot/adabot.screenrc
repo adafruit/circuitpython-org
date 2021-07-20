@@ -1,0 +1,17 @@
+# Screen startup file to start multiple commands under multiple screens.
+# Start with "screen -c thisfilename"
+
+screen -t flask    0 bash -c "source .env/bin/activate; source env.sh; export FLASK_APP=rosie-ci.py; flask run || sleep 1000"
+
+# With a free ngrok account you will get a random subdomain.
+# screen -t ngrok 1 ngrok http 5000
+
+# Use this command with your own subdomain.
+screen -t ngrok 1 bash -c "../ngrok http -subdomain=rosie-ci 5000 || sleep 1000"
+
+screen -t celery_high 2 bash -c "source .env/bin/activate; source env.sh; celery -A rosie-ci.celery worker -n high -Q high || [ $? -eq 1 ] || sleep 1000"
+
+screen -t celery_low 3 bash -c "source .env/bin/activate; source env.sh; celery -A rosie-ci.celery worker -n low -Q low || [ $? -eq 1 ] || sleep 1000"
+
+detach
+

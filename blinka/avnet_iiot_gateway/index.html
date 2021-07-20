@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>SmartEdge Industrial IOT Gateway Download</title>
+<meta name="description" content="Gateways can be as varied as the devices they help connect, with each gateway needing different protocols, connection methodologies and energy requirements t..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/blinka/avnet_iiot_gateway/" />
+
+<meta property="og:title"   content="CircuitPython - SmartEdge Industrial IOT Gateway Download" />
+
+
+
+<meta property="og:description" content="Gateways can be as varied as the devices they help connect, with each gateway needing different protocols, connection methodologies and energy requirements to bring together the myriad of distributed parts that make up the IoT whole. Gateways serve critical functions such as data filtering and se..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/avnet_iiot_gateway.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/blinka/avnet_iiot_gateway/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">API</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
+        <span>
+            <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i></a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a class="active" aria-current="page" href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a class='active'
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a></li>
+        <li><a href="https://adafru.it/discord">Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>SmartEdge Industrial IOT Gateway</h1>
+  <h3>by Avnet, Inc.</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/avnet_iiot_gateway.jpg" alt="Image of Board">
+        
+        <p>
+          <p>Gateways can be as varied as the devices they help connect, with each gateway needing different protocols, connection methodologies and energy requirements to bring together the myriad of distributed parts that make up the IoT whole. Gateways serve critical functions such as data filtering and security and up to application code. Whether an app on a mobile device, a demo board, or even a connected sensor, gateways are critical to the functioning of the IoT—and Avnet’s deep hardware experience help connect your solutions to the cloud smartly and with security in mind.</p>
+
+<p>SmartEdge Industrial IoT Gateway, powered by Raspberry Pi, helps simplify and accelerate adoption of IIoT applications. The gateway provides versatile connectivity with data intelligence for a wide range of industrial 4.0 applications.</p>
+
+<p>Empower analytics at the edge of your IoT network with the intelligent Dell Edge Gateway for richer business insights. An edge gateway connects varied wired and wireless devices and systems, aggregates and analyzes the input, and sends it on. Because the gateway sits close to your devices and sensors, it sends only meaningful data to the cloud or control center, saving you expensive bandwidth.</p>
+
+<ul>
+  <li>Broadcom BCM2837 SoC, 64-bit, Quad-core ARM Cortex-A53 processor running up to 900 MHz + 1GB LPDDR2 SDRAM for data</li>
+  <li>Robust program storage with 8GB eMMC Flash pre-programmed with a secure boot version of the Raspbian Linux OS</li>
+  <li>On-Board Trusted Platform Module TPM 2.0 module for comprehensive end-to-end security</li>
+  <li>HDMI output for driving a display with outstanding 1080p video processing</li>
+  <li>Same Raspberry Pi 40-pin GPIO header compatible with your favorite for HATs</li>
+  <li>WiFi 2.4GHz and Bluetooth (BLE) 4.2 wireless connectivity with internal antennas</li>
+  <li>Dual USB 2.0 Ports, Dual 10/100 Ethernet ports and mPCIe slot for a cellular card</li>
+  <li>Terminal blocks for Isolated RS-232/485/Modbus, CAN, Digital I/O and 12 to 24VDC power</li>
+  <li>On-Board battery backed real-time clock (RTC) and watchdog timer</li>
+  <li>Can be mounted on DIN rail, direct on wall/panel, or free standing</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.newark.com/avnet/avtse-rpi-iiotg/smartedge-industrial-iot-gateway/dp/02AH6799">Newark</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/avnet_iiot_gateway.md">here</a>.</p>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        <div class="section stable">
+  <h3>Adafruit Blinka Installation</h3>
+  <p>
+    We use a special library called adafruit_blinka (named after Blinka, the
+    CircuitPython mascot) to provide the layer that translates the CircuitPython
+    hardware API to whatever library the Linux board provides.
+  </p>
+  <p>
+    For example, on Raspberry Pi we use the python RPi.GPIO library.
+    For any I2C interfacing we'll use ioctl messages to the /dev/i2c device.
+    For SPI we'll use the spidev python library, etc. These details don't matter
+    so much because they all happen underneath the adafruit_blinka layer.
+  </p>
+  
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

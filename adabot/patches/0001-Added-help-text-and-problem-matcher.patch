@@ -1,0 +1,46 @@
+From 3860976e511f1407840c914a8c550ac154716cf9 Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Wed, 19 May 2021 13:35:18 -0400
+Subject: [PATCH] Added help text and problem matcher
+
+---
+ .github/workflows/build.yml             |  2 ++
+ .github/workflows/failure-help-text.yml | 19 +++++++++++++++++++
+ 2 files changed, 21 insertions(+)
+ create mode 100644 .github/workflows/failure-help-text.yml
+
+diff --git a/.github/workflows/build.yml b/.github/workflows/build.yml
+index 3baf502..ce66461 100644
+--- a/.github/workflows/build.yml
++++ b/.github/workflows/build.yml
+@@ -49,0 +50,2 @@ jobs:
++    - name: Setup problem matchers
++      uses: adafruit/circuitpython-action-library-ci-problem-matchers@v1
+diff --git a/.github/workflows/failure-help-text.yml b/.github/workflows/failure-help-text.yml
+new file mode 100644
+index 0000000..0b1194f
+--- /dev/null
++++ b/.github/workflows/failure-help-text.yml
+@@ -0,0 +1,19 @@
++# SPDX-FileCopyrightText: 2021 Scott Shawcroft for Adafruit Industries
++#
++# SPDX-License-Identifier: MIT
++
++name: Failure help text
++
++on:
++  workflow_run:
++    workflows: ["Build CI"]
++    types:
++      - completed
++
++jobs:
++  post-help:
++    runs-on: ubuntu-latest
++    if: ${{ github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.event == 'pull_request' }}
++    steps:
++    - name: Post comment to help
++      uses: adafruit/circuitpython-action-library-ci-failed@v1
+-- 
+2.25.1
+

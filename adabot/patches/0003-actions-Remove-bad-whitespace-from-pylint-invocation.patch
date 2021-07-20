@@ -1,0 +1,25 @@
+From 9c445e26608a5be97f78c7aff4d7af28f53a1c90 Mon Sep 17 00:00:00 2001
+From: Jeff Epler <jepler@gmail.com>
+Date: Sun, 23 Aug 2020 12:08:25 -0500
+Subject: [PATCH] actions: Remove bad-whitespace from pylint invocation
+
+---
+ .github/workflows/build.yml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.github/workflows/build.yml b/.github/workflows/build.yml
+index b6977a9..dc092cd 100644
+--- a/.github/workflows/build.yml
++++ b/.github/workflows/build.yml
+@@ -49,7 +49,7 @@ jobs:
+     - name: PyLint
+       run: |
+         pylint $( find . -path './adafruit*.py' )
+-        ([[ ! -d "examples" ]] || pylint --disable=missing-docstring,invalid-name,bad-whitespace $( find . -path "./examples/*.py" ))
++        ([[ ! -d "examples" ]] || pylint --disable=missing-docstring,invalid-name $( find . -path "./examples/*.py" ))
+     - name: Build assets
+       run: circuitpython-build-bundles --filename_prefix ${{ steps.repo-name.outputs.repo-name }} --library_location .
+     - name: Build docs
+-- 
+2.20.1
+

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>CircuitPython</title>
+<meta name="description" content="The easiest way to program microcontrollers" />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/" />
+
+<meta property="og:title"   content="CircuitPython" />
+
+
+
+<meta property="og:description" content="The easiest way to program microcontrollers" />
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/CircuitPythonLogo_Black.png" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">API</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
+        <span>
+            <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i></a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a></li>
+        <li><a href="https://adafru.it/discord">Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+
+    <div id="main-content" class="wrapper">
+      <div>
+  <div id="home-page">
+  <div class="headline-banner">
+    <div class="img-overlay"></div>
+      <img class="image-headline" alt="hero image"
+                                  src="/assets/images/heroes/CircuitPython_Hero.jpg"
+          />
+    <div class="text">
+      <div class="title"><span>The easiest way to program microcontrollers</span></div>
+      <div class="tagline">
+        <span>
+          CircuitPython is a programming language designed to simplify
+          experimenting and learning to code on low-cost microcontroller
+          boards.
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="purple banner">
+    <p>
+      With CircuitPython, there are no upfront desktop downloads needed. Once
+      you get your board set up, open any text editor, and start editing code.
+      It's that simple.
+    </p>
+  </div>
+
+  <div class="headline-banner supported-section">
+    <img class="image-headline" alt="hero image"
+                                src="/assets/images/CircuitPython_Boards.jpg"
+         />
+    <div class="text">
+      <div class="title"><span>Supported by all of the best microcontrollers</span></div>
+      <div class="tagline">
+        <span>
+          <a href="/downloads" class="action-link">See them all</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <section>
+      <h2>More reasons to use CircuitPython</h2>
+      <div class="home-table">
+        <div class="item">
+          <h3>Quick and Easy</h3>
+          <p>
+            Create a file, edit your code, save the file, and it runs immediately.
+            There is no compiling or uploading needed.
+          </p>
+        </div>
+        <div class="item">
+          <h3>Beginner Friendly</h3>
+          <p>
+            CircuitPython is designed with education in mind. It's an easy way to start
+            learning how to code and you get immediate feedback from the board.
+          </p>
+        </div>
+        <div class="item">
+          <h3>Easy Code Updates</h3>
+          <p>
+            Since your code lives on the disk drive, you can edit it whenever you
+            like. You can even keep multiple files around for easy experimentation.
+          </p>
+        </div>
+        <div class="item">
+          <h3>Serial Console + REPL</h3>
+          <p>
+            These features allow for live feedback from your code and interactive programming.
+          </p>
+        </div>
+        <div class="item">
+          <h3>File Storage</h3>
+          <p>
+            The internal storage for CircuitPython makes it great for data-logging,
+            playing audio clips, and otherwise interacting with files.
+          </p>
+        </div>
+        <div class="item">
+          <h3>Strong Hardware Support</h3>
+          <p>
+            There are many libraries and drivers for sensors, breakout boards
+            and other external components.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="headline-banner supported-section">
+    <img class="image-headline pinball" alt="hero image"
+                                src="/assets/images/CircuitPython_Pinball.jpg"
+         />
+    <div class="text">
+      <div class="title"><span>The simple way to build something amazing</span></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <section>
+      <img class="responsive" src="/assets/images/python.png"
+           srcset="/assets/images/python.png 1x,
+                   /assets/images/python@2x.png 2x,
+                   /assets/images/python@3x.png 3x"  alt="Python Logo">
+      <h2>CircuitPython is based on Python</h2>
+      <p>
+        Python is the fastest growing programming language. It's taught in schools
+        and universities. It's a high-level programming language which means it's
+        designed to be easier to read, write and maintain. It supports modules and
+        packages which means it's easy to reuse your code for other projects. It
+        has a built in interpreter which means there are no extra steps, like
+        compiling, to get your code to work. And of course, Python is Open Source
+        Software which means it's free for anyone to use, modify or improve upon.
+      </p>
+      <p>
+        CircuitPython adds hardware support to all of these amazing features. If you
+        already have Python knowledge, you can easily apply that to using CircuitPython.
+        If you have no previous experience, it's really simple to get started!
+      </p>
+    </section>
+  </div>
+
+  <div class="headline-banner supported-section">
+    <img class="image-headline pinball" alt="hero image"
+                                src="/assets/images/CircuitPython_Sensors.jpg"
+         />
+    <div class="text">
+      <div class="title"><span>280+ libraries all written in Python</span></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <section>
+      <img class="responsive" src="/assets/images/raspberry_pi.png"
+           srcset="/assets/images/raspberry_pi.png 1x,
+                   /assets/images/raspberry_pi@2x.png 2x,
+                   /assets/images/raspberry_pi@3x.png 3x"  alt="Raspberry Pi">
+      <h2>CircuitPython libraries on single board computers</h2>
+      <p>
+        Most CircuitPython libraries also work on <a href="/blinka">single board computers (SBCs)</a>, such as the Raspberry Pi.
+        Linux runs "desktop" Python (commonly known as CPython) instead of CircuitPython.
+        Our CPython Blinka library provides CircuitPython's low level hardware APIs, such as `digitalio`.
+      </p>
+      <p>
+        Blinka and CircuitPython libraries are just a `pip install` away.
+      </p>
+    </section>
+  </div>
+
+  <div class="purple banner">
+    <div class="content short">
+    <h2>Just the beginning...</h2>
+    <p>
+      CircuitPython continues to evolve, and is constantly being updated. We
+      welcome and encourage feedback from the community, and we incorporate this
+      into how we are developing CircuitPython. That's the core of the open source
+      concept. This makes CircuitPython better for you and everyone who uses it!
+    </p>
+    <p>
+      <a href="https://learn.adafruit.com/welcome-to-circuitpython"
+         class="action-link include-gap">Get Started</a>
+    </p>
+    </div>
+  </div>
+
+  <div class="content">
+    <section>
+      <h2>Thanks</h2>
+      <p>
+         CircuitPython wouldn't exist without the awesome work of
+         <a href="https://micropython.org">Damien George and the MicroPython community</a>.
+         They did the hard work to reimplement Python on microcontrollers and
+         continue to push the boundaries of what is possible.
+      </p>
+      <p>
+        Thank you to <a href="https://www.adafruit.com">Adafruit</a> for
+        continuing to support CircuitPython's beginner-focused development.
+      </p>
+      <p>
+        Lastly, thank you to the CircuitPython community members who have spent
+        time testing, triaging, fixing and enhancing CircuitPython, its libraries
+        and its documentation. Together we're all making something incredible.
+      </p>
+    </section>
+  </div>
+</div>
+
+</div>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

@@ -1,0 +1,23 @@
+From 980d4f141f960bfab8a650c842eb763f429a5c73 Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Fri, 19 Mar 2021 12:55:03 -0400
+Subject: [PATCH] Increase duplicate code check threshold
+
+---
+ .pylintrc | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+diff --git a/.pylintrc b/.pylintrc
+index 3c07cc6..9e69bd0 100644
+--- a/.pylintrc
++++ b/.pylintrc
+@@ -25,2 +25 @@ ignore-patterns=
+-# jobs=1
+-jobs=2
++jobs=1
+@@ -256 +255 @@ ignore-imports=yes
+-min-similarity-lines=4
++min-similarity-lines=12
+-- 
+2.25.1
+

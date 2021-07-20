@@ -1,0 +1,42 @@
+From 890916a8fa3274a194b6a45872b93e4d87779b84 Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Fri, 26 Feb 2021 16:26:15 -0500
+Subject: [PATCH] Removed pylint process from github workflow patch 2
+
+---
+ .github/workflows/build.yml |  4 ----
+ .pre-commit-config.yaml     | 15 +++++++++++++++
+ 2 files changed, 15 insertions(+), 4 deletions(-)
+
+diff --git a/.github/workflows/build.yml b/.github/workflows/build.yml
+index 59baa53..3baf502 100644
+--- a/.github/workflows/build.yml
++++ b/.github/workflows/build.yml
+@@ -53,4 +52,0 @@ jobs:
+-    - name: PyLint
+-      run: |
+-        pylint $( find . -path './adafruit*.py' )
+-        ([[ ! -d "examples" ]] || pylint --disable=missing-docstring,invalid-name,bad-whitespace $( find . -path "./examples/*.py" ))
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index 07f886c..354c761 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -19,0 +20,15 @@ repos:
++-   repo: https://github.com/pycqa/pylint
++    rev: pylint-2.7.1
++    hooks:
++    -   id: pylint
++        name: pylint (library code)
++        types: [python]
++        exclude: "^(docs/|examples/|setup.py$)"
++-   repo: local
++    hooks:
++    -   id: pylint_examples
++        name: pylint (examples code)
++        description: Run pylint rules on "examples/*.py" files
++        entry: /usr/bin/env bash -c
++        args: ['([[ ! -d "examples" ]] || for example in $(find . -path "./examples/*.py"); do pylint --disable=missing-docstring,invalid-name $example; done)']
++        language: system
+-- 
+2.25.1
+

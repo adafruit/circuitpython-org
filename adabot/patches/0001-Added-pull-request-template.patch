@@ -1,0 +1,32 @@
+From 763698dd1677b2ef3e2d269767368589bf416c06 Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Wed, 19 May 2021 13:32:42 -0400
+Subject: [PATCH] Added pull request template
+
+---
+ .../adafruit_circuitpython_pr.md                    | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+ create mode 100644 .github/PULL_REQUEST_TEMPLATE/adafruit_circuitpython_pr.md
+
+diff --git a/.github/PULL_REQUEST_TEMPLATE/adafruit_circuitpython_pr.md b/.github/PULL_REQUEST_TEMPLATE/adafruit_circuitpython_pr.md
+new file mode 100644
+index 0000000..71ef8f8
+--- /dev/null
++++ b/.github/PULL_REQUEST_TEMPLATE/adafruit_circuitpython_pr.md
+@@ -0,0 +1,13 @@
++# SPDX-FileCopyrightText: 2021 Adafruit Industries
++#
++# SPDX-License-Identifier: MIT
++
++Thank you for contributing! Before you submit a pull request, please read the following.
++
++Make sure any changes you're submitting are in line with the CircuitPython Design Guide, available here: https://circuitpython.readthedocs.io/en/latest/docs/design_guide.html
++
++If your changes are to documentation, please verify that the documentation builds locally by following the steps found here: https://adafru.it/build-docs
++
++Before submitting the pull request, make sure you've run Pylint and Black locally on your code. You can do this manually or using pre-commit. Instructions are available here: https://adafru.it/check-your-code
++
++Please remove all of this text before submitting. Include an explanation or list of changes included in your PR, as well as, if applicable, a link to any related issues.
+-- 
+2.25.1
+

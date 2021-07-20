@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>CircuitPython Cheatsheet #</title>
+<meta name="description" content="The easiest way to program microcontrollers" />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/awesome-circuitpython/cheatsheet/CircuitPython_Cheatsheet/" />
+
+<meta property="og:title"   content="CircuitPython - CircuitPython Cheatsheet #" />
+
+
+
+<meta property="og:description" content="The easiest way to program microcontrollers" />
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/CircuitPythonLogo_Black.png" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/awesome-circuitpython/cheatsheet/CircuitPython_Cheatsheet/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">API</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
+        <span>
+            <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i></a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a></li>
+        <li><a href="https://adafru.it/discord">Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+
+    <div id="main-content" class="wrapper">
+      <h1 id="circuitpython-cheatsheet">CircuitPython Cheatsheet</h1>
+
+<h2 id="digital-io">Digital I/O</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import board
+from digitalio import DigitalInOut, Direction, Pull
+
+led = DigitalInOut(board.D13)
+led.direction = Direction.OUTPUT
+
+switch = DigitalInOut(board.D5)
+switch.direction = Direction.INPUT
+switch.pull = Pull.UP   # Pull.Down is available on some MCUs
+
+while True:
+    led.value = not switch.value
+    time.sleep(0.01)
+</code></pre></div></div>
+
+<h2 id="analog-input">Analog Input</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import time
+import board
+from analogio import AnalogIn
+
+analog_in = AnalogIn(board.A1)
+
+def get_voltage(pin):
+    return (pin.value * 3.3) / 65536
+
+while True:
+    print((get_voltage(analog_in),))
+    time.sleep(0.1)
+</code></pre></div></div>
+
+<p>Analog input values are always 16 bit (i.e. in range(0, 65535)), regardless of the converter’s resolution. The get_voltage function converts the analog reading into a voltage, assuming the default 3.3v reference voltage.</p>
+
+<h2 id="analog-output">Analog Output</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import board
+from analogio import AnalogOut
+
+analog_out = AnalogOut(board.A0)
+
+while True:
+    # Count up from 0 to 65535
+    for i in range(0, 65536):
+        analog_out.value = i
+</code></pre></div></div>
+
+<p>Analog output values are always 16 bit (i.e. in range(0, 65535)). Depending on the underlying hardware those values will get scaled to match the resolution of the converter.
+The example will generate a stairstepped signal, the number of steps depends on the resolution of the converter. E.g. the 10-bit converter in the SAMD21 will create 1024 steps, while the 12-bit converter on the SAMD51 will create 4096 steps.</p>
+
+<h2 id="pwm">PWM</h2>
+
+<p>You can use a PWM in one of two ways.</p>
+
+<p>1) With fixed frequency PWM with variable duty cycle. This is useful for controllign the brightness of a LED or the speed of a motor.</p>
+
+<p>```import time
+    import board
+    import pwmio</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>led = pwmio.PWMOut(board.D13, frequency=5000, duty_cycle=0)
+
+while True:
+    for i in range(100):
+        # PWM LED up and down
+        if i &lt; 50:
+            led.duty_cycle = int(i * 2 * 65535 / 100)  # Up
+        else:
+            led.duty_cycle = 65535 - int((i - 50) * 2 * 65535 / 100)  # Down
+        time.sleep(0.01) ```
+</code></pre></div></div>
+
+<p>2) With variable frequency as well. This is handy for producing tones. The duty cycle effects the sound (as opposed to the note).</p>
+
+<p>```import time
+    import board
+    import pwmio</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>piezo = pwmio.PWMOut(board.A1, duty_cycle=0, frequency=440, variable_frequency=True)
+
+while True:
+    for f in (262, 294, 330, 349, 392, 440, 494, 523):
+        piezo.frequency = f
+        piezo.duty_cycle = 65536 // 2  # On 50%
+        time.sleep(0.25)  # On for 1/4 second
+        piezo.duty_cycle = 0  # Off
+        time.sleep(0.05)  # Pause between notes
+    time.sleep(0.5) ``` ## Servo ##
+
+import time
+import board
+import pwmio
+from adafruit_motor import servo
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+
+while True:
+    for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
+    for angle in range(180, 0, -5): # 180 - 0 degrees, 5 degrees at a time.
+        my_servo.angle = angle
+        time.sleep(0.05)
+</code></pre></div></div>
+
+<h2 id="cap-touch">Cap Touch</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import time
+
+import board
+import touchio
+
+touch_pad = board.A1  # For Circuit Playground Express
+
+touch = touchio.TouchIn(touch_pad)
+
+while True:
+    if touch.value:
+        print("Touched!")
+    time.sleep(0.05)
+</code></pre></div></div>
+
+<h2 id="neopixels">NeoPixels</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import time
+import board
+import neopixel
+
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+pixel_pin = board.A1
+num_pixels = 8
+
+pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=False)
+
+pixels.fill(RED)
+pixels.show()
+
+#The usual slicing operations can be used
+pixels[1:6:2] = GREEN
+pixels[7] = BLUE
+pixels.show()
+</code></pre></div></div>
+
+<h2 id="dotstar">DotStar</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import time
+import adafruit_dotstar
+import board
+
+RED = (255, 0, 0)
+num_pixels = 30
+
+# DotStars use 2 pins instead of 1 that NeoPixels take
+pixels = adafruit_dotstar.DotStar(board.A1, board.A2, num_pixels, brightness=0.1, auto_write=False)
+pixels.fill(0) # all off
+pixels[::2] = [RED] * (num_pixels // 2) # every other pixel red
+pixels.show()
+</code></pre></div></div>
+
+<h2 id="uart-serial">UART Serial</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import board
+import busio
+import digitalio
+
+uart = busio.UART(board.TX, board.RX, baudrate=9600)
+
+while True:
+    data = uart.read(32)  # read up to 32 bytes
+
+    if data is not None:
+        # convert bytearray to string
+        data_string = ''.join([chr(b) for b in data])
+        print(data_string, end="")
+        uart.write(data_string)
+</code></pre></div></div>
+
+<h2 id="i2c">I2C</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import time
+import adafruit_tsl2561
+import board
+import busio
+
+i2c = busio.I2C(board.SCL, board.SDA)
+
+# Create library object on our I2C port
+tsl2561 = adafruit_tsl2561.TSL2561(i2c)
+
+# Use the object to print the sensor readings
+while True:
+    print("Lux:", tsl2561.lux)
+    time.sleep(1.0)
+</code></pre></div></div>
+
+<h2 id="spi">SPI</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import board
+import busio
+import digitalio
+import adafruit_bme280
+
+spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
+cs = digitalio.DigitalInOut(board.D5)
+bme280 = adafruit_bme280.Adafruit_BME280_SPI(spi, cs)
+print("\nTemperature: %0.1f C" % bme280.temperature)
+print("Humidity: %0.1f %%" % bme280.humidity)
+print("Pressure: %0.1f hPa" % bme280.pressure)
+</code></pre></div></div>
+
+<h2 id="hid-keyboard">HID Keyboard</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from adafruit_circuitplayground.express import cpx
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keycode import Keycode
+
+kbd = Keyboard()
+
+while True:
+    if cpx.button_a:
+        kbd.send(Keycode.SHIFT, Keycode.A)  # Type capital 'A'
+        while cpx.button_a: # Wait for button to be released
+            pass
+
+    if cpx.button_b:
+        kbd.send(Keycode.CONTROL, Keycode.X)  # control-X key
+        while cpx.button_b: # Wait for button to be released
+            pass
+</code></pre></div></div>
+
+<h2 id="hid-mouse">HID Mouse</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from adafruit_circuitplayground.express import cpx
+from adafruit_hid.mouse import Mouse
+
+m = Mouse()
+cpx.adjust_touch_threshold(200)
+
+while True:
+    if cpx.touch_A4:
+        m.move(-1, 0, 0)
+    if cpx.touch_A3:
+        m.move(1, 0, 0)
+    if cpx.touch_A7:
+        m.move(0, -1, 0)
+    if cpx.touch_A1:
+        m.move(0, 1, 0)
+
+    if cpx.button_a:
+        m.press(Mouse.LEFT_BUTTON)
+        while cpx.button_a:    # Wait for button A to be released
+            pass
+        m.release(Mouse.LEFT_BUTTON)
+
+    if cpx.button_b:
+        m.press(Mouse.RIGHT_BUTTON)
+        while cpx.button_b:    # Wait for button B to be released
+            pass
+        m.release(Mouse.RIGHT_BUTTON)
+</code></pre></div></div>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

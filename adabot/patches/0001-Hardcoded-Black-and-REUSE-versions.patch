@@ -1,0 +1,30 @@
+From 61834a16fa143657a84b684ec6fe207b9894403a Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Wed, 3 Feb 2021 16:38:51 -0500
+Subject: [PATCH] Hardcoded Black and REUSE versions
+
+---
+ .pre-commit-config.yaml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index aab5f1c..07f886c 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -4,11 +4,11 @@
+ 
+ repos:
+ -   repo: https://github.com/python/black
+-    rev: stable
++    rev: 20.8b1
+     hooks:
+     - id: black
+ -   repo: https://github.com/fsfe/reuse-tool
+-    rev: latest
++    rev: v0.12.1
+     hooks:
+     - id: reuse
+ -   repo: https://github.com/pre-commit/pre-commit-hooks
+-- 
+2.25.1
+
