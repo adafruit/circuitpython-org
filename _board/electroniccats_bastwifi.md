@@ -13,7 +13,7 @@ features:
   - Wi-Fi
   - Battery Charging
   - USB-C
-
+  - Breadboard-Friendly
 ---
 
 The Bast WiFi includes the newer ESP32-S2 module, which is like a little brother to the ESP32 where only one core instead of 2 has cores, it has no BLE implemented, but gains a native USB, a new processor and crypto accelerators for better performance protection against physical fault injection attacks and more improvements over the SoC.

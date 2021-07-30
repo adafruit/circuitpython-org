@@ -8,7 +8,7 @@ board_url: "https://www.pjrc.com/store/teensy40.html"
 board_image: "teensy40.jpg"
 date_added: 2020-1-31
 features:
-
+  - Breadboard-Friendly
 ---
 Who else could pack a 600 MHz microcontroller into such a Teensy little board? The Teensy 4.0 features an ARM Cortex-M7 processor at 600 MHz, with a NXP iMXRT1062 chip, the fastest microcontroller available today - [ten times faster than the Teensy 3.2](https://github.com/PaulStoffregen/CoreMark)! The NXP iMXRT1062 is a 'cross-over' processor, which has the functionality of a microcontroller, at the speeds of a microcomputer. It's perfect for when you need tons of flash, RAM and, to crunch lots of data, or when you need two full speed USB ports. It even has a graphics processor! All this for two sawbucks.
 

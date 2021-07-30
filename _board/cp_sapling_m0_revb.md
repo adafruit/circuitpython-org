@@ -9,6 +9,7 @@ board_image: "cp_sapling_m0_revb.jpg"
 date_added: 2021-6-4
 features:
   - STEMMA QT/QWIIC
+  - Breadboard-Friendly
 ---
 
 Finally, a tree that runs CircuitPython? YEP and it's better than ever! Now you can get working in CircuitPython fast with our new CircuitPython compatible development board featuring the popular Microchip AT SAM D21 microcontroller.

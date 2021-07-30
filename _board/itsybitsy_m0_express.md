@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/3727"
 board_image: "itsybitsy_m0_express.jpg"
 date_added: 2019-3-9
+features:
+  - Breadboard-Friendly
 ---
 
 What's smaller than a Feather but larger than a Trinket? It's an **Adafruit ItsyBitsy M0 Express**! Small, powerful, with a rockin' ATSAMD21 Cortex M0 processor running at 48 MHz - this microcontroller board is perfect when you want something very compact, but still with a bunch of pins.

@@ -11,6 +11,7 @@ features:
   - Battery Charging
   - Wi-Fi
   - USB-C
+  - Breadboard-Friendly
 ---
 
 Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!

@@ -13,6 +13,7 @@ features:
   - Wi-Fi
   - STEMMA QT/QWIIC
   - USB-C
+  - Breadboard-Friendly
 ---
 
 Introducing the FeatherS2 - The PRO ESP32-S2 based development board in a Feather format!

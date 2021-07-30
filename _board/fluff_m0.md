@@ -10,6 +10,7 @@ date_added: 2020-5-22
 
 features:
   - USB-C
+  - Breadboard-Friendly
 ---
 A minimal CircuitPython board compatible with the Feather M0 Basic. Everything
 that is non-essential has been removed, and the smallest possible chip is used.

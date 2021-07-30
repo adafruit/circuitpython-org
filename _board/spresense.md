@@ -9,6 +9,7 @@ board_image: "spresense.jpg"
 date_added: 2019-10-23
 features:
   - GPS
+  - Arduino Shield Compatible
 ---
 
 The Spresense project consists of a Arduino compatible board with Sony’s high performance CXD5602 micro-controller. The CXD5602 has built-in GPS and high-resolution audio capabilities.

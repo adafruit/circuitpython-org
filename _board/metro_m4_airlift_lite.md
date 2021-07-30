@@ -9,6 +9,7 @@ board_image: "metro_m4_airlift_lite.jpg"
 date_added: 2019-4-13
 features:
   - Wi-Fi
+  - Arduino Shield Compatible
 ---
 
 Give your next project a lift with _AirLift_ - Adafruit's witty name for the ESP32 co-processor that graces this Metro M4. 

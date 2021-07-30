@@ -10,6 +10,8 @@ date_added: 2020-09-16
 
 features:
   - USB-C
+  - Wi-Fi
+  - Breadboard-Friendly
 ---
 
 This is the nanoESP32-S2 board with a WROOM ESP32-S2 module.

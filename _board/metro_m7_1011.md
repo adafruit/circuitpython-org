@@ -11,6 +11,7 @@ features:
   - Wi-Fi
   - STEMMA QT/QWIIC
   - USB-C
+  - Arduino Shield Compatible
 ---
 
 Watch Adafruit's Ask an Engineer on YouTube to learn more. 

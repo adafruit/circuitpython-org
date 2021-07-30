@@ -10,6 +10,7 @@ date_added: 2019-3-8
 features:
   - Feather-Compatible
   - Battery Charging
+  - Breadboard-Friendly
 ---
 
 This feather is powered by the ATSAMD51J19 -  with its 120MHz Cortex M4 with floating point support and 512KB Flash and 192KB RAM. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.

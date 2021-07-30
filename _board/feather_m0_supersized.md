@@ -10,6 +10,7 @@ date_added: 2019-3-19
 features:
   - Feather-Compatible
   - Battery Charging
+  - Breadboard-Friendly
 ---
 
 This is a [Feather M0 Express]({{ "/board/feather_m0_express/" | relative_url }}) that has been

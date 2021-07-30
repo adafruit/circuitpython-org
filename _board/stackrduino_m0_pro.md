@@ -11,6 +11,7 @@ features:
   - Battery Charging
   - STEMMA QT/QWIIC
   - USB-C
+  - Breadboard-Friendly
 ---
 
 StackRduino M0+ PRO is an open source Development board based on the ATSAMD21G18 for Arduino & Circuit-Python packed with features & comes with many stackable shields
