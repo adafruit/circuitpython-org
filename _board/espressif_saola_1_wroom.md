@@ -9,6 +9,7 @@ board_image: "espressif_saola_1_wroom.jpg"
 date_added: 2020-05-15
 features:
   - Wi-Fi
+  - Breadboard-Friendly
 ---
 
 This is the Saola dev board with a WROOM ESP32-S2 module.

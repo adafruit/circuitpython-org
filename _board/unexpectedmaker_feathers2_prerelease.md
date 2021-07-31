@@ -13,6 +13,7 @@ features:
   - Wi-Fi
   - STEMMA QT/QWIIC
   - USB-C
+  - Breadboard-Friendly
 ---
 
 Pre-Release version of the FeatherS2

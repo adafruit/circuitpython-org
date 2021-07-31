@@ -12,6 +12,7 @@ features:
   - Battery Charging
   - Wi-Fi
   - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

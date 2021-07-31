@@ -7,6 +7,8 @@ manufacturer: "Itaca Innovation"
 board_url: ""
 board_image: "uchip.jpg"
 date_added: 2019-3-25
+features:
+  - Breadboard-Friendly
 ---
 
 **Small. Yet powerful!**

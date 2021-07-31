@@ -9,6 +9,7 @@ board_image: "sparkfun_qwiic_micro.jpg"
 date_added: 2019-11-4
 features:
   - STEMMA QT/QWIIC
+  - Breadboard-Friendly
 ---
 The **SparkFun Qwiic Micro** is an _1 x 1 inch_ microcontroller made for the [Qwiic Eco-system](https://sparkfun.com/qwiic). 
 It's SparkFun's smallest microcontroller to date that's made for integrating into small projects.

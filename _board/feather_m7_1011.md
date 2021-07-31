@@ -12,6 +12,7 @@ features:
   - Battery Charging
   - STEMMA QT/QWIIC
   - USB-C
+  - Breadboard-Friendly
 ---
 
 Coming Soon!

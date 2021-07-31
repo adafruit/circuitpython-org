@@ -10,6 +10,7 @@ date_added: 2020-1-17
 
 features:
   - USB-C
+  - Breadboard-Friendly
 ---
 # Seeduino XIAO:
 SEEED Studio's Seeeduino XIAO is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256KB Flash and 32KB SRAM.  The board is 20 x 17.5mm in size which is perfect for wearable devices and small projects. It has multiple interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It's compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.

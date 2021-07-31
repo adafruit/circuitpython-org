@@ -11,6 +11,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - LoRa/Radio
+  - Breadboard-Friendly
 ---
 
 This is the** Adafruit Feather M0 RFM69 Packet Radio (433, 868, or 915 MHz)****.** Also called _RadioFruits**,**_ Adafruit's take on an microcontroller with a RFM69HCW packet radio transceiver plus built in USB and battery charging. Its an Adafruit Feather M0 with a VHF radio module cooked in!

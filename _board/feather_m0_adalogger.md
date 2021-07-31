@@ -10,6 +10,7 @@ date_added: 2019-3-9
 features:
   - Feather-Compatible
   - Battery Charging
+  - Breadboard-Friendly
 ---
 
 Feather is a development board from Adafruit, and like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be a new open standard for portable microcontroller cores.

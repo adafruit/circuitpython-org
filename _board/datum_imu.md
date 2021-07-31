@@ -7,6 +7,8 @@ manufacturer: "J&J Studios"
 board_url: "https://jandjstudios.io/datum/datum-IMU/"
 board_image: "datum_imu.jpg"
 date_added: 2019-7-12
+features:
+  - Breadboard-Friendly
 ---
 
 The datum-IMU sensor combines the same SAMD21G18 microcontroller used on the Arduino Zero with the LSM9DS1 IMU sensor from ST Microelectronics to create the simplest, easiest to use IMU sensor for your application.

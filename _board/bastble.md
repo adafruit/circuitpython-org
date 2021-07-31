@@ -13,6 +13,7 @@ features:
   - Bluetooth/BTLE
   - Battery Charging
   - USB-C
+  - Breadboard-Friendly
 ---
 
 The Bast BLE is the new Feather family member with Bluetooth Low Energy and native USB-C support featuring the nRF52840!  

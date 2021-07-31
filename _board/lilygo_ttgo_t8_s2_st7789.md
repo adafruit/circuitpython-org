@@ -11,6 +11,7 @@ features:
   - Display 
   - Battery Charging
   - USB-C
+  - Breadboard-Friendly
 ---
 
 **Features & Specifications:**

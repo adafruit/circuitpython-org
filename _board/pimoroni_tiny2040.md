@@ -10,6 +10,7 @@ date_added: 2021-2-24
 
 features:
   - USB-C
+  - Breadboard-Friendly
 ---
 
 A postage stamp sized RP2040 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into devices. Tiny 2040 comes with 8MB of QSPI (XiP) flash on board so it can handle projects small and large with ease.

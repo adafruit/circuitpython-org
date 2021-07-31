@@ -10,6 +10,7 @@ date_added: 2020-06-05
 
 features: 
   - USB-C
+  - Breadboard-Friendly
 ---
 
 ## Learn More

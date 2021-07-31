@@ -11,7 +11,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - USB-C
-
+  - Breadboard-Friendly
 ---
 
 A Work-In-Progress Feather featuring the NXP i.MX RT1011 MCU and a ESP32.

@@ -12,6 +12,7 @@ features:
   - Battery Charging
   - STEMMA QT/QWIIC
   - USB-C
+  - Arduino Shield Compatible
 ---
 
 What's Metro shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connector for I2C devices, and a Lipoly charger circuit? What's finishing up testing and nearly ready for fabrication? That's right - its the new Adafruit Metro ESP32-S2! With native USB and a load of PSRAM this board is perfect for use with CircuitPython or Arduino, to add low-cost WiFi while keeping shield-compatibility
