@@ -11,6 +11,8 @@ date_added: 2021-08-08
 features: 
   - USB-C
   - Breadboard-Friendly
+  - Bluetooth/BTLE
+  - Battery Charging
 ---
 
 The BlueMicro840 is a nRF52840 controller inspired on the Adafruit nRF52840 feather but with the footprint of an Arduino Pro Micro and a USB-C Connector.
