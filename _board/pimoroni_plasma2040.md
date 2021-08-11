@@ -21,6 +21,7 @@ Swathe everything in rainbows with this all-in-one, USB-C powered controller for
 * Compatible with WS2812/Neopixel/SK6812 and APA102/Dotstar/SK9822 LEDs
 * Sturdy screw terminals for attaching your LED strip
 * USB-C connector for power and programming
+* Qw/ST (Qwiic/STEMMA QT) connector
 * Low side current sensing (accessible via ADC3)
 * Reset, BOOT and two user buttons (the BOOT button can also be used as a user button)
 * RGB LED
