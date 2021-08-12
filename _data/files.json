@@ -1,6 +1,6 @@
 [
  {
-  "downloads": 184,
+  "downloads": 153,
   "id": "8086_commander",
   "versions": [
    {
@@ -77,7 +77,8 @@
      "board",
      "busio",
      "digitalio",
-     "gamepad",
+     "getpass",
+     "keypad",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -93,17 +94,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 55,
+  "downloads": 81,
   "id": "ADM_B_NRF52840_1",
   "versions": [
    {
@@ -222,6 +224,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -247,6 +250,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -255,12 +259,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 158,
   "id": "TG-Watch",
   "versions": [
    {
@@ -379,6 +383,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -404,6 +409,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -412,12 +418,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 145,
+  "downloads": 201,
   "id": "adafruit_feather_esp32s2_nopsram",
   "versions": [
    {
@@ -542,6 +548,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -555,6 +562,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -572,6 +580,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -581,12 +590,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 115,
+  "downloads": 144,
   "id": "adafruit_feather_esp32s2_tftback_nopsram",
   "versions": [
    {
@@ -711,6 +720,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -724,6 +734,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -741,6 +752,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -750,12 +762,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 589,
+  "downloads": 672,
   "id": "adafruit_feather_rp2040",
   "versions": [
    {
@@ -874,6 +886,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -885,6 +898,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -900,6 +914,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -908,12 +923,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 471,
+  "downloads": 603,
   "id": "adafruit_funhouse",
   "versions": [
    {
@@ -1038,6 +1053,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -1051,6 +1067,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -1068,6 +1085,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -1077,12 +1095,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 240,
+  "downloads": 238,
   "id": "adafruit_itsybitsy_rp2040",
   "versions": [
    {
@@ -1201,6 +1219,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -1212,6 +1231,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -1227,6 +1247,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -1235,12 +1256,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 211,
+  "downloads": 417,
   "id": "adafruit_macropad_rp2040",
   "versions": [
    {
@@ -1287,6 +1308,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -1298,6 +1320,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -1313,6 +1336,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -1321,12 +1345,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 596,
+  "downloads": 821,
   "id": "adafruit_magtag_2.9_grayscale",
   "versions": [
    {
@@ -1451,6 +1475,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -1464,6 +1489,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -1481,6 +1507,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -1490,12 +1517,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 280,
+  "downloads": 352,
   "id": "adafruit_metro_esp32s2",
   "versions": [
    {
@@ -1620,6 +1647,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -1633,6 +1661,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -1650,6 +1679,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -1659,12 +1689,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 247,
+  "downloads": 257,
   "id": "adafruit_neokey_trinkey_m0",
   "versions": [
    {
@@ -1734,6 +1764,7 @@
      "adafruit_pixelbuf",
      "board",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -1746,17 +1777,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 187,
+  "downloads": 154,
   "id": "adafruit_proxlight_trinkey_m0",
   "versions": [
    {
@@ -1824,6 +1856,7 @@
      "zh_Latn_pinyin"
     ],
     "modules": [
+     "adafruit_bus_device",
      "adafruit_pixelbuf",
      "board",
      "busio",
@@ -1844,12 +1877,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 291,
+  "downloads": 321,
   "id": "adafruit_qt2040_trinkey",
   "versions": [
    {
@@ -1968,6 +2001,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -1979,6 +2013,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -1994,6 +2029,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -2002,12 +2038,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 423,
+  "downloads": 485,
   "id": "adafruit_qtpy_rp2040",
   "versions": [
    {
@@ -2126,6 +2162,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -2137,6 +2174,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -2152,6 +2190,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -2160,12 +2199,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 227,
+  "downloads": 200,
   "id": "adafruit_rotary_trinkey_m0",
   "versions": [
    {
@@ -2236,6 +2275,7 @@
      "adafruit_pixelbuf",
      "board",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -2249,17 +2289,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 221,
+  "downloads": 199,
   "id": "adafruit_slide_trinkey_m0",
   "versions": [
    {
@@ -2331,6 +2372,7 @@
      "analogio",
      "board",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -2343,17 +2385,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 181,
+  "downloads": 177,
   "id": "aloriumtech_evo_m51",
   "versions": [
    {
@@ -2473,6 +2516,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -2500,6 +2544,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -2507,12 +2552,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 127,
+  "downloads": 122,
   "id": "aramcon2_badge",
   "versions": [
    {
@@ -2631,6 +2676,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -2656,6 +2702,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -2664,12 +2711,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 147,
+  "downloads": 115,
   "id": "aramcon_badge_2019",
   "versions": [
    {
@@ -2788,6 +2835,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -2813,6 +2861,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -2821,12 +2870,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 129,
+  "downloads": 145,
   "id": "arduino_mkr1300",
   "versions": [
    {
@@ -2904,6 +2953,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -2919,12 +2969,13 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
@@ -3007,6 +3058,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -3022,17 +3074,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 303,
+  "downloads": 318,
   "id": "arduino_nano_33_ble",
   "versions": [
    {
@@ -3151,6 +3204,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -3176,6 +3230,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -3184,12 +3239,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 161,
+  "downloads": 195,
   "id": "arduino_nano_33_iot",
   "versions": [
    {
@@ -3267,6 +3322,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -3282,17 +3338,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 482,
+  "downloads": 532,
   "id": "arduino_nano_rp2040_connect",
   "versions": [
    {
@@ -3411,6 +3468,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -3422,6 +3480,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -3437,6 +3496,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -3445,12 +3505,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 176,
+  "downloads": 163,
   "id": "arduino_zero",
   "versions": [
    {
@@ -3528,6 +3588,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -3543,17 +3604,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 24,
+  "downloads": 44,
   "id": "artisense_rd00",
   "versions": [
    {
@@ -3678,6 +3740,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -3691,6 +3754,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -3708,6 +3772,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -3717,12 +3782,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 58,
+  "downloads": 42,
   "id": "atmegazero_esp32s2",
   "versions": [
    {
@@ -3770,6 +3835,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -3783,6 +3849,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -3800,6 +3867,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -3809,12 +3877,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 163,
+  "downloads": 178,
   "id": "bast_pro_mini_m0",
   "versions": [
    {
@@ -3890,6 +3958,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -3905,17 +3974,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 149,
+  "downloads": 153,
   "id": "bastble",
   "versions": [
    {
@@ -4034,6 +4104,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -4059,6 +4130,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -4067,12 +4139,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 143,
+  "downloads": 160,
   "id": "bdmicro_vina_d21",
   "versions": [
    {
@@ -4164,6 +4236,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -4181,17 +4254,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 244,
+  "downloads": 210,
   "id": "bdmicro_vina_d51",
   "versions": [
    {
@@ -4311,6 +4385,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -4338,6 +4413,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -4345,12 +4421,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 195,
+  "downloads": 162,
   "id": "bdmicro_vina_d51_pcb7",
   "versions": [
    {
@@ -4470,6 +4546,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -4497,6 +4574,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -4504,12 +4582,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 248,
+  "downloads": 200,
   "id": "bless_dev_board_multi_sensor",
   "versions": [
    {
@@ -4628,6 +4706,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -4653,6 +4732,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -4661,12 +4741,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 157,
+  "downloads": 146,
   "id": "blm_badge",
   "versions": [
    {
@@ -4743,6 +4823,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -4755,16 +4836,104 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 263,
+  "downloads": 0,
+  "id": "bluemicro840",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "getpass",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "7.0.0-alpha.6"
+   }
+  ]
+ },
+ {
+  "downloads": 261,
   "id": "capablerobot_usbhub",
   "versions": [
    {
@@ -4882,6 +5051,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -4909,6 +5079,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -4916,12 +5087,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 200,
+  "downloads": 204,
   "id": "catwan_usbstick",
   "versions": [
    {
@@ -4996,6 +5167,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -5011,17 +5183,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 180,
+  "downloads": 155,
   "id": "circuitbrains_basic_m0",
   "versions": [
    {
@@ -5114,6 +5287,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -5131,17 +5305,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 164,
+  "downloads": 144,
   "id": "circuitbrains_deluxe_m4",
   "versions": [
    {
@@ -5261,6 +5436,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -5288,6 +5464,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -5295,12 +5472,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 469,
+  "downloads": 595,
   "id": "circuitplayground_bluefruit",
   "versions": [
    {
@@ -5419,6 +5596,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -5444,6 +5622,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -5452,12 +5631,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 788,
+  "downloads": 1025,
   "id": "circuitplayground_express",
   "versions": [
    {
@@ -5550,6 +5729,7 @@
      "countio",
      "digitalio",
      "errno",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -5566,17 +5746,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 180,
+  "downloads": 155,
   "id": "circuitplayground_express_4h",
   "versions": [
    {
@@ -5669,6 +5850,7 @@
      "countio",
      "digitalio",
      "errno",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -5685,17 +5867,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 187,
+  "downloads": 184,
   "id": "circuitplayground_express_crickit",
   "versions": [
    {
@@ -5783,6 +5966,7 @@
      "busio",
      "digitalio",
      "errno",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -5799,17 +5983,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 160,
   "id": "circuitplayground_express_digikey_pycon2019",
   "versions": [
    {
@@ -5902,6 +6087,7 @@
      "countio",
      "digitalio",
      "errno",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -5918,17 +6104,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 196,
+  "downloads": 155,
   "id": "circuitplayground_express_displayio",
   "versions": [
    {
@@ -6015,6 +6202,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -6030,16 +6218,17 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 416,
+  "downloads": 528,
   "id": "clue_nrf52840_express",
   "versions": [
    {
@@ -6158,6 +6347,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -6183,6 +6373,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -6191,12 +6382,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 149,
+  "downloads": 92,
   "id": "cp32-m4",
   "versions": [
    {
@@ -6314,6 +6505,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -6341,6 +6533,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -6348,12 +6541,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 163,
+  "downloads": 155,
   "id": "cp_sapling_m0",
   "versions": [
    {
@@ -6429,6 +6622,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -6444,17 +6638,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 32,
   "id": "cp_sapling_m0_revb",
   "versions": [
    {
@@ -6483,6 +6678,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -6498,17 +6694,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 53,
+  "downloads": 61,
   "id": "cp_sapling_m0_spiflash",
   "versions": [
    {
@@ -6596,6 +6793,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -6613,17 +6811,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 213,
+  "downloads": 107,
   "id": "cytron_maker_pi_rp2040",
   "versions": [
    {
@@ -6670,6 +6869,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -6681,6 +6881,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -6696,6 +6897,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -6704,12 +6906,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 50,
   "id": "datalore_ip_m4",
   "versions": [
    {
@@ -6829,6 +7031,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -6856,6 +7059,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -6863,12 +7067,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 155,
+  "downloads": 157,
   "id": "datum_distance",
   "versions": [
    {
@@ -6944,6 +7148,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -6959,17 +7164,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 129,
+  "downloads": 126,
   "id": "datum_imu",
   "versions": [
    {
@@ -7045,6 +7251,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -7060,17 +7267,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 171,
+  "downloads": 112,
   "id": "datum_light",
   "versions": [
    {
@@ -7146,6 +7354,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -7161,17 +7370,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 124,
+  "downloads": 97,
   "id": "datum_weather",
   "versions": [
    {
@@ -7247,6 +7457,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -7262,17 +7473,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 143,
+  "downloads": 128,
   "id": "dynalora_usb",
   "versions": [
    {
@@ -7348,6 +7560,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -7364,17 +7577,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 166,
+  "downloads": 120,
   "id": "dynossat_edu_eps",
   "versions": [
    {
@@ -7464,6 +7678,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -7479,17 +7694,18 @@
      "supervisor",
      "terminalio",
      "time",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 210,
+  "downloads": 139,
   "id": "dynossat_edu_obc",
   "versions": [
    {
@@ -7609,6 +7825,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -7636,6 +7853,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -7643,12 +7861,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 155,
+  "downloads": 206,
   "id": "edgebadge",
   "versions": [
    {
@@ -7771,8 +7989,8 @@
      "fontio",
      "framebufferio",
      "frequencyio",
-     "gamepad",
      "gamepadshift",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -7800,6 +8018,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -7807,12 +8026,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 95,
+  "downloads": 106,
   "id": "electroniccats_bastwifi",
   "versions": [
    {
@@ -7936,6 +8155,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -7948,6 +8168,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -7965,6 +8186,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -7974,12 +8196,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 197,
+  "downloads": 146,
   "id": "electronut_labs_blip",
   "versions": [
    {
@@ -8100,7 +8322,7 @@
      "errno",
      "fontio",
      "framebufferio",
-     "gamepad",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -8126,6 +8348,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -8134,12 +8357,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 186,
+  "downloads": 158,
   "id": "electronut_labs_papyr",
   "versions": [
    {
@@ -8258,6 +8481,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -8283,6 +8507,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -8291,12 +8516,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 213,
+  "downloads": 185,
   "id": "escornabot_makech",
   "versions": [
    {
@@ -8371,6 +8596,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -8386,16 +8612,17 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 154,
+  "downloads": 169,
   "id": "espressif_kaluga_1",
   "versions": [
    {
@@ -8520,6 +8747,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -8533,6 +8761,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -8550,20 +8779,22 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
+     "usb_hid",
      "usb_midi",
      "vectorio",
      "watchdog",
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 29,
+  "downloads": 63,
   "id": "espressif_kaluga_1.3",
   "versions": [
    {
@@ -8611,6 +8842,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -8624,6 +8856,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -8641,20 +8874,22 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
+     "usb_hid",
      "usb_midi",
      "vectorio",
      "watchdog",
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 237,
+  "downloads": 282,
   "id": "espressif_saola_1_wroom",
   "versions": [
    {
@@ -8779,6 +9014,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -8792,6 +9028,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -8809,6 +9046,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -8818,12 +9056,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 287,
+  "downloads": 342,
   "id": "espressif_saola_1_wrover",
   "versions": [
    {
@@ -8948,6 +9186,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -8961,6 +9200,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -8978,6 +9218,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -8987,12 +9228,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 27,
+  "downloads": 35,
   "id": "espruino_pico",
   "versions": [
    {
@@ -9083,6 +9324,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "json",
      "math",
      "microcontroller",
@@ -9100,12 +9342,13 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
@@ -9208,6 +9451,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -9228,18 +9472,19 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 291,
+  "downloads": 369,
   "id": "feather_bluefruit_sense",
   "versions": [
    {
@@ -9358,6 +9603,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -9383,6 +9629,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -9391,12 +9638,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 226,
   "id": "feather_m0_adalogger",
   "versions": [
    {
@@ -9474,6 +9721,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -9489,17 +9737,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 213,
   "id": "feather_m0_basic",
   "versions": [
    {
@@ -9577,6 +9826,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -9592,17 +9842,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 432,
+  "downloads": 467,
   "id": "feather_m0_express",
   "versions": [
    {
@@ -9694,6 +9945,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -9711,17 +9963,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 140,
+  "downloads": 166,
   "id": "feather_m0_express_crickit",
   "versions": [
    {
@@ -9809,6 +10062,7 @@
      "busio",
      "digitalio",
      "errno",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -9825,17 +10079,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 157,
+  "downloads": 172,
   "id": "feather_m0_rfm69",
   "versions": [
    {
@@ -9907,6 +10162,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -9919,15 +10175,16 @@
      "struct",
      "supervisor",
      "time",
+     "traceback",
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 159,
+  "downloads": 224,
   "id": "feather_m0_rfm9x",
   "versions": [
    {
@@ -9999,6 +10256,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -10011,15 +10269,16 @@
      "struct",
      "supervisor",
      "time",
+     "traceback",
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 143,
+  "downloads": 194,
   "id": "feather_m0_supersized",
   "versions": [
    {
@@ -10111,6 +10370,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -10128,17 +10388,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 150,
+  "downloads": 205,
   "id": "feather_m4_can",
   "versions": [
    {
@@ -10258,6 +10519,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -10285,6 +10547,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -10292,12 +10555,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 623,
+  "downloads": 721,
   "id": "feather_m4_express",
   "versions": [
    {
@@ -10417,6 +10680,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -10444,6 +10708,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -10451,12 +10716,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 113,
+  "downloads": 118,
   "id": "feather_m7_1011",
   "versions": [
    {
@@ -10559,6 +10824,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -10566,7 +10832,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -10580,6 +10845,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -10587,12 +10853,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 133,
+  "downloads": 138,
   "id": "feather_mimxrt1011",
   "versions": [
    {
@@ -10695,6 +10961,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -10702,7 +10969,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -10716,6 +10982,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -10723,12 +10990,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 134,
+  "downloads": 151,
   "id": "feather_mimxrt1062",
   "versions": [
    {
@@ -10831,6 +11098,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -10838,7 +11106,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -10852,6 +11119,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -10859,12 +11127,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 383,
+  "downloads": 429,
   "id": "feather_nrf52840_express",
   "versions": [
    {
@@ -10983,6 +11251,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -11008,6 +11277,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -11016,12 +11286,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 11,
   "id": "feather_radiofruit_zigbee",
   "versions": [
    {
@@ -11081,7 +11351,7 @@
   ]
  },
  {
-  "downloads": 121,
+  "downloads": 160,
   "id": "feather_stm32f405_express",
   "versions": [
    {
@@ -11187,6 +11457,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -11210,6 +11481,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -11217,12 +11489,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 147,
+  "downloads": 160,
   "id": "fluff_m0",
   "versions": [
    {
@@ -11298,6 +11570,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -11313,17 +11586,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 212,
+  "downloads": 165,
   "id": "fomu",
   "versions": [
    {
@@ -11399,6 +11673,7 @@
      "binascii",
      "digitalio",
      "errno",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -11414,18 +11689,19 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 94,
+  "downloads": 122,
   "id": "franzininho_wifi_wroom",
   "versions": [
    {
@@ -11550,6 +11826,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -11563,6 +11840,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -11580,6 +11858,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -11589,12 +11868,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 101,
+  "downloads": 129,
   "id": "franzininho_wifi_wrover",
   "versions": [
    {
@@ -11719,6 +11998,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -11732,6 +12012,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -11749,6 +12030,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -11758,12 +12040,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 345,
+  "downloads": 342,
   "id": "gemma_m0",
   "versions": [
    {
@@ -11839,6 +12121,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -11854,17 +12137,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 138,
+  "downloads": 152,
   "id": "gemma_m0_pycon2018",
   "versions": [
    {
@@ -11940,6 +12224,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -11955,17 +12240,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 329,
+  "downloads": 376,
   "id": "grandcentral_m4_express",
   "versions": [
    {
@@ -12086,6 +12372,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "imagecapture",
      "json",
@@ -12099,6 +12386,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -12115,6 +12403,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -12122,12 +12411,392 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 275,
+  "downloads": 0,
+  "id": "gravitech_cucumber_m",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "frequencyio",
+     "getpass",
+     "imagecapture",
+     "ipaddress",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "7.0.0-alpha.6"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
+  "id": "gravitech_cucumber_ms",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "frequencyio",
+     "getpass",
+     "imagecapture",
+     "ipaddress",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "7.0.0-alpha.6"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
+  "id": "gravitech_cucumber_r",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "frequencyio",
+     "getpass",
+     "imagecapture",
+     "ipaddress",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "7.0.0-alpha.6"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
+  "id": "gravitech_cucumber_rs",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "frequencyio",
+     "getpass",
+     "imagecapture",
+     "ipaddress",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "7.0.0-alpha.6"
+   }
+  ]
+ },
+ {
+  "downloads": 283,
   "id": "hallowing_m0_express",
   "versions": [
    {
@@ -12216,6 +12885,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -12233,17 +12903,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 248,
+  "downloads": 246,
   "id": "hallowing_m4_express",
   "versions": [
    {
@@ -12363,6 +13034,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -12390,6 +13062,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -12397,12 +13070,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 244,
+  "downloads": 230,
   "id": "hiibot_bluefi",
   "versions": [
    {
@@ -12521,6 +13194,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -12546,6 +13220,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -12554,12 +13229,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 175,
+  "downloads": 125,
   "id": "huntercat_nfc",
   "versions": [
    {
@@ -12638,6 +13313,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -12655,17 +13331,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 194,
+  "downloads": 117,
   "id": "ikigaisense_vita",
   "versions": [
    {
@@ -12784,6 +13461,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -12809,6 +13487,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -12817,12 +13496,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 149,
+  "downloads": 167,
   "id": "imxrt1010_evk",
   "versions": [
    {
@@ -12925,6 +13604,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -12932,7 +13612,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -12946,6 +13625,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -12953,12 +13633,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 159,
+  "downloads": 157,
   "id": "imxrt1020_evk",
   "versions": [
    {
@@ -13061,6 +13741,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -13068,7 +13749,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -13082,6 +13762,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -13089,12 +13770,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 160,
   "id": "imxrt1060_evk",
   "versions": [
    {
@@ -13197,6 +13878,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -13204,7 +13886,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -13218,6 +13899,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -13225,12 +13907,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 396,
+  "downloads": 387,
   "id": "itsybitsy_m0_express",
   "versions": [
    {
@@ -13320,6 +14002,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -13336,17 +14019,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 372,
+  "downloads": 445,
   "id": "itsybitsy_m4_express",
   "versions": [
    {
@@ -13464,6 +14148,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -13491,6 +14176,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -13498,12 +14184,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 323,
+  "downloads": 324,
   "id": "itsybitsy_nrf52840_express",
   "versions": [
    {
@@ -13622,6 +14308,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -13647,6 +14334,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -13655,12 +14343,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 99,
+  "downloads": 129,
   "id": "kicksat-sprite",
   "versions": [
    {
@@ -13761,6 +14449,7 @@
      "digitalio",
      "errno",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "math",
@@ -13780,17 +14469,18 @@
      "supervisor",
      "synthio",
      "time",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 203,
+  "downloads": 232,
   "id": "lilygo_ttgo_t8_s2_st7789",
   "versions": [
    {
@@ -13915,6 +14605,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -13928,6 +14619,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -13945,6 +14637,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -13954,12 +14647,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 86,
+  "downloads": 122,
   "id": "loc_ber_m4_base_board",
   "versions": [
    {
@@ -14036,6 +14729,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -14052,17 +14746,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 233,
+  "downloads": 202,
   "id": "makerdiary_m60_keyboard",
   "versions": [
    {
@@ -14181,6 +14876,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -14206,6 +14902,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -14214,12 +14911,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 167,
+  "downloads": 134,
   "id": "makerdiary_nrf52840_m2_devkit",
   "versions": [
    {
@@ -14338,6 +15035,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -14363,6 +15061,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -14371,12 +15070,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 160,
+  "downloads": 121,
   "id": "makerdiary_nrf52840_mdk",
   "versions": [
    {
@@ -14495,6 +15194,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -14520,6 +15220,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -14528,12 +15229,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 175,
+  "downloads": 179,
   "id": "makerdiary_nrf52840_mdk_usb_dongle",
   "versions": [
    {
@@ -14654,6 +15355,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -14679,6 +15381,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -14687,12 +15390,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 483,
+  "downloads": 602,
   "id": "matrixportal_m4",
   "versions": [
    {
@@ -14812,6 +15515,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -14839,6 +15543,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -14846,12 +15551,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 249,
+  "downloads": 177,
   "id": "meowbit_v121",
   "versions": [
    {
@@ -14950,6 +15655,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -14971,18 +15677,19 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 166,
+  "downloads": 165,
   "id": "meowmeow",
   "versions": [
    {
@@ -15056,6 +15763,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -15070,17 +15778,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 333,
+  "downloads": 361,
   "id": "metro_m0_express",
   "versions": [
    {
@@ -15172,6 +15881,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -15189,17 +15899,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 290,
+  "downloads": 316,
   "id": "metro_m4_airlift_lite",
   "versions": [
    {
@@ -15319,6 +16030,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -15346,6 +16058,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -15353,7 +16066,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
@@ -15478,6 +16191,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -15505,6 +16219,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -15512,12 +16227,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 94,
+  "downloads": 100,
   "id": "metro_m7_1011",
   "versions": [
    {
@@ -15620,6 +16335,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -15627,7 +16343,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -15641,6 +16356,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -15648,12 +16364,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 206,
+  "downloads": 195,
   "id": "metro_nrf52840_express",
   "versions": [
    {
@@ -15772,6 +16488,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -15797,6 +16514,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -15805,7 +16523,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
@@ -15845,6 +16563,7 @@
      "busio",
      "digitalio",
      "errno",
+     "getpass",
      "math",
      "microcontroller",
      "os",
@@ -15860,15 +16579,16 @@
      "synthio",
      "time",
      "touchio",
+     "traceback",
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 129,
   "id": "microdev_micro_s2",
   "versions": [
    {
@@ -15993,6 +16713,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -16006,6 +16727,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -16023,6 +16745,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -16032,12 +16755,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 228,
+  "downloads": 202,
   "id": "mini_sam_m4",
   "versions": [
    {
@@ -16155,6 +16878,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -16182,6 +16906,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -16189,12 +16914,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 332,
+  "downloads": 311,
   "id": "monster_m4sk",
   "versions": [
    {
@@ -16314,6 +17039,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -16341,6 +17067,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -16348,12 +17075,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 408,
+  "downloads": 496,
   "id": "muselab_nanoesp32_s2_wroom",
   "versions": [
    {
@@ -16478,6 +17205,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -16491,6 +17219,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -16508,6 +17237,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -16517,12 +17247,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 285,
+  "downloads": 429,
   "id": "muselab_nanoesp32_s2_wrover",
   "versions": [
    {
@@ -16647,6 +17377,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -16660,6 +17391,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -16677,6 +17409,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -16686,12 +17419,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 137,
+  "downloads": 94,
   "id": "ndgarage_ndbit6",
   "versions": [
    {
@@ -16767,6 +17500,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -16782,17 +17516,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 20,
+  "downloads": 54,
   "id": "ndgarage_ndbit6_v2",
   "versions": [
    {
@@ -16868,6 +17603,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -16883,17 +17619,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 355,
+  "downloads": 334,
   "id": "neopixel_trinkey_m0",
   "versions": [
    {
@@ -16963,6 +17700,7 @@
      "adafruit_pixelbuf",
      "board",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -16975,17 +17713,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 221,
+  "downloads": 197,
   "id": "nfc_copy_cat",
   "versions": [
    {
@@ -17061,6 +17800,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -17076,17 +17816,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 218,
+  "downloads": 179,
   "id": "nice_nano",
   "versions": [
    {
@@ -17205,6 +17946,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -17230,6 +17972,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -17238,12 +17981,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 33,
   "id": "nucleo_f746zg",
   "versions": [
    {
@@ -17338,6 +18081,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -17357,6 +18101,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -17364,12 +18109,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 31,
+  "downloads": 43,
   "id": "nucleo_f767zi",
   "versions": [
    {
@@ -17464,6 +18209,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -17483,6 +18229,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -17490,12 +18237,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 31,
+  "downloads": 38,
   "id": "nucleo_h743zi_2",
   "versions": [
    {
@@ -17588,6 +18335,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -17605,6 +18353,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -17612,12 +18361,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 241,
+  "downloads": 194,
   "id": "ohs2020_badge",
   "versions": [
    {
@@ -17736,6 +18485,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -17761,6 +18511,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -17769,12 +18520,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 202,
+  "downloads": 177,
   "id": "openbook_m4",
   "versions": [
    {
@@ -17896,6 +18647,7 @@
      "framebufferio",
      "frequencyio",
      "gamepadshift",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -17923,6 +18675,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -17930,12 +18683,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 25,
+  "downloads": 35,
   "id": "openmv_h7",
   "versions": [
    {
@@ -18028,6 +18781,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -18045,6 +18799,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -18052,12 +18807,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 174,
   "id": "particle_argon",
   "versions": [
    {
@@ -18176,6 +18931,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -18201,6 +18957,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -18209,12 +18966,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 114,
+  "downloads": 124,
   "id": "particle_boron",
   "versions": [
    {
@@ -18333,6 +19090,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -18358,6 +19116,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -18366,12 +19125,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 203,
+  "downloads": 206,
   "id": "particle_xenon",
   "versions": [
    {
@@ -18490,6 +19249,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -18515,6 +19275,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -18523,12 +19284,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 154,
+  "downloads": 163,
   "id": "pca10056",
   "versions": [
    {
@@ -18649,6 +19410,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -18674,6 +19436,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -18682,12 +19445,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 212,
+  "downloads": 246,
   "id": "pca10059",
   "versions": [
    {
@@ -18808,6 +19571,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -18833,6 +19597,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -18841,12 +19606,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 145,
   "id": "pca10100",
   "versions": [
    {
@@ -18935,6 +19700,7 @@
      "busio",
      "digitalio",
      "errno",
+     "getpass",
      "math",
      "microcontroller",
      "os",
@@ -18950,17 +19716,18 @@
      "synthio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 73,
+  "downloads": 109,
   "id": "pewpew10",
   "versions": [
    {
@@ -19035,6 +19802,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -19048,16 +19816,17 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 182,
+  "downloads": 83,
   "id": "pewpew13",
   "versions": [
    {
@@ -19132,6 +19901,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -19145,16 +19915,17 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 184,
+  "downloads": 185,
   "id": "pewpew_m4",
   "versions": [
    {
@@ -19237,6 +20008,7 @@
      "digitalio",
      "displayio",
      "fontio",
+     "getpass",
      "keypad",
      "math",
      "microcontroller",
@@ -19250,15 +20022,16 @@
      "synthio",
      "terminalio",
      "time",
+     "traceback",
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 131,
+  "downloads": 127,
   "id": "picoplanet",
   "versions": [
    {
@@ -19334,6 +20107,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -19349,17 +20123,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 304,
+  "downloads": 309,
   "id": "pimoroni_keybow2040",
   "versions": [
    {
@@ -19478,6 +20253,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -19489,6 +20265,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -19504,6 +20281,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -19512,12 +20290,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 17,
+  "downloads": 45,
   "id": "pimoroni_pga2040",
   "versions": [
    {
@@ -19564,6 +20342,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -19575,6 +20354,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -19590,6 +20370,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -19598,12 +20379,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 280,
+  "downloads": 307,
   "id": "pimoroni_picolipo_16mb",
   "versions": [
    {
@@ -19722,6 +20503,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -19733,6 +20515,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -19748,6 +20531,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -19756,12 +20540,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 206,
+  "downloads": 166,
   "id": "pimoroni_picolipo_4mb",
   "versions": [
    {
@@ -19880,6 +20664,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -19891,6 +20676,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -19906,6 +20692,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -19914,12 +20701,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 193,
+  "downloads": 168,
   "id": "pimoroni_picosystem",
   "versions": [
    {
@@ -20038,6 +20825,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -20049,6 +20837,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -20064,6 +20853,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -20072,12 +20862,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 324,
+  "downloads": 391,
   "id": "pimoroni_tiny2040",
   "versions": [
    {
@@ -20196,6 +20986,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -20207,6 +20998,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -20222,6 +21014,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -20230,12 +21023,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 112,
+  "downloads": 130,
   "id": "pirkey_m0",
   "versions": [
    {
@@ -20282,7 +21075,7 @@
   ]
  },
  {
-  "downloads": 171,
+  "downloads": 161,
   "id": "pitaya_go",
   "versions": [
    {
@@ -20401,6 +21194,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -20426,6 +21220,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -20434,12 +21229,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 34,
+  "downloads": 38,
   "id": "pyb_nano_v2",
   "versions": [
    {
@@ -20537,6 +21332,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "math",
      "microcontroller",
@@ -20555,6 +21351,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -20562,12 +21359,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 280,
+  "downloads": 325,
   "id": "pybadge",
   "versions": [
    {
@@ -20690,8 +21487,8 @@
      "fontio",
      "framebufferio",
      "frequencyio",
-     "gamepad",
      "gamepadshift",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -20719,6 +21516,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -20726,12 +21524,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 98,
+  "downloads": 131,
   "id": "pybadge_airlift",
   "versions": [
    {
@@ -20813,7 +21611,7 @@
   ]
  },
  {
-  "downloads": 69,
+  "downloads": 79,
   "id": "pyboard_v11",
   "versions": [
    {
@@ -20919,6 +21717,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -20942,6 +21741,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -20949,12 +21749,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 200,
+  "downloads": 181,
   "id": "pycubed",
   "versions": [
    {
@@ -21059,6 +21859,7 @@
      "digitalio",
      "errno",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "math",
@@ -21081,18 +21882,19 @@
      "synthio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 176,
+  "downloads": 143,
   "id": "pycubed_mram",
   "versions": [
    {
@@ -21197,6 +21999,7 @@
      "digitalio",
      "errno",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "math",
@@ -21219,18 +22022,19 @@
      "synthio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 372,
+  "downloads": 366,
   "id": "pygamer",
   "versions": [
    {
@@ -21353,8 +22157,8 @@
      "fontio",
      "framebufferio",
      "frequencyio",
-     "gamepad",
      "gamepadshift",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -21382,6 +22186,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -21389,12 +22194,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 137,
+  "downloads": 180,
   "id": "pygamer_advance",
   "versions": [
    {
@@ -21476,7 +22281,7 @@
   ]
  },
  {
-  "downloads": 404,
+  "downloads": 479,
   "id": "pyportal",
   "versions": [
    {
@@ -21596,6 +22401,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -21623,6 +22429,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -21630,12 +22437,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 216,
+  "downloads": 179,
   "id": "pyportal_pynt",
   "versions": [
    {
@@ -21755,6 +22562,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -21782,6 +22590,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -21789,12 +22598,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 317,
+  "downloads": 300,
   "id": "pyportal_titano",
   "versions": [
    {
@@ -21914,6 +22723,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -21941,6 +22751,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -21948,12 +22759,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 277,
+  "downloads": 254,
   "id": "pyruler",
   "versions": [
    {
@@ -22028,6 +22839,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -22043,17 +22855,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 462,
+  "downloads": 543,
   "id": "qtpy_m0",
   "versions": [
    {
@@ -22129,6 +22942,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -22144,17 +22958,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 299,
+  "downloads": 319,
   "id": "qtpy_m0_haxpress",
   "versions": [
    {
@@ -22246,6 +23061,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -22263,17 +23079,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 2240,
+  "downloads": 2814,
   "id": "raspberry_pi_pico",
   "versions": [
    {
@@ -22392,6 +23209,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -22403,6 +23221,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -22418,6 +23237,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -22426,12 +23246,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 115,
+  "downloads": 118,
   "id": "raytac_mdbt50q-db-40",
   "versions": [
    {
@@ -22550,6 +23370,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -22575,6 +23396,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -22583,12 +23405,99 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 208,
+  "downloads": 0,
+  "id": "raytac_mdbt50q-rx",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "getpass",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "os",
+     "pulseio",
+     "pwmio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "7.0.0-alpha.6"
+   }
+  ]
+ },
+ {
+  "downloads": 198,
   "id": "robohatmm1_m4",
   "versions": [
    {
@@ -22693,6 +23602,7 @@
      "countio",
      "digitalio",
      "errno",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -22717,18 +23627,19 @@
      "synthio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 170,
+  "downloads": 138,
   "id": "sam32",
   "versions": [
    {
@@ -22848,6 +23759,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -22875,6 +23787,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -22882,12 +23795,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 171,
+  "downloads": 158,
   "id": "same54_xplained",
   "versions": [
    {
@@ -23008,6 +23921,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -23034,6 +23948,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -23041,12 +23956,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 420,
+  "downloads": 468,
   "id": "seeeduino_wio_terminal",
   "versions": [
    {
@@ -23166,6 +24081,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -23193,6 +24109,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -23200,12 +24117,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 656,
+  "downloads": 791,
   "id": "seeeduino_xiao",
   "versions": [
    {
@@ -23281,6 +24198,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -23296,17 +24214,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 107,
+  "downloads": 35,
   "id": "sensebox_mcu",
   "versions": [
    {
@@ -23350,17 +24269,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 202,
+  "downloads": 151,
   "id": "serpente",
   "versions": [
    {
@@ -23455,6 +24375,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -23472,17 +24393,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 196,
+  "downloads": 150,
   "id": "shirtty",
   "versions": [
    {
@@ -23558,6 +24480,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -23573,17 +24496,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 174,
+  "downloads": 120,
   "id": "silicognition-m4-shim",
   "versions": [
    {
@@ -23703,6 +24627,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -23730,6 +24655,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -23737,12 +24663,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 137,
   "id": "simmel",
   "versions": [
    {
@@ -23832,6 +24758,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "json",
      "math",
      "microcontroller",
@@ -23845,16 +24772,17 @@
      "struct",
      "supervisor",
      "time",
+     "traceback",
      "usb_hid",
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 142,
   "id": "snekboard",
   "versions": [
    {
@@ -23946,6 +24874,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -23963,17 +24892,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 163,
+  "downloads": 151,
   "id": "sparkfun_lumidrive",
   "versions": [
    {
@@ -24063,6 +24993,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -24080,17 +25011,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 179,
+  "downloads": 176,
   "id": "sparkfun_micromod_rp2040",
   "versions": [
    {
@@ -24209,6 +25141,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -24220,6 +25153,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -24235,6 +25169,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -24243,12 +25178,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 146,
+  "downloads": 131,
   "id": "sparkfun_nrf52840_micromod",
   "versions": [
    {
@@ -24367,6 +25302,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -24392,6 +25328,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -24400,12 +25337,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 162,
+  "downloads": 163,
   "id": "sparkfun_nrf52840_mini",
   "versions": [
    {
@@ -24524,6 +25461,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -24549,6 +25487,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -24557,12 +25496,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 215,
+  "downloads": 193,
   "id": "sparkfun_pro_micro_rp2040",
   "versions": [
    {
@@ -24681,6 +25620,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -24692,6 +25632,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -24707,6 +25648,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -24715,12 +25657,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 142,
+  "downloads": 116,
   "id": "sparkfun_qwiic_micro_no_flash",
   "versions": [
    {
@@ -24796,6 +25738,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -24811,17 +25754,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 157,
+  "downloads": 162,
   "id": "sparkfun_qwiic_micro_with_flash",
   "versions": [
    {
@@ -24897,6 +25841,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -24912,17 +25857,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 141,
+  "downloads": 203,
   "id": "sparkfun_redboard_turbo",
   "versions": [
    {
@@ -25013,6 +25959,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -25030,17 +25977,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 227,
+  "downloads": 185,
   "id": "sparkfun_samd21_dev",
   "versions": [
    {
@@ -25116,6 +26064,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -25131,17 +26080,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 203,
+  "downloads": 179,
   "id": "sparkfun_samd21_mini",
   "versions": [
    {
@@ -25217,6 +26167,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -25232,17 +26183,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 130,
+  "downloads": 26,
   "id": "sparkfun_samd51_micromod",
   "versions": [
    {
@@ -25288,6 +26240,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -25315,6 +26268,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -25322,12 +26276,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 248,
+  "downloads": 217,
   "id": "sparkfun_samd51_thing_plus",
   "versions": [
    {
@@ -25447,6 +26401,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -25474,6 +26429,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -25481,12 +26437,93 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 241,
+  "downloads": 0,
+  "id": "sparkfun_stm32f405_micromod",
+  "versions": [
+   {
+    "extensions": [
+     "bin"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "alarm",
+     "analogio",
+     "audiocore",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "getpass",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "os",
+     "pulseio",
+     "pwmio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "sdcardio",
+     "sdioio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio"
+    ],
+    "stable": false,
+    "version": "7.0.0-alpha.6"
+   }
+  ]
+ },
+ {
+  "downloads": 227,
   "id": "sparkfun_thing_plus_rp2040",
   "versions": [
    {
@@ -25605,6 +26642,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "imagecapture",
      "json",
      "keypad",
@@ -25616,6 +26654,7 @@
      "os",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -25631,6 +26670,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -25639,12 +26679,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 180,
+  "downloads": 167,
   "id": "spresense",
   "versions": [
    {
@@ -25733,9 +26773,9 @@
      "camera",
      "digitalio",
      "errno",
+     "getpass",
      "gnss",
      "json",
-     "keypad",
      "math",
      "microcontroller",
      "os",
@@ -25751,16 +26791,17 @@
      "struct",
      "supervisor",
      "time",
+     "traceback",
      "ulab",
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 184,
+  "downloads": 156,
   "id": "stackrduino_m0_pro",
   "versions": [
    {
@@ -25852,6 +26893,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -25869,17 +26911,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 104,
+  "downloads": 126,
   "id": "stm32f411ce_blackpill",
   "versions": [
    {
@@ -25977,6 +27020,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -25997,18 +27041,19 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 52,
+  "downloads": 64,
   "id": "stm32f411ce_blackpill_with_flash",
   "versions": [
    {
@@ -26096,8 +27141,12 @@
      "adafruit_bus_device",
      "adafruit_pixelbuf",
      "analogio",
+     "audiocore",
+     "audiomp3",
+     "audiopwmio",
      "binascii",
      "bitbangio",
+     "bitmaptools",
      "board",
      "busio",
      "digitalio",
@@ -26105,6 +27154,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -26122,21 +27172,24 @@
      "storage",
      "struct",
      "supervisor",
+     "synthio",
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
-     "usb_midi"
+     "usb_midi",
+     "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 32,
+  "downloads": 35,
   "id": "stm32f411ve_discovery",
   "versions": [
    {
@@ -26234,6 +27287,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "math",
      "microcontroller",
@@ -26252,6 +27306,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -26259,12 +27314,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 27,
+  "downloads": 34,
   "id": "stm32f412zg_discovery",
   "versions": [
    {
@@ -26365,6 +27420,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -26386,6 +27442,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -26393,12 +27450,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 49,
+  "downloads": 59,
   "id": "stm32f4_discovery",
   "versions": [
    {
@@ -26503,6 +27560,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -26525,6 +27583,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -26532,12 +27591,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 37,
+  "downloads": 41,
   "id": "stm32f746g_discovery",
   "versions": [
    {
@@ -26632,6 +27691,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -26651,6 +27711,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -26658,12 +27719,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 218,
+  "downloads": 175,
   "id": "stringcar_m0_express",
   "versions": [
    {
@@ -26754,6 +27815,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -26771,17 +27833,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 133,
+  "downloads": 158,
   "id": "targett_module_clip_wroom",
   "versions": [
    {
@@ -26906,6 +27969,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -26919,6 +27983,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -26936,6 +28001,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -26945,12 +28011,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 112,
+  "downloads": 124,
   "id": "targett_module_clip_wrover",
   "versions": [
    {
@@ -27075,6 +28141,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -27088,6 +28155,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -27105,6 +28173,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -27114,12 +28183,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 291,
+  "downloads": 342,
   "id": "teensy40",
   "versions": [
    {
@@ -27222,6 +28291,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -27229,7 +28299,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -27243,6 +28312,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -27250,12 +28320,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 298,
+  "downloads": 338,
   "id": "teensy41",
   "versions": [
    {
@@ -27358,6 +28428,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -27365,7 +28436,6 @@
      "msgpack",
      "neopixel_write",
      "os",
-     "pulseio",
      "pwmio",
      "rainbowio",
      "random",
@@ -27379,6 +28449,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -27386,12 +28457,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 203,
+  "downloads": 174,
   "id": "teknikio_bluebird",
   "versions": [
    {
@@ -27510,6 +28581,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -27535,6 +28607,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -27543,12 +28616,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 17,
+  "downloads": 23,
   "id": "thunderpack_v11",
   "versions": [
    {
@@ -27647,6 +28720,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -27669,18 +28743,19 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 18,
+  "downloads": 28,
   "id": "thunderpack_v12",
   "versions": [
    {
@@ -27780,6 +28855,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -27802,18 +28878,19 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_midi",
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 211,
+  "downloads": 176,
   "id": "tinkeringtech_scoutmakes_azul",
   "versions": [
    {
@@ -27932,6 +29009,7 @@
      "errno",
      "fontio",
      "framebufferio",
+     "getpass",
      "json",
      "keypad",
      "math",
@@ -27957,6 +29035,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -27965,12 +29044,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 315,
+  "downloads": 345,
   "id": "trellis_m4_express",
   "versions": [
    {
@@ -28088,6 +29167,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -28115,6 +29195,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -28122,12 +29203,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 639,
+  "downloads": 711,
   "id": "trinket_m0",
   "versions": [
    {
@@ -28203,6 +29284,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -28218,17 +29300,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 206,
+  "downloads": 164,
   "id": "trinket_m0_haxpress",
   "versions": [
    {
@@ -28320,6 +29403,7 @@
      "displayio",
      "errno",
      "fontio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -28337,17 +29421,18 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 30,
+  "downloads": 70,
   "id": "uartlogger2",
   "versions": [
    {
@@ -28467,6 +29552,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "i2cperipheral",
      "json",
      "keypad",
@@ -28494,6 +29580,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -28501,12 +29588,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 153,
+  "downloads": 147,
   "id": "uchip",
   "versions": [
    {
@@ -28584,6 +29671,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -28599,17 +29687,18 @@
      "supervisor",
      "time",
      "touchio",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 110,
+  "downloads": 105,
   "id": "ugame10",
   "versions": [
    {
@@ -28695,7 +29784,7 @@
      "displayio",
      "errno",
      "fontio",
-     "gamepad",
+     "getpass",
      "math",
      "microcontroller",
      "nvm",
@@ -28709,15 +29798,16 @@
      "supervisor",
      "terminalio",
      "time",
+     "traceback",
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 381,
+  "downloads": 453,
   "id": "unexpectedmaker_feathers2",
   "versions": [
    {
@@ -28842,6 +29932,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -28855,6 +29946,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -28872,6 +29964,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -28881,12 +29974,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 56,
+  "downloads": 78,
   "id": "unexpectedmaker_feathers2_prerelease",
   "versions": [
    {
@@ -29011,6 +30104,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -29024,6 +30118,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -29041,6 +30136,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -29050,12 +30146,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 151,
+  "downloads": 186,
   "id": "unexpectedmaker_tinys2",
   "versions": [
    {
@@ -29180,6 +30276,7 @@
      "fontio",
      "framebufferio",
      "frequencyio",
+     "getpass",
      "imagecapture",
      "ipaddress",
      "json",
@@ -29193,6 +30290,7 @@
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -29210,6 +30308,7 @@
      "terminalio",
      "time",
      "touchio",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_hid",
@@ -29219,12 +30318,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 186,
+  "downloads": 206,
   "id": "winterbloom_big_honking_button",
   "versions": [
    {
@@ -29307,6 +30406,7 @@
      "busio",
      "digitalio",
      "errno",
+     "getpass",
      "math",
      "microcontroller",
      "neopixel_write",
@@ -29321,15 +30421,16 @@
      "struct",
      "supervisor",
      "time",
+     "traceback",
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 215,
+  "downloads": 178,
   "id": "winterbloom_sol",
   "versions": [
    {
@@ -29421,8 +30522,8 @@
      "digitalio",
      "errno",
      "frequencyio",
+     "getpass",
      "json",
-     "keypad",
      "math",
      "microcontroller",
      "msgpack",
@@ -29441,17 +30542,18 @@
      "struct",
      "supervisor",
      "time",
+     "traceback",
      "ulab",
      "usb_cdc",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 186,
+  "downloads": 183,
   "id": "xinabox_cc03",
   "versions": [
    {
@@ -29521,6 +30623,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "nvm",
@@ -29533,17 +30636,18 @@
      "struct",
      "supervisor",
      "time",
+     "traceback",
      "usb_cdc",
      "usb_hid",
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  },
  {
-  "downloads": 182,
+  "downloads": 165,
   "id": "xinabox_cs11",
   "versions": [
    {
@@ -29611,6 +30715,7 @@
      "board",
      "busio",
      "digitalio",
+     "getpass",
      "math",
      "microcontroller",
      "nvm",
@@ -29623,11 +30728,12 @@
      "struct",
      "supervisor",
      "time",
+     "traceback",
      "usb_cdc",
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-alpha.5"
+    "version": "7.0.0-alpha.6"
    }
   ]
  }
