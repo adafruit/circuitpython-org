@@ -6,6 +6,7 @@ name: "CrumpSpace CrumpS2"
 manufacturer: "CrumpSpace"
 board_url: "https://github.com/tylercrumpton/CrumpS2"
 board_image: "crumpspace_crumps2.jpg"
+date_added: 2021-8-13
 features:
   - Wi-Fi
   - USB-C
