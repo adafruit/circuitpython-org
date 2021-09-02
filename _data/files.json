@@ -1,6 +1,6 @@
 [
  {
-  "downloads": 162,
+  "downloads": 0,
   "id": "8086_commander",
   "versions": [
    {
@@ -99,12 +99,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 112,
+  "downloads": 0,
   "id": "ADM_B_NRF52840_1",
   "versions": [
    {
@@ -234,6 +234,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -260,12 +261,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 197,
+  "downloads": 0,
   "id": "TG-Watch",
   "versions": [
    {
@@ -395,6 +396,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -421,12 +423,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 209,
+  "downloads": 0,
   "id": "adafruit_feather_esp32s2_nopsram",
   "versions": [
    {
@@ -532,6 +534,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -564,6 +567,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -595,12 +599,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 136,
+  "downloads": 0,
   "id": "adafruit_feather_esp32s2_tftback_nopsram",
   "versions": [
    {
@@ -706,6 +710,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -738,6 +743,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -769,12 +775,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 746,
+  "downloads": 0,
   "id": "adafruit_feather_rp2040",
   "versions": [
    {
@@ -874,6 +880,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -905,6 +912,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -932,12 +940,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 662,
+  "downloads": 0,
   "id": "adafruit_funhouse",
   "versions": [
    {
@@ -1043,6 +1051,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -1075,6 +1084,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -1106,12 +1116,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 303,
+  "downloads": 0,
   "id": "adafruit_itsybitsy_rp2040",
   "versions": [
    {
@@ -1211,6 +1221,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -1242,6 +1253,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -1269,12 +1281,102 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 543,
+  "downloads": 0,
+  "id": "adafruit_led_glasses_nrf52840",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "atexit",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "getpass",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "onewireio",
+     "os",
+     "paralleldisplay",
+     "pulseio",
+     "pwmio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "7.0.0-rc.1"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "adafruit_macropad_rp2040",
   "versions": [
    {
@@ -1302,6 +1404,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -1333,6 +1436,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -1360,12 +1464,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 924,
+  "downloads": 0,
   "id": "adafruit_magtag_2.9_grayscale",
   "versions": [
    {
@@ -1471,6 +1575,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -1503,6 +1608,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -1534,12 +1640,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 375,
+  "downloads": 0,
   "id": "adafruit_metro_esp32s2",
   "versions": [
    {
@@ -1645,6 +1751,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -1677,6 +1784,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -1708,12 +1816,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 295,
+  "downloads": 0,
   "id": "adafruit_neokey_trinkey_m0",
   "versions": [
    {
@@ -1800,12 +1908,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 204,
+  "downloads": 0,
   "id": "adafruit_proxlight_trinkey_m0",
   "versions": [
    {
@@ -1895,12 +2003,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 351,
+  "downloads": 0,
   "id": "adafruit_qt2040_trinkey",
   "versions": [
    {
@@ -2000,6 +2108,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -2031,6 +2140,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -2058,12 +2168,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 525,
+  "downloads": 0,
   "id": "adafruit_qtpy_rp2040",
   "versions": [
    {
@@ -2163,6 +2273,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -2194,6 +2305,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -2221,12 +2333,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 275,
+  "downloads": 0,
   "id": "adafruit_rotary_trinkey_m0",
   "versions": [
    {
@@ -2315,12 +2427,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 245,
+  "downloads": 0,
   "id": "adafruit_slide_trinkey_m0",
   "versions": [
    {
@@ -2409,7 +2521,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -2443,6 +2555,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -2475,6 +2588,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -2506,12 +2620,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 176,
+  "downloads": 0,
   "id": "aloriumtech_evo_m51",
   "versions": [
    {
@@ -2613,6 +2727,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -2643,6 +2758,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -2669,12 +2785,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 125,
+  "downloads": 0,
   "id": "aramcon2_badge",
   "versions": [
    {
@@ -2804,6 +2920,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -2830,12 +2947,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 128,
+  "downloads": 0,
   "id": "aramcon_badge_2019",
   "versions": [
    {
@@ -2965,6 +3082,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -2991,12 +3109,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 137,
+  "downloads": 0,
   "id": "arduino_mkr1300",
   "versions": [
    {
@@ -3095,12 +3213,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 171,
+  "downloads": 0,
   "id": "arduino_mkrzero",
   "versions": [
    {
@@ -3199,12 +3317,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 322,
+  "downloads": 0,
   "id": "arduino_nano_33_ble",
   "versions": [
    {
@@ -3334,6 +3452,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -3360,12 +3479,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 197,
+  "downloads": 0,
   "id": "arduino_nano_33_iot",
   "versions": [
    {
@@ -3464,12 +3583,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 590,
+  "downloads": 0,
   "id": "arduino_nano_rp2040_connect",
   "versions": [
    {
@@ -3569,6 +3688,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -3600,6 +3720,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -3627,12 +3748,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 180,
+  "downloads": 0,
   "id": "arduino_zero",
   "versions": [
    {
@@ -3731,12 +3852,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 52,
+  "downloads": 0,
   "id": "artisense_rd00",
   "versions": [
    {
@@ -3842,6 +3963,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -3874,6 +3996,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -3905,12 +4028,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 43,
+  "downloads": 0,
   "id": "atmegazero_esp32s2",
   "versions": [
    {
@@ -3939,6 +4062,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -3971,6 +4095,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -4002,12 +4127,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 180,
+  "downloads": 0,
   "id": "bast_pro_mini_m0",
   "versions": [
    {
@@ -4104,12 +4229,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 142,
+  "downloads": 0,
   "id": "bastble",
   "versions": [
    {
@@ -4239,6 +4364,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -4265,12 +4391,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 136,
+  "downloads": 0,
   "id": "bdmicro_vina_d21",
   "versions": [
    {
@@ -4370,6 +4496,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -4388,12 +4515,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 250,
+  "downloads": 0,
   "id": "bdmicro_vina_d51",
   "versions": [
    {
@@ -4495,6 +4622,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -4525,6 +4653,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -4551,12 +4680,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 171,
+  "downloads": 0,
   "id": "bdmicro_vina_d51_pcb7",
   "versions": [
    {
@@ -4658,6 +4787,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -4688,6 +4818,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -4714,12 +4845,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 269,
+  "downloads": 0,
   "id": "bless_dev_board_multi_sensor",
   "versions": [
    {
@@ -4849,6 +4980,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -4875,12 +5007,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 141,
+  "downloads": 0,
   "id": "blm_badge",
   "versions": [
    {
@@ -4974,12 +5106,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 15,
+  "downloads": 0,
   "id": "bluemicro840",
   "versions": [
    {
@@ -5037,6 +5169,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -5063,12 +5196,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 294,
+  "downloads": 0,
   "id": "capablerobot_usbhub",
   "versions": [
    {
@@ -5169,6 +5302,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -5198,6 +5332,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -5224,12 +5359,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 202,
+  "downloads": 0,
   "id": "catwan_usbstick",
   "versions": [
    {
@@ -5325,12 +5460,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 157,
+  "downloads": 0,
   "id": "circuitbrains_basic_m0",
   "versions": [
    {
@@ -5431,6 +5566,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -5449,12 +5585,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 165,
+  "downloads": 0,
   "id": "circuitbrains_deluxe_m4",
   "versions": [
    {
@@ -5556,6 +5692,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -5586,6 +5723,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -5612,12 +5750,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 701,
+  "downloads": 0,
   "id": "circuitplayground_bluefruit",
   "versions": [
    {
@@ -5747,6 +5885,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -5773,12 +5912,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 1150,
+  "downloads": 0,
   "id": "circuitplayground_express",
   "versions": [
    {
@@ -5896,12 +6035,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 164,
+  "downloads": 0,
   "id": "circuitplayground_express_4h",
   "versions": [
    {
@@ -6019,12 +6158,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 205,
+  "downloads": 0,
   "id": "circuitplayground_express_crickit",
   "versions": [
    {
@@ -6137,12 +6276,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 171,
+  "downloads": 0,
   "id": "circuitplayground_express_digikey_pycon2019",
   "versions": [
    {
@@ -6260,12 +6399,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 202,
+  "downloads": 0,
   "id": "circuitplayground_express_displayio",
   "versions": [
    {
@@ -6375,12 +6514,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 553,
+  "downloads": 0,
   "id": "clue_nrf52840_express",
   "versions": [
    {
@@ -6510,6 +6649,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -6536,12 +6676,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 98,
+  "downloads": 0,
   "id": "cp32-m4",
   "versions": [
    {
@@ -6642,6 +6782,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -6671,6 +6812,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -6697,12 +6839,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 148,
+  "downloads": 0,
   "id": "cp_sapling_m0",
   "versions": [
    {
@@ -6799,12 +6941,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 25,
+  "downloads": 0,
   "id": "cp_sapling_m0_revb",
   "versions": [
    {
@@ -6854,12 +6996,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 114,
+  "downloads": 0,
   "id": "cp_sapling_m0_spiflash",
   "versions": [
    {
@@ -6955,6 +7097,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -6973,7 +7116,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -7007,6 +7150,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -7039,6 +7183,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -7070,12 +7215,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 88,
+  "downloads": 0,
   "id": "cytron_maker_pi_rp2040",
   "versions": [
    {
@@ -7103,6 +7248,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -7134,6 +7280,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -7161,12 +7308,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 43,
+  "downloads": 0,
   "id": "datalore_ip_m4",
   "versions": [
    {
@@ -7268,6 +7415,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -7298,6 +7446,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -7324,12 +7473,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 143,
+  "downloads": 0,
   "id": "datum_distance",
   "versions": [
    {
@@ -7426,12 +7575,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 115,
+  "downloads": 0,
   "id": "datum_imu",
   "versions": [
    {
@@ -7528,12 +7677,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 146,
+  "downloads": 0,
   "id": "datum_light",
   "versions": [
    {
@@ -7630,12 +7779,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 101,
+  "downloads": 0,
   "id": "datum_weather",
   "versions": [
    {
@@ -7732,12 +7881,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 118,
+  "downloads": 0,
   "id": "dynalora_usb",
   "versions": [
    {
@@ -7835,12 +7984,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 130,
+  "downloads": 0,
   "id": "dynossat_edu_eps",
   "versions": [
    {
@@ -7938,6 +8087,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -7954,12 +8104,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 146,
+  "downloads": 0,
   "id": "dynossat_edu_obc",
   "versions": [
    {
@@ -8061,6 +8211,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -8091,6 +8242,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -8117,12 +8269,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 223,
+  "downloads": 0,
   "id": "edgebadge",
   "versions": [
    {
@@ -8258,6 +8410,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -8284,12 +8437,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 90,
+  "downloads": 0,
   "id": "electroniccats_bastwifi",
   "versions": [
    {
@@ -8394,6 +8547,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -8425,6 +8579,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -8456,12 +8611,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 157,
+  "downloads": 0,
   "id": "electronut_labs_blip",
   "versions": [
    {
@@ -8593,6 +8748,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -8619,12 +8775,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 153,
+  "downloads": 0,
   "id": "electronut_labs_papyr",
   "versions": [
    {
@@ -8754,6 +8910,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -8780,12 +8937,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 191,
+  "downloads": 0,
   "id": "escornabot_makech",
   "versions": [
    {
@@ -8880,12 +9037,111 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 0,
+  "id": "espressif_hmi_devkit_1",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "atexit",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "frequencyio",
+     "getpass",
+     "imagecapture",
+     "ipaddress",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "onewireio",
+     "os",
+     "paralleldisplay",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "7.0.0-rc.1"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "espressif_kaluga_1",
   "versions": [
    {
@@ -8991,6 +9247,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -9023,6 +9280,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -9054,12 +9312,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 67,
+  "downloads": 0,
   "id": "espressif_kaluga_1.3",
   "versions": [
    {
@@ -9088,6 +9346,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -9120,6 +9379,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -9151,12 +9411,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 313,
+  "downloads": 0,
   "id": "espressif_saola_1_wroom",
   "versions": [
    {
@@ -9262,6 +9522,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -9294,6 +9555,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -9325,12 +9587,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 394,
+  "downloads": 0,
   "id": "espressif_saola_1_wrover",
   "versions": [
    {
@@ -9436,6 +9698,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -9468,6 +9731,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -9499,12 +9763,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 36,
+  "downloads": 0,
   "id": "espruino_pico",
   "versions": [
    {
@@ -9621,12 +9885,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 25,
+  "downloads": 0,
   "id": "espruino_wifi",
   "versions": [
    {
@@ -9713,6 +9977,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -9754,12 +10019,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 437,
+  "downloads": 0,
   "id": "feather_bluefruit_sense",
   "versions": [
    {
@@ -9889,6 +10154,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -9915,12 +10181,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 239,
+  "downloads": 0,
   "id": "feather_m0_adalogger",
   "versions": [
    {
@@ -10019,12 +10285,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 232,
+  "downloads": 0,
   "id": "feather_m0_basic",
   "versions": [
    {
@@ -10123,12 +10389,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 532,
+  "downloads": 0,
   "id": "feather_m0_express",
   "versions": [
    {
@@ -10228,6 +10494,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -10246,12 +10513,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 151,
+  "downloads": 0,
   "id": "feather_m0_express_crickit",
   "versions": [
    {
@@ -10364,12 +10631,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 181,
+  "downloads": 0,
   "id": "feather_m0_rfm69",
   "versions": [
    {
@@ -10457,12 +10724,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 248,
+  "downloads": 0,
   "id": "feather_m0_rfm9x",
   "versions": [
    {
@@ -10550,12 +10817,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 212,
+  "downloads": 0,
   "id": "feather_m0_supersized",
   "versions": [
    {
@@ -10655,6 +10922,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -10673,12 +10941,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 239,
+  "downloads": 0,
   "id": "feather_m4_can",
   "versions": [
    {
@@ -10779,6 +11047,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -10810,6 +11079,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -10836,12 +11106,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 794,
+  "downloads": 0,
   "id": "feather_m4_express",
   "versions": [
    {
@@ -10943,6 +11213,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -10973,6 +11244,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -10999,12 +11271,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 116,
+  "downloads": 0,
   "id": "feather_m7_1011",
   "versions": [
    {
@@ -11096,6 +11368,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -11138,12 +11411,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 154,
+  "downloads": 0,
   "id": "feather_mimxrt1011",
   "versions": [
    {
@@ -11235,6 +11508,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -11277,12 +11551,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 163,
+  "downloads": 0,
   "id": "feather_mimxrt1062",
   "versions": [
    {
@@ -11374,6 +11648,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -11416,12 +11691,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 490,
+  "downloads": 0,
   "id": "feather_nrf52840_express",
   "versions": [
    {
@@ -11551,6 +11826,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -11577,7 +11853,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -11642,7 +11918,7 @@
   ]
  },
  {
-  "downloads": 181,
+  "downloads": 0,
   "id": "feather_stm32f405_express",
   "versions": [
    {
@@ -11732,6 +12008,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -11782,12 +12059,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 191,
+  "downloads": 0,
   "id": "fluff_m0",
   "versions": [
    {
@@ -11884,12 +12161,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 185,
+  "downloads": 0,
   "id": "fomu",
   "versions": [
    {
@@ -11962,6 +12239,7 @@
     ],
     "modules": [
      "adafruit_pixelbuf",
+     "aesio",
      "atexit",
      "binascii",
      "digitalio",
@@ -11989,12 +12267,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 113,
+  "downloads": 0,
   "id": "franzininho_wifi_wroom",
   "versions": [
    {
@@ -12100,6 +12378,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -12132,6 +12411,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -12163,12 +12443,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 145,
+  "downloads": 0,
   "id": "franzininho_wifi_wrover",
   "versions": [
    {
@@ -12274,6 +12554,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -12306,6 +12587,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -12337,12 +12619,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 385,
+  "downloads": 0,
   "id": "gemma_m0",
   "versions": [
    {
@@ -12439,12 +12721,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 153,
+  "downloads": 0,
   "id": "gemma_m0_pycon2018",
   "versions": [
    {
@@ -12541,12 +12823,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 401,
+  "downloads": 0,
   "id": "grandcentral_m4_express",
   "versions": [
    {
@@ -12649,6 +12931,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -12680,6 +12963,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -12708,12 +12992,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 28,
+  "downloads": 0,
   "id": "gravitech_cucumber_m",
   "versions": [
    {
@@ -12742,6 +13026,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -12774,6 +13059,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -12805,12 +13091,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 0,
   "id": "gravitech_cucumber_ms",
   "versions": [
    {
@@ -12839,6 +13125,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -12871,6 +13158,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -12902,12 +13190,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 18,
+  "downloads": 0,
   "id": "gravitech_cucumber_r",
   "versions": [
    {
@@ -12936,6 +13224,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -12968,6 +13257,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -12999,12 +13289,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 0,
   "id": "gravitech_cucumber_rs",
   "versions": [
    {
@@ -13033,6 +13323,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -13065,6 +13356,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -13096,12 +13388,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 284,
+  "downloads": 0,
   "id": "hallowing_m0_express",
   "versions": [
    {
@@ -13198,6 +13490,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -13216,12 +13509,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 259,
+  "downloads": 0,
   "id": "hallowing_m4_express",
   "versions": [
    {
@@ -13323,6 +13616,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -13353,6 +13647,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -13379,12 +13674,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 253,
+  "downloads": 0,
   "id": "hiibot_bluefi",
   "versions": [
    {
@@ -13514,6 +13809,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -13540,12 +13836,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 133,
+  "downloads": 0,
   "id": "huntercat_nfc",
   "versions": [
    {
@@ -13632,6 +13928,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -13650,12 +13947,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 120,
+  "downloads": 0,
   "id": "ikigaisense_vita",
   "versions": [
    {
@@ -13785,6 +14082,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -13811,12 +14109,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 179,
+  "downloads": 0,
   "id": "imxrt1010_evk",
   "versions": [
    {
@@ -13908,6 +14206,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -13950,12 +14249,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 154,
+  "downloads": 0,
   "id": "imxrt1020_evk",
   "versions": [
    {
@@ -14047,6 +14346,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -14089,12 +14389,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 171,
+  "downloads": 0,
   "id": "imxrt1060_evk",
   "versions": [
    {
@@ -14186,6 +14486,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -14228,12 +14529,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 426,
+  "downloads": 0,
   "id": "itsybitsy_m0_express",
   "versions": [
    {
@@ -14331,6 +14632,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pwmio",
      "rainbowio",
      "random",
@@ -14348,12 +14650,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 458,
+  "downloads": 0,
   "id": "itsybitsy_m4_express",
   "versions": [
    {
@@ -14454,6 +14756,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -14483,6 +14786,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -14509,12 +14813,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 351,
+  "downloads": 0,
   "id": "itsybitsy_nrf52840_express",
   "versions": [
    {
@@ -14644,6 +14948,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -14670,12 +14975,105 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 142,
+  "downloads": 0,
+  "id": "jpconstantineau_encoderpad_rp2040",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "atexit",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "bitops",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "getpass",
+     "imagecapture",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "onewireio",
+     "os",
+     "paralleldisplay",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "7.0.0-rc.1"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "kicksat-sprite",
   "versions": [
    {
@@ -14803,12 +15201,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 249,
+  "downloads": 0,
   "id": "lilygo_ttgo_t8_s2_st7789",
   "versions": [
    {
@@ -14914,6 +15312,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -14946,6 +15345,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -14977,12 +15377,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 122,
+  "downloads": 0,
   "id": "loc_ber_m4_base_board",
   "versions": [
    {
@@ -15081,12 +15481,111 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 254,
+  "downloads": 0,
+  "id": "lolin_s2_mini",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "atexit",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "frequencyio",
+     "getpass",
+     "imagecapture",
+     "ipaddress",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "onewireio",
+     "os",
+     "paralleldisplay",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "7.0.0-rc.1"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "makerdiary_m60_keyboard",
   "versions": [
    {
@@ -15216,6 +15715,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -15242,12 +15742,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 121,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_m2_devkit",
   "versions": [
    {
@@ -15377,6 +15877,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -15403,12 +15904,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 157,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_mdk",
   "versions": [
    {
@@ -15538,6 +16039,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -15564,12 +16066,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 210,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_mdk_usb_dongle",
   "versions": [
    {
@@ -15701,6 +16203,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -15727,12 +16230,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 725,
+  "downloads": 0,
   "id": "matrixportal_m4",
   "versions": [
    {
@@ -15834,6 +16337,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -15864,6 +16368,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -15890,12 +16395,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 201,
+  "downloads": 0,
   "id": "meowbit_v121",
   "versions": [
    {
@@ -15978,6 +16483,7 @@
      "zh_Latn_pinyin"
     ],
     "modules": [
+     "_stage",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
      "analogio",
@@ -16025,12 +16531,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 162,
+  "downloads": 0,
   "id": "meowmeow",
   "versions": [
    {
@@ -16124,12 +16630,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 403,
+  "downloads": 0,
   "id": "metro_m0_express",
   "versions": [
    {
@@ -16229,6 +16735,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -16247,12 +16754,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 356,
+  "downloads": 0,
   "id": "metro_m4_airlift_lite",
   "versions": [
    {
@@ -16354,6 +16861,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -16384,6 +16892,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -16410,12 +16919,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 349,
+  "downloads": 0,
   "id": "metro_m4_express",
   "versions": [
    {
@@ -16517,6 +17026,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -16547,6 +17057,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -16573,12 +17084,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 0,
   "id": "metro_m7_1011",
   "versions": [
    {
@@ -16670,6 +17181,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -16712,12 +17224,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 227,
+  "downloads": 0,
   "id": "metro_nrf52840_express",
   "versions": [
    {
@@ -16847,6 +17359,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -16873,7 +17386,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -16904,6 +17417,7 @@
     ],
     "modules": [
      "_bleio",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -16935,12 +17449,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 118,
+  "downloads": 0,
   "id": "microdev_micro_s2",
   "versions": [
    {
@@ -17046,6 +17560,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -17078,6 +17593,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -17109,12 +17625,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 230,
+  "downloads": 0,
   "id": "mini_sam_m4",
   "versions": [
    {
@@ -17215,6 +17731,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -17244,6 +17761,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -17270,12 +17788,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 334,
+  "downloads": 0,
   "id": "monster_m4sk",
   "versions": [
    {
@@ -17377,6 +17895,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -17407,6 +17926,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -17433,7 +17953,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -17467,6 +17987,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -17499,6 +18020,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -17530,12 +18052,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 618,
+  "downloads": 0,
   "id": "muselab_nanoesp32_s2_wroom",
   "versions": [
    {
@@ -17641,6 +18163,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -17673,6 +18196,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -17704,12 +18228,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 498,
+  "downloads": 0,
   "id": "muselab_nanoesp32_s2_wrover",
   "versions": [
    {
@@ -17815,6 +18339,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -17847,6 +18372,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -17878,12 +18404,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 94,
+  "downloads": 0,
   "id": "ndgarage_ndbit6",
   "versions": [
    {
@@ -17980,12 +18506,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 54,
+  "downloads": 0,
   "id": "ndgarage_ndbit6_v2",
   "versions": [
    {
@@ -18082,12 +18608,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 390,
+  "downloads": 0,
   "id": "neopixel_trinkey_m0",
   "versions": [
    {
@@ -18174,12 +18700,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 227,
+  "downloads": 0,
   "id": "nfc_copy_cat",
   "versions": [
    {
@@ -18276,12 +18802,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 201,
+  "downloads": 0,
   "id": "nice_nano",
   "versions": [
    {
@@ -18411,6 +18937,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -18437,12 +18964,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 35,
+  "downloads": 0,
   "id": "nucleo_f746zg",
   "versions": [
    {
@@ -18527,6 +19054,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "atexit",
      "binascii",
      "bitbangio",
@@ -18567,12 +19095,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 49,
+  "downloads": 0,
   "id": "nucleo_f767zi",
   "versions": [
    {
@@ -18657,6 +19185,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "atexit",
      "binascii",
      "bitbangio",
@@ -18697,12 +19226,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 37,
+  "downloads": 0,
   "id": "nucleo_h743zi_2",
   "versions": [
    {
@@ -18785,6 +19314,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "atexit",
      "binascii",
      "bitbangio",
@@ -18823,7 +19353,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -18857,6 +19387,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -18889,6 +19420,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -18920,12 +19452,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 204,
+  "downloads": 0,
   "id": "ohs2020_badge",
   "versions": [
    {
@@ -19055,6 +19587,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -19081,12 +19614,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 194,
+  "downloads": 0,
   "id": "openbook_m4",
   "versions": [
    {
@@ -19189,6 +19722,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -19220,6 +19754,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -19246,12 +19781,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 32,
+  "downloads": 0,
   "id": "openmv_h7",
   "versions": [
    {
@@ -19334,6 +19869,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "atexit",
      "binascii",
      "bitbangio",
@@ -19372,12 +19908,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 210,
+  "downloads": 0,
   "id": "particle_argon",
   "versions": [
    {
@@ -19507,6 +20043,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -19533,12 +20070,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 124,
+  "downloads": 0,
   "id": "particle_boron",
   "versions": [
    {
@@ -19668,6 +20205,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -19694,12 +20232,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 234,
+  "downloads": 0,
   "id": "particle_xenon",
   "versions": [
    {
@@ -19829,6 +20367,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -19855,12 +20394,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 160,
+  "downloads": 0,
   "id": "pca10056",
   "versions": [
    {
@@ -19992,6 +20531,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -20018,12 +20558,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 256,
+  "downloads": 0,
   "id": "pca10059",
   "versions": [
    {
@@ -20155,6 +20695,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -20181,12 +20722,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 177,
+  "downloads": 0,
   "id": "pca10100",
   "versions": [
    {
@@ -20298,12 +20839,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 122,
+  "downloads": 0,
   "id": "pewpew10",
   "versions": [
    {
@@ -20396,12 +20937,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 89,
+  "downloads": 0,
   "id": "pewpew13",
   "versions": [
    {
@@ -20494,12 +21035,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 179,
+  "downloads": 0,
   "id": "pewpew_m4",
   "versions": [
    {
@@ -20599,12 +21140,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 116,
+  "downloads": 0,
   "id": "picoplanet",
   "versions": [
    {
@@ -20701,7 +21242,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -20734,6 +21275,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -20765,6 +21307,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -20792,12 +21335,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 348,
+  "downloads": 0,
   "id": "pimoroni_keybow2040",
   "versions": [
    {
@@ -20897,6 +21440,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -20928,6 +21472,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -20955,12 +21500,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 38,
+  "downloads": 0,
   "id": "pimoroni_pga2040",
   "versions": [
    {
@@ -20988,6 +21533,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -21019,6 +21565,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -21046,12 +21593,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 327,
+  "downloads": 0,
   "id": "pimoroni_picolipo_16mb",
   "versions": [
    {
@@ -21151,6 +21698,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -21182,6 +21730,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -21209,12 +21758,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 235,
+  "downloads": 0,
   "id": "pimoroni_picolipo_4mb",
   "versions": [
    {
@@ -21314,6 +21863,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -21345,6 +21895,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -21372,12 +21923,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 207,
+  "downloads": 0,
   "id": "pimoroni_picosystem",
   "versions": [
    {
@@ -21477,6 +22028,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -21508,6 +22060,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -21535,7 +22088,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -21568,6 +22121,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -21599,6 +22153,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -21626,12 +22181,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 436,
+  "downloads": 0,
   "id": "pimoroni_tiny2040",
   "versions": [
    {
@@ -21731,6 +22286,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -21762,6 +22318,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -21789,7 +22346,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -21841,7 +22398,7 @@
   ]
  },
  {
-  "downloads": 181,
+  "downloads": 0,
   "id": "pitaya_go",
   "versions": [
    {
@@ -21971,6 +22528,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -21997,12 +22555,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 36,
+  "downloads": 0,
   "id": "pyb_nano_v2",
   "versions": [
    {
@@ -22089,6 +22647,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -22128,12 +22687,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 397,
+  "downloads": 0,
   "id": "pybadge",
   "versions": [
    {
@@ -22269,6 +22828,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -22295,7 +22855,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -22382,7 +22942,7 @@
   ]
  },
  {
-  "downloads": 93,
+  "downloads": 0,
   "id": "pyboard_v11",
   "versions": [
    {
@@ -22472,6 +23032,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -22522,12 +23083,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 0,
   "id": "pycubed",
   "versions": [
    {
@@ -22619,6 +23180,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -22664,12 +23226,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 174,
+  "downloads": 0,
   "id": "pycubed_mram",
   "versions": [
    {
@@ -22761,6 +23323,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -22806,12 +23369,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 402,
+  "downloads": 0,
   "id": "pygamer",
   "versions": [
    {
@@ -22947,6 +23510,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -22973,7 +23537,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
@@ -23060,7 +23624,7 @@
   ]
  },
  {
-  "downloads": 549,
+  "downloads": 0,
   "id": "pyportal",
   "versions": [
    {
@@ -23162,6 +23726,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -23192,6 +23757,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -23218,12 +23784,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 227,
+  "downloads": 0,
   "id": "pyportal_pynt",
   "versions": [
    {
@@ -23325,6 +23891,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -23355,6 +23922,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -23381,12 +23949,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 310,
+  "downloads": 0,
   "id": "pyportal_titano",
   "versions": [
    {
@@ -23488,6 +24056,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -23518,6 +24087,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -23544,12 +24114,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 295,
+  "downloads": 0,
   "id": "pyruler",
   "versions": [
    {
@@ -23645,12 +24215,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 616,
+  "downloads": 0,
   "id": "qtpy_m0",
   "versions": [
    {
@@ -23747,12 +24317,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 355,
+  "downloads": 0,
   "id": "qtpy_m0_haxpress",
   "versions": [
    {
@@ -23852,6 +24422,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -23870,12 +24441,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 3249,
+  "downloads": 0,
   "id": "raspberry_pi_pico",
   "versions": [
    {
@@ -23975,6 +24546,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -24006,6 +24578,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -24033,12 +24606,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 127,
+  "downloads": 0,
   "id": "raytac_mdbt50q-db-40",
   "versions": [
    {
@@ -24168,6 +24741,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -24194,12 +24768,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 22,
+  "downloads": 0,
   "id": "raytac_mdbt50q-rx",
   "versions": [
    {
@@ -24257,6 +24831,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -24283,12 +24858,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 212,
+  "downloads": 0,
   "id": "robohatmm1_m4",
   "versions": [
    {
@@ -24381,6 +24956,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -24427,12 +25003,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 159,
+  "downloads": 0,
   "id": "sam32",
   "versions": [
    {
@@ -24534,6 +25110,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -24564,6 +25141,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -24590,12 +25168,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 168,
+  "downloads": 0,
   "id": "same54_xplained",
   "versions": [
    {
@@ -24697,6 +25275,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -24728,6 +25307,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -24753,12 +25333,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 499,
+  "downloads": 0,
   "id": "seeeduino_wio_terminal",
   "versions": [
    {
@@ -24860,6 +25440,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -24890,6 +25471,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -24916,12 +25498,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 877,
+  "downloads": 0,
   "id": "seeeduino_xiao",
   "versions": [
    {
@@ -25018,12 +25600,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 29,
+  "downloads": 0,
   "id": "sensebox_mcu",
   "versions": [
    {
@@ -25072,12 +25654,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 186,
+  "downloads": 0,
   "id": "serpente",
   "versions": [
    {
@@ -25180,6 +25762,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -25198,12 +25781,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 0,
   "id": "shirtty",
   "versions": [
    {
@@ -25300,12 +25883,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 116,
+  "downloads": 0,
   "id": "silicognition-m4-shim",
   "versions": [
    {
@@ -25407,6 +25990,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -25437,6 +26021,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -25463,12 +26048,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 137,
+  "downloads": 0,
   "id": "simmel",
   "versions": [
    {
@@ -25579,12 +26164,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 141,
+  "downloads": 0,
   "id": "snekboard",
   "versions": [
    {
@@ -25684,6 +26269,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -25702,12 +26288,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 155,
+  "downloads": 0,
   "id": "sparkfun_lumidrive",
   "versions": [
    {
@@ -25805,6 +26391,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -25823,12 +26410,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 236,
+  "downloads": 0,
   "id": "sparkfun_micromod_rp2040",
   "versions": [
    {
@@ -25928,6 +26515,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -25959,6 +26547,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -25986,12 +26575,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 198,
+  "downloads": 0,
   "id": "sparkfun_nrf52840_micromod",
   "versions": [
    {
@@ -26121,6 +26710,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -26147,12 +26737,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 184,
+  "downloads": 0,
   "id": "sparkfun_nrf52840_mini",
   "versions": [
    {
@@ -26282,6 +26872,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -26308,12 +26899,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 245,
+  "downloads": 0,
   "id": "sparkfun_pro_micro_rp2040",
   "versions": [
    {
@@ -26413,6 +27004,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -26444,6 +27036,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -26471,12 +27064,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 133,
+  "downloads": 0,
   "id": "sparkfun_qwiic_micro_no_flash",
   "versions": [
    {
@@ -26573,12 +27166,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 179,
+  "downloads": 0,
   "id": "sparkfun_qwiic_micro_with_flash",
   "versions": [
    {
@@ -26675,12 +27268,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 234,
+  "downloads": 0,
   "id": "sparkfun_redboard_turbo",
   "versions": [
    {
@@ -26779,6 +27372,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -26797,12 +27391,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 203,
+  "downloads": 0,
   "id": "sparkfun_samd21_dev",
   "versions": [
    {
@@ -26899,12 +27493,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 212,
+  "downloads": 0,
   "id": "sparkfun_samd21_mini",
   "versions": [
    {
@@ -27001,12 +27595,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 33,
+  "downloads": 0,
   "id": "sparkfun_samd51_micromod",
   "versions": [
    {
@@ -27034,6 +27628,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -27064,6 +27659,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -27090,12 +27686,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 272,
+  "downloads": 0,
   "id": "sparkfun_samd51_thing_plus",
   "versions": [
    {
@@ -27197,6 +27793,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -27227,6 +27824,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -27253,12 +27851,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 0,
   "id": "sparkfun_stm32f405_micromod",
   "versions": [
    {
@@ -27286,6 +27884,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -27336,12 +27935,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 285,
+  "downloads": 0,
   "id": "sparkfun_thing_plus_rp2040",
   "versions": [
    {
@@ -27441,6 +28040,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -27472,6 +28072,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "qrio",
@@ -27499,12 +28100,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 175,
+  "downloads": 0,
   "id": "spresense",
   "versions": [
    {
@@ -27585,6 +28186,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -27618,12 +28220,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 162,
+  "downloads": 0,
   "id": "stackrduino_m0_pro",
   "versions": [
    {
@@ -27723,6 +28325,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -27741,12 +28344,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 131,
+  "downloads": 0,
   "id": "stm32f411ce_blackpill",
   "versions": [
    {
@@ -27833,6 +28436,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -27874,12 +28478,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 72,
+  "downloads": 0,
   "id": "stm32f411ce_blackpill_with_flash",
   "versions": [
    {
@@ -27966,6 +28570,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -28011,12 +28616,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 44,
+  "downloads": 0,
   "id": "stm32f411ve_discovery",
   "versions": [
    {
@@ -28103,6 +28708,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -28142,12 +28748,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 35,
+  "downloads": 0,
   "id": "stm32f412zg_discovery",
   "versions": [
    {
@@ -28234,6 +28840,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -28280,12 +28887,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 66,
+  "downloads": 0,
   "id": "stm32f4_discovery",
   "versions": [
    {
@@ -28374,6 +28981,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -28423,12 +29031,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 38,
+  "downloads": 0,
   "id": "stm32f746g_discovery",
   "versions": [
    {
@@ -28513,6 +29121,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "atexit",
      "binascii",
      "bitbangio",
@@ -28553,12 +29162,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 0,
   "id": "stringcar_m0_express",
   "versions": [
    {
@@ -28657,6 +29266,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -28675,12 +29285,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 163,
+  "downloads": 0,
   "id": "targett_module_clip_wroom",
   "versions": [
    {
@@ -28786,6 +29396,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -28818,6 +29429,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -28849,12 +29461,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 138,
+  "downloads": 0,
   "id": "targett_module_clip_wrover",
   "versions": [
    {
@@ -28960,6 +29572,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -28992,6 +29605,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -29023,12 +29637,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 382,
+  "downloads": 0,
   "id": "teensy40",
   "versions": [
    {
@@ -29120,6 +29734,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -29162,12 +29777,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 381,
+  "downloads": 0,
   "id": "teensy41",
   "versions": [
    {
@@ -29259,6 +29874,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -29301,12 +29917,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 205,
+  "downloads": 0,
   "id": "teknikio_bluebird",
   "versions": [
    {
@@ -29436,6 +30052,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -29462,12 +30079,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 23,
+  "downloads": 0,
   "id": "thunderpack_v11",
   "versions": [
    {
@@ -29594,16 +30211,15 @@
      "traceback",
      "usb_cdc",
      "usb_hid",
-     "usb_midi",
-     "vectorio"
+     "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 28,
+  "downloads": 0,
   "id": "thunderpack_v12",
   "versions": [
    {
@@ -29689,6 +30305,7 @@
     "modules": [
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -29735,12 +30352,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 194,
+  "downloads": 0,
   "id": "tinkeringtech_scoutmakes_azul",
   "versions": [
    {
@@ -29870,6 +30487,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -29896,12 +30514,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 392,
+  "downloads": 0,
   "id": "trellis_m4_express",
   "versions": [
    {
@@ -30002,6 +30620,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiocore",
@@ -30031,6 +30650,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -30057,12 +30677,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 819,
+  "downloads": 0,
   "id": "trinket_m0",
   "versions": [
    {
@@ -30159,12 +30779,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 184,
+  "downloads": 0,
   "id": "trinket_m0_haxpress",
   "versions": [
    {
@@ -30264,6 +30884,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "pulseio",
      "pwmio",
      "rainbowio",
@@ -30282,12 +30903,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 110,
+  "downloads": 0,
   "id": "uartlogger2",
   "versions": [
    {
@@ -30389,6 +31010,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "audiobusio",
@@ -30419,6 +31041,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -30445,12 +31068,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 149,
+  "downloads": 0,
   "id": "uchip",
   "versions": [
    {
@@ -30549,12 +31172,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 110,
+  "downloads": 0,
   "id": "ugame10",
   "versions": [
    {
@@ -30660,12 +31283,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 528,
+  "downloads": 0,
   "id": "unexpectedmaker_feathers2",
   "versions": [
    {
@@ -30771,6 +31394,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -30803,6 +31427,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -30834,12 +31459,111 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 73,
+  "downloads": 0,
+  "id": "unexpectedmaker_feathers2_neo",
+  "versions": [
+   {
+    "extensions": [
+     "bin",
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "atexit",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "canio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "dualbank",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "frequencyio",
+     "getpass",
+     "imagecapture",
+     "ipaddress",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "onewireio",
+     "os",
+     "paralleldisplay",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "socketpool",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog",
+     "wifi"
+    ],
+    "stable": false,
+    "version": "7.0.0-rc.1"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "unexpectedmaker_feathers2_prerelease",
   "versions": [
    {
@@ -30945,6 +31669,7 @@
      "_bleio",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -30977,6 +31702,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -31008,12 +31734,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 189,
+  "downloads": 0,
   "id": "unexpectedmaker_tinys2",
   "versions": [
    {
@@ -31117,8 +31843,10 @@
     ],
     "modules": [
      "_bleio",
+     "_stage",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "alarm",
      "analogio",
      "atexit",
@@ -31151,6 +31879,7 @@
      "nvm",
      "onewireio",
      "os",
+     "paralleldisplay",
      "ps2io",
      "pulseio",
      "pwmio",
@@ -31182,12 +31911,102 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 219,
+  "downloads": 0,
+  "id": "warmbit_bluepixel",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "atexit",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "getpass",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "onewireio",
+     "os",
+     "paralleldisplay",
+     "pulseio",
+     "pwmio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "7.0.0-rc.1"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "winterbloom_big_honking_button",
   "versions": [
    {
@@ -31291,12 +32110,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 229,
+  "downloads": 0,
   "id": "winterbloom_sol",
   "versions": [
    {
@@ -31379,6 +32198,7 @@
     "modules": [
      "adafruit_bus_device",
      "adafruit_pixelbuf",
+     "aesio",
      "analogio",
      "atexit",
      "binascii",
@@ -31416,12 +32236,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 182,
+  "downloads": 0,
   "id": "xinabox_cc03",
   "versions": [
    {
@@ -31509,12 +32329,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  },
  {
-  "downloads": 187,
+  "downloads": 0,
   "id": "xinabox_cs11",
   "versions": [
    {
@@ -31599,7 +32419,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-beta.0"
+    "version": "7.0.0-rc.1"
    }
   ]
  }
