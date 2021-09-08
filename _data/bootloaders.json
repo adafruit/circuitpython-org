@@ -6,6 +6,9 @@
         "atmel-samd": {
             "version": "v3.13.0",
         },
+        "esp32s2": {
+            "version": "0.5.2",
+        },
         "stm": {
         },
         "cxd56": {
@@ -17,6 +20,26 @@
         "8086_commander": {
             "family": "atmel-samd",
             "bootloader_id": "8086_commander",
+        },
+        "adafruit_feather_esp32s2_nopsram": {
+            "family": "esp32s2",
+            "bootloader_id": "adafruit_feather_esp32s2",
+        },
+        "adafruit_feather_esp32s2_tftback_nopsram": {
+            "family": "esp32s2",
+            "bootloader_id": "adafruit_feather_esp32s2_tft",
+        },
+        "adafruit_funhouse": {
+            "family": "esp32s2",
+            "bootloader_id": "adafruit_funhouse_esp32s2",
+        },
+        "adafruit_magtag_2.9_grayscale": {
+            "family": "esp32s2",
+            "bootloader_id": "adafruit_magtag_29gray",
+        },
+        "adafruit_metro_esp32s2": {
+            "family": "esp32s2",
+            "bootloader_id": "adafruit_metro_esp32s2",
         },
         "aramcon_badge_2019": {
             "family": "nrf52840",
@@ -41,6 +64,14 @@
         "arduino_zero": {
             "family": "atmel-samd",
             "bootloader_id": "zero",
+        },
+        "artisense_rd00": {
+            "family": "esp32s2",
+            "bootloader_id": "artisense_rd00",
+        },
+        "atmegazero_esp32s2": {
+            "family": "esp32s2",
+            "bootloader_id": "atmegazero_esp32s2",
         },
         "bast_pro_mini_m0": {
             "family": "atmel-samd",
@@ -122,6 +153,22 @@
         },
         "escornabot_makech": {
             "family": "atmel-samd",
+        },
+        "espressif_hmi_devkit_1": {
+            "family": "esp32s2",
+            "bootloader_id": "espressif_hmi_1",
+        },
+        "espressif_kaluga_1": {
+            "family": "esp32s2",
+            "bootloader_id": "espressif_kaluga_1",
+        },
+        "espressif_saola_1_wroom": {
+            "family": "esp32s2",
+            "bootloader_id": "espressif_saola_1_wroom",
+        },
+        "espressif_saola_1_wrover": {
+            "family": "esp32s2",
+            "bootloader_id": "espressif_saola_1_wrover",
         },
         "espruino_pico": {
             "family": "stm",
@@ -236,6 +283,14 @@
             "family": "atmel-samd",
             "bootloader_id": "itsybitsy_m0",
         },
+        "lilygo_ttgo_t8_s2_st7789": {
+            "family": "esp32s2",
+            "bootloader_id": "lilygo_ttgo_t8_s2_st7789",
+        },
+        "lolin_s2_mini": {
+            "family": "esp32s2",
+            "bootloader_id": "lolin_s2_mini",
+        },
         "makerdiary_nrf52840_mdk": {
             "family": "nrf52840",
         },
@@ -266,9 +321,25 @@
             "family": "nrf52840",
             "bootloader_id": "metro_nrf52840_express",
         },
+        "microdev_micro_s2": {
+            "family": "esp32s2",
+            "bootloader_id": "microdev_micro_s2",
+        },
         "monster_m4sk": {
             "family": "atmel-samd",
             "bootloader_id": "hallowing_mask",
+        },
+        "morpheans_morphesp-240": {
+            "family": "esp32s2",
+            "bootloader_id": "morpheans_morphesp-240",
+        },
+        "muselab_nanoesp32_s2_wroom": {
+            "family": "esp32s2",
+            "bootloader_id": "muselab_nanoesp32-s2_wroom",
+        },
+        "muselab_nanoesp32_s2_wrover": {
+            "family": "esp32s2",
+            "bootloader_id": "muselab_nanoesp32-s2_wrover",
         },
         "ndgarage_ndbit6": {
             "family": "atmel-samd",
@@ -436,6 +507,14 @@
         "stringcar_m0_express": {
             "family": "atmel-samd",
         },
+        "targett_module_clip_wroom": {
+            "family": "esp32s2",
+            "bootloader_id": "targett_mcb_wroom",
+        },
+        "targett_module_clip_wrover": {
+            "family": "esp32s2",
+            "bootloader_id": "targett_mcb_wrover",
+        },
         "teensy40": {
             "family": "stm",
         },
@@ -467,6 +546,18 @@
         "ugame10": {
             "family": "atmel-samd",
             "bootloader_id": "trinket_m0",
+        },
+        "unexpectedmaker_feathers2": {
+            "family": "esp32s2",
+            "bootloader_id": "unexpectedmaker_feathers2",
+        },
+        "unexpectedmaker_feathers2_neo": {
+            "family": "esp32s2",
+            "bootloader_id": "unexpectedmaker_feathers2_neo",
+        },
+        "unexpectedmaker_tinys2": {
+            "family": "esp32s2",
+            "bootloader_id": "unexpectedmaker_tinys2",
         },
         "unknown": {
         },
