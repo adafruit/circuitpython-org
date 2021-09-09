@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Unexpected Maker TinyS2 Download</title>
+<meta name="description" content="Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!Features &amp; Specifications  32-bit 240 MHz single-core processor  4 MB SPI Flash..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/unexpectedmaker_tinys2/" />
+
+<meta property="og:title"   content="CircuitPython - Unexpected Maker TinyS2 Download" />
+
+
+
+<meta property="og:description" content="Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!Features &amp; Specifications  32-bit 240 MHz single-core processor  4 MB SPI Flash  2 MB extra PSRAM  2.4 GHz Wi-Fi - 802.11b/g/n  3D High Gain Antenna  700 mA 3.3 V LDO regulator  Optimised power path for low-power batter..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/unexpectedmaker_tinys2.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/unexpectedmaker_tinys2/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Unexpected Maker TinyS2</h1>
+  <h3>by Unexpected Maker</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/unexpectedmaker_tinys2.jpg" alt="Image of Board">
+        
+        <p>
+          <p>Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!</p>
+
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>32-bit 240 MHz single-core processor</li>
+  <li>4 MB SPI Flash</li>
+  <li>2 MB extra PSRAM</li>
+  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>
+  <li>3D High Gain Antenna</li>
+  <li>700 mA 3.3 V LDO regulator</li>
+  <li>Optimised power path for low-power battery usage</li>
+  <li>LiPo battery management</li>
+  <li>Power (red), Charge (orange)</li>
+  <li>17x GPIO</li>
+  <li>USB-C</li>
+  <li>USB backfeed protection</li>
+  <li>NeoPixel RGB LED</li>
+  <li>Battery Voltage sense</li>
+  <li>VBUS (5V) detection sense</li>
+  <li>TinyPICO compatible format</li>
+  <li>Charge LED can be disconnected</li>
+</ul>
+
+<p>You can find out more about the TinyS2 at <a href="https://tinys2.io">tinys2.io</a></p>
+
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own FeatherS2 from:</p>
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop/tinys2-esp32-s2">Unexpected Maker</a></li>
+  <li><a href="https://www.adafruit.com/product/5029">Adafruit</a></li>
+  <li><a href="https://shop.pimoroni.com/products/tinys2">Pimoroni</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/unexpectedmaker_tinys2.md">here</a>.</p>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+  <div class="section stable">
+    <h3>CircuitPython 6.3.0</h3>
+    <p>
+      This is the latest <strong>stable</strong>
+      release of CircuitPython that will work with the Unexpected Maker TinyS2.
+    </p>
+    <p>
+      
+      <strong>Start here</strong> if you are new to CircuitPython.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/6.3.0">Release Notes for 6.3.0</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_tinys2-zh_Latn_pinyin-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_tinys2-zh_Latn_pinyin-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_tinys2-zh_Latn_pinyin-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_tinys2-zh_Latn_pinyin-6.3.0.uf2
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/nl/adafruit-circuitpython-unexpectedmaker_tinys2-nl-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/nl/adafruit-circuitpython-unexpectedmaker_tinys2-nl-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/nl/adafruit-circuitpython-unexpectedmaker_tinys2-nl-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/nl/adafruit-circuitpython-unexpectedmaker_tinys2-nl-6.3.0.uf2
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_GB/adafruit-circuitpython-unexpectedmaker_tinys2-en_GB-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_GB/adafruit-circuitpython-unexpectedmaker_tinys2-en_GB-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_GB/adafruit-circuitpython-unexpectedmaker_tinys2-en_GB-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_GB/adafruit-circuitpython-unexpectedmaker_tinys2-en_GB-6.3.0.uf2
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-6.3.0.uf2
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fil/adafruit-circuitpython-unexpectedmaker_tinys2-fil-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fil/adafruit-circuitpython-unexpectedmaker_tinys2-fil-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fil/adafruit-circuitpython-unexpectedmaker_tinys2-fil-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fil/adafruit-circuitpython-unexpectedmaker_tinys2-fil-6.3.0.uf2
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fr/adafruit-circuitpython-unexpectedmaker_tinys2-fr-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fr/adafruit-circuitpython-unexpectedmaker_tinys2-fr-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fr/adafruit-circuitpython-unexpectedmaker_tinys2-fr-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fr/adafruit-circuitpython-unexpectedmaker_tinys2-fr-6.3.0.uf2
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/de_DE/adafruit-circuitpython-unexpectedmaker_tinys2-de_DE-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/de_DE/adafruit-circuitpython-unexpectedmaker_tinys2-de_DE-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/de_DE/adafruit-circuitpython-unexpectedmaker_tinys2-de_DE-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/de_DE/adafruit-circuitpython-unexpectedmaker_tinys2-de_DE-6.3.0.uf2
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ID/adafruit-circuitpython-unexpectedmaker_tinys2-ID-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ID/adafruit-circuitpython-unexpectedmaker_tinys2-ID-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ID/adafruit-circuitpython-unexpectedmaker_tinys2-ID-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ID/adafruit-circuitpython-unexpectedmaker_tinys2-ID-6.3.0.uf2
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/it_IT/adafruit-circuitpython-unexpectedmaker_tinys2-it_IT-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/it_IT/adafruit-circuitpython-unexpectedmaker_tinys2-it_IT-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/it_IT/adafruit-circuitpython-unexpectedmaker_tinys2-it_IT-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/it_IT/adafruit-circuitpython-unexpectedmaker_tinys2-it_IT-6.3.0.uf2
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ja/adafruit-circuitpython-unexpectedmaker_tinys2-ja-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ja/adafruit-circuitpython-unexpectedmaker_tinys2-ja-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ja/adafruit-circuitpython-unexpectedmaker_tinys2-ja-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ja/adafruit-circuitpython-unexpectedmaker_tinys2-ja-6.3.0.uf2
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_x_pirate/adafruit-circuitpython-unexpectedmaker_tinys2-en_x_pirate-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_x_pirate/adafruit-circuitpython-unexpectedmaker_tinys2-en_x_pirate-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_x_pirate/adafruit-circuitpython-unexpectedmaker_tinys2-en_x_pirate-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_x_pirate/adafruit-circuitpython-unexpectedmaker_tinys2-en_x_pirate-6.3.0.uf2
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pl/adafruit-circuitpython-unexpectedmaker_tinys2-pl-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pl/adafruit-circuitpython-unexpectedmaker_tinys2-pl-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pl/adafruit-circuitpython-unexpectedmaker_tinys2-pl-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pl/adafruit-circuitpython-unexpectedmaker_tinys2-pl-6.3.0.uf2
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pt_BR/adafruit-circuitpython-unexpectedmaker_tinys2-pt_BR-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pt_BR/adafruit-circuitpython-unexpectedmaker_tinys2-pt_BR-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pt_BR/adafruit-circuitpython-unexpectedmaker_tinys2-pt_BR-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pt_BR/adafruit-circuitpython-unexpectedmaker_tinys2-pt_BR-6.3.0.uf2
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/es/adafruit-circuitpython-unexpectedmaker_tinys2-es-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/es/adafruit-circuitpython-unexpectedmaker_tinys2-es-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/es/adafruit-circuitpython-unexpectedmaker_tinys2-es-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/es/adafruit-circuitpython-unexpectedmaker_tinys2-es-6.3.0.uf2
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/sv/adafruit-circuitpython-unexpectedmaker_tinys2-sv-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/sv/adafruit-circuitpython-unexpectedmaker_tinys2-sv-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/sv/adafruit-circuitpython-unexpectedmaker_tinys2-sv-6.3.0.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/sv/adafruit-circuitpython-unexpectedmaker_tinys2-sv-6.3.0.uf2
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button stable bin" href="https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-6.3.0.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+        <a class="download-button stable uf2" href="https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-6.3.0.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules stable">_bleio, _pixelbuf, alarm, analogio, audiobusio, audiocore, binascii, bitbangio, bitmaptools, board, busio, canio, countio, digitalio, displayio, dualbank, errno, framebufferio, frequencyio, gamepad, ipaddress, json, math, microcontroller, msgpack, neopixel_write, nvm, os, ps2io, pulseio, pwmio, random, re, rotaryio, rtc, sdcardio, sharpdisplay, socketpool, ssl, storage, struct, supervisor, terminalio, time, touchio, ulab, usb_hid, vectorio, watchdog, wifi</span>
+    </p>
+    
+  </div>
+
+  <div class="section unstable">
+    <h3>CircuitPython 7.0.0-rc.1</h3>
+    <p>
+      This is the latest unstable
+      release of CircuitPython that will work with the Unexpected Maker TinyS2.
+    </p>
+    <p>
+      
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/7.0.0-rc.1">Release Notes for 7.0.0-rc.1</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_tinys2-zh_Latn_pinyin-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_tinys2-zh_Latn_pinyin-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_tinys2-zh_Latn_pinyin-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_tinys2-zh_Latn_pinyin-7.0.0-rc.1.uf2
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/nl/adafruit-circuitpython-unexpectedmaker_tinys2-nl-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/nl/adafruit-circuitpython-unexpectedmaker_tinys2-nl-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/nl/adafruit-circuitpython-unexpectedmaker_tinys2-nl-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/nl/adafruit-circuitpython-unexpectedmaker_tinys2-nl-7.0.0-rc.1.uf2
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_GB/adafruit-circuitpython-unexpectedmaker_tinys2-en_GB-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_GB/adafruit-circuitpython-unexpectedmaker_tinys2-en_GB-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_GB/adafruit-circuitpython-unexpectedmaker_tinys2-en_GB-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_GB/adafruit-circuitpython-unexpectedmaker_tinys2-en_GB-7.0.0-rc.1.uf2
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-7.0.0-rc.1.uf2
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fil/adafruit-circuitpython-unexpectedmaker_tinys2-fil-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fil/adafruit-circuitpython-unexpectedmaker_tinys2-fil-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fil/adafruit-circuitpython-unexpectedmaker_tinys2-fil-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fil/adafruit-circuitpython-unexpectedmaker_tinys2-fil-7.0.0-rc.1.uf2
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fr/adafruit-circuitpython-unexpectedmaker_tinys2-fr-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fr/adafruit-circuitpython-unexpectedmaker_tinys2-fr-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fr/adafruit-circuitpython-unexpectedmaker_tinys2-fr-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/fr/adafruit-circuitpython-unexpectedmaker_tinys2-fr-7.0.0-rc.1.uf2
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/de_DE/adafruit-circuitpython-unexpectedmaker_tinys2-de_DE-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/de_DE/adafruit-circuitpython-unexpectedmaker_tinys2-de_DE-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/de_DE/adafruit-circuitpython-unexpectedmaker_tinys2-de_DE-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/de_DE/adafruit-circuitpython-unexpectedmaker_tinys2-de_DE-7.0.0-rc.1.uf2
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ID/adafruit-circuitpython-unexpectedmaker_tinys2-ID-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ID/adafruit-circuitpython-unexpectedmaker_tinys2-ID-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ID/adafruit-circuitpython-unexpectedmaker_tinys2-ID-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ID/adafruit-circuitpython-unexpectedmaker_tinys2-ID-7.0.0-rc.1.uf2
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/it_IT/adafruit-circuitpython-unexpectedmaker_tinys2-it_IT-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/it_IT/adafruit-circuitpython-unexpectedmaker_tinys2-it_IT-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/it_IT/adafruit-circuitpython-unexpectedmaker_tinys2-it_IT-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/it_IT/adafruit-circuitpython-unexpectedmaker_tinys2-it_IT-7.0.0-rc.1.uf2
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ja/adafruit-circuitpython-unexpectedmaker_tinys2-ja-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ja/adafruit-circuitpython-unexpectedmaker_tinys2-ja-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ja/adafruit-circuitpython-unexpectedmaker_tinys2-ja-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/ja/adafruit-circuitpython-unexpectedmaker_tinys2-ja-7.0.0-rc.1.uf2
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_x_pirate/adafruit-circuitpython-unexpectedmaker_tinys2-en_x_pirate-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_x_pirate/adafruit-circuitpython-unexpectedmaker_tinys2-en_x_pirate-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_x_pirate/adafruit-circuitpython-unexpectedmaker_tinys2-en_x_pirate-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_x_pirate/adafruit-circuitpython-unexpectedmaker_tinys2-en_x_pirate-7.0.0-rc.1.uf2
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pl/adafruit-circuitpython-unexpectedmaker_tinys2-pl-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pl/adafruit-circuitpython-unexpectedmaker_tinys2-pl-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pl/adafruit-circuitpython-unexpectedmaker_tinys2-pl-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pl/adafruit-circuitpython-unexpectedmaker_tinys2-pl-7.0.0-rc.1.uf2
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pt_BR/adafruit-circuitpython-unexpectedmaker_tinys2-pt_BR-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pt_BR/adafruit-circuitpython-unexpectedmaker_tinys2-pt_BR-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pt_BR/adafruit-circuitpython-unexpectedmaker_tinys2-pt_BR-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/pt_BR/adafruit-circuitpython-unexpectedmaker_tinys2-pt_BR-7.0.0-rc.1.uf2
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/es/adafruit-circuitpython-unexpectedmaker_tinys2-es-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/es/adafruit-circuitpython-unexpectedmaker_tinys2-es-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/es/adafruit-circuitpython-unexpectedmaker_tinys2-es-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/es/adafruit-circuitpython-unexpectedmaker_tinys2-es-7.0.0-rc.1.uf2
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/sv/adafruit-circuitpython-unexpectedmaker_tinys2-sv-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/sv/adafruit-circuitpython-unexpectedmaker_tinys2-sv-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/sv/adafruit-circuitpython-unexpectedmaker_tinys2-sv-7.0.0-rc.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/sv/adafruit-circuitpython-unexpectedmaker_tinys2-sv-7.0.0-rc.1.uf2
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable bin" href="https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-7.0.0-rc.1.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+        <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-7.0.0-rc.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">_bleio, _stage, adafruit_bus_device, adafruit_pixelbuf, aesio, alarm, analogio, atexit, audiobusio, audiocore, audiomixer, binascii, bitbangio, bitmaptools, board, busio, canio, countio, digitalio, displayio, dualbank, errno, fontio, framebufferio, frequencyio, getpass, imagecapture, ipaddress, json, keypad, math, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, paralleldisplay, ps2io, pulseio, pwmio, qrio, rainbowio, random, re, rgbmatrix, rotaryio, rtc, sdcardio, sharpdisplay, socketpool, ssl, storage, struct, supervisor, synthio, terminalio, time, touchio, traceback, ulab, usb_cdc, usb_hid, usb_midi, vectorio, watchdog, wifi</span>
+    </p>
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language.  The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/unexpectedmaker_tinys2/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are listed on GitHub, with release notes,
+    and are available for download from Amazon S3.  They are handy for
+    testing, but otherwise we recommend using the latest stable
+    release.  Some older GitHub release pages include the same
+    binaries for downloading.  But we have discontinued including
+    binaries as assets on newer release pages because of the large
+    number of files for each release.
+  </p>
+  <p>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/unexpectedmaker_tinys2/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

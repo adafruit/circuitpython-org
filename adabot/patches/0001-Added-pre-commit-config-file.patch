@@ -1,0 +1,38 @@
+From f61829b736156f06e88125a150428bd11aa146df Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Mon, 11 Jan 2021 16:06:47 -0500
+Subject: [PATCH] Added pre-commit-config file
+
+---
+ .pre-commit-config.yaml | 19 +++++++++++++++++++
+ 1 file changed, 19 insertions(+)
+ create mode 100644 .pre-commit-config.yaml
+
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+new file mode 100644
+index 0000000..aab5f1c
+--- /dev/null
++++ b/.pre-commit-config.yaml
+@@ -0,0 +1,19 @@
++# SPDX-FileCopyrightText: 2020 Diego Elio Pettenò
++#
++# SPDX-License-Identifier: Unlicense
++
++repos:
++-   repo: https://github.com/python/black
++    rev: stable
++    hooks:
++    - id: black
++-   repo: https://github.com/fsfe/reuse-tool
++    rev: latest
++    hooks:
++    - id: reuse
++-   repo: https://github.com/pre-commit/pre-commit-hooks
++    rev: v2.3.0
++    hooks:
++    -   id: check-yaml
++    -   id: end-of-file-fixer
++    -   id: trailing-whitespace
+-- 
+2.25.1
+

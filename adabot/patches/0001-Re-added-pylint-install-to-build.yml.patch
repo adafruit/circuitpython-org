@@ -1,0 +1,28 @@
+From c5615b53b7bbd47517a1a999b3f10dd70f3c4c6c Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Tue, 2 Mar 2021 17:17:50 -0500
+Subject: [PATCH] Re-added pylint install to build.yml
+
+---
+ .github/workflows/build.yml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/.github/workflows/build.yml b/.github/workflows/build.yml
+index 621d5ef..3baf502 100644
+--- a/.github/workflows/build.yml
++++ b/.github/workflows/build.yml
+@@ -42,9 +42,9 @@ jobs:
+       # (e.g. - apt-get: gettext, etc; pip: circuitpython-build-tools, requirements.txt; etc.)
+       run: |
+         source actions-ci/install.sh
+-    - name: Pip install Sphinx, pre-commit
++    - name: Pip install pylint, Sphinx, pre-commit
+       run: |
+-        pip install --force-reinstall Sphinx sphinx-rtd-theme pre-commit
++        pip install --force-reinstall pylint Sphinx sphinx-rtd-theme pre-commit
+     - name: Library version
+       run: git describe --dirty --always --tags
+     - name: Pre-commit hooks
+-- 
+2.24.3 (Apple Git-128)
+

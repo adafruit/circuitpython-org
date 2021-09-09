@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>DynOSSAT-EDU EPS Download</title>
+<meta name="description" content="DynOSSAT-EDU is the first open source PocketQube educational kit compatible with CircuitPython and Arduino.This plaform is equipped with all the necessary mo..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/dynossat_edu_eps/" />
+
+<meta property="og:title"   content="CircuitPython - DynOSSAT-EDU EPS Download" />
+
+
+
+<meta property="og:description" content="DynOSSAT-EDU is the first open source PocketQube educational kit compatible with CircuitPython and Arduino.This plaform is equipped with all the necessary modules for the operation of a nanosatellite (PocketQube)in Low Earth Orbit (LEO) that would serve as a device for teaching, training, and dri..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/dynossat_edu_eps.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/dynossat_edu_eps/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>DynOSSAT-EDU EPS</h1>
+  <h3>by BH Dynamics</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/dynossat_edu_eps.jpg" alt="Image of Board">
+        
+        <p>
+          <p>DynOSSAT-EDU is the first open source PocketQube educational kit compatible with CircuitPython and Arduino.</p>
+
+<p>This plaform is equipped with all the necessary modules for the operation of a nanosatellite (PocketQube)
+in Low Earth Orbit (LEO) that would serve as a device for teaching, training, and driving curiosity about the philosophy and technology related to NewSpace.</p>
+
+<p>This is the EPS (Electric Power System), the module responsible for battery management and power distribution subsystems,
+including charging through solar panels using flight-proven MPPT electronics.</p>
+
+<p>Hardware is licensed under <strong>CERN OHL v1.2</strong>.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Well-known 48 MHz Cortex-M0 ATSAMD21E18 MCU with 256 KB flash + 32 KB RAM</li>
+  <li>32 Mbit SPI flash for storing CircuitPython code and libraries</li>
+  <li>Flight-proven SPV1040 Maximum Power Point Tracking (MPPT) IC for solar cells power management</li>
+  <li>Ultra low input voltage L6924D Lithium battery charger management IC optimized for pairing with the SPV1040</li>
+  <li>Separate 5V and 3.3V power rails generated through high-performance DC/DC converters</li>
+  <li>Battery Current/Voltage/Power measurement through the flight-proven INA226 digital meter</li>
+  <li>Back-powering protection and load switching through the TPS22918, member of a flight-proven family of switches</li>
+  <li>User-controllable WS2812B addressable RGB LED</li>
+  <li>Female USB-C 2.0 connector for power and data logging</li>
+  <li>Standard Molex Picoblade 1.5 mm connectors for battery and solar cells</li>
+  <li>Connected to the OBC through SPI/I2C/UART for data communication and/or redundancy</li>
+  <li>Comes preprogrammed with the UF2 Bootloader and CircuitPython 6.0.0</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>This board is open source hardware. You can check the docs and contribute <a href="https://github.com/BHDynamics/dynossat-edu-eps">here</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.tindie.com/products/21832/">Tindie</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/dynossat_edu_eps.md">here</a>.</p>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+  <div class="section stable">
+    <h3>CircuitPython 6.3.0</h3>
+    <p>
+      This is the latest <strong>stable</strong>
+      release of CircuitPython that will work with the DynOSSAT-EDU EPS.
+    </p>
+    <p>
+      
+      <strong>Start here</strong> if you are new to CircuitPython.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/6.3.0">Release Notes for 6.3.0</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/zh_Latn_pinyin/adafruit-circuitpython-dynossat_edu_eps-zh_Latn_pinyin-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/zh_Latn_pinyin/adafruit-circuitpython-dynossat_edu_eps-zh_Latn_pinyin-6.3.0.uf2
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/nl/adafruit-circuitpython-dynossat_edu_eps-nl-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/nl/adafruit-circuitpython-dynossat_edu_eps-nl-6.3.0.uf2
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_GB/adafruit-circuitpython-dynossat_edu_eps-en_GB-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_GB/adafruit-circuitpython-dynossat_edu_eps-en_GB-6.3.0.uf2
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_US/adafruit-circuitpython-dynossat_edu_eps-en_US-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_US/adafruit-circuitpython-dynossat_edu_eps-en_US-6.3.0.uf2
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/fil/adafruit-circuitpython-dynossat_edu_eps-fil-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/fil/adafruit-circuitpython-dynossat_edu_eps-fil-6.3.0.uf2
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/fr/adafruit-circuitpython-dynossat_edu_eps-fr-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/fr/adafruit-circuitpython-dynossat_edu_eps-fr-6.3.0.uf2
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/de_DE/adafruit-circuitpython-dynossat_edu_eps-de_DE-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/de_DE/adafruit-circuitpython-dynossat_edu_eps-de_DE-6.3.0.uf2
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/ID/adafruit-circuitpython-dynossat_edu_eps-ID-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/ID/adafruit-circuitpython-dynossat_edu_eps-ID-6.3.0.uf2
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/it_IT/adafruit-circuitpython-dynossat_edu_eps-it_IT-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/it_IT/adafruit-circuitpython-dynossat_edu_eps-it_IT-6.3.0.uf2
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/ja/adafruit-circuitpython-dynossat_edu_eps-ja-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/ja/adafruit-circuitpython-dynossat_edu_eps-ja-6.3.0.uf2
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_x_pirate/adafruit-circuitpython-dynossat_edu_eps-en_x_pirate-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_x_pirate/adafruit-circuitpython-dynossat_edu_eps-en_x_pirate-6.3.0.uf2
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/pl/adafruit-circuitpython-dynossat_edu_eps-pl-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/pl/adafruit-circuitpython-dynossat_edu_eps-pl-6.3.0.uf2
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/pt_BR/adafruit-circuitpython-dynossat_edu_eps-pt_BR-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/pt_BR/adafruit-circuitpython-dynossat_edu_eps-pt_BR-6.3.0.uf2
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/es/adafruit-circuitpython-dynossat_edu_eps-es-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/es/adafruit-circuitpython-dynossat_edu_eps-es-6.3.0.uf2
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/sv/adafruit-circuitpython-dynossat_edu_eps-sv-6.3.0.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/sv/adafruit-circuitpython-dynossat_edu_eps-sv-6.3.0.uf2
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button stable uf2" href="https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_US/adafruit-circuitpython-dynossat_edu_eps-en_US-6.3.0.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules stable">_pixelbuf, analogio, audiobusio, audiocore, audioio, board, busio, digitalio, errno, gamepad, i2cperipheral, math, microcontroller, msgpack, neopixel_write, nvm, os, pulseio, pwmio, random, re, rtc, storage, struct, supervisor, time, usb_hid, usb_midi</span>
+    </p>
+    
+  </div>
+
+  <div class="section unstable">
+    <h3>CircuitPython 7.0.0-rc.1</h3>
+    <p>
+      This is the latest unstable
+      release of CircuitPython that will work with the DynOSSAT-EDU EPS.
+    </p>
+    <p>
+      
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/7.0.0-rc.1">Release Notes for 7.0.0-rc.1</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/zh_Latn_pinyin/adafruit-circuitpython-dynossat_edu_eps-zh_Latn_pinyin-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/zh_Latn_pinyin/adafruit-circuitpython-dynossat_edu_eps-zh_Latn_pinyin-7.0.0-rc.1.uf2
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/nl/adafruit-circuitpython-dynossat_edu_eps-nl-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/nl/adafruit-circuitpython-dynossat_edu_eps-nl-7.0.0-rc.1.uf2
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_GB/adafruit-circuitpython-dynossat_edu_eps-en_GB-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_GB/adafruit-circuitpython-dynossat_edu_eps-en_GB-7.0.0-rc.1.uf2
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_US/adafruit-circuitpython-dynossat_edu_eps-en_US-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_US/adafruit-circuitpython-dynossat_edu_eps-en_US-7.0.0-rc.1.uf2
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/fil/adafruit-circuitpython-dynossat_edu_eps-fil-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/fil/adafruit-circuitpython-dynossat_edu_eps-fil-7.0.0-rc.1.uf2
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/fr/adafruit-circuitpython-dynossat_edu_eps-fr-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/fr/adafruit-circuitpython-dynossat_edu_eps-fr-7.0.0-rc.1.uf2
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/de_DE/adafruit-circuitpython-dynossat_edu_eps-de_DE-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/de_DE/adafruit-circuitpython-dynossat_edu_eps-de_DE-7.0.0-rc.1.uf2
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/ID/adafruit-circuitpython-dynossat_edu_eps-ID-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/ID/adafruit-circuitpython-dynossat_edu_eps-ID-7.0.0-rc.1.uf2
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/it_IT/adafruit-circuitpython-dynossat_edu_eps-it_IT-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/it_IT/adafruit-circuitpython-dynossat_edu_eps-it_IT-7.0.0-rc.1.uf2
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/ja/adafruit-circuitpython-dynossat_edu_eps-ja-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/ja/adafruit-circuitpython-dynossat_edu_eps-ja-7.0.0-rc.1.uf2
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_x_pirate/adafruit-circuitpython-dynossat_edu_eps-en_x_pirate-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_x_pirate/adafruit-circuitpython-dynossat_edu_eps-en_x_pirate-7.0.0-rc.1.uf2
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/pl/adafruit-circuitpython-dynossat_edu_eps-pl-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/pl/adafruit-circuitpython-dynossat_edu_eps-pl-7.0.0-rc.1.uf2
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/pt_BR/adafruit-circuitpython-dynossat_edu_eps-pt_BR-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/pt_BR/adafruit-circuitpython-dynossat_edu_eps-pt_BR-7.0.0-rc.1.uf2
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/es/adafruit-circuitpython-dynossat_edu_eps-es-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/es/adafruit-circuitpython-dynossat_edu_eps-es-7.0.0-rc.1.uf2
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/dynossat_edu_eps/sv/adafruit-circuitpython-dynossat_edu_eps-sv-7.0.0-rc.1.uf2
+                    data-files=https://downloads.circuitpython.org/bin/dynossat_edu_eps/sv/adafruit-circuitpython-dynossat_edu_eps-sv-7.0.0-rc.1.uf2
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/dynossat_edu_eps/en_US/adafruit-circuitpython-dynossat_edu_eps-en_US-7.0.0-rc.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">adafruit_pixelbuf, analogio, atexit, audiobusio, audiocore, audioio, board, busio, digitalio, displayio, errno, fontio, getpass, math, microcontroller, neopixel_write, nvm, onewireio, os, paralleldisplay, pulseio, pwmio, rainbowio, random, rtc, storage, struct, supervisor, terminalio, time, traceback, usb_cdc, usb_hid, usb_midi</span>
+    </p>
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language.  The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/dynossat_edu_eps/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are listed on GitHub, with release notes,
+    and are available for download from Amazon S3.  They are handy for
+    testing, but otherwise we recommend using the latest stable
+    release.  Some older GitHub release pages include the same
+    binaries for downloading.  But we have discontinued including
+    binaries as assets on newer release pages because of the large
+    number of files for each release.
+  </p>
+  <p>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/dynossat_edu_eps/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>

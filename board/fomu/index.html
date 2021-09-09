@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Fomu Download</title>
+<meta name="description" content="Only 13mm long, Fomu really puts the micro in microprocessor. Fomu is a fully open-source, programmable FPGA device that sits inside a USB Type-A port. It ha..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/fomu/" />
+
+<meta property="og:title"   content="CircuitPython - Fomu Download" />
+
+
+
+<meta property="og:description" content="Only 13mm long, Fomu really puts the micro in microprocessor. Fomu is a fully open-source, programmable FPGA device that sits inside a USB Type-A port. It has four buttons, an RGB LED, and an FPGA that is compatible with a fully open source chain and capable of running a RISC-V core. Fomu comes i..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/fomu.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/fomu/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Fomu</h1>
+  <h3>by Sean 'xobs' Cross</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/fomu.jpg" alt="Image of Board">
+        
+        <p>
+          <p>Only 13mm long, <strong>Fomu</strong> really puts the <em>micro</em> in microprocessor. Fomu is a fully open-source, programmable FPGA device that sits inside a USB Type-A port. It has four buttons, an RGB LED, and an FPGA that is compatible with a fully open source chain and capable of running a RISC-V core. Fomu comes in a custom plastic enclosure that slots perfectly into a USB port.</p>
+
+<p>Fomu:</p>
+
+<ul>
+  <li><strong>has Python</strong>
+    <ul>
+      <li>With 128 kilobytes of RAM and a large amount of storage, Fomu is powerful enough to run Python natively. And since it lives in your USB port, installation is super simple. FPGAs are complicated, but the latest Python tools make it easy to use Fomu without any specialized training.</li>
+    </ul>
+  </li>
+  <li><strong>runs RISC-V</strong>
+    <ul>
+      <li>Underneath the Python interpreter lies a RISC-V softcore running on the FPGA fabric. RISC-V is an up-and-coming processor architecture that is poised to take over everything from deeply-embedded chips to high-performance computing. Fomu’s RISC-V softcore is a great introduction to the processor architecture of the future.</li>
+    </ul>
+  </li>
+  <li><strong>is an FPGA</strong>
+    <ul>
+      <li>An FPGA is a piece of reconfigurable silicon. The default Fomu firmware exposes a USB bootloader running a RISC-V softcore, but you can load whatever you want. Softcores are also available for LM32 and OpenRISC. You can practice adding instructions to the CPU, or add new blocks such as LED blink patterns or better captouch hardware blocks.</li>
+    </ul>
+  </li>
+  <li><strong>is entirely open</strong>
+    <ul>
+      <li>Developing with Fomu is incredibly easy: just load code via USB and go. Whether you’re writing RISC-V code, Python code, or HDL, it’s all uploaded to Fomu in the same way. The ICE40UP5K FPGA is supported with a fully open toolchain, meaning you can start development without creating an account, signing an NDA, or downloading a multi-gigabyte installer.
+An FPGA is an Array of Gates that is Field-Programmable. When you buy a chip such as a CPU, the logic cells are all fixed in place. A CPU can run any amount of code, but if you want to do anything exotic you need to create software and, depending on what you want to do, that software can be very slow.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>For example, many embedded projects use WS2812 LEDs such as <a href="https://www.adafruit.com/?q=WS2812">NeoPixels</a> that require a specialized timing signal. A CPU can generate this signal in software, but it can’t do anything in the background while talking to the light. If the string of LEDs is very long, then the CPU wastes a lot of time and power generating the signal.</p>
+
+<p>With an FPGA, it becomes possible to create an “LED driver” that allows the CPU to keep running while a hardware component handles the timing. The CPU could do other work, or could put itself in a low power state.</p>
+
+<p>In fact, the “CPU” in the FPGA is created from a hardware description language, meaning it can be modified or swapped out. If you wanted, you could create a brand-new CPU instruction. Do you want to have fast 64-bit multiplies? Or maybe you want a way to get random numbers easily? With Fomu and its FPGA, you have the source code to the CPU itself.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/4332">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/fomu.md">here</a>.</p>
+
+        </p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+  <div class="section stable">
+    <h3>CircuitPython 6.3.0</h3>
+    <p>
+      This is the latest <strong>stable</strong>
+      release of CircuitPython that will work with the Fomu.
+    </p>
+    <p>
+      
+      <strong>Start here</strong> if you are new to CircuitPython.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/6.3.0">Release Notes for 6.3.0</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/zh_Latn_pinyin/adafruit-circuitpython-fomu-zh_Latn_pinyin-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/zh_Latn_pinyin/adafruit-circuitpython-fomu-zh_Latn_pinyin-6.3.0.dfu
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/nl/adafruit-circuitpython-fomu-nl-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/nl/adafruit-circuitpython-fomu-nl-6.3.0.dfu
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/en_GB/adafruit-circuitpython-fomu-en_GB-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/en_GB/adafruit-circuitpython-fomu-en_GB-6.3.0.dfu
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/en_US/adafruit-circuitpython-fomu-en_US-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/en_US/adafruit-circuitpython-fomu-en_US-6.3.0.dfu
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/fil/adafruit-circuitpython-fomu-fil-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/fil/adafruit-circuitpython-fomu-fil-6.3.0.dfu
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/fr/adafruit-circuitpython-fomu-fr-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/fr/adafruit-circuitpython-fomu-fr-6.3.0.dfu
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/de_DE/adafruit-circuitpython-fomu-de_DE-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/de_DE/adafruit-circuitpython-fomu-de_DE-6.3.0.dfu
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/ID/adafruit-circuitpython-fomu-ID-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/ID/adafruit-circuitpython-fomu-ID-6.3.0.dfu
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/it_IT/adafruit-circuitpython-fomu-it_IT-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/it_IT/adafruit-circuitpython-fomu-it_IT-6.3.0.dfu
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/ja/adafruit-circuitpython-fomu-ja-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/ja/adafruit-circuitpython-fomu-ja-6.3.0.dfu
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/en_x_pirate/adafruit-circuitpython-fomu-en_x_pirate-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/en_x_pirate/adafruit-circuitpython-fomu-en_x_pirate-6.3.0.dfu
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/pl/adafruit-circuitpython-fomu-pl-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/pl/adafruit-circuitpython-fomu-pl-6.3.0.dfu
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/pt_BR/adafruit-circuitpython-fomu-pt_BR-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/pt_BR/adafruit-circuitpython-fomu-pt_BR-6.3.0.dfu
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/es/adafruit-circuitpython-fomu-es-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/es/adafruit-circuitpython-fomu-es-6.3.0.dfu
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/sv/adafruit-circuitpython-fomu-sv-6.3.0.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/sv/adafruit-circuitpython-fomu-sv-6.3.0.dfu
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button stable dfu" href="https://downloads.circuitpython.org/bin/fomu/en_US/adafruit-circuitpython-fomu-en_US-6.3.0.dfu">DOWNLOAD .DFU NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules stable">_pixelbuf, binascii, digitalio, errno, gamepad, json, math, microcontroller, msgpack, neopixel_write, os, random, re, storage, struct, supervisor, time, touchio, ulab, usb_hid, usb_midi</span>
+    </p>
+    
+  </div>
+
+  <div class="section unstable">
+    <h3>CircuitPython 7.0.0-rc.1</h3>
+    <p>
+      This is the latest unstable
+      release of CircuitPython that will work with the Fomu.
+    </p>
+    <p>
+      
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/7.0.0-rc.1">Release Notes for 7.0.0-rc.1</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/zh_Latn_pinyin/adafruit-circuitpython-fomu-zh_Latn_pinyin-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/zh_Latn_pinyin/adafruit-circuitpython-fomu-zh_Latn_pinyin-7.0.0-rc.1.dfu
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/nl/adafruit-circuitpython-fomu-nl-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/nl/adafruit-circuitpython-fomu-nl-7.0.0-rc.1.dfu
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/en_GB/adafruit-circuitpython-fomu-en_GB-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/en_GB/adafruit-circuitpython-fomu-en_GB-7.0.0-rc.1.dfu
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/en_US/adafruit-circuitpython-fomu-en_US-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/en_US/adafruit-circuitpython-fomu-en_US-7.0.0-rc.1.dfu
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/fil/adafruit-circuitpython-fomu-fil-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/fil/adafruit-circuitpython-fomu-fil-7.0.0-rc.1.dfu
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/fr/adafruit-circuitpython-fomu-fr-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/fr/adafruit-circuitpython-fomu-fr-7.0.0-rc.1.dfu
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/de_DE/adafruit-circuitpython-fomu-de_DE-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/de_DE/adafruit-circuitpython-fomu-de_DE-7.0.0-rc.1.dfu
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/ID/adafruit-circuitpython-fomu-ID-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/ID/adafruit-circuitpython-fomu-ID-7.0.0-rc.1.dfu
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/it_IT/adafruit-circuitpython-fomu-it_IT-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/it_IT/adafruit-circuitpython-fomu-it_IT-7.0.0-rc.1.dfu
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/ja/adafruit-circuitpython-fomu-ja-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/ja/adafruit-circuitpython-fomu-ja-7.0.0-rc.1.dfu
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/en_x_pirate/adafruit-circuitpython-fomu-en_x_pirate-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/en_x_pirate/adafruit-circuitpython-fomu-en_x_pirate-7.0.0-rc.1.dfu
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/pl/adafruit-circuitpython-fomu-pl-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/pl/adafruit-circuitpython-fomu-pl-7.0.0-rc.1.dfu
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/pt_BR/adafruit-circuitpython-fomu-pt_BR-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/pt_BR/adafruit-circuitpython-fomu-pt_BR-7.0.0-rc.1.dfu
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/es/adafruit-circuitpython-fomu-es-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/es/adafruit-circuitpython-fomu-es-7.0.0-rc.1.dfu
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/fomu/sv/adafruit-circuitpython-fomu-sv-7.0.0-rc.1.dfu
+                    data-files=https://downloads.circuitpython.org/bin/fomu/sv/adafruit-circuitpython-fomu-sv-7.0.0-rc.1.dfu
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable dfu" href="https://downloads.circuitpython.org/bin/fomu/en_US/adafruit-circuitpython-fomu-en_US-7.0.0-rc.1.dfu">DOWNLOAD .DFU NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">adafruit_pixelbuf, aesio, atexit, binascii, digitalio, errno, getpass, json, keypad, math, microcontroller, msgpack, neopixel_write, os, rainbowio, random, re, storage, struct, supervisor, time, touchio, traceback, ulab, usb_cdc, usb_hid, usb_midi</span>
+    </p>
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language.  The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/fomu/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are listed on GitHub, with release notes,
+    and are available for download from Amazon S3.  They are handy for
+    testing, but otherwise we recommend using the latest stable
+    release.  Some older GitHub release pages include the same
+    binaries for downloading.  But we have discontinued including
+    binaries as assets on newer release pages because of the large
+    number of files for each release.
+  </p>
+  <p>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/fomu/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>
