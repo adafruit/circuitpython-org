@@ -16,9 +16,19 @@ features:
 
 - ESP32-S2FN4R2 WiFi SoC
     - Xtensa® single-core 32-bit LX7 microprocessor, up to 240 MHz
+    - Integrated 802.11 b/g/n WiFi 2.4GHz Transceiver, up to 150Mbps
+    - Integrated RISC-V ULP Coprocessor
+    - Integrated Temperature Sensor (-20°C to 110°C)
+    - Operating Voltage: 3.0 to 3.6V
+        - WiFi: 310mA (peak)
+        - Modem-sleep: 12-19mA
+        - Light-Sleep: 450µA
+        - Deep-Sleep: 20-190µA
     - 320 KB SRAM
-    - 4 MB Flash
-    - 2 MB PSRAM
+    - 4 MB Flash (embedded)
+    - 2 MB PSRAM (embedded)
+    - 16 KB SRAM in RTC (accessable by main CPU, 8 KB accessable by ULP coprocessor)
+    - 4 Kbit eFuse (1792 bits reserved for user data)
     - 2 × 13-bit SAR ADCs, up to 20 channels (2 channels not available on ADC2 due to USB D+/D-)
     - 2 × 8-bit DAC
     - 14 × touch sensing IOs
@@ -32,9 +42,19 @@ features:
     - 1 × TWAI® controller compatible with ISO 11898-1 (CAN Specification 2.0)
     - LED PWM controller, up to 8 channels
     - USB OTG 1.1 controller and PHY, with host and device support
+    - Cryptographic Hardware Accelerators: AES, ECB/CBC/OFB/CFB/CTR, GCM, SHA, RSA, ECC (Digital Signature)
 - USB Type-C connector, for built-in ROM USB bootloader, serial port debugging, and USB device mode
-- 27 × GPIO pins
+- 3.3V regulator ME6211C33
+    - Maximum Output Current: 500mA （V<sub>IN</sub>＝4.3V, V<sub>OUT</sub>＝3.3V）
+    - Dropout Voltage: 100mV@ I<sub>OUT</sub>＝100 mA
+    - Operating Voltage Range: 2V～6.0V
+    - Low Power Consumption: 40µA（typ.）
+    - Standby Current: 0.1µA（typ.）
+- 27 × GPIO pins, plus `EN`, `VBUS`, `3V3`, `GND`, `GND`
     - 16 × pins (outer) compatible with WEMOS/LOLIN D1 mini shields
+    - `EN` RESET button
+    - `GPIO0` BOOT button
+    - `GPIO15` LED (blue status LED)
 - Compatible with CircuitPython, MicroPython (default firmware), Arduino and ESP-IDF
 
 ## Purchase
