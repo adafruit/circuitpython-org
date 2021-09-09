@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 09 Sep 2021 17:23:36 -0400</lastBuildDate>
+<lastBuildDate>Thu, 09 Sep 2021 19:28:24 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -5075,9 +5075,22 @@ It’s basically the same board as the st7789 just without the display.</p>
   <li>ESP32-S2FN4R2 WiFi SoC
     <ul>
       <li>Xtensa® single-core 32-bit LX7 microprocessor, up to 240 MHz</li>
+      <li>Integrated 802.11 b/g/n WiFi 2.4GHz Transceiver, up to 150Mbps</li>
+      <li>Integrated RISC-V ULP Coprocessor</li>
+      <li>Integrated Temperature Sensor (-20°C to 110°C)</li>
+      <li>Operating Voltage: 3.0 to 3.6V
+        <ul>
+          <li>WiFi: 310mA (peak)</li>
+          <li>Modem-sleep: 12-19mA</li>
+          <li>Light-Sleep: 450µA</li>
+          <li>Deep-Sleep: 20-190µA</li>
+        </ul>
+      </li>
       <li>320 KB SRAM</li>
-      <li>4 MB Flash</li>
-      <li>2 MB PSRAM</li>
+      <li>4 MB Flash (embedded)</li>
+      <li>2 MB PSRAM (embedded)</li>
+      <li>16 KB SRAM in RTC (accessable by main CPU, 8 KB accessable by ULP coprocessor)</li>
+      <li>4 Kbit eFuse (1792 bits reserved for user data)</li>
       <li>2 × 13-bit SAR ADCs, up to 20 channels (2 channels not available on ADC2 due to USB D+/D-)</li>
       <li>2 × 8-bit DAC</li>
       <li>14 × touch sensing IOs</li>
@@ -5091,12 +5104,25 @@ It’s basically the same board as the st7789 just without the display.</p>
       <li>1 × TWAI® controller compatible with ISO 11898-1 (CAN Specification 2.0)</li>
       <li>LED PWM controller, up to 8 channels</li>
       <li>USB OTG 1.1 controller and PHY, with host and device support</li>
+      <li>Cryptographic Hardware Accelerators: AES, ECB/CBC/OFB/CFB/CTR, GCM, SHA, RSA, ECC (Digital Signature)</li>
     </ul>
   </li>
   <li>USB Type-C connector, for built-in ROM USB bootloader, serial port debugging, and USB device mode</li>
-  <li>27 × GPIO pins
+  <li>3.3V regulator ME6211C33
+    <ul>
+      <li>Maximum Output Current: 500mA （V<sub>IN</sub>＝4.3V, V<sub>OUT</sub>＝3.3V）</li>
+      <li>Dropout Voltage: 100mV@ I<sub>OUT</sub>＝100 mA</li>
+      <li>Operating Voltage Range: 2V～6.0V</li>
+      <li>Low Power Consumption: 40µA（typ.）</li>
+      <li>Standby Current: 0.1µA（typ.）</li>
+    </ul>
+  </li>
+  <li>27 × GPIO pins, plus <code class="language-plaintext highlighter-rouge">EN</code>, <code class="language-plaintext highlighter-rouge">VBUS</code>, <code class="language-plaintext highlighter-rouge">3V3</code>, <code class="language-plaintext highlighter-rouge">GND</code>, <code class="language-plaintext highlighter-rouge">GND</code>
     <ul>
       <li>16 × pins (outer) compatible with WEMOS/LOLIN D1 mini shields</li>
+      <li><code class="language-plaintext highlighter-rouge">EN</code> RESET button</li>
+      <li><code class="language-plaintext highlighter-rouge">GPIO0</code> BOOT button</li>
+      <li><code class="language-plaintext highlighter-rouge">GPIO15</code> LED (blue status LED)</li>
     </ul>
   </li>
   <li>Compatible with CircuitPython, MicroPython (default firmware), Arduino and ESP-IDF</li>
