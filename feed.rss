@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 09 Sep 2021 14:03:03 -0400</lastBuildDate>
+<lastBuildDate>Thu, 09 Sep 2021 17:23:36 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -5078,10 +5078,10 @@ It’s basically the same board as the st7789 just without the display.</p>
       <li>320 KB SRAM</li>
       <li>4 MB Flash</li>
       <li>2 MB PSRAM</li>
-      <li>2 × 13-bit SAR ADCs, up to 20 channels (2 channels not available on ADC2 due to USB)</li>
+      <li>2 × 13-bit SAR ADCs, up to 20 channels (2 channels not available on ADC2 due to USB D+/D-)</li>
       <li>2 × 8-bit DAC</li>
       <li>14 × touch sensing IOs</li>
-      <li>4 × SPI (2 useable due to embedded flash &amp; psram)</li>
+      <li>4 × SPI (2 usable due to embedded flash &amp; PSRAM)</li>
       <li>1 × I2S</li>
       <li>2 × I2C</li>
       <li>2 × UART</li>
@@ -5094,9 +5094,12 @@ It’s basically the same board as the st7789 just without the display.</p>
     </ul>
   </li>
   <li>USB Type-C connector, for built-in ROM USB bootloader, serial port debugging, and USB device mode</li>
-  <li>27 × GPIO pins, outer 16 pins compatible with LOLIN D1 mini shields</li>
-  <li>Compatible with CircuitPython, MicroPython, Arduino and ESP-IDF</li>
-  <li>Default firmware: MicroPython</li>
+  <li>27 × GPIO pins
+    <ul>
+      <li>16 × pins (outer) compatible with WEMOS/LOLIN D1 mini shields</li>
+    </ul>
+  </li>
+  <li>Compatible with CircuitPython, MicroPython (default firmware), Arduino and ESP-IDF</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
@@ -5109,47 +5112,6 @@ It’s basically the same board as the st7789 just without the display.</p>
 
 <ul>
   <li><a href="https://www.wemos.cc/en/latest/s2/s2_mini.html">Manufacturer Specifications</a></li>
-</ul>
-
-<h3 id="flashing-uf2-bootloader">Flashing UF2 Bootloader</h3>
-
-<p><strong><em>Important</em></strong>: <em>this will erase previously flashed firmware &amp; sketches from the board, but needs to be perfomed only once.</em></p>
-
-<ul>
-  <li>Download the latest <code class="language-plaintext highlighter-rouge">tinyuf2-lolin_s2_mini-......zip</code> from <a href="https://github.com/adafruit/tinyuf2/releases">TinyUF2 releases</a>,
-    <ul>
-      <li>Unzip to find the file <code class="language-plaintext highlighter-rouge">combined.bin</code>.</li>
-    </ul>
-  </li>
-  <li>Place board in bootloader mode:
-    <ul>
-      <li>Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.</li>
-      <li>Press and hold the <code class="language-plaintext highlighter-rouge">0</code> button down. Don’t let go of it yet!</li>
-      <li>Press and release the <code class="language-plaintext highlighter-rouge">RST</code> button. You should have the <code class="language-plaintext highlighter-rouge">0</code> button pressed while you do this.</li>
-      <li>Release the <code class="language-plaintext highlighter-rouge">0</code> button.</li>
-    </ul>
-  </li>
-  <li>Use the Adafruit WebSerial ESPTool to upload <code class="language-plaintext highlighter-rouge">combined.bin</code> (Google Chrome 89 or newer):
-    <ul>
-      <li>Open a new web browser window or tab to the <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a>.</li>
-      <li>Select <code class="language-plaintext highlighter-rouge">460800 Baud</code> from the pull-down menu at the top-right of the page.</li>
-      <li>Click the <code class="language-plaintext highlighter-rouge">Connect</code> button at the top-right of the page.</li>
-      <li>Select the COM or Serial port from the pop-up window.</li>
-      <li>After successful connection, click the <code class="language-plaintext highlighter-rouge">Erase</code> button.</li>
-      <li>After successful erase, click the first <code class="language-plaintext highlighter-rouge">Choose a file...</code> button, locate the <code class="language-plaintext highlighter-rouge">combined.bin</code> file unzipped earlier, click <code class="language-plaintext highlighter-rouge">Ok</code>.</li>
-      <li>After successfully choosing the <code class="language-plaintext highlighter-rouge">combined.bin</code> file, click the <code class="language-plaintext highlighter-rouge">Program</code> button.</li>
-      <li>After the TinyUF2 firmware update is complete, press the <code class="language-plaintext highlighter-rouge">RST</code> button on the board. A new drive <code class="language-plaintext highlighter-rouge">S2MINIBOOT</code> should be visible in your file browser.</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="flashing-circuitpython">Flashing CircuitPython</h3>
-
-<ul>
-  <li>Flash the UF2 bootloader using the instructions above.</li>
-  <li>Download the <code class="language-plaintext highlighter-rouge">.UF2</code> file from this page.</li>
-  <li>In your file browser, Drag &amp; Drop the <code class="language-plaintext highlighter-rouge">.UF2</code> file to the <code class="language-plaintext highlighter-rouge">S2MINIBOOT</code> drive.</li>
-  <li>Your board should reboot automatically into CircuitPython. The <code class="language-plaintext highlighter-rouge">S2MINIBOOT</code> drive should disappear and be replaced with a new drive <code class="language-plaintext highlighter-rouge">CIRCUITPY</code>.</li>
 </ul>
 
 <h2 id="contribute">Contribute</h2>
