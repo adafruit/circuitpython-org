@@ -168,11 +168,11 @@ By the way, boolean operation precedence is right to left! (yeesh)
     <strong>The bootloader allows you to load CircuitPython, Makecode, and Arduino programs.
       The bootloader is not CircuitPython.</strong>
   </p>
+
+{% if bootloader_board.family == 'esp32s2' %}
   <p>
     It is not necessary to reinstall the bootloader unless a BOOT drive is not visible when in UF2 bootloader mode (FTHRS2BOOT, MAGTAGBOOT, HOUSEBOOT, etc.), in which case the UF2 bootloader may need to be repaired.
   </p>
-
-{% if bootloader_board.family == 'esp32s2' %}
   <p>
     If a UF2 bootloader has never been installed on the board, or the UF2 bootloader was removed by erasing or overwriting the flash, the UF2 bootloader should be installed in order to flash .uf2 files onto the board.
   </p>
