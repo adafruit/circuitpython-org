@@ -4,9 +4,11 @@ var downloadsSearch = {
   searchTerm: null,
   urlTimeout: null,
   manufacturers: {},
+  mcufamilies: {},
   features: {},
   selected: {
     manufacturers: [],
+    mcufamilies: [],
     features: []
   }
 };
@@ -52,6 +54,7 @@ function handlePageLoad() {
   var url = new URL(window.location.href);
   //get values from URL
   var manufacturers = url.searchParams.getAll('manufacturers');
+  var mcufamilies = url.searchParams.getAll('mcufamilies');
   var features = url.searchParams.getAll('features');
   var sort_by = url.searchParams.get('sort-by');
   downloadsSearch.searchTerm = url.searchParams.get('q');
@@ -64,6 +67,12 @@ function handlePageLoad() {
   if (manufacturers.length) {
     manufacturers.forEach(function(selected) {
       document.querySelector("input[name='manufacturer'][value='" + selected + "']").click();
+    });
+  }
+
+  if (mcufamilies.length) {
+    mcufamilies.forEach(function(selected) {
+      document.querySelector("input[name='mcufamily'][value='" + selected + "']").click();
     });
   }
 
@@ -98,6 +107,7 @@ function initFilter() {
   var downloads = document.querySelectorAll('.download');
 
   setupManufacturers(downloads);
+  setupMcufamilies(downloads);
   setupFeatures(downloads);
   setupFilterListeners();
 
@@ -161,6 +171,38 @@ function setupManufacturers(downloads) {
   });
 }
 
+function setupMcufamilies(downloads) {
+  downloads.forEach(function(download) {
+    var mcufamily = download.dataset.mcufamily;
+    if (mcufamily in downloadsSearch.mcufamilies) {
+      downloadsSearch.mcufamilies[mcufamily].push(download.dataset.id);
+    } else {
+      downloadsSearch.mcufamilies[mcufamily] = [download.dataset.id];
+    }
+  });
+
+  var mcufamilyList = document.querySelector('.mcufamilies .content');
+
+  // build an alpha sorted array of mcufamily names
+  var mcufamilies = Object.keys(downloadsSearch.mcufamilies).sort(function(a, b) {
+    return a.localeCompare(b, 'en', {'sensitivity': 'base'});
+  });
+
+  mcufamilies.forEach(function(mcufamily) {
+    var li = document.createElement("li");
+    var checkbox = document.createElement('input');
+    checkbox.type = "checkbox";
+    checkbox.name = "mcufamily";
+    checkbox.className = 'filter-checkbox';
+    checkbox.value = mcufamily;
+
+    li.appendChild(checkbox);
+    li.appendChild(document.createTextNode(mcufamily));
+
+    mcufamilyList.appendChild(li);
+  });
+}
+
 function setupFeatures(downloads) {
   downloads.forEach(function(download) {
     var features = download.dataset.features.split(',');
@@ -202,6 +244,7 @@ function setupFilterListeners() {
   document.body.addEventListener('change', function (event) {
     var checkbox = event.target;
     var index = downloadsSearch.selected.manufacturers.indexOf(checkbox.value);
+
     if (checkbox.name === 'manufacturer') {
       if (checkbox.checked) {
         if (index == -1) {
@@ -215,6 +258,21 @@ function setupFilterListeners() {
         }
       }
       setURL('manufacturers', downloadsSearch.selected.manufacturers);
+      filterResults();
+    }
+
+    if (checkbox.name === 'mcufamily') {
+      if (checkbox.checked) {
+        downloadsSearch.selected.mcufamilies.push(checkbox.value);
+        appendFilterTag('mcufamily', checkbox.value);
+      } else {
+        var index = downloadsSearch.selected.mcufamilies.indexOf(checkbox.value);
+        if (index > -1) {
+          downloadsSearch.selected.mcufamilies.splice(index, 1);
+          removeFilterTag('mcufamily', checkbox.value);
+        }
+      }
+      setURL('mcufamilies', downloadsSearch.selected.features);
       filterResults();
     }
 
@@ -236,13 +294,18 @@ function setupFilterListeners() {
 }
 
 function filterResults() {
-  var displayedManufacturers = [], displayedFeatures = [];
+  var displayedManufacturers = [], displayedMcufamilies = [], displayedFeatures = [];
 
   var selectedManufacturers = downloadsSearch.selected.manufacturers;
+  var selectedMcufamilies = downloadsSearch.selected.mcufamilies;
   var selectedFeatures = downloadsSearch.selected.features;
 
   selectedManufacturers.forEach(function(manufacturer) {
     Array.prototype.push.apply(displayedManufacturers, downloadsSearch.manufacturers[manufacturer]);
+  });
+
+  selectedMcufamilies.forEach(function(mcufamily) {
+    Array.prototype.push.apply(displayedMcufamilies, downloadsSearch.mcufamilies[mcufamily]);
   });
 
   selectedFeatures.forEach(function(feature, index) {
@@ -266,7 +329,7 @@ function filterResults() {
   var downloads = document.querySelectorAll('.download');
   var board_count = 0
   downloads.forEach(function(download) {
-    if (!shouldDisplayDownload(download, displayedManufacturers, displayedFeatures)) {
+    if (!shouldDisplayDownload(download, displayedManufacturers, displayedMcufamilies, displayedFeatures)) {
       download.style.display = 'none';
     } else {
       download.style.display = 'block';
@@ -308,23 +371,30 @@ function setFeaturesChecked() {
   downloadsSearch.featuresChecked = document.querySelectorAll('input[name="feature"]:checked').length > 0;
 }
 
-function shouldDisplayDownload(download, displayedManufacturers, displayedFeatures) {
+function shouldDisplayDownload(download, displayedManufacturers, displayedMcufamilies, displayedFeatures) {
   var shouldFilterFeatures = downloadsSearch.featuresChecked;
   var shouldFilterManufacturers = displayedManufacturers.length > 0;
+  var shouldFilterMcufamilies = displayedMcufamilies.length > 0;
   var shouldDisplay = false;
 
   var id = download.dataset.id;
 
-  if (!shouldFilterFeatures && !shouldFilterManufacturers) {
+  if (!shouldFilterFeatures && !shouldFilterManufacturers && !shouldFilterMcufamilies) {
     shouldDisplay = true;
   }
 
   if (shouldFilterManufacturers) {
     if (displayedManufacturers.includes(id)) {
-      if (shouldFilterFeatures) {
-        if (displayedFeatures.includes(id)) {
-          shouldDisplay = true;
-        }
+      if (shouldFilterMcufamilies) {
+        if (displayedMcufamilies.includes(id)) {
+          if (shouldFilterFeatures) {
+            if (displayedFeatures.includes(id)) {
+              shouldDisplay = true;
+            }
+          } else {
+            shouldDisplay = true;
+          }
+	}
       } else {
         shouldDisplay = true;
       }
@@ -335,7 +405,7 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedFeatur
 
   if (downloadsSearch.searchTerm && downloadsSearch.searchTerm.length > 0 && shouldDisplay) {
     var regex = new RegExp(downloadsSearch.searchTerm, "gi");
-    var haystack = download.dataset.name + " " + download.dataset.id + " " + download.dataset.manufacturer + " " + download.dataset.features;
+    var haystack = download.dataset.name + " " + download.dataset.id + " " + download.dataset.manufacturer + " " + download.dataset.mcufamily + " " + download.dataset.features;
 
     shouldDisplay = haystack.match(regex);
   }

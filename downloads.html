@@ -30,6 +30,12 @@ permalink: /downloads
           <ul class="content"></ul>
         </fieldset>
       </div>
+      <div class="mcufamilies">
+        <fieldset>
+          <legend>Processor family</legend>
+          <ul class="content"></ul>
+        </fieldset>
+      </div>
       <div class="features">
         <fieldset>
           <legend>Features</legend>
@@ -81,6 +87,12 @@ permalink: /downloads
   </div>
   <div class="downloads-section">
     {% comment %}
+      The following are boards that are in the _data/bootloaders.json file,
+      used for search/filter by mcufamily among boards with builds.
+    {% endcomment %}
+    {% assign bootloadersboards = site.data.bootloaders.boards %}
+
+    {% comment %}
       The following are boards that are in the _data/files.json build
       process. Separate loops due to wanting to sort by download count first.
     {% endcomment %}
@@ -90,6 +102,7 @@ permalink: /downloads
       {% if info.size == 0 %}
         {% assign info = site.board | where: 'board_id', 'unknown' %}
       {% endif %}
+
       {% assign info = info[0] %}
 
       {% if info.downloads_display == false %}
@@ -100,6 +113,7 @@ permalink: /downloads
                             data-name="{{ info.name | default: board.id }}"
                             data-downloads="{{ board.downloads }}"
                             data-manufacturer="{{ info.manufacturer }}"
+                            data-mcufamily="{{ bootloadersboards[board.id].family }}"
                             data-features="{{ info.features | join: ','}}"
                             data-date="{{ info.date_added }}">
         <a href="{{ info.url | relative_url }}">
