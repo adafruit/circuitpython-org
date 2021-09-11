@@ -189,17 +189,19 @@ function setupMcufamilies(downloads) {
   });
 
   mcufamilies.forEach(function(mcufamily) {
-    var li = document.createElement("li");
-    var checkbox = document.createElement('input');
-    checkbox.type = "checkbox";
-    checkbox.name = "mcufamily";
-    checkbox.className = 'filter-checkbox';
-    checkbox.value = mcufamily;
+    if (mcufamily.length) {
+      var li = document.createElement("li");
+      var checkbox = document.createElement('input');
+      checkbox.type = "checkbox";
+      checkbox.name = "mcufamily";
+      checkbox.className = 'filter-checkbox';
+      checkbox.value = mcufamily;
 
-    li.appendChild(checkbox);
-    li.appendChild(document.createTextNode(mcufamily));
+      li.appendChild(checkbox);
+      li.appendChild(document.createTextNode(mcufamily));
 
-    mcufamilyList.appendChild(li);
+      mcufamilyList.appendChild(li);
+    }
   });
 }
 
