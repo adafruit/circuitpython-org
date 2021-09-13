@@ -387,29 +387,39 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedMcufam
 
   if (shouldFilterManufacturers) {
     if (displayedManufacturers.includes(id)) {
-      if (shouldFilterFeatures) {
-        if (displayedFeatures.includes(id)) {
-            shouldDisplay = true;
-        }
+      if (shouldFilterMcufamilies) {
+        if (displayedMcufamilies.includes(id)) {
+          if (shouldFilterFeatures) {
+            if (displayedFeatures.includes(id)) {
+                shouldDisplay = true;
+            }
+          } else {
+          shouldDisplay = true;
+	  }
+	}
+      } else if (shouldFilterFeatures) {
+          if (displayedFeatures.includes(id)) {
+              shouldDisplay = true;
+          }
       } else {
         shouldDisplay = true;
       }
     }
-  } else if (shouldFilterFeatures && displayedFeatures.includes(id)) {
-    shouldDisplay = true;
-  }
-
-  if (shouldFilterMcufamilies) {
+  } else if (shouldFilterMcufamilies) {
     if (displayedMcufamilies.includes(id)) {
       if (shouldFilterFeatures) {
         if (displayedFeatures.includes(id)) {
             shouldDisplay = true;
         }
       } else {
-        shouldDisplay = true;
+         shouldDisplay = true;
       }
     }
-  } else if (shouldFilterFeatures && displayedFeatures.includes(id)) {
+  } else if (shouldFilterFeatures) {
+    if (displayedFeatures.includes(id)) {
+        shouldDisplay = true;
+    }
+  } else {
     shouldDisplay = true;
   }
 
