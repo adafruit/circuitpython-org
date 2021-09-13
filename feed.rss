@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 13 Sep 2021 06:03:55 -0400</lastBuildDate>
+<lastBuildDate>Mon, 13 Sep 2021 11:35:05 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -5126,6 +5126,12 @@ It’s basically the same board as the st7789 just without the display.</p>
     </ul>
   </li>
   <li>Compatible with CircuitPython, MicroPython (default firmware), Arduino and ESP-IDF</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li>There is an error on the v1.0 board silkscreen. GPIO12/13 should be reversed.</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
