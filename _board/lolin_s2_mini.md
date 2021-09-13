@@ -57,6 +57,10 @@ features:
     - `GPIO15` LED (blue status LED)
 - Compatible with CircuitPython, MicroPython (default firmware), Arduino and ESP-IDF
 
+## Notes
+
+- There is an error on the v1.0 board silkscreen. GPIO12/13 should be reversed.
+
 ## Purchase
 
 * [AliExpress](https://www.aliexpress.com/item/1005003145192016.html)
