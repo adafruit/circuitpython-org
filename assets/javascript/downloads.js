@@ -381,10 +381,6 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedMcufam
 
   var id = download.dataset.id;
 
-  if (!shouldFilterFeatures && !shouldFilterManufacturers && !shouldFilterMcufamilies) {
-    shouldDisplay = true;
-  }
-
   if (shouldFilterManufacturers) {
     if (displayedManufacturers.includes(id)) {
       if (shouldFilterMcufamilies) {
