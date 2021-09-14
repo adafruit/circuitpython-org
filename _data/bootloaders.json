@@ -29,9 +29,18 @@
             "family": "esp32s2",
             "bootloader_id": "adafruit_feather_esp32s2_tft",
         },
+        "adafruit_feather_rp2040": {
+            "family": "raspberrypi",
+        },
         "adafruit_funhouse": {
             "family": "esp32s2",
             "bootloader_id": "adafruit_funhouse_esp32s2",
+        },
+        "adafruit_itsybitsy_rp2040": {
+            "family": "raspberrypi",
+        },
+        "adafruit_macropad_rp2040": {
+            "family": "raspberrypi",
         },
         "adafruit_magtag_2.9_grayscale": {
             "family": "esp32s2",
@@ -40,6 +49,12 @@
         "adafruit_metro_esp32s2": {
             "family": "esp32s2",
             "bootloader_id": "adafruit_metro_esp32s2",
+        },
+        "adafruit_qt2040_trinkey": {
+            "family": "raspberrypi",
+        },
+        "adafruit_qtpy_rp2040": {
+            "family": "raspberrypi",
         },
         "aramcon_badge_2019": {
             "family": "nrf52840",
@@ -60,6 +75,9 @@
         "arduino_nano_33_iot": {
             "family": "atmel-samd",
             "bootloader_id": "nano33iot",
+        },
+        "arduino_nano_rp2040_connect": {
+            "family": "raspberrypi",
         },
         "arduino_zero": {
             "family": "atmel-samd",
@@ -124,6 +142,9 @@
         },
         "cp32-m4": {
             "family": "atmel-samd",
+        },
+        "cytron_maker_pi_rp2040": {
+            "family": "raspberrypi",
         },
         "datalore_ip_m4": {
             "family": "atmel-samd",
@@ -279,6 +300,9 @@
             "family": "nrf52840",
             "bootloader_id": "feather_nrf52840_express",
         },
+        "jpconstantineau_encoderpad_rp2040": {
+            "family": "raspberrypi",
+        },
         "kicksat-sprite": {
             "family": "atmel-samd",
             "bootloader_id": "itsybitsy_m0",
@@ -365,6 +389,30 @@
             "family": "nrf52840",
             "bootloader_id": "particle_xenon",
         },
+        "pimoroni_interstate75": {
+            "family": "raspberrypi",
+        },
+        "pimoroni_keybow2040": {
+            "family": "raspberrypi",
+        },
+        "pimoroni_pga2040": {
+            "family": "raspberrypi",
+        },
+        "pimoroni_picolipo_16mb": {
+            "family": "raspberrypi",
+        },
+        "pimoroni_picolipo_4mb": {
+            "family": "raspberrypi",
+        },
+        "pimoroni_picosystem": {
+            "family": "raspberrypi",
+        },
+        "pimoroni_plasma2040": {
+            "family": "raspberrypi",
+        },
+        "pimoroni_tiny2040": {
+            "family": "raspberrypi",
+        },
         "hiibot_bluefi": {
             "family": "nrf52840",
             "bootloader_id": "hiibot_bluefi",
@@ -439,6 +487,9 @@
             "family": "atmel-samd",
             "bootloader_id": "trinket_m0",
         },
+        "raspberry_pi_pico": {
+            "family": "raspberrypi",
+        },
         "robohatmm1_m4": {
             "family": "atmel-samd",
             "bootloader_id": "robohatmm1_m4",
@@ -473,6 +524,12 @@
         "sparkfun_lumidrive": {
             "family": "atmel-samd",
         },
+        "sparkfun_micromod_rp2040": {
+            "family": "raspberrypi",
+        },
+        "sparkfun_pro_micro_rp2040": {
+            "family": "raspberrypi",
+        },
         "sparkfun_qwiic_micro_no_flash": {
             "family": "atmel-samd",
         },
@@ -488,6 +545,9 @@
         },
         "sparkfun_samd51_thing_plus": {
             "family": "atmel-samd",
+        },
+        "sparkfun_thing_plus_rp2040": {
+            "family": "raspberrypi",
         },
         "spresense": {
             "family": "cxd56",
