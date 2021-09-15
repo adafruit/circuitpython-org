@@ -1,6 +1,6 @@
 [
  {
-  "downloads": 153,
+  "downloads": 0,
   "id": "8086_commander",
   "versions": [
    {
@@ -54,6 +54,10 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_HID",
+     "Adafruit_CircuitPython_SD"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -99,12 +103,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 93,
+  "downloads": 0,
   "id": "ADM_B_NRF52840_1",
   "versions": [
    {
@@ -183,6 +187,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -261,12 +266,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 197,
+  "downloads": 0,
   "id": "TG-Watch",
   "versions": [
    {
@@ -345,6 +350,21 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_BusDevice",
+     "Adafruit_CircuitPython_Register",
+     "Adafruit_CircuitPython_ST7789",
+     "Adafruit_CircuitPython_Display_Shapes",
+     "Adafruit_CircuitPython_Display_Text",
+     "Adafruit_CircuitPython_ProgressBar",
+     "Adafruit_CircuitPython_LSM6DS",
+     "Adafruit_CircuitPython_FocalTouch",
+     "Adafruit_CircuitPython_DS3231",
+     "Adafruit_CircuitPython_LC709203F",
+     "Adafruit_CircuitPython_DRV2605",
+     "Adafruit_CircuitPython_BLE",
+     "Adafruit_CircuitPython_BLE_Apple_Notification_Center"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -423,12 +443,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 236,
+  "downloads": 0,
   "id": "adafruit_feather_esp32s2_nopsram",
   "versions": [
    {
@@ -513,6 +533,12 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_Requests",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_BusDevice",
+     "Adafruit_CircuitPython_Register"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -599,12 +625,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 138,
+  "downloads": 0,
   "id": "adafruit_feather_esp32s2_tftback_nopsram",
   "versions": [
    {
@@ -689,6 +715,12 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_Requests",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_BusDevice",
+     "Adafruit_CircuitPython_Register"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -775,12 +807,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 800,
+  "downloads": 0,
   "id": "adafruit_feather_rp2040",
   "versions": [
    {
@@ -859,6 +891,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -940,12 +973,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 664,
+  "downloads": 0,
   "id": "adafruit_funhouse",
   "versions": [
    {
@@ -1030,6 +1063,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -1116,12 +1150,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 308,
+  "downloads": 0,
   "id": "adafruit_itsybitsy_rp2040",
   "versions": [
    {
@@ -1200,6 +1234,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -1281,7 +1316,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -1293,6 +1328,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -1371,18 +1407,19 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 148,
+  "downloads": 0,
   "id": "adafruit_macropad_rp2040",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -1464,12 +1501,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 935,
+  "downloads": 0,
   "id": "adafruit_magtag_2.9_grayscale",
   "versions": [
    {
@@ -1554,6 +1591,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -1640,12 +1678,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 363,
+  "downloads": 0,
   "id": "adafruit_metro_esp32s2",
   "versions": [
    {
@@ -1730,6 +1768,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -1816,12 +1855,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 290,
+  "downloads": 0,
   "id": "adafruit_neokey_trinkey_m0",
   "versions": [
    {
@@ -1870,6 +1909,10 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_HID"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -1908,12 +1951,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 187,
+  "downloads": 0,
   "id": "adafruit_proxlight_trinkey_m0",
   "versions": [
    {
@@ -1963,6 +2006,10 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_APDS9960",
+     "Adafruit_CircuitPython_NeoPixel"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -2000,15 +2047,16 @@
      "time",
      "touchio",
      "usb_cdc",
-     "usb_hid"
+     "usb_hid",
+     "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 354,
+  "downloads": 0,
   "id": "adafruit_qt2040_trinkey",
   "versions": [
    {
@@ -2087,6 +2135,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -2168,12 +2217,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 521,
+  "downloads": 0,
   "id": "adafruit_qtpy_rp2040",
   "versions": [
    {
@@ -2252,6 +2301,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -2333,12 +2383,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 249,
+  "downloads": 0,
   "id": "adafruit_rotary_trinkey_m0",
   "versions": [
    {
@@ -2388,6 +2438,10 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_HID"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -2427,12 +2481,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 195,
+  "downloads": 0,
   "id": "adafruit_slide_trinkey_m0",
   "versions": [
    {
@@ -2482,6 +2536,11 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_SimpleMath",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_HID"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -2521,12 +2580,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 17,
+  "downloads": 0,
   "id": "ai_thinker_esp_12k_nodemcu",
   "versions": [
    {
@@ -2534,6 +2593,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -2620,12 +2680,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 201,
+  "downloads": 0,
   "id": "aloriumtech_evo_m51",
   "versions": [
    {
@@ -2706,6 +2766,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -2785,12 +2846,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 162,
+  "downloads": 0,
   "id": "aramcon2_badge",
   "versions": [
    {
@@ -2869,6 +2930,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -2947,12 +3009,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 141,
+  "downloads": 0,
   "id": "aramcon_badge_2019",
   "versions": [
    {
@@ -3031,6 +3093,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -3109,12 +3172,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 139,
+  "downloads": 0,
   "id": "arduino_mkr1300",
   "versions": [
    {
@@ -3170,6 +3233,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -3199,7 +3263,6 @@
      "onewireio",
      "os",
      "pwmio",
-     "rainbowio",
      "random",
      "rotaryio",
      "rtc",
@@ -3213,12 +3276,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 163,
+  "downloads": 0,
   "id": "arduino_mkrzero",
   "versions": [
    {
@@ -3274,6 +3337,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -3317,12 +3381,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 324,
+  "downloads": 0,
   "id": "arduino_nano_33_ble",
   "versions": [
    {
@@ -3401,6 +3465,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -3479,12 +3544,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 179,
+  "downloads": 0,
   "id": "arduino_nano_33_iot",
   "versions": [
    {
@@ -3540,6 +3605,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -3569,7 +3635,6 @@
      "onewireio",
      "os",
      "pwmio",
-     "rainbowio",
      "random",
      "rotaryio",
      "rtc",
@@ -3583,12 +3648,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 570,
+  "downloads": 0,
   "id": "arduino_nano_rp2040_connect",
   "versions": [
    {
@@ -3667,6 +3732,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -3748,12 +3814,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 196,
+  "downloads": 0,
   "id": "arduino_zero",
   "versions": [
    {
@@ -3809,6 +3875,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -3838,7 +3905,6 @@
      "onewireio",
      "os",
      "pwmio",
-     "rainbowio",
      "random",
      "rotaryio",
      "rtc",
@@ -3852,12 +3918,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 43,
+  "downloads": 0,
   "id": "artisense_rd00",
   "versions": [
    {
@@ -3942,6 +4008,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -4028,12 +4095,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 33,
+  "downloads": 0,
   "id": "atmegazero_esp32s2",
   "versions": [
    {
@@ -4041,6 +4108,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -4127,12 +4195,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 186,
+  "downloads": 0,
   "id": "bast_pro_mini_m0",
   "versions": [
    {
@@ -4186,6 +4254,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -4229,12 +4298,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 159,
+  "downloads": 0,
   "id": "bastble",
   "versions": [
    {
@@ -4313,6 +4382,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -4391,12 +4461,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 154,
+  "downloads": 0,
   "id": "bdmicro_vina_d21",
   "versions": [
    {
@@ -4459,6 +4529,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -4515,12 +4586,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 225,
+  "downloads": 0,
   "id": "bdmicro_vina_d51",
   "versions": [
    {
@@ -4601,6 +4672,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -4680,12 +4752,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 232,
+  "downloads": 0,
   "id": "bdmicro_vina_d51_pcb7",
   "versions": [
    {
@@ -4766,6 +4838,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -4845,12 +4918,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 246,
+  "downloads": 0,
   "id": "bless_dev_board_multi_sensor",
   "versions": [
    {
@@ -4929,6 +5002,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -5007,12 +5081,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 156,
+  "downloads": 0,
   "id": "blm_badge",
   "versions": [
    {
@@ -5064,6 +5138,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -5106,18 +5181,19 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 30,
+  "downloads": 0,
   "id": "bluemicro840",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -5196,12 +5272,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 269,
+  "downloads": 0,
   "id": "capablerobot_usbhub",
   "versions": [
    {
@@ -5281,6 +5357,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -5359,12 +5436,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 201,
+  "downloads": 0,
   "id": "catwan_usbstick",
   "versions": [
    {
@@ -5417,6 +5494,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -5460,12 +5538,106 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 198,
+  "downloads": 0,
+  "id": "challenger_rp2040_wifi",
+  "versions": [
+   {
+    "extensions": [
+     "uf2"
+    ],
+    "frozen_libraries": [],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "sv",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_bleio",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogio",
+     "atexit",
+     "audiobusio",
+     "audiocore",
+     "audiomixer",
+     "audiomp3",
+     "audiopwmio",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "bitops",
+     "board",
+     "busio",
+     "countio",
+     "digitalio",
+     "displayio",
+     "errno",
+     "fontio",
+     "framebufferio",
+     "getpass",
+     "imagecapture",
+     "json",
+     "keypad",
+     "math",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "onewireio",
+     "os",
+     "paralleldisplay",
+     "pulseio",
+     "pwmio",
+     "qrio",
+     "rainbowio",
+     "random",
+     "re",
+     "rgbmatrix",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "sharpdisplay",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "terminalio",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb_cdc",
+     "usb_hid",
+     "usb_midi",
+     "vectorio",
+     "watchdog"
+    ],
+    "stable": false,
+    "version": "7.0.0-rc.2"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
   "id": "circuitbrains_basic_m0",
   "versions": [
    {
@@ -5529,6 +5701,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -5585,12 +5758,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 157,
+  "downloads": 0,
   "id": "circuitbrains_deluxe_m4",
   "versions": [
    {
@@ -5671,6 +5844,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -5750,12 +5924,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 712,
+  "downloads": 0,
   "id": "circuitplayground_bluefruit",
   "versions": [
    {
@@ -5834,6 +6008,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -5912,12 +6087,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 1190,
+  "downloads": 0,
   "id": "circuitplayground_express",
   "versions": [
    {
@@ -5980,6 +6155,13 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_CircuitPlayground",
+     "Adafruit_CircuitPython_HID",
+     "Adafruit_CircuitPython_LIS3DH",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_Thermistor"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6035,12 +6217,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 172,
+  "downloads": 0,
   "id": "circuitplayground_express_4h",
   "versions": [
    {
@@ -6103,6 +6285,13 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_CircuitPlayground",
+     "Adafruit_CircuitPython_HID",
+     "Adafruit_CircuitPython_LIS3DH",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_Thermistor"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6158,12 +6347,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 237,
+  "downloads": 0,
   "id": "circuitplayground_express_crickit",
   "versions": [
    {
@@ -6223,6 +6412,15 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_CircuitPlayground",
+     "Adafruit_CircuitPython_Crickit",
+     "Adafruit_CircuitPython_LIS3DH",
+     "Adafruit_CircuitPython_Motor",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_seesaw",
+     "Adafruit_CircuitPython_Thermistor"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6276,12 +6474,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 176,
+  "downloads": 0,
   "id": "circuitplayground_express_digikey_pycon2019",
   "versions": [
    {
@@ -6344,6 +6542,13 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_CircuitPlayground",
+     "Adafruit_CircuitPython_HID",
+     "Adafruit_CircuitPython_LIS3DH",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_Thermistor"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6399,12 +6604,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 181,
+  "downloads": 0,
   "id": "circuitplayground_express_displayio",
   "versions": [
    {
@@ -6463,6 +6668,12 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_CircuitPlayground",
+     "Adafruit_CircuitPython_LIS3DH",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_Thermistor"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6514,12 +6725,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 535,
+  "downloads": 0,
   "id": "clue_nrf52840_express",
   "versions": [
    {
@@ -6598,6 +6809,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6676,12 +6888,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 95,
+  "downloads": 0,
   "id": "cp32-m4",
   "versions": [
    {
@@ -6761,6 +6973,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6839,12 +7052,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 157,
+  "downloads": 0,
   "id": "cp_sapling_m0",
   "versions": [
    {
@@ -6898,6 +7111,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6941,18 +7155,19 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 16,
+  "downloads": 0,
   "id": "cp_sapling_m0_revb",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -6996,12 +7211,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 123,
+  "downloads": 0,
   "id": "cp_sapling_m0_spiflash",
   "versions": [
    {
@@ -7063,6 +7278,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -7116,12 +7332,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "crumpspace_crumps2",
   "versions": [
    {
@@ -7129,6 +7345,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -7215,17 +7432,22 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 39,
+  "downloads": 0,
   "id": "cytron_maker_pi_rp2040",
   "versions": [
    {
     "extensions": [
      "uf2"
+    ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_Motor",
+     "Adafruit_CircuitPython_SimpleIO"
     ],
     "languages": [
      "de_DE",
@@ -7308,12 +7530,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 45,
+  "downloads": 0,
   "id": "datalore_ip_m4",
   "versions": [
    {
@@ -7394,6 +7616,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -7473,12 +7696,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 153,
+  "downloads": 0,
   "id": "datum_distance",
   "versions": [
    {
@@ -7532,6 +7755,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -7575,12 +7799,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 128,
+  "downloads": 0,
   "id": "datum_imu",
   "versions": [
    {
@@ -7634,6 +7858,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -7677,12 +7902,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 159,
+  "downloads": 0,
   "id": "datum_light",
   "versions": [
    {
@@ -7736,6 +7961,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -7779,12 +8005,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 144,
+  "downloads": 0,
   "id": "datum_weather",
   "versions": [
    {
@@ -7838,6 +8064,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -7881,12 +8108,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 147,
+  "downloads": 0,
   "id": "dynalora_usb",
   "versions": [
    {
@@ -7940,6 +8167,11 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_RFM9x",
+     "Adafruit_CircuitPython_SD"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -7984,12 +8216,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 137,
+  "downloads": 0,
   "id": "dynossat_edu_eps",
   "versions": [
    {
@@ -8050,6 +8282,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -8104,12 +8337,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 139,
+  "downloads": 0,
   "id": "dynossat_edu_obc",
   "versions": [
    {
@@ -8190,6 +8423,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -8269,12 +8503,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 235,
+  "downloads": 0,
   "id": "edgebadge",
   "versions": [
    {
@@ -8357,6 +8591,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "pybadge"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -8437,12 +8674,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 121,
+  "downloads": 0,
   "id": "electroniccats_bastwifi",
   "versions": [
    {
@@ -8526,6 +8763,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -8611,12 +8849,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 166,
+  "downloads": 0,
   "id": "electronut_labs_blip",
   "versions": [
    {
@@ -8696,6 +8934,7 @@
     "extensions": [
      "hex"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -8775,12 +9014,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 159,
+  "downloads": 0,
   "id": "electronut_labs_papyr",
   "versions": [
    {
@@ -8859,6 +9098,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -8937,12 +9177,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 168,
+  "downloads": 0,
   "id": "escornabot_makech",
   "versions": [
    {
@@ -8995,6 +9235,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -9037,7 +9278,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -9050,6 +9291,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -9136,12 +9378,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 169,
+  "downloads": 0,
   "id": "espressif_kaluga_1",
   "versions": [
    {
@@ -9226,6 +9468,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -9312,12 +9555,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 30,
+  "downloads": 0,
   "id": "espressif_kaluga_1.3",
   "versions": [
    {
@@ -9325,6 +9568,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -9411,12 +9655,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 327,
+  "downloads": 0,
   "id": "espressif_saola_1_wroom",
   "versions": [
    {
@@ -9501,6 +9745,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -9587,12 +9832,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 381,
+  "downloads": 0,
   "id": "espressif_saola_1_wrover",
   "versions": [
    {
@@ -9677,6 +9922,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -9763,12 +10009,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 43,
+  "downloads": 0,
   "id": "espruino_pico",
   "versions": [
    {
@@ -9830,6 +10076,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -9885,12 +10132,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 54,
+  "downloads": 0,
   "id": "espruino_wifi",
   "versions": [
    {
@@ -9956,6 +10203,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10019,12 +10267,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 397,
+  "downloads": 0,
   "id": "feather_bluefruit_sense",
   "versions": [
    {
@@ -10103,6 +10351,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10181,12 +10430,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 272,
+  "downloads": 0,
   "id": "feather_m0_adalogger",
   "versions": [
    {
@@ -10242,6 +10491,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10285,12 +10535,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 249,
+  "downloads": 0,
   "id": "feather_m0_basic",
   "versions": [
    {
@@ -10346,6 +10596,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10389,12 +10640,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 536,
+  "downloads": 0,
   "id": "feather_m0_express",
   "versions": [
    {
@@ -10457,6 +10708,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10513,12 +10765,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 161,
+  "downloads": 0,
   "id": "feather_m0_express_crickit",
   "versions": [
    {
@@ -10579,6 +10831,12 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_Crickit",
+     "Adafruit_CircuitPython_Motor",
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_seesaw"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10631,12 +10889,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 170,
+  "downloads": 0,
   "id": "feather_m0_rfm69",
   "versions": [
    {
@@ -10685,6 +10943,9 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_RFM69"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10724,12 +10985,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 271,
+  "downloads": 0,
   "id": "feather_m0_rfm9x",
   "versions": [
    {
@@ -10778,6 +11039,9 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_RFM9x"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10817,12 +11081,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 199,
+  "downloads": 0,
   "id": "feather_m0_supersized",
   "versions": [
    {
@@ -10885,6 +11149,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -10941,12 +11206,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 241,
+  "downloads": 0,
   "id": "feather_m4_can",
   "versions": [
    {
@@ -11026,6 +11291,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -11106,12 +11372,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 837,
+  "downloads": 0,
   "id": "feather_m4_express",
   "versions": [
    {
@@ -11192,6 +11458,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -11271,12 +11538,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 140,
+  "downloads": 0,
   "id": "feather_m7_1011",
   "versions": [
    {
@@ -11347,6 +11614,10 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_ESP32SPI",
+     "Adafruit_CircuitPython_Requests"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -11411,12 +11682,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 177,
+  "downloads": 0,
   "id": "feather_mimxrt1011",
   "versions": [
    {
@@ -11487,6 +11758,10 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_ESP32SPI",
+     "Adafruit_CircuitPython_Requests"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -11551,12 +11826,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 170,
+  "downloads": 0,
   "id": "feather_mimxrt1062",
   "versions": [
    {
@@ -11627,6 +11902,7 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -11691,12 +11967,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 470,
+  "downloads": 0,
   "id": "feather_nrf52840_express",
   "versions": [
    {
@@ -11775,6 +12051,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -11853,7 +12130,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -11918,7 +12195,7 @@
   ]
  },
  {
-  "downloads": 199,
+  "downloads": 0,
   "id": "feather_stm32f405_express",
   "versions": [
    {
@@ -11987,6 +12264,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -12059,12 +12337,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 171,
+  "downloads": 0,
   "id": "fluff_m0",
   "versions": [
    {
@@ -12118,6 +12396,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -12161,12 +12440,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 169,
+  "downloads": 0,
   "id": "fomu",
   "versions": [
    {
@@ -12220,6 +12499,7 @@
     "extensions": [
      "dfu"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -12267,12 +12547,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 132,
+  "downloads": 0,
   "id": "franzininho_wifi_wroom",
   "versions": [
    {
@@ -12357,6 +12637,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -12443,12 +12724,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 132,
+  "downloads": 0,
   "id": "franzininho_wifi_wrover",
   "versions": [
    {
@@ -12533,6 +12814,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -12619,12 +12901,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 391,
+  "downloads": 0,
   "id": "gemma_m0",
   "versions": [
    {
@@ -12678,6 +12960,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -12721,12 +13004,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 156,
+  "downloads": 0,
   "id": "gemma_m0_pycon2018",
   "versions": [
    {
@@ -12780,6 +13063,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -12823,12 +13107,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 390,
+  "downloads": 0,
   "id": "grandcentral_m4_express",
   "versions": [
    {
@@ -12910,6 +13194,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -12992,12 +13277,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 53,
+  "downloads": 0,
   "id": "gravitech_cucumber_m",
   "versions": [
    {
@@ -13005,6 +13290,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -13091,12 +13377,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 71,
+  "downloads": 0,
   "id": "gravitech_cucumber_ms",
   "versions": [
    {
@@ -13104,6 +13390,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -13190,12 +13477,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 50,
+  "downloads": 0,
   "id": "gravitech_cucumber_r",
   "versions": [
    {
@@ -13203,6 +13490,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -13289,12 +13577,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 67,
+  "downloads": 0,
   "id": "gravitech_cucumber_rs",
   "versions": [
    {
@@ -13302,6 +13590,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -13388,12 +13677,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 284,
+  "downloads": 0,
   "id": "hallowing_m0_express",
   "versions": [
    {
@@ -13454,6 +13743,10 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_LIS3DH",
+     "Adafruit_CircuitPython_NeoPixel"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -13509,12 +13802,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 265,
+  "downloads": 0,
   "id": "hallowing_m4_express",
   "versions": [
    {
@@ -13595,6 +13888,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -13674,12 +13968,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 236,
+  "downloads": 0,
   "id": "hiibot_bluefi",
   "versions": [
    {
@@ -13758,6 +14052,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -13836,12 +14131,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 154,
+  "downloads": 0,
   "id": "huntercat_nfc",
   "versions": [
    {
@@ -13891,6 +14186,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -13947,12 +14243,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 170,
+  "downloads": 0,
   "id": "ikigaisense_vita",
   "versions": [
    {
@@ -14031,6 +14327,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -14109,12 +14406,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 161,
+  "downloads": 0,
   "id": "imxrt1010_evk",
   "versions": [
    {
@@ -14185,6 +14482,10 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_ESP32SPI",
+     "Adafruit_CircuitPython_Requests"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -14249,12 +14550,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 159,
+  "downloads": 0,
   "id": "imxrt1020_evk",
   "versions": [
    {
@@ -14325,6 +14626,7 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -14389,12 +14691,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 168,
+  "downloads": 0,
   "id": "imxrt1060_evk",
   "versions": [
    {
@@ -14465,6 +14767,7 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -14529,12 +14832,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 417,
+  "downloads": 0,
   "id": "itsybitsy_m0_express",
   "versions": [
    {
@@ -14595,6 +14898,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -14650,12 +14954,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 482,
+  "downloads": 0,
   "id": "itsybitsy_m4_express",
   "versions": [
    {
@@ -14735,6 +15039,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -14813,12 +15118,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 354,
+  "downloads": 0,
   "id": "itsybitsy_nrf52840_express",
   "versions": [
    {
@@ -14897,6 +15202,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -14975,7 +15281,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -14987,6 +15293,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -15068,12 +15375,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 149,
+  "downloads": 0,
   "id": "kicksat-sprite",
   "versions": [
    {
@@ -15142,6 +15449,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -15201,12 +15509,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 250,
+  "downloads": 0,
   "id": "lilygo_ttgo_t8_s2_st7789",
   "versions": [
    {
@@ -15291,6 +15599,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -15377,12 +15686,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 117,
+  "downloads": 0,
   "id": "loc_ber_m4_base_board",
   "versions": [
    {
@@ -15437,6 +15746,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -15481,7 +15791,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -15493,6 +15803,9 @@
     "extensions": [
      "bin",
      "uf2"
+    ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel"
     ],
     "languages": [
      "de_DE",
@@ -15580,12 +15893,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 219,
+  "downloads": 0,
   "id": "makerdiary_m60_keyboard",
   "versions": [
    {
@@ -15664,6 +15977,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -15742,12 +16056,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 167,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_m2_devkit",
   "versions": [
    {
@@ -15826,6 +16140,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -15904,12 +16219,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 140,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_mdk",
   "versions": [
    {
@@ -15988,6 +16303,7 @@
     "extensions": [
      "hex"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -16066,12 +16382,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 215,
+  "downloads": 0,
   "id": "makerdiary_nrf52840_mdk_usb_dongle",
   "versions": [
    {
@@ -16152,6 +16468,7 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -16230,12 +16547,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 704,
+  "downloads": 0,
   "id": "matrixportal_m4",
   "versions": [
    {
@@ -16316,6 +16633,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -16395,12 +16713,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 194,
+  "downloads": 0,
   "id": "meowbit_v121",
   "versions": [
    {
@@ -16464,6 +16782,9 @@
    {
     "extensions": [
      "uf2"
+    ],
+    "frozen_libraries": [
+     "meowbit"
     ],
     "languages": [
      "de_DE",
@@ -16531,12 +16852,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 151,
+  "downloads": 0,
   "id": "meowmeow",
   "versions": [
    {
@@ -16588,6 +16909,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -16630,12 +16952,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 400,
+  "downloads": 0,
   "id": "metro_m0_express",
   "versions": [
    {
@@ -16698,6 +17020,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -16754,12 +17077,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 369,
+  "downloads": 0,
   "id": "metro_m4_airlift_lite",
   "versions": [
    {
@@ -16840,6 +17163,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -16919,12 +17243,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 339,
+  "downloads": 0,
   "id": "metro_m4_express",
   "versions": [
    {
@@ -17005,6 +17329,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -17084,12 +17409,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 147,
+  "downloads": 0,
   "id": "metro_m7_1011",
   "versions": [
    {
@@ -17160,6 +17485,10 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_ESP32SPI",
+     "Adafruit_CircuitPython_Requests"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -17224,12 +17553,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 200,
+  "downloads": 0,
   "id": "metro_nrf52840_express",
   "versions": [
    {
@@ -17308,6 +17637,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -17386,7 +17716,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -17398,6 +17728,7 @@
     "extensions": [
      "combined.hex"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -17449,12 +17780,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 125,
+  "downloads": 0,
   "id": "microdev_micro_s2",
   "versions": [
    {
@@ -17539,6 +17870,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -17625,12 +17957,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 220,
+  "downloads": 0,
   "id": "mini_sam_m4",
   "versions": [
    {
@@ -17710,6 +18042,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_DotStar"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -17788,12 +18123,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 338,
+  "downloads": 0,
   "id": "monster_m4sk",
   "versions": [
    {
@@ -17874,6 +18209,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -17953,12 +18289,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 0,
   "id": "morpheans_morphesp-240",
   "versions": [
    {
@@ -17966,6 +18302,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -18052,12 +18389,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 659,
+  "downloads": 0,
   "id": "muselab_nanoesp32_s2_wroom",
   "versions": [
    {
@@ -18142,6 +18479,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -18228,12 +18566,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 583,
+  "downloads": 0,
   "id": "muselab_nanoesp32_s2_wrover",
   "versions": [
    {
@@ -18318,6 +18656,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -18404,12 +18743,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 116,
+  "downloads": 0,
   "id": "ndgarage_ndbit6",
   "versions": [
    {
@@ -18463,6 +18802,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -18506,12 +18846,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 33,
+  "downloads": 0,
   "id": "ndgarage_ndbit6_v2",
   "versions": [
    {
@@ -18565,6 +18905,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -18608,12 +18949,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 388,
+  "downloads": 0,
   "id": "neopixel_trinkey_m0",
   "versions": [
    {
@@ -18662,6 +19003,10 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_HID",
+     "Adafruit_CircuitPython_NeoPixel"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -18700,12 +19045,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 224,
+  "downloads": 0,
   "id": "nfc_copy_cat",
   "versions": [
    {
@@ -18759,6 +19104,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -18802,12 +19148,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 202,
+  "downloads": 0,
   "id": "nice_nano",
   "versions": [
    {
@@ -18886,6 +19232,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -18964,12 +19311,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 60,
+  "downloads": 0,
   "id": "nucleo_f746zg",
   "versions": [
    {
@@ -19033,6 +19380,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -19095,12 +19443,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 77,
+  "downloads": 0,
   "id": "nucleo_f767zi",
   "versions": [
    {
@@ -19164,6 +19512,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -19226,12 +19575,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 60,
+  "downloads": 0,
   "id": "nucleo_h743zi_2",
   "versions": [
    {
@@ -19293,6 +19642,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -19353,12 +19703,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 0,
   "id": "odt_pixelwing_esp32_s2",
   "versions": [
    {
@@ -19366,6 +19716,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -19452,12 +19803,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 183,
+  "downloads": 0,
   "id": "ohs2020_badge",
   "versions": [
    {
@@ -19536,6 +19887,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -19614,12 +19966,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 191,
+  "downloads": 0,
   "id": "openbook_m4",
   "versions": [
    {
@@ -19701,6 +20053,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -19781,12 +20134,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 58,
+  "downloads": 0,
   "id": "openmv_h7",
   "versions": [
    {
@@ -19848,6 +20201,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -19908,12 +20262,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 187,
+  "downloads": 0,
   "id": "particle_argon",
   "versions": [
    {
@@ -19992,6 +20346,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -20070,12 +20425,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 164,
+  "downloads": 0,
   "id": "particle_boron",
   "versions": [
    {
@@ -20154,6 +20509,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -20232,12 +20588,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 215,
+  "downloads": 0,
   "id": "particle_xenon",
   "versions": [
    {
@@ -20316,6 +20672,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -20394,12 +20751,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 188,
+  "downloads": 0,
   "id": "pca10056",
   "versions": [
    {
@@ -20480,6 +20837,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -20558,12 +20916,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 259,
+  "downloads": 0,
   "id": "pca10059",
   "versions": [
    {
@@ -20644,6 +21002,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -20722,12 +21081,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 163,
+  "downloads": 0,
   "id": "pca10100",
   "versions": [
    {
@@ -20788,6 +21147,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -20839,12 +21199,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 139,
+  "downloads": 0,
   "id": "pewpew10",
   "versions": [
    {
@@ -20896,6 +21256,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "pew-pewpew-standalone-10.x"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -20937,12 +21300,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 85,
+  "downloads": 0,
   "id": "pewpew13",
   "versions": [
    {
@@ -20994,6 +21357,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "pew-pewpew-standalone-10.x"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -21035,12 +21401,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 158,
+  "downloads": 0,
   "id": "pewpew_m4",
   "versions": [
    {
@@ -21095,6 +21461,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "pewpew_m4"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -21140,12 +21509,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 133,
+  "downloads": 0,
   "id": "picoplanet",
   "versions": [
    {
@@ -21199,6 +21568,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -21242,18 +21612,19 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 12,
+  "downloads": 0,
   "id": "pimoroni_interstate75",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -21335,12 +21706,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 357,
+  "downloads": 0,
   "id": "pimoroni_keybow2040",
   "versions": [
    {
@@ -21419,6 +21790,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -21500,18 +21872,19 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 26,
+  "downloads": 0,
   "id": "pimoroni_pga2040",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -21593,12 +21966,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 322,
+  "downloads": 0,
   "id": "pimoroni_picolipo_16mb",
   "versions": [
    {
@@ -21677,6 +22050,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -21758,12 +22132,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 205,
+  "downloads": 0,
   "id": "pimoroni_picolipo_4mb",
   "versions": [
    {
@@ -21842,6 +22216,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -21923,12 +22298,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 203,
+  "downloads": 0,
   "id": "pimoroni_picosystem",
   "versions": [
    {
@@ -22007,6 +22382,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -22088,18 +22464,19 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 33,
+  "downloads": 0,
   "id": "pimoroni_plasma2040",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -22181,12 +22558,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 434,
+  "downloads": 0,
   "id": "pimoroni_tiny2040",
   "versions": [
    {
@@ -22265,6 +22642,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -22346,7 +22724,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -22398,7 +22776,7 @@
   ]
  },
  {
-  "downloads": 168,
+  "downloads": 0,
   "id": "pitaya_go",
   "versions": [
    {
@@ -22477,6 +22855,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -22555,12 +22934,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 62,
+  "downloads": 0,
   "id": "pyb_nano_v2",
   "versions": [
    {
@@ -22626,6 +23005,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -22687,12 +23067,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 364,
+  "downloads": 0,
   "id": "pybadge",
   "versions": [
    {
@@ -22775,6 +23155,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "pybadge"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -22855,7 +23238,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -22942,7 +23325,7 @@
   ]
  },
  {
-  "downloads": 111,
+  "downloads": 0,
   "id": "pyboard_v11",
   "versions": [
    {
@@ -23011,6 +23394,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -23083,12 +23467,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 191,
+  "downloads": 0,
   "id": "pycubed",
   "versions": [
    {
@@ -23159,6 +23543,11 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_Register",
+     "Adafruit_CircuitPython_SD"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -23226,12 +23615,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 174,
+  "downloads": 0,
   "id": "pycubed_mram",
   "versions": [
    {
@@ -23302,6 +23691,11 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel",
+     "Adafruit_CircuitPython_Register",
+     "Adafruit_CircuitPython_SD"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -23369,12 +23763,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 422,
+  "downloads": 0,
   "id": "pygamer",
   "versions": [
    {
@@ -23457,6 +23851,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "pygamer"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -23537,7 +23934,7 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -23624,7 +24021,7 @@
   ]
  },
  {
-  "downloads": 520,
+  "downloads": 0,
   "id": "pyportal",
   "versions": [
    {
@@ -23705,6 +24102,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -23784,12 +24182,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 211,
+  "downloads": 0,
   "id": "pyportal_pynt",
   "versions": [
    {
@@ -23870,6 +24268,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -23949,12 +24348,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 318,
+  "downloads": 0,
   "id": "pyportal_titano",
   "versions": [
    {
@@ -24035,6 +24434,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -24114,12 +24514,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 282,
+  "downloads": 0,
   "id": "pyruler",
   "versions": [
    {
@@ -24172,6 +24572,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -24215,12 +24616,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 630,
+  "downloads": 0,
   "id": "qtpy_m0",
   "versions": [
    {
@@ -24274,6 +24675,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -24317,12 +24719,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 360,
+  "downloads": 0,
   "id": "qtpy_m0_haxpress",
   "versions": [
    {
@@ -24385,6 +24787,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -24441,12 +24844,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 3495,
+  "downloads": 0,
   "id": "raspberry_pi_pico",
   "versions": [
    {
@@ -24525,6 +24928,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -24606,12 +25010,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 0,
   "id": "raytac_mdbt50q-db-40",
   "versions": [
    {
@@ -24690,6 +25094,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -24768,18 +25173,19 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 46,
+  "downloads": 0,
   "id": "raytac_mdbt50q-rx",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -24858,12 +25264,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 204,
+  "downloads": 0,
   "id": "robohatmm1_m4",
   "versions": [
    {
@@ -24935,6 +25341,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -25003,12 +25412,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 167,
+  "downloads": 0,
   "id": "sam32",
   "versions": [
    {
@@ -25089,6 +25498,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -25168,12 +25580,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 167,
+  "downloads": 0,
   "id": "same54_xplained",
   "versions": [
    {
@@ -25254,6 +25666,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -25333,12 +25746,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 497,
+  "downloads": 0,
   "id": "seeeduino_wio_terminal",
   "versions": [
    {
@@ -25419,6 +25832,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -25498,12 +25912,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 897,
+  "downloads": 0,
   "id": "seeeduino_xiao",
   "versions": [
    {
@@ -25557,6 +25971,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -25600,18 +26015,19 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 18,
+  "downloads": 0,
   "id": "sensebox_mcu",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -25638,7 +26054,6 @@
      "microcontroller",
      "neopixel_write",
      "nvm",
-     "onewireio",
      "os",
      "pwmio",
      "random",
@@ -25654,12 +26069,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 176,
+  "downloads": 0,
   "id": "serpente",
   "versions": [
    {
@@ -25725,6 +26140,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -25781,12 +26197,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 189,
+  "downloads": 0,
   "id": "shirtty",
   "versions": [
    {
@@ -25840,6 +26256,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -25883,12 +26300,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 134,
+  "downloads": 0,
   "id": "silicognition-m4-shim",
   "versions": [
    {
@@ -25969,6 +26386,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -26048,12 +26466,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 145,
+  "downloads": 0,
   "id": "simmel",
   "versions": [
    {
@@ -26113,6 +26531,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -26144,14 +26563,12 @@
      "board",
      "busio",
      "digitalio",
-     "getpass",
      "json",
      "math",
      "microcontroller",
      "onewireio",
      "os",
      "pwmio",
-     "rainbowio",
      "random",
      "re",
      "rtc",
@@ -26164,12 +26581,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 162,
+  "downloads": 0,
   "id": "snekboard",
   "versions": [
    {
@@ -26232,6 +26649,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -26288,12 +26706,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 174,
+  "downloads": 0,
   "id": "sparkfun_lumidrive",
   "versions": [
    {
@@ -26357,6 +26775,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_DotStar"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -26410,12 +26831,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 213,
+  "downloads": 0,
   "id": "sparkfun_micromod_rp2040",
   "versions": [
    {
@@ -26494,6 +26915,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -26575,12 +26997,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 184,
+  "downloads": 0,
   "id": "sparkfun_nrf52840_micromod",
   "versions": [
    {
@@ -26659,6 +27081,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -26737,12 +27160,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 185,
+  "downloads": 0,
   "id": "sparkfun_nrf52840_mini",
   "versions": [
    {
@@ -26821,6 +27244,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -26899,12 +27323,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 233,
+  "downloads": 0,
   "id": "sparkfun_pro_micro_rp2040",
   "versions": [
    {
@@ -26983,6 +27407,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27064,12 +27489,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 150,
+  "downloads": 0,
   "id": "sparkfun_qwiic_micro_no_flash",
   "versions": [
    {
@@ -27123,6 +27548,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27166,12 +27592,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 178,
+  "downloads": 0,
   "id": "sparkfun_qwiic_micro_with_flash",
   "versions": [
    {
@@ -27225,6 +27651,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27268,12 +27695,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 216,
+  "downloads": 0,
   "id": "sparkfun_redboard_turbo",
   "versions": [
    {
@@ -27335,6 +27762,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27391,12 +27819,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 197,
+  "downloads": 0,
   "id": "sparkfun_samd21_dev",
   "versions": [
    {
@@ -27450,6 +27878,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27493,12 +27922,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 190,
+  "downloads": 0,
   "id": "sparkfun_samd21_mini",
   "versions": [
    {
@@ -27552,6 +27981,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27595,18 +28025,19 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 17,
+  "downloads": 0,
   "id": "sparkfun_samd51_micromod",
   "versions": [
    {
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27686,12 +28117,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 269,
+  "downloads": 0,
   "id": "sparkfun_samd51_thing_plus",
   "versions": [
    {
@@ -27772,6 +28203,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27851,18 +28283,19 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 34,
+  "downloads": 0,
   "id": "sparkfun_stm32f405_micromod",
   "versions": [
    {
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -27935,12 +28368,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 281,
+  "downloads": 0,
   "id": "sparkfun_thing_plus_rp2040",
   "versions": [
    {
@@ -28019,6 +28452,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -28100,12 +28534,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 174,
+  "downloads": 0,
   "id": "spresense",
   "versions": [
    {
@@ -28165,6 +28599,7 @@
     "extensions": [
      "spk"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -28220,12 +28655,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 150,
+  "downloads": 0,
   "id": "stackrduino_m0_pro",
   "versions": [
    {
@@ -28288,6 +28723,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -28344,12 +28780,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 148,
+  "downloads": 0,
   "id": "stm32f411ce_blackpill",
   "versions": [
    {
@@ -28415,6 +28851,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -28478,12 +28915,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 94,
+  "downloads": 0,
   "id": "stm32f411ce_blackpill_with_flash",
   "versions": [
    {
@@ -28549,6 +28986,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -28616,12 +29054,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 69,
+  "downloads": 0,
   "id": "stm32f411ve_discovery",
   "versions": [
    {
@@ -28687,6 +29125,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -28744,16 +29183,15 @@
      "ulab",
      "usb_cdc",
      "usb_hid",
-     "usb_midi",
-     "vectorio"
+     "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 61,
+  "downloads": 0,
   "id": "stm32f412zg_discovery",
   "versions": [
    {
@@ -28819,6 +29257,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -28887,12 +29326,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 87,
+  "downloads": 0,
   "id": "stm32f4_discovery",
   "versions": [
    {
@@ -28960,6 +29399,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -29031,12 +29471,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 69,
+  "downloads": 0,
   "id": "stm32f746g_discovery",
   "versions": [
    {
@@ -29100,6 +29540,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -29162,12 +29603,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 193,
+  "downloads": 0,
   "id": "stringcar_m0_express",
   "versions": [
    {
@@ -29229,6 +29670,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -29285,12 +29727,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 155,
+  "downloads": 0,
   "id": "targett_module_clip_wroom",
   "versions": [
    {
@@ -29375,6 +29817,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -29461,12 +29904,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 140,
+  "downloads": 0,
   "id": "targett_module_clip_wrover",
   "versions": [
    {
@@ -29551,6 +29994,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -29637,12 +30081,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 369,
+  "downloads": 0,
   "id": "teensy40",
   "versions": [
    {
@@ -29713,6 +30157,7 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -29777,12 +30222,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 395,
+  "downloads": 0,
   "id": "teensy41",
   "versions": [
    {
@@ -29853,6 +30298,7 @@
      "hex",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -29917,12 +30363,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 149,
+  "downloads": 0,
   "id": "teknikio_bluebird",
   "versions": [
    {
@@ -30001,6 +30447,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -30079,12 +30526,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 47,
+  "downloads": 0,
   "id": "thunderpack_v11",
   "versions": [
    {
@@ -30149,6 +30596,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -30214,12 +30662,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 52,
+  "downloads": 0,
   "id": "thunderpack_v12",
   "versions": [
    {
@@ -30285,6 +30733,7 @@
     "extensions": [
      "bin"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -30352,12 +30801,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 224,
+  "downloads": 0,
   "id": "tinkeringtech_scoutmakes_azul",
   "versions": [
    {
@@ -30436,6 +30885,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -30514,12 +30964,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 362,
+  "downloads": 0,
   "id": "trellis_m4_express",
   "versions": [
    {
@@ -30599,6 +31049,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -30677,12 +31128,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 810,
+  "downloads": 0,
   "id": "trinket_m0",
   "versions": [
    {
@@ -30736,6 +31187,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -30779,12 +31231,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 153,
+  "downloads": 0,
   "id": "trinket_m0_haxpress",
   "versions": [
    {
@@ -30847,6 +31299,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -30903,12 +31356,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 108,
+  "downloads": 0,
   "id": "uartlogger2",
   "versions": [
    {
@@ -30989,6 +31442,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -31068,12 +31522,12 @@
      "vectorio"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 138,
+  "downloads": 0,
   "id": "uchip",
   "versions": [
    {
@@ -31129,6 +31583,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -31172,12 +31627,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 160,
+  "downloads": 0,
   "id": "ugame10",
   "versions": [
    {
@@ -31235,6 +31690,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "ugame10"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -31283,12 +31741,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 505,
+  "downloads": 0,
   "id": "unexpectedmaker_feathers2",
   "versions": [
    {
@@ -31373,6 +31831,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -31459,7 +31918,7 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -31472,6 +31931,9 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -31558,12 +32020,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 87,
+  "downloads": 0,
   "id": "unexpectedmaker_feathers2_prerelease",
   "versions": [
    {
@@ -31648,6 +32110,7 @@
      "bin",
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -31734,12 +32197,12 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 187,
+  "downloads": 0,
   "id": "unexpectedmaker_tinys2",
   "versions": [
    {
@@ -31823,6 +32286,9 @@
     "extensions": [
      "bin",
      "uf2"
+    ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_NeoPixel"
     ],
     "languages": [
      "de_DE",
@@ -31911,7 +32377,7 @@
      "wifi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
@@ -31923,6 +32389,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -32001,12 +32468,12 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 204,
+  "downloads": 0,
   "id": "winterbloom_big_honking_button",
   "versions": [
    {
@@ -32063,6 +32530,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -32110,12 +32578,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 189,
+  "downloads": 0,
   "id": "winterbloom_sol",
   "versions": [
    {
@@ -32178,6 +32646,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -32236,12 +32705,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 191,
+  "downloads": 0,
   "id": "xinabox_cc03",
   "versions": [
    {
@@ -32289,6 +32758,7 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [],
     "languages": [
      "de_DE",
      "en_GB",
@@ -32329,12 +32799,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  },
  {
-  "downloads": 160,
+  "downloads": 0,
   "id": "xinabox_cs11",
   "versions": [
    {
@@ -32380,6 +32850,9 @@
     "extensions": [
      "uf2"
     ],
+    "frozen_libraries": [
+     "Adafruit_CircuitPython_SD"
+    ],
     "languages": [
      "de_DE",
      "en_GB",
@@ -32419,7 +32892,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "7.0.0-rc.1"
+    "version": "7.0.0-rc.2"
    }
   ]
  }
