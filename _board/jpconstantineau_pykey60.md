@@ -17,6 +17,8 @@ The PyKey60 is a custom programmable mechanical keyboard with a standard ANSI 60
 
 Since this is a Hot Swappable Switches keyboard, you can choose the MX switches as well as the keycaps you prefer.  You can even mix and match switches for the ultimate customization.
 
+Just like CircuitPython, this keyboard is targeted for beginners.  The design keeps the matrix definition simple to 14 columns and 5 rows instead of using a GPIO-optimized matrix of 8 columns and 8 rows.  Neopixel order is also in line with key numbers.  This keeps the complexity of coding a keyboard firmware to a minimum.
+
 ## Features
 * Powered by RP2040
 * Per key RGB LEDs (NeoPixels)
