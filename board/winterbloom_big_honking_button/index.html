@@ -686,18 +686,7 @@
 
 
 
-<div class="section unrecommended">
-  <h3>Install/Repair UF2 Bootloader</h3>
-  <p>
-    Latest version: v3.13.0
-  </p>
-  <p>
-    <strong>The bootloader allows you to load CircuitPython, Makecode, and Arduino programs.
-      The bootloader is not CircuitPython.</strong>
-  </p>
 
-
-</div>
 
 <div class="section unrecommended">
   <h3>Update UF2 Bootloader</h3>
@@ -705,23 +694,27 @@
     Latest version: v3.13.0
   </p>
   <p>
-    <strong>The bootloader allows you to load CircuitPython, Makecode, and Arduino programs.
+    <strong>The bootloader allows you to load CircuitPython, MakeCode, and Arduino programs.
       The bootloader is not CircuitPython.</strong>
     You can check the current version of your bootloader by looking in
-    the INFO_UF2.TXT file when the BOOT drive is visible (FEATHERBOOT, CPLAYBOOT, etc.).
+    the <b>INFO_UF2.TXT</b> file when the <b>BOOT</b> drive is visible (<b>FEATHERBOOT</b>, <b>CPLAYBOOT</b>, etc.).
+  </p>
+  <p>
+    It is not necessary to update your bootloader if it is working fine.
+    Read the release notes on GitHub to see what has been changed.
+    In general, we recommend you not update the bootloader unless you know there is a problem with it
+    or a support person has asked you to try updating it.
   </p>
 
+  
 
-
-
-
-
+  
   <p>
-    To update, first save the contents of CIRCUITPY, just in case.
-    Then double-click the reset button to show the BOOT drive.
-    Drag the update-bootloader .uf2 file to the BOOT drive.
-    Wait a few tens of seconds for the bootloader to update; the BOOT drive will reappear.
-    Check INFO_UF2.TXT to verify that the bootloader version has been updated.
+    To update, first save the contents of <b>CIRCUITPY</b>, just in case.
+    Then double-click the reset button to show the <b>BOOT</b> drive.
+    Drag the <b>update-bootloader</b> <b>.uf2</b> file to the <b>BOOT</b> drive.
+    Wait a few tens of seconds for the bootloader to update; the <b>BOOT</b> drive will reappear.
+    After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
     Then you will need to reload CircuitPython.
   </p>
   <p>
@@ -730,8 +723,9 @@
   <div>
     <a class="download-button-unrecommended" href="https://github.com/adafruit/uf2-samdx1/releases/tag/v3.13.0">BROWSE ON GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
   </div>
-
+  
 </div>
+
 
 
       
