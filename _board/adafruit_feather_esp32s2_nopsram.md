@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "adafruit_feather_esp32s2_nopsram.jpg"
 date_added: 2021-4-6
+family: esp32s2
+bootloader_id: adafruit_feather_esp32s2
 features:
   - Feather-Compatible
   - Battery Charging

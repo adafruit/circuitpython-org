@@ -7,6 +7,7 @@ manufacturer: "Simmel Project"
 board_url: "https://github.com/simmel-project/frontpage"
 board_image: "simmel.jpg"
 date_added: 2020-04-29
+family: nrf52840
 
 features:
   - USB-C

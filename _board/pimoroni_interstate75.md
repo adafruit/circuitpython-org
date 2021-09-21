@@ -7,6 +7,7 @@ manufacturer: "Pimoroni"
 board_url: "https://pimoroni.com/i75"
 board_image: "unknown.jpg"
 date_added: 2021-8-24
+family: raspberrypi
 downloads_display: false
 ---
 

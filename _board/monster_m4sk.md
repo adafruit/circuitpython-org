@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "monster_m4sk.jpg"
 date_added: 2019-8-30
+family: atmel-samd
+bootloader_id: hallowing_mask
 features:
   - Display
   - Battery Charging

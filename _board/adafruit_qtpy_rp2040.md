@@ -7,6 +7,7 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4900"
 board_image: "adafruit_qtpy_rp2040.jpg"
 date_added: 2021-4-6
+family: raspberrypi
 features:
   - STEMMA QT/QWIIC
   - USB-C

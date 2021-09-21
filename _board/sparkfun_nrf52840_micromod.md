@@ -7,6 +7,7 @@ manufacturer: "SparkFun"
 board_url: "https://www.sparkfun.com/products/16984"
 board_image: "sparkfun_nrf52840_micromod.jpg"
 date_added: 2021-4-6
+family: nrf52840
 features:
   - Bluetooth/BTLE
 ---

@@ -7,6 +7,7 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "adafruit_led_glasses_nrf52840.jpg"
 date_added: 2021-9-3
+family: nrf52840
 features:
 
 ---

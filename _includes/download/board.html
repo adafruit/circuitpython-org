@@ -155,12 +155,11 @@ By the way, boolean operation precedence is right to left! (yeesh)
 {% endcomment %}
 
 {% assign bootloaders = site.data.bootloaders.bootloaders %}
-{% assign bootloader_board = site.data.bootloaders.boards[page.board_id] %}
-{% assign bootloader_version = bootloaders[bootloader_board.family].version %}
-{% assign bootloader_id = bootloader_board.bootloader_id %}
-{% if bootloader_version and bootloader_id and bootloader_board %}
+{% assign bootloader_version = bootloaders[page.family].version %}
+{% assign bootloader_id = page.bootloader_id %}
+{% if bootloader_version and bootloader_id %}
 
-{% if bootloader_board.family == 'esp32s2' %}
+{% if page.family == 'esp32s2' %}
 <div class="section unrecommended">
   <h3>Install, Repair, or Update UF2 Bootloader</h3>
   <p>
@@ -243,7 +242,7 @@ By the way, boolean operation precedence is right to left! (yeesh)
     or a support person has asked you to try updating it.
   </p>
 
-  {% if bootloader_board.family == 'nrf52840' %}
+  {% if page.family == 'nrf52840' %}
   <p>
     Updating the bootloader on nRF52840 boards is an involved process right now.
     Follow the instructions in this
@@ -258,7 +257,7 @@ By the way, boolean operation precedence is right to left! (yeesh)
   </div>
   {% endif %}
 
-  {% if bootloader_board.family == 'atmel-samd' %}
+  {% if page.family == 'atmel-samd' %}
   <p>
     To update, first save the contents of <b>CIRCUITPY</b>, just in case.
     Then double-click the reset button to show the <b>BOOT</b> drive.

@@ -7,6 +7,8 @@ manufacturer: "Capable Robot Components"
 board_url: "https://www.crowdsupply.com/capable-robot-components/programmable-usb-hub"
 board_image: "capablerobot_usbhub.jpg"
 date_added: 2019-5-25
+family: atmel-samd
+bootloader_id: capablerobot_usbhub
 features:
   - STEMMA QT/QWIIC
 ---

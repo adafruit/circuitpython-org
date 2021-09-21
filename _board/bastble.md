@@ -7,6 +7,7 @@ manufacturer: "Electronic Cats"
 board_url: "https://electroniccats.com/store/bast-ble/"
 board_image: "bastble.jpg"
 date_added: 2020-11-05
+family: nrf52840
 
 features:
   - Feather-Compatible

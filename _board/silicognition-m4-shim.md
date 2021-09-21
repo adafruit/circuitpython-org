@@ -7,6 +7,8 @@ manufacturer: "Silicognition LLC"
 board_url: "https://github.com/xorbit/M4-Shim"
 board_image: "silicognition-m4-shim.jpg"
 date_added: 2021-2-19
+family: atmel-samd
+bootloader_id: silicognition-m4-shim
 features:
   - Feather-Compatible
   - Breadboard-Friendly

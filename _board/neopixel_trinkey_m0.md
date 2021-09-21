@@ -7,6 +7,7 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4870"
 board_image: "neopixel_trinkey_m0.jpg"
 date_added: 2021-4-6
+family: atmel-samd
 features:
 
 ---

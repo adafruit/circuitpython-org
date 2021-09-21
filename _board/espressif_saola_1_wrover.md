@@ -7,6 +7,8 @@ manufacturer: "Espressif"
 board_url: "https://www.adafruit.com/product/4693"
 board_image: "espressif_saola_1_wrover.jpg"
 date_added: 2020-05-15
+family: esp32s2
+bootloader_id: espressif_saola_1_wrover
 features:
   - Wi-Fi
   - Breadboard-Friendly

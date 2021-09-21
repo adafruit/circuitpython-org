@@ -7,6 +7,7 @@ manufacturer: "PJRC"
 board_url: "https://www.adafruit.com/product/4622"
 board_image: "teensy41.jpg"
 date_added: 2020-05-11
+family: mimxrt10xx
 features:
   - Breadboard-Friendly
 ---

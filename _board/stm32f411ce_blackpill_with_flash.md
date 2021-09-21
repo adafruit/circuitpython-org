@@ -7,6 +7,7 @@ manufacturer: "WeAct Studio"
 board_url: "https://www.aliexpress.com/item/1005001456186625.html"
 board_image: "stm32f411ce_blackpill.jpg"
 date_added: 2021-4-6
+family: stm
 
 features:
   - USB-C
