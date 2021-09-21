@@ -6,6 +6,7 @@ name: "ADM 52480 board for Holyiot_18010 module"
 manufacturer: "AtelierDuMaker"
 board_url: ""
 board_image: "unknown.jpg"
+date_added:
 downloads_display: false
 ---
 

@@ -7,6 +7,7 @@ manufacturer: "SparkFun"
 board_url: "https://www.sparkfun.com/products/17713"
 board_image: "sparkfun_stm32f405_micromod.jpg"
 date_added: 2021-8-13
+family: stm
 features:
 ---
 

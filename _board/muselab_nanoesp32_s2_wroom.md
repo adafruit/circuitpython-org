@@ -7,6 +7,8 @@ manufacturer: "Muselab"
 board_url: "https://www.muselab-tech.com/nanoesp32-s2kai-fa-ban/"
 board_image: "muselab_nanoesp32_s2.jpg"
 date_added: 2020-09-16
+family: esp32s2
+bootloader_id: muselab_nanoesp32-s2_wroom
 
 features:
   - USB-C

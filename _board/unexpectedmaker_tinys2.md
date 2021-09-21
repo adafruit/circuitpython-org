@@ -7,6 +7,8 @@ manufacturer: "Unexpected Maker"
 board_url: ""
 board_image: "unexpectedmaker_tinys2.jpg"
 date_added: 2021-03-20
+family: esp32s2
+bootloader_id: unexpectedmaker_tinys2
 features:
   - Battery Charging
   - Wi-Fi

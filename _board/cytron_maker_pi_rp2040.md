@@ -6,6 +6,7 @@ name: "Maker Pi RP2040"
 manufacturer: "Cytron Technologies"
 board_url: "https://www.cytron.io/p-maker-pi-rp2040"
 board_image: "cytron_maker_pi_rp2040.jpg"
+date_added:
 features:
   - Battery Charging
   - Speaker

@@ -7,6 +7,7 @@ manufacturer: "Hangzhou LeBan"
 board_url: ""
 board_image: "hiibot_iots2.jpg"
 date_added: 2020-11-20
+family: 
 features:
   - Display
   - Wi-Fi

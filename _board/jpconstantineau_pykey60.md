@@ -7,6 +7,7 @@ manufacturer: "JPConstantineau"
 board_url: "https://github.com/jpconstantineau/PyKey60"
 board_image: "jpconstantineau_pykey60.jpg"
 date_added: 2021-09-17
+family: 
 
 features:
   - USB-C

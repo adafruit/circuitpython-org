@@ -30,11 +30,19 @@ permalink: /downloads
           <ul class="content"></ul>
         </fieldset>
       </div>
-      <div class="features">
-        <fieldset>
-          <legend>Features</legend>
-          <ul class="content"></ul>
-        </fieldset>
+      <div>
+        <div class="features">
+          <fieldset>
+            <legend>Features</legend>
+            <ul class="content"></ul>
+          </fieldset>
+        </div>
+        <div class="mcufamilies">
+          <fieldset>
+            <legend>Processor family</legend>
+            <ul class="content"></ul>
+          </fieldset>
+        </div>
       </div>
       <div class="sort-by">
         <fieldset>
@@ -90,6 +98,7 @@ permalink: /downloads
       {% if info.size == 0 %}
         {% assign info = site.board | where: 'board_id', 'unknown' %}
       {% endif %}
+
       {% assign info = info[0] %}
 
       {% if info.downloads_display == false %}
@@ -100,6 +109,7 @@ permalink: /downloads
                             data-name="{{ info.name | default: board.id }}"
                             data-downloads="{{ board.downloads }}"
                             data-manufacturer="{{ info.manufacturer }}"
+                            data-mcufamily="{{ info.family }}"
                             data-features="{{ info.features | join: ','}}"
                             data-date="{{ info.date_added }}">
         <a href="{{ info.url | relative_url }}">

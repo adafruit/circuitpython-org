@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/3800"
 board_image: "itsybitsy_m4_express.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: itsybitsy_m4
 features:
   - Breadboard-Friendly
 ---

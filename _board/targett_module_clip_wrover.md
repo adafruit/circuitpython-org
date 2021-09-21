@@ -7,6 +7,8 @@ manufacturer: "Targett"
 board_url: "https://www.targettpcb.co.uk/s2-mcb-1"
 board_image: "targett_module_clip_wrover.jpg"
 date_added: 2020-12-6
+family: esp32s2
+bootloader_id: targett_mcb_wrover
 features:
   - Wi-Fi
 ---

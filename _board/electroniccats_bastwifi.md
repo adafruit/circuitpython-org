@@ -7,6 +7,7 @@ manufacturer: "Electronic Cats"
 board_url: "https://electroniccats.com/store/bast-wifi/"
 board_image: "bast_wifi.jpg"
 date_added: 2020-10-13
+family: esp32s2
 
 features:
   - Feather-Compatible

@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "gemma_m0_pycon2018.jpg"
 date_added: 2019-4-13
+family: atmel-samd
+bootloader_id: gemma_m0
 features:
   - Solder-Free Alligator Clip
 ---

@@ -7,6 +7,8 @@ manufacturer: "PyCubed.org"
 board_url: "https://pycubed.org/"
 board_image: "pycubed.jpg"
 date_added: 2020-2-27
+family: atmel-samd
+bootloader_id: pycubed
 features:
 ---
 

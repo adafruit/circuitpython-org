@@ -7,6 +7,7 @@ manufacturer: "Adafruit"
 board_url: "https://github.com/adafruit/BLM-Badge-PCB"
 board_image: "blmbadge.jpg"
 date_added: 2020-9-1
+family: atmel-samd
 features:
   - STEMMA QT/QWIIC
   - USB-C

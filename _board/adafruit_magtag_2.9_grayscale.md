@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4800"
 board_image: "adafruit_magtag_2.9_grayscale.jpg"
 date_added: 2020-11-10
+family: esp32s2
+bootloader_id: adafruit_magtag_29gray
 features:
   - Wi-Fi
   - Battery Charging

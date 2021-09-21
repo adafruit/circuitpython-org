@@ -7,6 +7,8 @@ manufacturer: "Espressif"
 board_url: "https://www.adafruit.com/product/4729"
 board_image: "espressif_kaluga_1.jpg"
 date_added: 2020-08-30
+family: esp32s2
+bootloader_id: espressif_kaluga_1
 features:
   - Wi-Fi
 ---
