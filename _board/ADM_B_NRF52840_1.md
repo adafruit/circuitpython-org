@@ -7,6 +7,7 @@ manufacturer: "AtelierDuMaker"
 board_url: ""
 board_image: "unknown.jpg"
 date_added:
+family: nrf52840
 downloads_display: false
 ---
 

@@ -7,6 +7,7 @@ manufacturer: "BH Dynamics"
 board_url: "https://github.com/BHDynamics/rfm_radio_dongle"
 board_image: "dynalora_usb.jpg"
 date_added:
+family: atmel-samd
 features:
   - LoRa/Radio
 downloads_display: true

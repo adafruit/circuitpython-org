@@ -140,6 +140,7 @@ permalink: /downloads
                               data-name="{{ board.name }}"
                               data-downloads="0"
                               data-manufacturer="{{ board.manufacturer }}"
+                              data-mcufamily="{{ board.family }}"
                               data-features="{{ board.features | join: ','}}"
                               data-date="{{ board.date_added }}">
           <a href="{{ board.url | relative_url }}">
