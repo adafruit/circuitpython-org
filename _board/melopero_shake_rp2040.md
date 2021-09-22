@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: “melopero_shake_rp2040"
-title: “Shake RP2040 Download"
-name: “Shake RP2040"
-manufacturer: “Melopero”
+board_id: "melopero_shake_rp2040"
+title: "Shake RP2040 Download"
+name: "Shake RP2040"
+manufacturer: "Melopero"
 board_url: "https://www.melopero.com/melopero-shake-rp2040"
-board_image: “melopero_shake_rp2040.jpg"
+board_image: "melopero_shake_rp2040.jpg"
 date_added: 2021-9-22
 family: raspberrypi
 features:
@@ -36,7 +36,7 @@ The board features:
 * Programmable in **C/C++**, **MicroPython**, **CircuitPython** and **Arduino**
  
 
-Dimensions: 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7.05/max height ) .
+Dimensions: 2.0" x 0.9" x 0.28" (50.8mm x 22.8mm x 7.05/max height)
 
 **The RP2040 key features:**
 
@@ -50,12 +50,12 @@ Dimensions: 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7.05/max height ) .
 * 2 on-chip PLLs to generate USB and core clocks
 * 30 GPIO pins, 4 of which can be used as analogue inputs
 * Peripherals
-◦ 2 UARTs
-◦ 2 SPI controllers
-◦ 2 I2C controllers
-◦ 16 PWM channels
-◦ USB 1.1 controller and PHY, with host and device support
-◦ 8 PIO state machines
+  * 2 UARTs
+  * 2 SPI controllers
+  * 2 I2C controllers
+  * 16 PWM channels
+  * USB 1.1 controller and PHY, with host and device support
+  * 8 PIO state machines
 
 
 ## Purchase
