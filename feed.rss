@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 22 Sep 2021 06:03:35 -0400</lastBuildDate>
+<lastBuildDate>Wed, 22 Sep 2021 10:59:47 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -5425,6 +5425,69 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
     <category>CircuitPython</category>
     <pubDate>Wed, 16 Sep 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/matrixportal_m4/</guid>
+  </item><item>
+    <title>“Shake RP2040"</title>
+    <link>https://circuitpython.org/board/melopero_shake_rp2040/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/%E2%80%9Cmelopero_shake_rp2040.jpg%22 300w,
+               /assets/images/boards/large/%E2%80%9Cmelopero_shake_rp2040.jpg%22 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/%E2%80%9Cmelopero_shake_rp2040.jpg%22" alt="Image of Board" loading="lazy">
+
+<p>By “Melopero”</p> <p>The <strong>Melopero Shake RP2040</strong> is a powerful development board based on the <strong>Raspberry Pi RP2040</strong> microcontroller, programmable in C/C++, MicroPython, CircuitPython and Arduino.</p>
+
+<p>The board features:</p>
+
+<ul>
+  <li><strong>16MB</strong> of FLASH Memory</li>
+  <li>3.7-4.2 LiPo <strong>battery charger</strong> (200mA charge curret)</li>
+  <li><strong>Battery monitor</strong> (it sends an alert when the battery voltage drops at 3.4V)</li>
+  <li>Reset and boot buttons (no need to detach/attach the board to enter boot mode)</li>
+  <li><strong>Qwiic/Stemma QT connector</strong> for attaching lots of Melopero, Adafruit and * SparkFun sensors</li>
+  <li>Classic <strong>Feather pinout</strong> for maximum compatibility</li>
+  <li>USB-C connector for powering, programming and charging</li>
+  <li>JST 2-pin connector for attaching the battery (we follow the Adafruit and SparkFun batteries polarity)</li>
+  <li>Green user LED on pin 13</li>
+  <li><strong>RGB WS2812 LED</strong> (aka NeoPixel)</li>
+  <li>Orange LED for signaling the charging status</li>
+  <li>SWD header for debugging</li>
+  <li>4 mounting holes</li>
+  <li>Programmable in <strong>C/C++</strong>, <strong>MicroPython</strong>, <strong>CircuitPython</strong> and <strong>Arduino</strong></li>
+</ul>
+
+<p>Dimensions: 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7.05/max height ) .</p>
+
+<p><strong>The RP2040 key features:</strong></p>
+
+<ul>
+  <li>Dual ARM Cortex-M0+ @ 133MHz</li>
+  <li>264kB on-chip SRAM in six independent banks</li>
+  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>
+  <li>DMA controller</li>
+  <li>Fully-connected AHB crossbar</li>
+  <li>Interpolator and integer divider peripherals</li>
+  <li>On-chip programmable LDO to generate core voltage</li>
+  <li>2 on-chip PLLs to generate USB and core clocks</li>
+  <li>30 GPIO pins, 4 of which can be used as analogue inputs</li>
+  <li>Peripherals
+◦ 2 UARTs
+◦ 2 SPI controllers
+◦ 2 I2C controllers
+◦ 16 PWM channels
+◦ USB 1.1 controller and PHY, with host and device support
+◦ 8 PIO state machines</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.melopero.com/melopero-shake-rp2040">Melopero</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 22 Sep 2021 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/melopero_shake_rp2040/</guid>
   </item><item>
     <title>Meowbit</title>
     <link>https://circuitpython.org/board/meowbit_v121/</link>
