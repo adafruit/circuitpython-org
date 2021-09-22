@@ -116,30 +116,30 @@
 
       .unstable {
         .language-select {
-            border-color: $gray;
+            border-color: $purple;
         }
           .language-select:after {
-              color: $gray;
+              color: $purple;
           }
 
         a.download-button, a.download-button-unrecommended {
-          background-color: $gray;
+          background-color: $purple;
         }
         a.download-button:hover, a.download-button-unrecommended:hover {
-          background-color: $pink;
+          background-color: $purple;
         }
         .download-modules {
-            color: $gray;
+            color: $purple;
         }
       }
 
       .unrecommended {
           .language-select:after {
-              color: $gray;
+              color: $purple;
           }
 
         a.download-button, a.download-button-unrecommended {
-          background-color: $gray;
+          background-color: $purple;
         }
       }
 
