@@ -7,6 +7,7 @@ manufacturer: "ARAMCON Badge Team"
 board_url: "https://github.com/aramcon-badge/"
 board_image: "aramcon2_badge.jpg"
 date_added: 2021-4-14
+family: nrf52840
 downloads_display: true
 blinka: false
 download_instructions: ""

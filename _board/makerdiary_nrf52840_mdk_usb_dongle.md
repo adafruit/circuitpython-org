@@ -7,6 +7,7 @@ manufacturer: "MakerDiary"
 board_url: ""
 board_image: "nRF52840_micro_dev_kit_usb_dongle.jpg"
 date_added: 2019-3-9
+family: nrf52840
 features:
   - Bluetooth/BTLE
   - Breadboard-Friendly

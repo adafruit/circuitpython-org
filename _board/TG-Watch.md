@@ -7,6 +7,7 @@ manufacturer: "TG-Techie"
 board_url: "https://github.com/TG-Techie/TG-Watch02-PCB"
 board_image: "TG-Watch.jpg"
 date_added: 2020-3-31
+family: atmel-samd
 features:
   - Display
   - Bluetooth/BTLE

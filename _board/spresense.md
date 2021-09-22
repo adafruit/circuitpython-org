@@ -7,6 +7,7 @@ manufacturer: "Sony"
 board_url: "https://developer.sony.com/develop/spresense/docs/introduction_en.html"
 board_image: "spresense.jpg"
 date_added: 2019-10-23
+family: cxd56
 features:
   - GPS
   - Arduino Shield Compatible

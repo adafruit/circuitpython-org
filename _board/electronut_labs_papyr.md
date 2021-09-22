@@ -8,6 +8,8 @@ board_url: "https://gitlab.com/electronutlabs-public/papyr"
 board_image: "electronut_labs_papyr.jpg"
 downloads_display: true
 date_added: 2019-4-23
+family: nrf52840
+bootloader_id: clue_nrf52840
 features:
   - Display
   - Bluetooth/BTLE

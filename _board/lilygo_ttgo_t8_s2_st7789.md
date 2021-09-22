@@ -6,6 +6,8 @@ name: "TTGO T8 ESP32-S2 ST7789"
 manufacturer: "LILYGO"
 board_url: "http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1321"
 board_image: "lilygo_ttgo_t8_s2_st7789.jpg"
+date_added:
+family: esp32s2
 features:
   - Wi-Fi
   - Display 

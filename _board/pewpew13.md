@@ -8,6 +8,8 @@ board_url: ""
 board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2019-4-13
+family: atmel-samd
+bootloader_id: trinket_m0
 features:
 ---
 

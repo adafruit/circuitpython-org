@@ -7,6 +7,8 @@ manufacturer: "Null Byte Labs LLC"
 board_url: ""
 board_image: "circuitbrains_deluxe.jpg"
 date_added: 2020-2-27
+family: atmel-samd
+bootloader_id: circuitbrains_deluxe_m4
 downloads_display: true
 blinka: false
 download_instructions: ""

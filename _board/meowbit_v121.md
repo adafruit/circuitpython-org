@@ -9,6 +9,8 @@ board_image: "meowbit_v121.jpg"
 downloads_display: true
 blinka: false
 date_added: 2020-1-26
+family: stm
+bootloader_id: meowbit_v121
 features:
   - Speaker
   - Solder-Free Alligator Clip

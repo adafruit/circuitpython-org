@@ -7,6 +7,7 @@ manufacturer: "Gravitech"
 board_url: "https://www.gravitech.us/cumesdebo.html"
 board_image: "gravitech_cucumber_m.jpg"
 date_added: 2021-8-13
+family: esp32s2
 downloads_display: true
 features:
   - Wi-Fi

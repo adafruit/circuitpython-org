@@ -7,6 +7,8 @@ manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/NANO33IoT"
 board_image: "arduino_nano_33_iot.jpg"
 date_added: 2020-2-27
+family: atmel-samd
+bootloader_id: nano33iot
 features:
   - Wi-Fi
   - Breadboard-Friendly

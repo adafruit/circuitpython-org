@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "trinket_m0.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: trinket_m0
 features:
   - Breadboard-Friendly
 ---

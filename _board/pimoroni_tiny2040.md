@@ -7,6 +7,7 @@ manufacturer: "Pimoroni"
 board_url: "https://shop.pimoroni.com/products/tiny-2040"
 board_image: "pimoroni_tiny2040.jpg"
 date_added: 2021-2-24
+family: raspberrypi
 
 features:
   - USB-C
