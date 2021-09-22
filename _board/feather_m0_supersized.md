@@ -7,6 +7,8 @@ manufacturer: "Dave Astels"
 board_url: ""
 board_image: "feather_m0_supersized.jpg"
 date_added: 2019-3-19
+family: atmel-samd
+bootloader_id: feather_m0_express
 features:
   - Feather-Compatible
   - Battery Charging

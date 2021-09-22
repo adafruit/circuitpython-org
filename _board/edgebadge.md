@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4400"
 board_image: "edgebadge.jpg"
 date_added: 2019-11-19
+family: atmel-samd
+bootloader_id: arcade_pybadge
 features:
   - Display
   - Speaker

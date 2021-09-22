@@ -7,6 +7,8 @@ manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/ArduinoZero"
 board_image: "arduino_zero.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: zero
 features:
   - Arduino Shield Compatible
 ---

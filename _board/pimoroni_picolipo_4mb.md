@@ -7,6 +7,7 @@ manufacturer: "Pimoroni"
 board_url: "https://shop.pimoroni.com/products/picolipo"
 board_image: "pimoroni_picolipo.jpg"
 date_added: 2021-5-12
+family: raspberrypi
 features:
   - Battery Charging
   - USB-C

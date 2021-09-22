@@ -7,6 +7,7 @@ manufacturer: "J&J Studios"
 board_url: "https://jandjstudios.io/datum/datum-IMU/"
 board_image: "datum_imu.jpg"
 date_added: 2019-7-12
+family: atmel-samd
 features:
   - Breadboard-Friendly
 ---

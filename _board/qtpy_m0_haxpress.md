@@ -7,6 +7,7 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "qtpy_m0_haxpress.jpg"
 date_added: 2020-9-28
+family: atmel-samd
 features:
   - STEMMA QT/QWIIC
   - USB-C

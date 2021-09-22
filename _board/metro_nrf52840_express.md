@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "metro_nrf52840_express.png"
 date_added: 2019-8-30
+family: nrf52840
+bootloader_id: metro_nrf52840_express
 features:
   - Bluetooth/BTLE
   - USB-C

@@ -7,6 +7,7 @@ manufacturer: "Oak Development Technologies"
 board_url: "https://www.oakdev.tech/store/p10/%28Coming_Soon%29_CP_Sapling_Rev_B.html#/"
 board_image: "cp_sapling_m0_revb.jpg"
 date_added: 2021-6-4
+family: atmel-samd
 features:
   - STEMMA QT/QWIIC
   - Breadboard-Friendly

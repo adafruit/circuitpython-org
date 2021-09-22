@@ -7,6 +7,7 @@ manufacturer: "bleeptrack"
 board_url: "https://picoplanet.bleeptrack.de"
 board_image: "picoplanet.jpg"
 date_added: 2020-3-31
+family: atmel-samd
 downloads_display: true
 blinka: false
 download_instructions: ""

@@ -7,6 +7,7 @@ manufacturer: "StackRduino"
 board_url: "https://github.com/StackRduino/StackRduino_M0"
 board_image: "stackrduino_m0_pro.jpg"
 date_added: 2021-4-6
+family: atmel-samd
 features:
   - Battery Charging
   - STEMMA QT/QWIIC

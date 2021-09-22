@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4985"
 board_image: "adafruit_funhouse.jpg"
 date_added: 2021-4-6
+family: esp32s2
+bootloader_id: adafruit_funhouse_esp32s2
 features:
   - Wi-Fi
   - STEMMA QT/QWIIC

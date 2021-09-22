@@ -7,6 +7,8 @@ manufacturer: "Dave Astels"
 board_url: ""
 board_image: "trinket_m0_haxpress.jpg"
 date_added: 2019-3-19
+family: atmel-samd
+bootloader_id: trinket_m0
 features:
   - Breadboard-Friendly
 ---

@@ -7,6 +7,7 @@ manufacturer: "Radomir Dopieralski"
 board_url: "https://hackaday.io/project/171381-fluff-m0"
 board_image: "fluff_m0.jpg"
 date_added: 2020-5-22
+family: atmel-samd
 
 features:
   - USB-C
