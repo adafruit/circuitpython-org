@@ -7,6 +7,7 @@ manufacturer: "Unexpected Maker"
 board_url: ""
 board_image: "unexpectedmaker_feathers2_prerelease.jpg"
 date_added: 2020-6-14
+family: esp32s2
 features:
   - Feather-Compatible
   - Battery Charging

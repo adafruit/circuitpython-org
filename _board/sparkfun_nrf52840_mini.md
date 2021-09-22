@@ -7,6 +7,7 @@ manufacturer: "SparkFun"
 board_url: ""
 board_image: "sparkfun_nrf52840_mini-01.jpg"
 date_added: 2019-3-9
+family: nrf52840
 features:
   - Battery Charging
   - Bluetooth/BTLE

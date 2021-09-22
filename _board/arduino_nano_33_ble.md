@@ -7,6 +7,8 @@ manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/NANO33BLE"
 board_image: "arduino_nano_33_ble.jpg"
 date_added: 2019-10-26
+family: nrf52840
+bootloader_id: arduino_nano_33_ble
 features:
   - Bluetooth/BTLE
   - Breadboard-Friendly

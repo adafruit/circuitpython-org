@@ -7,6 +7,8 @@ manufacturer: "Elecrow"
 board_url: "https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html"
 board_image: "pyb_nano_v2.jpg"
 date_added: 2019-12-10
+family: stm
+bootloader_id: pyb_nano_v2
 features:
   - Breadboard-Friendly
 ---

@@ -7,6 +7,7 @@ manufacturer: "Franzininho"
 board_url: "https://github.com/Franzininho/Franzininho-WIFI"
 board_image: "Franzininho-wifi-wroom.jpg"
 date_added: 2021-3-13
+family: esp32s2
 downloads_display: true
 features:
   - Wi-Fi

@@ -7,6 +7,8 @@ manufacturer: "SparkFun"
 board_url: ""
 board_image: "sparkfun_samd21_dev.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: sparkfun_samd21_dev
 features:
   - Arduino Shield Compatible
 ---

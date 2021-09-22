@@ -7,6 +7,7 @@ manufacturer: "SparkFun"
 board_url: ""
 board_image: "sparkfun_samd21_mini.jpg"
 date_added: 2019-3-9
+family: atmel-samd
 features:
   - Breadboard-Friendly
 ---

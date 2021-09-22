@@ -7,6 +7,8 @@ manufacturer: "Unexpected Maker"
 board_url: ""
 board_image: "unexpectedmaker_feathers2_neo.jpg"
 date_added: 2021-08-31
+family: esp32s2
+bootloader_id: unexpectedmaker_feathers2_neo
 features:
   - Feather-Compatible
   - Battery Charging

@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4481"
 board_image: "itsybitsy_nrf52840_express.jpg"
 date_added: 2019-11-4
+family: nrf52840
+bootloader_id: feather_nrf52840_express
 features:
   - Bluetooth/BTLE
   - Breadboard-Friendly

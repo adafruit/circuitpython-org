@@ -7,6 +7,8 @@ manufacturer: "Electronic Cats"
 board_url: ""
 board_image: "meowmeow.jpg"
 date_added: 2019-4-1
+family: atmel-samd
+bootloader_id: meowmeow
 features:
   - Solder-Free Alligator Clip
 ---

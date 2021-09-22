@@ -7,6 +7,8 @@ manufacturer: "microDev"
 board_url: "https://github.com/microDev1/microS2/wiki"
 board_image: "microdev_micro_s2.jpg"
 date_added: 2020-08-26
+family: esp32s2
+bootloader_id: microdev_micro_s2
 features:
   - Wi-Fi
   - STEMMA QT/QWIIC

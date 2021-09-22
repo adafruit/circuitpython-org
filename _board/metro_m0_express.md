@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "metro_m0_express.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: metro_m0
 features:
   - Arduino Shield Compatible
 ---

@@ -7,6 +7,7 @@ manufacturer: "Pimoroni"
 board_url: "https://shop.pimoroni.com/products/plasma-2040"
 board_image: "pimoroni_plasma2040.jpg"
 date_added: 2021-08-11
+family: raspberrypi
 features:
   - STEMMA QT/QWIIC
   - USB-C

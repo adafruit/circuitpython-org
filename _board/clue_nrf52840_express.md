@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4500"
 board_image: "clue_nrf52840_express.jpg"
 date_added: 2019-12-30
+family: nrf52840
+bootloader_id: clue_nrf52840
 features:
   - Display
   - Bluetooth/BTLE

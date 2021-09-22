@@ -7,6 +7,7 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/5022"
 board_image: "adafruit_proxlight_trinkey_m0.jpg"
 date_added: 2021-4-14
+family: atmel-samd
 features:
 
 ---
