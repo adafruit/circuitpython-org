@@ -101,7 +101,7 @@ Once reattached you can stop everything by CTRL-Cing repeatedly or detach again
 with CTRL-A then D. If any errors occur, a sleep command will be run so you can
 view the output before screen shuts down.
 
-You can also run adabot without using screen. To run the library statistics and validation script you must be inside this cloned
+To run the library statistics and validation script you must be inside this cloned
 adabot directory and run the following command:
 
 .. code-block:: shell
@@ -164,5 +164,5 @@ Contributing
 ============
 
 Contributions are welcome! Please read our `Code of Conduct
-<https://github.com/adafruit/Adafruit_CircuitPython_adabot/blob/main/CODE_OF_CONDUCT.md>`_
+<https://github.com/adafruit/Adafruit_CircuitPython_adabot/blob/master/CODE_OF_CONDUCT.md>`_
 before contributing to help this project stay welcoming.
