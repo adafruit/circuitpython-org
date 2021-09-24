@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 24 Sep 2021 06:03:34 -0400</lastBuildDate>
+<lastBuildDate>Fri, 24 Sep 2021 12:42:18 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7163,7 +7163,7 @@ It is convenient to extend features via I2C, SPI, UART and other interfaces. By 
     <pubDate>Thu, 26 Sep 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/pyboard_v11/</guid>
   </item><item>
-    <title>PyCubed</title>
+    <title>PyCubedv04</title>
     <link>https://circuitpython.org/board/pycubed/</link>
     <description><![CDATA[ 
 
@@ -7173,7 +7173,9 @@ It is convenient to extend features via I2C, SPI, UART and other interfaces. By 
               300px"
        src="/assets/images/boards/original/pycubed.jpg" alt="Image of Board" loading="lazy">
 
-<p>By PyCubed.org</p> <p>PyCubed is an open-source, radiation-tested small satellite framework programmable entirely in CircuitPython. Capable of all standard operating functions a small satellite might need, the PyCubed mainboard provides University and hobbyist teams an entirely open-source and sate-of-the-art hardware and software avionics solution for their satellite missions without having to spend tens of thousands of dollars for antiquated commercial products.</p>
+<p>By PyCubed.org</p> <h3 id="-double-check-the-your-pycubed-board-version-before-updating-firmware">⭐ Double-check the your PyCubed board version before updating firmware.</h3>
+
+<p>PyCubed is an open-source, radiation-tested small satellite framework programmable entirely in CircuitPython. Capable of all standard operating functions a small satellite might need, the PyCubed mainboard provides University and hobbyist teams an entirely open-source and sate-of-the-art hardware and software avionics solution for their satellite missions without having to spend tens of thousands of dollars for antiquated commercial products.</p>
 
 <p>Yet PyCubed’s greatest value is its ease of programming &amp; immense documentation. With nearly 100 detailed write-ups and tutorials, PyCubed’s online resources are available to everyone and even include a step-by-step guide that walks you from unboxing and LED blinking all the way through full-featured mission software examples.</p>
 
@@ -7194,7 +7196,7 @@ It is convenient to extend features via I2C, SPI, UART and other interfaces. By 
     <pubDate>Thu, 27 Feb 2020 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/pycubed/</guid>
   </item><item>
-    <title>PyCubed w/MRAM</title>
+    <title>PyCubedv04 w/MRAM</title>
     <link>https://circuitpython.org/board/pycubed_mram/</link>
     <description><![CDATA[ 
 
@@ -7204,11 +7206,13 @@ It is convenient to extend features via I2C, SPI, UART and other interfaces. By 
               300px"
        src="/assets/images/boards/original/pycubed.jpg" alt="Image of Board" loading="lazy">
 
-<p>By PyCubed.org</p> <p>PyCubed is an open-source, radiation-tested small satellite framework programmable entirely in CircuitPython. Capable of all standard operating functions a small satellite might need, the PyCubed mainboard provides University and hobbyist teams an entirely open-source and sate-of-the-art hardware and software avionics solution for their satellite missions without having to spend tens of thousands of dollars for antiquated commercial products.</p>
+<p>By PyCubed.org</p> <h3 id="-double-check-the-your-pycubed-board-version-before-updating-firmware">⭐ Double-check the your PyCubed board version before updating firmware.</h3>
+
+<p>PyCubed is an open-source, radiation-tested small satellite framework programmable entirely in CircuitPython. Capable of all standard operating functions a small satellite might need, the PyCubed mainboard provides University and hobbyist teams an entirely open-source and sate-of-the-art hardware and software avionics solution for their satellite missions without having to spend tens of thousands of dollars for antiquated commercial products.</p>
 
 <p>Yet PyCubed’s greatest value is its ease of programming &amp; immense documentation. With nearly 100 detailed write-ups and tutorials, PyCubed’s online resources are available to everyone and even include a step-by-step guide that walks you from unboxing and LED blinking all the way through full-featured mission software examples.</p>
 
-<h2 id="learn-more">Learn More</h2>
+<h2 id="tutorials-and-resources">Tutorials and Resources</h2>
 <ul>
   <li><a href="https://pycubed.org">About</a></li>
   <li><a href="https://pycubed.org/quickstart">Quick Start</a></li>
@@ -7224,6 +7228,72 @@ It is convenient to extend features via I2C, SPI, UART and other interfaces. By 
     <category>CircuitPython</category>
     <pubDate>Tue, 07 Apr 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/pycubed_mram/</guid>
+  </item><item>
+    <title>PyCubedv05 w/MRAM</title>
+    <link>https://circuitpython.org/board/pycubed_mram_v05/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/pycubed_v05.jpg 300w,
+               /assets/images/boards/large/pycubed_v05.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/pycubed_v05.jpg" alt="Image of Board" loading="lazy">
+
+<p>By PyCubed.org</p> <h3 id="-double-check-the-your-pycubed-board-version-before-updating-firmware">⭐ Double-check the your PyCubed board version before updating firmware.</h3>
+
+<p>PyCubed is an open-source, radiation-tested small satellite framework programmable entirely in CircuitPython. Capable of all standard operating functions a small satellite might need, the PyCubed mainboard provides University and hobbyist teams an entirely open-source and sate-of-the-art hardware and software avionics solution for their satellite missions without having to spend tens of thousands of dollars for antiquated commercial products.</p>
+
+<p>Yet PyCubed’s greatest value is its ease of programming &amp; immense documentation. With nearly 100 detailed write-ups and tutorials, PyCubed’s online resources are available to everyone and even include a step-by-step guide that walks you from unboxing and LED blinking all the way through full-featured mission software examples.</p>
+
+<h2 id="tutorials-and-resources">Tutorials and Resources</h2>
+<ul>
+  <li><a href="https://pycubed.org">About</a></li>
+  <li><a href="https://pycubed.org/quickstart">Quick Start</a></li>
+  <li><a href="https://pycubed.org/resources">All PyCubed Resources</a></li>
+  <li><a href="https://pycubed.org/forums">Forums</a></li>
+  <li><a href="https://github.com/PyCubed">Github</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/pycubed_mram_v05.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 12 Sep 2021 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/pycubed_mram_v05/</guid>
+  </item><item>
+    <title>PyCubedv05</title>
+    <link>https://circuitpython.org/board/pycubed_v05/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/pycubed_v05.jpg 300w,
+               /assets/images/boards/large/pycubed_v05.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/pycubed_v05.jpg" alt="Image of Board" loading="lazy">
+
+<p>By PyCubed.org</p> <h3 id="-double-check-the-your-pycubed-board-version-before-updating-firmware">⭐ Double-check the your PyCubed board version before updating firmware.</h3>
+
+<p>PyCubed is an open-source, radiation-tested small satellite framework programmable entirely in CircuitPython. Capable of all standard operating functions a small satellite might need, the PyCubed mainboard provides University and hobbyist teams an entirely open-source and sate-of-the-art hardware and software avionics solution for their satellite missions without having to spend tens of thousands of dollars for antiquated commercial products.</p>
+
+<p>Yet PyCubed’s greatest value is its ease of programming &amp; immense documentation. With nearly 100 detailed write-ups and tutorials, PyCubed’s online resources are available to everyone and even include a step-by-step guide that walks you from unboxing and LED blinking all the way through full-featured mission software examples.</p>
+
+<h2 id="tutorials-and-resources">Tutorials and Resources</h2>
+<ul>
+  <li><a href="https://pycubed.org">About</a></li>
+  <li><a href="https://pycubed.org/quickstart">Quick Start</a></li>
+  <li><a href="https://pycubed.org/resources">All PyCubed Resources</a></li>
+  <li><a href="https://pycubed.org/forums">Forums</a></li>
+  <li><a href="https://github.com/PyCubed">Github</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/pycubed_v05.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 12 Sep 2021 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/pycubed_v05/</guid>
   </item><item>
     <title>PyGamer</title>
     <link>https://circuitpython.org/board/pygamer/</link>
