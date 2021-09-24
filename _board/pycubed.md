@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "pycubed"
-title: "PyCubed Download"
-name: "PyCubed"
+title: "PyCubedv04 Download"
+name: "PyCubedv04"
 manufacturer: "PyCubed.org"
 board_url: "https://pycubed.org/"
 board_image: "pycubed.jpg"
@@ -11,6 +11,8 @@ family: atmel-samd
 bootloader_id: pycubed
 features:
 ---
+
+### ⭐ Double-check the your PyCubed board version before updating firmware.
 
 PyCubed is an open-source, radiation-tested small satellite framework programmable entirely in CircuitPython. Capable of all standard operating functions a small satellite might need, the PyCubed mainboard provides University and hobbyist teams an entirely open-source and sate-of-the-art hardware and software avionics solution for their satellite missions without having to spend tens of thousands of dollars for antiquated commercial products.
 
