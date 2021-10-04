@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 04 Oct 2021 19:39:44 -0400</lastBuildDate>
+<lastBuildDate>Mon, 04 Oct 2021 19:41:00 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -8955,6 +8955,59 @@ used for the circuity python build that includes this chip!</li>
     <category>CircuitPython</category>
     <pubDate>Sun, 13 Oct 2019 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/stringcar_m0_express/</guid>
+  </item><item>
+    <title>Swan</title>
+    <link>https://circuitpython.org/board/swan/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/swan.jpg 300w,
+               /assets/images/boards/large/swan.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/swan.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Blues Wireless</p> <p>Swan is a low-cost embeddable STM32L4-based microcontroller designed to accelerate the development and deployment of battery-powered solutions. It is especially useful for applications requiring large memory or a high degree of I/O expandability at an affordable cost, such as edge inferencing and remote monitoring.</p>
+
+<p>Uniquely for Feather-compatible boards, Swan is designed to satisfy developers’ needs that span from early prototyping through high-volume deployment. Developers may begin to use Swan in conjunction with Adafruit’s myriad sensors and FeatherWing-compatible carriers. Due to its novel design, for high-volume deployment the low-cost Swan can also be soldered directly to a parent PCB integrating those sensors, utilizing the full range of Swan’s I/O capabilities.</p>
+
+<p>The board has three independent power options – USB, Battery, or Line power – and provides a software-switchable 2 Amp regulator for powering external sensors. When operating in its low-power operating mode, the entire Swan board commonly draws only about 8uA while retaining all of its memory, making it quite suitable for battery-powered devices.</p>
+
+<h3 id="swan-features">Swan Features</h3>
+<ul>
+  <li>Ultra low-power Arm Cortex-M4 core clocked at 120Mhz</li>
+  <li>STM32L4R5-based microcontroller</li>
+  <li>2MB of flash and 640KB of RAM</li>
+  <li>Castellated-edge access to 55 GPIO ports including:
+    <ul>
+      <li>8 analog</li>
+      <li>16 digital</li>
+      <li>4x I2C, 3x SPI</li>
+      <li>USB OTG full speed</li>
+      <li>1x 14-channel DMA</li>
+      <li>tRNG</li>
+      <li>12-bit ADC, 2 x 12-bit DAC</li>
+      <li>low-power RTC, and CRC calculation peripherals</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tutorial">Tutorial</h2>
+<ul>
+  <li><a href="https://dev.blues.io/start/swan/swan-quickstart">Swan Quickstart on dev.blues.io</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.blues.io/products/swan">Blues Shop</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/swan.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 29 Sep 2021 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/swan/</guid>
   </item><item>
     <title>Targett ESP32-S2 Module Clip (WROOM)</title>
     <link>https://circuitpython.org/board/targett_module_clip_wroom/</link>
