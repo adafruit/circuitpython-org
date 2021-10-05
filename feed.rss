@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 05 Oct 2021 06:03:44 -0400</lastBuildDate>
+<lastBuildDate>Tue, 05 Oct 2021 17:44:55 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -360,12 +360,41 @@
               300px"
        src="/assets/images/boards/original/adafruit_led_glasses_nrf52840.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Adafruit</p> <p>Coming Soon!</p>
+<p>By Adafruit</p> <p>This board is designed to be a thin, bluetooth-enabled driver board for our <a href="https://www.adafruit.com/product/5210">Adafruit LED Glasses</a> RGB LED matrix. That said, it’s a perfectly good stand-alone development board for the Nordic nRF52840 chipset, with a very slim design, optional LiPo battery support, a few sensors, and a Stemma QT port for adding other devices or sensors with I2C plug-and-play.</p>
 
-<h2 id="learn-more">Learn More</h2>
+<p>The driver <em>looks</em> a little like a Feather but it does not have any breakout pins to keep it very compact. If you need access to GPIO pins, we recommend an <a href="https://www.adafruit.com/product/4481">nRF52840 ItsyBitsy</a>, <a href="https://www.adafruit.com/product/4062">nRF52840 Feather</a> or <a href="https://www.adafruit.com/product/4516">Feather Sense</a>.</p>
+
+<p>In exchange for GPIO outputs, we added some sensors on instead: each board <a href="https://www.adafruit.com/product/2809">comes with a LIS3DH triple-axis accelerometer</a> that can be used for motion and orientation sensing, <a href="https://www.adafruit.com/product/3492">and a PDM digital microphone</a> for audio sensing. To add more sensors or connect to the LED Glasses front panel, there’s a <a href="https://www.adafruit.com/category/1018">STEMMA QT connector for plug-and-play I2C support</a>.</p>
+
+<p>Unlike our Itsy/Feather boards, this driver also comes with a proper on/off switch which will cut power to the microcontroller and external sensors. There’s optional LiPo charge support because we think that many folks will want to power this board with AAA or coin cell batteries. If you’d like to enable LiPo charging, short the jumper on the back and then make sure to only use 4.2V/3.7V rechargeable batteries in the battery port.</p>
+
+<p>The nRF52840 is a lovely Bluetooth LE microcontroller, with good support in both Arduino and CircuitPython. It feathers a Cortex M4 processor with 1 MB of FLASH and 256KB of SRAM. Best of all, it’s got that native USB! Finally, no need for a separate USB serial chip like CP2104 or FT232. Serial is handled as a USB CDC descriptor, and the chip can act like a keyboard, mouse, MIDI device or even disk drive. <a href="https://github.com/adafruit/Adafruit_TinyUSB_Arduino">This chip has TinyUSB support</a> - that means you can use it with Arduino as a native USB device and act as UART (CDC), HID, Mass Storage, MIDI and more!</p>
+
+<p><strong>Board Features:</strong></p>
 
 <ul>
-  <li><a href="https://youtu.be/VWamVRNd-io">YouTube</a></li>
+  <li>ARM Cortex M4F (with HW floating point acceleration) running at 64MHz</li>
+  <li>1MB flash and 256KB SRAM</li>
+  <li>Bluetooth Low Energy compatible 2.4GHz radio (Details available in the <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840">nRF52840</a> product specification)</li>
+  <li>FCC / IC / TELEC certified module with up to +8dBm output power</li>
+  <li>2MB external QSPI flash for CircuitPython file storage</li>
+  <li>Built in LIS3DH accelerometer and PDM microphone</li>
+  <li>Red LED for general purpose blinking, plus a tiny NeoPixel for colorful feedback</li>
+  <li><a href="https://www.adafruit.com/category/1018">STEMMA QT connector for plug-and-play I2C support</a>.</li>
+  <li>JST PH 2-pin battery port with optional LiPoly charger</li>
+  <li>4 mounting holes/slots</li>
+  <li>Reset button and User button</li>
+  <li>Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>
+  <li><strong>Can be used with Arduino IDE or CircuitPython</strong></li>
+  <li>Comes pre-loaded with the <a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader">UF2 bootloader</a>, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython or Arduino IDE</li>
+</ul>
+
+<p>For developers, we pre-programed the chip with our UF2 bootloader, which can use either command line UART programming with nrfutil (we use this for Arduino) or drag-n-drop mass storage, for CircuitPython installation and also because mass-storage-drive bootloaders make updating firmware so easy. Want to program the chip directly? You can use our command line tools with your favorite editor and toolchain. If you want to use an SWD programmer/debugger (for even more advanced usage), we have broken out the SWD pads for easy soldering.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5217">Adafruit</a></li>
 </ul>
 
 <h2 id="contribute">Contribute</h2>
