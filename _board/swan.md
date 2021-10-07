@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "swan-r5"
+board_id: "swan_r5"
 title: "Swan Download"
 name: "Swan"
 manufacturer: "Blues Wireless"
