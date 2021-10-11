@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 11 Oct 2021 06:03:37 -0400</lastBuildDate>
+<lastBuildDate>Mon, 11 Oct 2021 15:53:10 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -8032,6 +8032,76 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <category>CircuitPython</category>
     <pubDate>Fri, 17 Jan 2020 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/seeeduino_xiao/</guid>
+  </item><item>
+    <title>Seeeduino XIAO - Keyboard Optimized</title>
+    <link>https://circuitpython.org/board/seeeduino_xiao_kb/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/seeeduino_xiao.jpg 300w,
+               /assets/images/boards/large/seeeduino_xiao.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/seeeduino_xiao.jpg" alt="Image of Board" loading="lazy">
+
+<p>By SEEED</p> <h1 id="keyboard-optimized">Keyboard Optimized</h1>
+
+<p>Due to the limited memory and flash of the ATSAMD21G18, an optimized build of CircuitPython is needed for keyboard/keypad/macropad projects.  The following modules are made available:</p>
+
+<ul>
+  <li><strong>keypad</strong> for handing buttons and key matrices</li>
+  <li><strong>rotaryio</strong> for handling rotary encoders</li>
+  <li><strong>usb_hid</strong> for sending HID messages to the computer</li>
+  <li><strong>adafruit_hid</strong> (frozen module) for configuring your Xiao as a keyboard</li>
+</ul>
+
+<p>Note that a number of modules are removed to make space for those listed above. It is assumed that a keyboard or macropad doesn’t have sensors. As such, these modules are <strong>not</strong> included:</p>
+
+<ul>
+  <li><strong>busio</strong> needed for I2C, SPI and UART</li>
+  <li><strong>pulseio</strong> needed some sensors</li>
+  <li><strong>onewireio</strong> needed for 1-wire devices</li>
+</ul>
+
+<p>If you need one of the modules removed or if you want to absolutely be sure that you don’t run out of memory, consider using a better processor (RP2040 for example).</p>
+
+<p>This build was tested with a 30 keys macropad which is the largest matrix the XIAO allows for (5x6 matrix = 11 GPIOs).</p>
+
+<h1 id="seeduino-xiao">Seeduino XIAO:</h1>
+<p>SEEED Studio’s Seeeduino XIAO is a minimal, low-cost board that uses the Atmel c, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256KB Flash and 32KB SRAM.  The board is 20 x 17.5mm in size which is perfect for wearable devices and small projects. It has multiple interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It’s compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.</p>
+
+<p>Specifications:</p>
+<ul>
+  <li>CPU: ARM Cortex-M0+ CPU (SAMD21G18) running at up to 48MHz</li>
+  <li>Flash Memory: 256KB</li>
+  <li>SRAM: 32KB</li>
+  <li>Digital I/O pins: 11</li>
+  <li>Analog I/O pins: 11</li>
+  <li>I2C interfaces: 1</li>
+  <li>SPI interfaces: 1</li>
+  <li>UART interfaces: 1</li>
+  <li>USB Type-C connector for transferring code and power</li>
+  <li>Power requirements: 3.3V/5V DC</li>
+  <li>Dimensions  20 × 17.5 × 3.5 mm</li>
+</ul>
+
+<p>Note: This microcontroller runs at 3.3V logic. Using a 5V device may damage the chip or device.</p>
+
+<p>For power supply pins: The built-in DC-DC converter circuit is able to change 5V voltage into 3.3V, which allows you to power the device with a 5V supply via the VIN pin or 5V pin.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html">Seeed</a></li>
+  <li><a href="https://www.digikey.com/en/product-highlight/s/seeed/seeeduino-xiao-arduino-microcontroller-samd21-cortex-m0">Digi-Key</a></li>
+  <li><a href="https://www.mouser.com/ProductDetail/Seeed-Studio/102010328?qs=GBLSl2AkirtQWO8CTzEK9g%3D%3D">Mouser</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/seeeduino_xiao_kb.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 07 Oct 2021 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/seeeduino_xiao_kb/</guid>
   </item><item>
     <title>senseBox MCU</title>
     <link>https://circuitpython.org/board/sensebox_mcu/</link>
