@@ -20,13 +20,13 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-"""Integration tests for 'adabot/circuitpython_libraries.py'"""
+"""Integration tests for 'adabot/update_cp_org_libraries.py'"""
 
 import pytest  # pylint: disable=unused-import
 
 from adabot.lib import common_funcs
 from adabot import github_requests
-from adabot import circuitpython_libraries
+from adabot import update_cp_org_libraries
 
 # pylint: disable=unused-argument
 def mock_list_repos(*args, **kwargs):
@@ -36,23 +36,37 @@ def mock_list_repos(*args, **kwargs):
     ]
 
 
-def test_circuitpython_libraries(monkeypatch):
+# pylint: disable=unused-argument
+def mock_get_contribs(*args):
+    """Function to monkeypatch `update_cp_org_libraries.get_contributors()` to ensure
+    proper testing of usage. Monkeypatched `list_repos` will likely not produce results.
+    """
+    contribs = ["test_user1", "test_user2"]
+    reviewers = ["test_reviewer1", "test_reviewer2"]
+    merged_pr_count = 4
+
+    return contribs, reviewers, merged_pr_count
+
+
+def test_update_cp_org_libraries(monkeypatch):
     """Test main function of 'circuitpyton_libraries.py', without writing an output file."""
 
     monkeypatch.setattr(common_funcs, "list_repos", mock_list_repos)
+    monkeypatch.setattr(update_cp_org_libraries, "get_contributors", mock_get_contribs)
 
-    circuitpython_libraries.main(validator="all")
+    update_cp_org_libraries.main()
 
 
 # pylint: disable=invalid-name
-def test_circuitpython_libraries_output_file(monkeypatch, tmp_path, capsys):
-    """Test main funciton of 'circuitpython_libraries.py', with writing an output file."""
+def test_update_cp_org_libraries_output_file(monkeypatch, tmp_path, capsys):
+    """Test main funciton of 'update_cp_org_libraries.py', with writing an output file."""
 
     monkeypatch.setattr(common_funcs, "list_repos", mock_list_repos)
+    monkeypatch.setattr(update_cp_org_libraries, "get_contributors", mock_get_contribs)
 
     tmp_output_file = tmp_path / "output_test.txt"
 
-    circuitpython_libraries.main(validator="all", output_file=tmp_output_file)
+    update_cp_org_libraries.main(output_file=tmp_output_file)
 
     captured = capsys.readouterr()
 

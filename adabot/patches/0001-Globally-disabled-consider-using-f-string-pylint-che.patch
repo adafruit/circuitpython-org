@@ -1,0 +1,23 @@
+From 351ab4ed57292ee4f906fa7ffc20d98037cd88f4 Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Thu, 23 Sep 2021 17:52:55 -0400
+Subject: [PATCH] Globally disabled consider-using-f-string pylint check
+
+---
+ .pre-commit-config.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index 354c761..8810708 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -30,5 +30,5 @@ repos:
+         name: pylint (examples code)
+         description: Run pylint rules on "examples/*.py" files
+         entry: /usr/bin/env bash -c
+-        args: ['([[ ! -d "examples" ]] || for example in $(find . -path "./examples/*.py"); do pylint --disable=missing-docstring,invalid-name $example; done)']
++        args: ['([[ ! -d "examples" ]] || for example in $(find . -path "./examples/*.py"); do pylint --disable=missing-docstring,invalid-name,consider-using-f-string $example; done)']
+         language: system
+-- 
+2.25.1
+

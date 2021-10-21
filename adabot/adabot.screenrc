@@ -14,4 +14,3 @@ screen -t celery_high 2 bash -c "source .env/bin/activate; source env.sh; celery
 screen -t celery_low 3 bash -c "source .env/bin/activate; source env.sh; celery -A rosie-ci.celery worker -n low -Q low || [ $? -eq 1 ] || sleep 1000"
 
 detach
-

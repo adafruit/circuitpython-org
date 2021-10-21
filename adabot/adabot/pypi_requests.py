@@ -19,15 +19,10 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
-"""
-`adafruit_adabot`
-====================================================
-
-TODO(description)
+""" Helper for requests to pypi.org
 
 * Author(s): Michael McWethy
 """
-import os
 
 import requests
 
@@ -37,5 +32,7 @@ def _fix_url(url):
         url = "https://pypi.org" + url
     return url
 
+
 def get(url, **kwargs):
+    """Process a GET request from pypi.org"""
     return requests.get(_fix_url(url), timeout=30, **kwargs)
