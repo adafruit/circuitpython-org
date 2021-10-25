@@ -171,9 +171,9 @@ def main(
     logger.info("Run Date: %s", run_time.strftime("%d %B %Y, %I:%M%p"))
 
     if output_file:
+        logger.info(" - Report output will be saved to: %s", output_file)
         file_handler = logging.FileHandler(output_file)
         logger.addHandler(file_handler)
-        logger.info(" - Report output will be saved to: %s", output_file)
 
     if cache_http:
         cpy_vals.github.setup_cache(cache_ttl)

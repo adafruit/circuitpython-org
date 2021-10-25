@@ -22,6 +22,8 @@
 
 """Integration tests for 'adabot/update_cp_org_libraries.py'"""
 
+import json
+
 import pytest  # pylint: disable=unused-import
 
 from adabot.lib import common_funcs
@@ -31,9 +33,45 @@ from adabot import update_cp_org_libraries
 # pylint: disable=unused-argument
 def mock_list_repos(*args, **kwargs):
     """Function to monkeypatch `common_funcs.list_repos()` for a shorter set of repos."""
-    return [
-        github_requests.get("/repos/adafruit/Adafruit_CircuitPython_TestRepo").json()
-    ]
+    repos = []
+    result = github_requests.get(
+        "/search/repositories",
+        params={
+            "q": "Adafruit_CircuitPython user:adafruit archived:false fork:true",
+            "per_page": 100,
+            "sort": "updated",
+            "order": "asc",
+        },
+    )
+
+    if result.ok:
+        repos.extend(
+            repo
+            for repo in result.json()["items"]
+            if (
+                repo["owner"]["login"] == "adafruit"
+                and (
+                    repo["name"].startswith("Adafruit_CircuitPython")
+                    or repo["name"] == "circuitpython"
+                )
+            )
+        )
+
+    repo_names = [repo["name"] for repo in repos]
+
+    if kwargs.get("include_repos", False):
+        for repo in kwargs["include_repos"]:
+            if repo not in repo_names:
+                add_repo = github_requests.get("/repos/adafruit/" + repo)
+                if add_repo.ok:
+                    repos.append(add_repo.json())
+                else:
+                    print("list_repos(): Failed to retrieve '{}'".format(repo))
+
+    if len(repos) > 5:
+        repos = repos[:5]
+
+    return repos
 
 
 # pylint: disable=unused-argument
@@ -54,7 +92,7 @@ def test_update_cp_org_libraries(monkeypatch):
     monkeypatch.setattr(common_funcs, "list_repos", mock_list_repos)
     monkeypatch.setattr(update_cp_org_libraries, "get_contributors", mock_get_contribs)
 
-    update_cp_org_libraries.main()
+    update_cp_org_libraries.main(loglevel="INFO")
 
 
 # pylint: disable=invalid-name
@@ -66,8 +104,8 @@ def test_update_cp_org_libraries_output_file(monkeypatch, tmp_path, capsys):
 
     tmp_output_file = tmp_path / "output_test.txt"
 
-    update_cp_org_libraries.main(output_file=tmp_output_file)
+    update_cp_org_libraries.main(loglevel="INFO", output_file=tmp_output_file)
 
-    captured = capsys.readouterr()
+    output = tmp_output_file.read_text()
 
-    assert tmp_output_file.read_text() == captured.out
+    assert json.loads(output)

@@ -154,6 +154,7 @@ def assign_hacktoberfest(repo, issues=None, remove_labels=False, dry_run=False):
                 update_issue = True
 
         if update_issue:
+            label_names.append("Hacktoberfest")
             params = {"labels": label_names}
             if not dry_run:
                 result = github.patch(
