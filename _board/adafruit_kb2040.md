@@ -1,19 +1,15 @@
 ---
 layout: download
-board_id: "adafruit_feather_esp32s2_nopsram"
-title: "Feather ESP32-S2 Download"
-name: "Feather ESP32-S2"
+board_id: "adafruit_kb2040"
+title: "Adafruit KB2040 Download"
+name: "Adafruit KB2040"
 manufacturer: "Adafruit"
 board_url: ""
-board_image: "adafruit_feather_esp32s2_nopsram.jpg"
-date_added: 2021-4-6
-family: esp32s2
-bootloader_id: adafruit_feather_esp32s2
+board_image: "adafruit_kb2040.jpg"
+date_added: 2021-11-15
+family: raspberrypi
 features:
-  - Feather-Compatible
-  - Battery Charging
   - STEMMA QT/QWIIC
-  - Wi-Fi
   - USB-C
   - Breadboard-Friendly
 ---
@@ -22,7 +18,7 @@ Coming Soon!
 
 ## Learn More
 
-* [YouTube](https://youtu.be/74_0KsoOkZE)
+* [Adafruit Blog](https://blog.adafruit.com/?s=KB2040)
 
 ## Contribute
 
