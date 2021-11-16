@@ -11,6 +11,7 @@ family: esp32c3
 features:
   - Breadboard-Friendly
   - Wi-Fi
+  - Bluetooth/BTLE
 ---
 This is an entry-level development board based on Espressif ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency up to 160 MHz, supports secondary development without using other microcontrollers or processors. The ESP32-C3 is an highly integrated low power Wi-Fi and Bluetooth system-level chip (SoC), designed for various applications such as internet of things (IoT), mobile devices, wearable electronics, smart home, etc.
 
