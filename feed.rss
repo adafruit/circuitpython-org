@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 16 Nov 2021 05:08:34 -0500</lastBuildDate>
+<lastBuildDate>Tue, 16 Nov 2021 14:05:28 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -8632,7 +8632,47 @@ programmed from the host.</p>
               300px"
        src="/assets/images/boards/original/solderparty_rp2040_stamp.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Solder Party</p> <p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>
+<p>By Solder Party</p> <p>The Stamp was created to allow you to use the <strong>Raspberry Pi RP2040</strong> in your designs without having to solder small-pitch QFN chips or worry about lots of external circuitry.</p>
+
+<p>All you need to get you started is a 5V supply or a LiPo battery. The Stamp will take care of the charging and switching the power sources.</p>
+
+<p>The castellated edges with <strong>2mm pitch</strong> can be hand-soldered directly to a carrier board or by using pin headers. You can find footprints for many PCB programs <a href="https://github.com/solderparty/rp2040_stamp_footprints">here</a>.</p>
+
+<p>At only <strong>1 by 1 inch</strong>, the Stamp packs a lot of features:</p>
+<ul>
+  <li><strong>8MB of FLASH</strong></li>
+  <li><strong>500mA 3.3V LDO</strong></li>
+  <li><strong>All 30 GPIOs broken out</strong></li>
+  <li><strong>A Neopixel</strong></li>
+  <li>LiPo supply and charging circuit (with charging LED)</li>
+  <li>USB broken out</li>
+  <li>SWD broken out</li>
+  <li>Reset Button</li>
+  <li>12MHz crystal</li>
+</ul>
+
+<p>and of course, everything that comes with the Raspberry Pi RP2040 itself:</p>
+<ul>
+  <li>Dual core ARM Cortex-M0+ @ 133MHz</li>
+  <li>264kB SRAM</li>
+  <li>2 UARTs</li>
+  <li>2 SPIs</li>
+  <li>2 I2Cs</li>
+  <li>16 PWM channels</li>
+  <li>USB with Host and Device support</li>
+</ul>
+
+<p>The RP2040 comes with a pre-programmed ROM UF2 Bootloader, by pulling the BOOTSEL pin low and resetting, or by double-pressing the RESET button (if the FW supports it), you can upload new firmware using the USB disk drive.</p>
+
+<p>In addition to the Stamp, we also offer a reference design - the RP2040 Stamp Carrier.</p>
+
+<p>The CircuitPython firmware for the Stamp comes with a built-in board file for the Carrier, you can access it using <code class="language-plaintext highlighter-rouge">import stamp_carrier_board as board</code>. After that, you can access all the Carrier pins and interfaces like you would with any other CPY board.</p>
+
+<h2 id="links">Links</h2>
+
+<ul>
+  <li><a href="https://rp2040-stamp.solder.party/">Documentation</a></li>
+</ul>
 
 <h2 id="contribute">Contribute</h2>
 
