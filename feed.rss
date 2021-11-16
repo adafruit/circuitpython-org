@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 15 Nov 2021 05:08:41 -0500</lastBuildDate>
+<lastBuildDate>Mon, 15 Nov 2021 21:39:08 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -76,40 +76,62 @@
     <guid>https://circuitpython.org/board/TG-Watch/</guid>
   </item><item>
     <title>Feather ESP32-S2</title>
-    <link>https://circuitpython.org/board/adafruit_feather_esp32s2_nopsram/</link>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32s2/</link>
     <description><![CDATA[ 
 
-  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s2_nopsram.jpg 300w,
-               /assets/images/boards/large/adafruit_feather_esp32s2_nopsram.jpg 700w"
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s2.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32s2.jpg 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="/assets/images/boards/original/adafruit_feather_esp32s2_nopsram.jpg" alt="Image of Board" loading="lazy">
+       src="/assets/images/boards/original/adafruit_feather_esp32s2.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Adafruit</p> <p>Coming Soon!</p>
+<p>By Adafruit</p> <p>What’s Feather-shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connector for I2C devices? What has your favorite Espressif WiFi microcontroller and lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy?</p>
 
-<h2 id="learn-more">Learn More</h2>
+<p>That’s right - it’s the new <strong>Adafruit ESP32-S2 Feather</strong>! With native USB and 4 MB flash + 2 MB of PSRAM, this board is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi means its awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.</p>
+
+<p>The ESP32-S2 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has <strong>built-in native USB</strong> as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<p><strong>Please note</strong> the Feather ESP32-S2 has a single-core 240 MHz chip, so it won’t be as fast as ESP32’s with dual-core. Also, there is no Bluetooth support. However, we are super excited about the ESP32-S2’s native USB which unlocks a lot of capabilities for advanced interfacing! This ESP32-S2 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM so you can buffer massive JSON files for parsing!</p>
+
+<p><strong>Features:</strong></p>
 
 <ul>
-  <li><a href="https://youtu.be/74_0KsoOkZE">YouTube</a></li>
+  <li><strong>ESP32-S2 240MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
+  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+  <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
+  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+  <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+  <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+  <li><strong>Low Power friendly</strong>! In deep sleep mode we can get down to 30uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C power for the lowest quiescent current draw.</li>
+  <li><strong>Works with Arduino or CircuitPython</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5000">Adafruit</a></li>
 </ul>
 
 <h2 id="contribute">Contribute</h2>
 
-<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_feather_esp32s2_nopsram.md">here</a>.</p>
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_feather_esp32s2.md">here</a>.</p>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
-    <guid>https://circuitpython.org/board/adafruit_feather_esp32s2_nopsram/</guid>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32s2/</guid>
   </item><item>
     <title>Feather ESP32-S2 with TFT</title>
-    <link>https://circuitpython.org/board/adafruit_feather_esp32s2_tftback_nopsram/</link>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32s2_tft/</link>
     <description><![CDATA[ 
 
-  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s2_tftback_nopsram.jpg 300w,
-               /assets/images/boards/large/adafruit_feather_esp32s2_tftback_nopsram.jpg 700w"
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s2_tft.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32s2_tft.jpg 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="/assets/images/boards/original/adafruit_feather_esp32s2_tftback_nopsram.jpg" alt="Image of Board" loading="lazy">
+       src="/assets/images/boards/original/adafruit_feather_esp32s2_tft.jpg" alt="Image of Board" loading="lazy">
 
 <p>By Adafruit</p> <p>Coming Soon!</p>
 
@@ -117,15 +139,16 @@
 
 <ul>
   <li><a href="https://youtu.be/74_0KsoOkZE">YouTube</a></li>
+  <li><a href="https://blog.adafruit.com/?s=esp32-s2+tft">Adafruit Blog</a></li>
 </ul>
 
 <h2 id="contribute">Contribute</h2>
 
-<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_feather_esp32s2_tftback_nopsram.md">here</a>.</p>
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_feather_esp32s2_tft.md">here</a>.</p>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
-    <guid>https://circuitpython.org/board/adafruit_feather_esp32s2_tftback_nopsram/</guid>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32s2_tft/</guid>
   </item><item>
     <title>Feather RP2040</title>
     <link>https://circuitpython.org/board/adafruit_feather_rp2040/</link>
@@ -349,6 +372,32 @@
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_itsybitsy_rp2040/</guid>
+  </item><item>
+    <title>Adafruit KB2040</title>
+    <link>https://circuitpython.org/board/adafruit_kb2040/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_kb2040.jpg 300w,
+               /assets/images/boards/large/adafruit_kb2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_kb2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>Coming Soon!</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://blog.adafruit.com/?s=KB2040">Adafruit Blog</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_kb2040.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 14 Nov 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_kb2040/</guid>
   </item><item>
     <title>LED Glasses </title>
     <link>https://circuitpython.org/board/adafruit_led_glasses_nrf52840/</link>
@@ -838,6 +887,58 @@
     <category>CircuitPython</category>
     <pubDate>Wed, 14 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_slide_trinkey_m0/</guid>
+  </item><item>
+    <title>ESP-C3-32S</title>
+    <link>https://circuitpython.org/board/ai_thinker_esp32-c3s/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/ai_thinker_esp32-c3s.jpg 300w,
+               /assets/images/boards/large/ai_thinker_esp32-c3s.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/ai_thinker_esp32-c3s.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Ai-Thinker</p> <p>This is an entry-level development board based on Espressif ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency up to 160 MHz, supports secondary development without using other microcontrollers or processors. The ESP32-C3 is an highly integrated low power Wi-Fi and Bluetooth system-level chip (SoC), designed for various applications such as internet of things (IoT), mobile devices, wearable electronics, smart home, etc.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>Onboard ESP-C3-32S module that comes with a PCB antenna</li>
+  <li>Onboard CH340, USB to UART converter</li>
+  <li>RGB 3-in-1 LED, convenient for secondary development</li>
+  <li>USB port for power input, firmware programming, or UART debugging</li>
+  <li>2x15pin extension headers, breakout all the I/O pins of the module</li>
+  <li>2x keys, used as reset or user-defined</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Complete Wi-Fi 802.11b/g/n, 1T1R mode data rate up to 150Mbps</li>
+  <li>Support BLE5.0 and rate support: 125Kbps, 500Kbps, 1Mbps,2Mbps</li>
+  <li>Onboard ESP32-C3 chip, 32-bit RISC-V single-core processor, supports a clock frequency of up to 160 MHz, with 400 KB SRAM, 384 KB ROM, 8KB RTC SRAM</li>
+  <li>Support UART/PWM/GPIO/ADC/I2C/I2S interface, temperature sensor, pulse counter</li>
+  <li>SMD-38 package</li>
+  <li>Integrated Wi-Fi MAC/ BB/RF/PA/LNA/BLE</li>
+  <li>Support multiple sleep modes, deep sleep electric current is less than 5uA</li>
+  <li>UART rate up to 5Mbps</li>
+  <li>Support STA/AP/STA+AP mode and mix mode</li>
+  <li>Support Smart Config (APP)/AirKiss (WeChat) of Android and IOS One-click network configuration</li>
+  <li>Support UART port local upgrade and remote firmware upgrade (FOTA)</li>
+  <li>General AT commands can be better understand</li>
+  <li>Support secondary development, integrated Linux development environment</li>
+  <li>ESP-C3-32S module acquiesce in using the built-in 2MByte Flash, meanwhile support external Flash version</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005003023291446.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 14 Nov 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/ai_thinker_esp32-c3s/</guid>
   </item><item>
     <title>NodeMCU ESP-12K</title>
     <link>https://circuitpython.org/board/ai_thinker_esp_12k_nodemcu/</link>
@@ -1723,6 +1824,104 @@ control applications.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 02 Apr 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/catwan_usbstick/</guid>
+  </item><item>
+    <title>Challenger NB RP2040 WiFi</title>
+    <link>https://circuitpython.org/board/challenger_nb_rp2040_wifi/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/challenger_nb_rp2040_wifi.jpg 300w,
+               /assets/images/boards/large/challenger_nb_rp2040_wifi.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/challenger_nb_rp2040_wifi.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Invector Labs</p> <p>The Challenger NB RP2040 WiFi is an Arduino/Micropython compatible <strong>Challenger NB</strong> (NB for No Battery) format micro controller board based on the Raspberry Pico chip. The <strong>Challenger NB</strong> form factor is based on Adafruits Feather format but we have removed the battery connector, LiPo charger and instead added a bunch of IO pins. It has retained most of the original Feather pinout so most (all) existing feather wings should work nicely with this board as well.</p>
+
+<p>Just like the Challenger RP2040 WiFi it has a ESP8285 WiFi chip. For those of you that is unfamiliar with this device, it is basically an ESP8266 device with an integrated 1MByte of flash memory. This allows us to have an AT command interpreter inside this chip that the main controller can talk to and connect to you local WiFi network. The communications channel between the two devices is an unused UART on the main controller and the standard UART on the ESP8285. As simple as it can be.</p>
+
+<p>The ESP8285 chip comes pre-flashed with Espressif’s AT command interpreter stored in the internal 1MByte of the ESP8285. This interpreter support most of the operating and sleep modes of the standard ESP8266 framework which makes it easy to work with. Talking to the device is as easy as opening the second serial port (Serial2), resetting the ESP8285 and start listening for events and sending commands.</p>
+
+<h3 id="technical-details">Technical details</h3>
+
+<ul>
+  <li>Raspberry Pi Pico Dual Core Cortex-M0 @ 133MHz</li>
+  <li>8 MByte FLASH Memory.</li>
+  <li>264 KByte SRAM Memory.</li>
+  <li>1 Hardware I2C channel.</li>
+  <li>1 Hardware SPI channel.</li>
+  <li>1 Hardware UART for the user (Serial1).</li>
+  <li>1 Hardware UART connected to the network processor (Serial2 @ 1Mbit/s)</li>
+  <li>12 Bit ADC.</li>
+  <li>ESP8285 with internal 1MByte FLASH Memory</li>
+  <li>WiFi (2.4GHz)</li>
+  <li>Espressif AT interpreter</li>
+  <li>Communicates at 921600 bits/s</li>
+  <li>Neopixel LED</li>
+  <li>New fancy schmancy I2C connector =)</li>
+  <li>USB Type C connector</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.tindie.com/products/invector/challenger-nb-rp2040-wifi/">Tindie</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/challenger_nb_rp2040_wifi.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 14 Nov 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/challenger_nb_rp2040_wifi/</guid>
+  </item><item>
+    <title>Challenger RP2040 LTE</title>
+    <link>https://circuitpython.org/board/challenger_rp2040_lte/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/challenger_rp2040_lte.jpg 300w,
+               /assets/images/boards/large/challenger_rp2040_lte.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/challenger_rp2040_lte.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Invector Labs</p> <p>The Challenger RP2040 LTE is an Arduino/CircuitPython compatible Adafruit Feather format micro controller board based on the Raspberry Pico chip.</p>
+
+<p>This board has been designed with portable applications in mind. By using the powerful dual core RP2040 combined with 8Mbyte of flash memory you get a device that can handle pretty much anything you can trow at it. For instance if you let one core handle the LTE modem and the second core do all the UI stuff you get an extremely responsive system. Not to mention that the 8MByte of FLASH memory will let you install any (or all) circuitpython support libraries that you will every need.</p>
+
+<h3 id="technical-details">Technical details</h3>
+
+<ul>
+  <li>Raspberry Pi Pico Dual Core Cortex-M0 @ 133MHz</li>
+  <li>8 MByte FLASH Memory.</li>
+  <li>264 KByte SRAM Memory.</li>
+  <li>1 Hardware I2C channel.</li>
+  <li>1 Hardware SPI channel.</li>
+  <li>1 Hardware UART for the user (Serial1).</li>
+  <li>1 Hardware UART connected to the network processor (Serial2 @ 1Mbit/s)</li>
+  <li>12 Bit ADC.</li>
+  <li>SARA-R410M-02B</li>
+  <li>LTE Category M1/NB1</li>
+  <li>Multiregion</li>
+  <li>Data rate M1: up to 375 kb/s UL, 300 kb/s DL</li>
+  <li>Data rate NB1: up to 62.5 kb/s UL, 27.2 kb/s DL</li>
+  <li>LiPo charger circuit with 250mA charging current</li>
+  <li>Standard LiPo battery connector</li>
+  <li>USB Type C connector</li>
+  <li>Bi2C</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.tindie.com/products/invector/challenger-rp2040-lte/">Tindie</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/challenger_rp2040_lte.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 14 Nov 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/challenger_rp2040_lte/</guid>
   </item><item>
     <title>Challenger RP2040 WiFi</title>
     <link>https://circuitpython.org/board/challenger_rp2040_wifi/</link>
@@ -8422,6 +8621,26 @@ programmed from the host.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 30 Jul 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/snekboard/</guid>
+  </item><item>
+    <title>RP2040 Stamp</title>
+    <link>https://circuitpython.org/board/solderparty_rp2040_stamp/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/solderparty_rp2040_stamp.jpg 300w,
+               /assets/images/boards/large/solderparty_rp2040_stamp.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/solderparty_rp2040_stamp.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Solder Party</p> <p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/solderparty_rp2040_stamp.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 14 Nov 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/solderparty_rp2040_stamp/</guid>
   </item><item>
     <title>LumiDrive</title>
     <link>https://circuitpython.org/board/sparkfun_lumidrive/</link>
