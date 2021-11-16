@@ -10,7 +10,13 @@ date_added: 2021-4-6
 family: esp32s2
 bootloader_id: adafruit_feather_esp32s2_tft
 features:
-
+  - Feather-Compatible
+  - Battery Charging
+  - STEMMA QT/QWIIC
+  - Wi-Fi
+  - USB-C
+  - Display
+  - Breadboard-Friendly
 ---
 
 Coming Soon!
