@@ -4,9 +4,37 @@ title: Awesome
 permalink: /awesome
 ---
 
+<style>
+  .video_player{
+      width: 720px;
+      margin: 0 auto;
+      display: block;
+
+  }
+</style>
+
 <div id="awesome-page" class="common-layout">
   <div class="content">
     {% capture awesome_include %}{% include_relative awesome-circuitpython/README.md %}{% endcapture %}
     {{ awesome_include | markdownify }}
-  <div>
+  </div>
 </div>
+<script>
+    const video_url = "https://user-images.githubusercontent.com/1685947/115119719-d6e21f00-9f77-11eb-84bf-3f7af59948a3.mov";
+    [...document.querySelectorAll("p")]
+        .filter(p => p.textContent.includes(video_url))
+        .forEach(p => change_to_video(p.textContent, p));
+
+    function insertAfter(newNode, existingNode) {
+        existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+    }
+
+    function change_to_video(url, p) {
+        let video = document.createElement('video');
+        video.controls = true;
+        video.classList.add("video_player")
+        video.src = url;
+        insertAfter(video, p)
+        p.remove();
+    }
+</script>
