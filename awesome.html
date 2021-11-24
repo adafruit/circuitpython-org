@@ -9,7 +9,6 @@ permalink: /awesome
       width: 720px;
       margin: 0 auto;
       display: block;
-
   }
 </style>
 
@@ -25,16 +24,12 @@ permalink: /awesome
         .filter(p => p.textContent.includes(video_url))
         .forEach(p => change_to_video(p.textContent, p));
 
-    function insertAfter(newNode, existingNode) {
-        existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
-    }
-
     function change_to_video(url, p) {
         let video = document.createElement('video');
         video.controls = true;
         video.classList.add("video_player")
         video.src = url;
-        insertAfter(video, p)
+        p.parentNode.insertBefore(video, p);
         p.remove();
     }
 </script>
