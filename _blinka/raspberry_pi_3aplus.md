@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_3aplus"
 title: "Raspberry Pi 3 Model A+ Download"
-name: "Raspberry Pi 3 Model A+"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/"
+name: "Pi 3 Model A+"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/"
 board_image: "raspberry_pi_3aplus.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
