@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_cm4"
 title: "Raspberry Pi Compute Module 4 Download"
-name: "Raspberry Pi Compute Module 4"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/compute-module-4/"
+name: "Compute Module 4"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/compute-module-4/"
 board_image: "raspberry_pi_cm4.jpg"
 download_instructions: 
 downloads_display: true

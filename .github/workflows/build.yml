@@ -6,6 +6,7 @@ on:
       - master
   schedule:
     - cron: 0 10 * * *
+  pull_request:
 
 jobs:
   check-repo-owner:
@@ -31,7 +32,7 @@ jobs:
         submodules: true
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7
+        ruby-version: 3.0
         bundler-cache: true
     - name: Install Dependencies
       run: |
@@ -46,3 +47,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           cname: circuitpython.org
+      if: github.event_name != 'pull_request'

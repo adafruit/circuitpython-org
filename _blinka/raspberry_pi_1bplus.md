@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_1bplus"
 title: "Raspberry Pi 1 Model B+ Download"
-name: "Raspberry Pi 1 Model B+"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/raspberry-pi-1-model-b-plus/"
+name: "Pi 1 Model B+"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/"
 board_image: "raspberry_pi_1bplus.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true

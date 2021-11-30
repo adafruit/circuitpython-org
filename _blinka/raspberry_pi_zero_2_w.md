@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_zero_2_w"
 title: "Raspberry Pi Zero 2 W Download"
-name: "Raspberry Pi Zero 2 W"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/raspberry-pi-zero-2-w/"
+name: "Zero 2 W"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
 board_image: "raspberry_pi_zero_2_w.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
