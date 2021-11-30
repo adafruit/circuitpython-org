@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 30 Nov 2021 15:22:41 -0500</lastBuildDate>
+<lastBuildDate>Tue, 30 Nov 2021 15:31:44 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -8100,6 +8100,136 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <pubDate>Thu, 21 Jan 2021 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/raspberry_pi_pico/</guid>
   </item><item>
+    <title>Compute Module 4 IO Board</title>
+    <link>https://circuitpython.org/board/raspberrypi_cm4io/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/raspberrypi_cm4io.jpg 300w,
+               /assets/images/boards/large/raspberrypi_cm4io.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/raspberrypi_cm4io.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+
+<p>Exposing every interface from Raspberry Pi Compute Module 4, the Compute Module 4 IO Board provides a development platform and reference base-board design for the most powerful Compute Module yet.</p>
+
+<p>The Compute Module 4 IO Board is a development board for those who wish to make use of the Raspberry Pi in a more flexible form factor, intended for industrial applications.</p>
+
+<p>While the Compute Module contains the guts of a Raspberry Pi 4 (1.2GHz, quad-core Broadcom BCM2837 processor), it does not have any easy-to-use ports for development. That‚Äôs where this IO Board comes in!</p>
+
+<h2 id="circuitpython">CircuitPython</h2>
+
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+
+<p>After installing the disk image on an SD card, the normal CircuitPython USB workflow will be available on the micro-B connector on the IO board. EMMC compute modules are not supported yet.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/4787">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/raspberrypi_cm4io.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 28 Nov 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_cm4io/</guid>
+  </item><item>
+    <title>Pi 4 Model B</title>
+    <link>https://circuitpython.org/board/raspberrypi_pi4b/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/raspberry_pi_4b.jpg 300w,
+               /assets/images/boards/large/raspberry_pi_4b.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/raspberry_pi_4b.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+
+<p>The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that‚Äôs exactly what they did!</p>
+
+<p>The Raspberry Pi 4 is the latest product in the Raspberry Pi range, boasting an updated 64-bit quad core processor running at 1.4GHz with built-in metal heatsink, USB 3 ports, dual-band 2.4GHz and 5GHz wireless LAN, faster (300 mbps) Ethernet, and PoE capability via a separate PoE HAT.</p>
+
+<ul>
+  <li>Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz</li>
+  <li>1GB, 2GB or 4GB LPDDR4-2400 SDRAM (depending on model)</li>
+  <li>2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE</li>
+  <li>Gigabit Ethernet</li>
+  <li>2 USB 3.0 ports; 2 USB 2.0 ports.</li>
+  <li>Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous boards)</li>
+  <li>2 √ó micro-HDMI ports (up to 4kp60 supported)</li>
+  <li>2-lane MIPI DSI display port</li>
+  <li>2-lane MIPI CSI camera port</li>
+  <li>4-pole stereo audio and composite video port</li>
+  <li>H.265 (4kp60 decode), H264 (1080p60 decode, 1080p30 encode)</li>
+  <li>OpenGL ES 3.0 graphics</li>
+  <li>Micro-SD card slot for loading operating system and data storage</li>
+  <li>5V DC via USB-C connector (minimum 3A)</li>
+  <li>5V DC via GPIO header (minimum 3A)</li>
+  <li>Power over Ethernet (PoE) enabled (requires separate PoE HAT)</li>
+  <li>Operating temperature: 0 ‚Äì 50 degrees C ambient</li>
+  <li>A good quality 2.5A power supply can be used if downstream USB peripherals consume less than 500mA in total.</li>
+</ul>
+
+<h2 id="circuitpython">CircuitPython</h2>
+
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+
+<p>After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the USB-C connector used for power-only usually. A powered USB hub is needed to power the Pi while allowing USB data to also connect.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/4295">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/raspberrypi_pi4b.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 28 Nov 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_pi4b/</guid>
+  </item><item>
+    <title>Zero 2 W</title>
+    <link>https://circuitpython.org/board/raspberrypi_zero2w/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/raspberry_pi_zero_2_w.jpg 300w,
+               /assets/images/boards/large/raspberry_pi_zero_2_w.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/raspberry_pi_zero_2_w.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+
+<p><strong>Raspberry Pi Zero 2 W</strong> is the latest product in Raspberry Pi‚Äôs most affordable range of single-board computers. The successor to the breakthrough Raspberry Pi Zero W, <strong>Raspberry Pi Zero 2 W</strong> is a form factor‚Äìcompatible drop-in replacement for the original board.</p>
+
+<p>The board incorporates a quad-core 64-bit Arm Cortex-A53 CPU, clocked at 1GHz. At its heart is a Raspberry Pi RP3A0 system-in-package (SiP), integrating a Broadcom BCM2710A1 die with 512MB of LPDDR2 SDRAM. The upgraded processor provides Raspberry Pi Zero 2 W with 40% more single-threaded performance, and five times more multi-threaded performance, than the original single-core Raspberry Pi Zero. Raspberry Pi Zero 2 W offers 2.4GHz 802.11 b/g/n wireless LAN and Bluetooth 4.2, along with support for Bluetooth Low Energy (BLE), and modular compliance certification.</p>
+
+<p>The board has a microSD card slot, a CSI-2 camera connector, a USB On-The-Go (OTG) port, and an unpopulated footprint for a HAT-compatible 40-pin GPIO header. It is powered via a micro USB socket. Video output is via a mini HDMI port; composite video output can easily be made available via test points, if needed. Sharing the same form factor as the original Raspberry Pi Zero, Raspberry Pi Zero 2 W fits inside most existing Raspberry Pi Zero cases.</p>
+
+<h2 id="circuitpython">CircuitPython</h2>
+
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+
+<p>After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the micro-B USB connector labeled ‚ÄúUSB‚Äù.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/5291">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/raspberrypi_zero2w.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 28 Nov 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_zero2w/</guid>
+  </item><item>
     <title>MDBT50Q-DB-40</title>
     <link>https://circuitpython.org/board/raytac_mdbt50q-db-40/</link>
     <description><![CDATA[ 
@@ -12971,7 +13101,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 1 Model A</title>
+      <title>Pi 1 Model A</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_1a/</link>
       <description><![CDATA[ 
 
@@ -12981,7 +13111,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_1a.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Raspberry Pi 1 Model A is the original Model A.  In November 2014 It was superseded by the Raspberry Pi 1 Model A+</p>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi 1 Model A is the original Model A.  In November 2014 It was superseded by the Raspberry Pi 1 Model A+</p>
 
 <ul>
   <li>Broadcom BCM2835, ARM11 76JZF-S SoC @ 700MHz</li>
@@ -13005,7 +13135,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 1 Model A+</title>
+      <title>Pi 1 Model A+</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_1aplus/</link>
       <description><![CDATA[ 
 
@@ -13015,7 +13145,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_1aplus.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Model A+ is the low-cost variant of the Raspberry Pi. It replaced the original Model A in November 2014.</p>
+<p>By Raspberry Pi</p> <p>The Model A+ is the low-cost variant of the Raspberry Pi. It replaced the original Model A in November 2014.</p>
 
 <ul>
   <li>Broadcom BCM2835, ARM11 76JZF-S SoC @ 700MHz</li>
@@ -13045,7 +13175,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 1 Model B</title>
+      <title>Pi 1 Model B</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_1b/</link>
       <description><![CDATA[ 
 
@@ -13055,7 +13185,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_1b.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Model B was the original Raspberry Pi Model B and consisted of two revisions.  In July 2014 It was superseded by the Raspberry Pi 1 Model B+</p>
+<p>By Raspberry Pi</p> <p>The Model B was the original Raspberry Pi Model B and consisted of two revisions.  In July 2014 It was superseded by the Raspberry Pi 1 Model B+</p>
 
 <ul>
   <li>Broadcom BCM2835, ARM11 76JZF-S SoC @ 700MHz</li>
@@ -13079,7 +13209,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 1 Model B+</title>
+      <title>Pi 1 Model B+</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_1bplus/</link>
       <description><![CDATA[ 
 
@@ -13089,7 +13219,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_1bplus.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Model B+ is the final revision of the original Raspberry Pi. It replaced the Model B in July 2014 and was superseded by the Raspberry Pi 2 Model B</p>
+<p>By Raspberry Pi</p> <p>The Model B+ is the final revision of the original Raspberry Pi. It replaced the Model B in July 2014 and was superseded by the Raspberry Pi 2 Model B</p>
 
 <ul>
   <li>Broadcom BCM2835, ARM11 76JZF-S SoC @ 700MHz</li>
@@ -13119,7 +13249,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 2 Model B</title>
+      <title>Pi 2 Model B</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_2b/</link>
       <description><![CDATA[ 
 
@@ -13129,7 +13259,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_2b.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>Didn‚Äôt think the Raspberry Pi could get any better? You‚Äôre in for a big surprise! The Raspberry Pi 2 Model B is out and it‚Äôs amazing! With an upgraded ARM Cortex-A53 quad-core processor, Dual Core VideoCore IV Multimedia coprocessor, and a full Gigabyte of RAM, this pocket computer has moved from being a ‚Äòtoy‚Äô to a real desktop PC!</p>
+<p>By Raspberry Pi</p> <p>Didn‚Äôt think the Raspberry Pi could get any better? You‚Äôre in for a big surprise! The Raspberry Pi 2 Model B is out and it‚Äôs amazing! With an upgraded ARM Cortex-A53 quad-core processor, Dual Core VideoCore IV Multimedia coprocessor, and a full Gigabyte of RAM, this pocket computer has moved from being a ‚Äòtoy‚Äô to a real desktop PC!</p>
 
 <p>The Raspberry Pi 2 Model B is the second-generation Raspberry Pi. It replaced the original Raspberry Pi 1 Model B+ in February 2015.</p>
 
@@ -13162,7 +13292,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 3 Model A+</title>
+      <title>Pi 3 Model A+</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_3aplus/</link>
       <description><![CDATA[ 
 
@@ -13172,7 +13302,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_3aplus.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Raspberry Pi 3 Model A+ is the latest board for the minimalist Pi fan. Like the Raspberry Pi 3 Model B+, it boasts a 64-bit quad core processor running at 1.4 GHz, dual-band 2.4 GHz and 5 GHz wireless LAN, and Bluetooth 4.3/BLE. This low-cost Pi uses the same processor as the model 3 B+, but does away with the Ethernet jack and three of the USB ports. It‚Äôs still compatible with all Pi operating systems and software, and has the exact same 40 pin GPIO connector and camera/display sockets, so any HATs or Pi Plates or other things that plug into the model B+ will work just the same.</p>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi 3 Model A+ is the latest board for the minimalist Pi fan. Like the Raspberry Pi 3 Model B+, it boasts a 64-bit quad core processor running at 1.4 GHz, dual-band 2.4 GHz and 5 GHz wireless LAN, and Bluetooth 4.3/BLE. This low-cost Pi uses the same processor as the model 3 B+, but does away with the Ethernet jack and three of the USB ports. It‚Äôs still compatible with all Pi operating systems and software, and has the exact same 40 pin GPIO connector and camera/display sockets, so any HATs or Pi Plates or other things that plug into the model B+ will work just the same.</p>
 
 <ul>
   <li>Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz</li>
@@ -13203,7 +13333,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 3 Model B</title>
+      <title>Pi 3 Model B</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_3b/</link>
       <description><![CDATA[ 
 
@@ -13213,7 +13343,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_3b.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>Did you really think the Raspberry Pi would stop getting better? At this point, we sound like a broken record, extolling on the new Pi‚Äôs myriad improvements like we‚Äôre surprised that the folks at the Raspberry Pi Foundation are continuously making their flagship board better.  Still, we‚Äôll say it again - the Raspberry Pi team have outdone themselves. The Raspberry Pi 3 Model B is out and it is AMAZING.</p>
+<p>By Raspberry Pi</p> <p>Did you really think the Raspberry Pi would stop getting better? At this point, we sound like a broken record, extolling on the new Pi‚Äôs myriad improvements like we‚Äôre surprised that the folks at the Raspberry Pi Foundation are continuously making their flagship board better.  Still, we‚Äôll say it again - the Raspberry Pi team have outdone themselves. The Raspberry Pi 3 Model B is out and it is AMAZING.</p>
 
 <ul>
   <li>Quad Core 1.2GHz Broadcom BCM2837 64bit CPU</li>
@@ -13245,7 +13375,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 3 Model B+</title>
+      <title>Pi 3 Model B+</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_3bplus/</link>
       <description><![CDATA[ 
 
@@ -13255,7 +13385,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_3bplus.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Raspberry Pi 3 Model B+ is the most popular Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 3 better? How about a faster processor, 5 GHz WiFi, and updated Ethernet chip with PoE capability? Good guess - that‚Äôs exactly what they did!</p>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi 3 Model B+ is the most popular Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 3 better? How about a faster processor, 5 GHz WiFi, and updated Ethernet chip with PoE capability? Good guess - that‚Äôs exactly what they did!</p>
 
 <p>The Raspberry Pi 3 Model B+ is the latest product in the Raspberry Pi 3 range, boasting an updated 64-bit quad core processor running at 1.4GHz with built-in metal heatsink, dual-band 2.4GHz and 5GHz wireless LAN, faster (300 mbps) Ethernet, and PoE capability via a separate PoE HAT.</p>
 
@@ -13290,7 +13420,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 400 Desktop</title>
+      <title>Pi 400 Desktop</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_400/</link>
       <description><![CDATA[ 
 
@@ -13300,7 +13430,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_400.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>Raspberry Pi 400 is your complete personal computer, built into a compact keyboard. Featuring a quad-core 64-bit processor, 4GB of RAM, wireless networking, dual-display output, and 4K video playback, as well as a 40-pin GPIO header, it‚Äôs the most powerful and easy-to-use Raspberry Pi computer yet.</p>
+<p>By Raspberry Pi</p> <p>Raspberry Pi 400 is your complete personal computer, built into a compact keyboard. Featuring a quad-core 64-bit processor, 4GB of RAM, wireless networking, dual-display output, and 4K video playback, as well as a 40-pin GPIO header, it‚Äôs the most powerful and easy-to-use Raspberry Pi computer yet.</p>
 
 <ul>
   <li>Broadcom BCM2711 quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz</li>
@@ -13334,7 +13464,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi 4 Model B</title>
+      <title>Pi 4 Model B</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_4b/</link>
       <description><![CDATA[ 
 
@@ -13344,7 +13474,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_4b.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that‚Äôs exactly what they did!</p>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that‚Äôs exactly what they did!</p>
 
 <p>The Raspberry Pi 4 is the latest product in the Raspberry Pi range, boasting an updated 64-bit quad core processor running at 1.4GHz with built-in metal heatsink, USB 3 ports, dual-band 2.4GHz and 5GHz wireless LAN, faster (300 mbps) Ethernet, and PoE capability via a separate PoE HAT.</p>
 
@@ -13384,7 +13514,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Compute Module 1</title>
+      <title>Compute Module 1</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_cm1/</link>
       <description><![CDATA[ 
 
@@ -13394,7 +13524,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_cm1.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application.</p>
+<p>By Raspberry Pi</p> <p>The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application.</p>
 
 <p>The Compute Module contains the guts of a Raspberry Pi (the BCM2835 processor and 512MB RAM) as well as a 4GB eMMC Flash device (which is the equivalent of the SD card in the Pi). This is all integrated on to a small 67.6x30mm board which fits into a standard DDR2 SODIMM connector (the same type of connector as used for laptop memory). The Flash memory is connected directly to the processor on the board, but the remaining processor interfaces are available to the user via the connector pins. You get the full flexibility of the BCM2835 SoC (which means that many more GPIOs and interfaces are available as compared to the Raspberry Pi), and designing the Module into a custom system should be relatively straightforward as we‚Äôve put all the tricky bits onto the Module itself.</p>
 
@@ -13417,7 +13547,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Compute Module 3</title>
+      <title>Compute Module 3</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_cm3/</link>
       <description><![CDATA[ 
 
@@ -13427,7 +13557,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_cm3.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Compute Module 3 contains the guts of a Raspberry Pi 3 (the BCM2837 processor and 1GB RAM) as well as an optional 4GB eMMC Flash device (which is the equivalent of the SD card in the Pi). The Pi 3 has a processor speed of 1.2GHz and runs at roughly 10 times the speed of the Pi 1 due to its quad-core CPU. This is all integrated on to a small 67.6mm x 31mm board which fits into a standard DDR2 SODIMM connector (the same type of connector as used for laptop memory). The Flash memory is connected directly to the processor on the board, but the remaining processor interfaces are available to the user via the connector pins. You get the full flexibility of the BCM2837 SoC (which means that many more GPIOs and interfaces are available as compared to the Raspberry Pi), and designing the Module into a custom system should be relatively straightforward as we‚Äôve put all the tricky bits onto the Module itself.</p>
+<p>By Raspberry Pi</p> <p>The Compute Module 3 contains the guts of a Raspberry Pi 3 (the BCM2837 processor and 1GB RAM) as well as an optional 4GB eMMC Flash device (which is the equivalent of the SD card in the Pi). The Pi 3 has a processor speed of 1.2GHz and runs at roughly 10 times the speed of the Pi 1 due to its quad-core CPU. This is all integrated on to a small 67.6mm x 31mm board which fits into a standard DDR2 SODIMM connector (the same type of connector as used for laptop memory). The Flash memory is connected directly to the processor on the board, but the remaining processor interfaces are available to the user via the connector pins. You get the full flexibility of the BCM2837 SoC (which means that many more GPIOs and interfaces are available as compared to the Raspberry Pi), and designing the Module into a custom system should be relatively straightforward as we‚Äôve put all the tricky bits onto the Module itself.</p>
 
 <p>The Compute Module is available for purchase in single units, or in batches of hundreds or thousands. To get started designing a PCB to use the Module, we provide an open-source breakout board with a single Module in an affordable development kit.</p>
 
@@ -13446,7 +13576,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Compute Module 3 Lite</title>
+      <title>Compute Module 3 Lite</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_cm3lite/</link>
       <description><![CDATA[ 
 
@@ -13456,7 +13586,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_cm3lite.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Compute Module 3 contains the guts of a Raspberry Pi 3 (the BCM2837 processor and 1GB RAM) as well as an optional 4GB eMMC Flash device (which is the equivalent of the SD card in the Pi). The Pi 3 has a processor speed of 1.2GHz and runs at roughly 10 times the speed of the Pi 1 due to its quad-core CPU. This is all integrated on to a small 67.6mm x 31mm board which fits into a standard DDR2 SODIMM connector (the same type of connector as used for laptop memory). The Flash memory is connected directly to the processor on the board, but the remaining processor interfaces are available to the user via the connector pins. You get the full flexibility of the BCM2837 SoC (which means that many more GPIOs and interfaces are available as compared to the Raspberry Pi), and designing the Module into a custom system should be relatively straightforward as we‚Äôve put all the tricky bits onto the Module itself.</p>
+<p>By Raspberry Pi</p> <p>The Compute Module 3 contains the guts of a Raspberry Pi 3 (the BCM2837 processor and 1GB RAM) as well as an optional 4GB eMMC Flash device (which is the equivalent of the SD card in the Pi). The Pi 3 has a processor speed of 1.2GHz and runs at roughly 10 times the speed of the Pi 1 due to its quad-core CPU. This is all integrated on to a small 67.6mm x 31mm board which fits into a standard DDR2 SODIMM connector (the same type of connector as used for laptop memory). The Flash memory is connected directly to the processor on the board, but the remaining processor interfaces are available to the user via the connector pins. You get the full flexibility of the BCM2837 SoC (which means that many more GPIOs and interfaces are available as compared to the Raspberry Pi), and designing the Module into a custom system should be relatively straightforward as we‚Äôve put all the tricky bits onto the Module itself.</p>
 
 <p>The Compute Module is available for purchase in single units, or in batches of hundreds or thousands. To get started designing a PCB to use the Module, we provide an open-source breakout board with a single Module in an affordable development kit.</p>
 
@@ -13477,7 +13607,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Compute Module 3+</title>
+      <title>Compute Module 3+</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_cm3plus/</link>
       <description><![CDATA[ 
 
@@ -13487,7 +13617,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_cm3plus.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is more eMMC Flash memory and the new heat spreader on the main processor which will let it run at full speed much faster without overheating.</p>
+<p>By Raspberry Pi</p> <p>The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is more eMMC Flash memory and the new heat spreader on the main processor which will let it run at full speed much faster without overheating.</p>
 
 <p>The Compute Module contains the guts of a Raspberry Pi 3 B+ (the BCM2837B0 processor and 1GB RAM) as well as a 8GB eMMC Flash device (which is the equivalent of the SD card in the Pi). The Pi 3 B+ has a processor speed of 1.2GHz and runs at roughly 10 times the speed of the Pi 1 due to its quad-core CPU. This is all integrated on to a small 67.6mm x 31.1mm board which fits into a standard DDR2 SODIMM connector (the same type of connector as used for laptop memory).</p>
 
@@ -13508,7 +13638,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Compute Module 3+ Lite</title>
+      <title>Compute Module 3+ Lite</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_cm3pluslite/</link>
       <description><![CDATA[ 
 
@@ -13518,7 +13648,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_cm3pluslite.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+ Lite) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is the new heat spreader on the main processor which will let it run at full speed much faster without overheating.</p>
+<p>By Raspberry Pi</p> <p>The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+ Lite) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is the new heat spreader on the main processor which will let it run at full speed much faster without overheating.</p>
 
 <p>The Compute Module contains the guts of a Raspberry Pi 3 B+ (the BCM2837B0 processor and 1GB RAM). The Lite version does not come with on-module eMMC flash found on the Compute Module 3+. It also does not contain the WiFi/Bluetooth chipset that comes with the Pi 3 B+.</p>
 
@@ -13541,7 +13671,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Compute Module 4</title>
+      <title>Compute Module 4</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_cm4/</link>
       <description><![CDATA[ 
 
@@ -13551,7 +13681,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_cm4.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>Compute Module 4</p>
+<p>By Raspberry Pi</p> <p>Compute Module 4</p>
 
 <p>The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications. Raspberry Pi Compute Module 4 incorporates a quad-core ARM Cortex-A72 processor, dual video output, and a wide selection of other interfaces. Available in 32 variants, with a range of RAM and eMMC Flash options, and with or without wireless connectivity.</p>
 
@@ -13613,7 +13743,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_pico.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>The Raspberry Pi foundation changed single-board computing when they released the Raspberry Pi computer, now they‚Äôre ready to do the same for microcontrollers with the release of the brand new <strong>Raspberry Pi Pico</strong>. This low-cost microcontroller board features a powerful new chip, the <strong>RP2040</strong>, and all the fixin‚Äôs to get started with embedded electronics projects at a stress-free price.</p>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi foundation changed single-board computing when they released the Raspberry Pi computer, now they‚Äôre ready to do the same for microcontrollers with the release of the brand new <strong>Raspberry Pi Pico</strong>. This low-cost microcontroller board features a powerful new chip, the <strong>RP2040</strong>, and all the fixin‚Äôs to get started with embedded electronics projects at a stress-free price.</p>
 
 <p>The Pico is 0.825‚Äù x 2‚Äù and can have headers soldered in for use in a breadboard or perfboard, or can be soldered directly onto a PCB with the castellated pads. There‚Äôs 20 pads on each side, with groups of general purpose input-and-output (GPIO) pins interleaved with plenty of ground pins. All of the GPIO pins are 3.3V logic, and are not 5V-safe so stick to 3V! You get a total of 25 GPIO pins (technically there are 26 but IO #15 has a special purpose and should not be used by projects), 3 of those can be analog inputs (the chip has 4 ADC but one is not broken out). There are no true analog output (DAC) pins.</p>
 
@@ -13666,7 +13796,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Zero</title>
+      <title>Zero</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_zero/</link>
       <description><![CDATA[ 
 
@@ -13676,7 +13806,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_zero.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>At first glance, the Pi Zero isn‚Äôt much.  It just looks like a slimmed down version of the Raspberry Pi we know and love.  But when we started to think of the possibilities - and what a well-chosen set of accessories could add - we realized the appeal.  And then we saw the price‚Ä¶could it be true? Yes!</p>
+<p>By Raspberry Pi</p> <p>At first glance, the Pi Zero isn‚Äôt much.  It just looks like a slimmed down version of the Raspberry Pi we know and love.  But when we started to think of the possibilities - and what a well-chosen set of accessories could add - we realized the appeal.  And then we saw the price‚Ä¶could it be true? Yes!</p>
 
 <p>This is the slimmest, most pared down Raspberry Pi to date.  It‚Äôs kind of like the little cousin to the Pi 2 - with just a micro SD card slot, a mini HDMI port, two micro USB ports (one for power, one for USB), and 512MB of RAM. It has a single-core 1 GHz processor chip, similar to the Pi A+ and B+.</p>
 
@@ -13706,7 +13836,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Zero 2 W</title>
+      <title>Zero 2 W</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_zero_2_w/</link>
       <description><![CDATA[ 
 
@@ -13716,7 +13846,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_zero_2_w.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p><strong>Raspberry Pi Zero 2 W</strong> is the latest product in Raspberry Pi‚Äôs most affordable range of single-board computers. The successor to the breakthrough Raspberry Pi Zero W, <strong>Raspberry Pi Zero 2 W</strong> is a form factor‚Äìcompatible drop-in replacement for the original board.</p>
+<p>By Raspberry Pi</p> <p><strong>Raspberry Pi Zero 2 W</strong> is the latest product in Raspberry Pi‚Äôs most affordable range of single-board computers. The successor to the breakthrough Raspberry Pi Zero W, <strong>Raspberry Pi Zero 2 W</strong> is a form factor‚Äìcompatible drop-in replacement for the original board.</p>
 
 <p>The board incorporates a quad-core 64-bit Arm Cortex-A53 CPU, clocked at 1GHz. At its heart is a Raspberry Pi RP3A0 system-in-package (SiP), integrating a Broadcom BCM2710A1 die with 512MB of LPDDR2 SDRAM. The upgraded processor provides Raspberry Pi Zero 2 W with 40% more single-threaded performance, and five times more multi-threaded performance, than the original single-core Raspberry Pi Zero. Raspberry Pi Zero 2 W offers 2.4GHz 802.11 b/g/n wireless LAN and Bluetooth 4.2, along with support for Bluetooth Low Energy (BLE), and modular compliance certification.</p>
 
@@ -13737,7 +13867,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
     </item>
 
     <item>
-      <title>Raspberry Pi Zero W</title>
+      <title>Zero W</title>
       <link>https://circuitpython.org/blinka/raspberry_pi_zerow/</link>
       <description><![CDATA[ 
 
@@ -13747,7 +13877,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology ‚
               300px"
        src="/assets/images/boards/original/raspberry_pi_zerow.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Raspberry Pi Foundation</p> <p>If you didn‚Äôt think that the Raspberry Pi Zero could possibly get any better, then boy do we have a pleasant surprise for you! The new Raspberry Pi Zero W offers all the benefits of the Pi Zero v1.3, but with one big difference ‚Äì built-in WiFi!</p>
+<p>By Raspberry Pi</p> <p>If you didn‚Äôt think that the Raspberry Pi Zero could possibly get any better, then boy do we have a pleasant surprise for you! The new Raspberry Pi Zero W offers all the benefits of the Pi Zero v1.3, but with one big difference ‚Äì built-in WiFi!</p>
 
 <p>More specifically, this giant upgrade is the addition of a BCM43143 WiFi chip BUILT-IN to your Raspberry Pi Zero ‚Äì just like the Pi 3! No more pesky WiFi adapters - this Pi is WiFi ready. There‚Äôs also Bluetooth Low Energy (BLE) on board making the Pi an excellent IoT solution (BLE support is still in the works, software-wise).</p>
 
