@@ -1,0 +1,26 @@
+#contributing-page {
+  .tabbed-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: white;
+
+    li {
+      float: left;
+      margin: 0 1em 0 0;
+
+      a {
+        display: block;
+        text-decoration: none;
+        padding: 0.5em 0.5em;
+        font-weight: bold;
+        border-bottom: 0.5em solid $gray-border;
+
+        &.active {
+          border-color: #000;
+        }
+      }
+    }
+  }
+}
