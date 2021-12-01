@@ -142,210 +142,213 @@
 </header>
 
     <div id="main-content" class="wrapper">
-      <div id="libraries-page" class="common-layout">
+      <div id="common-page" class="common-layout">
   <div class="content">
-    <h1>CircuitPython Libraries</h1>
+    <div id="libraries-page">
+  <h1>CircuitPython Libraries</h1>
+  <p>
+    The CircuitPython Library Bundle contains all current libraries available for
+    CircuitPython. They are designed for use with CircuitPython and may or may not
+    work with MicroPython. The bundle options are explained below.
+  <p>
+    CircuitPython libraries are written in Python. They provide additional functionality
+    and support external devices, beyond what is in CircuitPython itself.
+    Libraries are stored on your <b>CIRCUITPY</b> drive in a folder called <b>lib</b>.
+    For more information on using and managing libraries, see the
+    <a href="https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries">Welcome To CircuitPython Guide</a>.
+  </p>
+  <section>
+    <h2>Documentation</h2>
     <p>
-      The CircuitPython Library Bundle contains all current libraries available for
-      CircuitPython. They are designed for use with CircuitPython and may or may not
-      work with MicroPython. The bundle options are explained below.
+      The
+      <a href="https://circuitpython.readthedocs.io/projects/bundle/en/latest/drivers.html" title="">libraries documentation page</a>
+      contains a categorized list of all the CircuitPython libraries included in the following bundles,
+      with links to the documentation for every library.
+    <h2>Download and Installation Instructions</h2>
     <p>
-      CircuitPython libraries are written in Python. They provide additional functionality
-      and support external devices, beyond what is in CircuitPython itself.
-      Libraries are stored on your <b>CIRCUITPY</b> drive in a folder called <b>lib</b>.
-      For more information on using and managing libraries, see the
-      <a href="https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries">Welcome To CircuitPython Guide</a>.
+      You can download all the available libraries in a zip-file bundle for all recent major
+      versions of CircuitPython. These bundles are updated daily, whenever any included library is updated.
     </p>
-    <section>
-      <h2>Documentation</h2>
-      <p>
-        The
-        <a href="https://circuitpython.readthedocs.io/projects/bundle/en/latest/drivers.html" title="">libraries documentation page</a>
-        contains a categorized list of all the CircuitPython libraries included in the following bundles,
-        with links to the documentation for every library.
-      <h2>Download and Installation Instructions</h2>
-      <p>
-        You can download all the available libraries in a zip-file bundle for all recent major
-        versions of CircuitPython. These bundles are updated daily, whenever any included library is updated.
-      </p>
-      <p>
-        The libraries in each release are supplied as <b>.mpy</b> files, which are compiled
-        versions of Python source code.
-        <strong>Make sure to download the bundle that matches the major version
-        of your CircuitPython</strong>, because the <b>.mpy</b> files can change between versions.
-        For example, if you are running 6.3.0 you should download the 6.x bundle.
-      </p>
-      <p>
-        The precompiled <b>.mpy</b> files take up less space on your CIRCUITPY drive than the <b>.py</b> files.
-        They also load faster, and for some low-RAM boards, are required because the <b>.py</b> files
-        are too large to compile on the board itself.
-        <strong>Unless you need the source version, choose the appropiate <b>.mpy</b> library bundle!</strong>
-        If you need to compile <b>.py</b> files to <b>.mpy</b>, you can
-        <a href="https://learn.adafruit.com/welcome-to-circuitpython/frequently-asked-questions#how-can-i-create-my-own-mpy-files-3020687-11">run the <b>mpy-cross</b>
-        cross-compiler yourself</a>.
-      </p>
-      <p>
-        <b>To install</b>, download the appropriate bundle for your version of CircuitPython.
-        Unzip the file, open the resulting folder and find the <b>lib</b> folder. Open the lib
-        folder and find the library files you need to load. Create a <b>lib</b> folder on your
-        CIRCUITPY drive. Copy the individual library files you need to the <b>lib</b> folder
-        on your CIRCUITPY drive. More details are available
-        <a href="https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries">here</a>.
-      </p>
-      <p>
-        You can always find the
-        <a href="https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest">latest releases of the libraries bundle</a>
-        on GitHub.
-      </p>
-      <p>
-        An alternative way to download and update libraries on your board is to use the
-        <a href="https://learn.adafruit.com/keep-your-circuitpython-libraries-on-devices-up-to-date-with-circup">CircUp tool</a>,
-        which is under development.
-      </p>
-    </section>
-    <section>
-      <h2>Bundles</h2>
-      <div class="release-section">
-        <div id="adafruit-circuitpython-bundle-6.x-mpy">
-          <h3>Bundle for Version 6.x</h3>
-          <p>
-            This bundle is built for use with CircuitPython 6.x.x. If you are using
-            CircuitPython 6, please download this bundle.
-          </p>
-        </div>
-        <div id="adafruit-circuitpython-bundle-7.x-mpy">
-            <h3>Bundle for Version 7.x</h3>
-            <p>
-                This bundle is built for use with CircuitPython 7.x.x. If you are using
-                CircuitPython 7, please download this bundle. The .mpy format has
-                changed for CircuitPython 7; 6.x .mpy files are not compatible.
-            </p>
-        </div>
-        <div id="adafruit-circuitpython-bundle-py">
-          <h3>Python Source Bundle</h3>
-          <p>
-            This bundle is the uncompiled Python source code for every library. It is not
-            intended for general use! It is only recommended if you need to edit
-            a library file. This bundle works with all supported versions of CircuitPython.
-          </p>
-        </div>
-        <div id="adafruit-circuitpython-bundle-examples">
-          <h3>Examples Bundle</h3>
-          <p>
-            Every CircuitPython library has examples to go along with it. This bundle
-            contains every library example. This bundle will have examples that
-            require the latest version of CircuitPython, and therefore contains files
-            that may not work with all versions.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section>
-      <h2>The Community Bundle</h2>
-      <p>
-        The libraries in the bundles above are officially supported by Adafruit.
-        Additional libraries written and supported by community members are available in the
-        <a href="https://github.com/adafruit/CircuitPython_Community_Bundle/">Community Bundle</a>.
+    <p>
+      The libraries in each release are supplied as <b>.mpy</b> files, which are compiled
+      versions of Python source code.
+      <strong>Make sure to download the bundle that matches the major version
+      of your CircuitPython</strong>, because the <b>.mpy</b> files can change between versions.
+      For example, if you are running 6.3.0 you should download the 6.x bundle.
+    </p>
+    <p>
+      The precompiled <b>.mpy</b> files take up less space on your CIRCUITPY drive than the <b>.py</b> files.
+      They also load faster, and for some low-RAM boards, are required because the <b>.py</b> files
+      are too large to compile on the board itself.
+      <strong>Unless you need the source version, choose the appropiate <b>.mpy</b> library bundle!</strong>
+      If you need to compile <b>.py</b> files to <b>.mpy</b>, you can
+      <a href="https://learn.adafruit.com/welcome-to-circuitpython/frequently-asked-questions#how-can-i-create-my-own-mpy-files-3020687-11">run the <b>mpy-cross</b>
+      cross-compiler yourself</a>.
+    </p>
+    <p>
+      <b>To install</b>, download the appropriate bundle for your version of CircuitPython.
+      Unzip the file, open the resulting folder and find the <b>lib</b> folder. Open the lib
+      folder and find the library files you need to load. Create a <b>lib</b> folder on your
+      CIRCUITPY drive. Copy the individual library files you need to the <b>lib</b> folder
+      on your CIRCUITPY drive. More details are available
+      <a href="https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries">here</a>.
+    </p>
+    <p>
+      You can always find the
+      <a href="https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest">latest releases of the libraries bundle</a>
+      on GitHub.
+    </p>
+    <p>
+      An alternative way to download and update libraries on your board is to use the
+      <a href="https://learn.adafruit.com/keep-your-circuitpython-libraries-on-devices-up-to-date-with-circup">CircUp tool</a>,
+      which is under development.
+    </p>
+  </section>
+  <section>
+    <h2>Bundles</h2>
+    <div class="release-section">
+      <div id="adafruit-circuitpython-bundle-6.x-mpy">
+        <h3>Bundle for Version 6.x</h3>
+        <p>
+          This bundle is built for use with CircuitPython 6.x.x. If you are using
+          CircuitPython 6, please download this bundle.
         </p>
-        <p>If you are looking for the 6.x Community Bundle, you can find it on 
-        <a href="https://github.com/adafruit/CircuitPython_Community_Bundle/releases/">GitHub</a>.
-      </p>
-      <div class="release-section">
-        <div id="circuitpython-community-bundle-7.x-mpy">
+      </div>
+      <div id="adafruit-circuitpython-bundle-7.x-mpy">
           <h3>Bundle for Version 7.x</h3>
           <p>
-            This bundle is built for use with CircuitPython 7.x.x. If you are using
-            CircuitPython 7, please download this bundle.
+              This bundle is built for use with CircuitPython 7.x.x. If you are using
+              CircuitPython 7, please download this bundle. The .mpy format has
+              changed for CircuitPython 7; 6.x .mpy files are not compatible.
           </p>
-        </div>
-        <div id="circuitpython-community-bundle-py">
-          <h3>Python Source Bundle</h3>
-          <p>
-            This bundle is the uncompiled Python source code for every community library. It is not
-            intended for general use! It is only recommended if you need to edit
-            a library file. This bundle works with all supported versions of CircuitPython.
-          </p>
-        </div>
       </div>
-   </section>
-    <section>
-      <h2>Contributing</h2>
-      <p>
-        If you'd like to contribute to the CircuitPython project, the CircuitPython
-        libraries are a great way to begin. Everyone is welcome to contribute!
-        Regardless of your experience level, we have many resources to get you
-        started. Check out the Contributing page for detailed information!
-      </p>
-      <p>
-        Find out more about how you can
-        <a href="/contributing" title="Contributing Page">contribute to CircuitPython libraries</a>.
-      </p>
-      <h2>Library Activity for Week of  Wed, Dec 01, 2021</h2>
-      <p>
-        Thank you to all of our contributors!
-      </p>
-      <p>
-        This week there were 7 pull requests merged:
-        <ul>
-          <li>
-            Authors:
-            
-              <a href="https://github.com/dhalbert" title="Contributor Name">dhalbert</a>, 
-            
-              <a href="https://github.com/FoamyGuy" title="Contributor Name">FoamyGuy</a>, 
-            
-              <a href="https://github.com/GingerIndustries" title="Contributor Name">GingerIndustries</a>, 
-            
-              <a href="https://github.com/mperino" title="Contributor Name">mperino</a>, 
-            
-              <a href="https://github.com/rsbohn" title="Contributor Name">rsbohn</a>, 
-            
-              <a href="https://github.com/tekktrik" title="Contributor Name">tekktrik</a>
-            
-          </li>
-          <li>
-            Reviewers:
-            
-              <a href="https://github.com/caternuson" title="Contributor Name">caternuson</a>, 
-            
-              <a href="https://github.com/dhalbert" title="Contributor Name">dhalbert</a>, 
-            
-              <a href="https://github.com/FoamyGuy" title="Contributor Name">FoamyGuy</a>, 
-            
-              <a href="https://github.com/kmatch98" title="Contributor Name">kmatch98</a>, 
-            
-              <a href="https://github.com/ladyada" title="Contributor Name">ladyada</a>, 
-            
-              <a href="https://github.com/tannewt" title="Contributor Name">tannewt</a>
-            
-          </li>
-        </ul>
-      </p>
-      <div class="libraries new">
-        <h3>New Libraries</h3>
-        <ul>
-        
-        </ul>
+      <div id="adafruit-circuitpython-bundle-py">
+        <h3>Python Source Bundle</h3>
+        <p>
+          This bundle is the uncompiled Python source code for every library. It is not
+          intended for general use! It is only recommended if you need to edit
+          a library file. This bundle works with all supported versions of CircuitPython.
+        </p>
       </div>
-      <div class="libraries updated">
-        <h3>Updated Libraries</h3>
-        <ul>
-        
-          <li><a href="https://github.com/adafruit/Adafruit_CircuitPython_Display_Shapes" title="Updated Library Location">Adafruit_CircuitPython_Display_Shapes</a></li>
-        
-          <li><a href="https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Layout" title="Updated Library Location">Adafruit_CircuitPython_DisplayIO_Layout</a></li>
-        
-          <li><a href="https://github.com/adafruit/Adafruit_CircuitPython_VL6180X" title="Updated Library Location">Adafruit_CircuitPython_VL6180X</a></li>
-        
-          <li><a href="https://github.com/adafruit/CircuitPython_Community_Bundle" title="Updated Library Location">CircuitPython_Community_Bundle</a></li>
-        
-        </ul>
+      <div id="adafruit-circuitpython-bundle-examples">
+        <h3>Examples Bundle</h3>
+        <p>
+          Every CircuitPython library has examples to go along with it. This bundle
+          contains every library example. This bundle will have examples that
+          require the latest version of CircuitPython, and therefore contains files
+          that may not work with all versions.
+        </p>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+  <section>
+    <h2>The Community Bundle</h2>
+    <p>
+      The libraries in the bundles above are officially supported by Adafruit.
+      Additional libraries written and supported by community members are available in the
+      <a href="https://github.com/adafruit/CircuitPython_Community_Bundle/">Community Bundle</a>.
+      </p>
+      <p>If you are looking for the 6.x Community Bundle, you can find it on
+      <a href="https://github.com/adafruit/CircuitPython_Community_Bundle/releases/">GitHub</a>.
+    </p>
+    <div class="release-section">
+      <div id="circuitpython-community-bundle-7.x-mpy">
+        <h3>Bundle for Version 7.x</h3>
+        <p>
+          This bundle is built for use with CircuitPython 7.x.x. If you are using
+          CircuitPython 7, please download this bundle.
+        </p>
+      </div>
+      <div id="circuitpython-community-bundle-py">
+        <h3>Python Source Bundle</h3>
+        <p>
+          This bundle is the uncompiled Python source code for every community library. It is not
+          intended for general use! It is only recommended if you need to edit
+          a library file. This bundle works with all supported versions of CircuitPython.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Contributing</h2>
+    <p>
+      If you'd like to contribute to the CircuitPython project, the CircuitPython
+      libraries are a great way to begin. Everyone is welcome to contribute!
+      Regardless of your experience level, we have many resources to get you
+      started. Check out the Contributing page for detailed information!
+    </p>
+    <p>
+      Find out more about how you can
+      <a href="/contributing" title="Contributing Page">contribute to CircuitPython libraries</a>.
+    </p>
+    <h2>Library Activity for Week of  Wed, Dec 01, 2021</h2>
+    <p>
+      Thank you to all of our contributors!
+    </p>
+    <p>
+      This week there were 7 pull requests merged:
+      <ul>
+        <li>
+          Authors:
+          
+            <a href="https://github.com/dhalbert" title="Contributor Name">dhalbert</a>, 
+          
+            <a href="https://github.com/FoamyGuy" title="Contributor Name">FoamyGuy</a>, 
+          
+            <a href="https://github.com/GingerIndustries" title="Contributor Name">GingerIndustries</a>, 
+          
+            <a href="https://github.com/mperino" title="Contributor Name">mperino</a>, 
+          
+            <a href="https://github.com/rsbohn" title="Contributor Name">rsbohn</a>, 
+          
+            <a href="https://github.com/tekktrik" title="Contributor Name">tekktrik</a>
+          
+        </li>
+        <li>
+          Reviewers:
+          
+            <a href="https://github.com/caternuson" title="Contributor Name">caternuson</a>, 
+          
+            <a href="https://github.com/dhalbert" title="Contributor Name">dhalbert</a>, 
+          
+            <a href="https://github.com/FoamyGuy" title="Contributor Name">FoamyGuy</a>, 
+          
+            <a href="https://github.com/kmatch98" title="Contributor Name">kmatch98</a>, 
+          
+            <a href="https://github.com/ladyada" title="Contributor Name">ladyada</a>, 
+          
+            <a href="https://github.com/tannewt" title="Contributor Name">tannewt</a>
+          
+        </li>
+      </ul>
+    </p>
+    <div class="libraries new">
+      <h3>New Libraries</h3>
+      <ul>
+      
+      </ul>
+    </div>
+    <div class="libraries updated">
+      <h3>Updated Libraries</h3>
+      <ul>
+      
+        <li><a href="https://github.com/adafruit/Adafruit_CircuitPython_Display_Shapes" title="Updated Library Location">Adafruit_CircuitPython_Display_Shapes</a></li>
+      
+        <li><a href="https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Layout" title="Updated Library Location">Adafruit_CircuitPython_DisplayIO_Layout</a></li>
+      
+        <li><a href="https://github.com/adafruit/Adafruit_CircuitPython_VL6180X" title="Updated Library Location">Adafruit_CircuitPython_VL6180X</a></li>
+      
+        <li><a href="https://github.com/adafruit/CircuitPython_Community_Bundle" title="Updated Library Location">CircuitPython_Community_Bundle</a></li>
+      
+      </ul>
+    </div>
+  </section>
 </div>
 
 <script src="/assets/javascript/libraries.js"></script>
+
+  </div>
+</div>
 
     </div>
 
