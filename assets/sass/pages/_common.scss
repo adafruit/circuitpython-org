@@ -1,0 +1,25 @@
+#common-page {
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    border-bottom: 1px solid $gray-border;
+    padding-bottom: .3em;
+    margin-bottom: 16px;
+    margin-top: 24px;
+  }
+
+  ul {
+    margin-bottom: 16px;
+    li {
+      margin-top: .25em;
+    }
+  }
+}
+
+
