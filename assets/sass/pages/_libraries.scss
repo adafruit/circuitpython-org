@@ -1,53 +1,51 @@
 #libraries-page {
-  .content {
-    h1 {
-      text-align: center;
-    }
-
-    p {
-      margin-bottom: 16px;
-    }
-
-    h2 {
-      border-bottom: 1px solid $gray-border;
-      padding-bottom: .3em;
-      margin-bottom: 16px;
-      margin-top: 24px;
-    }
-
-    ul {
-      margin-bottom: 16px;
-      li {
-        margin-top: .25em;
-      }
-    }
+  h1 {
+    text-align: center;
   }
 
-  .release-section {
-    margin-left: 20px;
+  p {
+    margin-bottom: 16px;
   }
 
-  .tabbed-navigation {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background: white;
+  h2 {
+    border-bottom: 1px solid $gray-border;
+    padding-bottom: .3em;
+    margin-bottom: 16px;
+    margin-top: 24px;
+  }
 
+  ul {
+    margin-bottom: 16px;
     li {
-      float: left;
-      margin: 0 1em 0 0;
+      margin-top: .25em;
+    }
+  }
+}
 
-      a {
-        display: block;
-        text-decoration: none;
-        padding: 0.5em 0.5em;
-        font-weight: bold;
-        border-bottom: 0.5em solid $gray-border;
+.release-section {
+  margin-left: 20px;
+}
 
-        &.active {
-          border-color: #000;
-        }
+.tabbed-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: white;
+
+  li {
+    float: left;
+    margin: 0 1em 0 0;
+
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 0.5em 0.5em;
+      font-weight: bold;
+      border-bottom: 0.5em solid $gray-border;
+
+      &.active {
+        border-color: #000;
       }
     }
   }
