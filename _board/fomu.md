@@ -3,7 +3,7 @@ layout: download
 board_id: "fomu"
 title: "Fomu Download"
 name: "Fomu"
-manufacturer: "Sean 'xobs' Cross"
+manufacturer: Sean Cross (xobs)
 board_url: "https://tomu.im/fomu.html"
 board_image: "fomu.jpg"
 date_added: 2020-4-16
