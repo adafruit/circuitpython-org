@@ -1,14 +1,17 @@
 ---
 layout: download
 board_id: "pimoroni_interstate75"
-title: "Pimoroni Interstate 75 Download"
-name: "Pimoroni Interstate 75"
+title: "Interstate 75 Download"
+name: "Interstate 75"
 manufacturer: "Pimoroni"
 board_url: "https://pimoroni.com/i75"
-board_image: "unknown.jpg"
-date_added: 2021-8-24
+board_image: "pimoroni_interstate75.jpg"
+date_added: 2021-12-02
 family: raspberrypi
-downloads_display: false
+features:
+  - STEMMA QT/QWIIC
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 Oops! Looks like we don't know anything about this board. This means it's likely very new.
