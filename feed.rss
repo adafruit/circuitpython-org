@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 02 Dec 2021 05:08:23 -0500</lastBuildDate>
+<lastBuildDate>Thu, 02 Dec 2021 14:06:07 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7064,6 +7064,46 @@ selection menu will not work with the new version of CircuitPython.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 31 Mar 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/picoplanet/</guid>
+  </item><item>
+    <title>Interstate 75</title>
+    <link>https://circuitpython.org/board/pimoroni_interstate75/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/pimoroni_interstate75.jpg 300w,
+               /assets/images/boards/large/pimoroni_interstate75.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/pimoroni_interstate75.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Pimoroni</p> <p>Enter the (LED) matrix with Interstate 75 - a RP2040-powered driver board for HUB75-style RGB matrices, designed to plug neatly into the back of a LED panel. It provides a quick and easy way to whip up some scrolling signage or an eye-catching LED display for sensor outputs.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Powered by RP2040</li>
+  <li>Dual Arm Cortex M0+ running at up to 133Mhz</li>
+  <li>264kB of SRAM</li>
+  <li>2MB of QSPI flash supporting XiP</li>
+  <li>Compatible with 32x32, 32x64 and 64x64 LED matrices.</li>
+  <li>Sturdy screw terminals for powering the LED panels.</li>
+  <li>USB-C connector for power and programming (3A max)</li>
+  <li>Qw/ST (Qwiic/STEMMA QT) connector</li>
+  <li>Reset, BOOT and a user button (the BOOT button can also be used as a user button)</li>
+  <li>RGB LED</li>
+</ul>
+
+<h2 id="about-the-rp2040">About the RP2040</h2>
+<p>Raspberry Pi’s RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
+
+<p>One very exciting feature of RP2040 is the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/interstate-75">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 01 Dec 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_interstate75/</guid>
   </item><item>
     <title>Keybow 2040</title>
     <link>https://circuitpython.org/board/pimoroni_keybow2040/</link>
