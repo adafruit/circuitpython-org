@@ -27,6 +27,9 @@ Specifications:
   - Built-in Wi-Fi
 - USB to serial converter: CH340C
 
+
+The micro USB connector on this board is wired through a CH430C USB to serial converter chip for debugging and programming. The native USB is not available on a USB connector - instead you'll want to pick up a [Micro B USB](https://www.adafruit.com/product/1833) connector breakout, [Type C USB](https://www.adafruit.com/product/4090) connector breakout or [USB data cable](https://www.adafruit.com/product/4448) and hand-wire IO19/IO20 to D- and D+ pads.
+
 ## Purchase
 
 * [Tinytronics](https://www.tinytronics.nl/shop/en/development-boards/microcontroller-boards/with-wi-fi/ai-thinker-nodemcu-32-s2-esp-12k)
