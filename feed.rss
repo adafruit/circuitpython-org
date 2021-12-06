@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 06 Dec 2021 05:08:24 -0500</lastBuildDate>
+<lastBuildDate>Mon, 06 Dec 2021 11:19:02 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -2681,6 +2681,62 @@ There’s a Qwiic / STEMMA QT connector for adding more sensors, like PM2.5 air 
     <category>CircuitPython</category>
     <pubDate>Fri, 13 Aug 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/crumpspace_crumps2/</guid>
+  </item><item>
+    <title>Maker Nano RP2040</title>
+    <link>https://circuitpython.org/board/cytron_maker_nano_rp2040/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/cytron_maker_nano_rp2040.jpg 300w,
+               /assets/images/boards/large/cytron_maker_nano_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/cytron_maker_nano_rp2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Cytron Technologies</p> <h2 id="simplifying-projects-with-raspberry-pi-rp2040">Simplifying Projects with Raspberry Pi® RP2040</h2>
+
+<p>Looking for a small but powerful MCU for your project? Arduino Nano can’t satisfy you anymore? We have the Maker Nano RP2040 for you. Same Arduino Nano form factor, but powered by a much more powerful RP2040 MCU from Raspberry Pi. This also means that it’s compatible with most (see exception below) of the daughter boards for Arduino Nano in the market. Not to forget it’s also breadboard friendly to allow building your own circuit.</p>
+
+<p>Just like the other Maker series products, there are plentiful of LEDs on the Maker Nano RP2040 (welll, who doesn’t like LEDs?). Those LEDs are not just for a nice visual effect, they also represent the status of each pins and this makes troubleshooting your circuit a breeze. Not too excited with the boring single color blue LEDs? Worry not. We also put in two RGB LEDs (WS2812 Neopixel) to make your life more colorful. You can also program it to dance together with the melody produced by the onboard piezo buzzer. To change to another melody, press the onboard push button. Something wrong with your code and the buzzer keep playing anoying tone? Mute it with the sliding switch.</p>
+
+<p>All of these can be done with the Maker Nano RP2040 alone without additional circuitry. Wiring up your own circuit is always the most tedious part of learning electronics. It’s very prone to error and sometimes, not reversible. We know it because we’ve gone through that before.</p>
+
+<p>When you have come to a state that onboard peripherals are already not enough for you, additional sensors or modules can be added via the newly introduced Maker Ports. Utilizing the JST-SH 4-ways connector, Maker Port is compatible with Sparkfun’s Qwiic modules and Adafruit’s STEMMA QT modules. Qwiic and STEMMA QT are using I2C communications and can be daisy-chained. By using the included JST-SH to Grove conversion cables, Maker Port is compatible with Seeed Studio’s Grove modules too. Besides I2C, Maker Port also supports UART (Maker Port 0 only), Analog Input (Maker Port 1 only) and Digital Input/Output.</p>
+
+<p>The Raspberry Pi RP2040 MCU can be programmed with C/C++ (Natively or with Arduino IDE support), micropython or circuitpython. With massive libraries support and examples especially in Arduino IDE and circuitpython, you will be ready to build your application in no time, be it for learning purpose or for building a useful project.</p>
+
+<p><strong>Features:</strong></p>
+<ul>
+  <li>Arduino Nano form factor</li>
+  <li>Powered by Rapberry Pi RP2040
+    <ul>
+      <li>Dual-core Arm Cortex-M0+ processor</li>
+      <li>264KB internal RAM</li>
+      <li>2MB of Flash memory</li>
+      <li>The exact same specifications with Raspberry Pi Pico</li>
+    </ul>
+  </li>
+  <li>14x Status indicator LEDs for GPIOs</li>
+  <li>1x Piezo buzzer with mute switch</li>
+  <li>1x Push button</li>
+  <li>2x RGB LEDs (WS2812 Neopixel)</li>
+  <li>2x Maker Ports, compatible with Qwiic, STEMMA QT, Grove (via conversion cable)</li>
+  <li>Support Arduino IDE, CircuitPython and MicroPython</li>
+</ul>
+
+<h2 id="resources">Resources:</h2>
+<ul>
+  <li><a href="https://docs.google.com/drawings/d/e/2PACX-1vSGwfh_1ac_UFXT4F72D0yJHaYHjDC-lfeBMLp0dc8ry57sAYtdobIFBZqrfXE6AuDTYEY9Cicto2b8/pub?w=3373&amp;h=2867">Maker Nano RP2040 Pinout Diagram</a></li>
+  <li><a href="https://docs.google.com/document/d/15IMxlESQE43sP7brZpqlfHVTAdX1N_XenzpvfP8cT_8/edit?usp=sharing">Maker Nano RP2040 Datasheet</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.cytron.io/p-maker-nano-rp2040">Cytron</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/cytron_maker_nano_rp2040/</guid>
   </item><item>
     <title>Maker Pi RP2040</title>
     <link>https://circuitpython.org/board/cytron_maker_pi_rp2040/</link>
