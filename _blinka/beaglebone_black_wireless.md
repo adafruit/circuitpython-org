@@ -35,4 +35,4 @@ Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Blu
 
 ## Contribute
 
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).
