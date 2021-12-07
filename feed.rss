@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 07 Dec 2021 14:24:38 -0500</lastBuildDate>
+<lastBuildDate>Tue, 07 Dec 2021 17:39:10 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -124,6 +124,128 @@
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_esp32s2/</guid>
   </item><item>
+    <title>Feather ESP32-S2 with BME280 Sensor</title>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32s2_bme280/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s2_bme280.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32s2_bme280.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_feather_esp32s2_bme280.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <ul>
+  <li>
+    <p>Vibrant-colored PCBs are of interest in the maker community. For years, fab houses such as OSH Park have offered rich purple PCBs, along with Cytron, offering several RP2040 boards with its own take on purple PCBs.</p>
+
+    <p>We’ve spun up the popular (and <a href="https://www.tomshardware.com/reviews/adafruit-feather-rp2040">award-winning</a> <em>celebratory kazoo toots</em>) <a href="http://www.adafruit.com/product/4884">Adafruit Feather RP2040</a> but now featuring the most perfect shade of pink PCBs.</p>
+
+    <p>A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the Feather Treatment” and so we did! This Feather features the <strong>RP2040</strong>, and all niceties you know and love about Feather</p>
+
+    <ul>
+      <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+      <li>Light as a (large?) feather - 5 grams</li>
+      <li>RP2040 32-bit Cortex M0+ dual-core running at ~125 MHz @ 3.3V logic and power</li>
+      <li>264 KB RAM</li>
+      <li><strong>8 MB SPI FLASH</strong> chip for storing files and CircuitPython/MicroPython code storage. No EEPROM</li>
+      <li>Tons of GPIO! 21 x GPIO pins with the following capabilities:
+        <ul>
+          <li><strong>Four</strong> 12 bit ADCs (one more than Pico)</li>
+          <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+          <li>16 x PWM outputs - for servos, LEDs, etc</li>
+          <li>The 8 digital ‘non-ADC/non-peripheral’ GPIO are consecutive for maximum PIO compatibility</li>
+        </ul>
+      </li>
+      <li><strong>Built-in 200mA+ lipoly charger</strong> with charging status indicator LED</li>
+      <li><strong>Pin #13 red LED</strong> for general purpose blinking</li>
+      <li><strong>RGB NeoPixel</strong> for full-color indication.</li>
+      <li>On-board <strong>STEMMA QT connector</strong> that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+      <li><strong>Both Reset button and Bootloader select button for quick restarts</strong> (no unplugging-replugging to relaunch code)</li>
+      <li>3.3V Power/enable pin</li>
+      <li><a href="https://www.adafruit.com/product/752">Optional SWD debug port can be soldered in for debug access</a></li>
+      <li>4 mounting holes</li>
+      <li>12 MHz crystal for perfect timing.</li>
+      <li>3.3V regulator with 500mA peak current output</li>
+      <li><strong>USB Type C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+    </ul>
+
+    <p><strong>Inside the RP2040 is a ‘permanent ROM’ USB UF2 bootloader</strong>. What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique on all our native-USB boards. Just note you don’t double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!</p>
+
+    <p>The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD21). Since it is an M0 chip, it does not have a floating point unit, or DSP hardware support - so if you’re doing something with heavy floating-point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you’ll get close-to-M4 speeds!</p>
+
+    <p>For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).</p>
+
+    <p>You’ll note there’s no I2S peripheral, or SDIO, or camera, what’s up with that? Well instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system which is a unique and powerful way to create <em>custom hardware logic and data processing blocks</em> that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. <a href="https://github.com/raspberrypi/pico-examples/tree/master/pio">Same with I2S audio in or out, LED matrix displays, 8-bit or SPI-based TFTs, even VGA</a>! In MicroPython and CircuitPython you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.</p>
+
+    <p><strong>At the time of launch, there is no Arduino core support for this board. There is great <a href="https://github.com/raspberrypi/pico-sdk">C/C++ support</a>, an official <a href="https://github.com/micropython/micropython">MicroPython port</a>, and a <a href="https://circuitpython.org/downloads">CircuitPython port</a>!</strong> We of course <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think it’s the easiest way to get started</a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
+
+    <p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board there is 8 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 7 MB remaining for code, files, images, fonts, etc.</p>
+
+    <p><strong>RP2040 Chip features:</strong></p>
+
+    <ul>
+      <li>Dual ARM Cortex-M0+ @ 133MHz</li>
+      <li>264kB on-chip SRAM in six independent banks</li>
+      <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>
+      <li>DMA controller</li>
+      <li>Fully-connected AHB crossbar</li>
+      <li>Interpolator and integer divider peripherals</li>
+      <li>On-chip programmable LDO to generate core voltage</li>
+      <li>2 on-chip PLLs to generate USB and core clocks</li>
+      <li>30 GPIO pins, 4 of which can be used as analog inputs</li>
+      <li>Peripherals
+        <ul>
+          <li>2 UARTs</li>
+          <li>2 SPI controllers</li>
+          <li>2 I2C controllers</li>
+          <li>16 PWM channels</li>
+          <li>USB 1.1 controller and PHY, with host and device support</li>
+          <li>8 PIO state machines</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>Comes fully assembled and tested, with the UF2 USB bootloader. We also toss in some header, so you can solder it in and plug it into a solderless breadboard. What’s Feather-shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connector for I2C devices and a built in ambient sensor? What has your favorite Espressif WiFi microcontroller and lots of Flash and RAM memory for your next IoT project? What will make your next IoT project sensor project flyyyyy?</p>
+
+    <p>That’s right - it’s the new <strong>Adafruit ESP32-S2 Feather with BME280</strong> temperature/humidity/pressure sensor built right in! With native USB and 4 MB flash + 2 MB of PSRAM, this board is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi means its awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.</p>
+
+    <p>The ESP32-S2 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has <strong>built-in native USB</strong> as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+    <p><strong>Please note</strong> the Feather ESP32-S2 has a single-core 240 MHz chip, so it won’t be as fast as ESP32’s with dual-core. Also, there is no Bluetooth support. However, we are super excited about the ESP32-S2’s native USB which unlocks a lot of capabilities for advanced interfacing! This ESP32-S2 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM so you can buffer massive JSON files for parsing!</p>
+
+    <p><strong>Features:</strong></p>
+
+    <ul>
+      <li><strong>ESP32-S2 240MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+      <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
+      <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+      <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+      <li><strong>BME280 temperature / humidity / barometric pressures sensor</strong> connected over I2C on address 0x77 for immediate ambient weather sensing.</li>
+      <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
+      <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+      <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
+      <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+      <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+      <li><strong>Low Power friendly</strong>! In deep sleep mode we can get down to 80~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C power for the lowest quiescent current draw.</li>
+      <li><strong>Works with Arduino or CircuitPython</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5303">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_feather_esp32s2_bme280.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32s2_bme280/</guid>
+  </item><item>
     <title>Feather ESP32-S2 with TFT</title>
     <link>https://circuitpython.org/board/adafruit_feather_esp32s2_tft/</link>
     <description><![CDATA[ 
@@ -227,9 +349,14 @@
 <p>Comes fully assembled and tested, with the UF2 USB bootloader. We also toss in some header, so you can solder it in and plug it into a solderless breadboard.</p>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.adafruit.com/product/4884">Adafruit</a></li>
 </ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_feather_rp2040.md">here</a>.</p>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Thu, 21 Jan 2021 00:00:00 -0500</pubDate>
@@ -366,9 +493,14 @@
 </ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.adafruit.com/product/4888">Adafruit</a></li>
 </ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_itsybitsy_rp2040.md">here</a>.</p>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
@@ -10809,6 +10941,353 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
   </item>
 
     <item>
+      <title>Feather RP2040</title>
+      <link>https://circuitpython.org/blinka/adafruit_feather_rp2040/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_feather_rp2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the Feather Treatment” and so we did! This Feather features the <strong>RP2040</strong>, and all niceties you know and love about Feather</p>
+<ul>
+  <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - 5 grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li><strong>8 MB SPI FLASH</strong> chip for storing files and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li><strong>Tons of GPIO! 21 x GPIO pins with following capabilities:</strong>
+    <ul>
+      <li><strong>Four</strong> 12 bit ADCs (one more than Pico)</li>
+      <li>Two I2C, Two SPI and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+      <li>The 8 digital ‘non-ADC/non-peripheral’ GPIO are consecutive for maximum PIO compatibility</li>
+    </ul>
+  </li>
+  <li><strong>Built in 200mA lipoly charger</strong> with charging status indicator LED</li>
+  <li><strong>Pin #13 red LED</strong> for general purpose blinking</li>
+  <li><strong>RGB NeoPixel</strong> with power pin on GPIO so you can depower it for low power usages.</li>
+  <li>On-board <strong>STEMMA QT connector</strong> that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li><strong>Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)</strong></li>
+  <li>3.3V Power/enable pin</li>
+  <li><a href="https://www.adafruit.com/product/752">Optional SWD debug port can be soldered in for debug access</a></li>
+  <li>4 mounting holes</li>
+  <li>24 MHz crystal for perfect timing.</li>
+  <li>3.3V regulator with 500mA peak current output</li>
+  <li><strong>USB Type C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+</ul>
+
+<p><strong>Inside the RP2040 is a ‘permanent ROM’ USB UF2 bootloader.</strong> What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique on all our native-USB boards. Just note you don’t double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!</p>
+
+<p>The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD1). Since it is an M0 chip, it does not have a floating point unit, or DSP hardware support - so if you’re doing something with heavy floating-point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you’ll get close-to-M4 speeds!</p>
+
+<p>For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).</p>
+
+<p>You’ll note there’s no I2S peripheral, or SDIO, or camera, what’s up with that? Well instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system which is a unique and powerful way to create custom hardware logic and data processing blocks that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. Same with I2S audio in or out, LED matrix displays, 8-bit or SPI based TFTs, even VGA! In MicroPython and CircuitPython you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.</p>
+
+<p><strong>At the time of launch, there is no Arduino core support for this board. There is great <a href="https://github.com/raspberrypi/pico-sdk">C/C++ support</a>, an official <a href="https://github.com/raspberrypi/micropython">MicroPython port</a>, and a <a href="/downloads">CircuitPython port</a>!</strong> We of course <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think it’s the easiest way to get started</a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
+
+<p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board there is 8 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 7 MB remaining for code, files, images, fonts, etc.</p>
+
+<p><strong>RP2040 Chip features:</strong></p>
+<ul>
+  <li>Dual ARM Cortex-M0+ @ 133MHz</li>
+  <li>264kB on-chip SRAM in six independent banks</li>
+  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>
+  <li>DMA controller</li>
+  <li>Fully-connected AHB crossbar</li>
+  <li>Interpolator and integer divider peripherals</li>
+  <li>On-chip programmable LDO to generate core voltage</li>
+  <li>2 on-chip PLLs to generate USB and core clocks</li>
+  <li>30 GPIO pins, 4 of which can be used as analog inputs</li>
+  <li>Peripherals
+    <ul>
+      <li>2 UARTs</li>
+      <li>2 SPI controllers</li>
+      <li>2 I2C controllers</li>
+      <li>16 PWM channels</li>
+      <li>USB 1.1 controller and PHY, with host and device support</li>
+      <li>8 PIO state machines</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Comes fully assembled and tested, with the UF2 USB bootloader. We also toss in some header, so you can solder it in and plug it into a solderless breadboard.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4884">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_feather_rp2040.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_feather_rp2040/</guid>
+    </item>
+
+    <item>
+      <title>ItsyBitsy RP2040</title>
+      <link>https://circuitpython.org/blinka/adafruit_itsybitsy_rp2040/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_itsybitsy_rp2040.jpg 300w,
+               /assets/images/boards/large/adafruit_itsybitsy_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_itsybitsy_rp2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>A new chip means a new ItsyBitsy, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the ItsyBitsy teensy-weensy Treatment” and so we did! This Itsy’ features the RP2040, <a href="https://www.adafruit.com/category/1008">and all niceties you know and love about the ItsyBitsy family</a></p>
+
+<p>What’s smaller than a Feather but larger than a Trinket? It’s an Adafruit ItsyBitsy RP2040 featuring the Raspberry Pi RP2040! Small, powerful, with a ultra fast duel Cortex M0+ processor running at 125 MHz - this microcontroller board is perfect when you want something very compact, with lots of horsepower and a bunch of pins. This Itsy has sports car speed, but SUV roominess with 4 MB of FLASH and 264KB of SRAM.</p>
+
+<p>ItsyBitsy RP2040 is only 1.4” long by 0.7” wide, but has 6 power pins, 23 digital GPIO pins (4 of which can be analog in and 16 x PWM out). It’s the same chip as the <a href="https://www.adafruit.com/products/4884">Feather RP2040</a> and <a href="https://www.adafruit.com/products/4883">Raspberry Pi Pico</a> <em>but really really small</em>. So it’s great once you’ve finished up a prototype, and want to make the project much smaller. It even comes with 4MB of SPI Flash built in, for data logging, file storage, or CircuitPython/MicroPython code</p>
+
+<ul>
+  <li><a href="https://www.adafruit.com/category/1008">Same size and form-factor as the rest of the ItsyBitsy family</a> and nearly-identical pinout</li>
+  <li>Measures 1.4” x 0.7” x 0.2” (36mm x 18mm x 4mm) without headers soldered in</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li><strong>4 MB SPI FLASH</strong> chip for storing files and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Tons of GPIO! 23 x GPIO pins with following capabilities:
+    <ul>
+      <li><strong>Four</strong> 12 bit ADCs (one more than Pico)</li>
+      <li>Two I2C, Two SPI and two UART peripherals, we label one for the ‘main’ interface in standard ItsyBitsy locations</li>
+      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+      <li>The 10 digital ‘non-ADC/non-peripheral’ GPIO are consecutive for maximum PIO compatibility</li>
+    </ul>
+  </li>
+  <li><strong>Pin #13 red LED</strong> for general purpose blinking</li>
+  <li><strong>RGB NeoPixel</strong> with power pin on GPIO so you can depower it for low power usages.</li>
+  <li><strong>Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)</strong></li>
+  <li>3.3V regulator with 500mA peak current output</li>
+  <li>3.3V Power/enable pin</li>
+  <li>Power with either USB or external output (such as a battery) - it’ll automatically switch over</li>
+  <li>Broken-out SWD pins for debug access</li>
+  <li>24 MHz crystal for perfect timing.</li>
+  <li>Special <strong>Vhigh</strong> output pin gives you the higher voltage from VBAT or VUSB, for driving NeoPixels, servos, and other 5V-logic devices. <strong>Digital 5</strong> level-shifted output for high-voltage logic level output.</li>
+  <li><strong>USB Micro B connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+</ul>
+
+<p><strong>Inside the RP2040 is a ‘permanent ROM’ USB UF2 bootloader</strong>. What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique on all our native-USB boards. Just note you don’t double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!</p>
+
+<p>The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD21). Since it is an M0 chip, it does not have a floating point unit or DSP hardware support - so if you’re doing something with heavy floating point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you’ll get close-to-M4 speeds!</p>
+
+<p>For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).</p>
+
+<p>You’ll note there’s no I2S peripheral, or SDIO, or camera, what’s up with that? Well instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system which is a unique and powerful way to create <em>custom hardware logic and data processing blocks</em> that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. <a href="https://github.com/raspberrypi/pico-examples/tree/master/pio">Same with I2S audio in or out, LED matrix displays, 8-bit or SPI based TFTs, even VGA</a>! In MicroPython and CircuitPython you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.</p>
+
+<p><strong>At the time of launch, there is no Arduino core support for this board. There is great <a href="https://github.com/raspberrypi/pico-sdk">C/C++ support</a>, an official <a href="https://github.com/raspberrypi/micropython">MicroPython port</a>, and a <a href="https://circuitpython.org/downloads">CircuitPython port</a>!</strong> We of course <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think it’s the easiest way to get started</a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
+
+<p>This Itsy comes with loose 0.1” headers you can solder in for breadboard use!</p>
+
+<p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. On this board there is 2MB, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 1 MB remaining for code, files, images, fonts, etc.</p>
+
+<p><strong>RP2040 Chip features:</strong></p>
+
+<ul>
+  <li>Dual ARM Cortex-M0+ @ 133MHz</li>
+  <li>264kB on-chip SRAM in six independent banks</li>
+  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>
+  <li>DMA controller</li>
+  <li>Fully-connected AHB crossbar</li>
+  <li>Interpolator and integer divider peripherals</li>
+  <li>On-chip programmable LDO to generate core voltage</li>
+  <li>2 on-chip PLLs to generate USB and core clocks</li>
+  <li>30 GPIO pins, 4 of which can be used as analog inputs</li>
+  <li>Peripherals
+    <ul>
+      <li>2 UARTs</li>
+      <li>2 SPI controllers</li>
+      <li>2 I2C controllers</li>
+      <li>16 PWM channels</li>
+      <li>USB 1.1 controller and PHY, with host and device support</li>
+      <li>8 PIO state machines</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4888">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_itsybitsy_rp2040.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_itsybitsy_rp2040/</guid>
+    </item>
+
+    <item>
+      <title>MacroPad RP2040</title>
+      <link>https://circuitpython.org/blinka/adafruit_macropad_rp2040/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_macropad_rp2040.jpg 300w,
+               /assets/images/boards/large/adafruit_macropad_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_macropad_rp2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>Strap yourself in, we’re launching in T-minus 10 seconds…Destination? A new Class M planet called MACROPAD! M here, stands for Microcontroller because this 3x4 keyboard controller features the newest technology from the Raspberry Pi sector: say hello to the RP2040. It’s speedy little microcontroller with lots of GPIO pins and a 64 times more RAM than the Apollo Guidance Computer. We added 8 MB of flash memory for plenty of storage.</p>
+
+<p>Get ready to upgrade your desk’s mission control station with a CircuitPython or Arduino powered Macropad - complete with 12 buttons, OLED display, speaker and rotary encoder. Customize it for your spacecraft to help guide you through the great reaches of the unknown. (Or just have it type out your favorite emojis.)</p>
+
+<p>Each of the 12 sockets can accept a Cherry MX-compatible key switch. No soldering required, just snap it in! Use any key switch you like - but we recommend ones with slots that will allow the matching twelve NeoPixels underneath to shine through.</p>
+
+<p>This space-ship is also fitted with a 128x64 monochome OLED for a crisp heads-up display that can be used in Arduino or CircuitPython to display keymaps, stats, computer performance, etc. There’s also a rotary encoder with push-button soldered in. Twist and turn it or push to change volume or monitor brightness or scroll: whatever you like! A tiny speaker can give audio feedback or play fun bleepy tunes.</p>
+
+<p>Want to add more hardware? No worries - <a href="https://www.adafruit.com/category/1018">a STEMMA QT port on the side lets you connect any I2C add-on peripherals from the massive STEMMA QT / Qwiic family of plug in boards</a>.</p>
+
+<p><strong>Please note, the RP2040 chip does not currently have QMK support</strong> - this macropad is designed to be programmed in Arduino or CircuitPython! If QMK eventually does add RP2040 as a supported chipset (no ETA and no plans that we know of), we’ll update this page.</p>
+
+<p>TL;DR?</p>
+
+<ul>
+  <li><strong>Raspberry Pi RP2040 Chip + 8MB Flash memory</strong> - Dual core Cortex M0+ at ~130MHz with 264KB or RAM. Runs CircuitPython, Arduino or MicroPython with ease and lots of space for development code and files</li>
+  <li><strong>USB C Connector for Power/Data</strong> - of course this can act as an HID device but also can be MIDI, UART, etc.</li>
+  <li><strong>3x4 Mechanical key switch sockets</strong> - accepts any Cherry MX-compatible switches. Individually tied to GPIO pins (not matrix wired)</li>
+  <li><strong>One NeoPixel RGB LED per switch</strong>, on north side</li>
+  <li><strong>Rotary encoder</strong>, 20 detents per rotation, with push-switch on GPIO pin. Push switch is also used for entering bootloader mode when held down on power-up or reset.</li>
+  <li><strong>128x64 SH1106 Monochrome OLED display</strong> - On high speed hardware SPI port for quick updates</li>
+  <li><strong>8mm Speaker/Buzzer</strong> - With Class D amplifier and RC filter, can be used to make simple beeps and sounds effects.</li>
+  <li><strong>STEMMA QT Connector</strong> - Allows adding any I2C sensors/displays/devices with plug-and-play cables.</li>
+  <li><strong>Reset button -</strong> On the side, for quick restarting of code</li>
+  <li><strong>Four M3 mounting bosses</strong> - Make custom enclosures easily</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5128">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_macropad_rp2040.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_macropad_rp2040/</guid>
+    </item>
+
+    <item>
+      <title>Trinkey QT2040</title>
+      <link>https://circuitpython.org/blinka/adafruit_qt2040_trinkey/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_qt2040_trinkey.jpg 300w,
+               /assets/images/boards/large/adafruit_qt2040_trinkey.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_qt2040_trinkey.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>It’s half USB Key, half Adafruit QT Py, and a lotta RP2040<em>…</em>it’s <strong>Trinkey QT2040</strong>, the circuit board with an RP2040 heart and Stemma QT legs. Folks are loving the <a href="https://www.adafruit.com/product/4900">QT Py 2040</a> we made, but maybe you want something plug-and-play. So we thought, hey what if we made something like that plugs right into your computer’s USB port? And this is what we came up with!</p>
+
+<p>The PCB is designed to slip into any USB A port on a computer or laptop. There’s an RP2040 microcontroller on board with just enough circuitry to keep it happy. There’s an RGB NeoPixel, a reset and bootloader or user button and a STEMMA QT Port on the end. That’s it!</p>
+
+<p>With the body of the board being 1.0” x 0.7” and four mounting holes, you can attach just about any of our QT boards right on (some are a little larger so just check that has the holes in the same locations). <a href="https://www.adafruit.com/product/3658">Use M2.5 sized standoffs and screws</a> to do so, you could use 2 diagonal at a minimum. Then use a <a href="https://www.adafruit.com/product/4399">shorty QT cable</a> and you’ve got a custom sensor Trinkey for any sensor purpose.</p>
+
+<p>The board comes with 8 MB of QSPI flash memory so you can put <em>all</em> of our CircuitPython drivers on the disk!</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5056">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_qt2040_trinkey.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_qt2040_trinkey/</guid>
+    </item>
+
+    <item>
+      <title>QT Py RP2040</title>
+      <link>https://circuitpython.org/blinka/adafruit_qtpy_rp2040/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_qtpy_rp2040.jpg 300w,
+               /assets/images/boards/large/adafruit_qtpy_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_qtpy_rp2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>What a cutie pie! Or is it… a QT Py? This diminutive dev board comes with one of our new favorite chip, the RP2040. It’s been made famous in the new <a href="https://www.adafruit.com/pico">Raspberry Pi Pico</a> <em>and</em> our <a href="http://www.adafruit.com/product/4884">Feather RP2040</a> and <a href="http://www.adafruit.com/product/4888">ItsyBitsy RP2040</a>, but what if we wanted something really <em>smol?</em></p>
+
+<p>A new chip means a new QT Py, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the cuuutie QT Py Treatment”, and so we did! This QT Py features the RP2040, <a href="https://www.adafruit.com/category/4600">and all niceties you know and love about the original QT Py</a></p>
+
+<p>The star of the QT Py is <a href="http://adafruit.com/stemma">our favorite connector - the STEMMA QT</a>, a chainable I2C port that can be used with <a href="https://www.adafruit.com/category/620">any of our STEMMA QT sensors and accessories</a>. Having this connector means you don’t need to do any soldering to get started.</p>
+
+<p>What can you pop into the QT port? How about <a href="https://www.adafruit.com/?q=qt+oled&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">OLEDs</a>! <a href="https://www.adafruit.com/?q=qt+imu&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Inertial Measurment Units</a>! <a href="https://www.adafruit.com/?q=qt+sensor&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Sensors a-plenty</a>. All plug-and-play thanks to the innovative chainable design: <a href="https://www.sparkfun.com/qwiic">SparkFun Qwiic</a>-compatible <a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt">STEMMA QT</a> connectors for the I2C bus so you don’t even need to solder. Just plug in a compatible cable and attach it to your MCU of choice, and you’re ready to load up some software and measure some light.</p>
+
+<p>Use any <a href="http://www.sparkfun.com/qwiic">SparkFun Qwiic</a> boards! <a href="https://www.adafruit.com/product/4528">Seeed Grove I2C boards</a> will also work with this adapter cable.</p>
+
+<p><strong>At the time of launch, there is no Arduino core support for the chip on this board. There is great <a href="https://github.com/raspberrypi/pico-sdk">C/C++ support</a>, an official <a href="https://github.com/raspberrypi/micropython">MicroPython port</a>, and a <a href="https://circuitpython.org/downloads">CircuitPython port</a>!</strong> We of course <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think it’s the easiest way to get started</a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
+
+<p>Pinout and shape is <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/">Seeed Xiao</a> compatible, with castellated pads so you can solder it to a PCB with a cut out to allow the bottom components some breathing room. In addition to the QT connector, we also added an <strong>RGB NeoPixel</strong> (with a controllable power pin to allow for ultra-low-power usage), <strong>and both boot-mode and reset buttons</strong> (great for restarting your program or entering the bootloader). This QT Py comes with loose 0.1” headers you can solder in for breadboard use</p>
+
+<p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. On this board there is 4MB, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 3 MB remaining for code, files, images, fonts, etc.</p>
+
+<ul>
+  <li>Same size, form-factor, and pin-out as <a href="https://www.adafruit.com/product/4600">our SAMD-based QT Py</a></li>
+  <li><strong>USB Type C connector</strong> - <a href="https://www.adafruit.com/product/4299">If you have only Micro B cables, this adapter will come in handy</a>!</li>
+  <li><strong>RP2040 32-bit Cortex M0+</strong> dual-core running at ~125 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li><strong>8 MB SPI FLASH</strong> chip for storing files and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>
+  <li>Can be used with <strong>Arduino IDE</strong> or <strong>CircuitPython</strong></li>
+  <li><strong>Built-in RGB NeoPixel LED</strong></li>
+  <li>13 GPIO pins (11 breakout pads and two QT pads):
+    <ul>
+      <li><strong>Four</strong> 12 bit ADCs (one more than Pico)</li>
+      <li>Two I2C ports (one on the QT connector, one on the breakout pads)</li>
+      <li>SPI and UART peripherals, in standard QT Py locations,</li>
+      <li>PWM outputs on every IO pin - for servos, LEDs, etc</li>
+      <li>There are 6 GPIO in consecutive order for PIO compatibility</li>
+    </ul>
+  </li>
+  <li>3.3V regulator with <a href="https://www.diodes.com/assets/Datasheets/AP2112.pdf"><strong>600mA peak output</strong></a></li>
+  <li><strong>Both Reset button and Bootloader select buttons</strong> for quick restarts (no unplugging-replugging to relaunch code)</li>
+  <li><strong>Really really small</strong></li>
+</ul>
+
+<p><strong>Inside the RP2040 is a ‘permanent ROM’ USB UF2 bootloader</strong>. What that means is when you want to program new firmware, you can hold down the BOOT button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique on all our native-USB boards. Just note you don’t double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!</p>
+
+<p>The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD21). Since it is an M0 chip, it does not have a floating point unit or DSP hardware support - so if you’re doing something with heavy floating point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you’ll get close-to-M4 speeds!</p>
+
+<p>For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).</p>
+
+<p>You’ll note there’s no I2S peripheral, or SDIO, or camera, what’s up with that? Well, instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system which is a unique and powerful way to create <em>custom hardware logic and data processing blocks</em> that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. <a href="https://github.com/raspberrypi/pico-examples/tree/master/pio">Same with I2S audio in or out, LED matrix displays, 8-bit or SPI based TFTs, even VGA</a>! In MicroPython and CircuitPython you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4900">Adafruit</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_board/adafruit_qtpy_rp2040.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_qtpy_rp2040/</guid>
+    </item>
+
+    <item>
       <title>SmartEdge Industrial IOT Gateway</title>
       <link>https://circuitpython.org/blinka/avnet_iiot_gateway/</link>
       <description><![CDATA[ 
@@ -12183,6 +12662,140 @@ Enclosure</li>
     </item>
 
     <item>
+      <title>OSD32MP1-RED</title>
+      <link>https://circuitpython.org/blinka/octavo_osd32mp1_brk/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/octavo_osd32mp1_brk.jpg 300w,
+               /assets/images/boards/large/octavo_osd32mp1_brk.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/octavo_osd32mp1_brk.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Octavo Systems</p> <p>The OSD32MP1-BRK is a small flexible prototyping platform for the <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html">STM32MP1</a> based SiP, the <a href="https://octavosystems.com/octavo_products/osd32mp15x/">OSD32MP15x</a>. At only 3in X 1.8in (75mm X 46mm), it provides easy access to the I/O of the STM32MP1 through a set of breadboard compatible headers. The OSD32MP1-BRK allows developers to quickly build a proof of concept that more closely resembles their actual system without the need to build their own custom hardware.</p>
+
+<p>The OSD32MP1-BRK features the OSD32MP15x System in Package, a microSD slot, 32KHz crystal, a microUSB client port, and two 2×30 100 mill headers. The headers give access to 106 I/O on the STM32MP1 integrated into the OSD32MP15x SiP. It uses a 4 Layer PCB with low cost design rules and has no back side components.</p>
+
+<p>Its minimal overhead and access to a wide range of I/O make the OSD32MP1-BRK the perfect platform for any designer looking for complete flexibility as they prototype their design.</p>
+
+<ul>
+  <li>Small Form Factor
+    <ul>
+      <li>Only 3in X 1.8in (75mm X 46mm)</li>
+    </ul>
+  </li>
+  <li>Access to 106 I/O
+    <ul>
+      <li>two 2×30 100mil (2.54mm) Headers</li>
+      <li>Maximum flexibility to prototype designs</li>
+      <li>Breadboard Compatible</li>
+    </ul>
+  </li>
+  <li>OSD32MP157C-512M-BAA</li>
+  <li>STM32MP157C Dual Arm® Cortex® A7 + M4</li>
+  <li>512MB DDR3 Memory</li>
+  <li>STPMIC1A Power Management</li>
+  <li>EEPROM</li>
+  <li>Oscillator</li>
+  <li>Passives</li>
+  <li>µUSB</li>
+  <li>STLink*</li>
+  <li>UART</li>
+  <li>µSD Card</li>
+  <li>32KHz Crystal</li>
+  <li>4 Layer Design</li>
+  <li>No Back Side Components</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/octavo-systems-llc/OSD32MP1-BRK/12144788">Digikey</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/octavo_osd32mp1_brk.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/octavo_osd32mp1_brk/</guid>
+    </item>
+
+    <item>
+      <title>OSD32MP1-RED</title>
+      <link>https://circuitpython.org/blinka/octavo_osd32mp1_red/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/octavo_osd32mp1_red.jpg 300w,
+               /assets/images/boards/large/octavo_osd32mp1_red.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/octavo_osd32mp1_red.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Octavo Systems</p> <p>The OSD32MP1-RED is a full featured Reference, Evaluation and Development platform for the <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html">STM32MP1</a> based SiP, the <a href="https://octavosystems.com/octavo_products/osd32mp15x/">OSD32MP15x</a>. It provides access to a number of standard communication interfaces like WiFi and Bluetooth, 1Gb Ethernet, and CAN. It supports HDMI or DSI displays and has a connector for a camera. The OSD32MP1-RED expands easily by providing connectors that are compatible with Raspberry Pi, MikroElektronika mikroBUS™ Click, and STMicroelectronics Motor Control Header.</p>
+
+<p>The on board eMMC comes preloaded with an Opensource Linux Distribution allowing you to begin development straight out of the box.</p>
+
+<p>With its communication interfaces, peripherals, and expansion capabilities, the OSD32MP1-RED is a perfect platform for quickly developing IOT, high-end HMI, or real time control applications.</p>
+
+<ul>
+  <li>Full Featured Reference, Evaluation, Development Platform</li>
+  <li>OSD32MP157C-512M-BAA</li>
+  <li>STM32MP157C Dual Arm® Cortex® A7 + M4</li>
+  <li>512MB DDR3 Memory</li>
+  <li>STPMIC1A Power Management</li>
+  <li>EEPROM</li>
+  <li>Oscillator</li>
+  <li>Passives</li>
+  <li>Connectivity
+    <ul>
+      <li>WiFi (IEEE802.11b/g/n) / Bluetooth® v5.1 (BR/EDR/BLE)</li>
+      <li>10/100/1000 Ethernet</li>
+      <li>CAN FD</li>
+      <li>USB Host</li>
+      <li>USB-C OTG</li>
+      <li>UART</li>
+      <li>JTAG (STLink)</li>
+    </ul>
+  </li>
+  <li>Memory
+    <ul>
+      <li>µSD Card</li>
+      <li>eMMC</li>
+    </ul>
+  </li>
+  <li>Display
+    <ul>
+      <li>HDMI</li>
+      <li>DSI</li>
+    </ul>
+  </li>
+  <li>Camera</li>
+  <li>Expansion
+    <ul>
+      <li>Raspberry Pi Compatible Header</li>
+      <li>MikroElektronika Click Header</li>
+      <li>Motor Control Header</li>
+    </ul>
+  </li>
+  <li>4 Layer Design</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/octavo-systems-llc/OSD32MP1-RED/13575366">Digikey</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/octavo_osd32mp1_red.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/octavo_osd32mp1_red/</guid>
+    </item>
+
+    <item>
       <title>Odroid C2</title>
       <link>https://circuitpython.org/blinka/odroid_c2/</link>
       <description><![CDATA[ 
@@ -13208,6 +13821,37 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
     </item>
 
     <item>
+      <title>Piunora</title>
+      <link>https://circuitpython.org/blinka/piunora/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/piunora.jpg 300w,
+               /assets/images/boards/large/piunora.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/piunora.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Diodes Delight</p> <p>Piunora is a compact, easy-to-use development board for electronics prototyping with Linux. It has a familiar form factor, legible pin labels, and a design that’s well suited to space-constrained applications.</p>
+
+<p>As a carrier board for the <a href="https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000">Raspberry Pi Compute Module 4</a> (CM4), Piunora is essentially a tiny version of the Raspberry Pi 4 Single Board Computer (SBC) with added flexibility to accommodate custom form factors. CM4-based devices like Piunora are fully compatible with software that was written for the Raspberry Pi 4, as long as that software accounts for the hardware peripherals in use. There are also versions of the CM4 that include eMMC memory, which is more reliable than a traditional SD card.</p>
+
+<p>It may be small, but Piunora is packed with powerful peripherals that will come in handy for rapid prototyping and embedded machine-learning applications. Examples include an HDMI port, camera-input connectors, and PCI-e support, which is not present on a standard Raspberry Pi 4. Finally, the M.2 B-Key port on the rear of the board is not only useful for SSD storage, it can also host a diverse range of PCI-e expansion boards.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.crowdsupply.com/diodes-delight/piunora">Crowd Supply</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/piunora.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/piunora/</guid>
+    </item>
+
+    <item>
       <title>PocketBeagle</title>
       <link>https://circuitpython.org/blinka/pocketbeagle/</link>
       <description><![CDATA[ 
@@ -13875,15 +14519,15 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
     </item>
 
     <item>
-      <title>Compute Module 4</title>
-      <link>https://circuitpython.org/blinka/raspberry_pi_cm4/</link>
+      <title>Compute Module 4 IO Board</title>
+      <link>https://circuitpython.org/blinka/raspberry_pi_cm4io/</link>
       <description><![CDATA[ 
 
-  <img srcset="/assets/images/boards/small/raspberry_pi_cm4.jpg 300w,
-               /assets/images/boards/large/raspberry_pi_cm4.jpg 700w"
+  <img srcset="/assets/images/boards/small/raspberrypi_cm4io.jpg 300w,
+               /assets/images/boards/large/raspberrypi_cm4io.jpg 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="/assets/images/boards/original/raspberry_pi_cm4.jpg" alt="Image of Board" loading="lazy">
+       src="/assets/images/boards/original/raspberrypi_cm4io.jpg" alt="Image of Board" loading="lazy">
 
 <p>By Raspberry Pi</p> <p>Compute Module 4</p>
 
@@ -13929,11 +14573,11 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
 
 <h2 id="contribute">Contribute</h2>
 
-<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/raspberry_pi_cm4.md">here</a>.</p>
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/raspberry_pi_cm4io.md">here</a>.</p>
  ]]></description>
       <category>Blinka</category>
       <pubDate>Wed, 09 Dec 2020 19:00:00 -0500</pubDate>
-      <guid>https://circuitpython.org/blinka/raspberry_pi_cm4/</guid>
+      <guid>https://circuitpython.org/blinka/raspberry_pi_cm4io/</guid>
     </item>
 
     <item>
