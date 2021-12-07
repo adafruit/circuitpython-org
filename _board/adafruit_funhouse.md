@@ -7,11 +7,14 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4985"
 board_image: "adafruit_funhouse.jpg"
 date_added: 2021-4-6
+family: esp32s2
+bootloader_id: adafruit_funhouse_esp32s2
 features:
   - Wi-Fi
   - STEMMA QT/QWIIC
   - Speaker
   - Display
+  - USB-C
 ---
 
 Home is where the heart is...it's also where all we keep all our electronic bits. So why not wire it up with sensors and actuators to turn our house into an electronic wonderland. Whether it's tracking the environmental temperature and humidity in your laundry room, or notifying you when someone is detected in the kitchen, to sensing when a window was left open, or logging when your cat leaves through the pet door, this board is designed to make it way easy to make WiFi-connected home automation projects.

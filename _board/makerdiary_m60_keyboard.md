@@ -7,8 +7,10 @@ manufacturer: "MakerDiary"
 board_url: "https://makerdiary.com/pages/m60-mechanical-keyboard"
 board_image: "makerdiary_m60_keyboard.jpg"
 date_added: 2020-07-27
+family: nrf52840
 features:
   - Bluetooth/BTLE
+  - USB-C
   
 ---
 

@@ -8,6 +8,7 @@ board_url: "http://ssci.to/6250"
 board_image: "bless_dev_board_multi_sensor.jpg"
 downloads_display: true
 date_added: 2020-07-27
+family: nrf52840
 features:
 ---
 

@@ -7,11 +7,14 @@ manufacturer: "Hangzhou LeBan"
 board_url: ""
 board_image: "hiibot_iots2.jpg"
 date_added: 2020-11-20
+family: esp32s2
 features:
   - Display
   - Wi-Fi
   - Battery Charging
   - STEMMA QT/QWIIC
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 Introducing the microS2 - An ESP32-S2 based development board with smaller size (25.4*45.9mm). Features:

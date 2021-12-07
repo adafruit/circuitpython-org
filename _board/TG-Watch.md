@@ -7,10 +7,12 @@ manufacturer: "TG-Techie"
 board_url: "https://github.com/TG-Techie/TG-Watch02-PCB"
 board_image: "TG-Watch.jpg"
 date_added: 2020-3-31
+family: atmel-samd
 features:
   - Display
   - Bluetooth/BTLE
   - Battery Charging
+  - USB-C
 ---
 
 Why buy an apple watch when you can spend your weekends building a microcontroller based "smart" watch instead? the TG-Watch is an open source, not-dumb watch meant for makers who want to hack on their watch, people who want to bring python with them everywhere, or as a great starting point to learn about programming.

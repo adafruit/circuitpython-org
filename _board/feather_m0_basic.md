@@ -7,9 +7,12 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "feather_m0_basic.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: feather_m0
 features:
   - Feather-Compatible
   - Battery Charging
+  - Breadboard-Friendly
 ---
 Feather is thin, light, and lets you fly! Adafruit designed Feather to be a new open standard for portable microcontroller cores.
 

@@ -7,9 +7,12 @@ manufacturer: "StackRduino"
 board_url: "https://github.com/StackRduino/StackRduino_M0"
 board_image: "stackrduino_m0_pro.jpg"
 date_added: 2021-4-6
+family: atmel-samd
 features:
   - Battery Charging
   - STEMMA QT/QWIIC
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 StackRduino M0+ PRO is an open source Development board based on the ATSAMD21G18 for Arduino & Circuit-Python packed with features & comes with many stackable shields

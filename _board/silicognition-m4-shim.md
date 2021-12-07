@@ -7,8 +7,11 @@ manufacturer: "Silicognition LLC"
 board_url: "https://github.com/xorbit/M4-Shim"
 board_image: "silicognition-m4-shim.jpg"
 date_added: 2021-2-19
+family: atmel-samd
+bootloader_id: silicognition-m4-shim
 features:
   - Feather-Compatible
+  - Breadboard-Friendly
 ---
 
 This board is a electrically a clone of the [Adafruit Feather M4 Express](https://www.adafruit.com/product/3857), but physically optimized to fit on top of the [PoE-FeatherWing](https://www.crowdsupply.com/silicognition/poe-featherwing), filling the empty space around the RJ45 and flyback transformer and allowing the creation of extremely compact Power over Ethernet systems.

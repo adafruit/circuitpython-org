@@ -7,6 +7,7 @@ manufacturer: "ST"
 board_url: "https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/32f746gdiscovery.html"
 board_image: "stm32f746g_discovery.jpg"
 date_added: 2020-04-27
+family: stm
 features:
   - Display
 ---

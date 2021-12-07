@@ -1,12 +1,10 @@
 ---
-layout: home
+layout: common
 title: Awesome
 permalink: /awesome
 ---
 
-<div id="awesome-page" class="common-layout">
-  <div class="content">
-    {% capture awesome_include %}{% include_relative awesome-circuitpython/README.md %}{% endcapture %}
-    {{ awesome_include | markdownify }}
-  <div>
+<div id="awesome-page">
+  {% capture awesome_include %}{% include_relative awesome-circuitpython/README.md %}{% endcapture %}
+  {{ awesome_include | markdownify }}
 </div>

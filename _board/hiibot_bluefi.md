@@ -7,6 +7,8 @@ manufacturer: "Hangzhou LeBan"
 board_url: ""
 board_image: "hiibot_bluefi.jpg"
 date_added: 2020-5-19
+family: nrf52840
+bootloader_id: hiibot_bluefi
 features:
   - Speaker
   - Solder-Free Alligator Clip

@@ -7,6 +7,8 @@ manufacturer: "Robotics Masters"
 board_url: "https://www.crowdsupply.com/robotics-masters/robo-hat-mm1"
 board_image: "robohatmm1.jpg"
 date_added: 2019-7-27
+family: atmel-samd
+bootloader_id: robohatmm1_m4
 features:
   - Robotics
 ---

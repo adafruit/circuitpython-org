@@ -7,9 +7,12 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/3403"
 board_image: "feather_m0_express.jpg"
 date_added: 2019-3-8
+family: atmel-samd
+bootloader_id: feather_m0_express
 features:
   - Feather-Compatible
   - Battery Charging
+  - Breadboard-Friendly
 ---
 
 The Adafruit Feather M0 Express was one of the first development boards designed for CircuitPython by Adafruit. Unlike the original Feather M0 Basic, it added a NeoPixel status LED and external 2MB SPI Flash for storing CircuitPython code.

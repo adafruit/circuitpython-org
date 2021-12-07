@@ -7,6 +7,8 @@ manufacturer: "ATMegaZero"
 board_url: ""
 board_image: "atmegazero_esp32s2.jpg"
 date_added: 2021-4-19
+family: esp32s2
+bootloader_id: atmegazero_esp32s2
 features:
   - Wi-Fi
 ---

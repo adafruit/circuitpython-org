@@ -7,9 +7,11 @@ manufacturer: "Arduino"
 board_url: ""
 board_image: "arduino_nano_rp2040_connect.jpg"
 date_added: 2021-5-24
+family: raspberrypi
 features:
-    Wi-Fi
-    Bluetooth/BTLE
+  - Wi-Fi
+  - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
 Meet the only connected RP2040 board. It fits the Arduino Nano form factor, making it a small board with BIG features.

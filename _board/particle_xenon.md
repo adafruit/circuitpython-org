@@ -7,10 +7,13 @@ manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/xenon-datasheet/"
 board_image: "particle_xenon.jpg"
 date_added: 2019-3-9
+family: nrf52840
+bootloader_id: particle_xenon
 features:
   - Feather-Compatible
   - Battery Charging
   - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

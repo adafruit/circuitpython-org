@@ -7,10 +7,13 @@ manufacturer: "MakerDiary"
 board_url: "https://makerdiary.com/collections/frontpage/products/nrf52840-m2-developer-kit"
 board_image: "makerdiary_nrf52840_m2_devkit.jpg"
 date_added: 2020-07-27
+family: nrf52840
 features:
   - Bluetooth/BTLE
   - Display
   - Battery Charging
+  - USB-C
+  - Arduino Shield Compatible
 ---
 
 nRF52840 M.2 Developer Kit is a versatile IoT prototyping platform, including the nRF52840 M.2 Module and M.2 Dock. You can use the developer kit to prototype your IoT products and then scale to production faster using the nRF52840 M.2 Module combined with your custom PCB hardware.

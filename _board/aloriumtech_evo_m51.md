@@ -7,13 +7,14 @@ manufacturer: "Alorium Technology, LLC"
 board_url: "https://www.aloriumtech.com/evom51"
 board_image: "aloriumtech_evo_m51.jpg"
 date_added: 2020-5-21
+family: atmel-samd
 downloads_display: true
 blinka: false
 features:
   - Feather-Compatible
   - Battery Charging
   - STEMMA QT/QWIIC
-
+  - Breadboard-Friendly
 ---
 
 The Evo M51 is an FPGA-enhanced Feather compatible compute module from Alorium Technology that features a 32-bit SAMD51 microcontroller along with an Intel MAX 10 FPGA.  

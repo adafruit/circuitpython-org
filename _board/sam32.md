@@ -7,7 +7,13 @@ manufacturer: "Max Holliday"
 board_url: "https://github.com/maholli/SAM32"
 board_image: "sam32.jpg"
 date_added: 2019-4-5
+family: atmel-samd
+bootloader_id: sam32
 features:
+  - Feather-Compatible
+  - Battery Charging
+  - Wi-Fi
+  - Breadboard-Friendly
 ---
  
 An open source "swiss army knife" for hardware and IoT applications. This board is designed for quickly prototyping a wide range of makerspace, university, and science-related projects. 

@@ -7,10 +7,13 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4382"
 board_image: "feather_stm32f405_express.jpg"
 date_added: 2019-9-26
+family: stm
 features:
   - Feather-Compatible
   - Battery Charging
   - STEMMA QT/QWIIC
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 ST takes flight in this upcoming Feather board. The new STM32F405 Feather (video) that we designed runs CircuitPython at a blistering 168MHz – our fastest CircuitPython board ever! We put a STEMMA QT / Qwiic port on the end, so you can really easily plug and play I2C sensors.

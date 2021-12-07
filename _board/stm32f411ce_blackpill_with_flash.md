@@ -7,6 +7,11 @@ manufacturer: "WeAct Studio"
 board_url: "https://www.aliexpress.com/item/1005001456186625.html"
 board_image: "stm32f411ce_blackpill.jpg"
 date_added: 2021-4-6
+family: stm
+
+features:
+  - USB-C
+  - Breadboard-Friendly
 ---
 In the F401 series, the chip is the cheapest, even cheaper than some F1, and crushed F1 on the main frequency, and has a floating-point arithmetic module, the IO port contains all the basic functions. Therefore, it is possible to provide a learning platform with a very high cost performance for beginners. In practical applications, it is not because the computing power is insufficient, and the IO port is incomplete and hinders development.
 

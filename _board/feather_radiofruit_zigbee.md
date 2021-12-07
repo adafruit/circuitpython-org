@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "unknown.jpg"
 date_added: 2019-4-5
+family: atmel-samd
+bootloader_id: radiofruit_m0
 downloads_display: false
 features:
 ---

@@ -6,6 +6,8 @@ name: "DynaLoRa-USB"
 manufacturer: "BH Dynamics"
 board_url: "https://github.com/BHDynamics/rfm_radio_dongle"
 board_image: "dynalora_usb.jpg"
+date_added:
+family: atmel-samd
 features:
   - LoRa/Radio
 downloads_display: true
@@ -38,7 +40,7 @@ This board is open source hardware. You can check the docs and contribute [here]
 ## Purchase
 
 * [Tindie](https://www.tindie.com/products/bhdynamics/dynalora-usb/)
- 
+
 ## Contribute
- 
+
 Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

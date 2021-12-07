@@ -7,6 +7,10 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "trinket_m0.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: trinket_m0
+features:
+  - Breadboard-Friendly
 ---
 
 The Adafruit Trinket M0 may be small, but do not be fooled by its size! It's a tiny microcontroller board, built around the Atmel ATSAMD21, a little chip with _a lot_ of power. Adafruit designed a microcontroller board that was small enough to fit into any project, and low cost enough to use without hesitation. Perfect for when you don't want to give up your expensive dev-board and you aren't willing to take apart the project you worked so hard to design. It's one of the lowest-cost CircuitPython programmable boards!

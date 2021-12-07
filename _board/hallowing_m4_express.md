@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "hallowing_m4_express.jpg"
 date_added: 2019-8-30
+family: atmel-samd
+bootloader_id: hallowing_m4
 features:
   - Display
   - Speaker

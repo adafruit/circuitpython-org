@@ -7,11 +7,14 @@ manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/argon-datasheet/"
 board_image: "particle_argon.jpg"
 date_added: 2019-3-9
+family: nrf52840
+bootloader_id: particle_argon
 features:
   - Feather-Compatible
   - Battery Charging
   - Wi-Fi
   - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

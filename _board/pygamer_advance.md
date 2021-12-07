@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "pygamer_advance.jpg"
 date_added: 2019-7-1
+family: atmel-samd
+bootloader_id: arcade_pygamer
 features:
   - Display
   - Speaker

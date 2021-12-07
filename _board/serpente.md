@@ -7,9 +7,14 @@ manufacturer: "arturo182"
 board_url: "https://serpente.solder.party/"
 board_image: "serpente.jpg"
 date_added: 2019-9-17
+family: atmel-samd
+bootloader_id: serpente
 downloads_display: true
 blinka: false
 download_instructions: ""
+
+features:
+  - USB-C
 ---
 
 There are two Serpente boards, they are both virtually the same, except for the USB connector. The standard Serpente board contains a USB Type-C connector, and the Serpente Plug uses the board itself as a Type-A USB plug.

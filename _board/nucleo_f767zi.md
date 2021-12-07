@@ -7,6 +7,7 @@ manufacturer: "ST"
 board_url: "https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-f767zi.html"
 board_image: "nucleo_f767zi.jpg"
 date_added: 2020-04-06
+family: stm
 features:
 ---
 

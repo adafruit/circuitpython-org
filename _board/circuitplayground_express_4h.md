@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com"
 board_image: "circuitplayground_express_4h.jpg"
 date_added: 2019-4-13
+family: atmel-samd
+bootloader_id: circuitplay_m0
 features:
   - Speaker
   - Solder-Free Alligator Clip

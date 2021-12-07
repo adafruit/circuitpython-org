@@ -7,6 +7,10 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "grandcentral_m4_express.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: grandcentral_m4
+features:
+  - Arduino Shield Compatible
 ---
 
 The **Adafruit Grand Central** features the **Microchip ATSAMD51**. This dev board is so big, it's not named after a Metro train, it's a whole freakin' _station_!

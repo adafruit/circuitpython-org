@@ -1,20 +1,28 @@
 ---
 layout: download
 board_id: "pycubed"
-title: "PyCubed Download"
-name: "PyCubed"
-manufacturer: "Robot Exploration Lab"
-board_url: "https://rexlab.stanford.edu/projects/pycubed.html"
+title: "PyCubedv04 Download"
+name: "PyCubedv04"
+manufacturer: "PyCubed.org"
+board_url: "https://pycubed.org/"
 board_image: "pycubed.jpg"
 date_added: 2020-2-27
+family: atmel-samd
+bootloader_id: pycubed
 features:
 ---
 
-The hardware and software pitfalls associated with satellite development greatly contribute to the nearly 60% failure rates of initial CubeSat missions. As the role of small satellites in commercial and scientific endeavors evolves beyond an “engineering exercise,” basic aspects of the spacecraft design must be matured and made widely available in order to continue advancing this valuable technology for Space exploration.
+### ⭐ Double-check the your PyCubed board version before updating firmware.
 
-PyCubed: an open-source, radiation-tested CubeSat framework that cost-effectively integrates ADCS, TT&C, C&DH, and EPS into a single PC104-compatible module programmable entirely in Python. PyRCubed addresses many hardware-related failure modes of CubeSats through component and system-level radiation testing, in-depth design and qualification documentation, and on-orbit flight performance from an ongoing LEO mission (KickSat-2). The challenge of mission-ready software development is also mitigated through low-level implementation of the Python programming language via CircuitPython.
+PyCubed is an open-source, radiation-tested small satellite framework programmable entirely in CircuitPython. Capable of all standard operating functions a small satellite might need, the PyCubed mainboard provides University and hobbyist teams an entirely open-source and sate-of-the-art hardware and software avionics solution for their satellite missions without having to spend tens of thousands of dollars for antiquated commercial products.
 
-## Learn More
+Yet PyCubed's greatest value is its ease of programming & immense documentation. With nearly 100 detailed write-ups and tutorials, PyCubed's online resources are available to everyone and even include a step-by-step guide that walks you from unboxing and LED blinking all the way through full-featured mission software examples.
+
+## Tutorials and Resources
+* [About](https://pycubed.org)
+* [Quick Start](https://pycubed.org/quickstart)
+* [All PyCubed Resources](https://pycubed.org/resources)
+* [Forums](https://pycubed.org/forums)
 * [Github](https://github.com/PyCubed)
 
 ## Contribute

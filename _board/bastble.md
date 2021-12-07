@@ -7,11 +7,14 @@ manufacturer: "Electronic Cats"
 board_url: "https://electroniccats.com/store/bast-ble/"
 board_image: "bastble.jpg"
 date_added: 2020-11-05
+family: nrf52840
 
 features:
   - Feather-Compatible
   - Bluetooth/BTLE
   - Battery Charging
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 The Bast BLE is the new Feather family member with Bluetooth Low Energy and native USB-C support featuring the nRF52840!  

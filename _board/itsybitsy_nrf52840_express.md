@@ -7,8 +7,11 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4481"
 board_image: "itsybitsy_nrf52840_express.jpg"
 date_added: 2019-11-4
+family: nrf52840
+bootloader_id: feather_nrf52840_express
 features:
   - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
 What's smaller than a Feather but larger than a Trinket? It's an **Adafruit ItsyBitsy nRF52840 Express** featuring the **Nordic nRF52840 Bluetooth LE** processor! Teensy & powerful, with an fast nRF52840 Cortex M4 processor running at 64 MHz and 1 MB of FLASH - this microcontroller board is perfect when you want something very compact, with a heap-load of memory and Bluetooth LE support This Itsy is your best option for tiny wireless connectivity - it can act as both a BLE central and peripheral, with support in both Arduino and CircuitPython

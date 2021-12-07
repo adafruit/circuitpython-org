@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "circuitplayground_express_displayio.jpg"
 date_added: 2019-10-17
+family: atmel-samd
+bootloader_id: circuitplay_m0
 features:
   - Speaker
   - Display

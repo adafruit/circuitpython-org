@@ -7,8 +7,10 @@ manufacturer: "Oak Development Technologies"
 board_url: "https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/"
 board_image: "cp_sapling_m0.jpg"
 date_added: 2021-4-6
+family: atmel-samd
 features:
   - STEMMA QT/QWIIC
+  - Breadboard-Friendly
 ---
 
 Finally, a tree that runs CircuitPython? YEP! Now you can get working in CircuitPython fast with our new CircuitPython compatible development board featuring the popular Microchip AT SAM D21 microcontroller.

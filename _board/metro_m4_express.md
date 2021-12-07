@@ -7,6 +7,10 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "metro_m4_express.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: metro_m4
+features:
+  - Arduino Shield Compatible
 ---
 
 The most powerful Metro at this time, the **Adafruit Metro M4** featuring the **Microchip ATSAMD51**. This Metro is like a bullet train, with it's 120MHz Cortex M4 with floating point support. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.

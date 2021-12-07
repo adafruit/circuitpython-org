@@ -7,8 +7,9 @@ manufacturer: "PJRC"
 board_url: "https://www.adafruit.com/product/4622"
 board_image: "teensy41.jpg"
 date_added: 2020-05-11
+family: mimxrt10xx
 features:
-
+  - Breadboard-Friendly
 ---
 
 The [Teensy](http://www.pjrc.com/teensy/index.html) 4.1, like the [4.0](http://www.adafruit.com/product/4323), also features an ARM Cortex-M7 processor at 600 MHz, with an NXP iMXRT1062 chip, the fastest microcontroller available today - [ten times faster than the Teensy 3.2](https://github.com/PaulStoffregen/CoreMark)! The NXP iMXRT1062 is a 'cross-over' processor, which has the functionality of a microcontroller, at the speeds of a microcomputer. It's perfect for when you need tons of flash, RAM and, to crunch lots of data, or when you need two full-speed USB ports. 
