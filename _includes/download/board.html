@@ -1,4 +1,8 @@
-{% assign board = site.data.files | where: "id", page.board_id %}
+{% assign board_id = page.board_id %}
+{% if page.board_alias != nil %}
+    {% assign board_id = page.board_alias %}
+{% endif %}
+{% assign board = site.data.files | where: "id", board_id %}
 {% if board[0] %}
 {% assign stable = board[0].versions | where: "stable", true | sort: "version" %}
 {% assign unstable = board[0].versions | where: "stable", false | sort: "version" %}
