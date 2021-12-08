@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 08 Dec 2021 05:04:04 -0500</lastBuildDate>
+<lastBuildDate>Wed, 08 Dec 2021 12:09:48 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7644,7 +7644,7 @@ selection menu will not work with the new version of CircuitPython.</p>
     <pubDate>Tue, 10 Aug 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/pimoroni_plasma2040/</guid>
   </item><item>
-    <title>Tiny 2040</title>
+    <title>Tiny 2040 (8MB)</title>
     <link>https://circuitpython.org/board/pimoroni_tiny2040/</link>
     <description><![CDATA[ 
 
@@ -7683,6 +7683,46 @@ selection menu will not work with the new version of CircuitPython.</p>
     <category>CircuitPython</category>
     <pubDate>Wed, 24 Feb 2021 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/pimoroni_tiny2040/</guid>
+  </item><item>
+    <title>Tiny 2040 (2MB)</title>
+    <link>https://circuitpython.org/board/pimoroni_tiny2040_2mb/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/pimoroni_tiny2040_2mb.jpg 300w,
+               /assets/images/boards/large/pimoroni_tiny2040_2mb.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/pimoroni_tiny2040_2mb.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Pimoroni</p> <p>A postage stamp sized RP2040 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into devices. Tiny 2040 comes with 2MB of QSPI (XiP) flash on board so it can handle projects small and large with ease.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Powered by RP2040</li>
+  <li>ARM Cortex M0+ running at up to 133Mhz</li>
+  <li>264kB of SRAM</li>
+  <li>USB-C connector for power, programming, and data transfer</li>
+  <li>2MB of QSPI flash supporting XiP</li>
+  <li>User controllable RGB LED</li>
+  <li>Twelve IO pins (including four 12-bit ADC channels)</li>
+  <li>Switch for basic input (doubles up as DFU select on boot)</li>
+  <li>On-board 3V3 regulator (max regulator current output 300mA)</li>
+  <li>Input voltage range 3V - 5.5V</li>
+</ul>
+
+<h2 id="about-the-rp2040">About the RP2040</h2>
+<p>The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
+
+<p>One very exciting feature of the RP2040 microcontroller are the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/tiny-2040">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 01 Dec 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_tiny2040_2mb/</guid>
   </item><item>
     <title>pIRkey</title>
     <link>https://circuitpython.org/board/pirkey_m0/</link>
