@@ -2,9 +2,9 @@
 
 ## Documentation for Hero Images on the circuitpython.org homepage
 
-The hero, or main, image is the picture seen when first arriving on the circuitpython.org website. As this is 
-a major part of the look and feel of the site, care should be taken to ensure the image used fits established 
-specifications and aesthetics. 
+The hero, or main, image is the picture seen when first arriving on the circuitpython.org website. As this is
+a major part of the look and feel of the site, care should be taken to ensure the image used fits established
+specifications and aesthetics.
 
 ### Hero Image Specifications
 
@@ -38,10 +38,10 @@ The typical contents (truncated after a number of lines) is similar to:
 
 ### Adding New Potential Hero Images to the Repository
 
-If you wish to add a new image not previously loaded on circuitpython.org, use the web browser to go to 
-[https://github.com/adafruit/circuitpython-org/tree/master/assets/images/heroes](https://github.com/adafruit/circuitpython-org/tree/master/assets/images/heroes).
+If you wish to add a new image not previously loaded on circuitpython.org, use the web browser to go to
+[https://github.com/adafruit/circuitpython-org/tree/main/assets/images/heroes](https://github.com/adafruit/circuitpython-org/tree/main/assets/images/heroes).
 
-Using your operating system file explorer/finder, drag a properly formatted image file onto the center of the GitHub screen. 
+Using your operating system file explorer/finder, drag a properly formatted image file onto the center of the GitHub screen.
 GitHub should grab the file and format a pull request. You can continue to drag additional hero images to the screen if you wish.
 
 To add the files:
@@ -53,19 +53,19 @@ This will place you in a new screen where you can describe the changes you have 
 
 When ready, click the green "Create pull request" button.
 
-The reviewers for circuitpython.org website content will review your change and accept it if all is ok. You can see the names of the 
+The reviewers for circuitpython.org website content will review your change and accept it if all is ok. You can see the names of the
 reviewers on the right of the screen.
 
 ### To Change the Hero Image
 
-First, ensure that a properly formatted hero image is in the /assets/images/heroes directory. 
+First, ensure that a properly formatted hero image is in the /assets/images/heroes directory.
 
 Edit **_config.yml**. This is best done with the text edit tool built into GitHub. To do this:
 
-- Go to [https://github.com/adafruit/circuitpython-org/blob/master/_config.yml](https://github.com/adafruit/circuitpython-org/blob/master/_config.yml) 
+- Go to [https://github.com/adafruit/circuitpython-org/blob/main/_config.yml](https://github.com/adafruit/circuitpython-org/blob/main/_config.yml)
 and click on the pencil icon on the right side.
 - Go down to find the value "hero_image:"
-- Replace the filename. For example, replace the text CircuitPython_Hero.jpg with the new name of a file placed in /assets/images/heroes, 
+- Replace the filename. For example, replace the text CircuitPython_Hero.jpg with the new name of a file placed in /assets/images/heroes,
 for example Gamer_Hero.png.
 - Scroll to the bottom of the page and put a description of the edit in the box marked "Update _config.yml"
 - Keep the value "Create a new branch and start a pull request" checked.
@@ -75,7 +75,7 @@ This will place you in a new screen where you can describe the changes you have 
 
 When ready, click the green "Create pull request" button.
 
-The reviewers for circuitpython.org website content will review your change and accept it if all is ok. You can see the names of the 
+The reviewers for circuitpython.org website content will review your change and accept it if all is ok. You can see the names of the
 reviewers on the right of the screen.
 
 Revision 2020-02-05 Anne Barela
