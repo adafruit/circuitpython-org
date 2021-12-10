@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "raspberry_pi_cm4"
-title: "Raspberry Pi Compute Module 4 Download"
-name: "Compute Module 4"
+board_id: "raspberry_pi_cm4io"
+title: "Raspberry Pi Compute Module 4 IO Board Download"
+name: "Compute Module 4 IO Board"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/compute-module-4/"
-board_image: "raspberry_pi_cm4.jpg"
+board_url: "https://www.raspberrypi.com/products/compute-module-4-io-board/"
+board_image: "raspberrypi_cm4io.jpg"
 download_instructions: 
 downloads_display: true
 blinka: true

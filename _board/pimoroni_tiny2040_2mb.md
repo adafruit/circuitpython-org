@@ -1,12 +1,12 @@
 ---
 layout: download
-board_id: "pimoroni_tiny2040"
-title: "Tiny 2040 (8MB) Download"
-name: "Tiny 2040 (8MB)"
+board_id: "pimoroni_tiny2040_2mb"
+title: "Tiny 2040 (2MB) Download"
+name: "Tiny 2040 (2MB)"
 manufacturer: "Pimoroni"
 board_url: "https://shop.pimoroni.com/products/tiny-2040"
-board_image: "pimoroni_tiny2040.jpg"
-date_added: 2021-2-24
+board_image: "pimoroni_tiny2040_2mb.jpg"
+date_added: 2021-12-02
 family: raspberrypi
 
 features:
@@ -14,14 +14,14 @@ features:
   - Breadboard-Friendly
 ---
 
-A postage stamp sized RP2040 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into devices. Tiny 2040 comes with 8MB of QSPI (XiP) flash on board so it can handle projects small and large with ease.
+A postage stamp sized RP2040 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into devices. Tiny 2040 comes with 2MB of QSPI (XiP) flash on board so it can handle projects small and large with ease.
 
 ## Features
 * Powered by RP2040
 * ARM Cortex M0+ running at up to 133Mhz
 * 264kB of SRAM
 * USB-C connector for power, programming, and data transfer
-* 8MB of QSPI flash supporting XiP
+* 2MB of QSPI flash supporting XiP
 * User controllable RGB LED
 * Twelve IO pins (including four 12-bit ADC channels)
 * Switch for basic input (doubles up as DFU select on boot)
