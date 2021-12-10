@@ -51,4 +51,4 @@ The rev C comes with a mini-B cable for powering it up ASAP. No microSD card is 
 
 ## Contribute
 
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

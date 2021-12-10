@@ -19,4 +19,4 @@ CircuitPython for Game Boy is a work in progress, check out the weekly "Show and
 
 ## Contribute
 
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

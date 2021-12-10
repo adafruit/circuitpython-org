@@ -43,4 +43,4 @@ PINE H64 is latest Single Board Computer by Pine64. Its powered by an Allwinner 
 
 ## Contribute
 
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

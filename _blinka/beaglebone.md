@@ -27,4 +27,4 @@ BeagleBone is an $89 MSRP, credit-card-sized Linux computer that connects to the
 
 ## Contribute
 
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

@@ -21,7 +21,7 @@ The blue LED is connected to P1.13, set that pin to be an output and pull low to
 
 The button is connected to P0.15, set that pin to be an input with an internal pullup - when pressed the pin will go low.
 
-Of course the best way to program these chips is with the Nordic SDK. This chip also has [some basic Arduino support](https://github.com/adafruit/Adafruit_nRF52_Arduino), [CircuitPython support](https://github.com/adafruit/circuitpython/tree/master/ports/nrf), and is [supported by MyNewt](https://mynewt.apache.org/latest/tutorials/blinky/nRF52.html).
+Of course the best way to program these chips is with the Nordic SDK. This chip also has [some basic Arduino support](https://github.com/adafruit/Adafruit_nRF52_Arduino), [CircuitPython support](https://github.com/adafruit/circuitpython/tree/main/ports/nrf), and is [supported by MyNewt](https://mynewt.apache.org/latest/tutorials/blinky/nRF52.html).
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/5199)
@@ -29,4 +29,4 @@ Of course the best way to program these chips is with the Nordic SDK. This chip 
 
 ## Contribute
 
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

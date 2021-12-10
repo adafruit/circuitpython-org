@@ -35,4 +35,4 @@ LTS - long term support, We will not make any changes to this model and will pro
 
 ## Contribute
 
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

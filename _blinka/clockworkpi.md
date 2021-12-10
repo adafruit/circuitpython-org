@@ -32,4 +32,4 @@ New clockworkPi v3.1 development board:
 
 ## Contribute
 
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).
