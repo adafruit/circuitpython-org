@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_qtpy_esp32s2"
-title: "Adafruit QT Py ESP32S2 Download"
-name: "Adafruit QT Py ESP32S2"
+title: "Adafruit QT Py ESP32-S2 Download"
+name: "Adafruit QT Py ESP32-S2"
 manufacturer: "Adafruit"
 board_url: ""
 board_image: "adafruit_qtpy_esp32s2.jpg"
