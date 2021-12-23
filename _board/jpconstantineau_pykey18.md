@@ -41,7 +41,7 @@ It's not just a keyboard but also a USB drive containing the firmware as Circuit
 
 ## Purchase
 The PyKey18 is available on the Tindie store if you are interested in getting one.
-* [Tindie](https://www.tindie.com/products/jpconstantineau/pykey60-rgb-keyboard-pcb-with-a-rp2040/)
+* [Tindie](https://www.tindie.com/products/jpconstantineau/pykey18-rgb-numpadkeyboard-with-a-rp2040/)
 
 ## Contribute
 
