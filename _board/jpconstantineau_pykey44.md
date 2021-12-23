@@ -5,7 +5,7 @@ title: "PyKey44 Ergo Keyboard Download"
 name: "PyKey44 Ergo Keyboard"
 manufacturer: "JPConstantineau"
 board_url: "https://github.com/jpconstantineau/PyKey60"
-board_image: "unknown.jpg"
+board_image: "jpconstantineau_pykey44.jpg"
 downloads_display: True
 date_added: 2021-12-15
 family: raspberrypi
@@ -34,7 +34,8 @@ The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz
 It's not just a keyboard but also a USB drive containing the firmware as CircuitPython files. Its Python code can be changed with any text editor and executed simultaneously, which makes it super easy to customize the keymap, add macros or add a new function.  This keyboard is fully programmable via CiruitPython so there's no software to install, just plug it in, change keymaps and start building macros. Since all of the programming happens on the keyboard Python files, you can plug it into any computer and take your custom layouts wherever you go.
 
 ## Learn More
-* [Board Documentation](https://github.com/jpconstantineau/PyKey60)
+* [Board Hardware Repo](https://github.com/jpconstantineau/PyKey60)
+* [Helpful Documentation](http://pykey.jpconstantineau.com/docs/)
 
 ## Purchase
 The PyKey44 is available on the Tindie store if you are interested in getting one.
