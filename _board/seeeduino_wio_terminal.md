@@ -26,6 +26,7 @@ Instead of being a single embedded functional module, **Wio Terminal** is more o
  * **4 MB** External Flash, **192 KB** RAM
  * Comprehensive Protocol Support
  * SPI, I2C, I2S, ADC, DAC, PWM, UART(Serial)
+ * Built-in real-time clock RTC
 
 **Reliable Wireless Connectivity**
  * Powered by **Realtek RTL8720DN**
