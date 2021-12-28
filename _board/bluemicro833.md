@@ -7,7 +7,7 @@ manufacturer: "JPConstantineau"
 board_url: "http://nrf52.jpconstantineau.com/"
 board_image: "bluemicro833.jpg"
 date_added: 2021-12-28
-family: nrf52840
+family: nrf52833
 
 features: 
   - USB-C
