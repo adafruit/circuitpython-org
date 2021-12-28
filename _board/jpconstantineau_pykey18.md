@@ -1,24 +1,26 @@
 ---
 layout: download
-board_id: "jpconstantineau_pykey60"
-title: "PyKey 60% Keyboard Download"
-name: "PyKey60 Keyboard"
+board_id: "jpconstantineau_pykey18"
+title: "PyKey18 Numpad Download"
+name: "PyKey18 Numpad"
 manufacturer: "JPConstantineau"
 board_url: "https://github.com/jpconstantineau/PyKey60"
-board_image: "jpconstantineau_pykey60.jpg"
-date_added: 2021-09-17
+board_image: "jpconstantineau_pykey18.jpg"
+downloads_display: false
+date_added: 2021-12-15
 family: raspberrypi
 
 features:
   - USB-C
   - Speaker
+  - Display
+  - STEMMA QT/QWIIC
 ---
 
-The PyKey60 is a custom programmable mechanical keyboard with a standard ANSI 60% keyboard layout compatible with any cases made for the GH60. The PyKey60 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.  The PCB was designed for use with PCB-mount stabilizers.
+The PyKey18 is a custom programmable mechanical keyboard with a standard Numpad layout, a rotary encoder and a small OLED display. The PyKey18 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.  The PCB was designed for use with PCB-mount stabilizers.
 
 Since this is a Hot Swappable Switches keyboard, you can choose the MX switches as well as the keycaps you prefer.  You can even mix and match switches for the ultimate customization.
 
-Just like CircuitPython, this keyboard is targeted for beginners.  The design keeps the matrix definition simple to 14 columns and 5 rows instead of using a GPIO-optimized matrix of 8 columns and 8 rows.  Neopixel order is also in line with key numbers.  This keeps the complexity of coding a keyboard firmware to a minimum.
 
 ## Features
 * Powered by RP2040
@@ -35,11 +37,11 @@ It's not just a keyboard but also a USB drive containing the firmware as Circuit
 
 ## Learn More
 * [Board Hardware Repo](https://github.com/jpconstantineau/PyKey60)
-* [Helpful Documentation](http://pykey.jpconstantineau.com/docs/)
+* [Helpful Documentation](http://pykey.jpconstantineau.com/docs/) 
 
 ## Purchase
-The PyKey60 is available on the Tindie store if you are interested in getting one.
-* [Tindie](https://www.tindie.com/products/jpconstantineau/pykey60-rgb-keyboard-pcb-with-a-rp2040/)
+The PyKey18 is available on the Tindie store if you are interested in getting one.
+* [Tindie](https://www.tindie.com/products/jpconstantineau/pykey18-rgb-numpadkeyboard-with-a-rp2040/)
 
 ## Contribute
 
