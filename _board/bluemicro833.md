@@ -4,10 +4,10 @@ board_id: "bluemicro833"
 title: "BlueMicro833 Download"
 name: "BlueMicro833"
 manufacturer: "JPConstantineau"
-board_url: "http://nrf52.jpconstantineau.com/"
+board_url: "http://nrf52.jpconstantineau.com/docs/bluemicro833"
 board_image: "bluemicro833.jpg"
 date_added: 2021-12-28
-family: nrf52833
+family: nrf52840
 
 features: 
   - USB-C
@@ -22,7 +22,8 @@ Many DIY keyboards use the Arduino Pro Micro or the Arduino Micro as their micro
 
 
 ## Learn More
-* [Board Documentation](http://nrf52.jpconstantineau.com/)
+* [Board Documentation](http://nrf52.jpconstantineau.com/docs/bluemicro833)
+* [Board Hardware Repo](https://github.com/jpconstantineau/BlueMicro833_hardware)
 
 ## Purchase
 * [Tindie](https://www.tindie.com/products/jpconstantineau/ebyte-e73-2g4m08s1e-breakout-bluemicro833-pcba/)
