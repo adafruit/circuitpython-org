@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 03 Jan 2022 05:03:54 -0500</lastBuildDate>
+<lastBuildDate>Mon, 03 Jan 2022 11:57:19 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -1850,6 +1850,39 @@ control applications.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 01 Sep 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/blm_badge/</guid>
+  </item><item>
+    <title>BlueMicro833</title>
+    <link>https://circuitpython.org/board/bluemicro833/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/bluemicro833.jpg 300w,
+               /assets/images/boards/large/bluemicro833.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/bluemicro833.jpg" alt="Image of Board" loading="lazy">
+
+<p>By JPConstantineau</p> <p>The BlueMicro833 is a nRF52833 controller with the footprint of an Arduino Pro Micro and a USB-C Connector.  It uses the EByte E73-2GM08S1E nRF52833 module, has a neopixel and software controller 3.3V regulator that can turn on/off power to external devices.  It’s based on the BlueMicro840 design but uses the internal voltage regulator to run.  Just like other Bluemicros, there is a LiPo battery charger on board.</p>
+
+<p>Many DIY keyboards use the Arduino Pro Micro or the Arduino Micro as their microcontroller. These don’t support BLE communications natively. Because the nRF52 chips have a 32-bit ARM Cortex-M4F processor, they have plenty of processing power compared to the traditional AVR chips. The BlueMicro boards were inspired from the Adafruit nrf52 feathers but made to be used directly in DIY keyboards as a replacement for the atmega32u4 based controllers.</p>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="http://nrf52.jpconstantineau.com/docs/bluemicro833">Board Documentation</a></li>
+  <li><a href="https://github.com/jpconstantineau/BlueMicro833_hardware">Board Hardware Repo</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.tindie.com/products/jpconstantineau/ebyte-e73-2g4m08s1e-breakout-bluemicro833-pcba/">Tindie</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/bluemicro833.md">here</a>.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 27 Dec 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/bluemicro833/</guid>
   </item><item>
     <title>BlueMicro840</title>
     <link>https://circuitpython.org/board/bluemicro840/</link>
