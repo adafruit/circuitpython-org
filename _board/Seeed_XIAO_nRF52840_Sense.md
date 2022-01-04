@@ -29,5 +29,4 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
 * built-in 2 MB flash, microphone and 6-axis IMU 
 
 ## Purchase
-Add any links to purchase the board
 * [Seeed XIAO BLE nRF52840 Sense](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html)
