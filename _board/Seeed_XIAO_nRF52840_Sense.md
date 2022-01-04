@@ -21,11 +21,6 @@ Seeed XIAO BLE Sense has equipped a powerful Nordic nRF52840 MCU which is design
 In addition, it carries two extra onboard sensors. One of them is a digital microphone created through Pulse Density Modulation(PDM) module on the nRF52840 chip. It can receive audio data in real-time which allows it can be used for audio recognition. The board not only receives audio data but also can speak through the MSM261D3526H1CPM microphone. The other one is 6-axis Inertial Measurement Unit(IMU) which can be applied in TinyML projects like gesture recognition. These onboard sensors provide a great convenience for users and the ultra-small size feature of the board has still remained. 
 Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is that the Near Field Communication(NFC) is functional on the board. Secondly, there is a tiny and elegant reset button on one side of the Type-C interface. On the other side, it is designed in a three-in-one LED along with a power LED. There are 11 digital i/o that can be used as PWM pins and 6 analog i/o that can be used as ADC pins. It supports UART, IIC, and SPI all three common serial ports. Same as Seeed XIAO RP2040, it has an onboard 2 MB flash which means it can also be programmed by Arduino, MicroPython, CircuitPython, or other program languages. 
 
-
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
-
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
-
 * Bluetooth 5.0
 * NFC
 * 21 x 17.5mm tiny board
