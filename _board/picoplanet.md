@@ -23,7 +23,3 @@ The board design is generated procedurally and each version of the board is only
 ## Purchase
 Add any links to purchase the board
 * [Tindie](https://www.tindie.com/products/21123/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

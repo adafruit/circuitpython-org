@@ -57,7 +57,3 @@ You'll note there's no I2S peripheral, or SDIO, or camera, what's up with that? 
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4900)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

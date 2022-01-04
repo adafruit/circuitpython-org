@@ -42,7 +42,3 @@ Orange Pi Zero2 is for anyone who wants to start creating with technology – no
 ## Purchase
 * [Amazon](https://www.amazon.com/dp/B08M9MWZCQ)
 * [Aliexpress](https://www.aliexpress.com/item/1005001652164182.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

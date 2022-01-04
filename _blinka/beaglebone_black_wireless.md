@@ -32,7 +32,3 @@ Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Blu
 ## Purchase
 * [Digi-Key](https://www.digikey.com/products/en?lang=en&site=us&KeyWords=BBBWL-SC-562-ND)
 * [Arrow](https://www.arrow.com/en/products/bbwireless/beagleboardorg)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

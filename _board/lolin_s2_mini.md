@@ -70,7 +70,3 @@ features:
 ## Learn More
 
 * [Manufacturer Specifications](https://www.wemos.cc/en/latest/s2/s2_mini.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

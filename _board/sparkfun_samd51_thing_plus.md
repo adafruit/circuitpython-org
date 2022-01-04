@@ -22,7 +22,3 @@ The ATSAMD51J20 utilizes a 32-bit ARM Cortex-M4 processor with Floating Point Un
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/14713)
 
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

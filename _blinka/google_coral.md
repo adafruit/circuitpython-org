@@ -41,7 +41,3 @@ Baseboard
 
 ## Purchase
 * [Google](https://coral.withgoogle.com/products/dev-board)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

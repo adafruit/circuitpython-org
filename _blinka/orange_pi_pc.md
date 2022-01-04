@@ -50,7 +50,3 @@ What’s Orange Pi PC？It’s an open-source single-board computer. It can run 
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/store/product/Orange-Pi-PC-linux-and-android-mini-PC-Beyond-Raspberry-Pi-2/1553371_32448079125.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

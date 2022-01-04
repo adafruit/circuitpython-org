@@ -50,7 +50,3 @@ The FeatherS2 pre-release boards are no longer available for purchase now that t
 
 * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
 * [Adafruit](https://www.adafruit.com/product/4769)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

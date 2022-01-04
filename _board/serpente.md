@@ -40,7 +40,3 @@ Here are some of the technical details regarding the boards:
 
 ## Purchase
 * [Tindie](https://www.tindie.com/products/arturo182/serpente-a-tiny-circuitpython-prototyping-board/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

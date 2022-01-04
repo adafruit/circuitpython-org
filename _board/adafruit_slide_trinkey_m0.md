@@ -34,7 +34,3 @@ We think it's just an adorable little board, small and durable and inexpensive e
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/5021)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

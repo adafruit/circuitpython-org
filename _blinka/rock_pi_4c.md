@@ -37,7 +37,3 @@ ROCK Pi supports mainstream AI stack with GPU acceleration. Furthermore, a dedic
 
 ## Purchase
  * [seeedstudio](https://www.seeedstudio.com/ROCK-PI-4-Model-C-p-4658.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

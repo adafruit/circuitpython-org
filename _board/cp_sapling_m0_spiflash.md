@@ -37,7 +37,3 @@ This board also comes with the SOIC-8 pads available on the bottom of the board 
 ## Purchase
 
 * [Oak Dev Tech](https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

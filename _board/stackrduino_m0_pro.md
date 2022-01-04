@@ -39,7 +39,3 @@ With support for Adafruit CircuitPython, Arduino IDE, and other libraries the St
 ## Learn More
 
 * [GitHub](https://github.com/StackRduino/StackRduino_M0)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

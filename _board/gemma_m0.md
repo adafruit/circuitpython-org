@@ -47,7 +47,3 @@ Fully assembled and tested Gemma M0 with CircuitPython & example code programmed
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3501)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

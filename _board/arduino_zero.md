@@ -19,7 +19,3 @@ The Zero applications span from smart IoT devices, wearable technology, high-tec
 
 ## Purchase
 * [Arduino](https://store.arduino.cc/usa/arduino-zero)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

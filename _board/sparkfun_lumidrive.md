@@ -21,7 +21,3 @@ The SparkFun LumiDrive has been equipped with a USB-C connector which is capable
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/14779)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

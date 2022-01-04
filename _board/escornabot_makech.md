@@ -18,7 +18,3 @@ The basic Escornabot can be programmed with the robot's buttons to execute seque
 
 ## Learn more
 * [Escornabot Makech- GitHub](https://github.com/ElectronicCats/escornabot)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

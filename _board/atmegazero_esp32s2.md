@@ -32,7 +32,3 @@ Introducing the new ATMegaZero ESP32-S2
 
 ## Purchase
 * [Pre-Order on GroupGets.com](https://groupgets.com/campaigns/936-atmegazero-esp32-s2)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

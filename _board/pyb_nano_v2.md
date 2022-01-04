@@ -28,7 +28,3 @@ It is convenient to extend features via I2C, SPI, UART and other interfaces. By 
 
 ## Purchase
 * [Elecrow](https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

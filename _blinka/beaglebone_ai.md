@@ -37,7 +37,3 @@ Built on the proven BeagleBoard.org® open source Linux approach, BeagleBone® A
 
 ## Purchase
 * [DigiKey](https://www.digikey.com/en/products/detail/beagleboard-org/BBONE-AI/10671097)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

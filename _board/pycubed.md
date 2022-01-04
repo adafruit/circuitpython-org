@@ -24,7 +24,3 @@ Yet PyCubed's greatest value is its ease of programming & immense documentation.
 * [All PyCubed Resources](https://pycubed.org/resources)
 * [Forums](https://pycubed.org/forums)
 * [Github](https://github.com/PyCubed)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -67,7 +67,3 @@ Comes fully assembled and tested, with a USB bootloader. Includes some headers s
 
 * [Adafruit](https://www.adafruit.com/product/3177) (433 MHz version)
 * [Adafruit](https://www.adafruit.com/product/3176) (900 MHz version)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

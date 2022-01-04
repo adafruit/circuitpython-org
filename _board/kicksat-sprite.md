@@ -15,7 +15,3 @@ CircuitPython provides an approachable and logical means of conducting science w
 
 ## Resources
 [RoboticExplorationLab/sprite](https://github.com/RoboticExplorationLab/sprite).
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

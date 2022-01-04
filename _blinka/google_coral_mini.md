@@ -33,7 +33,3 @@ The Coral Dev Board Mini is a single-board computer that provides fast machine l
 * [Seeed](https://www.seeedstudio.com/Coral-Dev-Board-Mini-p-4682.html)
 * [Mouser](https://www.mouser.com/new/google-coral/coral-dev-board-mini/)
 * [Arrow](https://www.arrow.com/en/products/g650-03324-01/google-corporation)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

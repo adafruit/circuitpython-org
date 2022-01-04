@@ -31,7 +31,3 @@ In the F401 series, the chip is the cheapest, even cheaper than some F1, and cru
 * [Github Docs](https://github.com/WeActTC/MiniF4-STM32F4x1)
 * [Aliexpress](https://www.aliexpress.com/item/1005001456186625.html)
 * [stm32duino - Offical Arduino Support](https://github.com/stm32duino/Arduino_Core_STM32)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

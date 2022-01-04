@@ -45,7 +45,3 @@ Just like the Challenger M0 WiFi it has a ESP8285 WiFi chip. For those of you th
 ## Purchase
 * [Tindie](https://www.tindie.com/products/invector/challenger-rp2040-wifi/)
 
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

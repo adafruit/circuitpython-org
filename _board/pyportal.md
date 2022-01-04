@@ -29,7 +29,3 @@ The M4 and ESP32 are a great couple - and each bring their own strengths to this
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4116)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

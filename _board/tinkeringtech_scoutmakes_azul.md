@@ -47,7 +47,3 @@ The platform come pre-programmed with a UF2 bootloader and CircuitPython ready t
 
 ## Purchase
 * [TinkeringTech](https://tinkeringtech.com/blog/scoutmakes-azul/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/tinkeringtech_scoutmakes_azul.md).

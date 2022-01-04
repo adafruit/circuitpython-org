@@ -37,7 +37,3 @@ There are 3 main ways to control the pyboard:
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/2390)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

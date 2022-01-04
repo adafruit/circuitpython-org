@@ -40,7 +40,3 @@ There is a variant on the Adafruit PyBadge, the Adafruit PyBadge LC, which has a
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4200)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

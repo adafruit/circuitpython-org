@@ -24,7 +24,3 @@ The description should be written to inform a CircuitPython user what makes the 
 * [Xenon Kit - Particle](https://store.particle.io/products/xenon-kit)
 * [Board Only - Adafruit](https://www.adafruit.com/product/3999)
 * [Xenon Kit - Adafruit](https://www.adafruit.com/product/3995)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

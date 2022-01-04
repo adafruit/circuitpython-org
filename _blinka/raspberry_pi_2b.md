@@ -34,7 +34,3 @@ The Raspberry Pi 2 Model B is the second-generation Raspberry Pi. It replaced th
 
 ## Purchase
 * [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

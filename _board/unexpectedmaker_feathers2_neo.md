@@ -51,7 +51,3 @@ You can find out more about the FeatherS2 Neo at [unexpected maker](https://unex
 You can purchase your very own FeatherS2 Neo from:
 
 **Coming soon!**
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

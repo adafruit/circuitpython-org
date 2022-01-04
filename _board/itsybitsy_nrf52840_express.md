@@ -27,7 +27,3 @@ The most exciting part of the ItsyBitsy is that while we ship it with an Arduino
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4481)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

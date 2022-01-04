@@ -25,7 +25,3 @@ The description should be written to inform a CircuitPython user what makes the 
 * [Argon Kit - Particle](https://store.particle.io/products/argon-kit)
 * [Board Only - Adafruit](https://www.adafruit.com/product/3997)
 * [Argon Kit - Adafruit](https://www.adafruit.com/product/3993)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

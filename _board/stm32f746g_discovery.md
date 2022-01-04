@@ -17,7 +17,3 @@ The STM32F746 Discovery kit from ST.
 ## Purchase
 * [ST](https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/32f746gdiscovery.html)
 * [Digi-Key](https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F746G-DISCO/497-15680-5-ND/5267791)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

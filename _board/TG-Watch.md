@@ -27,7 +27,3 @@ Some of its features include:
 
 ## Learn More
 * [Download PCB Files on Github](https://github.com/TG-Techie/TG-Watch02-PCB)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

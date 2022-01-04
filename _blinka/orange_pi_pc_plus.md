@@ -53,7 +53,3 @@ It’s an open-source single-board computer. It can run Android 4.4, Ubuntu, Deb
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/32670775037.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

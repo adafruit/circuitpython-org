@@ -21,7 +21,3 @@ Just like the original Feather M4 Express, it is powered by the ATSAMD51J19 - wi
 ## Learn More
 * [Hardware Github repo](https://github.com/xorbit/M4-Shim)
 * [Hackaday.io project log](https://hackaday.io/project/168356-poe-featherwing/log/187588-m4-shim)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

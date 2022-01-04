@@ -22,7 +22,3 @@ WiFi is not supported. The LSM9DS6 and ATECC chips are supported in CircuitPytho
 
 ## Purchase
 * [Arduino](https://store.arduino.cc/usa/nano-33-iot)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -22,7 +22,3 @@ For more detailed technical specifications, check out [the Hackaday.io project p
 ## Purchase
 
 The Open Book is not yet available for purchase, but you can [order the board](https://oshpark.com/shared_projects/9h6jn9B1) from OSH Park, and the BOM is available at [the project's GitHub page](https://github.com/joeycastillo/The-Open-Book). Instructions for assembly are printed on the front of the PCB.
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

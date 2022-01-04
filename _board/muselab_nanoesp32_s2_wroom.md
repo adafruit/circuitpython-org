@@ -28,8 +28,3 @@ esptool.py -p (COMPORT) -b 460800 write_flash --flash_mode dio --flash_size dete
 
 ## Learn More
 * [User Guide](https://github.com/wuxx/nanoESP32-S2)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).
-

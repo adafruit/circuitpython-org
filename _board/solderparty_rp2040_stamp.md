@@ -52,7 +52,3 @@ The CircuitPython firmware for the Stamp comes with a built-in board file for th
 ## Links
 
 * [Documentation](https://rp2040-stamp.solder.party/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -45,7 +45,3 @@ We tested this in Arduino STM32duino with all our FeatherWings and only the RFM6
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4382)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

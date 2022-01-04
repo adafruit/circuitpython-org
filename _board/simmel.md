@@ -17,7 +17,3 @@ Simmel is a platform that enables COVID-19 contact tracing while preserving user
 
 ## Learn More
 * [Github](https://github.com/simmel-project/frontpage)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -35,7 +35,3 @@ The Banana Pi M2 Zero is an ultra compact single board computer which measures o
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/33038926185.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

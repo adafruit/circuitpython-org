@@ -24,7 +24,3 @@ It supports the standard Nordic Software Development Tool-chain using GCC, Keil 
 
 ## Purchase
 * [MakerDiary](https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-iot-development-kit)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

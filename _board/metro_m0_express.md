@@ -31,7 +31,3 @@ Comes fully assembled with headers, tested, and with the UF2 bootloader loaded o
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3505)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

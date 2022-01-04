@@ -54,7 +54,3 @@ Metro M4 AirLift, see how easy and fast it is to get started with IoT projects u
 ## Purchase:
 
 * [Adafruit](https://www.adafruit.com/product/4000)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

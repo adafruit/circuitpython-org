@@ -70,7 +70,3 @@ Orange Pi Plus 2E is for anyone who wants to start creating with technology – 
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/32665196281.html?spm=2114.12010612.8148356.1.382d5e2771I2wb)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

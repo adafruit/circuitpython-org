@@ -64,7 +64,3 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology â
 
 ## Purchase
 * [Newegg](https://www.newegg.com/p/285-002U-00005)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

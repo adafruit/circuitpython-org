@@ -36,7 +36,3 @@ It is going to be in a wrist watch form factor with several awesome features.
 ## Purchase
 Not available for direct purchase.
 The badge will be given to all attendees of the Open Hardware Summit!
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

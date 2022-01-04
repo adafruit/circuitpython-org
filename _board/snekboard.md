@@ -27,7 +27,3 @@ programmed from the host.
 ## Learn More
 
 * [keithp.com](https://keithp.com/snek/snekboard)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

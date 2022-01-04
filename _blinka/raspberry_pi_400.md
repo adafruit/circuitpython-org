@@ -38,7 +38,3 @@ Raspberry Pi 400 is your complete personal computer, built into a compact keyboa
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4796)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

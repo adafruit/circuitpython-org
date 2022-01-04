@@ -20,7 +20,3 @@ Watch Adafruit's Ask an Engineer on YouTube to learn more.
 ## Learn More:
 
 * [YouTube](https://www.youtube.com/watch?v=_sLgycNpMCQ)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -27,7 +27,3 @@ Ease of development and speed of deployment—plus a unique combination of form-
 
 ## Purchase
 * [Arrow](https://www.arrow.com/en/products/900-13636-0010-000/nvidia)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

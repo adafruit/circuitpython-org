@@ -31,7 +31,3 @@ Comes with a PCB that has pre-soldered standoffs attached, and 12x M3 screws for
 
 * [Circuit Playground Express - Adafruit](https://www.adafruit.com/product/3333)
 * [TFT Gizmo for CircuitPlayground Express - Adafruit](https://www.adafruit.com/product/4367)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

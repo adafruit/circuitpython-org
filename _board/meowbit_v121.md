@@ -23,7 +23,3 @@ From the creative and cat-lovin' engineers at KittenBot comes the **Meowbit** - 
 ## Purchase
 Add any links to purchase the board
 * [Adafruit](https://www.adafruit.com/product/4324)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

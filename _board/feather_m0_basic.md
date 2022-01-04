@@ -54,7 +54,3 @@ Comes fully assembled and tested, with a USB bootloader. Includes headers so you
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/2772)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

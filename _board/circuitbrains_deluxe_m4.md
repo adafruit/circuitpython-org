@@ -35,7 +35,3 @@ CircuitPython on an ARM Cortex M4 in almost 1 square inch! This "Just Add Solder
 Coming soon. Follow the below links for manufacturing updates:
 * [CircuitBrains Deluxe Project Page](https://kevinneubauer.com/portfolio/circuitbrains-deluxe/)
 * [Kevin Neubauer Twitter](https://twitter.com/kevinneubauer)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

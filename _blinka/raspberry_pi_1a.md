@@ -25,7 +25,3 @@ The Raspberry Pi 1 Model A is the original Model A.  In November 2014 It was sup
 - DSI display port for connecting a Raspberry Pi touchscreen display
 - Stereo audio output port
 - Full-size SD port for loading your operating system and storing data
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

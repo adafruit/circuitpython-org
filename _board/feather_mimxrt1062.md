@@ -31,7 +31,3 @@ A Work-In-Progress Feather featuring the NXP i.MX RT1062 MCU.
 
 ## Learn More
 * [Reveal Tweet](https://twitter.com/arturo182/status/1199841134253682690)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

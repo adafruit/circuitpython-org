@@ -18,7 +18,3 @@ The Arduino MKR ZERO brings you the power of a Zero in the smaller format establ
 
 ## Purchase
 * [Arduino](https://store.arduino.cc/usa/arduino-mkrzero)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

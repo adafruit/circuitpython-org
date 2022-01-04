@@ -25,7 +25,3 @@ Some elements are still in development; For this reason, we recommend this board
 
 ## Purchase
 * [Electronic Cats](https://electroniccats.com/store/bast-wifi/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

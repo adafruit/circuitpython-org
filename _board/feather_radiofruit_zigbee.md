@@ -19,7 +19,3 @@ The description should be written to inform a CircuitPython user what makes the 
 
 ## Purchase
 Add any links to purchase the board
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

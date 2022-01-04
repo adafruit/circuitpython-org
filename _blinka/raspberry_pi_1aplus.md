@@ -30,7 +30,3 @@ The Model A+ is the low-cost variant of the Raspberry Pi. It replaced the origin
 
 ## Purchase
 * [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).
