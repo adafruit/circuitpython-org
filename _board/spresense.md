@@ -24,7 +24,3 @@ The Spresense extension board is a board which extends the interfaces compared t
 ## Purchase
 
 * [Sony](https://developer.sony.com/develop/spresense/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

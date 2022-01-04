@@ -22,7 +22,3 @@ The Compute Modules 3 Lite brings the SD card interface to the Module pins so a 
 
 ## Purchase
 * [Raspberry Pi Foundation](https://www.raspberrypi.org/products/compute-module-io-board-v3/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

@@ -18,7 +18,3 @@ The CatWAN USB Stick is programmed with a special firmware image that makes it a
 
 ## Purchase
 * [Electronic Cats](https://electroniccats.com/producto/catwan_usb-stick/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

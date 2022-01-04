@@ -40,7 +40,3 @@ Introducing the microS2 - An ESP32-S2 based development board with smaller size 
 
 
 
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

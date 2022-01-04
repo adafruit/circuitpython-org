@@ -13,7 +13,3 @@ downloads_display: true
 blinka: false
 features:
 ---
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -20,7 +20,3 @@ Cucumber M is a WiFi IoT development board. It features the latest ESP32-S2 chip
 ## Purchase
 Add any links to purchase the board
 * [Gravitech](https://www.gravitech.us/cumesdebo.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

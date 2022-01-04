@@ -23,7 +23,3 @@ The board comes with 8 MB of QSPI flash memory so you can put *all* of our Circu
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/5056)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

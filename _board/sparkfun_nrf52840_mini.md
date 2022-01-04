@@ -22,7 +22,3 @@ The board comes pre-programmed with a USB bootloader. You can develop programs f
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/15025)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -20,7 +20,3 @@ Coming Soon!
 
 ## Learn More
 * [YouTube](https://www.youtube.com/watch?time_continue=1059&v=k62kM94gieo)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

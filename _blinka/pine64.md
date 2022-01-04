@@ -45,7 +45,3 @@ Apart from Linux, you also have a choice of a selection of *BSDs, Android, Remix
 * [pine64 2GB](https://store.pine64.org/?product=pine-a64-board-2gb)
 * [pine64 1GB](https://store.pine64.org/?product=pine-a64-board-1gb)
 * [pine64 512MB](https://store.pine64.org/?product=pine-a64-board)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

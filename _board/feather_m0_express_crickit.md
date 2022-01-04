@@ -43,7 +43,3 @@ All are powered via 5V DC, so you can use any 5V-powered servos, DC motors, step
 
 * [Feather M0 Express - Adafruit](https://www.adafruit.com/product/3403)
 * [CRICKIT for Feather - Adafruit](https://www.adafruit.com/product/3343)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

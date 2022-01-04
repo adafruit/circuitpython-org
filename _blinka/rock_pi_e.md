@@ -40,7 +40,3 @@ ROCK Pi E is a Rockchip RK3328 based SBC(Single Board Computer) by Radxa. It equ
 
 ## Purchase
  * [Amazon](https://www.amazon.com/Rockchip-RK3328-Computer-Support-OpenWRT/dp/B08DG3S7K6)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

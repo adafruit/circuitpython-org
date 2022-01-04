@@ -25,7 +25,3 @@ It may be small, but Piunora is packed with powerful peripherals that will come 
 
 ## Purchase
 * [Crowd Supply](https://www.crowdsupply.com/diodes-delight/piunora)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

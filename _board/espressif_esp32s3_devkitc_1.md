@@ -45,7 +45,3 @@ There are three mutually exclusive ways to provide power to the board:
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/5310)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

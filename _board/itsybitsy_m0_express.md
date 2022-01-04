@@ -47,7 +47,3 @@ Comes assembled and tested ItsyBitsy M0, with header that can be soldered in for
 * [Projects and Guides](https://learn.adafruit.com/products/3727/guides)
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3727)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -23,7 +23,3 @@ With native USB it’s even ready to join the CircuitPython party.
 
 ## Purchase
 * [Electronic Cats](https://electroniccats.com/store/bast-ble/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

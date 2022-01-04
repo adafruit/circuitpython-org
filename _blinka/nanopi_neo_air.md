@@ -32,7 +32,3 @@ LTS - long term support, We will not make any changes to this model and will pro
 
 ## Purchase
 * [FriendlyElec](https://www.friendlyarm.com/index.php?route=product/product&product_id=151)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

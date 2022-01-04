@@ -20,7 +20,3 @@ The NVIDIA Clara AGX™ developer kit is an embedded AI computer and software de
 
 ## Learn More
 * [NVIDIA](https://developer.nvidia.com/clara-agx-devkit)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

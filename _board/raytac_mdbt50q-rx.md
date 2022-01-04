@@ -26,7 +26,3 @@ Of course the best way to program these chips is with the Nordic SDK. This chip 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/5199)
 * [Raytac Corporation](https://www.raytac.com/product/ins.php?index_id=89)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

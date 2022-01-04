@@ -17,7 +17,3 @@ STM32H7 powered OpenMV camera board.
 
  * [Adafruit](https://www.adafruit.com/product/4478)
  * [OpenMV](https://openmv.io/collections/products/products/openmv-cam-h7)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

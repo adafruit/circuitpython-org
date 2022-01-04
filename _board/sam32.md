@@ -22,7 +22,3 @@ The SAM32 features a 120 MHz SAMD51 main processer, an ESP32 WROOM co-processor,
 
 ## Resources
 SAM32 - [GitHub](https://github.com/maholli/SAM32).
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

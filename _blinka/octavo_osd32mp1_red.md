@@ -54,7 +54,3 @@ With its communication interfaces, peripherals, and expansion capabilities, the 
 
 ## Purchase
 * [Digikey](https://www.digikey.com/en/products/detail/octavo-systems-llc/OSD32MP1-RED/13575366)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

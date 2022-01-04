@@ -37,7 +37,3 @@ Teensy 4.1's Cortex-M7 processor includes a floating point unit (FPU) which supp
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4622)
 * [PJRC](https://www.pjrc.com/store/teensy41.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

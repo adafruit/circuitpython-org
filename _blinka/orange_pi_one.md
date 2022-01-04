@@ -47,7 +47,3 @@ What’s Orange Pi One？ It’s an open-source single-board computer. It can ru
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/32603308880.html?spm=2114.12010612.8148356.1.71126d5axQJcvl)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

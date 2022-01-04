@@ -16,7 +16,3 @@ The SAMD21 Mini Breakout is a Pro Mini-sized breakout for the Atmel ATSAMD21G18,
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/13664)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

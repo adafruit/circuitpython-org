@@ -33,7 +33,3 @@ Not available for direct purchase. The badge was given to all attendees of the A
 ## Learn More
 * [Github](https://github.com/aramcon-badge/)
 * [Medium](https://medium.com/@urish/the-smart-conference-badge-we-almost-failed-shipping-edb2b1ae85b6)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

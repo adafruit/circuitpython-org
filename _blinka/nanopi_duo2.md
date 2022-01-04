@@ -43,7 +43,3 @@ The NanoPi Duo2 supports software utilities such as WiringNP and Python etc. The
 
 ## Purchase
 * [FriendlyElec](https://www.friendlyarm.com/index.php?route=product/product&product_id=244)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

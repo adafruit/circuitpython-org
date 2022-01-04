@@ -31,7 +31,3 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
 ## Purchase
 Add any links to purchase the board
 * [Seeed XIAO BLE nRF52840 Sense](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

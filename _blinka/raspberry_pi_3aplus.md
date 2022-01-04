@@ -33,7 +33,3 @@ The Raspberry Pi 3 Model A+ is the latest board for the minimalist Pi fan. Like 
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4027)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

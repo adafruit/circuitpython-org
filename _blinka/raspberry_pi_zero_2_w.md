@@ -25,7 +25,3 @@ The board has a microSD card slot, a CSI-2 camera connector, a USB On-The-Go (OT
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/5291)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

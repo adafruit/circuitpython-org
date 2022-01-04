@@ -25,7 +25,3 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
 
 ## Purchase
 * [MakerDiary](https://makerdiary.com/products/m60-mechanical-keyboard-pcba)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

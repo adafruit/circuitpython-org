@@ -39,7 +39,3 @@ This allows users to truly experience an upgrade in computing, especially with f
 
 ## Purchase
 * [Hardkernel](https://www.hardkernel.com/shop/odroid-xu4-special-price/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

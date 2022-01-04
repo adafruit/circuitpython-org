@@ -40,7 +40,3 @@ This board is open source hardware. You can check the docs and contribute [here]
 ## Purchase
 
 * [Tindie](https://www.tindie.com/products/bhdynamics/dynalora-usb/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

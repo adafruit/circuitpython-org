@@ -27,7 +27,3 @@ This is Hallowing, now with SAMD51 M4 processor! More later!
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4300)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

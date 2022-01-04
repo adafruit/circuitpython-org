@@ -15,7 +15,3 @@ The i.MX RT1060 EVK is a 4-layer through-hole USB-powered PCB. At its heart lies
 
 ## Purchase
 * [NXP](https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1060-evaluation-kit:MIMXRT1060-EVK)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

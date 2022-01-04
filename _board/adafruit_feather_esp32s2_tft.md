@@ -25,7 +25,3 @@ Coming Soon!
 
 * [YouTube](https://youtu.be/74_0KsoOkZE)
 * [Adafruit Blog](https://blog.adafruit.com/?s=esp32-s2+tft)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

@@ -26,7 +26,3 @@ Industry skeptics have previously dismissed RISC-V as an academic project, low p
 
 ## Learn More
 * [Crowd Supply](https://www.crowdsupply.com/sifive/hifive-unleashed)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

@@ -21,7 +21,3 @@ To use this board with CircuitPython you must [replace the existing bootloader](
 
 ## Purchase
 * [Arduino](https://store.arduino.cc/usa/nano-33-ble)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

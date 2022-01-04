@@ -50,7 +50,3 @@ You can purchase your very own FeatherS2 from:
 * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
 * [Adafruit](https://www.adafruit.com/product/4769)
 * [Pimoroni](https://shop.pimoroni.com/products/feathers2-esp32-s2)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

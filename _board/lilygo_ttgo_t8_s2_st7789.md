@@ -42,7 +42,3 @@ To flash this image use this command:
 esptool.py  --chip esp32s2 --port (COMPORT) --baud 115200 write_flash 0x000 "adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-6.2.0.bin"
 
 After flashing change the dip switches to OTG mode, when reconnected you should see the CIRCUITPY drive.
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

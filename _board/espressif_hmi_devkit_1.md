@@ -41,7 +41,3 @@ Please note this is an advanced development kit, for use with the 'raw' Espressi
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/5207)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

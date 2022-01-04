@@ -44,7 +44,3 @@ The Raspberry Pi 4 is the latest product in the Raspberry Pi range, boasting an 
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4295)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

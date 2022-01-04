@@ -42,7 +42,3 @@ It's not just a keyboard but also a USB drive containing the firmware as Circuit
 ## Purchase
 The PyKey87 is available on the Tindie store if you are interested in getting one.
 * [Tindie](https://www.tindie.com/products/edit/pykey87-rgb-tkl-keyboard-with-a-rp2040/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

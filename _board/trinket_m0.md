@@ -55,7 +55,3 @@ So what are you waiting for? Pick up a Trinket M0 today and be amazed at how eas
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/3500)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

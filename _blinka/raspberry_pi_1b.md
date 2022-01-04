@@ -26,7 +26,3 @@ The Model B was the original Raspberry Pi Model B and consisted of two revisions
 - DSI display port for connecting a Raspberry Pi touchscreen display
 - Stereo audio output port
 - Full-size SD port for loading your operating system and storing data
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

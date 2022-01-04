@@ -16,7 +16,3 @@ NFC Copy Cat, manufactured by Electronic Cats, is a small device that combines t
 
 ## Learn more
 * [NFC Copy Cat - GitHub](https://github.com/ElectronicCats/NFC-Copy-Cat)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

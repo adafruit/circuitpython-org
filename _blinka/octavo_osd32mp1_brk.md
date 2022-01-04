@@ -43,7 +43,3 @@ Its minimal overhead and access to a wide range of I/O make the OSD32MP1-BRK the
 
 ## Purchase
 * [Digikey](https://www.digikey.com/en/products/detail/octavo-systems-llc/OSD32MP1-BRK/12144788)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

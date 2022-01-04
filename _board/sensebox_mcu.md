@@ -33,7 +33,3 @@ UART or SPI modules are offered via the two XBee compatible sockets. Optionally,
 
 - [senseBox.shop](https://sensebox.shop/product/sensebox-mcu-2)
 - [Watterott electronic](https://shop.watterott.com/senseBox-MCU_1)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

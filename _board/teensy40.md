@@ -48,7 +48,3 @@ Teensy 4.0 also can also be overclocked, well beyond 600 MHz!
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4323)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

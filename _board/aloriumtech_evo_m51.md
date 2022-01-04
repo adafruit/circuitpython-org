@@ -50,7 +50,3 @@ In order to take full advantage of the additional I/O on Evo M51 using CircuitPy
 ## Purchase
 Add any links to purchase the board
 * [Alorium Technology](https://www.aloriumtech.com/evom51-buy/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

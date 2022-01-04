@@ -34,7 +34,3 @@ The element14 BeagleBone Black Industrial (BBONE-BLACK-IND-4G) is a low cost, hi
 
 ## Purchase
 * [Newark](https://www.newark.com/element14/bbone-black-ind-4g/beaglebone-black-industrial/dp/76Y2810)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

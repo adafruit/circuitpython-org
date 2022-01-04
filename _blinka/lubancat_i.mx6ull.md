@@ -26,7 +26,3 @@ The breakout board mainly includes various peripheral interfaces and input and o
  
  ## Learn More
 * [Seeed Studio](https://www.seeedstudio.com/NPi-i-MX6ULL-Dev-Board-Industrial-Grade-Linux-SBC-NAND-Version-p-4220.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

@@ -58,7 +58,3 @@ Instead of being a single embedded functional module, **Wio Terminal** is more o
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4707) 
 * [Seeed's Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

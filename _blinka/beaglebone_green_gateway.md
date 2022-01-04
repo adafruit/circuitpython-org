@@ -41,7 +41,3 @@ Boot Linux in less 10 seconds and get started on development in less than 5 minu
 
 ## Purchase
 * [SeeedStudio](https://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Gateway-p-4586.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

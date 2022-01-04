@@ -30,7 +30,3 @@ This is the slimmest, most pared down Raspberry Pi to date.  It's kind of like t
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/2885)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

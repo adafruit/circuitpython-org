@@ -20,7 +20,3 @@ We've also routed two I2C buses, 2 SPI buses, eleven GPIO, dedicated digital, an
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/16984)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

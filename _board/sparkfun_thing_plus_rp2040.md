@@ -33,7 +33,3 @@ The RP2040 is supported with both C/C++ and MicroPython cross-platform developme
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/17745)
 
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

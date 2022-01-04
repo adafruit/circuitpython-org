@@ -52,7 +52,3 @@ Comes pre-programed the chip with a UF2 bootloader, which can use either command
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4062)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

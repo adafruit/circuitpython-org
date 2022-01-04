@@ -23,7 +23,3 @@ The micro USB connector on the Saola is wired through a CP210x USB to serial con
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4693)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

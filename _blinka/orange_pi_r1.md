@@ -39,7 +39,3 @@ What’s Orange Pi R1？It’s an open-source single-board computer. It can run 
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/Orange-Pi-R1-H2-256MB-Quad-Core-Cortex-A7-Open-source-development-board-beyond-Raspberry-Pi/32827494728.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

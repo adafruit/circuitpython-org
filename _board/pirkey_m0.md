@@ -28,7 +28,3 @@ By default it ships with simple example code to read NEC remotes but **you can u
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/3364)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

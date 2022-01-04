@@ -33,7 +33,3 @@ To leverage all that powerful hardware, the Giant Board runs Linux. Not just any
 
 ## Purchase
 * [Crowd Supply](https://www.crowdsupply.com/groboards/giant-board)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

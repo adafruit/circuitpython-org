@@ -25,7 +25,3 @@ A [beta prototype version](https://wiki.seeedstudio.com/BeagleV-Getting-Started/
 
 ## Learn More
 * [GitHub](https://github.com/beagleboard/beaglev-starlight#readme)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).

@@ -34,7 +34,3 @@ After designing it, the board was close enough to micro:bit-shape-size that we m
 
 ## Purchase
 * [Adafruit CLUE](https://www.adafruit.com/product/4500)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

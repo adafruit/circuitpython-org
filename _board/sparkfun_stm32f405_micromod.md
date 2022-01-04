@@ -18,7 +18,3 @@ As we previously stated; the STM32F405 Processor is based on the high-performanc
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/17713)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

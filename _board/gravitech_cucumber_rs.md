@@ -20,7 +20,3 @@ Cucumber RS is a special version which include many on-board sensors. I.E. HS221
 ## Purchase
 Add any links to purchase the board
 * [Gravitech](https://www.gravitech.us/cursdebowise.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

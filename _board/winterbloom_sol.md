@@ -18,7 +18,3 @@ Winterbloom Sol is a modular synthesizer (Eurorack) module. It is a multi-purpos
 ## Purchase
 
 Sol is available for purchase on [Winterbloom.com](https://winterbloom.com) and several modular synthesizer distributors.
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

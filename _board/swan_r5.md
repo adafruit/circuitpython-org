@@ -39,7 +39,3 @@ The board has three independent power options â€“ USB, Battery, or Line power â€
 
 ## Purchase
 * [Blues Shop](https://shop.blues.io/products/swan)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).

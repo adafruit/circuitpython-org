@@ -45,7 +45,3 @@ Additionally, the STM32MP157C-DK2 Discovery kit features an LCD display with a t
 
 ## Purchase
 * [STMicroelectronics](https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32mp157c-dk2.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md).
