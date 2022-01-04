@@ -20,7 +20,6 @@ In addition to the powerful CPU, the XIAO RP2040 has 2MB of Flash on board. 11 d
 The XIAO RP2040 is very compact because all electronic components are soldered on the same board surface, which means you can easily solder the XIAO RP2040 to your own PCB. XIAO RP2040 is pin-compatible with Seeeduino XIAO, so XIAO RP2040 can be learned and developed using the Expansion board of Seeeduino XIAO. 
 
 ## Purchase
-Add any links to purchase the board
 * [seeeduino_xiao_rp2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html)
 
 ## Contribute
