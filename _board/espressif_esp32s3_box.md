@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "espressif_esp32s3_devkitc_1"
+board_id: "espressif_esp32s3_box"
 title: "ESP32-S3 Box - 16MB Flash, 8MB PSRAM"
 name: "ESP32-S3 Box"
 manufacturer: "Espressif"

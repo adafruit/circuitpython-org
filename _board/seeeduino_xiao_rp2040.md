@@ -21,7 +21,3 @@ The XIAO RP2040 is very compact because all electronic components are soldered o
 
 ## Purchase
 * [seeeduino_xiao_rp2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md).
