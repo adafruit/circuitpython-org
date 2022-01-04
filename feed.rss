@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 04 Jan 2022 11:36:28 -0500</lastBuildDate>
+<lastBuildDate>Tue, 04 Jan 2022 13:15:18 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -3228,6 +3228,59 @@ for an SD card slot, which makes it a complete and versatile development board.<
     <category>CircuitPython</category>
     <pubDate>Thu, 14 May 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32s3_devkitc_1/</guid>
+  </item><item>
+    <title>ESP32-S3-DevKitC-1</title>
+    <link>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_nopsram/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/espressif_esp32s3_devkitc_1_nopsram.jpg 300w,
+               /assets/images/boards/large/espressif_esp32s3_devkitc_1_nopsram.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/espressif_esp32s3_devkitc_1_nopsram.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Espressif</p> <p>The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. <strong>This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 8MB Flash and no PSRAM.</strong></p>
+
+<p><strong>Please note:</strong> The S<strong>3</strong> is <em>similar</em> to the ESP32-S<strong>2</strong> - but adds a dual core and Bluetooth LE (not classic!) However, there is minimal support for this dev board. For example, as of the time of this writing, there is no Arduino or CircuitPython support - only ESP IDF! Please purchase if you’re doing development with the S3, and OK with stuff not working 100% out of the box.</p>
+
+<p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there’s a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.</p>
+
+<p>At the core of the module is an ESP32-S3FN8, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds.</p>
+
+<p>ESP32-S3FN8 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/Jtag, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1, i.e. CAN Specification 2.0), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p>
+
+<p>There are three mutually exclusive ways to provide power to the board:</p>
+
+<ul>
+  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>
+  <li>5V and G (GND) pins</li>
+  <li>3v3 and G (GND) pins</li>
+</ul>
+
+<p><strong>Components:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S3-WROOM-1</strong>: ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-WROOM-1 comes with a PCB antenna.</li>
+  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>
+  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks">Header Block</a>.</li>
+  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>
+  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>
+  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>
+  <li><strong>Reset Button</strong></li>
+  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>
+  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO48.</li>
+  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5312">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_nopsram/</guid>
   </item><item>
     <title>ESP32-S2 Human Machine Interface Dev Kit</title>
     <link>https://circuitpython.org/board/espressif_hmi_devkit_1/</link>
@@ -6460,6 +6513,37 @@ Gaze upon these features:</p>
     <pubDate>Sat, 16 Oct 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/odt_bread_2040/</guid>
   </item><item>
+    <title>CAST-AWAY RP2040</title>
+    <link>https://circuitpython.org/board/odt_cast_away_rp2040/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/odt_cast_away_rp2040.jpg 300w,
+               /assets/images/boards/large/odt_cast_away_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/odt_cast_away_rp2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Oak Development Technologies</p> <p>Cast your project fears away with the Cast-Away RP2040, a small and easy to use RP2040 dev board designed to take your project to the beach. This board uses the popular Raspberry Pi RP2040, a dual core ARM Cortex M0 microcontroller.</p>
+
+<p>Features
+USB-C Connector
+NEOPIXEL Compatible SK6812mini Addressable RGB LED
+15 Flexible GPIO (3 Analog, All PWM’able)
+Castellated single sided design for flush mounting
+Buttons on the corners for easy access
+3.3V broken out with 500mA max output
+Raw USB Power (5.5V) and USB PID configured for up to 3A with USB Type-C PID Supply</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.tindie.com/products/oakdevtech/cast-away-rp2040-a-castellated-rp2040-dev-board/">Tindie</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/odt_cast_away_rp2040/</guid>
+  </item><item>
     <title>PixelWing ESP32-S2 RGB Matrix</title>
     <link>https://circuitpython.org/board/odt_pixelwing_esp32_s2/</link>
     <description><![CDATA[ 
@@ -7856,6 +7940,68 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <pubDate>Thu, 21 Jan 2021 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/raspberry_pi_pico/</guid>
   </item><item>
+    <title>Compute Module 4</title>
+    <link>https://circuitpython.org/board/raspberrypi_cm4/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/raspberry_pi_cm4.jpg 300w,
+               /assets/images/boards/large/raspberry_pi_cm4.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/raspberry_pi_cm4.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Raspberry Pi</p> <p>The <strong>Raspberry Pi Compute Module 4</strong> is based on the <a href="http://www.adafruit.com/product/4297">Raspberry Pi 4 Model B</a>, but in a smaller form factor - perfect for embedding into products or projects without the bulk of a classic Raspberry Pi. You get all the computational power of Raspberry Pi 4 in a compact form factor for deeply embedded applications. The CM4 incorporates the same quad-core ARM Cortex-A72 processor, dual video output, gigabit Ethernet, UART, I2C, SPI, I2S, and a few PWM for good measure.</p>
+
+<p>This module is available in <strong>multiple variants</strong>, with a range of RAM and eMMC Flash options, and with or without wireless connectivity. The modules are available with 1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM with optional storage of 8GB, 16GB or 32GB eMMC Flash. The wireless option includes 2.4GHz and 5GHz 802.11b/g/n/ac wireless LAN and Bluetooth 5.0 for BT classic and BTLE support.</p>
+
+<h5 id="this-product-version-of-the-cm4-modules-comes-with-4gb-ram-32gb-mmc-and-wifi"><strong>This product version of the CM4 modules comes with 4GB RAM 32GB MMC, and WiFi!</strong></h5>
+
+<p><strong>Note: We don’t include the <a href="http://www.adafruit.com/product/4787">Compute Module IO board</a>, but it’s strongly recommended!</strong></p>
+
+<p>Compute ALL the THINGs!</p>
+
+<p><a href="https://www.adafruit.com/product/4092">Compared to the earlier Compute Module 3+</a>, the CM4 features faster CPU cores, better multimedia, more interfacing capabilities, a range of RAM densities, and a wireless connectivity option. Instead of a DIMM socket, there are two board-to-board connectors that carry high-speed signals with ease - like multiple MIPI displays and camera ports. In addition to all the pins that supply Ethernet and SDIO and SPI and such, there’s also 28 GPIO pins, with up to 6 × UART, 6 × I2C and 5 × SPI.</p>
+
+<p>On the video side, there are dual HDMI output, VideoCore VI graphics with OpenGL ES 3.x support, 4Kp60 hardware decode of H.265 (HEVC) video, and 1080p30 hardware encode of H.264 (AVC) video.</p>
+
+<p>It’s great for industrial control or robotic use, digital/video signage, IoT, and AI/machine learning projects</p>
+
+<p>Compute Module 4 introduces a brand new form factor and a compatibility break with earlier Compute Modules. Where previous modules adopted the JEDEC DDR2 SODIMM mechanical standard, with I/O signals on an edge connector, we now bring I/O signals to two high-density perpendicular connectors (one for power and low-speed interfaces, and one for high-speed interfaces).</p>
+
+<p>This significantly reduces the overall footprint of the module on its carrier board, letting you achieve smaller form factors for your products. This version is intended for experienced developers who will be using the board for industrial and commercial applications.</p>
+
+<p><strong>Specifications</strong></p>
+
+<ul>
+  <li>1.5GHz quad-core 64-bit ARM Cortex-A72 CPU</li>
+  <li>VideoCore VI graphics, supporting OpenGL ES 3.x</li>
+  <li>4Kp60 hardware decode of H.265 (HEVC) video</li>
+  <li>1080p60 hardware decode, and 1080p30 hardware encode of H.264 (AVC) video</li>
+  <li>Dual HDMI interfaces, at resolutions up to 4K</li>
+  <li>Single-lane PCI Express 2.0 interface</li>
+  <li>Dual MIPI DSI display, and dual MIPI CSI-2 camera interfaces</li>
+  <li>1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM</li>
+  <li>Optional 8GB, 16GB or 32GB eMMC Flash storage</li>
+  <li>Optional 2.4GHz and 5GHz IEEE 802.11b/g/n/ac wireless LAN and Bluetooth 5.0</li>
+  <li>Gigabit Ethernet PHY with IEEE 1588 support</li>
+  <li>28 GPIO pins, with up to 6 × UART, 6 × I2C, and 5 × SPI</li>
+</ul>
+
+<h2 id="circuitpython">CircuitPython</h2>
+
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+
+<p>After installing the disk image on an SD card, the normal CircuitPython USB workflow will be available on the micro-B connector on the IO board. EMMC compute modules are not supported yet.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/4982">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_cm4/</guid>
+  </item><item>
     <title>Compute Module 4 IO Board</title>
     <link>https://circuitpython.org/board/raspberrypi_cm4io/</link>
     <description><![CDATA[ 
@@ -8342,10 +8488,6 @@ The XIAO RP2040 is very compact because all electronic components are soldered o
 <ul>
   <li><a href="https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html">seeeduino_xiao_rp2040</a></li>
 </ul>
-
-<h2 id="contribute">Contribute</h2>
-
-<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/seeeduino_xiao_rp2040.md">here</a>.</p>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
@@ -8911,6 +9053,30 @@ used for the circuity python build that includes this chip!</li>
     <category>CircuitPython</category>
     <pubDate>Wed, 26 Feb 2020 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/sparkfun_samd51_thing_plus/</guid>
+  </item><item>
+    <title>STM32 Thing Plus</title>
+    <link>https://circuitpython.org/board/sparkfun_stm32_thing_plus/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/sparkfun_stm32_thing_plus.jpg 300w,
+               /assets/images/boards/large/sparkfun_stm32_thing_plus.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/sparkfun_stm32_thing_plus.jpg" alt="Image of Board" loading="lazy">
+
+<p>By SparkFun</p> <p>With a 32-bit ARM® Cortex®-M4 RISC core, the SparkFun STM32 Thing Plus brings power and precision to your projects. The STM32 Thing Plus provides you with an economical and easy to use development platform if you’re needing more power with a minimal working space. This Thing comes flashed with the DFU bootloader, and to make the Thing Plus even easier to use, we’ve moved a few pins around to make the board Feather compatible. In addition, it utilizes our handy Qwiic Connect System which means no soldering or shields are required to connect it to the rest of your system!</p>
+
+<p>As we previously stated; the STM32F405 Processor is based on the high-performance ARM® Cortex®-M4 32-bit RISC core and can operate at a frequency of up to 168 MHz. The Cortex-M4 core features a floating point unit (FPU) single precision which supports all ARM single precision data-processing instructions and data types. It also implements a full set of DSP instructions and a memory protection unit (MPU) which enhances application security. This Processor Board utilizes the DFU bootloader for uploading code, and incorporates an extensive range of enhanced I/Os and peripherals. In addition to the USB interface and Qwiic connection, the STM32 Thing Plus provides a 3.3V regulator and LiPo charger as well as 16MB of Flash and microSD slot for expandable memory.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.sparkfun.com/products/17712">SparkFun</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/sparkfun_stm32_thing_plus/</guid>
   </item><item>
     <title>MicroMod STM32 Processor</title>
     <link>https://circuitpython.org/board/sparkfun_stm32f405_micromod/</link>
@@ -11748,6 +11914,43 @@ Enclosure</li>
     </item>
 
     <item>
+      <title>NanoPi NEO</title>
+      <link>https://circuitpython.org/blinka/nanopi_neo_h3/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/nanopi_neo.jpg 300w,
+               /assets/images/boards/large/nanopi_neo.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/nanopi_neo.jpg" alt="Image of Board" loading="lazy">
+
+<p>By FriendlyElec</p> <p>LTS - long term support, We will not make any changes to this model and will provide support as long as possible</p>
+
+<ul>
+  <li>CPU: Allwinner H3, Quad-core Cortex-A7 Up to 1.2GHz</li>
+  <li>DDR3 RAM: 256MB/512MB</li>
+  <li>Connectivity: 10/100M Ethernet</li>
+  <li>USB Host: Type-A x 1, 2.54 mm pin x 2</li>
+  <li>MicroSD Slot x 1</li>
+  <li>MicroUSB: for data transmission and power input</li>
+  <li>Debug Serial Port: 4Pin, 2.54 mm pitch pin header</li>
+  <li>GPIO: 2.54mm pitch 36pin. It includes UART, SPI, I2C, IO etc</li>
+  <li>PCB Dimension: 40 x 40 mm</li>
+  <li>Power Supply: DC 5V/2A</li>
+  <li>OS/Software: u-boot and UbuntuCore</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.friendlyarm.com/index.php?route=product/product&amp;path=69&amp;product_id=132">FriendlyElec</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/nanopi_neo_h3/</guid>
+    </item>
+
+    <item>
       <title>OSD32MP1-RED</title>
       <link>https://circuitpython.org/blinka/octavo_osd32mp1_brk/</link>
       <description><![CDATA[ 
@@ -12174,6 +12377,58 @@ This allows users to truly experience an upgrade in computing, especially with f
       <category>Blinka</category>
       <pubDate>Mon, 11 May 2020 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/orange_pi_2/</guid>
+    </item>
+
+    <item>
+      <title>Orange Pi 3</title>
+      <link>https://circuitpython.org/blinka/orange_pi_3/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/orange_pi_3.jpg 300w,
+               /assets/images/boards/large/orange_pi_3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/orange_pi_3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Shenzhen Xunlong Software CO.,Limited</p> <p>Orange Pi 3 is for anyone who wants to start creating with technology – not just consuming it. It’s a simple, fun, useful tool that you can use to start taking control of the world around you.</p>
+
+<h3 id="hardware-specification">Hardware specification</h3>
+<ul>
+  <li>H6 Quad-core 64-bit 1.8GHZ ARM Cortex™-A53</li>
+  <li>High-performance multi-core GPU Mali T720</li>
+  <li>OpenGL ES3.1/3.0/2.0/1.1</li>
+  <li>Microsoft DirectX 11 FL9_3</li>
+  <li>ASTC(Adaptive Scalable Texture Compression)</li>
+  <li>Floating point operation greater than 70 GFLOPS</li>
+  <li>AP6256, IEEE 802.11 a/b/g/n/ac, BT5.0</li>
+  <li>10/100M/1000M , ethernet RJ45</li>
+  <li>RTL8211</li>
+  <li>MIC</li>
+  <li>HDMI 2.0a and 3.5 mm AV Jack</li>
+  <li>HDMI 2.0a and CVBS</li>
+  <li>H265/HEVC Main/Main10 profile@Level5.2 High-tier ;4K@60fps, up to 6Kx4K@30fps</li>
+  <li>H264/AVC BP/MP/HP@level5.1, MVC, 4K@30fps</li>
+  <li>VP9，Profile 0/2, 4K@30fps</li>
+  <li>AVS+/AVS JIZHUN profile@level 6.0, 1080P@60fps</li>
+  <li>Supports RC mode</li>
+  <li>Supports x1 Gen2(5.0Gbps) lane</li>
+  <li>Complies with PCI Express Base 2.0 Specification</li>
+  <li>DC input，MicroUSB (OTG)</li>
+  <li>AXP805</li>
+  <li>1<em>USB 2.0 Host, 1</em>USB OTG 2.0</li>
+  <li>4*USB 3.0 Host</li>
+  <li>26 Pin GPIO</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://pt.aliexpress.com/item/1005001804159295.html">Aliexpress</a></li>
+  <li><a href="https://amzn.to/3qGAtOM">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/orange_pi_3/</guid>
     </item>
 
     <item>

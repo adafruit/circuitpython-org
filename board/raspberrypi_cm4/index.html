@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Raspberry Pi CM4 Download</title>
+<meta name="description" content="The Raspberry Pi Compute Module 4 is based on the Raspberry Pi 4 Model B, but in a smaller form factor - perfect for embedding into products or projects with..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/raspberrypi_cm4/" />
+
+<meta property="og:title"   content="CircuitPython - Raspberry Pi CM4 Download" />
+
+
+
+<meta property="og:description" content="The Raspberry Pi Compute Module 4 is based on the Raspberry Pi 4 Model B, but in a smaller form factor - perfect for embedding into products or projects without the bulk of a classic Raspberry Pi. You get all the computational power of Raspberry Pi 4 in a compact form factor for deeply embedded a..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/raspberry_pi_cm4.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/raspberrypi_cm4/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://circuitpython.readthedocs.io/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Compute Module 4</h1>
+  <h3>by Raspberry Pi</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/raspberry_pi_cm4.jpg" alt="Image of Board">
+        
+        <p>
+          <p>The <strong>Raspberry Pi Compute Module 4</strong> is based on the <a href="http://www.adafruit.com/product/4297">Raspberry Pi 4 Model B</a>, but in a smaller form factor - perfect for embedding into products or projects without the bulk of a classic Raspberry Pi. You get all the computational power of Raspberry Pi 4 in a compact form factor for deeply embedded applications. The CM4 incorporates the same quad-core ARM Cortex-A72 processor, dual video output, gigabit Ethernet, UART, I2C, SPI, I2S, and a few PWM for good measure.</p>
+
+<p>This module is available in <strong>multiple variants</strong>, with a range of RAM and eMMC Flash options, and with or without wireless connectivity. The modules are available with 1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM with optional storage of 8GB, 16GB or 32GB eMMC Flash. The wireless option includes 2.4GHz and 5GHz 802.11b/g/n/ac wireless LAN and Bluetooth 5.0 for BT classic and BTLE support.</p>
+
+<h5 id="this-product-version-of-the-cm4-modules-comes-with-4gb-ram-32gb-mmc-and-wifi"><strong>This product version of the CM4 modules comes with 4GB RAM 32GB MMC, and WiFi!</strong></h5>
+
+<p><strong>Note: We don’t include the <a href="http://www.adafruit.com/product/4787">Compute Module IO board</a>, but it’s strongly recommended!</strong></p>
+
+<p>Compute ALL the THINGs!</p>
+
+<p><a href="https://www.adafruit.com/product/4092">Compared to the earlier Compute Module 3+</a>, the CM4 features faster CPU cores, better multimedia, more interfacing capabilities, a range of RAM densities, and a wireless connectivity option. Instead of a DIMM socket, there are two board-to-board connectors that carry high-speed signals with ease - like multiple MIPI displays and camera ports. In addition to all the pins that supply Ethernet and SDIO and SPI and such, there’s also 28 GPIO pins, with up to 6 × UART, 6 × I2C and 5 × SPI.</p>
+
+<p>On the video side, there are dual HDMI output, VideoCore VI graphics with OpenGL ES 3.x support, 4Kp60 hardware decode of H.265 (HEVC) video, and 1080p30 hardware encode of H.264 (AVC) video.</p>
+
+<p>It’s great for industrial control or robotic use, digital/video signage, IoT, and AI/machine learning projects</p>
+
+<p>Compute Module 4 introduces a brand new form factor and a compatibility break with earlier Compute Modules. Where previous modules adopted the JEDEC DDR2 SODIMM mechanical standard, with I/O signals on an edge connector, we now bring I/O signals to two high-density perpendicular connectors (one for power and low-speed interfaces, and one for high-speed interfaces).</p>
+
+<p>This significantly reduces the overall footprint of the module on its carrier board, letting you achieve smaller form factors for your products. This version is intended for experienced developers who will be using the board for industrial and commercial applications.</p>
+
+<p><strong>Specifications</strong></p>
+
+<ul>
+  <li>1.5GHz quad-core 64-bit ARM Cortex-A72 CPU</li>
+  <li>VideoCore VI graphics, supporting OpenGL ES 3.x</li>
+  <li>4Kp60 hardware decode of H.265 (HEVC) video</li>
+  <li>1080p60 hardware decode, and 1080p30 hardware encode of H.264 (AVC) video</li>
+  <li>Dual HDMI interfaces, at resolutions up to 4K</li>
+  <li>Single-lane PCI Express 2.0 interface</li>
+  <li>Dual MIPI DSI display, and dual MIPI CSI-2 camera interfaces</li>
+  <li>1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM</li>
+  <li>Optional 8GB, 16GB or 32GB eMMC Flash storage</li>
+  <li>Optional 2.4GHz and 5GHz IEEE 802.11b/g/n/ac wireless LAN and Bluetooth 5.0</li>
+  <li>Gigabit Ethernet PHY with IEEE 1588 support</li>
+  <li>28 GPIO pins, with up to 6 × UART, 6 × I2C, and 5 × SPI</li>
+</ul>
+
+<h2 id="circuitpython">CircuitPython</h2>
+
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+
+<p>After installing the disk image on an SD card, the normal CircuitPython USB workflow will be available on the micro-B connector on the IO board. EMMC compute modules are not supported yet.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/4982">Adafruit</a></li>
+</ul>
+
+        </p>
+        <h2>Contribute</h2>
+        
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/raspberrypi_cm4.md">here</a>.</p>
+        
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+
+
+  <div class="section unstable">
+    <h3>CircuitPython 7.2.0-alpha.1</h3>
+    <p>
+      This is the latest unstable
+      release of CircuitPython that will work with the Compute Module 4.
+    </p>
+    <p>
+      
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/7.2.0-alpha.1">Release Notes for 7.2.0-alpha.1</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/zh_Latn_pinyin/adafruit-circuitpython-raspberrypi_cm4-zh_Latn_pinyin-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/zh_Latn_pinyin/adafruit-circuitpython-raspberrypi_cm4-zh_Latn_pinyin-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/zh_Latn_pinyin/adafruit-circuitpython-raspberrypi_cm4-zh_Latn_pinyin-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/zh_Latn_pinyin/adafruit-circuitpython-raspberrypi_cm4-zh_Latn_pinyin-7.2.0-alpha.1.kernel8.img
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/nl/adafruit-circuitpython-raspberrypi_cm4-nl-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/nl/adafruit-circuitpython-raspberrypi_cm4-nl-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/nl/adafruit-circuitpython-raspberrypi_cm4-nl-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/nl/adafruit-circuitpython-raspberrypi_cm4-nl-7.2.0-alpha.1.kernel8.img
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_GB/adafruit-circuitpython-raspberrypi_cm4-en_GB-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_GB/adafruit-circuitpython-raspberrypi_cm4-en_GB-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_GB/adafruit-circuitpython-raspberrypi_cm4-en_GB-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_GB/adafruit-circuitpython-raspberrypi_cm4-en_GB-7.2.0-alpha.1.kernel8.img
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_US/adafruit-circuitpython-raspberrypi_cm4-en_US-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_US/adafruit-circuitpython-raspberrypi_cm4-en_US-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_US/adafruit-circuitpython-raspberrypi_cm4-en_US-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_US/adafruit-circuitpython-raspberrypi_cm4-en_US-7.2.0-alpha.1.kernel8.img
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/fil/adafruit-circuitpython-raspberrypi_cm4-fil-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/fil/adafruit-circuitpython-raspberrypi_cm4-fil-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/fil/adafruit-circuitpython-raspberrypi_cm4-fil-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/fil/adafruit-circuitpython-raspberrypi_cm4-fil-7.2.0-alpha.1.kernel8.img
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/fr/adafruit-circuitpython-raspberrypi_cm4-fr-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/fr/adafruit-circuitpython-raspberrypi_cm4-fr-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/fr/adafruit-circuitpython-raspberrypi_cm4-fr-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/fr/adafruit-circuitpython-raspberrypi_cm4-fr-7.2.0-alpha.1.kernel8.img
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/de_DE/adafruit-circuitpython-raspberrypi_cm4-de_DE-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/de_DE/adafruit-circuitpython-raspberrypi_cm4-de_DE-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/de_DE/adafruit-circuitpython-raspberrypi_cm4-de_DE-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/de_DE/adafruit-circuitpython-raspberrypi_cm4-de_DE-7.2.0-alpha.1.kernel8.img
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/ID/adafruit-circuitpython-raspberrypi_cm4-ID-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/ID/adafruit-circuitpython-raspberrypi_cm4-ID-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/ID/adafruit-circuitpython-raspberrypi_cm4-ID-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/ID/adafruit-circuitpython-raspberrypi_cm4-ID-7.2.0-alpha.1.kernel8.img
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/it_IT/adafruit-circuitpython-raspberrypi_cm4-it_IT-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/it_IT/adafruit-circuitpython-raspberrypi_cm4-it_IT-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/it_IT/adafruit-circuitpython-raspberrypi_cm4-it_IT-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/it_IT/adafruit-circuitpython-raspberrypi_cm4-it_IT-7.2.0-alpha.1.kernel8.img
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/ja/adafruit-circuitpython-raspberrypi_cm4-ja-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/ja/adafruit-circuitpython-raspberrypi_cm4-ja-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/ja/adafruit-circuitpython-raspberrypi_cm4-ja-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/ja/adafruit-circuitpython-raspberrypi_cm4-ja-7.2.0-alpha.1.kernel8.img
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_x_pirate/adafruit-circuitpython-raspberrypi_cm4-en_x_pirate-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_x_pirate/adafruit-circuitpython-raspberrypi_cm4-en_x_pirate-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_x_pirate/adafruit-circuitpython-raspberrypi_cm4-en_x_pirate-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_x_pirate/adafruit-circuitpython-raspberrypi_cm4-en_x_pirate-7.2.0-alpha.1.kernel8.img
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/pl/adafruit-circuitpython-raspberrypi_cm4-pl-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/pl/adafruit-circuitpython-raspberrypi_cm4-pl-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/pl/adafruit-circuitpython-raspberrypi_cm4-pl-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/pl/adafruit-circuitpython-raspberrypi_cm4-pl-7.2.0-alpha.1.kernel8.img
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/pt_BR/adafruit-circuitpython-raspberrypi_cm4-pt_BR-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/pt_BR/adafruit-circuitpython-raspberrypi_cm4-pt_BR-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/pt_BR/adafruit-circuitpython-raspberrypi_cm4-pt_BR-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/pt_BR/adafruit-circuitpython-raspberrypi_cm4-pt_BR-7.2.0-alpha.1.kernel8.img
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/ru/adafruit-circuitpython-raspberrypi_cm4-ru-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/ru/adafruit-circuitpython-raspberrypi_cm4-ru-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/ru/adafruit-circuitpython-raspberrypi_cm4-ru-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/ru/adafruit-circuitpython-raspberrypi_cm4-ru-7.2.0-alpha.1.kernel8.img
+                    data-locale=ru
+                    >
+              RUSSIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/es/adafruit-circuitpython-raspberrypi_cm4-es-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/es/adafruit-circuitpython-raspberrypi_cm4-es-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/es/adafruit-circuitpython-raspberrypi_cm4-es-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/es/adafruit-circuitpython-raspberrypi_cm4-es-7.2.0-alpha.1.kernel8.img
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/raspberrypi_cm4/sv/adafruit-circuitpython-raspberrypi_cm4-sv-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/sv/adafruit-circuitpython-raspberrypi_cm4-sv-7.2.0-alpha.1.kernel8.img
+                    data-files=https://downloads.circuitpython.org/bin/raspberrypi_cm4/sv/adafruit-circuitpython-raspberrypi_cm4-sv-7.2.0-alpha.1.disk.img.zip,https://downloads.circuitpython.org/bin/raspberrypi_cm4/sv/adafruit-circuitpython-raspberrypi_cm4-sv-7.2.0-alpha.1.kernel8.img
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable disk.img.zip" href="https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_US/adafruit-circuitpython-raspberrypi_cm4-en_US-7.2.0-alpha.1.disk.img.zip">DOWNLOAD .DISK.IMG.ZIP NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+        <a class="download-button unstable kernel8.img" href="https://downloads.circuitpython.org/bin/raspberrypi_cm4/en_US/adafruit-circuitpython-raspberrypi_cm4-en_US-7.2.0-alpha.1.kernel8.img">DOWNLOAD .KERNEL8.IMG NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">adafruit_pixelbuf, bitbangio, board, busio, digitalio, displayio, fontio, framebufferio, math, microcontroller, neopixel_write, os, rainbowio, random, sdioio, sharpdisplay, storage, struct, supervisor, terminalio, time, usb_cdc, usb_hid, usb_midi, vectorio</span>
+    </p>
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language.  The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/raspberrypi_cm4/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are listed on GitHub, with release notes,
+    and are available for download from Amazon S3.  They are handy for
+    testing, but otherwise we recommend using the latest stable
+    release.  Some older GitHub release pages include the same
+    binaries for downloading.  But we have discontinued including
+    binaries as assets on newer release pages because of the large
+    number of files for each release.
+  </p>
+  <p>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/raspberrypi_cm4/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>
