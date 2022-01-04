@@ -11,12 +11,9 @@ downloads_display: true
 
 
 features:
-  - Bluetooth 5.0
-  - NFC
-  - 21 x 17.5mm tiny board
-  - 5 μA power consumption in deep sleep model
+  - Bluetooth/BTLE
   - Battery Charging
-  - built-in 2 MB flash, microphone and 6-axis IMU 
+  - USB-C
 
 ---
 
@@ -28,6 +25,13 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
 
 The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
+
+* Bluetooth 5.0
+* NFC
+* 21 x 17.5mm tiny board
+* 5 μA power consumption in deep sleep model
+* Battery Charging
+* built-in 2 MB flash, microphone and 6-axis IMU 
 
 ## Purchase
 Add any links to purchase the board
