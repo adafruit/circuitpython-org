@@ -30,6 +30,3 @@ With Wi-Fi, native USB and a load of Flash & PSRAM the microS2 is perfect for us
 
 ### Learn More
 - [GitHub](https://github.com/microDev1/microS2/wiki)
-
-### Contribute
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/main/_board/{{page.board_id}}.md).
