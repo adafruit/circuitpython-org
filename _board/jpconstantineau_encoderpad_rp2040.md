@@ -35,5 +35,5 @@ It's not just a macropad with a big encoder but also a USB drive containing the 
 * [Board Documentation](https://github.com/jpconstantineau/EncoderPad_RP2040)
 
 ## Purchase
-The EncoderPad RP2040 is currently being tested.  Keep an eye on the Tindie store if you are interested in getting one.
-* [Tindie](https://www.tindie.com/stores/jpconstantineau/)
+The EncoderPad RP2040 is now on the Tindie store if you are interested in getting one.
+* [Tindie](https://www.tindie.com/products/jpconstantineau/rgb-video-editing-macropad-with-a-rp2040/)

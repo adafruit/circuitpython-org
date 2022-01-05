@@ -6,7 +6,7 @@ name: "PyKey18 Numpad"
 manufacturer: "JPConstantineau"
 board_url: "https://github.com/jpconstantineau/PyKey60"
 board_image: "jpconstantineau_pykey18.jpg"
-downloads_display: false
+downloads_display: true
 date_added: 2021-12-15
 family: raspberrypi
 
@@ -20,6 +20,8 @@ features:
 The PyKey18 is a custom programmable mechanical keyboard with a standard Numpad layout, a rotary encoder and a small OLED display. The PyKey18 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.  The PCB was designed for use with PCB-mount stabilizers.
 
 Since this is a Hot Swappable Switches keyboard, you can choose the MX switches as well as the keycaps you prefer.  You can even mix and match switches for the ultimate customization.
+
+The PyKey18 also has a small 0.91" OLED display and has a location for an optional Stemma QT/QWIIC connector.
 
 
 ## Features
