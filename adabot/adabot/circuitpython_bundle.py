@@ -424,7 +424,7 @@ def new_release(bundle, bundle_path):
     release_description.append(
         "The libraries in each release are compiled for all recent major versions of CircuitPython."
         " Please download the one that matches the major version of your CircuitPython. For example"
-        ", if you are running 6.0.0 you should download the `6.x` bundle.\n"
+        ", if you are running 7.0.0 you should download the `7.x` bundle.\n"
     )
 
     release_description.append(

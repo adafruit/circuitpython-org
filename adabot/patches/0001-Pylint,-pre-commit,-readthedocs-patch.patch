@@ -1,0 +1,105 @@
+From 45a494ad6b93623b42ac6c96ff261be52ea37537 Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Wed, 3 Nov 2021 14:40:16 -0400
+Subject: PATCH Pylint and readthedocs patch test
+
+---
+ .github/workflows/build.yml |  4 ++--
+ .pre-commit-config.yaml     | 26 +++++++++++++++++---------
+ .pylintrc                   |  2 +-
+ .readthedocs.yml            |  2 +-
+ docs/requirements.txt       |  5 +++++
+ 5 files changed, 26 insertions(+), 13 deletions(-)
+ create mode 100644 docs/requirements.txt
+
+diff --git a/.github/workflows/build.yml b/.github/workflows/build.yml
+index c4c975d..ca35544 100644
+--- a/.github/workflows/build.yml
++++ b/.github/workflows/build.yml
+@@ -42,9 +42,9 @@ jobs:
+       # (e.g. - apt-get: gettext, etc; pip: circuitpython-build-tools, requirements.txt; etc.)
+       run: |
+         source actions-ci/install.sh
+-    - name: Pip install pylint, Sphinx, pre-commit
++    - name: Pip install Sphinx, pre-commit
+       run: |
+-        pip install --force-reinstall pylint Sphinx sphinx-rtd-theme pre-commit
++        pip install --force-reinstall Sphinx sphinx-rtd-theme pre-commit
+     - name: Library version
+       run: git describe --dirty --always --tags
+     - name: Pre-commit hooks
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index 8810708..1b9fadc 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -18,17 +18,25 @@ repos:
+     -   id: end-of-file-fixer
+     -   id: trailing-whitespace
+ -   repo: https://github.com/pycqa/pylint
+-    rev: pylint-2.7.1
++    rev: v2.11.1
+     hooks:
+     -   id: pylint
+         name: pylint (library code)
+         types: [python]
+-        exclude: "^(docs/|examples/|setup.py$)"
+--   repo: local
+-    hooks:
+-    -   id: pylint_examples
+-        name: pylint (examples code)
++        args:
++          - --disable=consider-using-f-string
++        exclude: "^(docs/|examples/|tests/|setup.py$)"
++    -   id: pylint
++        name: pylint (example code)
+         description: Run pylint rules on "examples/*.py" files
+-        entry: /usr/bin/env bash -c
+-        args: ['([[ ! -d "examples" ]] || for example in $(find . -path "./examples/*.py"); do pylint --disable=missing-docstring,invalid-name,consider-using-f-string $example; done)']
+-        language: system
++        types: [python]
++        files: "^examples/"
++        args:
++        - --disable=missing-docstring,invalid-name,consider-using-f-string,duplicate-code
++    -   id: pylint
++        name: pylint (test code)
++        description: Run pylint rules on "tests/*.py" files
++        types: [python]
++        files: "^tests/"
++        args:
++        - --disable=missing-docstring,consider-using-f-string,duplicate-code
+diff --git a/.pylintrc b/.pylintrc
+index aed1e4c..12a028e 100644
+--- a/.pylintrc
++++ b/.pylintrc
+@@ -252,7 +252,7 @@ ignore-docstrings=yes
+ ignore-imports=yes
+ 
+ # Minimum lines number of a similarity.
+-min-similarity-lines=12
++min-similarity-lines=4
+ 
+ 
+ [BASIC]
+diff --git a/.readthedocs.yml b/.readthedocs.yml
+index ffa84c4..49dcab3 100644
+--- a/.readthedocs.yml
++++ b/.readthedocs.yml
+@@ -4,4 +4,4 @@
+ 
+ python:
+     version: 3
+-requirements_file: requirements.txt
++requirements_file: docs/requirements.txt
+diff --git a/docs/requirements.txt b/docs/requirements.txt
+new file mode 100644
+index 0000000..88e6733
+--- /dev/null
++++ b/docs/requirements.txt
+@@ -0,0 +1,5 @@
++# SPDX-FileCopyrightText: 2021 Kattni Rembor for Adafruit Industries
++#
++# SPDX-License-Identifier: Unlicense
++
++sphinx>=4.0.0
+-- 
+2.25.1

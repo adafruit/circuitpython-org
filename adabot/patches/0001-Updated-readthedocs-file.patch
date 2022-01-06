@@ -1,0 +1,49 @@
+From df685288b18965c4089a8895b0eb3bf80c17423e Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Tue, 9 Nov 2021 13:31:14 -0500
+Subject: [PATCH] Updated readthedocs file
+
+---
+ .readthedocs.yaml | 15 +++++++++++++++
+ .readthedocs.yml  |  7 -------
+ 2 files changed, 15 insertions(+), 7 deletions(-)
+ create mode 100644 .readthedocs.yaml
+ delete mode 100644 .readthedocs.yml
+
+diff --git a/.readthedocs.yaml b/.readthedocs.yaml
+new file mode 100644
+index 0000000..95ec218
+--- /dev/null
++++ b/.readthedocs.yaml
+@@ -0,0 +1,15 @@
++# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
++#
++# SPDX-License-Identifier: Unlicense
++
++# Read the Docs configuration file
++# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
++
++# Required
++version: 2
++
++python:
++  version: "3.6"
++  install:
++    - requirements: docs/requirements.txt
++    - requirements: requirements.txt
+diff --git a/.readthedocs.yml b/.readthedocs.yml
+deleted file mode 100644
+index 49dcab3..0000000
+--- a/.readthedocs.yml
++++ /dev/null
+@@ -1,7 +0,0 @@
+-# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+-#
+-# SPDX-License-Identifier: Unlicense
+-
+-python:
+-    version: 3
+-requirements_file: docs/requirements.txt
+-- 
+2.25.1
+

@@ -93,7 +93,7 @@ ERROR_PYFILE_MISSING_ERRNO = (
     " without reference to import errno.  See issue "
     "https://github.com/adafruit/circuitpython/issues/1582"
 )
-ERROR_MISMATCHED_READTHEDOCS = "Mismatched readthedocs.yml"
+ERROR_MISMATCHED_READTHEDOCS = "Mismatched readthedocs.yaml"
 ERROR_MISSING_DESCRIPTION = "Missing repository description"
 ERROR_MISSING_EXAMPLE_FILES = "Missing .py files in examples folder"
 ERROR_MISSING_EXAMPLE_FOLDER = "Missing examples folder"
@@ -110,7 +110,7 @@ ERROR_MISSING_LICENSE = "Missing license."
 ERROR_MISSING_LINT = "Missing lint config"
 ERROR_MISSING_CODE_OF_CONDUCT = "Missing CODE_OF_CONDUCT.md"
 ERROR_MISSING_README_RST = "Missing README.rst"
-ERROR_MISSING_READTHEDOCS = "Missing readthedocs.yml"
+ERROR_MISSING_READTHEDOCS = "Missing readthedocs.yaml"
 ERROR_MISSING_SETUP_PY = "For pypi compatibility, missing setup.py"
 ERROR_MISSING_REQUIREMENTS_TXT = "For pypi compatibility, missing requirements.txt"
 ERROR_MISSING_BLINKA = (
@@ -230,25 +230,25 @@ class LibraryValidator:
 
     @property
     def rtd_yml_base(self):
-        """The parsed YAML from `.readthedocs.yml` in the cookiecutter-adafruit-circuitpython repo.
-        Used to verify that a library's `.readthedocs.yml` matches this version.
+        """The parsed YAML from `.readthedocs.yaml` in the cookiecutter-adafruit-circuitpython repo.
+        Used to verify that a library's `.readthedocs.yaml` matches this version.
         """
         if self._rtd_yaml_base is None:
             rtd_yml_dl_url = (
                 "https://raw.githubusercontent.com/adafruit/cookiecutter-adafruit-"
                 "circuitpython/main/%7B%7B%20cookiecutter%20and%20'tmp_repo'%20%7D"
                 "%7D/%7B%25%20if%20cookiecutter.sphinx_docs%20in%20%5B'y'%2C%20'yes'"
-                "%5D%20%25%7D.readthedocs.yml%7B%25%20endif%20%25%7D"
+                "%5D%20%25%7D.readthedocs.yaml%7B%25%20endif%20%25%7D"
             )
             rtd_yml = requests.get(rtd_yml_dl_url)
             if rtd_yml.ok:
                 try:
                     self._rtd_yaml_base = yaml.safe_load(rtd_yml.text)
                 except yaml.YAMLError:
-                    print("Error parsing cookiecutter .readthedocs.yml.")
+                    print("Error parsing cookiecutter .readthedocs.yaml.")
                     self._rtd_yaml_base = ""
             else:
-                print("Error retrieving cookiecutter .readthedocs.yml")
+                print("Error retrieving cookiecutter .readthedocs.yaml")
                 self._rtd_yaml_base = ""
 
         return self._rtd_yaml_base
@@ -645,7 +645,7 @@ class LibraryValidator:
             files = [x["name"] for x in content_list]
 
         # ignore new/in-work repos, which should have less than 8 files:
-        # ___.py or folder, CoC, .github/, .readthedocs.yml, docs/,
+        # ___.py or folder, CoC, .github/, .readthedocs.yaml, docs/,
         # examples/, README, LICENSE
         if len(files) < 8:
             BUNDLE_IGNORE_LIST.append(repo["name"])
@@ -701,11 +701,11 @@ class LibraryValidator:
             else:
                 errors.append(ERROR_UNABLE_PULL_REPO_CONTENTS)
 
-        if "readthedocs.yml" in files or ".readthedocs.yml" in files:
+        if "readthedocs.yaml" in files or ".readthedocs.yaml" in files:
             if self.rtd_yml_base != "":
-                filename = "readthedocs.yml"
-                if ".readthedocs.yml" in files:
-                    filename = ".readthedocs.yml"
+                filename = "readthedocs.yaml"
+                if ".readthedocs.yaml" in files:
+                    filename = ".readthedocs.yaml"
                 file_info = content_list[files.index(filename)]
                 rtd_contents = requests.get(file_info["download_url"])
                 if rtd_contents.ok:
@@ -715,7 +715,7 @@ class LibraryValidator:
                             errors.append(ERROR_MISMATCHED_READTHEDOCS)
                     except yaml.YAMLError:
                         self.output_file_data.append(
-                            "Error parsing {} .readthedocs.yml.".format(repo["name"])
+                            "Error parsing {} .readthedocs.yaml.".format(repo["name"])
                         )
                         errors.append(ERROR_OUTPUT_HANDLER)
         else:
