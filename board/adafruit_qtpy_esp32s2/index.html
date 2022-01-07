@@ -19,7 +19,7 @@
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
 <title>Adafruit QT Py ESP32-S2 Download</title>
-<meta name="description" content="Coming Soon!Learn More  Adafruit Blog" />
+<meta name="description" content="What has your favorite Espressif WiFi microcontroller, comes with our favorite connector - the STEMMA QT, a chainable I2C port, and has lots of Flash and RAM..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:description" content="Coming Soon!Learn More  Adafruit Blog" />
+<meta property="og:description" content="What has your favorite Espressif WiFi microcontroller, comes with our favorite connector - the STEMMA QT, a chainable I2C port, and has lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy? What a cutie pie! Or is it… a QT Py? This diminutive dev bo..." />
 
 
 
@@ -154,12 +154,50 @@
           <img src="/assets/images/boards/large/adafruit_qtpy_esp32s2.jpg" alt="Image of Board">
         
         <p>
-          <p>Coming Soon!</p>
+          <p>What has your favorite Espressif WiFi microcontroller, comes with <a href="http://adafruit.com/stemma">our favorite connector - the STEMMA QT</a>, a chainable I2C port, and has lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy? What a cutie pie! Or is it… a <strong>QT Py</strong>? This diminutive dev board comes with one of our new favorite lil chips, the <strong>ESP32-S2</strong>!</p>
 
-<h2 id="learn-more">Learn More</h2>
+<p>The ESP32-S2 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has <strong>built-in native USB</strong> as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<p><strong>Please note</strong> the QT Py ESP32-S2 has a single-core 240 MHz chip, so it won’t be as fast as ESP32’s with dual-core. Also, there is no Bluetooth support. However, we are super excited about the ESP32-S2’s native USB which unlocks a lot of capabilities for advanced interfacing! This ESP32-S2 mini-module we are using on the QT Py comes with 4 MB flash and 2 MB PSRAM so you can buffer massive JSON files for parsing!</p>
+
+<p><a href="https://www.adafruit.com/?q=qt+oled&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">OLEDs</a>! <a href="https://www.adafruit.com/?q=qt+imu&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Inertial Measurement Units</a>! <a href="https://www.adafruit.com/?q=qt+sensor&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Sensors a-plenty</a>. All plug-and-play thanks to the innovative chainable design: <a href="https://www.sparkfun.com/qwiic">SparkFun Qwiic</a>-compatible <a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt">STEMMA QT</a> connectors for the I2C bus so you don’t even need to solder! Just plug in a compatible cable and attach it to your MCU of choice, and you’re ready to load up some software and measure some light. <a href="https://www.adafruit.com/product/4528">Seeed Grove I2C boards</a> will also work with this adapter cable.</p>
+
+<p>Pinout and shape are <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/">Seeed Xiao</a> compatible, with castellated pads so you can solder it flat to a PCB. In addition to the QT connector, we also added an <strong>RGB NeoPixel</strong> (with controllable power pin to allow for ultra-low-power usage), <strong>a reset button</strong> (great for restarting your program or entering the bootloader) and a button on GPIO 0 for entering the ROM bootloader or for user input</p>
+
+<p>Runs Arduino like a dream, and CircuitPython projects are fantastically fun.</p>
 
 <ul>
-  <li><a href="https://blog.adafruit.com/category/qt-py/">Adafruit Blog</a></li>
+  <li>Same size, form-factor, and pin-out as Seeed Xiao</li>
+  <li><strong>USB Type C connector</strong> - <a href="https://www.adafruit.com/product/4299">If you have only Micro B cables, this adapter will come in handy</a>!</li>
+  <li><strong>ESP32-S2 240MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>4 MB Flash &amp; 2 MB PSRAM</strong></li>
+  <li>Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>
+  <li>Can be used with <strong>Arduino IDE</strong> or <strong>CircuitPython</strong></li>
+  <li><strong>Built-in RGB NeoPixel LED</strong> with power control to reduce quiescent power in deep sleep</li>
+  <li>Battery input pads on underside with diode protection for external battery packs up to 6V input</li>
+  <li>13 GPIO pins:
+    <ul>
+      <li>11 on breakout pads, 2 more on QT connector</li>
+      <li>10 x 12-bit analog inputs (SPI high speed pads do not have analog inputs)</li>
+      <li>8-bit analog output DAC</li>
+      <li>PWM outputs on any pin</li>
+      <li>Two I2C ports, one on the breakout pads, and another with STEMMA QT plug-n-play connector</li>
+      <li>Hardware UART</li>
+      <li>Hardware SPI on the high speed SPI peripheral puns</li>
+      <li>Hardware I2S on any pins</li>
+      <li>5 x Capacitive Touch with no additional components required</li>
+    </ul>
+  </li>
+  <li>3.3V regulator with <a href="https://www.diodes.com/assets/Datasheets/AP2112.pdf"><strong>600mA peak output</strong></a></li>
+  <li>Deep sleep at 100uA</li>
+  <li><strong>Reset switch</strong> for starting your project code over, boot 0 button for entering bootloader mode</li>
+  <li><strong>Really really small</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5325">Adafruit</a></li>
 </ul>
 
         </p>
