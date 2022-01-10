@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 10 Jan 2022 13:13:57 -0500</lastBuildDate>
+<lastBuildDate>Mon, 10 Jan 2022 17:08:35 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -8286,6 +8286,41 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <category>CircuitPython</category>
     <pubDate>Sun, 28 Nov 2021 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/raspberrypi_zero2w/</guid>
+  </item><item>
+    <title>Zero W</title>
+    <link>https://circuitpython.org/board/raspberrypi_zero_w/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/raspberry_pi_zero_w.jpg 300w,
+               /assets/images/boards/large/raspberry_pi_zero_w.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/raspberry_pi_zero_w.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+
+<p><strong>Raspberry Pi Zero W</strong> Is the first small size (Wifi enabled) Raspberry Pi’s single-board computers. This is the predecessor of <strong>Raspberry Pi Zero 2 W</strong> with the same form factor.</p>
+
+<p>The board incorporates a Broadcom single-core ARMv6 CPU (BCM2835) clocked at 1GHz and has 512MB of RAM.</p>
+
+<p>The board has a microSD card slot, a CSI-2 camera connector, a USB On-The-Go (OTG) port, and an unpopulated footprint for a HAT-compatible 40-pin GPIO header. It is powered via a micro USB socket. Video output is via a mini HDMI port; composite video output can easily be made available via test points, if needed. Sharing the same form factor as the original Raspberry Pi Zero, Raspberry Pi Zero 2 W fits inside most existing Raspberry Pi Zero cases.</p>
+
+<h2 id="circuitpython">CircuitPython</h2>
+
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+
+<p>This image could work on non Wifi Pi Zero but was primarly develop for the Wifi version.</p>
+
+<p>After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the micro-B USB connector labeled “USB”.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/3400">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 06 Jan 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_zero_w/</guid>
   </item><item>
     <title>MDBT50Q-DB-40</title>
     <link>https://circuitpython.org/board/raytac_mdbt50q-db-40/</link>
