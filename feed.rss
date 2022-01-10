@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 10 Jan 2022 11:16:20 -0500</lastBuildDate>
+<lastBuildDate>Mon, 10 Jan 2022 11:17:04 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -5263,14 +5263,61 @@ JTAG pads for advanced debugging access.</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
-<p>The EncoderPad RP2040 is currently being tested.  Keep an eye on the Tindie store if you are interested in getting one.</p>
+<p>The EncoderPad RP2040 is now on the Tindie store if you are interested in getting one.</p>
 <ul>
-  <li><a href="https://www.tindie.com/stores/jpconstantineau/">Tindie</a></li>
+  <li><a href="https://www.tindie.com/products/jpconstantineau/rgb-video-editing-macropad-with-a-rp2040/">Tindie</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Wed, 01 Sep 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/jpconstantineau_encoderpad_rp2040/</guid>
+  </item><item>
+    <title>PyKey18 Numpad</title>
+    <link>https://circuitpython.org/board/jpconstantineau_pykey18/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/jpconstantineau_pykey18.jpg 300w,
+               /assets/images/boards/large/jpconstantineau_pykey18.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/jpconstantineau_pykey18.jpg" alt="Image of Board" loading="lazy">
+
+<p>By JPConstantineau</p> <p>The PyKey18 is a custom programmable mechanical keyboard with a standard Numpad layout, a rotary encoder and a small OLED display. The PyKey18 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.  The PCB was designed for use with PCB-mount stabilizers.</p>
+
+<p>Since this is a Hot Swappable Switches keyboard, you can choose the MX switches as well as the keycaps you prefer.  You can even mix and match switches for the ultimate customization.</p>
+
+<p>The PyKey18 also has a small 0.91” OLED display and has a location for an optional Stemma QT/QWIIC connector.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Powered by RP2040</li>
+  <li>Per key RGB LEDs (NeoPixels)</li>
+  <li>Kailh hot-swap switch sockets (for Cherry MX-compatible switches)</li>
+  <li>Included buzzer for audio feedback</li>
+  <li>Powered and programmable via USB-C</li>
+</ul>
+
+<h2 id="about-the-rp2040">About the RP2040</h2>
+<p>The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
+
+<h2 id="powered-by-circuitpython">Powered by CircuitPython</h2>
+<p>It’s not just a keyboard but also a USB drive containing the firmware as CircuitPython files. Its Python code can be changed with any text editor and executed simultaneously, which makes it super easy to customize the keymap, add macros or add a new function.  This keyboard is fully programmable via CiruitPython so there’s no software to install, just plug it in, change keymaps and start building macros. Since all of the programming happens on the keyboard Python files, you can plug it into any computer and take your custom layouts wherever you go.</p>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://github.com/jpconstantineau/PyKey60">Board Hardware Repo</a></li>
+  <li><a href="http://pykey.jpconstantineau.com/docs/">Helpful Documentation</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<p>The PyKey18 is available on the Tindie store if you are interested in getting one.</p>
+<ul>
+  <li><a href="https://www.tindie.com/products/jpconstantineau/pykey18-rgb-numpadkeyboard-with-a-rp2040/">Tindie</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Dec 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/jpconstantineau_pykey18/</guid>
   </item><item>
     <title>PyKey44 Ergo Keyboard</title>
     <link>https://circuitpython.org/board/jpconstantineau_pykey44/</link>
@@ -5363,6 +5410,55 @@ JTAG pads for advanced debugging access.</li>
     <category>CircuitPython</category>
     <pubDate>Thu, 16 Sep 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/jpconstantineau_pykey60/</guid>
+  </item><item>
+    <title>PyKey87 Ten Key Less (TKL) Keyboard</title>
+    <link>https://circuitpython.org/board/jpconstantineau_pykey87/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/jpconstantineau_pykey87.jpg 300w,
+               /assets/images/boards/large/jpconstantineau_pykey87.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/jpconstantineau_pykey87.jpg" alt="Image of Board" loading="lazy">
+
+<p>By JPConstantineau</p> <p>The PyKey87 is a custom programmable mechanical keyboard with a standard TKL layout. The PyKey87 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.  The PCB was designed for use with PCB-mount stabilizers.</p>
+
+<p>Since this is a Hot Swappable Switches keyboard, you can choose the MX switches as well as the keycaps you prefer.  You can even mix and match switches for the ultimate customization.</p>
+
+<p>Just like CircuitPython, this keyboard is targeted for beginners.  The design keeps the matrix definition simple to 17 columns and 6 rows instead of using a GPIO-optimized matrix of 8 columns and 8 rows.  Neopixel order is also in line with key numbers.  This keeps the complexity of coding a keyboard firmware to a minimum.</p>
+
+<p>The PCB also has a location for an optional Stemma QT/QWIIC connector.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Powered by RP2040</li>
+  <li>Per key RGB LEDs (NeoPixels)</li>
+  <li>Kailh hot-swap switch sockets (for Cherry MX-compatible switches)</li>
+  <li>Included buzzer for audio feedback</li>
+  <li>Powered and programmable via USB-C</li>
+</ul>
+
+<h2 id="about-the-rp2040">About the RP2040</h2>
+<p>The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
+
+<h2 id="powered-by-circuitpython">Powered by CircuitPython</h2>
+<p>It’s not just a keyboard but also a USB drive containing the firmware as CircuitPython files. Its Python code can be changed with any text editor and executed simultaneously, which makes it super easy to customize the keymap, add macros or add a new function.  This keyboard is fully programmable via CiruitPython so there’s no software to install, just plug it in, change keymaps and start building macros. Since all of the programming happens on the keyboard Python files, you can plug it into any computer and take your custom layouts wherever you go.</p>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://github.com/jpconstantineau/PyKey60">Board Hardware Repo</a></li>
+  <li><a href="http://pykey.jpconstantineau.com/docs/">Helpful Documentation</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<p>The PyKey87 is available on the Tindie store if you are interested in getting one.</p>
+<ul>
+  <li><a href="https://www.tindie.com/products/jpconstantineau/pykey87-rgb-tkl-keyboard-with-a-rp2040/">Tindie</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Dec 2021 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/jpconstantineau_pykey87/</guid>
   </item><item>
     <title>KickSat Sprite</title>
     <link>https://circuitpython.org/board/kicksat-sprite/</link>
