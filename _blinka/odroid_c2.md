@@ -42,7 +42,3 @@ Some of the modern operating systems that run on the ODROID-C2 are Ubuntu, Andro
 
 ## Purchase
 * [Hardkernel](https://www.hardkernel.com/shop/odroid-c2/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

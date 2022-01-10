@@ -8,7 +8,7 @@ board_url: "https://developer.nvidia.com/clara-agx-devkit"
 board_image: "clara_agx_xavier.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-11-5
+date_added: 2020-10-6
 features:
 
 ---
@@ -20,7 +20,3 @@ The NVIDIA Clara AGX™ developer kit is an embedded AI computer and software de
 
 ## Learn More
 * [NVIDIA](https://developer.nvidia.com/clara-agx-devkit)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

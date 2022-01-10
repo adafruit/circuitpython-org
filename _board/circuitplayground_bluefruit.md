@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "circuitplayground_bluefruit.jpg"
 date_added: 2019-8-30
+family: nrf52840
+bootloader_id: circuitplayground_nrf52840
 features:
   - Speaker
   - Solder-Free Alligator Clip
@@ -18,9 +20,6 @@ features:
   taken the popular Circuit Playground Express and made it even better! Now the main
   chip is an nRF52840 microcontroller which is not only more powerful, but also comes
   with Bluetooth Low Energy support for wireless connectivity.
-
-This product is ALPHA hardware at this time, for use by folks who are going to be
-developing software to support it - it's not quite ready for student/beginner use!
 
 The board is round and has alligator-clip pads around it so you don't have to solder
 or sew to make it work. You can power it from USB, a AAA battery pack, or with a
@@ -57,7 +56,3 @@ on the go!
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4333)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

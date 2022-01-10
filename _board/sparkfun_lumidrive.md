@@ -7,8 +7,10 @@ manufacturer: "SparkFun"
 board_url: ""
 board_image: "sparkfun_lumidrive_01.jpg"
 date_added: 2019-3-9
+family: atmel-samd
 features:
   - Battery Charging
+  - USB-C
 ---
 
 The LumiDrive LED Driver is SparkFun's foray into all things Python on micro-controllers. With the SparkFun LumiDrive you will be able to control and personalize a whole strand of APA102s directly from the board itself. We've broken out a number of analog and digital pins from the on board SAMD21G-AU microcontroller to incorporate your own external buttons, switches, and other interfaces to interact with your addressable LED strip.
@@ -19,7 +21,3 @@ The SparkFun LumiDrive has been equipped with a USB-C connector which is capable
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/14779)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

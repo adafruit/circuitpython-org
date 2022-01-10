@@ -1,8 +1,13 @@
-{% assign board = site.data.files | where: "id", page.board_id %}
+{% assign board_id = page.board_id %}
+{% if page.board_alias != nil %}
+    {% assign board_id = page.board_alias %}
+{% endif %}
+{% assign board = site.data.files | where: "id", board_id %}
 {% if board[0] %}
 {% assign stable = board[0].versions | where: "stable", true | sort: "version" %}
 {% assign unstable = board[0].versions | where: "stable", false | sort: "version" %}
 {% assign releases = stable | concat: unstable %}
+{% capture board_url %}https://downloads.circuitpython.org/bin/{{ board_id}}{% endcapture %}
 {% for version in releases %}
   <div class="section {% if version.stable %}stable{% else %}unstable{% endif %}">
     <h3>CircuitPython {{ version.version }}</h3>
@@ -21,51 +26,88 @@
       <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
     </p>
     <div class="download-details">
+      {% comment %}
+      Create a list of language codes and names so it can be sorted.
+      Jumping through hoops so that the new lines and spaces from the case are removed at the start of the names.
+      Finally the array is sorted, which is possible because each entry is now guaranteed to start with the language name, no whitespace.
+      Whitespaces still need to be filtered before outputing the strings.
+      {% endcomment %}
+      {% capture languages_with_names %}
+      {% for language in version.languages %}
+        {% case language %}
+          {% when 'cs' %}
+            CZECH
+          {% when 'de_DE' %}
+            GERMAN
+          {% when 'en_GB' %}
+            ENGLISH (UK)
+          {% when 'en_US' %}
+            ENGLISH (US)
+          {% when 'en_x_pirate' %}
+            PIRATE (ENGLISH)
+          {% when 'es' %}
+            SPANISH
+          {% when 'fil' %}
+            FILIPINO
+          {% when 'fr' %}
+            FRENCH
+          {% when 'el' %}
+            GREEK
+          {% when 'hi' %}
+            HINDI
+          {% when 'ID' %}
+            INDONESIAN
+          {% when 'it_IT' %}
+            ITALIAN
+          {% when 'ja' %}
+            JAPANESE
+          {% when 'ko' %}
+            KOREAN
+          {% when 'nl' %}
+            DUTCH
+          {% when 'pl' %}
+            POLISH
+          {% when 'pt_BR' %}
+            PORTUGUESE (BRAZILIAN)
+          {% when 'ru' %}
+            RUSSIAN
+          {% when 'sv' %}
+            SWEDISH
+          {% when 'zh_Latn_pinyin' %}
+            CHINESE (PINYIN)
+          {% else %}
+            {{ file[0] | upcase }}
+        {% endcase %}
+        ::{{ language }},
+      {% endfor %}
+      {% endcapture %}
+      {% assign languages_with_names_array = languages_with_names | split: "," %}
+      {% capture languages_with_names_strip %}{% for language_info in languages_with_names_array %}{{ language_info | strip }},{% endfor %}{% endcapture %}
+      {% assign languages_sorted = languages_with_names_strip | split: "," | sort_natural %}
       <label class="language-select">
         <select>
-          {% for file in version.files %}
-          <option value="{{ file[1] | join: ',' }}" data-files={{ file[1] | join: ',' }} data-locale={{ file[0] | replace: '_', '-' }} {% if file[0] == "en_US" %}selected{% endif %}>
-            {% case file[0] %}
-              {% when 'cs' %}
-                CZECH
-              {% when 'de_DE' %}
-                GERMAN
-              {% when 'en_US' %}
-                ENGLISH
-              {% when 'en_x_pirate' %}
-                PIRATE (ENGLISH)
-              {% when 'es' %}
-                SPANISH
-              {% when 'fil' %}
-                FILIPINO
-              {% when 'fr' %}
-                FRENCH
-              {% when 'ID' %}
-                INDONESIAN
-              {% when 'it_IT' %}
-                ITALIAN
-              {% when 'ko' %}
-                KOREAN
-              {% when 'nl' %}
-                DUTCH
-              {% when 'pl' %}
-                POLISH
-              {% when 'pt_BR' %}
-                PORTUGUESE (BRAZILIAN)
-              {% when 'sv' %}
-                SWEDISH
-              {% when 'zh_Latn_pinyin' %}
-                CHINESE (PINYIN)
-              {% else %}
-                {{ file[0] | upcase }}
-            {% endcase %}
-          </option>
+          {% for language_info in languages_sorted %}
+            {% assign language_split = language_info | split: "::" %}
+            {% assign language_name = language_split[0] | strip %}
+            {% assign language_code = language_split[1] | strip %}
+            {% if language_name == "" %}
+              {% comment %} Unnecessary ? {% endcomment %}
+              {% continue %}
+            {% endif %}
+            {% capture no_extension %}{{ board_url }}/{{ language_code }}/adafruit-circuitpython-{{ board_id }}-{{ language_code }}-{{ version.version }}{% endcapture %}
+            {% capture files %}{% for ext in version.extensions %}{{ no_extension }}.{{ext}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
+            <option value={{ files }}
+                    data-files={{ files }}
+                    data-locale={{ language_code | replace: '_', '-' }}
+                    {% if language_code == "en_US" %}selected{% endif %}>
+              {{ language_name }}
+            </option>
           {% endfor %}
         </select>
       </label>
       <div class="download-buttons">
-      {% for file in version.files['en_US'] %}
-        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ file | slice: -3, 3 }}" href="{{ file }}">DOWNLOAD {{ file | slice: -4, 4 | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      {% for extension in version.extensions %}
+        <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
       </div>
     </div>
@@ -88,7 +130,7 @@
     feeling daring or want to see if a problem has been fixed.
   </p>
   <div>
-    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
     <div class="clear"></div>
   </div>
 </div>
@@ -107,7 +149,7 @@
     <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
   </p>
   <div>
-    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ page.board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -119,46 +161,115 @@ By the way, boolean operation precedence is right to left! (yeesh)
 {% endcomment %}
 
 {% assign bootloaders = site.data.bootloaders.bootloaders %}
-{% assign bootloader_board = site.data.bootloaders.boards[page.board_id] %}
-{% assign bootloader_version = bootloaders[bootloader_board.family].version %}
-{% assign bootloader_id = bootloader_board.bootloader_id %}
-{% if bootloader_version and bootloader_id and bootloader_board %}
+{% assign bootloader_version = bootloaders[page.family].version %}
+{% assign bootloader_id = page.bootloader_id %}
+{% if bootloader_version and bootloader_id %}
+
+{% if page.family == 'esp32s2' %}
 <div class="section unrecommended">
-  <h3>UF2 Bootloader</h3>
+  <h3>Install, Repair, or Update UF2 Bootloader</h3>
   <p>
     Latest version: {{ bootloader_version }}
   </p>
   <p>
-    <strong>The bootloader allows you to load CircuitPython, Makecode, and Arduino programs.
+    <strong>The UF2 bootloader allows you to load CircuitPython, MakeCode, and Arduino programs.
       The bootloader is not CircuitPython.</strong>
-    You can check the current version of your bootloader by looking in
-    the INFO_UF2.TXT file when the BOOT drive is visible (FEATHERBOOT, CPLAYBOOT, etc.).
+    If a UF2 bootloader is installed, you can check its version by looking in
+    the <b>INFO_UF2.TXT</b> file when the <b>BOOT</b> drive is visible
+    (<b>FTHRS2BOOT</b>, <b>MAGTAGBOOT</b>, <b>HOUSEBOOT</b>, etc.)
+  </p>
+  <p>
+    It is not necessary to reinstall a UF2 bootloader you unless a <b>BOOT</b> drive is not visible
+    when in UF2 bootloader mode, or you know of a problem with your current UF2 bootloader.
+  </p>
+  <p>
+    If a UF2 bootloader has never been installed on the board, or the UF2 bootloader was removed by erasing or overwriting the flash, the UF2 bootloader must be installed in order to flash <b>.uf2</b> files onto the board. <b>.bin</b> files can be uploaded without a UF2 bootloader, using the
+    <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a>
+    or <b>esptool.py</b>.
   </p>
 
-{% if bootloader_board.family == 'nrf52840' %}
+  <p>
+    <em>Note: <b>update.uf2</b> files are not currently working on ESP32-S2 boards.</em>
+  </p>
+
+  <p><strong><em>Important</em></strong>:
+    <em>this will erase previously flashed firmware and sketches from the board,
+      but needs to be perfomed only once.</em>
+  </p>
+
+ <ul>
+  <li>Unzip to find the file <b>combined.bin</b>.</li>
+  <li>Place board in bootloader mode:
+   <ul>
+    <li>Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.</li>
+    <li>Press and <strong>hold down</strong> the <b>BOOT</b> or <b>0</b> button.</li>
+    <li>Press and <strong>release</strong> the <b>RESET</b> or <b>RST</b> button.</li>
+    <li>Release the <b>BOOT</b> button.</li>
+   </ul>
+  </li>
+  <li>Upload <b>combined.bin</b> (Google Chrome 89 or newer):
+   <ul>
+    <li>Open <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a> in a new window/tab.</li>
+    <li>Select <b>460800 Baud</b> from the pull-down menu (top-right).</li>
+    <li>Click <b>Connect</b> (top-right).</li>
+    <li>Select the COM or Serial port from the pop-up window.</li>
+    <li>After successful connection, click <b>Erase</b>.</li>
+    <li>After successful erase, click any <b>Choose a file...</b>, then locate and select the <b>combined.bin</b> file unzipped earlier.</li>
+    <li>After successfully choosing <b>combined.bin</b>, click <b>Program</b>.</li>
+    <li>After the TinyUF2 firmware update is complete, press the <b>RESET</b> button on the board.
+      A new drive <b>BOOT</b> should be visible in your file browser.</li>
+   </ul>
+  </li>
+ </ul>
+ <p>
+ After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
+ Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
+ </p>
+ <div>
+    <a class="download-button" href="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip">DOWNLOAD BOOTLOADER ZIP<i class="fas fa-download" aria-hidden="true"></i></a>
+ </div>
+</div>
+{% else %}
+<div class="section unrecommended">
+  <h3>Update UF2 Bootloader</h3>
+  <p>
+    Latest version: {{ bootloader_version }}
+  </p>
+  <p>
+    <strong>The bootloader allows you to load CircuitPython, MakeCode, and Arduino programs.
+      The bootloader is not CircuitPython.</strong>
+    You can check the current version of your bootloader by looking in
+    the <b>INFO_UF2.TXT</b> file when the <b>BOOT</b> drive is visible (<b>FEATHERBOOT</b>, <b>CPLAYBOOT</b>, etc.).
+  </p>
+  <p>
+    It is not necessary to update your bootloader if it is working fine.
+    Read the release notes on GitHub to see what has been changed.
+    In general, we recommend you not update the bootloader unless you know there is a problem with it
+    or a support person has asked you to try updating it.
+  </p>
+
+  {% if page.family == 'nrf52840' %}
   <p>
     Updating the bootloader on nRF52840 boards is an involved process right now.
     Follow the instructions in this
     <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/blob/master/README.md">README</a>.
-    It is not necessary to update on each release if your bootloader is working fine.
-    Read the release notes on GitHub to see what has been changed.
   </p>
   <p>
-    After you update, check INFO_UF2.TXT to verify that the bootloader version has been updated.
+    After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
     Then you will need to reload CircuitPython.
   </p>
   <div>
     <a class="download-button-unrecommended" href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/tag/{{ bootloader_version }}">BROWSE ON GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
   </div>
-{% endif %}
+  {% endif %}
 
-{% if bootloader_board.family == 'atmel-samd' %}
+  {% if page.family == 'atmel-samd' %}
   <p>
-    To update, first save the contents of CIRCUITPY, just in case.
-    Then double-click the reset button to show the BOOT drive.
-    Drag the update-bootloader .uf2 file to the BOOT drive.
-    Wait a few tens of seconds for the bootloader to update; the BOOT drive will reappear.
-    Check INFO_UF2.TXT to verify that the bootloader version has been updated.
+    To update, first save the contents of <b>CIRCUITPY</b>, just in case.
+    Then double-click the reset button to show the <b>BOOT</b> drive.
+    Drag the <b>update-bootloader</b> <b>.uf2</b> file to the <b>BOOT</b> drive.
+    Wait a few tens of seconds for the bootloader to update; the <b>BOOT</b> drive will reappear.
+    After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
     Then you will need to reload CircuitPython.
   </p>
   <p>
@@ -167,6 +278,7 @@ By the way, boolean operation precedence is right to left! (yeesh)
   <div>
     <a class="download-button-unrecommended" href="https://github.com/adafruit/uf2-samdx1/releases/tag/{{ bootloader_version }}">BROWSE ON GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
   </div>
-{% endif %}
+  {% endif %}
 </div>
+{% endif %}
 {% endif %}

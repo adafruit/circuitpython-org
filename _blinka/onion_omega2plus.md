@@ -26,7 +26,3 @@ This maker kit has everything you need to fully build and prototype just about a
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3808)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

@@ -8,6 +8,7 @@ board_url: ""
 board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2019-4-5
+family: atmel-samd
 features:
 ---
 
@@ -17,7 +18,3 @@ The description should be written to inform a CircuitPython user what makes the 
 
 ## Purchase
 Add any links to purchase the board
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

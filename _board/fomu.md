@@ -3,10 +3,11 @@ layout: download
 board_id: "fomu"
 title: "Fomu Download"
 name: "Fomu"
-manufacturer: "Sean 'xobs' Cross"
+manufacturer: Sean Cross (xobs)
 board_url: "https://tomu.im/fomu.html"
 board_image: "fomu.jpg"
 date_added: 2020-4-16
+family: litex
 ---
 
 Only 13mm long, **Fomu** really puts the _micro_ in microprocessor. Fomu is a fully open-source, programmable FPGA device that sits inside a USB Type-A port. It has four buttons, an RGB LED, and an FPGA that is compatible with a fully open source chain and capable of running a RISC-V core. Fomu comes in a custom plastic enclosure that slots perfectly into a USB port.
@@ -31,7 +32,3 @@ In fact, the “CPU” in the FPGA is created from a hardware description langua
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4332)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

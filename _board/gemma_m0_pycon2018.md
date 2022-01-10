@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "gemma_m0_pycon2018.jpg"
 date_added: 2019-4-13
+family: atmel-samd
+bootloader_id: gemma_m0
 features:
   - Solder-Free Alligator Clip
 ---
@@ -44,6 +46,3 @@ Fully assembled and tested Gemma M0 with CircuitPython & example code programmed
 
 ## Downloads
 * [PyCon 2018 Gemma Files](https://github.com/adafruit/CircuitPython_Badge_README/tree/master/final_versions/PYCON_2018)
-
-## Contribute
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

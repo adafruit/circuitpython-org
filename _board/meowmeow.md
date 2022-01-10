@@ -7,6 +7,8 @@ manufacturer: "Electronic Cats"
 board_url: ""
 board_image: "meowmeow.jpg"
 date_added: 2019-4-1
+family: atmel-samd
+bootloader_id: meowmeow
 features:
   - Solder-Free Alligator Clip
 ---
@@ -17,7 +19,3 @@ Meow Meow was designed by Electronic Cats and wants to encourage experimentation
 
 ## Purchase
 * [Electronic Cats](https://electroniccats.com/producto/meowmeow/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

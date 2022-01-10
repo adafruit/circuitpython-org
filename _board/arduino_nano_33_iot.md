@@ -7,6 +7,11 @@ manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/NANO33IoT"
 board_image: "arduino_nano_33_iot.jpg"
 date_added: 2020-2-27
+family: atmel-samd
+bootloader_id: nano33iot
+features:
+  - Wi-Fi
+  - Breadboard-Friendly
 ---
 
 Arduino NANO 33 IoT board has been designed to offer a practical and cost effective solution for makers seeking to add Wi-Fi connectivity to their projects (using Arduino) with minimal previous experience in networking. Learn how to set up the programming environment and get the hardware up and running, ready for your projects, in minutes.
@@ -17,7 +22,3 @@ WiFi is not supported. The LSM9DS6 and ATECC chips are supported in CircuitPytho
 
 ## Purchase
 * [Arduino](https://store.arduino.cc/usa/nano-33-iot)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

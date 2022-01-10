@@ -7,9 +7,12 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/3857"
 board_image: "feather_m4_express.jpg"
 date_added: 2019-3-8
+family: atmel-samd
+bootloader_id: feather_m4
 features:
   - Feather-Compatible
   - Battery Charging
+  - Breadboard-Friendly
 ---
 
 This feather is powered by the ATSAMD51J19 -  with its 120MHz Cortex M4 with floating point support and 512KB Flash and 192KB RAM. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.
@@ -30,7 +33,3 @@ Comes fully assembled and tested, with the UF2 USB bootloader. We also toss in s
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3857)
 * [Digi-Key](https://www.digikey.com/short/p87f17)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

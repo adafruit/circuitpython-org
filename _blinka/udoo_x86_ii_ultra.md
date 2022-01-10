@@ -7,9 +7,9 @@ manufacturer: "UDOO"
 board_url: "https://shop.udoo.org/udoo-x86-ii-ultra.html"
 board_image: "udoo_x86_ii_ultra.jpg"
 download_instructions: ""
-downloads_display: false
+downloads_display: true
 blinka: true
-date_added: 2020-11-5
+date_added: 2020-8-17
 features:
   - Wi-Fi
   - Bluetooth/BLE
@@ -44,7 +44,3 @@ Screw/Spacers for M.2 SSD and Wifi/BT already included.
 
 ## Purchase
 * [UDOO](https://shop.udoo.org/udoo-x86-ii-ultra.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

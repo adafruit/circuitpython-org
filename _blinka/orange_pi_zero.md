@@ -38,7 +38,3 @@ Orange Pi Zero is for anyone who wants to start creating with technology – not
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/4000049806939.html?spm=2114.12010612.8148356.1.7a5b1debQdbkLe)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

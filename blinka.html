@@ -6,6 +6,9 @@ permalink: /blinka
 
 <div id="downloads-page">
   <h1>Blinka</h1>
+  <p>
+    Blinka brings CircuitPython APIs and, therefore, CircuitPython libraries to single board computers (SBCs). It is a <a href="https://pypi.org/project/Adafruit-Blinka/">pip installable Python library</a> that runs in normal "desktop" Python. The CircuitPython runtime isn't used. <a href="https://pypi.org/search/?q=adafruit-circuitpython">CircuitPython libraries</a> can also be installed via pip. See <a href="https://learn.adafruit.com/circuitpython-on-raspberrypi-linux"> the guide</a> for further details.
+  </p>
   <div class="downloads-inputs">
     <div class="downloads-search">
       <label class="search-wrapper">
@@ -13,7 +16,8 @@ permalink: /blinka
       </label>
     </div>
     <div class="downloads-filter">
-      <button class="filter" title="Filter Boards"><i class="fas fa-sliders-h" aria-hidden="true"></i></button>
+      <button class="filter" title="Filter Boards"><i class="fas fa-sliders-h"
+          aria-hidden="true"></i> Filters</button>
     </div>
     <div class="downloads-filter-tags">
     </div>
@@ -53,20 +57,42 @@ permalink: /blinka
       {% comment %}
         Display the total number of boards.
       {% endcomment %}
-      Displaying <span id="board_count">{{ site.blinka.size }}</span> boards.
+      {% assign board_count = 0 %}
+      {% for board in site.blinka %}
+        {% if board.downloads_display == false %}
+          {% continue %}
+        {% endif %}
+        {% assign board_count = board_count | plus: 1 %}
+      {% endfor %}
+      Displaying <span id="board_count">{{ board_count }}</span> boards.
   </div>
   <div class="downloads-section">
-    {% for board in site.blinka %}
+      {% comment %}
+        Display the boards. If an image is missing, it is replaced with unknown.jpg.
+      {% endcomment %}
+      {% for board in site.blinka %}
+      {% if board.downloads_display == false %}
+        {% continue %}
+      {% endif %}
+      {% assign board_path = "/assets/images/boards/small/" | append: board.board_image %}
+      {% assign board_image = 'unknown.jpg' %}
+      {% for static_file in site.static_files %}
+        {% if static_file.path == board_path %}
+          {% assign board_image = board.board_image %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
         <div class="download" data-id="{{ board.board_id }}"
                               data-name="{{ board.name }}"
                               data-downloads="0"
                               data-manufacturer="{{ board.manufacturer }}"
+                              data-mcufamily="{{ info.family }}"
                               data-features="{{ board.features | join: ','}}"
                               data-date="{{ board.date_added }}">
           <a href="{{ board.url | relative_url }}">
             <div>
               <div class="img-responsive-4by3">
-                {% include downloads/board_image.html board_image=board.board_image %}
+                {% include downloads/board_image.html board_image=board_image %}
               </div>
               <div class="details">
                 <h3>{{ board.name }}</h3>

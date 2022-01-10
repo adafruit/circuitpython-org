@@ -7,15 +7,17 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4775"
 board_image: "adafruit_metro_esp32s2.jpg"
 date_added: 2020-10-2
+family: esp32s2
+bootloader_id: adafruit_metro_esp32s2
 features:
   - Wi-Fi
   - Battery Charging
   - STEMMA QT/QWIIC
+  - USB-C
+  - Arduino Shield Compatible
 ---
 
 What's Metro shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connector for I2C devices, and a Lipoly charger circuit? What's finishing up testing and nearly ready for fabrication? That's right - its the new Adafruit Metro ESP32-S2! With native USB and a load of PSRAM this board is perfect for use with CircuitPython or Arduino, to add low-cost WiFi while keeping shield-compatibility
-
-**Coming soon! Sign up to be notified as soon as we start making them**
 
 **Features:**
  * **ESP32-S2 240MHz Tensilica processor** - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!
@@ -34,7 +36,3 @@ What's Metro shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connec
 ## Purchase:
 
 * [Adafruit](https://www.adafruit.com/product/4775)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

@@ -7,6 +7,9 @@ manufacturer: "J&J Studios"
 board_url: "https://jandjstudios.io/datum/datum-Distance/"
 board_image: "datum_distance.jpg"
 date_added: 2019-7-12
+family: atmel-samd
+features:
+  - Breadboard-Friendly
 ---
 
 The datum-Distance sensor combines the same SAMD21G18 microcontroller used on the Arduino Zero with the VL53LX1 distance sensor from ST Microelectronics to create the simplest, easiest to use distance sensor for your application.
@@ -22,7 +25,3 @@ It can also apply filters such as min, mix, mean, and RMS to the data stream. Th
 
 ## Purchase
 * [GroupGets](https://groupgets.com/campaigns/568-datum-distance)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

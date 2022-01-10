@@ -7,6 +7,7 @@ manufacturer: "Benjamin Shockley"
 board_url: "www.minisam.cc"
 board_image: "mini_sam_m4.jpg"
 date_added: 2019-3-12
+family: atmel-samd
 ---
 
 Mini SAM is a LEGO® minifigure-sized development board based on the Microchip SAMD51G 48-Pin 32-Bit ARM® Cortex®-M4F MCU  running at 48Mhz.
@@ -25,8 +26,4 @@ The boards include a 600mA 3.3V regulator, more than enough to power this little
 
 ## Purchase
 When in stock, you can purchase a board from minifigboards.com
-* [Minifigboards.com](https://www.minifigboards.com/product/mini-sam-m4/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
+* [Minifigboards.com](https://minifigboards.com/products/mini-sam-m4)

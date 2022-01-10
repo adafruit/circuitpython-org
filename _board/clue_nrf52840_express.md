@@ -7,9 +7,10 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4500"
 board_image: "clue_nrf52840_express.jpg"
 date_added: 2019-12-30
+family: nrf52840
+bootloader_id: clue_nrf52840
 features:
   - Display
-  - Wi-Fi
   - Bluetooth/BTLE
   - Solder-Free Alligator Clip
   - STEMMA QT/QWIIC
@@ -33,7 +34,3 @@ After designing it, the board was close enough to micro:bit-shape-size that we m
 
 ## Purchase
 * [Adafruit CLUE](https://www.adafruit.com/product/4500)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

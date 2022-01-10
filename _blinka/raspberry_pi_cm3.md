@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_cm3"
 title: "Raspberry Pi Compute Module 3 Download"
-name: "Raspberry Pi Compute Module 3"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/compute-module-3/"
+name: "Compute Module 3"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/compute-module-3/"
 board_image: "raspberry_pi_cm3.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
@@ -20,7 +20,3 @@ The Compute Module is available for purchase in single units, or in batches of h
 
 ## Purchase
 * [Raspberry Pi Foundation](https://www.raspberrypi.org/products/compute-module-io-board-v3/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

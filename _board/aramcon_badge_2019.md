@@ -7,6 +7,8 @@ manufacturer: "ARAMCON Badge Team"
 board_url: "https://github.com/aramcon-badge/"
 board_image: "aramcon_badge_2019.jpg"
 date_added: 2020-1-25
+family: nrf52840
+bootloader_id: aramcon_badge_2019
 features:
   - Display
   - Bluetooth/BTLE
@@ -31,7 +33,3 @@ Not available for direct purchase. The badge was given to all attendees of the A
 ## Learn More
 * [Github](https://github.com/aramcon-badge/)
 * [Medium](https://medium.com/@urish/the-smart-conference-badge-we-almost-failed-shipping-edb2b1ae85b6)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

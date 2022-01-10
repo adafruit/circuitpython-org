@@ -4,10 +4,12 @@ board_id: "electronut_labs_papyr"
 title: "Papyr Download"
 name: "Papyr"
 manufacturer: "Electronut Labs"
-board_url: "https://docs.electronut.in/papyr/"
+board_url: "https://gitlab.com/electronutlabs-public/papyr"
 board_image: "electronut_labs_papyr.jpg"
 downloads_display: true
 date_added: 2019-4-23
+family: nrf52840
+bootloader_id: clue_nrf52840
 features:
   - Display
   - Bluetooth/BTLE
@@ -17,8 +19,4 @@ Papyr is a connected e-paper display powered by Nordic Semiconductor's nRF52840 
 
 ## Purchase
 
-* [Papyr purchase information](https://docs.electronut.in/papyr/#buy-papyr)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
+* [Papyr purchase information](https://gitlab.com/electronutlabs-public/papyr#buy-papyr)

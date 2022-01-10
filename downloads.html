@@ -2,6 +2,7 @@
 layout: default
 title: Downloads
 permalink: /downloads
+excerpt: CircuitPython supported boards.
 ---
 
 <div id="downloads-page">
@@ -13,7 +14,8 @@ permalink: /downloads
       </label>
     </div>
     <div class="downloads-filter">
-      <button class="filter" title="Filter Boards"><i class="fas fa-sliders-h" aria-hidden="true"></i></button>
+      <button class="filter" title="Filter Boards"><i class="fas fa-sliders-h"
+          aria-hidden="true"></i> Filters</button>
     </div>
     <div class="downloads-filter-tags">
     </div>
@@ -29,11 +31,19 @@ permalink: /downloads
           <ul class="content"></ul>
         </fieldset>
       </div>
-      <div class="features">
-        <fieldset>
-          <legend>Features</legend>
-          <ul class="content"></ul>
-        </fieldset>
+      <div>
+        <div class="features">
+          <fieldset>
+            <legend>Features</legend>
+            <ul class="content"></ul>
+          </fieldset>
+        </div>
+        <div class="mcufamilies">
+          <fieldset>
+            <legend>Processor family</legend>
+            <ul class="content"></ul>
+          </fieldset>
+        </div>
       </div>
       <div class="sort-by">
         <fieldset>
@@ -70,6 +80,9 @@ permalink: /downloads
       {% for board in site.board %}
         {% assign info = site.data.files | where: 'id', board.board_id | first %}
         {% if info == nil and board.board_id != 'unknown' %}
+          {% if board.downloads_display == false %}
+            {% continue %}
+          {% endif %}
           {% assign board_count = board_count | plus: 1 %}
         {% endif %}
       {% endfor %}
@@ -78,7 +91,7 @@ permalink: /downloads
   <div class="downloads-section">
     {% comment %}
       The following are boards that are in the _data/files.json build
-      process. Seperate loops due to wanting to sort by download count first.
+      process. Separate loops due to wanting to sort by download count first.
     {% endcomment %}
     {% assign boards = site.data.files | sort: "downloads" | reverse %}
     {% for board in boards %}
@@ -86,6 +99,7 @@ permalink: /downloads
       {% if info.size == 0 %}
         {% assign info = site.board | where: 'board_id', 'unknown' %}
       {% endif %}
+
       {% assign info = info[0] %}
 
       {% if info.downloads_display == false %}
@@ -96,6 +110,7 @@ permalink: /downloads
                             data-name="{{ info.name | default: board.id }}"
                             data-downloads="{{ board.downloads }}"
                             data-manufacturer="{{ info.manufacturer }}"
+                            data-mcufamily="{{ info.family }}"
                             data-features="{{ info.features | join: ','}}"
                             data-date="{{ info.date_added }}">
         <a href="{{ info.url | relative_url }}">
@@ -119,10 +134,14 @@ permalink: /downloads
     {% for board in site.board %}
       {% assign info = site.data.files | where: 'id', board.board_id | first %}
       {% if info == nil and board.board_id != 'unknown' %}
+        {% if board.downloads_display == false %}
+          {% continue %}
+        {% endif %}
         <div class="download" data-id="{{ board.board_id }}"
                               data-name="{{ board.name }}"
                               data-downloads="0"
                               data-manufacturer="{{ board.manufacturer }}"
+                              data-mcufamily="{{ board.family }}"
                               data-features="{{ board.features | join: ','}}"
                               data-date="{{ board.date_added }}">
           <a href="{{ board.url | relative_url }}">

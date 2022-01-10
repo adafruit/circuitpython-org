@@ -7,9 +7,9 @@ manufacturer: "Pine64"
 board_url: "https://www.pine64.org/pine-h64-ver-b/"
 board_image: "pine_h64.jpg"
 download_instructions: ""
-downloads_display: false
+downloads_display: true
 blinka: true
-date_added: 2020-11-5
+date_added: 2020-11-1
 features:
   - Wi-Fi
   - Bluetooth/BLE
@@ -40,7 +40,3 @@ PINE H64 is latest Single Board Computer by Pine64. Its powered by an Allwinner 
 ## Purchase
 * [pine64 2GB](https://pine64.com/product/pine-h64-model-b-2gb-single-board-computer)
 * [pine64 3GB](https://pine64.com/product/pine-h64-model-b-3gb-single-board-computer/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

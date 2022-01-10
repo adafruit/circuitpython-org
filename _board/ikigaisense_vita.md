@@ -7,6 +7,7 @@ manufacturer: "Ikigaisense"
 board_url: "https://hackaday.io/project/173761-vita-hardware"
 board_image: "ikigaisense_vita.jpg"
 date_added: 2020-08-30
+family: nrf52840
 features:
   - Bluetooth/BTLE
 ---
@@ -19,7 +20,3 @@ This is an ambitious endeavour and most likely a bumpy one. If you are intrigued
 
 ## Learn More
 * [Hackaday.io](https://hackaday.io/project/173761-vita-hardware)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

@@ -7,6 +7,11 @@ manufacturer: "Arduino"
 board_url: "https://www.arduino.cc/en/Guide/NANO33BLE"
 board_image: "arduino_nano_33_ble.jpg"
 date_added: 2019-10-26
+family: nrf52840
+bootloader_id: arduino_nano_33_ble
+features:
+  - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
 This compact and reliable NANO board is built around the NINA B306 module, based on Nordic nRF 52840 and containing a powerful Cortex M4F. Its architecture, fully compatible with Arduino IDE Online and Offline, has a 9 axis Inertial Measurement Unit (IMU) and a reduced power consumption compared to other same size boards.
@@ -16,7 +21,3 @@ To use this board with CircuitPython you must [replace the existing bootloader](
 
 ## Purchase
 * [Arduino](https://store.arduino.cc/usa/nano-33-ble)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

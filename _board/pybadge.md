@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4200"
 board_image: "pybadge.jpg"
 date_added: 2019-3-19
+family: atmel-samd
+bootloader_id: arcade_pybadge
 features:
   - Display
   - Speaker
@@ -38,7 +40,3 @@ There is a variant on the Adafruit PyBadge, the Adafruit PyBadge LC, which has a
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4200)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

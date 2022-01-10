@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4400"
 board_image: "edgebadge.jpg"
 date_added: 2019-11-19
+family: atmel-samd
+bootloader_id: arcade_pybadge
 features:
   - Display
   - Speaker
@@ -26,7 +28,3 @@ You can code the EdgeBadge with: [CircuitPython](https://circuitpython.org/), [M
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4400)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

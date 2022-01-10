@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_3aplus"
 title: "Raspberry Pi 3 Model A+ Download"
-name: "Raspberry Pi 3 Model A+"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/"
+name: "Pi 3 Model A+"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/"
 board_image: "raspberry_pi_3aplus.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
@@ -33,7 +33,3 @@ The Raspberry Pi 3 Model A+ is the latest board for the minimalist Pi fan. Like 
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4027)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

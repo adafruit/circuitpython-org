@@ -29,7 +29,3 @@ New clockworkPi v3.1 development board:
 
 ## Purchase
 * [ClockworkPi](https://www.clockworkpi.com/product-page/cpi-v3-1)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

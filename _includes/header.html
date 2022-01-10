@@ -1,23 +1,23 @@
 <header id="site-header">
   {% assign current = page.url | downcase | split: '/' %}
-  <div class="top-navigation">
+  <nav class="top-navigation">
     <div>
       <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
         <a {% if current[1] == 'contributing' %}class='active'{% endif %} href="{{ "/contributing" | relative_url  }}">Contributing</a>
         <a href="https://blog.adafruit.com/category/circuitpython">News</a>
         <a {% if current[1] == 'awesome' %}class='active'{% endif %} href="{{ "/awesome" | relative_url  }}">Awesome</a>
         <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
-        <a href="https://forums.adafruit.com/viewforum.php?f=60">Help</a>
-        <span>
-            <a href="https://adafru.it/discord"><i class="fab fa-discord"></i></a>
-            <a href="{{ '/feed.rss' | relative_url  }}" type="application/rss+xml"><i class="fas fa-rss-square"></i></a>
-        </span>
+        <a href="https://circuitpython.readthedocs.io/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="{{ '/feed.rss' | relative_url  }}" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
       </div>
     </div>
-  </div>
+  </nav>
   <div class="wrapper">
     <div class="content">
-      <div class="site-brand">
+      <nav class="site-brand">
         <div class="site-logo">
           <a href="{{ "/" | relative_url  }}">
             <img src="{{ "/assets/images/logo.png" | relative_url }}"
@@ -29,14 +29,14 @@
           </a>
         </div>
         <div class="site-navigation">
-          <a {% if current[1] == 'downloads' %}class='active'{% endif %} href="{{ "/downloads" | relative_url  }}">Downloads</a>
-          <a {% if current[1] == 'libraries' %}class='active'{% endif %} href="{{ "/libraries" | relative_url  }}">Libraries</a>
-          <a {% if current[1] == 'blinka' %}class='active'{% endif %} href="{{ "/blinka" | relative_url  }}">Blinka</a>
+          <a {% if current[1] == 'downloads' %}class="active" aria-current="page"{% endif %} href="{{ "/downloads" | relative_url  }}">Downloads</a>
+          <a {% if current[1] == 'libraries' %}class="active" aria-current="page"{% endif %} href="{{ "/libraries" | relative_url  }}">Libraries</a>
+          <a {% if current[1] == 'blinka' %}class="active" aria-current="page"{% endif %} href="{{ "/blinka" | relative_url  }}">Blinka</a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
         </div>
-      </div>
+      </nav>
     </div>
   </div>
   <div class="bottom-bar"></div>

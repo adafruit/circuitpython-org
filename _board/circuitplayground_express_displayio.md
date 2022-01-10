@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "circuitplayground_express_displayio.jpg"
 date_added: 2019-10-17
+family: atmel-samd
+bootloader_id: circuitplay_m0
 features:
   - Speaker
   - Display
@@ -29,7 +31,3 @@ Comes with a PCB that has pre-soldered standoffs attached, and 12x M3 screws for
 
 * [Circuit Playground Express - Adafruit](https://www.adafruit.com/product/3333)
 * [TFT Gizmo for CircuitPlayground Express - Adafruit](https://www.adafruit.com/product/4367)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

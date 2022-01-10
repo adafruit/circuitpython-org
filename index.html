@@ -52,13 +52,13 @@ layout: home
           <h3>Quick and Easy</h3>
           <p>
             Create a file, edit your code, save the file, and it runs immediately.
-            There is no compiling, no downloading and no uploading needed.
+            There is no compiling or uploading needed.
           </p>
         </div>
         <div class="item">
           <h3>Beginner Friendly</h3>
           <p>
-            CircuitPython is designed with education in mind. It's easy to start
+            CircuitPython is designed with education in mind. It's an easy way to start
             learning how to code and you get immediate feedback from the board.
           </p>
         </div>
@@ -66,13 +66,13 @@ layout: home
           <h3>Easy Code Updates</h3>
           <p>
             Since your code lives on the disk drive, you can edit it whenever you
-            like, you can also keep multiple files around for easy experimentation.
+            like. You can even keep multiple files around for easy experimentation.
           </p>
         </div>
         <div class="item">
           <h3>Serial Console + REPL</h3>
           <p>
-            These allow for live feedback from your code and interactive programming.
+            These features allow for live feedback from your code and interactive programming.
           </p>
         </div>
         <div class="item">
@@ -127,6 +127,34 @@ layout: home
     </section>
   </div>
 
+  <div class="headline-banner supported-section">
+    <img class="image-headline pinball" alt="hero image"
+                                src="{{ "assets/images/CircuitPython_Sensors.jpg" |
+                                relative_url }}"
+         />
+    <div class="text">
+      <div class="title"><span>280+ libraries all written in Python</span></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <section>
+      <img class="responsive" src="{{ "/assets/images/raspberry_pi.png" | relative_url }}"
+           srcset="{{ "/assets/images/raspberry_pi.png" | relative_url }} 1x,
+                   {{ "/assets/images/raspberry_pi@2x.png" | relative_url }} 2x,
+                   {{ "/assets/images/raspberry_pi@3x.png" | relative_url }} 3x"  alt="Raspberry Pi">
+      <h2>CircuitPython libraries on single board computers</h2>
+      <p>
+        Most CircuitPython libraries also work on <a href="/blinka">single board computers (SBCs)</a>, such as the Raspberry Pi.
+        Linux runs "desktop" Python (commonly known as CPython) instead of CircuitPython.
+        Our CPython Blinka library provides CircuitPython's low level hardware APIs, such as `digitalio`.
+      </p>
+      <p>
+        Blinka and CircuitPython libraries are just a `pip install` away.
+      </p>
+    </section>
+  </div>
+
   <div class="purple banner">
     <div class="content short">
     <h2>Just the beginning...</h2>
@@ -164,4 +192,3 @@ layout: home
     </section>
   </div>
 </div>
-

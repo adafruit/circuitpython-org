@@ -7,12 +7,14 @@ manufacturer: "Electronic Cats"
 board_url: "https://electroniccats.com/store/bast-wifi/"
 board_image: "bast_wifi.jpg"
 date_added: 2020-10-13
+family: esp32s2
 
 features:
-  -Feather-Compatible
-  -Wifi
-  -Battery Charging
-
+  - Feather-Compatible
+  - Wi-Fi
+  - Battery Charging
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 The Bast WiFi includes the newer ESP32-S2 module, which is like a little brother to the ESP32 where only one core instead of 2 has cores, it has no BLE implemented, but gains a native USB, a new processor and crypto accelerators for better performance protection against physical fault injection attacks and more improvements over the SoC.
@@ -23,7 +25,3 @@ Some elements are still in development; For this reason, we recommend this board
 
 ## Purchase
 * [Electronic Cats](https://electroniccats.com/store/bast-wifi/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

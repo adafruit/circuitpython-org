@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_cm1"
 title: "Raspberry Pi Compute Module 1 Download"
-name: "Raspberry Pi Compute Module 1"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/compute-module-1/"
+name: "Compute Module 1"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/compute-module-1/"
 board_image: "raspberry_pi_cm1.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
@@ -24,7 +24,3 @@ The original Compute Module was replaced by CM3 in January 2017 but is compatibl
 
 ## Purchase
 * [Raspberry Pi Foundation](https://www.raspberrypi.org/products/compute-module-io-board-v3/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

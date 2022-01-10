@@ -7,6 +7,7 @@ manufacturer: "Electronic Cats"
 board_url: "https://electroniccats.com/producto/catwan_usb-stick/"
 board_image: "catwan_usbstick.jpg"
 date_added: 2019-4-2
+family: atmel-samd
 features:
   - LoRa/Radio
 ---
@@ -17,7 +18,3 @@ The CatWAN USB Stick is programmed with a special firmware image that makes it a
 
 ## Purchase
 * [Electronic Cats](https://electroniccats.com/producto/catwan_usb-stick/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

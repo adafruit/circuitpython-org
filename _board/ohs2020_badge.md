@@ -9,6 +9,8 @@ board_image: "ohs2020_badge.jpg"
 downloads_display: true
 blinka: false
 date_added: 2020-1-16
+family: nrf52840
+bootloader_id: ohs2020_badge
 features:
   - Bluetooth/BTLE
   - Display
@@ -34,7 +36,3 @@ It is going to be in a wrist watch form factor with several awesome features.
 ## Purchase
 Not available for direct purchase.
 The badge will be given to all attendees of the Open Hardware Summit!
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

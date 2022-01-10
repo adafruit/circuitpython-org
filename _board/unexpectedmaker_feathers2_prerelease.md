@@ -7,12 +7,14 @@ manufacturer: "Unexpected Maker"
 board_url: ""
 board_image: "unexpectedmaker_feathers2_prerelease.jpg"
 date_added: 2020-6-14
+family: esp32s2
 features:
   - Feather-Compatible
   - Battery Charging
-  - Dual LDO
   - Wi-Fi
   - STEMMA QT/QWIIC
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 Pre-Release version of the FeatherS2
@@ -41,14 +43,10 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 
 The second LDO is for you to use to connect external 3V3 modules, sensors and peripherals, and it has programmable EN control tied to GPIO21 + it’s connected to the deep sleep capabilities of the S2, so if the S2 goes into deep sleep, the 2nd LDO is automatically shut down for you!
 
-You can find out more about the FeatherS2 at [feathers2.io](https://feathers2.io)
+You can find out more about the FeatherS2 at [feathers2.io](https://feathers2.io), including how to [install the UF2 Bootloader](https://feathers2.io/install_uf2.html).
 
 ## Purchase
 The FeatherS2 pre-release boards are no longer available for purchase now that the final release version is out, which you can grab from these locations:
 
 * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
 * [Adafruit](https://www.adafruit.com/product/4769)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

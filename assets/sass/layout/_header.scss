@@ -34,7 +34,7 @@
 .top-navigation {
   background-color: #151515;
   padding-top: 10px;
-
+  
   .navigation {
     display: flex;
     align-items: flex-end;
@@ -42,12 +42,25 @@
 
     a {
       font-size: 16px;
-      color: #999999;
+      color: #aaa;
 
       &:hover {
         color: #fff;
       }
     }
+
+    a.skip-link {
+      margin-left: 0;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      transform: translateY(-200%);
+      transition: transform 0.6s;
+      &:focus {
+        transform: translateY(0%);
+      }
+    }
+
     &> a {
       margin-left: 40px;
     }
@@ -94,7 +107,7 @@
 
   a {
     margin-left: 40px;
-    color: #999999;
+    color: #aaa;
 
     &:hover {
       color: #fff;

@@ -35,7 +35,3 @@ GreatFET is designed to provide a significant step up in capabilities from [Good
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4234)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

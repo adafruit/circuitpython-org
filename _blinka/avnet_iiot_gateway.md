@@ -36,7 +36,3 @@ Empower analytics at the edge of your IoT network with the intelligent Dell Edge
 
 ## Purchase
 * [Newark](https://www.newark.com/avnet/avtse-rpi-iiotg/smartedge-industrial-iot-gateway/dp/02AH6799)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

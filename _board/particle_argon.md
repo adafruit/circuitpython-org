@@ -7,11 +7,14 @@ manufacturer: "Particle"
 board_url: "https://docs.particle.io/datasheets/wi-fi/argon-datasheet/"
 board_image: "particle_argon.jpg"
 date_added: 2019-3-9
+family: nrf52840
+bootloader_id: particle_argon
 features:
   - Feather-Compatible
   - Battery Charging
   - Wi-Fi
   - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
@@ -22,7 +25,3 @@ The description should be written to inform a CircuitPython user what makes the 
 * [Argon Kit - Particle](https://store.particle.io/products/argon-kit)
 * [Board Only - Adafruit](https://www.adafruit.com/product/3997)
 * [Argon Kit - Adafruit](https://www.adafruit.com/product/3993)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

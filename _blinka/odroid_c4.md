@@ -36,7 +36,3 @@ The main CPU of the ODROID-C4 is built with a quad-core Cortex-A55 cluster with 
 
 ## Purchase
 * [Hardkernel](https://www.hardkernel.com/shop/odroid-c4/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

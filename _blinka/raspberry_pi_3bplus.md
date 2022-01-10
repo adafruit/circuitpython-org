@@ -2,8 +2,8 @@
 layout: download
 board_id: "raspberry_pi_3bplus"
 title: "Raspberry Pi 3 Model B+ Download"
-name: "Raspberry Pi 3 Model B+"
-manufacturer: "Raspberry Pi Foundation"
+name: "Pi 3 Model B+"
+manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/"
 board_image: "raspberry_pi_3bplus.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
@@ -38,7 +38,3 @@ The Raspberry Pi 3 Model B+ is the latest product in the Raspberry Pi 3 range, b
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3775)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

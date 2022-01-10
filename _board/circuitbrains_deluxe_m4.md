@@ -7,6 +7,8 @@ manufacturer: "Null Byte Labs LLC"
 board_url: ""
 board_image: "circuitbrains_deluxe.jpg"
 date_added: 2020-2-27
+family: atmel-samd
+bootloader_id: circuitbrains_deluxe_m4
 downloads_display: true
 blinka: false
 download_instructions: ""
@@ -33,7 +35,3 @@ CircuitPython on an ARM Cortex M4 in almost 1 square inch! This "Just Add Solder
 Coming soon. Follow the below links for manufacturing updates:
 * [CircuitBrains Deluxe Project Page](https://kevinneubauer.com/portfolio/circuitbrains-deluxe/)
 * [Kevin Neubauer Twitter](https://twitter.com/kevinneubauer)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

@@ -7,6 +7,7 @@ manufacturer: "Scott Shawcroft"
 board_url: "https://github.com/chickadee-tech/pygb"
 board_image: "gb_m4.jpg"
 date_added: 2019-4-5
+family: atmel-samd
 ---
 
 CircuitPython for Game Boy is a work in progress, check out the weekly "Show and Tell" or “Top Secret” segment on ASK AN ENGINEER or when it's ready, the new product videos on [YouTube](https://www.youtube.com/adafruit).
@@ -15,7 +16,3 @@ CircuitPython for Game Boy is a work in progress, check out the weekly "Show and
 - [Twitter thread](https://twitter.com/adafruit/status/1119323846857904128).
 - A Python powered GameBoy-compatible cartridge with a SAMD51 - [GitHub](https://github.com/chickadee-tech/pygb).
 - GBIO branch - [GitHub](https://github.com/tannewt/circuitpython/tree/gbio).
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

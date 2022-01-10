@@ -7,6 +7,7 @@ manufacturer: "Espruino"
 board_url: "https://www.adafruit.com/product/2621"
 board_image: "espruino_pico.jpg"
 date_added: 2020-2-7
+family: stm
 features:
 
 ---
@@ -36,7 +37,3 @@ The Espruino Pico's fast response time has a lot of advantages. It allows for qu
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/2621)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

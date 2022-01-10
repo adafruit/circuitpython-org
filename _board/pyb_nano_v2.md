@@ -7,6 +7,10 @@ manufacturer: "Elecrow"
 board_url: "https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html"
 board_image: "pyb_nano_v2.jpg"
 date_added: 2019-12-10
+family: stm
+bootloader_id: pyb_nano_v2
+features:
+  - Breadboard-Friendly
 ---
 
 DETAILS
@@ -24,7 +28,3 @@ It is convenient to extend features via I2C, SPI, UART and other interfaces. By 
 
 ## Purchase
 * [Elecrow](https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

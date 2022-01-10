@@ -7,6 +7,8 @@ manufacturer: "Radomir Dopieralski"
 board_url: "https://pewpew.rtfd.io"
 board_image: "pewpew_10.2.jpg"
 date_added: 2019-3-12
+family: atmel-samd
+bootloader_id: trinket_m0
 features:
   - Display
 ---
@@ -23,7 +25,3 @@ electronics.
 
 ## Purchase
 * [Tindie](https://www.tindie.com/products/14890/)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

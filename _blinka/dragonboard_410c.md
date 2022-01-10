@@ -52,7 +52,3 @@ This DragonBoard™ 410c based on 96Boards™ specification features the Qualcom
 
 ## Purchase
 * [Arrow Electronics](https://www.arrow.com/en/products/dragonboard410c/arrow-development-tools)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

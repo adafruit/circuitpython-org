@@ -7,9 +7,14 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4600"
 board_image: "qtpy_m0.jpg"
 date_added: 2020-9-28
+family: atmel-samd
 features:
   - STEMMA QT/QWIIC
+  - USB-C
+  - Breadboard-Friendly
 ---
+
+> **Note:** If you soldered the [optional SOIC-8 SPI Flash chip](https://www.adafruit.com/product/4763) on to your QT Py, see the ["QT Py Haxpress"](../qtpy_m0_haxpress/) page to make use of the extra space!
 
 What a cutie pie! Or is it... a QT Py? This diminutive dev board comes with our favorite lil chip, the SAMD21 (as made famous in our GEMMA M0 and Trinket M0 boards).
 
@@ -47,7 +52,3 @@ Runs Arduino like a dream, and can be used for basic CircuitPython projects. For
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4600)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

@@ -7,13 +7,11 @@ manufacturer: "Max Holliday"
 board_url: "https://github.com/RoboticExplorationLab/sprite"
 board_image: "kicksat-sprite.jpg"
 date_added: 2019-4-13
+family: atmel-samd
+bootloader_id: itsybitsy_m0
 ---
 
 CircuitPython provides an approachable and logical means of conducting science with hardware. Paired with low-cost hardware shown to work in space, we can enable an new generation to question and explore the unknown. With the necessary “satellite stuff” already baked in, students can spend their time trying something new rather than reinventing the wheel (similar philosophy to early Arduino efforts and the microcontroller movement in general).
 
 ## Resources
 [RoboticExplorationLab/sprite](https://github.com/RoboticExplorationLab/sprite).
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

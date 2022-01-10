@@ -7,6 +7,8 @@ manufacturer: "Robotics Masters"
 board_url: "https://www.crowdsupply.com/robotics-masters/robo-hat-mm1"
 board_image: "robohatmm1.jpg"
 date_added: 2019-7-27
+family: atmel-samd
+bootloader_id: robohatmm1_m4
 features:
   - Robotics
 ---
@@ -21,7 +23,3 @@ The wide compatibility with many open source software platforms such as CircuitP
 
 ## Purchase
 * [Robo HAT MM1 - Crowd Supply](https://www.crowdsupply.com/robotics-masters/robo-hat-mm1)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

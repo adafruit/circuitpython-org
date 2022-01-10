@@ -7,6 +7,10 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/3727"
 board_image: "itsybitsy_m0_express.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: itsybitsy_m0
+features:
+  - Breadboard-Friendly
 ---
 
 What's smaller than a Feather but larger than a Trinket? It's an **Adafruit ItsyBitsy M0 Express**! Small, powerful, with a rockin' ATSAMD21 Cortex M0 processor running at 48 MHz - this microcontroller board is perfect when you want something very compact, but still with a bunch of pins.
@@ -43,7 +47,3 @@ Comes assembled and tested ItsyBitsy M0, with header that can be soldered in for
 * [Projects and Guides](https://learn.adafruit.com/products/3727/guides)
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3727)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

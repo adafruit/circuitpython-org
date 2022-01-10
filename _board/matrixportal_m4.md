@@ -7,10 +7,12 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4745"
 board_image: "matrixportal_m4.jpg"
 date_added: 2020-9-16
+family: atmel-samd
 features:
   - Display
   - Wi-Fi
   - STEMMA QT/QWIIC
+  - USB-C
 ---
 
 Folks love our [wide selection of RGB matrices](https://www.adafruit.com/category/327) and accessories, for making custom colorful LED displays... and our RGB Matrix Shields and FeatherWings can be quickly soldered together to make the wiring much easier. But what if we made it even easier than that? **Like, no solder, no wiring, just instant plug-and-play?** Dream no more - with the **Adafruit Matrix Portal add-on for RGB Matrices**, there's never been an easier way to create powerful Internet-connected LED displays.
@@ -41,7 +43,3 @@ Comes with one fully-programmed and assembled MatrixPortal, preprogrammed with a
 ## Purchase:
 
 * [Adafruit](https://www.adafruit.com/product/4745)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

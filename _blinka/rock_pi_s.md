@@ -7,7 +7,7 @@ manufacturer: "Radxa Limited"
 board_url: "https://wiki.radxa.com/RockpiS"
 board_image: "rock_pi_s.jpg"
 download_instructions: ""
-downloads_display: false
+downloads_display: true
 blinka: true
 date_added: 2020-4-29
 features:
@@ -34,7 +34,3 @@ TrustZone technology support
 
 ## Purchase
  * [seeedstudio](https://www.seeedstudio.com/ROCK-PI-S-Mini-Computer-with-Rockchip-RK3308-512MB-RAM-4Gb-NAND-Flash-p-4282.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

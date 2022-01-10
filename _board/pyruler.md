@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "pyruler.jpg"
 date_added: 2019-7-15
+family: atmel-samd
+bootloader_id: trinket_m0
 ---
 
 CircuitPython rules! The PyRuler is the first ruler to be able to run CircuitPython. It features an embedded Adafruit Trinket M0, which is a tiny microcontroller board, built around the Atmel ATSAMD21E18 powerhouse. 
@@ -18,7 +20,3 @@ While you can use the PyRuler with the Arduino IDE, it ships with CircuitPython 
 ## Tutorial
 
 - [PyRuler Overview](https://learn.adafruit.com/adafruit-pyruler)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

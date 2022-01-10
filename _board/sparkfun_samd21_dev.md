@@ -7,13 +7,13 @@ manufacturer: "SparkFun"
 board_url: ""
 board_image: "sparkfun_samd21_dev.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: sparkfun_samd21_dev
+features:
+  - Arduino Shield Compatible
 ---
 
 The SparkFun SAMD21 Dev Breakout is an Arduino-sized breakout for the Atmel ATSAMD21G18, a 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz.
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/13672)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

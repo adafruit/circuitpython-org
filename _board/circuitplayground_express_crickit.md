@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "circuitplayground_express_crickit.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: circuitplay_m0
 features:
   - Speaker
   - Robotics
@@ -39,7 +41,3 @@ All are powered via 5V DC, so you can use any 5V-powered servos, DC motors, step
 
 * [Circuit Playground Express - Adafruit](https://www.adafruit.com/product/3333)
 * [CRICKIT for CircuitPlayground Express - Adafruit](https://www.adafruit.com/product/3093)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

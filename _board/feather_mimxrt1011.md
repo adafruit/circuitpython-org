@@ -7,10 +7,12 @@ manufacturer: "arturo182"
 board_url: "https://hackaday.io/project/169387-mimxrt10xx-feathers-rt1011-and-rt1062"
 board_image: "feather_mimxrt1011.jpg"
 date_added: 2020-1-8
+family: mimxrt10xx
 features:
   - Feather-Compatible
   - Battery Charging
-
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 A Work-In-Progress Feather featuring the NXP i.MX RT1011 MCU and a ESP32.
@@ -29,6 +31,5 @@ A Work-In-Progress Feather featuring the NXP i.MX RT1011 MCU and a ESP32.
 ## Learn More
 * [Reveal Tweet](https://twitter.com/arturo182/status/1199841134253682690)
 
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
+## Purchase
+* [Tindie](https://www.tindie.com/products/arturo182/nxp-mimxrt1011-feather-with-esp32/)

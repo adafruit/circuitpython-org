@@ -8,11 +8,8 @@ board_url: ""
 board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2020-6-14
+family: atmel-samd
 features:
 ---
 
 
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

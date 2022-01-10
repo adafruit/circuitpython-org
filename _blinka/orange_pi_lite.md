@@ -65,7 +65,3 @@ Orange Pi Lite is for anyone who wants to start creating with technology – not
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/32662738571.html?spm=a2g0o.productlist.0.0.756017c14GjaGI&algo_pvid=eb42f805-f4da-4d5b-8e7d-a95ba887558d&algo_expid=eb42f805-f4da-4d5b-8e7d-a95ba887558d-0&btsid=15fd8f3d-5a4c-41da-9cda-329a4cc9f037&ws_ab_test=searchweb0_0,searchweb201602_5,searchweb201603_53)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

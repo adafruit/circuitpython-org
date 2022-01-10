@@ -7,6 +7,8 @@ manufacturer: "keithp.com"
 board_url: "https://keithp.com/snek/snekboard"
 board_image: "snekboard.jpg"
 date_added: 2019-7-30
+family: atmel-samd
+bootloader_id: snekboard
 features:
   - Battery Charging
 ---
@@ -25,7 +27,3 @@ programmed from the host.
 ## Learn More
 
 * [keithp.com](https://keithp.com/snek/snekboard)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

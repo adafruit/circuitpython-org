@@ -40,7 +40,3 @@ Supported by NVIDIA JetPack and DeepStream SDKs, as well as CUDA®, cuDNN, and T
 
 ## Purchase
 * [Arrow](https://www.arrow.com/en/products/945-82771-0000-000/nvidia)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

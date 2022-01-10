@@ -7,6 +7,8 @@ manufacturer: "Microchip"
 board_url: "https://www.microchip.com/DevelopmentTools/ProductDetails/ATSAME54-XPRO"
 board_image: "same54_xplained.jpg"
 date_added: 2020-6-28
+family: atmel-samd
+bootloader_id: same54_xplained
 ---
 
 The SAM E54 Xplained Pro evaluation kit is a hardware platform for evaluating the ATSAME54P20A microcontroller (MCU). Supported by the Studio integrated development platform, the kit provides easy access to the features of the ATSAME54P20A and explains how to integrate the device into a custom design.
@@ -37,7 +39,3 @@ CircuitPython requires that the board be flashed with the UF2 bootloader.  This 
 ## Purchase
 
 * [Microchip](https://www.microchipdirect.com/product/search/all/ATSAME54-XPRO)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

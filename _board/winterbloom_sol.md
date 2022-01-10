@@ -9,6 +9,8 @@ board_image: "sol.jpg"
 downloads_display: true
 blinka: false
 date_added: 2019-11-7
+family: atmel-samd
+bootloader_id: winterbloom_sol
 ---
 
 Winterbloom Sol is a modular synthesizer (Eurorack) module. It is a multi-purpose, scriptable USB MIDI to CV/gate converter. Its code can be modified while in use to change how it processes MIDI data into CV and gate outputs.
@@ -16,7 +18,3 @@ Winterbloom Sol is a modular synthesizer (Eurorack) module. It is a multi-purpos
 ## Purchase
 
 Sol is available for purchase on [Winterbloom.com](https://winterbloom.com) and several modular synthesizer distributors.
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

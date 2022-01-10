@@ -9,6 +9,8 @@ board_image: "meowbit_v121.jpg"
 downloads_display: true
 blinka: false
 date_added: 2020-1-26
+family: stm
+bootloader_id: meowbit_v121
 features:
   - Speaker
   - Solder-Free Alligator Clip
@@ -21,7 +23,3 @@ From the creative and cat-lovin' engineers at KittenBot comes the **Meowbit** - 
 ## Purchase
 Add any links to purchase the board
 * [Adafruit](https://www.adafruit.com/product/4324)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

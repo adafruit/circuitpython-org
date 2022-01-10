@@ -7,6 +7,7 @@ manufacturer: "BDMICRO, LLC"
 board_url: "https://bdmicro.com/products/vina-d21"
 board_image: "bdmicro_vina_d21.jpg"
 date_added: 2020-9-28
+family: atmel-samd
 features:
   - Battery Charging
 ---
@@ -25,7 +26,3 @@ Capable of running standalone, modular piggy back on application-specific boards
 
 ## Purchase
 * [BDMICRO](https://bdmicro.com/products/vina-d21)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

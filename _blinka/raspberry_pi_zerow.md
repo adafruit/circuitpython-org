@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_zerow"
 title: "Raspberry Pi Zero W Download"
-name: "Raspberry Pi Zero W"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/raspberry-pi-zero-w/"
+name: "Zero W"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-w/"
 board_image: "raspberry_pi_zerow.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
@@ -34,7 +34,3 @@ More specifically, this giant upgrade is the addition of a BCM43143 WiFi chip BU
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3400)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

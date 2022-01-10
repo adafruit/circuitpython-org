@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_4b"
 title: "Raspberry Pi 4 Model B Download"
-name: "Raspberry Pi 4 Model B"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/raspberry-pi-4-model-b/"
+name: "Pi 4 Model B"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
 board_image: "raspberry_pi_4b.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
@@ -44,7 +44,3 @@ The Raspberry Pi 4 is the latest product in the Raspberry Pi range, boasting an 
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4295)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

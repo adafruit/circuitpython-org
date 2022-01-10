@@ -7,8 +7,9 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "trellis_m4_express.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: trellis_m4
 features:
-  - Display
 ---
 
 The **NeoTrellis M4** is an all-in-one **USB + NeoPixel + Elastomer + Audio** board. It's powered by the SAMD51, a Cortex M4 core running at 120 MHz. This chip has a speedy core with CircuitPython support, hardware DSP/floating point, dual DACs and all the goodies you expect from normal chips like I2C, ADC, DMA, etc. It has a roomy 512KB of flash and 192KB of SRAM so it's great for CircuitPython, includes a full 8MB flash chip so tons of space for files and audio clips.
@@ -45,7 +46,3 @@ Features:
 ## Purchase
 * [Full Kit - Adafruit](https://www.adafruit.com/product/4020)
 * [Mainboard - Adafruit](https://www.adafruit.com/product/3938)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

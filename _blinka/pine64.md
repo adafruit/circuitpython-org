@@ -7,7 +7,7 @@ manufacturer: "Pine64"
 board_url: "https://www.pine64.org/devices/single-board-computers/pine-a64/"
 board_image: "pine64.png"
 download_instructions: ""
-downloads_display: false
+downloads_display: true
 blinka: true
 date_added: 2020-1-9
 features:
@@ -45,7 +45,3 @@ Apart from Linux, you also have a choice of a selection of *BSDs, Android, Remix
 * [pine64 2GB](https://store.pine64.org/?product=pine-a64-board-2gb)
 * [pine64 1GB](https://store.pine64.org/?product=pine-a64-board-1gb)
 * [pine64 512MB](https://store.pine64.org/?product=pine-a64-board)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

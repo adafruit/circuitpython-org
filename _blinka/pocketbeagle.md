@@ -33,7 +33,3 @@ You can also add a USB host connection by wiring a USB A socket to the broken ou
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4179)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

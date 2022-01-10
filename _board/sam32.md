@@ -7,7 +7,13 @@ manufacturer: "Max Holliday"
 board_url: "https://github.com/maholli/SAM32"
 board_image: "sam32.jpg"
 date_added: 2019-4-5
+family: atmel-samd
+bootloader_id: sam32
 features:
+  - Feather-Compatible
+  - Battery Charging
+  - Wi-Fi
+  - Breadboard-Friendly
 ---
  
 An open source "swiss army knife" for hardware and IoT applications. This board is designed for quickly prototyping a wide range of makerspace, university, and science-related projects. 
@@ -16,7 +22,3 @@ The SAM32 features a 120 MHz SAMD51 main processer, an ESP32 WROOM co-processor,
 
 ## Resources
 SAM32 - [GitHub](https://github.com/maholli/SAM32).
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

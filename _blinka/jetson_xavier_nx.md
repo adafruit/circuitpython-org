@@ -30,7 +30,3 @@ Jetson Xavier NX delivers up to 21 TOPS for running modern AI workloads, consume
 
 ## Learn More
 * [NVIDIA](https://developer.nvidia.com/embedded/jetson-xavier-nx)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

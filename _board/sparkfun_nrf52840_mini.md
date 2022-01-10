@@ -7,6 +7,7 @@ manufacturer: "SparkFun"
 board_url: ""
 board_image: "sparkfun_nrf52840_mini-01.jpg"
 date_added: 2019-3-9
+family: nrf52840
 features:
   - Battery Charging
   - Bluetooth/BTLE
@@ -21,7 +22,3 @@ The board comes pre-programmed with a USB bootloader. You can develop programs f
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/15025)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

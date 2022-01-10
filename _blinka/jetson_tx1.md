@@ -36,7 +36,3 @@ The world's first supercomputer on a module, Jetson TX1 is capable of delivering
 
 ## Purchase
 * [Arrow](https://www.arrow.com/en/products/900-82180-0001-000/nvidia)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

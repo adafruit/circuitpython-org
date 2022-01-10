@@ -7,6 +7,10 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "trinket_m0.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: trinket_m0
+features:
+  - Breadboard-Friendly
 ---
 
 The Adafruit Trinket M0 may be small, but do not be fooled by its size! It's a tiny microcontroller board, built around the Atmel ATSAMD21, a little chip with _a lot_ of power. Adafruit designed a microcontroller board that was small enough to fit into any project, and low cost enough to use without hesitation. Perfect for when you don't want to give up your expensive dev-board and you aren't willing to take apart the project you worked so hard to design. It's one of the lowest-cost CircuitPython programmable boards!
@@ -46,12 +50,8 @@ Each is fully assembled and tested Trinket M0 with CircuitPython & example code 
 So what are you waiting for? Pick up a Trinket M0 today and be amazed at how easy and fast it is to get started with Trinket and CircuitPython!
 
 ## Tutorials
-* [Trinket MO Overview](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino)
+* [Trinket M0 Overview](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino)
 
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/3500)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

@@ -41,7 +41,3 @@ The developer kit can be powered by micro-USB and comes with extensive I/Os, ran
 
 ## Purchase
 * [Arrow](https://www.arrow.com/products/945-13450-0000-000/nvidia)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/4242"
 board_image: "pygamer.jpg"
 date_added: 2019-5-25
+family: atmel-samd
+bootloader_id: arcade_pygamer
 features:
   - Display
   - Speaker
@@ -37,7 +39,3 @@ You can power the PyGamer from any Adafruit LiPoly battery, but [this 350mAh one
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4242)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

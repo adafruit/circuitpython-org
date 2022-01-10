@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/3364"
 board_image: "pirkey_m0.jpg"
 date_added: 2019-3-11
+family: atmel-samd
+bootloader_id: pirkey
 ---
 
 The pIRkey adds an IR remote receiver to any computer, laptop, tablet...any computer or device with a USB port that can use a keyboard. This little board slides into any USB A port, and shows up as an every-day USB keyboard. The onboard ATSAMD21 microcontroller listens for IR remote signals and converts them to keypresses, mouse movements, or even USB serial output.
@@ -26,7 +28,3 @@ By default it ships with simple example code to read NEC remotes but **you can u
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/3364)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

@@ -7,6 +7,7 @@ manufacturer: "NXP"
 board_url: "https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1020-evaluation-kit:MIMXRT1020-EVK"
 board_image: "imxrt1020_evk.jpg"
 date_added: 2020-1-31
+family: mimxrt10xx
 features:
 
 ---
@@ -14,7 +15,3 @@ The i.MX RT1020 EVK is a 2-layer low-cost through-hole USB-powered PCB. At its h
 
 ## Purchase
 * [NXP](https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1020-evaluation-kit:MIMXRT1020-EVK)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

@@ -7,8 +7,10 @@ manufacturer: "Espruino"
 board_url: "https://www.adafruit.com/product/3514"
 board_image: "espruino_wifi.jpg"
 date_added: 2020-2-13
+family: stm
 features:
   - Wi-Fi
+  - Breadboard-Friendly
 ---
 
 Try the JavaScript of things with the **Espruino WiFi** - the world's first open-source JavaScript microcontroller, this time with built in WiFi! This little board has an STM32 microcontroller pre-programmed with Espruino all ready to go so you can start playing with Javascript-microcontrollers. It also comes with an ESP8266 WiFi module, so you can connect to the Internet using Espruino. **Warning:** if you only use Assembly and think that even embedded C/C++ is for wimps, this device might explode your head.
@@ -41,7 +43,3 @@ While the main advantage of the Espruino is its instant execution, it can also b
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3514)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

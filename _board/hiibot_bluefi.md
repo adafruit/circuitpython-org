@@ -7,6 +7,8 @@ manufacturer: "Hangzhou LeBan"
 board_url: ""
 board_image: "hiibot_bluefi.jpg"
 date_added: 2020-5-19
+family: nrf52840
+bootloader_id: hiibot_bluefi
 features:
   - Speaker
   - Solder-Free Alligator Clip
@@ -48,7 +50,3 @@ Easy reprogramming: the HiiBot BlueFi comes pre-loaded with the UF2 bootloader, 
 
 
 
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

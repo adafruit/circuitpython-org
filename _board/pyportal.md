@@ -7,6 +7,8 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "pyportal.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: pyportal_m4
 features:
   - Display
   - Speaker
@@ -27,7 +29,3 @@ The M4 and ESP32 are a great couple - and each bring their own strengths to this
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4116)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

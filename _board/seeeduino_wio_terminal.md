@@ -7,8 +7,10 @@ manufacturer: "SEEED"
 board_url: "https://www.seeedstudio.com/Wio-Terminal-p-4509.html"
 board_image: "seeeduino_wio_terminal.jpg"
 date_added: 2020-7-3
+family: atmel-samd
 features:
-    Display
+    - Display
+    - USB-C
 ---
 
 Instead of being a single embedded functional module, **Wio Terminal** is more of a complete system equipped with Screen + Development Board + Input/Output Interface + Enclosure. Because it uses the SAMD51, it is compatible with Arduino and CircuitPython - using the same Arduino & CircuitPython core we have developed here at Adafruit!
@@ -24,6 +26,7 @@ Instead of being a single embedded functional module, **Wio Terminal** is more o
  * **4 MB** External Flash, **192 KB** RAM
  * Comprehensive Protocol Support
  * SPI, I2C, I2S, ADC, DAC, PWM, UART(Serial)
+ * Built-in real-time clock RTC
 
 **Reliable Wireless Connectivity**
  * Powered by **Realtek RTL8720DN**
@@ -55,7 +58,3 @@ Instead of being a single embedded functional module, **Wio Terminal** is more o
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4707) 
 * [Seeed's Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

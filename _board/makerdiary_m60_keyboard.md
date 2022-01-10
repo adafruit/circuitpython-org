@@ -7,8 +7,10 @@ manufacturer: "MakerDiary"
 board_url: "https://makerdiary.com/pages/m60-mechanical-keyboard"
 board_image: "makerdiary_m60_keyboard.jpg"
 date_added: 2020-07-27
+family: nrf52840
 features:
   - Bluetooth/BTLE
+  - USB-C
   
 ---
 
@@ -23,7 +25,3 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
 
 ## Purchase
 * [MakerDiary](https://makerdiary.com/products/m60-mechanical-keyboard-pcba)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

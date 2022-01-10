@@ -1,7 +1,7 @@
 ---
 layout: download
 board_id: "beaglebone_black"
-title: "BeagleBone Black"
+title: "BeagleBone Black Download"
 name: "BeagleBone Black"
 manufacturer: "BeagleBoard"
 board_url: "https://beagleboard.org/black"
@@ -48,7 +48,3 @@ The rev C comes with a mini-B cable for powering it up ASAP. No microSD card is 
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/1996)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

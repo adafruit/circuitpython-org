@@ -7,6 +7,10 @@ manufacturer: "Adafruit"
 board_url: ""
 board_image: "metro_m0_express.jpg"
 date_added: 2019-3-9
+family: atmel-samd
+bootloader_id: metro_m0
+features:
+  - Arduino Shield Compatible
 ---
 
 This **Metro M0 Express** board looks a whole lot like the [original Metro 328](https://www.adafruit.com/product/2488), but with a huge upgrade. Instead of the ATmega328, this Metro features a ATSAMD21G18 chip, an ARM Cortex M0+. It's the first Adafruit Metro that is designed for use with CircuitPython! 
@@ -27,7 +31,3 @@ Comes fully assembled with headers, tested, and with the UF2 bootloader loaded o
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/3505)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

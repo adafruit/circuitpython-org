@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-  async function getLatestReleases() {
-    let response = await fetch('https://api.github.com/repos/adafruit/Adafruit_CircuitPython_Bundle/releases/latest');
+  async function getLatestReleases(url) {
+    let response = await fetch(url);
     let data = await response.json();
     return data;
   }
@@ -38,5 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  getLatestReleases().then(buildReleaseLinks);
+  getLatestReleases('https://api.github.com/repos/adafruit/Adafruit_CircuitPython_Bundle/releases/latest')
+    .then(buildReleaseLinks);
+  getLatestReleases('https://api.github.com/repos/adafruit/CircuitPython_Community_Bundle/releases/latest')
+    .then(buildReleaseLinks);
 });

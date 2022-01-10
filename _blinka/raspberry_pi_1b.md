@@ -2,8 +2,8 @@
 layout: download
 board_id: "raspberry_pi_1b"
 title: "Raspberry Pi 1 Model B Download"
-name: "Raspberry Pi 1 Model B"
-manufacturer: "Raspberry Pi Foundation"
+name: "Pi 1 Model B"
+manufacturer: "Raspberry Pi"
 board_url: "https://www.adafruit.com/product/998"
 board_image: "raspberry_pi_1b.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
@@ -26,7 +26,3 @@ The Model B was the original Raspberry Pi Model B and consisted of two revisions
 - DSI display port for connecting a Raspberry Pi touchscreen display
 - Stereo audio output port
 - Full-size SD port for loading your operating system and storing data
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

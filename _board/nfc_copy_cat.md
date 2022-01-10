@@ -7,6 +7,7 @@ manufacturer: "Electronic Cats"
 board_url: "https://github.com/ElectronicCats/NFC-Copy-Cat"
 board_image: "nfc_copy_cat.jpg"
 date_added: 2020-4-9
+family: atmel-samd
 features:
   - Robotics
 ---
@@ -15,7 +16,3 @@ NFC Copy Cat, manufactured by Electronic Cats, is a small device that combines t
 
 ## Learn more
 * [NFC Copy Cat - GitHub](https://github.com/ElectronicCats/NFC-Copy-Cat)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

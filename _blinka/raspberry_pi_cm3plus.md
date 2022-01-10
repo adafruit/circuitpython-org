@@ -2,9 +2,9 @@
 layout: download
 board_id: "raspberry_pi_cm3plus"
 title: "Raspberry Pi Compute Module 3+ Download"
-name: "Raspberry Pi Compute Module 3+"
-manufacturer: "Raspberry Pi Foundation"
-board_url: "https://www.raspberrypi.org/products/compute-module-3-plus/"
+name: "Compute Module 3+"
+manufacturer: "Raspberry Pi"
+board_url: "https://www.raspberrypi.com/products/compute-module-3-plus/"
 board_image: "raspberry_pi_cm3plus.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
@@ -22,7 +22,3 @@ The Flash memory is connected directly to the processor on the board, but the re
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4094)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

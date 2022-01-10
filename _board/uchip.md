@@ -7,6 +7,9 @@ manufacturer: "Itaca Innovation"
 board_url: ""
 board_image: "uchip.jpg"
 date_added: 2019-3-25
+family: atmel-samd
+features:
+  - Breadboard-Friendly
 ---
 
 **Small. Yet powerful!**
@@ -47,7 +50,3 @@ You can program uChip using virtually any IDE, in many languages (CircuitPython 
 ## Purchase
 
 * [Itaca Innovation Store](https://shop.itaca-innovation.com)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

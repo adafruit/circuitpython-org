@@ -7,6 +7,7 @@ manufacturer: "Raytac Corporation"
 board_url: "https://www.raytac.com/product/ins.php?index_id=81"
 board_image: "raytac_mdbt50q-db-40.jpg"
 date_added: 2020-07-27
+family: nrf52840
 features:
   - Bluetooth/BTLE
   
@@ -32,7 +33,3 @@ Raytac nRF52840 module spectrum covers MDBT50Q-1MV2, MDBT50Q-P1MV2 and MDBT50Q-U
 
 ## Purchase
 * [Raytac Corporation](https://www.raytac.com/product/ins.php?index_id=81)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).

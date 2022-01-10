@@ -1,7 +1,7 @@
 ---
 layout: download
 board_id: "beaglebone_green_wireless"
-title: "BeagleBone Green Wireless"
+title: "BeagleBone Green Wireless Download"
 name: "BeagleBone Green Wireless"
 manufacturer: "SeeedStudio"
 board_url: "https://beagleboard.org/green-wireless"
@@ -40,7 +40,3 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by BeagleBoard.or
 
 ## Purchase
 * [SeeedStudio](https://www.seeedstudio.com/BeagleBone-Green-Wireless-Development-Board-TI-AM335x-WiFi-BT.html)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).
