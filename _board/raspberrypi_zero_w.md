@@ -15,7 +15,7 @@ date_added: 2022-01-07
 
 The board incorporates a Broadcom single-core ARMv6 CPU (BCM2835) clocked at 1GHz and has 512MB of RAM.
 
-The board has a microSD card slot, a CSI-2 camera connector, a USB On-The-Go (OTG) port, and an unpopulated footprint for a HAT-compatible 40-pin GPIO header. It is powered via a micro USB socket. Video output is via a mini HDMI port; composite video output can easily be made available via test points, if needed. Sharing the same form factor as the original Raspberry Pi Zero, Raspberry Pi Zero 2 W fits inside most existing Raspberry Pi Zero cases.
+The board has a microSD card slot, a CSI-2 camera connector, a USB On-The-Go (OTG) port, and an unpopulated footprint for a HAT-compatible 40-pin GPIO header. It is powered via a micro USB socket. Video output is via a mini HDMI port; composite video output can easily be made available via test points, if needed.
 
 ## CircuitPython
 
