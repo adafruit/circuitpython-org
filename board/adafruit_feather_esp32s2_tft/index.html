@@ -19,7 +19,7 @@
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
 <title>Feather ESP32-S2 with TFT Download</title>
-<meta name="description" content="Coming Soon!Learn More  YouTube  Adafruit Blog" />
+<meta name="description" content="We’ve got a new machine here at Adafruit, it can uncover your deepest desires. Don’t believe me? I’ll turn it on right now to prove it to you! What, you want..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:description" content="Coming Soon!Learn More  YouTube  Adafruit Blog" />
+<meta property="og:description" content="We’ve got a new machine here at Adafruit, it can uncover your deepest desires. Don’t believe me? I’ll turn it on right now to prove it to you! What, you want unlimited mozzarella sticks? OK well, that’s not something we can provide. But we can provide your second-deepest desire: an ESP32-S2 Feath..." />
 
 
 
@@ -154,13 +154,39 @@
           <img src="/assets/images/boards/large/adafruit_feather_esp32s2_tft.jpg" alt="Image of Board">
         
         <p>
-          <p>Coming Soon!</p>
+          <p>We’ve got a new machine here at Adafruit, it can uncover your deepest desires. Don’t believe me? I’ll turn it on right now to prove it to you! What, you want unlimited mozzarella sticks? OK well, that’s not something we can provide. But we can provide your <em>second</em>-deepest desire: an <strong>ESP32-S2 Feather board with a built in IPS TFT color display</strong>. It’s got all the <del>gooeyness of a mozzarella stick</del> features of a Feather main board, the comforting warmth of an ESP32-S2 WiFi microcontroller, and the crispness of a 240x135 pixel color TFT display. All that and it will even plug in nicely into a breadboard, <a href="https://www.adafruit.com/product/2926">terminal block wing</a>, or <a href="https://www.adafruit.com/product/2890">Feather Doubler</a> or even just stack on top of another wing.</p>
 
-<h2 id="learn-more">Learn More</h2>
+<p>This feather comes with native USB and <strong>4 MB flash + 2 MB of PSRAM</strong>, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi means its awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.</p>
+
+<p>The ESP32-S2 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has <strong>built-in native USB</strong> as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<p><strong>Please note</strong> the Feather ESP32-S2 has a single-core 240 MHz chip, so it won’t be as fast as ESP32’s with dual-core. Also, there is no Bluetooth support. However, we are super excited about the ESP32-S2’s native USB which unlocks a lot of capabilities for advanced interfacing! This ESP32-S2 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM so you can buffer massive JSON files for parsing!</p>
+
+<p>The color TFT is connected to the SPI pins, and uses additional pins for control that are not exposed to the breakout pads. <a href="https://www.adafruit.com/product/4383">It’s the same display as you see here, with 240x135 pixels and is IPS</a> so you get bright color at any angle. The backlight is also connected to a separate pin so you can PWM the backlight up and down as desired.</p>
+
+<p>For low power usages, the Feather has a <em>second</em> AP2112 regulator. The regulator is controlled with a GPIO pin on the enable line and can shut off power to the Stemma QT port and TFT. There is also a separate power pin for the NeoPixel that can be used to disable it for even lower quiescent power. With everything off and in deep sleep mode, the TFT feather uses about 100uA of current.</p>
+
+<p><strong>Features:</strong></p>
 
 <ul>
-  <li><a href="https://youtu.be/74_0KsoOkZE">YouTube</a></li>
-  <li><a href="https://blog.adafruit.com/?s=esp32-s2+tft">Adafruit Blog</a></li>
+  <li><strong>ESP32-S2 240MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
+  <li><strong><a href="https://www.adafruit.com/product/4383">Color 1.14” IPS TFT with 240x135 pixels</a></strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle angle.</li>
+  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+  <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
+  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+  <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+  <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+  <li><strong>Low Power friendly</strong>! In deep sleep mode we can get down to 80~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C/TFT power for the lowest quiescent current draw.</li>
+  <li><strong>Works with Arduino or CircuitPython</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5300">Adafruit</a></li>
 </ul>
 
         </p>
