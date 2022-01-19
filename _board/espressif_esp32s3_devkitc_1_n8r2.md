@@ -1,19 +1,19 @@
 ---
 layout: download
-board_id: "espressif_esp32s3_devkitc_1_nopsram"
-title: "ESP32-S3-DevKitC-1 - 8MB Flash No PSRAM"
-name: "ESP32-S3-DevKitC-1"
+board_id: "espressif_esp32s3_devkitc_1_n8r2"
+title: "ESP32-S3-DevKitC-1-N8R2 Download"
+name: "ESP32-S3-DevKitC-1-N8R2"
 manufacturer: "Espressif"
-board_url: "https://www.adafruit.com/product/5312"
-board_image: "espressif_esp32s3_devkitc_1_nopsram.jpg"
-date_added: 2022-1-4
+board_url: "https://www.adafruit.com/product/5310"
+board_image: "espressif_esp32s3_devkitc_1.jpg"
+date_added: 2021-12-7
 family: esp32s3
 features:
   - Wi-Fi
   - Breadboard-Friendly
 ---
 
-The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. **This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 8MB Flash and no PSRAM.**
+The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. **This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 8MB Flash and 2MB PSRAM.**
 
 **Please note:** The S**3** is *similar* to the ESP32-S**2** - but adds a dual core and Bluetooth LE (not classic!) However, there is minimal support for this dev board. For example, as of the time of this writing, there is no Arduino or CircuitPython support - only ESP IDF! Please purchase if you're doing development with the S3, and OK with stuff not working 100% out of the box.
 
@@ -44,4 +44,4 @@ There are three mutually exclusive ways to provide power to the board:
 
 ## Purchase
 
-* [Adafruit](https://www.adafruit.com/product/5312)
+* [Adafruit](https://www.adafruit.com/product/5310)
