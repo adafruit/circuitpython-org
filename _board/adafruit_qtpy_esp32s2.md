@@ -42,7 +42,7 @@ Runs Arduino like a dream, and CircuitPython projects are fantastically fun.
   - PWM outputs on any pin
   - Two I2C ports, one on the breakout pads, and another with STEMMA QT plug-n-play connector
   - Hardware UART
-  - Hardware SPI on the high speed SPI peripheral puns
+  - Hardware SPI on the high speed SPI peripheral pins
   - Hardware I2S on any pins
   - 5 x Capacitive Touch with no additional components required
 - 3.3V regulator with [**600mA peak output**](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
