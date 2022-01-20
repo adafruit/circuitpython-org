@@ -6,7 +6,7 @@
 
   .content-block {
     grid-column: full;
-    padding: 20px 20px 20px 55px;
+    padding: 20px 20px 20px 50px;
     margin-bottom: 5px;
     font-weight: 500;
 
@@ -19,7 +19,7 @@
     grid-column: full;
 
     .banner {
-      padding: 20px 70px 20px 70px;
+      padding: 20px 50px 20px 50px;
       margin-bottom: 5px;
 
       h3 {
@@ -36,10 +36,11 @@
     .tab-block {
       display: grid;
       grid-template-columns: 20% 80%;
-      padding: 0 70px 0 70px;
+      padding: 0 50px 0 50px;
 
       .tab-links {
         list-style-type: none;
+        padding: 0;
 
         a {
           font-weight: 600;
@@ -51,10 +52,14 @@
       }
 
       .tab-content {
-        display: grid;
+        display: none;
         grid-template-columns: 20% 80%;
         column-gap: 20px;
         padding-top: 20px;
+
+        &.active {
+          display: grid;
+        }
 
         img {
           display: block;
