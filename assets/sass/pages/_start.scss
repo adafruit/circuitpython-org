@@ -97,7 +97,8 @@
         }
 
         .tab-content {
-          display: block;
+          display: grid;
+          grid-template-columns: 1fr;
 
           img {
             display: none;
