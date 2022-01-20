@@ -6,11 +6,12 @@ document.addEventListener('DOMContentLoaded',function() {
 
 function showContent(event) {
   event.preventDefault();
-  var tab = event.target.getAttribute('href');
+  var tabId = event.target.getAttribute('href').substring(1);
+  var startSection = event.target.closest('.start-section');
   // toggle active class for links
-  document.querySelector(".tab-links a.active").classList.remove('active');
+  startSection.querySelector(".tab-links a.active").classList.remove('active');
   event.target.classList.add('active');
   // toggle active class for content
-  document.querySelector(".tab-content.active").classList.remove('active');
-  document.getElementById(tab.substring(1)).classList.add('active');
+  startSection.querySelector(".tab-content.active").classList.remove('active');
+  document.getElementById(tabId).classList.add('active');
 }
