@@ -12,7 +12,7 @@ features:
   - Breadboard-Friendly
   - Wi-Fi
 ---
-This board is a version of the NodeMCU board with an ESP-12K (ESP32-S2) module on it. The board has a micro USB connection with which it can be programmed and/or powered (micro USB cable not included).
+This board is a version of the NodeMCU board with an ESP-12K (ESP32-S2) module on it. The board has a micro USB connection with which it can be programmed and/or powered.
 
 Specifications:
 - Supply voltage:
