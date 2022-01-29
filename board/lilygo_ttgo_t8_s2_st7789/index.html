@@ -181,7 +181,9 @@ It’s basically the same board as the st7789 just without the display.</p>
 
 <p>To flash this image use this command:</p>
 
-<p>esptool.py  –chip esp32s2 –port (COMPORT) –baud 115200 write_flash 0x000 “adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-6.2.0.bin”</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>esptool.py  <span class="nt">--chip</span> esp32s2 <span class="nt">--port</span> <span class="o">(</span>COMPORT<span class="o">)</span> <span class="nt">--baud</span> 115200 write_flash 0x000 <span class="se">\</span>
+  adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-X.Y.Z.bin
+</code></pre></div></div>
 
 <p>After flashing change the dip switches to OTG mode, when reconnected you should see the CIRCUITPY drive.</p>
 
