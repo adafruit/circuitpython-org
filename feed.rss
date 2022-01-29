@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sat, 29 Jan 2022 05:07:54 -0500</lastBuildDate>
+<lastBuildDate>Sat, 29 Jan 2022 12:19:47 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -6560,7 +6560,7 @@ Gaze upon these features:</p>
 
 <p>This image can be flashed with the <a href="https://github.com/adafruit/tinyuf2/releases">TinyUF2 bootloader</a> or with esptool using this command:</p>
 
-<p>esptool.py -p (COMPORT)-b 460800 write_flash –flash_mode dio –flash_size detect –flash_freq 40m 0x00000 adafruit-circuitpython-muselab_nanoesp32_s2_wrover-ll_LL-X.Y.Z.bin</p>
+<p>esptool.py -p (COMPORT) -b 460800 write_flash –flash_mode dio –flash_size detect –flash_freq 40m 0x00000 adafruit-circuitpython-muselab_nanoesp32_s2_wrover-ll_LL-X.Y.Z.bin</p>
 
 <p><strong>NOTE:</strong> This board has 2 USB-C connector, one for Serial (ch340) and one for Native USB (esp32).</p>
 
