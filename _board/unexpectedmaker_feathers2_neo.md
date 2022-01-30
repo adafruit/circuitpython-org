@@ -45,9 +45,9 @@ Yeah, why not! Getting compelling information out of a single RGB LED can be a r
 
 The RGB Matrix is powered from its own 3.3V LDO, that defaults to the off state, so there is no current draw if you put the FeatherS2 Neo into deep sleep. Turning the power on is as simple as setting IO4 HIGH.
 
-You can find out more about the FeatherS2 Neo at [unexpected maker](https://unexpectedmaker.com/feathers2-neo-soon)
+You can find out more about the FeatherS2 Neo at [unexpected maker](https://unexpectedmaker.com/feathers2-neo-soon).
 
 ## Purchase
 You can purchase your very own FeatherS2 Neo from:
 
-**Coming soon!**
+* [unexpectedmaker shop](https://unexpectedmaker.com/shop/feathers2neo-esp32s2)
