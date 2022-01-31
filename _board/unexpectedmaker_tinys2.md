@@ -40,7 +40,7 @@ Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!
 You can find out more about the TinyS2 at [tinys2.io](https://tinys2.io)
 
 ## Purchase
-You can purchase your very own FeatherS2 from:
+You can purchase your very own TinyS2 from:
 * [Unexpected Maker](https://unexpectedmaker.com/shop/tinys2-esp32-s2)
 * [Adafruit](https://www.adafruit.com/product/5029)
 * [Pimoroni](https://shop.pimoroni.com/products/tinys2)
