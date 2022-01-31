@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 31 Jan 2022 12:18:49 -0500</lastBuildDate>
+<lastBuildDate>Mon, 31 Jan 2022 12:20:00 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -5877,9 +5877,7 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
 
 <p>The nRF52840 Micro Dev Kit USB Dongle features a programmable user button, RGB LED, up to 12 GPIOs and 2.4G Chip antenna on board.</p>
 
-<p>The USB Dongle can be used as a low-cost Bluetooth5/Tread/802.15.4/ANT/2.4GHz multi-protocol node or development board. Alternatively the USB Dongle can be used as a Network Co-Processor (NCP) with a simple connection to a PC or other USB enabled device.</p>
-
-<p>It could be required that you have to <a href="https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/programming/#upgrade-to-uf2-bootloader-from-open-bootloader">switch from the Open Bootloader to the UF2 Bootloader</a>.</p>
+<p>The USB Dongle can be used as a low-cost Bluetooth5/Tread/802.15.4/ANT/2.4GHz multi-protocol node or development board. Alternatively the USB Dongle can be used as a Network Co-Processor(NCP) with a simple connection to a PC or other USB enabled device.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
@@ -8768,30 +8766,10 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
               300px"
        src="/assets/images/boards/original/seeeduino_xiao_rp2040.jpg" alt="Image of Board" loading="lazy">
 
-<p>By SEEED</p> <p>XIAO RP2040 is a microcontroller using the Raspberry RP2040 chip. It runs at up to 133 MHz, is built with rich interfaces in a tiny thumb size, and fully supports Arduino, MicroPython, and CircuitPython.</p>
-
-<p>The XIAO RP2040 is a development board of the Seeeduino XIAO series. Like the Seeeduino XIAO, it is a compact board with a wide range of interfaces. The XIAO RP2040 is equipped with the Raspberry RP2040 chip (Dual-core ARM® Cortex® M0+) and has 2 MB of Flash on board.</p>
-
-<p>Interfaces:</p>
-
-<ul>
-  <li>11 digital pins</li>
-  <li>4 analog pins</li>
-  <li>11 PWM Pins</li>
-  <li>1 I2C interface</li>
-  <li>1 UART interface</li>
-  <li>1 SPI interface</li>
-  <li>1 SWD Bonding pad interface</li>
-</ul>
-
-<p>Some PINs have various functions, Moreover, XIAO RP2040 supports the USB Type-C interface which can supply power and download code. 1 Reset button, 1 BOOT button, 1 user-programmable RGB LED, 1 power LED, 2 status indicators, and 1 user LED are on board, allowing developers to debug their code very easily.</p>
-
-<p>The XIAO RP2040 is very compact because all electronic components are soldered on the same board surface, which means you can easily solder the XIAO RP2040 to your own PCB. XIAO RP2040 is pin-compatible with Seeeduino XIAO, so XIAO RP2040 can be learned and developed using the Expansion board of Seeeduino XIAO.</p>
-
-<h2 id="tutorial">Tutorial</h2>
-<ul>
-  <li><a href="https://wiki.seeedstudio.com/XIAO-RP2040-with-CircuitPython/">Installation of CircuitPython</a></li>
-</ul>
+<p>By SEEED</p> <p>XIAO RP2040 is a microcontroller using the Raspberry RP2040 chip. It runs at up to 133MHz, is built with rich interfaces in a tiny thumb size, and fully supports Arduino, MicroPython, and CircuitPython. The onboard interfaces are enough for developing multiple applications. 
+XIAO RP2040 is a development board of the Seeeduino XIAO series. Like the Seeeduino XIAO, it is a compact board with a wide range of interfaces. The XIAO RP2040 is equipped with the Raspberry RP2040 chip (Dual-core ARM® Cortex® M0+ @133MHz). Powerful performance and low power, ideal for various wearable and small projects.
+In addition to the powerful CPU, the XIAO RP2040 has 2MB of Flash on board. 11 digital pins, 4 analog pins, 11 PWM Pins,1 I2C interface, 1 UART interface, 1 SPI interface, 1 SWD Bonding pad interface. Some PINs have various functions, Moreover, XIAO RP2040 supports the USB Type-C interface which can supply power and download code. 1 Reset button, 1 BOOT button, 1 user-programmable RGB LED, 1 power LED, 2 status indicators, and 1 user LED are on board, allowing developers to debug their code very easily.
+The XIAO RP2040 is very compact because all electronic components are soldered on the same board surface, which means you can easily solder the XIAO RP2040 to your own PCB. XIAO RP2040 is pin-compatible with Seeeduino XIAO, so XIAO RP2040 can be learned and developed using the Expansion board of Seeeduino XIAO.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
