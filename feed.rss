@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 31 Jan 2022 12:17:56 -0500</lastBuildDate>
+<lastBuildDate>Mon, 31 Jan 2022 12:18:49 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -5877,7 +5877,9 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
 
 <p>The nRF52840 Micro Dev Kit USB Dongle features a programmable user button, RGB LED, up to 12 GPIOs and 2.4G Chip antenna on board.</p>
 
-<p>The USB Dongle can be used as a low-cost Bluetooth5/Tread/802.15.4/ANT/2.4GHz multi-protocol node or development board. Alternatively the USB Dongle can be used as a Network Co-Processor(NCP) with a simple connection to a PC or other USB enabled device.</p>
+<p>The USB Dongle can be used as a low-cost Bluetooth5/Tread/802.15.4/ANT/2.4GHz multi-protocol node or development board. Alternatively the USB Dongle can be used as a Network Co-Processor (NCP) with a simple connection to a PC or other USB enabled device.</p>
+
+<p>It could be required that you have to <a href="https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/programming/#upgrade-to-uf2-bootloader-from-open-bootloader">switch from the Open Bootloader to the UF2 Bootloader</a>.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
