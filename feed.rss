@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 31 Jan 2022 05:08:11 -0500</lastBuildDate>
+<lastBuildDate>Mon, 31 Jan 2022 12:15:10 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -10368,12 +10368,14 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 
 <p>The RGB Matrix is powered from its own 3.3V LDO, that defaults to the off state, so there is no current draw if you put the FeatherS2 Neo into deep sleep. Turning the power on is as simple as setting IO4 HIGH.</p>
 
-<p>You can find out more about the FeatherS2 Neo at <a href="https://unexpectedmaker.com/feathers2-neo-soon">unexpected maker</a></p>
+<p>You can find out more about the FeatherS2 Neo at <a href="https://unexpectedmaker.com/feathers2-neo-soon">unexpected maker</a>.</p>
 
 <h2 id="purchase">Purchase</h2>
 <p>You can purchase your very own FeatherS2 Neo from:</p>
 
-<p><strong>Coming soon!</strong></p>
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop/feathers2neo-esp32s2">unexpectedmaker shop</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Mon, 30 Aug 2021 20:00:00 -0400</pubDate>
