@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 31 Jan 2022 12:15:10 -0500</lastBuildDate>
+<lastBuildDate>Mon, 31 Jan 2022 12:15:51 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -10278,6 +10278,50 @@ library which gives you graphic primitives such as tiled grids and sprites.</p>
     <pubDate>Tue, 12 Mar 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/ugame10/</guid>
   </item><item>
+    <title>Unexpected Maker FeatherS3</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_feather3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/unexpectedmaker_feathers3.jpg 300w,
+               /assets/images/boards/large/unexpectedmaker_feathers3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/unexpectedmaker_feathers3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Unexpected Maker</p> <p>Introducing the FeatherS3 - The Pro ESP32-S3 Development Board in the Feather Format!</p>
+
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>
+  <li>RISC-V Ultra Low Power Co-processor</li>
+  <li>2.4GHz Wifi - 802.11b/g/n</li>
+  <li>Bluetooth 5, BLE + Mesh</li>
+  <li>16MB QSPI Flash</li>
+  <li>8MB of extra QSPI PSRAM</li>
+  <li>2x 700mA 3.3V LDO Regulators</li>
+  <li>LDO2 is user controlled &amp; also auto-shuts down in deep sleep</li>
+  <li>Low power RGB LED</li>
+  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>
+  <li>USB-C Connector with back-feed protection</li>
+  <li>Native USB + USB Serial JTAG</li>
+  <li>LiPo Battery Charging</li>
+  <li>VBAT and 5V Sense Pins</li>
+  <li>3D High Gain Antenna</li>
+  <li>21x GPIO</li>
+  <li>2x STEMMA connectors, 1 on LDO1 and 1 on LDO2 !</li>
+  <li>Feather Format compatibility</li>
+</ul>
+
+<p>You can find out more about the FeatherS3 at <a href="https://feathers3.io">feathers3.io</a></p>
+
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own FeatherS3 from:
+<em>Stay tuned!</em></p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_feather3/</guid>
+  </item><item>
     <title>Unexpected Maker FeatherS2</title>
     <link>https://circuitpython.org/board/unexpectedmaker_feathers2/</link>
     <description><![CDATA[ 
@@ -10433,6 +10477,52 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
     <pubDate>Sun, 14 Jun 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/unexpectedmaker_feathers2_prerelease/</guid>
   </item><item>
+    <title>Unexpected Maker ProS3</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_pros3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/unexpectedmaker_pros3.jpg 300w,
+               /assets/images/boards/large/unexpectedmaker_pros3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/unexpectedmaker_pros3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Unexpected Maker</p> <p>Introducing the ProS3 - The Ultimate Pro ESP32-S3 Development Board!</p>
+
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>
+  <li>RISC-V Ultra Low Power Co-processor</li>
+  <li>2.4GHz Wifi - 802.11b/g/n</li>
+  <li>Bluetooth 5, BLE + Mesh</li>
+  <li>16MB QSPI Flash</li>
+  <li>8MB of extra QSPI PSRAM</li>
+  <li>2x 700mA 3.3V LDO Regulators</li>
+  <li>LDO2 is user controlled &amp; also auto-shuts down in deep sleep</li>
+  <li>Low power RGB LED</li>
+  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>
+  <li>USB-C Connector with back-feed protection</li>
+  <li>USB ESD protection</li>
+  <li>Native USB + USB Serial JTAG</li>
+  <li>LiPo Battery Charging + PicoBlade connector</li>
+  <li>VBAT and 5V Sense Pins</li>
+  <li>3D High Gain Antenna</li>
+  <li>27x GPIO including castellated headers</li>
+  <li>STEMMA connector powered by LDO1</li>
+  <li>JTAG pins on the header</li>
+  <li>Compatible with TinyPICO &amp; TinyS3</li>
+</ul>
+
+<p>You can find out more about the ProS3 at <a href="https://pros3.io">pros3.io</a></p>
+
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own ProS3 from:
+<em>Stay tuned!</em></p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_pros3/</guid>
+  </item><item>
     <title>Unexpected Maker TinyS2</title>
     <link>https://circuitpython.org/board/unexpectedmaker_tinys2/</link>
     <description><![CDATA[ 
@@ -10469,7 +10559,7 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 <p>You can find out more about the TinyS2 at <a href="https://tinys2.io">tinys2.io</a></p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own FeatherS2 from:</p>
+<p>You can purchase your very own TinyS2 from:</p>
 <ul>
   <li><a href="https://unexpectedmaker.com/shop/tinys2-esp32-s2">Unexpected Maker</a></li>
   <li><a href="https://www.adafruit.com/product/5029">Adafruit</a></li>
@@ -10479,6 +10569,50 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
     <category>CircuitPython</category>
     <pubDate>Fri, 19 Mar 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/unexpectedmaker_tinys2/</guid>
+  </item><item>
+    <title>Unexpected Maker TinyS3</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_tinys3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/unexpectedmaker_tinys3.jpg 300w,
+               /assets/images/boards/large/unexpectedmaker_tinys3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/unexpectedmaker_tinys3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Unexpected Maker</p> <p>Introducing the TinyS3 - The Mighty Tiny ESP32-S3 based development board!</p>
+
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>
+  <li>RISC-V Ultra Low Power Co-processor</li>
+  <li>2.4GHz Wifi - 802.11b/g/n</li>
+  <li>Bluetooth 5, BLE + Mesh</li>
+  <li>8MB QSPI Flash</li>
+  <li>8MB of extra QSPI PSRAM</li>
+  <li>700mA 3.3V LDO Regulator</li>
+  <li>Low power RGB LED</li>
+  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>
+  <li>USB-C Connector with back-feed protection</li>
+  <li>Native USB + USB Serial JTAG</li>
+  <li>LiPo Battery Charging</li>
+  <li>JST pads on the back supports PH connector</li>
+  <li>VBAT and 5V Sense Pins</li>
+  <li>3D High Gain Antenna</li>
+  <li>17 GPIO</li>
+  <li>Only 35 x 18mm in size</li>
+  <li>Compatible with TinyPICO &amp; TinyS2</li>
+</ul>
+
+<p>You can find out more about the TinyS3 at <a href="https://tinys3.io">tinys3.io</a></p>
+
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own TinyS3 from:
+<em>Stay tuned!</em></p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_tinys3/</guid>
   </item><item>
     <title>RP2040-Zero</title>
     <link>https://circuitpython.org/board/waveshare_rp2040_zero/</link>
