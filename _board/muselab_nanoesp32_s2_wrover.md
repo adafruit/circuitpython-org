@@ -20,7 +20,10 @@ This is the nanoESP32-S2 board with a WROVER ESP32-S2 module.
 
 This image can be flashed with the [TinyUF2 bootloader](https://github.com/adafruit/tinyuf2/releases) or with esptool using this command:
 
-esptool.py -p (COMPORT) -b 460800 write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x00000 adafruit-circuitpython-muselab_nanoesp32_s2_wrover-ll_LL-X.Y.Z.bin
+```sh
+esptool.py -p (COMPORT) -b 460800 write_flash --flash_mode dio --flash_size detect \
+  --flash_freq 40m 0x00000 adafruit-circuitpython-muselab_nanoesp32_s2_wrover-ll_LL-X.Y.Z.bin
+``
 
 **NOTE:** This board has 2 USB-C connector, one for Serial (ch340) and one for Native USB (esp32).
 
