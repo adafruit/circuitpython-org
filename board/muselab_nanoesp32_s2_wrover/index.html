@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:description" content="This is the nanoESP32-S2 board with a WROVER ESP32-S2 module.This image can be flashed with the TinyUF2 bootloader or with esptool using this command:esptool.py -p (COMPORT) -b 460800 write_flash –flash_mode dio –flash_size detect –flash_freq 40m 0x00000 adafruit-circuitpython-muselab_nanoesp32_s..." />
+<meta property="og:description" content="This is the nanoESP32-S2 board with a WROVER ESP32-S2 module.This image can be flashed with the TinyUF2 bootloader or with esptool using this command:esptool.py -p (COMPORT) -b 460800 write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x00000 \  adafruit-circuitpython-muselab_nanoe..." />
 
 
 
@@ -158,7 +158,9 @@
 
 <p>This image can be flashed with the <a href="https://github.com/adafruit/tinyuf2/releases">TinyUF2 bootloader</a> or with esptool using this command:</p>
 
-<p>esptool.py -p (COMPORT) -b 460800 write_flash –flash_mode dio –flash_size detect –flash_freq 40m 0x00000 adafruit-circuitpython-muselab_nanoesp32_s2_wrover-ll_LL-X.Y.Z.bin</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>esptool.py <span class="nt">-p</span> <span class="o">(</span>COMPORT<span class="o">)</span> <span class="nt">-b</span> 460800 write_flash <span class="nt">--flash_mode</span> dio <span class="nt">--flash_size</span> detect <span class="nt">--flash_freq</span> 40m 0x00000 <span class="se">\</span>
+  adafruit-circuitpython-muselab_nanoesp32_s2_wrover-ll_LL-X.Y.Z.bin
+</code></pre></div></div>
 
 <p><strong>NOTE:</strong> This board has 2 USB-C connector, one for Serial (ch340) and one for Native USB (esp32).</p>
 
