@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "piunora"
+board_id: "diodes_delight_piunora"
 title: "Piunora Download"
 name: "Piunora"
 manufacturer: "Diodes Delight"
 board_url: "https://www.crowdsupply.com/diodes-delight/piunora"
-board_image: "piunora.jpg"
+board_image: "diodes_delight_piunora.jpg"
 download_instructions: 
 downloads_display: true
 blinka: true
