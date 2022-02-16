@@ -1,0 +1,30 @@
+From 609b9a5243fbbc6e0f6014d4aeaa902a1d2ecfc9 Mon Sep 17 00:00:00 2001
+From: dherrada <dylan.herrada@adafruit.com>
+Date: Mon, 14 Feb 2022 15:35:02 -0500
+Subject: [PATCH] Fixed readthedocs build
+
+---
+ .readthedocs.yaml | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/.readthedocs.yaml b/.readthedocs.yaml
+index f8b2891..33c2a61 100644
+--- a/.readthedocs.yaml
++++ b/.readthedocs.yaml
+@@ -8,8 +8,12 @@
+ # Required
+ version: 2
+ 
++build:
++  os: ubuntu-20.04
++  tools:
++    python: "3"
++
+ python:
+-  version: "3.x"
+   install:
+     - requirements: docs/requirements.txt
+     - requirements: requirements.txt
+-- 
+2.25.1
+
