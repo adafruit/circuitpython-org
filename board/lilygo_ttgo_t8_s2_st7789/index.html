@@ -166,7 +166,7 @@
   <li>on/off power switch</li>
   <li>reset and boot button</li>
   <li>onboard 32.768kHz crystal oscillator</li>
-  <li>USB type-C connector</li>
+  <li>USB-C connector</li>
 </ul>
 
 <p><strong>Schematic:</strong></p>
@@ -177,7 +177,7 @@
 <p><strong>Board compatibility:</strong></p>
 
 <p>This image is working on the TTGO T8 ESP32-S2 V1.1 as well.
-It’s basically the same board as the st7789 just without the display.</p>
+It’s basically the same board as the ST7789 just without the display.</p>
 
 <p>To flash this image use this command:</p>
 
@@ -185,7 +185,15 @@ It’s basically the same board as the st7789 just without the display.</p>
   adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-X.Y.Z.bin
 </code></pre></div></div>
 
-<p>After flashing change the dip switches to OTG mode, when reconnected you should see the CIRCUITPY drive.</p>
+<p>After flashing change the DIP switches (the ones closer to the USB-C connector) to OTG mode, when reconnected you should see the CIRCUITPY drive.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>USB        OTG
+
+On         On
+o   o        o   o
+  o   o    o   o
+1 2 3 4    1 2 3 4
+</code></pre></div></div>
 
         </p>
         <h2>Contribute</h2>
