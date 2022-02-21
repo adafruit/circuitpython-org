@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>ESP-C3-32S (2M) Download</title>
+<meta name="description" content="This is an entry-level development board based on Espressif ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency u..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/ai_thinker_esp32-c3s-2m/" />
+
+<meta property="og:title"   content="CircuitPython - ESP-C3-32S (2M) Download" />
+
+
+
+<meta property="og:description" content="This is an entry-level development board based on Espressif ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency up to 160 MHz, supports secondary development without using other microcontrollers or processors. The ESP32-C3 is an highly integrated low po..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/ai_thinker_esp32-c3s.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/ai_thinker_esp32-c3s-2m/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://docs.circuitpython.org/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>ESP-C3-32S (2M)</h1>
+  <h3>by Ai-Thinker</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/ai_thinker_esp32-c3s.jpg" alt="Image of Board">
+        
+        <p>
+          <p>This is an entry-level development board based on Espressif ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency up to 160 MHz, supports secondary development without using other microcontrollers or processors. The ESP32-C3 is an highly integrated low power Wi-Fi and Bluetooth system-level chip (SoC), designed for various applications such as internet of things (IoT), mobile devices, wearable electronics, smart home, etc.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>Onboard ESP-C3-32S module that comes with a PCB antenna</li>
+  <li>Onboard CH340, USB to UART converter</li>
+  <li>RGB 3-in-1 LED, convenient for secondary development</li>
+  <li>USB port for power input, firmware programming, or UART debugging</li>
+  <li>2x15pin extension headers, breakout all the I/O pins of the module</li>
+  <li>2x keys, used as reset or user-defined</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Complete Wi-Fi 802.11b/g/n, 1T1R mode data rate up to 150Mbps</li>
+  <li>Support BLE5.0 and rate support: 125Kbps, 500Kbps, 1Mbps,2Mbps</li>
+  <li>Onboard ESP32-C3 chip, 32-bit RISC-V single-core processor, supports a clock frequency of up to 160 MHz, with 400 KB SRAM, 384 KB ROM, 8KB RTC SRAM</li>
+  <li>Support UART/PWM/GPIO/ADC/I2C/I2S interface, temperature sensor, pulse counter</li>
+  <li>SMD-38 package</li>
+  <li>Integrated Wi-Fi MAC/ BB/RF/PA/LNA/BLE</li>
+  <li>Support multiple sleep modes, deep sleep electric current is less than 5uA</li>
+  <li>UART rate up to 5Mbps</li>
+  <li>Support STA/AP/STA+AP mode and mix mode</li>
+  <li>Support Smart Config (APP)/AirKiss (WeChat) of Android and IOS One-click network configuration</li>
+  <li>Support UART port local upgrade and remote firmware upgrade (FOTA)</li>
+  <li>General AT commands can be better understand</li>
+  <li>Support secondary development, integrated Linux development environment</li>
+  <li>ESP-C3-32S module acquiesce in using the built-in 2MByte Flash, meanwhile support external Flash version</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005003023291446.html">Aliexpress</a></li>
+</ul>
+
+        </p>
+        <h2>Contribute</h2>
+        
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/ai_thinker_esp32-c3s-2m.md">here</a>.</p>
+        
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+
+
+  <div class="section unstable">
+    <h3>CircuitPython 7.2.0-rc.0</h3>
+    <p>
+      This is the latest unstable
+      release of CircuitPython that will work with the ESP-C3-32S (2M).
+    </p>
+    <p>
+      
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/7.2.0-rc.0">Release Notes for 7.2.0-rc.0</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/zh_Latn_pinyin/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-zh_Latn_pinyin-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/zh_Latn_pinyin/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-zh_Latn_pinyin-7.2.0-rc.0.bin
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/nl/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-nl-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/nl/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-nl-7.2.0-rc.0.bin
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/en_GB/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-en_GB-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/en_GB/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-en_GB-7.2.0-rc.0.bin
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/en_US/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-en_US-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/en_US/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-en_US-7.2.0-rc.0.bin
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/fil/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-fil-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/fil/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-fil-7.2.0-rc.0.bin
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/fr/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-fr-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/fr/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-fr-7.2.0-rc.0.bin
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/de_DE/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-de_DE-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/de_DE/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-de_DE-7.2.0-rc.0.bin
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/ID/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-ID-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/ID/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-ID-7.2.0-rc.0.bin
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/it_IT/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-it_IT-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/it_IT/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-it_IT-7.2.0-rc.0.bin
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/ja/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-ja-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/ja/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-ja-7.2.0-rc.0.bin
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/en_x_pirate/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-en_x_pirate-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/en_x_pirate/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-en_x_pirate-7.2.0-rc.0.bin
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/pl/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-pl-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/pl/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-pl-7.2.0-rc.0.bin
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/pt_BR/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-pt_BR-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/pt_BR/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-pt_BR-7.2.0-rc.0.bin
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/ru/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-ru-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/ru/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-ru-7.2.0-rc.0.bin
+                    data-locale=ru
+                    >
+              RUSSIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/es/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-es-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/es/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-es-7.2.0-rc.0.bin
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/sv/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-sv-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/sv/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-sv-7.2.0-rc.0.bin
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/tr/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-tr-7.2.0-rc.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/tr/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-tr-7.2.0-rc.0.bin
+                    data-locale=tr
+                    >
+              TURKISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable bin" href="https://downloads.circuitpython.org/bin/ai_thinker_esp32-c3s-2m/en_US/adafruit-circuitpython-ai_thinker_esp32-c3s-2m-en_US-7.2.0-rc.0.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">_bleio, adafruit_bus_device, adafruit_pixelbuf, aesio, analogio, atexit, audiocore, audiomixer, binascii, bitbangio, bitmaptools, board, busio, canio, digitalio, displayio, dualbank, errno, fontio, framebufferio, getpass, gifio, i2cperipheral, ipaddress, json, keypad, math, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, ps2io, pulseio, pwmio, rainbowio, random, re, rgbmatrix, rtc, sdcardio, sharpdisplay, socketpool, ssl, storage, struct, supervisor, synthio, terminalio, time, touchio, traceback, ulab, vectorio, watchdog, wifi</span>
+    </p>
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language.  The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/ai_thinker_esp32-c3s-2m/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are listed on GitHub, with release notes,
+    and are available for download from Amazon S3.  They are handy for
+    testing, but otherwise we recommend using the latest stable
+    release.  Some older GitHub release pages include the same
+    binaries for downloading.  But we have discontinued including
+    binaries as assets on newer release pages because of the large
+    number of files for each release.
+  </p>
+  <p>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/ai_thinker_esp32-c3s-2m/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>
