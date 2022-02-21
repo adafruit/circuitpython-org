@@ -96,8 +96,10 @@ excerpt: CircuitPython supported boards.
     {% assign boards = site.data.files | sort: "downloads" | reverse %}
     {% for board in boards %}
       {% assign info = site.board | where: 'board_id', board.id %}
+      {% assign info_name = info[0].name %}
       {% if info.size == 0 %}
         {% assign info = site.board | where: 'board_id', 'unknown' %}
+        {% assign info_name = board.id %}
       {% endif %}
 
       {% assign info = info[0] %}
@@ -119,7 +121,7 @@ excerpt: CircuitPython supported boards.
               {% include downloads/board_image.html board_image=info.board_image %}
             </div>
             <div class="details">
-              <h3>{{ info.name | default: board.id }}</h3>
+              <h3>{{ info_name | default: board.id }}</h3>
               By {{ info.manufacturer }}
             </div>
           </div>
