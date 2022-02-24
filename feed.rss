@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 24 Feb 2022 12:57:15 -0500</lastBuildDate>
+<lastBuildDate>Thu, 24 Feb 2022 13:02:43 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7369,6 +7369,46 @@ selection menu will not work with the new version of CircuitPython.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 31 Mar 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/picoplanet/</guid>
+  </item><item>
+    <title>Badger 2040</title>
+    <link>https://circuitpython.org/board/pimoroni_badger2040/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/pimoroni_badger2040.jpg 300w,
+               /assets/images/boards/large/pimoroni_badger2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/pimoroni_badger2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Pimoroni</p> <p>A hackable, programmable badge(r) with monochrome E Ink® display, powered by Raspberry Pi RP2040. It has a quintet of buttons (one for each claw), a slot so you can clip it onto a lanyard and a battery connector to keep things portable. You can even connect it up to Qwiic and STEMMA QT breakouts!</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>2.9” black and white E Ink® display (296 x 128 pixels)</li>
+  <li>Powered by RP2040 (Dual Arm Cortex M0+ running at up to 133Mhz with 264kB of SRAM)</li>
+  <li>2MB of QSPI flash supporting XiP</li>
+  <li>Five front user buttons</li>
+  <li>Reset and boot buttons (the boot button can also be used as a user button)</li>
+  <li>White LED</li>
+  <li>USB-C connector for power and programming</li>
+  <li>JST-PH connector for attaching a battery (input range 2.7V - 6V)</li>
+  <li>High-precision voltage reference for battery level monitoring</li>
+  <li>Qw/ST (Qwiic/STEMMA QT) connector for breakouts</li>
+</ul>
+
+<h2 id="about-rp2040">About RP2040</h2>
+<p>Raspberry Pi’s RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
+
+<p>One very exciting feature of RP2040 is the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/badger-2040">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 24 Feb 2022 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_badger2040/</guid>
   </item><item>
     <title>Interstate 75</title>
     <link>https://circuitpython.org/board/pimoroni_interstate75/</link>
