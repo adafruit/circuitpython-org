@@ -16,23 +16,28 @@ features:
   - Breadboard-Friendly
 ---
 
-**Features & Specifications:**
- - ESP32-S2 240MHz Tensilica processor
- - Wi-Fi 802.11 b/g/n 2.4GHz
- - 4MB FLASH
- - 8MB PSRAM
+The TTGO T8 ESP32-S2 development board has a ST7789 display and other useful features which allows one to create a variety of projects.
+
+The display has native CircuitPython support.
+
+## Features & Specifications
+
+ - ESP32-S2 240 MHz Tensilica processor
+ - Wi-Fi 802.11 b/g/n 2.4 GHz
+ - 4 MB FLASH
+ - 8 MB PSRAM
  - 1.14" ST7789 Display
  - microSD card slot
- - built in battery charging, 2-pin 1.25mm JST connector
+ - built in battery charging, 2-pin 1.25 mm JST connector
  - on/off power switch
  - reset and boot button
- - onboard 32.768kHz crystal oscillator
+ - onboard 32.768 kHz crystal oscillator
  - USB-C connector
 
-**Schematic:**
+## Schematic
 - [LILYGO Github repository](https://github.com/Xinyuan-LilyGO/LilyGo-T-Display-S2)
 
-**Board compatibility:**
+## Board compatibility
 
 This image is working on the TTGO T8 ESP32-S2 V1.1 as well.
 It's basically the same board as the ST7789 just without the display.
