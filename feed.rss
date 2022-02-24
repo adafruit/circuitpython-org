@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 24 Feb 2022 12:55:39 -0500</lastBuildDate>
+<lastBuildDate>Thu, 24 Feb 2022 12:57:15 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -5947,62 +5947,39 @@ o   o        o   o
               300px"
        src="/assets/images/boards/original/lolin_s2_pico.jpg" alt="Image of Board" loading="lazy">
 
-<p>By LOLIN</p> <h3 id="features">Features</h3>
+<p>By LOLIN</p> <p>A development boards with an OLED and a small form factor.</p>
+
+<h2 id="features">Features</h2>
 
 <ul>
   <li>ESP32-S2FN4R2 WiFi SoC
     <ul>
       <li>Xtensa® single-core 32-bit LX7 microprocessor, up to 240 MHz</li>
-      <li>Integrated 802.11 b/g/n WiFi 2.4GHz Transceiver, up to 150Mbps</li>
+      <li>Integrated 802.11 b/g/n WiFi 2.4 GHz Transceiver, up to 150 Mbps</li>
       <li>Integrated RISC-V ULP Coprocessor</li>
-      <li>Integrated Temperature Sensor (-20°C to 110°C)</li>
-      <li>Operating Voltage: 3.0 to 3.6V
-        <ul>
-          <li>WiFi: 310mA (peak)</li>
-          <li>Modem-sleep: 12-19mA</li>
-          <li>Light-Sleep: 450µA</li>
-          <li>Deep-Sleep: 20-190µA</li>
-        </ul>
-      </li>
-      <li>320 KB SRAM</li>
-      <li>4 MB Flash (embedded)</li>
-      <li>2 MB PSRAM (embedded)</li>
-      <li>16 KB SRAM in RTC (accessable by main CPU, 8 KB accessable by ULP coprocessor)</li>
-      <li>4 Kbit eFuse (1792 bits reserved for user data)</li>
-      <li>2 × 13-bit SAR ADCs, up to 20 channels (2 channels not available on ADC2 due to USB D+/D-)</li>
-      <li>2 × 8-bit DAC</li>
-      <li>14 × touch sensing IOs</li>
-      <li>4 × SPI (2 usable due to embedded flash &amp; PSRAM)</li>
-      <li>1 × I2S</li>
-      <li>2 × I2C</li>
-      <li>2 × UART</li>
-      <li>1 × DVP 8/16 camera interface, implemented using the hardware resources of I2S</li>
-      <li>1 × LCD interface (8-bit serial RGB/8080/6800), implemented using the hardware resources of SPI2</li>
-      <li>1 × LCD interface (8/16/24-bit parallel), implemented using the hardware resources of I2S</li>
-      <li>1 × TWAI® controller compatible with ISO 11898-1 (CAN Specification 2.0)</li>
+      <li>Integrated Temperature Sensor (-20 °C to 110 °C)</li>
+      <li>Operating Voltage: 3.0 to 3.6 V (WiFi: 310 mA (peak), Modem sleep: 12-19 mA, Light sleep: 450 µA, Deep sleep: 20-190 µA)</li>
+      <li>320 KB SRAM, 4 MB Flash (embedded), 2 MB PSRAM (embedded), 16 KB SRAM in RTC (accessable by main CPU, 8 KB accessable by ULP coprocessor), 4 Kbit eFuse (1792 bits reserved for user data)</li>
+      <li>2 x 13-bit SAR ADCs, up to 20 channels (2 channels not available on ADC2 due to USB D+/D-)</li>
+      <li>2 x 8-bit DAC, 14 x touch sensing IOs</li>
+      <li>4 x SPI (2 usable due to embedded flash &amp; PSRAM), 1 x I2S, 2 x I2C, 2 x UART</li>
+      <li>1 x DVP 8/16 camera interface, implemented using the hardware resources of I2S</li>
+      <li>1 x LCD interface SPI2 (8-bit serial RGB/8080/6800), 1 x LCD interface I2S (8/16/24-bit parallel)</li>
+      <li>1 x TWAI® controller compatible with ISO 11898-1 (CAN Specification 2.0)</li>
       <li>LED PWM controller, up to 8 channels</li>
       <li>USB OTG 1.1 controller and PHY, with host and device support</li>
       <li>Cryptographic Hardware Accelerators: AES, ECB/CBC/OFB/CFB/CTR, GCM, SHA, RSA, ECC (Digital Signature)</li>
     </ul>
   </li>
-  <li>USB Type-C connector, for built-in ROM USB bootloader, serial port debugging, and USB device mode</li>
-  <li>3.3V regulator ME6211C33
+  <li>USB-C connector, for built-in ROM USB bootloader, serial port debugging, and USB device mode</li>
+  <li>27 x GPIO pins, plus <code class="language-plaintext highlighter-rouge">VBUS</code>, <code class="language-plaintext highlighter-rouge">3V3</code>, <code class="language-plaintext highlighter-rouge">GND</code>
     <ul>
-      <li>Maximum Output Current: 500mA （V<sub>IN</sub>＝4.3V, V<sub>OUT</sub>＝3.3V）</li>
-      <li>Dropout Voltage: 100mV@ I<sub>OUT</sub>＝100 mA</li>
-      <li>Operating Voltage Range: 2V～6.0V</li>
-      <li>Low Power Consumption: 40µA（typ.）</li>
-      <li>Standby Current: 0.1µA（typ.）</li>
-    </ul>
-  </li>
-  <li>27 × GPIO pins, plus <code class="language-plaintext highlighter-rouge">VBUS</code>, <code class="language-plaintext highlighter-rouge">3V3</code>, <code class="language-plaintext highlighter-rouge">GND</code>
-    <ul>
-      <li>21 × pins broken out to breadboard-friendly headers</li>
+      <li>21 x pins broken out to breadboard-friendly headers</li>
       <li><code class="language-plaintext highlighter-rouge">EN</code> RESET button</li>
       <li><code class="language-plaintext highlighter-rouge">GPIO0</code> BOOT button</li>
       <li><code class="language-plaintext highlighter-rouge">GPIO10</code> LED (blue status LED)</li>
-      <li>Lolin I2C JST SH 4-pin port (not QWIIC/Stemma-Qt pinout) using GPIO8 (SDA)/GPIO9 (SCL)</li>
-      <li>128 x 32 SSD1306 OLED display internally connected to the same I2C bus as the external port, reset pin connected to GPIO18</li>
+      <li>Lolin I2C JST SH 4-pin port (not QWIIC/Stemma-Qt pinout) using <code class="language-plaintext highlighter-rouge">GPIO8</code> (SDA) and <code class="language-plaintext highlighter-rouge">GPIO9</code> (SCL)</li>
+      <li>128 x 32 SSD1306 OLED display internally connected to the same I2C bus as the external port, reset pin connected to <code class="language-plaintext highlighter-rouge">GPIO18</code>, I2C address <code class="language-plaintext highlighter-rouge">0x3C</code></li>
     </ul>
   </li>
   <li>Compatible with CircuitPython, MicroPython (default firmware), Arduino and ESP-IDF</li>
@@ -6018,6 +5995,9 @@ o   o        o   o
 
 <ul>
   <li><a href="https://www.wemos.cc/en/latest/s2/s2_pico.html">Manufacturer Specifications</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/sch_s2_pico_v1.0.0.pdf">Schematic</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/dim_s2_pico_v1.0.0.pdf">Dimension</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_micropython_s2.html">Factory MicroPython firmware</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
