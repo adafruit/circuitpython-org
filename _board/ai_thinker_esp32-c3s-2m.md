@@ -26,20 +26,20 @@ This is an entry-level development board based on Espressif ESP32-C3 SoC, which 
 
 ### Specifications
 
-- Complete Wi-Fi 802.11b/g/n, 1T1R mode data rate up to 150Mbps
-- Support BLE5.0 and rate support: 125Kbps, 500Kbps, 1Mbps,2Mbps
+- Complete Wi-Fi 802.11b/g/n, 1T1R mode data rate up to 150 Mbps
+- Support BLE5.0 and rate support: 125 Kbps, 500 Kbps, 1 Mbps, 2 Mbps
 - Onboard ESP32-C3 chip, 32-bit RISC-V single-core processor, supports a clock frequency of up to 160 MHz, with 400 KB SRAM, 384 KB ROM, 8KB RTC SRAM
 - Support UART/PWM/GPIO/ADC/I2C/I2S interface, temperature sensor, pulse counter
 - SMD-38 package
 - Integrated Wi-Fi MAC/ BB/RF/PA/LNA/BLE
-- Support multiple sleep modes, deep sleep electric current is less than 5uA
-- UART rate up to 5Mbps
+- Support multiple sleep modes, deep sleep electric current is less than 5 uA
+- UART rate up to 5 Mbps
 - Support STA/AP/STA+AP mode and mix mode
 - Support Smart Config (APP)/AirKiss (WeChat) of Android and IOS One-click network configuration
 - Support UART port local upgrade and remote firmware upgrade (FOTA)
 - General AT commands can be better understand
 - Support secondary development, integrated Linux development environment
-- ESP-C3-32S module acquiesce in using the built-in 2MByte Flash, meanwhile support external Flash version
+- ESP-C3-32S module acquiesce in using the built-in 2 MByte Flash, meanwhile support external Flash version
 
 ## Purchase
 
