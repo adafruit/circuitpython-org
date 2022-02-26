@@ -22,7 +22,7 @@ The NXP iMX RT1011 microcontroller powers this board with a 500 MHz ARM Cortex M
 
 * NXP iMX RT1011 processor - ARM Cortex M7 processor running at 500 MHz, with 128 KB SRAM and high speed USB!
 * AirLift WiFi Co-processor, with TLS/SSL support, plenty of RAM for sockets, communication is over SPI and has CircuitPython library support ready to go for fast wireless integration.
-* Power options - 6-12 V DC barrel jack or USB type C
+* Power options - 6-12 V DC barrel jack or USB-C
 * UNO-shape so shields can plug in
 * Reset  button - Click to restart, double-click to enter UF2 bootloder
 * Boot-mode switches to get into the ROM bootloader (you can always reload code over USB if TinyUF2 gets corrupted somehow)
