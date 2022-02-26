@@ -16,7 +16,7 @@ features:
 ---
 
 This is a [Feather M0 Express]({{ "/board/feather_m0_express/" | relative_url }}) that has been
-supersized by Dave Astels to fit a larger SPI flash chip than the default 2MB chip. It is not
+supersized by Dave Astels to fit a larger SPI flash chip than the default 2 MB chip. It is not
 available for purchase.
 
 It was documented as a DIY project [here](http://daveastels.com/feather-m0-express-supersizing.html).
