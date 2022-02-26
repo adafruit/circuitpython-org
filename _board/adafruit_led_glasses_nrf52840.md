@@ -22,17 +22,17 @@ The driver *looks* a little like a Feather but it does not have any breakout pin
 
 In exchange for GPIO outputs, we added some sensors on instead: each board [comes with a LIS3DH triple-axis accelerometer](https://www.adafruit.com/product/2809) that can be used for motion and orientation sensing, [and a PDM digital microphone](https://www.adafruit.com/product/3492) for audio sensing. To add more sensors or connect to the LED Glasses front panel, there's a [STEMMA QT connector for plug-and-play I2C support](https://www.adafruit.com/category/1018).
 
-Unlike our Itsy/Feather boards, this driver also comes with a proper on/off switch which will cut power to the microcontroller and external sensors. There's optional LiPo charge support because we think that many folks will want to power this board with AAA or coin cell batteries. If you'd like to enable LiPo charging, short the jumper on the back and then make sure to only use 4.2V/3.7V rechargeable batteries in the battery port.
+Unlike our Itsy/Feather boards, this driver also comes with a proper on/off switch which will cut power to the microcontroller and external sensors. There's optional LiPo charge support because we think that many folks will want to power this board with AAA or coin cell batteries. If you'd like to enable LiPo charging, short the jumper on the back and then make sure to only use 4.2 V/3.7 V rechargeable batteries in the battery port.
 
-The nRF52840 is a lovely Bluetooth LE microcontroller, with good support in both Arduino and CircuitPython. It feathers a Cortex M4 processor with 1 MB of FLASH and 256KB of SRAM. Best of all, it's got that native USB! Finally, no need for a separate USB serial chip like CP2104 or FT232. Serial is handled as a USB CDC descriptor, and the chip can act like a keyboard, mouse, MIDI device or even disk drive. [This chip has TinyUSB support](https://github.com/adafruit/Adafruit_TinyUSB_Arduino) - that means you can use it with Arduino as a native USB device and act as UART (CDC), HID, Mass Storage, MIDI and more!
+The nRF52840 is a lovely Bluetooth LE microcontroller, with good support in both Arduino and CircuitPython. It feathers a Cortex M4 processor with 1 MB of FLASH and 256 KB of SRAM. Best of all, it's got that native USB! Finally, no need for a separate USB serial chip like CP2104 or FT232. Serial is handled as a USB CDC descriptor, and the chip can act like a keyboard, mouse, MIDI device or even disk drive. [This chip has TinyUSB support](https://github.com/adafruit/Adafruit_TinyUSB_Arduino) - that means you can use it with Arduino as a native USB device and act as UART (CDC), HID, Mass Storage, MIDI and more!
 
-**Board Features:**
+## Technical details
 
-- ARM Cortex M4F (with HW floating point acceleration) running at 64MHz
-- 1MB flash and 256KB SRAM
+- ARM Cortex M4F (with HW floating point acceleration) running at 64 MHz
+- 1 MB flash and 256 KB SRAM
 - Bluetooth Low Energy compatible 2.4GHz radio (Details available in the [nRF52840](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840) product specification)
-- FCC / IC / TELEC certified module with up to +8dBm output power
-- 2MB external QSPI flash for CircuitPython file storage
+- FCC/IC/TELEC certified module with up to +8 dBm output power
+- 2 MB external QSPI flash for CircuitPython file storage
 - Built in LIS3DH accelerometer and PDM microphone
 - Red LED for general purpose blinking, plus a tiny NeoPixel for colorful feedback
 - [STEMMA QT connector for plug-and-play I2C support](https://www.adafruit.com/category/1018).
@@ -40,7 +40,7 @@ The nRF52840 is a lovely Bluetooth LE microcontroller, with good support in both
 - 4 mounting holes/slots
 - Reset button and User button
 - Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.
-- **Can be used with Arduino IDE or CircuitPython**
+- Can be used with Arduino IDE or CircuitPython
 - Comes pre-loaded with the [UF2 bootloader](https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader), which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython or Arduino IDE
 
 For developers, we pre-programed the chip with our UF2 bootloader, which can use either command line UART programming with nrfutil (we use this for Arduino) or drag-n-drop mass storage, for CircuitPython installation and also because mass-storage-drive bootloaders make updating firmware so easy. Want to program the chip directly? You can use our command line tools with your favorite editor and toolchain. If you want to use an SWD programmer/debugger (for even more advanced usage), we have broken out the SWD pads for easy soldering.

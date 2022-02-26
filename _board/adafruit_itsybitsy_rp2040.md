@@ -12,27 +12,29 @@ features:
   - Breadboard-Friendly
 ---
 
-A new chip means a new ItsyBitsy, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought "this chip is going to be awesome when we give it the ItsyBitsy teensy-weensy Treatment" and so we did! This Itsy' features the RP2040, [and all niceties you know and love about the ItsyBitsy family](https://www.adafruit.com/category/1008)
+A new chip means a new ItsyBitsy, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought "this chip is going to be awesome when we give it the ItsyBitsy teensy-weensy Treatment" and so we did! This Itsy' features the RP2040, and all niceties you know and love about the [ItsyBitsy family](https://www.adafruit.com/category/1008).
 
-What's smaller than a Feather but larger than a Trinket? It's an Adafruit ItsyBitsy RP2040 featuring the Raspberry Pi RP2040! Small, powerful, with a ultra fast duel Cortex M0+ processor running at 125 MHz - this microcontroller board is perfect when you want something very compact, with lots of horsepower and a bunch of pins. This Itsy has sports car speed, but SUV roominess with 4 MB of FLASH and 264KB of SRAM.
+What's smaller than a Feather but larger than a Trinket? It's an Adafruit ItsyBitsy RP2040 featuring the Raspberry Pi RP2040! Small, powerful, with a ultra fast duel Cortex M0+ processor running at 125 MHz - this microcontroller board is perfect when you want something very compact, with lots of horsepower and a bunch of pins. This Itsy has sports car speed, but SUV roominess with 4 MB of FLASH and 264 KB of SRAM.
 
-ItsyBitsy RP2040 is only 1.4" long by 0.7" wide, but has 6 power pins, 23 digital GPIO pins (4 of which can be analog in and 16 x PWM out). It's the same chip as the [Feather RP2040](https://www.adafruit.com/products/4884) and [Raspberry Pi Pico](https://www.adafruit.com/products/4883) *but really really small*. So it's great once you've finished up a prototype, and want to make the project much smaller. It even comes with 4MB of SPI Flash built in, for data logging, file storage, or CircuitPython/MicroPython code
+ItsyBitsy RP2040 is only 1.4" long by 0.7" wide, but has 6 power pins, 23 digital GPIO pins (4 of which can be analog in and 16x PWM out). It's the same chip as the [Feather RP2040](https://www.adafruit.com/products/4884) and [Raspberry Pi Pico](https://www.adafruit.com/products/4883) *but really really small*. So it's great once you've finished up a prototype, and want to make the project much smaller. It even comes with 4MB of SPI Flash built in, for data logging, file storage, or CircuitPython/MicroPython code.
+
+## Technical details
 
 - [Same size and form-factor as the rest of the ItsyBitsy family](https://www.adafruit.com/category/1008) and nearly-identical pinout
-- Measures 1.4" x 0.7" x 0.2" (36mm x 18mm x 4mm) without headers soldered in
-- RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3V logic and power
+- Measures 1.4" x 0.7" x 0.2" (36 mm x 18 mm x 4 mm) without headers soldered in
+- RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3 V logic and power
 - 264 KB RAM
 - **4 MB SPI FLASH** chip for storing files and CircuitPython/MicroPython code storage. No EEPROM
-- Tons of GPIO! 23 x GPIO pins with following capabilities:
-  - **Four** 12 bit ADCs (one more than Pico)
-  - Two I2C, Two SPI and two UART peripherals, we label one for the 'main' interface in standard ItsyBitsy locations
-  - 16 x PWM outputs - for servos, LEDs, etc
+- 23 GPIO pins with following capabilities:
+  - 4 12 bit ADCs (one more than Pico)
+  - 2 I2C, 2 SPI and 2 UART peripherals, we label one for the 'main' interface in standard ItsyBitsy locations
+  - 16 PWM outputs - for servos, LEDs, etc
   - The 10 digital 'non-ADC/non-peripheral' GPIO are consecutive for maximum PIO compatibility
 - **Pin #13 red LED** for general purpose blinking
 - **RGB NeoPixel** with power pin on GPIO so you can depower it for low power usages.
 - **Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)**
-- 3.3V regulator with 500mA peak current output
-- 3.3V Power/enable pin
+- 3.3 V regulator with 500mA peak current output
+- 3.3 V Power/enable pin
 - Power with either USB or external output (such as a battery) - it'll automatically switch over
 - Broken-out SWD pins for debug access
 - 24 MHz crystal for perfect timing.
@@ -51,12 +53,12 @@ You'll note there's no I2S peripheral, or SDIO, or camera, what's up with that? 
 
 This Itsy comes with loose 0.1" headers you can solder in for breadboard use!
 
-While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. On this board there is 2MB, which is shared between the program it's running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 1 MB remaining for code, files, images, fonts, etc.
+While the RP2040 has lots of onboard RAM (264 KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. On this board there is 2 MB, which is shared between the program it's running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 1 MB remaining for code, files, images, fonts, etc.
 
 **RP2040 Chip features:**
 
-- Dual ARM Cortex-M0+ @ 133MHz
-- 264kB on-chip SRAM in six independent banks
+- Dual ARM Cortex-M0+ @ 133 MHz
+- 264 kB on-chip SRAM in six independent banks
 - Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus
 - DMA controller
 - Fully-connected AHB crossbar
