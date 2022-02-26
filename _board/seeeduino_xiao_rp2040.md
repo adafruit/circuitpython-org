@@ -28,7 +28,7 @@ Interfaces:
 * 1 SPI interface
 * 1 SWD Bonding pad interface 
 
-Some PINs have various functions, Moreover, XIAO RP2040 supports the USB Type-C interface which can supply power and download code. 1 Reset button, 1 BOOT button, 1 user-programmable RGB LED, 1 power LED, 2 status indicators, and 1 user LED are on board, allowing developers to debug their code very easily.
+Some PINs have various functions, Moreover, XIAO RP2040 supports the USB-C interface which can supply power and download code. 1 Reset button, 1 BOOT button, 1 user-programmable RGB LED, 1 power LED, 2 status indicators, and 1 user LED are on board, allowing developers to debug their code very easily.
 
 The XIAO RP2040 is very compact because all electronic components are soldered on the same board surface, which means you can easily solder the XIAO RP2040 to your own PCB. XIAO RP2040 is pin-compatible with Seeeduino XIAO, so XIAO RP2040 can be learned and developed using the Expansion board of Seeeduino XIAO. 
 
