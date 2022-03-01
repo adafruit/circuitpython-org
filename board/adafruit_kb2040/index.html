@@ -162,19 +162,19 @@
 
 <p>With 20 GPIO available (18 on castellated pins, 2 on STEMMA QT port) you can easily make up to 100-keys matrices, or common 65% 5x15 layouts. <a href="https://www.adafruit.com/product/4209">Use a plug-and-play QT cable to connect to the last two pins</a> without having to do any desoldering/rework.</p>
 
-<p>Board features:</p>
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
   <li><a href="https://www.sparkfun.com/products/12640">Same size and form-factor as a Pro Micro breakout</a> and nearly-identical pinout (this board has fewer analog pins, for example)</li>
   <li>Measures 1.3” x 0.7” without headers soldered in</li>
-  <li>RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3V logic and power. 264 KB RAM, No EEPROM. 12 MHz crystal for perfect timing.</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3 V logic and power. 264 KB RAM, No EEPROM. 12 MHz crystal for perfect timing.</li>
   <li><strong>8 MB SPI FLASH</strong> chip for storing files and CircuitPython/MicroPython code storage.</li>
-  <li>20 x GPIO pins with following capabilities:
+  <li>20 GPIO pins with following capabilities:
     <ul>
       <li>18 GPIO on castellated/pin breakout pads. 2 GPIO on QT port that can be easily accessed for 5x15 keyboard layouts.</li>
-      <li>Four 12 bit ADCs</li>
-      <li>Two I2C, Two SPI and two UART peripherals, we label one of for the ‘main’ interface in standard Pro Micro locations</li>
-      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+      <li>4 12 bit ADCs</li>
+      <li>2 I2C, 2 SPI and 2 UART peripherals, we label one of for the ‘main’ interface in standard Pro Micro locations</li>
+      <li>16 PWM outputs - for servos, LEDs, etc</li>
       <li>The 10 digital non-ADC GPIO are consecutive for maximum PIO compatibility</li>
     </ul>
   </li>
@@ -182,9 +182,9 @@
   <li>Classic <strong>green power LED</strong></li>
   <li>Both Reset button and Bootloader select button for quick restarts. Bootloader button is also available as a generic GPIO input button.</li>
   <li><a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt">STEMMA QT connector</a> on the end is compatible with the <a href="https://www.sparkfun.com/qwiic">SparkFun Qwiic</a> I2C connector, and can be used to plug and play I2C devices, or just as 2 extra GPIO pins.</li>
-  <li>3.3V regulator with 500mA peak current output</li>
-  <li><strong>RAW</strong> output, for powering NeoPixels or other 5V devices. Jumper on bottom lets you skip over the 500mA fuse, for up to 2A from USB ports.</li>
-  <li><strong>USB Type C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3 V regulator with 500 mA peak current output</li>
+  <li><strong>RAW</strong> output, for powering NeoPixels or other 5 V devices. Jumper on bottom lets you skip over the 500 mA fuse, for up to 2 A from USB ports.</li>
+  <li><strong>USB-C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
   <li><strong>Extra D- and D+ breakouts</strong> for alternative USB connection options.</li>
 </ul>
 

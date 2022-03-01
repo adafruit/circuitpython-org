@@ -166,21 +166,21 @@
 
 <p>For low power usages, the Feather has a <em>second</em> AP2112 regulator. The regulator is controlled with a GPIO pin on the enable line and can shut off power to the Stemma QT port and TFT. There is also a separate power pin for the NeoPixel that can be used to disable it for even lower quiescent power. With everything off and in deep sleep mode, the TFT feather uses about 100uA of current.</p>
 
-<p><strong>Features:</strong></p>
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
-  <li><strong>ESP32-S2 240MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
-  <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
+  <li><strong>ESP32-S2 240 MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MB of Flash and 2 MB of PSRAM - you can have huge data buffers</li>
   <li><strong><a href="https://www.adafruit.com/product/4383">Color 1.14” IPS TFT with 240x135 pixels</a></strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle angle.</li>
-  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Power options</strong> - USB-C <strong>or</strong> Lipoly battery</li>
   <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
   <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
   <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
   <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
-  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode</li>
   <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
-  <li><strong>Low Power friendly</strong>! In deep sleep mode we can get down to 80~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C/TFT power for the lowest quiescent current draw.</li>
-  <li><strong>Works with Arduino or CircuitPython</strong></li>
+  <li><strong>Low Power friendly</strong>! In deep sleep mode we can get down to 80~100 uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C/TFT power for the lowest quiescent current draw.</li>
+  <li>Works with Arduino or CircuitPython</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>

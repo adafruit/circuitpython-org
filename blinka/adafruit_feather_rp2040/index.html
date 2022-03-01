@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:description" content="A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the Feather Treatment” and so we did! This Feather features the RP2040, and all niceties you know and love about Feather  Measures 2.0” x..." />
+<meta property="og:description" content="A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the Feather Treatment” and so we did! This Feather features the RP2040, and all niceties you know and love about Feather.Technical detail..." />
 
 
 
@@ -154,32 +154,35 @@
           <img src="/assets/images/boards/large/adafruit_feather_rp2040.jpg" alt="Image of Board">
         
         <p>
-          <p>A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the Feather Treatment” and so we did! This Feather features the <strong>RP2040</strong>, and all niceties you know and love about Feather</p>
+          <p>A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the Feather Treatment” and so we did! This Feather features the <strong>RP2040</strong>, and all niceties you know and love about Feather.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
 <ul>
-  <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Measures 2.0” x 0.9” x 0.28” (50.8 mm x 22.8 mm x 7 mm) without headers soldered in</li>
   <li>Light as a (large?) feather - 5 grams</li>
-  <li>RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3V logic and power</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3 V logic and power</li>
   <li>264 KB RAM</li>
   <li><strong>8 MB SPI FLASH</strong> chip for storing files and CircuitPython/MicroPython code storage. No EEPROM</li>
-  <li><strong>Tons of GPIO! 21 x GPIO pins with following capabilities:</strong>
+  <li><strong>21 GPIO pins with following capabilities:</strong>
     <ul>
       <li><strong>Four</strong> 12 bit ADCs (one more than Pico)</li>
       <li>Two I2C, Two SPI and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
-      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+      <li>16 PWM outputs - for servos, LEDs, etc</li>
       <li>The 8 digital ‘non-ADC/non-peripheral’ GPIO are consecutive for maximum PIO compatibility</li>
     </ul>
   </li>
-  <li><strong>Built in 200mA lipoly charger</strong> with charging status indicator LED</li>
+  <li><strong>Built in 200 mA lipoly charger</strong> with charging status indicator LED</li>
   <li><strong>Pin #13 red LED</strong> for general purpose blinking</li>
   <li><strong>RGB NeoPixel</strong> with power pin on GPIO so you can depower it for low power usages.</li>
   <li>On-board <strong>STEMMA QT connector</strong> that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
   <li><strong>Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)</strong></li>
-  <li>3.3V Power/enable pin</li>
+  <li>3.3 V Power/enable pin</li>
   <li><a href="https://www.adafruit.com/product/752">Optional SWD debug port can be soldered in for debug access</a></li>
   <li>4 mounting holes</li>
   <li>24 MHz crystal for perfect timing.</li>
-  <li>3.3V regulator with 500mA peak current output</li>
-  <li><strong>USB Type C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3 V regulator with 500 mA peak current output</li>
+  <li><strong>USB-C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
 </ul>
 
 <p><strong>Inside the RP2040 is a ‘permanent ROM’ USB UF2 bootloader.</strong> What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique on all our native-USB boards. Just note you don’t double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!</p>
@@ -192,12 +195,12 @@
 
 <p><strong>At the time of launch, there is no Arduino core support for this board. There is great <a href="https://github.com/raspberrypi/pico-sdk">C/C++ support</a>, an official <a href="https://github.com/raspberrypi/micropython">MicroPython port</a>, and a <a href="/downloads">CircuitPython port</a>!</strong> We of course <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think it’s the easiest way to get started</a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
 
-<p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board there is 8 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 7 MB remaining for code, files, images, fonts, etc.</p>
+<p>While the RP2040 has lots of onboard RAM (264 KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board there is 8 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 7 MB remaining for code, files, images, fonts, etc.</p>
 
 <p><strong>RP2040 Chip features:</strong></p>
 <ul>
-  <li>Dual ARM Cortex-M0+ @ 133MHz</li>
-  <li>264kB on-chip SRAM in six independent banks</li>
+  <li>Dual ARM Cortex-M0+ @ 133 MHz</li>
+  <li>264 kB on-chip SRAM in six independent banks</li>
   <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>
   <li>DMA controller</li>
   <li>Fully-connected AHB crossbar</li>

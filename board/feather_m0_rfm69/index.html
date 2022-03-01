@@ -156,43 +156,43 @@
         <p>
           <p>This is the<strong> Adafruit Feather M0 RFM69 Packet Radio (433, 868, or 915 MHz)</strong><strong>.</strong> Also called <em>RadioFruits<strong>,</strong></em> Adafruit’s take on an microcontroller with a RFM69HCW packet radio transceiver plus built in USB and battery charging. Its an Adafruit Feather M0 with a VHF radio module cooked in!</p>
 
-<p>Feather is the development platform from Adafruit, and like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be an open standard for portable microcontroller cores. <a href="https://www.adafruit.com/feather">Adafruit has other boards in the Feather family here.</a></p>
+<p>Feather is the development platform from Adafruit, and like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be an open standard for portable microcontroller cores. Check out the other boards in the <a href="https://www.adafruit.com/feather">Feather family</a>.</p>
 
-<p><strong>There are two versions: 433 MHz and 900 MHz. The 900 MHz version can be used for either 868MHz or 915MHz transmission/reception</strong> - the exact radio frequency is determined when you load the software since it can be tuned around dynamically.</p>
+<p><strong>There are two versions: 433 MHz and 900 MHz. The 900 MHz version can be used for either 868 MHz or 915MHz transmission/reception</strong> - the exact radio frequency is determined when you load the software since it can be tuned around dynamically.</p>
 
-<p>At the Feather M0’s heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48 MHz and at 3.3V logic, the same one used in the new <a href="https://www.adafruit.com/products/2843">Arduino Zero</a>. This chip has a whopping 256K of FLASH (8x more than the Atmega328 or 32u4) and 32K of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program &amp; debug capability built in with no need for an FTDI-like chip.</p>
+<p>At the Feather M0’s heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48 MHz and at 3.3 V logic, the same one used in the new <a href="https://www.adafruit.com/products/2843">Arduino Zero</a>. This chip has a whopping 256 KB of FLASH (8x more than the Atmega328 or 32u4) and 32 KB of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program &amp; debug capability built in with no need for an FTDI-like chip.</p>
 
-<p>To make it easy to use for portable projects, Adafruit added a connector for 3.7V Lithium polymer batteries and built in battery charging. You don’t need a battery, it will run just fine straight from the micro USB connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when its available. The battery is tied thru a divider to an analog pin, so you can measure and monitor the battery voltage to detect when you need a recharge.</p>
+<p>To make it easy to use for portable projects, Adafruit added a connector for 3.7 V Lithium polymer batteries and built in battery charging. You don’t need a battery, it will run just fine straight from the micro USB connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when its available. The battery is tied thru a divider to an analog pin, so you can measure and monitor the battery voltage to detect when you need a recharge.</p>
 
-<p><strong>Here’s some handy specs! Like all Feather M0’s you get:</strong></p>
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
-  <li>Measures 2.0” x 0.9” x 0.3” (51mm x 23mm x 8mm) without headers soldered in</li>
+  <li>Measures 2.0” x 0.9” x 0.3” (51 mm x 23 mm x 8 mm) without headers soldered in</li>
   <li>Light as a (large?) feather - 5.8 grams</li>
-  <li>ATSAMD21G18 @ 48MHz with 3.3V logic/power</li>
+  <li>ATSAMD21G18 @ 48 MHz with 3.3 V logic/power</li>
   <li>No EEPROM</li>
-  <li>3.3V regulator with 500mA peak current outpu0t</li>
+  <li>3.3 V regulator with 500 mA peak current outpu0t</li>
   <li>USB native support, comes with USB bootloader and serial port debugging</li>
   <li>You also get tons of pins - 20 GPIO pins</li>
   <li>Hardware Serial, hardware I2C, hardware SPI support</li>
   <li>8 x PWM pins</li>
   <li>10 x analog inputs</li>
   <li>1 x analog output</li>
-  <li>Built in 100mA lipoly charger with charging status indicator LED</li>
+  <li>Built in 100 mA lipoly charger with charging status indicator LED</li>
   <li>Pin #13 red LED for general purpose blinking</li>
   <li>Power/enable pin</li>
   <li>4 mounting holes</li>
   <li>Reset button</li>
 </ul>
 
-<p>The <strong>Feather M0 Radio</strong> uses the extra space left over to add an RFM69HCW 433 or 900MHz radio module. These radios are not good for transmitting audio or video, but they do work quite well for small data packet transmission when you need more range than 2.4 GHz (BT, BLE, WiFi, ZigBee)</p>
+<p>The <strong>Feather M0 Radio</strong> uses the extra space left over to add an RFM69HCW 433 or 900 MHz radio module. These radios are not good for transmitting audio or video, but they do work quite well for small data packet transmission when you need more range than 2.4 GHz (BT, BLE, WiFi, ZigBee).</p>
 
 <ul>
   <li>SX1231 based module with SPI interface</li>
   <li>433 MHz version: Uses the amateur or license-free ISM band (ITU “Europe” license-free ISM or ITU “American” amateur with limitations)</li>
-  <li>900 MHz version: Uses the license-free ISM band (“European ISM” @ 868MHz or “American ISM” @ 915MHz)</li>
+  <li>900 MHz version: Uses the license-free ISM band (“European ISM” @ 868MHz or “American ISM” @ 915 MHz)</li>
   <li>+13 to +20 dBm up to 100 mW Power Output Capability (power output selectable in software)</li>
-  <li>50mA (+13 dBm) to 150mA (+20dBm) current draw for transmissions</li>
+  <li>50 mA (+13 dBm) to 150mA (+20 dBm) current draw for transmissions</li>
   <li>Range of approx. 350 meters, depending on obstructions, frequency, antenna and power output</li>
   <li>Create multipoint networks with individual node addresses</li>
   <li>Encrypted packet engine with AES-128</li>

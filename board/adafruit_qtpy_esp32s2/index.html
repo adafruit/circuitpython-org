@@ -162,13 +162,15 @@
 
 <p><a href="https://www.adafruit.com/?q=qt+oled&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">OLEDs</a>! <a href="https://www.adafruit.com/?q=qt+imu&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Inertial Measurement Units</a>! <a href="https://www.adafruit.com/?q=qt+sensor&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Sensors a-plenty</a>. All plug-and-play thanks to the innovative chainable design: <a href="https://www.sparkfun.com/qwiic">SparkFun Qwiic</a>-compatible <a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt">STEMMA QT</a> connectors for the I2C bus so you don’t even need to solder! Just plug in a compatible cable and attach it to your MCU of choice, and you’re ready to load up some software and measure some light. <a href="https://www.adafruit.com/product/4528">Seeed Grove I2C boards</a> will also work with this adapter cable.</p>
 
-<p>Pinout and shape are <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/">Seeed Xiao</a> compatible, with castellated pads so you can solder it flat to a PCB. In addition to the QT connector, we also added an <strong>RGB NeoPixel</strong> (with controllable power pin to allow for ultra-low-power usage), <strong>a reset button</strong> (great for restarting your program or entering the bootloader) and a button on GPIO 0 for entering the ROM bootloader or for user input</p>
+<p>Pinout and shape are <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/">Seeed Xiao</a> compatible, with castellated pads so you can solder it flat to a PCB. In addition to the QT connector, we also added an <strong>RGB NeoPixel</strong> (with controllable power pin to allow for ultra-low-power usage), <strong>a reset button</strong> (great for restarting your program or entering the bootloader) and a button on GPIO 0 for entering the ROM bootloader or for user input.</p>
 
 <p>Runs Arduino like a dream, and CircuitPython projects are fantastically fun.</p>
 
+<h2 id="technical-details">Technical details</h2>
+
 <ul>
   <li>Same size, form-factor, and pin-out as Seeed Xiao</li>
-  <li><strong>USB Type C connector</strong> - <a href="https://www.adafruit.com/product/4299">If you have only Micro B cables, this adapter will come in handy</a>!</li>
+  <li><strong>USB-C connector</strong> - <a href="https://www.adafruit.com/product/4299">If you have only Micro B cables, this adapter will come in handy</a>!</li>
   <li><strong>ESP32-S2 240MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
   <li><strong>4 MB Flash &amp; 2 MB PSRAM</strong></li>
   <li>Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>
@@ -178,18 +180,18 @@
   <li>13 GPIO pins:
     <ul>
       <li>11 on breakout pads, 2 more on QT connector</li>
-      <li>10 x 12-bit analog inputs (SPI high speed pads do not have analog inputs)</li>
+      <li>10 12-bit analog inputs (SPI high speed pads do not have analog inputs)</li>
       <li>8-bit analog output DAC</li>
       <li>PWM outputs on any pin</li>
-      <li>Two I2C ports, one on the breakout pads, and another with STEMMA QT plug-n-play connector</li>
+      <li>2 I2C ports, one on the breakout pads, and another with STEMMA QT plug-n-play connector</li>
       <li>Hardware UART</li>
       <li>Hardware SPI on the high speed SPI peripheral pins</li>
       <li>Hardware I2S on any pins</li>
-      <li>5 x Capacitive Touch with no additional components required</li>
+      <li>5 Capacitive Touch with no additional components required</li>
     </ul>
   </li>
-  <li>3.3V regulator with <a href="https://www.diodes.com/assets/Datasheets/AP2112.pdf"><strong>600mA peak output</strong></a></li>
-  <li>Deep sleep at 100uA</li>
+  <li>3.3 V regulator with <a href="https://www.diodes.com/assets/Datasheets/AP2112.pdf"><strong>600 mA peak output</strong></a></li>
+  <li>Deep sleep at 100 uA</li>
   <li><strong>Reset switch</strong> for starting your project code over, boot 0 button for entering bootloader mode</li>
   <li><strong>Really really small</strong></li>
 </ul>
