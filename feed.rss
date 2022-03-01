@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 01 Mar 2022 14:31:22 -0500</lastBuildDate>
+<lastBuildDate>Tue, 01 Mar 2022 17:31:02 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -2836,29 +2836,22 @@ then this is a great board to start with.</p>
               300px"
        src="/assets/images/boards/original/cytron_maker_nano_rp2040.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Cytron Technologies</p> <h2 id="simplifying-projects-with-raspberry-pi-rp2040">Simplifying Projects with Raspberry Pi® RP2040</h2>
+<p>By Cytron Technologies</p> <p>The Maker Nano RP2040 is a small but powerful MCU for your project. Same Arduino Nano form factor, but powered by a RP2040 MCU. This also means that it’s compatible with some of the daughter boards for Arduino Nano in the market. Not to forget it’s also breadboard friendly to allow building your own circuit.</p>
 
-<p>Looking for a small but powerful MCU for your project? Arduino Nano can’t satisfy you anymore? We have the Maker Nano RP2040 for you. Same Arduino Nano form factor, but powered by a much more powerful RP2040 MCU from Raspberry Pi. This also means that it’s compatible with most (see exception below) of the daughter boards for Arduino Nano in the market. Not to forget it’s also breadboard friendly to allow building your own circuit.</p>
+<p>The board has a lot of LEDs. Those LEDs are not just for a nice visual effect, they also represent the status of each pins. There are also two RGB LEDs (WS2812 Neopixel) to make your life more colorful. The onboard piezo buzzer and the sliding switch are additional hardware items which are present.</p>
 
-<p>Just like the other Maker series products, there are plentiful of LEDs on the Maker Nano RP2040 (welll, who doesn’t like LEDs?). Those LEDs are not just for a nice visual effect, they also represent the status of each pins and this makes troubleshooting your circuit a breeze. Not too excited with the boring single color blue LEDs? Worry not. We also put in two RGB LEDs (WS2812 Neopixel) to make your life more colorful. You can also program it to dance together with the melody produced by the onboard piezo buzzer. To change to another melody, press the onboard push button. Something wrong with your code and the buzzer keep playing anoying tone? Mute it with the sliding switch.</p>
+<p>The Raspberry Pi RP2040 MCU can be programmed with C/C++ (natively or with Arduino IDE support), MicroPython or CircuitPython.</p>
 
-<p>All of these can be done with the Maker Nano RP2040 alone without additional circuitry. Wiring up your own circuit is always the most tedious part of learning electronics. It’s very prone to error and sometimes, not reversible. We know it because we’ve gone through that before.</p>
+<p>The I/O voltage is only 3.3 V and it’s not 5 V compatible.</p>
 
-<p>When you have come to a state that onboard peripherals are already not enough for you, additional sensors or modules can be added via the newly introduced Maker Ports. Utilizing the JST-SH 4-ways connector, Maker Port is compatible with Sparkfun’s Qwiic modules and Adafruit’s STEMMA QT modules. Qwiic and STEMMA QT are using I2C communications and can be daisy-chained. By using the included JST-SH to Grove conversion cables, Maker Port is compatible with Seeed Studio’s Grove modules too. Besides I2C, Maker Port also supports UART (Maker Port 0 only), Analog Input (Maker Port 1 only) and Digital Input/Output.</p>
+<h2 id="technical-details">Technical details</h2>
 
-<p>The Raspberry Pi RP2040 MCU can be programmed with C/C++ (Natively or with Arduino IDE support), micropython or circuitpython. With massive libraries support and examples especially in Arduino IDE and circuitpython, you will be ready to build your application in no time, be it for learning purpose or for building a useful project.</p>
-
-<p><strong>Features:</strong></p>
 <ul>
   <li>Arduino Nano form factor</li>
-  <li>Powered by Rapberry Pi RP2040
-    <ul>
-      <li>Dual-core Arm Cortex-M0+ processor</li>
-      <li>264KB internal RAM</li>
-      <li>2MB of Flash memory</li>
-      <li>The exact same specifications with Raspberry Pi Pico</li>
-    </ul>
-  </li>
+  <li>Dual-core Arm Cortex-M0+ processor</li>
+  <li>264 KB internal RAM</li>
+  <li>2 MB of Flash memory</li>
+  <li>22x Digital I/O pins (4 ADC inputs <code class="language-plaintext highlighter-rouge">A0</code> - <code class="language-plaintext highlighter-rouge">A3</code>)</li>
   <li>14x Status indicator LEDs for GPIOs</li>
   <li>1x Piezo buzzer with mute switch</li>
   <li>1x Push button</li>
@@ -2867,13 +2860,15 @@ then this is a great board to start with.</p>
   <li>Support Arduino IDE, CircuitPython and MicroPython</li>
 </ul>
 
-<h2 id="resources">Resources:</h2>
+<h2 id="resources">Resources</h2>
+
 <ul>
   <li><a href="https://docs.google.com/drawings/d/e/2PACX-1vSGwfh_1ac_UFXT4F72D0yJHaYHjDC-lfeBMLp0dc8ry57sAYtdobIFBZqrfXE6AuDTYEY9Cicto2b8/pub?w=3373&amp;h=2867">Maker Nano RP2040 Pinout Diagram</a></li>
   <li><a href="https://docs.google.com/document/d/15IMxlESQE43sP7brZpqlfHVTAdX1N_XenzpvfP8cT_8/edit?usp=sharing">Maker Nano RP2040 Datasheet</a></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.cytron.io/p-maker-nano-rp2040">Cytron</a></li>
 </ul>
@@ -2892,40 +2887,31 @@ then this is a great board to start with.</p>
               300px"
        src="/assets/images/boards/original/cytron_maker_pi_rp2040.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Cytron Technologies</p> <h2 id="simplifying-robotics-with-raspberry-pi-rp2040">Simplifying Robotics with Raspberry Pi® RP2040</h2>
+<p>By Cytron Technologies</p> <p>Cytron Maker Pi RP2040 features the RP2040 chip, embedded on a robot controller board. The board also comes with 2-channel DC motor driver, 4 servo motor ports and 7 Grove I/O connectors, ready for your next DIY robot/motion control projects.</p>
 
-<p>Cytron Maker Pi RP2040 features the first microcontroller designed by Raspberry Pi - RP2040, embedded on a robot controller board. The board also comes with 2-channel DC motor driver, 4 servo motor ports and 7 Grove I/O connectors, ready for your next DIY robot / motion control projects. Now you can build a robot, while trying out the new RP2040 chip.</p>
+<p>The DC motor driver onboard is able to control two brushed DC motors or single bipolar/unipolar stepper motor from 3.6 V to 6 V, providing up to 1 A current per channel continuously. The built-in Quick Test buttons and motor output LEDs allow functional test of the motor driver in a quick and convenient way without the need of writing any test code. Vmotor for both DC and servo motors depends on the input voltage supplied to the board.</p>
 
-<p>The DC motor driver onboard is able to control two brushed DC motors or single bipolar/unipolar stepper motor from 3.6V to 6V, providing up to 1A current per channel continuously. The built-in Quick Test buttons and motor output LEDs allow functional test of the motor driver in a quick and convenient way without the need of writing any test code. Vmotor for both DC and servo motors depends on the input voltage supplied to the board.</p>
+<p>Maker Pi RP2040 has lots of LEDs for troubleshooting and visual effects, is able to make quite some noise with the onboard piezo buzzer and comes with push buttons ready to detect your touch.</p>
 
-<p>Maker Pi RP2040 features all the goodness of Cytron’s Maker series products. It too has lots of LEDs useful for troubleshooting (&amp; visual effects), is able to make quite some noise with the onboard piezo buzzer and comes with push buttons ready to detect your touch.</p>
+<p>There are three ways to supply power to the Maker Pi RP2040 - via USB (5 V) socket, with a single cell LiPo/Li-Ion battery or through the VIN (3.6-6 V) terminals. However only one power source is needed to power up both controller board and motors at a time. Power supply from all these power sources can all be controlled with the power on/off switch onboard.</p>
 
-<p>There are three ways to supply power to the Maker Pi RP2040 - via USB (5V) socket, with a single cell LiPo/Li-Ion battery or through the VIN (3.6-6V) terminals. However only one power source is needed to power up both controller board and motors at a time. Power supply from all these power sources can all be controlled with the power on/off switch onboard.</p>
+<p>CircuitPython is preloaded on the Maker Pi RP2040 and it runs a simple demo program right out-of-the-box. It can also be programmed with C/C++ (natively or with Arduino IDE support) or MicroPython.</p>
 
-<p>Cytron Maker Pi RP2040 is basically the Raspberry Pi Pico + Maker series’ goodness + Robot controller &amp; other useful features. Therefore this board is compatible with the existing Pico ecosystem. Software, firmware, libraries and resources that are developed for Pico should work seamlessly with Cytron Maker Pi RP2040 too.
-CircuitPython is preloaded on the Maker Pi RP2040 and it runs a simple demo program right out-of-the-box. Connect it to your computer via USB micro cable and turn it on, you will be greeted by a melody tune and LEDs running light. Press GP20 and GP21 push buttons to toggle the LEDs on/off, while controlling any DC and servo motors connected to it to move and stop. With this demo code, you get to test the board the moment you receive it!</p>
+<h2 id="technical-details">Technical details</h2>
 
-<p>While connected to your computer, a new CIRCUITPY drive appears. Explore and edit the demo code (code.py &amp; lib folder) with any code editor you like, save any changes to the drive and you shall see it in action in no time. That’s CircuitPython - very easy to get started. Wish to use other programming lauguages? Sure, you are free to use MicroPython and C/C++ for Pico/RP2040. For those of you who loves the Arduino ecosystem, please take a look at this official news by Arduino and also the unofficial Pico Arduino Core by Earle F. Philhower.</p>
-
-<p><strong>Features:</strong></p>
 <ul>
-  <li>Powered by Rapberry Pi RP2040
-    <ul>
-      <li>Dual-core Arm Cortex-M0+ processor</li>
-      <li>264KB internal RAM</li>
-      <li>2MB of Flash memory</li>
-      <li>The exact same specifications with Raspberry Pi Pico</li>
-    </ul>
-  </li>
+  <li>Dual-core Arm Cortex-M0+ processor</li>
+  <li>264 KB internal RAM</li>
+  <li>2 MB of Flash memory</li>
   <li>Robot controller board
     <ul>
-      <li>4x Servo motors</li>
-      <li>2x DC motors with quick test buttons</li>
+      <li>4x Servo motors (<code class="language-plaintext highlighter-rouge">GPIO12</code>. <code class="language-plaintext highlighter-rouge">GPIO13</code>, <code class="language-plaintext highlighter-rouge">GPIO14</code>, <code class="language-plaintext highlighter-rouge">GPIO15</code>)</li>
+      <li>2x DC motors with quick test buttons (Dual-channel H-bridge)</li>
     </ul>
   </li>
   <li>Versatile power circuit
     <ul>
-      <li>7 Automatic power selection: USB 5V, LiPo (1-cell) or Vin (3.6-6V)</li>
+      <li>7 Automatic power selection: USB 5 V, LiPo (1-cell) or Vin (3.6-6 V)</li>
       <li>Built-in 1-cell LiPo/Li-Ion charger (over-charged &amp; over-discharged protection)</li>
       <li>Power on/off switch</li>
     </ul>
@@ -2933,24 +2919,25 @@ CircuitPython is preloaded on the Maker Pi RP2040 and it runs a simple demo prog
   <li>13x Status indicator LEDs for GPIO pins</li>
   <li>1x Piezo buzzer with mute switch</li>
   <li>2x Push button</li>
-  <li>2x RGB LED (Neopixel)</li>
-  <li>7x Grove ports (flexible I/O options: digital, analog, I2C, SPI, UART…)</li>
-  <li>Preloaded with CircuitPython out-of-the-box</li>
+  <li>22x RGB LED (Neopixel)</li>
+  <li>7x Grove ports (flexible I/O options: digital, analog, I2C, SPI, UART)</li>
   <li>Mouting holes
     <ul>
-      <li>4x 4.8mm mounting hole (LEGO® pin compatible)</li>
+      <li>4x 4.8 mm mounting hole (LEGO® pin compatible)</li>
       <li>6x M3 screw hole</li>
     </ul>
   </li>
 </ul>
 
-<h2 id="resources">Resources:</h2>
+<h2 id="resources">Resources</h2>
+
 <ul>
   <li><a href="https://github.com/CytronTechnologies/MAKER-PI-RP2040">Getting Started with Maker Pi RP2040 &amp; Example Code</a></li>
   <li><a href="https://docs.google.com/document/d/1DJASwxgbattM37V4AIlJVR4pxukq0up25LppA8-z_AY/edit">Maker Pi RP2040 Datasheet</a></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.cytron.io/p-maker-pi-rp2040">Cytron</a></li>
 </ul>
