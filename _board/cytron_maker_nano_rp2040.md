@@ -14,25 +14,21 @@ features:
   - Breadboard-Friendly
 ---
 
-## Simplifying Projects with Raspberry Pi® RP2040
+The Maker Nano RP2040 is a small but powerful MCU for your project. Same Arduino Nano form factor, but powered by a RP2040 MCU. This also means that it's compatible with some of the daughter boards for Arduino Nano in the market. Not to forget it's also breadboard friendly to allow building your own circuit.
 
-Looking for a small but powerful MCU for your project? Arduino Nano can't satisfy you anymore? We have the Maker Nano RP2040 for you. Same Arduino Nano form factor, but powered by a much more powerful RP2040 MCU from Raspberry Pi. This also means that it's compatible with most (see exception below) of the daughter boards for Arduino Nano in the market. Not to forget it's also breadboard friendly to allow building your own circuit.
+The board has a lot of LEDs. Those LEDs are not just for a nice visual effect, they also represent the status of each pins. There are also two RGB LEDs (WS2812 Neopixel) to make your life more colorful. The onboard piezo buzzer and the sliding switch are additional hardware items which are present.
 
-Just like the other Maker series products, there are plentiful of LEDs on the Maker Nano RP2040 (welll, who doesn't like LEDs?). Those LEDs are not just for a nice visual effect, they also represent the status of each pins and this makes troubleshooting your circuit a breeze. Not too excited with the boring single color blue LEDs? Worry not. We also put in two RGB LEDs (WS2812 Neopixel) to make your life more colorful. You can also program it to dance together with the melody produced by the onboard piezo buzzer. To change to another melody, press the onboard push button. Something wrong with your code and the buzzer keep playing anoying tone? Mute it with the sliding switch.
+The Raspberry Pi RP2040 MCU can be programmed with C/C++ (natively or with Arduino IDE support), MicroPython or CircuitPython.
 
-All of these can be done with the Maker Nano RP2040 alone without additional circuitry. Wiring up your own circuit is always the most tedious part of learning electronics. It's very prone to error and sometimes, not reversible. We know it because we've gone through that before.
+The I/O voltage is only 3.3 V and it's not 5 V compatible.
 
-When you have come to a state that onboard peripherals are already not enough for you, additional sensors or modules can be added via the newly introduced Maker Ports. Utilizing the JST-SH 4-ways connector, Maker Port is compatible with Sparkfun's Qwiic modules and Adafruit's STEMMA QT modules. Qwiic and STEMMA QT are using I2C communications and can be daisy-chained. By using the included JST-SH to Grove conversion cables, Maker Port is compatible with Seeed Studio's Grove modules too. Besides I2C, Maker Port also supports UART (Maker Port 0 only), Analog Input (Maker Port 1 only) and Digital Input/Output.
+## Technical details
 
-The Raspberry Pi RP2040 MCU can be programmed with C/C++ (Natively or with Arduino IDE support), micropython or circuitpython. With massive libraries support and examples especially in Arduino IDE and circuitpython, you will be ready to build your application in no time, be it for learning purpose or for building a useful project.
-
-**Features:**
 - Arduino Nano form factor
-- Powered by Rapberry Pi RP2040
-  - Dual-core Arm Cortex-M0+ processor
-  - 264KB internal RAM
-  - 2MB of Flash memory
-  - The exact same specifications with Raspberry Pi Pico
+- Dual-core Arm Cortex-M0+ processor
+- 264 KB internal RAM
+- 2 MB of Flash memory
+- 22x Digital I/O pins (4 ADC inputs `A0` - `A3`) 
 - 14x Status indicator LEDs for GPIOs
 - 1x Piezo buzzer with mute switch
 - 1x Push button
@@ -40,10 +36,11 @@ The Raspberry Pi RP2040 MCU can be programmed with C/C++ (Natively or with Ardui
 - 2x Maker Ports, compatible with Qwiic, STEMMA QT, Grove (via conversion cable)
 - Support Arduino IDE, CircuitPython and MicroPython
 
-## Resources:
+## Resources
+
 - [Maker Nano RP2040 Pinout Diagram](https://docs.google.com/drawings/d/e/2PACX-1vSGwfh_1ac_UFXT4F72D0yJHaYHjDC-lfeBMLp0dc8ry57sAYtdobIFBZqrfXE6AuDTYEY9Cicto2b8/pub?w=3373&h=2867)
 - [Maker Nano RP2040 Datasheet](https://docs.google.com/document/d/15IMxlESQE43sP7brZpqlfHVTAdX1N_XenzpvfP8cT_8/edit?usp=sharing)
 
-
 ## Purchase
+
 * [Cytron](https://www.cytron.io/p-maker-nano-rp2040)
