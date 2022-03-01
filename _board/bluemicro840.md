@@ -16,13 +16,15 @@ features:
   - Battery Charging
 ---
 
-The BlueMicro840 is a nRF52840 controller inspired on the Adafruit nRF52840 feather but with the footprint of an Arduino Pro Micro and a USB-C Connector.
+The BlueMicro840 is a nRF52840 controller inspired on the Adafruit nRF52840 feather but with the footprint of an Arduino Pro Micro and a USB-C connector.
 
 Many DIY keyboards use the Arduino Pro Micro or the Arduino Micro as their microcontroller. These don't support BLE communications natively. Because the nRF52 chips have a 32-bit ARM Cortex-M4F processor, they have plenty of processing power compared to the traditional AVR chips. The BlueMicro boards were inspired from the Adafruit nrf52 feathers but made to be used directly in DIY keyboards as a replacement for the atmega32u4 based controllers.
 
 
 ## Learn More
+
 * [Board Documentation](http://nrf52.jpconstantineau.com/docs/bluemicro840_v1)
 
 ## Purchase
+
 * [Tindie](https://www.tindie.com/products/jpconstantineau/bluemicro840/)

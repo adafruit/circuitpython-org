@@ -18,9 +18,9 @@ CircuitPython on an ARM Cortex M4 in almost 1 square inch! This "Just Add Solder
 
 **NOTE:** This board does not have a USB connector for the native USB. Native USB is broken out on the header/castellations and therefore requires a non-standard USB connection such as mounting to a motherboard PCB.
 
-## Technical Specs
+## Technical details
 
-- Dimensions: 29 x 29 x 3.5 millimeters / 1.15 x 1.15 x 0.15 inches
+- Dimensions: 29 x 29 x 3.5 mm / 1.15 x 1.15 x 0.15 inches
 - Atmel ATSAMD51J19A Microcontroller (32-bit ARM Cortex M4)
 - 120 MHz
 - 192 KB SRAM
@@ -32,6 +32,10 @@ CircuitPython on an ARM Cortex M4 in almost 1 square inch! This "Just Add Solder
 - Breakouts for 14 Analog and 19 Digital Inputs/Outputs
 
 ## Purchase
-Coming soon. Follow the below links for manufacturing updates:
+
 * [CircuitBrains Deluxe Project Page](https://kevinneubauer.com/portfolio/circuitbrains-deluxe/)
 * [Kevin Neubauer Twitter](https://twitter.com/kevinneubauer)
+
+## Learn more
+
+* [GitHub](https://github.com/neubauek/CircuitBrains)

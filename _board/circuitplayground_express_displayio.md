@@ -24,6 +24,7 @@ This is a great companion for our Circuit Playground Express or Bluefruit boards
 Comes with a PCB that has pre-soldered standoffs attached, and 12x M3 screws for attachment. Fits all Circuit Playgrounds but like we mentioned earlier, the Express and Bluefruit are recommended.
 
 ## Tutorials
+
 * [Circuit Playground Express Overview](https://learn.adafruit.com/adafruit-circuit-playground-express)
 * [Adafruit Circuit Playground TFT Gizmo](https://learn.adafruit.com/adafruit-tft-gizmo)
 

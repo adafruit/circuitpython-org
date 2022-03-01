@@ -18,8 +18,13 @@ The PixelWing Matrix is a powerful ESP32-S2 RGB Matrix Display board that allows
 
 In addition to this, the PixelWing provides a quick access I2C JST connector that is compatible with Qwiic and Stemma QT connectors allowing you to connect all your favorite Adafruit and Sparkfun sensor breakouts.
 
-All of this is combined with Circuit Python support making it easy to get programming on your project.
+All of this is combined with CircuitPython support making it easy to get programming on your project.
 
 ## Purchase
 
 * [Tindie](https://www.tindie.com/products/oakdevtech/pixelwing-esp32-s2-rgb-matrix/)
+
+
+## Learn more
+
+* [Schematics](https://github.com/skerr92/odt-dev-boards/tree/master/boards/PixelWing-ESP32)

@@ -19,9 +19,9 @@ A Work-In-Progress Feather featuring the NXP i.MX RT1011 MCU and a ESP32.
 
 ## Technical details
 
-- ARM Cortex-M7 MCU running at 500MHz, 128KB of RAM
-- 8MB of Flash shared between MCU code and CircuitPython storage
-- USB Type-C connector
+- ARM Cortex-M7 MCU running at 500 MHz, 128 KB of RAM
+- 8 MB of Flash shared between MCU code and CircuitPython storage
+- USB-C connector
 - ESP32 that can be used as a SPI slave with the AirLift firmware
 - Neopixel indicator
 - Works with CircuitPython!

@@ -23,23 +23,23 @@ The ESP8285 chip comes pre-flashed with Espressif’s AT command interpreter sto
 
 ### Technical details
 
-- Raspberry Pi Pico Dual Core Cortex-M0 @ 133MHz
-- 8 MByte FLASH Memory.
-- 264 KByte SRAM Memory.
-- 1 Hardware I2C channel.
-- 1 Hardware SPI channel.
-- 1 Hardware UART for the user (Serial1).
-- 1 Hardware UART connected to the network processor (Serial2 @ 1Mbit/s)
+- Raspberry Pi Pico Dual Core Cortex-M0 @ 133 MHz
+- 8 MByte FLASH Memory
+- 264 KByte SRAM Memory
+- 1 Hardware I2C channel
+- 1 Hardware SPI channel
+- 1 Hardware UART for the user (Serial1)
+- 1 Hardware UART connected to the network processor (Serial2 @ 1 Mbit/s)
 - 12 Bit ADC.
 - ESP8285 with internal 1MByte FLASH Memory
-- WiFi (2.4GHz)
+- WiFi (2.4 GHz)
 - Espressif AT interpreter
 - Communicates at 921600 bits/s
 - Neopixel LED
 - New fancy schmancy I2C connector =)
-- USB Type C connector
-
+- USB-C connector
 
 ## Purchase
+
 * [Tindie](https://www.tindie.com/products/invector/challenger-nb-rp2040-wifi/)
 

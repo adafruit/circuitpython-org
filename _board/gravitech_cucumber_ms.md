@@ -15,8 +15,18 @@ features:
   - Breadboard-Friendly
 ---
 
-Cucumber MS is a WiFi IoT development board. It features the latest ESP32-S2 chipset from Espressif (ESP32-S2-WROOM). MS version is using integrated PCB antenna. It is a special version which include many on-board sensors. I.E. HS221 Temperature & Humidity sensor, MPU-6050 3-axis Accelerometer & 3-axis Gyroscope, BMP280 Pressure sensor. It is packed with many goodies. I.E. x2 USB Type-C (debug and OTG), FTDI chip for USB-to-Serial converter which highly compatible with most computers, RGB LED which use only one signal line and can mix up to over 16 million color, TX/RX, IO2 and PWR LED, colorful sticker indicate the pin function. Cucumber MS come in a nice clear plastic box for ease of storage. All these functions in less than $20USD.
+Cucumber MS is a WiFi IoT development board. It features the latest ESP32-S2 chipset from Espressif (ESP32-S2-WROOM). MS version is using integrated PCB antenna. It is a special version which include on-board sensors. 
+
+## Features
+
+- HS221 Temperature & Humidity sensor
+- MPU-6050 3-axis Accelerometer & 3-axis Gyroscope
+- BMP280 Pressure sensor.
+- 2x USB-C (debug and OTG)
+- FTDI chip for USB-to-Serial converter which highly compatible with most computers
+- RGB LED which use only one signal line and can mix up to over 16 million color
+- TX/RX, IO2 and PWR LED
 
 ## Purchase
-Add any links to purchase the board
+
 * [Gravitech](https://www.gravitech.us/cumsdebowise.html)

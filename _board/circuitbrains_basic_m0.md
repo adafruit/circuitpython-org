@@ -32,6 +32,10 @@ CircuitPython on an ARM Cortex M0 in 1 square inch! This "Just Add Solder" caste
 - Breakouts for 4 Analog and 8 Digital Inputs/Outputs
 
 ## Purchase
-Coming soon. Follow the below links for manufacturing updates:
+
 * [CircuitBrains Basic Project Page](https://kevinneubauer.com/portfolio/circuitbrains-basic/)
 * [Kevin Neubauer Twitter](https://twitter.com/kevinneubauer)
+
+## Learn more
+
+* [GitHub](https://github.com/neubauek/CircuitBrains)

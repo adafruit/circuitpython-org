@@ -24,7 +24,7 @@ Want to add more hardware? No worries - [a STEMMA QT port on the side lets you c
 
  **Please note, the RP2040 chip does not currently have QMK support** - this macropad is designed to be programmed in Arduino or CircuitPython! If QMK eventually does add RP2040 as a supported chipset (no ETA and no plans that we know of), we'll update this page.
 
- TL;DR?
+## Technical details
 
 - **Raspberry Pi RP2040 Chip + 8MB Flash memory** - Dual core Cortex M0+ at ~130MHz with 264KB or RAM. Runs CircuitPython, Arduino or MicroPython with ease and lots of space for development code and files
 - **USB C Connector for Power/Data** - of course this can act as an HID device but also can be MIDI, UART, etc.
