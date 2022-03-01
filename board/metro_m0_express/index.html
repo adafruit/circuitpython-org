@@ -156,25 +156,29 @@
         <p>
           <p>This <strong>Metro M0 Express</strong> board looks a whole lot like the <a href="https://www.adafruit.com/product/2488">original Metro 328</a>, but with a huge upgrade. Instead of the ATmega328, this Metro features a ATSAMD21G18 chip, an ARM Cortex M0+. It’s the first Adafruit Metro that is designed for use with CircuitPython!</p>
 
-<p>At the Metro M0’s heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48 MHz and at 3.3V logic, the same one used in the new <a href="https://www.adafruit.com/products/2843">Arduino Zero</a>. This chip has a whopping 256K of FLASH (8x more than the Atmega328) and 32K of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program &amp; debug capability built in with no need for an FTDI-like chip.</p>
+<p>At the Metro M0’s heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48 MHz and at 3.3 V logic, the same one used in the new <a href="https://www.adafruit.com/products/2843">Arduino Zero</a>. This chip has a whopping 256 KB of FLASH (8x more than the Atmega328) and 32 KB of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program &amp; debug capability built in with no need for an FTDI-like chip.</p>
+
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
-  <li><strong>Power the METRO</strong> with 7-9V polarity protected DC or the micro USB connector to any 5V USB source. The 2.1mm DC jack has an on/off switch next to it so you can turn off your setup easily. The METRO will automagically switch between USB and DC.</li>
-  <li><strong>METRO has 25 GPIO pins</strong>, 12 of which are analog in, and one of which is a true analog out. There’s a hardware SPI port, hardware I2C port and hardware UART. Logic level is 3.3V</li>
+  <li><strong>Power the METRO</strong> with 7-9 V polarity protected DC or the micro USB connector to any 5 V USB source. The 2.1 mm DC jack has an on/off switch next to it so you can turn off your setup easily. The METRO will automagically switch between USB and DC.</li>
+  <li><strong>METRO has 25 GPIO pins</strong>, 12 of which are analog in, and one of which is a true analog out. There’s a hardware SPI port, hardware I2C port and hardware UART. Logic level is 3.3 V.</li>
   <li><strong>Native USB</strong>, there’s no need for a hardware USB to Serial converter as the Metro M0 has built in USB support. When used to act like a serial device, the USB interface can be used by any computer to listen/send data to the METRO, and can also be used to launch and update code via the bootloader. It can also act like a keyboard, mouse or MIDI device as well.</li>
   <li><strong>Four indicator LEDs and one NeoPixel</strong>, on the front edge of the PCB, for easy debugging. One green power LED, two RX/TX LEDs for data being sent over USB, and a red LED connected. Next to the reset button there is an RGB NeoPixel that can be used for any purpose.</li>
-  <li><strong>2 MB SPI Flash </strong>storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 2 MB flash acts as storage for all your scripts, libraries and files.</li>
-  <li><strong>Easy reprogramming</strong>, comes pre-loaded with the <a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader">UF2 bootloader</a>, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython, PXT/MakeCode or Arduino IDE (it is bossa-compatible)</li>
+  <li><strong>2 MB SPI Flash</strong> storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 2 MB flash acts as storage for all your scripts, libraries and files.</li>
+  <li><strong>Easy reprogramming</strong>, comes pre-loaded with the <a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader">UF2 bootloader</a>, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython, PXT/MakeCode or Arduino IDE (it is bossa-compatible).</li>
 </ul>
 
 <p>Comes fully assembled with headers, tested, and with the UF2 bootloader loaded on. Includes 4 rubber bumpers to keep it from slipping off your desk. No soldering required to use, plug and play!</p>
 
 <h2 id="tutorial">Tutorial</h2>
+
 <ul>
   <li><a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/overview">Metro M0 Express Overview</a></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.adafruit.com/product/3505">Adafruit</a></li>
 </ul>

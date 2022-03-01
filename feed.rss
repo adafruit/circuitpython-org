@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 01 Mar 2022 12:18:50 -0500</lastBuildDate>
+<lastBuildDate>Tue, 01 Mar 2022 14:23:48 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -6281,25 +6281,29 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
 
 <p>By Adafruit</p> <p>This <strong>Metro M0 Express</strong> board looks a whole lot like the <a href="https://www.adafruit.com/product/2488">original Metro 328</a>, but with a huge upgrade. Instead of the ATmega328, this Metro features a ATSAMD21G18 chip, an ARM Cortex M0+. It’s the first Adafruit Metro that is designed for use with CircuitPython!</p>
 
-<p>At the Metro M0’s heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48 MHz and at 3.3V logic, the same one used in the new <a href="https://www.adafruit.com/products/2843">Arduino Zero</a>. This chip has a whopping 256K of FLASH (8x more than the Atmega328) and 32K of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program &amp; debug capability built in with no need for an FTDI-like chip.</p>
+<p>At the Metro M0’s heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48 MHz and at 3.3 V logic, the same one used in the new <a href="https://www.adafruit.com/products/2843">Arduino Zero</a>. This chip has a whopping 256 KB of FLASH (8x more than the Atmega328) and 32 KB of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program &amp; debug capability built in with no need for an FTDI-like chip.</p>
+
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
-  <li><strong>Power the METRO</strong> with 7-9V polarity protected DC or the micro USB connector to any 5V USB source. The 2.1mm DC jack has an on/off switch next to it so you can turn off your setup easily. The METRO will automagically switch between USB and DC.</li>
-  <li><strong>METRO has 25 GPIO pins</strong>, 12 of which are analog in, and one of which is a true analog out. There’s a hardware SPI port, hardware I2C port and hardware UART. Logic level is 3.3V</li>
+  <li><strong>Power the METRO</strong> with 7-9 V polarity protected DC or the micro USB connector to any 5 V USB source. The 2.1 mm DC jack has an on/off switch next to it so you can turn off your setup easily. The METRO will automagically switch between USB and DC.</li>
+  <li><strong>METRO has 25 GPIO pins</strong>, 12 of which are analog in, and one of which is a true analog out. There’s a hardware SPI port, hardware I2C port and hardware UART. Logic level is 3.3 V.</li>
   <li><strong>Native USB</strong>, there’s no need for a hardware USB to Serial converter as the Metro M0 has built in USB support. When used to act like a serial device, the USB interface can be used by any computer to listen/send data to the METRO, and can also be used to launch and update code via the bootloader. It can also act like a keyboard, mouse or MIDI device as well.</li>
   <li><strong>Four indicator LEDs and one NeoPixel</strong>, on the front edge of the PCB, for easy debugging. One green power LED, two RX/TX LEDs for data being sent over USB, and a red LED connected. Next to the reset button there is an RGB NeoPixel that can be used for any purpose.</li>
-  <li><strong>2 MB SPI Flash </strong>storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 2 MB flash acts as storage for all your scripts, libraries and files.</li>
-  <li><strong>Easy reprogramming</strong>, comes pre-loaded with the <a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader">UF2 bootloader</a>, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython, PXT/MakeCode or Arduino IDE (it is bossa-compatible)</li>
+  <li><strong>2 MB SPI Flash</strong> storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 2 MB flash acts as storage for all your scripts, libraries and files.</li>
+  <li><strong>Easy reprogramming</strong>, comes pre-loaded with the <a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader">UF2 bootloader</a>, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython, PXT/MakeCode or Arduino IDE (it is bossa-compatible).</li>
 </ul>
 
 <p>Comes fully assembled with headers, tested, and with the UF2 bootloader loaded on. Includes 4 rubber bumpers to keep it from slipping off your desk. No soldering required to use, plug and play!</p>
 
 <h2 id="tutorial">Tutorial</h2>
+
 <ul>
   <li><a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/overview">Metro M0 Express Overview</a></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.adafruit.com/product/3505">Adafruit</a></li>
 </ul>
@@ -6320,9 +6324,11 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
 
 <p>By Adafruit</p> <p>Give your next project a lift with <em>AirLift</em> - Adafruit’s witty name for the ESP32 co-processor that graces this Metro M4.</p>
 
-<p>You already know about the <strong>Adafruit Metro M4</strong> featuring the <strong>Microchip ATSAMD51</strong>, with it’s 120MHz Cortex M4 with floating point support. With a train-load of FLASH and RAM, your code will be fast and roomy. And what better way to improve it than to add wireless? Now cooked in directly on board, you get a certified WiFi module that can handle all your TLS and socket needs, it even has root certificates pre-loaded.</p>
+<p>You already know about the <strong>Adafruit Metro M4</strong> featuring the <strong>Microchip ATSAMD51</strong>, with it’s 120 MHz Cortex M4 with floating point support. With a train-load of FLASH and RAM, your code will be fast and roomy. And what better way to improve it than to add wireless? Now cooked in directly on board, you get a certified WiFi module that can handle all your TLS and socket needs, it even has root certificates pre-loaded.</p>
 
-<p>This Metro is the same size as the others, and is compatible with all our shields. It’s got analog pins where you expect, and SPI/UART/I2C hardware support in the same spot as the Metro 328 and M0. But! It’s powered with an ATSAMD51J19:</p>
+<p>This Metro is the same size as the others, and is compatible with all our shields. It’s got analog pins where you expect, and SPI/UART/I2C hardware support in the same spot as the Metro 328 and M0. But! It’s powered with an ATSAMD51J19.</p>
+
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
   <li>Cortex M4 core running at <strong>120 MHz</strong></li>
@@ -6331,27 +6337,27 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
   <li>32-bit, 3.3V logic and power</li>
   <li>Dual 1 MSPS DAC (A0 and A1)</li>
   <li>Dual 1 MSPS ADC (8 analog pins)</li>
-  <li>6 x hardware SERCOM (I2C, SPI or UART)</li>
-  <li>22 x PWM outputs</li>
+  <li>6x hardware SERCOM (I2C, SPI or UART)</li>
+  <li>22x PWM outputs</li>
   <li>Stereo I2S input/output with MCK pin</li>
   <li>10-bit Parallel capture controller (for camera/video in)</li>
   <li>Built in crypto engines with AES (256 bit), true RNG, Pubkey controller</li>
   <li>64 QFN</li>
 </ul>
 
-<p>Pretty good start, right? Adafruit put this chip on a PCB with all these nice extras:</p>
+<p>The PCB comes with all these extras:</p>
 
 <ul>
-  <li><strong>Power the METRO M4</strong> with 7-9V polarity protected DC or the micro USB connector to any 5V USB source. The 2.1mm DC jack has an on/off switch next to it so you can turn off your setup easily. The METRO will automagically switch between USB and DC.</li>
-  <li><strong>METRO has 25 GPIO pins</strong>, 8 of which are analog in, and two of which is a true analog out. There’s a hardware SPI port, hardware I2C port and hardware UART. Logic level is 3.3V</li>
+  <li><strong>Power the METRO M4</strong> with 7-9 V polarity protected DC or the micro USB connector to any 5 V USB source. The 2.1 mm DC jack has an on/off switch next to it so you can turn off your setup easily. The METRO will automagically switch between USB and DC.</li>
+  <li><strong>METRO has 25 GPIO pins</strong>, 8 of which are analog in, and two of which is a true analog out. There’s a hardware SPI port, hardware I2C port and hardware UART. Logic level is 3.3 V.</li>
   <li><strong>Native USB</strong>, there’s no need for a hardware USB to Serial converter as the Metro M4 has built in USB support. When used to act like a serial device, the USB interface can be used by any computer to listen/send data to the METRO, and can also be used to launch and update code via the bootloader. It can also act like an HID keyboard or mouse.</li>
   <li><strong>AirLift WiFi Co-processor</strong>, with TLS/SSL support, plenty of RAM for sockets, communication is over SPI and has Arduino and CircuitPython libraries ready to go for fast wireless integration.</li>
   <li><strong>Four indicator LEDs and one NeoPixel</strong>, on the back edge of the PCB, for easy debugging. One green power LED, two RX/TX LEDs for data being sent over USB, and a red LED connected. Next to the reset button there is an RGB NeoPixel that can be used for any purpose.</li>
-  <li><strong>2 MB QSPI Flash </strong>storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 2 MB flash acts as storage for all your scripts, libraries and files. When used in Arduino, you can read/write files to it, like a little datalogger or SD card, and then with our helper program, access the files over USB.</li>
+  <li><strong>2 MB QSPI Flash</strong> storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 2 MB flash acts as storage for all your scripts, libraries and files. When used in Arduino, you can read/write files to it, like a little datalogger or SD card, and then with our helper program, access the files over USB.</li>
   <li><strong>Easy reprogramming</strong>, comes pre-loaded with the <a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader">UF2 bootloader</a>, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython (it is bossa v1.8 compatible).</li>
 </ul>
 
-<p>The primary target for this board is CircuitPython - with 120 MHz, and 192KB of RAM CircuitPython runs really well on this chip! CircuitPython’s built in support for JSON parsing plus our <em>requests</em> compatible library makes it incredibly easy to build secure IoT projects in just a few minutes.</p>
+<p>The primary target for this board is CircuitPython - with 120 MHz, and 192 KB of RAM CircuitPython runs really well on this chip! CircuitPython’s built in support for JSON parsing plus our <em>requests</em> compatible library makes it incredibly easy to build secure IoT projects in just a few minutes.</p>
 
 <p>Metro M4 AirLift, see how easy and fast it is to get started with IoT projects using CircuitPython!</p>
 
@@ -6361,7 +6367,7 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
   <li><a href="https://learn.adafruit.com/adafruit-metro-m4-express-airlift-wifi">Metro M4 AirLift Lite Overview</a></li>
 </ul>
 
-<h2 id="purchase">Purchase:</h2>
+<h2 id="purchase">Purchase</h2>
 
 <ul>
   <li><a href="https://www.adafruit.com/product/4000">Adafruit</a></li>
@@ -6381,19 +6387,21 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
               300px"
        src="/assets/images/boards/original/metro_m4_express.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Adafruit</p> <p>The most powerful Metro at this time, the <strong>Adafruit Metro M4</strong> featuring the <strong>Microchip ATSAMD51</strong>. This Metro is like a bullet train, with it’s 120MHz Cortex M4 with floating point support. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.</p>
+<p>By Adafruit</p> <p>The most powerful Metro at this time, the <strong>Adafruit Metro M4</strong> featuring the <strong>Microchip ATSAMD51</strong>. This Metro is like a bullet train, with it’s 120 MHz Cortex M4 with floating point support. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.</p>
 
-<p>To start off the ATSAMD51 journey it has a classic ‘Arduino compatible’ shape and pinout. This Metro is the same size as the others, and is compatible with many shields. It’s got analog pins where you expect, and SPI/UART/I2C hardware support in the same spot as the Metro 328 and M0. But! It’s powered with an ATSAMD51J19:</p>
+<p>To start off the ATSAMD51 journey it has a classic ‘Arduino compatible’ shape and pinout. This Metro is the same size as the others, and is compatible with many shields. It’s got analog pins where you expect, and SPI/UART/I2C hardware support in the same spot as the Metro 328 and M0. But! It’s powered with an ATSAMD51J19.</p>
+
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
   <li>Cortex M4 core running at <strong>120 MHz</strong></li>
   <li><a href="https://developer.arm.com/technologies/dsp/dsp-for-cortex-m">Floating point support with Cortex M4 DSP instructions</a></li>
   <li><strong>512 KB</strong> flash, <strong>192 KB</strong> RAM</li>
-  <li>32-bit, 3.3V logic and power</li>
+  <li>32-bit, 3.3 V logic and power</li>
   <li>Dual 1 MSPS DAC (A0 and A1)</li>
   <li>Dual 1 MSPS ADC (8 analog pins)</li>
-  <li>6 x hardware SERCOM (I2C, SPI or UART)</li>
-  <li>22 x PWM outputs</li>
+  <li>6x hardware SERCOM (I2C, SPI or UART)</li>
+  <li>22x PWM outputs</li>
   <li>Stereo I2S input/output with MCK pin</li>
   <li>64 QFN</li>
 </ul>
@@ -6401,15 +6409,16 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
 <p>Includes:</p>
 
 <ul>
-  <li><strong>Power the METRO M4</strong> with 7-9V polarity protected DC or the micro USB connector to any 5V USB source. The 2.1mm DC jack has an on/off switch next to it so you can turn off your setup easily. The METRO will automagically switch between USB and DC.</li>
-  <li><strong>METRO has 25 GPIO pins</strong>, 8 of which are analog in, and two of which is a true analog out. There’s a hardware SPI port, hardware I2C port and hardware UART. Logic level is 3.3V</li>
+  <li><strong>Power the METRO M4</strong> with 7-9 V polarity protected DC or the micro USB connector to any 5 V USB source. The 2.1 mm DC jack has an on/off switch next to it so you can turn off your setup easily. The METRO will automagically switch between USB and DC.</li>
+  <li><strong>METRO has 25 GPIO pins</strong>, 8 of which are analog in, and two of which is a true analog out. There’s a hardware SPI port, hardware I2C port and hardware UART. Logic level is 3.3 V.</li>
   <li><strong>Native USB</strong>, there’s no need for a hardware USB to Serial converter as the Metro M4 has built in USB support. When used to act like a serial device, the USB interface can be used by any computer to listen/send data to the METRO, and can also be used to launch and update code via the bootloader. It can also act like an HID keyboard or mouse.</li>
   <li><strong>Four indicator LEDs and one NeoPixel</strong>, on the front edge of the PCB, for easy debugging. One green power LED, two RX/TX LEDs for data being sent over USB, and a red LED connected. Next to the reset button there is an RGB NeoPixel that can be used for any purpose.</li>
-  <li><strong>2 MB QSPI Flash </strong>storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 2 MB flash acts as storage for all your scripts, libraries and files.</li>
-  <li><strong>Easy reprogramming</strong>, comes pre-loaded with the <a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader">UF2 bootloader</a>, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython (it is bossa v1.8 compatible)</li>
+  <li><strong>2 MB QSPI Flash</strong> storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 2 MB flash acts as storage for all your scripts, libraries and files.</li>
+  <li><strong>Easy reprogramming</strong>, comes pre-loaded with the <a href="https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader">UF2 bootloader</a>, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython (it is bossa v1.8 compatible).</li>
 </ul>
 
-<p>The primary target for this board is CircuitPython - with 120 MHz, and 192KB of RAM CircuitPython runs really well on this chip. At this time, the latest versions of CircuitPython working on this board, and more API parts are added every week.</p>
+<p>The primary target for this board is CircuitPython - with 120 MHz, and 192 KB of RAM CircuitPython runs really well on this chip. At this time, the latest versions of CircuitPython working on this board, and more API parts are added every week.</p>
+
 <h2 id="tutorial">Tutorial</h2>
 
 <ul>
@@ -6437,12 +6446,37 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
               300px"
        src="/assets/images/boards/original/metro_m7_1011.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Adafruit</p> <p>Watch Adafruit’s Ask an Engineer on YouTube to learn more.</p>
+<p>By Adafruit</p> <p>The NXP iMX RT1011 microcontroller powers the Metro M7 with a 500 MHz ARM Cortex M7 processor. There’s 4 MB of execute-in-place QSPI for firmware + disk storage and 128 KB of SRAM in-chip.</p>
 
-<h2 id="learn-more">Learn More:</h2>
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>NXP iMX RT1011 processor - ARM Cortex M7 processor running at 500 MHz, with 128 KB SRAM and high speed USB!</li>
+  <li>AirLift WiFi Co-processor, with TLS/SSL support, plenty of RAM for sockets, communication is over SPI</li>
+  <li>4 MB of QSPI XIP Flash</li>
+  <li>Power options - 6-12 VDC barrel jack or USB-C</li>
+  <li>UNO-shape so shields can plug in</li>
+  <li>Reset  button - Click to restart, double-click to enter UF2 bootloder</li>
+  <li>Boot-mode switches to get into the ROM bootloader (you can always reload code over USB if TinyUF2 gets corrupted somehow)</li>
+  <li>SWD connector for advanced debugging access.</li>
+  <li>On/Off switch</li>
+  <li>STEMMA QT connector for I2C devices</li>
+  <li>On/User LEDs + status NeoPixel</li>
+  <li>53.2 mm x 72 mm / 2” x 2.8”</li>
+  <li>Height (w/ barrel jack): 14.8 mm / 0.6”</li>
+  <li>Weight: 22.5 g</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
 
 <ul>
   <li><a href="https://www.youtube.com/watch?v=_sLgycNpMCQ">YouTube</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4950">Adafruit</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -6461,22 +6495,19 @@ To take advantage of the removable M.2 module and hot-swap sockets, assembly mad
 
 <p>By Adafruit</p> <p>The <strong>Adafruit Metro nRF52840 Express</strong> is a new Metro family member with Bluetooth Low Energy and <em>native USB support</em> featuring the nRF52840! </p>
 
-<p>This chip has twice the flash, and four times the SRAM of its earlier sibling, the nRF52832 - 1 MB of FLASH and 256KB of SRAM. Compared to the nRF51, this board has 4-8 times more of everything.</p>
+<p>This chip has twice the flash, and four times the SRAM of its earlier sibling, the nRF52832 - 1 MB of FLASH and 256 KB of SRAM. Compared to the nRF51, this board has 4-8 times more of everything.</p>
 
-<p>More later!</p>
-
-<p><strong>Features:</strong></p>
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
-  <li>ARM Cortex M4F (with HW floating point acceleration) running at 64MHz</li>
-  <li>1MB flash and 256KB SRAM</li>
+  <li>ARM Cortex M4F (with HW floating point acceleration) running at 64 MHz</li>
+  <li>1 MB flash and 256 KB SRAM</li>
   <li><strong>Native Open Source USB stack</strong> - pre-programmed with UF2 bootloader</li>
-  <li>Bluetooth Low Energy compatible 2.4GHz radio (Details available in the <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840">nRF52840</a> product specification)</li>
-  <li><strong>FCC / IC / TELEC certified module</strong></li>
-  <li>more later!</li>
+  <li>Bluetooth Low Energy compatible 2.4 GHz radio (Details available in the <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840">nRF52840</a> product specification)</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.adafruit.com/">Adafruit</a></li>
 </ul>
