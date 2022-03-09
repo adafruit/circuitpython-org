@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 09 Mar 2022 05:08:52 -0500</lastBuildDate>
+<lastBuildDate>Wed, 09 Mar 2022 10:58:00 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -6010,6 +6010,68 @@ JTAG pads for advanced debugging access.</li>
     <category>CircuitPython</category>
     <pubDate>Sat, 13 Apr 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/kicksat-sprite/</guid>
+  </item><item>
+    <title>TTGO T8 ESP32-S2</title>
+    <link>https://circuitpython.org/board/lilygo_ttgo_t8_s2/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/lilygo_ttgo_t8_s2.jpg 300w,
+               /assets/images/boards/large/lilygo_ttgo_t8_s2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/lilygo_ttgo_t8_s2.jpg" alt="Image of Board" loading="lazy">
+
+<p>By LILYGO</p> <p>The TTGO T8 ESP32-S2 development board has useful features like the microSD card slot or the option to run the board with battery power. This board is very similar to the TTGO T8 ESP32-S2 ST7789 just without the display.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32-S2 240 MHz Tensilica processor</li>
+  <li>Wi-Fi 802.11 b/g/n 2.4 GHz</li>
+  <li>4 MB FLASH</li>
+  <li>8 MB PSRAM</li>
+  <li>microSD card slot</li>
+  <li>built in battery charging, 2-pin 1.25 mm JST connector</li>
+  <li>on/off power switch</li>
+  <li>reset and boot button</li>
+  <li>onboard 32.768 kHz crystal oscillator</li>
+  <li>USB-C connector</li>
+</ul>
+
+<h2 id="schematic">Schematic</h2>
+
+<ul>
+  <li><a href="https://github.com/Xinyuan-LilyGO/ESP32_S2">LILYGO Github repository</a></li>
+</ul>
+
+<h2 id="setup">Setup</h2>
+
+<p>To flash this image use this command:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>esptool.py  <span class="nt">--chip</span> esp32s2 <span class="nt">--port</span> <span class="o">(</span>COMPORT<span class="o">)</span> <span class="se">\</span>
+  <span class="nt">--baud</span> 115200 write_flash 0x000 <span class="se">\</span>
+  adafruit-circuitpython-lilygo_ttgo_t8_s2-xx_XX-X.Y.Z.bin
+</code></pre></div></div>
+
+<p>After flashing change the DIP switches (the ones closer to the USB-C connector) to OTG mode, when reconnected you should see the <code class="language-plaintext highlighter-rouge">CIRCUITPY</code> drive.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>USB        OTG
+
+On         On
+o   o        o   o
+  o   o    o   o
+1 2 3 4    1 2 3 4
+</code></pre></div></div>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/4001080714038.html?spm=a2g0o.store_pc_groupList.8148356.43.2de336fcINy4O7">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_ttgo_t8_s2/</guid>
   </item><item>
     <title>TTGO T8 ESP32-S2 ST7789</title>
     <link>https://circuitpython.org/board/lilygo_ttgo_t8_s2_st7789/</link>
