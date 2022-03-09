@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 09 Mar 2022 10:59:07 -0500</lastBuildDate>
+<lastBuildDate>Wed, 09 Mar 2022 11:05:54 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -6010,62 +6010,6 @@ JTAG pads for advanced debugging access.</li>
     <category>CircuitPython</category>
     <pubDate>Sat, 13 Apr 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/kicksat-sprite/</guid>
-  </item><item>
-    <title>TTGO T8 ESP32-S2-WROOM</title>
-    <link>https://circuitpython.org/board/lilygo_ttgo_esp32_s2_wroom/</link>
-    <description><![CDATA[ 
-
-  <img srcset="/assets/images/boards/small/lilygo_ttgo_t8_esp32_s2_wroom.jpg 300w,
-               /assets/images/boards/large/lilygo_ttgo_t8_esp32_s2_wroom.jpg 700w"
-       sizes="(max-width: 1024px) 700px,
-              300px"
-       src="/assets/images/boards/original/lilygo_ttgo_t8_esp32_s2_wroom.jpg" alt="Image of Board" loading="lazy">
-
-<p>By LILYGO</p> <p>The LILYGO TTGO T8 ESP32-S2 ESP32-S2-WROOM is a basic development board.</p>
-
-<h2 id="features--specifications">Features &amp; Specifications</h2>
-
-<ul>
-  <li>ESP32-S2 240 MHz Tensilica processor</li>
-  <li>Wi-Fi 802.11 b/g/n 2.4 GHz</li>
-  <li>4 MB FLASH</li>
-  <li>8 MB PSRAM</li>
-  <li>reset and boot button</li>
-  <li>onboard 32.768 kHz crystal oscillator</li>
-  <li>USB-C connector</li>
-</ul>
-
-<h2 id="schematic">Schematic</h2>
-
-<ul>
-  <li><a href="https://github.com/Xinyuan-LilyGO/ESP32_S2">LILYGO Github repository</a></li>
-</ul>
-
-<h2 id="setup-instructions">Setup instructions</h2>
-
-<p>You need to install an UF2 Bootloader.</p>
-
-<p>After flashing the Bootloader change the DIP switches (the ones closer to the
-USB-C connector) to OTG mode, when reconnected you should see the drive and can
-copy over the CircuitPython UF2 file.</p>
-
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>USB        OTG
-
-On         On
-o   o        o   o
-  o   o    o   o
-1 2 3 4    1 2 3 4
-</code></pre></div></div>
-
-<h2 id="purchase">Purchase</h2>
-
-<ul>
-  <li><a href="https://www.aliexpress.com/item/4001080875553.html?spm=a2g0o.store_pc_groupList.8148356.17.4c0236fcsFJuWs">AlixExpress</a></li>
-</ul>
- ]]></description>
-    <category>CircuitPython</category>
-    <pubDate>Tue, 01 Mar 2022 00:00:00 -0500</pubDate>
-    <guid>https://circuitpython.org/board/lilygo_ttgo_esp32_s2_wroom/</guid>
   </item><item>
     <title>TTGO T8 ESP32-S2</title>
     <link>https://circuitpython.org/board/lilygo_ttgo_t8_s2/</link>
