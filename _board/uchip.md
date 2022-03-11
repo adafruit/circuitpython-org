@@ -47,6 +47,12 @@ You can program uChip using virtually any IDE, in many languages (CircuitPython 
 * Standards narrow-DIP footprint: 0.3” (7.62 mm) row spacing, 0.1” (2.54) pin spacing.
 * Pinout standard logic CMOS compatible: power and GND are on pin 16 and 8, so you can also emulate some 16 pin CMOS ICs (4000 and 74HC series)!  
 
+**Additional Notes:**
+
+* The uChip does not have an RGB LED.
+* The on-board LED is amber, rather than green.
+* The board's bootloader is BOSSA-compatible, but does not support UF2, so use a CircuitPython .bin file with BOSSA.  See [this page](https://learn.adafruit.com/welcome-to-circuitpython/non-uf2-installation) for the general process of using BOSSA.  A Windows .bat script that demonstrates exactly how to use the BOSSAC commandline tool with uChip to flash CircuitPython is available [here](https://github.com/mew-cx/circuitpython_stuff/tree/main/uChip); you may use it as a template and customize as needed.
+
 ## Purchase
 
 * [Itaca Innovation Store](https://shop.itaca-innovation.com)
