@@ -22,20 +22,21 @@ The display has native CircuitPython support.
 
 ## Features & Specifications
 
- - ESP32-S2 240 MHz Tensilica processor
- - Wi-Fi 802.11 b/g/n 2.4 GHz
- - 4 MB FLASH
- - 8 MB PSRAM
- - 1.14" ST7789 Display
- - microSD card slot
- - built in battery charging, 2-pin 1.25 mm JST connector
- - on/off power switch
- - reset and boot button
- - onboard 32.768 kHz crystal oscillator
- - USB-C connector
+* ESP32-S2 240 MHz Tensilica processor
+* Wi-Fi 802.11 b/g/n 2.4 GHz
+* 4 MB FLASH
+* 8 MB PSRAM
+* 1.14" ST7789 Display (Resolution: 240 x 135)
+* microSD card slot
+* built in battery charging, 2-pin 1.25 mm JST connector
+* on/off power switch
+* reset and boot button
+* onboard 32.768 kHz crystal oscillator
+* USB-C connector
 
 ## Schematic
-- [LILYGO Github repository](https://github.com/Xinyuan-LilyGO/LilyGo-T-Display-S2)
+
+* [LILYGO Github repository](https://github.com/Xinyuan-LilyGO/LilyGo-T-Display-S2)
 
 ## Board compatibility
 
@@ -59,3 +60,7 @@ o   o        o   o
   o   o    o   o
 1 2 3 4    1 2 3 4
 ```
+
+## Purchase
+
+* [AliExpress - LILYGO store](https://www.aliexpress.com/item/4001211703708.html)
