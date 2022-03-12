@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 11 Mar 2022 17:49:50 -0500</lastBuildDate>
+<lastBuildDate>Sat, 12 Mar 2022 05:04:01 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -1252,41 +1252,50 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
 
 <p>Designed for use as an embeddable system-on-module, all of the standard Feather I/O are also routed to castellated vias along the edge of the board. There are 34 additional castellated digital I/O connected to the FPGA and accessible via the SAMD51.</p>
 
-<p>Most digital I/O connections are routed through the FPGA to and from the primary and castellated I/O.  This provides the opportunity for developers to immediately capture inputs or drive outputs from the FPGA without requiring direct interaction with the SAMD controller.</p>
+<p>Most digital I/O connections are routed through the FPGA to and from the primary and castellated I/O. This provides the opportunity for developers to immediately capture inputs or drive outputs from the FPGA without requiring direct interaction with the SAMD controller.</p>
 
-<p>Evo M51 will support Alorium Technology-supplied pre-built FPGA images that target specific application use cases.  In addition, designers will have the option to develop their own custom logic blocks and integrate them into the top-level MAX 10 FPGA design.</p>
+<p>Evo M51 will support Alorium Technology-supplied pre-built FPGA images that target specific application use cases. In addition, designers will have the option to develop their own custom logic blocks and integrate them into the top-level MAX 10 FPGA design.</p>
 
-<p>Evo was specifically designed to support running CircuitPython.  It is also programmable with Arduino just like many other boards based upon the SAMD51.  So, writing and uploading firmware to the microcontroller is easy and familiar.</p>
+<p>Evo was specifically designed to support running CircuitPython. It is also programmable with Arduino just like many other boards based upon the SAMD51.</p>
 
-<p><strong>Features</strong></p>
+<h2 id="technical-details">Technical details</h2>
+
 <ul>
   <li>Atmel SAMD51 32-bit ARM Cortex-M4 Microcontroller</li>
   <li>Intel MAX 10 FPGA</li>
-  <li>512KB FLASH / 192KB RAM</li>
-  <li>2MB External QSPI FLASH</li>
+  <li>512 KB FLASH and 192 KB RAM</li>
+  <li>2 MB External QSPI FLASH</li>
   <li>6 Analog Inputs</li>
   <li>2 Analog Outputs</li>
   <li>55 Digital I/O
     <ul>
       <li>21 Through-Hole/Castellated</li>
-      <li>34 Additional Castellated-Only</li>
+      <li>34 Additional Castellated-Only (3.3 V inputs/ouput)</li>
     </ul>
   </li>
+  <li>1 NeoPixel (<code class="language-plaintext highlighter-rouge">D13</code>)</li>
   <li>STEMMA QT (QWIIC Compatible)</li>
   <li>Feather Footprint</li>
-  <li>0.9 in. x 2.2 in.</li>
+  <li>0.9” x 2.2” (23 mm x 56 mm)</li>
 </ul>
 
-<p><strong>Evo M51 CircuitPython Library Bundle</strong><br />
-In order to take full advantage of the additional I/O on Evo M51 using CircuitPython, we have created a custom library bundle that can be found on the Alorium Technology GitHub page:</p>
+<h2 id="misc">Misc</h2>
 
 <ul>
-  <li><a href="https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51">AloriumTech_CircuitPython_EvoM51</a></li>
-  <li>Download the .ZIP file here: <a href="https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51/archive/master.zip">Download .ZIP</a></li>
+  <li><a href="https://aloriumtech.com/evom51-quickstart/">Quickstart guide</a></li>
+  <li><a href="https://aloriumtech.com/documents/Evo_M51_PinMap.pdf">Pinout</a></li>
+  <li><a href="https://aloriumtech.com/documents/Evo_M51_Schematic.pdf">Schematics</a></li>
+</ul>
+
+<p>In order to take full advantage of the additional I/O on Evo M51 using CircuitPython, we have created a custom library bundle that can be found on the Alorium Technology GitHub page:</p>
+
+<ul>
+  <li><a href="https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51">Evo M51 CircuitPython Library Bundle</a></li>
+  <li>Download the <a href="https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51/archive/master.zip">.ZIP file</a></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
-<p>Add any links to purchase the board</p>
+
 <ul>
   <li><a href="https://www.aloriumtech.com/evom51-buy/">Alorium Technology</a></li>
 </ul>
