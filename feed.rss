@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sat, 12 Mar 2022 05:04:01 -0500</lastBuildDate>
+<lastBuildDate>Sat, 12 Mar 2022 22:04:02 -0500</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -11055,6 +11055,14 @@ uChip can operate also as an USB host. For this purpose, a built-in boost conver
   <li>4-layer board for improved noise performance.</li>
   <li>Standards narrow-DIP footprint: 0.3” (7.62 mm) row spacing, 0.1” (2.54) pin spacing.</li>
   <li>Pinout standard logic CMOS compatible: power and GND are on pin 16 and 8, so you can also emulate some 16 pin CMOS ICs (4000 and 74HC series)!</li>
+</ul>
+
+<p><strong>Additional Notes:</strong></p>
+
+<ul>
+  <li>The uChip does not have an RGB LED.</li>
+  <li>The on-board LED is amber, rather than green.</li>
+  <li>The board’s bootloader is BOSSA-compatible, but does not support UF2, so use a CircuitPython .bin file with BOSSA.  See <a href="https://learn.adafruit.com/welcome-to-circuitpython/non-uf2-installation">this page</a> for the general process of using BOSSA.  A Windows .bat script that demonstrates exactly how to use the BOSSAC commandline tool with uChip to flash CircuitPython is available <a href="https://github.com/mew-cx/circuitpython_stuff/tree/main/uChip">here</a>; you may use it as a template and customize as needed.</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
