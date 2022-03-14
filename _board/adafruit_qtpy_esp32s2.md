@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_qtpy_esp32s2"
-title: "Adafruit QT Py ESP32-S2 Download"
-name: "Adafruit QT Py ESP32-S2"
+title: "Adafruit QT Py ESP32-S2 (including uFL version) Download"
+name: "Adafruit QT Py ESP32-S2 (including uFL version)"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/5325"
 board_image: "adafruit_qtpy_esp32s2.jpg"
@@ -12,7 +12,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
-  - Wi-Fi
+  - Wi-Fi (two version, onboard antenna or uFL connector)
 ---
 
 What has your favorite Espressif WiFi microcontroller, comes with [our favorite connector - the STEMMA QT](http://adafruit.com/stemma), a chainable I2C port, and has lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy? What a cutie pie! Or is it... a **QT Py**? This diminutive dev board comes with one of our new favorite lil chips, the **ESP32-S2**! 
@@ -54,4 +54,5 @@ Runs Arduino like a dream, and CircuitPython projects are fantastically fun.
 
 ## Purchase
 
-* [Adafruit](https://www.adafruit.com/product/5325)
+* [Adafruit](https://www.adafruit.com/product/5325) build-in Wifi antenna
+* [Adafruit](https://www.adafruit.com/product/5348) uFL connector for external antenna
