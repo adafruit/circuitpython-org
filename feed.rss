@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 14 Mar 2022 06:04:09 -0400</lastBuildDate>
+<lastBuildDate>Mon, 14 Mar 2022 12:06:49 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7353,9 +7353,33 @@ Gaze upon these features:</p>
               300px"
        src="/assets/images/boards/original/nice_nano.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Nice Keyboards</p> <h2 id="learn-more">Learn More</h2>
+<p>By Nice Keyboards</p> <p>The nice!nano is a Pro Micro replacement development board offering BLE using the nRF52840 chip. It has the same pinout as the Pro Micro meaning it will work with almost any Pro Micro keyboard. The nice!nano also has a 3.7 V lithium battery charger on board as well as a software level switch to cut off power to LEDs, which can eat 1 mA each even when off.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
 <ul>
-  <li><a href="https://docs.nicekeyboards.com/#/nice!nano/">Nice Keyboards</a></li>
+  <li>Mid mount USB-C port making the board a 3.2 mm total thickness (thinner than a Pro Micro)</li>
+  <li>nRF52840 chip on board with 1 MB of Flash and 256 KB of RAM</li>
+  <li>Adafruit Bootloader loaded offering DFU flashing as well as flashing via UF2 storage</li>
+  <li>Programmable indicator (blue) LED as well as a charging indicator (orange) LED</li>
+  <li>Battery voltage reader to report battery percentage to main device</li>
+  <li>External power can be cut off using an on board MOSFET saving power from LEDs</li>
+  <li>5 extra GPIO pins (3 thru holes and 2 pads on the back) offering a total of 23 GPIO pins</li>
+  <li>3.3 V out of the VCC pin to power external features</li>
+  <li>32.768 kHz oscillator on board for real-time clock capabilities</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://docs.nicekeyboards.com/#/nice!nano/">Documentation</a></li>
+  <li><a href="https://docs.nicekeyboards.com/#/nice!nano/pinout_schematic">Pinout and schematic</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://nicekeyboards.com/nice-nano/#find-a-store">Nice! Resellers</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
