@@ -24,5 +24,3 @@ To get you started even more quickly, BDMICRO provides the Autodesk Eagle CAD pa
 
 Capable of running standalone, modular piggy back on application-specific boards, or breadboarded, the VINA-D21 is a great choice for your next project.
 
-## Purchase
-* [BDMICRO](https://bdmicro.com/products/vina-d21)
