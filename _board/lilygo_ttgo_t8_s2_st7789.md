@@ -38,12 +38,9 @@ The display has native CircuitPython support.
 
 * [LILYGO Github repository](https://github.com/Xinyuan-LilyGO/LilyGo-T-Display-S2)
 
-## Board compatibility
+## Setup
 
-This image is working on the TTGO T8 ESP32-S2 V1.1 as well.
-It's basically the same board as the ST7789 just without the display.
-
-To flash this image use this command:
+To flash this image, use this command:
 
 ```sh
 esptool.py  --chip esp32s2 --port (COMPORT) --baud 115200 write_flash 0x000 \
