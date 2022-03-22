@@ -14,7 +14,7 @@ features:
   - Breadboard-Friendly
 ---
 
-This is a development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840).This board has a 3.3V regulator, reset SW, general purpose SW and LED, and USB Type-C connector.
+This is a development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840). This board has a 3.3 V regulator, a reset switch (SW1), a general purpose switch (SW2), a LED (user-controllable) and a USB-C connector.
 
 ## Purchase
 * [Switch Science, Inc.](https://ssci.to/6454)
