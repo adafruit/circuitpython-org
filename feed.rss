@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 22 Mar 2022 06:08:15 -0400</lastBuildDate>
+<lastBuildDate>Tue, 22 Mar 2022 13:58:32 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -851,7 +851,7 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
     <pubDate>Wed, 26 May 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_qt2040_trinkey/</guid>
   </item><item>
-    <title>Adafruit QT Py ESP32-S2</title>
+    <title>Adafruit QT Py ESP32-S2 (including uFL version)</title>
     <link>https://circuitpython.org/board/adafruit_qtpy_esp32s2/</link>
     <description><![CDATA[ 
 
@@ -906,7 +906,8 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://www.adafruit.com/product/5325">Adafruit</a></li>
+  <li><a href="https://www.adafruit.com/product/5325">Adafruit</a> built-in Wifi antenna</li>
+  <li><a href="https://www.adafruit.com/product/5348">Adafruit</a> uFL connector for external antenna</li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -6148,12 +6149,9 @@ o   o        o   o
   <li><a href="https://github.com/Xinyuan-LilyGO/LilyGo-T-Display-S2">LILYGO Github repository</a></li>
 </ul>
 
-<h2 id="board-compatibility">Board compatibility</h2>
+<h2 id="setup">Setup</h2>
 
-<p>This image is working on the TTGO T8 ESP32-S2 V1.1 as well.
-It’s basically the same board as the ST7789 just without the display.</p>
-
-<p>To flash this image use this command:</p>
+<p>To flash this image, use this command:</p>
 
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>esptool.py  <span class="nt">--chip</span> esp32s2 <span class="nt">--port</span> <span class="o">(</span>COMPORT<span class="o">)</span> <span class="nt">--baud</span> 115200 write_flash 0x000 <span class="se">\</span>
   adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-X.Y.Z.bin
@@ -10271,7 +10269,7 @@ used for the circuity python build that includes this chip!</li>
               300px"
        src="/assets/images/boards/original/ssci_isp1807_dev_board.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Switch Science, Inc</p> <p>This is a development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840).This board has a 3.3V regulator, reset SW, general purpose SW and LED, and USB Type-C connector.</p>
+<p>By Switch Science, Inc</p> <p>This is a development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840). This board has a 3.3 V regulator, a reset switch (SW1), a general purpose switch (SW2), a LED (user-controllable) and a USB-C connector.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
@@ -10292,7 +10290,9 @@ used for the circuity python build that includes this chip!</li>
               300px"
        src="/assets/images/boards/original/ssci_isp1807_micro_board.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Switch Science, Inc</p> <p>This is a development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840).This board has a 3.3V regulator, reset SW, general purpose LED, and USB Type-C connector.This board is pin compatible with Pro Micro.</p>
+<p>By Switch Science, Inc</p> <p>This development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840). This board has a 3.3 V regulator, a reset switch, a general purpose LED, and USB-C connector.</p>
+
+<p>This board is pin compatible with the Arduino Pro Micro.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>

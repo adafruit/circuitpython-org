@@ -180,12 +180,9 @@
   <li><a href="https://github.com/Xinyuan-LilyGO/LilyGo-T-Display-S2">LILYGO Github repository</a></li>
 </ul>
 
-<h2 id="board-compatibility">Board compatibility</h2>
+<h2 id="setup">Setup</h2>
 
-<p>This image is working on the TTGO T8 ESP32-S2 V1.1 as well.
-It’s basically the same board as the ST7789 just without the display.</p>
-
-<p>To flash this image use this command:</p>
+<p>To flash this image, use this command:</p>
 
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>esptool.py  <span class="nt">--chip</span> esp32s2 <span class="nt">--port</span> <span class="o">(</span>COMPORT<span class="o">)</span> <span class="nt">--baud</span> 115200 write_flash 0x000 <span class="se">\</span>
   adafruit-circuitpython-lilygo_ttgo_t8_s2_st7789-xx_XX-X.Y.Z.bin
