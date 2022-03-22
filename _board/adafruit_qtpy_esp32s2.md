@@ -54,5 +54,5 @@ Runs Arduino like a dream, and CircuitPython projects are fantastically fun.
 
 ## Purchase
 
-* [Adafruit](https://www.adafruit.com/product/5325) build-in Wifi antenna
+* [Adafruit](https://www.adafruit.com/product/5325) built-in Wifi antenna
 * [Adafruit](https://www.adafruit.com/product/5348) uFL connector for external antenna
