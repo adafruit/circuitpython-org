@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 23 Mar 2022 11:45:36 -0400</lastBuildDate>
+<lastBuildDate>Wed, 23 Mar 2022 11:46:08 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7787,9 +7787,40 @@ The badge will be given to all attendees of the Open Hardware Summit!</p>
               300px"
        src="/assets/images/boards/original/pca10100.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Nordic Semiconductor</p> <p>The nRF52833 development kit from Nordic.</p>
+<p>By Nordic Semiconductor</p> <p>Nordic Semiconductor nRF52833 DK is a single-board development kit for the development of Bluetooth Low Energy, Bluetooth mesh, NFC, Thread, and Zigbee applications on nRF52833 SoC.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Arm® Cortex-M4 with FPU</li>
+  <li>Bluetooth 5.2 multiprotocol radio (2 Mbps, Long range, Advertising extensions, Channel Selection Algorithm #2, Bluetooth mesh, Direction Finding)</li>
+  <li>IEEE 802.15.4 radio support (Thread, Zigbee)</li>
+  <li>Arduino Rev3 compatible connector for use with third-party shields</li>
+  <li>All I/Os and interfaces available via connectors</li>
+  <li>Segger J-Link OB programming/debugging supported</li>
+  <li>Support for programming/debugging of external boards</li>
+  <li>USB interface direct to nRF52833 SoC</li>
+  <li>USB interface to power and program/debug</li>
+  <li>Connector for external NFC antenna (included)</li>
+  <li>SWF connector for direct RF measurements</li>
+  <li>Pins for power consumption measurements</li>
+  <li>4x user-programmable buttons</li>
+  <li>4x user-programmable LEDs</li>
+  <li>CR2032 coin-cell battery holder</li>
+  <li>1.7 V to 5.5 V supplied from battery, USB or external VDD</li>
+  <li>Integrated 2.4 GHz PCB antenna</li>
+  <li>50 Ω antenna connector type</li>
+</ul>
+
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li><a href="https://www.mouser.ch/datasheet/2/297/nRF52833_DK_PB_1.0-1815248.pdf">Datasheet</a></li>
+  <li><a href="https://www.mouser.ch/pdfDocs/Nordic_nRF52833-DK_UG.pdf">User guide</a></li>
+</ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.nordicsemi.com/About-us/BuyOnline?search_token=nRF52833-DK&amp;series_token=nRF52833">Price Comparison</a></li>
 </ul>
