@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 23 Mar 2022 06:09:13 -0400</lastBuildDate>
+<lastBuildDate>Wed, 23 Mar 2022 11:44:36 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -10397,24 +10397,30 @@ used for the circuity python build that includes this chip!</li>
 <p>By WeAct Studio</p> <p>In the F401 series, the chip is the cheapest, even cheaper than some F1, and crushed F1 on the main frequency, and has a floating-point arithmetic module, the IO port contains all the basic functions. Therefore, it is possible to provide a learning platform with a very high cost performance for beginners. In practical applications, it is not because the computing power is insufficient, and the IO port is incomplete and hinders development.</p>
 
 <h2 id="product-details">Product details</h2>
-<ol>
-  <li>STM32F411CEU6 100Mhz, 128KB RAM, 512KB ROM</li>
-  <li>25MHZ high speed crystal oscillator &amp; 32.768khz 6PF low speed crystal oscillator</li>
+
+<ul>
+  <li>STM32F411CEU6 100 MHz, 128 KB RAM, 512 KB ROM</li>
+  <li>25 MHz high speed crystal oscillator &amp; 32.768 KHz 6PF low speed crystal oscillator</li>
   <li>Gold sinking process is adopted, lead-free process is used, and the needle arrangement is gold-plated, which is more environmentally friendly</li>
   <li>Flash pads are reserved to provide USBDisk&amp;&amp;FATFFS routines</li>
   <li>Support for MicroPython programming with available MicroPython firmware</li>
-  <li>Support for Arduino programming development</li>
-  <li>Support C language programming development</li>
+  <li>Support for Arduino and C programming development</li>
   <li>Version V3.0, there are 3 buttons, reset key, BOOT0 key, user key</li>
   <li>CMSIS-DAP firmware is available</li>
   <li>The use of the latest original ST chip, high quality crystal vibration</li>
-</ol>
+</ul>
 
 <h2 id="learn-more">Learn More</h2>
+
 <ul>
   <li><a href="https://github.com/WeActTC/MiniF4-STM32F4x1">Github Docs</a></li>
-  <li><a href="https://www.aliexpress.com/item/1005001456186625.html">Aliexpress</a></li>
   <li><a href="https://github.com/stm32duino/Arduino_Core_STM32">stm32duino - Offical Arduino Support</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005001456186625.html">Aliexpress</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
