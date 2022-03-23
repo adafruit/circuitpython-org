@@ -1218,7 +1218,7 @@ class LibraryValidator:
             repo_dir = pathlib.Path(tempdir) / repo["name"]
             try:
                 if not repo_dir.exists():
-                    git.clone("--depth=1", repo["git_url"], repo_dir)
+                    git.clone("--depth=1", repo["clone_url"], repo_dir)
             except sh.ErrorReturnCode as err:
                 self.output_file_data.append(
                     f"Failed to clone repo for linting: {repo['full_name']}\n {err.stderr}"
