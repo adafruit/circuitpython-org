@@ -28,10 +28,10 @@ jobs:
       env:
         GITHUB_CONTEXT: ${{ toJson(github) }}
       run: echo "$GITHUB_CONTEXT"
-    - name: Set up Python 3.6
-      uses: actions/setup-python@v1
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v2
       with:
-        python-version: 3.6
+        python-version: "3.x"
     - name: Versions
       run: |
         python3 --version
@@ -41,6 +41,9 @@ jobs:
     - name: Install deps
       run: |
         pip install -r adabot/requirements.txt
+    - name: Pip install pylint
+      run: |
+        pip install --force-reinstall pylint==2.7.1
     - name: Make Directory For Report Files
       run: mkdir -p bin/adabot
     - name: Run adabot.update_cp_org_libraries
