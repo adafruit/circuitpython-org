@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 24 Mar 2022 06:09:05 -0400</lastBuildDate>
+<lastBuildDate>Thu, 24 Mar 2022 13:49:47 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7758,9 +7758,33 @@ The badge will be given to all attendees of the Open Hardware Summit!</p>
               300px"
        src="/assets/images/boards/original/nRF52840_dongle.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Nordic Semiconductor</p> <p>The nRF52840 dongle from Nordic Semiconductor is a small, low-cost USB dongle for Bluetooth Low Energy, Bluetooth mesh, Thread, ZigBee, 802.15.4, ANT, and 2.4 GHz proprietary applications using the nRF52840 SoC. The dongle has been designed to be used as a wireless HW device together with nRF Connect for Desktop.</p>
+<p>By Nordic Semiconductor</p> <p>The nRF52840 dongle from Nordic Semiconductor is a small, low-cost USB dongle for Bluetooth Low Energy, Bluetooth mesh, Thread, ZigBee, 802.15.4, ANT, and 2.4 GHz proprietary applications using the nRF52840 SoC. The dongle has been designed to be used as a wireless hardware device together with nRF Connect for Desktop.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Bluetooth 5.2 ready multiprotocol radio (2 Mbps, Long Range, Advertising Extensions, Channel Selection Algorithm #2)</li>
+  <li>IEEE 802.15.4 radio support (Thread, Zigbee)</li>
+  <li>Arm Cortex-M4 with floating point support</li>
+  <li>DSP instruction set</li>
+  <li>Arm CryptoCell CC310 cryptographic accelerator</li>
+  <li>15 GPIO available via edge castellation</li>
+  <li>USB interface direct to nRF52840 SoC</li>
+  <li>Integrated 2.4 GHz PCB antenna</li>
+  <li>1 user-programmable button</li>
+  <li>1 user-programmable RGB LED</li>
+  <li>1 user-programmable LED</li>
+  <li>1.7-5.5 V operation from USB or external</li>
+</ul>
+
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li>(Getting started guide)[https://infocenter.nordicsemi.com/index.jsp?topic=/ug_nrf52840_dongle/UG/nrf52840_Dongle/getting_started.html]</li>
+</ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://www.nordicsemi.com/About-us/BuyOnline?search_token=nRF52840DONGLE">Price Comparison</a></li>
   <li><a href="https://www.semiconductorstore.com/cart/pc/viewPrd.asp?idproduct=94964&amp;utm_source=OemSecrets&amp;utm_medium=compref&amp;utm_campaign=OemSecrets&amp;utm_term=NRF52840-DONGLE">Symmetry Electronics</a></li>
