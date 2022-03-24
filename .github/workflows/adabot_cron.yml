@@ -41,6 +41,9 @@ jobs:
     - name: Install deps
       run: |
         pip install -r adabot/requirements.txt
+    - name: Pip install pylint
+      run: |
+        pip install --force-reinstall pylint==2.7.1
     - name: Make Directory For Report Files
       run: mkdir -p bin/adabot
     - name: Run adabot.update_cp_org_libraries
