@@ -38,7 +38,7 @@ The Spresense extension board is a board which extends the interfaces compared t
   * Power LED (Blue)
 * Micro USB serial port
 
-The Spresense extension board	has a 3.5 mm headphone jack, a micro SD card slot, an extra Micro USB port and multiple microphone pins.
+The Spresense extension board has a 3.5 mm headphone jack, a micro SD card slot, an extra Micro USB port and multiple microphone pins.
 
 ## Misc
 
