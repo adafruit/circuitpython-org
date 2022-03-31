@@ -6,7 +6,7 @@ name: "TTGO T8 ESP32-S2-WROOM"
 manufacturer: "LILYGO"
 board_url: "http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1320&FId=t3:50063:3"
 board_image: "lilygo_ttgo_t8_esp32_s2_wroom.jpg"
-bootloader_id: "lilygo_ttgo_t8_s2_st7789"
+bootloader_id: "lilygo_ttgo_t8_s2_wroom"
 date_added: 2022-3-1
 downloads_display: true
 family: esp32s2
