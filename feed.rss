@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 31 Mar 2022 06:08:44 -0400</lastBuildDate>
+<lastBuildDate>Thu, 31 Mar 2022 11:02:41 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7983,6 +7983,7 @@ selection menu will not work with the new version of CircuitPython.</p>
 <p>By Pimoroni</p> <p>A hackable, programmable badge(r) with monochrome E Ink® display, powered by Raspberry Pi RP2040. It has a quintet of buttons (one for each claw), a slot so you can clip it onto a lanyard and a battery connector to keep things portable. You can even connect it up to Qwiic and STEMMA QT breakouts!</p>
 
 <h2 id="features">Features</h2>
+
 <ul>
   <li>2.9” black and white E Ink® display (296 x 128 pixels)</li>
   <li>Powered by RP2040 (Dual Arm Cortex M0+ running at up to 133Mhz with 264kB of SRAM)</li>
@@ -7997,11 +7998,20 @@ selection menu will not work with the new version of CircuitPython.</p>
 </ul>
 
 <h2 id="about-rp2040">About RP2040</h2>
+
 <p>Raspberry Pi’s RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
 
 <p>One very exciting feature of RP2040 is the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.</p>
 
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li><a href="https://github.com/pimoroni/pico-circuitpython-examples/tree/main/badger2040">Example code</a></li>
+  <li><a href="https://cdn.shopify.com/s/files/1/0174/1800/files/badger_2040_schematic.pdf?v=1645702148">Schematics</a></li>
+</ul>
+
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://shop.pimoroni.com/products/badger-2040">Pimoroni</a></li>
 </ul>
@@ -8267,6 +8277,7 @@ selection menu will not work with the new version of CircuitPython.</p>
 <p>By Pimoroni</p> <p>Swathe everything in rainbows with this all-in-one, USB-C powered controller for WS2812/Neopixel and APA102/Dotstar addressable LED strips, with RP2040 in the driving seat - just perfect for whipping up some custom mood lighting.</p>
 
 <h2 id="features">Features</h2>
+
 <ul>
   <li>Powered by RP2040 (Dual Arm Cortex M0+ running at up to 133Mhz with 264kB of SRAM)</li>
   <li>2MB of QSPI flash supporting XiP</li>
@@ -8280,11 +8291,20 @@ selection menu will not work with the new version of CircuitPython.</p>
 </ul>
 
 <h2 id="about-the-rp2040">About the RP2040</h2>
+
 <p>Raspberry Pi’s RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
 
 <p>One very exciting feature of RP2040 is the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.</p>
 
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li><a href="https://github.com/pimoroni/pico-circuitpython-examples/tree/main/plasma2040">Example code</a></li>
+  <li><a href="https://cdn.shopify.com/s/files/1/0174/1800/files/plasma2040_schematic.pdf?v=1629994431">Schematics</a></li>
+</ul>
+
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://shop.pimoroni.com/products/plasma-2040">Pimoroni</a></li>
 </ul>
