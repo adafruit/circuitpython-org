@@ -1,12 +1,12 @@
 ---
 layout: download
-board_id: "espressif_esp32s2_devkitc_1_n4r2"
-title: "ESP32-S2-DevKitC-1-N4R2 Download"
-name: "ESP32-S2-DevKitC-1-N4R2"
+board_id: "espressif_esp32s2_devkitc_1_n4"
+title: "ESP32-S2-DevKitC-1-N4 Download"
+name: "ESP32-S2-DevKitC-1-N4"
 manufacturer: "Espressif"
 board_url: ""
-board_image: "espressif_esp32s2_devkitc_1_n4r2.jpg"
-date_added: 2022-2-14
+board_image: "espressif_esp32s2_devkitc_1_n4.jpg"
+date_added: 2022-4-1
 family: esp32s2
 features:
   - Wi-Fi
