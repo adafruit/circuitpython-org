@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 01 Apr 2022 11:36:09 -0400</lastBuildDate>
+<lastBuildDate>Fri, 01 Apr 2022 23:06:01 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -266,6 +266,28 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_esp32s2_tft/</guid>
+  </item><item>
+    <title>Feather ESP32-S3 No PSRAM</title>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32s3_nopsram/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s3_nopsram.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32s3_nopsram.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_feather_esp32s3_nopsram.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>Coming Soon!</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://youtu.be/XwzDeaxlmwM?t=33">YouTube</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32s3_nopsram/</guid>
   </item><item>
     <title>Feather RP2040</title>
     <link>https://circuitpython.org/board/adafruit_feather_rp2040/</link>
@@ -850,6 +872,69 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
     <category>CircuitPython</category>
     <pubDate>Wed, 26 May 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_qt2040_trinkey/</guid>
+  </item><item>
+    <title>Adafruit QT Py ESP32-C3</title>
+    <link>https://circuitpython.org/board/adafruit_qtpy_esp32c3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_qtpy_esp32c3.jpg 300w,
+               /assets/images/boards/large/adafruit_qtpy_esp32c3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_qtpy_esp32c3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>What’s life without a little RISC? This miniature dev board is perfect for small projects: it comes with <a href="http://adafruit.com/stemma">our favorite connector - the STEMMA QT</a>, a chainable I2C port, WiFi, Bluetooth LE, and plenty of FLASH and RAM memory for many IoT projects. What a cutie pie! Or is it… a <strong>QT Py</strong>? This diminutive dev board comes with a RISC-V IoT microcontroller, the <strong>ESP32-C3</strong>!</p>
+
+<p>ESP32-C3 is a low-cost microcontroller from Espressif that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE). It has built-in USB-to-Serial, but <em>not</em> native USB - it cannot act as a keyboard or disk drive. The chip used here has 4MB of Flash memory, 400 KB of SRAM and can easily handle TLS connections.</p>
+
+<p>The ESP32-C3 integrates a rich set of peripherals, ranging from UART, I2C, I2S, remote control peripheral, LED PWM controller, general DMA controller, TWAI controller, USB Serial/JTAG controller, temperature sensor, and ADC. It also includes SPI, Dual SPI, and Quad SPI interfaces. There is no DAC or native capacitive touch.</p>
+
+<p>There’s a minimum number of pins on this chip, it’s specifically designed to be low cost and for simpler projects than ESP32-Sx or ESP32 classics with their large number of GPIO. Think of it more as an intended replacement to the ESP8266 than to the ESP32!</p>
+
+<p>With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<p><strong>Please note:</strong> The C3 uses <strong>RISC V</strong> as a core, not Tensilica, and has Bluetooth LE (not classic!). The BLE core supports BT version 5 including Mesh</p>
+
+<p><a href="https://www.adafruit.com/?q=qt+oled&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">OLEDs</a>! <a href="https://www.adafruit.com/?q=qt+imu&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Inertial Measurement Units</a>! <a href="https://www.adafruit.com/?q=qt+sensor&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Sensors a-plenty</a>. All plug-and-play thanks to the innovative chainable design: <a href="https://www.sparkfun.com/qwiic">SparkFun Qwiic</a>-compatible <a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt">STEMMA QT</a> connectors for the I2C bus so you don’t even need to solder! Just plug in a compatible cable and attach it to your MCU of choice, and you’re ready to load up some software and measure some light. <a href="https://www.adafruit.com/product/4528">Seeed Grove I2C boards</a> will also work with this adapter cable.</p>
+
+<p>Pinout and shape are <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/">Seeed Xiao</a> compatible, with castellated pads. In addition to the QT connector, we also added an <strong>RGB NeoPixel</strong>, <strong>a reset button</strong> (great for restarting your program or entering the ROM bootloader), and a button on GPIO 9 for entering the ROM bootloader or for user input</p>
+
+<p>Runs <a href="https://github.com/espressif/arduino-esp32">Arduino with Espressif’s ESP32 core</a> and <a href="https://micropython.org/download/esp32c3-usb/">you can also run MicroPython on this chipset</a>.</p>
+
+<ul>
+  <li>Same size, form-factor, and pin-out as Seeed Xiao</li>
+  <li><strong>USB Type C connector</strong> - <a href="https://www.adafruit.com/product/4299">If you have only Micro B cables, this adapter will come in handy</a>!</li>
+  <li><strong>ESP32-C3 32­-bit RISC­-V single­ core processor with 4MB of Flash memory, 400 KB of SRAM</strong></li>
+  <li>Built in USB-to-Serial inside the chip, which can also be used for JTAG programming. This peripheral is not native serial, so not for USB HID, MIDI or MSC: it does reduce cost since a separate converter isnt needed</li>
+  <li>Can be used with <strong>Arduino IDE</strong> or <strong>MicroPython</strong></li>
+  <li><strong>Built-in RGB NeoPixel LED</strong> note that due the small number of GPIO, we could not add a NeoPixel power pin</li>
+  <li>Battery input pads on underside with diode protection for external battery packs up to 6V input</li>
+  <li>13 GPIO pins:
+    <ul>
+      <li>11 on breakout pads</li>
+      <li>5 x 12-bit analog inputs on A0 thru A3 and SDA pin</li>
+      <li>PWM outputs on any pin</li>
+      <li>I2C port, on the breakout pads shared with the STEMMA QT plug-n-play connector</li>
+      <li>Hardware UART which is also the hardware serial debug port</li>
+      <li>Hardware SPI</li>
+      <li>Hardware I2S on any pins</li>
+    </ul>
+  </li>
+  <li>3.3V regulator with <a href="https://www.diodes.com/assets/Datasheets/AP2112.pdf"><strong>600mA peak output</strong></a></li>
+  <li>Light sleep at 500uA<strong>*,*</strong> deep sleep at ~300uA. Lower power deep-sleep is not possible because we don’t have an extra GPIO for disabling the NeoPixel power and we didn’t want to share that with any of the IO pads. An engineering trade-off!</li>
+  <li><strong>Reset switch</strong> for starting your project code over, boot 9 button for entering bootloader mode</li>
+  <li><strong>Really really small</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5405">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_qtpy_esp32c3/</guid>
   </item><item>
     <title>Adafruit QT Py ESP32-S2 (including uFL version)</title>
     <link>https://circuitpython.org/board/adafruit_qtpy_esp32s2/</link>
@@ -2030,6 +2115,55 @@ With native USB it’s even ready to join the CircuitPython party.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 02 Apr 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/catwan_usbstick/</guid>
+  </item><item>
+    <title>Challenger 840 BLE</title>
+    <link>https://circuitpython.org/board/challenger_840/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/challenger_840.jpg 300w,
+               /assets/images/boards/large/challenger_840.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/challenger_840.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Invector Labs</p> <p>The Challenger 840 BLE board is an Arduino/Circuitpython compatible Adafruit Feather format micro controller board packed with loads of functionality for your projects that require low power consumption and a BLE connection.</p>
+
+<p>The main controller of this board is the Nordic Semiconductor nRF52840 with 1MByte of FLASH memory and 256KByte of SRAM. The nRF52840 SoC is the most advanced member of the nRF52 Series. It meets the challenges of sophisticated applications that need protocol concurrency and a rich and varied set of peripherals and features. It offers generous memory availability for both Flash and RAM, which are prerequisites for such demanding applications.</p>
+
+<p>The nRF52840 is fully multiprotocol capable with full protocol concurrency. It has protocol support for Bluetooth LE, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary stacks.</p>
+
+<p>In the recent years we have noticed that we are seeing more and more USB Type C cable laying around the lab due to the fact that all new phones and accessories use them. As of yet we haven’t seen any shortage of micro USB cables but we are not getting any new ones any more and old ones do break occasionally. So we decided to go for a USB Type C connector for this board. A bonus of this is that they are quite bit more durable and you don’t have to fiddle with the cable before plugging it in.</p>
+
+<p>The board is packed with hardware features, here’s a short list of its most prominent ones.</p>
+
+<p>– Sturdy USB Type C connector
+– nRF52840 @ 64MHz
+– 1MB FLASH + 256KB RAM
+– 2 MByte of NOR FLASH memory
+– 32.768 KHz crystal for clock generation &amp; RTC
+– 3.3V regulator with 600mA peak current output, most of which is reserved for the board itself
+– USB native support, comes with UF2 USB bootloader
+– 20 GPIO pins
+– Hardware Serial, hardware I2C, hardware SPI support
+– PWM outputs on all pins
+– 6 x 12-bit analog inputs
+– Built in 250mA lipoly charger with charging status indicator LED
+– Pin #13 red LED for general purpose blinking
+– Power/enable pin
+– 4 mounting holes
+– Reset button
+– Neopixel LED that indicates board status but that can be used by the programmer</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://ilabs.se/product/challenger-840-ble/">Invector Labs</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/challenger_840/</guid>
   </item><item>
     <title>Challenger NB RP2040 WiFi</title>
     <link>https://circuitpython.org/board/challenger_nb_rp2040_wifi/</link>
@@ -3420,53 +3554,48 @@ for an SD card slot, which makes it a complete and versatile development board.<
     <pubDate>Mon, 14 Feb 2022 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32c3_devkitm_1_n4/</guid>
   </item><item>
-    <title>ESP32-S2-DevKitC-1-N4R2</title>
-    <link>https://circuitpython.org/board/espressif_esp32s2_devkitc_1_n4r2/</link>
+    <title>ESP32-S2-DevKitC-1-N4</title>
+    <link>https://circuitpython.org/board/espressif_esp32s2_devkitc_1_n4/</link>
     <description><![CDATA[ 
 
-  <img srcset="/assets/images/boards/small/espressif_esp32s2-devkitc-1.jpg 300w,
-               /assets/images/boards/large/espressif_esp32s2-devkitc-1.jpg 700w"
+  <img srcset="/assets/images/boards/small/espressif_esp32s2_devkitc_1_n4.jpg 300w,
+               /assets/images/boards/large/espressif_esp32s2_devkitc_1_n4.jpg 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="/assets/images/boards/original/espressif_esp32s2-devkitc-1.jpg" alt="Image of Board" loading="lazy">
+       src="/assets/images/boards/original/espressif_esp32s2_devkitc_1_n4.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Espressif</p> <p>The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. <strong>This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 8MB Flash and no PSRAM.</strong></p>
+<p>By Espressif</p> <p>ESP32-S2-DevKitC-1 is an entry-level development board based on ESP32-S2-SOLO (on-board PCB antenna) or ESP32-S2-SOLO-U (external antenna connector), which are two general-purpose modules with a 4 MB SPI flash. This board integrates complete Wi-Fi functions.</p>
 
-<p><strong>Please note:</strong> The S<strong>3</strong> is <em>similar</em> to the ESP32-S<strong>2</strong> - but adds a dual core and Bluetooth LE (not classic!) However, there is minimal support for this dev board. For example, as of the time of this writing, there is no Arduino or CircuitPython support - only ESP IDF! Please purchase if you’re doing development with the S3, and OK with stuff not working 100% out of the box.</p>
-
-<p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there’s a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.</p>
-
-<p>At the core of the module is an ESP32-S3FN8, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds.</p>
-
-<p>ESP32-S3FN8 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/Jtag, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1, i.e. CAN Specification 2.0), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p>
-
-<p>There are three mutually exclusive ways to provide power to the board:</p>
-
-<ul>
-  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>
-  <li>5V and G (GND) pins</li>
-  <li>3v3 and G (GND) pins</li>
-</ul>
-
-<p><strong>Components:</strong></p>
-
-<ul>
-  <li><strong>ESP32-S3-WROOM-1</strong>: ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-WROOM-1 comes with a PCB antenna.</li>
-  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>
-  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks">Header Block</a>.</li>
-  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>
-  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>
-  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>
-  <li><strong>Reset Button</strong></li>
-  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>
-  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO48.</li>
-  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
-</ul>
+<p>Most of the I/O pins are broken out to the pin headers on both sides for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S2-DevKitC-1 on a breadboard.</p>
 
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://www.adafruit.com/product/5364">Adafruit</a></li>
+  <li><a href="https://www.aliexpress.com/item/1005003578116249.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32s2_devkitc_1_n4/</guid>
+  </item><item>
+    <title>ESP32-S2-DevKitC-1-N4R2</title>
+    <link>https://circuitpython.org/board/espressif_esp32s2_devkitc_1_n4r2/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/espressif_esp32s2_devkitc_1_n4r2.jpg 300w,
+               /assets/images/boards/large/espressif_esp32s2_devkitc_1_n4r2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/espressif_esp32s2_devkitc_1_n4r2.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Espressif</p> <p>ESP32-S2-DevKitC-1 is an entry-level development board based on ESP32-S2-SOLO (on-board PCB antenna) or ESP32-S2-SOLO-U (external antenna connector), which are two general-purpose modules with a 4 MB SPI flash. This board integrates complete Wi-Fi functions.</p>
+
+<p>Most of the I/O pins are broken out to the pin headers on both sides for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S2-DevKitC-1 on a breadboard.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005003578116249.html">AliExpress</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -3676,6 +3805,59 @@ for an SD card slot, which makes it a complete and versatile development board.<
     <category>CircuitPython</category>
     <pubDate>Sat, 15 Jan 2022 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r8/</guid>
+  </item><item>
+    <title>ESP32-S3-DevKitM-1-N8</title>
+    <link>https://circuitpython.org/board/espressif_esp32s3_devkitm_1_n8/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/espressif_esp32s3_devkitm_1_n8.jpg 300w,
+               /assets/images/boards/large/espressif_esp32s3_devkitm_1_n8.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/espressif_esp32s3_devkitm_1_n8.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Espressif</p> <p>The ESP32-S3-DevKitM-1 is an entry-level development board equipped with the ESP32-S3-MINI-1, a powerful, generic Wi-Fi + Bluetooth LE MCU module that features a rich set of peripherals, yet an optimized size. It’s an ideal choice for a wide variety of application scenarios related to the Internet of Things (IoT), such as embedded systems, smart homes, wearable electronics, etc. ESP32-S3-MINI-1 comes with a PCB antenna. <strong>This version is equipped with the ESP32-S3-MINI-1 with 8MB Flash.</strong></p>
+
+<p><strong>Please note:</strong> The S<strong>3</strong> is <em>similar</em> to the ESP32-S<strong>2</strong> - but adds a dual core and Bluetooth LE (not classic!) However, there is minimal support for this dev board. For example, as of the time of this writing, there is no Arduino or CircuitPython support - only ESP IDF! Please purchase if you’re doing development with the S3, and OK with stuff not working 100% out of the box.</p>
+
+<p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitM-1 on a breadboard.</p>
+
+<p>At the core of the module is an ESP32-S3FN8, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds.</p>
+
+<p>ESP32-S3FN8 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/Jtag, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1, i.e. CAN Specification 2.0), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p>
+
+<p>There are three mutually exclusive ways to provide power to the board:</p>
+
+<ul>
+  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>
+  <li>5V and G (GND) pins</li>
+  <li>3v3 and G (GND) pins</li>
+</ul>
+
+<p><strong>Components:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S3-Mini-1</strong>: ESP32-S3-Mini-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-Mini-1 comes with a PCB antenna.</li>
+  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>
+  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks">Header Block</a>.</li>
+  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>
+  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>
+  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>
+  <li><strong>Reset Button</strong></li>
+  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>
+  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO48.</li>
+  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5311">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32s3_devkitm_1_n8/</guid>
   </item><item>
     <title>ESP32-S2 Human Machine Interface Dev Kit</title>
     <link>https://circuitpython.org/board/espressif_hmi_devkit_1/</link>
@@ -6067,6 +6249,29 @@ o   o        o   o
     <category>CircuitPython</category>
     <pubDate>Tue, 01 Mar 2022 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/lilygo_ttgo_esp32_s2_wroom/</guid>
+  </item><item>
+    <title>TTGO T-01C3 ESP32-C3</title>
+    <link>https://circuitpython.org/board/lilygo_ttgo_t-01c3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/lilygo_ttgo_t-01c3.jpg 300w,
+               /assets/images/boards/large/lilygo_ttgo_t-01c3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/lilygo_ttgo_t-01c3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By LILYGO</p> <p>ESP32-C3 is a safe, stable, low-power, low-cost IoT chip, equipped with a RISC-V 32-bit single-core processor supporting 2.4 GHz WiFi and Bluetooth 5 (LE).</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005003538055090.html">AliExpress</a></li>
+  <li><a href="https://usa.banggood.com/LILYGO-TTGO-T-01C3-ESP32-C3-WIFI-Bluetooth-5_0-IPEX-Antenna-For-ESP-01-With-External-Antenna-Base-p-1924872.html">Banggood</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_ttgo_t-01c3/</guid>
   </item><item>
     <title>TTGO T8 ESP32-S2</title>
     <link>https://circuitpython.org/board/lilygo_ttgo_t8_s2/</link>
@@ -13321,6 +13526,35 @@ Enclosure</li>
       <category>Blinka</category>
       <pubDate>Wed, 25 Mar 2020 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/jetson_xavier_nx/</guid>
+    </item>
+
+    <item>
+      <title>Khadas VIM3</title>
+      <link>https://circuitpython.org/blinka/khadas_vim3/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/khadas_vim3.jpg 300w,
+               /assets/images/boards/large/khadas_vim3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/khadas_vim3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Khadas</p> <ul>
+  <li>High Performance: Amlogic A311D - x4 2.2Ghz Cortex A73, x2 1.8Ghz Cortex A53 12nm SoC fabrication process for low heat 2T2R AC Wi-Fi with RSDB Features Bluetooth 5.0 USB 3.0 Available Gigabit Ethernet with WOL support LPDDR4/X USB-C PD for heavy applications</li>
+  <li>Neural Network Accelerator: NPU: Supports a maximum frequency of 800MHz at 5.0 TOPS INT8 inference up to 1536 MAC Internal L2 cache (512KB) and system workspace buffer (1MB) Supports all major deep learning frameworks including TensorFlow and Caffe</li>
+  <li>Maker Friendly: Stackable Design Programmable MCU 3 Programmable LEDs (Blue, Red and White) XPWR for external Power button Onboard SPI Flash Khadas TST Khadas KBI</li>
+  <li>Business Applications Dual independent displays with GSensor H.264 / H.265 Encoding Supports multi-video decoding up to 4Kx2K@60fps+1x1080P@60fps VIN Power Input</li>
+  <li>Rich IO: 40 Pin GPIO Header (USB, I2C, I2S, UART, ADC etc) 8-ch I2S for Microphone Array application (over M.2 Connector) MIPI-DSI MIPI-CSI Designed with GPIO Extender Chip</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3NAK98d">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/khadas_vim3/</guid>
     </item>
 
     <item>
