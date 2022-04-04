@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "espressif_esp32s3_usb_otg_n8"
-title: "ESP32-S3 N8 Download"
-name: "ESP32-S3-DevKitM-1-N8"
+title: "ESP32-S3-USB-OTG-N8 Download"
+name: "ESP32-S3-USB-OTG-N8"
 manufacturer: "Espressif"
 board_url: "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32s3/esp32-s3-usb-otg/user_guide.html"
 board_image: "espressif_esp32s3_usb_otg_n8.jpg"
