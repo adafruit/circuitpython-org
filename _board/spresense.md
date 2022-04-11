@@ -33,7 +33,7 @@ The Spresense extension board is a board which extends the interfaces compared t
 * GNSS (GPS) antenna
 * Pins and LEDs
   * Multiple GPIO (UART, SPI, I2C, I2S)
-  * 2 ADC channels
+  * 2 ADC channels (6 additional ADC channels are located on the extension board)
   * 4 Application LED (Green)
   * Power LED (Blue)
 * Micro USB serial port
