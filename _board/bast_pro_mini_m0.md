@@ -25,7 +25,7 @@ The Bast Pro Mini M0 features a powerful SAMD21E chip, an ARM Cortex-M0 based mi
 * 10 PWM Digital I/O Pins
 * 6 Analog Input Pins
 * DC Current per I/O Pin 10 mA
-* 13 LED (builtin)
+* 1 built-in LED (`GPIO13`) 
 * Dimensions: 32 mm x 18 mm
 * Weight 3 g
 
