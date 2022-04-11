@@ -19,8 +19,7 @@ The Bast Pro Mini M0 features a powerful SAMD21E chip, an ARM Cortex-M0 based mi
 * Microcontroller Arm Cortex-M0 ATSAMD21E18A with 48 MHz
 * Flash Memory 256 KB
 * SRAM Memory 32 KB
-* Operating Voltage	1.62 V – 3.63 V
-* Input Voltage 5 V (recommended)
+* Operating Voltage 3.5 – 6 V
 * 12 Digital I/O Pins
 * 10 PWM Digital I/O Pins
 * 6 Analog Input Pins
