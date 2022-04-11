@@ -12,7 +12,7 @@ features:
   - Breadboard-Friendly
 ---
 
-The Bast Pro Mini M0 features a powerful SAMD21E chip, an ARM Cortex-M0 based microcontroller with low power consumption and high performance, makes it ideal for endless applications.
+The Bast Pro Mini M0 features a powerful SAMD21E chip, an ARM Cortex-M0 based microcontroller with low power consumption and high performance, making it ideal for endless applications.
 
 ## Technical details
 
