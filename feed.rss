@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 22 Apr 2022 06:09:07 -0400</lastBuildDate>
+<lastBuildDate>Fri, 22 Apr 2022 13:25:45 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -10710,9 +10710,42 @@ used for the circuity python build that includes this chip!</li>
 
 <p>The main board uses a processor developed by Sony for IoT and sensing applications. The main board can be operated alone or with the extension board.</p>
 
-<p>The Spresense uses Sony’s new chipset on the main board: * The CXD5602 System on Chip (SoC) multi core processor with GNSS * The CXD5247 power management and audio analog interface chip</p>
+<p>The Spresense uses Sony’s new chipset on the main board:</p>
+
+<ul>
+  <li>The CXD5602 System on Chip (SoC) multi core processor with GNSS</li>
+  <li>The CXD5247 power management and audio analog interface chip</li>
+</ul>
 
 <p>The Spresense extension board is a board which extends the interfaces compared to the Spresense main board. The Spresense main board and the Spresense extension board are connected by a Board-to-Board (B-2-B) connector. The Spresense extension board has Arduino Uno pin compatible shape and pin socket locations. However, there are some differences compared to the Arduino Uno.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>CXD5602 Processor (Arm Cortex-M4F 156 MHz)</li>
+  <li>8 MB Flash memory, SRAM 1.5 MB</li>
+  <li>PCB with small footprint</li>
+  <li>Dedicated camera connector</li>
+  <li>GNSS (GPS) antenna</li>
+  <li>Pins and LEDs
+    <ul>
+      <li>Multiple GPIO (UART, SPI, I2C, I2S)</li>
+      <li>6 ADC channels</li>
+      <li>4 Application LED (Green)</li>
+      <li>Power LED (Blue)</li>
+    </ul>
+  </li>
+  <li>Micro USB serial port</li>
+</ul>
+
+<p>The Spresense extension board has a 3.5 mm headphone jack, a micro SD card slot, an extra Micro USB port and multiple microphone pins.</p>
+
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li><a href="https://developer.sony.com/develop/spresense/docs/introduction_en.html#_main_board">Pinout Main board</a></li>
+  <li><a href="https://developer.sony.com/develop/spresense/docs/introduction_en.html#_extension_board">Pinout Extension board</a></li>
+</ul>
 
 <h2 id="purchase">Purchase</h2>
 
