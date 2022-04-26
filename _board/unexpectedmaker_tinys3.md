@@ -43,4 +43,6 @@ You can find out more about the TinyS3 at [tinys3.io](https://tinys3.io)
 
 ## Purchase
 You can purchase your very own TinyS3 from:
-*Stay tuned!*
+Adafruit - https://www.adafruit.com/product/5398
+Pimoroni - https://shop.pimoroni.com/products/tinys3-esp32-s3
+Unexpected Maker - https://unexpectedmaker.com/shop/ttinys3-esp32s3

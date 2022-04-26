@@ -44,4 +44,6 @@ You can find out more about the FeatherS3 at [feathers3.io](https://feathers3.io
 
 ## Purchase
 You can purchase your very own FeatherS3 from:
-*Stay tuned!*
+Adafruit - https://www.adafruit.com/product/5399
+Pimoroni - https://shop.pimoroni.com/products/feathers3-esp32-s3
+Unexpected Maker - https://unexpectedmaker.com/shop/feathers3
