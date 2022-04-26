@@ -32,18 +32,20 @@ Introducing the ProS3 - The Ultimate Pro ESP32-S3 Development Board!
 - Low power RGB LED
 - **ULTRA LOW Deep Sleep Current**
 - USB-C Connector with back-feed protection
-- USB ESD protection
+- **USB ESD protection**
 - Native USB + USB Serial JTAG
 - LiPo Battery Charging + PicoBlade connector
 - VBAT and 5V Sense Pins
 - 3D High Gain Antenna
 - 27x GPIO including castellated headers
 - STEMMA connector powered by LDO1
-- JTAG pins on the header
+- **JTAG pins on the header**
 - Compatible with TinyPICO & TinyS3
 
 You can find out more about the ProS3 at [pros3.io](https://pros3.io)
 
 ## Purchase
 You can purchase your very own ProS3 from:
-*Stay tuned!*
+Adafruit - https://www.adafruit.com/product/5401
+Pimoroni - https://shop.pimoroni.com/products/pros3-esp32-s3
+Unexpected Maker - https://unexpectedmaker.com/shop/pros3
