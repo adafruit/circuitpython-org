@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 26 Apr 2022 11:36:51 -0400</lastBuildDate>
+<lastBuildDate>Tue, 26 Apr 2022 11:49:13 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -1674,7 +1674,7 @@ Introducing the new ATMegaZero ESP32-S2</p>
     <pubDate>Mon, 19 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/atmegazero_esp32s2/</guid>
   </item><item>
-    <title>bast_pro_mini_m0</title>
+    <title>Bast Pro Mini M0</title>
     <link>https://circuitpython.org/board/bast_pro_mini_m0/</link>
     <description><![CDATA[ 
 
@@ -1684,11 +1684,34 @@ Introducing the new ATMegaZero ESP32-S2</p>
               300px"
        src="/assets/images/boards/original/bast_pro_mini_m0.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Electronic Cats</p> <p>Is she the goddess of cats?</p>
+<p>By Electronic Cats</p> <p>The Bast Pro Mini M0 features a powerful SAMD21E chip, an ARM Cortex-M0 based microcontroller with low power consumption and high performance, making it ideal for endless applications.</p>
 
-<p>It’s Bast Pro Mini M0! With a powerful SAMD21E chip, an ARM Cortex-M0 based microcontroller with low power consumption and high performance, makes it ideal for endless applications.</p>
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Microcontroller Arm Cortex-M0 ATSAMD21E18A with 48 MHz</li>
+  <li>Flash Memory 256 KB</li>
+  <li>SRAM Memory 32 KB</li>
+  <li>Operating Voltage 3.5 – 6 V</li>
+  <li>12 Digital I/O Pins</li>
+  <li>10 PWM Digital I/O Pins</li>
+  <li>6 Analog Input Pins</li>
+  <li>DC Current per I/O Pin 10 mA</li>
+  <li>1 built-in LED (<code class="language-plaintext highlighter-rouge">GPIO13</code>)</li>
+  <li>Dimensions: 32 mm x 18 mm</li>
+  <li>Weight 3 g</li>
+</ul>
+
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li><a href="https://github.com/ElectronicCats/Bast-Pro-Mini-M0/tree/master/Examples/CircuitPython">CircuitPython examples</a></li>
+  <li><a href="https://github.com/ElectronicCats/Bast-Pro-Mini-M0/blob/master/Hw/Bast-Pro-Mini-M0.pdf">Schematics</a></li>
+  <li><a href="https://github.com/ElectronicCats/Bast-Pro-Mini-M0#pinout">Pinout</a></li>
+</ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://electroniccats.com/store/bast-pro-mini-m0/">Electronic Cats</a></li>
 </ul>
