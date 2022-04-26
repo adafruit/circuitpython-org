@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 26 Apr 2022 06:09:32 -0400</lastBuildDate>
+<lastBuildDate>Tue, 26 Apr 2022 11:36:51 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -6279,8 +6279,31 @@ JTAG pads for advanced debugging access.</li>
     <pubDate>Sat, 13 Apr 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/kicksat-sprite/</guid>
   </item><item>
+    <title>TTGO T-01C3 ESP32-C3</title>
+    <link>https://circuitpython.org/board/lilygo_ttgo_t-01c3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/lilygo_ttgo_t-01c3.jpg 300w,
+               /assets/images/boards/large/lilygo_ttgo_t-01c3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/lilygo_ttgo_t-01c3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By LILYGO</p> <p>ESP32-C3 is a safe, stable, low-power, low-cost IoT chip, equipped with a RISC-V 32-bit single-core processor supporting 2.4 GHz WiFi and Bluetooth 5 (LE).</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005003538055090.html">AliExpress</a></li>
+  <li><a href="https://usa.banggood.com/LILYGO-TTGO-T-01C3-ESP32-C3-WIFI-Bluetooth-5_0-IPEX-Antenna-For-ESP-01-With-External-Antenna-Base-p-1924872.html">Banggood</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_ttgo_t-01c3/</guid>
+  </item><item>
     <title>TTGO T8 ESP32-S2-WROOM</title>
-    <link>https://circuitpython.org/board/lilygo_ttgo_esp32_s2_wroom/</link>
+    <link>https://circuitpython.org/board/lilygo_ttgo_t8_esp32_s2_wroom/</link>
     <description><![CDATA[ 
 
   <img srcset="/assets/images/boards/small/lilygo_ttgo_t8_esp32_s2_wroom.jpg 300w,
@@ -6333,30 +6356,7 @@ o   o        o   o
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Tue, 01 Mar 2022 00:00:00 -0500</pubDate>
-    <guid>https://circuitpython.org/board/lilygo_ttgo_esp32_s2_wroom/</guid>
-  </item><item>
-    <title>TTGO T-01C3 ESP32-C3</title>
-    <link>https://circuitpython.org/board/lilygo_ttgo_t-01c3/</link>
-    <description><![CDATA[ 
-
-  <img srcset="/assets/images/boards/small/lilygo_ttgo_t-01c3.jpg 300w,
-               /assets/images/boards/large/lilygo_ttgo_t-01c3.jpg 700w"
-       sizes="(max-width: 1024px) 700px,
-              300px"
-       src="/assets/images/boards/original/lilygo_ttgo_t-01c3.jpg" alt="Image of Board" loading="lazy">
-
-<p>By LILYGO</p> <p>ESP32-C3 is a safe, stable, low-power, low-cost IoT chip, equipped with a RISC-V 32-bit single-core processor supporting 2.4 GHz WiFi and Bluetooth 5 (LE).</p>
-
-<h2 id="purchase">Purchase</h2>
-
-<ul>
-  <li><a href="https://www.aliexpress.com/item/1005003538055090.html">AliExpress</a></li>
-  <li><a href="https://usa.banggood.com/LILYGO-TTGO-T-01C3-ESP32-C3-WIFI-Bluetooth-5_0-IPEX-Antenna-For-ESP-01-With-External-Antenna-Base-p-1924872.html">Banggood</a></li>
-</ul>
- ]]></description>
-    <category>CircuitPython</category>
-    <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
-    <guid>https://circuitpython.org/board/lilygo_ttgo_t-01c3/</guid>
+    <guid>https://circuitpython.org/board/lilygo_ttgo_t8_esp32_s2_wroom/</guid>
   </item><item>
     <title>TTGO T8 ESP32-S2</title>
     <link>https://circuitpython.org/board/lilygo_ttgo_t8_s2/</link>
