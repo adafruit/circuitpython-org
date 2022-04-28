@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 28 Apr 2022 06:09:20 -0400</lastBuildDate>
+<lastBuildDate>Thu, 28 Apr 2022 12:10:20 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -12007,6 +12007,88 @@ Unexpected Maker - https://unexpectedmaker.com/shop/ttinys3-esp32s3</p>
     <category>CircuitPython</category>
     <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/unexpectedmaker_tinys3/</guid>
+  </item><item>
+    <title>W5100S-EVB-Pico</title>
+    <link>https://circuitpython.org/board/w5100s-evb-pico/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/w5100s-evb-pico.jpg 300w,
+               /assets/images/boards/large/w5100s-evb-pico.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/w5100s-evb-pico.jpg" alt="Image of Board" loading="lazy">
+
+<p>By WIZnet</p> <p>W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.</p>
+
+<ul>
+  <li>Raspberry Pi Pico Clone</li>
+  <li>Ethernet (W5100S Hardwired TCP/IP CHIP)</li>
+  <li>AWS IoT Core Qualified</li>
+  <li>Microsoft Azure Certified</li>
+</ul>
+
+<p><strong>Features​</strong></p>
+<ul>
+  <li>RP2040 microcontroller with 2MByte Flash
+    <ul>
+      <li>Dual-core cortex M0+ at up to 133MHz</li>
+      <li>264kByte multi-bank high performance SRAM</li>
+      <li>External Quad-SPI Flash with eXecute In Place (XIP)</li>
+      <li>High performance full-crossbar bus fabric</li>
+      <li>30 multi-function General Purpose IO (4 can be used for ADC)
+        <ul>
+          <li>1.8-3.3V IO Voltage (NOTE. Pico IO voltage is fixed at 3.3V)</li>
+        </ul>
+      </li>
+      <li>12-bit 500ksps Analogue to Digital Converter (ADC)</li>
+      <li>Various digital peripherals
+        <ul>
+          <li>2 × UART, 2 × I2C, 2 × SPI, 16 × PWM channels</li>
+          <li>1 × Timer with 4 alarms, 1 × Real Time Counter</li>
+        </ul>
+      </li>
+      <li>2 × Programmable IO (PIO) blocks, 8 state machines total</li>
+      <li>Flexible, user-programmable high-speed IO</li>
+      <li>Can emulate interfaces such as SD Card and VGA</li>
+    </ul>
+  </li>
+  <li>Includes W5100S
+    <ul>
+      <li>Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP,    PPPoE</li>
+      <li>Supports 4 Independent Hardware SOCKETs simultaneously</li>
+      <li>Internal 16 Kbytes Memory for TX/ RX Buffers</li>
+      <li>SPI Interface</li>
+    </ul>
+  </li>
+  <li>Micro-USB B port for power and data (and for reprogramming the Flash)</li>
+  <li>40 pin 21x51 ‘DIP’ style 1mm thick PCB with 0.1” through-hole pins also with edge castellations</li>
+  <li>3-pin ARM Serial Wire Debug (SWD) port</li>
+  <li>10 / 100 Ethernet PHY embedded</li>
+  <li>Supports Auto Negotiation
+    <ul>
+      <li>Full / Half Duplex</li>
+      <li>10 / 100 Based</li>
+    </ul>
+  </li>
+  <li>Built-in RJ45(RB1-125BAG1A)</li>
+  <li>Built-in LDO (LM8805SF5-33V)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://eshop.wiznet.io/shop/module/w5100s-evb-pico/">WIZnet e-shop</a></li>
+</ul>
+
+<h2 id="learn-more">Learn more</h2>
+
+<ul>
+  <li><a href="https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico">WIZnet Docs</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 26 Apr 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/w5100s-evb-pico/</guid>
   </item><item>
     <title>RP2040-Zero</title>
     <link>https://circuitpython.org/board/waveshare_rp2040_zero/</link>
