@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "w5100s_evb_pico"
+board_id: "wiznet_w5100s_evb_pico"
 title: "W5100S-EVB-Pico Download"
 name: "W5100S-EVB-Pico"
 manufacturer: "WIZnet"
