@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 03 May 2022 06:04:11 -0400</lastBuildDate>
+<lastBuildDate>Tue, 03 May 2022 18:38:03 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -10679,6 +10679,31 @@ used for the circuity python build that includes this chip!</li>
     <category>CircuitPython</category>
     <pubDate>Fri, 13 Aug 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/sparkfun_stm32f405_micromod/</guid>
+  </item><item>
+    <title>MicroMod Teensy Processor</title>
+    <link>https://circuitpython.org/board/sparkfun_teensy_micromod/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/sparkfun_teensy_micromod.jpg 300w,
+               /assets/images/boards/large/sparkfun_teensy_micromod.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/sparkfun_teensy_micromod.jpg" alt="Image of Board" loading="lazy">
+
+<p>By SparkFun</p> <p>The SparkFun MicroMod Teensy Processor leverages the awesome computing power of the NXP iMXRT1062 chip and pairs it with the M.2 MicroMod connector to allow you to plug it into your choice of compatible MicroMod Carrier Board. With the M.2 MicroMod connector, connecting your Teensy Processor is a breeze. Simply match up the key on your processor’s beveled edge connector to the key on the M.2 connector and secure it with a screw (included with all Carrier Boards). Adding a Teensy to your desired project has never been easier!</p>
+
+<p>The Teensy Processor Board boasts some impressive computing power with an ARM Cortex-M7 processor operating at clock speeds up to 600MHz, 16MB Flash Memory and 1024K RAM Memory. On top of all that processing power, the board features <em>seven</em> serial UART ports, four I2C buses, two SPI ports, CAN-Bus, 12 GPIO, dedicated digital, analog, and PWM pins, USB Host and Device capability up to 480Mbit/s, digital audio and since many of the pins on the iMXRT1062 support multiple signal types you can customize it even further depending on your project’s needs.</p>
+
+<p>Teensy is a registered trademark of <a href="https://www.pjrc.com/">PJRC</a>. The MicroMod Teensy is a collaboration between <a href="https://www.pjrc.com/">PJRC</a> and SparkFun.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.sparkfun.com/products/16402">SparkFun</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 03 May 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/sparkfun_teensy_micromod/</guid>
   </item><item>
     <title>Thing Plus - RP2040</title>
     <link>https://circuitpython.org/board/sparkfun_thing_plus_rp2040/</link>
