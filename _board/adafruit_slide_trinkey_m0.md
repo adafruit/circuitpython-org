@@ -8,6 +8,7 @@ board_url: "https://www.adafruit.com/product/5021"
 board_image: "adafruit_slide_trinkey_m0.jpg"
 date_added: 2021-4-14
 family: atmel-samd
+bootloader_id: slide_trinkey_m0
 features:
 
 ---

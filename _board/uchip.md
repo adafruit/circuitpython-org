@@ -8,6 +8,7 @@ board_url: ""
 board_image: "uchip.jpg"
 date_added: 2019-3-25
 family: atmel-samd
+bootloader_id: uchip
 features:
   - Breadboard-Friendly
 ---
