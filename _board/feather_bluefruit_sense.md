@@ -8,7 +8,7 @@ board_url: "https://www.adafruit.com/product/4516"
 board_image: "feather_bluefruit_sense.jpg"
 date_added: 2020-2-1
 family: nrf52840
-bootloader_id: clue_nrf52840
+bootloader_id: feather_nrf52840_sense
 features:
   - Feather-Compatible
   - Battery Charging

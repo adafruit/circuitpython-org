@@ -8,6 +8,7 @@ board_url: "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
 board_image: "seeeduino_xiao.jpg"
 date_added: 2020-1-17
 family: atmel-samd
+bootloader_id: XIAO_m0
 
 features:
   - USB-C
