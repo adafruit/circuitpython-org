@@ -769,6 +769,47 @@
 
 
 
+
+<div class="section unrecommended">
+  <h3>Update UF2 Bootloader</h3>
+  <p>
+    Latest version: v3.14.0
+  </p>
+  <p>
+    <strong>The bootloader allows you to load CircuitPython, MakeCode, and Arduino programs.
+      The bootloader is not CircuitPython.</strong>
+    You can check the current version of your bootloader by looking in
+    the <b>INFO_UF2.TXT</b> file when the <b>BOOT</b> drive is visible (<b>FEATHERBOOT</b>, <b>CPLAYBOOT</b>, etc.).
+  </p>
+  <p>
+    It is not necessary to update your bootloader if it is working fine.
+    Read the release notes on GitHub to see what has been changed.
+    In general, we recommend you not update the bootloader unless you know there is a problem with it
+    or a support person has asked you to try updating it.
+  </p>
+
+  
+
+  
+  <p>
+    To update, first save the contents of <b>CIRCUITPY</b>, just in case.
+    Then double-click the reset button to show the <b>BOOT</b> drive.
+    Drag the <b>update-bootloader</b> <b>.uf2</b> file to the <b>BOOT</b> drive.
+    Wait a few tens of seconds for the bootloader to update; the <b>BOOT</b> drive will reappear.
+    After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
+    Then you will need to reload CircuitPython.
+  </p>
+  <p>
+    <a class="download-button" href="https://github.com/adafruit/uf2-samdx1/releases/download/v3.14.0/update-bootloader-matrixportal_m4-v3.14.0.uf2">DOWNLOAD UPDATER UF2<i class="fas fa-download" aria-hidden="true"></i></a>
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/uf2-samdx1/releases/tag/v3.14.0">BROWSE ON GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </div>
+  
+</div>
+
+
+
       
     </div>
   </div>
