@@ -8,7 +8,6 @@ board_url: "https://www.adafruit.com/product/5405"
 board_image: "adafruit_qtpy_esp32c3.jpg"
 date_added: 2022-4-1
 family: esp32c3
-bootloader_id: adafruit_qtpy_esp32c3
 downloads_display: true
 features:
   - STEMMA QT/QWIIC
