@@ -9,7 +9,9 @@ board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2022-4-1
 family: esp32s2
+bootloader_id: hexky_s2
 features:
+
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

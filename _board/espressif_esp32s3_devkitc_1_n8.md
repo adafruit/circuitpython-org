@@ -8,6 +8,7 @@ board_url: "https://www.adafruit.com/product/5312"
 board_image: "espressif_esp32s3_devkitc_1.jpg"
 date_added: 2022-1-4
 family: esp32s3
+bootloader_id: espressif_esp32s3_devkitc_1
 features:
   - Wi-Fi
   - Breadboard-Friendly

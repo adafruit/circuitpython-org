@@ -8,7 +8,6 @@ board_url: "https://microdev.systems/"
 board_image: "microdev_micro_c3.jpg"
 date_added: 2021-10-06
 family: esp32c3
-bootloader_id: microdev_micro_c3
 features:
   - Bluetooth/BTLE
   - Breadboard-Friendly
