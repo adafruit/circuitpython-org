@@ -29,3 +29,6 @@ Mixgo CE is designed by mixly team and can be programmed with mixly software (mi
 
 ## About
 * [Milxy](https://mixly.org/)
+
+## Contribute
+Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_board/{{ page.board_id }}.md).
