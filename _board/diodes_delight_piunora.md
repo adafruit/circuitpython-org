@@ -10,7 +10,7 @@ download_instructions:
 date_added: 2021-2-14
 features:
   - Wi-Fi
-  - Bluetooth/BLE
+  - Bluetooth/BTLE
   - STEMMA QT/QWIIC
   - Arduino Shield Compatible
   - USB-C
