@@ -8,7 +8,6 @@ board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero/"
 board_image: "raspberry_pi_zero.jpg"
 date_added: 2022-2-14
 features:
-- 40-pin GPIO
 ---
 
 **NOTE**: Not all features are supported in CircuitPython.
