@@ -8,6 +8,7 @@ board_url: "https://www.adafruit.com/product/5325"
 board_image: "adafruit_qtpy_esp32s2.jpg"
 date_added: 2021-11-30
 family: esp32s2
+bootloader_id: adafruit_qtpy_esp32s2
 features:
   - STEMMA QT/QWIIC
   - USB-C
