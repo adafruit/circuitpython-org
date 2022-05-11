@@ -8,9 +8,10 @@ board_url: "https://mixly.org/"
 board_image: "mixgo_ce_udisk.jpg"
 date_added: 2022-5-1
 features:
-  - Cost-effective
-  - Graphical programming
-  - Feature rich
+  - Display
+  - Wi-Fi
+  - USB-C
+  - Breadboard-Friendly
 ---
 
 Mixgo CE is designed by mixly team and can be programmed with mixly software (mixly2.0 version of graphic and graphic mixed programming platform) to facilitate information popularization and education
