@@ -119,6 +119,12 @@
         <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.modules | join: ', ' }}</span>
     </p>
     {% endif %}
+    {% if version.frozen_libraries and version.frozen_libraries.size != 0 %}
+    <p>
+        Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
+        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.frozen_libraries | join: ', ' }}</span>
+    </p>
+    {% endif %}
   </div>
 {% endfor %}
 {% endif %}
