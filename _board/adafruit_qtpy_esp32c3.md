@@ -11,6 +11,7 @@ family: esp32c3
 downloads_display: true
 features:
   - STEMMA QT/QWIIC
+  - Xiao / QTPy Form Factor
   - USB-C
   - Breadboard-Friendly
   - Wi-Fi

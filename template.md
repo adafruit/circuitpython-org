@@ -14,20 +14,21 @@ download_instructions: "BLINKA ONLY - url"
 # Include only the features your board supports, and remove these comment lines before committing.
 # Breadboard-Friendly is a parallel pin layout with minimal non-critical perpendicular pins
 features:
-  - Speaker
-  - Solder-Free Alligator Clip
-  - Feather-Compatible
+  - Arduino Shield Compatible
   - Battery Charging
-  - Display
-  - Wi-Fi
   - Bluetooth/BTLE
-  - Robotics
-  - LoRa/Radio
+  - Breadboard-Friendly
+  - Display
+  - Feather-Compatible
   - GPS
+  - LoRa/Radio
+  - Robotics
+  - Solder-Free Alligator Clip
+  - Speaker
   - STEMMA QT/QWIIC
   - USB-C
-  - Breadboard-Friendly
-  - Arduino Shield Compatible
+  - Wi-Fi
+  - Xiao / QTPy Form Factor
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
