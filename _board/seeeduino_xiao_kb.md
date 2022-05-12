@@ -13,6 +13,7 @@ bootloader_id: XIAO_m0
 features:
   - USB-C
   - Breadboard-Friendly
+  - Xiao / QTPy Form Factor
 ---
 
 # Keyboard Optimized

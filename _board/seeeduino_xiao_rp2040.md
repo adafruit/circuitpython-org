@@ -9,8 +9,9 @@ board_image: "seeeduino_xiao_rp2040.jpg"
 date_added: 2022-1-4
 
 features:
-  - Display
+  - Breadboard-Friendly
   - Robotics
+  - Xiao / QTPy Form Factor
   - USB-C
 ---
 
