@@ -12,8 +12,10 @@ downloads_display: true
 
 features:
   - Bluetooth/BTLE
+  - Breadboard-Friendly
   - Battery Charging
   - USB-C
+  - Xiao / QTPy Form Factor
 
 ---
 
