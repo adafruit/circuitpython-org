@@ -28,6 +28,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Wi-Fi
+  - Xiao / QTPy Form Factor
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

@@ -15,6 +15,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - Wi-Fi
+  - Xiao / QTPy Form Factor
 ---
 
 Coming Soon!
