@@ -8,6 +8,7 @@ board_url: "https://www.tindie.com/products/bradchan/hiibot-iots2/"
 board_image: "hiibot_iots2.jpg"
 date_added: 2020-11-20
 family: esp32s2
+bootloader_id: hiibot_iots2
 features:
   - Display
   - Wi-Fi
