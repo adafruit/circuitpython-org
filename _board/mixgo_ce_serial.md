@@ -1,12 +1,12 @@
 ---
 layout: download
-board_id: "mixgo_ce_udisk"
-title: "MixGo CE UDisk Download"
-name: "MixGo CE UDisk"
+board_id: "mixgo_ce_serial"
+title: "MixGo CE Serial Download"
+name: "MixGo CE Serial"
 manufacturer: "Mixly"
 board_url: "https://mixly.org/"
-board_image: "mixgo_ce_udisk.jpg"
-date_added: 2022-5-1
+board_image: "mixgo_ce_serial.jpg"
+date_added: 2022-5-22
 features:
   - Display
   - Wi-Fi
@@ -14,7 +14,7 @@ features:
   - Breadboard-Friendly
 ---
 
-Mixgo CE UDisk (USB disk loader) is designed by mixly team and can be programmed with mixly software (mixly2.0 version of graphic and graphic mixed programming platform) to facilitate information popularization and education
+Mixgo CE Serial(Serial port loader) is designed by mixly team and can be programmed with mixly software (mixly2.0 version of graphic and graphic mixed programming platform) to facilitate information popularization and education
 ### Specifications
 
 * ESP32-S2FH4 main control chip
