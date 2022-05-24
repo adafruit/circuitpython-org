@@ -29,5 +29,5 @@ Mixgo CE Serial(Serial port loader) is designed by mixly team and can be program
 * 4-way Type-C USB external expansion
 
 ## About
-* [Milxy](https://mixly.org/)
+* [Mixly](https://mixly.org/)
 * [Mixly online programming Edition](https://xmote.org/)
