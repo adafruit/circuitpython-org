@@ -10,9 +10,9 @@ date_added: 2022-5-25
 family: atmel-samd
 bootloader_id: cytron_maker_zero_samd21
 features:
-  - Arduino Zero Compatible
-  - STEMMA QT/QWIIC
-  - GPIO LED indicators, RGB LEDs, buzzer
+  - Speaker
+  - Robotics
+  - USB-C
 ---
 
 Do you need a powerful microcontroller with low power consumption for your project? Introducing Maker Zero SAMD21, a development board based on the famous ATSAMD21 chip featuring a 32-bit ARM Cortex® M0+ core. 
