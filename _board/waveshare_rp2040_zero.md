@@ -7,10 +7,10 @@ manufacturer: "Waveshare"
 board_url: "https://www.waveshare.com/rp2040-zero.htm"
 board_image: "waveshare_rp2040_zero.jpg"
 date_added: "2022-1-12"
+family: raspberrypi
 features:
   - USB-C
   - Breadboard-Friendly
-
 ---
 
 a Pico-like MCU board based on Raspberry Pi RP2040

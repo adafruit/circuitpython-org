@@ -7,6 +7,8 @@ manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
 board_image: "raspberry_pi_zero_2_w.jpg"
 date_added: 2021-11-29
+family: broadcom
+
 ---
 
 **NOTE**: Not all features are supported in CircuitPython.

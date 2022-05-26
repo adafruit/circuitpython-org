@@ -7,6 +7,7 @@ manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.com/products/compute-module-4-io-board/"
 board_image: "raspberrypi_cm4io.jpg"
 date_added: 2021-11-29
+family: broadcom
 
 ---
 
