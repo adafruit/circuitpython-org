@@ -7,7 +7,7 @@ manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
 board_image: "raspberry_pi_4b.jpg"
 date_added: 2021-11-29
-family: raspberrypi
+family: broadcom
 
 ---
 

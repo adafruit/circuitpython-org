@@ -7,7 +7,7 @@ manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-w/"
 board_image: "raspberry_pi_zero_w.jpg"
 date_added: 2022-01-07
-family: raspberrypi
+family: broadcom
 
 ---
 
