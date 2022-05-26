@@ -7,6 +7,7 @@ manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.com/products/compute-module-4/"
 board_image: "raspberry_pi_cm4.jpg"
 date_added: 2022-1-4
+family: raspberrypi
 
 ---
 

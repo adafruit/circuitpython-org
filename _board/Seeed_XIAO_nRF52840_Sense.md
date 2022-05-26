@@ -7,6 +7,7 @@ manufacturer: "SEEED"
 board_url: "https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html"
 board_image: "Seeed_XIAO_nRF52840_Sense.jpg"
 date_added: 2021-12-29
+family: nrf52840
 downloads_display: true
 
 
