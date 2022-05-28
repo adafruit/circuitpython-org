@@ -579,13 +579,13 @@ class LibraryValidator:
             errors.append(ERROR_BLACK_VERSION)
 
         reuse_repo = "repo: https://github.com/fsfe/reuse-tool"
-        reuse_version = "rev: v0.14.0"
+        reuse_version = "rev: v0.12.1"
 
         if reuse_repo not in text or reuse_version not in text:
             errors.append(ERROR_REUSE_VERSION)
 
         pc_repo = "repo: https://github.com/pre-commit/pre-commit-hooks"
-        pc_version = "rev: v4.2.0"
+        pc_version = "rev: v2.3.0"
 
         if pc_repo not in text or pc_version not in text:
             errors.append(ERROR_PRE_COMMIT_VERSION)
