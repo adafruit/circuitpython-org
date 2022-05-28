@@ -30,6 +30,9 @@ jobs:
     - uses: actions/checkout@v1
       with:
         submodules: true
+    - name: Update Awesome CircuitPython
+      run: |
+        (cd awesome-circuitpython && git fetch origin main:main && git checkout main)
     - name: Set up Python 3.x
       uses: actions/setup-python@v2
       with:
