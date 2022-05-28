@@ -23,7 +23,7 @@ The LILYGO TTGO T8 ESP32-S2 ESP32-S2-WROOM is a basic development board.
  - ESP32-S2 240 MHz Tensilica processor
  - Wi-Fi 802.11 b/g/n 2.4 GHz
  - 4 MB FLASH
- - 8 MB PSRAM
+ - 320 kB RAM (no PSRAM)
  - reset and boot button
  - onboard 32.768 kHz crystal oscillator
  - USB-C connector
