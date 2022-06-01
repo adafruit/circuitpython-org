@@ -23,4 +23,60 @@
       }
     }
   }
+
+  ul.issues-list{
+    li {
+      .issue-label {
+        border-radius: 2em;
+        padding: 0 7px;
+        margin-left: 5px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        white-space: nowrap;
+        border: 1px solid transparent;
+      }
+      .wontfix {
+        background-color: #e4e669;
+        color: #ffffff;
+        border-color: #000;
+      }
+      .question {
+        background-color: #cc317c;
+        color: #fff;
+      }
+      .invalid {
+        background-color: #e4e669;
+        color: #000;
+      }
+      .help-wanted {
+        background-color: #008672;
+        color: #fff;
+      }
+      .hacktoberfest {
+        background-color: #f2b36f;
+        color: #000;
+      }
+      .good-first-issue {
+        background-color: #7057ff;
+        color: #fff;
+      }
+      .enhancement {
+        background-color: #a2eeef;
+        color: #000;
+      }
+      .duplicate {
+        background-color: #cfd3d7;
+        color: #000;
+      }
+      .documentation {
+        background-color: #0075ca;
+        color: #fff;
+      }
+      .bug {
+        background-color: #d73a4a;
+        color: #fff;
+      }
+    }
+  }
 }
