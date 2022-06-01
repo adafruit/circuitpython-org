@@ -432,4 +432,26 @@ fieldset legend { font-size: 1.5em; font-weight: 500; }
 
 #contributing-page .tabbed-navigation li a.active { border-color: #000; }
 
+#contributing-page ul.issues-list li .issue-label { border-radius: 2em; padding: 0 7px; margin-left: 5px; font-size: 12px; font-weight: 500; line-height: 18px; white-space: nowrap; border: 1px solid transparent; }
+
+#contributing-page ul.issues-list li .wontfix { background-color: #e4e669; color: #ffffff; border-color: #000; }
+
+#contributing-page ul.issues-list li .question { background-color: #cc317c; color: #fff; }
+
+#contributing-page ul.issues-list li .invalid { background-color: #e4e669; color: #000; }
+
+#contributing-page ul.issues-list li .help-wanted { background-color: #008672; color: #fff; }
+
+#contributing-page ul.issues-list li .hacktoberfest { background-color: #f2b36f; color: #000; }
+
+#contributing-page ul.issues-list li .good-first-issue { background-color: #7057ff; color: #fff; }
+
+#contributing-page ul.issues-list li .enhancement { background-color: #a2eeef; color: #000; }
+
+#contributing-page ul.issues-list li .duplicate { background-color: #cfd3d7; color: #000; }
+
+#contributing-page ul.issues-list li .documentation { background-color: #0075ca; color: #fff; }
+
+#contributing-page ul.issues-list li .bug { background-color: #d73a4a; color: #fff; }
+
 /*# sourceMappingURL=main.css.map */
