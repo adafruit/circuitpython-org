@@ -10,10 +10,11 @@ downloads_display: true
 blinka: true
 date_added: "2022-6-2"
 features: 
+  - HDMI
   - Wi-Fi
-  - Bluetooth/BTLE
-  - USB-C
-  - Breadboard-Friendly
+  - Bluetooth/BLE
+  - USB 3.0
+  - 40-pin GPIO
 ---
 
 Radxa Zero is an ultra thin SBC in small form factor with powerful performance based on Amlogic S905Y2. It can run Android and selected Linux distributions.
