@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 02 Jun 2022 06:04:08 -0400</lastBuildDate>
+<lastBuildDate>Thu, 02 Jun 2022 13:48:08 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -15403,6 +15403,75 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology â
       <category>Blinka</category>
       <pubDate>Mon, 24 May 2021 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/pyboard_v11/</guid>
+    </item>
+
+    <item>
+      <title>Radxa Zero</title>
+      <link>https://circuitpython.org/blinka/radxa_zero/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/radxa_zero.jpg 300w,
+               /assets/images/boards/large/radxa_zero.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/radxa_zero.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Radxa</p> <p>Radxa Zero is an ultra thin SBC in small form factor with powerful performance based on Amlogic S905Y2. It can run Android and selected Linux distributions.</p>
+
+<p>Radxa Zero features a quad core 64-bit ARM processor, up to 4GB 32bit LPDDR4 memory, HDMI output at 4K@60, WiFi and Bluetooth connectivity, USB 3.0, and 40-pin GPIO header. Additionally, the power port can also be used for USB 2.0 OTG to connect more peripheral.</p>
+
+<h2 id="technical-details">Technical details</h2>
+<ul>
+  <li>Size 66mm x 30mm</li>
+  <li>Amlogic S905Y2 64bit quad core processor</li>
+  <li>Quad Cortex-A53, frequency 1.8Ghz, 12nm</li>
+  <li>Mali G31 MP2 GPU, supports OpenGL ES 1.1 /2.0 /3.1 /3.2, Vulkan 1.1, Open CL 1.1 1.2, 2.0 Full Profile</li>
+  <li>64bit dual channel LPDDR4@3200Mb/s, 1GB/ 2GB or 4GB</li>
+  <li>Wifi/BT with external antenna support</li>
+  <li>WIFI4/BLE4 and WIFI4/BLE5 available for different models!</li>
+  <li>soldered high performance eMMC 5.1 with capacities of 8GB/ 16GB</li>
+  <li>uSD slot supports up to 128G uSD card</li>
+  <li>HDMI 2.1, 4K@60 HDR</li>
+  <li>HD codec H265/VP9 decode 4Kx2K@60</li>
+  <li>USB 3.0 Type-C HOST x1</li>
+  <li>USB 2.0 Type-C OTG x1</li>
+  <li>Network (depending on the model)
+    <ul>
+      <li>Wireless 802.11 abgn wifi 2,4GHz, Bluetooth 4.2</li>
+      <li>Wireless 802.11 ac wifi 2,4/5GHz, Bluetooth 5.0</li>
+    </ul>
+  </li>
+  <li>IO 40-pin expansion header (depending on the model):
+    <ul>
+      <li>1 x UART</li>
+      <li>2 x SPI bus</li>
+      <li>2 x I2C bus</li>
+      <li>1 x PCM/I2S</li>
+      <li>1 x SPDIF</li>
+      <li>1 x PWM</li>
+      <li>1 x ADC</li>
+      <li>6 x GPIO</li>
+      <li>2 x 5V DC power in</li>
+      <li>2 x 3.3V power pin</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tutorials">Tutorials</h2>
+<ul>
+  <li><a href="https://wiki.radxa.com/Zero/getting_started">Radxa Zero - Getting Started</a>
+    <h2 id="purchase">Purchase</h2>
+  </li>
+  <li><a href="https://shop.allnetchina.cn/products/copy-of-radxa-zero">ALLNET.CHINA</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+
+<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/radxa_zero.md">here</a>.</p>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Thu, 02 Jun 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/radxa_zero/</guid>
     </item>
 
     <item>
