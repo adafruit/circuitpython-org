@@ -441,3 +441,7 @@ function appendFilterTag(type, name) {
 function removeFilterTag(type, name) {
   document.querySelector("[data-type='" + type + "'][data-name='" + name + "']").parentNode.remove();
 }
+
+window.addEventListener('load', function () {
+    document.querySelector("#search").focus();
+});
