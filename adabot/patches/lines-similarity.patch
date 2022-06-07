@@ -1,0 +1,25 @@
+From 1e29fcc30ba460dd12e19ec1cb9512af56f7e01d Mon Sep 17 00:00:00 2001
+From: Alec Delaney <tekktrik@gmail.com>
+Date: Sun, 22 May 2022 00:18:55 -0400
+Subject: [PATCH 2/2] Increase min lines similarity
+
+---
+ .pylintrc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.pylintrc b/.pylintrc
+index e06d2f6..fe0cbee 100644
+--- a/.pylintrc
++++ b/.pylintrc
+@@ -252,7 +252,7 @@ ignore-docstrings=yes
+ ignore-imports=yes
+ 
+ # Minimum lines number of a similarity.
+-min-similarity-lines=4
++min-similarity-lines=12
+ 
+ 
+ [BASIC]
+-- 
+2.35.1
+

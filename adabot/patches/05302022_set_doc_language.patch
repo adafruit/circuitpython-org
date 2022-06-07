@@ -1,0 +1,25 @@
+From c87dc6f80fc8eac93b266103aef8dc9683301b01 Mon Sep 17 00:00:00 2001
+From: Alec Delaney <tekktrik@gmail.com>
+Date: Mon, 30 May 2022 14:25:04 -0400
+Subject: [PATCH] Set language to "en" for documentation
+
+---
+ docs/conf.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/docs/conf.py b/docs/conf.py
+index cb5dde7..c58fe52 100644
+--- a/docs/conf.py
++++ b/docs/conf.py
+@@ -57,7 +57,7 @@ release = "1.0"
+ #
+ # This is also used if you do content translation via gettext catalogs.
+ # Usually you set "language" from the command line for these cases.
+-language = None
++language = "en"
+ 
+ # List of patterns, relative to source directory, that match files and
+ # directories to ignore when looking for source files.
+-- 
+2.36.1
+

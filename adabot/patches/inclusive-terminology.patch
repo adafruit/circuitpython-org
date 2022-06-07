@@ -1,0 +1,30 @@
+From f351f391e7bb66c99b8a17b04f7f48a68f0a6a0a Mon Sep 17 00:00:00 2001
+From: Alec Delaney <tekktrik@gmail.com>
+Date: Sun, 22 May 2022 00:18:23 -0400
+Subject: [PATCH 1/2] Switch to inclusive terminology
+
+---
+ .pylintrc | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/.pylintrc b/.pylintrc
+index 4e50ab9..e06d2f6 100644
+--- a/.pylintrc
++++ b/.pylintrc
+@@ -9,11 +9,11 @@
+ # run arbitrary code
+ extension-pkg-whitelist=
+ 
+-# Add files or directories to the blacklist. They should be base names, not
++# Add files or directories to the ignore-list. They should be base names, not
+ # paths.
+ ignore=CVS
+ 
+-# Add files or directories matching the regex patterns to the blacklist. The
++# Add files or directories matching the regex patterns to the ignore-list. The
+ # regex matches against base names, not paths.
+ ignore-patterns=
+ 
+-- 
+2.35.1
+
