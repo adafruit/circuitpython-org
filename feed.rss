@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 09 Jun 2022 15:17:31 -0400</lastBuildDate>
+<lastBuildDate>Thu, 09 Jun 2022 15:49:42 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -356,6 +356,59 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
     <category>CircuitPython</category>
     <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_esp32s3_nopsram/</guid>
+  </item><item>
+    <title>Feather ESP32-S3 TFT PSRAM</title>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32s3_tft/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s3_tft.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32s3_tft.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_feather_esp32s3_tft.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <ul>
+  <li>
+    <p>We’ve got a new machine here at Adafruit, it can uncover your deepest desires. Don’t believe me? I’ll turn it on right now to prove it to you! What, you want your very own soft serve ice cream machine? OK well, that’s not something we can provide. But we can provide your <em>second</em>-deepest desire: an <strong>ESP32-S*3* Feather board with a built in IPS TFT color display</strong>. It’s got all the delicious creamy goodness features of a Feather main board, the comforting warmth of an ESP32-S3 WiFi+BLE microcontroller, and the crispness of a 240x135 pixel color TFT display. All that and it will even plug in nicely into a breadboard, <a href="https://www.adafruit.com/product/2926">terminal block wing</a>, or <a href="https://www.adafruit.com/product/2890">Feather Doubler</a> or even just stack on top of another wing.</p>
+
+    <p>This Feather comes with native USB and <strong>4 MB Flash + 2 MB of PSRAM</strong>, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi means it’s awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.</p>
+
+    <p>The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi/BLE System-on-Chip (SoC) solution that has built-in native USB as well as some other interesting new technologies like Time of Flight distance measurements and AI acceleration. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+    <p>The Feather ESP32-S3 has a dual-core 240 MHz chip, so it is comparable to ESP32’s dual-core. However, there is no Bluetooth <strong>Classic</strong> support, only Bluetooth LE. This chip is a great step up from the earlier ESP32-S2! This ESP32-S3 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM, as well as lots of 512KB of SRAM so it’s perfect for use with CircuitPython support or any time massive buffers are needed: for fast memory access use SRAM, for slower-but-roomier access use PSRAM. It’s also great for use in ESP-IDF or with Arduino support.</p>
+
+    <p>The color TFT is connected to the SPI pins and uses additional pins for control that are not exposed to the breakout pads. <a href="https://www.adafruit.com/product/4383">It’s the same display as you see here, with 240x135 pixels and is IPS</a> so you get bright color at any angle. The backlight is also connected to a separate pin so you can PWM the backlight up and down as desired.</p>
+
+    <p>For low power usages, the Feather has a <em>second</em> low-dropout 3.3V regulator. The regulator is controlled with a GPIO pin on the enable line and can shut off power to the Stemma QT port and TFT. There is also a separate power pin for the NeoPixel that can be used to disable it for even lower quiescent power. With everything off and in deep sleep mode, the TFT feather uses about 100uA of current.</p>
+
+    <p><strong>Features:</strong></p>
+
+    <ul>
+      <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+      <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
+      <li><strong><a href="https://www.adafruit.com/product/4383">Color 1.14” IPS TFT with 240x135 pixels</a></strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle angle.</li>
+      <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+      <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+      <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
+      <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+      <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
+      <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+      <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+      <li><strong>Low Power friendly</strong>! In deep sleep mode, we can get down to 80~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C/TFT power for the lowest quiescent current draw.</li>
+      <li><strong>Works with Arduino or CircuitPython</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5483">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 09 Jun 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32s3_tft/</guid>
   </item><item>
     <title>Feather RP2040</title>
     <link>https://circuitpython.org/board/adafruit_feather_rp2040/</link>
@@ -2302,6 +2355,36 @@ With native USB it’s even ready to join the CircuitPython party.</p>
     <category>CircuitPython</category>
     <pubDate>Sun, 14 Nov 2021 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/challenger_nb_rp2040_wifi/</guid>
+  </item><item>
+    <title>Challenger RP2040 LoRa</title>
+    <link>https://circuitpython.org/board/challenger_rp2040_lora/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/challenger_rp2040_lora.jpg 300w,
+               /assets/images/boards/large/challenger_rp2040_lora.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/challenger_rp2040_lora.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Invector Labs</p> <p>The iLabs Challenger RP2040 LoRa is a small embedded computer equipped with a LoRa modem module on board, in the popular <a href="https://www.adafruit.com/?q=feather">Adafruit Feather form factor</a>. It is based on an RP2040 microcontroller from Raspberry Pi which is a dual-core Cortex M0 that can run on a clock up to 133MHz.</p>
+
+<p>This is a spin-off from our <a href="/board/challenger_rp2040_wifi/">Challenger RP2040 WiFi </a> board but we have replaced the WiFi module with a low power RFM95W LoRa radio module from Hope RF. The transceiver features a LoRa long range modem that provides ultra-long range spread spectrum communication and high interference immunity whilst minimizing current consumption.</p>
+
+<p>The RFM95W is connected to the microcontroller using an SPI channel and a few GPIO signals to handle signalling from the modem circuit. Besides the modem module, there is only one additional U.FL connector that forms the modem functionality. Simply hook your external antenna to this connector and you are ready to go.</p>
+
+<p>We paired the RP2040 with 8MByte high-speed flash capable of supplying data up to the max speed. The flash memory can be used both to store instructions for the microcontroller as well as data in a file system and having a file system available makes it easy to store data in a structured and easy to program approach.</p>
+
+<p>The device can be powered by a Lithium Polymer battery connected through a standard 2.0mm connector on the side of the board. An internal battery charging circuit allows you to charge your battery safely and quickly. The device is shipped with a programming resistor that sets the charging current to ~450mA. this resistor can be exchanged by the user to either increase or decrease the charging current, depending on the battery that is being used.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li>915MHz Version: <a href="https://www.tindie.com/products/invector/challenger-rp2040-lora-915mhz/">Tindie</a></li>
+  <li>868 MHz Version: <a href="https://thepihut.com/products/challenger-rp2040-lora-868mhz">PiHut</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 09 Jun 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/challenger_rp2040_lora/</guid>
   </item><item>
     <title>Challenger RP2040 LTE</title>
     <link>https://circuitpython.org/board/challenger_rp2040_lte/</link>
@@ -12296,6 +12379,41 @@ Unexpected Maker - https://unexpectedmaker.com/shop/ttinys3-esp32s3</p>
     <category>CircuitPython</category>
     <pubDate>Wed, 12 Jan 2022 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/waveshare_rp2040_zero/</guid>
+  </item><item>
+    <title>WeAct Studio Pico</title>
+    <link>https://circuitpython.org/board/weact_studio_pico/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/weact_studio_pico.jpg 300w,
+               /assets/images/boards/large/weact_studio_pico.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/weact_studio_pico.jpg" alt="Image of Board" loading="lazy">
+
+<p>By WeAct Studio</p> <p>The Raspberry Pi Pico is a microcontroller board based on the Raspberry Pi RP2040 microcontroller chip. It has been designed to be a low-cost, high-performance microcontroller board with flexible digital interfaces. The Raspberry Pi Pico features two ARM Cortex-M0+ cores run up to 133MHz; 256KB RAM; 30 GPIO pins; and a broad range of interfacing options. This is paired with 2MB/4MB/8MB/16MB of onboard QSPI Flash memory for code and data storage.</p>
+
+<p><strong>Specifications:</strong>
+    - RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom
+    - Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz
+    - 264KB of SRAM, and 2MB/4MB/8MB/16MB of on-board Flash memory
+    - USB 1.1 with device and host support
+    - Low-power sleep and dormant modes
+    - Drag-and-drop programming using mass storage over USB
+    - 26 × multi-function GPIO pins
+    - 2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels
+    - Accurate clock and timer on-chip
+    - Temperature sensor
+    - Accelerated floating-point libraries on-chip
+    - 8 × Programmable I/O (PIO) state machines for custom peripheral support</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.com/item/3256803521775546.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 09 Jun 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/weact_studio_pico/</guid>
   </item><item>
     <title>Winterbloom Big Honking Button</title>
     <link>https://circuitpython.org/board/winterbloom_big_honking_button/</link>
