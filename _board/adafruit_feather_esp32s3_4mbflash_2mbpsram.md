@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "adafruit_feather_esp32s3_nopsram"
+board_id: "adafruit_feather_esp32s3_4mbflash_2mbpsram"
 title: "Feather ESP32-S3 4MB Flash 2MB PSRAM Download"
 name: "Feather ESP32-S3 4MB Flash 2MB PSRAM"
 manufacturer: "Adafruit"
@@ -11,6 +11,12 @@ family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_4mbflash_2mbpsram
 downloads_display: true
 features:
+  - Feather-Compatible
+  - Battery Charging
+  - STEMMA QT/QWIIC
+  - Wi-Fi
+  - USB-C
+  - Breadboard-Friendly
 
 ---
 
