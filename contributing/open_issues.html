@@ -32,10 +32,15 @@ permalink: /contributing/open-issues
         {{library[0]}}
         <ul class="issues-list">
         {% for issue in library[1] %}
-        <li><a href="{{ issue.url }}">{{ issue.title }}</a>
+        {% capture classes %}
+        {% for label in issue.labels %}
+          {{ label | downcase | replace: ' ', '-' }}
+        {% endfor %}
+        {% endcapture %}
+        <li class="{{ classes | strip }}"><a href="{{ issue.url }}">{{ issue.title }}</a>
             {% for label in issue.labels %}
               {% if label != 'None' %}
-                <span class="issue-label {{ label | downcase | replace: ' ', '-' }}">{{label}}</span>
+                <span class="issue-label tag-{{ label | downcase | replace: ' ', '-' }}">{{label}}</span>
               {% endif %}
             {% endfor %}
         </li>
