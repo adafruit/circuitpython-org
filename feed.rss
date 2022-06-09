@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 09 Jun 2022 14:28:16 -0400</lastBuildDate>
+<lastBuildDate>Thu, 09 Jun 2022 14:33:45 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -266,6 +266,52 @@ Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is th
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_esp32s2_tft/</guid>
+  </item><item>
+    <title>Feather ESP32-S3 4MB Flash 2MB PSRAM</title>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32s3_4mbflash_2mbpsram/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s3_4mbflash_2mbpsram.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32s3_4mbflash_2mbpsram.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/adafruit_feather_esp32s3_4mbflash_2mbpsram.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Adafruit</p> <p>The ESP32-S3 has arrived in Feather format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this Feather is great for powering your IoT projects.</p>
+
+<p>That’s right - it’s the new <strong>Adafruit ESP32-*S3* Feather</strong> with dual core and native USB - <strong>this version comes with 4 MB flash, and 2 MB PSRAM</strong> compared to the <a href="https://www.adafruit.com/product/5323">Feather ESP32-S3 with 8MB Flash / no PSRAM version here</a>.</p>
+
+<p>Native USB means it can act like a keyboard or a disk drive, and no external USB-to-Serial converter required. WiFi and BLE mean it’s awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.</p>
+
+<p>The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi/BLE System-on-Chip (SoC) solution that has built-in native USB as well as some other interesting new technologies like Time of Flight distance measurements and AI acceleration. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<p>The Feather ESP32-S3 has a dual-core 240 MHz chip, so it is comparable to ESP32’s dual-core. However, there is no Bluetooth <strong>Classic</strong> support, only Bluetooth LE. This chip is a great step up from the earlier ESP32-S2! This ESP32-S3 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM, as well as lots of 512KB of SRAM so it’s perfect for use with CircuitPython support or any time massive buffers are needed: for fast memory access use SRAM, for slower-but-roomier access use PSRAM. It’s also great for use in ESP-IDF or with Arduino support.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash, 2 MByte PSRAM</li>
+  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+  <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
+  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+  <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+  <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+  <li><strong>Low Power friendly</strong>! In deep sleep mode we can get down to ~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S3 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C power for the lowest quiescent current draw.</li>
+  <li><strong>Works with ESP-IDF, Arduino</strong> <strong>or CircuitPython</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5477">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 09 Jun 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32s3_4mbflash_2mbpsram/</guid>
   </item><item>
     <title>Feather ESP32-S3 No PSRAM</title>
     <link>https://circuitpython.org/board/adafruit_feather_esp32s3_nopsram/</link>
