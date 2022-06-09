@@ -11,6 +11,12 @@ family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_nopsram
 downloads_display: true
 features:
+  - Feather-Compatible
+  - Battery Charging
+  - STEMMA QT/QWIIC
+  - Wi-Fi
+  - USB-C
+  - Breadboard-Friendly
 
 ---
 
