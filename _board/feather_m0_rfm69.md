@@ -8,7 +8,7 @@ board_url: ""
 board_image: "feather_m0_rfm69.jpg"
 date_added: 2019-3-9
 family: atmel-samd
-bootloader_id: feather_m0
+bootloader_id: radiofruit_m0
 features:
   - Feather-Compatible
   - Battery Charging

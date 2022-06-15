@@ -8,11 +8,13 @@ board_url: "https://www.adafruit.com/product/5325"
 board_image: "adafruit_qtpy_esp32s2.jpg"
 date_added: 2021-11-30
 family: esp32s2
+bootloader_id: adafruit_qtpy_esp32s2
 features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
-  - Wi-Fi (two version, onboard antenna or uFL connector)
+  - Wi-Fi
+  - Xiao / QTPy Form Factor
 ---
 
 What has your favorite Espressif WiFi microcontroller, comes with [our favorite connector - the STEMMA QT](http://adafruit.com/stemma), a chainable I2C port, and has lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy? What a cutie pie! Or is it... a **QT Py**? This diminutive dev board comes with one of our new favorite lil chips, the **ESP32-S2**! 

@@ -6,8 +6,9 @@ name: "TTGO T8 ESP32-S2"
 manufacturer: "LILYGO"
 board_url: "http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1321"
 board_image: "lilygo_ttgo_t8_s2.jpg"
-date_added:
+date_added: 2022-03-09
 family: esp32s2
+bootloader_id: lilygo_ttgo_t8_s2
 features:
   - Wi-Fi
   - Battery Charging

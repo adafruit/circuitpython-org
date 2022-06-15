@@ -8,9 +8,10 @@ board_url: "https://www.crowdsupply.com/diodes-delight/piunora"
 board_image: "diodes_delight_piunora.jpg"
 download_instructions: 
 date_added: 2021-2-14
+family: broadcom
 features:
   - Wi-Fi
-  - Bluetooth/BLE
+  - Bluetooth/BTLE
   - STEMMA QT/QWIIC
   - Arduino Shield Compatible
   - USB-C

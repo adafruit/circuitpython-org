@@ -8,6 +8,7 @@ board_url: "https://www.raytac.com/product/ins.php?index_id=89"
 board_image: "raytac_mdbt50q-rx.jpg"
 date_added: 2021-08-13
 family: nrf52840
+bootloader_id: raytac_mdbt50q_rx
 features:
   - Bluetooth/BTLE
   

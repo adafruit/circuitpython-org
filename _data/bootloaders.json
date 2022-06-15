@@ -1,16 +1,23 @@
 {
     "bootloaders": {
         "nrf52840": {
-            "version": "0.6.3"
+            "version": "0.6.4"
         },
         "atmel-samd": {
             "version": "v3.14.0"
         },
         "esp32s2": {
-            "version": "0.9.0"
+            "version": "0.9.2"
         },
+        "esp32s3": {
+            "version": "0.9.2"
+        },
+        "esp32c3": {},
         "stm": {},
         "cxd56": {},
-        "mimxrt10xx": {}
+        "mimxrt10xx": {},
+        "raspberrypi": {},
+        "broadcom": {},
+        "litex": {}
     }
 }

@@ -17,6 +17,8 @@ features:
 
 An all-in-one pocket sized games console with RP2040 at its heart, ready for filling up with all the most fun pixels! PicoSystem has a nice tactile joypad and buttons, a vibrant 240x240 screen and a lipo battery, neatly wrapped up in some shiny abstract PCB art.
 
+To get into bootloader mode so you can flash a new .uf2, turn your PicoSystem on whilst holding down the X button - it should then show up as a drive called RPI-RP2 on your computer.
+
 ## Features
 * Powered by RP2040!
 * ARM Cortex M0+ running at up to 133Mhz

@@ -9,7 +9,6 @@ board_image: "adafruit_feather_rp2040.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 date_added: 2021-12-6
 features:
-  - USB-C
   - Feather-Compatible
   - STEMMA QT/QWIIC
 ---
