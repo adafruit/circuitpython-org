@@ -274,7 +274,7 @@ function setupFilterListeners() {
           removeFilterTag('mcufamily', checkbox.value);
         }
       }
-      setURL('mcufamilies', downloadsSearch.selected.features);
+      setURL('mcufamilies', downloadsSearch.selected.mcufamilies);
       filterResults();
     }
 
