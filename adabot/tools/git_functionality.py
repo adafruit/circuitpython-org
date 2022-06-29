@@ -19,7 +19,7 @@ from typing import Any
 import git
 import git.repo
 import git.index.base
-from tools.library_functions import StrPath
+from library_functions import StrPath
 
 
 def _get_repo_and_remote(

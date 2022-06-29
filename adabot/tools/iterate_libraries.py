@@ -23,7 +23,7 @@ import parse
 from github import Github
 from github.Repository import Repository
 from github.ContentFile import ContentFile
-from tools.library_functions import StrPath, LocalLibFunc, RemoteLibFunc
+from library_functions import StrPath, LocalLibFunc, RemoteLibFunc
 
 # Helpful type annotapython generic type aliastion definitions
 

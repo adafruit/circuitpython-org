@@ -1,0 +1,25 @@
+From 938c68803029b40ba783141373957614350bba67 Mon Sep 17 00:00:00 2001
+From: evaherrada <eva.herrada@adafruit.com>
+Date: Tue, 21 Jun 2022 17:00:37 -0400
+Subject: [PATCH] Removed duplicate-code from library pylint disable
+
+---
+ .pre-commit-config.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index 0a91a11..3343606 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -24,7 +24,7 @@ repos:
+         name: pylint (library code)
+         types: [python]
+         args:
+-          - --disable=consider-using-f-string,duplicate-code
++          - --disable=consider-using-f-string
+         exclude: "^(docs/|examples/|tests/|setup.py$)"
+       - id: pylint
+         name: pylint (example code)
+-- 
+2.25.1
+
