@@ -21,3 +21,7 @@ Just like the original Feather M4 Express, it is powered by the ATSAMD51J19 - wi
 ## Learn More
 * [Hardware Github repo](https://github.com/xorbit/M4-Shim)
 * [Hackaday.io project log](https://hackaday.io/project/168356-poe-featherwing/log/187588-m4-shim)
+
+## Purchase
+* [Amazon](https://www.amazon.com/M4-Shim-Feather-PoE-FeatherWing-Ultra-Compact-Vertical/dp/B0971PKDV7/)
+* [Tindie](https://www.tindie.com/products/silicognition/m4-shim/)
