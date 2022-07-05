@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 05 Jul 2022 06:04:23 -0400</lastBuildDate>
+<lastBuildDate>Tue, 05 Jul 2022 13:32:48 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -10552,17 +10552,50 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
 
 <p>By Silicognition LLC</p> <p>This board is a electrically a clone of the <a href="https://www.adafruit.com/product/3857">Adafruit Feather M4 Express</a>, but physically optimized to fit on top of the <a href="https://www.crowdsupply.com/silicognition/poe-featherwing">PoE-FeatherWing</a>, filling the empty space around the RJ45 and flyback transformer and allowing the creation of extremely compact Power over Ethernet systems.</p>
 
-<p>Just like the original Feather M4 Express, it is powered by the ATSAMD51J19 - with its 120MHz Cortex M4 with floating point support and 512KB Flash and 192KB RAM.  It also has 2MB of SPI flash on board.  The only thing missing compared to the original is the battery charger, which was deemed expendable for Power over Ethernet systems.  The board comes with a UF2 bootloader for easy Arduino and CircuitPython compatibility, and has CircuitPython with Wiznet W5500 drivers pre-installed, plus a <code class="language-plaintext highlighter-rouge">boot.py</code> that sets the Ethernet connection up for you!</p>
+<p>Just like the original Feather M4 Express, it is powered by the ATSAMD51J19 - with its 120MHz Cortex M4 with floating point support and 512KB Flash and 192KB RAM.  It also has 2MB of SPI flash on board.  The only thing missing compared to the original is the battery charger, which was deemed expendable for Power over Ethernet systems.  The board comes with a UF2 bootloader for easy Arduino and CircuitPython compatibility, and has CircuitPython with Wiznet W5500 drivers pre-installed, plus a <code class="language-plaintext highlighter-rouge">poe_featherwing.py</code> module that sets the Ethernet connection up for you!</p>
 
 <h2 id="learn-more">Learn More</h2>
 <ul>
   <li><a href="https://github.com/xorbit/M4-Shim">Hardware Github repo</a></li>
   <li><a href="https://hackaday.io/project/168356-poe-featherwing/log/187588-m4-shim">Hackaday.io project log</a></li>
 </ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.amazon.com/M4-Shim-Feather-PoE-FeatherWing-Ultra-Compact-Vertical/dp/B0971PKDV7/">Amazon</a></li>
+  <li><a href="https://www.tindie.com/products/silicognition/m4-shim/">Tindie</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Fri, 19 Feb 2021 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/silicognition-m4-shim/</guid>
+  </item><item>
+    <title>RP2040-Shim</title>
+    <link>https://circuitpython.org/board/silicognition-rp2040-shim/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/silicognition-rp2040-shim.jpg 300w,
+               /assets/images/boards/large/silicognition-rp2040-shim.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/silicognition-rp2040-shim.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Silicognition LLC</p> <p>This board is an alternative to the <a href="https://www.amazon.com/M4-Shim-Feather-PoE-FeatherWing-Ultra-Compact-Vertical/dp/B0971PKDV7/">Silicognition M4-Shim</a>, and just like that board it is specifically made to fit on top of the <a href="https://www.amazon.com/Silicognition-PoE-FeatherWing-Ethernet-802-3at-Feather/dp/B08KTVD7BR/">PoE-FeatherWing</a>, filling the empty space around the RJ45 and flyback transformer and allowing the creation of extremely compact Power over Ethernet systems.</p>
+
+<p>Since the ATSAMD51J19 used on the M4-Shim is pretty much unobtainium right now, I needed to provide an alternative, and with good availability and popularity of the <a href="https://www.raspberrypi.com/products/rp2040/">RP2040</a> this chip seemed like a natural choice.  You get dual ARM Cortex-M0+ @ 133 MHz, 264 kB on-chip SRAM, PIO and 4 MB of QSPI flash!</p>
+
+<p>The RP2040 comes with built-in UF2 bootloader, and the board has CircuitPython with Wiznet W5500 drivers pre-installed, plus a <code class="language-plaintext highlighter-rouge">poe_featherwing.py</code> module that sets the Ethernet connection up for you.</p>
+
+<p>A special feature of this board is a custom chip to enable the familiar single-press to reset, double-press for bootloader button!  So from a user experience point of view, it behaves the same as the M4-Shim.</p>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://github.com/xorbit/RP2040-Shim">Hardware Github repo</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 01 Jul 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/silicognition-rp2040-shim/</guid>
   </item><item>
     <title>Simmel Board</title>
     <link>https://circuitpython.org/board/simmel/</link>
