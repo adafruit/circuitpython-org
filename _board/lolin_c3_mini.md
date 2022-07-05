@@ -12,7 +12,7 @@ bootloader_id: lolin_c3_mini
 features:
   - Wi-Fi
   - USB-C
-  - BLE
+  - Bluetooth/BTLE
   - Breadboard-Friendly
 
 ---
