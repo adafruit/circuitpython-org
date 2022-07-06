@@ -33,11 +33,17 @@ def verify_images(folder):
                 img = Image.open(SMALL_IMAGE_PATH + board_image)
                 if not verify_image_size(SMALL_IMAGE_PATH + board_image, SMALL_IMAGE_MIN_WIDTH, SMALL_IMAGE_MAX_WIDTH):
                     valid = False
+            else:
+                print(f"{SMALL_IMAGE_PATH + board_image} not found for {board_id}")
+                valid = False
             large_image_found = os.path.exists(LARGE_IMAGE_PATH + board_image)
             if large_image_found:
                 if not verify_image_size(LARGE_IMAGE_PATH + board_image, LARGE_IMAGE_MIN_WIDTH):
                     valid = False
                 img.close()
+            else:
+                print(f"{LARGE_IMAGE_PATH + board_image} not found for {board_id}")
+                valid = False
             sized_images_missing = not small_image_found and not large_image_found
             if REQUIRE_ORIGINAL_IMAGE or sized_images_missing:
                 if os.path.exists(ORIGINAL_IMAGE_PATH + board_image):
