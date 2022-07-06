@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 05 Jul 2022 13:32:48 -0400</lastBuildDate>
+<lastBuildDate>Tue, 05 Jul 2022 20:55:41 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -6717,6 +6717,63 @@ o   o        o   o
     <category>CircuitPython</category>
     <pubDate>Sat, 13 Feb 2021 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/lilygo_ttgo_t8_s2_st7789/</guid>
+  </item><item>
+    <title>LOLIN C3 Mini</title>
+    <link>https://circuitpython.org/board/lolin_c3_mini/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/lolin_c3_mini.png 300w,
+               /assets/images/boards/large/lolin_c3_mini.png 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/lolin_c3_mini.png" alt="Image of Board" loading="lazy">
+
+<p>By LOLIN</p> <p>A development boards with an OLED and a small form factor.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>based ESP32-C3 WIFI &amp; Bluetooth LE RISC-V Single-Core CPU</li>
+  <li>Type-C USB</li>
+  <li>4MB Flash</li>
+  <li>Clock speed: 160 Mhz</li>
+  <li>12x Digital IO</li>
+  <li>ADC, I2C, SPI, UART</li>
+  <li>Size: 34.3 mm x 25.4 mm</li>
+  <li>Weight: 2.4g</li>
+  <li>Compatible with LOLIN D1 mini shields</li>
+  <li>Compatible with MicroPython, Arduino and ESP-IDF</li>
+  <li>Default firmware: MicroPython</li>
+</ul>
+
+<h2 id="about-wifi">About WIFI</h2>
+
+<p>You need set WIFI Tx Power to 8.5dBm to use WIFI.
+<code class="language-plaintext highlighter-rouge">wifi.radio.tx_power = 8.5</code></p>
+
+<blockquote>
+  <p>Note: This is only available in CircuitPython daily builds since 4 July 2022
+and is not yet in a CircuitPython Major Release.</p>
+</blockquote>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005004005736554.html">AliExpress</a></li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://www.wemos.cc/en/latest/c3/c3_mini.html">Manufacturer Specifications</a></li>
+  <li><a href="https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf">ESP32-C3 Datasheet</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/sch_c3_mini_v1.0.0.pdf">Schematic</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/dim_c3_mini_v1.0.0.pdf">Dimension</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 02 Nov 2021 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lolin_c3_mini/</guid>
   </item><item>
     <title>LOLIN S2 Mini</title>
     <link>https://circuitpython.org/board/lolin_s2_mini/</link>
