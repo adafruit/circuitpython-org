@@ -3,6 +3,13 @@
   grid-row-grap: 1em;
   background-color: #fff;
 
+  .promotion-banner {
+    display: flex;
+    grid-column: full;
+    justify-content: center;
+    background-color: #000;
+  }
+
   .headline-banner {
     grid-column: full;
 
