@@ -12,7 +12,6 @@ blinka: false
 family: esp32c3
 bootloader_id: lolin_c3_mini
 features:
-  - Arduino Shield Compatible
   - Battery Charging
   - Bluetooth/BTLE
   - Breadboard-Friendly
