@@ -21,7 +21,7 @@ versions of this file, in the following sizes and folder locations:
 > [Preparing the Images](https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/preparing-the-images)
 > in the Adafruit Learn guide
 
-5. Create a pull request with the file changes.
+4. Create a pull request with the file changes.
 
 **To test your changes locally:**
 
