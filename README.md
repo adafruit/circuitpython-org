@@ -7,7 +7,7 @@ following Adafruit Learn guide: [How to add a New Board to the circuitpython.org
 
 1. Duplicate `template.md` to `_board/<board id>.md`.
 2. Edit `_board/<board id>.md` according to the template's instructions.
-3. In your `_board/<board id>.md` you will specifigy a `board_image`. Create 3
+3. In your `_board/<board id>.md` you will specify a `board_image`. Create 3
 versions of this file, in the following sizes and folder locations:
 
 |Size|File|Dimensions (px)|
@@ -17,13 +17,10 @@ versions of this file, in the following sizes and folder locations:
 |Large|assets/images/large/{board_image}|800 x 600|
 |Small|assets/images/small/{board_image}|300 x 225|
 
-> For more information on preferred images see
+> For more information on preferred images or if you prefer or must use 13:10 see
 > [Preparing the Images](https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/preparing-the-images)
 > in the Adafruit Learn guide
 
-
-4. Process the in something like https://squoosh.app/ to reduce file size. If
-you only have one image, place it in the 'original' folder.
 5. Create a pull request with the file changes.
 
 **To test your changes locally:**
