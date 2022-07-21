@@ -17,7 +17,7 @@ features:
 
 ---
 
-A development boards with an OLED and a small form factor.
+A mini Wi-Fi & Bluetooth LE board based on ESP32-C3FH4.
 
 ## Features
 
