@@ -813,14 +813,17 @@
   </p>
 
   <p>
-    <em>Note: <b>update.uf2</b> files are not currently working on ESP32-S2 boards.</em>
+    <em>Note: <b>update.uf2</b> files are not currently working on ESP32-S2 or ESP32-S3 boards.</em>
   </p>
 
   <p><strong><em>Important</em></strong>:
     <em>this will erase previously flashed firmware and sketches from the board,
       but needs to be perfomed only once.</em>
   </p>
-
+  <p><em>The instructions here are general.
+      We recommend you consult the manufacturer's board documentation for detailed
+      instructions, which may be different.</em>
+  </p>
  <ul>
   <li>Unzip to find the file <b>combined.bin</b>.</li>
   <li>Place board in bootloader mode:
@@ -846,8 +849,13 @@
   </li>
  </ul>
  <p>
- After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
- Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
+   After installing the UF2 bootloader, enter the bootloader by double-clicking the reset button.
+   On boards with an RGB status LED, tap reset once, wait for the LED to turn purple, and tap
+   again before the purple goes away. On other boards, consult the board documentation.
+   </p>
+ <p>
+   After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
+   Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
  </p>
  <div>
     <a class="download-button" href="https://github.com/adafruit/tinyuf2/releases/download/0.10.2/tinyuf2-adafruit_qtpy_esp32s2-0.10.2.zip">DOWNLOAD BOOTLOADER ZIP<i class="fas fa-download" aria-hidden="true"></i></a>
