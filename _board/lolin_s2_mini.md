@@ -63,7 +63,7 @@ The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form fac
 
 ## Notes
 
-- There is an error on the v1.0 board silkscreen. GPIO12/13 should be reversed.
+- There is an error on the v1.0.0 board silkscreen. GPIO12/13 should be reversed. Error is fixed without version change since late 2021.
 
 ## Learn More
 
