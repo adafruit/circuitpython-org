@@ -16,7 +16,7 @@ import sys
 
 from adabot.lib import common_funcs
 from adabot.lib import circuitpython_library_validators as cpy_vals
-from adabot import github_requests as github
+from adabot import github_requests as gh_reqs
 from adabot import pypi_requests as pypi
 
 logger = logging.getLogger(__name__)
@@ -65,7 +65,7 @@ def get_open_issues_and_prs(repo):
     open_issues = []
     open_pull_requests = []
     params = {"state": "open"}
-    result = github.get("/repos/adafruit/" + repo["name"] + "/issues", params=params)
+    result = gh_reqs.get("/repos/adafruit/" + repo["name"] + "/issues", params=params)
     if not result.ok:
         return [], []
 
@@ -101,7 +101,7 @@ def get_contributors(repo):
     reviewers = []
     merged_pr_count = 0
     params = {"state": "closed", "sort": "updated", "direction": "desc"}
-    result = github.get("/repos/adafruit/" + repo["name"] + "/pulls", params=params)
+    result = gh_reqs.get("/repos/adafruit/" + repo["name"] + "/pulls", params=params)
     if result.ok:
         today_minus_seven = datetime.datetime.today() - datetime.timedelta(days=7)
         pull_requests = result.json()
@@ -121,12 +121,12 @@ def get_contributors(repo):
             merged_pr_count += 1
 
             # get reviewers (merged_by, and any others)
-            single_pr = github.get(pull_request["url"])
+            single_pr = gh_reqs.get(pull_request["url"])
             if not single_pr.ok:
                 continue
             pr_info = single_pr.json()
             reviewers.append(pr_info["merged_by"]["login"])
-            pr_reviews = github.get(str(pr_info["url"]) + "/reviews")
+            pr_reviews = gh_reqs.get(str(pr_info["url"]) + "/reviews")
             if not pr_reviews.ok:
                 continue
             for review in pr_reviews.json():
@@ -158,7 +158,7 @@ def main(
         logger.addHandler(file_handler)
 
     if cache_http:
-        cpy_vals.github.setup_cache(cache_ttl)
+        cpy_vals.gh_reqs.setup_cache(cache_ttl)
 
     repos = common_funcs.list_repos(
         include_repos=(

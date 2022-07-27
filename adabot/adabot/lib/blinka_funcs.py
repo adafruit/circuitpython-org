@@ -4,7 +4,7 @@
 
 """Common functions used with Adabot & Blinka interactions."""
 
-from adabot import github_requests as github
+from adabot import github_requests as gh_reqs
 
 
 def board_count():
@@ -13,7 +13,7 @@ def board_count():
     """
     count = 0
     cirpy_org_url = "/repos/adafruit/circuitpython-org/contents/_blinka"
-    response = github.get(cirpy_org_url)
+    response = gh_reqs.get(cirpy_org_url)
     if response.ok:
         response_json = response.json()
         count = len(response_json)

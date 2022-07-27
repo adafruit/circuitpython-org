@@ -11,7 +11,7 @@ import traceback
 
 import requests
 
-from adabot import github_requests as github
+from adabot import github_requests as gh_reqs
 
 logger = logging.getLogger(__name__)
 ch = logging.StreamHandler(stream=sys.stdout)
@@ -50,7 +50,7 @@ def list_repos():
     repository state.
     """
     repos = []
-    result = github.get(
+    result = gh_reqs.get(
         "/search/repositories",
         params={
             "q": (
@@ -70,7 +70,7 @@ def list_repos():
         )  # uncomment and comment below, to include all forks
 
         if result.links.get("next"):
-            result = github.get(result.links["next"]["url"])
+            result = gh_reqs.get(result.links["next"]["url"])
         else:
             break
 
@@ -124,7 +124,7 @@ def validate_library_properties(repo):
             lib_version = line[len("version=") :]
             break
 
-    get_latest_release = github.get(
+    get_latest_release = gh_reqs.get(
         "/repos/adafruit/" + repo["name"] + "/releases/latest"
     )
     if get_latest_release.ok:
@@ -151,7 +151,7 @@ def validate_release_state(repo):
     if not is_arduino_library(repo):
         return None
 
-    compare_tags = github.get(
+    compare_tags = gh_reqs.get(
         "/repos/" + repo["full_name"] + "/compare/master..." + repo["tag_name"]
     )
     if not compare_tags.ok:
@@ -187,7 +187,7 @@ def validate_actions(repo):
 
 def validate_example(repo):
     """Validate if a repo has any files in examples directory"""
-    repo_has_ino = github.get("/repos/adafruit/" + repo["name"] + "/contents/examples")
+    repo_has_ino = gh_reqs.get("/repos/adafruit/" + repo["name"] + "/contents/examples")
     return repo_has_ino.ok and len(repo_has_ino.json())
 
 

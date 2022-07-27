@@ -18,7 +18,7 @@ import redis as redis_py
 import sh
 from sh.contrib import git
 
-from adabot import github_requests as github
+from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
 
 REDIS = None
@@ -284,7 +284,7 @@ def get_contributors(repo, commit_range):
         author = REDIS.get("github_username:" + author_email)
         committer = REDIS.get("github_username:" + committer_email)
         if not author or not committer:
-            github_commit_info = github.get("/repos/" + repo + "/commits/" + sha)
+            github_commit_info = gh_reqs.get("/repos/" + repo + "/commits/" + sha)
             github_commit_info = github_commit_info.json()
             if github_commit_info["author"]:
                 author = github_commit_info["author"]["login"]
@@ -332,7 +332,7 @@ def new_release(bundle, bundle_path):
     working_directory = os.path.abspath(os.getcwd())
     os.chdir(bundle_path)
     print(bundle)
-    current_release = github.get("/repos/adafruit/{}/releases/latest".format(bundle))
+    current_release = gh_reqs.get("/repos/adafruit/{}/releases/latest".format(bundle))
     last_tag = current_release.json()["tag_name"]
     contributors = get_contributors("adafruit/" + bundle, last_tag + "..")
     added_submodules = []
@@ -430,7 +430,7 @@ def new_release(bundle, bundle_path):
 
     print("Releasing {}".format(release["tag_name"]))
     print(release["body"])
-    response = github.post("/repos/adafruit/" + bundle + "/releases", json=release)
+    response = gh_reqs.post("/repos/adafruit/" + bundle + "/releases", json=release)
     if not response.ok:
         print("Failed to create release")
         print(release)

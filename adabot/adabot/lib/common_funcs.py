@@ -12,7 +12,7 @@ import datetime
 import os
 import re
 import requests
-from adabot import github_requests as github
+from adabot import github_requests as gh_reqs
 from adabot import pypi_requests as pypi
 
 CORE_REPO_URL = "/repos/adafruit/circuitpython"
@@ -37,7 +37,7 @@ def parse_gitmodules(input_text):
     values in double quotes are completely lost.  A very basic regular
     expression-based parsing logic is used here to parse the data.  This parsing
     is far from perfect and does not handle escaping quotes, line continuations
-    (when a line ends in '\;'), etc.  Unfortunately the git config format is
+    (when a line ends in '\\;'), etc.  Unfortunately the git config format is
     surprisingly complex and no mature parsing modules are available (outside
     the code in git itself).
     """
@@ -165,7 +165,7 @@ def list_repos(*, include_repos=None):
                                       are included.
     """
     repos = []
-    result = github.get(
+    result = gh_reqs.get(
         "/search/repositories",
         params={
             "q": "Adafruit_CircuitPython user:adafruit archived:false fork:true",
@@ -190,21 +190,21 @@ def list_repos(*, include_repos=None):
         )
 
         if result.links.get("next"):
-            result = github.get(result.links["next"]["url"])
+            result = gh_reqs.get(result.links["next"]["url"])
         else:
             break
 
     repo_names = [repo["name"] for repo in repos]
 
     if "circuitpython" not in repo_names:
-        core = github.get(CORE_REPO_URL)
+        core = gh_reqs.get(CORE_REPO_URL)
         if core.ok:
             repos.append(core.json())
 
     if include_repos:
         for repo in include_repos:
             if repo not in repo_names:
-                add_repo = github.get("/repos/adafruit/" + repo)
+                add_repo = gh_reqs.get("/repos/adafruit/" + repo)
                 if add_repo.ok:
                     repos.append(add_repo.json())
                 else:
@@ -247,7 +247,7 @@ def is_new_or_updated(repo):
     today_minus_seven = datetime.datetime.today() - datetime.timedelta(days=7)
 
     # first, check the latest release to see if within the last 7 days
-    result = github.get("/repos/adafruit/" + repo["name"] + "/releases/latest")
+    result = gh_reqs.get("/repos/adafruit/" + repo["name"] + "/releases/latest")
     if not result.ok:
         return None
     release_info = result.json()
@@ -262,7 +262,7 @@ def is_new_or_updated(repo):
 
     # we have a release within the last 7 days. now check if its a newly
     # released library within the last week, or if its just an update
-    result = github.get("/repos/adafruit/" + repo["name"] + "/releases")
+    result = gh_reqs.get("/repos/adafruit/" + repo["name"] + "/releases")
     if not result.ok:
         return None
 
@@ -291,7 +291,7 @@ def whois_github_user():
     if "GITHUB_ACTOR" in os.environ:
         user = os.environ["GITHUB_ACTOR"]
     else:
-        user = github.get("/user").json()["login"]
+        user = gh_reqs.get("/user").json()["login"]
 
     return user
 

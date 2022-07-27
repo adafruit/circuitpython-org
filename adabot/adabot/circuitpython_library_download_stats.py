@@ -13,7 +13,7 @@ import traceback
 import operator
 import requests
 
-from adabot import github_requests as github
+from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
 
 # Setup ArgumentParser
@@ -107,7 +107,7 @@ def get_bundle_stats(bundle):
     that tag name(s) will be the date (YYYYMMDD).
     """
     stats_dict = {}
-    bundle_stats = github.get("/repos/adafruit/" + bundle + "/releases")
+    bundle_stats = gh_reqs.get("/repos/adafruit/" + bundle + "/releases")
     if not bundle_stats.ok:
         return {"Failed to retrieve bundle stats": bundle_stats.text}
     start_date = datetime.date.today()

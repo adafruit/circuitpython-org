@@ -10,9 +10,11 @@ errors, across the entire CirtuitPython library ecosystem."""
 import datetime
 from io import StringIO
 import json
+import os
 import logging
 import pathlib
 import re
+import time
 from tempfile import TemporaryDirectory
 
 from packaging.version import parse as pkg_version_parse
@@ -26,10 +28,14 @@ import sh
 from sh.contrib import git
 
 import yaml
+import parse
 
-from adabot import github_requests as github
+import github as pygithub
+from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
 from adabot.lib import assign_hacktober_label as hacktober
+
+GH_INTERFACE = pygithub.Github(os.environ["ADABOT_GITHUB_ACCESS_TOKEN"])
 
 
 class CapturedJsonReporter(JSONReporter):
@@ -106,18 +112,11 @@ ERROR_UNABLE_PULL_REPO_DETAILS = "Unable to pull repo details"
 ERRRO_UNABLE_PULL_REPO_EXAMPLES = "Unable to retrieve examples folder contents"
 ERROR_WIKI_DISABLED = "Wiki should be disabled"
 ERROR_ONLY_ALLOW_MERGES = "Only allow merges, disallow rebase and squash"
-ERROR_RTD_SUBPROJECT_FAILED = "Failed to list CircuitPython subprojects on ReadTheDocs"
 ERROR_RTD_SUBPROJECT_MISSING = "ReadTheDocs missing as a subproject on CircuitPython"
 ERROR_RTD_ADABOT_MISSING = "ReadTheDocs project missing adabot as owner"
-ERROR_RTD_VALID_VERSIONS_FAILED = "Failed to fetch ReadTheDocs valid versions"
-ERROR_RTD_FAILED_TO_LOAD_BUILDS = "Unable to load builds webpage"
-ERROR_RTD_FAILED_TO_LOAD_BUILD_INFO = "Failed to load build info"
+ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS = "Failed to load build status"
+ERROR_RTD_SUBPROJECT_FAILED = "Failed to list CircuitPython subprojects on ReadTheDocs"
 ERROR_RTD_OUTPUT_HAS_WARNINGS = "ReadTheDocs latest build has warnings and/or errors"
-ERROR_RTD_AUTODOC_FAILED = (
-    "Autodoc failed on ReadTheDocs. (Likely need to automock an import.)"
-)
-ERROR_RTD_SPHINX_FAILED = "Sphinx missing files"
-ERROR_GITHUB_RELEASE_FAILED = "Failed to fetch latest release from GitHub"
 ERROR_GITHUB_NO_RELEASE = "Library repository has no releases"
 ERROR_GITHUB_COMMITS_SINCE_LAST_RELEASE_GTM = (
     "Library has new commits since last release over a month ago"
@@ -223,9 +222,9 @@ class LibraryValidator:
         if self._rtd_yaml_base is None:
             rtd_yml_dl_url = (
                 "https://raw.githubusercontent.com/adafruit/cookiecutter-adafruit-"
-                "circuitpython/main/%7B%7B%20cookiecutter%20and%20'tmp_repo'%20%7D"
-                "%7D/%7B%25%20if%20cookiecutter.sphinx_docs%20in%20%5B'y'%2C%20'yes'"
-                "%5D%20%25%7D.readthedocs.yaml%7B%25%20endif%20%25%7D"
+                "circuitpython/main/%7B%7B%20cookiecutter.__dirname%20%7D%7D/%7B%25"
+                "%20if%20cookiecutter.sphinx_docs%20in%20%5B'y'%2C%20'yes'%5D%20%25"
+                "%7D.readthedocs.yaml%7B%25%20endif%20%25%7D"
             )
             rtd_yml = requests.get(rtd_yml_dl_url)
             if rtd_yml.ok:
@@ -276,7 +275,7 @@ class LibraryValidator:
         if repo_missing_some_keys:
             # only call the API if the passed in `repo` doesn't have what
             # we need.
-            response = github.get("/repos/" + repo["full_name"])
+            response = gh_reqs.get("/repos/" + repo["full_name"])
             if not response.ok:
                 return [ERROR_UNABLE_PULL_REPO_DETAILS]
             repo_fields = response.json()
@@ -314,24 +313,20 @@ class LibraryValidator:
         has passed.
         Just returns a message stating that the most recent run failed.
         """
+
         if not (
             repo["owner"]["login"] == "adafruit"
             and repo["name"].startswith("Adafruit_CircuitPython")
         ):
             return []
 
-        actions_params = {"branch": repo["default_branch"]}
-        response = github.get(
-            "/repos/" + repo["full_name"] + "/actions/runs", params=actions_params
-        )
-
-        if not response.ok:
+        try:
+            repo_obj = GH_INTERFACE.get_repo("Adafruit/" + repo["full_name"])
+            workflow = repo_obj.get_workflow("build.yml")
+            workflow_runs = workflow.get_runs(branch="main")
+            return [] if workflow_runs[0].conclusion else [ERROR_GITHUB_FAILING_ACTIONS]
+        except pygithub.GithubException:
             return [ERROR_UNABLE_PULL_REPO_DETAILS]
-
-        workflow_runs = response.json()["workflow_runs"]
-        if workflow_runs and workflow_runs[0]["conclusion"] == "failure":
-            return [ERROR_GITHUB_FAILING_ACTIONS]
-        return []
 
     # pylint: disable=too-many-locals,too-many-return-statements,too-many-branches
     def validate_release_state(self, repo):
@@ -372,7 +367,7 @@ class LibraryValidator:
         if repo["name"] in BUNDLE_IGNORE_LIST:
             return []
 
-        repo_last_release = github.get(
+        repo_last_release = gh_reqs.get(
             "/repos/" + repo["full_name"] + "/releases/latest"
         )
         if not repo_last_release.ok:
@@ -391,7 +386,7 @@ class LibraryValidator:
 
         tag_name = repo_release_json.get("tag_name", "")
         main_branch = repo["default_branch"]
-        compare_tags = github.get(
+        compare_tags = gh_reqs.get(
             f"/repos/{repo['full_name']}/compare/{tag_name}...{main_branch}"
         )
         if not compare_tags.ok:
@@ -623,7 +618,7 @@ class LibraryValidator:
         if repo["name"] == BUNDLE_REPO_NAME:
             return []
 
-        content_list = github.get("/repos/" + repo["full_name"] + "/contents/")
+        content_list = gh_reqs.get("/repos/" + repo["full_name"] + "/contents/")
         empty_repo = False
         if not content_list.ok:
             # Empty repos return:
@@ -691,7 +686,7 @@ class LibraryValidator:
 
             if build_yml_url:
                 build_yml_url = build_yml_url + "/workflows/build.yml"
-                response = github.get(build_yml_url)
+                response = gh_reqs.get(build_yml_url)
                 if response.ok:
                     actions_build_info = response.json()
 
@@ -750,7 +745,7 @@ class LibraryValidator:
             while dirs:
                 # loop through the results to ensure we capture files
                 # in subfolders, and add any files in the current directory
-                result = github.get(dirs.pop(0))
+                result = gh_reqs.get(dirs.pop(0))
                 if not result.ok:
                     errors.append(ERROR_UNABLE_PULL_REPO_EXAMPLES)
                     break
@@ -818,7 +813,7 @@ class LibraryValidator:
         for adir in dirs:
             if re_str.fullmatch(adir):
                 # retrieve the files in that directory
-                dir_file_list = github.get(
+                dir_file_list = gh_reqs.get(
                     "/repos/" + repo["full_name"] + "/contents/" + adir
                 )
                 if not dir_file_list.ok:
@@ -838,7 +833,8 @@ class LibraryValidator:
         return errors
 
     def validate_readthedocs(self, repo):
-        """Method to check the health of `repo`'s ReadTheDocs."""
+        """Method to check the status of `repo`'s ReadTheDocs."""
+
         if not (
             repo["owner"]["login"] == "adafruit"
             and repo["name"].startswith("Adafruit_CircuitPython")
@@ -857,7 +853,6 @@ class LibraryValidator:
                 self.rtd_subprojects[
                     common_funcs.sanitize_url(subproject["repo"])
                 ] = subproject
-
         repo_url = common_funcs.sanitize_url(repo["clone_url"])
         if repo_url not in self.rtd_subprojects:
             return [ERROR_RTD_SUBPROJECT_MISSING]
@@ -868,81 +863,38 @@ class LibraryValidator:
         if 105398 not in subproject["users"]:
             errors.append(ERROR_RTD_ADABOT_MISSING)
 
-        valid_versions = requests.get(
-            "https://readthedocs.org/api/v2/project/{}/active_versions/".format(
-                subproject["id"]
-            ),
-            timeout=15,
-        )
-        if not valid_versions.ok:
-            errors.append(ERROR_RTD_VALID_VERSIONS_FAILED)
-        else:
-            valid_versions = valid_versions.json()
-            latest_release = github.get(
-                "/repos/{}/releases/latest".format(repo["full_name"])
-            )
-            if not latest_release.ok:
-                errors.append(ERROR_GITHUB_RELEASE_FAILED)
-            # disabling this for now, since it is ignored and always fails
-            # else:
-            #    if (
-            #       latest_release.json()["tag_name"] not in
-            #       [tag["verbose_name"] for tag in valid_versions["versions"]]
-            #   ):
-            #        errors.append(ERROR_RTD_MISSING_LATEST_RELEASE)
+        # Get the README file contents
+        try:
+            lib_repo = GH_INTERFACE.get_repo("Adafruit/" + repo["full_name"])
+        except pygithub.GithubException:
+            errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS)
+            return errors
+        content_file = lib_repo.get_contents("README.rst")
+        readme_text = content_file.decoded_content.decode("utf-8")
 
-        # There is no API which gives access to a list of builds for a project so we parse the html
-        # webpage.
-        builds_webpage = requests.get(
-            "https://readthedocs.org/projects/{}/builds/".format(subproject["slug"]),
-            timeout=15,
+        # Parse for the ReadTheDocs slug
+        search_results: parse.Result = parse.search(
+            "https://readthedocs.org/projects/{slug:S}/badge", readme_text
         )
-        # pylint: disable=too-many-nested-blocks
-        # TODO: look into reducing the number of nested blocks.
-        if not builds_webpage.ok:
-            errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILDS)
-        else:
-            for line in builds_webpage.text.split("\n"):
-                if '<div id="build-' in line:
-                    build_id = line.split('"')[1][len("build-") :]
-                # We only validate the most recent, latest build. So, break when the first "version
-                # latest" found. Its in the page after the build id.
-                if "version latest" in line:
-                    break
-            build_info = requests.get(
-                "https://readthedocs.org/api/v2/build/{}/".format(build_id), timeout=15
-            )
-            if not build_info.ok:
-                errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_INFO)
-            else:
-                build_info = build_info.json()
-                output_ok = True
-                autodoc_ok = True
-                sphinx_ok = True
-                for command in build_info["commands"]:
-                    if command["command"].endswith("_build/html"):
-                        for line in command["output"].split("\n"):
-                            if "... " in line:
-                                _, line = line.split("... ")
-                            if "WARNING" in line or "ERROR" in line:
-                                if not line.startswith(("WARNING", "ERROR")):
-                                    line = line.split(" ", 1)[1]
-                                if not line.startswith(RTD_IGNORE_NOTICES):
-                                    output_ok = False
-                            elif line.startswith("ImportError"):
-                                autodoc_ok = False
-                            elif line.startswith("sphinx.errors") or line.startswith(
-                                "SphinxError"
-                            ):
-                                sphinx_ok = False
-                        break
-                if not output_ok:
-                    errors.append(ERROR_RTD_OUTPUT_HAS_WARNINGS)
-                if not autodoc_ok:
-                    errors.append(ERROR_RTD_AUTODOC_FAILED)
-                if not sphinx_ok:
-                    errors.append(ERROR_RTD_SPHINX_FAILED)
+        rtd_slug: str = search_results.named["slug"]
+        rtd_slug = rtd_slug.replace("_", "-", -1)
 
+        # GET the latest documentation build runs
+        url = f"https://readthedocs.org/api/v3/projects/{rtd_slug}/builds/"
+        rtd_token = os.environ["RTD_TOKEN"]
+        headers = {"Authorization": f"token {rtd_token}"}
+        response = requests.get(url, headers=headers)
+        json_response = response.json()
+
+        # Return the results of the latest run
+        doc_build_results = json_response.get("results")
+        if doc_build_results is None:
+            errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS)
+            return errors
+        result = doc_build_results[0].get("success")
+        time.sleep(3)
+        if not result:
+            errors.append(ERROR_RTD_OUTPUT_HAS_WARNINGS)
         return errors
 
     def validate_core_driver_page(self, repo):
@@ -984,7 +936,7 @@ class LibraryValidator:
     def github_get_all_pages(self, url, params):
         """Retrieves all paginated results from the GitHub `url`."""
         results = []
-        response = github.get(url, params=params)
+        response = gh_reqs.get(url, params=params)
 
         if not response.ok:
             self.output_file_data.append(f"Github request failed: {url}")
@@ -994,7 +946,7 @@ class LibraryValidator:
             results.extend(response.json())
 
             if response.links.get("next"):
-                response = github.get(response.links["next"]["url"])
+                response = gh_reqs.get(response.links["next"]["url"])
             else:
                 break
 
@@ -1027,7 +979,7 @@ class LibraryValidator:
                 issue["created_at"], "%Y-%m-%dT%H:%M:%SZ"
             )
             if "pull_request" in issue:
-                pr_info = github.get(issue["pull_request"]["url"])
+                pr_info = gh_reqs.get(issue["pull_request"]["url"])
                 pr_info = pr_info.json()
                 if issue["state"] == "open":
                     if created > since:
@@ -1064,7 +1016,7 @@ class LibraryValidator:
 
                         pr_author = pr_info["user"]["login"]
                         if pr_author == "weblate":
-                            pr_commits = github.get(str(pr_info["url"]) + "/commits")
+                            pr_commits = gh_reqs.get(str(pr_info["url"]) + "/commits")
                             if pr_commits.ok:
                                 for commit in pr_commits.json():
                                     author = commit.get("author")
@@ -1076,7 +1028,7 @@ class LibraryValidator:
                             insights["pr_merged_authors"].add(pr_info["user"]["login"])
 
                         insights["pr_reviewers"].add(pr_info["merged_by"]["login"])
-                        pr_reviews = github.get(str(pr_info["url"]) + "/reviews")
+                        pr_reviews = gh_reqs.get(str(pr_info["url"]) + "/reviews")
                         if pr_reviews.ok:
                             for review in pr_reviews.json():
                                 if review["state"].lower() == "approved":
@@ -1086,7 +1038,7 @@ class LibraryValidator:
                     else:
                         insights["closed_prs"] += 1
             else:
-                issue_info = github.get(issue["url"])
+                issue_info = gh_reqs.get(issue["url"])
                 issue_info = issue_info.json()
                 if issue["state"] == "open":
                     if created > since:
@@ -1145,7 +1097,7 @@ class LibraryValidator:
         # get milestones for core repo
         if repo["name"] == "circuitpython":
             params = {"state": "open"}
-            response = github.get(
+            response = gh_reqs.get(
                 "/repos/adafruit/circuitpython/milestones", params=params
             )
             if not response.ok:
@@ -1175,7 +1127,7 @@ class LibraryValidator:
 
     def validate_labels(self, repo):
         """ensures the repo has the standard labels available"""
-        response = github.get("/repos/" + repo["full_name"] + "/labels")
+        response = gh_reqs.get("/repos/" + repo["full_name"] + "/labels")
         if not response.ok:
             # replace 'output_handler' with ERROR_OUTPUT_HANDLER
             self.output_file_data.append(
@@ -1190,7 +1142,7 @@ class LibraryValidator:
         has_all_labels = True
         for label, info in STD_REPO_LABELS.items():
             if not label in repo_labels:
-                response = github.post(
+                response = gh_reqs.post(
                     "/repos/" + repo["full_name"] + "/labels",
                     json={"name": label, "color": info["color"]},
                 )

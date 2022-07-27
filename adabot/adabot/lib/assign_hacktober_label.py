@@ -11,7 +11,7 @@ import argparse
 import datetime
 import requests
 
-from adabot import github_requests as github
+from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
 
 cli_args = argparse.ArgumentParser(description="Hacktoberfest Label Assigner")
@@ -61,7 +61,7 @@ def get_open_issues(repo):
     params = {
         "state": "open",
     }
-    response = github.get("/repos/" + repo["full_name"] + "/issues", params=params)
+    response = gh_reqs.get("/repos/" + repo["full_name"] + "/issues", params=params)
     if not response.ok:
         print(f"Failed to retrieve issues for '{repo['name']}'")
         return False
@@ -84,7 +84,7 @@ def ensure_hacktober_label_exists(repo, dry_run=False):
     """Checks if the 'Hacktoberfest' label exists on the repo.
     If not, creates the label.
     """
-    response = github.get(f"/repos/{repo['full_name']}/labels")
+    response = gh_reqs.get(f"/repos/{repo['full_name']}/labels")
     if not response.ok:
         print(f"Failed to retrieve labels for '{repo['name']}'")
         return False
@@ -99,7 +99,7 @@ def ensure_hacktober_label_exists(repo, dry_run=False):
             "description": "DigitalOcean's Hacktoberfest",
         }
         if not dry_run:
-            result = github.post(f"/repos/{repo['full_name']}/labels", json=params)
+            result = gh_reqs.post(f"/repos/{repo['full_name']}/labels", json=params)
             if not result.status_code == 201:
                 print(f"Failed to create new Hacktoberfest label for: {repo['name']}")
                 return False
@@ -139,7 +139,7 @@ def assign_hacktoberfest(repo, issues=None, remove_labels=False, dry_run=False):
             label_names.append("Hacktoberfest")
             params = {"labels": label_names}
             if not dry_run:
-                result = github.patch(
+                result = gh_reqs.patch(
                     f"/repos/{repo['full_name']}/issues/{str(issue['number'])}",
                     json=params,
                 )

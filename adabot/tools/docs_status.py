@@ -16,6 +16,7 @@ in the Adafruit CircuitPython Bundle
 
 from typing import Any, Optional
 import argparse
+import time
 import parse
 import requests
 from github.Repository import Repository
@@ -26,7 +27,9 @@ from iterate_libraries import (
 )
 
 
-def check_docs_status(lib_repo: Repository, rtd_token: str) -> Optional[bool]:
+def check_docs_status(
+    lib_repo: Repository, rtd_token: str, *, debug: bool = True
+) -> Optional[bool]:
     """Checks a library for  the latest documentation build status with the
     requested information
 
@@ -38,10 +41,14 @@ def check_docs_status(lib_repo: Repository, rtd_token: str) -> Optional[bool]:
     :param str gh_token: The Github token to be used for with the Github
         API
     :param str rtd_token: A ReadTheDocs API token with sufficient privileges
+    :param bool debug: Whether to use debug print statements
     :return: Whether the documentation built successfully; returns None if it
         could not be determined
     :rtype: bool|None
     """
+
+    if debug:
+        print("Checking", lib_repo.name)
 
     # Get the README file contents
     content_file: ContentFile = lib_repo.get_contents("README.rst")
@@ -51,7 +58,8 @@ def check_docs_status(lib_repo: Repository, rtd_token: str) -> Optional[bool]:
     search_results: parse.Result = parse.search(
         "https://readthedocs.org/projects/{slug:S}/badge", readme_text
     )
-    rtd_slug = search_results.named["slug"]
+    rtd_slug: str = search_results.named["slug"]
+    rtd_slug = rtd_slug.replace("_", "-", -1)
 
     # GET the latest documentation build runs
     url = f"https://readthedocs.org/api/v3/projects/{rtd_slug}/builds/"
@@ -65,7 +73,11 @@ def check_docs_status(lib_repo: Repository, rtd_token: str) -> Optional[bool]:
     )
     if doc_build_results is None:
         return None
-    return doc_build_results[0].get("success")
+    result = doc_build_results[0].get("success")
+    if debug and not result:
+        print(f"RTD build failed or unavailable for {lib_repo.name}")
+    time.sleep(3)
+    return result
 
 
 def check_docs_statuses(
@@ -89,7 +101,7 @@ def check_docs_statuses(
     """
 
     return iter_remote_bundle_with_func(
-        gh_token, [(check_docs_status, (rtd_token,), {})]
+        gh_token, [(check_docs_status, (rtd_token,), {"debug": True})]
     )
 
 
@@ -111,7 +123,7 @@ if __name__ == "__main__":
     fail_list = [
         repo_name.name
         for repo_name, repo_results in results
-        if repo_results[0] == False  # pylint: disable=singleton-comparison
+        if not repo_results[0]  # pylint: disable=singleton-comparison
     ]
 
     if fail_list:

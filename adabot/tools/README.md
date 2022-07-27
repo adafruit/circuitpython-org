@@ -58,3 +58,10 @@ Must be run from top-level directory (i.e. one up from this one).
 Run with:
 `python3 runner.py`
 and then type in the number you want to run.
+
+
+#### file_compare.py
+
+Functionality to compare a file across all Adafruit CircuitPython repos
+and output the text of the files along with which and how many repos use that
+exact file text.

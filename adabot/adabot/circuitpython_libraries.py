@@ -13,7 +13,7 @@ import re
 import sys
 import traceback
 
-from adabot import github_requests as github
+from adabot import github_requests as gh_reqs
 from adabot import pypi_requests as pypi
 from adabot.lib import circuitpython_library_validators as cirpy_lib_vals
 from adabot.lib import common_funcs
@@ -307,7 +307,7 @@ def print_circuitpython_dl_stats():
     #       enable this.
 
     try:
-        response = github.get("/repos/adafruit/circuitpython/releases")
+        response = gh_reqs.get("/repos/adafruit/circuitpython/releases")
     except (ValueError, RuntimeError):
         logger.info("Core CircuitPython GitHub download statistics request failed.")
         return
