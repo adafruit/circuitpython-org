@@ -72,6 +72,15 @@ The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form fac
 * [Dimensions](https://www.wemos.cc/en/latest/_static/files/dim_s2_mini_v1.0.0.pdf)
 * [Factory MicroPython firmware](https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_micropython_s2.html)
 
+## Enter bootloader
+
+To enter UF2 Bootloader Version 0.10.2:
+* Click reset button 
+* Wait until LED is lit
+* Hold BOOT button
+
+Be sure not to hold BOOT button when RESET button is pressed.
+
 ## Purchase
 
 * [AliExpress](https://www.aliexpress.com/item/1005003145192016.html)
