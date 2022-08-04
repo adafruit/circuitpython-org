@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 04 Aug 2022 06:05:24 -0400</lastBuildDate>
+<lastBuildDate>Thu, 04 Aug 2022 11:34:19 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -6990,6 +6990,17 @@ and is not yet in a CircuitPython Major Release.</p>
   <li><a href="https://www.wemos.cc/en/latest/_static/files/dim_s2_mini_v1.0.0.pdf">Dimensions</a></li>
   <li><a href="https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_micropython_s2.html">Factory MicroPython firmware</a></li>
 </ul>
+
+<h2 id="enter-bootloader">Enter bootloader</h2>
+
+<p>To enter UF2 Bootloader Version 0.10.2:</p>
+<ul>
+  <li>Click reset button</li>
+  <li>Wait until LED is lit</li>
+  <li>Hold BOOT button</li>
+</ul>
+
+<p>Be sure not to hold BOOT button when RESET button is pressed.</p>
 
 <h2 id="purchase">Purchase</h2>
 
