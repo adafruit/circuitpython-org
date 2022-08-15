@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 15 Aug 2022 12:32:32 -0400</lastBuildDate>
+<lastBuildDate>Mon, 15 Aug 2022 14:10:50 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -40,7 +40,7 @@
     <pubDate>Tue, 24 Mar 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/8086_commander/</guid>
   </item><item>
-    <title>Seeed XIAO nRF52840 Sense</title>
+    <title>Seeed Studio XIAO nRF52840 Sense</title>
     <link>https://circuitpython.org/board/Seeed_XIAO_nRF52840_Sense/</link>
     <description><![CDATA[ 
 
@@ -50,9 +50,11 @@
               300px"
        src="/assets/images/boards/original/Seeed_XIAO_nRF52840_Sense.jpg" alt="Image of Board" loading="lazy">
 
-<p>By SEEED</p> <p>Seeed XIAO BLE Sense has equipped a powerful Nordic nRF52840 MCU which is designed in a Bluetooth 5.0 module, built around 32-bit ARM® Cortex™-M4 CPU with Floating-Point Unit(FPU) operating at 64Mhz. With the capabilities of wireless connection, it still remains the Seeed XIAO series classic form-factor of small and exquisite which can be used for wearable devices and Internet of Things projects. Furthermore, it only costs 5 μA in the deep sleep model and it supports battery charge management because of the BQ25101 chip. 
-In addition, it carries two extra onboard sensors. One of them is a digital microphone created through Pulse Density Modulation(PDM) module on the nRF52840 chip. It can receive audio data in real-time which allows it can be used for audio recognition. The board not only receives audio data but also can speak through the MSM261D3526H1CPM microphone. The other one is 6-axis Inertial Measurement Unit(IMU) which can be applied in TinyML projects like gesture recognition. These onboard sensors provide a great convenience for users and the ultra-small size feature of the board has still remained. 
-Seeed XIAO BLE Sense contains a wealthy interface. The first thing to note is that the Near Field Communication(NFC) is functional on the board. Secondly, there is a tiny and elegant reset button on one side of the Type-C interface. On the other side, it is designed in a three-in-one LED along with a power LED. There are 11 digital i/o that can be used as PWM pins and 6 analog i/o that can be used as ADC pins. It supports UART, IIC, and SPI all three common serial ports. Same as Seeed XIAO RP2040, it has an onboard 2 MB flash which means it can also be programmed by Arduino, MicroPython, CircuitPython, or other program languages.</p>
+<p>By Seeed Studio</p> <p>Seeed Studio XIAO nRF52840 Sense has equipped a powerful Nordic nRF52840 MCU which is designed in a Bluetooth 5.0 module, built around 32-bit ARM® Cortex™-M4 CPU with Floating-Point Unit(FPU) operating at 64Mhz. With the capabilities of wireless connection, it still remains the Seeed Studio XIAO series classic form-factor of small and exquisite which can be used for wearable devices and Internet of Things projects. Furthermore, it only costs 5 μA in the deep sleep model and it supports battery charge management because of the BQ25101 chip.</p>
+
+<p>In addition, it carries two extra onboard sensors. One of them is a digital microphone created through Pulse Density Modulation(PDM) module on the nRF52840 chip. It can receive audio data in real-time which allows it can be used for audio recognition. The board not only receives audio data but also can speak through the MSM261D3526H1CPM microphone. The other one is 6-axis Inertial Measurement Unit(IMU) which can be applied in TinyML projects like gesture recognition. These onboard sensors provide a great convenience for users and the ultra-small size feature of the board has still remained.</p>
+
+<p>Seeed Studio XIAO nRF52840 Sense contains a wealthy interface. The first thing to note is that the Near Field Communication(NFC) is functional on the board. Secondly, there is a tiny and elegant reset button on one side of the Type-C interface. On the other side, it is designed in a three-in-one LED along with a power LED. There are 11 digital i/o that can be used as PWM pins and 6 analog i/o that can be used as ADC pins. It supports UART, IIC, and SPI all three common serial ports. Same as Seeed Studio XIAO RP2040, it has an onboard 2 MB flash which means it can also be programmed by Arduino, MicroPython, CircuitPython, or other program languages.</p>
 
 <ul>
   <li>Bluetooth 5.0</li>
@@ -10440,7 +10442,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
               300px"
        src="/assets/images/boards/original/seeeduino_wio_terminal.jpg" alt="Image of Board" loading="lazy">
 
-<p>By SEEED</p> <p>Instead of being a single embedded functional module, <strong>Wio Terminal</strong> is more of a complete system equipped with Screen + Development Board + Input/Output Interface + Enclosure. Because it uses the SAMD51, it is compatible with Arduino and CircuitPython - using the same Arduino &amp; CircuitPython core we have developed here at Adafruit!</p>
+<p>By Seeed Studio</p> <p>Instead of being a single embedded functional module, <strong>Wio Terminal</strong> is more of a complete system equipped with Screen + Development Board + Input/Output Interface + Enclosure. Because it uses the SAMD51, it is compatible with Arduino and CircuitPython - using the same Arduino &amp; CircuitPython core we have developed here at Adafruit!</p>
 
 <p><strong>Wio Terminal</strong> is an <strong>ATSAMD51-based</strong> microcontroller with wireless connectivity supported by <strong>Realtek RTL8720DN</strong>. Its CPU speed runs at <strong>120MHz (boost up to 200MHz)</strong>. Realtek RTL8720DN chip supports both Bluetooth and Wi-Fi providing the backbone for IoT projects. The Wio Terminal itself is equipped with a <strong>2.4” LCD Screen, onboard accelerometer (LIS3DHTR), microphone, buzzer, microSD card slot, light sensor, and infrared emitter (IR 940nm)</strong>. On top of that, it also has two x JST PH 4-pin STEMMA / Grove ports for Grove Ecosystem and 40-pin compatible GPIO for more Raspberry Pi add-ons.</p>
 
@@ -10506,7 +10508,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <pubDate>Fri, 03 Jul 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/seeeduino_wio_terminal/</guid>
   </item><item>
-    <title>Seeeduino XIAO</title>
+    <title>Seeed Studio XIAO SAMD21</title>
     <link>https://circuitpython.org/board/seeeduino_xiao/</link>
     <description><![CDATA[ 
 
@@ -10516,7 +10518,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
               300px"
        src="/assets/images/boards/original/seeeduino_xiao.jpg" alt="Image of Board" loading="lazy">
 
-<p>By SEEED</p> <p>SEEED Studio’s Seeeduino XIAO is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256 KB Flash and 32 KB SRAM. The board is 20 mm x 17.5 mm in size which is perfect for wearable devices and small projects. It has multiple interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It’s compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.</p>
+<p>By Seeed Studio</p> <p>Seeed Studio XIAO SAMD21 is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256 KB Flash and 32 KB SRAM. The board is 20 mm x 17.5 mm in size which is perfect for wearable devices and small projects. It has multiple interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It’s compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.</p>
 
 <h2 id="technical-details">Technical details</h2>
 
@@ -10566,7 +10568,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
               300px"
        src="/assets/images/boards/original/seeeduino_xiao.jpg" alt="Image of Board" loading="lazy">
 
-<p>By SEEED</p> <h1 id="keyboard-optimized">Keyboard Optimized</h1>
+<p>By Seeed Studio</p> <h1 id="keyboard-optimized">Keyboard Optimized</h1>
 
 <p>Due to the limited memory and flash of the ATSAMD21G18, an optimized build of CircuitPython is needed for keyboard/keypad/macropad projects.  The following modules are made available:</p>
 
@@ -10625,7 +10627,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <pubDate>Thu, 07 Oct 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/seeeduino_xiao_kb/</guid>
   </item><item>
-    <title>Seeeduino XIAO RP2040</title>
+    <title>Seeed Studio XIAO RP2040</title>
     <link>https://circuitpython.org/board/seeeduino_xiao_rp2040/</link>
     <description><![CDATA[ 
 
@@ -10635,9 +10637,9 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
               300px"
        src="/assets/images/boards/original/seeeduino_xiao_rp2040.jpg" alt="Image of Board" loading="lazy">
 
-<p>By SEEED</p> <p>XIAO RP2040 is a microcontroller using the Raspberry RP2040 chip. It runs at up to 133 MHz, is built with rich interfaces in a tiny thumb size, and fully supports Arduino, MicroPython, and CircuitPython.</p>
+<p>By Seeed Studio</p> <p>Seeed Studio XIAO RP2040 is a microcontroller using the Raspberry RP2040 chip. It runs at up to 133 MHz, is built with rich interfaces in a tiny thumb size, and fully supports Arduino, MicroPython, and CircuitPython.</p>
 
-<p>The XIAO RP2040 is a development board of the Seeeduino XIAO series. Like the Seeeduino XIAO, it is a compact board with a wide range of interfaces. The XIAO RP2040 is equipped with the Raspberry RP2040 chip (Dual-core ARM® Cortex® M0+) and has 2 MB of Flash on board.</p>
+<p>The XIAO RP2040 is a development board of the Seeed Studio XIAO series. Like the Seeed Studio XIAO SAMD21, it is a compact board with a wide range of interfaces. The XIAO RP2040 is equipped with the Raspberry RP2040 chip (Dual-core ARM® Cortex® M0+) and has 2 MB of Flash on board.</p>
 
 <p>Interfaces:</p>
 
@@ -10653,7 +10655,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
 
 <p>Some PINs have various functions, Moreover, XIAO RP2040 supports the USB-C interface which can supply power and download code. 1 Reset button, 1 BOOT button, 1 user-programmable RGB LED, 1 power LED, 2 status indicators, and 1 user LED are on board, allowing developers to debug their code very easily.</p>
 
-<p>The XIAO RP2040 is very compact because all electronic components are soldered on the same board surface, which means you can easily solder the XIAO RP2040 to your own PCB. XIAO RP2040 is pin-compatible with Seeeduino XIAO, so XIAO RP2040 can be learned and developed using the Expansion board of Seeeduino XIAO.</p>
+<p>The XIAO RP2040 is very compact because all electronic components are soldered on the same board surface, which means you can easily solder the XIAO RP2040 to your own PCB. XIAO RP2040 is pin-compatible with Seeed Studio XIAO SAMD21, so XIAO RP2040 can be learned and developed using the Expansion board of Seeeduino XIAO.</p>
 
 <h2 id="tutorial">Tutorial</h2>
 <ul>
