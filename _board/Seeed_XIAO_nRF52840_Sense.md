@@ -3,7 +3,7 @@ layout: download
 board_id: "Seeed_XIAO_nRF52840_Sense"
 title: "Seeed Studio XIAO nRF52840 Sense Download"
 name: "Seeed Studio XIAO nRF52840 Sense"
-manufacturer: "SEEED"
+manufacturer: "Seeed Studio"
 board_url: "https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html"
 board_image: "Seeed_XIAO_nRF52840_Sense.jpg"
 date_added: 2021-12-29
