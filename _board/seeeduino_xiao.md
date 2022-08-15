@@ -1,9 +1,9 @@
 ---
 layout: download
 board_id: "seeeduino_xiao"
-title: "Seeeduino XIAO Download"
-name: "Seeeduino XIAO"
-manufacturer: "SEEED"
+title: "Seeed Studio XIAO SAMD21 Download"
+name: "Seeed Studio XIAO SAMD21"
+manufacturer: "Seeed Studio"
 board_url: "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
 board_image: "seeeduino_xiao.jpg"
 date_added: 2020-1-17
@@ -16,7 +16,7 @@ features:
   - Xiao / QTPy Form Factor
 ---
 
-SEEED Studio's Seeeduino XIAO is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256 KB Flash and 32 KB SRAM. The board is 20 mm x 17.5 mm in size which is perfect for wearable devices and small projects. It has multiple interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It's compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.
+Seeed Studio XIAO SAMD21 is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256 KB Flash and 32 KB SRAM. The board is 20 mm x 17.5 mm in size which is perfect for wearable devices and small projects. It has multiple interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It's compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.
 
 ## Technical details
 
