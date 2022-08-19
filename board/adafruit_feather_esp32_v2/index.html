@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Adafruit ESP32 Feather V2 Download</title>
+<meta name="description" content="One of our star Feathers is the Adafruit HUZZAH32 ESP32 Feather - with the fabulous ESP32 WROOM module on there, it makes quick work of WiFi and Bluetooth pr..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/adafruit_feather_esp32_v2/" />
+
+<meta property="og:title"   content="CircuitPython - Adafruit ESP32 Feather V2 Download" />
+
+
+
+<meta property="og:description" content="One of our star Feathers is the Adafruit HUZZAH32 ESP32 Feather - with the fabulous ESP32 WROOM module on there, it makes quick work of WiFi and Bluetooth projects that take advantage of Espressifs most popular chipset. Recently we had to redesign this feather to move from the obsolete CP2104 to ..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/adafruit_feather_esp32_v2.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/adafruit_feather_esp32_v2/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://docs.circuitpython.org/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Adafruit ESP32 Feather V2</h1>
+  <h3>by Adafruit</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        
+          <img src="/assets/images/boards/large/adafruit_feather_esp32_v2.jpg" alt="Image of Board">
+        
+        <p>
+          <p>One of our star Feathers is the <a href="https://www.adafruit.com/product/3405">Adafruit HUZZAH32 ESP32 Feather</a> - with the fabulous ESP32 WROOM module on there, it makes quick work of WiFi and Bluetooth projects that take advantage of Espressifs most popular chipset. Recently we had to redesign this feather to move from the obsolete CP2104 to the available CH9102F and one thing led to another and before you know it we made a completely refreshed design: the <strong>Adafruit ESP32 Feather V2</strong>.</p>
+
+<p>The V2 is a significant redesign, enough so we consider it a completely new product. It <em>still</em> features the ESP32 chip but has many upgrades and improvements:</p>
+
+<ul>
+  <li>Compared to the original Feather with 4 MB Flash and no PSRAM, the V2 has <strong>8 MB Flash and 2 MB PSRAM</strong></li>
+  <li>Additional <strong>user button tactile switch</strong> on input pin 38</li>
+  <li>Additional <strong>NeoPixel mini RGB LED</strong> with controllable power pin</li>
+  <li>Additional <strong>STEMMA QT</strong> port for plug and play I2C connections</li>
+  <li><strong>USB Type C</strong> port instead of Micro B</li>
+  <li><strong>Separate controllable 3.3V power supply for STEMMA QT</strong> to allow for ultra low power consumption even with sensors are attached</li>
+  <li>Designed for low power usage: <a href="https://www.adafruit.com/product/5048">verified with a PPK</a> to <strong>draw 70uA from the Lipoly battery in deep sleep</strong> and 1.2mA in light sleep.</li>
+  <li>ESP32 Pico module is much smaller, allowing for clear marking of all breakout pads and additional mounting holes!</li>
+  <li>Upgrade the USB to serial converter from CP2102 to CH9102F which is available for purchase! The CH9102F has no issues with uploading at 921600 bps for speedy firmware loading.</li>
+</ul>
+
+<p>However, in order to add the PSRAM, and use the new Pico module which was small enough to allow all the fun extras, some of the breakout pads have changed, so here’s what you need to know:</p>
+
+<ul>
+  <li>The pin <em>numbers</em> for the I2C port (SDA, SCL), hardware UART (RX, TX), and SPI (SCK, MOSI, MISO) have changed. If your code has hardcoded use for those pins, you’ll want to replace them either by the new numbers or change the code to use the ‘pretty’ names like SDA or SCK.
+When selecting the new Feather ESP32 V2 board in the Espressif board support package, the correct numbers will be substituted.
+Note the names are in the same spots, we haven’t changed where the I2C/UART/SPI pins are located on the board, just which ESP32 pin numbers they are connected to in the module.</li>
+  <li>The ‘corner’ pin next to TX has changed from pin 21 to 37. This pin is not used in any FeatherWings because its considered an ‘extra pin’. It’s also changed from a GPIO to input-only</li>
+  <li>The remaining numbered pins and A0-A5 pins have not changed pin numbers.</li>
+</ul>
+
+<p>That module nestled in at the end of this Feather contains a dual-core ESP32 chip, 8 MB of SPI Flash, 2 MB of PSRAM, tuned PCB antenna, and all the passives you need to take advantage of this powerful new processor. The ESP32 has both WiFi <em>and</em> Bluetooth Classic/LE support. That means it’s perfect for just about any wireless or Internet-connected project.</p>
+
+<p>Because it’s part of our <a href="https://www.adafruit.com/category/814">Feather eco-system, you can take advantage of the 50+ Wings</a> that we’ve designed to add all sorts of cool accessories. Plus that built in battery charging and monitoring you know and love with the ESP32 Feather is still there in this upgrade.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+  <li><strong>ESP32 Dual core 240MHz Xtensa®</strong> <strong>processor</strong> - the classic dual-core ESP32 you know and love!</li>
+  <li><strong>Mini module</strong> has FCC/CE certification and comes with 8 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
+  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+  <li><strong>LiPoly battery monitor</strong> with two 200K resistor divider</li>
+  <li><strong>Reset and User</strong> (I38) buttons to reset board and as a separate input</li>
+  <li><strong>High speed upload with auto-reset and serial debug</strong> with ultra-reliable CP2102N chipset.</li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+  <li><strong>Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+  <li><strong>Low Power friendly</strong>! In deep sleep mode we can get down to 80~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C power for the lowest quiescent current draw.</li>
+  <li><strong>Works with Arduino or MicroPython</strong></li>
+</ul>
+
+<p>Comes fully assembled and tested, with a USB interface that lets you quickly use it with the Arduino IDE or the low-level ESP32 IDF. We also toss in some header so you can solder it in and plug into a solderless breadboard. <strong>Lipoly battery and USB cable not included</strong> (but we do have lots of options in the shop if you’d like!)</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5400">Adafruit</a></li>
+</ul>
+
+        </p>
+        <h2>Contribute</h2>
+        
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/adafruit_feather_esp32_v2.md">here</a>.</p>
+        
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+
+
+  <div class="section unstable">
+    <h3>CircuitPython 8.0.0-beta.0</h3>
+    <p>
+      This is the latest unstable
+      release of CircuitPython that will work with the Adafruit ESP32 Feather V2.
+    </p>
+    <p>
+      
+      Unstable builds have the latest features but are more likely to have critical bugs.
+      
+    </p>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/8.0.0-beta.0">Release Notes for 8.0.0-beta.0</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/zh_Latn_pinyin/adafruit-circuitpython-adafruit_feather_esp32_v2-zh_Latn_pinyin-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/zh_Latn_pinyin/adafruit-circuitpython-adafruit_feather_esp32_v2-zh_Latn_pinyin-8.0.0-beta.0.bin
+                    data-locale=zh-Latn-pinyin
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/nl/adafruit-circuitpython-adafruit_feather_esp32_v2-nl-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/nl/adafruit-circuitpython-adafruit_feather_esp32_v2-nl-8.0.0-beta.0.bin
+                    data-locale=nl
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/en_GB/adafruit-circuitpython-adafruit_feather_esp32_v2-en_GB-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/en_GB/adafruit-circuitpython-adafruit_feather_esp32_v2-en_GB-8.0.0-beta.0.bin
+                    data-locale=en-GB
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/en_US/adafruit-circuitpython-adafruit_feather_esp32_v2-en_US-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/en_US/adafruit-circuitpython-adafruit_feather_esp32_v2-en_US-8.0.0-beta.0.bin
+                    data-locale=en-US
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/fil/adafruit-circuitpython-adafruit_feather_esp32_v2-fil-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/fil/adafruit-circuitpython-adafruit_feather_esp32_v2-fil-8.0.0-beta.0.bin
+                    data-locale=fil
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/fr/adafruit-circuitpython-adafruit_feather_esp32_v2-fr-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/fr/adafruit-circuitpython-adafruit_feather_esp32_v2-fr-8.0.0-beta.0.bin
+                    data-locale=fr
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/de_DE/adafruit-circuitpython-adafruit_feather_esp32_v2-de_DE-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/de_DE/adafruit-circuitpython-adafruit_feather_esp32_v2-de_DE-8.0.0-beta.0.bin
+                    data-locale=de-DE
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/ID/adafruit-circuitpython-adafruit_feather_esp32_v2-ID-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/ID/adafruit-circuitpython-adafruit_feather_esp32_v2-ID-8.0.0-beta.0.bin
+                    data-locale=ID
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/it_IT/adafruit-circuitpython-adafruit_feather_esp32_v2-it_IT-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/it_IT/adafruit-circuitpython-adafruit_feather_esp32_v2-it_IT-8.0.0-beta.0.bin
+                    data-locale=it-IT
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/ja/adafruit-circuitpython-adafruit_feather_esp32_v2-ja-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/ja/adafruit-circuitpython-adafruit_feather_esp32_v2-ja-8.0.0-beta.0.bin
+                    data-locale=ja
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/en_x_pirate/adafruit-circuitpython-adafruit_feather_esp32_v2-en_x_pirate-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/en_x_pirate/adafruit-circuitpython-adafruit_feather_esp32_v2-en_x_pirate-8.0.0-beta.0.bin
+                    data-locale=en-x-pirate
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/pl/adafruit-circuitpython-adafruit_feather_esp32_v2-pl-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/pl/adafruit-circuitpython-adafruit_feather_esp32_v2-pl-8.0.0-beta.0.bin
+                    data-locale=pl
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/pt_BR/adafruit-circuitpython-adafruit_feather_esp32_v2-pt_BR-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/pt_BR/adafruit-circuitpython-adafruit_feather_esp32_v2-pt_BR-8.0.0-beta.0.bin
+                    data-locale=pt-BR
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/ru/adafruit-circuitpython-adafruit_feather_esp32_v2-ru-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/ru/adafruit-circuitpython-adafruit_feather_esp32_v2-ru-8.0.0-beta.0.bin
+                    data-locale=ru
+                    >
+              RUSSIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/es/adafruit-circuitpython-adafruit_feather_esp32_v2-es-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/es/adafruit-circuitpython-adafruit_feather_esp32_v2-es-8.0.0-beta.0.bin
+                    data-locale=es
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/sv/adafruit-circuitpython-adafruit_feather_esp32_v2-sv-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/sv/adafruit-circuitpython-adafruit_feather_esp32_v2-sv-8.0.0-beta.0.bin
+                    data-locale=sv
+                    >
+              SWEDISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/tr/adafruit-circuitpython-adafruit_feather_esp32_v2-tr-8.0.0-beta.0.bin
+                    data-files=https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/tr/adafruit-circuitpython-adafruit_feather_esp32_v2-tr-8.0.0-beta.0.bin
+                    data-locale=tr
+                    >
+              TURKISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable bin" href="https://downloads.circuitpython.org/bin/adafruit_feather_esp32_v2/en_US/adafruit-circuitpython-adafruit_feather_esp32_v2-en_US-8.0.0-beta.0.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">adafruit_bus_device, adafruit_pixelbuf, aesio, alarm, analogio, atexit, audiobusio, audiocore, audiomixer, binascii, bitbangio, bitmaptools, board, busio, canio, countio, digitalio, displayio, dotenv, dualbank, errno, fontio, framebufferio, frequencyio, getpass, gifio, hashlib, i2ctarget, ipaddress, json, keypad, math, mdns, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, ps2io, pulseio, pwmio, qrio, rainbowio, random, re, rotaryio, rtc, sdcardio, sharpdisplay, socketpool, ssl, storage, struct, supervisor, synthio, terminalio, time, touchio, traceback, ulab, vectorio, watchdog, wifi, zlib</span>
+    </p>
+    
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language.  The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/adafruit_feather_esp32_v2/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Past Releases</h3>
+  <p>
+    All previous releases are listed on GitHub, with release notes,
+    and are available for download from Amazon S3.  They are handy for
+    testing, but otherwise we recommend using the latest stable
+    release.  Some older GitHub release pages include the same
+    binaries for downloading.  But we have discontinued including
+    binaries as assets on newer release pages because of the large
+    number of files for each release.
+  </p>
+  <p>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/adafruit_feather_esp32_v2/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>
