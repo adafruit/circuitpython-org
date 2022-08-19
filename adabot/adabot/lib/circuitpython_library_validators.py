@@ -8,24 +8,14 @@
 errors, across the entire CirtuitPython library ecosystem."""
 
 import datetime
-from io import StringIO
-import json
 import os
 import logging
-import pathlib
 import re
 import time
-from tempfile import TemporaryDirectory
 
 from packaging.version import parse as pkg_version_parse
 
-from pylint import lint
-from pylint.reporters import JSONReporter
-
 import requests
-
-import sh
-from sh.contrib import git
 
 import yaml
 import parse
@@ -36,18 +26,6 @@ from adabot.lib import common_funcs
 from adabot.lib import assign_hacktober_label as hacktober
 
 GH_INTERFACE = pygithub.Github(os.environ["ADABOT_GITHUB_ACCESS_TOKEN"])
-
-
-class CapturedJsonReporter(JSONReporter):
-    """Helper class to stringify PyLint JSON reports."""
-
-    def __init__(self):
-        self._stringio = StringIO()
-        super().__init__(self._stringio)
-
-    def get_result(self):
-        """The current value."""
-        return self._stringio.getvalue()
 
 
 # Define constants for error strings to make checking against them more robust:
@@ -61,6 +39,7 @@ ERROR_README_MISSING_CI_ACTIONS_BADGE = (
     "README CI badge needs to be changed to GitHub Actions"
 )
 ERROR_PYFILE_DOWNLOAD_FAILED = "Failed to download .py code file"
+ERROR_TOMLFILE_DOWNLOAD_FAILED = "Failed to download .toml file"
 ERROR_PYFILE_MISSING_STRUCT = (
     ".py file contains reference to import ustruct"
     " without reference to import struct.  See issue "
@@ -99,9 +78,12 @@ ERROR_MISSING_LINT = "Missing lint config"
 ERROR_MISSING_CODE_OF_CONDUCT = "Missing CODE_OF_CONDUCT.md"
 ERROR_MISSING_README_RST = "Missing README.rst"
 ERROR_MISSING_READTHEDOCS = "Missing readthedocs.yaml"
-ERROR_MISSING_SETUP_PY = "For pypi compatibility, missing setup.py"
+ERROR_MISSING_PYPROJECT_TOML = "For PyPI compatibility, missing pyproject.toml"
 ERROR_MISSING_PRE_COMMIT_CONFIG = "Missing .pre-commit-config.yaml"
-ERROR_MISSING_REQUIREMENTS_TXT = "For pypi compatibility, missing requirements.txt"
+ERROR_MISSING_REQUIREMENTS_TXT = "For PyPI compatibility, missing requirements.txt"
+ERROR_MISSING_OPTIONAL_REQUIREMENTS_TXT = (
+    "For PyPI compatibility, missing optional_requirements.txt"
+)
 ERROR_MISSING_BLINKA = (
     "For pypi compatibility, missing Adafruit-Blinka in requirements.txt"
 )
@@ -114,7 +96,7 @@ ERROR_WIKI_DISABLED = "Wiki should be disabled"
 ERROR_ONLY_ALLOW_MERGES = "Only allow merges, disallow rebase and squash"
 ERROR_RTD_SUBPROJECT_MISSING = "ReadTheDocs missing as a subproject on CircuitPython"
 ERROR_RTD_ADABOT_MISSING = "ReadTheDocs project missing adabot as owner"
-ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS = "Failed to load build status"
+ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS = "Failed to load RTD build status"
 ERROR_RTD_SUBPROJECT_FAILED = "Failed to list CircuitPython subprojects on ReadTheDocs"
 ERROR_RTD_OUTPUT_HAS_WARNINGS = "ReadTheDocs latest build has warnings and/or errors"
 ERROR_GITHUB_NO_RELEASE = "Library repository has no releases"
@@ -145,7 +127,7 @@ ERROR_PRE_COMMIT_VERSION = (
     "Missing or incorrect pre-commit version in .pre-commit-config.yaml"
 )
 ERROR_PYLINT_VERSION = "Missing or incorrect pylint version in .pre-commit-config.yaml"
-ERROR_PYLINT_FAILED_LINTING = "Failed PyLint checks"
+ERROR_CI_BUILD = "Failed CI build"
 ERROR_NEW_REPO_IN_WORK = "New repo(s) currently in work, and unreleased"
 
 # Temp category for GitHub Actions migration.
@@ -209,7 +191,7 @@ class LibraryValidator:
         self._rtd_yaml_base = None
         self.output_file_data = []
         self.validate_contents_quiet = kw_args.get("validate_contents_quiet", False)
-        self.has_setup_py_disabled = set()
+        self.has_pyproject_toml_disabled = set()
         self.keep_repos = keep_repos
         self.rtd_subprojects = None
         self.core_driver_page = None
@@ -308,26 +290,6 @@ class LibraryValidator:
             errors.append(ERROR_ONLY_ALLOW_MERGES)
         return errors
 
-    def validate_actions_state(self, repo):
-        """Validate if the most recent GitHub Actions run on the default branch
-        has passed.
-        Just returns a message stating that the most recent run failed.
-        """
-
-        if not (
-            repo["owner"]["login"] == "adafruit"
-            and repo["name"].startswith("Adafruit_CircuitPython")
-        ):
-            return []
-
-        try:
-            repo_obj = GH_INTERFACE.get_repo("Adafruit/" + repo["full_name"])
-            workflow = repo_obj.get_workflow("build.yml")
-            workflow_runs = workflow.get_runs(branch="main")
-            return [] if workflow_runs[0].conclusion else [ERROR_GITHUB_FAILING_ACTIONS]
-        except pygithub.GithubException:
-            return [ERROR_UNABLE_PULL_REPO_DETAILS]
-
     # pylint: disable=too-many-locals,too-many-return-statements,too-many-branches
     def validate_release_state(self, repo):
         """Validate if a repo 1) has a release, and 2) if there have been commits
@@ -344,7 +306,7 @@ class LibraryValidator:
                 "LICENSE",
                 "LICENSES/*",
                 "*.license",
-                "setup.py.disabled",
+                "pyproject.toml.disabled",
                 ".github/workflows/build.yml",
                 ".github/workflows/release.yml",
                 ".pre-commit-config.yaml",
@@ -576,18 +538,15 @@ class LibraryValidator:
 
         return errors
 
-    def _validate_setup_py(self, file_info):
-        """Check setup.py for pypi compatibility"""
+    def _validate_pyproject_toml(self, file_info):
+        """Check pyproject.toml for pypi compatibility"""
         download_url = file_info["download_url"]
         contents = requests.get(download_url, timeout=30)
         if not contents.ok:
-            return [ERROR_PYFILE_DOWNLOAD_FAILED]
+            return [ERROR_TOMLFILE_DOWNLOAD_FAILED]
+        return []
 
-        errors = []
-
-        return errors
-
-    def _validate_requirements_txt(self, repo, file_info):
+    def _validate_requirements_txt(self, repo, file_info, check_blinka=True):
         """Check requirements.txt for pypi compatibility"""
         download_url = file_info["download_url"]
         contents = requests.get(download_url, timeout=30)
@@ -598,7 +557,11 @@ class LibraryValidator:
         lines = contents.text.split("\n")
         blinka_lines = [l for l in lines if re.match(r"[\s]*Adafruit-Blinka[\s]*", l)]
 
-        if not blinka_lines and repo["name"] not in LIBRARIES_DONT_NEED_BLINKA:
+        if (
+            not blinka_lines
+            and repo["name"] not in LIBRARIES_DONT_NEED_BLINKA
+            and check_blinka
+        ):
             errors.append(ERROR_MISSING_BLINKA)
         return errors
 
@@ -646,11 +609,11 @@ class LibraryValidator:
             if not self.validate_contents_quiet:
                 return [ERROR_NEW_REPO_IN_WORK]
 
-        if "setup.py.disabled" in files:
-            self.has_setup_py_disabled.add(repo["name"])
+        if "pyproject.toml.disabled" in files:
+            self.has_pyproject_toml_disabled.add(repo["name"])
 
         # if we're only running due to -v, ignore the rest. we only care about
-        # adding in-work repos to the BUNDLE_IGNORE_LIST and if setup.py is
+        # adding in-work repos to the BUNDLE_IGNORE_LIST and if pyproject.toml is
         # disabled
         if self.validate_contents_quiet:
             return []
@@ -721,18 +684,25 @@ class LibraryValidator:
         else:
             errors.append(ERROR_MISSING_PRE_COMMIT_CONFIG)
 
-        if "setup.py" in files:
-            file_info = content_list[files.index("setup.py")]
-            errors.extend(self._validate_setup_py(file_info))
-        elif "setup.py.disabled" not in files:
-            errors.append(ERROR_MISSING_SETUP_PY)
+        if "pyproject.toml" in files:
+            file_info = content_list[files.index("pyproject.toml")]
+            errors.extend(self._validate_pyproject_toml(file_info))
+        elif "pyproject.toml.disabled" not in files:
+            errors.append(ERROR_MISSING_PYPROJECT_TOML)
 
-        if repo["name"] not in self.has_setup_py_disabled:
+        if repo["name"] not in self.has_pyproject_toml_disabled:
             if "requirements.txt" in files:
                 file_info = content_list[files.index("requirements.txt")]
                 errors.extend(self._validate_requirements_txt(repo, file_info))
             else:
                 errors.append(ERROR_MISSING_REQUIREMENTS_TXT)
+            if "optional_requirements.txt" in files:
+                file_info = content_list[files.index("optional_requirements.txt")]
+                errors.extend(
+                    self._validate_requirements_txt(repo, file_info, check_blinka=False)
+                )
+            else:
+                errors.append(ERROR_MISSING_OPTIONAL_REQUIREMENTS_TXT)
 
         # Check for an examples folder.
         dirs = [
@@ -984,7 +954,8 @@ class LibraryValidator:
                 if issue["state"] == "open":
                     if created > since:
                         insights["new_prs"] += 1
-                        insights["pr_authors"].add(pr_info["user"]["login"])
+                        if pr_info["user"]:
+                            insights["pr_authors"].add(pr_info["user"]["login"])
                     insights["active_prs"] += 1
                 else:
                     merged = datetime.datetime.strptime(
@@ -1031,7 +1002,10 @@ class LibraryValidator:
                         pr_reviews = gh_reqs.get(str(pr_info["url"]) + "/reviews")
                         if pr_reviews.ok:
                             for review in pr_reviews.json():
-                                if review["state"].lower() == "approved":
+                                if (
+                                    review["state"].lower() == "approved"
+                                    and review["user"]
+                                ):
                                     insights["pr_reviewers"].add(
                                         review["user"]["login"]
                                     )
@@ -1043,12 +1017,14 @@ class LibraryValidator:
                 if issue["state"] == "open":
                     if created > since:
                         insights["new_issues"] += 1
-                        insights["issue_authors"].add(issue_info["user"]["login"])
+                        if issue_info["user"]:
+                            insights["issue_authors"].add(issue_info["user"]["login"])
                     insights["active_issues"] += 1
 
                 else:
                     insights["closed_issues"] += 1
-                    insights["issue_closers"].add(issue_info["closed_by"]["login"])
+                    if issue_info["closed_by"]:
+                        insights["issue_closers"].add(issue_info["closed_by"]["login"])
 
         params = {"state": "open", "per_page": 100}
         issues = self.github_get_all_pages(
@@ -1113,7 +1089,7 @@ class LibraryValidator:
         """prints a list of Adafruit_CircuitPython libraries that are in pypi"""
         if (
             repo["name"] in BUNDLE_IGNORE_LIST
-            or repo["name"] in self.has_setup_py_disabled
+            or repo["name"] in self.has_pyproject_toml_disabled
         ):
             return []
         if not (
@@ -1161,71 +1137,38 @@ class LibraryValidator:
 
         return errors
 
-    def validate_passes_linting(self, repo):
-        """Clones the repo and runs pylint on the Python files"""
+    def validate_actions_state(self, repo):
+        """Validate if the most recent GitHub Actions run on the default branch
+        has passed.
+        Just returns a message stating that the most recent run failed.
+        """
+
         if not repo["name"].startswith("Adafruit_CircuitPython"):
             return []
 
-        ignored_py_files = ["setup.py", "conf.py"]
-
-        desination_type = TemporaryDirectory
-        if self.keep_repos:
-            desination_type = pathlib.Path("repos").absolute
-
-        with desination_type() as tempdir:
-            repo_dir = pathlib.Path(tempdir) / repo["name"]
+        while True:
             try:
-                if not repo_dir.exists():
-                    git.clone("--depth=1", repo["clone_url"], repo_dir)
-            except sh.ErrorReturnCode as err:
-                self.output_file_data.append(
-                    f"Failed to clone repo for linting: {repo['full_name']}\n {err.stderr}"
-                )
-                return [ERROR_OUTPUT_HANDLER]
+                lib_repo = GH_INTERFACE.get_repo(repo["full_name"])
 
-            if self.keep_repos and (repo_dir / ".pylint-ok").exists():
-                return []
+                if lib_repo.archived:
+                    return []
 
-            for file in repo_dir.rglob("*.py"):
-                if file.name in ignored_py_files or str(file.parent).endswith(
-                    "examples"
-                ):
-                    continue
-
-                pylint_args = [str(file)]
-                if (repo_dir / ".pylintrc").exists():
-                    pylint_args += [f"--rcfile={str(repo_dir / '.pylintrc')}"]
-
-                reporter = CapturedJsonReporter()
-
-                logging.debug("Running pylint on %s", file)
-
-                lint.Run(pylint_args, reporter=reporter, exit=False)
-                pylint_stderr = ""
-                pylint_stdout = reporter.get_result()
-
-                if pylint_stderr:
-                    self.output_file_data.append(
-                        f"PyLint error ({repo['name']}): '{pylint_stderr}'"
-                    )
-                    return [ERROR_OUTPUT_HANDLER]
+                arg_dict = {"branch": lib_repo.default_branch}
 
                 try:
-                    pylint_result = json.loads(pylint_stdout)
-                except json.JSONDecodeError as json_err:
-                    self.output_file_data.append(
-                        f"PyLint output JSONDecodeError: {json_err.msg}"
-                    )
-                    return [ERROR_OUTPUT_HANDLER]
-
-                if pylint_result:
-                    return [ERROR_PYLINT_FAILED_LINTING]
-
-            if self.keep_repos:
-                with open(repo_dir / ".pylint-ok", "w") as pylint_ok:
-                    pylint_ok.write("".join(pylint_result))
-
-        return []
+                    workflow = lib_repo.get_workflow("build.yml")
+                    workflow_runs = workflow.get_runs(**arg_dict)
+                except pygithub.GithubException:  # This can probably be tightened later
+                    # No workflows or runs yet
+                    return []
+                if not workflow_runs[0].conclusion:
+                    return [ERROR_CI_BUILD]
+                return []
+            except pygithub.RateLimitExceededException:
+                core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
+                sleep_time = core_rate_limit_reset - datetime.datetime.now()
+                logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
+                time.sleep(sleep_time.seconds)
 
     def validate_default_branch(self, repo):
         """Makes sure that the default branch is main"""

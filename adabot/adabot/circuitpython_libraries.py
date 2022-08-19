@@ -95,7 +95,7 @@ def run_library_checks(validators, kw_args, error_depth):
     pylint_info = pypi.get("/pypi/pylint/json")
     if pylint_info and pylint_info.ok:
         latest_pylint = pylint_info.json()["info"]["version"]
-    logger.info("Latest pylint is: %s", latest_pylint)
+    # logger.info("Latest pylint is: %s", latest_pylint)
 
     repos = common_funcs.list_repos(
         include_repos=tuple(blinka_repos)

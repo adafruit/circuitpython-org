@@ -1,0 +1,24 @@
+From a445ef4116a4f863fe532cdc3295f73876db400f Mon Sep 17 00:00:00 2001
+From: Alec Delaney <tekktrik@gmail.com>
+Date: Tue, 9 Aug 2022 12:03:54 -0400
+Subject: [PATCH] Add setuptools-scm to build system requirements
+
+---
+ pyproject.toml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index 822021e..0c8d672 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -6,6 +6,7 @@
+ requires = [
+     "setuptools",
+     "wheel",
++    "setuptools-scm",
+ ]
+ 
+ [project]
+-- 
+2.35.1.windows.2
+
