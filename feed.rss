@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sat, 20 Aug 2022 06:03:56 -0400</lastBuildDate>
+<lastBuildDate>Sat, 20 Aug 2022 17:43:27 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -11068,6 +11068,44 @@ programmed from the host.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 30 Jul 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/snekboard/</guid>
+  </item><item>
+    <title>BBQ20KBD</title>
+    <link>https://circuitpython.org/board/solderparty_bbq20kbd/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/solderparty_bbq20kbd.jpg 300w,
+               /assets/images/boards/large/solderparty_bbq20kbd.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/solderparty_bbq20kbd.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Solder Party</p> <p>A BB Q20 Keyboard in USB/PMOD/Qwiic format with a injection molded clear plastic case.</p>
+
+<p>This is the evolution of our previous BBQ10 PMOD board. We took all the feedback from that board and improved on the design in every way.</p>
+
+<p>We added a Qwiic/Stemma QT connector, we added USB HID support, we changed to a Q20 keyboard, which gave us four extra buttons, and the optical trackpad that works as a USB HID Mouse. And we decided to put the whole thing into a custom-designed injection molded clear plastic case for better usability and durability, as well as that retro 90s look.</p>
+
+<p>The board uses the Raspberry Pi RP2040 MCU to poll the keyboard and trackpad and put the key press information into a FIFO.</p>
+
+<p>You can use the I2C interface to read the FIFO, reconfigure the chip, and change the keyboar backlight.</p>
+
+<p>In addition to that, the board also has a USB Type-C socket, and when connected to a desktop computer (Windows/Linux/MacOS), a smartphone (iOS/Android), or a SBC (Raspberry Pi, etc), it enumerates as a USB HID Keyboard and Mouse combo!</p>
+
+<p>The firmware can be configured over USB using the Vendor Class interface.</p>
+
+<p>The I2C interface is compatible with the old BBQ10 module, you can use the same libraries to interface this board.</p>
+
+<p>Note: This board is not 5V-tolerant!</p>
+
+<h2 id="links">Links</h2>
+
+<ul>
+  <li><a href="https://bbq20kbd.solder.party/">Documentation</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 19 Aug 2022 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/solderparty_bbq20kbd/</guid>
   </item><item>
     <title>RP2040 Stamp</title>
     <link>https://circuitpython.org/board/solderparty_rp2040_stamp/</link>
