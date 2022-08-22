@@ -34,4 +34,4 @@ Seeed Studio XIAO nRF52840 Sense contains a wealthy interface. The first thing t
 * built-in 2 MB flash, microphone and 6-axis IMU 
 
 ## Purchase
-* [Seeed XIAO BLE nRF52840 Sense](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html)
+* [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html)

@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "solderparty_bbq20kbd"
-title: "BBQ20KBD Download"
-name: "BBQ20KBD"
+title: "BB Q20 Keyboard with trackpad Download"
+name: "BB Q20 Keyboard with trackpad"
 manufacturer: "Solder Party"
 board_url: "https://www.solder.party/docs/bbq20kbd/"
 board_image: "solderparty_bbq20kbd.jpg"
@@ -39,3 +39,7 @@ Note: This board is not 5V-tolerant!
 ## Links
 
 * [Documentation](https://bbq20kbd.solder.party/)
+
+## Purchase
+
+* [Tindie](https://www.tindie.com/products/arturo182/bb-q20-keyboard-with-trackpad-usbi2cpmod/)

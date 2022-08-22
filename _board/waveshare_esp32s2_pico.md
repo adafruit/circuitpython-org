@@ -1,7 +1,7 @@
 ---
 layout: download
 board_id: "waveshare_esp32s2_pico"
-title: "Waveshare ESP32-S2-Pico Download"
+title: "ESP32-S2-Pico Download"
 name: "ESP32-S2-Pico"
 manufacturer: "Waveshare"
 board_url: "https://www.waveshare.com/esp32-s2.htm"

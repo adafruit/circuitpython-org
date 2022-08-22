@@ -11,7 +11,7 @@ blinka: true
 date_added: 2022-4-1
 features:
   - Ethernet
-  - HDMI
+  - HDMI/DisplayPort
   - Wi-Fi
   - 40-pin GPIO
   - USB 3.0

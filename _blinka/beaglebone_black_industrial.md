@@ -11,7 +11,7 @@ blinka: true
 date_added: 2019-12-3
 features:
   - Ethernet
-  - HDMI
+  - HDMI/DisplayPort
 ---
 
 The element14 BeagleBone Black Industrial (BBONE-BLACK-IND-4G) is a low cost, high-expansion focused BeagleBoard using a low cost industrial temperature grade Sitara™ AM3358 ARM® Cortex™-A8 processor from Texas Instruments. BBONE-BLACK-IND-4G ships with the Debian Linux distribution preinstalled on the onboard FLASH, ready to start evaluation and development.

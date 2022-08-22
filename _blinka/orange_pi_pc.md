@@ -14,7 +14,7 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
   - Ethernet
-  - HDMI
+  - HDMI/DisplayPort
   - 40-pin GPIO
 ---
 

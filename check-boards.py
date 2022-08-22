@@ -97,7 +97,7 @@ if not verify_features("_board", acceptable_features):
 # Check Blinka Download Features
 blinka_features = {
     "Ethernet",
-    "HDMI",
+    "HDMI/DisplayPort",
     "Wi-Fi",
     "40-pin GPIO",
     "GPS",

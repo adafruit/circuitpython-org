@@ -3,7 +3,7 @@ layout: download
 board_id: "banana_pi_m2_zero"
 title: "Banana Pi M2 Zero Download"
 name: "Banana Pi M2 Zero"
-manufacturer: "Sinovoip"
+manufacturer: "SinoVoip"
 board_url: "http://www.banana-pi.org/m2z.html"
 board_image: "banana_pi_m2_zero.jpg"
 download_instructions: ""
@@ -13,7 +13,7 @@ date_added: 2020-10-31
 features:
   - Wi-Fi
   - Bluetooth/BLE
-  - HDMI
+  - HDMI/DisplayPort
   - 40-pin GPIO
 ---
 

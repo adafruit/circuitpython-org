@@ -13,7 +13,7 @@ date_added: 2020-4-16
 features:
   - Wi-Fi
   - Bluetooth/BLE
-  - HDMI
+  - HDMI/DisplayPort
 ---
 
 New clockworkPi v3.1 development board:
