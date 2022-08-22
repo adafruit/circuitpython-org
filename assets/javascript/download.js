@@ -19,6 +19,24 @@ document.addEventListener('DOMContentLoaded',function() {
     script.setAttribute('src', '//accounts.adafruit.com/users/locale?callback=setLocale');
     document.body.appendChild(script);
   }
+
+  // set the board ID based on query string
+  const hereurl = new URL(window.location.href);
+  const board_id = hereurl.searchParams.get("unknown_id");
+  if(board_id) {
+    for(var link of document.querySelectorAll("a")) {
+      if(link.href.search("bin/unknown") > 0) {
+        link.href = link.href.replace("bin/unknown", `bin/${board_id}`);
+      }
+    }
+    // change the title too
+    const title_tag = document.querySelector("#download-page h1");
+    var unknown_title = board_id.replaceAll("_"," ");
+    unknown_title = unknown_title[0].toUpperCase() + unknown_title.substr(1);
+    title_tag.textContent = unknown_title;
+    document.title = `${unknown_title} Download`;
+  }
+
 },false);
 
 // update the links of the download buttons for the given langage menu item

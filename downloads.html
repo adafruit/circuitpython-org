@@ -108,6 +108,12 @@ excerpt: CircuitPython supported boards.
         {% continue %}
       {% endif %}
 
+      {% if info.board_id != 'unknown' %}
+        {% assign download_url = info.url %}
+      {% else %}
+        {% capture download_url %}{{ info.url }}?unknown_id={{ board.id }}{% endcapture %}
+      {% endif %}
+
       <div class="download" data-id="{{ board.id }}"
                             data-name="{{ info.name | default: board.id }}"
                             data-downloads="{{ board.downloads }}"
@@ -115,7 +121,7 @@ excerpt: CircuitPython supported boards.
                             data-mcufamily="{{ info.family }}"
                             data-features="{{ info.features | join: ','}}"
                             data-date="{{ info.date_added }}">
-        <a href="{{ info.url | relative_url }}">
+        <a href="{{ download_url | relative_url }}">
           <div>
             <div class="img-responsive-4by3">
               {% include downloads/board_image.html board_image=info.board_image %}
