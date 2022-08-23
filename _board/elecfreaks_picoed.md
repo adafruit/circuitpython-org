@@ -10,7 +10,7 @@ date_added: 2022-4-21
 family: raspberrypi
 features:
   - Speaker
-  - Display
+  - Solder-Free Alligator Clip
 ---
 
 The **Pico:ed** is a development board based on **Raspberry Pi RP2040 MCU**. It uses dual-core Arm Cortex-M0+ processor with 264KB RAM. The front of the board contains two buttons and a 7x17 dot matrix screen, which can be conveniently used for classroom teaching.
