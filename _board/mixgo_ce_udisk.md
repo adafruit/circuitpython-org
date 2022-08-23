@@ -9,7 +9,6 @@ board_image: "mixgo_ce_udisk.jpg"
 date_added: 2022-5-1
 family: esp32s2
 features:
-  - Display
   - Wi-Fi
   - USB-C
   - Breadboard-Friendly
