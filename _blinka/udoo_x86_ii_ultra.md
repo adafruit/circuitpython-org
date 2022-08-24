@@ -14,7 +14,7 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
   - Ethernet
-  - HDMI
+  - HDMI/DisplayPort
   - USB 3.0  
 ---
 

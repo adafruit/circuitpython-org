@@ -59,6 +59,6 @@ For power supply pins: The built-in DC-DC converter circuit is able to change 5 
 
 ## Purchase
 
-* [Seeed](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html)
+* [Seeed Studio](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html)
 * [Digi-Key](https://www.digikey.com/en/product-highlight/s/seeed/seeeduino-xiao-arduino-microcontroller-samd21-cortex-m0)
 * [Mouser](https://www.mouser.com/ProductDetail/Seeed-Studio/102010328?qs=GBLSl2AkirtQWO8CTzEK9g%3D%3D)

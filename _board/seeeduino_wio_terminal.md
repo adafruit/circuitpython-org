@@ -57,4 +57,4 @@ Instead of being a single embedded functional module, **Wio Terminal** is more o
 
 ## Purchase
 * [Adafruit](https://www.adafruit.com/product/4707) 
-* [Seeed's Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
+* [Seeed Studio](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)

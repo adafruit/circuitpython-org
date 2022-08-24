@@ -12,7 +12,7 @@ blinka: true
 date_added: 2019-6-17
 features:
   - Ethernet
-  - HDMI
+  - HDMI/DisplayPort
   - 40-pin GPIO
   - Infrared Receiver
 ---

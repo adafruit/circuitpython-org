@@ -10,7 +10,7 @@ downloads_display: true
 blinka: true
 date_added: "2022-6-2"
 features: 
-  - HDMI
+  - HDMI/DisplayPort
   - Wi-Fi
   - Bluetooth/BLE
   - USB 3.0

@@ -11,7 +11,7 @@ downloads_display: true
 blinka: true
 date_added: 2021-12-6
 features:
-  - HDMI
+  - HDMI/DisplayPort
   - Wi-Fi
   - Bluetooth/BLE
   - STEMMA QT/QWIIC

@@ -12,7 +12,7 @@ blinka: true
 date_added: 2019-6-17
 features:
 - Ethernet
-- HDMI
+- HDMI/DisplayPort
 ---
 
 The Model B was the original Raspberry Pi Model B and consisted of two revisions.  In July 2014 It was superseded by the Raspberry Pi 1 Model B+

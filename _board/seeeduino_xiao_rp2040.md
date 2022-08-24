@@ -10,7 +10,6 @@ date_added: 2022-1-4
 family: raspberrypi
 features:
   - Breadboard-Friendly
-  - Robotics
   - Xiao / QTPy Form Factor
   - USB-C
 ---
@@ -37,4 +36,4 @@ The XIAO RP2040 is very compact because all electronic components are soldered o
 * [Installation of CircuitPython](https://wiki.seeedstudio.com/XIAO-RP2040-with-CircuitPython/)
 
 ## Purchase
-* [seeeduino_xiao_rp2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html)
+* [Seeed Studio](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html)

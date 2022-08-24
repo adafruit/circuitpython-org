@@ -13,7 +13,7 @@ date_added: 2020-5-11
 features:
   - Wi-Fi
   - Ethernet
-  - HDMI
+  - HDMI/DisplayPort
   - 40-pin GPIO
 ---
 
