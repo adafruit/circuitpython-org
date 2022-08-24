@@ -16,7 +16,7 @@ features:
   - Display
 ---
 
-**The original Odroid Go has been continued**
+**The original Odroid Go has been discontinued**
 
 **To celebrate ODROID’s 10th anniversary,** we present the ODROID-GO Game Kit! It includes a special anniversary board with all the parts to put together your own game kit and see the workings behind such a device. It is not only a fun assembly project but also an educational tool to learn about all the hardware and software that goes into building such a device.
 
