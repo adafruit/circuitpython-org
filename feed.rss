@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 24 Aug 2022 06:04:24 -0400</lastBuildDate>
+<lastBuildDate>Wed, 24 Aug 2022 12:40:53 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -67,7 +67,7 @@
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html">Seeed XIAO BLE nRF52840 Sense</a></li>
+  <li><a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html">Seeed Studio</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -2465,6 +2465,29 @@ onboard easy-to-connect GDI saves the trouble of wiring when using a screen.</p>
     <pubDate>Sat, 07 Aug 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/bluemicro840/</guid>
   </item><item>
+    <title>FigPi</title>
+    <link>https://circuitpython.org/board/bwshockley_figpi/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/bwshockley_figpi.jpg 300w,
+               /assets/images/boards/large/bwshockley_figpi.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/bwshockley_figpi.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Benjamin Shockley</p> <p>This has STEMMA QT/Qwiic 4-pin JST SH connectors on the back. The board has two I2C ST QT/ QW connectors, an SPI connector, ADC connector, Digital connector, and a generic 3.3V/GND power shared connector.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://twitter.com/bwshockley/status/1550501200881242112">Twitter</a></li>
+  <li><a href="https://twitter.com/bwshockley/status/1549391107196321795">Twitter</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 22 Aug 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/bwshockley_figpi/</guid>
+  </item><item>
     <title>Programmable USB Hub</title>
     <link>https://circuitpython.org/board/capablerobot_usbhub/</link>
     <description><![CDATA[ 
@@ -3957,6 +3980,30 @@ integrates a 9-axis IMU, a gas sensor, a temperature sensor and carries a powerf
     <pubDate>Thu, 21 Apr 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/elecfreaks_picoed/</guid>
   </item><item>
+    <title>Electrolama minik Octave</title>
+    <link>https://circuitpython.org/board/electrolama_minik/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/electrolama_minik.jpg 300w,
+               /assets/images/boards/large/electrolama_minik.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/electrolama_minik.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Electrolama</p> <p>A tiny RP2040 module for small embedded things!</p>
+
+<p>minik is designed by Electrolama / @omerk and licensed under the Solderpad Hardware License 2.0.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://github.com/electrolama/minik">GitHub</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 22 Aug 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/electrolama_minik/</guid>
+  </item><item>
     <title>Bast Wifi</title>
     <link>https://circuitpython.org/board/electroniccats_bastwifi/</link>
     <description><![CDATA[ 
@@ -4052,6 +4099,38 @@ for an SD card slot, which makes it a complete and versatile development board.<
     <category>CircuitPython</category>
     <pubDate>Sat, 25 May 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/escornabot_makech/</guid>
+  </item><item>
+    <title>ESP-EYE</title>
+    <link>https://circuitpython.org/board/espressif_esp32_eye/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/espressif_esp32_eye.jpg 300w,
+               /assets/images/boards/large/espressif_esp32_eye.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/espressif_esp32_eye.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Espressif</p> <p>Ever wanted to dabble in face and/or speech recognition? <a href="https://www.espressif.com/">Espressif’s</a> <strong>ESP-EYE</strong> is a miniature <a href="https://www.adafruit.com/?q=ESP32">ESP32-based</a> development board that combines a digital microphone, ESP32 (of course) with 8 MB PSRAM and 4 MB flash, and a 2 megapixel camera. There’s a few buttons and LEDs as well for basic control and configuration.</p>
+
+<p>Unlike some boards, this codebase does not require internet connectivity - you don’t have to send video or audio data to ‘the cloud’ - it’s all processed on-chip! The built in demo shows off what it can do:</p>
+
+<ul>
+  <li>Plug into a computer USB port and open up a serial port connection at 115,200 baud to the new serial port</li>
+  <li>Once the red LED is lit, activate the board with the watchword “Hi Lehshin” (in documents they spell it lexin, the x is pronounced as a shh sound)</li>
+  <li>The red LED will blink - then connect to the new Wi-Fi access point created</li>
+  <li>Open up a web browser to http://192.168.4.1/face_stream</li>
+  <li>Point the camera at faces to show off the recognition boxes! Video is about 2 frames per second, not super fast.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4095">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 21 Aug 2022 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32_eye/</guid>
   </item><item>
     <title>ESP32-C3-DevKitC-1-N4</title>
     <link>https://circuitpython.org/board/espressif_esp32c3_devkitm_1_n4/</link>
@@ -4464,6 +4543,37 @@ for an SD card slot, which makes it a complete and versatile development board.<
     <category>CircuitPython</category>
     <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32s3_devkitm_1_n8/</guid>
+  </item><item>
+    <title>ESP32-S3-EYE</title>
+    <link>https://circuitpython.org/board/espressif_esp32s3_eye/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/espressif_esp32s3_eye.jpg 300w,
+               /assets/images/boards/large/espressif_esp32s3_eye.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/espressif_esp32s3_eye.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Espressif</p> <p>The ESP32-S3-EYE is a small-sized AI development board produced by Espressif. It is based on the ESP32-S3 SoC and ESP-WHO, Espressif’s AI development framework. It features a 2-Megapixel camera, an LCD display, and a microphone, which are used for image recognition and audio processing. ESP32-S3-EYE offers plenty of storage, with an 8 MB Octal PSRAM and a 8 MB flash. It also supports image transmission via Wi-Fi and debugging through a Micro-USB port. With ESP-WHO, you can develop a variety of AIoT applications, such as smart doorbell, surveillance systems, facial recognition time clock, etc.</p>
+
+<ul>
+  <li>Equipped with ESP32-S3-WROOM-1 module</li>
+  <li>Equipped with a 2 megapixel camera, and a 1.3-inch LCD screen</li>
+  <li>High-performance image recognition and voice wake-up</li>
+  <li>8 MB Flash and 8 MB PSRAM</li>
+  <li>Support Wi-Fi image transmission, Micro-USB port debugging</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://amzn.to/3wlkuJw">Amazon</a></li>
+  <li><a href="https://mou.sr/3KfVSrC">Mouser</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 21 Aug 2022 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32s3_eye/</guid>
   </item><item>
     <title>ESP32-S3-USB-OTG-N8</title>
     <link>https://circuitpython.org/board/espressif_esp32s3_usb_otg_n8/</link>
@@ -6231,6 +6341,40 @@ JTAG pads for advanced debugging access.</li>
     <category>CircuitPython</category>
     <pubDate>Fri, 30 Aug 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/hallowing_m4_express/</guid>
+  </item><item>
+    <title>Odroid Go</title>
+    <link>https://circuitpython.org/board/hardkernel_odroid_go/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/hardkernel_odroid_go.jpg 300w,
+               /assets/images/boards/large/hardkernel_odroid_go.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/hardkernel_odroid_go.jpg" alt="Image of Board" loading="lazy">
+
+<p>By HardKernel</p> <p><strong>The original Odroid Go has been discontinued</strong></p>
+
+<p><strong>To celebrate ODROID’s 10th anniversary,</strong> we present the ODROID-GO Game Kit! It includes a special anniversary board with all the parts to put together your own game kit and see the workings behind such a device. It is not only a fun assembly project but also an educational tool to learn about all the hardware and software that goes into building such a device.</p>
+
+<p><strong>Assembly and learning WHY</strong>
+Have fun building your own handheld game kit while learning about the internal functions of each part and its purpose. Learn how each button is attached to a PCB switch pad, what materials are used, and how to put it all together to create a button control pad to play games! Learn how to connect power, speakers and how to download and install an OS. Learn why certain pieces are made of particular materials and why you need certain connectors. Since the device is clear, all the internal components and all the lights are visible.</p>
+
+<p><strong>PLAY GAMES</strong>
+Once you have assembled the ODROID-GO, you can download and install games. Enjoy your gaming device (that you built)!</p>
+
+<p><strong>CODING CAMP</strong>
+Install Arduino and learn some basic coding. We will provide online guides to code some simple, yet cool, tasks. Then, add a weather station<em>, learn how to check the battery life, test the speaker, add an ultrasonic distance meter</em> and more.
+* Parts sold separately.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://www.hardkernel.com/shop/odroid-go/">Hard Kernel</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 22 Aug 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/hardkernel_odroid_go/</guid>
   </item><item>
     <title>HiiBot BlueFi</title>
     <link>https://circuitpython.org/board/hiibot_bluefi/</link>
@@ -10617,6 +10761,55 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <pubDate>Sun, 28 Jun 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/same54_xplained/</guid>
   </item><item>
+    <title>Seeed Studio XIAO ESP32C3</title>
+    <link>https://circuitpython.org/board/seeed_xiao_esp32c3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/seeed_xiao_esp32c3.jpg 300w,
+               /assets/images/boards/large/seeed_xiao_esp32c3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/seeed_xiao_esp32c3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Seeed Studio</p> <p>Seeed Studio XIAO ESP32C3 featuring <strong>ESP32C3</strong> carries a complete Wi-Fi system along with Bluetooth Low Energy function. With its exquisite design and <strong>WiFi+BT</strong> ability, it’s perfect for various <strong>IoT controlling scenarios</strong> and <strong>complex carriable applications</strong>.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>
+    <p><strong>Outstanding RF performance:</strong> Powerful ESP32-C3 SoC and U.FL antenna provided that supports WiFi/Bluetooth connection over 100m.</p>
+  </li>
+  <li>
+    <p><strong>Thumb-size Design:</strong> 21 x 17.5mm overall dimension, portable and lightweight.</p>
+  </li>
+  <li>
+    <p><strong>Low power consumption:</strong> Lowest as 44 μA (deep sleep mode), with 4 working modes available.</p>
+  </li>
+  <li>
+    <p><strong><em>*Onboard battery charge IC:*</em></strong> Supports battery charging, great for various wearable scenarios and wireless IoT applications.</p>
+  </li>
+  <li>
+    <p><strong>Ready for productization:</strong> Single-sided components design, easily integrated into other boards and Seeed provides <a href="https://www.seeedstudio.com/fusion.html">Fusion Service</a> for rapid production.</p>
+  </li>
+</ul>
+
+<h3 id="description">Description</h3>
+
+<p><strong>Seeed Studio XIAO ESP32C3</strong> has equipped a highly-integrated <strong>ESP32-C3 chip</strong>, built around a 32-bit RISC-V chip processor with a four-stage pipeline that operates at up to 160 MHz.</p>
+
+<p>The board equips highly-integrated ESP32-C3 SoC. The chip has been installed with a <strong>complete 2.4GHz Wi-Fi subsystem</strong> which means it supports Station mode, SoftAP mode, SoftAP &amp; Station mode, and promiscuous mode for multiple Wi-Fi applications. It works under an <strong>ultra-low power state</strong>, also supporting features of <strong>Bluetooth 5</strong> and <strong>Bluetooth mesh</strong>. There are 400 KB SRAM &amp; 4 MB Flash on the chip, allowing for more programming space, and bringing more possibilities to the IoT control scenarios.</p>
+
+<p>Being a number to the Seeed Studio XIAO family, the board deservedly maintains the classic <strong>thumb-sized form-factor design</strong> and elegant <strong>productization of single-sided components mounting</strong>. Meanwhile, it has equipped with a <strong>battery charge chip</strong> and integrated circuit for enhancing its ability to carry. This board comes included with an external antenna to increase the signal strength for wireless applications. There are 11 digital I/O that can be used as PWM pins and 4 analog i/o that can be used as ADC pins. It supports UART, IIC, and SPI serial communication ports, also including IIS (Internet Information Services). Utilizing its small and exquisite hardware design and the powerful onboard chip, programming by Arduino, it will offer more ability to wearable and portable devices or other applications.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html">Seeed Studio</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 22 Aug 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/seeed_xiao_esp32c3/</guid>
+  </item><item>
     <title>Seeeduino Wio Terminal</title>
     <link>https://circuitpython.org/board/seeeduino_wio_terminal/</link>
     <description><![CDATA[ 
@@ -10686,7 +10879,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
 <h2 id="purchase">Purchase</h2>
 <ul>
   <li><a href="https://www.adafruit.com/product/4707">Adafruit</a></li>
-  <li><a href="https://www.seeedstudio.com/Wio-Terminal-p-4509.html">Seeed’s Wio Terminal</a></li>
+  <li><a href="https://www.seeedstudio.com/Wio-Terminal-p-4509.html">Seeed Studio</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -10734,7 +10927,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html">Seeed</a></li>
+  <li><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html">Seeed Studio</a></li>
   <li><a href="https://www.digikey.com/en/product-highlight/s/seeed/seeeduino-xiao-arduino-microcontroller-samd21-cortex-m0">Digi-Key</a></li>
   <li><a href="https://www.mouser.com/ProductDetail/Seeed-Studio/102010328?qs=GBLSl2AkirtQWO8CTzEK9g%3D%3D">Mouser</a></li>
 </ul>
@@ -10803,7 +10996,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html">Seeed</a></li>
+  <li><a href="https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html">Seeed Studio</a></li>
   <li><a href="https://www.digikey.com/en/product-highlight/s/seeed/seeeduino-xiao-arduino-microcontroller-samd21-cortex-m0">Digi-Key</a></li>
   <li><a href="https://www.mouser.com/ProductDetail/Seeed-Studio/102010328?qs=GBLSl2AkirtQWO8CTzEK9g%3D%3D">Mouser</a></li>
 </ul>
@@ -10849,7 +11042,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html">seeeduino_xiao_rp2040</a></li>
+  <li><a href="https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html">Seeed Studio</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -10991,7 +11184,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <guid>https://circuitpython.org/board/silicognition-m4-shim/</guid>
   </item><item>
     <title>RP2040-Shim</title>
-    <link>https://circuitpython.org/board/silicognition-rp2040-shim/</link>
+    <link>https://circuitpython.org/board/silicognition_rp2040_shim/</link>
     <description><![CDATA[ 
 
   <img srcset="/assets/images/boards/small/silicognition-rp2040-shim.jpg 300w,
@@ -11015,7 +11208,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Fri, 01 Jul 2022 00:00:00 -0400</pubDate>
-    <guid>https://circuitpython.org/board/silicognition-rp2040-shim/</guid>
+    <guid>https://circuitpython.org/board/silicognition_rp2040_shim/</guid>
   </item><item>
     <title>Simmel Board</title>
     <link>https://circuitpython.org/board/simmel/</link>
@@ -11037,6 +11230,29 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <category>CircuitPython</category>
     <pubDate>Tue, 28 Apr 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/simmel/</guid>
+  </item><item>
+    <title>Bee Motion S3</title>
+    <link>https://circuitpython.org/board/smartbeedesigns_bee_motion_s3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/smartbeedesigns_bee_motion_s3.jpg 300w,
+               /assets/images/boards/large/smartbeedesigns_bee_motion_s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/smartbeedesigns_bee_motion_s3.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Smart Bee Designs</p> <p>This is a ESP32-S3 with a built in PIR motion sensor, RGB LED, lipo charging circuit and voltage dividers.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="http://github.com/strid3r21/BeeMotionS3/">GitHub</a></li>
+  <li><a href="https://www.instagram.com/smartbeedesigns/">Instagram</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 21 Aug 2022 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/smartbeedesigns_bee_motion_s3/</guid>
   </item><item>
     <title>Snekboard</title>
     <link>https://circuitpython.org/board/snekboard/</link>
@@ -11069,7 +11285,7 @@ programmed from the host.</p>
     <pubDate>Tue, 30 Jul 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/snekboard/</guid>
   </item><item>
-    <title>BBQ20KBD</title>
+    <title>BB Q20 Keyboard with trackpad</title>
     <link>https://circuitpython.org/board/solderparty_bbq20kbd/</link>
     <description><![CDATA[ 
 
@@ -11101,6 +11317,12 @@ programmed from the host.</p>
 
 <ul>
   <li><a href="https://bbq20kbd.solder.party/">Documentation</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.tindie.com/products/arturo182/bb-q20-keyboard-with-trackpad-usbi2cpmod/">Tindie</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -12013,6 +12235,54 @@ used for the circuity python build that includes this chip!</li>
     <pubDate>Wed, 29 Sep 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/swan_r5/</guid>
   </item><item>
+    <title>OTAKE Takayoshi Octave</title>
+    <link>https://circuitpython.org/board/takayoshiotake_octave_rp2040/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/takayoshiotake_octave_rp2040.jpg 300w,
+               /assets/images/boards/large/takayoshiotake_octave_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/takayoshiotake_octave_rp2040.jpg" alt="Image of Board" loading="lazy">
+
+<p>By OTAKE Takayoshi</p> <p>The Octave is a 12-key macropad. It is primarily designed to be a compact keyboard with support for 12 function keys (F1 - F12).</p>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>USB-C (USB2.0, HID)</li>
+  <li>Hot-swap sockets for MX compatible switches</li>
+  <li>Incremental encoder with push momentary switch</li>
+  <li>Stick controller with push momentary switch</li>
+  <li>Programmable firmware (CircuitPython)</li>
+  <li>No LEDs</li>
+  <li>No keycaps</li>
+  <li>No switches</li>
+</ul>
+
+<h3 id="layout">Layout</h3>
+
+<ul>
+  <li>12 function keys (F1 - F12)</li>
+  <li>1 momentary layer key (MO)</li>
+  <li>1 incremental encoder (Knob)</li>
+  <li>1 stick controller (Stick)</li>
+</ul>
+
+<p>It is important that there are four rows. Just like the function keys on many keyboards are divided into four rows each. It is also important that it is easy to operate with one hand.</p>
+
+<p>It is designed to be used with the left hand. In particular, the incremental encoder and stick controller are placed in easy-to-operate positions.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://github.com/takayoshiotake/octave-12-key-macropad">GitHub</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 22 Aug 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/takayoshiotake_octave_rp2040/</guid>
+  </item><item>
     <title>Targett ESP32-S2 Module Clip (WROOM)</title>
     <link>https://circuitpython.org/board/targett_module_clip_wroom/</link>
     <description><![CDATA[ 
@@ -12891,6 +13161,44 @@ Unexpected Maker - https://unexpectedmaker.com/shop/ttinys3-esp32s3</p>
     <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/unexpectedmaker_tinys3/</guid>
   </item><item>
+    <title>ESP32-S2-Pico with LCD</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s2_pico_lcd/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/waveshare_esp32_s2_pico_lcd.jpg 300w,
+               /assets/images/boards/large/waveshare_esp32_s2_pico_lcd.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/waveshare_esp32_s2_pico_lcd.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Waveshare</p> <p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.
+Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li><strong>ESP32-S2FH4</strong> - Xtensa single-core 32-bit LX7 240Mhz microprocessor</li>
+  <li><strong>Boot &amp; Reset</strong> buttons to get into the bootloader</li>
+  <li><strong>TPS63000DRCR</strong> on-board 1.8A current high efficiency boost/buck DC-DC power supply IC</li>
+  <li>Integrated 320KB SRAM, 128KB ROM, 8MB PSRAM, 4MB Flash memory</li>
+  <li>Support IEEE802.11 b/g/n, on-board 2.4 GHz WiFi ceramic antenna, up to 150 Mbps data transfer rate</li>
+  <li>USB-C connector, no more plug orientation problem</li>
+  <li>On-board 0.96inch 160×80 pixels 65K color IPS LCD display.</li>
+  <li>On-board single 3.7V lithium battery charge/discharge header, suitable for mobile IoT product design.</li>
+</ul>
+
+<p>Waveshare wiki <a href="https://www.waveshare.com/wiki/ESP32-S2-Pico">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-s2.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 22 Aug 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s2_pico_lcd/</guid>
+  </item><item>
     <title>ESP32-S2-Pico</title>
     <link>https://circuitpython.org/board/waveshare_esp32s2_pico/</link>
     <description><![CDATA[ 
@@ -13715,6 +14023,47 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
     </item>
 
     <item>
+      <title>Banana Pi BPI-M5</title>
+      <link>https://circuitpython.org/blinka/banana_pi_bpi_m5/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/banana_pi_bpi_m5.jpg 300w,
+               /assets/images/boards/large/banana_pi_bpi_m5.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/banana_pi_bpi_m5.jpg" alt="Image of Board" loading="lazy">
+
+<p>By SinoVoip</p> <p>Banana Pi BPI-M5 is the next generation single board computer from Banana Pi in 2020. It is powered by Amlogic S905X3 quad-core Cortex-A55 (2.0 XXGHz) processor.Onboard 4GB LPDDR4 memory and 16GB EMMC storage, and supports 4 USB 3.0 interface, a gigabit network port.</p>
+
+<ul>
+  <li>CPU: Amlogic S905X3 Quad-Core Cortex-A55 (2.0xxGHz)</li>
+  <li>GPU: Mali-G31 MP2 GPU with 4 x Execution Engines (650Mhz)</li>
+  <li>Memory  : 4 GB LPDDR4</li>
+  <li>Storage : MicroSD slot with support for up to 256GB expansion and 16G eMMC flash with support for up to 64GB</li>
+  <li>Network : 10/100/1000 Mbit/s Ethernet ,Optional WiFi USB dongle</li>
+  <li>Video Output(s): 1 x HDMI 2.1 (up to 4K@60Hz with HDR, CEC, EDID)</li>
+  <li>Audio Output(s): 3.5mm jack and 1 x HDMI digital output</li>
+  <li>USB ports: USB 3.0 PORT (x4)</li>
+  <li>GPIO: 40 Pin Header : GPIO (x28) and Power (+5V, +3.3V and GND). GPIO pins can be used for UART, I2C, SPI or PWM</li>
+  <li>Switches: Reset, Power and U-boot</li>
+  <li>LED: Power Status and Activity status</li>
+  <li>Power Source: 5 volt @3A via Micro USB (TYPE C)</li>
+  <li>Size &amp; Weight  : 92x60mm, 48g</li>
+  <li>OS : Android and Linux</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3CpbK8X">Amazon</a></li>
+  <li><a href="https://www.aliexpress.com/item/3256801685527943.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/banana_pi_bpi_m5/</guid>
+    </item>
+
+    <item>
       <title>Banana Pi M2 Zero</title>
       <link>https://circuitpython.org/blinka/banana_pi_m2_zero/</link>
       <description><![CDATA[ 
@@ -13725,7 +14074,7 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
               300px"
        src="/assets/images/boards/original/banana_pi_m2_zero.jpg" alt="Image of Board" loading="lazy">
 
-<p>By Sinovoip</p> <p>The Banana Pi M2 Zero is an ultra compact single board computer which measures only 60mm*30mm. Its external interfaces are the same as the Raspberry Pi Zero W, and it will fit almost all cases and accessories for the Zero W. It uses the quad-core Cortex A7 Allwinner H2+ processor, with 512MB RAM. It’s ideal for light-weight systems and space-limited applications. Like other members of the Banana Pi family, it supports both Linux and Android operating systems.</p>
+<p>By SinoVoip</p> <p>The Banana Pi M2 Zero is an ultra compact single board computer which measures only 60mm*30mm. Its external interfaces are the same as the Raspberry Pi Zero W, and it will fit almost all cases and accessories for the Zero W. It uses the quad-core Cortex A7 Allwinner H2+ processor, with 512MB RAM. It’s ideal for light-weight systems and space-limited applications. Like other members of the Banana Pi family, it supports both Linux and Android operating systems.</p>
 
 <ul>
   <li>H2+ Quad-core Cortex-A7</li>
@@ -14496,6 +14845,41 @@ Enclosure</li>
       <category>Blinka</category>
       <pubDate>Wed, 25 Mar 2020 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/hifive_unleashed/</guid>
+    </item>
+
+    <item>
+      <title>Jetson AGX Orin</title>
+      <link>https://circuitpython.org/blinka/jetson_agx_orin/</link>
+      <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/jetson_agx_orin.jpg 300w,
+               /assets/images/boards/large/jetson_agx_orin.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/jetson_agx_orin.jpg" alt="Image of Board" loading="lazy">
+
+<p>By NVIDIA</p> <p>Bring your next-gen products to life with the world’s most powerful AI computer for energy-efficient autonomous machines. With up to 275 TOPS and 8X the performance of the last generation for multiple concurrent AI inference pipelines, plus high-speed interface support for multiple sensors, NVIDIA Jetson Orin™ modules provide the ideal solution for a new age of robotics.</p>
+
+<p>The NVIDIA Jetson AGX Orin Developer Kit makes it easy to get started with the Jetson AGX Orin module. Compact size, lots of connectors, and up to 275 TOPS of AI performance make this developer kit perfect for prototyping advanced AI-powered robots and other autonomous machines.</p>
+
+<p>Jetson AGX Orin features an NVIDIA Ampere architecture GPU together with next-generation deep learning and vision accelerators, and its high-speed IO and fast memory bandwidth can feed multiple concurrent AI application pipelines. This means you can develop solutions using your largest and most complex AI models to solve problems such as natural language understanding, 3D perception, and multi-sensor fusion.</p>
+
+<p>NVIDIA JetPack SDK brings the NVIDIA AI software stack to Jetson, along with application development and optimization tools. Software for specific use cases is available, including Isaac for robotics and Metropolis for smart cities, and you can save significant time developing your AI solution when you use your datasets with TAO toolkit to fine-tune pretrained AI models from the NGC catalog.</p>
+
+<p>Jetson ecosystem partners offer additional AI and system software, developer tools, and custom software development. They can also help with cameras and other sensors, as well as carrier boards and design services for your product.</p>
+
+<p>With the computing capability of more than 8 Jetson AGX Xavier systems in a developer kit that integrates the latest NVIDIA GPU technology with the world’s most advanced deep learning software stack, you’ll have the flexibility to create tomorrow’s AI solution as well as today’s.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://amzn.to/3QKDIAt">Amazon</a></li>
+  <li><a href="https://www.arrow.com/en/products/945-13730-0000-000/nvidia">Arrow</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/jetson_agx_orin/</guid>
     </item>
 
     <item>
