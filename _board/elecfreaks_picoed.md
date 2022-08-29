@@ -10,6 +10,7 @@ date_added: 2022-4-21
 family: raspberrypi
 features:
   - Speaker
+  - Display
   - Solder-Free Alligator Clip
 ---
 
