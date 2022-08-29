@@ -20,5 +20,5 @@ the classic titles. Just draw your sprites in 16-color BMP files, generate
 sounds as mono WAV files, and write code in CircuitPython, using the Stage
 library which gives you graphic primitives such as tiled grids and sprites.
 
-## Purchase
-* [Tindie](https://www.tindie.com/products/11372/)
+## Learn More
+More information about the project is available at [hackaday.io](https://hackaday.io/project/27629-ugame).
