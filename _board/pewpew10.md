@@ -11,6 +11,7 @@ family: atmel-samd
 bootloader_id: trinket_m0
 features:
   - Display
+  - Breadboard-Friendly
 ---
 
 This board was designed to be an affordable device for teaching game
@@ -23,5 +24,8 @@ applications. A row of pins on the back also lets you connect anything you
 could use with other boards, so you can also use this for playing with
 electronics.
 
+## Learn More
+More information is available at [pewpew.rtfd.io](https://pewpew.rtfd.io).
+
 ## Purchase
-* [Tindie](https://www.tindie.com/products/14890/)
+* [Makerfabs](https://www.makerfabs.com/pewpew-standalone.html)

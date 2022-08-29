@@ -11,6 +11,8 @@ family: atmel-samd
 bootloader_id: pewpew_m4
 features:
   - Display
+  - Speaker
+  - Breadboard-Friendly
 ---
 
 This board was designed to get you to make games with CircuitPython with
@@ -27,9 +29,9 @@ repository](https://github.com/pewpew-game/game-m4-menu), otherwise the game
 selection menu will not work with the new version of CircuitPython.
 
 ## Learn More
-* [Hackaday.io](https://hackaday.io/project/165032-pewpew-m4)
+More information is available at [pewpew.rtfd.io](https://pewpew.rtfd.io)
+and [Hackaday.io](https://hackaday.io/project/165032-pewpew-m4).
 
 ## Purchase
 
-* [Tindie](https://www.tindie.com/products/makerfabs/circuitpython-pewpew-m4-kit/)
 * [Makerfabs](https://makerfabs.com/circuitpython-pewpew-m4.html)
