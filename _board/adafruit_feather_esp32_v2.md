@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_feather_esp32_v2"
-title: "Adafruit ESP32 Feather V2 Download"
-name: "Adafruit ESP32 Feather V2"
+title: "Adafruit Feather ESP32 V2 Download"
+name: "Adafruit Feather ESP32 V2"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/5400"
 board_image: "adafruit_feather_esp32_v2.jpg"
