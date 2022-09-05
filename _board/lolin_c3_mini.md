@@ -39,9 +39,6 @@ A mini Wi-Fi & Bluetooth LE board based on ESP32-C3FH4.
 You need set WIFI Tx Power to 8.5dBm to use WIFI.
 `wifi.radio.tx_power = 8.5`
 
->Note: This is only available in CircuitPython daily builds since 4 July 2022
-and is not yet in a CircuitPython Major Release.
-
 ## Purchase
 
 * [AliExpress](https://www.aliexpress.com/item/1005004005736554.html)
