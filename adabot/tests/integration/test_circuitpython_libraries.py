@@ -10,6 +10,8 @@ from adabot.lib import common_funcs
 from adabot import github_requests
 from adabot import circuitpython_libraries
 
+from adabot.lib import circuitpython_library_validators
+
 # pylint: disable=unused-argument
 def mock_list_repos(*args, **kwargs):
     """Function to monkeypatch `common_funcs.list_repos()` for a shorter set of repos."""
@@ -18,23 +20,51 @@ def mock_list_repos(*args, **kwargs):
     ]
 
 
-def test_circuitpython_libraries(monkeypatch):
+def test_circuitpython_libraries(monkeypatch, pytestconfig):
     """Test main function of 'circuitpyton_libraries.py', without writing an output file."""
 
     monkeypatch.setattr(common_funcs, "list_repos", mock_list_repos)
 
-    circuitpython_libraries.main(validator="all")
+    # Delete specific tests that require repository secrets
+    # They can't be tested via, so let's remove them and test the others
+    if not pytestconfig.getoption("--use-tokens"):
+        vals = [
+            validator[0]
+            for validator in circuitpython_libraries.default_validators
+            if validator[0]
+            not in circuitpython_library_validators.LibraryValidator.get_token_methods()
+        ]
+        vals_str = ",".join(vals)
+    else:
+        vals_str = "all"
+
+    circuitpython_libraries.main(validator=vals_str)
 
 
 # pylint: disable=invalid-name
-def test_circuitpython_libraries_output_file(monkeypatch, tmp_path, capsys):
+def test_circuitpython_libraries_output_file(
+    monkeypatch, pytestconfig, tmp_path, capsys
+):
     """Test main funciton of 'circuitpython_libraries.py', with writing an output file."""
 
     monkeypatch.setattr(common_funcs, "list_repos", mock_list_repos)
 
+    # Delete specific tests that require repository secrets
+    # They can't be tested via, so let's remove them and test the others
+    if not pytestconfig.getoption("--use-tokens"):
+        vals = [
+            validator[0]
+            for validator in circuitpython_libraries.default_validators
+            if validator[0]
+            not in circuitpython_library_validators.LibraryValidator.get_token_methods()
+        ]
+        vals_str = ",".join(vals)
+    else:
+        vals_str = "all"
+
     tmp_output_file = tmp_path / "output_test.txt"
 
-    circuitpython_libraries.main(validator="all", output_file=tmp_output_file)
+    circuitpython_libraries.main(validator=vals_str, output_file=tmp_output_file)
 
     captured = capsys.readouterr()
 

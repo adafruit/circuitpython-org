@@ -25,7 +25,7 @@ from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
 from adabot.lib import assign_hacktober_label as hacktober
 
-GH_INTERFACE = pygithub.Github(os.environ["ADABOT_GITHUB_ACCESS_TOKEN"])
+GH_INTERFACE = pygithub.Github(os.environ.get("ADABOT_GITHUB_ACCESS_TOKEN"))
 
 
 # Define constants for error strings to make checking against them more robust:
@@ -81,6 +81,7 @@ ERROR_MISSING_READTHEDOCS = "Missing readthedocs.yaml"
 ERROR_MISSING_PYPROJECT_TOML = "For PyPI compatibility, missing pyproject.toml"
 ERROR_MISSING_PRE_COMMIT_CONFIG = "Missing .pre-commit-config.yaml"
 ERROR_MISSING_REQUIREMENTS_TXT = "For PyPI compatibility, missing requirements.txt"
+ERROR_SETUP_PY_EXISTS = "Library uses setup.py, needs to be converted to pyproject.toml"
 ERROR_MISSING_OPTIONAL_REQUIREMENTS_TXT = (
     "For PyPI compatibility, missing optional_requirements.txt"
 )
@@ -96,7 +97,18 @@ ERROR_WIKI_DISABLED = "Wiki should be disabled"
 ERROR_ONLY_ALLOW_MERGES = "Only allow merges, disallow rebase and squash"
 ERROR_RTD_SUBPROJECT_MISSING = "ReadTheDocs missing as a subproject on CircuitPython"
 ERROR_RTD_ADABOT_MISSING = "ReadTheDocs project missing adabot as owner"
-ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS = "Failed to load RTD build status"
+ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS = (
+    "Failed to load RTD build status (General error)"
+)
+ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS_GH_NONLIMITED = (
+    "Failed to load RTD build status (GitHub error)"
+)
+ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS_RTD_NONLIMITED = (
+    "Failed to load RTD build status (RTD error)"
+)
+ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS_RTD_UNEXPECTED_RETURN = (
+    "Failed to load RTD build status (Unknown error)"
+)
 ERROR_RTD_SUBPROJECT_FAILED = "Failed to list CircuitPython subprojects on ReadTheDocs"
 ERROR_RTD_OUTPUT_HAS_WARNINGS = "ReadTheDocs latest build has warnings and/or errors"
 ERROR_GITHUB_NO_RELEASE = "Library repository has no releases"
@@ -176,6 +188,14 @@ STD_REPO_LABELS = {
     "good first issue": {"color": "7057ff"},
 }
 
+_TOKEN_FUNCTIONS = []
+
+
+def uses_token(func):
+    """Decorator for recording functions that use tokens"""
+    _TOKEN_FUNCTIONS.append(func.__name__)
+    return func
+
 
 class LibraryValidator:
     """Class to hold instance variables needed to traverse the calling
@@ -220,6 +240,12 @@ class LibraryValidator:
                 self._rtd_yaml_base = ""
 
         return self._rtd_yaml_base
+
+    @staticmethod
+    def get_token_methods():
+        """Return a list of method names that require authentication"""
+
+        return _TOKEN_FUNCTIONS
 
     def run_repo_validation(self, repo):
         """Run all the current validation functions on the provided repository and
@@ -296,7 +322,7 @@ class LibraryValidator:
         since the last release. Only files that drive user-facing changes
         will be considered when flagging a repo as needing a release.
 
-        If 2), categorize by length of time passed since oldest commit after the release,
+        If 2), categorize by length of ti#me passed since oldest commit after the release,
         and return the number of days that have passed since the oldest commit.
         """
 
@@ -687,8 +713,11 @@ class LibraryValidator:
         if "pyproject.toml" in files:
             file_info = content_list[files.index("pyproject.toml")]
             errors.extend(self._validate_pyproject_toml(file_info))
-        elif "pyproject.toml.disabled" not in files:
+        else:
             errors.append(ERROR_MISSING_PYPROJECT_TOML)
+
+        if "setup.py" in files:
+            errors.append(ERROR_SETUP_PY_EXISTS)
 
         if repo["name"] not in self.has_pyproject_toml_disabled:
             if "requirements.txt" in files:
@@ -802,6 +831,7 @@ class LibraryValidator:
 
         return errors
 
+    @uses_token
     def validate_readthedocs(self, repo):
         """Method to check the status of `repo`'s ReadTheDocs."""
 
@@ -834,12 +864,21 @@ class LibraryValidator:
             errors.append(ERROR_RTD_ADABOT_MISSING)
 
         # Get the README file contents
-        try:
-            lib_repo = GH_INTERFACE.get_repo("Adafruit/" + repo["full_name"])
-        except pygithub.GithubException:
-            errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS)
-            return errors
-        content_file = lib_repo.get_contents("README.rst")
+        while True:
+            try:
+                lib_repo = GH_INTERFACE.get_repo("Adafruit/" + repo["full_name"])
+                content_file = lib_repo.get_contents("README.rst")
+                break
+            except pygithub.RateLimitExceededException:
+                core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
+                sleep_time = core_rate_limit_reset - datetime.datetime.now()
+                logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
+                time.sleep(sleep_time.seconds)
+                continue
+            except pygithub.GithubException:
+                errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS_GH_NONLIMITED)
+                return errors
+
         readme_text = content_file.decoded_content.decode("utf-8")
 
         # Parse for the ReadTheDocs slug
@@ -849,17 +888,33 @@ class LibraryValidator:
         rtd_slug: str = search_results.named["slug"]
         rtd_slug = rtd_slug.replace("_", "-", -1)
 
-        # GET the latest documentation build runs
-        url = f"https://readthedocs.org/api/v3/projects/{rtd_slug}/builds/"
-        rtd_token = os.environ["RTD_TOKEN"]
-        headers = {"Authorization": f"token {rtd_token}"}
-        response = requests.get(url, headers=headers)
-        json_response = response.json()
+        while True:
+            # GET the latest documentation build runs
+            url = f"https://readthedocs.org/api/v3/projects/{rtd_slug}/builds/"
+            rtd_token = os.environ["RTD_TOKEN"]
+            headers = {"Authorization": f"token {rtd_token}"}
+            response = requests.get(url, headers=headers)
+            json_response = response.json()
+
+            error_message = json_response.get("detail")
+            if error_message:
+                if error_message == "Not found." or not error_message.startswith(
+                    "Request was throttled."
+                ):
+                    errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS_RTD_NONLIMITED)
+                    return errors
+                time_result = parse.search(
+                    "Request was throttled. Expected available in {throttled:d} seconds.",
+                    error_message,
+                )
+                time.sleep(time_result.named["throttled"] + 3)
+                continue
+            break
 
         # Return the results of the latest run
         doc_build_results = json_response.get("results")
         if doc_build_results is None:
-            errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS)
+            errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS_RTD_UNEXPECTED_RETURN)
             return errors
         result = doc_build_results[0].get("success")
         time.sleep(3)
@@ -1137,6 +1192,7 @@ class LibraryValidator:
 
         return errors
 
+    @uses_token
     def validate_actions_state(self, repo):
         """Validate if the most recent GitHub Actions run on the default branch
         has passed.
