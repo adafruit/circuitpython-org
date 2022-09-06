@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 06 Sep 2022 06:04:03 -0400</lastBuildDate>
+<lastBuildDate>Tue, 06 Sep 2022 11:03:53 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7447,6 +7447,63 @@ and is not yet in a CircuitPython Major Release.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 02 Nov 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/lolin_s2_pico/</guid>
+  </item><item>
+    <title>LOLIN S3</title>
+    <link>https://circuitpython.org/board/lolin_s3/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/lolin_s3.png 300w,
+               /assets/images/boards/large/lolin_s3.png 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/lolin_s3.png" alt="Image of Board" loading="lazy">
+
+<p>By LOLIN</p> <p>WiFi &amp; Bluetooth 5 (LE) development boards based ESP32-S3-WROOM-1.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>based ESP32-S3-WROOM-1
+    <ul>
+      <li>16MB Flash (Quad SPI)</li>
+      <li>8MB PSRAM (Octal SPI)</li>
+    </ul>
+  </li>
+  <li>2x USB-C connector
+    <ul>
+      <li>OTG: for built-in ROM USB bootloader, serial port debugging, and USB device mode</li>
+      <li>UART: CH340 USB-TTL</li>
+    </ul>
+  </li>
+  <li>Peripherals
+    <ul>
+      <li>31 x GPIO pins</li>
+      <li><code class="language-plaintext highlighter-rouge">EN</code> RESET button</li>
+      <li><code class="language-plaintext highlighter-rouge">GPIO0</code> BOOT button</li>
+      <li><code class="language-plaintext highlighter-rouge">GPIO38</code> WS2812B RGB LED</li>
+      <li>Lolin I2C JST SH 4-pin port (not QWIIC/Stemma-Qt pinout) using <code class="language-plaintext highlighter-rouge">GPIO42</code> (SDA) and <code class="language-plaintext highlighter-rouge">GPIO41</code> (SCL)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/3256804457160611.html">AliExpress</a></li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://www.wemos.cc/en/latest/s3/s3.html">Manufacturer Specifications</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/sch_s3_v1.0.0.pdf">Schematic</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/dim_s3_v1.0.0.pdf">Dimension</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 05 Sep 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lolin_s3/</guid>
   </item><item>
     <title>M60 Mechanical Keyboard</title>
     <link>https://circuitpython.org/board/makerdiary_m60_keyboard/</link>
