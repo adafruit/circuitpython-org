@@ -33,5 +33,9 @@ Seeed Studio XIAO nRF52840 Sense contains a wealthy interface. The first thing t
 * Battery Charging
 * built-in 2 MB flash, microphone and 6-axis IMU 
 
+## Accessing Bootloader
+
+To access the bootloader, double press the reset button. The board will reboot into the bootloader.
+
 ## Purchase
 * [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html)
