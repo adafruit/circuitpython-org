@@ -245,15 +245,16 @@ def run_library_checks(validators, kw_args, error_depth):
 
     logger.info("* https://circuitpython.org/contributing")
 
-    logger.info("Library updates in the last seven days:")
+    logger.info("")
+    logger.info("#### Library updates in the last seven days:")
     if len(new_libs) != 0:
-        logger.info("**New Libraries**")
+        logger.info("* **New Libraries**")
         for title, link in new_libs.items():
-            logger.info(" * [%s](%s)", title, link)
+            logger.info("  * [%s](%s)", title, link)
     if len(updated_libs) != 0:
-        logger.info("**Updated Libraries**")
+        logger.info("* **Updated Libraries**")
         for title, link in updated_libs.items():
-            logger.info(" * [%s](%s)", title, link)
+            logger.info("  * [%s](%s)", title, link)
 
     if len(validators) != 0:
         lib_repos = []

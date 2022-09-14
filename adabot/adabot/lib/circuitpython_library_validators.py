@@ -866,7 +866,7 @@ class LibraryValidator:
         # Get the README file contents
         while True:
             try:
-                lib_repo = GH_INTERFACE.get_repo("Adafruit/" + repo["full_name"])
+                lib_repo = GH_INTERFACE.get_repo(repo["full_name"])
                 content_file = lib_repo.get_contents("README.rst")
                 break
             except pygithub.RateLimitExceededException:
