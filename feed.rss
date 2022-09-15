@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 15 Sep 2022 14:33:50 -0400</lastBuildDate>
+<lastBuildDate>Thu, 15 Sep 2022 18:15:02 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -2468,6 +2468,42 @@ onboard easy-to-connect GDI saves the trouble of wiring when using a screen.</p>
     <category>CircuitPython</category>
     <pubDate>Sat, 07 Aug 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/bluemicro840/</guid>
+  </item><item>
+    <title>BPI-Bit-S2</title>
+    <link>https://circuitpython.org/board/bpi_bit_s2/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/bpi_bit_s2.jpg 300w,
+               /assets/images/boards/large/bpi_bit_s2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/bpi_bit_s2.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Banana Pi</p> <p>The BPI-Bit-S2 is a development board equipped ESP32-S2 chip, with 5x5 RGB LED matrix, 1 buzzer, 2 photosensitive sensors, 1 thermosensitive sensor, provides Wi-Fi functions via PCB antenna.</p>
+
+<p>And, the board uses the same edge connector as the micro:bit or micro:bit v2, which makes it possible to connect the alligator clip, or the breakout boards in most micro:bit kits.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S2N4R2</strong>: Xtensa® single-core 32-bit LX7 microprocessor,
+up to 240 MHz; 2.4G Wi-Fi; RISC-V Ultra Low Power Co-processor; <strong>2 MB PSRAM</strong> and <strong>4MB FLASH</strong> are integrated in the package, so don’t worry too much about using massive buffers, it’s basically sufficient.</li>
+  <li><strong>Native USB Port</strong>: ESP32-S2 full-speed USB OTG interface, using Type-C USB Connector with back-feed protection. The interface is used for power supply to the board, download firmware or programs to the chip.</li>
+  <li><strong>5x5 RGB LED matrix</strong>: 25 WS2812 Lamp beads, addressable, driven by GPIO18.</li>
+  <li><strong>GPIO0 LED</strong>: It lights up by default and acts as a power indicator, controlled by GPIO0.</li>
+  <li><strong>Buzzer</strong>: 8.5mm buzzer, controlled by GPIO17.</li>
+  <li><strong>Photosensitive Sensors</strong>: On the upper front of the board, there is one on each side, read their analog values through GPIO12 and GPIO13.</li>
+  <li><strong>Thermosensitive Sensor</strong>: Directly above pin 2, read its analog values through GPIO14.</li>
+  <li><strong>A/B Button</strong>: A controlled by GPIO38, B controlled by GPIO33.</li>
+  <li><strong>Reset Button</strong></li>
+  <li><strong>Boot Button</strong>: It is a button that controls boot mode only at startup, and can be used as a normal button at other times. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the USB port;If UF2 Bootloader already exists, press <strong>Reset</strong> once and press <strong>Boot</strong> once within a second to enter the bootloader.</li>
+  <li><strong>5V to 3.3V DC/DC</strong>: Maximum theoretical output 2A 3.3V.</li>
+  <li><strong>Edge Connector</strong>: Same as the micro:bit, support for alligator clips or the breakout boards in most most micro:bit kits.</li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 14 Sep 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/bpi_bit_s2/</guid>
   </item><item>
     <title>FigPi</title>
     <link>https://circuitpython.org/board/bwshockley_figpi/</link>
