@@ -15,6 +15,7 @@ features:
   - Battery Charging
   - Bluetooth/BTLE
   - Breadboard-Friendly
+  - External Display
   - USB-C
   - Wi-Fi
 ---
