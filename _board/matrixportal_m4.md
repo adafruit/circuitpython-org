@@ -10,7 +10,7 @@ date_added: 2020-9-16
 family: atmel-samd
 bootloader_id: matrixportal_m4
 features:
-  - Display
+  - External Display
   - Wi-Fi
   - STEMMA QT/QWIIC
   - USB-C

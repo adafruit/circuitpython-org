@@ -19,6 +19,7 @@ features:
   - Bluetooth/BTLE
   - Breadboard-Friendly
   - Display
+  - External Display
   - Feather-Compatible
   - GPS
   - LoRa/Radio
