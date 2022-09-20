@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 20 Sep 2022 11:22:19 -0400</lastBuildDate>
+<lastBuildDate>Tue, 20 Sep 2022 11:28:49 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -13198,6 +13198,91 @@ Unexpected Maker - https://unexpectedmaker.com/shop/pros3</p>
     <category>CircuitPython</category>
     <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/unexpectedmaker_pros3/</guid>
+  </item><item>
+    <title>Unexpected Maker TinyPICO</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_tinypico/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/unexpectedmaker_tinypico.jpg 300w,
+               /assets/images/boards/large/unexpectedmaker_tinypico.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/unexpectedmaker_tinypico.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Unexpected Maker</p> <p>Introducing the TinyPICO - The Mighty Tiny ESP32 based development board!</p>
+
+<p><strong>This firmware is for the V2 and V3 versions of TinyPICO</strong>
+It can work on he original V1 board, but some features like VBUS sense won’t be available.</p>
+
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>Dual 32bit Xtensa LX6 cores @ up to 240Mhz</li>
+  <li>Ultra Low Power Co-processor</li>
+  <li>2.4GHz Wifi - 802.11b/g/n</li>
+  <li>Bluetooth 4 - Classic &amp; BLE</li>
+  <li>4MB QSPI Flash</li>
+  <li>4MB of extra QSPI PSRAM</li>
+  <li>700mA 3.3V LDO Regulator</li>
+  <li>APA102 RGB LED</li>
+  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>
+  <li>USB-C Connector with back-feed protection</li>
+  <li>LiPo Battery Charging</li>
+  <li>JST pads on the back supports PH connector</li>
+  <li>3D High Gain Antenna</li>
+  <li>14 GPIO</li>
+  <li>Only 35 x 18mm in size</li>
+</ul>
+
+<p>You can find out more about the TinyPICO at <a href="https://tinypico.com">tinypico.com</a></p>
+
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own TinyPICO from:
+Adafruit - https://www.adafruit.com/product/5028
+Pimoroni - https://shop.pimoroni.com/products/tinypico-v2?variant=39285089534035
+Unexpected Maker - https://unexpectedmaker.com/shop/tinypico-usbc</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 18 Sep 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_tinypico/</guid>
+  </item><item>
+    <title>Unexpected Maker TinyPICO NANO</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_tinypico_nano/</link>
+    <description><![CDATA[ 
+
+  <img srcset="/assets/images/boards/small/unexpectedmaker_tinypico_nano.jpg 300w,
+               /assets/images/boards/large/unexpectedmaker_tinypico_nano.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/original/unexpectedmaker_tinypico_nano.jpg" alt="Image of Board" loading="lazy">
+
+<p>By Unexpected Maker</p> <p>Introducing the TinyPICO NANO - The Mighty Tiny ESP32 all in one module!</p>
+
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>Dual 32bit Xtensa LX6 cores @ up to 240Mhz</li>
+  <li>Ultra Low Power Co-processor</li>
+  <li>2.4GHz Wifi - 802.11b/g/n</li>
+  <li>Bluetooth 4 - Classic &amp; BLE</li>
+  <li>4MB QSPI Flash</li>
+  <li>4MB of extra QSPI PSRAM</li>
+  <li>700mA 3.3V LDO Regulator</li>
+  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>
+  <li>LiPo Battery Charging</li>
+  <li>3D High Gain Antenna</li>
+  <li>25 GPIO</li>
+  <li>Only 35 x 18mm in size</li>
+</ul>
+
+<p>You can find out more about the TinyPICO NANO at <a href="hhttps://www.tinypico.com/tinypico-nano">tinypico.com</a></p>
+
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own TinyPICO NANO from:
+Pimoroni - https://shop.pimoroni.com/products/tinypico-nano?variant=39285102674003
+Unexpected Maker - https://unexpectedmaker.com/shop/tinypico-nano</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 18 Sep 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_tinypico_nano/</guid>
   </item><item>
     <title>Unexpected Maker TinyS2</title>
     <link>https://circuitpython.org/board/unexpectedmaker_tinys2/</link>
