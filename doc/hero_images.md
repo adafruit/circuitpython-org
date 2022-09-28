@@ -19,7 +19,7 @@ The hero image on circuitpython.org may be changed by editing a value in the **_
 
 The **_config.yml** file is located in the root directory of the circuitpython.org repo on GitHub.
 
-The typical contents (truncated after a number of lines) is similar to:
+The typical contents (truncated after a number of lines) are similar to:
 
     title: CircuitPython
     email: justin@adafruit.com
@@ -49,7 +49,7 @@ To add the files:
 - Keep the value "Create a new branch for this commit and start a pull request" checked.
 - Click the green "Commit changes" button.
 
-This will place you in a new screen where you can describe the changes you have made in the "Leave a comment" block.
+This will place you on a new screen where you can describe the changes you have made in the "Leave a comment" block.
 
 When ready, click the green "Create pull request" button.
 
@@ -66,16 +66,16 @@ Edit **_config.yml**. This is best done with the text edit tool built into GitHu
 and click on the pencil icon on the right side.
 - Go down to find the value "hero_image:"
 - Replace the filename. For example, replace the text CircuitPython_Hero.jpg with the new name of a file placed in /assets/images/heroes,
-for example Gamer_Hero.png.
+for example, Gamer_Hero.png.
 - Scroll to the bottom of the page and put a description of the edit in the box marked "Update _config.yml"
 - Keep the value "Create a new branch and start a pull request" checked.
 - Click the green "Commit changes" button.
 
-This will place you in a new screen where you can describe the changes you have made in the "Leave a comment" block.
+This will place you on a new screen where you can describe the changes you have made in the "Leave a comment" block.
 
 When ready, click the green "Create pull request" button.
 
 The reviewers for circuitpython.org website content will review your change and accept it if all is ok. You can see the names of the
 reviewers on the right of the screen.
 
-Revision 2020-02-05 Anne Barela
+Revision 2022-9-28 Rohan Shah
