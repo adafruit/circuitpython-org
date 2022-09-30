@@ -31,9 +31,9 @@ Introducing the TinyPICO NANO - The Mighty Tiny ESP32 all in one module!
 - 25 GPIO
 - Only 35 x 18mm in size
 
-You can find out more about the TinyPICO NANO at [tinypico.com](hhttps://www.tinypico.com/tinypico-nano)
+You can find out more about the TinyPICO NANO at [tinypico.com](https://www.tinypico.com/tinypico-nano)
 
 ## Purchase
-You can purchase your very own TinyPICO NANO from:
-Pimoroni - https://shop.pimoroni.com/products/tinypico-nano?variant=39285102674003
-Unexpected Maker - https://unexpectedmaker.com/shop/tinypico-nano
+
+- [Pimoroni](https://shop.pimoroni.com/products/tinypico-nano?variant=39285102674003)
+- [Unexpected Maker](https://unexpectedmaker.com/shop/tinypico-nano)
