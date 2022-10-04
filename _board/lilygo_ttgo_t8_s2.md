@@ -40,7 +40,7 @@ The TTGO T8 ESP32-S2 development board has useful features like the microSD card
 To flash this image use this command:
 
 ```sh
-esptool.py  --chip esp32s2 --port (COMPORT) \
+esptool.py --chip esp32s2 --port (COMPORT) \
   --baud 115200 write_flash 0x000 \
   adafruit-circuitpython-lilygo_ttgo_t8_s2-xx_XX-X.Y.Z.bin
 ```
