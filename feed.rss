@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 04 Oct 2022 06:04:21 -0400</lastBuildDate>
+<lastBuildDate>Tue, 04 Oct 2022 15:50:09 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7205,7 +7205,7 @@ o   o        o   o
 
 <p>To flash this image use this command:</p>
 
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>esptool.py  <span class="nt">--chip</span> esp32s2 <span class="nt">--port</span> <span class="o">(</span>COMPORT<span class="o">)</span> <span class="se">\</span>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>esptool.py <span class="nt">--chip</span> esp32s2 <span class="nt">--port</span> <span class="o">(</span>COMPORT<span class="o">)</span> <span class="se">\</span>
   <span class="nt">--baud</span> 115200 write_flash 0x000 <span class="se">\</span>
   adafruit-circuitpython-lilygo_ttgo_t8_s2-xx_XX-X.Y.Z.bin
 </code></pre></div></div>
