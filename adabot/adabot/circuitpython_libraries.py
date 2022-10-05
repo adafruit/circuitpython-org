@@ -195,6 +195,8 @@ def run_library_checks(validators, kw_args, error_depth):
     logger.info("* %s open issues", len(core_insights["open_issues"]))
     logger.info("  * https://github.com/adafruit/circuitpython/issues")
     logger.info("* %s active milestones", len(core_insights["milestones"]))
+    for milestone, milestone_issue_count in sorted(core_insights["milestones"].items()):
+        logger.info(" * %s: %s open issues", milestone, milestone_issue_count)
     no_milestone_items = gh_reqs.get(
         "/repos/adafruit/circuitpython/issues?milestone=none"
     ).json()
