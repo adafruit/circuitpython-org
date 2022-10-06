@@ -21,7 +21,11 @@ permalink: /contributing/open-issues
     Sort by issue labels
     <select>
       {% for label in labels %}
-        <option value='{{ label | downcase | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
+        {% assign lowerlabel = label | downcase %}
+        {% assign ddlabels = ddlabels | push: lowerlabel | uniq %}
+      {% endfor %}
+      {% for label in ddlabels %}
+        <option value='{{ label | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
       {% endfor %}
     <select>
   </p>
