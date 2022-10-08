@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sat, 08 Oct 2022 16:57:42 -0400</lastBuildDate>
+<lastBuildDate>Sat, 08 Oct 2022 17:02:58 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -2609,6 +2609,54 @@ up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; <
     <pubDate>Sun, 14 Nov 2021 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/challenger_rp2040_lte/</guid>
   </item><item>
+    <title>Challenger RP2040 SubGHz</title>
+    <link>https://circuitpython.org/board/challenger_rp2040_subghz/</link>
+    <description><![CDATA[   <img srcset=" 300w,
+               /assets/images/boards/large/challenger_rp2040_subghz.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/challenger_rp2040_subghz.jpg" alt="Image of Board" loading="lazy">
+<p>By Invector Labs</p> <p>The Challenger RP2040 SubGHz board is an Arduino/Circuitpython compatible Adafruit Feather format micro controller board based on the Raspberry Pico (RP2040) chip.</p>
+
+<p>This is a spin-off from our Challenger RP2040 LoRa board but in this case we replaced the LoRa module with a low power SubGHz radio module also from Hope RF. The transceiver features a proprietary long range modem that provides ultra-long range spread spectrum communication and high interference immunity whilst minimizing current consumption.</p>
+
+<p>The RFM69HCW is a transceiver module capable of operation over a wide frequency range, including the 315,433,868 and 915MHz license-free ISM (Industry Scientific and Medical) frequency bands. Currently we are only supporting the 868 and 915MHz bands but this may change in the future. All major RF communication parameters are programmable and most of them can be dynamically set. The RFM69HCW offers the unique advantage of programmable narrow-band and wide- band communication modes.</p>
+
+<p>The RFM69HCW is connected to the RP2040 via SPI channel 1 and a few GPIO’s that is required for signaling. A U.FL connector is used to attach your antenna to the board.</p>
+
+<h3 id="technical-details">Technical details</h3>
+
+<ul>
+  <li>+20 dBm – 100 mW Power Output Capability</li>
+  <li>High Sensitivity: down to -120 dBm at 1.2 kbps</li>
+  <li>High Selectivity: 16-tap FIR Channel Filter</li>
+  <li>Bullet-proof front end: IIP3 = -18 dBm, IIP2 = +35 dBm,80 dB Blocking Immunity</li>
+  <li>Low current: Rx = 16 mA, 100nA register retention</li>
+  <li>Programmable Pout: -18 to +20 dBm in 1dB steps</li>
+  <li>Constant RF performance over voltage range of module</li>
+  <li>FSK Bit rates up to 300 kb/s</li>
+  <li>Fully integrated synthesizer with a resolution of 61 Hz</li>
+  <li>FSK, GFSK, MSK, GMSK and OOK modulations</li>
+  <li>Built-in Bit Synchronizer performing Clock Recovery</li>
+  <li>Incoming Sync Word Recognition</li>
+  <li>115 dB+ Dynamic Range RSSI</li>
+  <li>Automatic RF Sense with ultra-fast AFC</li>
+  <li>Packet engine with CRC-16, AES-128, 66-byte FIFO</li>
+  <li>Built-in temperature sensor</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://ilabs.se/product/challenger-rp2040-subghz-868mhz/">Invector Labs (868MHz)</a></li>
+  <li><a href="https://ilabs.se/product/challenger-rp2040-subghz-915mhz/">Invector Labs (915MHz)</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 06 Oct 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/challenger_rp2040_subghz/</guid>
+  </item><item>
     <title>Challenger RP2040 WiFi</title>
     <link>https://circuitpython.org/board/challenger_rp2040_wifi/</link>
     <description><![CDATA[   <img srcset=" 300w,
@@ -2653,6 +2701,35 @@ up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; <
     <category>CircuitPython</category>
     <pubDate>Thu, 16 Sep 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/challenger_rp2040_wifi/</guid>
+  </item><item>
+    <title>Challenger RP2040 WiFi/BLE</title>
+    <link>https://circuitpython.org/board/challenger_rp2040_wifi_ble/</link>
+    <description><![CDATA[   <img srcset=" 300w,
+               /assets/images/boards/large/challenger_rp2040_wifi_ble.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/challenger_rp2040_wifi_ble.jpg" alt="Image of Board" loading="lazy">
+<p>By Invector Labs</p> <p>The Challenger RP2040 WiFi/BLE is an Arduino/Micropython compatible Adafruit Feather format micro controller board based on the Raspberry Pico chip, equipped with an WiFi/BLE chip that provides both WiFi as well as BLE functionality on the board.</p>
+
+<p>RP2040 is the debut micro controller from Raspberry Pi. It brings their signature values of high performance, low cost, and ease of use to the micro controller space. With a large on-chip memory, symmetric dual-core processor complex, deterministic bus fabric, and rich peripheral set augmented with our unique Programmable I/O (PIO) subsystem, RP2040 provides professional users with unrivaled power and flexibility. With detailed documentation, a polished Circuitpython port, and a UF2 boot loader in ROM, it has the lowest possible barrier to entry for beginner and hobbyist users</p>
+
+<p>The Challenger RP2040 WiFi/BLE board is equipped with a powerful combined single chip solution that provides the WiFi and BLE connectivity of this board. The chip we are using is the ESP32-C3FN4 from Espressif and it is a complete WiFi subsystem that complies with IEEE 802.11b/g/n protocol and supports Station mode, SoftAP mode, SoftAP + Station mode, and promiscuous mode. It also implements A Bluetooth LE subsystem that supports features of Bluetooth 5 and Bluetooth mesh.</p>
+
+<p>This solution is based on an RISC-V micro controller core and comes with 4MByte of internal flash and 408Kbyte of internal SRAM as well as the advanced 2.4GHz radio.</p>
+
+<p>The ESP32-C3 device comes pre loaded with the ESP-AT interpreter already programmed into flash. This interpreter provides the system with everything from low level TCP/UDP functionality up to high level functions such as a on board integrated web server, MQTT server and client functions and much more.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/">Invector Labs (Chip Antenna)</a></li>
+  <li><a href="https://ilabs.se/product/challenger-rp2040-wifi-ble-with-u-fl-connector/">Invector Labs (U.FL Connector)</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 06 Oct 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/challenger_rp2040_wifi_ble/</guid>
   </item><item>
     <title>CircuitBrains Basic</title>
     <link>https://circuitpython.org/board/circuitbrains_basic_m0/</link>
@@ -8089,6 +8166,31 @@ Gaze upon these features:</p>
     <category>CircuitPython</category>
     <pubDate>Thu, 04 Jun 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/nice_nano/</guid>
+  </item><item>
+    <title>STM32F446RE Nucleo</title>
+    <link>https://circuitpython.org/board/nucleo_f446re/</link>
+    <description><![CDATA[   <img srcset=" 300w,
+               /assets/images/boards/large/nucleo_f446re.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/nucleo_f446re.jpg" alt="Image of Board" loading="lazy">
+<p>By ST</p> <p>The STM32 Nucleo-64 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the external SMPS significantly reduces power consumption in Run mode.</p>
+
+<p>The ARDUINO® Uno V3 connectivity support and the ST morpho headers allow the easy expansion of the functionality of the STM32 Nucleo open development platform with a wide choice of specialized shields.</p>
+
+<p>The STM32 Nucleo-64 board does not require any separate probe as it integrates the ST-LINK debugger/programmer.</p>
+
+<p>The STM32 Nucleo-64 board comes with the STM32 comprehensive free software libraries and examples available with the STM32Cube MCU Package.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-F446RE/5347712">Digi-Key</a></li>
+  <li><a href="https://amzn.to/3T5Lo19">Amazon</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 05 Oct 2022 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/nucleo_f446re/</guid>
   </item><item>
     <title>STM32F746 Nucleo</title>
     <link>https://circuitpython.org/board/nucleo_f746zg/</link>
