@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sat, 08 Oct 2022 17:02:58 -0400</lastBuildDate>
+<lastBuildDate>Sat, 08 Oct 2022 17:04:24 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -14516,6 +14516,30 @@ Enclosure</li>
     </item>
 
     <item>
+      <title>Lichee RV Dock D1</title>
+      <link>https://circuitpython.org/blinka/lichee_rv_dock_d1/</link>
+      <description><![CDATA[   <img srcset=" 300w,
+               /assets/images/boards/large/lichee_rv_dock_d1.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lichee_rv_dock_d1.jpg" alt="Image of Board" loading="lazy">
+<p>By Sipeed</p> <p>Lichee RV Dock is a RISC-V Linux development kit. It expands the module’s usable interfaces by providing an HDMI port with support for up to 4K@30fps output, a 40-pin header with GPIO and power switches, among other things, plus headers and connectors that you can use for speakers, microphones, and more. It supports RGB and MIPI screen interfaces with its screen convert board. There is an onboard 2.4G WIFI+BT module, a 2.4G Patch antenna, an IPEX connector, and a USB Type-A host. The highest network speed is up to 30Mbps (with RTL8723DS), and the average network bandwidth is about 20Mbps.</p>
+
+<p>For software, Lichee RV Dock supports Tina Linux, Debian Officially, and also Ubuntu/OpenSUSE, RustSBI community.</p>
+
+<p>The features of high integration, small size, affordable price, and open-source are suitable for developers exploring more interesting Linux applications. No more waiting and soldering, it greatly shortens the developer’s research and development time by just simply connecting the kit to the display devices and input devices such as a keyboard or a mouse(only available on the Debian system).</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.seeedstudio.com/Lichee-RV-Dock-Allwinner-D1-SoC-RISC-V-Linux-dev-kit-High-Integration-Open-Source-p-5380.html">Seeed Studio</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/lichee_rv_dock_d1/</guid>
+    </item>
+
+    <item>
       <title>LubanCat I.MX6ULL</title>
       <link>https://circuitpython.org/blinka/lubancat_i.mx6ull/</link>
       <description><![CDATA[   <img srcset=" 300w,
@@ -15129,6 +15153,109 @@ This allows users to truly experience an upgrade in computing, especially with f
       <category>Blinka</category>
       <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
       <guid>https://circuitpython.org/blinka/orange_pi_3/</guid>
+    </item>
+
+    <item>
+      <title>Orange Pi 4</title>
+      <link>https://circuitpython.org/blinka/orange_pi_4/</link>
+      <description><![CDATA[   <img srcset=" 300w,
+               /assets/images/boards/large/orange_pi_4.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/orange_pi_4.jpg" alt="Image of Board" loading="lazy">
+<p>By Shenzhen Xunlong Software CO.,Limited</p> <p>Orange Pi 4 is an open-source single-board computer with dual-band wireless WiFi and Bluetooth 5.0. It is highly compact with a dimension of 56 x 91mm.</p>
+
+<h3 id="hardware-specification">Hardware specification</h3>
+<ul>
+  <li>Rockchip RK3399 (28nm HKMG process)</li>
+  <li>6-core ARM® 64-bit processor, main frequency speeds up to 2.0GHz</li>
+  <li>Based on the large and small size core architecture of big.LITTLE</li>
+  <li>Dual-core Cortex-A72 (large core) + Quad-core Cortex-A53 (small core)</li>
+  <li>Mali-T864 GPU</li>
+  <li>Supports OpenGL ES1.1/2.0/3.0/3.1, OpenVG1.1,OpenCL, DX11, support for AFBC</li>
+  <li>RK808 PMU</li>
+  <li>Dual 4GB LPDDR4 + 16GB EMMC Flash</li>
+  <li>Dual 4GB LPDDR4 +EMMC Flash (Default Empty)</li>
+  <li>AP6256, IEEE 802.11 a/b/g/n/ac, BT5.0</li>
+  <li>10/100/1000Mbps Ethernet (Realtek RTL8211E)</li>
+  <li>Output: 3.5mm Jack and HDMI2.0a Input: MIC</li>
+  <li>1 x HDMI 2.0 (Type-A), Supports 4K@60fps output</li>
+  <li>1 x DP 1.2 (Display Port), Supports 4K@60fps output</li>
+  <li>Supports Dual MIPI-DSI （4 lines per channel</li>
+  <li>2 x MIPI-CSI Camera connector (MIPI_RX0, MIPI_TX1/RX1)</li>
+  <li>2 x USB2.0 HOST，1x USB3.0 HOST, 1 x USB3.0 Type-C</li>
+  <li>Support RTC, on-board battery backup interface</li>
+  <li>3 pins Debug UART</li>
+  <li>GPIO1 40 pins（1 x I2S, 2 x I2C, 1 x SPI/UART, 8 x GPIO</li>
+  <li>GPIO2 24pin PCIE port</li>
+  <li>Upgrade Key &amp; Reset Key</li>
+  <li>DC 5V/3A TYPE-C 5V/3A</li>
+  <li>Power led &amp; Status led</li>
+  <li>Android 8.1, Ubuntu 16.04, Ubuntu 18.04, Debian 9</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3ypCBiG">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/orange_pi_4/</guid>
+    </item>
+
+    <item>
+      <title>Orange Pi 4 LTS</title>
+      <link>https://circuitpython.org/blinka/orange_pi_4_lts/</link>
+      <description><![CDATA[   <img srcset=" 300w,
+               /assets/images/boards/large/orange_pi_4_lts.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/orange_pi_4_lts.jpg" alt="Image of Board" loading="lazy">
+<p>By Shenzhen Xunlong Software CO.,Limited</p> <p>Orange Pi 4 LTS is an open-source single-board computer with dual-band wireless WiFi and Bluetooth 5.0. It is highly compact with a dimension of 56 x 91mm.</p>
+
+<p>Orange Pi 4 LTS uses the Rockchip RK3399(28nm HKMG Process), and has 3 GB /4GB LPDDR4 SDRAM, 16GB EMMC Flash（option）. It can run Android 8.1,Ubuntu16.04,Ubuntu18.04,Debian9. Orange Pi 4 LTS offers a range of different ports, including HDMI output, 26pin headers, LCD connector, Gbps Ethernet port, 2<em>USB 2.0, 1</em>USB 3.0, 1*USB 3.0 TYPE-C, mini PCIE connector etc. It is powered through DC and Type-C. It is a good choice for applications that need strong networking perfomance.</p>
+
+<h3 id="hardware-specification">Hardware specification</h3>
+<ul>
+  <li>Rockchip RK3399 (4GB) or Rockchip RK3399-T(3GB)</li>
+  <li>Based on the large and small size of big.LITTLE core architecture:Dual-core Cortex-A72 (large core)+ Quad-core Cortex-A53(small core)</li>
+  <li>6-core ARMR64-bit processor ,main frequency speeds up to 1.6GHz(3GB)/1.8 GHz(4GB)</li>
+  <li>High-performance Multi-core Mali-T860 GPU</li>
+  <li>Supports OpenGL ES1.1/2.0/3.0/3.1, OpenVG1.1, OpenCL, DX11</li>
+  <li>Support for AFBC</li>
+  <li>RK808 PMU</li>
+  <li>3 GB /4GB LPDDR4</li>
+  <li>16GB EMMC Flash (option)</li>
+  <li>MicroSD (TF) Card Slot</li>
+  <li>Support 10/100M/1000M Ethernet (YT8531C)</li>
+  <li>CDW.20U5622-00</li>
+  <li>Support IEEE 802.11 a/b/g/n/ac, 2T2R • Support BT 5.0</li>
+  <li>HDMI 2.0,Supports 4K@60fps output</li>
+  <li>1* DP 1.2(Display Port), Supports 4K@60fps output</li>
+  <li>Supports Dual MIPl-DSI (4 lines Per Channel)</li>
+  <li>Output: 3.5mm Jack and HDMI2.0a</li>
+  <li>lnput: MIC</li>
+  <li>2 * MIPI-CSl Camera Connector (MIPI_RXO、MIPI_TX1/RX1)</li>
+  <li>2 * USB2.0 ,1*USB3.0,1 * USB3.0 Type-C</li>
+  <li>3 pins Debug UART</li>
+  <li>GPIO1 26 pins</li>
+  <li>Support Mini PCIe port</li>
+  <li>Upgrade Key &amp; Reset Key</li>
+  <li>DC 5V/3A or 5V/4A, TYPE-C 5V/4A</li>
+  <li>Power led &amp; Status led</li>
+  <li>Android, Ubuntu, Debian</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256803525557239.html">Aliexpress</a></li>
+  <li><a href="https://amzn.to/3fPtK3l">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/orange_pi_4_lts/</guid>
     </item>
 
     <item>
@@ -16672,6 +16799,58 @@ TrustZone technology support</li>
       <category>Blinka</category>
       <pubDate>Wed, 29 Apr 2020 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/rock_pi_s/</guid>
+    </item>
+
+    <item>
+      <title>SIMATIC IOT2050</title>
+      <link>https://circuitpython.org/blinka/siemens_simatic_iot2050/</link>
+      <description><![CDATA[   <img srcset=" 300w,
+               /assets/images/boards/large/siemens_simatic_iot2050.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/siemens_simatic_iot2050.jpg" alt="Image of Board" loading="lazy">
+<p>By Siemens</p> <p>SIMATIC IOT2050 is a versatile IOT edge device that allows you to connect PLCs on the factory floor to the cloud. A dual core or quad core processor gives you enough horse power to run analytics and decision making on the edge before you send off the data to the Cloud.</p>
+
+<p>SIMATIC IOT2050, 2x Gbit Ethernet RJ45; Display port; 2x USB2.0, SD card slot, 1GB RAM, Dual Core Processor ARM TI AM6528 GP</p>
+
+<p>Requires 24 V DC industrial power supply</p>
+
+<p>Siemens Part Number: 6ES76470BA000YA2</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://iot2050.com/products/simatic-iot2050">iot2050.com</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/siemens_simatic_iot2050/</guid>
+    </item>
+
+    <item>
+      <title>SIMATIC IOT2050 Advance</title>
+      <link>https://circuitpython.org/blinka/siemens_simatic_iot2050_advance/</link>
+      <description><![CDATA[   <img srcset=" 300w,
+               /assets/images/boards/large/siemens_simatic_iot2050.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/siemens_simatic_iot2050.jpg" alt="Image of Board" loading="lazy">
+<p>By Siemens</p> <p>SIMATIC IOT2050 Advance is a versatile IOT edge device that allows you to connect PLCs on the factory floor to the cloud. A quad core ARM processor, 20 digital IOs and 6 analog inputs gives you enough horse power to run analytics and decision making on the edge before you send off the data to the Cloud.</p>
+
+<p>SIMATIC IOT2050 Advance; 2x Gbit Ethernet RJ45; 2GB RAM, Quad Core ARM TI AM6548 HS Processor; Display port; 2x USB2.0; 16 GB eMMC; SD card slot; Siemens Industrial OS</p>
+
+<p>Requires 24 V DC industrial power supply</p>
+
+<p>Siemens Part Number: 6ES76470BA001YA2</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://iot2050.com/products/simatic-iot2050-advance">iot2050.com</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/siemens_simatic_iot2050_advance/</guid>
     </item>
 
     <item>
