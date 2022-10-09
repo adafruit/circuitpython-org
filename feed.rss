@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sun, 09 Oct 2022 06:03:40 -0400</lastBuildDate>
+<lastBuildDate>Sun, 09 Oct 2022 12:17:19 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -8052,7 +8052,7 @@ o   o        o   o
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/microdev_micro_c3.jpg" alt="Image of Board" loading="lazy">
-<p>By microDev</p> <p>Introducing MicroDev microC3 dev-board based on Espressif’s ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency up to 160 MHz, supports secondary development without using other microcontrollers or processors. The ESP32-C3 is an highly integrated low power Wi-Fi and Bluetooth system-level chip (SoC), designed for various applications such as internet of things (IoT), mobile devices, wearable electronics, smart home, etc.</p>
+<p>By MicroDev</p> <p>Introducing MicroDev microC3 dev-board based on Espressif’s ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency up to 160 MHz, supports secondary development without using other microcontrollers or processors. The ESP32-C3 is an highly integrated low power Wi-Fi and Bluetooth system-level chip (SoC), designed for various applications such as internet of things (IoT), mobile devices, wearable electronics, smart home, etc.</p>
 
 <h3 id="features">Features</h3>
 
@@ -8081,7 +8081,7 @@ o   o        o   o
     <pubDate>Tue, 05 Oct 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/microdev_micro_c3/</guid>
   </item><item>
-    <title>microS2</title>
+    <title>MicroDev microS2</title>
     <link>https://circuitpython.org/board/microdev_micro_s2/</link>
     <description><![CDATA[   
   
@@ -8090,25 +8090,27 @@ o   o        o   o
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/microdev_micro_s2.jpg" alt="Image of Board" loading="lazy">
-<p>By microDev</p> <p>Introducing the <strong>microS2</strong> - <em>An ESP32-S2 based development board in the size of an esp32 module!</em></p>
+<p>By MicroDev</p> <p>Introducing the <strong>microS2</strong> - <em>An ESP32-S2 based dev-board in the size of a tiny module!</em></p>
 
-<p>With Wi-Fi, native USB and a load of Flash &amp; PSRAM the microS2 is perfect for use with CircuitPython while keeping the form-factor small.</p>
+<p>With Wi-Fi, native USB and a load of Flash + PSRAM, the microS2 is perfect for use with CircuitPython or Arduino while keeping the form-factor small. Native USB means it can act like a keyboard or a disk drive. WiFi means its awesome for IoT projects.</p>
+
+<p>The ESP32-S2 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has built-in native USB as well as some other interesting new technologies. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the Internet of Things (IoT), wearable electronics, and smart homes.</p>
 
 <h3 id="features--specifications">Features &amp; Specifications</h3>
 <ul>
-  <li><strong>ESP32-S2</strong> 32-bit 240MHz Tensilica processor - <em>the next generation of ESP32</em></li>
-  <li><strong>16MB Flash</strong> &amp; <strong>8MB PSRAM</strong> - <em>you can have huge data buffers</em></li>
-  <li><strong>2.4 GHz Wi-Fi</strong> 802.11b/g/n - <em>get communicating with the world</em></li>
-  <li><strong>All pins exposed</strong> &amp; <strong>breadboard compatible</strong> - <em>too good to be true</em></li>
-  <li><strong>Neopixel</strong> (IO33) <strong>Blue led</strong> (IO21) - <em>who doesn’t love some lights</em></li>
-  <li><strong>Reset</strong> &amp; <strong>Boot</strong> buttons - <em>can also be used as user button</em></li>
-  <li><strong>USB micro-B</strong> &amp; <strong>QWIIC/STEMMA</strong> connector - <em>easily connect with peripherals</em></li>
-  <li><strong>31 x 18 mm</strong> - <em>all of the above in a small form factor</em></li>
+  <li><strong>ESP32-S2</strong> 32-bit 240MHz Tensilica processor - the next generation of ESP32</li>
+  <li><strong>16MB Flash + 8MB PSRAM</strong> - you can have huge data buffers</li>
+  <li><strong>Wi-Fi</strong> 2.4GHz 802.11b/g/n - get communicating with the world</li>
+  <li><strong>All pins exposed</strong> - too good to be true</li>
+  <li><strong>Neopixel</strong> (IO33) <strong>Blue led</strong> (IO21) - who doesn’t love some lights</li>
+  <li><strong>Reset &amp; Boot</strong> buttons - can also be used as user button</li>
+  <li><strong>USB micro-B &amp; QWIIC/STEMMA</strong> connector - easily connect with peripherals</li>
+  <li><strong>31 x 18 mm</strong> - all of the above in a small form factor</li>
 </ul>
 
 <h3 id="learn-more">Learn More</h3>
 <ul>
-  <li><a href="https://github.com/microDev1/microS2/wiki">GitHub</a></li>
+  <li><a href="https://github.com/MicroDev1/microS2/wiki">GitHub</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
