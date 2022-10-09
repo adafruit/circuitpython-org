@@ -8,6 +8,7 @@ layout: default
   <div class="download-section">
     <div class="details">
       <div class="section">
+        {% assign large_image = "/assets/images/boards/large/" | append: page.board_image %}
         <img src="{{ large_image | relative_url }}" alt="Image of Board">
         <p>
           {{ content }}
