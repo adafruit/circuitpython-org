@@ -3,7 +3,7 @@ layout: download
 board_id: "microdev_micro_c3"
 title: "MicroDev microC3 Download"
 name: "MicroDev microC3"
-manufacturer: "microDev"
+manufacturer: "MicroDev"
 board_url: "https://microdev.systems/"
 board_image: "microdev_micro_c3.jpg"
 date_added: 2021-10-06
