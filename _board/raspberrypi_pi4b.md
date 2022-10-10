@@ -11,7 +11,7 @@ family: broadcom
 
 ---
 
-**NOTE**: Not all features are supported in CircuitPython.
+**NOTE**: This build is alpha quality and is for experimental use. It is [missing features and has known issues](https://github.com/adafruit/circuitpython/labels/broadcom).
 
 The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that's exactly what they did!
 
@@ -38,7 +38,7 @@ The Raspberry Pi 4 is the latest product in the Raspberry Pi range, boasting an 
 
 ## CircuitPython
 
-These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.
+These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.
 
 After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the USB-C connector used for power-only usually. A powered USB hub is needed to power the Pi while allowing USB data to also connect.
 
