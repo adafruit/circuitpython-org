@@ -12,7 +12,7 @@ features:
 
 ---
 
-**NOTE**: Not all features are supported in CircuitPython.
+**NOTE**: This build is alpha quality and is for experimental use. It is [missing features and has known issues](https://github.com/adafruit/circuitpython/labels/broadcom).
 
 At first glance, the Pi Zero isn't much.  It just looks like a slimmed down version of the Raspberry Pi we know and love.  But when we started to think of the possibilities - and what a well-chosen set of accessories could add - we realized the appeal.  And then we saw the price...could it be true? Yes!
 
@@ -20,7 +20,7 @@ This is the slimmest, most pared down Raspberry Pi to date.  It's kind of like t
 
 ## CircuitPython
 
-These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.
+These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.
 
 After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the micro-B USB connector labeled "USB".
 
