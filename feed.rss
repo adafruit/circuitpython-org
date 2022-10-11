@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 11 Oct 2022 06:04:24 -0400</lastBuildDate>
+<lastBuildDate>Tue, 11 Oct 2022 11:24:23 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -10431,7 +10431,9 @@ For best wireless performance, the antenna should be in free space. For instance
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/raspberry_pi_cm4.jpg" alt="Image of Board" loading="lazy">
-<p>By Raspberry Pi</p> <p>The <strong>Raspberry Pi Compute Module 4</strong> is based on the <a href="http://www.adafruit.com/product/4297">Raspberry Pi 4 Model B</a>, but in a smaller form factor - perfect for embedding into products or projects without the bulk of a classic Raspberry Pi. You get all the computational power of Raspberry Pi 4 in a compact form factor for deeply embedded applications. The CM4 incorporates the same quad-core ARM Cortex-A72 processor, dual video output, gigabit Ethernet, UART, I2C, SPI, I2S, and a few PWM for good measure.</p>
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: This build is alpha quality and is for experimental use. It is <a href="https://github.com/adafruit/circuitpython/labels/broadcom">missing features and has known issues</a>.</p>
+
+<p>The <strong>Raspberry Pi Compute Module 4</strong> is based on the <a href="http://www.adafruit.com/product/4297">Raspberry Pi 4 Model B</a>, but in a smaller form factor - perfect for embedding into products or projects without the bulk of a classic Raspberry Pi. You get all the computational power of Raspberry Pi 4 in a compact form factor for deeply embedded applications. The CM4 incorporates the same quad-core ARM Cortex-A72 processor, dual video output, gigabit Ethernet, UART, I2C, SPI, I2S, and a few PWM for good measure.</p>
 
 <p>This module is available in <strong>multiple variants</strong>, with a range of RAM and eMMC Flash options, and with or without wireless connectivity. The modules are available with 1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM with optional storage of 8GB, 16GB or 32GB eMMC Flash. The wireless option includes 2.4GHz and 5GHz 802.11b/g/n/ac wireless LAN and Bluetooth 5.0 for BT classic and BTLE support.</p>
 
@@ -10470,7 +10472,7 @@ For best wireless performance, the antenna should be in free space. For instance
 
 <h2 id="circuitpython">CircuitPython</h2>
 
-<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.</p>
 
 <p>After installing the disk image on an SD card, the normal CircuitPython USB workflow will be available on the micro-B connector on the IO board. EMMC compute modules are not supported yet.</p>
 
@@ -10492,7 +10494,7 @@ For best wireless performance, the antenna should be in free space. For instance
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/raspberrypi_cm4io.jpg" alt="Image of Board" loading="lazy">
-<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: This build is alpha quality and is for experimental use. It is <a href="https://github.com/adafruit/circuitpython/labels/broadcom">missing features and has known issues</a>.</p>
 
 <p>Exposing every interface from Raspberry Pi Compute Module 4, the Compute Module 4 IO Board provides a development platform and reference base-board design for the most powerful Compute Module yet.</p>
 
@@ -10502,7 +10504,7 @@ For best wireless performance, the antenna should be in free space. For instance
 
 <h2 id="circuitpython">CircuitPython</h2>
 
-<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.</p>
 
 <p>After installing the disk image on an SD card, the normal CircuitPython USB workflow will be available on the micro-B connector on the IO board. EMMC compute modules are not supported yet.</p>
 
@@ -10524,7 +10526,7 @@ For best wireless performance, the antenna should be in free space. For instance
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/raspberry_pi_4b.jpg" alt="Image of Board" loading="lazy">
-<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: This build is alpha quality and is for experimental use. It is <a href="https://github.com/adafruit/circuitpython/labels/broadcom">missing features and has known issues</a>.</p>
 
 <p>The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that’s exactly what they did!</p>
 
@@ -10553,7 +10555,7 @@ For best wireless performance, the antenna should be in free space. For instance
 
 <h2 id="circuitpython">CircuitPython</h2>
 
-<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.</p>
 
 <p>After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the USB-C connector used for power-only usually. A powered USB hub is needed to power the Pi while allowing USB data to also connect.</p>
 
@@ -10575,7 +10577,7 @@ For best wireless performance, the antenna should be in free space. For instance
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/raspberry_pi_zero.jpg" alt="Image of Board" loading="lazy">
-<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: This build is alpha quality and is for experimental use. It is <a href="https://github.com/adafruit/circuitpython/labels/broadcom">missing features and has known issues</a>.</p>
 
 <p>At first glance, the Pi Zero isn’t much.  It just looks like a slimmed down version of the Raspberry Pi we know and love.  But when we started to think of the possibilities - and what a well-chosen set of accessories could add - we realized the appeal.  And then we saw the price…could it be true? Yes!</p>
 
@@ -10583,7 +10585,7 @@ For best wireless performance, the antenna should be in free space. For instance
 
 <h2 id="circuitpython">CircuitPython</h2>
 
-<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.</p>
 
 <p>After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the micro-B USB connector labeled “USB”.</p>
 
@@ -10605,7 +10607,7 @@ For best wireless performance, the antenna should be in free space. For instance
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/raspberry_pi_zero_2_w.jpg" alt="Image of Board" loading="lazy">
-<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: This build is alpha quality and is for experimental use. It is <a href="https://github.com/adafruit/circuitpython/labels/broadcom">missing features and has known issues</a>.</p>
 
 <p><strong>Raspberry Pi Zero 2 W</strong> is the latest product in Raspberry Pi’s most affordable range of single-board computers. The successor to the breakthrough Raspberry Pi Zero W, <strong>Raspberry Pi Zero 2 W</strong> is a form factor–compatible drop-in replacement for the original board.</p>
 
@@ -10615,7 +10617,7 @@ For best wireless performance, the antenna should be in free space. For instance
 
 <h2 id="circuitpython">CircuitPython</h2>
 
-<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.</p>
 
 <p>After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the micro-B USB connector labeled “USB”.</p>
 
@@ -10637,7 +10639,7 @@ For best wireless performance, the antenna should be in free space. For instance
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/raspberry_pi_zero_w.jpg" alt="Image of Board" loading="lazy">
-<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: Not all features are supported in CircuitPython.</p>
+<p>By Raspberry Pi</p> <p><strong>NOTE</strong>: This build is alpha quality and is for experimental use. It is <a href="https://github.com/adafruit/circuitpython/labels/broadcom">missing features and has known issues</a>.</p>
 
 <p><strong>Raspberry Pi Zero W</strong> Is the first small size (Wifi enabled) Raspberry Pi’s single-board computers. This is the predecessor of <strong>Raspberry Pi Zero 2 W</strong> with the same form factor.</p>
 
@@ -10647,7 +10649,7 @@ For best wireless performance, the antenna should be in free space. For instance
 
 <h2 id="circuitpython">CircuitPython</h2>
 
-<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.</p>
+<p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.</p>
 
 <p>This image could work on non Wifi Pi Zero but was primarly develop for the Wifi version.</p>
 
