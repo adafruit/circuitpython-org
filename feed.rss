@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 14 Oct 2022 06:04:11 -0400</lastBuildDate>
+<lastBuildDate>Fri, 14 Oct 2022 14:39:31 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -4329,6 +4329,30 @@ for an SD card slot, which makes it a complete and versatile development board.<
     <category>CircuitPython</category>
     <pubDate>Mon, 14 Feb 2022 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32s2_devkitc_1_n4r2/</guid>
+  </item><item>
+    <title>ESP32-S2-DevKitC-1-N8R2</title>
+    <link>https://circuitpython.org/board/espressif_esp32s2_devkitc_1_n8r2/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/espressif_esp32s2_devkitc_1_n8r2.jpg 300w,
+               /assets/images/boards/large/espressif_esp32s2_devkitc_1_n8r2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/espressif_esp32s2_devkitc_1_n8r2.jpg" alt="Image of Board" loading="lazy">
+<p>By Espressif</p> <p>ESP32-S2-DevKitC-1 is an entry-level development board based on ESP32-S2-SOLO (on-board PCB antenna) or ESP32-S2-SOLO-U (external antenna connector), which are two general-purpose modules with a 4 MB SPI flash. This board integrates complete Wi-Fi functions.</p>
+
+<p>Most of the I/O pins are broken out to the pin headers on both sides for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S2-DevKitC-1 on a breadboard.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S2-DEVKITC-1-N8R2/16688755">Digi-Key</a></li>
+  <li><a href="https://amzn.to/3rXL5d8">Amazon</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 13 Oct 2022 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32s2_devkitc_1_n8r2/</guid>
   </item><item>
     <title>ESP32-S3 Box</title>
     <link>https://circuitpython.org/board/espressif_esp32s3_box/</link>
@@ -13276,6 +13300,38 @@ Unexpected Maker - https://unexpectedmaker.com/shop/ttinys3-esp32s3</p>
     <category>CircuitPython</category>
     <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/unexpectedmaker_tinys3/</guid>
+  </item><item>
+    <title>YD-RP2040</title>
+    <link>https://circuitpython.org/board/vcc_gnd_yd_rp2040/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/vcc_gnd_yd_rp2040.jpg 300w,
+               /assets/images/boards/large/vcc_gnd_yd_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/vcc_gnd_yd_rp2040.jpg" alt="Image of Board" loading="lazy">
+<p>By VCC-GND Studio</p> <p>Flexible I/O connects RP2040 to the physical world by allowing it to speak to almost anyexternal device. High performance breezes through integer workloads. Low cost helps ease the barrier to entry.</p>
+
+<p>This isn’t just apowerful chip: it’s designed to help you bring every last drop of that power to bear. With six independent banks of RAM, and a fully connected switch at the heart of its bus fabric, you can easily arrange for the cores and DMA engines to run in parallel without contention.</p>
+
+<p>VCC-GND Studios’ YD-RP2040 has the following improvements over the Raspberry Pi Pico:</p>
+<ul>
+  <li>Added PWR power LED</li>
+  <li>The USB interface was changed to type-C USB</li>
+  <li>Added reset button to facilitate reset operation and firmware update operation.</li>
+  <li>Added the USRkey user button（GPIO24).</li>
+  <li>Added RGB lights（GPIO23）</li>
+  <li>Change PICO’s W25Q16 to W25Q32（4M）/W25Q64（8M）/W25Q128（16M）</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256803817805852.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 13 Oct 2022 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/vcc_gnd_yd_rp2040/</guid>
   </item><item>
     <title>ESP32-S2-Pico with LCD</title>
     <link>https://circuitpython.org/board/waveshare_esp32_s2_pico_lcd/</link>
