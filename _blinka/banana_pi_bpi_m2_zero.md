@@ -1,10 +1,10 @@
 ---
 layout: download
-board_id: "banana_pi_m2_zero"
-title: "Banana Pi M2 Zero Download"
-name: "Banana Pi M2 Zero"
+board_id: "banana_pi_bpi_m2_zero"
+title: "Banana Pi BPI-M2 Zero Download"
+name: "Banana Pi BPI-M2 Zero"
 manufacturer: "SinoVoip"
-board_url: "http://www.banana-pi.org/m2z.html"
+board_url: "https://wiki.banana-pi.org/Banana_Pi_BPI-M2_ZERO"
 board_image: "banana_pi_m2_zero.jpg"
 download_instructions: ""
 downloads_display: true

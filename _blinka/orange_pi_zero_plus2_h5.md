@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "orange_pi_zero_plus2"
-title: "Orange Pi Zero Plus2 Download"
-name: "Orange Pi Zero Plus2"
+board_id: "orange_pi_zero_plus2_h5"
+title: "Orange Pi Zero Plus2 (H5 Version) Download"
+name: "Orange Pi Zero Plus2 (H5 Version)"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
 board_url: "http://www.orangepi.org/OrangePiZeroPlus2/"
-board_image: "orange_pi_zero_plus2.jpg"
+board_image: "orange_pi_zero_plus2_h5.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
