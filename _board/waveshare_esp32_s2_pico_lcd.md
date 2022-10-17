@@ -6,6 +6,7 @@ name: "ESP32-S2-Pico with LCD"
 manufacturer: "Waveshare"
 board_url: ""
 board_image: "waveshare_esp32_s2_pico_lcd.jpg"
+bootloader_id: waveshare_esp32_s2_pico_lcd
 date_added: 2022-8-22
 family: esp32s2
 features:
