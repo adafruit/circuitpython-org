@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 17 Oct 2022 12:26:39 -0400</lastBuildDate>
+<lastBuildDate>Mon, 17 Oct 2022 15:45:20 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -14178,6 +14178,83 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
     </item>
 
     <item>
+      <title>Banana Pi BPI-M2+</title>
+      <link>https://circuitpython.org/blinka/banana_pi_bpi_m2_plus/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/banana_pi_bpi_m2_plus.jpg 300w,
+               /assets/images/boards/large/banana_pi_bpi_m2_plus.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/banana_pi_bpi_m2_plus.jpg" alt="Image of Board" loading="lazy">
+<p>By SinoVoip</p> <p>Banana PI BPI-M2+ is the open source hardware platform, use Alliwnner H3 (option H2+ chip and H5 chip ) chip on board. and mini size only 65mm*65mm,</p>
+
+<p>PBI-M2 hardware: 1Ghz ARM7 quad-core processor, 1GB DDR3 SDRAM, 8G eMMC flash on board,and SDIO wifi&amp;BT 4.0 moodule on board.Gigabit ethrnet.</p>
+
+<p>BPI-M2+ series run Android,Debian linux,Ubuntu linux, Raspberry Pi image and others image. Banana PI,it can easily run with the game it support 1080P high definition video output and 4K support, the GPIO compatible with Raspberry Pi B+ .</p>
+
+<p>Banana Pi BPI-M2+ not support sata port, so you need use USB for hardisk</p>
+
+<ul>
+  <li>Allwinner H3 Quad-core 1.2GHz Cortex-A7 (option H2+ H5).</li>
+  <li>1GB DDR3</li>
+  <li>8GB eMMC onboard</li>
+  <li>HDMI out</li>
+  <li>WiFi and BlueTooth onboard</li>
+  <li>10/100/1000Mbps Ethernet Port</li>
+  <li>CSI camera interface</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/2252799815676798.html">Aliexpress</a></li>
+  <li><a href="https://amzn.to/3CFghTl">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Sun, 16 Oct 2022 20:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/banana_pi_bpi_m2_plus/</guid>
+    </item>
+
+    <item>
+      <title>Banana Pi BPI-M2 Zero</title>
+      <link>https://circuitpython.org/blinka/banana_pi_bpi_m2_zero/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/banana_pi_m2_zero.jpg 300w,
+               /assets/images/boards/large/banana_pi_m2_zero.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/banana_pi_m2_zero.jpg" alt="Image of Board" loading="lazy">
+<p>By SinoVoip</p> <p>The Banana Pi M2 Zero is an ultra compact single board computer which measures only 60mm*30mm. Its external interfaces are the same as the Raspberry Pi Zero W, and it will fit almost all cases and accessories for the Zero W. It uses the quad-core Cortex A7 Allwinner H2+ processor, with 512MB RAM. It’s ideal for light-weight systems and space-limited applications. Like other members of the Banana Pi family, it supports both Linux and Android operating systems.</p>
+
+<ul>
+  <li>H2+ Quad-core Cortex-A7</li>
+  <li>Mali 400 MP2</li>
+  <li>512M DDR3</li>
+  <li>MicroSD slot</li>
+  <li>Wi-Fi 802.11 b/g/n</li>
+  <li>Bluetooth 4.0</li>
+  <li>Mini HDMI</li>
+  <li>1 x USB 2.0 OTG</li>
+  <li>GPIO (x28)</li>
+  <li>Power (+5V, +3.3V and GND)</li>
+  <li>UART, I2C, SPI or PWM</li>
+  <li>65mm × 30mm, 15g</li>
+  <li>Android and Linux</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.com/item/33038926185.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Fri, 30 Oct 2020 20:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/banana_pi_bpi_m2_zero/</guid>
+    </item>
+
+    <item>
       <title>Banana Pi BPI-M5</title>
       <link>https://circuitpython.org/blinka/banana_pi_bpi_m5/</link>
       <description><![CDATA[   
@@ -14215,44 +14292,6 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
       <category>Blinka</category>
       <pubDate>Fri, 22 Jul 2022 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/banana_pi_bpi_m5/</guid>
-    </item>
-
-    <item>
-      <title>Banana Pi M2 Zero</title>
-      <link>https://circuitpython.org/blinka/banana_pi_m2_zero/</link>
-      <description><![CDATA[   
-  
-  <img srcset="/assets/images/boards/small/banana_pi_m2_zero.jpg 300w,
-               /assets/images/boards/large/banana_pi_m2_zero.jpg 700w"
-       sizes="(max-width: 1024px) 700px,
-              300px"
-       src="/assets/images/boards/large/banana_pi_m2_zero.jpg" alt="Image of Board" loading="lazy">
-<p>By SinoVoip</p> <p>The Banana Pi M2 Zero is an ultra compact single board computer which measures only 60mm*30mm. Its external interfaces are the same as the Raspberry Pi Zero W, and it will fit almost all cases and accessories for the Zero W. It uses the quad-core Cortex A7 Allwinner H2+ processor, with 512MB RAM. It’s ideal for light-weight systems and space-limited applications. Like other members of the Banana Pi family, it supports both Linux and Android operating systems.</p>
-
-<ul>
-  <li>H2+ Quad-core Cortex-A7</li>
-  <li>Mali 400 MP2</li>
-  <li>512M DDR3</li>
-  <li>MicroSD slot</li>
-  <li>Wi-Fi 802.11 b/g/n</li>
-  <li>Bluetooth 4.0</li>
-  <li>Mini HDMI</li>
-  <li>1 x USB 2.0 OTG</li>
-  <li>GPIO (x28)</li>
-  <li>Power (+5V, +3.3V and GND)</li>
-  <li>UART, I2C, SPI or PWM</li>
-  <li>65mm × 30mm, 15g</li>
-  <li>Android and Linux</li>
-</ul>
-
-<h2 id="purchase">Purchase</h2>
-<ul>
-  <li><a href="https://www.aliexpress.com/item/33038926185.html">Aliexpress</a></li>
-</ul>
- ]]></description>
-      <category>Blinka</category>
-      <pubDate>Fri, 30 Oct 2020 20:00:00 -0400</pubDate>
-      <guid>https://circuitpython.org/blinka/banana_pi_m2_zero/</guid>
     </item>
 
     <item>
@@ -15352,6 +15391,48 @@ Enclosure</li>
       <category>Blinka</category>
       <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/khadas_vim3/</guid>
+    </item>
+
+    <item>
+      <title>AML-S905X-CC (Le Potato)</title>
+      <link>https://circuitpython.org/blinka/libre_aml-s905x-cc/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/libre_aml-s905x-cc.jpg 300w,
+               /assets/images/boards/large/libre_aml-s905x-cc.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/libre_aml-s905x-cc.jpg" alt="Image of Board" loading="lazy">
+<p>By Libre Computer</p> <p>Le Potato is our flagship hardware platform with support for the latest Android 9/TV, upstream Linux, u-boot, Kodi, and more. Based on a long term supported SoC family with a proven record of mass deployments by the largest regional content providers, Google, and Amazon, AML-S905X-CC is the perfect development platform for projects that require highly performant ARM Cortex-A class CPUs, secure and non-secure 4K media delivery and playback, Widevine CAS DRM, high reliability, and low power.</p>
+
+<p>Libre Computer is the only solutions provider with key expertise in both hardware design and upstream free-open-source software (FOSS) stack for Amlogic’s GXL SoC family including S805X, S905D, S905W, S905X, and S912. This SoC family features the Amlogic Video Engine 10 (AVE10) capable of handling H.265, H.264, and VP9 streams with HDR metadata making it ideal for 4K digital signage on mainline Linux and the latest Android 9.0 Pie.</p>
+
+<p>Features</p>
+<ul>
+  <li>Form Factor Compatible with Raspberry Pi® 2/3 Model B/B+</li>
+  <li>Quad 64-bit Low Power Cores</li>
+  <li>Penta Core 3D GPU with OpenGL ES 2.0</li>
+  <li>Amlogic Video Engine (AVE10)
+    <ul>
+      <li>H.265</li>
+      <li>H.264</li>
+    </ul>
+  </li>
+  <li>VP9</li>
+  <li>HDMI 2.0 with 4K HDR support</li>
+  <li>Up to 2GB DDR3</li>
+  <li>Product Family</li>
+  <li>AML-S805X-AC</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3EO1FUg">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Sun, 16 Oct 2022 20:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/libre_aml-s905x-cc/</guid>
     </item>
 
     <item>
@@ -16615,15 +16696,15 @@ Pretty much anything else, because Orange Pi Zero Plus is open source</p>
     </item>
 
     <item>
-      <title>Orange Pi Zero Plus2</title>
-      <link>https://circuitpython.org/blinka/orange_pi_zero_plus2/</link>
+      <title>Orange Pi Zero Plus2 (H5 Version)</title>
+      <link>https://circuitpython.org/blinka/orange_pi_zero_plus2_h5/</link>
       <description><![CDATA[   
   
-  <img srcset="/assets/images/boards/small/orange_pi_zero_plus2.jpg 300w,
-               /assets/images/boards/large/orange_pi_zero_plus2.jpg 700w"
+  <img srcset="/assets/images/boards/small/orange_pi_zero_plus2_h5.jpg 300w,
+               /assets/images/boards/large/orange_pi_zero_plus2_h5.jpg 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="/assets/images/boards/large/orange_pi_zero_plus2.jpg" alt="Image of Board" loading="lazy">
+       src="/assets/images/boards/large/orange_pi_zero_plus2_h5.jpg" alt="Image of Board" loading="lazy">
 <p>By Shenzhen Xunlong Software CO.,Limited</p> <p>What’s Orange Pi Zero Plus2？</p>
 
 <p>It’s an open-source single-board computer. It can run Android 4.4(H3 version)/Android 5.1(H5 version) , Ubuntu, Debian, it uses the AllWinner H3/H5 SoC, and has 512MB DDR3 SDRAM.</p>
@@ -16675,7 +16756,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
  ]]></description>
       <category>Blinka</category>
       <pubDate>Mon, 02 Nov 2020 00:00:00 -0500</pubDate>
-      <guid>https://circuitpython.org/blinka/orange_pi_zero_plus2/</guid>
+      <guid>https://circuitpython.org/blinka/orange_pi_zero_plus2_h5/</guid>
     </item>
 
     <item>
