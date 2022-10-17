@@ -9,7 +9,7 @@ board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2022-5-16
 family: esp32s3
-bootloader_id:
+bootloader_id: cytron_maker_feather_aiot_s3
 features:
 
 ---
