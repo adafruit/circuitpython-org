@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 27 Oct 2022 06:03:47 -0400</lastBuildDate>
+<lastBuildDate>Thu, 27 Oct 2022 14:19:50 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -2512,7 +2512,14 @@ up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; <
   <li><strong>Native USB Port</strong>: ESP32-S3 full-speed USB OTG interface, using microUSB Connector with back-feed protection. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB protocols, as well as for JTAG debugging.</li>
   <li><strong>5V to 3.3V DC/DC</strong>: Maximum theoretical output 2A 3.3V.</li>
   <li><strong>Reset Button</strong>: Support double-clicking the reset button to enter the UF2 bootloader.</li>
-  <li><strong>BOOT0</strong>: If the UF2 Bootloader is removed, you can use any conductor bar such as metal pins or tweezers to short it to put the EPS32S3 chip into download mode, then the UF2 Bootloader can be re-installed.</li>
+  <li><strong>BOOT0</strong>: If the UF2 Bootloader is removed, you can use any conductor bar such as metal pins or tweezers to short it to put the EPS32S3 chip into bootloader mode, then the UF2 Bootloader can be re-installed.
+    <ul>
+      <li>Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.</li>
+      <li>Short circuit BOOT0 contact.</li>
+      <li>Press and release the Reset button.</li>
+      <li>Release the BOOT0 contact.</li>
+    </ul>
+  </li>
   <li><strong>RGB LED</strong>: Addressable WS2812 RGB LED, control it with board.NEOPIXEL in circuitpython.</li>
   <li><strong>Monochrome LED</strong>: Control it with board.GP25 or board.LED in circuitpython.</li>
 </ul>
