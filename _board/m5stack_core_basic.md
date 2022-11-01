@@ -24,7 +24,7 @@ Perfect for people who want to make advanced ESP32 projects with a display, user
 ## Technical details
 
 * ESP32 module, with WiFi / Bluetooth capability
-* 6MB of FLASH
+* 16MB of FLASH
 * Micro-SD Card slot
 * USB to Serial converter built in
 * 320x240 2.0" TFT display
@@ -33,7 +33,7 @@ Perfect for people who want to make advanced ESP32 projects with a display, user
 * 110mAh LiPo battery
 * Grove/I2C connector
 * M5 stacking GPIO connector
-    
+
 ## Documentation
 
 * [Basic Core IoT](https://docs.m5stack.com/en/core/basic_v2.6)
