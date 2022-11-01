@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 01 Nov 2022 06:04:02 -0400</lastBuildDate>
+<lastBuildDate>Tue, 01 Nov 2022 11:15:57 -0400</lastBuildDate>
 <item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
@@ -7558,6 +7558,51 @@ o   o        o   o
     <category>CircuitPython</category>
     <pubDate>Mon, 05 Sep 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/lolin_s3/</guid>
+  </item><item>
+    <title>M5Stack Basic Core IoT</title>
+    <link>https://circuitpython.org/board/m5stack_core_basic/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_core_basic.jpg 300w,
+               /assets/images/boards/large/m5stack_core_basic.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_core_basic.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>Get yourself a kit that can do it all! The M5Stack Basic Development Kit is a ESP32-based WiFi microcontroller that’s compatible with MicroPython and Arduino. It comes jam-packed with Wi-Fi / Bluetooth capability, running at 240 MHz with the dual-core processor and 16MB of SPI Flash.</p>
+
+<p>Perfect for people who want to make advanced ESP32 projects with a display, user interface, speaker, and a couple buttons. It’s super easy to snap in other M5 blocks to add sensors, interfaces or cameras, no soldering required. Upload your code with the built in USB C port, there’s example code available on the M5Stack website.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32 module, with WiFi / Bluetooth capability</li>
+  <li>6MB of FLASH</li>
+  <li>Micro-SD Card slot</li>
+  <li>USB to Serial converter built in</li>
+  <li>320x240 2.0” TFT display</li>
+  <li>3 User Buttons + 1 Reset Button</li>
+  <li>Small 1W speaker</li>
+  <li>110mAh LiPo battery</li>
+  <li>Grove/I2C connector</li>
+  <li>M5 stacking GPIO connector</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/basic_v2.6">Basic Core IoT</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4178">Adafruit</a></li>
+  <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/esp32-basic-core-iot-development-kit-v2-6">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sat, 29 Oct 2022 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_core_basic/</guid>
   </item><item>
     <title>M60 Mechanical Keyboard</title>
     <link>https://circuitpython.org/board/makerdiary_m60_keyboard/</link>
