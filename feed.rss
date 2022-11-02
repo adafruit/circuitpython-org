@@ -4,8 +4,49 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 02 Nov 2022 06:04:38 -0400</lastBuildDate>
+<lastBuildDate>Wed, 02 Nov 2022 13:20:32 -0400</lastBuildDate>
 <item>
+    <title>Maker Pi RP2040</title>
+    <link>https://circuitpython.org/board/42keebs_frood/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/42keebs_frood.jpg 300w,
+               /assets/images/boards/large/42keebs_frood.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/42keebs_frood.jpg" alt="Image of Board" loading="lazy">
+<p>By 42. Keebs</p> <p>The Frood is a high-performance and affordable Pro Micro drop-in replacement based on a Raspberry Pi RP2040. It is physically and electrically compatible with Elite-C/nice!nano as much as possible.</p>
+
+<p>It follows the SparkFun Pro Micro RP2040 pinout with 5 more pins (GPIO12-GPIO16) added along the bottom edge (like on Elite-C), and USB data lines broken out in the top corners (like nice!nano).</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Pinout compatible with the classic Pro Micro</li>
+  <li>I/O pin mapping follows Sparkfun Pro Micro RP2040 with 5 more digital I/O pins at the bottom (same layout as the Elite-C)</li>
+  <li>Powerful dual-core RP2040 32-bit Arm microcontroller with 133 MHz clock speed (8 times the Pro Micro)</li>
+  <li>2 MB flash storage – <em>64 times</em> as much as Pro Micro! Should fit all the RGB animations in the world!</li>
+  <li>256 kB SRAM, or 10 times as much as Pro Micro</li>
+  <li>Just 3.3 mm thick thanks to a mid-mount USB-C socket that sits flush with the bottom of the PCB</li>
+  <li>UF2 bootloader for drag &amp; drop flashing – the bootloader presents a USB flash-like device. No extra software needed!</li>
+  <li>Total of 23 digital I/O pins supporting a maximum of 132 switches in a standard 11×12 matrix! Or perhaps a 40% split keyboard (up to 46 switches) with no diodes?</li>
+  <li>4 pins configurable as analogue input (ADC)</li>
+  <li>USB data lines (D+, D-) broken out at the top for daughterboard/external USB-C socket compatibility</li>
+  <li>500 mA on-board 3.3 V regulator</li>
+  <li>500 mA resettable fuse for over-current protection</li>
+  <li>USB power (VBUS) connected to digital I/O pin GPIO19 for USB power detection (for split keyboard main half detection)</li>
+  <li>Currently available in black with immersion gold finish (ENIG). White version coming soon!</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/">42. Keebs</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/42keebs_frood/</guid>
+  </item><item>
     <title>Commander</title>
     <link>https://circuitpython.org/board/8086_commander/</link>
     <description><![CDATA[   
@@ -7559,6 +7600,42 @@ o   o        o   o
     <pubDate>Mon, 05 Sep 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/lolin_s3/</guid>
   </item><item>
+    <title>M5Stack ATOM Lite ESP32 IoT</title>
+    <link>https://circuitpython.org/board/m5stack_atom_lite/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_atom_lite.jpg 300w,
+               /assets/images/boards/large/m5stack_atom_lite.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_atom_lite.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>Atom Lite, which has a size of only 24*24mm, is a very compact development board in the M5Stack development kit series. It provides more GPIOs for user customization which is very suitable for embedded smart home devices and in making smart toys. The main control adopts the ESP32-PICO chip which comes integrated with Wi-Fi technologies and has a 4MB of integrated SPI flash memory. Atom Lite board provides an Infra-Red LED, a RGB LED, buttons, and a HY2.0 interface. In addition, it can connect to external sensors and actuators through 6 GPIOs. The on-board Type-C USB interface enables rapid program upload and execution.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>ESP32-based</li>
+  <li>RGB LED(SK6812)</li>
+  <li>Programmable button</li>
+  <li>Built-in Infra-red</li>
+  <li>Extendable Pins &amp; Holes</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/atom_lite">ATOM Lite ESP32 IoT</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/atom-lite-esp32-development-kit">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_atom_lite/</guid>
+  </item><item>
     <title>M5Stack Basic Core IoT</title>
     <link>https://circuitpython.org/board/m5stack_core_basic/</link>
     <description><![CDATA[   
@@ -7576,7 +7653,7 @@ o   o        o   o
 
 <ul>
   <li>ESP32 module, with WiFi / Bluetooth capability</li>
-  <li>6MB of FLASH</li>
+  <li>16MB of FLASH</li>
   <li>Micro-SD Card slot</li>
   <li>USB to Serial converter built in</li>
   <li>320x240 2.0” TFT display</li>
@@ -7603,6 +7680,77 @@ o   o        o   o
     <category>CircuitPython</category>
     <pubDate>Sat, 29 Oct 2022 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_core_basic/</guid>
+  </item><item>
+    <title>M5Stack Core Fire</title>
+    <link>https://circuitpython.org/board/m5stack_core_fire/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_core_fire.jpg 300w,
+               /assets/images/boards/large/m5stack_core_fire.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_core_fire.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>M5Stack FIRE is a cost-effective Wi-Fi IoT controller adopts Espressif ESP32 main control chip, equipped with two low-power Xtensa® 32-bit LX6 microprocessors, with main frequency up to 240MHz. With 8M PSRAM + 16M FLASH memory, 2.0-inch full-color HD IPS display panel, IMU, LED, microphone, speaker, TFCard slot and other peripherals. The full-coverage case ensures circuit stability even in complex industrial applications. The internal offers a wide range of common interface resources (ADC/DAC/I2C/UART/SPI, etc.) which is highly expandable. This functional and powerful IoT controller is very applicable to various product prototyping, industrial control and smart building applications.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32 module, with WiFi / Bluetooth capability</li>
+  <li>16MB of FLASH</li>
+  <li>Micro-SD Card slot</li>
+  <li>USB to Serial converter built in</li>
+  <li>320x240 2.0” TFT display</li>
+  <li>3 User Buttons + 1 Reset Button</li>
+  <li>Small 1W speaker</li>
+  <li>500mAh LiPo battery</li>
+  <li>Grove/I2C connector</li>
+  <li>M5 stacking GPIO connector</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/fire_v2.6">Basic Core IoT</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/m5stack-fire-iot-development-kit-psram-v2-6">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_core_fire/</guid>
+  </item><item>
+    <title>M5Stack Stamp C3</title>
+    <link>https://circuitpython.org/board/m5stack_stamp_c3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_stamp_c3.jpg 300w,
+               /assets/images/boards/large/m5stack_stamp_c3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_stamp_c3.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>M5Stack just added a new family to its popular series of modules with the Stamp-C3. the new Stamp-C3 featuring ESPRESSIF ESP32-C3 RISC-V MCU with Wi-Fi connectivity for IoT edge devices such as home appliances and Industrial Automation. By combining RSA-3072-based secure boot and the AES-128-XTS-based flash encryption, while also make it optimal for industrial IoT equipment collecting sensor data within a factory or a building.</p>
+
+<p>The Stamp-C3 is based on 32-bit RISC-V microcontroller and operates at a maximum clock frequency of 160 MHz. With 400 KB of internal RAM and 4 MB Flash, it can facilitate many different use-cases involving connected devices. Furthermore, the exceptional heat resistance plastic enclosure is sustained at a higher operating temperature.</p>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/stamp_c3">Stamp C3</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/m5stamp-c3-5pcs">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_stamp_c3/</guid>
   </item><item>
     <title>M60 Mechanical Keyboard</title>
     <link>https://circuitpython.org/board/makerdiary_m60_keyboard/</link>
