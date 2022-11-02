@@ -14,7 +14,7 @@ features:
   - Breadboard-Friendly
 ---
 
-Meet the only connected RP2040 board. It fits the Arduino Nano form factor, making it a small board with BIG features.
+Meet the first connected RP2040 board. It fits the Arduino Nano form factor, making it a small board with BIG features.
 
 The brain of the board is the Raspberry Pi RP2040 silicon; a dual-core Arm Cortex M0+ running at 133MHz. It has 264KB of SRAM, and the 16MB of flash memory is off-chip to give you extra storage.
 
