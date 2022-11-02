@@ -421,8 +421,17 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedMcufam
 
   if (downloadsSearch.searchTerm && downloadsSearch.searchTerm.length > 0 && shouldDisplay) {
     var regex = new RegExp(downloadsSearch.searchTerm, "gi");
-    var haystack = download.dataset.name + " " + download.dataset.id + " " + download.dataset.manufacturer + " " + download.dataset.mcufamily + " " + download.dataset.features;
+    var dataFields = [
+        download.dataset.name,
+        download.dataset.id,
+        download.dataset.manufacturer,
+        download.dataset.mcufamily,
+        download.dataset.features,
+        download.dataset.tags,
+        download.dataset.modules,
+    ];
 
+    var haystack = dataFields.join(" ");
     shouldDisplay = haystack.match(regex);
   }
 

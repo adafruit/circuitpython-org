@@ -104,6 +104,17 @@ excerpt: CircuitPython supported boards.
 
       {% assign info = info[0] %}
 
+      {% assign stable = board.versions | where: "stable", true | sort: "version" %}
+      {% assign unstable = board.versions | where: "stable", false | sort: "version" %}
+      {% if stable[0].modules and unstable[0].modules %}
+        {% assign modules = stable[0].modules | concat: unstable[0].modules | uniq %}
+      {% elsif stable[0].modules %}
+        {% assign modules = stable[0].modules %}
+      {% elsif unstable[0].modules %}
+        {% assign modules = unstable[0].modules %}
+      {% else %}
+        {% assign modules = '' | split: '' %}
+      {% endif %}
       {% if info.downloads_display == false %}
         {% continue %}
       {% endif %}
@@ -120,6 +131,8 @@ excerpt: CircuitPython supported boards.
                             data-manufacturer="{{ info.manufacturer }}"
                             data-mcufamily="{{ info.family }}"
                             data-features="{{ info.features | join: ','}}"
+                            data-tags="{{ info.tags | join: ','}}"
+                            data-modules="{{ modules | join: ', ' }}"
                             data-date="{{ info.date_added }}">
         <a href="{{ download_url | relative_url }}">
           <div>
@@ -151,6 +164,7 @@ excerpt: CircuitPython supported boards.
                               data-manufacturer="{{ board.manufacturer }}"
                               data-mcufamily="{{ board.family }}"
                               data-features="{{ board.features | join: ','}}"
+                              data-tags="{{ info.tags | join: ','}}"
                               data-date="{{ board.date_added }}">
           <a href="{{ board.url | relative_url }}">
             <div>
