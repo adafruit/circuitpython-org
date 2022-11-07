@@ -128,6 +128,8 @@ fieldset { border: 0; }
 
 fieldset legend { font-size: 1.5em; font-weight: 500; }
 
+input.filter-checkbox, label { cursor: pointer; }
+
 .common-layout { padding: 20px 0 200px 0; display: grid; grid-template-columns: [full-start] minmax(1em, 1fr) [main-start] minmax(0, 80em) [main-end] minmax(1em, 1fr) [full-end]; grid-row-gap: 1em; }
 
 .common-layout > * { grid-column: main; }
