@@ -46,7 +46,7 @@ You'll note there's no I2S peripheral, or SDIO, or camera, what's up with that? 
 
 **There is great [C/C++ support](https://github.com/raspberrypi/pico-sdk), an official [MicroPython port](https://github.com/raspberrypi/micropython), and a [CircuitPython port](https://circuitpython.org/downloads)!** We of course [recommend CircuitPython because we think it's the easiest way to get started](https://learn.adafruit.com/welcome-to-circuitpython) and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.
 
-At the time of launch, only MicroPython has WiFi support.
+There is great C/C++ support, an official MicroPython port, and a CircuitPython port! We of course recommend CircuitPython because we think it's the easiest way to get started and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.
 
 [For Arduino usage we recommend the Philhower Arduino core, which does not use mbed, has lots of peripherals supported, and many makers/companies have submitted board definitions.](https://github.com/earlephilhower/arduino-pico)
 
