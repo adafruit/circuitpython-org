@@ -6,6 +6,7 @@
     and each library.
 """
 
+import os
 import datetime
 import sys
 import argparse
@@ -13,8 +14,14 @@ import traceback
 import operator
 import requests
 
+import github as pygithub
+from google.cloud import bigquery
+import google.oauth2.service_account
+
 from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
+
+GH_INTERFACE = pygithub.Github(os.environ.get("ADABOT_GITHUB_ACCESS_TOKEN"))
 
 # Setup ArgumentParser
 cmd_line_parser = argparse.ArgumentParser(
@@ -53,7 +60,7 @@ PYPI_FORCE_NON_CIRCUITPYTHON = ["Adafruit-Blinka"]
 PIWHEELS_PACKAGES_URL = "https://www.piwheels.org/packages.json"
 
 
-def piwheels_stats():
+def retrieve_piwheels_stats():
     """Get data dump of piwheels download stats"""
     stats = {}
     response = requests.get(PIWHEELS_PACKAGES_URL)
@@ -68,12 +75,12 @@ def piwheels_stats():
     return stats
 
 
-def get_pypi_stats():
+def parse_piwheels_stats():
     """Map piwheels download stats for each repo"""
     successful_stats = {}
     failed_stats = []
     repos = common_funcs.list_repos()
-    dl_stats = piwheels_stats()
+    dl_stats = retrieve_piwheels_stats()
     for repo in repos:
         if repo["owner"]["login"] == "adafruit" and repo["name"].startswith(
             "Adafruit_CircuitPython"
@@ -99,6 +106,55 @@ def get_pypi_stats():
             failed_stats.append(lib)
 
     return successful_stats, failed_stats
+
+
+def retrieve_pypi_stats(repos):
+    """Get data dump of PyPI download stats (for the last 7 days)"""
+    # Create access info dictionary
+    access_info = {
+        "private_key": os.environ["BIGQUERY_PRIVATE_KEY"],
+        "client_email": os.environ["BIGQUERY_CLIENT_EMAIL"],
+        "token_uri": "https://oauth2.googleapis.com/token",
+    }
+
+    # Use credentials to create a BigQuery client object
+    credentials = google.oauth2.service_account.Credentials.from_service_account_info(
+        access_info
+    )
+    client = bigquery.Client("circuitpython-stats", credentials=credentials)
+
+    # Get the list of PyPI package names
+    packages = [repo["name"].replace("_", "-").lower() for repo in repos]
+
+    # Construct the query to use
+    query = """
+        SELECT
+            file.project as name, COUNT(*) AS num_downloads,
+        FROM
+            `bigquery-public-data.pypi.file_downloads`
+        WHERE DATE(timestamp)
+            BETWEEN DATE_TRUNC(DATE_SUB(CURRENT_DATE(), INTERVAL 7 DAY), DAY)
+            AND DATE_TRUNC(DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY), DAY)
+        AND file.project in (
+            """
+    packages_query = ["?" for _ in packages]
+    query_parameters = [
+        bigquery.ScalarQueryParameter(None, "STRING", package) for package in packages
+    ]
+    query += ",".join(packages_query)
+    query += """
+        )
+        GROUP BY file.project
+        ORDER BY num_downloads DESC
+        """
+
+    # Configure and run the query
+    job_config = bigquery.QueryJobConfig(query_parameters=query_parameters)
+    query_job = client.query(
+        query,
+        job_config=job_config,
+    )
+    return query_job.result()
 
 
 def get_bundle_stats(bundle):
@@ -172,7 +228,7 @@ def run_stat_check():
     ]
     output_handler("Adafruit CircuitPython Library Piwheels downloads:")
     output_handler()
-    pypi_downloads, pypi_failures = get_pypi_stats()
+    pypi_downloads, pypi_failures = parse_piwheels_stats()
     for stat in sorted(
         pypi_downloads.items(), key=operator.itemgetter(1, 1), reverse=True
     ):
