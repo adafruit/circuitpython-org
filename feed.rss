@@ -4,9 +4,9 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 07 Nov 2022 11:12:12 -0500</lastBuildDate>
+<lastBuildDate>Mon, 07 Nov 2022 12:32:57 -0500</lastBuildDate>
 <item>
-    <title>Maker Pi RP2040</title>
+    <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
     <description><![CDATA[   
   
@@ -15,36 +15,34 @@
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/42keebs_frood.jpg" alt="Image of Board" loading="lazy">
-<p>By 42. Keebs</p> <p>The Frood is a high-performance and affordable Pro Micro drop-in replacement based on a Raspberry Pi RP2040. It is physically and electrically compatible with Elite-C/nice!nano as much as possible.</p>
+<p>By 42. Keebs</p> <p>The Frood is a high-performance and affordable drop-in replacement for the Pro Micro (used in many DIY custom mechanical keyboard kits), based on the Raspberry Pi RP2040. It is physically and electrically compatible with Elite-C/nice!nano as much as possible.</p>
 
-<p>It follows the SparkFun Pro Micro RP2040 pinout with 5 more pins (GPIO12-GPIO16) added along the bottom edge (like on Elite-C), and USB data lines broken out in the top corners (like nice!nano).</p>
+<p>It follows the SparkFun Pro Micro RP2040 pinout with 5 extra pins (GPIO12-GPIO16) added along the bottom edge (like Elite-C), and USB data lines broken out in the top corners (like nice!nano).</p>
 
 <h2 id="features">Features</h2>
 <ul>
-  <li>Pinout compatible with the classic Pro Micro</li>
-  <li>I/O pin mapping follows Sparkfun Pro Micro RP2040 with 5 more digital I/O pins at the bottom (same layout as the Elite-C)</li>
-  <li>Powerful dual-core RP2040 32-bit Arm microcontroller with 133 MHz clock speed (8 times the Pro Micro)</li>
-  <li>2 MB flash storage – <em>64 times</em> as much as Pro Micro! Should fit all the RGB animations in the world!</li>
-  <li>256 kB SRAM, or 10 times as much as Pro Micro</li>
-  <li>Just 3.3 mm thick thanks to a mid-mount USB-C socket that sits flush with the bottom of the PCB</li>
-  <li>UF2 bootloader for drag &amp; drop flashing – the bootloader presents a USB flash-like device. No extra software needed!</li>
-  <li>Total of 23 digital I/O pins supporting a maximum of 132 switches in a standard 11×12 matrix! Or perhaps a 40% split keyboard (up to 46 switches) with no diodes?</li>
-  <li>4 pins configurable as analogue input (ADC)</li>
-  <li>USB data lines (D+, D-) broken out at the top for daughterboard/external USB-C socket compatibility</li>
-  <li>500 mA on-board 3.3 V regulator</li>
-  <li>500 mA resettable fuse for over-current protection</li>
-  <li>USB power (VBUS) connected to digital I/O pin GPIO19 for USB power detection (for split keyboard main half detection)</li>
-  <li>Currently available in black with immersion gold finish (ENIG). White version coming soon!</li>
+  <li>Powerful dual-core Raspberry Pi RP2040 MCU</li>
+  <li>2 MB on-board flash memory</li>
+  <li>Only 3.2 mm thick thanks to a mid-mounted USB-C socket</li>
+  <li>500 mA linear regulator and resettable fuse</li>
+  <li>Combined Pro Micro / Elite-C / nice!nano / SparkFun Pro Micro RP2040 compatible pinout</li>
+  <li>5 extra I/O pins (GPIO12-GPIO16) added along the bottom edge</li>
+  <li>23 available digital pins for a maximum of 11x12 = 132 switches (using a standard matrix)</li>
+  <li>4 pins configurable as analogue inputs</li>
+  <li>USB D+/D- broken out for use with an external USB socket/daughterboard</li>
+  <li>USB power sensing on GPIO19 for split keyboard side detection</li>
+  <li>UF2 bootloader for drag &amp; drop programming with no extra software required</li>
+  <li>BOOT and RESET pads on the bottom of the PCB (in case )</li>
+  <li>Orange indicator LED on pin GPIO17</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
-
 <ul>
   <li><a href="https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/">42. Keebs</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
-    <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 25 Oct 2022 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/42keebs_frood/</guid>
   </item><item>
     <title>Commander</title>
