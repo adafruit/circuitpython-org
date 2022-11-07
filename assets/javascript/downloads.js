@@ -163,9 +163,13 @@ function setupManufacturers(downloads) {
     checkbox.name = "manufacturer";
     checkbox.className = 'filter-checkbox';
     checkbox.value = manufacturer;
+    checkbox.id = 'manufacturer-' + manufacturer;
 
     li.appendChild(checkbox);
-    li.appendChild(document.createTextNode(manufacturer));
+    var label = document.createElement('label');
+    label.htmlFor = checkbox.id;
+    label.innerText = manufacturer;
+    li.appendChild(label);
 
     manufacturerList.appendChild(li);
   });
@@ -196,9 +200,14 @@ function setupMcufamilies(downloads) {
       checkbox.name = "mcufamily";
       checkbox.className = 'filter-checkbox';
       checkbox.value = mcufamily;
+      checkbox.id = 'mcufamily-' + mcufamily;
 
       li.appendChild(checkbox);
-      li.appendChild(document.createTextNode(mcufamily));
+
+      var label = document.createElement('label');
+      label.htmlFor = checkbox.id;
+      label.innerText = mcufamily;
+      li.appendChild(label);
 
       mcufamilyList.appendChild(li);
     }
@@ -234,9 +243,14 @@ function setupFeatures(downloads) {
     checkbox.name = "feature";
     checkbox.className = 'filter-checkbox';
     checkbox.value = feature;
+    checkbox.id = 'feature-' + feature;
 
     li.appendChild(checkbox);
-    li.appendChild(document.createTextNode(feature));
+
+    var label = document.createElement('label');
+    label.htmlFor = checkbox.id;
+    label.innerText = feature;
+    li.appendChild(label);
 
     featureList.appendChild(li);
   });
