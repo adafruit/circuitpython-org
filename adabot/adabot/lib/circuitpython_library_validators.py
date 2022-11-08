@@ -61,6 +61,7 @@ ERROR_PYFILE_MISSING_ERRNO = (
     "https://github.com/adafruit/circuitpython/issues/1582"
 )
 ERROR_MISMATCHED_READTHEDOCS = "Mismatched readthedocs.yaml"
+ERROR_MISMATCHED_PRE_COMMIT_CONFIG = "Mismatched versions in .pre-commit-config.yaml"
 ERROR_MISSING_DESCRIPTION = "Missing repository description"
 ERROR_MISSING_EXAMPLE_FILES = "Missing .py files in examples folder"
 ERROR_MISSING_EXAMPLE_FOLDER = "Missing examples folder"
@@ -209,6 +210,7 @@ class LibraryValidator:
         self.bundle_submodules = bundle_submodules
         self.latest_pylint = pkg_version_parse(latest_pylint)
         self._rtd_yaml_base = None
+        self._pcc_versions = {}
         self.output_file_data = []
         self.validate_contents_quiet = kw_args.get("validate_contents_quiet", False)
         self.has_pyproject_toml_disabled = set()
@@ -240,6 +242,33 @@ class LibraryValidator:
                 self._rtd_yaml_base = ""
 
         return self._rtd_yaml_base
+
+    @property
+    def pcc_versions(self):
+        """The parsed YAML from `.pre-commit-config.yaml` in cookiecutter.
+        Used to verify that a library's `.pre-commit-config.yaml` matches this.
+        """
+        if not self._pcc_versions:
+            pcc_yml_dl_url = (
+                "https://raw.githubusercontent.com/adafruit/cookiecutter-adafruit-"
+                "circuitpython/main/%7B%7B%20cookiecutter.__dirname%20%7D%7D/.pre-"
+                "commit-config.yaml"
+            )
+            pcc_yml = requests.get(pcc_yml_dl_url)
+            if pcc_yml.ok:
+                try:
+                    pcc_yaml_base = yaml.safe_load(pcc_yml.text)
+                except yaml.YAMLError:
+                    print("Error parsing cookiecutter .pre-commit-config.yaml.")
+                    pcc_yaml_base = ""
+            else:
+                print("Error retrieving cookiecutter .pre-commit-config.yaml")
+                pcc_yaml_base = ""
+
+            for i in pcc_yaml_base["repos"]:
+                self._pcc_versions[i["repo"]] = i["rev"]
+
+        return self._pcc_versions
 
     @staticmethod
     def get_token_methods():
@@ -557,7 +586,7 @@ class LibraryValidator:
             errors.append(ERROR_PRE_COMMIT_VERSION)
 
         pylint_repo = "repo: https://github.com/pycqa/pylint"
-        pylint_version = "rev: v2.11.1"
+        pylint_version = "rev: v2.15.5"
 
         if pylint_repo not in text or pylint_version not in text:
             errors.append(ERROR_PYLINT_VERSION)
@@ -705,8 +734,25 @@ class LibraryValidator:
             errors.append(ERROR_MISSING_READTHEDOCS)
 
         if ".pre-commit-config.yaml" in files:
-            file_info = content_list[files.index(".pre-commit-config.yaml")]
-            errors.extend(self._validate_pre_commit_config_yaml(file_info))
+            if len(self._pcc_versions) or self.pcc_versions != "":
+                filename = ".pre-commit-config.yaml"
+                file_info = content_list[files.index(filename)]
+                pcc_contents = requests.get(file_info["download_url"])
+                if pcc_contents.ok:
+                    try:
+                        pcc_yml = yaml.safe_load(pcc_contents.text)
+                        pcc_versions = {}
+                        for i in pcc_yml["repos"]:
+                            pcc_versions[i["repo"]] = i["rev"]
+                        if self._pcc_versions != pcc_versions:
+                            errors.append(ERROR_MISMATCHED_PRE_COMMIT_CONFIG)
+                    except yaml.YAMLError:
+                        self.output_file_data.append(
+                            "Error parsing {} .pre-commit-config.yaml.".format(
+                                repo["name"]
+                            )
+                        )
+                        errors.append(ERROR_OUTPUT_HANDLER)
         else:
             errors.append(ERROR_MISSING_PRE_COMMIT_CONFIG)
 
@@ -1217,7 +1263,7 @@ class LibraryValidator:
                 except pygithub.GithubException:  # This can probably be tightened later
                     # No workflows or runs yet
                     return []
-                if not workflow_runs[0].conclusion:
+                if workflow_runs[0].conclusion != "success":
                     return [ERROR_CI_BUILD]
                 return []
             except pygithub.RateLimitExceededException:
