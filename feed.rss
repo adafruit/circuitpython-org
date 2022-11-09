@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 09 Nov 2022 05:03:47 -0500</lastBuildDate>
+<lastBuildDate>Wed, 09 Nov 2022 11:31:25 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -78,7 +78,7 @@
     <pubDate>Tue, 24 Mar 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/8086_commander/</guid>
   </item><item>
-    <title>Seeed Studio XIAO nRF52840 Sense</title>
+    <title>Seeed Studio XIAO nRF52840 (Sense)</title>
     <link>https://circuitpython.org/board/Seeed_XIAO_nRF52840_Sense/</link>
     <description><![CDATA[   
   
@@ -87,11 +87,13 @@
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/Seeed_XIAO_nRF52840_Sense.jpg" alt="Image of Board" loading="lazy">
-<p>By Seeed Studio</p> <p>Seeed Studio XIAO nRF52840 Sense has equipped a powerful Nordic nRF52840 MCU which is designed in a Bluetooth 5.0 module, built around 32-bit ARM® Cortex™-M4 CPU with Floating-Point Unit(FPU) operating at 64Mhz. With the capabilities of wireless connection, it still remains the Seeed Studio XIAO series classic form-factor of small and exquisite which can be used for wearable devices and Internet of Things projects. Furthermore, it only costs 5 μA in the deep sleep model and it supports battery charge management because of the BQ25101 chip.</p>
+<p>By Seeed Studio</p> <p>Seeed Studio XIAO nRF52840 (Sense) has equipped a powerful Nordic nRF52840 MCU which is designed in a Bluetooth 5.0 module, built around 32-bit ARM® Cortex™-M4 CPU with Floating-Point Unit(FPU) operating at 64Mhz. With the capabilities of wireless connection, it still remains the Seeed Studio XIAO series classic form-factor of small and exquisite which can be used for wearable devices and Internet of Things projects. Furthermore, it only costs 5 μA in the deep sleep model and it supports battery charge management because of the BQ25101 chip.</p>
 
-<p>In addition, it carries two extra onboard sensors. One of them is a digital microphone created through Pulse Density Modulation(PDM) module on the nRF52840 chip. It can receive audio data in real-time which allows it can be used for audio recognition. The board not only receives audio data but also can speak through the MSM261D3526H1CPM microphone. The other one is 6-axis Inertial Measurement Unit(IMU) which can be applied in TinyML projects like gesture recognition. These onboard sensors provide a great convenience for users and the ultra-small size feature of the board has still remained.</p>
+<p>In addition, the SENSE version of the board carries two extra onboard sensors. One of them is a digital microphone created through Pulse Density Modulation(PDM) module on the nRF52840 chip. It can receive audio data in real-time which allows it can be used for audio recognition. The board not only receives audio data but also can speak through the MSM261D3526H1CPM microphone. The other one is 6-axis Inertial Measurement Unit(IMU) which can be applied in TinyML projects like gesture recognition. These onboard sensors provide a great convenience for users and the ultra-small size feature of the board has still remained.</p>
 
-<p>Seeed Studio XIAO nRF52840 Sense contains a wealthy interface. The first thing to note is that the Near Field Communication(NFC) is functional on the board. Secondly, there is a tiny and elegant reset button on one side of the Type-C interface. On the other side, it is designed in a three-in-one LED along with a power LED. There are 11 digital i/o that can be used as PWM pins and 6 analog i/o that can be used as ADC pins. It supports UART, IIC, and SPI all three common serial ports. Same as Seeed Studio XIAO RP2040, it has an onboard 2 MB flash which means it can also be programmed by Arduino, MicroPython, CircuitPython, or other program languages.</p>
+<p>The same CircuitPython firmware can be used both for the Seed Studio XIAO nRF52840 with or without additional sensor.</p>
+
+<p>Seeed Studio XIAO nRF52840 (Sense) contains a wealthy interface. The first thing to note is that the Near Field Communication(NFC) is functional on the board. Secondly, there is a tiny and elegant reset button on one side of the Type-C interface. On the other side, it is designed in a three-in-one LED along with a power LED. There are 11 digital i/o that can be used as PWM pins and 6 analog i/o that can be used as ADC pins. It supports UART, IIC, and SPI all three common serial ports. Same as Seeed Studio XIAO RP2040, it has an onboard 2 MB flash which means it can also be programmed by Arduino, MicroPython, CircuitPython, or other program languages.</p>
 
 <ul>
   <li>Bluetooth 5.0</li>
@@ -104,7 +106,8 @@
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html">Seeed Studio</a></li>
+  <li>[Seeed Studio] SENSE version (https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html)</li>
+  <li>[Seeed Studio] version without sensor (https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)</li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
