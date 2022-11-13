@@ -10,9 +10,6 @@ date_added: 2022-11-13
 family: esp32
 downloads_display: true
 features:
-  - Two motor drivers
-  - Direct connect servos
-  - STEMMA QT connector
   - Bluetooth/BTLE
   - Wi-Fi
   - USB-C
