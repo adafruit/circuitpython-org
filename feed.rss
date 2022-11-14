@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 14 Nov 2022 05:03:43 -0500</lastBuildDate>
+<lastBuildDate>Mon, 14 Nov 2022 12:00:26 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -7752,6 +7752,47 @@ o   o        o   o
     <category>CircuitPython</category>
     <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_stamp_c3/</guid>
+  </item><item>
+    <title>Maker badge</title>
+    <link>https://circuitpython.org/board/maker_badge/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/maker_badge.jpg 300w,
+               /assets/images/boards/large/maker_badge.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/maker_badge.jpg" alt="Image of Board" loading="lazy">
+<p>By Czech maker & Make More</p> <p>The Maker badge board is official badge board for Maker Faire´s in Czech republic. Main purpose is to show visitor/exhibitors name and/or project, but secondary hoal is to have at each Maker Faire soem interactive game so people can have more fun at the time of the visit.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>2.13” black and white E Ink® display (212 x 104 pixels in rev. A or 250 x 122 in rev.B)</li>
+  <li>Powered by ESP32-S2 module (single core 32-bit LX7 microprocessor running up to 240 MHz with 320kB of SRAM, 4 MB Flash (embedded))</li>
+  <li>Five touch buttons</li>
+  <li>Reset and boot buttons (the boot button can also be used as a user button)</li>
+  <li>5 x RGB LED with WS2812B IC</li>
+  <li>USB-C connector for power and programming</li>
+  <li>JST-PH connector for attaching a battery (input range 2.7V - 6V)</li>
+  <li>CR2032 battery holder</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li>rev. A (distributed by Czech maker) is using 212 x 104 px e-ink display with UC8151D driver</li>
+  <li>rev. B (distributed by Make More) is using 250 x 122 px e-ink display with SSD1680 driver</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li>will be added later</li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sat, 12 Nov 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/maker_badge/</guid>
   </item><item>
     <title>M60 Mechanical Keyboard</title>
     <link>https://circuitpython.org/board/makerdiary_m60_keyboard/</link>
