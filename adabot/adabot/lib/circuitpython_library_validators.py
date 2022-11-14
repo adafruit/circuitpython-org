@@ -991,9 +991,7 @@ class LibraryValidator:
 
         repo_short_name = repo["name"][len("Adafruit_CircuitPython_") :].lower()
         full_url = (
-            "https://circuitpython.readthedocs.io/projects/"
-            + repo_short_name
-            + "/en/latest/"
+            "https://docs.circuitpython.org/projects/" + repo_short_name + "/en/latest/"
         )
         full_url_dashes = full_url.replace("_", "-")
         if (
@@ -1263,8 +1261,13 @@ class LibraryValidator:
                 except pygithub.GithubException:  # This can probably be tightened later
                     # No workflows or runs yet
                     return []
-                if workflow_runs[0].conclusion != "success":
-                    return [ERROR_CI_BUILD]
+                try:
+                    if workflow_runs[0].conclusion != "success":
+                        return [ERROR_CI_BUILD]
+                except IndexError:
+                    # The CI hasn't run yet, so empty list of workflow runs returned
+                    # This doesn't indicate a failure, so skip it
+                    pass
                 return []
             except pygithub.RateLimitExceededException:
                 core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
