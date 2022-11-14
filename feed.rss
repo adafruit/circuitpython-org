@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 14 Nov 2022 12:00:26 -0500</lastBuildDate>
+<lastBuildDate>Mon, 14 Nov 2022 12:02:55 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -3542,6 +3542,44 @@ then this is a great board to start with.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/cp_sapling_m0_spiflash/</guid>
+  </item><item>
+    <title>CRCibernetica IdeaBoard</title>
+    <link>https://circuitpython.org/board/crcibernetica_ideaboard/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/crcibernetica_ideaboard.jpg 300w,
+               /assets/images/boards/large/crcibernetica_ideaboard.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/crcibernetica_ideaboard.jpg" alt="Image of Board" loading="lazy">
+<p>By CRCibernetica</p> <p>The CRCibernetica IdeaBoard is an educational Internet of Things and Robotics development board based on the ESP32 microcontroller.
+Easily connect multiple dc motors, servos and sensors to power your experiments!</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS</li>
+  <li>Integrated 520 KB SRAM</li>
+  <li>Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP</li>
+  <li>Integrated dual mode Bluetooth (classic and BLE)</li>
+  <li>16 MByte FLASH</li>
+  <li>Two motor drivers (800mA each motor)</li>
+  <li>STEMMA QT connector for easy expansion</li>
+  <li>Standard .1” headers for convenient interfacing with GND and Vcc for each pin</li>
+  <li>Direct DC power for battery or power supply (5VDC - 9VDC)</li>
+  <li>7 pins for servos or other applications that require direct power</li>
+  <li>14 General Purpose I/O pins in total (7 direct power – 7 with 3.3v logic)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.crcibernetica.com/crcibernetica-ideaboard/">CRCibernetica (Costa Rica)</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sat, 12 Nov 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/crcibernetica_ideaboard/</guid>
   </item><item>
     <title>CrumpSpace CrumpS2</title>
     <link>https://circuitpython.org/board/crumpspace_crumps2/</link>
