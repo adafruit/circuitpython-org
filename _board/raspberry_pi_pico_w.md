@@ -8,6 +8,9 @@ board_url: "https://www.adafruit.com/product/5526"
 board_image: "raspberry_pi_pico_w.jpg"
 date_added: 2022-10-2
 family: raspberrypi
+tags:
+  - picow
+  - 🥧🐮
 features:
   - Breadboard-Friendly
   - Wi-Fi
