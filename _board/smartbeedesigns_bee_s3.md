@@ -10,7 +10,6 @@ date_added: 2022-8-22
 family: esp32s3
 features:
   - Wi-Fi
-  - Battery-Voltage-Monitoring
   - USB-C
   - Breadboard-Friendly
 ---
