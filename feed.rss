@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 18 Nov 2022 05:04:22 -0500</lastBuildDate>
+<lastBuildDate>Fri, 18 Nov 2022 11:20:09 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -9519,6 +9519,47 @@ and <a href="https://hackaday.io/project/165032-pewpew-m4">Hackaday.io</a>.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 31 Mar 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/picoplanet/</guid>
+  </item><item>
+    <title>PillBug</title>
+    <link>https://circuitpython.org/board/pillbug/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/pillbug.jpg 300w,
+               /assets/images/boards/large/pillbug.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/pillbug.jpg" alt="Image of Board" loading="lazy">
+<p>By MechWild</p> <p>The PillBug is a BLE enabled development board powered by the nRF52840 that is designed to be a drop in replacement for the stm32f401/stm32f411 blackpill development board. This board was designed for compatibility with blackpill driven keyboards and will work as a simple replacement in most cases. The PillBug features 3.7V Li-Ion battery charger, a software controlled hardware cutoff for powering peripherals, a controllable status LED, and compatibility with blackpill’s pinouts for I2C/SPI/UART.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>BLE (Bluetooth Low Energy) capable</li>
+  <li>nRF52840 powered with 1MB Flash memory and 256KB RAM</li>
+  <li>Preloaded Adafruit nRF52 Bootloader utlizing UF2 and DFU flashing options</li>
+  <li>Software controlled blue status LED that can be configured by application</li>
+  <li>Hardware controlled charging red status LED</li>
+  <li>3.3V GPIO logic and power provided through VCC pins</li>
+  <li>Software controlled MOSFET to disable providing power through the power pins to external peripherals</li>
+  <li>30 Total GPIO pins in an easy to use and breadboard friendly layout</li>
+  <li>RTC (real-time clock) capabilities provided through use of 32.768kHz oscillator (necessary for BlE)</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://mechwild.com/product/pillbug/">MechWild</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://mechwild.com/product/pillbug/">MechWild</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 09 Nov 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/pillbug/</guid>
   </item><item>
     <title>Badger 2040</title>
     <link>https://circuitpython.org/board/pimoroni_badger2040/</link>
