@@ -14,11 +14,7 @@ layout: default
           {{ content }}
         </p>
         <h2>Contribute</h2>
-        {% if page.blinka == true %}
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md">here</a>.</p>
-        {% else %}
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md">here</a>.</p>
-        {% endif %}
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/{{ page.path }}">here</a>.</p>
       </div>
     </div>
     <div class="download">
