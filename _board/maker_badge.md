@@ -15,7 +15,7 @@ features:
   - Battery Charging
 ---
 
-The Maker badge board is official badge board for Maker Faire´s in Czech republic. Main purpose is to show visitor/exhibitors name and/or project, but secondary hoal is to have at each Maker Faire soem interactive game so people can have more fun at the time of the visit. 
+The Maker badge board is official badge board for Maker Faire´s in Czech republic. Main purpose is to show visitors/exhibitors name and/or project, but secondary goal is to have at each Maker Faire some interactive game so people can have more fun at the time of the visit. 
 
 ## Features
 
@@ -36,3 +36,7 @@ The Maker badge board is official badge board for Maker Faire´s in Czech republ
 ## Purchase
 
 * will be added later
+
+## Resources 
+
+* [Github](https://github.com/dronecz/maker_badge)
