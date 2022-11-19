@@ -21,4 +21,5 @@ This is a ESP32-S3 with a built in PIR motion sensor, RGB LED, lipo charging cir
 ## Learn More
 
 * [GitHub](http://github.com/strid3r21/BeeMotionS3/)
+* [Website](https://www.smartbeedesigns.com)
 * [Instagram](https://www.instagram.com/smartbeedesigns/)
