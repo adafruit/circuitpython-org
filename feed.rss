@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 28 Nov 2022 05:03:54 -0500</lastBuildDate>
+<lastBuildDate>Mon, 28 Nov 2022 18:51:44 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -16221,6 +16221,61 @@ Enclosure</li>
     </item>
 
     <item>
+      <title>Odroid M1</title>
+      <link>https://circuitpython.org/blinka/odroid_m1/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/odroid_m1.jpg 300w,
+               /assets/images/boards/large/odroid_m1.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/odroid_m1.jpg" alt="Image of Board" loading="lazy">
+<p>By Hardkernel co., Ltd.</p> <p>The ODROID-M1 is a single board computer with a wide range of useful peripherals developed for use in a variety of embedded system applications. To achieve this goal, we have developed various hardware accessories and device driver software over the past 10 months. In addition, RK3568B2, the core brain of ODROID-M1, is considered suitable for embedded application use as the SoC manufacturer (Rockchip) guarantees supply for the next 15 years. Therefore, we expect we can supply the ODROID-M1 boards to our important B2B customers until the year 2036 or beyond.</p>
+
+<p>Note that RK3568B2 is a slightly modified version of the RK3568 to overcome the IC supply chain problem these days. The previous RK3568 metal-can type packaging lead time is much longer than the more common plastic package of the RK3568B2.</p>
+
+<p>Let’s take a look at the main features and peripherals of ODROID-M1.</p>
+
+<ul>
+  <li>Rockchip RK3568B2 CPU</li>
+  <li>LPDDR4 RAM</li>
+  <li>1 x Micro USB2.0 Device only</li>
+  <li>1 x RJ45 Ethernet Port (10/100/1000)</li>
+  <li>1 x HDMI 2.0</li>
+  <li>2 x USB 2.0</li>
+  <li>2 x USB 3.0</li>
+  <li>1 x DC Power Jack</li>
+  <li>1 x M.2 NVMe M-Key PCIe3.0 2-Lane</li>
+  <li>40 x GPIO Pins</li>
+  <li>1 x MIPI CSI 2Lane</li>
+  <li>1 x MIPI DSI 4Lane</li>
+  <li>1 x 3.5mm Headphone Jack</li>
+  <li>1 x Mono Speaker Output (1.3W at 8Ω load)</li>
+  <li>1 x SPI recovery Switch</li>
+  <li>1 x SPI Flash 16MiB</li>
+  <li>1 x eMMC Module Socket</li>
+  <li>1 x IR Receiver</li>
+  <li>1 x RTC Backup Battery Holder</li>
+  <li>1 x Reset jumper 1 x Power jumper</li>
+  <li>1 x Micro SD Slot</li>
+  <li>1 x SATA3</li>
+  <li>1 x SATA Power (5volt only)</li>
+  <li>1 x UART for System Console</li>
+  <li>2 x System LED Indicators</li>
+  <li>1 x M.2 LED Indicator</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.hardkernel.com/shop/odroid-m1-with-4gbyte-ram/">Hardkernel</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Sun, 27 Nov 2022 19:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/odroid_m1/</guid>
+    </item>
+
+    <item>
       <title>Odroid N2</title>
       <link>https://circuitpython.org/blinka/odroid_n2/</link>
       <description><![CDATA[   
@@ -16345,6 +16400,44 @@ This allows users to truly experience an upgrade in computing, especially with f
       <category>Blinka</category>
       <pubDate>Fri, 29 May 2020 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/odroid_xu4q/</guid>
+    </item>
+
+    <item>
+      <title>ODYSSEY - X86J4105</title>
+      <link>https://circuitpython.org/blinka/odyssey_x86j4105/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/odyssey_x86j4105.jpg 300w,
+               /assets/images/boards/large/odyssey_x86j4105.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/odyssey_x86j4105.jpg" alt="Image of Board" loading="lazy">
+<p>By SeeedStudio</p> <p>Edge Computing devices are playing an increasingly important role in the field of IoT. Nowadays, a computer is not just a big rectangular black box under the desk, or a small portable device working on your knees. Computers are ubiquitous devices that span calculating, communicating, and data storage. Based on this definition, here we would like to introduce our new product – the ODYSSEY - X86J4105.</p>
+
+<p>ODYSSEY is a series of SBC (Single Board Computer), allowing you to build Edge Computing applications with ease. The ODYSSEY - X86J4105,  based on Intel Celeron J4105, is a Quad-Core 1.5GHz CPU that bursts up to 2.5GHz. It includes all the powerful features of Mini PC such as including an 8GB LPDDR4 RAM, 64GB eMMC Storage(optional), onboard Wi-Fi/BLE, Dual Gigabyte Ethernet Ports, Audio Input and Output, USB Ports, HDMI, SATA Connectors and PCIe, however, within a cost-effective price. With simple connections to Mouse, Keyboard and Monitor to ODYSSEY - X86J4105, you will get a Desktop Mini PC right away. With eMMC versions, you even have the Windows 10 Enterprise pre-installed!</p>
+
+<p>Just simply connect to a mouse, a keyboard and a monitor with the ODYSSEY – X86J4105, you will get a powerful Desktop Mini PC that can run Windows and Linux OS.</p>
+
+<ul>
+  <li>Intel® Celeron® J4105, Quad-Core 1.5-2.5GHZ</li>
+  <li>Dual-Band Frequency 2.4GHz/5GHz WiFi</li>
+  <li>Intel® UHD Graphics 600</li>
+  <li>Dual Gigabit Ethernet</li>
+  <li>Integrated Arduino Coprocessor ATSAMD21 ARM® Cortex®-M0+</li>
+  <li>Raspberry Pi 40-Pin Compatible</li>
+  <li>2 x M.2 PCIe (B Key and M Key)</li>
+  <li>Support Windows 10 &amp; Linux OS</li>
+  <li>Compatible with Grove Ecosystem</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.seeedstudio.com/ODYSSEY-X86J4105800-p-4445.html">SeeedStudio</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Sun, 27 Nov 2022 19:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/odyssey_x86j4105/</guid>
     </item>
 
     <item>
