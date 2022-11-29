@@ -10,8 +10,6 @@ date_added: 2022-11-25
 family: esp32s3
 bootloader_id: cytron_maker_feather_aiot_s3
 features:
-  - AI
-  - IoT
   - Speaker
   - STEMMA QT/QWIIC
   - Battery Charging
