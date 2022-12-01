@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 01 Dec 2022 05:05:15 -0500</lastBuildDate>
+<lastBuildDate>Thu, 01 Dec 2022 11:28:46 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -3608,6 +3608,58 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
     <category>CircuitPython</category>
     <pubDate>Fri, 13 Aug 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/crumpspace_crumps2/</guid>
+  </item><item>
+    <title>Maker Feather AIoT S3</title>
+    <link>https://circuitpython.org/board/cytron_maker_feather_aiot_s3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/cytron_maker_feather_aiot_s3.jpg 300w,
+               /assets/images/boards/large/cytron_maker_feather_aiot_s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/cytron_maker_feather_aiot_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By Cytron Technologies</p> <p>The Maker Feather AIoT S3 is powered by the ESP32-S3 WROOM 1 N8R8 module with 8MB Flash and 8MB PSRAM. This board allows the users to access both AI and IoT applications on their own projects. Users may choose from two different variants of Maker Feather AIoT S3: Basic (without pre-soldered female headers) and Pre-soldered female headers which the user can use a breadboard to expand all the GPIOs.</p>
+
+<p>The board comes with 3 Maker Ports (STEMMA QT / Qwiic JST SH) that have flexible I/O options: digital, analog and I2C. The Maker Ports consist of 2 horizontal ports that are powered by VPeripheral that allows users to save power by turning  on and off via programming code and 1 vertical port that is powered by constant 3.3V.</p>
+
+<p>There are 11 LEDs that act as the status LED of their respective GPIOs, a programmable Neopixel RGB LED to make your project colourful, 1 “RESET” and 1 “BOOT” buttons to reset the board and enter bootloader mode and a programmable push button. At the bottom of the board, there is a piezo buzzer with a mute switch that allows you to add audio features to your projects.</p>
+
+<p>There are 2 ways to power up the Maker Feather AIoT S3, either through USB C Data Cable or rechargeable LiPo/Li-Ion Battery. The built-in 1-cell LiPo/Li-Ion charger port comes with overcharged and over-discharged protection features.</p>
+
+<p>This board is pre-loaded with CircuitPython and is also supported by various programming languages: MicroPython, Arduino IDE and Espressif IDF.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Adafruit feather form factor</li>
+  <li>Powered by ESP32-S3 WROOM-1 N8R8 (8MB Flash, 8MB PSRAM)</li>
+  <li>Single-cell LiPo connector with overcharge / over-discharge protection circuit, rechargeable via USB.</li>
+  <li>11x Status indicator LEDs for GPIOs</li>
+  <li>1x Programmable piezo buzzer (Connected to GPIO12)</li>
+  <li>1x Reset button</li>
+  <li>1x User programmable button (GPIO3)</li>
+  <li>1x RGB LEDs (WS2812B Neopixel)</li>
+  <li>3x Maker Ports, compatible with Qwiic, STEMMA QT, and Grove (via conversion cable): 2 horizontal (VPeripheral) and 1 vertical (3.3V)</li>
+  <li>Support Arduino, CircuitPython, MicroPython &amp; Espressif IDF</li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li><a href="https://docs.google.com/document/d/1vVYSdn84I8Hvi9SWHU54lhH_vWlhD3mwJ6pcSyLNGcE/edit?usp=sharing">Maker Feather AIoT S3 Datasheet</a></li>
+  <li>Get Started with Maker Feather AIoT S3 Using CircuitPython (Coming Soon)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li>Cytron (Coming Soon)</li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 24 Nov 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/cytron_maker_feather_aiot_s3/</guid>
   </item><item>
     <title>Maker Nano RP2040</title>
     <link>https://circuitpython.org/board/cytron_maker_nano_rp2040/</link>
