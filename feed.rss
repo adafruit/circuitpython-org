@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 20 Dec 2022 05:03:42 -0500</lastBuildDate>
+<lastBuildDate>Tue, 20 Dec 2022 11:58:53 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -7690,6 +7690,49 @@ o   o        o   o
     <category>CircuitPython</category>
     <pubDate>Mon, 05 Sep 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/lolin_s3/</guid>
+  </item><item>
+    <title>Luatos Core ESP32C3</title>
+    <link>https://circuitpython.org/board/luatos_core_esp32c3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/luatos_core_esp32c3.jpg 300w,
+               /assets/images/boards/large/luatos_core_esp32c3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/luatos_core_esp32c3.jpg" alt="Image of Board" loading="lazy">
+<p>By Luatos</p> <p>A low-cost WiFi/BLE board based on ESP32-C3.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Based on the ESP32-C3 WIFI &amp; Bluetooth LE RISC-V Single-Core CPU</li>
+  <li>Type-C USB</li>
+  <li>Castellated pads</li>
+  <li>4MB Flash</li>
+  <li>Clock speed: 160 Mhz</li>
+  <li>15x Digital IO</li>
+  <li>ADC(5 channel, 12-bit), I2C, SPI, UARTx2</li>
+  <li>Size: 21mm x 51mm</li>
+  <li>Default firmware: LuatOS</li>
+  <li>2 red status LEDs</li>
+</ul>
+
+<h2 id="note">Note</h2>
+
+<p>Onboard LDO can be disabled by grounding the PWB pin (15)</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://wiki.luatos.com/chips/esp32c3/board.html">Manufacturer Specifications</a></li>
+  <li><a href="https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf">ESP32-C3 Datasheet</a></li>
+  <li><a href="https://cdn.openluat-luatcommunity.openluat.com/attachment/20220609213416069_CORE-ESP32-A12.pdf">Schematic</a></li>
+  <li><a href="https://cdn.openluat-luatcommunity.openluat.com/attachment/CORE-ESP32-C3%E5%8F%82%E8%80%83%E5%B0%BA%E5%AF%B8_V1.2.pdf">Dimension</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 19 Dec 2022 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/luatos_core_esp32c3/</guid>
   </item><item>
     <title>M5Stack ATOM Lite ESP32 IoT</title>
     <link>https://circuitpython.org/board/m5stack_atom_lite/</link>
