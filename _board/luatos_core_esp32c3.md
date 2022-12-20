@@ -17,11 +17,11 @@ features:
 
 ---
 
-A low-cost WiFi/BLE board based on ESP32-C3FH4.
+A low-cost WiFi/BLE board based on ESP32-C3.
 
 ## Features
 
-- based ESP32-C3 WIFI & Bluetooth LE RISC-V Single-Core CPU
+- Based on the ESP32-C3 WIFI & Bluetooth LE RISC-V Single-Core CPU
 - Type-C USB
 - Castellated pads
 - 4MB Flash
