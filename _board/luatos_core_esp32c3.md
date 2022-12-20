@@ -5,7 +5,7 @@ title: "Luatos Core ESP32C3 Download"
 name: "Luatos Core ESP32C3"
 manufacturer: "Luatos"
 board_url: "https://wiki.luatos.com/chips/esp32c3/index.html#"
-board_image: "luatos_core_esp32c3.png"
+board_image: "luatos_core_esp32c3.jpg"
 date_added: 2022-12-20
 family: esp32c3
 bootloader_id: luatos_core_esp32c3
