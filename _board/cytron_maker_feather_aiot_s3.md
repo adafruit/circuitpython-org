@@ -42,9 +42,9 @@ This board is pre-loaded with CircuitPython and is also supported by various pro
 ## Resources
 
 - [Maker Feather AIoT S3 Datasheet](https://docs.google.com/document/d/1vVYSdn84I8Hvi9SWHU54lhH_vWlhD3mwJ6pcSyLNGcE/edit?usp=sharing)
-- Get Started with Maker Feather AIoT S3 Using CircuitPython (Coming Soon)
+- [Get Started with Maker Feather AIoT S3 Using CircuitPython](https://cytron.io/tutorial/get-started-with-maker-feather-aIot-s3-using-circuitpyhton)
 
 ## Purchase
 
-* Cytron (Coming Soon)
+* [Cytron](https://cytron.io/p-v-maker-feather-aiot-s3-simplifying-aiot-with-esp32)
 
