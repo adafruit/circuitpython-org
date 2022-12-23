@@ -27,4 +27,8 @@ layout: default
   </div>
 </div>
 
+{% if page.family == 'esp32' or page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' %}
+{% include downloads/esp_installer.html %}
+<script src="/assets/javascript/espinstaller.js" type="module"></script>
+{% endif %}
 <script src="/assets/javascript/download.js"></script>

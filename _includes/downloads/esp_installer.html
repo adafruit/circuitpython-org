@@ -1,0 +1,97 @@
+<div id="espinstaller">
+    <main class="main">
+        <div id="notSupported" class="notSupported">
+          Sorry, <b>Web Serial</b> is not supported on your browser at this time. Browsers we expect to work:
+          <ul>
+            <li>Google Chrome 89 (and higher)</li>
+            <li>Microsoft Edge 89 (and higher)</li>
+            <li>Opera 75 (and higher)</li>
+          </ul>
+        </div>
+        <div class="subheader">
+          <div class="left">
+            <span class="title">ESP32 CircuitPython Installer</span>
+            <span><strong>This tool will install CircuitPython on ESP32 boards. Click below to see if your board is supported, then follow the instructions to install the firmware.</strong></span>
+          </div>
+        </div>
+        <div id="app">
+          <ol class="tutorial-steps">
+            <li class="step-1">
+              <p>
+                Make sure your board is plugged into this computer via a Serial connection using a USB Cable.
+              </p>
+              <ul>
+                <li><p><em><strong>NOTE:</strong> A lot of people end up using charge-only USB cables and it is very frustrating! Make sure you have a USB cable you know is good for data sync.</em></p></li>
+              </ul>
+            </li>
+
+            <li class="step-1">
+              <p>
+                <button id="butConnect" type="button">Connect</button>
+                Click this button to open the Web Serial connection menu.
+              </p>
+
+              <p>There may be many devices listed, such as your remembered Bluetooth peripherals, anything else plugged into USB, etc.</p>
+
+              <p>
+                If you aren't sure which to choose, look for words like "USB", "UART", and "Bridge Controller". There may be more than one right option depending on your system configuration. Experiment if needed.
+              </p>
+            </li>
+
+            <li class="step-2 hidden">
+              <p><strong>Do not disconnect your board from your computer from this point!</strong></p>
+            </li>
+
+            <li class="step-2 hidden">
+              <p>Enter the credentials for the wifi network your board will connect to, as well as the initial Web Workflow password.</p>
+
+              <ul>
+                <li><p><em><strong>NOTE:</strong> Your wifi network must be using 2.4Ghz frequency.</em></p></li>
+              </ul>
+
+              <div id="commands">
+                <div class="field">
+                  <label><span>WiFi Network Name (SSID):</span>
+                    <input id="network_type_wifi.network_ssid" class="partition-data" type="text" placeholder="WiFi SSID" value="" />
+                  </label>
+                </div>
+                <div class="field">
+                  <label><span>WiFi Password:</span>
+                    <input id="network_type_wifi.network_password" class="partition-data" type="text" placeholder="WiFi Password" value=""  />
+                  </label>
+                </div>
+                <div class="field">
+                  <label><span>Web Workflow Password:</span>
+                    <input id="web_workflow_password" class="partition-data" type="text" placeholder="Web Workflow Password" value=""  />
+                  </label>
+                </div>
+              </div>
+            </li>
+
+            <li class="step-3 hidden">
+              <p>Click "Install CircuitPython" to get the process started. If you would like to manually install CircuitPython and simply want to perform a factory reset, click "Install UF2 Bootloader ONLY".</p>
+              <div class="buttons" style="text-align: center;">
+                 <button id="butProgram" type="button">Install CircuitPython</button>
+                 <button id="butProgramBootloader" type="button">Install UF2 Bootloader ONLY</button>
+               </div>
+            </li>
+
+            <li class="step-4 hidden">
+              <p>CircuitPython is installing, please wait...</p>
+              <div class="buttons">
+                <div id="stepname" class="hidden"></div>
+              </div>
+              <div class="buttons">
+                <div id="progressBar" class="progress-bar hidden"><div></div></div>
+              </div>
+            </li>
+
+            <li class="step-5 hidden">
+              <p>CircuitPython successfully installed. <strong>Reset your board</strong>!</a></p>
+            </li>
+          </ol>
+        </div>
+
+        <div id="log" class="hidden console-item"></div>
+      </main>
+</div>
