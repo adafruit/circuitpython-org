@@ -16,7 +16,7 @@ features:
   - Breadboard-Friendly
 ---
 
-If there is one thing Adafruit is known for, its mega-blinky-fun-rainbow-LEDs. [We just love sticking NeoPixels anywhere and everywhere](https://www.adafruit.com/category/168). When we saw the new 'PIO' peripheral on[ the RP2040 from Raspberry Pi](https://www.adafruit.com/category/875), we just knew it would be perfect for driving large quantities of NeoPixels. So we created this board, the **Adafruit Feather RP2040 SCORPIO**, designed specifically for NeoPixel (WS2812) driving but also good for various other PIO-based projects that want to take advantage of the Feather pinout with 8 separate consecutive outputs (or inputs).
+- If there is one thing Adafruit is known for, its mega-blinky-fun-rainbow-LEDs. [We just love sticking NeoPixels anywhere and everywhere](https://www.adafruit.com/category/168). When we saw the new 'PIO' peripheral on[ the RP2040 from Raspberry Pi](https://www.adafruit.com/category/875), we just knew it would be perfect for driving large quantities of NeoPixels. So we created this board, the **Adafruit Feather RP2040 SCORPIO**, designed specifically for NeoPixel (WS2812) driving but also good for various other PIO-based projects that want to take advantage of the Feather pinout with 8 separate consecutive outputs (or inputs).
 
 [The RP2040 PIO state machine](https://learn.adafruit.com/intro-to-rp2040-pio-with-circuitpython) is perfect for LED driving: it can generate perfect waveforms, with up to 8 outputs concurrently, all through DMA. That means that you don't need to use any processor time to bit-bang-out the LED data. Just set up the buffer and tell the PIO peripheral to 'make it so' and it will shove that data to the 8 outputs without delay while your code can continue to read buttons, play music, run CircuitPython - whatever you like!
 
@@ -34,10 +34,10 @@ We have [NeoPXL8 driver code available in Arduino](https://github.com/adafruit/A
 - 264 KB RAM
 - **8 MB SPI FLASH** chip for storing files and CircuitPython/MicroPython code storage. No EEPROM
 - Tons of GPIO! 21 x GPIO pins with following capabilities:
-  - **Four** 12-bit ADCs (one more than Pico)
-  - Two I2C, Two SPI, and two UART peripherals, we label one for the 'main' interface in standard Feather locations
-  - 16 x PWM outputs - for servos, LEDs, etc
-  - 8 x consecutive GPIO outputs with 5V level shifting for PIO NeoPixel driving
+- **Four** 12-bit ADCs (one more than Pico)
+- Two I2C, Two SPI, and two UART peripherals, we label one for the 'main' interface in standard Feather locations
+- 16 x PWM outputs - for servos, LEDs, etc
+- 8 x consecutive GPIO outputs with 5V level shifting for PIO NeoPixel driving
 - **Built-in 200mA+ lipoly charger** with charging status indicator LED
 - **Pin #13 red LED** for general purpose blinking
 - **RGB NeoPixel** for full-color indication on **D4**
