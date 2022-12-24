@@ -16,7 +16,7 @@ features:
   - Breadboard-Friendly
 ---
 
-- If there is one thing Adafruit is known for, its mega-blinky-fun-rainbow-LEDs. [We just love sticking NeoPixels anywhere and everywhere](https://www.adafruit.com/category/168). When we saw the new 'PIO' peripheral on[ the RP2040 from Raspberry Pi](https://www.adafruit.com/category/875), we just knew it would be perfect for driving large quantities of NeoPixels. So we created this board, the **Adafruit Feather RP2040 SCORPIO**, designed specifically for NeoPixel (WS2812) driving but also good for various other PIO-based projects that want to take advantage of the Feather pinout with 8 separate consecutive outputs (or inputs).
+If there is one thing Adafruit is known for, its mega-blinky-fun-rainbow-LEDs. [We just love sticking NeoPixels anywhere and everywhere](https://www.adafruit.com/category/168). When we saw the new 'PIO' peripheral on[ the RP2040 from Raspberry Pi](https://www.adafruit.com/category/875), we just knew it would be perfect for driving large quantities of NeoPixels. So we created this board, the **Adafruit Feather RP2040 SCORPIO**, designed specifically for NeoPixel (WS2812) driving but also good for various other PIO-based projects that want to take advantage of the Feather pinout with 8 separate consecutive outputs (or inputs).
 
 [The RP2040 PIO state machine](https://learn.adafruit.com/intro-to-rp2040-pio-with-circuitpython) is perfect for LED driving: it can generate perfect waveforms, with up to 8 outputs concurrently, all through DMA. That means that you don't need to use any processor time to bit-bang-out the LED data. Just set up the buffer and tell the PIO peripheral to 'make it so' and it will shove that data to the 8 outputs without delay while your code can continue to read buttons, play music, run CircuitPython - whatever you like!
 
@@ -24,7 +24,7 @@ The SCORPIO has a clever pinout, where all the standard Feather pins are the sam
 
 To make NeoPixel usage glitch-free there is a 3V->5V level shifter so that the output logic is 5V. If you happen to want 3V signals, you can adjust the shifter voltage with a jumper on the bottom. It's also possible to flip the direction of the level shifter to make the 8 I/O pins inputs - say for making a logic analyzer - with a directional jumper selection also on the bottom of the PCB.
 
-The RP2040 SCORPIO also has a ton of RAM, 264KB, which means its trivial for it to buffer huge amounts of NeoPixels. The PIO peripheral doesn't need to bit-expand the NeoPixel data stream, so you only need 3 bytes of RAM per pixel. You could drive 8 x 5000 pixel strands -> 40,000 pixels * 3 bytes/pixel = 120KB and you still haven't used half the RAM on board. In fact there's so much RAM you can even dither the pixels to get another 3 bits of brightness control, for better-looking LEDs at low brightness or when gamma correcting.
+The RP2040 SCORPIO also has a *ton* of RAM, 264KB, making it trivial to buffer huge numbers of NeoPixels…*several thousand* if needed. In fact there's so much RAM you can even *dither* the pixels to for finer brightness control, for better-looking LEDs at low brightness or for gamma correction.
 
 We have [NeoPXL8 driver code available in Arduino](https://github.com/adafruit/Adafruit_NeoPXL8) and [CircuitPython](https://github.com/adafruit/Adafruit_CircuitPython_NeoPxl8), so you can jump immediately to making beautiful artworks driven by the Adafruit SCORPIO.
 
@@ -34,10 +34,10 @@ We have [NeoPXL8 driver code available in Arduino](https://github.com/adafruit/A
 - 264 KB RAM
 - **8 MB SPI FLASH** chip for storing files and CircuitPython/MicroPython code storage. No EEPROM
 - Tons of GPIO! 21 x GPIO pins with following capabilities:
-- **Four** 12-bit ADCs (one more than Pico)
-- Two I2C, Two SPI, and two UART peripherals, we label one for the 'main' interface in standard Feather locations
-- 16 x PWM outputs - for servos, LEDs, etc
-- 8 x consecutive GPIO outputs with 5V level shifting for PIO NeoPixel driving
+  - **Four** 12-bit ADCs (one more than Pico)
+  - Two I2C, Two SPI, and two UART peripherals, we label one for the 'main' interface in standard Feather locations
+  - 16 x PWM outputs - for servos, LEDs, etc
+  - 8 x consecutive GPIO outputs with 5V level shifting for PIO NeoPixel driving
 - **Built-in 200mA+ lipoly charger** with charging status indicator LED
 - **Pin #13 red LED** for general purpose blinking
 - **RGB NeoPixel** for full-color indication on **D4**
