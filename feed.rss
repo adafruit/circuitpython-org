@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 29 Dec 2022 16:02:15 -0500</lastBuildDate>
+<lastBuildDate>Thu, 29 Dec 2022 19:23:27 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -7701,8 +7701,8 @@ o   o        o   o
       <li><code class="language-plaintext highlighter-rouge">EN</code> RESET button</li>
       <li><code class="language-plaintext highlighter-rouge">GPIO0</code> BOOT button</li>
       <li><code class="language-plaintext highlighter-rouge">GPIO10</code> LED (blue status LED)</li>
-      <li>Lolin I2C JST SH 4-pin port (not QWIIC/Stemma-Qt pinout) using <code class="language-plaintext highlighter-rouge">GPIO8</code> (SDA) and <code class="language-plaintext highlighter-rouge">GPIO9</code> (SCL)</li>
-      <li>128 x 32 SSD1306 OLED display internally connected to the same I2C bus as the external port, reset pin connected to <code class="language-plaintext highlighter-rouge">GPIO18</code>, I2C address <code class="language-plaintext highlighter-rouge">0x3C</code></li>
+      <li>Lolin I2C JST SH 4-pin port (<strong>does not match QWIIC/Stemma-Qt pinout</strong>) using <code class="language-plaintext highlighter-rouge">GPIO8</code> (SDA) and <code class="language-plaintext highlighter-rouge">GPIO9</code> (SCL)</li>
+      <li>128 x 32 SSD1306 OLED display internally connected to the same I2C bus as the external port, reset pin connected to <code class="language-plaintext highlighter-rouge">GPIO18</code>, I2C address <code class="language-plaintext highlighter-rouge">0x3C</code> (<strong>not supported in CircuitPython firmware, require user code initialisation</strong>)</li>
     </ul>
   </li>
   <li>Compatible with CircuitPython, MicroPython (default firmware), Arduino and ESP-IDF</li>
@@ -7759,7 +7759,7 @@ o   o        o   o
       <li><code class="language-plaintext highlighter-rouge">EN</code> RESET button</li>
       <li><code class="language-plaintext highlighter-rouge">GPIO0</code> BOOT button</li>
       <li><code class="language-plaintext highlighter-rouge">GPIO38</code> WS2812B RGB LED</li>
-      <li>Lolin I2C JST SH 4-pin port (not QWIIC/Stemma-Qt pinout) using <code class="language-plaintext highlighter-rouge">GPIO42</code> (SDA) and <code class="language-plaintext highlighter-rouge">GPIO41</code> (SCL)</li>
+      <li>Lolin I2C JST SH 4-pin port (<strong>does not match QWIIC/Stemma-Qt pinout</strong>) using <code class="language-plaintext highlighter-rouge">GPIO42</code> (SDA) and <code class="language-plaintext highlighter-rouge">GPIO41</code> (SCL)</li>
     </ul>
   </li>
 </ul>
