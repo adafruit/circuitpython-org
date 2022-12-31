@@ -40,6 +40,9 @@ Circuitpython builds after 8.0.0-beta6 target the v2.1 revision of this board. V
 in the antenna circuitry which cannot be compensated for in software. V2.1 replaces the PCB trace antenna
 with a small ceramic antenna and the status LED on GPIO7 is replaced by a WS2812B RGB addressable LED.
 
+Using pre-8.0.0-beta6 builds on a v2.1 board or post-8.0.0-beta6 builds on a 1.0 board will not result in proper
+status LED operation.
+
 V1.0 boards need set WIFI Tx Power to 8.5dBm in order to use WIFI.
 
 `wifi.radio.tx_power = 8.5`
