@@ -34,14 +34,19 @@ A mini Wi-Fi & Bluetooth LE board based on ESP32-C3FH4.
 - Default firmware: MicroPython
 
 
-## About WIFI
+## About Board Versions
 
-You need set WIFI Tx Power to 8.5dBm to use WIFI.
+Circuitpython builds after 8.0.0-beta6 target the v2.1 revision of this board. V1.0 had a design flaw
+in the antenna circuitry which cannot be compensated for in software. V2.1 replaces the PCB trace antenna
+with a small ceramic antenna and the status LED on GPIO7 is replaced by a WS2812B RGB addressable LED.
+
+V1.0 boards need set WIFI Tx Power to 8.5dBm in order to use WIFI.
+
 `wifi.radio.tx_power = 8.5`
 
 ## Purchase
 
-* [AliExpress](https://www.aliexpress.com/item/1005004005736554.html)
+* [AliExpress](https://www.aliexpress.com/item/1005004740051202.html)
 
 ## Learn More
 
