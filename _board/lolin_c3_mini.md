@@ -28,7 +28,7 @@ A mini Wi-Fi & Bluetooth LE board based on ESP32-C3FH4.
 - 12x Digital IO
 - ADC, I2C, SPI, UART
 - Size: 34.3 mm x 25.4 mm
-- Weight: 2.4g
+- Weight: 2.6g
 - Compatible with LOLIN D1 mini shields
 - Compatible with MicroPython, Arduino and ESP-IDF
 - Default firmware: MicroPython
@@ -55,5 +55,5 @@ V1.0 boards need set WIFI Tx Power to 8.5dBm in order to use WIFI.
 
 * [Manufacturer Specifications](https://www.wemos.cc/en/latest/c3/c3_mini.html)
 * [ESP32-C3 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
-* [Schematic](https://www.wemos.cc/en/latest/_static/files/sch_c3_mini_v1.0.0.pdf)
+* [Schematic](https://www.wemos.cc/en/latest/_static/files/sch_c3_mini_v2.1.0.pdf)
 * [Dimension](https://www.wemos.cc/en/latest/_static/files/dim_c3_mini_v1.0.0.pdf)
