@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 04 Jan 2023 05:04:05 -0500</lastBuildDate>
+<lastBuildDate>Wed, 04 Jan 2023 12:36:23 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -7522,21 +7522,29 @@ o   o        o   o
   <li>12x Digital IO</li>
   <li>ADC, I2C, SPI, UART</li>
   <li>Size: 34.3 mm x 25.4 mm</li>
-  <li>Weight: 2.4g</li>
+  <li>Weight: 2.6g</li>
   <li>Compatible with LOLIN D1 mini shields</li>
   <li>Compatible with MicroPython, Arduino and ESP-IDF</li>
   <li>Default firmware: MicroPython</li>
 </ul>
 
-<h2 id="about-wifi">About WIFI</h2>
+<h2 id="about-board-versions">About Board Versions</h2>
 
-<p>You need set WIFI Tx Power to 8.5dBm to use WIFI.
-<code class="language-plaintext highlighter-rouge">wifi.radio.tx_power = 8.5</code></p>
+<p>Circuitpython builds after 8.0.0-beta6 target the v2.1 revision of this board. V1.0 had a design flaw
+in the antenna circuitry which cannot be compensated for in software. V2.1 replaces the PCB trace antenna
+with a small ceramic antenna and the status LED on GPIO7 is replaced by a WS2812B RGB addressable LED.</p>
+
+<p>Using 8.0.0-beta6 or earlier builds on a v2.1 board or post-8.0.0-beta6 builds on a 1.0 board will not result in proper
+status LED operation.</p>
+
+<p>V1.0 boards need set WIFI Tx Power to 8.5dBm in order to use WIFI.</p>
+
+<p><code class="language-plaintext highlighter-rouge">wifi.radio.tx_power = 8.5</code></p>
 
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://www.aliexpress.com/item/1005004005736554.html">AliExpress</a></li>
+  <li><a href="https://www.aliexpress.com/item/1005004740051202.html">AliExpress</a></li>
 </ul>
 
 <h2 id="learn-more">Learn More</h2>
@@ -7544,7 +7552,7 @@ o   o        o   o
 <ul>
   <li><a href="https://www.wemos.cc/en/latest/c3/c3_mini.html">Manufacturer Specifications</a></li>
   <li><a href="https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf">ESP32-C3 Datasheet</a></li>
-  <li><a href="https://www.wemos.cc/en/latest/_static/files/sch_c3_mini_v1.0.0.pdf">Schematic</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/sch_c3_mini_v2.1.0.pdf">Schematic</a></li>
   <li><a href="https://www.wemos.cc/en/latest/_static/files/dim_c3_mini_v1.0.0.pdf">Dimension</a></li>
 </ul>
  ]]></description>
