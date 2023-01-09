@@ -32,7 +32,7 @@ WiFi & Bluetooth 5 (LE) development boards based ESP32-S3-WROOM-1.
   - `EN` RESET button
   - `GPIO0` BOOT button
   - `GPIO38` WS2812B RGB LED 
-  - Lolin I2C JST SH 4-pin port (not QWIIC/Stemma-Qt pinout) using `GPIO42` (SDA) and `GPIO41` (SCL)
+  - Lolin I2C JST SH 4-pin port (**does not match QWIIC/Stemma-Qt pinout**) using `GPIO42` (SDA) and `GPIO41` (SCL)
 
 
 ## Purchase
