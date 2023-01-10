@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 10 Jan 2023 05:04:19 -0500</lastBuildDate>
+<lastBuildDate>Tue, 10 Jan 2023 11:06:57 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -13756,11 +13756,18 @@ It can work on he original V1 board, but some features like VBUS sense won’t b
 
 <p>You can find out more about the TinyPICO at <a href="https://tinypico.com">tinypico.com</a></p>
 
+<p>Getting the firmware onto the Esp32 based board is different to other circuitpython supporting chips.
+You can find out more about how at <a href="https://learn.adafruit.com/circuitpython-with-esp32-quick-start">Circuitpython with ESP32 quick start</a></p>
+
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own TinyPICO from:
-Adafruit - https://www.adafruit.com/product/5028
-Pimoroni - https://shop.pimoroni.com/products/tinypico-v2?variant=39285089534035
-Unexpected Maker - https://unexpectedmaker.com/shop/tinypico-usbc</p>
+<p>You can purchase your very own TinyPICO from:</p>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5028">Adafruit</a></li>
+  <li><a href="https://shop.pimoroni.com/products/tinypico-v2?variant=3928508953403">Pimoroni</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/tinypico-usbc">Unexpected Maker</a></li>
+</ul>
+
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Sun, 18 Sep 2022 00:00:00 -0400</pubDate>
