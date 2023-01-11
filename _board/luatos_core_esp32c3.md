@@ -34,6 +34,9 @@ A low-cost WiFi/BLE board based on ESP32-C3.
 
 ## Note
 
+There are 2 versions of this board, differing in the inclusion of a CH343 UART to USB component. This board definition targets the
+version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C connector.
+
 Onboard LDO can be disabled by grounding the PWB pin (15)
 
 ## Learn More
