@@ -41,8 +41,13 @@ It can work on he original V1 board, but some features like VBUS sense won't be 
 
 You can find out more about the TinyPICO at [tinypico.com](https://tinypico.com)
 
+Getting the firmware onto the Esp32 based board is different to other circuitpython supporting chips.
+You can find out more about how at [Circuitpython with ESP32 quick start](https://learn.adafruit.com/circuitpython-with-esp32-quick-start)
+
 ## Purchase
 You can purchase your very own TinyPICO from:
-Adafruit - https://www.adafruit.com/product/5028
-Pimoroni - https://shop.pimoroni.com/products/tinypico-v2?variant=39285089534035
-Unexpected Maker - https://unexpectedmaker.com/shop/tinypico-usbc
+
+* [Adafruit](https://www.adafruit.com/product/5028)
+* [Pimoroni](https://shop.pimoroni.com/products/tinypico-v2?variant=3928508953403)
+* [Unexpected Maker](https://unexpectedmaker.com/shop/tinypico-usbc)
+
