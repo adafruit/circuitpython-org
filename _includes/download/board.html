@@ -6,6 +6,9 @@
 {% if board[0] %}
 {% assign stable = board[0].versions | where: "stable", true | sort: "version" %}
 {% assign unstable = board[0].versions | where: "stable", false | sort: "version" %}
+{% assign bootloaders = site.data.bootloaders.bootloaders %}
+{% assign bootloader_version = bootloaders[page.family].version %}
+{% assign bootloader_id = page.bootloader_id %}
 {% assign releases = stable | concat: unstable %}
 {% capture board_url %}https://downloads.circuitpython.org/bin/{{ board_id}}{% endcapture %}
 {% for version in releases %}
@@ -112,7 +115,15 @@
         <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
       {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' %}
-        <button is="cp-install-button" class="installer-button" boardname="{{ page.name }}" boardid="{{ board_id }}" firmware="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
+        <button is="cp-install-button" class="installer-button" boardname="{{ page.name }}" boardid="{{ board_id }}"
+        {% for extension in version.extensions %}
+          {{ extension }}file="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}"
+        {% endfor %}
+        {% if bootloader_version and bootloader_id %}
+          bootloader="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip"
+        {% endif %}
+        version="{{ version.version }}"
+        >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
       {% endif %}
       </div>
     </div>
@@ -171,11 +182,7 @@ version of its bootloader family.
 By the way, boolean operation precedence is right to left! (yeesh)
 {% endcomment %}
 
-{% assign bootloaders = site.data.bootloaders.bootloaders %}
-{% assign bootloader_version = bootloaders[page.family].version %}
-{% assign bootloader_id = page.bootloader_id %}
 {% if bootloader_version and bootloader_id %}
-
 {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' %}
 <div class="section unrecommended">
   <h3>Install, Repair, or Update UF2 Bootloader</h3>

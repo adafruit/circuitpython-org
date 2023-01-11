@@ -1,5 +1,8 @@
 'use strict';
 import {html, render} from 'https://unpkg.com/lit-html?module';
+import {map} from 'https://unpkg.com/lit-html/directives/map?module';
+import {repeat} from 'https://unpkg.com/lit-html/directives/repeat?module';
+import {Directive, directive} from 'https://unpkg.com/lit-html/directive?module';
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
 
 // TODO: Figure out how to make the Web Serial from ESPTool and Web Serial to communicate with CircuitPython not conflict
@@ -51,6 +54,7 @@ export class CPInstallButton extends HTMLButtonElement {
         this.currentFlow = null;
         this.currentStep = 0;
         this.currentDialogElement = null;
+        this.releaseVersion = "unknown version";
         this.boardName = "ESP32-based board";
         this.preloadDialogs();
     }
@@ -58,20 +62,24 @@ export class CPInstallButton extends HTMLButtonElement {
     // These are a series of the valid steps that should be part of a program flow
     flows = {
         binProgram: {
-            label: "Install Bin File",
+            label: `Install CircuitPython [version] Bin`,
             steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepFlashBin, this.stepSuccess],
+            enabled: () => { return !!this.binFileUrl.length },
         },
         uf2Program: {
-            label: "Install Bootloader and uf2",
+            label: `Install CircuitPython [version] UF2 and Bootloader`,
             steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepCopyUf2, this.stepSettings, this.stepSuccess],
+            enabled: () => { return !!this.bootloaderUrl.length && !!this.uf2FileUrl.length },
         },
         bootloaderOnly: {
             label: "Install Bootloader Only",
             steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSuccess],
+            enabled: () => { return !!this.bootloaderUrl.length },
         },
         settingsOnly: {
             label: "Update WiFi credentials",
             steps: [this.stepSerialConnect, this.stepCredentials, this.stepSettings, this.stepSuccess],
+            enabled: () => { return this.cpDetected() },
         }
     }
 
@@ -104,22 +112,24 @@ export class CPInstallButton extends HTMLButtonElement {
         notSupported: {
             preload: false,
             template: (data) => html`
-            Sorry, <b>Web Serial</b> is not supported on your browser at this time. Browsers we expect to work:
-            <ul>
-            <li>Google Chrome 89 (and higher)</li>
-            <li>Microsoft Edge 89 (and higher)</li>
-            <li>Opera 75 (and higher)</li>
-            </ul>
+                Sorry, <b>Web Serial</b> is not supported on your browser at this time. Browsers we expect to work:
+                <ul>
+                <li>Google Chrome 89 (and higher)</li>
+                <li>Microsoft Edge 89 (and higher)</li>
+                <li>Opera 75 (and higher)</li>
+                </ul>
             `,
             buttons: [this.closeButton],
         },
         menu: {
-            // TODO: This might be a good place for a directive
+            // TODO: Add board name, CP Version etc to menu
             template: (data) => html`
-                Install Bin File
-                Install Bootloader and uf2 (If we have a bootloader file)
-                Update WiFi credentials (Only if cp8 is detected)
-            `,
+                <p>${data.boardName} CircuitPython Installer</p>
+                <ul class="flow-menu">
+                ${this.generateMenu(
+                    (flowId, flow) => html`<li><a href="#" @click=${this.runFlow.bind(this)} id="${flowId}">${flow.label.replace('[version]', this.releaseVersion)}</a></li>`
+                )}
+                </ul>`,
             buttons: [this.closeButton],
         },
         serialConnect: {
@@ -234,14 +244,32 @@ export class CPInstallButton extends HTMLButtonElement {
         this.toggleAttribute("install-supported", true);
         this.boardName = this.getAttribute("boardname") || "ESP32-based device";
 
-        // If either of these are empty, it's a problem
+        // If this is empty, it's a problem
         this.boardId = this.getAttribute("boardid");
-        this.firmwareUrl = this.getAttribute("firmware");
+
+        // We need either the bootloader and uf2 or bin file to continue
+        this.bootloaderUrl = this.getAttribute("bootloader");
+        this.uf2FileUrl = this.getAttribute("uf2file");
+        this.binFileUrl = this.getAttribute("binfile");
+        this.releaseVersion = this.getAttribute("version");
 
         this.addEventListener("click", async (e) => {
             e.preventDefault();
-            await this.runFlow(this.flows.binProgram);
+            await this.showMenu();
         });
+    }
+
+    * generateMenu(templateFunc) {
+        for (const [flowId, flow] of Object.entries(this.flows)) {
+            if (flow.enabled()) {
+                yield templateFunc(flowId, flow);
+            }
+        }
+    }
+
+    cpDetected() {
+        // TODO: Actually detect CircuitPython
+        return false;
     }
 
     preloadDialogs() {
@@ -363,7 +391,6 @@ export class CPInstallButton extends HTMLButtonElement {
 
                 let buttonElement = this.currentDialogElement.querySelector(`#${buttonid}`);
                 if (buttonElement && "enabled" in button) {
-                    console.log(button, button.enabled());
                     buttonElement.disabled = !button.enabled();
                 }
             }
@@ -378,6 +405,16 @@ export class CPInstallButton extends HTMLButtonElement {
     }
 
     async runFlow(flow) {
+        if (flow instanceof Event) {
+            flow.preventDefault();
+            flow.stopImmediatePropagation();
+            if (flow.target.id in this.flows) {
+                flow = this.flows[flow.target.id];
+            } else {
+                return;
+            }
+        }
+
         this.currentFlow = flow;
         this.currentStep = 0;
         await this.currentFlow.steps[this.currentStep].bind(this)();
@@ -403,6 +440,11 @@ export class CPInstallButton extends HTMLButtonElement {
             this.currentStep--;
             await this.currentFlow.steps[this.currentStep].bind(this)();
         }
+    }
+
+    async showMenu() {
+        // Display Serial Connect Text
+        this.showDialog(this.dialogs.menu, {boardName: this.boardName});
     }
 
     async stepSerialConnect() {
