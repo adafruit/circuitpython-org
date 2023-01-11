@@ -75,19 +75,29 @@ export class CPInstallButton extends HTMLButtonElement {
         }
     }
 
+    // Define some common buttons
+    /* Buttons should have a label, and a callback and optionally a condition function on whether they should be enabled */
+    previousButton = {
+        label: "Previous",
+        callback: this.prevStep,
+        enabled: () => { return this.currentStep > 0 },
+    }
+
+    nextButton = {
+        label: "Next",
+        callback: this.nextStep,
+        enabled: () => { return this.currentStep < this.currentFlow.steps.length - 1; },
+    }
+
+    closeButton = {
+        label: "Close",
+        callback: async (e) => {
+            this.closeDialog();
+        }
+    }
+
     // Default Buttons
-    defaultButtons = [
-        {
-            label: "Previous",
-            callback: this.prevStep,
-            enabled: () => { return this.currentStep > 0 },
-        },
-        {
-            label: "Next",
-            callback: this.nextStep,
-            enabled: () => { return this.currentStep < this.currentFlow.steps.length - 1; },
-        },
-    ];
+    defaultButtons = [this.previousButton, this.nextButton];
 
     // This is the data for the dialogs
     dialogs = {
@@ -101,14 +111,7 @@ export class CPInstallButton extends HTMLButtonElement {
             <li>Opera 75 (and higher)</li>
             </ul>
             `,
-            buttons: [
-                {
-                    label: "Close",
-                    callback: async (e) => {
-                        this.closeDialog();
-                    }
-                },
-            ],
+            buttons: [this.closeButton],
         },
         menu: {
             // TODO: This might be a good place for a directive
@@ -116,8 +119,8 @@ export class CPInstallButton extends HTMLButtonElement {
                 Install Bin File
                 Install Bootloader and uf2 (If we have a bootloader file)
                 Update WiFi credentials (Only if cp8 is detected)
-                Close
             `,
+            buttons: [this.closeButton],
         },
         serialConnect: {
             template: (data) => html`
@@ -135,7 +138,6 @@ export class CPInstallButton extends HTMLButtonElement {
             template: (data) => html`
                 <p>This will overwrite everything on the ${data.boardName}.</p>
             `,
-            /* Buttons should have a label, and a callback and possibly a condition function on whether they should be enmabled */
             buttons: [
                 {
                     label: "Cancel",
@@ -155,6 +157,7 @@ export class CPInstallButton extends HTMLButtonElement {
                 <progress id="eraseProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
             `,
             closeable: false,
+            buttons: [this.nextButton],
         },
         flash: {
             template: (data) => html`
@@ -162,13 +165,16 @@ export class CPInstallButton extends HTMLButtonElement {
                 <progress id="flashProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
             `,
             closeable: false,
+            buttons: [this.nextButton],
         },
+        // We may have a waiting for Bootloader to start dialog
         copyUf2: {
             template: (data) => html`
                 <p>Copying ${data.uf2file}...</p>
                 <progress id="copyProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
             `,
             closeable: false,
+            buttons: [this.nextButton],
         },
         credentials: {
             template: (data) => html`
@@ -191,7 +197,7 @@ export class CPInstallButton extends HTMLButtonElement {
         },
         circuitPythonCheck: {
             template: (data) => html`
-                <p>Checking for CircuitPython...</p>
+                <p>Looking for CircuitPython...</p>
                 <progress id="copyProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
             `,
         },
@@ -205,12 +211,14 @@ export class CPInstallButton extends HTMLButtonElement {
             template: (data) => html`
                 <p>Successfully Completed Installation</p>
             `,
+            buttons: [this.closeButton],
         },
         error: {
             template: (data) => html`
                 <p>Installation Error: ${data.message}</p>
             `,
             step: false,
+            buttons: [this.closeButton],
         },
     }
 
