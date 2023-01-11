@@ -44,13 +44,14 @@
     }
 
     .download {
-      a.download-button, a.download-button-unrecommended {
+      a.download-button, a.download-button-unrecommended, button[is="cp-install-button"] {
         display: inline-block;
         width: auto;
         padding: 15px 30px 15px 30px;
         color: #fff;
         border-radius: 5px;
         border: none;
+        cursor: pointer;
 
         i {
           padding-left: 10px;
@@ -143,8 +144,14 @@
         }
       }
 
+      button[is="cp-install-button"] {
+        color: $purple;
+        background-color: transparent;
+        border: 2px solid $purple;
+      }
+
       .download-buttons {
-        a {
+        a, button {
           width: 100%;
           height: 49px;
           padding: 0;

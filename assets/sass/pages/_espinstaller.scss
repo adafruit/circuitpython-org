@@ -1,0 +1,66 @@
+.cp-installer-dialog {
+    min-width: 300px;
+    min-height: 100px;
+    max-width: 600px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+
+    &::backdrop {
+        backdrop-filter: blur(2px);
+    }
+
+    .close-button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 24px;
+        height: 24px;
+        opacity: 0.3;
+        background: transparent;
+        border: none;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:before, &:after {
+            position: absolute;
+            left: 12px;
+            top: 0;
+            content: ' ';
+            height: 25px;
+            width: 2px;
+            background-color: #333;
+        }
+        &:before {
+            transform: rotate(45deg);
+        }
+        &:after {
+            transform: rotate(-45deg);
+        }
+    }
+
+    .dialog-body {
+        margin-top: 24px;
+
+        progress {
+            width: 100%;
+        }
+    }
+
+    .dialog-navigation {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 20px;
+        padding-left: inherit;
+        padding-right: inherit;
+        left: 0;
+        right: 0;
+
+        button {
+            margin: 10px 20px;
+        }
+    }
+
+}

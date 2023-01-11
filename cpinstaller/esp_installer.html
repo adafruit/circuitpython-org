@@ -1,4 +1,54 @@
-<div id="espinstaller">
+<!--
+// Wizard screens
+// - Menu   (installerMenu)
+// - Verify user wants to install (installerVerify)
+// - erase flash (installerErase)
+// - if esp32 or c3 flash bin (installerFlash)
+// - if s2 or s3, flash bootloader (installerFlash)
+// - if s2 or s3, copy uf2 (May need to use File System Access API)
+// - request wifi credentials (skip, connect buttons) and AP password
+// - generate and program settings.toml via REPL
+// - install complete
+-->
+
+<dialog class="installer" id="installerMenu">
+
+</dialog>
+
+<dialog class="installer" id="installerVerify">
+
+</dialog>
+
+<dialog class="installer" id="installerErase">
+
+</dialog>
+
+<!-- Used for flashing either bin or uf2 -->
+<dialog class="installer" id="installerFlash">
+
+</dialog>
+
+<dialog class="installer" id="installerCopyUf2">
+
+</dialog>
+
+<dialog class="installer" id="installerCredentials">
+
+</dialog>
+
+<dialog class="installer" id="installerGenerateSettings">
+
+</dialog>
+
+<dialog class="installer" id="installerSuccess">
+
+</dialog>
+
+<dialog class="installer" id="installerError">
+
+</dialog>
+
+<dialog id="installerDialog">
     <main class="main">
         <div id="notSupported" class="notSupported">
           Sorry, <b>Web Serial</b> is not supported on your browser at this time. Browsers we expect to work:
@@ -94,4 +144,4 @@
 
         <div id="log" class="hidden console-item"></div>
       </main>
-</div>
+</dialog>

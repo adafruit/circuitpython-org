@@ -48,28 +48,50 @@ const full_bin_program = [stage_erase_all, stage_flash_cpbin, stage_program_sett
 const full_uf2_program = [stage_erase_all, stage_flash_bootloader, stage_copy_uf2, stage_program_settings];
 const factory_reset_program = [stage_erase_all, stage_flash_bootloader];
 
+// Wizard screens
+// - Menu
+// - Verify user wants to install
+// - erase flash
+// - if esp32 or c3 flash bin
+// - if s2 or s3, flash bootloader
+// - if s2 or s3, copy uf2 (May need to use File System Access API)
+// - request wifi credentials (skip, connect buttons) and AP password
+// - generate and program settings.toml via REPL
+// - install complete
+
+// So we will have a couple of wizard flows and we'll need to associate the flow with the board
+// We should add the info to the board's page in the boards folder
+
+// Changes to make:
+// Hide the log and make it accessible via the menu
+// Generate dialogs on the fly
+// Make a drop-in component
+// Keep in mind it will be used for LEARN too
+// May need to deal with CORS issues
+// May need to deal with the fact that the ESPTool uses Web Serial and CircuitPython REPL uses Web Serial
+
+
 const maxLogLength = 100;
-const log = document.getElementById("log");
-const semverLabel = document.getElementById("semver");
-const butShowConsole = document.getElementById("butShowConsole");
-const consoleItems = document.getElementsByClassName("console-item");
-const butConnect = document.getElementById("butConnect");
-const binSelector = document.getElementById("binSelector");
-const baudRate = document.getElementById("baudRate");
-const butClear = document.getElementById("butClear");
-const butProgram = document.getElementById("butProgram");
-const butProgramBootloader = document.getElementById("butProgramBootloader");
-const autoscroll = document.getElementById("autoscroll");
-const lightSS = document.getElementById("light");
-const darkSS = document.getElementById("dark");
-const darkMode = document.getElementById("darkmode");
+const installerDialog = document.getElementById('installerDialog');
+const butInstallers = document.getElementsByClassName("installer-button");
+
+const log = installerDialog.querySelector("#log");
+const semverLabel = installerDialog.querySelector("#semver");
+//const butShowConsole = installerDialog.querySelector("#butShowConsole");
+const consoleItems = installerDialog.getElementsByClassName("console-item");
+const butConnect = installerDialog.querySelector("#butConnect");
+const binSelector = installerDialog.querySelector("#binSelector");
+const baudRate = installerDialog.querySelector("#baudRate");
+const butClear = installerDialog.querySelector("#butClear");
+const butProgram = installerDialog.querySelector("#butProgram");
+const butProgramBootloader = installerDialog.querySelector("#butProgramBootloader");
+const autoscroll = installerDialog.querySelector("#autoscroll");
 
 // TODO: This should grab the stuff for settings.toml
-const partitionData = document.querySelectorAll(".field input.partition-data");
-
-const progress = document.getElementById("progressBar");
-const stepname = document.getElementById("stepname");
-const appDiv = document.getElementById("app");
+const partitionData = installerDialog.querySelectorAll(".field input.partition-data");
+const progress = installerDialog.querySelector("#progressBar");
+const stepname = installerDialog.querySelector("#stepname");
+const appDiv = installerDialog.querySelector("#app");
 
 const disableWhileBusy = [partitionData, butProgram, butProgramBootloader, baudRate];
 
@@ -79,12 +101,20 @@ let debug;
 // querystring options
 const QUERYSTRING_BOARD_KEY = 'board'
 const QUERYSTRING_DEBUG_KEY = 'debug'
-const QUERYSTRING_STAGING_KEY = 'staging'
 
 function getFromQuerystring(key) {
     const location = new URL(document.location)
     const params = new URLSearchParams(location.search)
     return params.get(key)
+}
+
+for (let installer of butInstallers) {
+    installer.addEventListener("click", (e) => {
+        let installerName = e.target.id;
+        installerDialog.showModal();
+        e.preventDefault();
+        e.stopImmediatePropagation();
+    });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -101,11 +131,11 @@ document.addEventListener("DOMContentLoaded", () => {
         debug = getArgs["debug"] == "1" || getArgs["debug"].toLowerCase() == "true";
     }
 
-    butShowConsole.addEventListener("click", () => {
+    /*butShowConsole.addEventListener("click", () => {
         showConsole = !showConsole
         saveSetting("showConsole", showConsole)
         toggleConsole(showConsole)
-    })
+    })*/
 
     // register dom event listeners
     butConnect.addEventListener("click", () => {
@@ -127,17 +157,16 @@ document.addEventListener("DOMContentLoaded", () => {
             toggleUIConnected(false);
         });
     });
-    butClear.addEventListener("click", clickClear);
+    //butClear.addEventListener("click", clickClear);
     butProgram.addEventListener("click", clickProgram);
-    butProgramNvm.addEventListener("click", clickProgramNvm);
+    butProgramBootloader.addEventListener("click", clickProgramNvm);
     for (let i = 0; i < partitionData.length; i++) {
         partitionData[i].addEventListener("change", checkProgrammable);
         partitionData[i].addEventListener("keydown", checkProgrammable);
         partitionData[i].addEventListener("input", checkProgrammable);
     }
-    autoscroll.addEventListener("click", clickAutoscroll);
-    baudRate.addEventListener("change", changeBaudRate);
-    darkMode.addEventListener("click", clickDarkMode);
+    //autoscroll.addEventListener("click", clickAutoscroll);
+    //baudRate.addEventListener("change", changeBaudRate);
 
     // handle runaway errors
     window.addEventListener("error", event => {
@@ -155,10 +184,9 @@ document.addEventListener("DOMContentLoaded", () => {
         notSupported.classList.add("hidden");
     }
 
-    initBinSelector();
-    initBaudRate();
+    //initBinSelector();
+    //initBaudRate();
     loadAllSettings();
-    updateTheme();
     logMsg("CircuitPython ESP32 Installer loaded.");
     checkProgrammable();
 });
@@ -171,7 +199,7 @@ function createOption(value, text) {
 }
 
 let latestFirmwares = []
-async function initBinSelector() {
+/*async function initBinSelector() {
     // fetch firmware index from io-rails, a list of available littlefs
     // firmware items, like the example above
     const response = await fetch(`${FIRMWARE_API}/wipper_releases`)
@@ -212,7 +240,7 @@ function populateBinSelector(title, filter=() => true) {
     })
 
     return any
-}
+}*/
 
 function returnToStepOne() {
     showStep(1, { hideHigherSteps: false });
@@ -301,7 +329,7 @@ function toggleConsole(show) {
         consoleItems.item(idx).classList[consoleItemsMethod]("hidden")
     }
     // toggle the button
-    butShowConsole.checked = show
+    //butShowConsole.checked = show
     // tell the app if it's sharing space with the console
     const appDivMethod = show ? "add" : "remove"
     appDiv.classList[appDivMethod]("with-console")
@@ -376,9 +404,9 @@ function logMsg(text) {
         log.innerHTML = logLines.splice(-maxLogLength).join("<br>\n");
     }
 
-    if (autoscroll.checked) {
+    /*if (autoscroll.checked) {
         log.scrollTop = log.scrollHeight;
-    }
+    }*/
 }
 
 function debugMsg(...args) {
@@ -452,27 +480,6 @@ function errorMsg(text, forwardLink=null) {
 
 function formatMacAddr(macAddr) {
     return macAddr.map((value) => value.toString(16).toUpperCase().padStart(2, "0")).join(":");
-}
-
-/**
- * @name updateTheme
- * Sets the theme to  Adafruit (dark) mode. Can be refactored later for more themes
- */
-function updateTheme() {
-    // Disable all themes
-    document.querySelectorAll("link[rel=stylesheet].alternate").forEach((styleSheet) => {
-        enableStyleSheet(styleSheet, false);
-    });
-
-    if (darkMode.checked) {
-        enableStyleSheet(darkSS, true);
-    } else {
-        enableStyleSheet(lightSS, true);
-    }
-}
-
-function enableStyleSheet(node, enabled) {
-    node.disabled = !enabled;
 }
 
 /**
@@ -619,15 +626,6 @@ async function clickAutoscroll() {
 }
 
 /**
- * @name clickDarkMode
- * Change handler for the Dark Mode checkbox.
- */
-async function clickDarkMode() {
-    updateTheme();
-    saveSetting("darkmode", darkMode.checked);
-}
-
-/**
  * @name clickProgram
  * Click handler for the program button.
  */
@@ -641,10 +639,6 @@ async function clickProgram() {
  */
 async function clickProgramNvm() {
     await programScript(factory_reset_program);
-}
-
-function stagingFlagSet() {
-    return getFromQuerystring(QUERYSTRING_STAGING_KEY)
 }
 
 async function populateSecretsFile(path) {
@@ -662,10 +656,6 @@ async function populateSecretsFile(path) {
         }
     }
 
-    // add "io_url" property to json root with the staging url override
-    if(stagingFlagSet()) {
-        updateObject(contents, 'io_url', 'io.adafruit.us')
-    }
     // Convert the data to text and return
     return JSON.stringify(contents, null, 4);
 }
@@ -831,8 +821,11 @@ async function programScript(stages) {
             }
         } else if (stages[i] == stage_program_settings) {
             // TODO: This needs to be rewritten to talk with circuitpython
+            // and run python code via the repl to write a settings.toml file
+            // See https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow
+            // and https://github.com/circuitpython/web-editor/pull/46
             steps.push({
-                name: "Generating and Flashing LittleFS Partition",
+                name: "Generating and Writing the WiFi Settings",
                 func: async function (params) {
                     let fileSystemImage = await generate(params.flashParams);
 
@@ -914,11 +907,10 @@ async function programScript(stages) {
 function getValidFields() {
     // Validate user inputs
     const validFields = [];
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 3; i++) {
         const { id, value } = partitionData[i]
         // password & brightness can be blank, the rest must have some value
         if (id === "network_type_wifi.network_password" ||
-            id === "status_pixel_brightness" ||
             value.length > 0) {
             validFields.push(i);
         }
@@ -936,29 +928,6 @@ async function checkProgrammable() {
     } else {
       showStep(4, { dimLowerSteps: false })
     }
-}
-
-/**
- * @name checkFirmware
- * Handler for firmware upload changes
- */
-async function checkFirmware(event) {
-    let filename = event.target.value.split("\\").pop();
-    let label = event.target.parentNode.querySelector("span");
-    let icon = event.target.parentNode.querySelector("svg");
-    if (filename != "") {
-        if (filename.length > 17) {
-            label.innerHTML = filename.substring(0, 14) + "&hellip;";
-        } else {
-            label.innerHTML = filename;
-        }
-        icon.classList.add("hidden");
-    } else {
-        label.innerHTML = "Choose a file&hellip;";
-        icon.classList.remove("hidden");
-    }
-
-    await checkProgrammable();
 }
 
 /**
@@ -997,9 +966,8 @@ function toggleUIConnected(connected) {
 
 function loadAllSettings() {
     // Load all saved settings or defaults
-    autoscroll.checked = loadSetting("autoscroll", true);
-    baudRate.value = loadSetting("baudrate", baudRates[0]);
-    darkMode.checked = loadSetting("darkmode", false);
+    //autoscroll.checked = loadSetting("autoscroll", true);
+    //baudRate.value = loadSetting("baudrate", baudRates[0]);
     showConsole = loadSetting('showConsole', false);
     toggleConsole(showConsole);
 }
