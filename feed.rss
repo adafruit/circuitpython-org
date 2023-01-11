@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 11 Jan 2023 05:04:28 -0500</lastBuildDate>
+<lastBuildDate>Wed, 11 Jan 2023 11:01:08 -0500</lastBuildDate>
 <item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
@@ -7847,6 +7847,9 @@ status LED operation.</p>
 </ul>
 
 <h2 id="note">Note</h2>
+
+<p>There are 2 versions of this board, differing in the inclusion of a CH343 UART to USB component. This board definition targets the
+version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C connector.</p>
 
 <p>Onboard LDO can be disabled by grounding the PWB pin (15)</p>
 
