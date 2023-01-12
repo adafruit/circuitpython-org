@@ -4,8 +4,52 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 12 Jan 2023 05:03:58 -0500</lastBuildDate>
+<lastBuildDate>Thu, 12 Jan 2023 11:19:36 -0500</lastBuildDate>
 <item>
+    <title>Helios</title>
+    <link>https://circuitpython.org/board/0xcb_helios/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/0xcb_helios.jpg 300w,
+               /assets/images/boards/large/0xcb_helios.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/0xcb_helios.jpg" alt="Image of Board" loading="lazy">
+<p>By 0xCB</p> <p>The 0xCB Helios is our Elite-C compatible MicroController, based on the high-performance and affordable RP2040.</p>
+
+<p>It’s a drop-in replacement for legacy ProMicro boards.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li><strong>Powerful RP2040</strong> 32-bit Cortex M0+ dual core running at 133 MHz and 264kB SRAM.</li>
+  <li><strong>16MB/128Mb QSPI FLASH</strong> chip for storing files and code</li>
+  <li><strong>Only 3.16 mm thick</strong> thanks to a mid-mounted USB-C port</li>
+  <li>3.3V 500mA LDO, PTC fuse and <strong>ESD protection</strong> chip</li>
+  <li>Elite-C, Pro Micro, SparkFun Pro Micro RP2040, and nice!Nano compatible pinout (follows the <strong>BastardKb standard</strong>)</li>
+  <li><strong>8 extra I/O pins</strong>: (GP12-GP16) added along the bottom edge, (GP10-GP11) at the top and a 5V level shifted pin to drive RGB LEDs for example (GP25)</li>
+  <li><strong>25 available digital pins</strong> for a maximum of 13x12 = 156 switches (using a standard matrix)</li>
+  <li>Default off <strong>red power LED</strong> (selectable via a jumper on the left side)</li>
+  <li><strong>blue user LED</strong> on pin GP17</li>
+  <li>4 pins configurable as <strong>analog inputs</strong></li>
+  <li><strong>USB D+/D- broken out</strong> for use with an external USB socket/daughterboard</li>
+  <li><strong>USB VBUS detection</strong> on GPIO19 for split keyboard side detection</li>
+  <li><strong>UF2 bootloader</strong> for drag &amp; drop programming via your file manager</li>
+  <li>easy to use and backward compatible <strong>Single button boot and reset circuit</strong> push to reset and hold &gt;500ms to enter bootloader (legacy boards with reset buttons will continue to work!)</li>
+  <li><strong>RAW / VBUS</strong> output, for powering RGB LEDs or other 5 V devices. The jumper on top lets you skip over the 500 mA fuse and Schottky diode, for up to 3A from USB ports.</li>
+  <li><strong>USB-C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://keeb.supply/products/0xcb-helios">KeebSupply</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 04 Jan 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/0xcb_helios/</guid>
+  </item><item>
     <title>The Frood</title>
     <link>https://circuitpython.org/board/42keebs_frood/</link>
     <description><![CDATA[   
@@ -14439,6 +14483,52 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
     <pubDate>Mon, 16 May 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/zrichard_rp2.65-f/</guid>
   </item>
+
+    <item>
+      <title>Helios</title>
+      <link>https://circuitpython.org/blinka/0xcb_helios/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/0xcb_helios.jpg 300w,
+               /assets/images/boards/large/0xcb_helios.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/0xcb_helios.jpg" alt="Image of Board" loading="lazy">
+<p>By 0xCB</p> <p>The 0xCB Helios is our Elite-C compatible MicroController, based on the high-performance and affordable RP2040.</p>
+
+<p>It’s a drop-in replacement for legacy ProMicro boards.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li><strong>Powerful RP2040</strong> 32-bit Cortex M0+ dual core running at 133 MHz and 264kB SRAM.</li>
+  <li><strong>16MB/128Mb QSPI FLASH</strong> chip for storing files and code</li>
+  <li><strong>Only 3.16 mm thick</strong> thanks to a mid-mounted USB-C port</li>
+  <li>3.3V 500mA LDO, PTC fuse and <strong>ESD protection</strong> chip</li>
+  <li>Elite-C, Pro Micro, SparkFun Pro Micro RP2040, and nice!Nano compatible pinout (follows the <strong>BastardKb standard</strong>)</li>
+  <li><strong>8 extra I/O pins</strong>: (GP12-GP16) added along the bottom edge, (GP10-GP11) at the top and a 5V level shifted pin to drive RGB LEDs for example (GP25)</li>
+  <li><strong>25 available digital pins</strong> for a maximum of 13x12 = 156 switches (using a standard matrix)</li>
+  <li>Default off <strong>red power LED</strong> (selectable via a jumper on the left side)</li>
+  <li><strong>blue user LED</strong> on pin GP17</li>
+  <li>4 pins configurable as <strong>analog inputs</strong></li>
+  <li><strong>USB D+/D- broken out</strong> for use with an external USB socket/daughterboard</li>
+  <li><strong>USB VBUS detection</strong> on GPIO19 for split keyboard side detection</li>
+  <li><strong>UF2 bootloader</strong> for drag &amp; drop programming via your file manager</li>
+  <li>easy to use and backward compatible <strong>Single button boot and reset circuit</strong> push to reset and hold &gt;500ms to enter bootloader (legacy boards with reset buttons will continue to work!)</li>
+  <li><strong>RAW / VBUS</strong> output, for powering RGB LEDs or other 5 V devices. The jumper on top lets you skip over the 500 mA fuse and Schottky diode, for up to 3A from USB ports.</li>
+  <li><strong>USB-C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://keeb.supply/products/0xcb-helios">KeebSupply</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Wed, 04 Jan 2023 19:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/0xcb_helios/</guid>
+    </item>
 
     <item>
       <title>Feather RP2040</title>
