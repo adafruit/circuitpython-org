@@ -121,8 +121,10 @@
         {% endfor %}
         {% if bootloader_version and bootloader_id %}
           bootloader="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip"
+          bootloaderid="{{ bootloader_id }}"
         {% endif %}
         version="{{ version.version }}"
+        chipfamily="{{ page.family }}"
         >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
       {% endif %}
       </div>
