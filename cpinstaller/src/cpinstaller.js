@@ -1,5 +1,6 @@
 'use strict';
-import {html, render} from 'https://unpkg.com/lit-html?module';
+import { html } from 'https://unpkg.com/lit-html?module';
+import * as zip from "https://deno.land/x/zipjs/index.js";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
 import { InstallButton } from "./installer.js";
 
@@ -62,12 +63,15 @@ export class CPInstallButton extends InstallButton {
 
         // If this is empty, it's a problem
         this.boardId = this.getAttribute("boardid");
+        this.releaseVersion = this.getAttribute("version");
 
         // We need either the bootloader and uf2 or bin file to continue
         this.bootloaderUrl = this.getAttribute("bootloader");
+        if (this.bootloaderUrl) {
+            this.bootloaderUrl = `/bin/${this.bootloaderUrl.split("/").pop()}`;
+        }
         this.uf2FileUrl = this.getAttribute("uf2file");
         this.binFileUrl = this.getAttribute("binfile");
-        this.releaseVersion = this.getAttribute("version");
 
         // Nice to have for now
         this.chipFamily = this.getAttribute("chipfamily");
@@ -104,6 +108,7 @@ export class CPInstallButton extends InstallButton {
     // This is the data for the dialogs
     cpDialogs = {
         serialConnect: {
+            closeable: true,
             template: (data) => html`
                 <p>
                     Welcome to the CircuitPython Installer. This tool will install CircuitPython on your ${data.boardName}.
@@ -148,24 +153,21 @@ export class CPInstallButton extends InstallButton {
                 <p class="centered">Erasing Flash...</p>
                 <div class="loader"><div></div><div></div><div></div><div></div></div>
             `,
-            closeable: false,
             buttons: [],
         },
         flash: {
             template: (data) => html`
-                <p class="centered">Flashing ${data.contents}...</p>
-                <progress id="flashProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
+                <p class="centered">${data.action} ${data.file}...</p>
+                <progress id="flashProgress" max="100" value="0"></progress>
             `,
-            closeable: false,
-            buttons: [this.nextButton],
+            buttons: [],
         },
         // We may have a waiting for Bootloader to start dialog
         copyUf2: {
             template: (data) => html`
-                <p class="centered">Copying ${data.uf2file}...</p>
-                <progress id="copyProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
+                <p class="centered">Copying ${data.file}...</p>
+                <progress id="copyProgress" max="100" value="0"></progress>
             `,
-            closeable: false,
             buttons: [this.nextButton],
         },
         credentials: {
@@ -200,12 +202,14 @@ export class CPInstallButton extends InstallButton {
             `,
         },
         success: {
+            closeable: true,
             template: (data) => html`
                 <p>Successfully Completed Installation</p>
             `,
             buttons: [this.closeButton],
         },
         error: {
+            closeable: true,
             template: (data) => html`
                 <p>Installation Error: ${data.message}</p>
             `,
@@ -254,11 +258,10 @@ export class CPInstallButton extends InstallButton {
                 });
 
                 await this.setBaudRateIfChipSupports(esploader.chipFamily, PREFERRED_BAUDRATE);
-                console.log("Done");
                 return
             }
 
-            // can't use it so disconnect now
+            // Can't use it so disconnect now
             this.errorMsg("Oops, this is the wrong firmware for your board.")
             await this.disconnect()
 
@@ -271,17 +274,17 @@ export class CPInstallButton extends InstallButton {
     }
 
     async stepSerialConnect() {
-        // Display Serial Connect Text
+        // Display Serial Connect Dialog
         this.showDialog(this.dialogs.serialConnect, {boardName: this.boardName});
     }
 
     async stepConfirm() {
-        // Display Confirm Step
+        // Display Confirm Dialog
         this.showDialog(this.dialogs.confirm, {boardName: this.boardName});
     }
 
     async stepEraseAll() {
-        // Display EraseAll Step
+        // Display Erase Dialog
         this.showDialog(this.dialogs.erase);
         try {
             await this.espStub.eraseFlash();
@@ -292,40 +295,45 @@ export class CPInstallButton extends InstallButton {
     }
 
     async stepFlashBin() {
-        // Display FlashBin Step
-        this.showDialog(this.dialogs.flash, {contents: "Bin File"});
+        if (!this.binFileUrl) {
+            // We shouldn't be able to get here, but just in case
+            this.errorMsg("Missing bin file URL. Please make sure the installer button has this specified.");
+            return;
+        }
 
-        // TODO: This should go to the next step automatically when finished
+        await this.downloadAndInstall(this.binFileUrl);
+        await this.nextStep();
     }
 
     async stepBootloader() {
-        // Display Bootloader Step
-        this.showDialog(this.dialogs.flash, {contents: "Bootloader"});
-        // TODO:
-        // Download zip file (this may need to come from Amazon S3)
-        // Unzip file
-        // Program combined.bin
-        // Reboot
-        // Go to next step
+        if (!this.bootloaderUrl) {
+            // We shouldn't be able to get here, but just in case
+            this.errorMsg("Missing bootloader file URL. Please make sure the installer button has this specified.");
+            return;
+        }
+        // Display Bootloader Dialog
+        await this.downloadAndInstall(this.bootloaderUrl, 'combined.bin');
+        // TODO: Reboot into bootloader
+        await this.nextStep();
     }
 
     async stepCopyUf2() {
-        // Display CopyUf2 Step
-        this.showDialog(this.dialogs.copyUf2);
+        // Display CopyUf2 Dialog
+        this.showDialog(this.dialogs.copyUf2, {file: this.uf2FileUrl});
     }
 
     async stepSettings() {
-        // Display Settings Step
+        // Display Settings Dialog
         this.showDialog(this.dialogs.settings);
     }
 
     async stepCredentials() {
-        // Display Credentials Step
+        // Display Credentials Request Dialog
         this.showDialog(this.dialogs.credentials);
     }
 
     async stepSuccess() {
-        // Display Success Step
+        // Display Success Dialog
         this.showDialog(this.dialogs.success);
     }
 
@@ -339,23 +347,119 @@ export class CPInstallButton extends InstallButton {
         // We may also want to have it return the version number and return null if not detected
         return false;
     }
+
+    async downloadFile(url, progressElement) {
+        let response;
+        try {
+            response = await fetch(url, {mode: "cors"});
+        } catch (err) {
+            this.errorMsg("Unable to download file: " + url);
+            return null;
+        }
+
+        const body = response.body;
+        const reader = body.getReader();
+        const contentLength = +response.headers.get('Content-Length');
+        let receivedLength = 0;
+        let chunks = [];
+        while(true) {
+            const {done, value} = await reader.read();
+            if (done) {
+                break;
+            }
+            chunks.push(value);
+            receivedLength += value.length;
+            progressElement.value = Math.round(receivedLength / contentLength) * 100;
+            console.log(`Received ${receivedLength} of ${contentLength}`)
+        }
+        let chunksAll = new Uint8Array(receivedLength);
+        let position = 0;
+        for(let chunk of chunks) {
+            chunksAll.set(chunk, position);
+            position += chunk.length;
+        }
+
+        let result = new Blob([chunksAll]);
+
+        return result;
+    }
+
+    async downloadAndInstall(url, fileToExtract = null) {
+        // Display Flash Dialog
+        let filename = url.split("/").pop();
+
+        this.showDialog(this.dialogs.flash, {
+            action: "Downloading",
+            file: filename,
+        });
+
+        const progressElement = this.currentDialogElement.querySelector("#flashProgress");
+
+        // Download the file at the url updating the progress in the process
+        let fileContents = await this.downloadFile(url, progressElement);
+
+        // If the file is a zip file, unzip and find the file to extract
+        if (filename.endsWith(".zip") && fileToExtract) {
+            let foundFile;
+            console.log("Extracting step");
+            // Update the flash dialog
+            this.showDialog(this.dialogs.flash, {
+                action: "Extracting",
+                file: fileToExtract,
+            });
+
+            // Set that to the current file to flash
+            [foundFile, fileContents] = await this.findAndExtractFromZip(fileContents, fileToExtract);
+            if (!fileContents) {
+                this.errorMsg("Unable to find " + fileToExtract + " in " + filename);
+                return;
+            }
+            filename = foundFile;
+        }
+
+        // Update the flash dialog
+        if (fileContents) {
+            console.log("Flash step");
+            let lastPercent = 0;
+            this.showDialog(this.dialogs.flash, {
+                action: "Flashing",
+                file: filename,
+            });
+            try {
+                await this.espStub.flashData(fileContents, (bytesWritten, totalBytes) => {
+                    let percentage = Math.floor((bytesWritten / totalBytes) * 100);
+                    if (percentage != lastPercent) {
+                        progressElement.value = percentage;
+                        this.logMsg(`${percentage}% (${bytesWritten}/${totalBytes})...`);
+                        lastPercent = percentage;
+                    }
+                }, 0, 0);
+            } catch (err) {
+                this.errorMsg("Unable to flash file: " + filename);
+                console.log(err);
+            }
+        }
+    }
+
+    async findAndExtractFromZip(zipBlob, filename) {
+        const reader = new zip.ZipReader(new zip.BlobReader(zipBlob));
+
+        // unzip into local file cache
+        let zipContents = await reader.getEntries();
+
+        for(const zipEntry of zipContents) {
+            console.log(filename, zipEntry.filename, zipEntry.filename.localeCompare(filename));
+            if (zipEntry.filename.localeCompare(filename) === 0) {
+                const extractedFile = await zipEntry.getData(new zip.Uint8ArrayWriter());
+                return [zipEntry.filename, extractedFile.buffer]; // ESPTool wants an ArrayBuffer
+            }
+        }
+
+        return [null, null];
+    }
 }
 
 customElements.define('cp-install-button', CPInstallButton, {extends: "button"});
-
-// Wizard screens
-// - Menu
-// - Verify user wants to install
-// - erase flash
-// - if esp32 or c3 flash bin
-// - if s2 or s3, flash bootloader
-// - if s2 or s3, copy uf2 (May need to use File System Access API)
-// - request wifi credentials (skip, connect buttons) and AP password
-// - generate and program settings.toml via REPL
-// - install complete
-
-// So we will have a couple of wizard flows and we'll need to associate the flow with the board
-// We should add the info to the board's page in the boards folder
 
 // Changes to make:
 // Hide the log and make it accessible via the menu (future feature, console.log for now)
@@ -548,32 +652,7 @@ function updateObject(obj, path, value) {
 }
 
 
-let chipFiles
-async function fetchFirmwareForSelectedBoard() {
-    const firmware = lookupFirmwareByBinSelector()
 
-    this.logMsg(`Fetching latest firmware...`)
-    const response = await fetch(`${FIRMWARE_API}/wipper_releases/${firmware.id}`, {
-        headers: { Accept: 'application/octet-stream' }
-    })
-
-    // Zip stuff
-    this.logMsg("Unzipping firmware bundle...")
-    const blob = await response.blob()
-    const reader = new zip.ZipReader(new zip.BlobReader(blob));
-
-    // unzip into local file cache
-    chipFiles = await reader.getEntries();
-}
-
-function findInZip(filename) {
-    const regex = RegExp(filename.replace("VERSION", "(.*)"))
-    for (let i = 0; i < chipFiles.length; i++) {
-        if (chipFiles[i].filename.match(regex)) {
-            return chipFiles[i]
-        }
-    }
-}
 
 async function mergeSettings() {
     const { settings } = lookupFirmwareByBinSelector()
@@ -766,68 +845,5 @@ async function programScript(stages) {
     await disconnect();
     this.logMsg("To run the new firmware, please reset your device.");
     showStep(6);
-}
-
-function getValidFields() {
-    // Validate user inputs
-    const validFields = [];
-    for (let i = 0; i < 3; i++) {
-        const { id, value } = partitionData[i]
-        // password & brightness can be blank, the rest must have some value
-        if (id === "network_type_wifi.network_password" ||
-            value.length > 0) {
-            validFields.push(i);
-        }
-    }
-    return validFields;
-}
-
-async function checkProgrammable() {
-    if (getValidFields().length < 5) {
-      hideStep(4)
-    } else {
-      showStep(4, { dimLowerSteps: false })
-    }
-}
-
-async function clickClear() {
-    reset();
-}
-
-function loadAllSettings() {
-    // Load all saved settings or defaults
-    //autoscroll.checked = loadSetting("autoscroll", true);
-    //baudRate.value = loadSetting("baudrate", this.baudRates[0]);
-    showConsole = loadSetting('showConsole', false);
-    toggleConsole(showConsole);
-}
-
-function loadSetting(setting, defaultValue) {
-    return JSON.parse(window.localStorage.getItem(setting)) || defaultValue;
-}
-
-function saveSetting(setting, value) {
-    window.localStorage.setItem(setting, JSON.stringify(value));
-}
-
-async function getFirmware(filename) {
-    const file = findInZip(filename)
-
-    if (!file) {
-      const msg = `No firmware file name ${filename} found in the zip!`
-      this.errorMsg(msg)
-      throw new Error(msg)
-    }
-
-    this.logMsg(`Unzipping ${filename.replace('VERSION', semver)}...`)
-    const firmwareFile = await file.getData(new zip.Uint8ArrayWriter())
-
-    return firmwareFile.buffer // ESPTool wants an ArrayBuffer
-}
-
-async function getFileText(path) {
-    let response = await fetch(path);
-    let contents = await response.text();
-    return contents;
 }
 */

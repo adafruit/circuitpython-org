@@ -83,6 +83,7 @@ export class InstallButton extends HTMLButtonElement {
     dialogs = {
         notSupported: {
             preload: false,
+            closeable: true,
             template: (data) => html`
                 Sorry, <b>Web Serial</b> is not supported on your browser at this time. Browsers we expect to work:
                 <ul>
@@ -94,6 +95,7 @@ export class InstallButton extends HTMLButtonElement {
             buttons: [this.closeButton],
         },
         menu: {
+            closeable: true,
             template: (data) => html`
                 <p>CircuitPython Installer for ${data.boardName}</p>
                 <ul class="flow-menu">
@@ -109,21 +111,21 @@ export class InstallButton extends HTMLButtonElement {
 
     baudRates = [
         115200,
+        128000,
+        153600,
         230400,
         460800,
         921600,
+        1500000,
+        2000000,
     ];
 
     connectedCallback() {
-        if (!InstallButton.isSupported || !InstallButton.isAllowed) {
+        if (InstallButton.isSupported && InstallButton.isAllowed) {
+            this.toggleAttribute("install-supported", true);
+        } else {
             this.toggleAttribute("install-unsupported", true);
-            this.innerHTML = !InstallButton.isAllowed
-              ? "<slot name='not-allowed'>You can only install ESP devices on HTTPS websites or on the localhost.</slot>"
-              : "<slot name='unsupported'>Your browser does not support installing things on ESP devices. Use Google Chrome or Microsoft Edge.</slot>";
-            return;
         }
-
-        this.toggleAttribute("install-supported", true);
 
         this.addEventListener("click", async (e) => {
             e.preventDefault();
@@ -136,7 +138,20 @@ export class InstallButton extends HTMLButtonElement {
         });
     }
 
+    enabledFlowCount() {
+        let enabledFlowCount = 0;
+        for (const [flowId, flow] of Object.entries(this.flows)) {
+            if (flow.isEnabled()) {
+                enabledFlowCount++;
+            }
+        }
+        return enabledFlowCount;
+    }
+
     * generateMenu(templateFunc) {
+        if (this.enabledFlowCount() == 0) {
+            yield html`<li>No installable options for this board.</li>`;
+        }
         for (const [flowId, flow] of Object.entries(this.flows)) {
             if (flow.isEnabled()) {
                 yield templateFunc(flowId, flow);
@@ -254,10 +269,6 @@ export class InstallButton extends HTMLButtonElement {
     }
 
     showDialog(dialog, templateData = {}) {
-        let dialogButtons;
-
-        // TODO: Add ability to stack dialogs by making this.currentDialogElement work as an array
-        // We also may want to make it so we just get the top step type dialog
         if (this.currentDialogElement) {
             this.closeDialog();
         }
@@ -274,16 +285,15 @@ export class InstallButton extends HTMLButtonElement {
             }
 
             // Close button should probably hide during certain steps such as flashing and erasing
-            if ("closeable" in dialog && !dialog.closeable) {
-                this.currentDialogElement.querySelector(".close-button").style.display = "none";
-            } else {
+            if ("closeable" in dialog && dialog.closeable) {
                 this.currentDialogElement.querySelector(".close-button").style.display = "block";
+            } else {
+                this.currentDialogElement.querySelector(".close-button").style.display = "none";
             }
 
+            let dialogButtons = this.defaultButtons;
             if ('buttons' in dialog) {
                 dialogButtons = dialog.buttons;
-            } else {
-                dialogButtons = this.defaultButtons;
             }
 
             this.updateButtons();
