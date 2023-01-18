@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 18 Jan 2023 05:03:34 -0500</lastBuildDate>
+<lastBuildDate>Wed, 18 Jan 2023 13:08:16 -0500</lastBuildDate>
 <item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
@@ -7895,7 +7895,9 @@ status LED operation.</p>
 <p>There are 2 versions of this board, differing in the inclusion of a CH343 UART to USB component. This board definition targets the
 version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C connector.</p>
 
-<p>Onboard LDO can be disabled by grounding the PWB pin (15)</p>
+<p>Onboard LDO can be disabled by grounding the PWB pin (15).</p>
+
+<p>GPIO11 can only be used by setting the EFUSE_VDD_SPI_AS_GPIO efuse and building a custom Circuitpython image.</p>
 
 <h2 id="learn-more">Learn More</h2>
 
