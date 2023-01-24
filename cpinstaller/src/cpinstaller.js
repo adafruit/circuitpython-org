@@ -173,19 +173,20 @@ export class CPInstallButton extends InstallButton {
         credentials: {
             template: (data) => html`
                 <div class="field">
-                  <label><span>WiFi Network Name (SSID):</span>
-                    <input id="network_type_wifi.network_ssid" class="partition-data" type="text" placeholder="WiFi SSID" value="" />
-                  </label>
+                    <label for="circuitpy_wifi_ssid">WiFi Network Name (SSID):</label>
+                    <input id="circuitpy_wifi_ssid" class="setting-data" type="text" placeholder="WiFi SSID" value="" />
                 </div>
                 <div class="field">
-                  <label><span>WiFi Password:</span>
-                    <input id="network_type_wifi.network_password" class="partition-data" type="text" placeholder="WiFi Password" value=""  />
-                  </label>
+                    <label for="circuitpy_wifi_password">WiFi Password:</label>
+                    <input id="circuitpy_wifi_password" class="setting-data" type="text" placeholder="WiFi Password" value=""  />
                 </div>
                 <div class="field">
-                  <label><span>Web Workflow Password:</span>
-                    <input id="web_workflow_password" class="partition-data" type="text" placeholder="Web Workflow Password" value=""  />
-                  </label>
+                    <label for="circuitpy_web_api_password">Web Workflow API Password:</label>
+                    <input id="circuitpy_web_api_password" class="setting-data" type="text" placeholder="Web Workflow API Password" value=""  />
+                </div>
+                <div class="field">
+                    <input id="circuitpy_drive" class="setting" type="checkbox" value="disabled" checked />
+                    <label for="circuitpy_drive">Disable CIRCUITPY Drive (Required for write access)</label>
                 </div>
             `,
         },
@@ -195,9 +196,9 @@ export class CPInstallButton extends InstallButton {
                 <progress id="copyProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
             `,
         },
-        generateSettings: {
+        setUpWebWorkflow: {
             template: (data) => html`
-                <p>Generating settings.toml...</p>
+                <p>Setting up Web Workflow...</p>
                 <progress id="copyProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
             `,
         },
@@ -332,9 +333,21 @@ export class CPInstallButton extends InstallButton {
         this.showDialog(this.dialogs.credentials);
     }
 
+    async stepWebWorkflow() {
+        // Display Dialog to set up Web Workflow
+        // Wait for CircuitPython to be detected
+        // Write the Settings.toml file
+        // If Disable CIRCUITPY Drive was checked, write the boot.py file
+        // Reboot
+
+        this.showDialog(this.dialogs.setUpWebWorkflow);
+    }
+
     async stepSuccess() {
         // Display Success Dialog
         this.showDialog(this.dialogs.success);
+        // If we were setting up Web Workflow, we may want to provide a link to code.circuitpython.org
+        // Alternatively, we may want a separate dialog with a link
     }
 
     async stepClose() {
