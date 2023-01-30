@@ -2,6 +2,7 @@
 import { html } from 'https://unpkg.com/lit-html?module';
 import * as zip from "https://deno.land/x/zipjs/index.js";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
+import {REPL} from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.0.0/repl.js';
 import { InstallButton } from "./installer.js";
 
 // TODO: Figure out how to make the Web Serial from ESPTool and Web Serial to communicate with CircuitPython not conflict
@@ -24,11 +25,6 @@ import { InstallButton } from "./installer.js";
 // 3. Generate the settings.toml file
 // 4. Write the settings.toml to the board via the REPL
 // 5. Reset the board again
-//
-// To run REPL code, I may need to modularize the work I did for code.circuitpython.org
-// That allows you to run code in the REPL and get the output back. I may end up creating a
-// library that uses Web Serial and allows you to run code in the REPL and get the output back
-// because it's very integrated into the serial recieve and send code.
 //
 
 const PREFERRED_BAUDRATE = 921600;
@@ -67,9 +63,6 @@ export class CPInstallButton extends InstallButton {
 
         // We need either the bootloader and uf2 or bin file to continue
         this.bootloaderUrl = this.getAttribute("bootloader");
-        if (this.bootloaderUrl) {
-            this.bootloaderUrl = `/bin/${this.bootloaderUrl.split("/").pop()}`;
-        }
         this.uf2FileUrl = this.getAttribute("uf2file");
         this.binFileUrl = this.getAttribute("binfile");
 
@@ -86,22 +79,22 @@ export class CPInstallButton extends InstallButton {
         binProgram: {
             label: `Install CircuitPython [version] Bin`,
             steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepFlashBin, this.stepSuccess],
-            isEnabled: () => { return !!this.binFileUrl },
+            isEnabled: () => { return this.mode=="test" && !!this.binFileUrl },
         },
         uf2Program: {
             label: `Install CircuitPython [version] UF2 and Bootloader`,
             steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepCopyUf2, this.stepSettings, this.stepSuccess],
-            isEnabled: () => { return !!this.bootloaderUrl && !!this.uf2FileUrl },
+            isEnabled: () => { return this.mode=="test" && !!this.bootloaderUrl && !!this.uf2FileUrl },
         },
         bootloaderOnly: {
             label: "Install Bootloader Only",
             steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSuccess],
-            isEnabled: () => { return !!this.bootloaderUrl },
+            isEnabled: () => { return this.mode=="test" && !!this.bootloaderUrl },
         },
         settingsOnly: {
             label: "Update WiFi credentials",
             steps: [this.stepSerialConnect, this.stepCredentials, this.stepSettings, this.stepSuccess],
-            isEnabled: () => { return this.cpDetected() },
+            isEnabled: () => { return this.mode=="test" && this.cpDetected() },
         }
     }
 
@@ -185,6 +178,7 @@ export class CPInstallButton extends InstallButton {
                     <input id="circuitpy_web_api_password" class="setting-data" type="text" placeholder="Web Workflow API Password" value=""  />
                 </div>
                 <div class="field">
+                    <!-- Alternatively "Disable USB Mass Storage" -->
                     <input id="circuitpy_drive" class="setting" type="checkbox" value="disabled" checked />
                     <label for="circuitpy_drive">Disable CIRCUITPY Drive (Required for write access)</label>
                 </div>

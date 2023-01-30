@@ -117,9 +117,7 @@
       {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' %}
         <button is="cp-install-button" class="installer-button" boardname="{{ page.name }}" boardid="{{ board_id }}"
         {% for extension in version.extensions %}
-            {% comment %}
             {{ extension }}file="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}"
-            {% endcomment %}
         {% endfor %}
         {% if bootloader_version and bootloader_id %}
           bootloader="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip"

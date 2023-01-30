@@ -41,6 +41,7 @@ export class InstallButton extends HTMLButtonElement {
         this.currentDialogElement = null;
         this.serial = null;
         this.espStub = null;
+        this.mode = "";
         this.dialogCssClass = "install-dialog";
         this.connected = this.connectionStates.DISCONNECTED;
     }
@@ -127,6 +128,8 @@ export class InstallButton extends HTMLButtonElement {
             this.toggleAttribute("install-unsupported", true);
         }
 
+        this.mode = this.getUrlParam("mode");
+
         this.addEventListener("click", async (e) => {
             e.preventDefault();
             // WebSerial feature detection
@@ -136,6 +139,27 @@ export class InstallButton extends HTMLButtonElement {
                 await this.showMenu();
             }
         });
+    }
+
+    // Parse out the url parameters from the current url
+    getUrlParams() {
+        // This should look for and validate very specific values
+        var hashParams = {};
+        if (location.hash) {
+            location.hash.substr(1).split("&").forEach(function(item) {hashParams[item.split("=")[0]] = item.split("=")[1];});
+        }
+        return hashParams;
+    }
+
+    // Get a url parameter by name and optionally remove it from the current url in the process
+    getUrlParam(name) {
+        let urlParams = this.getUrlParams();
+        let paramValue = null;
+        if (name in urlParams) {
+            paramValue = urlParams[name];
+        }
+
+        return paramValue;
     }
 
     enabledFlowCount() {
@@ -150,7 +174,8 @@ export class InstallButton extends HTMLButtonElement {
 
     * generateMenu(templateFunc) {
         if (this.enabledFlowCount() == 0) {
-            yield html`<li>No installable options for this board.</li>`;
+            console.log(this.mode);
+            yield html`<li>No installable options available for this board.</li>`;
         }
         for (const [flowId, flow] of Object.entries(this.flows)) {
             if (flow.isEnabled()) {
