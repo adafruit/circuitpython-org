@@ -174,8 +174,8 @@ export class InstallButton extends HTMLButtonElement {
 
     * generateMenu(templateFunc) {
         if (this.enabledFlowCount() == 0) {
-            console.log(this.mode);
-            yield html`<li>No installable options available for this board.</li>`;
+            yield html`<li>Coming soon. Check back later.</li>`;
+            //yield html`<li>No installable options available for this board.</li>`;
         }
         for (const [flowId, flow] of Object.entries(this.flows)) {
             if (flow.isEnabled()) {
