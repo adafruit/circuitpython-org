@@ -3,7 +3,7 @@ import { html } from 'https://unpkg.com/lit-html?module';
 import * as zip from "https://deno.land/x/zipjs/index.js";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
 import {REPL} from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.0.0/repl.js';
-import { InstallButton } from "./installer.js";
+import { InstallButton } from "./base_installer.js";
 
 // TODO: Figure out how to make the Web Serial from ESPTool and Web Serial to communicate with CircuitPython not conflict
 // I think at the very least we'll have to reuse the same port so the user doesn't need to reselct, though it's possible it
