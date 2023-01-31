@@ -190,6 +190,9 @@
 
 
 
+
+
+
   <div class="section unstable">
     <h3>CircuitPython 8.0.0-rc.1</h3>
     <p>
@@ -442,6 +445,18 @@
       
         <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/mixgo_ce_udisk/en_US/adafruit-circuitpython-mixgo_ce_udisk-en_US-8.0.0-rc.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       
+      
+        <button is="cp-install-button" class="installer-button" boardname="MixGo CE UDisk" boardid="mixgo_ce_udisk"
+        
+            binfile="https://downloads.circuitpython.org/bin/mixgo_ce_udisk/en_US/adafruit-circuitpython-mixgo_ce_udisk-en_US-8.0.0-rc.1.bin"
+        
+            uf2file="https://downloads.circuitpython.org/bin/mixgo_ce_udisk/en_US/adafruit-circuitpython-mixgo_ce_udisk-en_US-8.0.0-rc.1.uf2"
+        
+        
+        version="8.0.0-rc.1"
+        chipfamily="esp32s2"
+        >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
+      
       </div>
     </div>
     
@@ -463,7 +478,7 @@
   <h3>Absolute Newest</h3>
   <p>
     Every time we commit new code to CircuitPython we automatically
-    build binaries for each board and language.  The binaries are
+    build binaries for each board and language. The binaries are
     stored on Amazon S3, organized by board, and then by
     language. Try them if you want the absolute latest and are
     feeling daring or want to see if a problem has been fixed.
@@ -477,10 +492,10 @@
   <h3>Past Releases</h3>
   <p>
     All previous releases are listed on GitHub, with release notes,
-    and are available for download from Amazon S3.  They are handy for
+    and are available for download from Amazon S3. They are handy for
     testing, but otherwise we recommend using the latest stable
-    release.  Some older GitHub release pages include the same
-    binaries for downloading.  But we have discontinued including
+    release. Some older GitHub release pages include the same
+    binaries for downloading. But we have discontinued including
     binaries as assets on newer release pages because of the large
     number of files for each release.
   </p>
@@ -497,13 +512,13 @@
 
 
 
-
-
-
       
     </div>
   </div>
 </div>
+
+
+<script src="/cpinstaller/src/cpinstaller.js" type="module"></script>
 
 <script src="/assets/javascript/download.js"></script>
 
