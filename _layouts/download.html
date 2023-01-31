@@ -27,4 +27,7 @@ layout: default
   </div>
 </div>
 
+{% if page.family == 'esp32' or page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' %}
+<script src="/cpinstaller/src/cpinstaller.js" type="module"></script>
+{% endif %}
 <script src="/assets/javascript/download.js"></script>
