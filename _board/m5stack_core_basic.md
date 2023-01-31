@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "m5stack_core_basic"
-title: "M5Stack Basic Core IoT Download"
-name: "M5Stack Basic Core IoT"
+title: "ESP32 Basic Core IoT Download"
+name: "ESP32 Basic Core IoT"
 manufacturer: "M5Stack"
 board_url: "https://docs.m5stack.com/en/core/basic_v2.6"
 board_image: "m5stack_core_basic.jpg"

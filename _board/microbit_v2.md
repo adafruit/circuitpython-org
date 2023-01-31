@@ -13,6 +13,7 @@ features:
   - Battery Charging
   - Solder-Free Alligator Clip
   - Speaker
+  - Display
 ---
 
 Meet the new **BBC micro:bit v2** - Upgraded with a powerful new processor that has tons more capability and also adds more sensing with a new speaker and microphone!
