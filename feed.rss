@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 31 Jan 2023 14:50:10 -0500</lastBuildDate>
+<lastBuildDate>Tue, 31 Jan 2023 23:38:22 -0500</lastBuildDate>
 <item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
@@ -367,6 +367,55 @@ Note the names are in the same spots, we haven’t changed where the I2C/UART/SP
     <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_esp32s2_bme280/</guid>
   </item><item>
+    <title>ESP32-S2 Reverse TFT Feather</title>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32s2_reverse_tft/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s2_reverse_tft.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32s2_reverse_tft.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_esp32s2_reverse_tft.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Like Missy Elliot, we like to [“put our <a href="https://www.youtube.com/watch?v=cjIvu7e6Wq8">Feather] down, flip it and reverse it”</a> and that’s exactly what we’ve done with this new development board. It’s basically our <strong><a href="https://www.adafruit.com/product/5300">ESP32-S2 TFT Feather</a></strong> but with the 240x135 color TFT display on the back-side not the front-side. That makes it great for panel-mounted projects, particularly since we’ve also got some space for 3 buttons to go along. It’s like an all-in-one display interface dev board, powered by the fantastic ESP32-S2 WIFI module.</p>
+
+<p>This feather comes with native USB and <strong>4 MB flash + 2 MB of PSRAM</strong>, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi means it’s awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.</p>
+
+<p>The ESP32-S2 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has <strong>built-in native USB</strong> as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<p><strong>Please note</strong> the Feather ESP32-S2 has a single-core 240 MHz chip, so it won’t be as fast as ESP32’s with dual-core. Also, there is no Bluetooth support. However, we are super excited about the ESP32-S2’s native USB which unlocks a lot of capabilities for advanced interfacing! This ESP32-S2 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM so you can buffer massive JSON files for parsing!</p>
+
+<p>The color TFT is connected to the SPI pins, and uses additional pins for control that are not exposed to the breakout pads. <a href="https://www.adafruit.com/product/4383">It’s the same display as you see here, with 240x135 pixels and is IPS</a> so you get bright color at any angle. The backlight is also connected to a separate pin so you can PWM the backlight up and down as desired.</p>
+
+<p>For low power usage, the Feather has a <em>second</em> RT9080 regulator. The regulator is controlled with a GPIO pin on the enable line and can shut off power to the Stemma QT port and TFT. There is also a separate power pin for the NeoPixel that can be used to disable it for even lower quiescent power. With everything off and in deep sleep mode, the TFT feather uses about 40uA of current.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S2 240MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
+  <li><strong><a href="https://www.adafruit.com/product/4383">Color 1.14” IPS TFT with 240x135 pixels</a></strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle.</li>
+  <li><strong>Three User Tactile buttons</strong> - D0, D1, and D2. D0/BOOT0 is also used for entering ROM bootloader mode if necessary.</li>
+  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+  <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
+  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+  <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+  <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+  <li><strong>Low Power friendly</strong>! In deep sleep mode, we can get down to 40~50uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C/TFT power for the lowest quiescent current draw.</li>
+  <li><strong>Works with Arduino or CircuitPython</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5345">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32s2_reverse_tft/</guid>
+  </item><item>
     <title>Feather ESP32-S2 with TFT</title>
     <link>https://circuitpython.org/board/adafruit_feather_esp32s2_tft/</link>
     <description><![CDATA[   
@@ -502,6 +551,22 @@ Note the names are in the same spots, we haven’t changed where the I2C/UART/SP
     <category>CircuitPython</category>
     <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_esp32s3_nopsram/</guid>
+  </item><item>
+    <title>ESP32-S3 Reverse TFT Feather</title>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32s3_reverse_tft/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32s2_reverse_tft.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32s2_reverse_tft.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_esp32s2_reverse_tft.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Coming Soon. Image is of the S2 version, but will be updated.</p>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32s3_reverse_tft/</guid>
   </item><item>
     <title>Feather ESP32-S3 TFT PSRAM</title>
     <link>https://circuitpython.org/board/adafruit_feather_esp32s3_tft/</link>
@@ -4123,6 +4188,30 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
     <pubDate>Sun, 14 Feb 2021 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/diodes_delight_piunora/</guid>
   </item><item>
+    <title>DOIT ESP32 Development Board</title>
+    <link>https://circuitpython.org/board/doit_esp32_devkit_v1/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/doit_esp32_devkit_v1.jpg 300w,
+               /assets/images/boards/large/doit_esp32_devkit_v1.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/doit_esp32_devkit_v1.jpg" alt="Image of Board" loading="lazy">
+<p>By DOIT</p> <p>ESP32 is already integrated antenna and RF balun, power amplifier, low-noise amplifiers, filters,
+and power management module. The entire solution takes up the least amount of printed circuit board area.
+This board is used with 2.4 GHz dual-mode Wi-Fi and bluetooth chips by TSMC 40nm low power technology,
+power and RF properties best, which is safe, reliable, and scalable to a variety of applications.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.us/item/2251832638296842.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/doit_esp32_devkit_v1/</guid>
+  </item><item>
     <title>DynaLoRa-USB</title>
     <link>https://circuitpython.org/board/dynalora_usb/</link>
     <description><![CDATA[   
@@ -4755,6 +4844,56 @@ for an SD card slot, which makes it a complete and versatile development board.<
     <category>CircuitPython</category>
     <pubDate>Fri, 08 Jul 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32s3_box_lite/</guid>
+  </item><item>
+    <title>ESP32-S3-DevKitC-1-N32R8</title>
+    <link>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n32r8/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/espressif_esp32s3_devkitc_1.jpg 300w,
+               /assets/images/boards/large/espressif_esp32s3_devkitc_1.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/espressif_esp32s3_devkitc_1.jpg" alt="Image of Board" loading="lazy">
+<p>By Espressif</p> <p>The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-2, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. <strong>This version is equipped with the ESP32-S3-WROOM-2 (PCB antenna) with 32MB Flash and 8MB PSRAM.</strong></p>
+
+<p><strong>Please note:</strong> The S<strong>3</strong> is <em>similar</em> to the ESP32-S<strong>2</strong> - but adds a dual-core and Bluetooth LE (not classic!) However, there is minimal support for this dev board. For example, as of the time of this writing, there is no Arduino or CircuitPython support - only ESP IDF! Please purchase if you’re doing development with the S3, and OK with stuff not working 100% out of the box.</p>
+
+<p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there’s a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.</p>
+
+<p>At the core of the modules is an ESP32-S3R8V, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds. ESP32-S3 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/JTAG controller, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p>
+
+<p>There are three mutually exclusive ways to provide power to the board:</p>
+
+<ul>
+  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>
+  <li>5V and G (GND) pins</li>
+  <li>3v3 and G (GND) pins</li>
+</ul>
+
+<p><strong>Components:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S3-WROOM-2</strong>: ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-WROOM-2 comes with a PCB antenna.</li>
+  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>
+  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks">Header Block</a>.</li>
+  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>
+  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>
+  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>
+  <li><strong>Reset Button</strong></li>
+  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>
+  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO48.</li>
+  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5364">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n32r8/</guid>
   </item><item>
     <title>ESP32-S3-DevKitC-1-N8</title>
     <link>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8/</link>
@@ -7912,7 +8051,47 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <pubDate>Mon, 19 Dec 2022 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/luatos_core_esp32c3/</guid>
   </item><item>
-    <title>M5Stack ATOM Lite ESP32 IoT</title>
+    <title>ATOM Echo Smart Speaker</title>
+    <link>https://circuitpython.org/board/m5stack_atom_echo/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_atom_echo.jpg 300w,
+               /assets/images/boards/large/m5stack_atom_echo.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_atom_echo.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>ATOM ECHO is a Programmable Smart Speaker based on the M5ATOM design. Its form factor is very small, its dimensions are only 24 * 24 * 17 mm. Music can be played using the BT capabilities of the ESP32 from a mobile phone or tablet. The device could be programmed to access AWS, Baidu and other cloud platforms, using the built-in microphone and speaker for voice interaction, so that ATOM ECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a BT speaker, it still has the control ability of Atom series.Screw hole on the back is convenient for users to fix.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>Light and small</li>
+  <li>Support STT services</li>
+  <li>Based on ESP32, Support A2DP</li>
+  <li>2.4G Wi-Fi IEEE 802.11b/g/n</li>
+  <li>Built-in microphone and speaker</li>
+  <li>RGB LED status display indication</li>
+  <li>GROVE extension interface</li>
+  <li>Record and playback</li>
+  <li>Programmable key</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/atom/atomecho">ATOM Echo Smart Speaker</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/atom-echo-smart-speaker-dev-kit">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_atom_echo/</guid>
+  </item><item>
+    <title>ATOM Lite ESP32 IoT</title>
     <link>https://circuitpython.org/board/m5stack_atom_lite/</link>
     <description><![CDATA[   
   
@@ -7948,7 +8127,80 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_atom_lite/</guid>
   </item><item>
-    <title>M5Stack Basic Core IoT</title>
+    <title>ATOM Matrix ESP32</title>
+    <link>https://circuitpython.org/board/m5stack_atom_matrix/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_atom_matrix.jpg 300w,
+               /assets/images/boards/large/m5stack_atom_matrix.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_atom_matrix.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>ATOM Matrix, which has a size of only 24 * 24mm, is the most compact development board in the M5Stack development kit series. It provides more GPIO pins and is very suitable for handy and miniature embedded device development. The main control adopts the ESP32-PICO-D4 chip, which comes integrated with Wi-Fi technologies and has 4MB of integrated SPI flash memory. The Atom board provides an Infra-Red LED along with the 5 * 5 RGB LED matrix on the panel, a built-in IMU sensor (MPU6886), and a HY2.0 interface. A general purpose programmable button is proved below the RGB Led matrix to enable users to add input support to their various projects. The on-board USB interface (Type-C) enables rapid program uploading and execution. One M2 screw hole is provided on the back for mounting the board.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>ESP32 PICO-based</li>
+  <li>Programmable button</li>
+  <li>5 * 5 RGB LED matrix panel(WS2812C)</li>
+  <li>Built-in Infra-red LED</li>
+  <li>Built-in MPU6886 Inertial Sensor</li>
+  <li>Extendable Pins &amp; Holes</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/atom_matrix">ATOM Matrix</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/atom-matrix-esp32-development-kit">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_atom_matrix/</guid>
+  </item><item>
+    <title>AtomU ESP32</title>
+    <link>https://circuitpython.org/board/m5stack_atom_u/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_atom_u.jpg 300w,
+               /assets/images/boards/large/m5stack_atom_u.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_atom_u.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>ATOM U is a compact low-power consumption speech recognition IoT development kit. It adopts an ESP32 chipset, equipped with 2 low-power Xtensa 32-bit LX6 microprocessors with the main frequency of up to 240MHz. Built-in USB-A interface, IR emitter, programmable RGB LED. Plug-and-play, easy to upload and download programs. Integrated Wi-Fi and digital microphone SPM1423(I2S) for the clear sound record. suitable for HMI, Speech-to-Text (STT).</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>ESP32-PICO-D4 (2.4GHz Wi-Fi dual mode)</li>
+  <li>Integrated programmable RGB LED and button</li>
+  <li>Compact design</li>
+  <li>Built-in IR emitter</li>
+  <li>Expandable pinout and GROVE port</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/atom_u">AtomU ESP32</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/atomu-esp32-development-kit-with-usb-a">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_atom_u/</guid>
+  </item><item>
+    <title>ESP32 Basic Core IoT</title>
     <link>https://circuitpython.org/board/m5stack_core_basic/</link>
     <description><![CDATA[   
   
@@ -7993,7 +8245,7 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <pubDate>Sat, 29 Oct 2022 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_core_basic/</guid>
   </item><item>
-    <title>M5Stack Core Fire</title>
+    <title>M5Stack FIRE IoT</title>
     <link>https://circuitpython.org/board/m5stack_core_fire/</link>
     <description><![CDATA[   
   
@@ -8035,7 +8287,7 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_core_fire/</guid>
   </item><item>
-    <title>M5Stack Stamp C3</title>
+    <title>M5Stamp C3</title>
     <link>https://circuitpython.org/board/m5stack_stamp_c3/</link>
     <description><![CDATA[   
   
@@ -8063,6 +8315,48 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <category>CircuitPython</category>
     <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_stamp_c3/</guid>
+  </item><item>
+    <title>M5StickC ESP32-PICO Mini IoT</title>
+    <link>https://circuitpython.org/board/m5stack_stick_c/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_stick_c.jpg 300w,
+               /assets/images/boards/large/m5stack_stick_c.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_stick_c.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>M5StickC is a mini M5Stack, powered by ESP32. It is a portable, easy-to-use, open source, IoT development board. What it can do? This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototyping in a very short time. It will take away a lot of pains from the development process.M5stickC is one of the core devices in M5Stack product series.</p>
+
+<p>It is built in a continually growing hardware and software ecosystem. It has a lot of compatible modules and units, as well as the open source code &amp; engineering communities that will help you maximize your benefits in every step of the developing process.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>ESP32-based</li>
+  <li>Built-in 6-Axis IMU</li>
+  <li>Red LED</li>
+  <li>IR transmitter</li>
+  <li>Microphone</li>
+  <li>Buttons, LCD(0.96 inch)</li>
+  <li>Built-in Lithium Polymer Battery</li>
+  <li>Extendable Socket</li>
+  <li>Wearable &amp; Wall mounted</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/m5stickc">M5StickC ESP32-PICO Mini IoT</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/stick-c">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_stick_c/</guid>
   </item><item>
     <title>Maker badge</title>
     <link>https://circuitpython.org/board/maker_badge/</link>
@@ -9270,6 +9564,27 @@ Gaze upon these features:</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 31 Mar 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/nucleo_h743zi_2/</guid>
+  </item><item>
+    <title>Bit-C PRO</title>
+    <link>https://circuitpython.org/board/nullbits_bit_c_pro/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/nullbits_bit_c_pro.jpg 300w,
+               /assets/images/boards/large/nullbits_bit_c_pro.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/nullbits_bit_c_pro.jpg" alt="Image of Board" loading="lazy">
+<p>By nullbits</p> <p>The Bit-C PRO is a microcontroller (MCU) featuring the Raspberry Pi RP2040, designed for DIY keyboards. It features a through-hole USB-C connector that is more rugged than a USB micro B. It’s only 1mm thick, so it sits slim and low. The Bit-C PRO ships with the RP2040 UF2 bootloader, which enumerates as an external USB drive: flashing firmware is as simple as drag and drop, no driver installation required. 100% of Bit-C PRO units are tested before shipping, ensuring you’re spending your time building, not debugging. Best of all, it comes in white!</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3kW7My2">Amazon (Black Version)</a></li>
+  <li><a href="https://amzn.to/3HKOzs4">Amazon (White Version)</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/nullbits_bit_c_pro/</guid>
   </item><item>
     <title>Bread 2040 Dev Board</title>
     <link>https://circuitpython.org/board/odt_bread_2040/</link>
@@ -14057,6 +14372,45 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
     <category>CircuitPython</category>
     <pubDate>Sun, 21 Aug 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/waveshare_esp32s2_pico/</guid>
+  </item><item>
+    <title>RP2040-LCD-1.28</title>
+    <link>https://circuitpython.org/board/waveshare_rp2040_lcd_1_28/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/waveshare_rp2040_lcd_1_28.jpg 300w,
+               /assets/images/boards/large/waveshare_rp2040_lcd_1_28.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/waveshare_rp2040_lcd_1_28.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>RP2040-LCD-1.28 is a low-cost, high-performance MCU board designed by Waveshare. Tiny size with onboard 1.28inch LCD round display, Li-ion battery recharge manager, 6-axis sensor (3-axis accelerometer and 3-axis gyroscope) and so on, adapting all GPIO and Debug pins, which makes it easy for you to develop and integrate it into products quickly.</p>
+
+<p><strong>Board specifications</strong></p>
+<ul>
+  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>
+  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>
+  <li>264KB of SRAM, and 2MB of on-board Flash memory</li>
+  <li>Type-C connector, keeps it up to date, easier to use</li>
+  <li>Onboard 1.28inch 240×240 pixels 65K colorful IPS LCD display for clear color pictures</li>
+  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>
+  <li>All GPIO pins are adapted through 1.27 pitch female headers (There are 30 pins in total, but some pins have been connected to the internal circuit, please refer to the wiki for details when multiplexing)</li>
+  <li>USB 1.1 with device and host support</li>
+  <li>Low-power sleep and dormant modes</li>
+  <li>Drag-and-drop programming using mass storage over USB</li>
+  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>
+  <li>Accurate clock and timer on-chip</li>
+  <li>Temperature sensor</li>
+  <li>Accelerated floating-point libraries on-chip</li>
+  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/rp2040-lcd-1.28.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_rp2040_lcd_1_28/</guid>
   </item><item>
     <title>RP2040-Zero</title>
     <link>https://circuitpython.org/board/waveshare_rp2040_zero/</link>
