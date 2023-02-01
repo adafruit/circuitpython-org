@@ -12,6 +12,7 @@ features:
   - Wi-Fi
   - STEMMA QT/QWIIC
   - USB-C
+  - Display
 ---
 
 The PixelWing Matrix is a powerful ESP32-S2 RGB Matrix Display board that allows you to make a simple connected display, data logger, or environmental indicator. The PixelWing features USB-C power, a 5x10 RGB Matrix Display using SK6812mini Addressable LEDs that are compatible with Adafruit NEOPIXEL Libraries!

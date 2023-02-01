@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "m5stack_stamp_c3"
-title: "M5Stack Stamp C3 Download"
-name: "M5Stack Stamp C3"
+title: "M5Stamp C3 Download"
+name: "M5Stamp C3"
 manufacturer: "M5Stack"
 board_url: "https://docs.m5stack.com/en/core/stamp_c3"
 board_image: "m5stack_stamp_c3.jpg"
