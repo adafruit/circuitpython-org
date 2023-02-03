@@ -217,15 +217,14 @@
 
   <div class="section stable">
     <h3>CircuitPython 7.3.3</h3>
+    
     <p>
-      This is the latest <strong>stable</strong>
-      release of CircuitPython that will work with the Gemma M0.
+      This is the latest <strong>stable</strong> release of CircuitPython that will work with the Gemma M0.
     </p>
     <p>
-      
-      <strong>Start here</strong> if you are new to CircuitPython.
-      
+      <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
+    
     <p>
       <a href="https://github.com/adafruit/circuitpython/releases/tag/7.3.3">Release Notes for 7.3.3</a>
     </p>
@@ -479,15 +478,23 @@
 
   <div class="section unstable">
     <h3>CircuitPython 8.0.0-rc.2</h3>
+    
     <p>
-      This is the latest unstable
-      release of CircuitPython that will work with the Gemma M0.
+      This is the latest development release of CircuitPython that will work with the Gemma M0.
     </p>
     <p>
-      
-      Unstable builds have the latest features but are more likely to have critical bugs.
-      
+      <strong>Alpha</strong> development releases are early releases.
+      They are unfinished, are likely to have bugs, and the features they provide may change.
+      <strong>Beta</strong> releases may have some bugs and unfinished features,
+      but should be suitable for many uses.
+      A <strong>Release Candidate (rc)</strong> release is considered done and
+      will become the next stable release, assuming no further issues are found.
     </p>
+    <p>
+      Please try alpha, beta, and rc releases if you are able.
+      Your testing is invaluable: it helps us uncover and find issues quickly.
+    </p>
+    
     <p>
       <a href="https://github.com/adafruit/circuitpython/releases/tag/8.0.0-rc.2">Release Notes for 8.0.0-rc.2</a>
     </p>
@@ -746,7 +753,8 @@
     Every time we commit new code to CircuitPython we automatically
     build binaries for each board and language. The binaries are
     stored on Amazon S3, organized by board, and then by
-    language. Try them if you want the absolute latest and are
+    language. These releases are even newer than the development release listed above.
+    Try them if you want the absolute latest and are
     feeling daring or want to see if a problem has been fixed.
   </p>
   <div>
@@ -755,21 +763,23 @@
   </div>
 </div>
 <div class="section unrecommended">
-  <h3>Past Releases</h3>
+  <h3>Previous Versions of CircuitPython</h3>
   <p>
-    All previous releases are listed on GitHub, with release notes,
-    and are available for download from Amazon S3. They are handy for
-    testing, but otherwise we recommend using the latest stable
-    release. Some older GitHub release pages include the same
-    binaries for downloading. But we have discontinued including
-    binaries as assets on newer release pages because of the large
-    number of files for each release.
+    All previous releases of CircuitPython are available for download from Amazon S3 through the button below.
+    For very old releases, look in the <strong>OLD/</strong> folder for each board.
+    Release notes for each release are available at GitHub button below.
   </p>
   <p>
-    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+    Older releases are useful for testing if you something appears to be broken in a newer release
+    but used to work,
+    or if you have older code that depends on features only available in an older release.
+    Otherwise we recommend using the latest stable release.
   </p>
   <div>
     <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/gemma_m0/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+  <div>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
   </div>
 </div>
 
