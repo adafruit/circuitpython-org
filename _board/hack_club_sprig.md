@@ -13,6 +13,6 @@ features:
   - Speaker
 ---
 
-The [Sprig](https://sprig.hackclub.com) is a handeld game console made by
+The [Sprig](https://sprig.hackclub.com) is a handheld game console made by
 [Hack Club](https://hackclub.com). There was one limited production run, which
 was distributed for free to teenage makers and coders. It is not for sale.
