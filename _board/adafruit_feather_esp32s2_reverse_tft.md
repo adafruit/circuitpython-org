@@ -41,7 +41,7 @@ For low power usage, the Feather has a *second* RT9080 regulator. The regulator 
 - **Three User Tactile buttons** - D0, D1, and D2. D0/BOOT0 is also used for entering ROM bootloader mode if necessary.
 - **Power options** - USB type C **or** Lipoly battery
 - **Built-in battery charging** when powered over USB-C
-- **LiPoly battery monitor** - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C
+- **LiPoly battery monitor** - MAX17048 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C
 - **Reset and DFU** (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don't need a separate cable!)
 - **Serial debug output pin** (optional, for checking the hardware serial debug console)
 - **STEMMA QT** connector for I2C devices, with switchable power, so you can go into low power mode.
