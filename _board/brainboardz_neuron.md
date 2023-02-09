@@ -12,10 +12,12 @@ family: esp32s3
 bootloader_id: brainboardz_neuron
 features:
   - mPCIe Connector
+  - Companion BrainBoardz
   - SD Card Reader
   - ESP32-S3-WROOM-I module
   - USB-Micro
   - Wi-Fi
+  - Bluetooth
 
 ---
 
