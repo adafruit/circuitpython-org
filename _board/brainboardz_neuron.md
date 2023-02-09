@@ -1,15 +1,15 @@
 ---
 layout: download
 board_id: "brainboardz_neuron"
-title: "brainboardz_neuron Download"
-name: "brainboardz_neuron"
-manufacturer: "Unknown"
-board_url: ""
+title: "BrainBoardz Neuron Download"
+name: "BrainBoardz Neuron"
+manufacturer: "BrainBoardz Inc."
+board_url: "https://www.brainboardz.com"
 board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2023-02-6
 family: esp32s3
-bootloader_id:
+bootloader_id: "brainboardz_neuron"
 
 ---
 
