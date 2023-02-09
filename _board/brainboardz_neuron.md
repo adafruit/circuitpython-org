@@ -10,6 +10,12 @@ downloads_display: false
 date_added: 2023-02-6
 family: esp32s3
 bootloader_id: brainboardz_neuron
+features:
+  - mPCIe Connector
+  - SD Card Reader
+  - ESP32-S3-WROOM-I module
+  - USB-Micro
+  - Wi-Fi
 
 ---
 
