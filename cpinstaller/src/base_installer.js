@@ -41,7 +41,6 @@ export class InstallButton extends HTMLButtonElement {
         this.currentDialogElement = null;
         this.serial = null;
         this.espStub = null;
-        this.mode = "";
         this.dialogCssClass = "install-dialog";
         this.connected = this.connectionStates.DISCONNECTED;
     }
@@ -127,8 +126,6 @@ export class InstallButton extends HTMLButtonElement {
         } else {
             this.toggleAttribute("install-unsupported", true);
         }
-
-        this.mode = this.getUrlParam("mode");
 
         this.addEventListener("click", async (e) => {
             e.preventDefault();
