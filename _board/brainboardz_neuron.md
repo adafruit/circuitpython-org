@@ -33,7 +33,7 @@ Neurons can be easily added or removed from a BrainBoardz. The revolutionary mPC
  - **Blink LED**
  - **MicroSD Card Reader**
  - **ESP32-S3-WROOM-1-N8R8 Module**
- - **MicroUSB**
+ - **MicroUSB Connector**
  - **Low Noise TI 5V to 3.3V Voltage Regulator**
  - **2.54mm 4 Pin Header4 (Neuron-Z) Boards**
  - **Access to All ESP32S3 GPIO Pins**
