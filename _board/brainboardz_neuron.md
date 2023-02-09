@@ -9,7 +9,7 @@ board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2023-02-6
 family: esp32s3
-bootloader_id: "brainboardz_neuron"
+bootloader_id: brainboardz_neuron
 
 ---
 
