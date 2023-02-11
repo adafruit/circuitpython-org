@@ -4,6 +4,7 @@ import * as zip from "https://deno.land/x/zipjs/index.js";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
 import {REPL} from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.0.0/repl.js';
 import { InstallButton } from "./base_installer.js";
+import * as settingsTemplate from "./templates/settings.js";
 
 // TODO: Figure out how to make the Web Serial from ESPTool and Web Serial to communicate with CircuitPython not conflict.
 // It may just be easier to reconnect because for chips like the S3 and S2, it's a JTAG connection and there is
@@ -707,6 +708,41 @@ export class CPInstallButton extends InstallButton {
             }
         }
     }
+
+    async writeSettings(settings) {
+        settings = {
+            CIRCUITPY_WIFI_SSID: "yourwifissid",
+            CIRCUITPY_WIFI_PASSWORD: "yourpassword",
+            CIRCUITPY_WEB_API_PASSWORD: "passw0rd",
+            CIRCUITPY_WEB_API_PORT: 80,
+        }
+
+        template = settingsTemplate(settings);
+        /* Python Code
+        f = open('settings.toml', 'w')
+        f.write('CIRCUITPY_WIFI_SSID = "wifissid"\n')
+        f.write('CIRCUITPY_WIFI_PASSWORD = "wifipassword"\n')
+        f.write('CIRCUITPY_WEB_API_PASSWORD = "webpassword"\n')
+        f.close()
+        */
+    }
+
+    async getCurrentSettings() {
+        // Not sure if this is possible via the REPL
+        // Maybe this?
+
+        /* Python Code
+        f = open('settings.toml', 'r')
+        print(f.read())
+        f.close()
+        */
+
+        // Then we parse it
+    }
+
+    // TODO: Write a toml reader/writer
+    // For getting values, it should maybe use https://github.com/newproplus/iarna-toml/tree/ESM to parse
+    // Then perhaps something simple that iterates through and rewrites new values in a new file.
 
     async downloadAndExtract(url, fileToExtract = null, cacheFile = false) {
         // Display Progress Dialog
