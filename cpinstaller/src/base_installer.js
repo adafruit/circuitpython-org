@@ -1,5 +1,6 @@
 'use strict';
 import {html, render} from 'https://unpkg.com/lit-html?module';
+import {asyncAppend} from 'https://unpkg.com/lit-html/directives/async-append?module';
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
 
 // TODO: Figure out how to make the Web Serial from ESPTool and Web Serial to communicate with CircuitPython not conflict
@@ -54,13 +55,13 @@ export class InstallButton extends HTMLButtonElement {
     previousButton = {
         label: "Previous",
         onClick: this.prevStep,
-        isEnabled: () => { return this.currentStep > 0 },
+        isEnabled: async () => { return this.currentStep > 0 },
     }
 
     nextButton = {
         label: "Next",
         onClick: this.nextStep,
-        isEnabled: () => { return this.currentStep < this.currentFlow.steps.length - 1; },
+        isEnabled: async () => { return this.currentStep < this.currentFlow.steps.length - 1; },
     }
 
     closeButton = {
@@ -99,9 +100,9 @@ export class InstallButton extends HTMLButtonElement {
             template: (data) => html`
                 <p>CircuitPython Installer for ${data.boardName}</p>
                 <ul class="flow-menu">
-                ${this.generateMenu(
+                ${asyncAppend(this.generateMenu(
                     (flowId, flow) => html`<li><a href="#" @click=${this.runFlow.bind(this)} id="${flowId}">${flow.label.replace('[version]', this.releaseVersion)}</a></li>`
-                )}
+                ))}
                 </ul>`,
             buttons: [this.closeButton],
         },
@@ -159,23 +160,23 @@ export class InstallButton extends HTMLButtonElement {
         return paramValue;
     }
 
-    enabledFlowCount() {
+    async enabledFlowCount() {
         let enabledFlowCount = 0;
         for (const [flowId, flow] of Object.entries(this.flows)) {
-            if (flow.isEnabled()) {
+            if (await flow.isEnabled()) {
                 enabledFlowCount++;
             }
         }
         return enabledFlowCount;
     }
 
-    * generateMenu(templateFunc) {
-        if (this.enabledFlowCount() == 0) {
+    async * generateMenu(templateFunc) {
+        if (await this.enabledFlowCount() == 0) {
             yield html`<li>Coming soon. Check back later.</li>`;
             //yield html`<li>No installable options available for this board.</li>`;
         }
         for (const [flowId, flow] of Object.entries(this.flows)) {
-            if (flow.isEnabled()) {
+            if (await flow.isEnabled()) {
                 yield templateFunc(flowId, flow);
             }
         }
@@ -253,7 +254,7 @@ export class InstallButton extends HTMLButtonElement {
                     await button.onUpdate.bind(this)(e);
                 }
                 if ("isEnabled" in button) {
-                    e.target.disabled = !button.isEnabled.bind(this)();
+                    e.target.disabled = !(await button.isEnabled.bind(this)());
                 }
             });
 

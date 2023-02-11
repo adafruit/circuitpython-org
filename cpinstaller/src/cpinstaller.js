@@ -12,24 +12,30 @@ import { InstallButton } from "./base_installer.js";
 // may change after reset. Since it's not
 //
 // For now, we'll use the following procedure for ESP32-S2 and ESP32-S3:
-// 1. Install the bin file
-// 2. Reset the board
-// (if version 8.0.0-beta.6 or later)
-// 3. Generate the settings.toml file
-// 4. Write the settings.toml to the board via the REPL
-// 5. Reset the board again
+// 1. Install the bootloader file
+// 2. Have User Reset the board
+// 3. Install the UF2 file
+// 4. Connect to REPL Serial
+// 5. Generate the settings.toml file
+// 6. Write the settings.toml to the board via the REPL
+// 7. Have the user reset the board again
 //
-// For the esp32 and esp32c3, the procedure may be slightly different and going through the
-// REPL may be required for the settings.toml file.
+// For the esp32 and esp32c3, the procedure may be slightly different:
 // 1. Install the bin file
-// 2. Reset the board
-// (if version 8.0.0-beta.6 or later)
-// 3. Generate the settings.toml file
-// 4. Write the settings.toml to the board via the REPL
-// 5. Reset the board again
+// 2. Have User Reset the board
+// 3. Connect to REPL Serial
+// 4. Generate the settings.toml file
+// 5. Write the settings.toml to the board via the REPL
+// 6. Have the user reset the board again
 //
+// TODO: Combine multiple steps together. For now it was easier to make them separate,
+// but for ease of configuration, it would be work better to combine them together.
+// For instance stepSelectBootDrive and stepCopyUf2 should always be together and in
+// that order, but due to having handlers in the first of those steps, it was easier to
+// just call nextStep() from the handler.
 
 const PREFERRED_BAUDRATE = 921600;
+const COPY_CHUNK_SIZE = 64 * 1024; // 64 KB Chunks
 
 const CSS_DIALOG_CLASS = "cp-installer-dialog";
 const FAMILY_TO_CHIP_MAP = {
@@ -55,7 +61,12 @@ export class CPInstallButton extends InstallButton {
         this.dialogs = { ...this.dialogs,  ...this.cpDialogs };
         this.bootDriveHandle = null;
         this._bootDriveName = null;
+        this._serialPortName = null;
+        this.serialDevice = null;
+        this.repl = null;
         this.fileCache = [];
+        this.reader = null;
+        this.writer = null;
         this.init();
     }
 
@@ -85,39 +96,39 @@ export class CPInstallButton extends InstallButton {
     flows = {
         uf2Program: {
             label: `Install CircuitPython [version] UF2 and Bootloader`,
-            steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSelectBootDrive, this.stepCopyUf2, this.stepCredentials, this.stepSettingsToml, this.stepSuccess],
-            isEnabled: () => { return !!this.bootloaderUrl && !!this.uf2FileUrl },
+            steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSelectBootDrive, this.stepCopyUf2, this.stepSetupRepl, this.stepCredentials, this.stepSettingsToml, this.stepSuccess],
+            isEnabled: async () => { return !!this.bootloaderUrl && !!this.uf2FileUrl },
         },
         uf2Only: {
             label: `Install CircuitPython [version] UF2 Only`,
             steps: [this.stepSelectBootDrive, this.stepCopyUf2, this.stepCredentials, this.stepSuccess],
-            isEnabled: () => { return !!this.uf2FileUrl },
+            isEnabled: async () => { return !!this.uf2FileUrl },
         },
         binProgram: {
             label: `Install CircuitPython [version] Bin`,
             steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepFlashBin, this.stepSuccess],
-            isEnabled: () => { return !!this.binFileUrl },
+            isEnabled: async () => { return !!this.binFileUrl },
         },
         bootloaderOnly: {
             label: "Install Bootloader Only",
             steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSuccess],
-            isEnabled: () => { return !!this.bootloaderUrl },
+            isEnabled: async () => { return !!this.bootloaderUrl },
         },
         credentialsOnly: {
             label: "Update WiFi credentials",
-            steps: [this.stepSerialConnect, this.stepCredentials, this.stepSettingsToml, this.stepSuccess],
-            isEnabled: () => { return this.cpDetected() },
+            steps: [this.stepSetupRepl, this.stepCredentials, this.stepSettingsToml, this.stepSuccess],
+            isEnabled: async () => { return true; },
         },
         test: {
             label: "Test (To be Removed)",
             steps: [this.stepTest],
-            isEnabled: () => { return true; },
+            isEnabled: async () => { return true; },
         }
     }
 
     // This is the data for the CircuitPython specific dialogs
     cpDialogs = {
-        serialConnect: {
+        espSerialConnect: {
             closeable: true,
             template: (data) => html`
                 <p>
@@ -130,7 +141,7 @@ export class CPInstallButton extends InstallButton {
                     <li><em><strong>NOTE:</strong> A lot of people end up using charge-only USB cables and it is very frustrating! Make sure you have a USB cable you know is good for data sync.</em></li>
                 </ul>
                 <p>
-                    <button id="butConnect" type="button" @click=${this.connectHandler.bind(this)}>Connect</button>
+                    <button id="butConnect" type="button" @click=${this.espToolConnectHandler.bind(this)}>Connect</button>
                     Click this button to open the Web Serial connection menu.
                 </p>
 
@@ -143,7 +154,7 @@ export class CPInstallButton extends InstallButton {
             buttons: [this.previousButton, {
                 label: "Next",
                 onClick: this.nextStep,
-                isEnabled: () => { return (this.currentStep < this.currentFlow.steps.length - 1) && this.connected == this.connectionStates.CONNECTED },
+                isEnabled: async () => { return (this.currentStep < this.currentFlow.steps.length - 1) && this.connected == this.connectionStates.CONNECTED },
                 onUpdate: async (e) => { this.currentDialogElement.querySelector("#butConnect").innerText = this.connected; },
             }],
         },
@@ -173,11 +184,7 @@ export class CPInstallButton extends InstallButton {
                     <button id="butSelectBootDrive" type="button" @click=${this.bootDriveSelectHandler.bind(this)}>Select ${data.drivename} Drive</button>
                 </p>
             `,
-            buttons: [{
-                label: "Next",
-                onClick: this.nextStep,
-                isEnabled: () => { return (this.currentStep < this.currentFlow.steps.length - 1) && !!this.bootDriveHandle },
-            }],
+            buttons: [],
         },
         actionWaiting: {
             template: (data) => html`
@@ -193,8 +200,30 @@ export class CPInstallButton extends InstallButton {
             `,
             buttons: [],
         },
+        cpSerial: {
+            closeable: true,
+            template: (data) => html`
+                <p>
+                    The next step is to write your credentials to settings.toml. Make sure your board is running CircuitPython. You may need to reset it first.
+                </p>
+                <p>
+                    <button id="butConnect" type="button" @click=${this.cpSerialConnectHandler.bind(this)}>Connect</button>
+                    Click this button to open the Web Serial connection menu. If it is already connected, pressing again will allow you to select a different port.
+                </p>
+
+                <p>${data.serialPortInstructions}</p>
+            `,
+            buttons: [this.previousButton, {
+                label: "Next",
+                onClick: this.nextStep,
+                isEnabled: async () => { return (this.currentStep < this.currentFlow.steps.length - 1) && !!this.serialDevice; },
+                onUpdate: async (e) => { this.currentDialogElement.querySelector("#butConnect").innerText = !!this.serialDevice ? "Connected" : "Connect"; },
+            }],
+        },
+
         // We may have a waiting for Bootloader to start dialog (may reuse the erase dialog)
         credentials: {
+            closeable: true,
             template: (data) => html`
                 <div class="field">
                     <label for="circuitpy_wifi_ssid">WiFi Network Name (SSID):</label>
@@ -231,132 +260,12 @@ export class CPInstallButton extends InstallButton {
         },
     }
 
-    async bootDriveSelectHandler(e) {
-        const bootloaderVolume = await this.getBootDriveName();
-        let dirHandle;
 
-        // This will need to show a dialog selector
-        try {
-            dirHandle = await window.showDirectoryPicker({mode: 'readwrite'});
-        } catch (e) {
-            // Likely the user cancelled the dialog
-            console.log(e);
-            return;
-        }
-        if (bootloaderVolume && bootloaderVolume != dirHandle.name) {
-            alert(`The selected drive named ${dirHandle.name} does not match the expected name of ${bootloaderVolume}. Please select the correct drive.`);
-            return;
-        }
-        if (!await this._verifyPermission(dirHandle)) {
-            alert("Unable to write to the selected folder");
-            return;
-        }
-        // The returned value should match the boot drive name and have write access
-        // If so, we set a class variable, which and trigger an update of the buttons
-        // The dialog update could actually just go to the next step automatically
-        // Or we could just do that here
-
-        this.bootDriveHandle = dirHandle;
-        this.updateButtons();
-    }
-
-    async _verifyPermission(folderHandle) {
-        const options = {mode: 'readwrite'};
-
-        if (await folderHandle.queryPermission(options) === 'granted') {
-            return true;
-        }
-
-        if (await folderHandle.requestPermission(options) === 'granted') {
-            return true;
-        }
-
-        return false;
-    }
-
-    async connectHandler(e) {
-        await this.disconnect();
-        let esploader;
-        try {
-            esploader = await esptoolPackage.connect({
-                log: (...args) => this.logMsg(...args),
-                debug: (...args) => {},
-                error: (...args) => this.errorMsg(...args),
-            });
-        } catch (err) {
-            this.errorMsg("Unable to open Serial connection to board. Make sure the port is not already in use by another application or in another browser tab.");
-            return;
-        }
-
-        try {
-            this.updateUIConnected(this.connectionStates.CONNECTING);
-            await esploader.initialize();
-            this.updateUIConnected(this.connectionStates.CONNECTED);
-        } catch (err) {
-            await esploader.disconnect();
-            // Disconnection before complete
-            this.updateUIConnected(this.connectionStates.DISCONNECTED);
-            this.errorMsg("Unable to connect to the board. Make sure it is in bootloader mode by holding the boot0 button when powering on and try again.")
-            return;
-        }
-
-        try {
-            this.logMsg(`Connected to ${esploader.chipName}`);
-            this.logMsg(`MAC Address: ${this.formatMacAddr(esploader.macAddr())}`);
-
-            // check chip compatibility
-            if (FAMILY_TO_CHIP_MAP[this.chipFamily] == esploader.chipFamily) {
-                console.log("This chip checks out");
-                this.espStub = await esploader.runStub();
-                this.espStub.addEventListener("disconnect", () => {
-                    this.updateUIConnected(this.connectionStates.DISCONNECTED);
-                    this.espStub = null;
-                });
-
-                await this.setBaudRateIfChipSupports(esploader.chipFamily, PREFERRED_BAUDRATE);
-                return
-            }
-
-            // Can't use it so disconnect now
-            this.errorMsg("Oops, this is the wrong firmware for your board.")
-            await this.disconnect()
-
-        } catch (err) {
-            await esploader.disconnect();
-            // Disconnection before complete
-            this.updateUIConnected(this.connectionStates.DISCONNECTED);
-            this.errorMsg("Oops, we lost connection to your board before completing the install. Please check your USB connection and click Connect again. Refresh the browser if it becomes unresponsive.")
-        }
-    }
+    ////////// STEP FUNCTIONS //////////
 
     async stepSerialConnect() {
         // Display Serial Connect Dialog
-        this.showDialog(this.dialogs.serialConnect, {boardName: this.boardName});
-    }
-
-    async getBootDriveName() {
-        if (this._bootDriveName) {
-            return this._bootDriveName;
-        }
-
-        if (!this.bootloaderId || !this.bootloaderUrl) {
-            return null;
-        }
-
-        // Download the bootloader zip file
-        let [filename, fileBlob] = await this.downloadAndExtract(this.bootloaderUrl, 'tinyuf2.bin');
-        const fileContents = await fileBlob.text();
-
-        const regex = /B\x00B\x00([A-Z0-9\x00]{11})FAT16/;
-        const matches = fileContents.match(regex);
-        if (!matches || matches.length < 2) {
-            return null;
-        }
-
-        // Strip any null characters from the name
-        this.removeCachedFile(this.bootloaderUrl.split("/").pop());
-        this._bootDriveName = matches[1].replace(/\0/g, '');
-        return this._bootDriveName;
+        this.showDialog(this.dialogs.espSerialConnect, {boardName: this.boardName});
     }
 
     async stepConfirm() {
@@ -434,11 +343,20 @@ export class CPInstallButton extends InstallButton {
         await this.nextStep();
     }
 
-    async stepTest() {
-        console.log(await this.getBootDriveName());
+    async stepSetupRepl() {
+        const serialPortName = await this.getSerialPortName();
+        let serialPortInstructions ="There may be several devices listed. If you aren't sure which to choose, look for one that includes the name of your microcontroller.";
+        if (serialPortName) {
+            serialPortInstructions =`There may be several devices listed, but look for one called something like ${serialPortName}.`
+        }
+        this.showDialog(this.dialogs.cpSerial, {
+            serialPortInstructions: serialPortInstructions
+        });
     }
 
     async stepCredentials() {
+        // We may want to see if the board has previously been set up and fill in any values from settings.toml and boot.py
+
         // Display Credentials Request Dialog
         this.showDialog(this.dialogs.credentials);
     }
@@ -469,7 +387,262 @@ export class CPInstallButton extends InstallButton {
         this.closeDialog();
     }
 
-    cpDetected() {
+    async stepTest() {
+        console.log(await this.getBootDriveName());
+        console.log(await this.getSerialPortName());
+    }
+
+
+    ////////// HANDLERS //////////
+
+    async bootDriveSelectHandler(e) {
+        const bootloaderVolume = await this.getBootDriveName();
+        let dirHandle;
+
+        // This will need to show a dialog selector
+        try {
+            dirHandle = await window.showDirectoryPicker({mode: 'readwrite'});
+        } catch (e) {
+            // Likely the user cancelled the dialog
+            console.log(e);
+            return;
+        }
+        if (bootloaderVolume && bootloaderVolume != dirHandle.name) {
+            alert(`The selected drive named ${dirHandle.name} does not match the expected name of ${bootloaderVolume}. Please select the correct drive.`);
+            return;
+        }
+        if (!await this._verifyPermission(dirHandle)) {
+            alert("Unable to write to the selected folder");
+            return;
+        }
+
+        this.bootDriveHandle = dirHandle;
+        await this.nextStep();
+    }
+
+    async espToolConnectHandler(e) {
+        await this.onReplDisconnected(e);
+        await this.espDisconnect();
+        let esploader;
+        try {
+            esploader = await esptoolPackage.connect({
+                log: (...args) => this.logMsg(...args),
+                debug: (...args) => {},
+                error: (...args) => this.errorMsg(...args),
+            });
+        } catch (err) {
+            this.errorMsg("Unable to open Serial connection to board. Make sure the port is not already in use by another application or in another browser tab.");
+            return;
+        }
+
+        try {
+            this.updateEspConnected(this.connectionStates.CONNECTING);
+            await esploader.initialize();
+            this.updateEspConnected(this.connectionStates.CONNECTED);
+        } catch (err) {
+            await esploader.disconnect();
+            // Disconnection before complete
+            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.errorMsg("Unable to connect to the board. Make sure it is in bootloader mode by holding the boot0 button when powering on and try again.")
+            return;
+        }
+
+        try {
+            this.logMsg(`Connected to ${esploader.chipName}`);
+            this.logMsg(`MAC Address: ${this.formatMacAddr(esploader.macAddr())}`);
+
+            // check chip compatibility
+            if (FAMILY_TO_CHIP_MAP[this.chipFamily] == esploader.chipFamily) {
+                console.log("This chip checks out");
+                this.espStub = await esploader.runStub();
+                this.espStub.addEventListener("disconnect", this.espDisconnect.bind(this));
+
+                await this.setBaudRateIfChipSupports(esploader.chipFamily, PREFERRED_BAUDRATE);
+                return
+            }
+
+            // Can't use it so disconnect now
+            this.errorMsg("Oops, this is the wrong firmware for your board.")
+            await this.espDisconnect();
+
+        } catch (err) {
+            await esploader.disconnect();
+            // Disconnection before complete
+            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.errorMsg("Oops, we lost connection to your board before completing the install. Please check your USB connection and click Connect again. Refresh the browser if it becomes unresponsive.")
+        }
+    }
+
+    async onSerialReceive(e) {
+        await this.repl.onSerialReceive(e);
+    }
+
+    async cpSerialConnectHandler(e) {
+        // Disconnect from the ESP Tool if Connected
+        await this.espDisconnect();
+
+        await this.onReplDisconnected(e);
+
+        // Connect to the Serial Port and interact with the REPL
+        try {
+            this.serialDevice = await navigator.serial.requestPort();
+        } catch (e) {
+            // Likely the user cancelled the dialog
+            console.log(e);
+            return;
+        }
+        await this.serialDevice.open({baudRate: 115200});
+
+        this.repl = new REPL();
+        this.repl.serialTransmit = this.serialTransmit.bind(this);
+
+        this.serialDevice.addEventListener("message", this.onSerialReceive.bind(this));
+
+        // Start the read loop
+        this._readLoopPromise = this._readSerialLoop().catch(
+            async function(error) {
+                await this.onReplDisconnected();
+            }.bind(this)
+        );
+
+        if (this.serialDevice.writable) {
+            this.writer = this.serialDevice.writable.getWriter();
+            await this.writer.ready;
+        }
+
+        this.nextStep();
+    }
+
+    async onReplDisconnected(e) {
+        if (this.reader) {
+            await this.reader.cancel();
+            this.reader = null;
+        }
+        if (this.writer) {
+            await this.writer.releaseLock();
+            this.writer = null;
+        }
+
+        if (this.serialDevice) {
+            await this.serialDevice.close();
+            this.serialDevice = null;
+        }
+    }
+
+    //////////////// HELPERS ////////////////
+
+    async espDisconnect() {
+        // Disconnect the ESPTool
+        if (this.espStub) {
+            this.espStub.removeEventListener("disconnect", this.espDisconnect.bind(this));
+            await this.espStub.disconnect();
+            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.espStub = null;
+        }
+    }
+
+    async serialTransmit(msg) {
+        const encoder = new TextEncoder();
+        if (this.writer) {
+            const encMessage = encoder.encode(msg);
+            await this.writer.ready.catch((err) => {
+                console.error(`Ready error: ${err}`);
+            });
+            await this.writer.write(encMessage).catch((err) => {
+                console.error(`Chunk error: ${err}`);
+            });
+            await this.writer.ready;
+        }
+    }
+
+    async _readSerialLoop() {
+        if (!this.serialDevice) {
+            return;
+        }
+
+        const messageEvent = new Event("message");
+        const decoder = new TextDecoder();
+
+        if (this.serialDevice.readable) {
+            this.reader = this.serialDevice.readable.getReader();
+            while (true) {
+                const {value, done} = await this.reader.read();
+                if (value) {
+                    messageEvent.data = decoder.decode(value);
+                    this.serialDevice.dispatchEvent(messageEvent);
+                }
+                if (done) {
+                    this.reader.releaseLock();
+                    break;
+                }
+            }
+        }
+
+        console.log("Read Loop Stopped. Closing Serial Port.");
+    }
+
+    async getBootDriveName() {
+        if (this._bootDriveName) {
+            return this._bootDriveName;
+        }
+        await this.extractBootloaderInfo();
+
+        return this._bootDriveName;
+    }
+
+    async getSerialPortName() {
+        if (this._serialPortName) {
+            return this._serialPortName;
+        }
+        await this.extractBootloaderInfo();
+
+        return this._serialPortName;
+    }
+
+    async _verifyPermission(folderHandle) {
+        const options = {mode: 'readwrite'};
+
+        if (await folderHandle.queryPermission(options) === 'granted') {
+            return true;
+        }
+
+        if (await folderHandle.requestPermission(options) === 'granted') {
+            return true;
+        }
+
+        return false;
+    }
+
+    async extractBootloaderInfo() {
+        if (!this.bootloaderUrl) {
+            return false;
+        }
+
+        // Download the bootloader zip file
+        let [filename, fileBlob] = await this.downloadAndExtract(this.bootloaderUrl, 'tinyuf2.bin');
+        const fileContents = await fileBlob.text();
+
+        const bootDriveRegex = /B\x00B\x00([A-Z0-9\x00]{11})FAT16/;
+        const serialNameRegex = /0123456789ABCDEF(.+)\x00UF2/;
+        // Not sure if manufacturer is displayed. If not, we should use this instead
+        // const serialNameRegex = /0123456789ABCDEF(?:.*\x00)?(.+)\x00UF2/;
+
+        let matches = fileContents.match(bootDriveRegex);
+        if (matches && matches.length >= 2) {
+            // Strip any null characters from the name
+            this._bootDriveName = matches[1].replace(/\0/g, '');
+        }
+
+        matches = fileContents.match(serialNameRegex);
+        if (matches && matches.length >= 2) {
+            // Replace any null characters with spaces
+            this._serialPortName = matches[1].replace(/\0/g, ' ');
+        }
+
+        this.removeCachedFile(this.bootloaderUrl.split("/").pop());
+    }
+
+    async cpDetected() {
         // TODO: Actually detect CircuitPython
         // We may also want to have it return the version number and return null if not detected
         return false;
@@ -496,8 +669,8 @@ export class CPInstallButton extends InstallButton {
             }
             chunks.push(value);
             receivedLength += value.length;
-            progressElement.value = Math.round(receivedLength / contentLength) * 100;
-            console.log(`Received ${receivedLength} of ${contentLength}`)
+            progressElement.value = Math.round((receivedLength / contentLength) * 100);
+            //console.log(`Received ${receivedLength} of ${contentLength}`)
         }
         let chunksAll = new Uint8Array(receivedLength);
         let position = 0;
@@ -602,22 +775,7 @@ export class CPInstallButton extends InstallButton {
         }
     }
 
-    /*
-    while(true) {
-        const {done, value} = await reader.read();
-        if (done) {
-            break;
-        }
-        chunks.push(value);
-        receivedLength += value.length;
-        progressElement.value = Math.round(receivedLength / contentLength) * 100;
-        console.log(`Received ${receivedLength} of ${contentLength}`)
-    }
-
-    */
-
     async downloadAndCopy(url, dirHandle = null) {
-        const CHUNK_SIZE = 64 * 1024;
         if (!dirHandle) {
             dirHandle = this.bootDriveHandle;
         }
@@ -636,7 +794,7 @@ export class CPInstallButton extends InstallButton {
         let bytesWritten = 0;
         let chunk;
         while(bytesWritten < totalSize) {
-            chunk = fileBlob.slice(bytesWritten, bytesWritten + CHUNK_SIZE);
+            chunk = fileBlob.slice(bytesWritten, bytesWritten + COPY_CHUNK_SIZE);
             await writableStream.write(chunk, {position: bytesWritten, size: chunk.size});
 
             bytesWritten += chunk.size;
