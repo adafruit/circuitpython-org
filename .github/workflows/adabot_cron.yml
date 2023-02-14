@@ -29,13 +29,13 @@ jobs:
         GITHUB_CONTEXT: ${{ toJson(github) }}
       run: echo "$GITHUB_CONTEXT"
     - name: Set up Python 3.x
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: 3.9
     - name: Versions
       run: |
         python3 --version
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
       with:
         submodules: true
     - name: Install deps

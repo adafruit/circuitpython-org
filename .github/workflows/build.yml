@@ -27,14 +27,14 @@ jobs:
     # be limited (they run on all forks' default branches).
     if: startswith(github.repository, 'adafruit/')
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
       with:
         submodules: true
     - name: Update Awesome CircuitPython
       run: |
         (cd awesome-circuitpython && git fetch origin main:main && git checkout main)
     - name: Set up Python 3.x
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: 3.x
     - uses: ruby/setup-ruby@v1
