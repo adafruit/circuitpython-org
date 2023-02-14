@@ -8,6 +8,7 @@ board_url: "https://www.adafruit.com/product/5022"
 board_image: "adafruit_proxlight_trinkey_m0.jpg"
 date_added: 2021-4-14
 family: atmel-samd
+bootloader_id: proxsense_trinkey_m0
 features:
 
 ---
@@ -28,11 +29,13 @@ The star of this Trinkey is the APDS9960 from Avago Technologies, which has a fe
 
 We think it's just an adorable little board, small and durable and inexpensive enough that it could be a first microcontroller board or inspiration for advanced developers to make something simple and fun.
 
-- ATSAMD21E18 32-bit Cortex M0+ - 48 MHz 32 bit processor with 256KB Flash and 32 KB RAM
+## Technical details
+
+- ATSAMD21E18 32-bit Cortex M0+ - 48 MHz 32 bit processor with 256 KB Flash and 32 KB RAM
 - Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.
 - Can be used with Arduino IDE or CircuitPython
-- Two RGB NeoPixel LEDs
-- Two Capacitive Touchpads
+- 2 RGB NeoPixel LEDs
+- 2 Capacitive Touchpads
 - APDS9960 Light/Color/Proximity/Gesture sensor
 - Reset switch for starting your project code over or entering bootloader mode
 - Slim and cute, keychain-friendly!

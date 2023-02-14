@@ -8,8 +8,9 @@ board_url: "https://www.adafruit.com/product/4745"
 board_image: "matrixportal_m4.jpg"
 date_added: 2020-9-16
 family: atmel-samd
+bootloader_id: matrixportal_m4
 features:
-  - Display
+  - External Display
   - Wi-Fi
   - STEMMA QT/QWIIC
   - USB-C
@@ -19,20 +20,22 @@ Folks love our [wide selection of RGB matrices](https://www.adafruit.com/categor
 
 Plug directly into the back of [any HUB-75 compatible display (all the ones we stock will work) from 16x32 up to 64x64](https://www.adafruit.com/category/327)! Use the included screws to attach the power cable to the power plugs with a common screwdriver, then power it with any USB C power supply. (For larger projects, power the matrices with a separate 5V power adapter)
 
-Then code up your project in [CircuitPython](https://learn.adafruit.com/rgb-led-matrices-matrix-panels-with-circuitpython) or [Arduino](https://learn.adafruit.com/adafruit-protomatter-rgb-matrix-library), our Protomatter matrix library works great on the SAMD51 chipset, knowing that you've got the wiring and level shifting all handled. Here's what you get:
+Then code up your project in [CircuitPython](https://learn.adafruit.com/rgb-led-matrices-matrix-panels-with-circuitpython) or [Arduino](https://learn.adafruit.com/adafruit-protomatter-rgb-matrix-library), our Protomatter matrix library works great on the SAMD51 chipset, knowing that you've got the wiring and level shifting all handled.
 
- * **ATSAMD51J19 Cortex M4 processor**, 512KB flash, 192K of SRAM, with full Arduino or CircuitPython support
- * **ESP32 WiFi co-processor** with TLS support and SPI interface to the M4, with full Arduino or CircuitPython support
- * **USB Type C** connector for data and power connectivity
- * [**I2C STEMMA QT connector** for plug-n-play use of any of our STEMMA QT devices or sensors](https://www.adafruit.com/category/620) can also be used with [any Grove I2C devices using this adapter cable](https://www.adafruit.com/product/4528))
- * **JST 3-pin connector** that also has analog input/output, say for adding audio playback to projects
- * **LIS3DH accelerometer** for digital sand projects or detecting taps/orientation.
- * **GPIO breakouts** including 4 analog outputs with PWM and SPI support for adding other hardware.
- * **Address E line jumper** for use with 64x64 matrices (check your matrix to see which pin is used for address E!
- * **Two user interface buttons** + one reset button
- * **Indicator NeoPixel** and red LED
- * **Green power indicator LEDs** for both 3V and 5V power
- * **2x10 socket connector** fits snugly into 2x8 HUB75 ports without worrying about 'off by one' errors.
+### Features
+
+* **ATSAMD51J19 Cortex M4 processor**, 512 KB flash, 192 K of SRAM, with full Arduino or CircuitPython support
+* **ESP32 WiFi co-processor** with TLS support and SPI interface to the M4, with full Arduino or CircuitPython support
+* **USB-C** connector for data and power connectivity
+* [**I2C STEMMA QT connector** for plug-n-play use of any of our STEMMA QT devices or sensors](https://www.adafruit.com/category/620) can also be used with [any Grove I2C devices using this adapter cable](https://www.adafruit.com/product/4528))
+* **JST 3-pin connector** that also has analog input/output, say for adding audio playback to projects
+* **LIS3DH accelerometer** for digital sand projects or detecting taps/orientation.
+* **GPIO breakouts** including 4 analog outputs with PWM and SPI support for adding other hardware.
+* **Address E line jumper** for use with 64x64 matrices (check your matrix to see which pin is used for address E!
+* **Two user interface buttons** + one reset button
+* **Indicator NeoPixel** and red LED
+* **Green power indicator LEDs** for both 3 V and 5 V power
+* **2x10 socket connector** fits snugly into 2x8 HUB75 ports without worrying about 'off by one' errors.
 
 The Matrix Portal uses an ATMEL (Microchip) ATSAMD51J19, and an Espressif ESP32 Wi-Fi coprocessor with TLS/SSL support built-in. The M4 and ESP32 are a great couple - and each bring their own strengths to this board. The SAMD51 M4 has native USB so it can show up like a disk drive, act as a MIDI or HID keyboard/mouse, and of course bootload and debug over a serial port. It also has DACs, ADC, PWM, and tons of GPIO, so it can handle the high speed updating of the RGB matrix.
 

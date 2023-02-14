@@ -8,6 +8,7 @@ board_url: "https://www.adafruit.com/product/5020"
 board_image: "adafruit_neokey_trinkey_m0.jpg"
 date_added: 2021-4-14
 family: atmel-samd
+bootloader_id: neokey_trinkey_m0
 features:
 
 ---
@@ -22,11 +23,13 @@ The SAMD21 can run CircuitPython or Arduino very nicely - with existing NeoPixel
 
 We think it's just an adorable little board, small and durable and inexpensive enough that it could be a first microcontroller board, or inspiration for advanced developers to make something simple and fun.
 
+## Technical details
+
 - ATSAMD21E18 32-bit Cortex M0+ - 48 MHz 32 bit processor with 256KB Flash and 32 KB RAM
 - Native USB supported by every OS - can be used in **Arduino or CircuitPython** as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.
 - Can be used with Arduino IDE or CircuitPython
 - Single reverse-mount RGB NeoPixel LED
-- One Capacitive Touch pad
+- 1 Capacitive Touch pad
 - Cherry-MX compatible footprint can be used by nearly any mechanical switch. Note we only have a center-nub hole. If your switch has two mini side-nubs they need to be clipped off.
 - Reset switch for starting your project code over or entering bootloader mode
 - Cute & keychain-friendly!

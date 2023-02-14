@@ -24,13 +24,13 @@ Use any [SparkFun Qwiic](http://www.sparkfun.com/qwiic) boards! [Seeed Grove I2C
 
 **At the time of launch, there is no Arduino core support for the chip on this board. There is great [C/C++ support](https://github.com/raspberrypi/pico-sdk), an official [MicroPython port](https://github.com/raspberrypi/micropython), and a [CircuitPython port](https://circuitpython.org/downloads)!** We of course [recommend CircuitPython because we think it's the easiest way to get started](https://learn.adafruit.com/welcome-to-circuitpython) and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.
 
-Pinout and shape is [Seeed Xiao](https://wiki.seeedstudio.com/Seeeduino-XIAO/) compatible, with castellated pads so you can solder it to a PCB with a cut out to allow the bottom components some breathing room. In addition to the QT connector, we also added an **RGB NeoPixel** (with a controllable power pin to allow for ultra-low-power usage), **and both boot-mode and reset buttons** (great for restarting your program or entering the bootloader). This QT Py comes with loose 0.1" headers you can solder in for breadboard use
+Pinout and shape is [Seeed Xiao](https://wiki.seeedstudio.com/Seeeduino-XIAO/) compatible, with castellated pads so you can solder it to a PCB with a cut out to allow the bottom components some breathing room. In addition to the QT connector, we also added an **RGB NeoPixel** (with a controllable power pin to allow for ultra-low-power usage), **and both boot-mode and reset buttons** (great for restarting your program or entering the bootloader). This QT Py comes with loose 0.1" headers you can solder in for breadboard use.
 
-While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. On this board there is 4MB, which is shared between the program it's running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 3 MB remaining for code, files, images, fonts, etc.
+While the RP2040 has lots of onboard RAM (264 KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. On this board there is 4MB, which is shared between the program it's running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 3 MB remaining for code, files, images, fonts, etc.
 
 - Same size, form-factor, and pin-out as [our SAMD-based QT Py](https://www.adafruit.com/product/4600)
-- **USB Type C connector** - [If you have only Micro B cables, this adapter will come in handy](https://www.adafruit.com/product/4299)!
-- **RP2040 32-bit Cortex M0+** dual-core running at ~125 MHz @ 3.3V logic and power
+- **USB-C connector** - [If you have only Micro B cables, this adapter will come in handy](https://www.adafruit.com/product/4299)!
+- **RP2040 32-bit Cortex M0+** dual-core running at ~125 MHz @ 3.3 V logic and power
 - 264 KB RAM
 - **8 MB SPI FLASH** chip for storing files and CircuitPython/MicroPython code storage. No EEPROM
 - Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.
@@ -42,7 +42,7 @@ While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLAS
   - SPI and UART peripherals, in standard QT Py locations,
   - PWM outputs on every IO pin - for servos, LEDs, etc
   - There are 6 GPIO in consecutive order for PIO compatibility
-- 3.3V regulator with [**600mA peak output**](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
+- 3.3 V regulator with [**600 mA peak output**](https://www.diodes.com/assets/Datasheets/AP2112.pdf)
 - **Both Reset button and Bootloader select buttons** for quick restarts (no unplugging-replugging to relaunch code)
 - **Really really small**
 

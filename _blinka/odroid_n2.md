@@ -12,7 +12,7 @@ date_added: 2019-12-3
 features:
   - Ethernet
   - USB 3.0
-  - HDMI
+  - HDMI/DisplayPort
   - 40-pin GPIO
   - Infrared Receiver
 ---

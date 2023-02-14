@@ -28,25 +28,29 @@ jobs:
       env:
         GITHUB_CONTEXT: ${{ toJson(github) }}
       run: echo "$GITHUB_CONTEXT"
-    - name: Set up Python 3.6
-      uses: actions/setup-python@v1
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.6
+        python-version: 3.9
     - name: Versions
       run: |
         python3 --version
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
       with:
         submodules: true
     - name: Install deps
       run: |
         pip install -r adabot/requirements.txt
+    - name: Pip install pylint
+      run: |
+        pip install --force-reinstall pylint==2.7.1
     - name: Make Directory For Report Files
       run: mkdir -p bin/adabot
     - name: Run adabot.update_cp_org_libraries
       env:
         ADABOT_GITHUB_USER: ${{ secrets.ADABOT_GITHUB_USER }}
         ADABOT_GITHUB_ACCESS_TOKEN: ${{ secrets.ADABOT_GITHUB_ACCESS_TOKEN }}
+        RTD_TOKEN: ${{ secrets.RTD_TOKEN }}
       run: |
         cd adabot
         python3 -u -m adabot.update_cp_org_libraries -o $GITHUB_WORKSPACE/bin/adabot/libraries.v2.json

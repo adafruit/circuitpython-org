@@ -8,26 +8,13 @@ layout: default
   <div class="download-section">
     <div class="details">
       <div class="section">
-        {% for static_file in site.static_files %}
-          {% assign large_image = "/assets/images/boards/large/" | append: page.board_image %}
-          {% if static_file.path == large_image %}
-            {% assign has_responsive_images = true %}
-          {% endif %}
-        {% endfor %}
-        {% if has_responsive_images %}
-          <img src="{{ large_image | relative_url }}" alt="Image of Board">
-        {% else %}
-          <img src="{{ "/assets/images/boards/original/" | append: page.board_image | relative_url }}" alt="Image of Board">
-        {% endif %}
+        {% assign large_image = "/assets/images/boards/large/" | append: page.board_image %}
+        <img src="{{ large_image | relative_url }}" alt="Image of Board">
         <p>
           {{ content }}
         </p>
         <h2>Contribute</h2>
-        {% if page.blinka == true %}
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/{{ page.board_id }}.md">here</a>.</p>
-        {% else %}
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/{{ page.board_id }}.md">here</a>.</p>
-        {% endif %}
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/{{ page.path }}">here</a>.</p>
       </div>
     </div>
     <div class="download">
@@ -40,4 +27,7 @@ layout: default
   </div>
 </div>
 
+{% if page.family == 'esp32' or page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' %}
+<script src="/cpinstaller/src/cpinstaller.js" type="module"></script>
+{% endif %}
 <script src="/assets/javascript/download.js"></script>

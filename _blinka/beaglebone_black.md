@@ -11,7 +11,7 @@ blinka: true
 date_added: 2019-12-3
 features:
   - Ethernet
-  - HDMI
+  - HDMI/DisplayPort
 ---
 
 If you liked the BeagleBone Black Rev B, you will love the Rev C! The Rev C has a blistering 1GHz AM3358 processor and 512MB onboard DDR3 RAM, two 46-pin headers, micro HDMI for audio/video output, USB ports, 10/100 Ethernet and other I/O features. The Rev C is an ultra-powered embedded computer that can fit in a mint tin.

@@ -21,7 +21,11 @@ permalink: /contributing/open-issues
     Sort by issue labels
     <select>
       {% for label in labels %}
-        <option value='{{ label | downcase | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
+        {% assign lowerlabel = label | downcase %}
+        {% assign ddlabels = ddlabels | push: lowerlabel | uniq %}
+      {% endfor %}
+      {% for label in ddlabels %}
+        <option value='{{ label | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
       {% endfor %}
     <select>
   </p>
@@ -33,11 +37,17 @@ permalink: /contributing/open-issues
         <ul class="issues-list">
         {% for issue in library[1] %}
         {% capture classes %}
-          {% for label in issue.labels %}
-            {{ label | downcase | replace: ' ', '-' }}
-          {% endfor %}
+        {% for label in issue.labels %}
+          {{ label | downcase | replace: ' ', '-' }}
+        {% endfor %}
         {% endcapture %}
-        <li class="{{ classes | strip }}"><a href="{{ issue.url }}">{{ issue.title }}</a></li>
+        <li class="{{ classes | strip }}"><a href="{{ issue.url }}">{{ issue.title }}</a>
+            {% for label in issue.labels %}
+              {% if label != 'None' %}
+                <span class="issue-label tag-{{ label | downcase | replace: ' ', '-' }}">{{label}}</span>
+              {% endif %}
+            {% endfor %}
+        </li>
         {% endfor %}
         </ul>
       </li>

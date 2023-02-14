@@ -24,20 +24,19 @@ We designed this board to be low-power friendly - with a spot for a 350 or 420 m
 
 And of course, the Mag in MagTag stands for _magnetic_. [We have four M3 standoffs that will work perfectly with these mini magnet feet](https://www.adafruit.com/product/4631). (Originally they're designed for RGB Matrices but they'll do an excellent job here as well). Screw on the feet and you can attach this display to a metallic shelf, fridge, or bench.
 
-Here's the cool hardware we put together:
+## Technical details
 
-**Features:**
- * **ESP32-S2 240MHz Tensilica processor** - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!
- * **WROVER module** has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers
+ * **ESP32-S2 240 MHz Tensilica processor** - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!
+ * **WROVER module** has FCC/CE certification and comes with 4 MB of Flash and 2 MB of PSRAM - you can have huge data buffers
  * **2.9" grayscale display with 296x128 pixels**. Each pixel can be white, light gray, dark gray or black. Compared to 'tri-color' displays with a red pigment, this display takes a lot less time to update, only about a second instead of 15 seconds!
  * **USB C** power and data connector
- * **Four RGB side-emitting NeoPixels** so you can light up the display with any color or pattern
- * **Four buttons** can be used to wake up the ESP32 from deep-sleep, or select different modes
+ * 4 **RGB side-emitting NeoPixels** so you can light up the display with any color or pattern
+ * 4 **buttons** can be used to wake up the ESP32 from deep-sleep, or select different modes
  * **Triple-axis accelerometer** (LIS3DH) can be used to detect orientation of the display
  * **Speaker/Buzzer** with mini class D amplifier on DAC output A0 can play tones or lo-fi audio clips.
  * Front facing **light sensor**
  * **STEMMA QT** port for [attaching all sorts of I2C devices](https://www.adafruit.com/stemma)
- * Two **STEMMA 3 pin JST** connectors for attaching [NeoPixels](https://www.adafruit.com/product/3919), [speakers](https://www.adafruit.com/product/3885), [servos](https://www.adafruit.com/product/4326) or [relays](https://www.adafruit.com/product/4409).
+ * 2 **STEMMA 3 pin JST** connectors for attaching [NeoPixels](https://www.adafruit.com/product/3919), [speakers](https://www.adafruit.com/product/3885), [servos](https://www.adafruit.com/product/4326) or [relays](https://www.adafruit.com/product/4409).
  * **On/Off switch**
  * **Boot** and **Reset buttons** for re-programming
 

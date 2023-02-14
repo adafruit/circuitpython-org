@@ -9,6 +9,7 @@ board_image: "pimoroni_interstate75.jpg"
 date_added: 2021-12-02
 family: raspberrypi
 features:
+  - External Display
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly

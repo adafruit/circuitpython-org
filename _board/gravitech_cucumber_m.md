@@ -8,6 +8,7 @@ board_url: "https://www.gravitech.us/cumesdebo.html"
 board_image: "gravitech_cucumber_m.jpg"
 date_added: 2021-8-13
 family: esp32s2
+bootloader_id: gravitech_cucumberRIS_v1.1
 downloads_display: true
 features:
   - Wi-Fi
@@ -15,8 +16,15 @@ features:
   - Breadboard-Friendly
 ---
 
-Cucumber M is a WiFi IoT development board. It features the latest ESP32-S2 chipset from Espressif (ESP32-S2-WROOM). M version is using integrated PCB antenna. It is packed with many goodies. I.E. x2 USB Type-C (debug and OTG), FTDI chip for USB-to-Serial converter which highly compatible with most computers, RGB LED which use only one signal line and can mix up to over 16 million color, TX/RX, IO2 and PWR LED, colorful sticker indicate the pin function. Cucumber M come in a nice clear plastic box for ease of storage. All these functions in less than $14USD.
+Cucumber M is a WiFi IoT development board. It features the latest ESP32-S2 chipset from Espressif (ESP32-S2-WROOM). M version is using integrated PCB antenna.
+
+## Features
+
+- x2 USB-C (debug and OTG)
+- FTDI chip for USB-to-Serial converter
+- RGB LED which use only one signal line and can mix up to over 16 million color
+- TX/RX, IO2 and PWR LED
 
 ## Purchase
-Add any links to purchase the board
+
 * [Gravitech](https://www.gravitech.us/cumesdebo.html)

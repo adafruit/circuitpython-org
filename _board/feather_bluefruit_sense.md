@@ -8,7 +8,7 @@ board_url: "https://www.adafruit.com/product/4516"
 board_image: "feather_bluefruit_sense.jpg"
 date_added: 2020-2-1
 family: nrf52840
-bootloader_id: clue_nrf52840
+bootloader_id: feather_nrf52840_sense
 features:
   - Feather-Compatible
   - Battery Charging
@@ -30,17 +30,18 @@ A chorus of supporting sensors surround the module so you can do all sorts of **
  * [SHT Humidity](https://www.adafruit.com/product/4099)
  * [BMP280 temperature and barometric pressure/altitude](https://www.adafruit.com/product/2651)
 
-Features:
+## Technical details
+
  * ARM Cortex M4F (with HW floating point acceleration) running at 64MHz
  * 1MB flash and 256KB SRAM
  * **Native Open Source USB stack** - pre-programmed with UF2 bootloader
  * Bluetooth Low Energy compatible 2.4GHz radio (Details available in the [nRF52840](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840) product specification)
  * **FCC / IC / TELEC certified module**
- * Up to +8dBm output power
+ * Up to +8 dBm output power
  * 21 GPIO, 6 x 12-bit ADC pins, up to 12 PWM outputs (3 PWM modules with 4 outputs each)
  * Pin #13 red LED for general purpose blinking, Blue LED for general purpose connection status, NeoPixel for colorful feedback
  * Power/enable pin
- * Measures 2.0" x 0.9" x 0.28" (51mm x 23mm x 7.2mm) without headers soldered in
+ * Measures 2.0" x 0.9" x 0.28" (51 mm x 23 mm x 7.2 mm) without headers soldered in
  * Light as a (large?) feather - 6 grams
  * 4 mounting holes
  * Reset button
@@ -48,4 +49,5 @@ Features:
  * [Works out of the box with all of our Adafruit FeatherWings!](https://www.adafruit.com/categories/814) (Even the UART-using ones like the GPS FeatherWing)
 
 ## Purchase
+
 * [Adafruit](https://www.adafruit.com/product/4516)

@@ -8,6 +8,8 @@ board_url: "https://drive.google.com/file/d/1ZGZZyPdnp49XdEDqoT0ZOT0FdfJ4DM-z/vi
 board_image: "xinabox_cs11.jpg"
 date_added: 2019-12-17
 family: atmel-samd
+bootloader_id: CS11
+
 ---
 
 This xCHIP forms part of the core modules. The SAM D21 is a series of low-power micro controllers using the 32-bit ARM® Cortex® -M0+ processor, with 256 KB Flash and 32KB of SRAM. Compatible with Arduino platform due to the shared architecture with the Arduino M0.

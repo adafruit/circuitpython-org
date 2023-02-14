@@ -26,20 +26,20 @@ The ESP32-S2 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (So
 
 **Please note** the Feather ESP32-S2 has a single-core 240 MHz chip, so it won't be as fast as ESP32's with dual-core. Also, there is no Bluetooth support. However, we are super excited about the ESP32-S2's native USB which unlocks a lot of capabilities for advanced interfacing! This ESP32-S2 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM so you can buffer massive JSON files for parsing!
 
-**Features:**
+## Technical details
 
-- **ESP32-S2 240MHz Tensilica processor** - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!
-- **Mini module** has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers
-- **Power options** - USB type C **or** Lipoly battery
+- **ESP32-S2 240 MHz Tensilica processor** - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!
+- **Mini module** has FCC/CE certification and comes with 4 MB of Flash and 2 M of PSRAM - you can have huge data buffers
+- **Power options** - USB-C **or** Lipoly battery
 - **Built-in battery charging** when powered over USB-C
-- **BME280 temperature / humidity / barometric pressures sensor** connected over I2C on address 0x77 for immediate ambient weather sensing (**on BME280 version only!**)
+- **BME280** temperature / humidity / barometric pressure sensor connected over I2C on address `0x77` for immediate ambient weather sensing (**on BME280 version only!**)
 - **LiPoly battery monitor** - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C
 - **Reset and DFU** (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don't need a separate cable!)
 - **Serial debug output pin** (optional, for checking the hardware serial debug console)
-- **STEMMA QT** connector for I2C devices, with switchable power, so you can go into low power mode.
-- **On/Charge/User** LEDs + status **NeoPixel** with pin-controlled power for low power usage
-- **Low Power friendly**! In deep sleep mode we can get down to 30uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C power for the lowest quiescent current draw.
-- **Works with Arduino or CircuitPython**
+- **STEMMA QT** connector for I2C devices, with switchable power, so you can go into low power mode
+- **On/Charge/User** LEDs and status **NeoPixel** with pin-controlled power for low power usage
+- **Low Power friendly**! In deep sleep mode we can get down to 30 uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C power for the lowest quiescent current draw.
+- Works with Arduino or CircuitPython
 
 ## Purchase
 

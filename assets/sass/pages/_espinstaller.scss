@@ -1,0 +1,110 @@
+.cp-installer-dialog {
+    min-width: 300px;
+    min-height: 100px;
+    max-width: 600px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+
+    &::backdrop {
+        backdrop-filter: blur(2px);
+    }
+
+    .close-button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 24px;
+        height: 24px;
+        opacity: 0.3;
+        background: transparent;
+        border: none;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:before, &:after {
+            position: absolute;
+            left: 12px;
+            top: 0;
+            content: ' ';
+            height: 25px;
+            width: 2px;
+            background-color: #333;
+        }
+        &:before {
+            transform: rotate(45deg);
+        }
+        &:after {
+            transform: rotate(-45deg);
+        }
+    }
+
+    .dialog-body {
+        margin-top: 24px;
+
+        p.centered {
+            text-align: center;
+        }
+
+        progress {
+            width: 100%;
+        }
+
+        .loader {
+            display: block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+
+            div {
+                box-sizing: border-box;
+                display: block;
+                position: absolute;
+                width: 64px;
+                height: 64px;
+                margin: 8px;
+                border: 8px solid #fff;
+                border-radius: 50%;
+                animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+                border-color: #3498db transparent transparent transparent;
+                &:nth-child(1) {
+                    animation-delay: -0.45s;
+                }
+                &:nth-child(2) {
+                    animation-delay: -0.3s;
+                }
+                &:nth-child(3) {
+                    animation-delay: -0.15s;
+                }
+            }
+        }
+
+        @-webkit-keyframes loader {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes loader {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    }
+
+    .dialog-navigation {
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 20px;
+        padding-left: inherit;
+        padding-right: inherit;
+        left: 0;
+        right: 0;
+
+        button {
+            margin: 10px 20px;
+        }
+    }
+
+}

@@ -13,7 +13,7 @@ date_added: 2022-1-4
 features:
   - Wi-Fi
   - Ethernet
-  - HDMI
+  - HDMI/DisplayPort
   - Infrared Receiver
 ---
 

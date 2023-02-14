@@ -8,6 +8,7 @@ board_url: "https://makerdiary.com/collections/frontpage/products/nrf52840-m2-de
 board_image: "makerdiary_nrf52840_m2_devkit.jpg"
 date_added: 2020-07-27
 family: nrf52840
+bootloader_id: nrf52840_m2
 features:
   - Bluetooth/BTLE
   - Display

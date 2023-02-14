@@ -13,7 +13,7 @@ date_added: 2020-1-18
 features:
   - Wi-Fi
   - Bluetooth/BLE
-  - HDMI
+  - HDMI/DisplayPort
   - 40-pin GPIO
 ---
 

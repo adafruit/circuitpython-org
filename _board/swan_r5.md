@@ -7,6 +7,7 @@ manufacturer: "Blues Wireless"
 board_url: "https://blues.io/products/swan"
 board_image: "swan_r5.jpg"
 date_added: 2021-9-29
+family: stm
 features:
   - Feather-Compatible
   - Battery Charging
@@ -35,7 +36,7 @@ The board has three independent power options â€“ USB, Battery, or Line power â€
   * low-power RTC, and CRC calculation peripherals
 
 ## Tutorial
-* [Swan Quickstart on dev.blues.io](https://dev.blues.io/start/swan/swan-quickstart)
+* [Swan Quickstart on dev.blues.io](https://dev.blues.io/quickstart/swan-quickstart/#using-circuitpython)
 
 ## Purchase
 * [Blues Shop](https://shop.blues.io/products/swan)

@@ -6,22 +6,38 @@
 {% if board[0] %}
 {% assign stable = board[0].versions | where: "stable", true | sort: "version" %}
 {% assign unstable = board[0].versions | where: "stable", false | sort: "version" %}
+{% assign bootloaders = site.data.bootloaders.bootloaders %}
+{% assign bootloader_version = bootloaders[page.family].version %}
+{% assign bootloader_id = page.bootloader_id %}
 {% assign releases = stable | concat: unstable %}
 {% capture board_url %}https://downloads.circuitpython.org/bin/{{ board_id}}{% endcapture %}
 {% for version in releases %}
   <div class="section {% if version.stable %}stable{% else %}unstable{% endif %}">
     <h3>CircuitPython {{ version.version }}</h3>
+    {% if version.stable %}
     <p>
-      This is the latest {% if version.stable %}<strong>stable</strong>{% else %}unstable{% endif %}
-      release of CircuitPython that will work with the {{ page.name }}.
+      This is the latest <strong>stable</strong> release of CircuitPython that will work with the {{ page.name }}.
     </p>
     <p>
-      {% if version.stable %}
-      <strong>Start here</strong> if you are new to CircuitPython.
-      {% else %}
-      Unstable builds have the latest features but are more likely to have critical bugs.
-      {% endif %}
+      <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
+    {% else %}
+    <p>
+      This is the latest development release of CircuitPython that will work with the {{ page.name }}.
+    </p>
+    <p>
+      <strong>Alpha</strong> development releases are early releases.
+      They are unfinished, are likely to have bugs, and the features they provide may change.
+      <strong>Beta</strong> releases may have some bugs and unfinished features,
+      but should be suitable for many uses.
+      A <strong>Release Candidate (rc)</strong> release is considered done and
+      will become the next stable release, assuming no further issues are found.
+    </p>
+    <p>
+      Please try alpha, beta, and rc releases if you are able.
+      Your testing is invaluable: it helps us uncover and find issues quickly.
+    </p>
+    {% endif %}
     <p>
       <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
     </p>
@@ -111,12 +127,31 @@
       {% for extension in version.extensions %}
         <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
+      {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' %}
+        <button is="cp-install-button" class="installer-button" boardname="{{ page.name }}" boardid="{{ board_id }}"
+        {% for extension in version.extensions %}
+            {{ extension }}file="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}"
+        {% endfor %}
+        {% if bootloader_version and bootloader_id %}
+          bootloader="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip"
+          bootloaderid="{{ bootloader_id }}"
+        {% endif %}
+        version="{{ version.version }}"
+        chipfamily="{{ page.family }}"
+        >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
+      {% endif %}
       </div>
     </div>
     {% if version.modules %}
     <p>
         Built-in modules available:
         <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.modules | join: ', ' }}</span>
+    </p>
+    {% endif %}
+    {% if version.frozen_libraries and version.frozen_libraries.size != 0 %}
+    <p>
+        Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
+        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.frozen_libraries | join: ', ' }}</span>
     </p>
     {% endif %}
   </div>
@@ -126,9 +161,10 @@
   <h3>Absolute Newest</h3>
   <p>
     Every time we commit new code to CircuitPython we automatically
-    build binaries for each board and language.  The binaries are
+    build binaries for each board and language. The binaries are
     stored on Amazon S3, organized by board, and then by
-    language. Try them if you want the absolute latest and are
+    language. These releases are even newer than the development release listed above.
+    Try them if you want the absolute latest and are
     feeling daring or want to see if a problem has been fixed.
   </p>
   <div>
@@ -137,21 +173,23 @@
   </div>
 </div>
 <div class="section unrecommended">
-  <h3>Past Releases</h3>
+  <h3>Previous Versions of CircuitPython</h3>
   <p>
-    All previous releases are listed on GitHub, with release notes,
-    and are available for download from Amazon S3.  They are handy for
-    testing, but otherwise we recommend using the latest stable
-    release.  Some older GitHub release pages include the same
-    binaries for downloading.  But we have discontinued including
-    binaries as assets on newer release pages because of the large
-    number of files for each release.
+    All previous releases of CircuitPython are available for download from Amazon S3 through the button below.
+    For very old releases, look in the <strong>OLD/</strong> folder for each board.
+    Release notes for each release are available at GitHub button below.
   </p>
   <p>
-    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+    Older releases are useful for testing if you something appears to be broken in a newer release
+    but used to work,
+    or if you have older code that depends on features only available in an older release.
+    Otherwise we recommend using the latest stable release.
   </p>
   <div>
     <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+  </div>
+  <div>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -162,12 +200,8 @@ version of its bootloader family.
 By the way, boolean operation precedence is right to left! (yeesh)
 {% endcomment %}
 
-{% assign bootloaders = site.data.bootloaders.bootloaders %}
-{% assign bootloader_version = bootloaders[page.family].version %}
-{% assign bootloader_id = page.bootloader_id %}
 {% if bootloader_version and bootloader_id %}
-
-{% if page.family == 'esp32s2' %}
+{% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' %}
 <div class="section unrecommended">
   <h3>Install, Repair, or Update UF2 Bootloader</h3>
   <p>
@@ -186,19 +220,22 @@ By the way, boolean operation precedence is right to left! (yeesh)
   </p>
   <p>
     If a UF2 bootloader has never been installed on the board, or the UF2 bootloader was removed by erasing or overwriting the flash, the UF2 bootloader must be installed in order to flash <b>.uf2</b> files onto the board. <b>.bin</b> files can be uploaded without a UF2 bootloader, using the
-    <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a>
+    <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">ESP Web Flasher</a>
     or <b>esptool.py</b>.
   </p>
 
   <p>
-    <em>Note: <b>update.uf2</b> files are not currently working on ESP32-S2 boards.</em>
+    <em>Note: <b>update.uf2</b> files are not currently working on ESP32-S2 or ESP32-S3 boards.</em>
   </p>
 
   <p><strong><em>Important</em></strong>:
     <em>this will erase previously flashed firmware and sketches from the board,
       but needs to be perfomed only once.</em>
   </p>
-
+  <p><em>The instructions here are general.
+      We recommend you consult the manufacturer's board documentation for detailed
+      instructions, which may be different.</em>
+  </p>
  <ul>
   <li>Unzip to find the file <b>combined.bin</b>.</li>
   <li>Place board in bootloader mode:
@@ -211,7 +248,7 @@ By the way, boolean operation precedence is right to left! (yeesh)
   </li>
   <li>Upload <b>combined.bin</b> (Google Chrome 89 or newer):
    <ul>
-    <li>Open <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a> in a new window/tab.</li>
+    <li>Open <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">ESP Web Flasher</a> in a new window/tab.</li>
     <li>Select <b>460800 Baud</b> from the pull-down menu (top-right).</li>
     <li>Click <b>Connect</b> (top-right).</li>
     <li>Select the COM or Serial port from the pop-up window.</li>
@@ -224,8 +261,13 @@ By the way, boolean operation precedence is right to left! (yeesh)
   </li>
  </ul>
  <p>
- After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
- Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
+   After installing the UF2 bootloader, enter the bootloader by double-clicking the reset button.
+   On boards with an RGB status LED, tap reset once, wait for the LED to turn purple, and tap
+   again before the purple goes away. On other boards, consult the board documentation.
+   </p>
+ <p>
+   After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
+   Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
  </p>
  <div>
     <a class="download-button" href="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip">DOWNLOAD BOOTLOADER ZIP<i class="fas fa-download" aria-hidden="true"></i></a>

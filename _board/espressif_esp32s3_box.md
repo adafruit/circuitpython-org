@@ -6,6 +6,7 @@ name: "ESP32-S3 Box"
 manufacturer: "Espressif"
 board_url: "https://www.adafruit.com/product/5290"
 board_image: "espressif_esp32s3_box.jpg"
+bootloader_id: espressif_esp32s3_box
 date_added: 2020-05-15
 family: esp32s3
 features:
@@ -35,7 +36,7 @@ The ESP32-S3-BOX comes with pre-built firmware that supports offline voice inter
 *   For more details of ESP32-S3-BOX hardware, [Please refer to ESP32-S3-BOX hardware overview](https://github.com/espressif/esp-box/blob/master/docs/hardware_overview.md)
 *   For the latest version firmware, [Please refer to the ESP32-S3-BOX firmware update](https://github.com/espressif/esp-box/blob/master/docs/firmware_update.md)
 
-**Important Note: We recommend [updating the ESP32-S3-BOX firmware](https://github.com/espressif/esp-box/blob/master/docs/firmware_update.md) when you first receive the kit to have the latest features and bugfix. Current firmware support is though ESP-IDF (not Arduino or CircuitPython/MicroPython yet)**
+**Important Note: We recommend [updating the ESP32-S3-BOX firmware](https://github.com/espressif/esp-box/blob/master/docs/firmware_update.md) when you first receive the kit to have the latest features and bugfix. Current firmware support is though ESP-IDF (not Arduino yet)**
 
 ## Purchase
 

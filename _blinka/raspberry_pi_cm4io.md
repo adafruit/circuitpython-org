@@ -11,7 +11,7 @@ downloads_display: true
 blinka: true
 date_added: 2020-12-10
 features:
-  - HDMI
+  - HDMI/DisplayPort
   - Ethernet
   - Wi-Fi
   - 40-pin GPIO

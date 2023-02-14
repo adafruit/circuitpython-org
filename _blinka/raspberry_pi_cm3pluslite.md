@@ -11,7 +11,7 @@ downloads_display: true
 blinka: true
 date_added: 2019-6-24
 features:
-  - HDMI
+  - HDMI/DisplayPort
 ---
 
 The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+ Lite) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is the new heat spreader on the main processor which will let it run at full speed much faster without overheating.

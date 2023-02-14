@@ -1,15 +1,7 @@
-{% for static_file in site.static_files %}
   {% assign small_image = "/assets/images/boards/small/" | append: include.board_image %}
-  {% if static_file.path == small_image %}
-    {% assign has_responsive_images = true %}
-  {% endif %}
-{% endfor %}
-{% if has_responsive_images %}
-  <img srcset="{{ small_image | relative_url }} 300w,
-               {{ "/assets/images/boards/large/" | append: include.board_image | relative_url }} 700w"
+  {% assign large_image = "/assets/images/boards/large/" | append: include.board_image %}
+  <img srcset="{{ small_image }} 300w,
+               {{ large_image }} 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="{{ "/assets/images/boards/original/" | append: include.board_image | relative_url }}" alt="Image of Board" loading="lazy">
-{% else %}
-  <img src="{{ "/assets/images/boards/original/" | append: include.board_image | relative_url }}" alt="Image of Board" loading="lazy">
-{% endif %}
+       src="{{ large_image }}" alt="Image of Board" loading="lazy">

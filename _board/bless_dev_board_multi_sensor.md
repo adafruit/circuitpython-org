@@ -3,12 +3,13 @@ layout: download
 board_id: "bless_dev_board_multi_sensor"
 title: "BLE-SS Dev Board Multi Sensor Download"
 name: "BLE-SS Dev Board Multi Sensor"
-manufacturer: "Switch Science, Inc."
+manufacturer: "Switch Science, Inc"
 board_url: "http://ssci.to/6250"
 board_image: "bless_dev_board_multi_sensor.jpg"
 downloads_display: true
 date_added: 2020-07-27
 family: nrf52840
+bootloader_id: aramcon_badge_2019
 features:
 ---
 

@@ -7,9 +7,11 @@ manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
 board_image: "raspberry_pi_zero_2_w.jpg"
 date_added: 2021-11-29
+family: broadcom
+
 ---
 
-**NOTE**: Not all features are supported in CircuitPython.
+**NOTE**: This build is alpha quality and is for experimental use. It is [missing features and has known issues](https://github.com/adafruit/circuitpython/labels/broadcom).
 
 **Raspberry Pi Zero 2 W** is the latest product in Raspberry Pi's most affordable range of single-board computers. The successor to the breakthrough Raspberry Pi Zero W, **Raspberry Pi Zero 2 W** is a form factor–compatible drop-in replacement for the original board.
 
@@ -19,7 +21,7 @@ The board has a microSD card slot, a CSI-2 camera connector, a USB On-The-Go (OT
 
 ## CircuitPython
 
-These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.
+These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.
 
 After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the micro-B USB connector labeled "USB".
 

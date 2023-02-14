@@ -7,9 +7,11 @@ manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-w/"
 board_image: "raspberry_pi_zero_w.jpg"
 date_added: 2022-01-07
+family: broadcom
+
 ---
 
-**NOTE**: Not all features are supported in CircuitPython.
+**NOTE**: This build is alpha quality and is for experimental use. It is [missing features and has known issues](https://github.com/adafruit/circuitpython/labels/broadcom).
 
 **Raspberry Pi Zero W** Is the first small size (Wifi enabled) Raspberry Pi's single-board computers. This is the predecessor of **Raspberry Pi Zero 2 W** with the same form factor.
 
@@ -19,7 +21,7 @@ The board has a microSD card slot, a CSI-2 camera connector, a USB On-The-Go (OT
 
 ## CircuitPython
 
-These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.
+These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.
 
 This image could work on non Wifi Pi Zero but was primarly develop for the Wifi version.
 

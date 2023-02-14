@@ -163,9 +163,13 @@ function setupManufacturers(downloads) {
     checkbox.name = "manufacturer";
     checkbox.className = 'filter-checkbox';
     checkbox.value = manufacturer;
+    checkbox.id = 'manufacturer-' + manufacturer;
 
     li.appendChild(checkbox);
-    li.appendChild(document.createTextNode(manufacturer));
+    var label = document.createElement('label');
+    label.htmlFor = checkbox.id;
+    label.innerText = manufacturer;
+    li.appendChild(label);
 
     manufacturerList.appendChild(li);
   });
@@ -196,9 +200,14 @@ function setupMcufamilies(downloads) {
       checkbox.name = "mcufamily";
       checkbox.className = 'filter-checkbox';
       checkbox.value = mcufamily;
+      checkbox.id = 'mcufamily-' + mcufamily;
 
       li.appendChild(checkbox);
-      li.appendChild(document.createTextNode(mcufamily));
+
+      var label = document.createElement('label');
+      label.htmlFor = checkbox.id;
+      label.innerText = mcufamily;
+      li.appendChild(label);
 
       mcufamilyList.appendChild(li);
     }
@@ -234,9 +243,14 @@ function setupFeatures(downloads) {
     checkbox.name = "feature";
     checkbox.className = 'filter-checkbox';
     checkbox.value = feature;
+    checkbox.id = 'feature-' + feature;
 
     li.appendChild(checkbox);
-    li.appendChild(document.createTextNode(feature));
+
+    var label = document.createElement('label');
+    label.htmlFor = checkbox.id;
+    label.innerText = feature;
+    li.appendChild(label);
 
     featureList.appendChild(li);
   });
@@ -274,7 +288,7 @@ function setupFilterListeners() {
           removeFilterTag('mcufamily', checkbox.value);
         }
       }
-      setURL('mcufamilies', downloadsSearch.selected.features);
+      setURL('mcufamilies', downloadsSearch.selected.mcufamilies);
       filterResults();
     }
 
@@ -421,8 +435,17 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedMcufam
 
   if (downloadsSearch.searchTerm && downloadsSearch.searchTerm.length > 0 && shouldDisplay) {
     var regex = new RegExp(downloadsSearch.searchTerm, "gi");
-    var haystack = download.dataset.name + " " + download.dataset.id + " " + download.dataset.manufacturer + " " + download.dataset.mcufamily + " " + download.dataset.features;
+    var dataFields = [
+        download.dataset.name,
+        download.dataset.id,
+        download.dataset.manufacturer,
+        download.dataset.mcufamily,
+        download.dataset.features,
+        download.dataset.tags,
+        download.dataset.modules,
+    ];
 
+    var haystack = dataFields.join(" ");
     shouldDisplay = haystack.match(regex);
   }
 
@@ -441,3 +464,7 @@ function appendFilterTag(type, name) {
 function removeFilterTag(type, name) {
   document.querySelector("[data-type='" + type + "'][data-name='" + name + "']").parentNode.remove();
 }
+
+window.addEventListener('load', function () {
+    document.querySelector("#search").focus();
+});

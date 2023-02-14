@@ -49,11 +49,11 @@ excerpt: CircuitPython supported boards.
         <fieldset>
           <legend>Sort By</legend>
           <ul class="content">
-            <li><input type="radio" name="sort-by" value="downloads" aria-label="Downloads" checked> Downloads</li>
-            <li><input type="radio" name="sort-by" value="alpha-asc" aria-label="Board Name (A to Z)"> Board Name (A to Z)</li>
-            <li><input type="radio" name="sort-by" value="alpha-desc" aria-label="Board Name (Z to A)"> Board Name (Z to A)</li>
-            <li><input type="radio" name="sort-by" value="date-desc" aria-label="Date Added (Newest First)"> Date Added (Newest First)</li>
-            <li><input type="radio" name="sort-by" value="date-asc" aria-label="Date Added (Oldest First)"> Date Added (Oldest First)</li>
+            <li><input type="radio" name="sort-by" value="downloads" aria-label="Downloads" id="sortby-downloads" checked><label for="sortby-downloads">Downloads</label></li>
+            <li><input type="radio" name="sort-by" value="alpha-asc" aria-label="Board Name (A to Z)" id="sortby-alpha-asc" ><label for="sortby-alpha-asc">Board Name (A to Z)</label></li>
+            <li><input type="radio" name="sort-by" value="alpha-desc" aria-label="Board Name (Z to A)" id="sortby-alpha-desc"><label for="sortby-alpha-desc">Board Name (Z to A)</label></li>
+            <li><input type="radio" name="sort-by" value="date-desc" aria-label="Date Added (Newest First)" id="sortby-date-desc"><label for="sortby-date-desc">Date Added (Newest First)</label></li>
+            <li><input type="radio" name="sort-by" value="date-asc" aria-label="Date Added (Oldest First)" id="sortby-date-asc"><label for="sortby-date-asc">Date Added (Oldest First)</label></li>
           </ul>
         </fieldset>
       </div>
@@ -96,14 +96,33 @@ excerpt: CircuitPython supported boards.
     {% assign boards = site.data.files | sort: "downloads" | reverse %}
     {% for board in boards %}
       {% assign info = site.board | where: 'board_id', board.id %}
+      {% assign info_name = info[0].name %}
       {% if info.size == 0 %}
         {% assign info = site.board | where: 'board_id', 'unknown' %}
+        {% assign info_name = board.id %}
       {% endif %}
 
       {% assign info = info[0] %}
 
+      {% assign stable = board.versions | where: "stable", true | sort: "version" %}
+      {% assign unstable = board.versions | where: "stable", false | sort: "version" %}
+      {% if stable[0].modules and unstable[0].modules %}
+        {% assign modules = stable[0].modules | concat: unstable[0].modules | uniq %}
+      {% elsif stable[0].modules %}
+        {% assign modules = stable[0].modules %}
+      {% elsif unstable[0].modules %}
+        {% assign modules = unstable[0].modules %}
+      {% else %}
+        {% assign modules = '' | split: '' %}
+      {% endif %}
       {% if info.downloads_display == false %}
         {% continue %}
+      {% endif %}
+
+      {% if info.board_id != 'unknown' %}
+        {% assign download_url = info.url %}
+      {% else %}
+        {% capture download_url %}{{ info.url }}?unknown_id={{ board.id }}{% endcapture %}
       {% endif %}
 
       <div class="download" data-id="{{ board.id }}"
@@ -112,14 +131,16 @@ excerpt: CircuitPython supported boards.
                             data-manufacturer="{{ info.manufacturer }}"
                             data-mcufamily="{{ info.family }}"
                             data-features="{{ info.features | join: ','}}"
+                            data-tags="{{ info.tags | join: ','}}"
+                            data-modules="{{ modules | join: ', ' }}"
                             data-date="{{ info.date_added }}">
-        <a href="{{ info.url | relative_url }}">
+        <a href="{{ download_url | relative_url }}">
           <div>
             <div class="img-responsive-4by3">
               {% include downloads/board_image.html board_image=info.board_image %}
             </div>
             <div class="details">
-              <h3>{{ info.name | default: board.id }}</h3>
+              <h3>{{ info_name | default: board.id }}</h3>
               By {{ info.manufacturer }}
             </div>
           </div>
@@ -143,6 +164,7 @@ excerpt: CircuitPython supported boards.
                               data-manufacturer="{{ board.manufacturer }}"
                               data-mcufamily="{{ board.family }}"
                               data-features="{{ board.features | join: ','}}"
+                              data-tags="{{ info.tags | join: ','}}"
                               data-date="{{ board.date_added }}">
           <a href="{{ board.url | relative_url }}">
             <div>

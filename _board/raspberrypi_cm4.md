@@ -7,8 +7,11 @@ manufacturer: "Raspberry Pi"
 board_url: "https://www.raspberrypi.com/products/compute-module-4/"
 board_image: "raspberry_pi_cm4.jpg"
 date_added: 2022-1-4
+family: broadcom
 
 ---
+
+**NOTE**: This build is alpha quality and is for experimental use. It is [missing features and has known issues](https://github.com/adafruit/circuitpython/labels/broadcom).
 
 The **Raspberry Pi Compute Module 4** is based on the [Raspberry Pi 4 Model B](http://www.adafruit.com/product/4297), but in a smaller form factor - perfect for embedding into products or projects without the bulk of a classic Raspberry Pi. You get all the computational power of Raspberry Pi 4 in a compact form factor for deeply embedded applications. The CM4 incorporates the same quad-core ARM Cortex-A72 processor, dual video output, gigabit Ethernet, UART, I2C, SPI, I2S, and a few PWM for good measure.
 
@@ -47,7 +50,7 @@ This significantly reduces the overall footprint of the module on its carrier bo
 
 ## CircuitPython
 
-These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in its early developments.
+These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.
 
 After installing the disk image on an SD card, the normal CircuitPython USB workflow will be available on the micro-B connector on the IO board. EMMC compute modules are not supported yet.
 

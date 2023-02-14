@@ -3,6 +3,17 @@ layout: home
 ---
 
 <div id="home-page">
+  {% comment %}
+  <div class="promotion-banner">
+      <a
+          href="https://blog.adafruit.com/2022/08/08/circuitpython-day-2022-schedule-circuitpythonday2022-circuitpython-python/">
+        <img class="image-promotion" alt="CircuitPython Day August 19, 2022 Details"
+                                  src="{{ "assets/images/heroes/circuitpython_day_header.jpg" |
+                                          relative_url }}"
+          />
+      </a>
+  </div>
+  {% endcomment %}
   <div class="headline-banner">
     <div class="img-overlay"></div>
       <img class="image-headline" alt="hero image"
@@ -115,7 +126,7 @@ layout: home
         and universities. It's a high-level programming language which means it's
         designed to be easier to read, write and maintain. It supports modules and
         packages which means it's easy to reuse your code for other projects. It
-        has a built in interpreter which means there are no extra steps, like
+        has a built-in interpreter which means there are no extra steps, like
         compiling, to get your code to work. And of course, Python is Open Source
         Software which means it's free for anyone to use, modify or improve upon.
       </p>
@@ -147,7 +158,7 @@ layout: home
       <p>
         Most CircuitPython libraries also work on <a href="/blinka">single board computers (SBCs)</a>, such as the Raspberry Pi.
         Linux runs "desktop" Python (commonly known as CPython) instead of CircuitPython.
-        Our CPython Blinka library provides CircuitPython's low level hardware APIs, such as `digitalio`.
+        Our CPython Blinka library provides CircuitPython's low-level hardware APIs, such as `digitalio`.
       </p>
       <p>
         Blinka and CircuitPython libraries are just a `pip install` away.

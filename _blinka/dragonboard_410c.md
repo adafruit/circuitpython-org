@@ -12,7 +12,7 @@ blinka: true
 date_added: 2019-6-29
 features:
   - Wi-Fi
-  - HDMI
+  - HDMI/DisplayPort
   - 40-pin GPIO
   - GPS
 ---

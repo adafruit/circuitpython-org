@@ -11,7 +11,7 @@ downloads_display: true
 blinka: true
 date_added: 2019-6-17
 features:
-- HDMI
+- HDMI/DisplayPort
 ---
 
 The Raspberry Pi 1 Model A is the original Model A.  In November 2014 It was superseded by the Raspberry Pi 1 Model A+
