@@ -1,17 +1,11 @@
 'use strict';
 import { html } from 'https://unpkg.com/lit-html?module';
+import * as toml from "https://unpkg.com/iarna-toml-esm@3.0.5/toml-esm.mjs"
 import * as zip from "https://deno.land/x/zipjs/index.js";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
-import {REPL} from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.0.0/repl.js';
+import {REPL} from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.1.0/repl.js';
 import { InstallButton } from "./base_installer.js";
-import * as settingsTemplate from "./templates/settings.js";
 
-// TODO: Figure out how to make the Web Serial from ESPTool and Web Serial to communicate with CircuitPython not conflict.
-// It may just be easier to reconnect because for chips like the S3 and S2, it's a JTAG connection and there is
-// inconsistency among the different chips. We may also be able to attempt to just connect.
-// I think at the very least we'll have to reuse the same port so the user doesn't need to reselct, though it's possible it
-// may change after reset. Since it's not
-//
 // For now, we'll use the following procedure for ESP32-S2 and ESP32-S3:
 // 1. Install the bootloader file
 // 2. Have User Reset the board
@@ -122,7 +116,7 @@ export class CPInstallButton extends InstallButton {
         },
         test: {
             label: "Test (To be Removed)",
-            steps: [this.stepTest],
+            steps: [this.stepSetupRepl, this.stepTest],
             isEnabled: async () => { return true; },
         }
     }
@@ -389,8 +383,13 @@ export class CPInstallButton extends InstallButton {
     }
 
     async stepTest() {
-        console.log(await this.getBootDriveName());
-        console.log(await this.getSerialPortName());
+        if (!this.repl) {
+            console.error("REPL needs to be connected first");
+        }
+
+        let settings = await this.getCurrentSettings();
+        console.log(settings);
+        await this.writeSettings(settings);
     }
 
 
@@ -710,34 +709,29 @@ export class CPInstallButton extends InstallButton {
     }
 
     async writeSettings(settings) {
-        settings = {
-            CIRCUITPY_WIFI_SSID: "yourwifissid",
-            CIRCUITPY_WIFI_PASSWORD: "yourpassword",
-            CIRCUITPY_WEB_API_PASSWORD: "passw0rd",
-            CIRCUITPY_WEB_API_PORT: 80,
-        }
+        let replCode = [];
+        replCode.push("f = open('settings.toml', 'w')");
 
-        template = settingsTemplate(settings);
-        /* Python Code
-        f = open('settings.toml', 'w')
-        f.write('CIRCUITPY_WIFI_SSID = "wifissid"\n')
-        f.write('CIRCUITPY_WIFI_PASSWORD = "wifipassword"\n')
-        f.write('CIRCUITPY_WEB_API_PASSWORD = "webpassword"\n')
-        f.close()
-        */
+        for (const [setting, value] of Object.entries(settings)) {
+            if (typeof value === "string") {
+                replCode.push(`f.write('${setting} = "${value}"\\n')`);
+            } else {
+                replCode.push(`f.write('${setting} = ${value}\\n')`);
+            }
+        }
+        replCode.push("f.close()");
+        console.log(replCode.join("\n"));
+        await this.repl.runCode(replCode.join("\n"));
     }
 
     async getCurrentSettings() {
-        // Not sure if this is possible via the REPL
-        // Maybe this?
+        let result = await this.repl.runCode("f = open('settings.toml', 'r')\nprint(f.read())\nf.close()\n")
 
-        /* Python Code
-        f = open('settings.toml', 'r')
-        print(f.read())
-        f.close()
-        */
-
-        // Then we parse it
+        if (result) {
+            return toml.parse(result);
+        }
+        console.error("Unable to read settings.toml from CircuitPython");
+        return null;
     }
 
     // TODO: Write a toml reader/writer
