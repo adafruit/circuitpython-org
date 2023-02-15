@@ -1,0 +1,24 @@
+From 72726ff54b3b5782181f6ab2057ce84258a94277 Mon Sep 17 00:00:00 2001
+From: Alec Delaney <89490472+tekktrik@users.noreply.github.com>
+Date: Thu, 1 Sep 2022 20:16:31 -0400
+Subject: [PATCH] Add .venv to .gitignore
+
+---
+ .gitignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/.gitignore b/.gitignore
+index 544ec4a..db3d538 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -37,6 +37,7 @@ _build
+ 
+ # Virtual environment-specific files
+ .env
++.venv
+ 
+ # MacOS-specific files
+ *.DS_Store
+-- 
+2.37.2
+
