@@ -436,13 +436,13 @@ export class CPInstallButton extends InstallButton {
         }
 
         try {
-            this.updateEspConnected(this.connectionStates.CONNECTING);
+            this.updateUIConnected(this.connectionStates.CONNECTING);
             await esploader.initialize();
-            this.updateEspConnected(this.connectionStates.CONNECTED);
+            this.updateUIConnected(this.connectionStates.CONNECTED);
         } catch (err) {
             await esploader.disconnect();
             // Disconnection before complete
-            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.updateUIConnected(this.connectionStates.DISCONNECTED);
             this.errorMsg("Unable to connect to the board. Make sure it is in bootloader mode by holding the boot0 button when powering on and try again.")
             return;
         }
@@ -468,7 +468,7 @@ export class CPInstallButton extends InstallButton {
         } catch (err) {
             await esploader.disconnect();
             // Disconnection before complete
-            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.updateUIConnected(this.connectionStates.DISCONNECTED);
             this.errorMsg("Oops, we lost connection to your board before completing the install. Please check your USB connection and click Connect again. Refresh the browser if it becomes unresponsive.")
         }
     }
@@ -536,7 +536,7 @@ export class CPInstallButton extends InstallButton {
         if (this.espStub) {
             this.espStub.removeEventListener("disconnect", this.espDisconnect.bind(this));
             await this.espStub.disconnect();
-            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.updateUIConnected(this.connectionStates.DISCONNECTED);
             this.espStub = null;
         }
     }
