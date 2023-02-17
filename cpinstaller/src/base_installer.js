@@ -30,6 +30,8 @@ import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/we
 // because it's very integrated into the serial recieve and send code.
 //
 
+export const ESP_ROM_BAUD = 115200;
+
 export class InstallButton extends HTMLButtonElement {
     static isSupported = 'serial' in navigator;
     static isAllowed = window.isSecureContext;
@@ -40,7 +42,7 @@ export class InstallButton extends HTMLButtonElement {
         this.currentFlow = null;
         this.currentStep = 0;
         this.currentDialogElement = null;
-        this.serial = null;
+        this.port = null;
         this.espStub = null;
         this.dialogCssClass = "install-dialog";
         this.connected = this.connectionStates.DISCONNECTED;
@@ -423,7 +425,7 @@ export class InstallButton extends HTMLButtonElement {
     }
 
     async setBaudRateIfChipSupports(chipType, baud) {
-        if (baud == esptoolPackage.ESP_ROM_BAUD) { return } // already the default
+        if (baud == ESP_ROM_BAUD) { return } // already the default
 
         if (chipType == esptoolPackage.CHIP_FAMILY_ESP32) { // only supports the default
             this.logMsg(`ESP32 Chip only works at 115200 instead of the preferred ${baud}. Staying at 115200...`);
@@ -438,4 +440,16 @@ export class InstallButton extends HTMLButtonElement {
             await this.espStub.setBaudrate(baud);
         }
     }
+
+    async espConnect(logger) {
+        // - Request a port and open a connection.
+        this.port = await navigator.serial.requestPort();
+
+        logger.log("Connecting...");
+        await this.port.open({ baudRate: ESP_ROM_BAUD });
+
+        logger.log("Connected successfully.");
+
+        return new esptoolPackage.ESPLoader(this.port, logger);
+    };
 }

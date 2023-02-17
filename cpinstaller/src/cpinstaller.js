@@ -3,9 +3,10 @@ import { html } from 'https://unpkg.com/lit-html?module';
 import * as toml from "https://unpkg.com/iarna-toml-esm@3.0.5/toml-esm.mjs"
 import * as zip from "https://cdn.jsdelivr.net/npm/@zip.js/zip.js@2.6.65/+esm";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
+
 //import * as esptoolPackage from "https://adafruit.github.io/Adafruit_WebSerial_ESPTool/js/modules/esptool.js"
 import { REPL } from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.1.0/repl.js';
-import { InstallButton } from "./base_installer.js";
+import { InstallButton, ESP_ROM_BAUD } from "./base_installer.js";
 
 // TODO: Combine multiple steps together. For now it was easier to make them separate,
 // but for ease of configuration, it would be work better to combine them together.
@@ -13,7 +14,7 @@ import { InstallButton } from "./base_installer.js";
 // that order, but due to having handlers in the first of those steps, it was easier to
 // just call nextStep() from the handler.
 //
-// TODO: Hide the log and make it accessible via the menu (future feature, console.log for now)
+// TODO: Hide the log and make it accessible via the menu (future feature, output to console for now)
 // May need to deal with the fact that the ESPTool uses Web Serial and CircuitPython REPL uses Web Serial
 
 
@@ -46,7 +47,7 @@ export class CPInstallButton extends InstallButton {
         this.circuitpyDriveHandle = null;
         this._bootDriveName = null;
         this._serialPortName = null;
-        this.serialDevice = null;
+        this.replSerialDevice = null;
         this.repl = null;
         this.fileCache = [];
         this.reader = null;
@@ -238,8 +239,8 @@ export class CPInstallButton extends InstallButton {
             buttons: [this.previousButton, {
                 label: "Next",
                 onClick: this.nextStep,
-                isEnabled: async () => { return (this.currentStep < this.currentFlow.steps.length - 1) && !!this.serialDevice; },
-                onUpdate: async (e) => { this.currentDialogElement.querySelector("#butConnect").innerText = !!this.serialDevice ? "Connected" : "Connect"; },
+                isEnabled: async () => { return (this.currentStep < this.currentFlow.steps.length - 1) && !!this.replSerialDevice; },
+                onUpdate: async (e) => { this.currentDialogElement.querySelector("#butConnect").innerText = !!this.replSerialDevice ? "Connected" : "Connect"; },
             }],
         },
 
@@ -253,11 +254,11 @@ export class CPInstallButton extends InstallButton {
                     </div>
                     <div class="field">
                         <label for="circuitpy_wifi_password">WiFi Password:</label>
-                        <input id="circuitpy_wifi_password" class="setting-data" type="text" placeholder="WiFi Password" value="${data.wifi_password}" />
+                        <input id="circuitpy_wifi_password" class="setting-data" type="password" placeholder="WiFi Password" value="${data.wifi_password}" />
                     </div>
                     <div class="field">
                         <label for="circuitpy_web_api_password">Web Workflow API Password:</label>
-                        <input id="circuitpy_web_api_password" class="setting-data" type="text" placeholder="Web Workflow API Password" value="${data.api_password}"  />
+                        <input id="circuitpy_web_api_password" class="setting-data" type="password" placeholder="Web Workflow API Password" value="${data.api_password}"  />
                     </div>
                     <div class="field">
                         <label for="circuitpy_web_api_port">Web Workflow API Port:</label>
@@ -479,16 +480,16 @@ export class CPInstallButton extends InstallButton {
         await this.onReplDisconnected(e);
         await this.espDisconnect();
         let esploader;
-        try {
-            esploader = await esptoolPackage.connect({
+        //try {
+            esploader = await this.espConnect({
                 log: (...args) => this.logMsg(...args),
                 debug: (...args) => {},
                 error: (...args) => this.errorMsg(...args),
             });
-        } catch (err) {
+        /*} catch (err) {
             this.errorMsg("Unable to open Serial connection to board. Make sure the port is not already in use by another application or in another browser tab.");
             return;
-        }
+        }*/
 
         try {
             this.updateEspConnected(this.connectionStates.CONNECTING);
@@ -543,17 +544,17 @@ export class CPInstallButton extends InstallButton {
 
         // Connect to the Serial Port and interact with the REPL
         try {
-            this.serialDevice = await navigator.serial.requestPort();
+            this.replSerialDevice = await navigator.serial.requestPort();
         } catch (e) {
             // Likely the user cancelled the dialog
             return;
         }
-        await this.serialDevice.open({baudRate: 115200});
+        await this.replSerialDevice.open({baudRate: ESP_ROM_BAUD});
 
         this.repl = new REPL();
         this.repl.serialTransmit = this.serialTransmit.bind(this);
 
-        this.serialDevice.addEventListener("message", this.onSerialReceive.bind(this));
+        this.replSerialDevice.addEventListener("message", this.onSerialReceive.bind(this));
 
         // Start the read loop
         this._readLoopPromise = this._readSerialLoop().catch(
@@ -562,8 +563,8 @@ export class CPInstallButton extends InstallButton {
             }.bind(this)
         );
 
-        if (this.serialDevice.writable) {
-            this.writer = this.serialDevice.writable.getWriter();
+        if (this.replSerialDevice.writable) {
+            this.writer = this.replSerialDevice.writable.getWriter();
             await this.writer.ready;
         }
 
@@ -580,9 +581,9 @@ export class CPInstallButton extends InstallButton {
             this.writer = null;
         }
 
-        if (this.serialDevice) {
-            await this.serialDevice.close();
-            this.serialDevice = null;
+        if (this.replSerialDevice) {
+            await this.replSerialDevice.close();
+            this.replSerialDevice = null;
         }
     }
 
@@ -816,8 +817,7 @@ export class CPInstallButton extends InstallButton {
                     }
                 }, 0, 0);
             } catch (err) {
-                this.errorMsg(`Unable to flash file: ${filename}`);
-                console.log(err);
+                this.errorMsg(`Unable to flash file: ${filename}. Error Message: ${err}`);
             }
         }
     }
@@ -846,15 +846,15 @@ export class CPInstallButton extends InstallButton {
 
             bytesWritten += chunk.size;
             progressElement.value = Math.round(bytesWritten / totalSize * 100);
-            console.log(`${Math.round(bytesWritten / totalSize * 100)}% (${bytesWritten} / ${totalSize}) written...`);
+            this.logMsg(`${Math.round(bytesWritten / totalSize * 100)}% (${bytesWritten} / ${totalSize}) written...`);
         }
-        console.log("File successfully written");
+        this.logMsg("File successfully written");
         try {
             // Attempt to close the file, but since the device reboots, it may error
             await writableStream.close();
-            console.log("File successfully closed");
+            this.logMsg("File successfully closed");
         } catch (err) {
-            console.log("Error closing file. Continuing...");
+            this.logMsg("Error closing file, probably due to board reset. Continuing...");
         }
     }
 
@@ -891,7 +891,7 @@ export class CPInstallButton extends InstallButton {
     }
 
     getSetting(setting, defaultValue = '') {
-        if (this.tomlSettings.hasOwnProperty(setting)) {
+        if (this.tomlSettings && this.tomlSettings.hasOwnProperty(setting)) {
             return this.tomlSettings[setting];
         }
 
@@ -903,7 +903,7 @@ export class CPInstallButton extends InstallButton {
         if (formElement) {
             if (formElement.type == "number") {
                 this.tomlSettings[settingName] = parseInt(formElement.value);
-            } else if (formElement.type == "text") {
+            } else if (formElement.type == "text" || formElement.type == "password") {
                 this.tomlSettings[settingName] = formElement.value;
             } else {
                 this.errorMsg(`A setting was found, but a form element of type ${formElement.type} was not expected.`);
@@ -965,10 +965,14 @@ export class CPInstallButton extends InstallButton {
     async espDisconnect() {
         // Disconnect the ESPTool
         if (this.espStub) {
-            this.espStub.removeEventListener("disconnect", this.espDisconnect.bind(this));
             await this.espStub.disconnect();
+            this.espStub.removeEventListener("disconnect", this.espDisconnect.bind(this));
             this.updateEspConnected(this.connectionStates.DISCONNECTED);
             this.espStub = null;
+        }
+        if (this.port) {
+            await this.port.close();
+            this.port = null;
         }
     }
 
@@ -987,20 +991,20 @@ export class CPInstallButton extends InstallButton {
     }
 
     async _readSerialLoop() {
-        if (!this.serialDevice) {
+        if (!this.replSerialDevice) {
             return;
         }
 
         const messageEvent = new Event("message");
         const decoder = new TextDecoder();
 
-        if (this.serialDevice.readable) {
-            this.reader = this.serialDevice.readable.getReader();
+        if (this.replSerialDevice.readable) {
+            this.reader = this.replSerialDevice.readable.getReader();
             while (true) {
                 const {value, done} = await this.reader.read();
                 if (value) {
                     messageEvent.data = decoder.decode(value);
-                    this.serialDevice.dispatchEvent(messageEvent);
+                    this.replSerialDevice.dispatchEvent(messageEvent);
                 }
                 if (done) {
                     this.reader.releaseLock();
