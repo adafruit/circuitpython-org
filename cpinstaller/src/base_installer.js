@@ -335,12 +335,15 @@ export class InstallButton extends HTMLButtonElement {
         this.showError(text);
     }
 
-    logMsg(text) {
+    logMsg(text, showTrace = false) {
         // TODO: Eventually add to an internal log that the user can bring up
         console.info(this.stripHtml(text));
+        if (showTrace) {
+            console.trace();
+        }
     }
 
-    updateUIConnected(connected) {
+    updateEspConnected(connected) {
         if (Object.values(this.connectionStates).includes(connected)) {
             this.connected = connected;
             this.updateButtons();
@@ -423,7 +426,7 @@ export class InstallButton extends HTMLButtonElement {
         if (baud == esptoolPackage.ESP_ROM_BAUD) { return } // already the default
 
         if (chipType == esptoolPackage.CHIP_FAMILY_ESP32) { // only supports the default
-            this.logMsg("WARNING: ESP32 is having issues working at speeds faster than 115200. Continuing at 115200 for now...");
+            this.logMsg(`ESP32 Chip only works at 115200 instead of the preferred ${baud}. Staying at 115200...`);
             return
         }
 

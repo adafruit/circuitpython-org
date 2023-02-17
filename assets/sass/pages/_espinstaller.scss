@@ -52,6 +52,19 @@
             width: 100%;
         }
 
+        div.field {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            grid-gap: 5px;
+            margin-bottom: 5px;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+            input[type="checkbox"] {
+                margin-right: 8px;
+            }
+        }
+
         .loader {
             display: block;
             position: relative;
