@@ -7,23 +7,6 @@ import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/we
 import { REPL } from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.1.0/repl.js';
 import { InstallButton } from "./base_installer.js";
 
-// We'll use the following procedure for ESP32-S2, ESP32-S3 and esp32c3:
-// 1. Install the bootloader file
-// 2. Have User Reset the board
-// 3. Have the User select the Bootloader Drive
-// 4. Install the UF2 file, at which point it automatically resets
-// 5. Have the User select the CIRCUITPY drive
-// 6. Generate the settings.toml file and write it to the drive
-// 7. Have the user reset the board again
-//
-// For the esp32 (possibly c3 too if no CIRCUITPY drive), the procedure will be slightly different:
-// 1. Install the bin file
-// 2. Have User Reset the board
-// 3. Connect to REPL Serial
-// 4. Generate the settings.toml file
-// 5. Write the settings.toml to the board via the REPL
-// 6. Have the user reset the board again
-//
 // TODO: Combine multiple steps together. For now it was easier to make them separate,
 // but for ease of configuration, it would be work better to combine them together.
 // For instance stepSelectBootDrive and stepCopyUf2 should always be together and in
@@ -814,7 +797,7 @@ export class CPInstallButton extends InstallButton {
 
         // Update the Progress dialog
         if (fileBlob) {
-            const fileContents = new Uint8Array(await fileBlob.arrayBuffer());
+            const fileContents = (new Uint8Array(await fileBlob.arrayBuffer())).buffer;
             let lastPercent = 0;
             this.showDialog(this.dialogs.actionProgress, {
                 action: `Flashing ${filename}`
@@ -826,7 +809,7 @@ export class CPInstallButton extends InstallButton {
             try {
                 await this.espStub.flashData(fileContents, (bytesWritten, totalBytes) => {
                     let percentage = Math.round((bytesWritten / totalBytes) * 100);
-                    if (percentage != lastPercent) {
+                    if (percentage > lastPercent) {
                         progressElement.value = percentage;
                         this.logMsg(`${percentage}% (${bytesWritten}/${totalBytes})...`);
                         lastPercent = percentage;
@@ -883,7 +866,6 @@ export class CPInstallButton extends InstallButton {
 
         for(const zipEntry of zipContents) {
             if (zipEntry.filename.localeCompare(filename) === 0) {
-                //const writer = extractAsString ? new zip.TextWriter() : new zip.Uint8ArrayWriter();
                 const extractedFile = await zipEntry.getData(new zip.BlobWriter());
                 return [zipEntry.filename, extractedFile];
             }
@@ -982,12 +964,12 @@ export class CPInstallButton extends InstallButton {
 
     async espDisconnect() {
         // Disconnect the ESPTool
-        /*if (this.espStub) {
+        if (this.espStub) {
             this.espStub.removeEventListener("disconnect", this.espDisconnect.bind(this));
             await this.espStub.disconnect();
             this.updateEspConnected(this.connectionStates.DISCONNECTED);
             this.espStub = null;
-        }*/
+        }
     }
 
     async serialTransmit(msg) {
