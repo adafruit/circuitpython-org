@@ -65,17 +65,17 @@ export class CPInstallButton extends InstallButton {
 
         // We need either the bootloader and uf2 or bin file to continue
         this.bootloaderUrl = this.getAttribute("bootloader");
-        if (this.bootloaderUrl) {
+        /*if (this.bootloaderUrl) {
             this.bootloaderUrl = this.bootloaderUrl.replace("https://downloads.circuitpython.org/bootloaders/esp32/", "/bin/bootloaders/");
-        }
+        }*/
         this.uf2FileUrl = this.getAttribute("uf2file");
-        if (this.uf2FileUrl) {
+        /*if (this.uf2FileUrl) {
             this.uf2FileUrl = this.uf2FileUrl.replace("https://downloads.circuitpython.org/bin/", "/bin/");
-        }
+        }*/
         this.binFileUrl = this.getAttribute("binfile");
-        if (this.binFileUrl) {
+        /*if (this.binFileUrl) {
             this.binFileUrl = this.binFileUrl.replace("https://downloads.circuitpython.org/bin/", "/bin/");
-        }
+        }*/
         // Nice to have for now
         this.chipFamily = this.getAttribute("chipfamily");
         this.bootloaderId = this.getAttribute("bootloaderid"); // This could be used to check serial output from board matches the UF2 file
