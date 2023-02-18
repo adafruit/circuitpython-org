@@ -5,7 +5,7 @@ import * as zip from "https://cdn.jsdelivr.net/npm/@zip.js/zip.js@2.6.65/+esm";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
 
 //import * as esptoolPackage from "https://adafruit.github.io/Adafruit_WebSerial_ESPTool/js/modules/esptool.js"
-import { REPL } from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.1.0/repl.js';
+import { REPL } from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.2.0/repl.js';
 import { InstallButton, ESP_ROM_BAUD } from "./base_installer.js";
 
 // TODO: Combine multiple steps together. For now it was easier to make them separate,
@@ -399,7 +399,7 @@ export class CPInstallButton extends InstallButton {
         const parameters = {
             wifi_ssid: this.getSetting('CIRCUITPY_WIFI_SSID'),
             wifi_password: this.getSetting('CIRCUITPY_WIFI_PASSWORD'),
-            api_password: this.getSetting('CIRCUITPY_WEB_API_PASSWORD'),
+            api_password: this.getSetting('CIRCUITPY_WEB_API_PASSWORD', 'passw0rd'),
             api_port: this.getSetting('CIRCUITPY_WEB_API_PORT', 80),
         }
         if (this.hasNativeUsb()) {
@@ -412,13 +412,16 @@ export class CPInstallButton extends InstallButton {
     }
 
     async stepSuccess() {
-
-        // Determine if the credentials step was in steps of the current workflow and include instructions if so
+        await this.repl.waitForPrompt();
+        let deviceHostInfo = {};
+        // If we were setting up Web Workflow, we may want to provide a link to code.circuitpython.org
+        if (this.currentFlow || this.currentFlow.steps.includes(this.stepCredentials)) {
+            deviceHostInfo = await this.getDeviceHostInfo();
+        }
+        console.log(deviceHostInfo);
 
         // Display Success Dialog
         this.showDialog(this.dialogs.success);
-        // If we were setting up Web Workflow, we may want to provide a link to code.circuitpython.org
-        // Alternatively, we may want a separate dialog with a link
     }
 
     async stepClose() {
@@ -480,16 +483,16 @@ export class CPInstallButton extends InstallButton {
         await this.onReplDisconnected(e);
         await this.espDisconnect();
         let esploader;
-        //try {
+        try {
             esploader = await this.espConnect({
                 log: (...args) => this.logMsg(...args),
                 debug: (...args) => {},
                 error: (...args) => this.errorMsg(...args),
             });
-        /*} catch (err) {
+        } catch (err) {
             this.errorMsg("Unable to open Serial connection to board. Make sure the port is not already in use by another application or in another browser tab.");
             return;
-        }*/
+        }
 
         try {
             this.updateEspConnected(this.connectionStates.CONNECTING);
@@ -549,7 +552,12 @@ export class CPInstallButton extends InstallButton {
             // Likely the user cancelled the dialog
             return;
         }
-        await this.replSerialDevice.open({baudRate: ESP_ROM_BAUD});
+
+        try {
+            await this.replSerialDevice.open({baudRate: ESP_ROM_BAUD});
+        } catch (e) {
+            console.error("Error. Unable to open Serial Port. Make sure it isn't already in use in another tab or application.");
+        }
 
         this.repl = new REPL();
         this.repl.serialTransmit = this.serialTransmit.bind(this);
@@ -582,7 +590,11 @@ export class CPInstallButton extends InstallButton {
         }
 
         if (this.replSerialDevice) {
-            await this.replSerialDevice.close();
+            try {
+                await this.replSerialDevice.close();
+            } catch(e) {
+                // Ignore
+            }
             this.replSerialDevice = null;
         }
     }
@@ -930,11 +942,11 @@ export class CPInstallButton extends InstallButton {
             }
             replCode.push(`f.close()`);
 
-            console.log(replCode.join("\n"));
-            console.log(await this.repl.runCode(replCode.join("\n")));
+            replCode.join("\n");
+            await this.repl.runCode(replCode.join("\n"));
 
-            // Reset the microcontroller. This will probably cause us to lose the connection.
-            //console.log(await this.repl.runCode(`microcontroller.reset()`));
+            // Perform a soft restart to avoid losing the connection and get an IP address
+            await this.repl.softRestart();
         } else if (this.circuitpyDriveHandle) {
             const contents = toml.stringify(settings);
             await this.writeFile("settings.toml", contents);
@@ -952,14 +964,14 @@ export class CPInstallButton extends InstallButton {
             fileContents = await this.readFile("settings.toml");
         } else {
             this.errorMsg("Connect to the CIRCUITPY drive or the REPL first");
-            return null;
+            return {};
         }
 
         if (fileContents) {
             return toml.parse(fileContents);
         }
-        console.warn("Unable to read settings.toml from CircuitPython. It may not exist.");
-        return null;
+        this.logMsg("Unable to read settings.toml from CircuitPython. It may not exist. Continuing...");
+        return {};
     }
 
     async espDisconnect() {
@@ -1015,6 +1027,25 @@ export class CPInstallButton extends InstallButton {
         }
 
         this.logMsg("Read Loop Stopped. Closing Serial Port.");
+    }
+
+    async getDeviceHostInfo() {
+        // For now return info from title
+        if (this.repl) {
+            return {
+                ip: this.repl.getIpAddress(),
+                version: this.repl.getVersion(),
+            };
+        }
+
+        return {};
+
+        // TODO: Retreive some device info via the REPL (mDNS Hostname and IP Address)
+        // import wifi
+        // import mdns
+        // wifi.radio.ipv4_address
+        // server = mdns.Server(wifi.radio)
+        // server.hostname
     }
 
     async cpVersion() {
