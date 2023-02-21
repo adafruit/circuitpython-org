@@ -22,7 +22,7 @@ features:
 
 - Neurons and BrainBoardz are provided with a complete set of mounting hardware. It only takes a few seconds to add/remove a Neuron module to/from a BrainBoardz. There are no fragile pins to contend with in the BrainBoardz system. If you have access to an 3D printer you can also print as many spare mPCIe mounting parts as you need using the STL/FreeCAD model files provided in our GitHub repository. This revolutionary mPCIe connector based approach supports ultra-low profile projects and guarantees microcontroller module re-usability.  We even provide an mPCIe stencil to make designing your own low profile boards easy. We fully support CircuitPython, Arduino, MicroPython and PlatformIO. Are you ready for a prototyping revolution?
 
- **Features:**
+**Features:**
  
  - 32-bit 240 MHz Dual-Core LX-7 Processor 
  - 512 KB SRAM
@@ -43,5 +43,5 @@ features:
  - Access to All of the ESP32-S3's GPIO Pins
  - Compatible with all BrainBoardz boards
  
- ## Purchase:
+## Purchase:
 * [BrainBoardz](https://www.brainboardz.com/)
