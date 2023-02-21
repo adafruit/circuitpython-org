@@ -44,5 +44,4 @@ features:
  - Compatible with all BrainBoardz boards
  
  ## Purchase:
-
 * [BrainBoardz](https://www.brainboardz.com/)
