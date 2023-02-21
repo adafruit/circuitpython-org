@@ -5,7 +5,7 @@ title: "BrainBoardz Neuron Download"
 name: "BrainBoardz Neuron"
 manufacturer: "BrainBoardz Inc."
 board_url: "https://www.brainboardz.com"
-board_image: "unknown.jpg"
+board_image: "brainboardz_neuron.jpg"
 downloads_display: false
 date_added: 2023-02-6
 family: esp32s3
