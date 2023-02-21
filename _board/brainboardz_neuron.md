@@ -6,7 +6,7 @@ name: "BrainBoardz Neuron"
 manufacturer: "BrainBoardz Inc."
 board_url: "https://www.brainboardz.com"
 board_image: "brainboardz_neuron.jpg"
-downloads_display: false
+downloads_display: true
 date_added: 2023-02-6
 family: esp32s3
 bootloader_id: brainboardz_neuron
