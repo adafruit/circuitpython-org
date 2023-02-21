@@ -1,16 +1,47 @@
 ---
 layout: download
 board_id: "brainboardz_neuron"
-title: "brainboardz_neuron Download"
-name: "brainboardz_neuron"
-manufacturer: "Unknown"
-board_url: ""
-board_image: "unknown.jpg"
-downloads_display: false
-date_added: 2023-02-6
+title: "BrainBoardz Neuron Download"
+name: "BrainBoardz Neuron"
+manufacturer: "BrainBoardz Inc."
+board_url: "https://www.brainboardz.com"
+board_image: "brainboardz_neuron.jpg"
+date_added: 2023-02-20
 family: esp32s3
-bootloader_id:
-
+bootloader_id: brainboardz_neuron
+downloads_display: true
+features:
+  - Wi-Fi
+  - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
-Oops! Looks like we don't know anything about this board. This means it's likely very new.
+- BrainBoardz is a revolutionary modular Mini PCI Express (mPCIe) based system that greatly simplifies the design of circuit boards and custom microcontroller projects. Through the use of our inexpensive ESP32-S3 based Neuron modules and our ever expanding range of BrainBoardz prototyping boards anyone can easily develop custom projects to harness the impressive capabilities of the latest generation Espressif ESP32-S3 microcontroller. Simply plug in a Neuron module to a BrainBoardz mPCIe connector and you are ready to go. Neurons not only provide complete access to the extensive range of capabilities provided by the cutting edge ESP32-S3, they can also function as standalone modules if required. You are welcome to design/manufacture your own BrainBoardz compatible boards and Neuron compatible module(s). The entire BrainBoardz system is open source and 100% license free.
+
+- The components we have included on the Neuron are those that are most likely to be needed in core operations for the vast majority of prototypes and production. These include an ultra-low noise 5V to 3.3V LDO, a Mini-USB connector, a status LED and a MicroSD card reader. This razor focused approach ensures that we can provide the most affordable and flexible solution for ESP32-S3 microcontroller based projects! 
+
+- Neurons and BrainBoardz are provided with a complete set of mounting hardware. It only takes a few seconds to add/remove a Neuron module to/from a BrainBoardz. There are no fragile pins to contend with in the BrainBoardz system. If you have access to an 3D printer you can also print as many spare mPCIe mounting parts as you need using the STL/FreeCAD model files provided in our GitHub repository. This revolutionary mPCIe connector based approach supports ultra-low profile projects and guarantees microcontroller module re-usability.  We even provide an mPCIe stencil to make designing your own low profile boards easy. We fully support CircuitPython, Arduino, MicroPython and PlatformIO. Are you ready for a prototyping revolution?
+
+**Features:**
+ 
+ - 32-bit 240 MHz Dual-Core LX-7 Processor 
+ - 512 KB SRAM
+ - 8 MB SPI Flash
+ - 8 MB OCTAL PSRAM
+ - 2.4 GHz Wi-Fi - 802.11b/g/n
+ - On-Board PCB Antenna
+ - Bluetooth LE: Bluetooth 5, Bluetooth Mesh
+ - Native ESP32-S3 USB Port 
+ - Reset Button
+ - Boot Button
+ - 14 Touch Sensors 
+ - Blink LED
+ - MicroSD Card Reader
+ - Micro-USB Connector
+ - Low Noise TI 5V to 3.3V LDO
+ - 2.54mm 4 Pin Header4 (Neuron-Z) Boards
+ - Access to All of the ESP32-S3's GPIO Pins
+ - Compatible with all BrainBoardz boards
+ 
+## Purchase:
+* [BrainBoardz](https://www.brainboardz.com/)
