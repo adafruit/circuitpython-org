@@ -11,14 +11,9 @@ family: esp32s3
 bootloader_id: brainboardz_neuron
 downloads_display: true
 features:
-  - mPCIe Connector
-  - Companion BrainBoardz
-  - MicroSD Card Reader
-  - ESP32-S3-WROOM-I Module
-  - Micro-USB
   - Wi-Fi
-  - Bluetooth
- 
+  - Bluetooth/BTLE
+  - Breadboard-Friendly
 ---
 
 - BrainBoardz is a revolutionary modular Mini PCI Express (mPCIe) based system that greatly simplifies the design of circuit boards and custom microcontroller projects. Through the use of our inexpensive ESP32-S3 based Neuron modules and our ever expanding range of BrainBoardz prototyping boards anyone can easily develop custom projects to harness the impressive capabilities of the latest generation Espressif ESP32-S3 microcontroller. Simply plug in a Neuron module to a BrainBoardz mPCIe connector and you are ready to go. Neurons not only provide complete access to the extensive range of capabilities provided by the cutting edge ESP32-S3, they can also function as standalone modules if required. You are welcome to design/manufacture your own BrainBoardz compatible boards and Neuron compatible module(s). The entire BrainBoardz system is open source and 100% license free.
