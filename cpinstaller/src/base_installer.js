@@ -441,6 +441,12 @@ export class InstallButton extends HTMLButtonElement {
         }
     }
 
+    async espHardReset(bootloader = false) {
+        if (this.espStub) {
+            await this.espStub.hardReset(bootloader);
+        }
+    }
+
     async espConnect(logger) {
         // - Request a port and open a connection.
         this.port = await navigator.serial.requestPort();

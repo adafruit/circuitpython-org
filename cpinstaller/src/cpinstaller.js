@@ -5,7 +5,7 @@ import * as zip from "https://cdn.jsdelivr.net/npm/@zip.js/zip.js@2.6.65/+esm";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
 
 //import * as esptoolPackage from "https://adafruit.github.io/Adafruit_WebSerial_ESPTool/js/modules/esptool.js"
-import { REPL } from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.2.0/repl.js';
+import { REPL } from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.2.1/repl.js';
 import { InstallButton, ESP_ROM_BAUD } from "./base_installer.js";
 
 // TODO: Combine multiple steps together. For now it was easier to make them separate,
@@ -16,7 +16,6 @@ import { InstallButton, ESP_ROM_BAUD } from "./base_installer.js";
 //
 // TODO: Hide the log and make it accessible via the menu (future feature, output to console for now)
 // May need to deal with the fact that the ESPTool uses Web Serial and CircuitPython REPL uses Web Serial
-
 
 const PREFERRED_BAUDRATE = 921600;
 const COPY_CHUNK_SIZE = 64 * 1024; // 64 KB Chunks
@@ -227,7 +226,7 @@ export class CPInstallButton extends InstallButton {
             closeable: true,
             template: (data) => html`
                 <p>
-                    The next step is to write your credentials to settings.toml. Make sure your board is running CircuitPython. You may need to reset it first.
+                    The next step is to write your credentials to settings.toml. Make sure your board is running CircuitPython. <strong>If you just installed CircuitPython, you may to reset the board first.</strong>
                 </p>
                 <p>
                     <button id="butConnect" type="button" @click=${this.cpSerialConnectHandler.bind(this)}>Connect</button>
@@ -264,8 +263,8 @@ export class CPInstallButton extends InstallButton {
                         <label for="circuitpy_web_api_port">Web Workflow API Port:</label>
                         <input id="circuitpy_web_api_port" class="setting-data" type="number" min="0" max="65535" placeholder="Web Workflow API Port" value="${data.api_port}"  />
                     </div>
-                    ${data.mass_storage_disabled === true || data.mass_storage_disabled === false
-                    ? html`<div class="field">
+                    ${data.mass_storage_disabled === true || data.mass_storage_disabled === false ?
+                        html`<div class="field">
                         <label for="circuitpy_drive"><input id="circuitpy_drive" class="setting" type="checkbox" value="disabled" ${data.mass_storage_disabled ? "checked" : ""} />Disable CIRCUITPY Drive (Required for write access)</label>
                     </div>` : ''}
                 </fieldset>
@@ -278,7 +277,11 @@ export class CPInstallButton extends InstallButton {
         success: {
             closeable: true,
             template: (data) => html`
-                <p>Successfully Completed Installation</p>
+                <p>Successfully Completed</p>
+                ${data.ip ?
+                    html`<p>
+                        You can edit files by going to <a href="http://${data.ip}/code/">http://${data.ip}/code/</a>.
+                    </p>` : ''}
             `,
             buttons: [this.closeButton],
         },
@@ -330,6 +333,7 @@ export class CPInstallButton extends InstallButton {
         }
 
         await this.downloadAndInstall(this.binFileUrl);
+        await this.espHardReset();
         await this.nextStep();
     }
 
@@ -382,6 +386,11 @@ export class CPInstallButton extends InstallButton {
     }
 
     async stepSetupRepl() {
+        // TODO: Try and reuse the existing connection so user doesn't need to select it again
+        /*if (this.port) {
+            this.replSerialDevice = this.port;
+            await this.setupRepl();
+        }*/
         const serialPortName = await this.getSerialPortName();
         let serialPortInstructions ="There may be several devices listed. If you aren't sure which to choose, look for one that includes the name of your microcontroller.";
         if (serialPortName) {
@@ -395,15 +404,17 @@ export class CPInstallButton extends InstallButton {
     async stepCredentials() {
         // We may want to see if the board has previously been set up and fill in any values from settings.toml and boot.py
         this.tomlSettings = await this.getCurrentSettings();
-
+        console.log(this.tomlSettings);
         const parameters = {
             wifi_ssid: this.getSetting('CIRCUITPY_WIFI_SSID'),
             wifi_password: this.getSetting('CIRCUITPY_WIFI_PASSWORD'),
             api_password: this.getSetting('CIRCUITPY_WEB_API_PASSWORD', 'passw0rd'),
             api_port: this.getSetting('CIRCUITPY_WEB_API_PORT', 80),
         }
+
         if (this.hasNativeUsb()) {
-            // TODO: Currently it is just disabled and not used because we don't have anything to modify boot.py in place.
+            // TODO: Currently the control is just disabled and not used because we don't have anything to modify boot.py in place.
+            // Setting mass_storage_disabled to true/false will display the checkbox with the appropriately checked state.
             //parameters.mass_storage_disabled = true;
         }
 
@@ -418,10 +429,9 @@ export class CPInstallButton extends InstallButton {
         if (this.currentFlow || this.currentFlow.steps.includes(this.stepCredentials)) {
             deviceHostInfo = await this.getDeviceHostInfo();
         }
-        console.log(deviceHostInfo);
 
         // Display Success Dialog
-        this.showDialog(this.dialogs.success);
+        this.showDialog(this.dialogs.success, deviceHostInfo);
     }
 
     async stepClose() {
@@ -490,6 +500,7 @@ export class CPInstallButton extends InstallButton {
                 error: (...args) => this.errorMsg(...args),
             });
         } catch (err) {
+            // It's possible the dialog was also canceled here
             this.errorMsg("Unable to open Serial connection to board. Make sure the port is not already in use by another application or in another browser tab.");
             return;
         }
@@ -520,7 +531,8 @@ export class CPInstallButton extends InstallButton {
                 });
 
                 await this.setBaudRateIfChipSupports(esploader.chipFamily, PREFERRED_BAUDRATE);
-                return
+                await this.nextStep();
+                return;
             }
 
             // Can't use it so disconnect now
@@ -559,29 +571,39 @@ export class CPInstallButton extends InstallButton {
             console.error("Error. Unable to open Serial Port. Make sure it isn't already in use in another tab or application.");
         }
 
-        this.repl = new REPL();
-        this.repl.serialTransmit = this.serialTransmit.bind(this);
-
-        this.replSerialDevice.addEventListener("message", this.onSerialReceive.bind(this));
-
-        // Start the read loop
-        this._readLoopPromise = this._readSerialLoop().catch(
-            async function(error) {
-                await this.onReplDisconnected();
-            }.bind(this)
-        );
-
-        if (this.replSerialDevice.writable) {
-            this.writer = this.replSerialDevice.writable.getWriter();
-            await this.writer.ready;
-        }
+        await this.setupRepl();
 
         this.nextStep();
     }
 
+    async setupRepl() {
+        if (this.replSerialDevice) {
+            this.repl = new REPL();
+            this.repl.serialTransmit = this.serialTransmit.bind(this);
+
+            this.replSerialDevice.addEventListener("message", this.onSerialReceive.bind(this));
+
+            // Start the read loop
+            this._readLoopPromise = this._readSerialLoop().catch(
+                async function(error) {
+                    await this.onReplDisconnected();
+                }.bind(this)
+            );
+
+            if (this.replSerialDevice.writable) {
+                this.writer = this.replSerialDevice.writable.getWriter();
+                await this.writer.ready;
+            }
+        }
+    }
+
     async onReplDisconnected(e) {
         if (this.reader) {
-            await this.reader.cancel();
+            try {
+                await this.reader.cancel();
+            } catch(e) {
+                // Ignore
+            }
             this.reader = null;
         }
         if (this.writer) {
@@ -895,9 +917,9 @@ export class CPInstallButton extends InstallButton {
         this.saveSetting('CIRCUITPY_WEB_API_PASSWORD');
         this.saveSetting('CIRCUITPY_WEB_API_PORT');
 
-        this.writeSettings(this.tomlSettings);
+        await this.writeSettings(this.tomlSettings);
         if (this.hasNativeUsb()) {
-            // TODO: Update boot.py to include 'import storage' and 'storage.disable_usb_drive()' if checked
+            //this.setBootDisabled(true);
         }
         await this.nextStep();
     }
@@ -908,6 +930,45 @@ export class CPInstallButton extends InstallButton {
         }
 
         return defaultValue;
+    }
+
+    async getBootDisabled() {
+        // This is a very simple check for now. If there is something more complicated like a disable
+        // command behind an if statement, this will not detect it is enabled.
+        let fileContents;
+        if (this.repl) {
+            return true; // Always disabled in this case
+        } else if (this.circuitpyDriveHandle) {
+            fileContents = await this.readFile("boot.py");
+            // TODO: Compare board's boot.py to our boot.py by
+            // searching for storage.disable_usb_drive() at the beginning of the line
+        } else {
+            this.errorMsg("Connect to the CIRCUITPY drive or the REPL first");
+            return {};
+        }
+
+        if (fileContents) {
+            return toml.parse(fileContents);
+        }
+        this.logMsg("Unable to read settings.toml from CircuitPython. It may not exist. Continuing...");
+        return {};
+    }
+
+    saveBootDisabled(disabled) {
+        // TODO: Save/remove a copy of boot.py on the CIRCUITPY drive
+        // This depends on whether it is currently disabled in boot.py and what the value of disabled is
+        // If they are the same, we can skip
+        // An idea is to only deal with this if boot.py doesn't exist and just use a generic boot.py
+        // For disabling, we can compare to the generic and if they are different refuse to touch it
+        const formElement = this.currentDialogElement.querySelector('#circuitpy_drive');
+        if (formElement) {
+            if (formElement.checked) {
+                this.tomlSettings['CIRCUITPY_DRIVE'] = "disabled";
+            } else {
+                this.tomlSettings['CIRCUITPY_DRIVE'] = "enabled";
+            }
+        }
+
     }
 
     saveSetting(settingName) {
@@ -925,28 +986,54 @@ export class CPInstallButton extends InstallButton {
         }
     }
 
+    async runCode(code, outputToConsole = true) {
+        if (Array.isArray(code)) {
+            code = code.join("\n");
+        }
+
+        if (this.repl) {
+            const output = await this.repl.runCode(code);
+
+            if (outputToConsole) {
+                console.log(output);
+            }
+        }
+    }
+
     async writeSettings(settings) {
         if (this.repl) {
-            let replCode = [];
-
-            replCode.push(`import storage`);
-            replCode.push(`storage.remount("/", False)`);
-            replCode.push(`f = open('settings.toml', 'w')`);
+            await this.runCode(`import storage`);
+            await this.runCode(`storage.remount("/", False)`);
+            await this.runCode(`f = open('settings.toml', 'w')`);
 
             for (const [setting, value] of Object.entries(settings)) {
                 if (typeof value === "string") {
-                    replCode.push(`f.write('${setting} = "${value}"\\n')`);
+                    await this.runCode(`f.write('${setting} = "${value}"\\n')`);
                 } else {
-                    replCode.push(`f.write('${setting} = ${value}\\n')`);
+                    await this.runCode(`f.write('${setting} = ${value}\\n')`);
                 }
             }
-            replCode.push(`f.close()`);
-
-            replCode.join("\n");
-            await this.repl.runCode(replCode.join("\n"));
+            await this.runCode(`f.close()`);
 
             // Perform a soft restart to avoid losing the connection and get an IP address
+            this.showDialog(this.dialogs.actionWaiting, {
+                action: "Waiting for IP Address...",
+            });
             await this.repl.softRestart();
+            try {
+                await this.timeout(
+                    async () => {
+                        let deviceInfo = {};
+                        while (Object.entries(deviceInfo).length == 0 || deviceInfo.ip === null) {
+                            deviceInfo = await this.getDeviceHostInfo();
+                            await this.sleep(300);
+                        }
+                    }, 10000
+                );
+            } catch (error) {
+                console.warn("Unable to get IP Address. Network Credentials may be incorrect");
+                return null;
+            }
         } else if (this.circuitpyDriveHandle) {
             const contents = toml.stringify(settings);
             await this.writeFile("settings.toml", contents);
@@ -959,7 +1046,7 @@ export class CPInstallButton extends InstallButton {
     async getCurrentSettings() {
         let fileContents;
         if (this.repl) {
-            fileContents = await this.repl.runCode("f = open('settings.toml', 'r')\nprint(f.read())\nf.close()\n")
+            fileContents = await this.runCode(["f = open('settings.toml', 'r')", "print(f.read())", "f.close()"]);
         } else if (this.circuitpyDriveHandle) {
             fileContents = await this.readFile("settings.toml");
         } else {
@@ -1040,23 +1127,12 @@ export class CPInstallButton extends InstallButton {
 
         return {};
 
-        // TODO: Retreive some device info via the REPL (mDNS Hostname and IP Address)
+        // TODO: (Maybe) Retreive some device info via the REPL (mDNS Hostname and IP Address)
         // import wifi
         // import mdns
         // wifi.radio.ipv4_address
         // server = mdns.Server(wifi.radio)
         // server.hostname
-    }
-
-    async cpVersion() {
-        // TODO: Actually detect CircuitPython. We may not use this or use if for version only.
-        // Or add it to the REPL lib. We should have it return the version number and return null
-        // if not detected
-
-        // Some of the ideas for this was for making a comparison between the old CircuitPython Version and new one
-        // possibly for checking that we are at a minimum version. Likely it won't be that useful now until we have
-        // some issues to investigate in the future.
-        return false;
     }
 
     hasNativeUsb() {
@@ -1066,6 +1142,14 @@ export class CPInstallButton extends InstallButton {
 
         // Since most new chips have it, we return true by default.
         return true;
+    }
+
+    sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    timeout(callback, ms) {
+        return Promise.race([callback(), this.sleep(ms).then(() => {throw Error("Timed Out");})]);
     }
 }
 

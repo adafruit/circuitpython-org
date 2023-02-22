@@ -44,6 +44,24 @@
         margin-top: 24px;
         margin-bottom: 20px;
 
+        ul.flow-menu {
+            list-style-type: none;
+            margin-left: 0;
+            padding-right: 0;
+            padding-inline-start: 10px;
+
+            li {
+                a {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    &:hover {
+                        background: #3498db33;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
         p.centered {
             text-align: center;
         }
