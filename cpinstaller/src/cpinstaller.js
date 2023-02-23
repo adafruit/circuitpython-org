@@ -63,23 +63,26 @@ export class CPInstallButton extends InstallButton {
         this.releaseVersion = this.getAttribute("version");
 
         // We need either the bootloader and uf2 or bin file to continue
-        this.bootloaderUrl = this.getAttribute("bootloader");
-        /*if (this.bootloaderUrl) {
-            this.bootloaderUrl = this.bootloaderUrl.replace("https://downloads.circuitpython.org/bootloaders/esp32/", "/bin/bootloaders/");
-        }*/
-        this.uf2FileUrl = this.getAttribute("uf2file");
-        /*if (this.uf2FileUrl) {
-            this.uf2FileUrl = this.uf2FileUrl.replace("https://downloads.circuitpython.org/bin/", "/bin/");
-        }*/
-        this.binFileUrl = this.getAttribute("binfile");
-        /*if (this.binFileUrl) {
-            this.binFileUrl = this.binFileUrl.replace("https://downloads.circuitpython.org/bin/", "/bin/");
-        }*/
+        this.bootloaderUrl = this.getBinaryUrl("bootloader");
+        this.uf2FileUrl = this.getBinaryUrl("uf2file");
+        this.binFileUrl = this.getBinaryUrl("binfile");
+
         // Nice to have for now
         this.chipFamily = this.getAttribute("chipfamily");
         this.bootloaderId = this.getAttribute("bootloaderid"); // This could be used to check serial output from board matches the UF2 file
 
         super.connectedCallback();
+    }
+
+    getBinaryUrl(attribute) {
+        let url = this.getAttribute(attribute);
+        if (location.hostname == "localhost") {
+            if (url) {
+                url = url.replace("https://downloads.circuitpython.org/", "https://adafruit-circuit-python.s3.amazonaws.com/");
+            }
+        }
+
+        return url;
     }
 
     // These are a series of the valid steps that should be part of a program flow
@@ -423,11 +426,13 @@ export class CPInstallButton extends InstallButton {
     }
 
     async stepSuccess() {
-        await this.repl.waitForPrompt();
         let deviceHostInfo = {};
-        // If we were setting up Web Workflow, we may want to provide a link to code.circuitpython.org
-        if (this.currentFlow || this.currentFlow.steps.includes(this.stepCredentials)) {
-            deviceHostInfo = await this.getDeviceHostInfo();
+        if (this.repl) {
+            await this.repl.waitForPrompt();
+            // If we were setting up Web Workflow, we may want to provide a link to code.circuitpython.org
+            if (this.currentFlow || this.currentFlow.steps.includes(this.stepCredentials)) {
+                deviceHostInfo = await this.getDeviceHostInfo();
+            }
         }
 
         // Display Success Dialog
