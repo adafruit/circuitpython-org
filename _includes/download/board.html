@@ -133,7 +133,7 @@
             {{ extension }}file="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}"
         {% endfor %}
         {% if bootloader_version and bootloader_id %}
-          bootloader="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip"
+          bootloader="https://downloads.circuitpython.org/bootloaders/esp32/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip"
           bootloaderid="{{ bootloader_id }}"
         {% endif %}
         version="{{ version.version }}"
@@ -185,10 +185,8 @@
     or if you have older code that depends on features only available in an older release.
     Otherwise we recommend using the latest stable release.
   </p>
-  <div>
+  <div class="previous-versions-buttons">
     <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/{{ board_id }}/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
-  </div>
-  <div>
     <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
   </div>
 </div>

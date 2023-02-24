@@ -164,6 +164,18 @@
           }
         }
       }
+
+      .previous-versions-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        a, button {
+          margin-bottom: 1em;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
     }
   }
 }

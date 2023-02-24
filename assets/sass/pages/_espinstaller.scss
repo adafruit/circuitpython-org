@@ -42,6 +42,25 @@
 
     .dialog-body {
         margin-top: 24px;
+        margin-bottom: 20px;
+
+        ul.flow-menu {
+            list-style-type: none;
+            margin-left: 0;
+            padding-right: 0;
+            padding-inline-start: 10px;
+
+            li {
+                a {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    &:hover {
+                        background: #3498db33;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
 
         p.centered {
             text-align: center;
@@ -49,6 +68,19 @@
 
         progress {
             width: 100%;
+        }
+
+        div.field {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            grid-gap: 5px;
+            margin-bottom: 5px;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+            input[type="checkbox"] {
+                margin-right: 8px;
+            }
         }
 
         .loader {

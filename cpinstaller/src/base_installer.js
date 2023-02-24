@@ -1,5 +1,6 @@
 'use strict';
 import {html, render} from 'https://unpkg.com/lit-html?module';
+import {asyncAppend} from 'https://unpkg.com/lit-html/directives/async-append?module';
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
 
 // TODO: Figure out how to make the Web Serial from ESPTool and Web Serial to communicate with CircuitPython not conflict
@@ -29,6 +30,8 @@ import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/we
 // because it's very integrated into the serial recieve and send code.
 //
 
+export const ESP_ROM_BAUD = 115200;
+
 export class InstallButton extends HTMLButtonElement {
     static isSupported = 'serial' in navigator;
     static isAllowed = window.isSecureContext;
@@ -39,9 +42,8 @@ export class InstallButton extends HTMLButtonElement {
         this.currentFlow = null;
         this.currentStep = 0;
         this.currentDialogElement = null;
-        this.serial = null;
+        this.port = null;
         this.espStub = null;
-        this.mode = "";
         this.dialogCssClass = "install-dialog";
         this.connected = this.connectionStates.DISCONNECTED;
     }
@@ -55,13 +57,13 @@ export class InstallButton extends HTMLButtonElement {
     previousButton = {
         label: "Previous",
         onClick: this.prevStep,
-        isEnabled: () => { return this.currentStep > 0 },
+        isEnabled: async () => { return this.currentStep > 0 },
     }
 
     nextButton = {
         label: "Next",
         onClick: this.nextStep,
-        isEnabled: () => { return this.currentStep < this.currentFlow.steps.length - 1; },
+        isEnabled: async () => { return this.currentStep < this.currentFlow.steps.length - 1; },
     }
 
     closeButton = {
@@ -100,9 +102,9 @@ export class InstallButton extends HTMLButtonElement {
             template: (data) => html`
                 <p>CircuitPython Installer for ${data.boardName}</p>
                 <ul class="flow-menu">
-                ${this.generateMenu(
+                ${asyncAppend(this.generateMenu(
                     (flowId, flow) => html`<li><a href="#" @click=${this.runFlow.bind(this)} id="${flowId}">${flow.label.replace('[version]', this.releaseVersion)}</a></li>`
-                )}
+                ))}
                 </ul>`,
             buttons: [this.closeButton],
         },
@@ -127,8 +129,6 @@ export class InstallButton extends HTMLButtonElement {
         } else {
             this.toggleAttribute("install-unsupported", true);
         }
-
-        this.mode = this.getUrlParam("mode");
 
         this.addEventListener("click", async (e) => {
             e.preventDefault();
@@ -162,23 +162,23 @@ export class InstallButton extends HTMLButtonElement {
         return paramValue;
     }
 
-    enabledFlowCount() {
+    async enabledFlowCount() {
         let enabledFlowCount = 0;
         for (const [flowId, flow] of Object.entries(this.flows)) {
-            if (flow.isEnabled()) {
+            if (await flow.isEnabled()) {
                 enabledFlowCount++;
             }
         }
         return enabledFlowCount;
     }
 
-    * generateMenu(templateFunc) {
-        if (this.enabledFlowCount() == 0) {
+    async * generateMenu(templateFunc) {
+        if (await this.enabledFlowCount() == 0) {
             yield html`<li>Coming soon. Check back later.</li>`;
             //yield html`<li>No installable options available for this board.</li>`;
         }
         for (const [flowId, flow] of Object.entries(this.flows)) {
-            if (flow.isEnabled()) {
+            if (await flow.isEnabled()) {
                 yield templateFunc(flowId, flow);
             }
         }
@@ -256,7 +256,7 @@ export class InstallButton extends HTMLButtonElement {
                     await button.onUpdate.bind(this)(e);
                 }
                 if ("isEnabled" in button) {
-                    e.target.disabled = !button.isEnabled.bind(this)();
+                    e.target.disabled = !(await button.isEnabled.bind(this)());
                 }
             });
 
@@ -337,12 +337,15 @@ export class InstallButton extends HTMLButtonElement {
         this.showError(text);
     }
 
-    logMsg(text) {
+    logMsg(text, showTrace = false) {
         // TODO: Eventually add to an internal log that the user can bring up
         console.info(this.stripHtml(text));
+        if (showTrace) {
+            console.trace();
+        }
     }
 
-    updateUIConnected(connected) {
+    updateEspConnected(connected) {
         if (Object.values(this.connectionStates).includes(connected)) {
             this.connected = connected;
             this.updateButtons();
@@ -422,10 +425,10 @@ export class InstallButton extends HTMLButtonElement {
     }
 
     async setBaudRateIfChipSupports(chipType, baud) {
-        if (baud == esptoolPackage.ESP_ROM_BAUD) { return } // already the default
+        if (baud == ESP_ROM_BAUD) { return } // already the default
 
         if (chipType == esptoolPackage.CHIP_FAMILY_ESP32) { // only supports the default
-            this.logMsg("WARNING: ESP32 is having issues working at speeds faster than 115200. Continuing at 115200 for now...");
+            this.logMsg(`ESP32 Chip only works at 115200 instead of the preferred ${baud}. Staying at 115200...`);
             return
         }
 
@@ -437,4 +440,22 @@ export class InstallButton extends HTMLButtonElement {
             await this.espStub.setBaudrate(baud);
         }
     }
+
+    async espHardReset(bootloader = false) {
+        if (this.espStub) {
+            await this.espStub.hardReset(bootloader);
+        }
+    }
+
+    async espConnect(logger) {
+        // - Request a port and open a connection.
+        this.port = await navigator.serial.requestPort();
+
+        logger.log("Connecting...");
+        await this.port.open({ baudRate: ESP_ROM_BAUD });
+
+        logger.log("Connected successfully.");
+
+        return new esptoolPackage.ESPLoader(this.port, logger);
+    };
 }
