@@ -14,11 +14,14 @@ import traceback
 import operator
 import requests
 
+import github as pygithub
 from google.cloud import bigquery
 import google.oauth2.service_account
 
 from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
+
+GH_INTERFACE = pygithub.Github(os.environ.get("ADABOT_GITHUB_ACCESS_TOKEN"))
 
 # Setup ArgumentParser
 cmd_line_parser = argparse.ArgumentParser(
@@ -105,7 +108,7 @@ def parse_piwheels_stats():
     return successful_stats, failed_stats
 
 
-def retrieve_pypi_stats(submodules, additional_packages=("adafruit-blinka",)):
+def retrieve_pypi_stats(repos):
     """Get data dump of PyPI download stats (for the last 7 days)"""
     # Create access info dictionary
     access_info = {
@@ -121,13 +124,7 @@ def retrieve_pypi_stats(submodules, additional_packages=("adafruit-blinka",)):
     client = bigquery.Client("circuitpython-stats", credentials=credentials)
 
     # Get the list of PyPI package names
-    packages = []
-    for submod in submodules:
-        url: str = submod[1]["url"]
-        pre_name = url.split("/")[-1][:-4]
-        packages.append(pre_name.replace("_", "-").lower())
-    for addpack in additional_packages:
-        packages.append(addpack)
+    packages = [repo["name"].replace("_", "-").lower() for repo in repos]
 
     # Construct the query to use
     query = """

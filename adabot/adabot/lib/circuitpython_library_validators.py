@@ -1140,14 +1140,9 @@ class LibraryValidator:
             if days_open.days < 0:  # opened earlier today
                 days_open += datetime.timedelta(days=(days_open.days * -1))
             if "pull_request" in issue:
-                pull_request = gh_reqs.get(
-                    f"/repos/{repo['full_name']}/pulls/{issue['number']}"
-                ).json()
                 pr_link = "{0} (Open {1} days)".format(
                     issue["pull_request"]["html_url"], days_open.days
                 )
-                if pull_request["draft"]:
-                    pr_link += " (draft)"
                 insights["open_prs"].append(pr_link)
             else:
                 issue_link = "{0} (Open {1} days)".format(

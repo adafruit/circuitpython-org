@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 24 Feb 2023 05:03:37 -0500</lastBuildDate>
+<lastBuildDate>Fri, 24 Feb 2023 17:07:41 -0500</lastBuildDate>
 <item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
@@ -605,37 +605,33 @@ Note the names are in the same spots, we haven’t changed where the I2C/UART/SP
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/adafruit_feather_esp32s3_tft.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <ul>
-  <li>
-    <p>We’ve got a new machine here at Adafruit, it can uncover your deepest desires. Don’t believe me? I’ll turn it on right now to prove it to you! What, you want your very own soft serve ice cream machine? OK well, that’s not something we can provide. But we can provide your <em>second</em>-deepest desire: an <strong>ESP32-S<em>3</em> Feather board with a built in IPS TFT color display</strong>. It’s got all the delicious creamy goodness features of a Feather main board, the comforting warmth of an ESP32-S3 WiFi+BLE microcontroller, and the crispness of a 240x135 pixel color TFT display. All that and it will even plug in nicely into a breadboard, <a href="https://www.adafruit.com/product/2926">terminal block wing</a>, or <a href="https://www.adafruit.com/product/2890">Feather Doubler</a> or even just stack on top of another wing.</p>
+<p>By Adafruit</p> <p>We’ve got a new machine here at Adafruit, it can uncover your deepest desires. Don’t believe me? I’ll turn it on right now to prove it to you! What, you want your very own soft serve ice cream machine? OK well, that’s not something we can provide. But we can provide your <em>second</em>-deepest desire: an <strong>ESP32-S<em>3</em> Feather board with a built in IPS TFT color display</strong>. It’s got all the delicious creamy goodness features of a Feather main board, the comforting warmth of an ESP32-S3 WiFi+BLE microcontroller, and the crispness of a 240x135 pixel color TFT display. All that and it will even plug in nicely into a breadboard, <a href="https://www.adafruit.com/product/2926">terminal block wing</a>, or <a href="https://www.adafruit.com/product/2890">Feather Doubler</a> or even just stack on top of another wing.</p>
 
-    <p>This Feather comes with native USB and <strong>4 MB Flash + 2 MB of PSRAM</strong>, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi means it’s awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.</p>
+<p>This Feather comes with native USB and <strong>4 MB Flash + 2 MB of PSRAM</strong>, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi means it’s awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.</p>
 
-    <p>The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi/BLE System-on-Chip (SoC) solution that has built-in native USB as well as some other interesting new technologies like Time of Flight distance measurements and AI acceleration. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+<p>The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi/BLE System-on-Chip (SoC) solution that has built-in native USB as well as some other interesting new technologies like Time of Flight distance measurements and AI acceleration. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
 
-    <p>The Feather ESP32-S3 has a dual-core 240 MHz chip, so it is comparable to ESP32’s dual-core. However, there is no Bluetooth <strong>Classic</strong> support, only Bluetooth LE. This chip is a great step up from the earlier ESP32-S2! This ESP32-S3 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM, as well as lots of 512KB of SRAM so it’s perfect for use with CircuitPython support or any time massive buffers are needed: for fast memory access use SRAM, for slower-but-roomier access use PSRAM. It’s also great for use in ESP-IDF or with Arduino support.</p>
+<p>The Feather ESP32-S3 has a dual-core 240 MHz chip, so it is comparable to ESP32’s dual-core. However, there is no Bluetooth <strong>Classic</strong> support, only Bluetooth LE. This chip is a great step up from the earlier ESP32-S2! This ESP32-S3 mini-module we are using on the Feather comes with 4 MB flash and 2 MB PSRAM, as well as lots of 512KB of SRAM so it’s perfect for use with CircuitPython support or any time massive buffers are needed: for fast memory access use SRAM, for slower-but-roomier access use PSRAM. It’s also great for use in ESP-IDF or with Arduino support.</p>
 
-    <p>The color TFT is connected to the SPI pins and uses additional pins for control that are not exposed to the breakout pads. <a href="https://www.adafruit.com/product/4383">It’s the same display as you see here, with 240x135 pixels and is IPS</a> so you get bright color at any angle. The backlight is also connected to a separate pin so you can PWM the backlight up and down as desired.</p>
+<p>The color TFT is connected to the SPI pins and uses additional pins for control that are not exposed to the breakout pads. <a href="https://www.adafruit.com/product/4383">It’s the same display as you see here, with 240x135 pixels and is IPS</a> so you get bright color at any angle. The backlight is also connected to a separate pin so you can PWM the backlight up and down as desired.</p>
 
-    <p>For low power usages, the Feather has a <em>second</em> low-dropout 3.3V regulator. The regulator is controlled with a GPIO pin on the enable line and can shut off power to the Stemma QT port and TFT. There is also a separate power pin for the NeoPixel that can be used to disable it for even lower quiescent power. With everything off and in deep sleep mode, the TFT feather uses about 100uA of current.</p>
+<p>For low power usages, the Feather has a <em>second</em> low-dropout 3.3V regulator. The regulator is controlled with a GPIO pin on the enable line and can shut off power to the Stemma QT port and TFT. There is also a separate power pin for the NeoPixel that can be used to disable it for even lower quiescent power. With everything off and in deep sleep mode, the TFT feather uses about 100uA of current.</p>
 
-    <p><strong>Features:</strong></p>
+<p><strong>Features:</strong></p>
 
-    <ul>
-      <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
-      <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
-      <li><strong><a href="https://www.adafruit.com/product/4383">Color 1.14” IPS TFT with 240x135 pixels</a></strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle angle.</li>
-      <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
-      <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
-      <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
-      <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
-      <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
-      <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
-      <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
-      <li><strong>Low Power friendly</strong>! In deep sleep mode, we can get down to 80~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C/TFT power for the lowest quiescent current draw.</li>
-      <li><strong>Works with Arduino or CircuitPython</strong></li>
-    </ul>
-  </li>
+<ul>
+  <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>Mini module</strong> has FCC/CE certification and comes with 4 MByte of Flash and 2 MByte of PSRAM - you can have huge data buffers</li>
+  <li><strong><a href="https://www.adafruit.com/product/4383">Color 1.14” IPS TFT with 240x135 pixels</a></strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle angle.</li>
+  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+  <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
+  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+  <li><strong>Serial debug output pin</strong> (optional, for checking the hardware serial debug console)</li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+  <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+  <li><strong>Low Power friendly</strong>! In deep sleep mode, we can get down to 80~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C/TFT power for the lowest quiescent current draw.</li>
+  <li><strong>Works with Arduino or CircuitPython</strong></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>

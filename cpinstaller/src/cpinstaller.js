@@ -1,33 +1,24 @@
 'use strict';
 import { html } from 'https://unpkg.com/lit-html?module';
-import * as zip from "https://deno.land/x/zipjs/index.js";
+import * as toml from "https://unpkg.com/iarna-toml-esm@3.0.5/toml-esm.mjs"
+import * as zip from "https://cdn.jsdelivr.net/npm/@zip.js/zip.js@2.6.65/+esm";
 import * as esptoolPackage from "https://unpkg.com/esp-web-flasher@5.1.2/dist/web/index.js?module"
-import {REPL} from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.0.0/repl.js';
-import { InstallButton } from "./base_installer.js";
 
-// TODO: Figure out how to make the Web Serial from ESPTool and Web Serial to communicate with CircuitPython not conflict
-// I think at the very least we'll have to reuse the same port so the user doesn't need to reselct, though it's possible it
-// may change after reset. Since it's not
+//import * as esptoolPackage from "https://adafruit.github.io/Adafruit_WebSerial_ESPTool/js/modules/esptool.js"
+import { REPL } from 'https://cdn.jsdelivr.net/gh/adafruit/circuitpython-repl-js@1.2.1/repl.js';
+import { InstallButton, ESP_ROM_BAUD } from "./base_installer.js";
+
+// TODO: Combine multiple steps together. For now it was easier to make them separate,
+// but for ease of configuration, it would be work better to combine them together.
+// For instance stepSelectBootDrive and stepCopyUf2 should always be together and in
+// that order, but due to having handlers in the first of those steps, it was easier to
+// just call nextStep() from the handler.
 //
-// For now, we'll use the following procedure for ESP32-S2 and ESP32-S3:
-// 1. Install the bin file
-// 2. Reset the board
-// (if version 8.0.0-beta.6 or later)
-// 3. Generate the settings.toml file
-// 4. Write the settings.toml to the board via the REPL
-// 5. Reset the board again
-//
-// For the esp32 and esp32c3, the procedure may be slightly different and going through the
-// REPL may be required for the settings.toml file.
-// 1. Install the bin file
-// 2. Reset the board
-// (if version 8.0.0-beta.6 or later)
-// 3. Generate the settings.toml file
-// 4. Write the settings.toml to the board via the REPL
-// 5. Reset the board again
-//
+// TODO: Hide the log and make it accessible via the menu (future feature, output to console for now)
+// May need to deal with the fact that the ESPTool uses Web Serial and CircuitPython REPL uses Web Serial
 
 const PREFERRED_BAUDRATE = 921600;
+const COPY_CHUNK_SIZE = 64 * 1024; // 64 KB Chunks
 
 const CSS_DIALOG_CLASS = "cp-installer-dialog";
 const FAMILY_TO_CHIP_MAP = {
@@ -51,6 +42,16 @@ export class CPInstallButton extends InstallButton {
         this.bootloadId = null;
         this.dialogCssClass = CSS_DIALOG_CLASS;
         this.dialogs = { ...this.dialogs,  ...this.cpDialogs };
+        this.bootDriveHandle = null;
+        this.circuitpyDriveHandle = null;
+        this._bootDriveName = null;
+        this._serialPortName = null;
+        this.replSerialDevice = null;
+        this.repl = null;
+        this.fileCache = [];
+        this.reader = null;
+        this.writer = null;
+        this.tomlSettings = null;
         this.init();
     }
 
@@ -62,71 +63,112 @@ export class CPInstallButton extends InstallButton {
         this.releaseVersion = this.getAttribute("version");
 
         // We need either the bootloader and uf2 or bin file to continue
-        this.bootloaderUrl = this.getAttribute("bootloader");
-        this.uf2FileUrl = this.getAttribute("uf2file");
-        this.binFileUrl = this.getAttribute("binfile");
+        this.bootloaderUrl = this.getBinaryUrl("bootloader");
+        this.uf2FileUrl = this.getBinaryUrl("uf2file");
+        this.binFileUrl = this.getBinaryUrl("binfile");
 
         // Nice to have for now
         this.chipFamily = this.getAttribute("chipfamily");
-        this.bootloadId = this.getAttribute("bootloadid"); // This could be used to check serial output from board matches the UF2 file
+        this.bootloaderId = this.getAttribute("bootloaderid"); // This could be used to check serial output from board matches the UF2 file
 
         super.connectedCallback();
     }
 
-    // This may end up moving to a superclass that extends the installer
+    getBinaryUrl(attribute) {
+        let url = this.getAttribute(attribute);
+        if (location.hostname == "localhost") {
+            if (url) {
+                url = url.replace("https://downloads.circuitpython.org/", "https://adafruit-circuit-python.s3.amazonaws.com/");
+            }
+        }
+
+        return url;
+    }
+
     // These are a series of the valid steps that should be part of a program flow
+    // Some steps currently need to be grouped together
     flows = {
-        binProgram: {
-            label: `Install CircuitPython [version] Bin`,
-            steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepFlashBin, this.stepSuccess],
-            isEnabled: () => { return this.mode=="test" && !!this.binFileUrl },
+        uf2FullProgram: {  // Native USB Install
+            label: `Full CircuitPython [version] Install`,
+            steps: [this.stepWelcome, this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSelectBootDrive, this.stepCopyUf2, this.stepSelectCpyDrive, this.stepCredentials, this.stepSuccess],
+            isEnabled: async () => { return this.hasNativeUsb() && !!this.bootloaderUrl && !!this.uf2FileUrl },
         },
-        uf2Program: {
-            label: `Install CircuitPython [version] UF2 and Bootloader`,
-            steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepCopyUf2, this.stepSettings, this.stepSuccess],
-            isEnabled: () => { return this.mode=="test" && !!this.bootloaderUrl && !!this.uf2FileUrl },
+        binFullProgram: {  // Non-native USB Install
+            label: `Full CircuitPython [version] Install`,
+            steps: [this.stepWelcome, this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepFlashBin, this.stepSetupRepl, this.stepCredentials, this.stepSuccess],
+            isEnabled: async () => { return !this.hasNativeUsb() && !!this.binFileUrl },
         },
-        bootloaderOnly: {
+        uf2Only: { // Upgrade when Bootloader is already installer
+            label: `Upgrade/Install CircuitPython [version] UF2 Only`,
+            steps: [this.stepWelcome, this.stepSelectBootDrive, this.stepCopyUf2, this.stepCredentials, this.stepSuccess],
+            isEnabled: async () => { return this.hasNativeUsb() && !!this.uf2FileUrl },
+        },
+        binOnly: {
+            label: `Upgrade CircuitPython [version] Bin Only`,
+            steps: [this.stepWelcome, this.stepSerialConnect, /*this.stepConfirm, this.stepEraseAll,*/ this.stepFlashBin, this.stepSuccess],
+            isEnabled: async () => { return !!this.binFileUrl },
+        },
+        bootloaderOnly: { // Used to allow UF2 Upgrade/Install
             label: "Install Bootloader Only",
-            steps: [this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSuccess],
-            isEnabled: () => { return this.mode=="test" && !!this.bootloaderUrl },
+            steps: [this.stepWelcome, this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSuccess],
+            isEnabled: async () => { return this.hasNativeUsb() && !!this.bootloaderUrl },
         },
-        settingsOnly: {
+        credentialsOnlyRepl: { // Update via REPL
             label: "Update WiFi credentials",
-            steps: [this.stepSerialConnect, this.stepCredentials, this.stepSettings, this.stepSuccess],
-            isEnabled: () => { return this.mode=="test" && this.cpDetected() },
+            steps: [this.stepWelcome, this.stepSetupRepl, this.stepCredentials, this.stepSuccess],
+            isEnabled: async () => { return !this.hasNativeUsb() },
+        },
+        credentialsOnlyDrive: { // Update via CIRCUITPY Drive
+            label: "Update WiFi credentials",
+            steps: [this.stepWelcome, this.stepSelectCpyDrive, this.stepCredentials, this.stepSuccess],
+            isEnabled: async () => { return this.hasNativeUsb() },
         }
     }
 
-    // This is the data for the dialogs
+    // This is the data for the CircuitPython specific dialogs. Some are reused.
     cpDialogs = {
-        serialConnect: {
+        welcome: {
             closeable: true,
             template: (data) => html`
                 <p>
                     Welcome to the CircuitPython Installer. This tool will install CircuitPython on your ${data.boardName}.
                 </p>
-                <p>Make sure your board is plugged into this computer via a Serial connection using a USB Cable.
+                <p>
+                    This tool is <strong>new</strong> and <strong>experimental</strong>. If you experience any issues, feel free to check out
+                    <a href="https://github.com/adafruit/circuitpython-org/issues">https://github.com/adafruit/circuitpython-org/issues</a>
+                    to see if somebody has already submitted the same issue you are experiencing. If not, feel free to open a new issue. If
+                    you do see the same issue and are able to contribute additional information, that would be appreciated.
+                </p>
+                <p>
+                    If you are unable to use this tool, then the manual installation methods should still work.
+                </p>
+            `
+        },
+        espSerialConnect: {
+            closeable: true,
+            template: (data) => html`
+                <p>
+                    Make sure your board is plugged into this computer via a Serial connection using a USB Cable.
                 </p>
                 <ul>
                     <li><em><strong>NOTE:</strong> A lot of people end up using charge-only USB cables and it is very frustrating! Make sure you have a USB cable you know is good for data sync.</em></li>
                 </ul>
                 <p>
-                    <button id="butConnect" type="button" @click=${this.connectHandler.bind(this)}>Connect</button>
+                    <button id="butConnect" type="button" @click=${this.espToolConnectHandler.bind(this)}>Connect</button>
                     Click this button to open the Web Serial connection menu.
                 </p>
 
                 <p>There may be many devices listed, such as your remembered Bluetooth peripherals, anything else plugged into USB, etc.</p>
 
                 <p>
-                    If you aren't sure which to choose, look for words like "USB", "UART", and "Bridge Controller". There may be more than one right option depending on your system configuration. Experiment if needed.
+                    If you aren't sure which to choose, look for words like "USB", "UART", "JTAG", and "Bridge Controller". There may be more than one right option depending on your system configuration. Experiment if needed.
                 </p>
             `,
             buttons: [this.previousButton, {
                 label: "Next",
                 onClick: this.nextStep,
-                isEnabled: () => { return (this.currentStep < this.currentFlow.steps.length - 1) && this.connected == this.connectionStates.CONNECTED },
-                onUpdate: async (e) => { console.log("updating"); this.currentDialogElement.querySelector("#butConnect").innerText = this.connected; },
+                isEnabled: async () => { return (this.currentStep < this.currentFlow.steps.length - 1) && this.connected == this.connectionStates.CONNECTED },
+                onUpdate: async (e) => { this.currentDialogElement.querySelector("#butConnect").innerText = this.connected; },
             }],
         },
         confirm: {
@@ -141,65 +183,108 @@ export class CPInstallButton extends InstallButton {
                 }
             ],
         },
-        erase: {
+        bootDriveSelect: {
+            closeable: true,
             template: (data) => html`
-                <p class="centered">Erasing Flash...</p>
+                <p>
+                    Please select the ${data.drivename} Drive where the UF2 file will be copied.
+                </p>
+                <p>
+                If you just installed the bootloader, you may need to reset your board. If you already had the bootloader installed,
+                you may need to double press the reset button.
+                </p>
+                <p>
+                    <button id="butSelectBootDrive" type="button" @click=${this.bootDriveSelectHandler.bind(this)}>Select ${data.drivename} Drive</button>
+                </p>
+            `,
+            buttons: [],
+        },
+        circuitpyDriveSelect: {
+            closeable: true,
+            template: (data) => html`
+                <p>
+                    Please select the CIRCUITPY Drive. If you don't see your CIRCUITPY drive, it may be disabled in boot.py or you may have renamed it at some point.
+                </p>
+                <p>
+                    <button id="butSelectCpyDrive" type="button" @click=${this.circuitpyDriveSelectHandler.bind(this)}>Select CIRCUITPY Drive</button>
+                </p>
+            `,
+            buttons: [],
+        },
+        actionWaiting: {
+            template: (data) => html`
+                <p class="centered">${data.action}...</p>
                 <div class="loader"><div></div><div></div><div></div><div></div></div>
             `,
             buttons: [],
         },
-        flash: {
+        actionProgress: {
             template: (data) => html`
-                <p class="centered">${data.action} ${data.file}...</p>
-                <progress id="flashProgress" max="100" value="0"></progress>
+                <p>${data.action}...</p>
+                <progress id="stepProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
             `,
             buttons: [],
         },
-        // We may have a waiting for Bootloader to start dialog
-        copyUf2: {
+        cpSerial: {
+            closeable: true,
             template: (data) => html`
-                <p class="centered">Copying ${data.file}...</p>
-                <progress id="copyProgress" max="100" value="0"></progress>
+                <p>
+                    The next step is to write your credentials to settings.toml. Make sure your board is running CircuitPython. <strong>If you just installed CircuitPython, you may to reset the board first.</strong>
+                </p>
+                <p>
+                    <button id="butConnect" type="button" @click=${this.cpSerialConnectHandler.bind(this)}>Connect</button>
+                    Click this button to open the Web Serial connection menu. If it is already connected, pressing again will allow you to select a different port.
+                </p>
+
+                <p>${data.serialPortInstructions}</p>
             `,
-            buttons: [this.nextButton],
+            buttons: [this.previousButton, {
+                label: "Next",
+                onClick: this.nextStep,
+                isEnabled: async () => { return (this.currentStep < this.currentFlow.steps.length - 1) && !!this.replSerialDevice; },
+                onUpdate: async (e) => { this.currentDialogElement.querySelector("#butConnect").innerText = !!this.replSerialDevice ? "Connected" : "Connect"; },
+            }],
         },
+
         credentials: {
+            closeable: true,
             template: (data) => html`
-                <div class="field">
-                    <label for="circuitpy_wifi_ssid">WiFi Network Name (SSID):</label>
-                    <input id="circuitpy_wifi_ssid" class="setting-data" type="text" placeholder="WiFi SSID" value="" />
-                </div>
-                <div class="field">
-                    <label for="circuitpy_wifi_password">WiFi Password:</label>
-                    <input id="circuitpy_wifi_password" class="setting-data" type="text" placeholder="WiFi Password" value=""  />
-                </div>
-                <div class="field">
-                    <label for="circuitpy_web_api_password">Web Workflow API Password:</label>
-                    <input id="circuitpy_web_api_password" class="setting-data" type="text" placeholder="Web Workflow API Password" value=""  />
-                </div>
-                <div class="field">
-                    <!-- Alternatively "Disable USB Mass Storage" -->
-                    <input id="circuitpy_drive" class="setting" type="checkbox" value="disabled" checked />
-                    <label for="circuitpy_drive">Disable CIRCUITPY Drive (Required for write access)</label>
-                </div>
+                <fieldset>
+                    <div class="field">
+                        <label for="circuitpy_wifi_ssid">WiFi Network Name (SSID):</label>
+                        <input id="circuitpy_wifi_ssid" class="setting-data" type="text" placeholder="WiFi SSID" value="${data.wifi_ssid}" />
+                    </div>
+                    <div class="field">
+                        <label for="circuitpy_wifi_password">WiFi Password:</label>
+                        <input id="circuitpy_wifi_password" class="setting-data" type="password" placeholder="WiFi Password" value="${data.wifi_password}" />
+                    </div>
+                    <div class="field">
+                        <label for="circuitpy_web_api_password">Web Workflow API Password:</label>
+                        <input id="circuitpy_web_api_password" class="setting-data" type="password" placeholder="Web Workflow API Password" value="${data.api_password}"  />
+                    </div>
+                    <div class="field">
+                        <label for="circuitpy_web_api_port">Web Workflow API Port:</label>
+                        <input id="circuitpy_web_api_port" class="setting-data" type="number" min="0" max="65535" placeholder="Web Workflow API Port" value="${data.api_port}"  />
+                    </div>
+                    ${data.mass_storage_disabled === true || data.mass_storage_disabled === false ?
+                        html`<div class="field">
+                        <label for="circuitpy_drive"><input id="circuitpy_drive" class="setting" type="checkbox" value="disabled" ${data.mass_storage_disabled ? "checked" : ""} />Disable CIRCUITPY Drive (Required for write access)</label>
+                    </div>` : ''}
+                </fieldset>
             `,
-        },
-        circuitPythonCheck: {
-            template: (data) => html`
-                <p>Looking for CircuitPython...</p>
-                <progress id="copyProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
-            `,
-        },
-        setUpWebWorkflow: {
-            template: (data) => html`
-                <p>Setting up Web Workflow...</p>
-                <progress id="copyProgress" max="100" value="${data.percentage}"> ${data.percentage}% </progress>
-            `,
+            buttons: [this.previousButton, {
+                label: "Next",
+                onClick: this.saveCredentials,
+            }]
         },
         success: {
             closeable: true,
             template: (data) => html`
-                <p>Successfully Completed Installation</p>
+                <p>Successfully Completed</p>
+                ${data.ip ?
+                    html`<p>
+                        You can edit files by going to <a href="http://${data.ip}/code/">http://${data.ip}/code/</a>.
+                    </p>` : ''}
             `,
             buttons: [this.closeButton],
         },
@@ -208,69 +293,21 @@ export class CPInstallButton extends InstallButton {
             template: (data) => html`
                 <p>Installation Error: ${data.message}</p>
             `,
-            closeable: false,
             buttons: [this.closeButton],
         },
     }
 
-    async connectHandler(e) {
-        await this.disconnect();
-        let esploader;
-        try {
-            esploader = await esptoolPackage.connect({
-                log: (...args) => this.logMsg(...args),
-                debug: (...args) => {},
-                error: (...args) => this.errorMsg(...args),
-            });
-        } catch (err) {
-            this.errorMsg("Unable to open Serial connection to board. Make sure the port is not already in use by another application or in another browser tab.");
-            return;
-        }
 
-        try {
-            this.updateUIConnected(this.connectionStates.CONNECTING);
-            await esploader.initialize();
-            this.updateUIConnected(this.connectionStates.CONNECTED);
-        } catch (err) {
-            await esploader.disconnect();
-            // Disconnection before complete
-            this.updateUIConnected(this.connectionStates.DISCONNECTED);
-            this.errorMsg("Unable to connect to the board. Make sure it is in bootloader mode by holding the boot0 button when powering on and try again.")
-            return;
-        }
+    ////////// STEP FUNCTIONS //////////
 
-        try {
-            this.logMsg("Connected to " + esploader.chipName);
-            this.logMsg("MAC Address: " + this.formatMacAddr(esploader.macAddr()));
-
-            // check chip compatibility
-            if (FAMILY_TO_CHIP_MAP[this.chipFamily] == esploader.chipFamily) {
-                console.log("This chip checks out");
-                this.espStub = await esploader.runStub();
-                this.espStub.addEventListener("disconnect", () => {
-                    this.updateUIConnected(this.connectionStates.DISCONNECTED);
-                    this.espStub = null;
-                });
-
-                await this.setBaudRateIfChipSupports(esploader.chipFamily, PREFERRED_BAUDRATE);
-                return
-            }
-
-            // Can't use it so disconnect now
-            this.errorMsg("Oops, this is the wrong firmware for your board.")
-            await this.disconnect()
-
-        } catch (err) {
-            await esploader.disconnect();
-            // Disconnection before complete
-            this.updateUIConnected(this.connectionStates.DISCONNECTED);
-            this.errorMsg("Oops, we lost connection to your board before completing the install. Please check your USB connection and click Connect again. Refresh the browser if it becomes unresponsive.")
-        }
+    async stepWelcome() {
+        // Display Welcome Dialog
+        this.showDialog(this.dialogs.welcome, {boardName: this.boardName});
     }
 
     async stepSerialConnect() {
         // Display Serial Connect Dialog
-        this.showDialog(this.dialogs.serialConnect, {boardName: this.boardName});
+        this.showDialog(this.dialogs.espSerialConnect);
     }
 
     async stepConfirm() {
@@ -280,7 +317,9 @@ export class CPInstallButton extends InstallButton {
 
     async stepEraseAll() {
         // Display Erase Dialog
-        this.showDialog(this.dialogs.erase);
+        this.showDialog(this.dialogs.actionWaiting, {
+            action: "Erasing Flash",
+        });
         try {
             await this.espStub.eraseFlash();
         } catch (err) {
@@ -297,6 +336,7 @@ export class CPInstallButton extends InstallButton {
         }
 
         await this.downloadAndInstall(this.binFileUrl);
+        await this.espHardReset();
         await this.nextStep();
     }
 
@@ -307,41 +347,96 @@ export class CPInstallButton extends InstallButton {
             return;
         }
         // Display Bootloader Dialog
-        await this.downloadAndInstall(this.bootloaderUrl, 'combined.bin');
-        // TODO: Reboot into bootloader
+        await this.downloadAndInstall(this.bootloaderUrl, 'combined.bin', true);
         await this.nextStep();
     }
 
-    async stepCopyUf2() {
-        // Display CopyUf2 Dialog
-        this.showDialog(this.dialogs.copyUf2, {file: this.uf2FileUrl});
+    async stepSelectBootDrive() {
+        const bootloaderVolume = await this.getBootDriveName();
+
+        if (bootloaderVolume) {
+            this.logMsg(`Waiting for user to select a bootloader volume named ${bootloaderVolume}`);
+        }
+
+        // Display Select Bootloader Drive Dialog
+        this.showDialog(this.dialogs.bootDriveSelect, {
+            drivename: bootloaderVolume ? bootloaderVolume : "Bootloader",
+        });
     }
 
-    async stepSettings() {
-        // Display Settings Dialog
-        this.showDialog(this.dialogs.settings);
+    async stepSelectCpyDrive() {
+        this.logMsg(`Waiting for user to select CIRCUITPY drive`);
+
+        // Display Select CIRCUITPY Drive Dialog
+        this.showDialog(this.dialogs.circuitpyDriveSelect);
+    }
+
+    async stepCopyUf2() {
+        if (!this.bootDriveHandle) {
+            this.errorMsg("No boot drive selected. stepSelectBootDrive should preceed this step.");
+            return;
+        }
+        // Display Progress Dialog
+        this.showDialog(this.dialogs.actionProgress, {
+            action: `Copying ${this.uf2FileUrl}`,
+        });
+
+        // Do a copy and update progress along the way
+        await this.downloadAndCopy(this.uf2FileUrl);
+
+        // Once done, call nextstep
+        await this.nextStep();
+    }
+
+    async stepSetupRepl() {
+        // TODO: Try and reuse the existing connection so user doesn't need to select it again
+        /*if (this.port) {
+            this.replSerialDevice = this.port;
+            await this.setupRepl();
+        }*/
+        const serialPortName = await this.getSerialPortName();
+        let serialPortInstructions ="There may be several devices listed. If you aren't sure which to choose, look for one that includes the name of your microcontroller.";
+        if (serialPortName) {
+            serialPortInstructions =`There may be several devices listed, but look for one called something like ${serialPortName}.`
+        }
+        this.showDialog(this.dialogs.cpSerial, {
+            serialPortInstructions: serialPortInstructions
+        });
     }
 
     async stepCredentials() {
+        // We may want to see if the board has previously been set up and fill in any values from settings.toml and boot.py
+        this.tomlSettings = await this.getCurrentSettings();
+        console.log(this.tomlSettings);
+        const parameters = {
+            wifi_ssid: this.getSetting('CIRCUITPY_WIFI_SSID'),
+            wifi_password: this.getSetting('CIRCUITPY_WIFI_PASSWORD'),
+            api_password: this.getSetting('CIRCUITPY_WEB_API_PASSWORD', 'passw0rd'),
+            api_port: this.getSetting('CIRCUITPY_WEB_API_PORT', 80),
+        }
+
+        if (this.hasNativeUsb()) {
+            // TODO: Currently the control is just disabled and not used because we don't have anything to modify boot.py in place.
+            // Setting mass_storage_disabled to true/false will display the checkbox with the appropriately checked state.
+            //parameters.mass_storage_disabled = true;
+        }
+
         // Display Credentials Request Dialog
-        this.showDialog(this.dialogs.credentials);
-    }
-
-    async stepWebWorkflow() {
-        // Display Dialog to set up Web Workflow
-        // Wait for CircuitPython to be detected
-        // Write the Settings.toml file
-        // If Disable CIRCUITPY Drive was checked, write the boot.py file
-        // Reboot
-
-        this.showDialog(this.dialogs.setUpWebWorkflow);
+        this.showDialog(this.dialogs.credentials, parameters);
     }
 
     async stepSuccess() {
+        let deviceHostInfo = {};
+        if (this.repl) {
+            await this.repl.waitForPrompt();
+            // If we were setting up Web Workflow, we may want to provide a link to code.circuitpython.org
+            if (this.currentFlow || this.currentFlow.steps.includes(this.stepCredentials)) {
+                deviceHostInfo = await this.getDeviceHostInfo();
+            }
+        }
+
         // Display Success Dialog
-        this.showDialog(this.dialogs.success);
-        // If we were setting up Web Workflow, we may want to provide a link to code.circuitpython.org
-        // Alternatively, we may want a separate dialog with a link
+        this.showDialog(this.dialogs.success, deviceHostInfo);
     }
 
     async stepClose() {
@@ -349,18 +444,324 @@ export class CPInstallButton extends InstallButton {
         this.closeDialog();
     }
 
-    cpDetected() {
-        // TODO: Actually detect CircuitPython
-        // We may also want to have it return the version number and return null if not detected
+    ////////// HANDLERS //////////
+
+    async bootDriveSelectHandler(e) {
+        const bootloaderVolume = await this.getBootDriveName();
+        let dirHandle;
+
+        // This will need to show a dialog selector
+        try {
+            dirHandle = await window.showDirectoryPicker({mode: 'readwrite'});
+        } catch (e) {
+            // Likely the user cancelled the dialog
+            return;
+        }
+        if (bootloaderVolume && bootloaderVolume != dirHandle.name) {
+            alert(`The selected drive named ${dirHandle.name} does not match the expected name of ${bootloaderVolume}. Please select the correct drive.`);
+            return;
+        }
+        if (!await this._verifyPermission(dirHandle)) {
+            alert("Unable to write to the selected folder");
+            return;
+        }
+
+        this.bootDriveHandle = dirHandle;
+        await this.nextStep();
+    }
+
+    async circuitpyDriveSelectHandler(e) {
+        let dirHandle;
+
+        // This will need to show a dialog selector
+        try {
+            dirHandle = await window.showDirectoryPicker({mode: 'readwrite'});
+        } catch (e) {
+            // Likely the user cancelled the dialog
+            return;
+        }
+        // Check if boot_out.txt exists
+        if (!(await this.getBootOut(dirHandle))) {
+            alert(`Expecting a folder with boot_out.txt. Please select the root folder of your CIRCUITPY drive.`);
+            return;
+        }
+        if (!await this._verifyPermission(dirHandle)) {
+            alert("Unable to write to the selected folder");
+            return;
+        }
+
+        this.circuitpyDriveHandle = dirHandle;
+        await this.nextStep();
+    }
+
+    async espToolConnectHandler(e) {
+        await this.onReplDisconnected(e);
+        await this.espDisconnect();
+        let esploader;
+        try {
+            esploader = await this.espConnect({
+                log: (...args) => this.logMsg(...args),
+                debug: (...args) => {},
+                error: (...args) => this.errorMsg(...args),
+            });
+        } catch (err) {
+            // It's possible the dialog was also canceled here
+            this.errorMsg("Unable to open Serial connection to board. Make sure the port is not already in use by another application or in another browser tab.");
+            return;
+        }
+
+        try {
+            this.updateEspConnected(this.connectionStates.CONNECTING);
+            await esploader.initialize();
+            this.updateEspConnected(this.connectionStates.CONNECTED);
+        } catch (err) {
+            await esploader.disconnect();
+            // Disconnection before complete
+            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.errorMsg("Unable to connect to the board. Make sure it is in bootloader mode by holding the boot0 button when powering on and try again.")
+            return;
+        }
+
+        try {
+            this.logMsg(`Connected to ${esploader.chipName}`);
+            this.logMsg(`MAC Address: ${this.formatMacAddr(esploader.macAddr())}`);
+
+            // check chip compatibility
+            if (FAMILY_TO_CHIP_MAP[this.chipFamily] == esploader.chipFamily) {
+                this.logMsg("This chip checks out");
+                this.espStub = await esploader.runStub();
+                this.espStub.addEventListener("disconnect", () => {
+                    this.updateEspConnected(this.connectionStates.DISCONNECTED);
+                    this.espStub = null;
+                });
+
+                await this.setBaudRateIfChipSupports(esploader.chipFamily, PREFERRED_BAUDRATE);
+                await this.nextStep();
+                return;
+            }
+
+            // Can't use it so disconnect now
+            this.errorMsg("Oops, this is the wrong firmware for your board.")
+            await this.espDisconnect();
+
+        } catch (err) {
+            await esploader.disconnect();
+            // Disconnection before complete
+            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.errorMsg("Oops, we lost connection to your board before completing the install. Please check your USB connection and click Connect again. Refresh the browser if it becomes unresponsive.")
+        }
+    }
+
+    async onSerialReceive(e) {
+        await this.repl.onSerialReceive(e);
+    }
+
+    async cpSerialConnectHandler(e) {
+        // Disconnect from the ESP Tool if Connected
+        await this.espDisconnect();
+
+        await this.onReplDisconnected(e);
+
+        // Connect to the Serial Port and interact with the REPL
+        try {
+            this.replSerialDevice = await navigator.serial.requestPort();
+        } catch (e) {
+            // Likely the user cancelled the dialog
+            return;
+        }
+
+        try {
+            await this.replSerialDevice.open({baudRate: ESP_ROM_BAUD});
+        } catch (e) {
+            console.error("Error. Unable to open Serial Port. Make sure it isn't already in use in another tab or application.");
+        }
+
+        await this.setupRepl();
+
+        this.nextStep();
+    }
+
+    async setupRepl() {
+        if (this.replSerialDevice) {
+            this.repl = new REPL();
+            this.repl.serialTransmit = this.serialTransmit.bind(this);
+
+            this.replSerialDevice.addEventListener("message", this.onSerialReceive.bind(this));
+
+            // Start the read loop
+            this._readLoopPromise = this._readSerialLoop().catch(
+                async function(error) {
+                    await this.onReplDisconnected();
+                }.bind(this)
+            );
+
+            if (this.replSerialDevice.writable) {
+                this.writer = this.replSerialDevice.writable.getWriter();
+                await this.writer.ready;
+            }
+        }
+    }
+
+    async onReplDisconnected(e) {
+        if (this.reader) {
+            try {
+                await this.reader.cancel();
+            } catch(e) {
+                // Ignore
+            }
+            this.reader = null;
+        }
+        if (this.writer) {
+            await this.writer.releaseLock();
+            this.writer = null;
+        }
+
+        if (this.replSerialDevice) {
+            try {
+                await this.replSerialDevice.close();
+            } catch(e) {
+                // Ignore
+            }
+            this.replSerialDevice = null;
+        }
+    }
+
+    //////////////// FILE HELPERS ////////////////
+
+    async getBootDriveName() {
+        if (this._bootDriveName) {
+            return this._bootDriveName;
+        }
+        await this.extractBootloaderInfo();
+
+        return this._bootDriveName;
+    }
+
+    async getSerialPortName() {
+        if (this._serialPortName) {
+            return this._serialPortName;
+        }
+        await this.extractBootloaderInfo();
+
+        return this._serialPortName;
+    }
+
+    async _verifyPermission(folderHandle) {
+        const options = {mode: 'readwrite'};
+
+        if (await folderHandle.queryPermission(options) === 'granted') {
+            return true;
+        }
+
+        if (await folderHandle.requestPermission(options) === 'granted') {
+            return true;
+        }
+
         return false;
+    }
+
+    async extractBootloaderInfo() {
+        if (!this.bootloaderUrl) {
+            return false;
+        }
+
+        // Download the bootloader zip file
+        let [filename, fileBlob] = await this.downloadAndExtract(this.bootloaderUrl, 'tinyuf2.bin');
+        const fileContents = await fileBlob.text();
+
+        const bootDriveRegex = /B\x00B\x00([A-Z0-9\x00]{11})FAT16/;
+        const serialNameRegex = /0123456789ABCDEF(.+)\x00UF2/;
+        // Not sure if manufacturer is displayed. If not, we should use this instead
+        // const serialNameRegex = /0123456789ABCDEF(?:.*\x00)?(.+)\x00UF2/;
+
+        let matches = fileContents.match(bootDriveRegex);
+        if (matches && matches.length >= 2) {
+            // Strip any null characters from the name
+            this._bootDriveName = matches[1].replace(/\0/g, '');
+        }
+
+        matches = fileContents.match(serialNameRegex);
+        if (matches && matches.length >= 2) {
+            // Replace any null characters with spaces
+            this._serialPortName = matches[1].replace(/\0/g, ' ');
+        }
+
+        this.removeCachedFile(this.bootloaderUrl.split("/").pop());
+    }
+
+    async getBootOut(dirHandle) {
+        return await this.readFile("boot_out.txt", dirHandle);
+    }
+
+    async readFile(filename, dirHandle = null) {
+        // Read a file from the given directory handle
+
+        if (!dirHandle) {
+            dirHandle = this.circuitpyDriveHandle;
+        }
+        if (!dirHandle) {
+            console.warn("CIRCUITPY Drive not selected and no Directory Handle provided");
+            return null;
+        }
+        try {
+            const fileHandle = await dirHandle.getFileHandle(filename);
+            const fileData = await fileHandle.getFile();
+
+            return await fileData.text();
+        } catch (e) {
+            return null;
+        }
+    }
+
+    async writeFile(filename, contents, dirHandle = null) {
+        // Write a file to the given directory handle
+        if (!dirHandle) {
+            dirHandle = this.circuitpyDriveHandle;
+        }
+        if (!dirHandle) {
+            console.warn("CIRCUITPY Drive not selected and no Directory Handle provided");
+            return null;
+        }
+
+        const fileHandle = await dirHandle.getFileHandle(filename, {create: true});
+        const writable = await fileHandle.createWritable();
+        await writable.write(contents);
+        await writable.close();
+    }
+
+
+    //////////////// DOWNLOAD HELPERS ////////////////
+
+    addCachedFile(filename, blob) {
+        this.fileCache.push({
+            filename: filename,
+            blob: blob
+        });
+    }
+
+    getCachedFile(filename) {
+        for (let file of this.fileCache) {
+            if (file.filename === filename) {
+                return file.contents;
+            }
+        }
+        return null;
+    }
+
+    removeCachedFile(filename) {
+        for (let file of this.fileCache) {
+            if (file.filename === filename) {
+                this.fileCache.splice(this.fileCache.indexOf(file), 1);
+            }
+        }
     }
 
     async downloadFile(url, progressElement) {
         let response;
         try {
-            response = await fetch(url, {mode: "cors"});
+            response = await fetch(url);
         } catch (err) {
-            this.errorMsg("Unable to download file: " + url);
+            this.errorMsg(`Unable to download file: ${url}`);
             return null;
         }
 
@@ -376,8 +777,8 @@ export class CPInstallButton extends InstallButton {
             }
             chunks.push(value);
             receivedLength += value.length;
-            progressElement.value = Math.round(receivedLength / contentLength) * 100;
-            console.log(`Received ${receivedLength} of ${contentLength}`)
+            progressElement.value = Math.round((receivedLength / contentLength) * 100);
+            this.logMsg(`Received ${receivedLength} of ${contentLength}`)
         }
         let chunksAll = new Uint8Array(receivedLength);
         let position = 0;
@@ -391,60 +792,108 @@ export class CPInstallButton extends InstallButton {
         return result;
     }
 
-    async downloadAndInstall(url, fileToExtract = null) {
-        // Display Flash Dialog
+    async downloadAndExtract(url, fileToExtract = null, cacheFile = false) {
+        // Display Progress Dialog
         let filename = url.split("/").pop();
+        let fileBlob = this.getCachedFile(filename);
 
-        this.showDialog(this.dialogs.flash, {
-            action: "Downloading",
-            file: filename,
-        });
+        if (!fileBlob) {
+            this.showDialog(this.dialogs.actionProgress, {
+                action: `Downloading ${filename}`
+            });
 
-        const progressElement = this.currentDialogElement.querySelector("#flashProgress");
+            const progressElement = this.currentDialogElement.querySelector("#stepProgress");
 
-        // Download the file at the url updating the progress in the process
-        let fileContents = await this.downloadFile(url, progressElement);
+            // Download the file at the url updating the progress in the process
+            fileBlob = await this.downloadFile(url, progressElement);
+
+            if (cacheFile) {
+                this.addCachedFile(filename, fileBlob);
+            }
+        }
 
         // If the file is a zip file, unzip and find the file to extract
         if (filename.endsWith(".zip") && fileToExtract) {
             let foundFile;
-            console.log("Extracting step");
-            // Update the flash dialog
-            this.showDialog(this.dialogs.flash, {
-                action: "Extracting",
-                file: fileToExtract,
+            // Update the Progress dialog
+            this.showDialog(this.dialogs.actionProgress, {
+                action: `Extracting ${fileToExtract}`
             });
 
             // Set that to the current file to flash
-            [foundFile, fileContents] = await this.findAndExtractFromZip(fileContents, fileToExtract);
-            if (!fileContents) {
-                this.errorMsg("Unable to find " + fileToExtract + " in " + filename);
+            [foundFile, fileBlob] = await this.findAndExtractFromZip(fileBlob, fileToExtract);
+            if (!fileBlob) {
+                this.errorMsg(`Unable to find ${fileToExtract} in ${filename}`);
                 return;
             }
             filename = foundFile;
         }
 
-        // Update the flash dialog
-        if (fileContents) {
-            console.log("Flash step");
+        return [filename, fileBlob];
+    }
+
+    async downloadAndInstall(url, fileToExtract = null, cacheFile = false) {
+        let [filename, fileBlob] = await this.downloadAndExtract(url, fileToExtract, cacheFile);
+
+        // Update the Progress dialog
+        if (fileBlob) {
+            const fileContents = (new Uint8Array(await fileBlob.arrayBuffer())).buffer;
             let lastPercent = 0;
-            this.showDialog(this.dialogs.flash, {
-                action: "Flashing",
-                file: filename,
+            this.showDialog(this.dialogs.actionProgress, {
+                action: `Flashing ${filename}`
             });
+
+            const progressElement = this.currentDialogElement.querySelector("#stepProgress");
+            progressElement.value = 0;
+
             try {
                 await this.espStub.flashData(fileContents, (bytesWritten, totalBytes) => {
-                    let percentage = Math.floor((bytesWritten / totalBytes) * 100);
-                    if (percentage != lastPercent) {
+                    let percentage = Math.round((bytesWritten / totalBytes) * 100);
+                    if (percentage > lastPercent) {
                         progressElement.value = percentage;
                         this.logMsg(`${percentage}% (${bytesWritten}/${totalBytes})...`);
                         lastPercent = percentage;
                     }
                 }, 0, 0);
             } catch (err) {
-                this.errorMsg("Unable to flash file: " + filename);
-                console.log(err);
+                this.errorMsg(`Unable to flash file: ${filename}. Error Message: ${err}`);
             }
+        }
+    }
+
+    async downloadAndCopy(url, dirHandle = null) {
+        if (!dirHandle) {
+            dirHandle = this.bootDriveHandle;
+        }
+        if (!dirHandle) {
+            this.errorMsg("No drive handle available");
+            return;
+        }
+
+        const progressElement = this.currentDialogElement.querySelector("#stepProgress");
+        progressElement.value = 0;
+
+        let [filename, fileBlob] = await this.downloadAndExtract(url);
+        const fileHandle = await dirHandle.getFileHandle(filename, {create: true});
+        const writableStream = await fileHandle.createWritable();
+        const totalSize = fileBlob.size;
+        let bytesWritten = 0;
+        let chunk;
+        while(bytesWritten < totalSize) {
+            chunk = fileBlob.slice(bytesWritten, bytesWritten + COPY_CHUNK_SIZE);
+            await writableStream.write(chunk, {position: bytesWritten, size: chunk.size});
+
+            bytesWritten += chunk.size;
+            progressElement.value = Math.round(bytesWritten / totalSize * 100);
+            this.logMsg(`${Math.round(bytesWritten / totalSize * 100)}% (${bytesWritten} / ${totalSize}) written...`);
+        }
+        this.logMsg("File successfully written");
+        try {
+            // Attempt to close the file, but since the device reboots, it may error
+            await writableStream.close();
+            this.logMsg("File successfully closed");
+        } catch (err) {
+            this.logMsg("Error closing file, probably due to board reset. Continuing...");
         }
     }
 
@@ -455,402 +904,259 @@ export class CPInstallButton extends InstallButton {
         let zipContents = await reader.getEntries();
 
         for(const zipEntry of zipContents) {
-            console.log(filename, zipEntry.filename, zipEntry.filename.localeCompare(filename));
             if (zipEntry.filename.localeCompare(filename) === 0) {
-                const extractedFile = await zipEntry.getData(new zip.Uint8ArrayWriter());
-                return [zipEntry.filename, extractedFile.buffer]; // ESPTool wants an ArrayBuffer
+                const extractedFile = await zipEntry.getData(new zip.BlobWriter());
+                return [zipEntry.filename, extractedFile];
             }
         }
 
         return [null, null];
     }
+
+
+    //////////////// OTHER HELPERS ////////////////
+
+    async saveCredentials() {
+        this.saveSetting('CIRCUITPY_WIFI_SSID');
+        this.saveSetting('CIRCUITPY_WIFI_PASSWORD');
+        this.saveSetting('CIRCUITPY_WEB_API_PASSWORD');
+        this.saveSetting('CIRCUITPY_WEB_API_PORT');
+
+        await this.writeSettings(this.tomlSettings);
+        if (this.hasNativeUsb()) {
+            //this.setBootDisabled(true);
+        }
+        await this.nextStep();
+    }
+
+    getSetting(setting, defaultValue = '') {
+        if (this.tomlSettings && this.tomlSettings.hasOwnProperty(setting)) {
+            return this.tomlSettings[setting];
+        }
+
+        return defaultValue;
+    }
+
+    async getBootDisabled() {
+        // This is a very simple check for now. If there is something more complicated like a disable
+        // command behind an if statement, this will not detect it is enabled.
+        let fileContents;
+        if (this.repl) {
+            return true; // Always disabled in this case
+        } else if (this.circuitpyDriveHandle) {
+            fileContents = await this.readFile("boot.py");
+            // TODO: Compare board's boot.py to our boot.py by
+            // searching for storage.disable_usb_drive() at the beginning of the line
+        } else {
+            this.errorMsg("Connect to the CIRCUITPY drive or the REPL first");
+            return {};
+        }
+
+        if (fileContents) {
+            return toml.parse(fileContents);
+        }
+        this.logMsg("Unable to read settings.toml from CircuitPython. It may not exist. Continuing...");
+        return {};
+    }
+
+    saveBootDisabled(disabled) {
+        // TODO: Save/remove a copy of boot.py on the CIRCUITPY drive
+        // This depends on whether it is currently disabled in boot.py and what the value of disabled is
+        // If they are the same, we can skip
+        // An idea is to only deal with this if boot.py doesn't exist and just use a generic boot.py
+        // For disabling, we can compare to the generic and if they are different refuse to touch it
+        const formElement = this.currentDialogElement.querySelector('#circuitpy_drive');
+        if (formElement) {
+            if (formElement.checked) {
+                this.tomlSettings['CIRCUITPY_DRIVE'] = "disabled";
+            } else {
+                this.tomlSettings['CIRCUITPY_DRIVE'] = "enabled";
+            }
+        }
+
+    }
+
+    saveSetting(settingName) {
+        const formElement = this.currentDialogElement.querySelector(`#${settingName.toLowerCase()}`)
+        if (formElement) {
+            if (formElement.type == "number") {
+                this.tomlSettings[settingName] = parseInt(formElement.value);
+            } else if (formElement.type == "text" || formElement.type == "password") {
+                this.tomlSettings[settingName] = formElement.value;
+            } else {
+                this.errorMsg(`A setting was found, but a form element of type ${formElement.type} was not expected.`);
+            }
+        } else {
+            this.errorMsg(`A setting named '${settingName}' was not found.`);
+        }
+    }
+
+    async runCode(code, outputToConsole = true) {
+        if (Array.isArray(code)) {
+            code = code.join("\n");
+        }
+
+        if (this.repl) {
+            const output = await this.repl.runCode(code);
+
+            if (outputToConsole) {
+                console.log(output);
+            }
+        }
+    }
+
+    async writeSettings(settings) {
+        if (this.repl) {
+            await this.runCode(`import storage`);
+            await this.runCode(`storage.remount("/", False)`);
+            await this.runCode(`f = open('settings.toml', 'w')`);
+
+            for (const [setting, value] of Object.entries(settings)) {
+                if (typeof value === "string") {
+                    await this.runCode(`f.write('${setting} = "${value}"\\n')`);
+                } else {
+                    await this.runCode(`f.write('${setting} = ${value}\\n')`);
+                }
+            }
+            await this.runCode(`f.close()`);
+
+            // Perform a soft restart to avoid losing the connection and get an IP address
+            this.showDialog(this.dialogs.actionWaiting, {
+                action: "Waiting for IP Address...",
+            });
+            await this.repl.softRestart();
+            try {
+                await this.timeout(
+                    async () => {
+                        let deviceInfo = {};
+                        while (Object.entries(deviceInfo).length == 0 || deviceInfo.ip === null) {
+                            deviceInfo = await this.getDeviceHostInfo();
+                            await this.sleep(300);
+                        }
+                    }, 10000
+                );
+            } catch (error) {
+                console.warn("Unable to get IP Address. Network Credentials may be incorrect");
+                return null;
+            }
+        } else if (this.circuitpyDriveHandle) {
+            const contents = toml.stringify(settings);
+            await this.writeFile("settings.toml", contents);
+        } else {
+            this.errorMsg("Connect to the CIRCUITPY drive or the REPL first");
+            return null;
+        }
+    }
+
+    async getCurrentSettings() {
+        let fileContents;
+        if (this.repl) {
+            fileContents = await this.runCode(["f = open('settings.toml', 'r')", "print(f.read())", "f.close()"]);
+        } else if (this.circuitpyDriveHandle) {
+            fileContents = await this.readFile("settings.toml");
+        } else {
+            this.errorMsg("Connect to the CIRCUITPY drive or the REPL first");
+            return {};
+        }
+
+        if (fileContents) {
+            return toml.parse(fileContents);
+        }
+        this.logMsg("Unable to read settings.toml from CircuitPython. It may not exist. Continuing...");
+        return {};
+    }
+
+    async espDisconnect() {
+        // Disconnect the ESPTool
+        if (this.espStub) {
+            await this.espStub.disconnect();
+            this.espStub.removeEventListener("disconnect", this.espDisconnect.bind(this));
+            this.updateEspConnected(this.connectionStates.DISCONNECTED);
+            this.espStub = null;
+        }
+        if (this.port) {
+            await this.port.close();
+            this.port = null;
+        }
+    }
+
+    async serialTransmit(msg) {
+        const encoder = new TextEncoder();
+        if (this.writer) {
+            const encMessage = encoder.encode(msg);
+            await this.writer.ready.catch((err) => {
+                this.errorMsg(`Ready error: ${err}`);
+            });
+            await this.writer.write(encMessage).catch((err) => {
+                this.errorMsg(`Chunk error: ${err}`);
+            });
+            await this.writer.ready;
+        }
+    }
+
+    async _readSerialLoop() {
+        if (!this.replSerialDevice) {
+            return;
+        }
+
+        const messageEvent = new Event("message");
+        const decoder = new TextDecoder();
+
+        if (this.replSerialDevice.readable) {
+            this.reader = this.replSerialDevice.readable.getReader();
+            while (true) {
+                const {value, done} = await this.reader.read();
+                if (value) {
+                    messageEvent.data = decoder.decode(value);
+                    this.replSerialDevice.dispatchEvent(messageEvent);
+                }
+                if (done) {
+                    this.reader.releaseLock();
+                    await this.onReplDisconnected();
+                    break;
+                }
+            }
+        }
+
+        this.logMsg("Read Loop Stopped. Closing Serial Port.");
+    }
+
+    async getDeviceHostInfo() {
+        // For now return info from title
+        if (this.repl) {
+            return {
+                ip: this.repl.getIpAddress(),
+                version: this.repl.getVersion(),
+            };
+        }
+
+        return {};
+
+        // TODO: (Maybe) Retreive some device info via the REPL (mDNS Hostname and IP Address)
+        // import wifi
+        // import mdns
+        // wifi.radio.ipv4_address
+        // server = mdns.Server(wifi.radio)
+        // server.hostname
+    }
+
+    hasNativeUsb() {
+        if (!this.chipFamily || ("esp32").includes(this.chipFamily)) {
+            return false;
+        }
+
+        // Since most new chips have it, we return true by default.
+        return true;
+    }
+
+    sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    timeout(callback, ms) {
+        return Promise.race([callback(), this.sleep(ms).then(() => {throw Error("Timed Out");})]);
+    }
 }
+
 
 customElements.define('cp-install-button', CPInstallButton, {extends: "button"});
-
-// Changes to make:
-// Hide the log and make it accessible via the menu (future feature, console.log for now)
-// Generate dialogs on the fly
-// Make a drop-in component
-// Keep in mind it will be used for LEARN too
-// May need to deal with CORS issues
-// May need to deal with the fact that the ESPTool uses Web Serial and CircuitPython REPL uses Web Serial
-
-/*
-const maxLogLength = 100;
-const disableWhileBusy = [partitionData, butProgram, butProgramBootloader, baudRate];
-
-document.addEventListener("DOMContentLoaded", () => {
-
-
-    // register dom event listeners
-    butConnect.addEventListener("click", () => {
-        clickConnect().catch(async (e) => {
-            // Default Help Message:
-            // if we've failed to catch the message before now, we need to give
-            // the generic advice: reconnect, refresh, go to support
-            this.errorMsg(
-                `Connection Error, your board may be incompatible. Things to try:\n` +
-                `1. Reset your board and try again.\n` +
-                `  - Look for a little black button near the power port.\n` +
-                `2. Refresh your browser and try again.\n` +
-                `3. Make sure you are not connected in another browser tab.\n` +
-                `4. Double-check your board type and serial port selection.\n` +
-                `5. Post on the Support Forum (link above) with this info:\n\n` +
-                `"Firmware Tool: ${e}"\n`
-            );
-            await disconnect();
-            updateUIConnected(this.connectionStates.DISCONNECTED);
-        });
-    });
-    //butClear.addEventListener("click", clickClear);
-    butProgram.addEventListener("click", clickProgram);
-    butProgramBootloader.addEventListener("click", clickProgramNvm);
-    for (let i = 0; i < partitionData.length; i++) {
-        partitionData[i].addEventListener("change", checkProgrammable);
-        partitionData[i].addEventListener("keydown", checkProgrammable);
-        partitionData[i].addEventListener("input", checkProgrammable);
-    }
-    //autoscroll.addEventListener("click", clickAutoscroll);
-    //baudRate.addEventListener("change", changeBaudRate);
-
-    // handle runaway errors
-    window.addEventListener("error", event => {
-        console.warn(`Uncaught error: ${event.error}`);
-    });
-
-    // handle runaway rejections
-    window.addEventListener("unhandledrejection", event => {
-        console.warn(`Unhandled rejection: ${event.reason}`);
-    });
-
-    // WebSerial feature detection
-    if ("serial" in navigator) {
-        const notSupported = document.getElementById("notSupported");
-        notSupported.classList.add("hidden");
-    }
-
-    //initBinSelector();
-    //initBaudRate();
-    loadAllSettings();
-    this.logMsg("CircuitPython ESP32 Installer loaded.");
-    checkProgrammable();
-});
-
-let latestFirmwares = []
-
-
-function doThingOnClass(method, thing, classSelector) {
-    const classItems = document.getElementsByClassName(classSelector)
-    for (let idx = 0; idx < classItems.length; idx++) {
-        classItems.item(idx).classList[method](thing)
-    }
-}
-
-function setDefaultBoard() {
-    const board = getFromQuerystring(QUERYSTRING_BOARD_KEY)
-    if (board && hasBoard(board)) {
-        binSelector.value = board
-        return true
-    }
-}
-
-function hasBoard(board) {
-    for (let opt of binSelector.options) {
-        if (opt.value == board) { return opt }
-    }
-}
-
-function toggleConsole(show) {
-    // hide/show the console log and its widgets
-    const consoleItemsMethod = show ? "remove" : "add"
-    for (let idx = 0; idx < consoleItems.length; idx++) {
-        consoleItems.item(idx).classList[consoleItemsMethod]("hidden")
-    }
-    // toggle the button
-    //butShowConsole.checked = show
-    // tell the app if it's sharing space with the console
-    const appDivMethod = show ? "add" : "remove"
-    appDiv.classList[appDivMethod]("with-console")
-
-    // scroll both to the bottom a moment after adding
-    setTimeout(() => {
-        log.scrollTop = log.scrollHeight
-        appDiv.scrollTop = appDiv.scrollHeight
-    }, 200)
-}
-
-let semver
-function initSemver(newSemver) {
-    if (!newSemver) { return }
-
-    semver = newSemver
-    semverLabel.innerHTML = semver
-
-    return true
-}
-
-function lookupFirmwareByBinSelector() {
-    // get the currently selected board id
-    const selectedId = binSelector.value
-    if (!selectedId || selectedId === 'null') { throw new Error("No board selected.") }
-
-    // grab the stored firmware settings for this id
-    let selectedFirmware
-    for (let firmware of latestFirmwares) {
-        if (firmware.id === selectedId) {
-            selectedFirmware = firmware
-            break
-        }
-    }
-
-    if (!selectedFirmware) {
-        const { text, value } = binSelector.selectedOptions[0]
-        throw new Error(`No firmware entry for: ${text} (${value})`)
-    }
-
-    return selectedFirmware
-}
-
-let lastPercent = 0;
-
-async function clickAutoscroll() {
-    saveSetting("autoscroll", autoscroll.checked);
-}
-
-async function clickProgram() {
-    await programScript(full_bin_program);
-}
-
-async function clickProgramNvm() {
-    await programScript(factory_reset_program);
-}
-
-async function populateSecretsFile(path) {
-    let response = await fetch(path);
-    let contents = await response.json();
-
-    // Get the secrets data
-    for (let field of getValidFields()) {
-        const { id, value } = partitionData[field]
-        if(id === "status_pixel_brightness") {
-            const floatValue = parseFloat(value)
-            updateObject(contents, id, isNaN(floatValue) ? 0.2 : floatValue);
-        } else {
-            updateObject(contents, id, value);
-        }
-    }
-
-    // Convert the data to text and return
-    return JSON.stringify(contents, null, 4);
-}
-
-function updateObject(obj, path, value) {
-    if (typeof obj === "undefined") {
-        return false;
-    }
-
-    var _index = path.indexOf(".");
-    if (_index > -1) {
-        return updateObject(obj[path.substring(0, _index)], path.substr(_index + 1), value);
-    }
-
-    obj[path] = value;
-}
-
-
-
-
-async function mergeSettings() {
-    const { settings } = lookupFirmwareByBinSelector()
-
-    const transformedSettings = {
-        ...settings,
-        // convert the offset value from hex string to number
-        offset: parseInt(settings.offset, 16),
-        // replace the structure object with one where the keys have been converted
-        // from hex strings to numbers
-        structure: Object.keys(settings.structure).reduce((newObj, hexString) => {
-            // new object, converted key (hex string -> numeric), same value
-            newObj[parseInt(hexString, 16)] = settings.structure[hexString]
-
-            return newObj
-        }, {})
-    }
-
-    // merge with the defaults and send back
-    return {
-        ...BASE_SETTINGS,
-        ...transformedSettings
-    }
-}
-
-async function programScript(stages) {
-    butProgram.disabled = true
-    butProgramNvm.disabled = true
-    try {
-        await fetchFirmwareForSelectedBoard()
-    } catch(error) {
-        this.errorMsg(error.message)
-        return
-    }
-
-    // pretty print the settings object with VERSION placeholders filled
-    const settings = await mergeSettings()
-    const settingsString = JSON.stringify(settings, null, 2)
-    const strippedSettings = settingsString.replaceAll('VERSION', semver)
-    this.logMsg(`Flashing with settings: <pre>${strippedSettings}</pre>`)
-
-    let steps = [];
-    for (let i = 0; i < stages.length; i++) {
-        if (stages[i] == stage_erase_all) {
-            steps.push({
-                name: "Erasing Flash",
-                func: async function () {
-                    await this.espStub.eraseFlash();
-                },
-                params: {},
-            });
-        } else if (stages[i] == stage_flash_cpbin) {
-            for (const [offset, filename] of Object.entries(settings.structure)) {
-                steps.push({
-                    name: "Flashing " + filename.replace('VERSION', semver),
-                    func: async function (params) {
-                        const firmware = await getFirmware(params.filename);
-                        const progressBar = progress.querySelector("div");
-                        lastPercent = 0;
-                        await this.espStub.flashData(
-                            firmware,
-                            (bytesWritten, totalBytes
-                            ) => {
-                                let percentage = Math.floor((bytesWritten / totalBytes) * 100)
-                                if (percentage != lastPercent) {
-                                    this.logMsg(`${percentage}% (${bytesWritten}/${totalBytes})...`);
-                                    lastPercent = percentage;
-                                }
-                                progressBar.style.width = percentage + "%";
-                            },
-                            params.offset,
-                            0
-                        );
-                    },
-                    params: {
-                        filename: filename,
-                        offset: offset,
-                    },
-                });
-            }
-        } else if (stages[i] == stage_flash_bootloader) {
-            for (const [offset, filename] of Object.entries(settings.structure)) {
-                steps.push({
-                    name: "Flashing " + filename.replace('VERSION', semver),
-                    func: async function (params) {
-                        const firmware = await getFirmware(params.filename);
-                        const progressBar = progress.querySelector("div");
-                        lastPercent = 0;
-                        await this.espStub.flashData(
-                            firmware,
-                            (bytesWritten, totalBytes
-                            ) => {
-                                let percentage = Math.floor((bytesWritten / totalBytes) * 100)
-                                if (percentage != lastPercent) {
-                                    this.logMsg(`${percentage}% (${bytesWritten}/${totalBytes})...`);
-                                    lastPercent = percentage;
-                                }
-                                progressBar.style.width = percentage + "%";
-                            },
-                            params.offset,
-                            0
-                        );
-                    },
-                    params: {
-                        filename: filename,
-                        offset: offset,
-                    },
-                });
-            }
-        } else if (stages[i] == stage_program_settings) {
-            // TODO: This needs to be rewritten to talk with circuitpython
-            // and run python code via the repl to write a settings.toml file
-            // See https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow
-            // and https://github.com/circuitpython/web-editor/pull/46
-            steps.push({
-                name: "Generating and Writing the WiFi Settings",
-                func: async function (params) {
-                    let fileSystemImage = await generate(params.flashParams);
-
-                    if (DO_DOWNLOAD) {
-                        // Download the Partition
-                        var blob = new Blob([new Uint8Array(fileSystemImage)], {
-                            type: "application/octet-stream",
-                        });
-                        var link = document.createElement("a");
-                        link.href = window.URL.createObjectURL(blob);
-                        link.download = "littleFS.bin";
-                        link.click();
-                        link.remove();
-                    } else {
-                        const progressBar = progress.querySelector("div");
-                        lastPercent = 0;
-                        await this.espStub.flashData(
-                            new Uint8Array(fileSystemImage).buffer,
-                            (bytesWritten, totalBytes) => {
-                                let percentage = Math.floor((bytesWritten / totalBytes) * 100)
-                                if (percentage != lastPercent) {
-                                    this.logMsg(`${percentage}% (${bytesWritten}/${totalBytes})...`);
-                                    lastPercent = percentage;
-                                }
-                                progressBar.style.width = percentage + "%";
-                            },
-                            params.flashParams.offset,
-                            0
-                        );
-                    }
-                },
-                params: {
-                    flashParams: settings,
-                },
-            });
-        }
-    }
-
-    for (let i = 0; i < disableWhileBusy.length; i++) {
-        if (Array.isArray(disableWhileBusy[i])) {
-            for (let j = 0; j < disableWhileBusy[i].length; i++) {
-                disableWhileBusy[i][j].disable = true;
-            }
-        } else {
-            disableWhileBusy[i].disable = true;
-        }
-    }
-
-    progress.classList.remove("hidden");
-    stepname.classList.remove("hidden");
-    showStep(5)
-
-    for (let i = 0; i < steps.length; i++) {
-        stepname.innerText = steps[i].name + " (" + (i + 1) + "/" + steps.length + ")...";
-        await steps[i].func(steps[i].params);
-    }
-
-    stepname.classList.add("hidden");
-    stepname.innerText = "";
-    progress.classList.add("hidden");
-    progress.querySelector("div").style.width = "0";
-
-    for (let i = 0; i < disableWhileBusy.length; i++) {
-        if (Array.isArray(disableWhileBusy[i])) {
-            for (let j = 0; j < disableWhileBusy[i].length; i++) {
-                disableWhileBusy[i][j].disable = false;
-            }
-        } else {
-            disableWhileBusy[i].disable = false;
-        }
-    }
-
-    checkProgrammable();
-    await disconnect();
-    this.logMsg("To run the new firmware, please reset your device.");
-    showStep(6);
-}
-*/

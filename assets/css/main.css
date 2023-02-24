@@ -1124,6 +1124,17 @@ input.filter-checkbox, label {
 #download-page .download-section .download .download-buttons a:last-child, #download-page .download-section .download .download-buttons button:last-child {
   margin-bottom: 0;
 }
+#download-page .download-section .download .previous-versions-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#download-page .download-section .download .previous-versions-buttons a, #download-page .download-section .download .previous-versions-buttons button {
+  margin-bottom: 1em;
+}
+#download-page .download-section .download .previous-versions-buttons a:last-child, #download-page .download-section .download .previous-versions-buttons button:last-child {
+  margin-bottom: 0;
+}
 
 @media (max-width: 1366px) {
   #download-page .download-section {
@@ -1280,12 +1291,39 @@ input.filter-checkbox, label {
 }
 .cp-installer-dialog .dialog-body {
   margin-top: 24px;
+  margin-bottom: 20px;
+}
+.cp-installer-dialog .dialog-body ul.flow-menu {
+  list-style-type: none;
+  margin-left: 0;
+  padding-right: 0;
+  padding-inline-start: 10px;
+}
+.cp-installer-dialog .dialog-body ul.flow-menu li a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cp-installer-dialog .dialog-body ul.flow-menu li a:hover {
+  background: rgba(52, 152, 219, 0.2);
+  border-radius: 5px;
 }
 .cp-installer-dialog .dialog-body p.centered {
   text-align: center;
 }
 .cp-installer-dialog .dialog-body progress {
   width: 100%;
+}
+.cp-installer-dialog .dialog-body div.field {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 5px;
+  margin-bottom: 5px;
+}
+.cp-installer-dialog .dialog-body div.field:last-of-type {
+  margin-bottom: 0;
+}
+.cp-installer-dialog .dialog-body div.field input[type=checkbox] {
+  margin-right: 8px;
 }
 .cp-installer-dialog .dialog-body .loader {
   display: block;

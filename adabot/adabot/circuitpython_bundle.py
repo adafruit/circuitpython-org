@@ -20,7 +20,6 @@ from sh.contrib import git
 
 from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
-from adabot import circuitpython_library_download_stats as dl_stats
 
 REDIS = None
 if "GITHUB_WORKSPACE" in os.environ:
@@ -57,89 +56,6 @@ def fetch_bundle(bundle, bundle_path):
     os.chdir(working_directory)
 
 
-def update_download_stats(bundle_path):
-    """
-    Updates the downloads stats for all the libraries
-    """
-    if not "Adafruit_CircuitPython_Bundle" in bundle_path:
-        return False
-
-    with open(os.path.join(bundle_path, "circuitpython_library_list.md")) as md_file:
-        lib_list_full = md_file.read()
-
-    submodules_list = common_funcs.get_bundle_submodules()
-    lib_list_header = [
-        "# Adafruit CircuitPython Library Download Stats",
-        (
-            "![Blinka On Computer](https://raw.githubusercontent.com/adafruit/"
-            "Adafruit_CircuitPython_Bundle/assets/BlinkaComputer.png)  "
-        ),
-        "### Here is a listing of current Adafruit CircuitPython libraries download statistics.",
-        f"**There are {len(submodules_list)} libraries available.**\n",
-        "",
-    ]
-
-    submodules_stats = dl_stats.retrieve_pypi_stats(submodules_list)
-    stats_lines = [
-        "| Library (PyPI Package) | Downloads in the Last 7 Days |",
-        "| --- | --- |",
-    ]
-    total_downloads = 0
-    blinka_downloads = 0
-    for download_stat in submodules_stats:
-        if download_stat.name == "adafruit-blinka":
-            blinka_downloads = download_stat.num_downloads
-            continue
-        repo_name_comps = download_stat.name.split("-")
-        searchable_repo_name = " ".join(repo_name_comps)
-        try:
-            start_index = lib_list_full.lower().index(searchable_repo_name)
-        except ValueError:
-            continue
-        printable_repo_name = lib_list_full[
-            start_index : start_index + len(searchable_repo_name)
-        ]
-        stats_lines.append(
-            f"| {printable_repo_name} ({download_stat.name}) | "
-            f"{download_stat.num_downloads} downloads |"
-        )
-        total_downloads += download_stat.num_downloads
-
-    lib_list_header.append(
-        f"**Total PyPI library downloads in the last 7 days: {total_downloads}**  "
-    )
-    lib_list_header.append("")
-
-    with open(
-        os.path.join(bundle_path, "circuitpython_library_pypi_stats.md"), "w"
-    ) as md_file:
-
-        # Write headers
-        md_file.write("\n".join(lib_list_header))
-        md_file.write("\n")
-
-        # Write library stats table
-        for line in stats_lines:
-            md_file.write(line + "\n")
-
-        # Write Blika intro text
-        md_file.write("\n")
-        md_file.write("## Blinka\n")
-        md_file.write("\n")
-        md_file.write(
-            "Blinka is our CircuitPython compatibility layer for MicroPython\n"
-        )
-        md_file.write("and single board computers such as the Raspberry Pi.\n")
-
-        # Write Blinka stats table
-        md_file.write("\n")
-        md_file.write("| Blinka (PyPI Package) | Downloads in the Last 7 Days |\n")
-        md_file.write("| --- | --- |\n")
-        md_file.write(f"| Adafruit Blinka (adafruit-blinka) | {blinka_downloads} |\n")
-
-    return True
-
-
 # pylint: disable=too-many-locals
 def check_lib_links_md(bundle_path):
     """Checks and updates the `circuitpython_library_list` Markdown document
@@ -150,7 +66,6 @@ def check_lib_links_md(bundle_path):
     submodules_list = sorted(
         common_funcs.get_bundle_submodules(), key=lambda module: module[1]["path"]
     )
-    submodules_list = common_funcs.get_bundle_submodules()
 
     lib_count = len(submodules_list)
     # used to generate commit message by comparing new libs to current list
@@ -192,10 +107,10 @@ def check_lib_links_md(bundle_path):
     lib_list_header = [
         "# Adafruit CircuitPython Libraries",
         (
-            "![Blinka Reading](https://raw.githubusercontent.com/adafruit/"
-            "Adafruit_CircuitPython_Bundle/assets/BlinkaBook.png)  "
+            "![Blinka Reading](https://raw.githubusercontent.com/adafruit/circuitpython-weekly-"
+            "newsletter/gh-pages/assets/archives/22_1023blinka.png)"
         ),
-        "Here is a listing of current Adafruit CircuitPython Libraries.  ",
+        "Here is a listing of current Adafruit CircuitPython Libraries.",
         f"There are {lib_count} libraries available.\n",
         "## Drivers:\n",
     ]
@@ -319,18 +234,6 @@ def update_bundle(bundle_path):
                 "  > Added the following libraries: {}".format(
                     ", ".join(lib_list_updates)
                 ),
-            )
-        )
-    if update_download_stats(bundle_path):
-        updates.append(
-            (
-                (
-                    "https://github.com/adafruit/Adafruit_CircuitPython_Bundle/"
-                    "circuitpython_library_list.md"
-                ),
-                "NA",
-                "NA",
-                "  > Updated download stats for the libraries",
             )
         )
 
