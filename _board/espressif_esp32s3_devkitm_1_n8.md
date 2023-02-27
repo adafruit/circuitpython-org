@@ -16,8 +16,6 @@ features:
 
 The ESP32-S3-DevKitM-1 is an entry-level development board equipped with the ESP32-S3-MINI-1, a powerful, generic Wi-Fi + Bluetooth LE MCU module that features a rich set of peripherals, yet an optimized size. It's an ideal choice for a wide variety of application scenarios related to the Internet of Things (IoT), such as embedded systems, smart homes, wearable electronics, etc. ESP32-S3-MINI-1 comes with a PCB antenna. **This version is equipped with the ESP32-S3-MINI-1 with 8MB Flash.**
 
-**Please note:** The S**3** is *similar* to the ESP32-S**2** - but adds a dual core and Bluetooth LE (not classic!) However, there is minimal support for this dev board. For example, as of the time of this writing, there is no Arduino or CircuitPython support - only ESP IDF! Please purchase if you're doing development with the S3, and OK with stuff not working 100% out of the box.
-
 Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitM-1 on a breadboard.
 
 At the core of the module is an ESP32-S3FN8, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds.
