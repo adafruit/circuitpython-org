@@ -100,7 +100,7 @@ export class CPInstallButton extends InstallButton {
         },
         uf2Only: { // Upgrade when Bootloader is already installer
             label: `Upgrade/Install CircuitPython [version] UF2 Only`,
-            steps: [this.stepWelcome, this.stepSelectBootDrive, this.stepCopyUf2, this.stepCredentials, this.stepSuccess],
+            steps: [this.stepWelcome, this.stepSelectBootDrive, this.stepCopyUf2, this.stepSelectCpyDrive, this.stepCredentials, this.stepSuccess],
             isEnabled: async () => { return this.hasNativeUsb() && !!this.uf2FileUrl },
         },
         binOnly: {
