@@ -28,15 +28,21 @@ const FAMILY_TO_CHIP_MAP = {
     'esp32': esptoolPackage.CHIP_FAMILY_ESP32
 }
 
+const attrMap = {
+    "bootloader": "bootloaderUrl",
+    "uf2file": "uf2FileUrl",
+    "binfile": "binFileUrl"
+}
+
 export class CPInstallButton extends InstallButton {
     constructor() {
         super();
         this.releaseVersion = "[version]";
         this.boardName = "ESP32-based device";
         this.boardId = null;
-        this.bootloaderUrl = "";
-        this.uf2FileUrl = "";
-        this.binFileUrl = "";
+        this.bootloaderUrl = null;
+        this.uf2FileUrl = null;
+        this.binFileUrl = null;
         this.releaseVersion = 0;
         this.chipFamily = null;
         this.bootloadId = null;
@@ -55,17 +61,17 @@ export class CPInstallButton extends InstallButton {
         this.init();
     }
 
+    static get observedAttributes() {
+        return Object.keys(attrMap);
+    }
+
     connectedCallback() {
         this.boardName = this.getAttribute("boardname") || "ESP32-based device";
+        this.menuTitle = `CircuitPython Installer for ${this.boardName}`;
 
         // If this is empty, it's a problem
         this.boardId = this.getAttribute("boardid");
         this.releaseVersion = this.getAttribute("version");
-
-        // We need either the bootloader and uf2 or bin file to continue
-        this.bootloaderUrl = this.getBinaryUrl("bootloader");
-        this.uf2FileUrl = this.getBinaryUrl("uf2file");
-        this.binFileUrl = this.getBinaryUrl("binfile");
 
         // Nice to have for now
         this.chipFamily = this.getAttribute("chipfamily");
@@ -74,13 +80,17 @@ export class CPInstallButton extends InstallButton {
         super.connectedCallback();
     }
 
-    getBinaryUrl(attribute) {
-        let url = this.getAttribute(attribute);
-        if (location.hostname == "localhost") {
+    attributeChangedCallback(attribute, previousValue, currentValue) {
+        const classVar = attrMap[attribute];
+        this[classVar] = currentValue ? this.updateBinaryUrl(currentValue) : null;
+    }
+
+    updateBinaryUrl(url) {
+        //if (location.hostname == "localhost") {
             if (url) {
                 url = url.replace("https://downloads.circuitpython.org/", "https://adafruit-circuit-python.s3.amazonaws.com/");
             }
-        }
+        //}
 
         return url;
     }
@@ -105,7 +115,7 @@ export class CPInstallButton extends InstallButton {
         },
         binOnly: {
             label: `Upgrade CircuitPython [version] Bin Only`,
-            steps: [this.stepWelcome, this.stepSerialConnect, /*this.stepConfirm, this.stepEraseAll,*/ this.stepFlashBin, this.stepSuccess],
+            steps: [this.stepWelcome, this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepFlashBin, this.stepSuccess],
             isEnabled: async () => { return !!this.binFileUrl },
         },
         bootloaderOnly: { // Used to allow UF2 Upgrade/Install
