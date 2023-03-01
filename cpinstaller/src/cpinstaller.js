@@ -103,7 +103,7 @@ export class CPInstallButton extends InstallButton {
             steps: [this.stepWelcome, this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepBootloader, this.stepSelectBootDrive, this.stepCopyUf2, this.stepSelectCpyDrive, this.stepCredentials, this.stepSuccess],
             isEnabled: async () => { return this.hasNativeUsb() && !!this.bootloaderUrl && !!this.uf2FileUrl },
         },
-        binFullProgram: {  // Non-native USB Install
+        binFullProgram: {  // Non-native USB Install (Once we have boot drive disable working, we can remove hasNativeUsb() check)
             label: `Full CircuitPython [version] Install`,
             steps: [this.stepWelcome, this.stepSerialConnect, this.stepConfirm, this.stepEraseAll, this.stepFlashBin, this.stepSetupRepl, this.stepCredentials, this.stepSuccess],
             isEnabled: async () => { return !this.hasNativeUsb() && !!this.binFileUrl },
@@ -1150,8 +1150,9 @@ export class CPInstallButton extends InstallButton {
         // server.hostname
     }
 
+    // This is necessary because chips with native USB will have a CIRCUITPY drive, which blocks writing via REPL
     hasNativeUsb() {
-        if (!this.chipFamily || ("esp32").includes(this.chipFamily)) {
+        if (!this.chipFamily || ("esp32", "esp32c3").includes(this.chipFamily)) {
             return false;
         }
 
