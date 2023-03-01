@@ -46,6 +46,7 @@ export class InstallButton extends HTMLButtonElement {
         this.espStub = null;
         this.dialogCssClass = "install-dialog";
         this.connected = this.connectionStates.DISCONNECTED;
+        this.menuTitle = "Installer Menu";
     }
 
     init() {
@@ -100,7 +101,7 @@ export class InstallButton extends HTMLButtonElement {
         menu: {
             closeable: true,
             template: (data) => html`
-                <p>CircuitPython Installer for ${data.boardName}</p>
+                <p>${this.menuTitle}</p>
                 <ul class="flow-menu">
                 ${asyncAppend(this.generateMenu(
                     (flowId, flow) => html`<li><a href="#" @click=${this.runFlow.bind(this)} id="${flowId}">${flow.label.replace('[version]', this.releaseVersion)}</a></li>`
@@ -174,8 +175,7 @@ export class InstallButton extends HTMLButtonElement {
 
     async * generateMenu(templateFunc) {
         if (await this.enabledFlowCount() == 0) {
-            yield html`<li>Coming soon. Check back later.</li>`;
-            //yield html`<li>No installable options available for this board.</li>`;
+            yield html`<li>No installable options available for this board.</li>`;
         }
         for (const [flowId, flow] of Object.entries(this.flows)) {
             if (await flow.isEnabled()) {
@@ -411,7 +411,7 @@ export class InstallButton extends HTMLButtonElement {
 
     async showMenu() {
         // Display Menu
-        this.showDialog(this.dialogs.menu, {boardName: this.boardName});
+        this.showDialog(this.dialogs.menu);
     }
 
     async showNotSupported() {
