@@ -54,6 +54,9 @@ jobs:
       run: mkdir -p bin/json
     - name: Generate ESP32 Boards JSON
       run: python3 generate-board-info.py -o bin/json/esp32_boards.json
+    - name: Check For Files
+      run: |
+        ls bin/json
     - name: Upload ESP32 Boards JSON To AWS S3
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
