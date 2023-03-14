@@ -5,13 +5,17 @@ import frontmatter
 import argparse
 
 INCLUDED_CHIP_FAMILIES = ("esp32s2", "esp32s3", "esp32c3", "esp32")
-BOOTLOADER_URL_PREFIX = "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/"
+BOOTLOADER_URL_PREFIX = (
+    "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/"
+)
 DOWNLOAD_URL_PREFIX = "https://adafruit-circuit-python.s3.amazonaws.com/bin/"
+
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-o", "--output",
+        "-o",
+        "--output",
         help="Output filename. If not specified, output will just print to screen.",
         type=str,
     )
@@ -19,10 +23,10 @@ def main():
     args = parser.parse_args()
 
     # Get CircuitPython Bootloader Info
-    with open('./_data/bootloaders.json', "rt") as f:
+    with open("./_data/bootloaders.json", "rt") as f:
         bootloaders = json.load(f)
 
-    with open('./_data/files.json', "rt") as f:
+    with open("./_data/files.json", "rt") as f:
         board_info = json.load(f)
 
     def get_releases(board_id):
@@ -33,7 +37,9 @@ def main():
                     release = {}
                     release["version"] = board_releases["version"]
                     for extension in board_releases["extensions"]:
-                        release[f'{extension}file'] = f'{DOWNLOAD_URL_PREFIX}/{board_id}/en_US/adafruit-circuitpython-{board_id}-en_US-{release["version"]}.{extension}'
+                        release[
+                            f"{extension}file"
+                        ] = f'{DOWNLOAD_URL_PREFIX}/{board_id}/en_US/adafruit-circuitpython-{board_id}-en_US-{release["version"]}.{extension}'
                     releases.append(release)
                 break
         return releases
@@ -50,18 +56,20 @@ def main():
             board = {}
             with open(filename, "rt") as f:
                 metadata, _ = frontmatter.parse(f.read())
-            downloads_display = metadata.get('downloads_display')
+            downloads_display = metadata.get("downloads_display")
             if downloads_display is None or downloads_display:
-                board_id = metadata.get('board_id') or ()
+                board_id = metadata.get("board_id") or ()
                 if board_id == "unknown":
                     continue
-                board["name"] = metadata.get('name')
-                board["chipfamily"] = metadata.get('family')
+                board["name"] = metadata.get("name")
+                board["chipfamily"] = metadata.get("family")
                 if board["chipfamily"] not in INCLUDED_CHIP_FAMILIES:
                     continue
-                bootloader_id = metadata.get('bootloader_id')
+                bootloader_id = metadata.get("bootloader_id")
                 if board["chipfamily"] and bootloader_id:
-                    board["bootloader"] = get_bootloader(board["chipfamily"], bootloader_id)
+                    board["bootloader"] = get_bootloader(
+                        board["chipfamily"], bootloader_id
+                    )
                 board["releases"] = get_releases(board_id)
                 boards[board_id] = board
                 print(f"Added {board_id}")
@@ -72,9 +80,10 @@ def main():
     if args.output:
         with open(args.output, "wt") as f:
             json.dump(boards, f, indent=4)
-        print (f"Wrote {args.output}")
+        print(f"Wrote {args.output}")
     else:
         print(json.dumps(boards, indent=4))
 
+
 if __name__ == "__main__":
-   main()
+    main()
