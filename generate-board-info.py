@@ -24,7 +24,7 @@ def main():
 
     # Get CircuitPython Bootloader Info
     with open("./_data/bootloaders.json", "rt") as f:
-        bootloaders = json.load(f)
+        bootloaders = json.load(f)['bootloaders']
 
     with open("./_data/files.json", "rt") as f:
         board_info = json.load(f)

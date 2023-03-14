@@ -2,7 +2,7 @@
     "adafruit_feather_esp32s2": {
         "name": "Feather ESP32-S2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -63,7 +63,7 @@
     "unexpectedmaker_feathers3": {
         "name": "Unexpected Maker FeatherS3",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_feathers3-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -80,7 +80,7 @@
     "brainboardz_neuron": {
         "name": "BrainBoardz Neuron",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-brainboardz_neuron-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -97,7 +97,7 @@
     "espressif_esp32s3_devkitc_1_n32r8": {
         "name": "ESP32-S3-DevKitC-1-N32R8",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_esp32s3_devkitc_1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -142,7 +142,7 @@
     "adafruit_qtpy_esp32s3_nopsram": {
         "name": "Adafruit QT Py ESP32-S3 No PSRAM",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_qtpy_esp32s3_nopsram-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -159,7 +159,7 @@
     "bpi_bit_s2": {
         "name": "BPI-Bit-S2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-bpi_bit_s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -190,7 +190,7 @@
     "hiibot_iots2": {
         "name": "HiiBot IoTs2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-hiibot_iots2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -207,7 +207,7 @@
     "espressif_kaluga_1.3": {
         "name": "ESP32-S2 Kaluga Dev Kit (v1.3) featuring WROVER",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_kaluga_1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -240,7 +240,7 @@
     "lolin_s2_mini": {
         "name": "LOLIN S2 Mini",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lolin_s2_mini-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -257,7 +257,7 @@
     "espressif_esp32s3_eye": {
         "name": "ESP32-S3-EYE",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_esp32s3_eye-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -290,7 +290,7 @@
     "targett_module_clip_wrover": {
         "name": "Targett ESP32-S2 Module Clip (WROVER)",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-targett_mcb_wrover-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -337,7 +337,7 @@
     "adafruit_magtag_2.9_grayscale": {
         "name": "MagTag - 2.9\" Grayscale E-Ink WiFi Display",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_magtag_29gray-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -354,7 +354,7 @@
     "lolin_s3": {
         "name": "LOLIN S3",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lolin_s3-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -371,7 +371,7 @@
     "espressif_esp32s3_devkitc_1_n8r8": {
         "name": "ESP32-S3-DevKitC-1-N8R8",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_esp32s3_devkitc_1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -388,7 +388,7 @@
     "adafruit_feather_esp32s3_4mbflash_2mbpsram": {
         "name": "Feather ESP32-S3 4MB Flash 2MB PSRAM",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s3-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -421,7 +421,7 @@
     "lilygo_ttgo_t8_s2_st7789": {
         "name": "TTGO T8 ESP32-S2 ST7789",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lilygo_ttgo_t8_s2_st7789-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -438,7 +438,7 @@
     "espressif_esp32s3_devkitc_1_n8r2": {
         "name": "ESP32-S3-DevKitC-1-N8R2",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_esp32s3_devkitc_1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -484,7 +484,7 @@
     "espressif_esp32s3_devkitm_1_n8": {
         "name": "ESP32-S3-DevKitM-1-N8",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_esp32s3_devkitm_1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -527,7 +527,7 @@
     "espressif_hmi_devkit_1": {
         "name": "ESP32-S2 Human Machine Interface Dev Kit",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_hmi_1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -574,7 +574,7 @@
     "lolin_s2_pico": {
         "name": "LOLIN S2 Pico",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lolin_s2_pico-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -591,7 +591,7 @@
     "waveshare_esp32s2_pico": {
         "name": "ESP32-S2-Pico",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-waveshare_esp32s2_pico-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -622,7 +622,7 @@
     "gravitech_cucumber_m": {
         "name": "Cucumber M",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-gravitech_cucumberRIS_v1.1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -655,7 +655,7 @@
     "bpi_picow_s3": {
         "name": "BPI-PicoW-S3",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-bpi_picow_s3-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -672,7 +672,7 @@
     "gravitech_cucumber_r": {
         "name": "Cucumber R",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-gravitech_cucumberRIS_v1.1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -689,7 +689,7 @@
     "gravitech_cucumber_ms": {
         "name": "Cucumber MS",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-gravitech_cucumberRIS_v1.1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -720,7 +720,7 @@
     "espressif_saola_1_wroom": {
         "name": "Saola 1 w/WROOM",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_saola_1_wroom-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -737,7 +737,7 @@
     "bpi_leaf_s3": {
         "name": "BPI-Leaf-S3",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-bpi_leaf_s3-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -795,7 +795,7 @@
     "espressif_esp32s3_box": {
         "name": "ESP32-S3 Box",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_esp32s3_box-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -812,7 +812,7 @@
     "ai_thinker_esp_12k_nodemcu": {
         "name": "NodeMCU ESP-12K",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_qtpy_esp32s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -829,7 +829,7 @@
     "adafruit_feather_esp32s2_reverse_tft": {
         "name": "ESP32-S2 Reverse TFT Feather",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s2_reverse_tft-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -860,7 +860,7 @@
     "adafruit_funhouse": {
         "name": "FunHouse - WiFi Home Automation Development Board",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_funhouse_esp32s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -877,7 +877,7 @@
     "adafruit_metro_esp32s2": {
         "name": "Metro ESP32-S2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_metro_esp32s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -894,7 +894,7 @@
     "unexpectedmaker_feathers2_prerelease": {
         "name": " Unexpected Maker FeatherS2 Prerelease",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_feathers2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -911,7 +911,7 @@
     "unexpectedmaker_feathers2_neo": {
         "name": "Unexpected Maker FeatherS2 Neo",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_feathers2_neo-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -972,7 +972,7 @@
     "unexpectedmaker_tinys2": {
         "name": "Unexpected Maker TinyS2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_tinys2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -989,7 +989,7 @@
     "espressif_saola_1_wrover": {
         "name": "Saola 1 w/WROVER",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_saola_1_wrover-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1006,7 +1006,7 @@
     "espressif_esp32s3_devkitc_1_n8": {
         "name": "ESP32-S3-DevKitC-1-N8",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_esp32s3_devkitc_1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1068,7 +1068,7 @@
     "waveshare_esp32_s2_pico_lcd": {
         "name": "ESP32-S2-Pico with LCD",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-waveshare_esp32_s2_pico_lcd-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1157,7 +1157,7 @@
     "atmegazero_esp32s2": {
         "name": "ATMegaZero ESP32-S2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-atmegazero_esp32s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1190,7 +1190,7 @@
     "unexpectedmaker_feathers2": {
         "name": "Unexpected Maker FeatherS2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_feathers2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1207,7 +1207,7 @@
     "adafruit_qtpy_esp32s2": {
         "name": "Adafruit QT Py ESP32-S2 (including uFL version)",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_qtpy_esp32s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1238,13 +1238,13 @@
     "adafruit_feather_esp32s2_bme280": {
         "name": "Feather ESP32-S2 with BME280 Sensor",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s2-0.12.3.zip",
         "releases": []
     },
     "microdev_micro_s2": {
         "name": "MicroDev microS2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-microdev_micro_s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1261,7 +1261,7 @@
     "cytron_maker_feather_aiot_s3": {
         "name": "Maker Feather AIoT S3",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-cytron_maker_feather_aiot_s3-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1278,7 +1278,7 @@
     "lilygo_ttgo_t8_esp32_s2_wroom": {
         "name": "TTGO T8 ESP32-S2-WROOM",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lilygo_ttgo_t8_s2_wroom-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1325,7 +1325,7 @@
     "adafruit_feather_esp32s3_reverse_tft": {
         "name": "ESP32-S3 Reverse TFT Feather",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s3_reverse_tft-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1342,7 +1342,7 @@
     "morpheans_morphesp-240": {
         "name": "MorphESP 240",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-morpheans_morphesp-240-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1359,7 +1359,7 @@
     "unexpectedmaker_pros3": {
         "name": "Unexpected Maker ProS3",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_pros3-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1390,7 +1390,7 @@
     "adafruit_esp32s2_camera": {
         "name": "Adafruit ESP32-S2 Camera",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_esp32s2_camera-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1421,7 +1421,7 @@
     "adafruit_feather_esp32s3_nopsram": {
         "name": "Feather ESP32-S3 No PSRAM",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s3_nopsram-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1438,7 +1438,7 @@
     "unexpectedmaker_tinys3": {
         "name": "Unexpected Maker TinyS3",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_tinys3-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1455,7 +1455,7 @@
     "lilygo_ttgo_t8_s2": {
         "name": "TTGO T8 ESP32-S2",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lilygo_ttgo_t8_s2-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1488,7 +1488,7 @@
     "espressif_kaluga_1": {
         "name": "ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_kaluga_1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1505,7 +1505,7 @@
     "gravitech_cucumber_rs": {
         "name": "Cucumber RS",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-gravitech_cucumberRIS_v1.1-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1547,7 +1547,7 @@
     "adafruit_feather_esp32s2_tft": {
         "name": "Feather ESP32-S2 with TFT",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s2_tft-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1578,7 +1578,7 @@
     "targett_module_clip_wroom": {
         "name": "Targett ESP32-S2 Module Clip (WROOM)",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-targett_mcb_wroom-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1609,7 +1609,7 @@
     "muselab_nanoesp32_s2_wrover": {
         "name": "NanoESP32 S2 w/WROVER",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-muselab_nanoesp32-s2_wrover-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1626,7 +1626,7 @@
     "adafruit_feather_esp32s3_tft": {
         "name": "Feather ESP32-S3 TFT PSRAM",
         "chipfamily": "esp32s3",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s3_tft-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
@@ -1643,7 +1643,7 @@
     "muselab_nanoesp32_s2_wroom": {
         "name": "NanoESP32 S2 w/WROOM",
         "chipfamily": "esp32s2",
-        "bootloader": null,
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-muselab_nanoesp32-s2_wroom-0.12.3.zip",
         "releases": [
             {
                 "version": "8.0.3",
