@@ -58,11 +58,11 @@ def main():
                 metadata, _ = frontmatter.parse(f.read())
             downloads_display = metadata.get("downloads_display")
             if downloads_display is None or downloads_display:
-                board_id = metadata.get("board_id") or ()
+                board_id = metadata.get("board_id").strip() or ()
                 if board_id == "unknown":
                     continue
-                board["name"] = metadata.get("name")
-                board["chipfamily"] = metadata.get("family")
+                board["name"] = metadata.get("name").strip()
+                board["chipfamily"] = metadata.get("family").strip()
                 if board["chipfamily"] not in INCLUDED_CHIP_FAMILIES:
                     continue
                 bootloader_id = metadata.get("bootloader_id")
