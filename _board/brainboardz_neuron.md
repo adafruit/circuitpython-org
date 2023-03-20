@@ -24,9 +24,10 @@ features:
 
 **Features:**
  
+ - ESP32-S3-WROOM-1-N8R8
  - 32-bit 240 MHz Dual-Core LX-7 Processor 
  - 512 KB SRAM
- - 8 MB SPI Flash
+ - 8 MB Flash
  - 8 MB OCTAL PSRAM
  - 2.4 GHz Wi-Fi - 802.11b/g/n
  - On-Board PCB Antenna
@@ -42,6 +43,12 @@ features:
  - 2.54mm 4 Pin Header4 (Neuron-Z) Boards
  - Access to All of the ESP32-S3's GPIO Pins
  - Compatible with all BrainBoardz boards
+
+## More Info:
+* [BrainBoardz]([https://www.brainboardz.com/](https://github.com/BrainBoardz/BrainBoardz/)
  
 ## Purchase:
 * [BrainBoardz](https://www.brainboardz.com/)
+
+
+
