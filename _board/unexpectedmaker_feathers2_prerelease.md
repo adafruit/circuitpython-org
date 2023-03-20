@@ -2,7 +2,7 @@
 layout: download
 board_id: "unexpectedmaker_feathers2_prerelease"
 title: "Unexpected Maker FeatherS2 Prerelease Download"
-name: " Unexpected Maker FeatherS2 Prerelease"
+name: "Unexpected Maker FeatherS2 Prerelease"
 manufacturer: "Unexpected Maker"
 board_url: ""
 board_image: "unexpectedmaker_feathers2_prerelease.jpg"
@@ -22,7 +22,7 @@ Pre-Release version of the FeatherS2
 For those that purchased the pre-release version and would like to run CircuitPython on it without having to compile from source.
 
 **Features & Specifications**
- - 32-bit 240 MHz single-core processor 
+ - 32-bit 240 MHz single-core processor
  - 16 MB SPI Flash
  - 8 MB extra PSRAM
  - 2.4 GHz Wi-Fi - 802.11b/g/n
@@ -40,7 +40,7 @@ For those that purchased the pre-release version and would like to run CircuitPy
  - Feather format
 
 **2x LDO Voltage Regulators?**
-Yup! The first one is for the general operation of the board and the ESP32-S2, RAM and Flash. 
+Yup! The first one is for the general operation of the board and the ESP32-S2, RAM and Flash.
 
 The second LDO is for you to use to connect external 3V3 modules, sensors and peripherals, and it has programmable EN control tied to GPIO21 + it’s connected to the deep sleep capabilities of the S2, so if the S2 goes into deep sleep, the 2nd LDO is automatically shut down for you!
 

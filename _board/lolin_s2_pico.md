@@ -44,7 +44,7 @@ A development boards with an OLED and a small form factor.
   - `GPIO0` BOOT button
   - `GPIO10` LED (blue status LED)
   - Lolin I2C JST SH 4-pin port (**does not match QWIIC/Stemma-Qt pinout**) using `GPIO8` (SDA) and `GPIO9` (SCL)
-  - 128 x 32 SSD1306 OLED display internally connected to the same I2C bus as the external port, reset pin connected to `GPIO18`, I2C address `0x3C` (**not supported in CircuitPython firmware, require user code initialisation**)
+  - 128 x 32 SSD1306 OLED display internally connected to the same I2C bus as the external port, reset pin connected to `GPIO18`, I2C address `0x3C` (**native support in CircuitPython started with firmware version 8.1.0-beta.0, otherwise user code initialization is required**)
 - Compatible with CircuitPython, MicroPython (default firmware), Arduino and ESP-IDF
 
 ## Purchase

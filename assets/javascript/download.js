@@ -46,6 +46,7 @@ function updateFileLinks(option, language) {
   files.forEach(function(file) {
     var extension = file.substr(file.lastIndexOf('.') + 1);
     parentNode.querySelector(".download-button." + extension).href = file;
+    parentNode.querySelector(".installer-button").setAttribute(extension + "file", file);
   });
 }
 

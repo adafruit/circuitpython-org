@@ -15,28 +15,27 @@ features:
   - Arduino Shield Compatible
 ---
 
-The NXP iMX RT1011 microcontroller powers the Metro M7 with a 500 MHz ARM Cortex M7 processor. There's 4 MB of execute-in-place QSPI for firmware + disk storage and 128 KB of SRAM in-chip.
+Get ready for our fastest Metro ever - the NXP iMX RT1011 microcontroller powers this board with a 500 MHz ARM Cortex M7 processor. There's 4 MB of execute-in-place QSPI for firmware + disk storage and 128KB of SRAM in-chip
 
-## Technical details
+We're still working on the design but here's some stuff you can look forward to:
 
-* NXP iMX RT1011 processor - ARM Cortex M7 processor running at 500 MHz, with 128 KB SRAM and high speed USB!
-* AirLift WiFi Co-processor, with TLS/SSL support, plenty of RAM for sockets, communication is over SPI
-* 4 MB of QSPI XIP Flash
-* Power options - 6-12 VDC barrel jack or USB-C
-* UNO-shape so shields can plug in
-* Reset  button - Click to restart, double-click to enter UF2 bootloder
-* Boot-mode switches to get into the ROM bootloader (you can always reload code over USB if TinyUF2 gets corrupted somehow)
-* SWD connector for advanced debugging access.
-* On/Off switch
-* STEMMA QT connector for I2C devices
-* On/User LEDs + status NeoPixel
-* 53.2 mm x 72 mm / 2" x 2.8"
-* Height (w/ barrel jack): 14.8 mm / 0.6"
-* Weight: 22.5 g
+**Features:**
 
-## Learn More
-
-* [YouTube](https://www.youtube.com/watch?v=_sLgycNpMCQ)
+- **NXP iMX RT1011 processor** - ARM Cortex M7 processor running at 500 MHz, with 128KB SRAM and high speed USB!
+- **AirLift WiFi Co-processor**, with TLS/SSL support, plenty of RAM for sockets, communication is over SPI and has CircuitPython library support ready to go for fast wireless integration.
+- **4MB of QSPI XIP Flash**
+- **Power options** - 6-12VDC barrel jack **or** USB type C
+- **UNO-shape** so shields can plug in
+- **Reset** button - Click to restart, double-click to enter UF2 bootloder
+- **Boot-mode switches** to get into the ROM bootloader (you can always reload code over USB if TinyUF2 gets corrupted somehow)
+- **SWD connector** for advanced debugging access.
+- **On/Off switch**
+- **STEMMA QT** connector for I2C devices
+- **On/User** LEDs + status **NeoPixel**
+- **Works with CircuitPython!**
+- **53.2mm x 72mm / 2" x 2.8"**
+- **Height (w/ barrel jack): 14.8mm / 0.6"**
+- **Weight: 22.5g**
 
 ## Purchase
 

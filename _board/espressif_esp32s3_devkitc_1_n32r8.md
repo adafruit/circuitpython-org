@@ -16,8 +16,6 @@ features:
 
 The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-2, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. **This version is equipped with the ESP32-S3-WROOM-2 (PCB antenna) with 32MB Flash and 8MB PSRAM.**
 
-**Please note:** The S**3** is *similar* to the ESP32-S**2** - but adds a dual-core and Bluetooth LE (not classic!) However, there is minimal support for this dev board. For example, as of the time of this writing, there is no Arduino or CircuitPython support - only ESP IDF! Please purchase if you're doing development with the S3, and OK with stuff not working 100% out of the box.
-
 Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there's a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.
 
 At the core of the modules is an ESP32-S3R8V, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds. ESP32-S3 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/JTAG controller, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication
