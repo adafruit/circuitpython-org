@@ -114,9 +114,9 @@
             {% endif %}
             {% capture no_extension %}{{ board_url }}/{{ language_code }}/adafruit-circuitpython-{{ board_id }}-{{ language_code }}-{{ version.version }}{% endcapture %}
             {% capture files %}{% for ext in version.extensions %}{{ no_extension }}.{{ext}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
-            <option value={{ files }}
-                    data-files={{ files }}
-                    data-locale={{ language_code | replace: '_', '-' }}
+            <option value="{{ files }}"
+                    data-files="{{ files }}"
+                    data-locale="{{ language_code | replace: '_', '-' }}"
                     {% if language_code == "en_US" %}selected{% endif %}>
               {{ language_name }}
             </option>
@@ -128,16 +128,11 @@
         <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
       {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' %}
-        <button is="cp-install-button" class="installer-button" boardname="{{ page.name }}" boardid="{{ board_id }}"
+        <button is="cp-install-button" class="installer-button" boardid="{{ board_id }}"
         {% for extension in version.extensions %}
             {{ extension }}file="{{ board_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}"
         {% endfor %}
-        {% if bootloader_version and bootloader_id %}
-          bootloader="https://downloads.circuitpython.org/bootloaders/esp32/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip"
-          bootloaderid="{{ bootloader_id }}"
-        {% endif %}
         version="{{ version.version }}"
-        chipfamily="{{ page.family }}"
         >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
       {% endif %}
       </div>
