@@ -36,7 +36,7 @@ features:
   -  PWM, I2C, SPI, UART, I2S, PCNT, RMT, TWAI and JTAG Interface
 
 ## Purchase
-* [DENEYAPMINI](https://magaza.deneyapkart.org/tr/product/detail/deneyap-mini-v2-type-c)
+* [DENEYAPMINIV2](https://magaza.deneyapkart.org/tr/product/detail/deneyap-mini-v2-type-c)
 
 ## Contribute
 * [Github](https://github.com/deneyapkart).
