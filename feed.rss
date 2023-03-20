@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 20 Mar 2023 11:46:22 -0400</lastBuildDate>
+<lastBuildDate>Mon, 20 Mar 2023 15:11:27 -0400</lastBuildDate>
 <item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
@@ -1583,13 +1583,49 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/adafruit_qtpy_esp32s3_nopsram.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <p>Coming Soon!</p>
+<p>By Adafruit</p> <p>The ESP32-S3 has arrived in QT Py format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this QT Py is great for powering your IoT projects.</p>
 
-<h2 id="learn-more">Learn More</h2>
+<p>The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has <strong>WiFi</strong> and <strong>BLE</strong> support, <strong>built-in native USB</strong> as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<p>With native USB and <strong>8 MB Flash</strong> this board will let you upgrade your existing ESP32 projects. Native USB means it can act like a keyboard or a disk drive, and no external USB-to-Serial converter required. WiFi and BLE mean it’s awesome for IoT projects.</p>
+
+<p><a href="https://www.adafruit.com/?q=qt+oled&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">OLEDs</a>! <a href="https://www.adafruit.com/?q=qt+imu&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Inertial Measurement Units</a>! <a href="https://www.adafruit.com/?q=qt+sensor&amp;main_page=category&amp;cPath=1005&amp;sort=BestMatch">Sensors a-plenty</a>. All plug-and-play thanks to the innovative chainable design: <a href="https://www.sparkfun.com/qwiic">SparkFun Qwiic</a>-compatible <a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt">STEMMA QT</a> connectors for the I2C bus so you don’t even need to solder! Just plug in a compatible cable and attach it to your MCU of choice, and you’re ready to load up some software and measure some light. <a href="https://www.adafruit.com/product/4528">Seeed Grove I2C boards</a> will also work with this adapter cable.</p>
+
+<p>Pinout and shape are <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO/">Seeed Xiao</a> compatible, with castellated pads so you can solder it flat to a PCB. In addition to the QT connector, we also added an <strong>RGB NeoPixel</strong> (with controllable power pin to allow for ultra-low-power usage), <strong>a reset button</strong> (great for restarting your program or entering the bootloader), and a button on GPIO 0 for entering the ROM bootloader or for user input</p>
+
+<p>The ESP32-S3 has a dual-core 240 MHz chip, so it is comparable to ESP32’s dual-core. However, there is no Bluetooth <strong>Classic</strong> support, only Bluetooth LE. This chip is a great step up from the earlier ESP32-S2! This ESP32-S3 chip we are using on the QT Py comes with 8 MB flash and no PSRAM, but it does have 512KB of SRAM so its fine for use with CircuitPython support as long as massive buffers are not needed. It’s also great for use in ESP-IDF or with Arduino support.</p>
 
 <ul>
-  <li><a href="https://www.youtube.com/watch?v=Hq5BsjkMBo0">YouTube</a></li>
-  <li><a href="https://www.youtube.com/watch?v=py_uFAtV__s">YouTube</a></li>
+  <li>Same size, form-factor, and pin-out as Seeed Xiao</li>
+  <li><strong>USB Type C connector</strong> - <a href="https://www.adafruit.com/product/4299">If you have only Micro B cables, this adapter will come in handy</a>!</li>
+  <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li>Comes with <strong>8MB Flash, 512KB SRAM, no PSRAM</strong></li>
+  <li>Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>
+  <li>Can be used with <strong>Arduino IDE</strong> or <strong>CircuitPython</strong></li>
+  <li><strong>Built-in RGB NeoPixel LED</strong> with power control to reduce quiescent power in deep sleep</li>
+  <li>Battery input pads on underside with diode protection for external battery packs up to 6V input</li>
+  <li>13 GPIO pins:
+    <ul>
+      <li>11 on breakout pads, 2 more on QT connector</li>
+      <li>10 x 12-bit analog inputs (SPI high speed pads do not have analog inputs)</li>
+      <li>PWM outputs on any pin</li>
+      <li>Two I2C ports, one on the breakout pads, and another with STEMMA QT plug-n-play connector</li>
+      <li>Hardware UART</li>
+      <li>Hardware SPI on the high speed SPI peripheral pins</li>
+      <li>Hardware I2S on any pins</li>
+      <li>5 x Capacitive Touch with no additional components required</li>
+    </ul>
+  </li>
+  <li>3.3V regulator with <a href="https://www.diodes.com/assets/Datasheets/AP2112.pdf"><strong>600mA peak output</strong></a></li>
+  <li>Light sleep at 2~4mA<strong>*,*</strong> deep sleep at ~70uA</li>
+  <li><strong>Reset switch</strong> for starting your project code over, boot 0 button for entering bootloader mode</li>
+  <li><strong>Really really small</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5426">Adafruit</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
