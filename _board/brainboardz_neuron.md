@@ -45,7 +45,7 @@ features:
  - Compatible with all BrainBoardz boards
 
 ## More Info:
-* [BrainBoardz]([https://www.brainboardz.com/](https://github.com/BrainBoardz/BrainBoardz/)
+* [BrainBoardz](https://www.brainboardz.com/](https://github.com/BrainBoardz/BrainBoardz/)
  
 ## Purchase:
 * [BrainBoardz](https://www.brainboardz.com/)
