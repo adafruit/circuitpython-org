@@ -39,7 +39,7 @@ def main():
                     for extension in board_releases["extensions"]:
                         release[
                             f"{extension}file"
-                        ] = f'{DOWNLOAD_URL_PREFIX}/{board_id}/en_US/adafruit-circuitpython-{board_id}-en_US-{release["version"]}.{extension}'
+                        ] = f'{DOWNLOAD_URL_PREFIX}{board_id}/en_US/adafruit-circuitpython-{board_id}-en_US-{release["version"]}.{extension}'
                     releases.append(release)
                 break
         return releases
