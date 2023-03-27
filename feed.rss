@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 27 Mar 2023 06:03:36 -0400</lastBuildDate>
+<lastBuildDate>Mon, 27 Mar 2023 12:31:12 -0400</lastBuildDate>
 <item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
@@ -789,6 +789,35 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <category>CircuitPython</category>
     <pubDate>Thu, 21 Jan 2021 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_rp2040/</guid>
+  </item><item>
+    <title>Feather RP2040 with DVI Output Port</title>
+    <link>https://circuitpython.org/board/adafruit_feather_rp2040_dvi/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_dvi.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040_dvi.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_rp2040_dvi.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Wouldn’t it be cool if you could display images and graphics from a microcontroller directly to an HDMI monitor or television? We think so! So we designed this RP2040 Feather that has a digital video output (a.k.a DVI) that will work with any HDMI monitor or display. Note it doesn’t do audio, just graphics!</p>
+
+<p>It’s kinda like we took our <a href="https://www.adafruit.com/product/4884">RP2040 Feather</a> and <a href="https://www.adafruit.com/product/4984">DVI Breakout board</a> and glued them together. You get all the pins for use on the Feather, the Lipoly battery support, USB C power / data, onboard NeoPixel, 8MB of FLASH for storing code and files, and then with the 8 unused pins, a DVI output that can be used with the <a href="https://github.com/adafruit/PicoDVI">PicoDVI library in Arduino</a> or <a href="https://github.com/Wren6991/PicoDVI">Pico SDK</a> (note we don’t have Circuitpython support for DVI output at this time)</p>
+
+<p>In Arduino, which is what we recommend, <a href="https://github.com/adafruit/PicoDVI">we use our fork of PicoDVI</a> to create an internal framebuffer of 320x240 or 400x240 16-bit pixels that is then continuously blitted out as pixel-doubled 640x480 or 800x480 digital video. Whatever you ‘draw’ to the internal memory framebuffer appears instantly on the digital display in crisp color. Since the library is a subclass of AdafruitGFX, it’ll be familiar to folks who have used our TFT or OLED displays before.</p>
+
+<p>Note that the DVI video generation uses one full core, both PIOs, and 150K (320x240) or 190K (400x240) of SRAM. It’s kinda maxed out so be aware of the remaining resource limitations.</p>
+
+<p>We also connected the HDMI-connectors I2C pins to the SDA/SCL of the Feather (through a safe level shifter) so you can read the EDID EEPROM of displays, and have broken out the CEC and Utility pads. The Hot Plug Detect pin is also available on the very end of the 16-pin header. Read this pin to know when a display has been connected!</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5710">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 27 Mar 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_rp2040_dvi/</guid>
   </item><item>
     <title>Feather RP2040 SCORPIO</title>
     <link>https://circuitpython.org/board/adafruit_feather_rp2040_scorpio/</link>
