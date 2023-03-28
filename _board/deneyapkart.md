@@ -11,18 +11,10 @@ family: esp32
 downloads_display: true
 features:
   - Wi-Fi
-  - Bluetooth v4.2 BR/EDR and Bluetooth LE (BLE)
-  - 6-Axis IMU (Acc&Gyro)
-  - MEMS Microphone
-  - Over Current Protection at Digital Pins with PTC Fuse
-  - Continuous 5V Voltage Out
-  - RGB LED
-  - Li-Po Battery Charging
-  - Li-Po Battery Connector
-  - I2C Connector Compatible with STEMMA QT/QWIIC
-  - Camera Connector
+  - Bluetooth/BTLE
+  - Battery Charging
+  - STEMMA QT/QWIIC
   - Breadboard-Friendly
-  - USB ESD protection
 ---
 
 ## Technical Specs

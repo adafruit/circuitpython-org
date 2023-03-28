@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "deneyapkart_1A_v2"
+board_id: "deneyapkart1A_v2"
 title: "Deneyap Kart 1A v2 Download"
 name: "Deneyap Kart 1A v2"
 manufacturer: "Turkish Technology Team Foundation"
@@ -12,18 +12,11 @@ bootloader_id: deneyapkart1A_v2
 downloads_display: true
 features:
   - Wi-Fi
-  - Bluetooth 5 (BLE) and Bluetooth Mesh
-  - Continuous 5V Voltage Out
-  - Addressable RGB LED
-  - Micro SD Card Connector
-  - Li-Po Battery Charging
-  - Li-Po Battery Connector
-  - Li-Po Battery Voltage Sense
-  - I2C Connector Compatible with STEMMA QT/QWIIC
-  - Camera Connector
+  - Bluetooth/BTLE
+  - Battery Charging
+  - STEMMA QT/QWIIC
   - Breadboard-Friendly
-  - Type-C Connector
-  - USB ESD protection
+  - USB-C
 ---
 
 ## Technical Specs

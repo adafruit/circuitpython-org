@@ -11,13 +11,11 @@ family: esp32c3
 downloads_display: true
 features:
   - Wi-Fi
-  - Bluetooth 5 (BLE) and Bluetooth Mesh
-  - Li-Po Battery Connector
-  - On-Off Switch for Li-Po Battery
-  - Addressable RGB LED
-  - I2C Connector Compatible with STEMMA QT/QWIIC
+  - Bluetooth/BTLE
+  - Battery Charging
+  - STEMMA QT/QWIIC
   - Breadboard-Friendly
-  - Type-C USB Connector
+  - USB-C
 ---
 
 ## Technical Specs

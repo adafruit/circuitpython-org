@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "deneyapkart_1A"
+board_id: "deneyapkart1A"
 title: "Deneyap Kart 1A Download"
 name: "Deneyap Kart 1A"
 manufacturer: "Turkish Technology Team Foundation"
@@ -11,15 +11,10 @@ family: esp32
 downloads_display: true
 features:
   - Wi-Fi
-  - Bluetooth v4.2 BR/EDR and Bluetooth LE (BLE)
-  - Continuous 5V Voltage Out
-  - Addressable RGB LED
-  - Micro SD Card Connector
-  - Li-Po Battery Charging
-  - Li-Po Battery Connector
-  - I2C Connector Compatible with STEMMA QT/QWIIC
-  - Camera Connector
-  - Breadboard-Friendly  
+  - Bluetooth/BTLE
+  - Battery Charging
+  - STEMMA QT/QWIIC
+  - Breadboard-Friendly
 ---
 
 ## Technical Specs

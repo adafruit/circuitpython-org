@@ -11,9 +11,9 @@ family: esp32s2
 bootloader_id: deneyapmini
 features:
   - Wi-Fi
-  - RGB LED
-  - I2C Connector Compatible with STEMMA QT/QWIIC
-  - Breadboard-Friendly  
+  - Battery Charging
+  - STEMMA QT/QWIIC
+  - Breadboard-Friendly
 ---
 
 ## Technical Specs
