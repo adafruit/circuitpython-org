@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "deneyapmini"
+board_id: "deneyap_mini"
 title: "Deneyap Mini Download"
 name: "Deneyap Mini"
 manufacturer: "Turkish Technology Team Foundation"
