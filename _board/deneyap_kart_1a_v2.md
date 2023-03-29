@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "deneyapkart1A_v2"
+board_id: "deneyap_kart_1a_v2"
 title: "Deneyap Kart 1A v2 Download"
 name: "Deneyap Kart 1A v2"
 manufacturer: "Turkish Technology Team Foundation"
@@ -8,7 +8,7 @@ board_url: "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-1
 board_image: "deneyapkart1Av2.jpg"
 date_added: 2023-03-14
 family: esp32s3
-bootloader_id: deneyapkart1A_v2
+bootloader_id: deneyap_kart_1a_v2
 downloads_display: true
 features:
   - Wi-Fi
