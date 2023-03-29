@@ -111,6 +111,11 @@
             }
         ]
     },
+    "deneyapkart1A": {
+        "name": "Deneyap Kart 1A",
+        "chipfamily": "esp32",
+        "releases": []
+    },
     "espressif_esp32s2_devkitc_1_n4": {
         "name": "ESP32-S2-DevKitC-1-N4",
         "chipfamily": "esp32s2",
@@ -523,6 +528,23 @@
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_devkitc_1_n8r8/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8r8-en_US-8.0.4.uf2"
             }
         ]
+    },
+    "deneyapminiv2": {
+        "name": "Deneyap Mini v2",
+        "chipfamily": "esp32s2",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyapmini_v2-0.13.0.zip",
+        "releases": []
+    },
+    "deneyapmini": {
+        "name": "Deneyap Mini",
+        "chipfamily": "esp32s2",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyapmini-0.13.0.zip",
+        "releases": []
+    },
+    "deneyapkartg": {
+        "name": "Deneyap Kart G",
+        "chipfamily": "esp32c3",
+        "releases": []
     },
     "lolin_s2_mini": {
         "name": "LOLIN S2 Mini",
@@ -949,6 +971,12 @@
             }
         ]
     },
+    "deneyapkart1A_v2": {
+        "name": "Deneyap Kart 1A v2",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyapkart1A_v2-0.13.0.zip",
+        "releases": []
+    },
     "microdev_micro_c3": {
         "name": "MicroDev microC3",
         "chipfamily": "esp32c3",
@@ -1195,6 +1223,11 @@
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_feathers3/en_US/adafruit-circuitpython-unexpectedmaker_feathers3-en_US-8.0.4.uf2"
             }
         ]
+    },
+    "deneyapkart": {
+        "name": "Deneyap Kart",
+        "chipfamily": "esp32",
+        "releases": []
     },
     "ai_thinker_esp32-c3s-2m": {
         "name": "ESP-C3-32S (2M)",

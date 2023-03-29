@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 28 Mar 2023 06:04:03 -0400</lastBuildDate>
+<lastBuildDate>Tue, 28 Mar 2023 20:00:41 -0400</lastBuildDate>
 <item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
@@ -4368,6 +4368,278 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
     <category>CircuitPython</category>
     <pubDate>Fri, 12 Jul 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/datum_weather/</guid>
+  </item><item>
+    <title>Deneyap Kart</title>
+    <link>https://circuitpython.org/board/deneyapkart/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/deneyapkart.jpg 300w,
+               /assets/images/boards/large/deneyapkart.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/deneyapkart.jpg" alt="Image of Board" loading="lazy">
+<p>By Turkish Technology Team Foundation</p> <h2 id="technical-specs">Technical Specs</h2>
+<ul>
+  <li>Espressif ESP32-WROVER-E Module
+    <ul>
+      <li>240 MHz Dual-Core Xtensa 32-bit LX6 CPUs (Espressif ESP32-D0WD-V3)</li>
+      <li>Ultra Low Power (ULP) Co-processor</li>
+      <li>520 KB SRAM</li>
+      <li>448 KB ROM</li>
+      <li>8 MB QSPI PSRAM</li>
+      <li>4 MB QSPI Flash</li>
+      <li>802.11b/g/n 2.4 GHz Wi-Fi</li>
+      <li>Bluetooth v4.2 BR/EDR and BLE</li>
+      <li>Magnetic Field (Hall-Effect) Sensor</li>
+    </ul>
+  </li>
+  <li>MEMS 6-axis IMU Accelerometer and Gyroscope (ST LSM6DSM)</li>
+  <li>MEMS PDM Microphone (ST MP34DT05-A)</li>
+  <li>RGB LED</li>
+  <li>24 x Digital Input Pins (16 x PTC Fuse for Over Current Protection)</li>
+  <li>20 x Digital Output Pins</li>
+  <li>16 x Analog Input Pins (two 12-bit SAR ADCs)</li>
+  <li>2 x Analog Output Pins (two 8-bit DACs)</li>
+  <li>10 x Capacitive-Sensing Pins</li>
+  <li>PWM, I2C, SPI, UART, I2S, PCNT, RMT, TWAI, JTAG and SD/SDIO/MMC Interface</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart">DENEYAPKART</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+<ul>
+  <li><a href="https://github.com/deneyapkart">Github</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 13 Mar 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/deneyapkart/</guid>
+  </item><item>
+    <title>Deneyap Kart 1A</title>
+    <link>https://circuitpython.org/board/deneyapkart1A/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/deneyapkart1A.jpg 300w,
+               /assets/images/boards/large/deneyapkart1A.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/deneyapkart1A.jpg" alt="Image of Board" loading="lazy">
+<p>By Turkish Technology Team Foundation</p> <h2 id="technical-specs">Technical Specs</h2>
+<ul>
+  <li>Espressif ESP32-WROVER-E Module
+    <ul>
+      <li>240 MHz Dual-Core Xtensa 32-bit LX6 CPUs (Espressif ESP32-D0WD-V3)</li>
+      <li>Ultra Low Power (ULP) Co-processor</li>
+      <li>520 KB SRAM</li>
+      <li>448 KB ROM</li>
+      <li>8 MB QSPI PSRAM</li>
+      <li>4 MB QSPI Flash</li>
+      <li>802.11b/g/n 2.4 GHz Wi-Fi</li>
+      <li>Bluetooth v4.2 BR/EDR and BLE</li>
+      <li>Magnetic Field (Hall-Effect) Sensor</li>
+    </ul>
+  </li>
+  <li>Addressable RGB LED</li>
+  <li>24 x Digital Input Pins</li>
+  <li>20 x Digital Output Pins</li>
+  <li>16 x Analog Input Pins (two 12-bit SAR ADCs)</li>
+  <li>2 x Analog Output Pins (two 8-bit DACs)</li>
+  <li>10 x Capacitive-Sensing Pins</li>
+  <li>PWM, I2C, SPI, UART, I2S, PCNT, RMT, TWAI, JTAG and SD/SDIO/MMC Interface</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart-1a">DENEYAPKART1A</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+<ul>
+  <li><a href="https://github.com/deneyapkart">Github</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 13 Mar 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/deneyapkart1A/</guid>
+  </item><item>
+    <title>Deneyap Kart 1A v2</title>
+    <link>https://circuitpython.org/board/deneyapkart1A_v2/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/deneyapkart1Av2.jpg 300w,
+               /assets/images/boards/large/deneyapkart1Av2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/deneyapkart1Av2.jpg" alt="Image of Board" loading="lazy">
+<p>By Turkish Technology Team Foundation</p> <h2 id="technical-specs">Technical Specs</h2>
+<ul>
+  <li>Espressif ESP32-S3-WROOM-1 Module
+    <ul>
+      <li>240 MHz Dual-Core Xtensa 32-bit LX7 CPUs (Espressif ESP32-S3)</li>
+      <li>Two Ultra Low Power (ULP) Co-processor (ULP­-RISC-­V and ULP-FSM)</li>
+      <li>512 KB SRAM</li>
+      <li>384 KB ROM</li>
+      <li>8 MB OSPI PSRAM</li>
+      <li>4 MB QSPI Flash</li>
+      <li>802.11b/g/n 2.4 GHz Wi-Fi</li>
+      <li>Bluetooth 5 (BLE) and Bluetooth Mesh</li>
+      <li>Temperature Sensor</li>
+    </ul>
+  </li>
+  <li>Addressable RGB LED</li>
+  <li>23 x Digital Input/Output Pins</li>
+  <li>13 x Analog Input Pins (two 12-bit SAR ADCs)</li>
+  <li>9 x Capacitive-Sensing Pins</li>
+  <li>PWM, I2C, SPI, UART, I2S, LCD, DVP, PCNT, RMT, TWAI, JTAG and SD/SDIO/MMC Interface</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart-1a-v2-type-c">DENEYAPKART1Av2</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+<ul>
+  <li><a href="https://github.com/deneyapkart">Github</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 13 Mar 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/deneyapkart1A_v2/</guid>
+  </item><item>
+    <title>Deneyap Kart G</title>
+    <link>https://circuitpython.org/board/deneyapkartg/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/deneyapkartg.jpg 300w,
+               /assets/images/boards/large/deneyapkartg.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/deneyapkartg.jpg" alt="Image of Board" loading="lazy">
+<p>By Turkish Technology Team Foundation</p> <h2 id="technical-specs">Technical Specs</h2>
+<ul>
+  <li>Espressif ESP32-C3FN4 SoC
+    <ul>
+      <li>160 MHz Single-Core 32-bit RISC-V CPU</li>
+      <li>400 KB SRAM</li>
+      <li>384 KB ROM</li>
+      <li>4 MB SPI Flash</li>
+      <li>802.11b/g/n 2.4 GHz Wi-Fi</li>
+      <li>Bluetooth 5 (BLE) and Bluetooth Mesh</li>
+      <li>Temperature Sensor</li>
+    </ul>
+  </li>
+  <li>Addressable RGB LED</li>
+  <li>13 x Digital Input/Output Pins</li>
+  <li>6 x Analog Input Pins (two 12-bit SAR ADCs)</li>
+  <li>PWM, I2C, SPI, UART, I2S, RMT, TWAI and JTAG Interface</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart-g-type-c">DENEYAPKARTG</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+<ul>
+  <li><a href="https://github.com/deneyapkart">Github</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 13 Mar 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/deneyapkartg/</guid>
+  </item><item>
+    <title>Deneyap Mini</title>
+    <link>https://circuitpython.org/board/deneyapmini/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/deneyapmini.jpg 300w,
+               /assets/images/boards/large/deneyapmini.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/deneyapmini.jpg" alt="Image of Board" loading="lazy">
+<p>By Turkish Technology Team Foundation</p> <h2 id="technical-specs">Technical Specs</h2>
+<ul>
+  <li>Espressif ESP32-S2FH4 SoC
+    <ul>
+      <li>240 MHz Single-Core Xtensa 32-bit LX7 CPU (Espressif ESP32-S2)</li>
+      <li>Two Ultra Low Power (ULP) Co-processor (ULP­-RISC-­V and ULP-FSM)</li>
+      <li>320 KB SRAM</li>
+      <li>128 KB ROM</li>
+      <li>4 MB Flash</li>
+      <li>802.11b/g/n 2.4 GHz Wi-Fi</li>
+      <li>Temperature Sensor</li>
+    </ul>
+  </li>
+  <li>RGB LED</li>
+  <li>21 x Digital Input/Output Pins</li>
+  <li>9 x Analog Input Pins (two 13-bit SAR ADCs)</li>
+  <li>2 x Analog Output Pins (two 8-bit DACs)</li>
+  <li>6 x Capacitive-Sensing Pins</li>
+  <li>PWM, I2C, SPI, UART, I2S, PCNT, RMT, TWAI and JTAG Interface</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://magaza.deneyapkart.org/tr/product/detail/deneyap-mini">DENEYAPMINI</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+<ul>
+  <li><a href="https://github.com/deneyapkart">Github</a>.</li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 13 Mar 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/deneyapmini/</guid>
+  </item><item>
+    <title>Deneyap Mini v2</title>
+    <link>https://circuitpython.org/board/deneyapmini_v2/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/deneyapminiv2.jpg 300w,
+               /assets/images/boards/large/deneyapminiv2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/deneyapminiv2.jpg" alt="Image of Board" loading="lazy">
+<p>By Turkish Technology Team Foundation</p> <h2 id="technical-specs">Technical Specs</h2>
+<ul>
+  <li>Espressif ESP32-S2FN4R2 SoC
+    <ul>
+      <li>240 MHz Single-Core Xtensa 32-bit LX7 CPU (Espressif ESP32-S2)</li>
+      <li>Two Ultra Low Power (ULP) Co-processor (ULP­-RISC-­V and ULP-FSM)</li>
+      <li>320 KB SRAM</li>
+      <li>128 KB ROM</li>
+      <li>4 MB Flash</li>
+      <li>2 MB PSRAM</li>
+      <li>802.11b/g/n 2.4 GHz Wi-Fi</li>
+      <li>Temperature Sensor</li>
+    </ul>
+  </li>
+  <li>Addressable RGB LED</li>
+  <li>21 x Digital Input/Output Pins</li>
+  <li>9 x Analog Input Pins (two 13-bit SAR ADCs)</li>
+  <li>2 x Analog Output Pins (two 8-bit DACs)</li>
+  <li>6 x Capacitive-Sensing Pins</li>
+  <li>PWM, I2C, SPI, UART, I2S, PCNT, RMT, TWAI and JTAG Interface</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://magaza.deneyapkart.org/tr/product/detail/deneyap-mini-v2-type-c">DENEYAPMINIV2</a></li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+<ul>
+  <li><a href="https://github.com/deneyapkart">Github</a>.</li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 13 Mar 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/deneyapmini_v2/</guid>
   </item><item>
     <title>Piunora</title>
     <link>https://circuitpython.org/board/diodes_delight_piunora/</link>
