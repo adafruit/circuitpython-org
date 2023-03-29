@@ -38,6 +38,3 @@ features:
 
 ## Purchase
 * [DENEYAPKART1Av2](https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart-1a-v2-type-c)
-
-## Contribute
-* [Github](https://github.com/deneyapkart)

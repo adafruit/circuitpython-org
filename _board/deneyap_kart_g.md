@@ -34,6 +34,3 @@ features:
 
 ## Purchase
 * [DENEYAPKARTG](https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart-g-type-c)
-
-## Contribute
-* [Github](https://github.com/deneyapkart)
