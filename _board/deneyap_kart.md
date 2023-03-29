@@ -1,11 +1,11 @@
 ---
 layout: download
-board_id: "deneyapkart1A"
-title: "Deneyap Kart 1A Download"
-name: "Deneyap Kart 1A"
+board_id: "deneyapkart"
+title: "Deneyap Kart Download"
+name: "Deneyap Kart"
 manufacturer: "Turkish Technology Team Foundation"
-board_url: "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-1a"
-board_image: "deneyapkart1A.jpg"
+board_url: "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart"
+board_image: "deneyapkart.jpg"
 date_added: 2023-03-14
 family: esp32
 downloads_display: true
@@ -28,8 +28,10 @@ features:
     - 802.11b/g/n 2.4 GHz Wi-Fi
     - Bluetooth v4.2 BR/EDR and BLE
     - Magnetic Field (Hall-Effect) Sensor
-  - Addressable RGB LED
-  - 24 x Digital Input Pins
+  - MEMS 6-axis IMU Accelerometer and Gyroscope (ST LSM6DSM)
+  - MEMS PDM Microphone (ST MP34DT05-A)
+  - RGB LED
+  - 24 x Digital Input Pins (16 x PTC Fuse for Over Current Protection)
   - 20 x Digital Output Pins
   - 16 x Analog Input Pins (two 12-bit SAR ADCs)
   -  2 x Analog Output Pins (two 8-bit DACs)
@@ -37,7 +39,4 @@ features:
   - PWM, I2C, SPI, UART, I2S, PCNT, RMT, TWAI, JTAG and SD/SDIO/MMC Interface
 
 ## Purchase
-* [DENEYAPKART1A](https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart-1a)
-
-## Contribute
-* [Github](https://github.com/deneyapkart)
+* [DENEYAPKART](https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart)
