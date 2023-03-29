@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "deneyapkart1A_v2"
+board_id: "deneyap_kart_1a_v2"
 title: "Deneyap Kart 1A v2 Download"
 name: "Deneyap Kart 1A v2"
 manufacturer: "Turkish Technology Team Foundation"
