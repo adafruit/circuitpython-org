@@ -49,6 +49,11 @@
             }
         ]
     },
+    "deneyapkart1A": {
+        "name": "Deneyap Kart 1A",
+        "chipfamily": "esp32",
+        "releases": []
+    },
     "m5stack_atom_u": {
         "name": "AtomU ESP32",
         "chipfamily": "esp32",
@@ -110,11 +115,6 @@
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_saola_1_wroom/en_US/adafruit-circuitpython-espressif_saola_1_wroom-en_US-8.0.4.uf2"
             }
         ]
-    },
-    "deneyapkart1A": {
-        "name": "Deneyap Kart 1A",
-        "chipfamily": "esp32",
-        "releases": []
     },
     "espressif_esp32s2_devkitc_1_n4": {
         "name": "ESP32-S2-DevKitC-1-N4",
@@ -529,21 +529,10 @@
             }
         ]
     },
-    "deneyapminiv2": {
-        "name": "Deneyap Mini v2",
-        "chipfamily": "esp32s2",
-        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyapmini_v2-0.13.0.zip",
-        "releases": []
-    },
-    "deneyapmini": {
+    "deneyap_mini": {
         "name": "Deneyap Mini",
         "chipfamily": "esp32s2",
-        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyapmini-0.13.0.zip",
-        "releases": []
-    },
-    "deneyapkartg": {
-        "name": "Deneyap Kart G",
-        "chipfamily": "esp32c3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyap_mini-0.13.0.zip",
         "releases": []
     },
     "lolin_s2_mini": {
@@ -609,6 +598,11 @@
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lolin_s3/en_US/adafruit-circuitpython-lolin_s3-en_US-8.0.4.uf2"
             }
         ]
+    },
+    "deneyapkart": {
+        "name": "Deneyap Kart",
+        "chipfamily": "esp32",
+        "releases": []
     },
     "muselab_nanoesp32_s2_wroom": {
         "name": "NanoESP32 S2 w/WROOM",
@@ -820,6 +814,11 @@
             }
         ]
     },
+    "deneyapkartg": {
+        "name": "Deneyap Kart G",
+        "chipfamily": "esp32c3",
+        "releases": []
+    },
     "m5stack_atom_lite": {
         "name": "ATOM Lite ESP32 IoT",
         "chipfamily": "esp32",
@@ -970,12 +969,6 @@
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32_lyrat/en_US/adafruit-circuitpython-espressif_esp32_lyrat-en_US-8.1.0-beta.0.bin"
             }
         ]
-    },
-    "deneyapkart1A_v2": {
-        "name": "Deneyap Kart 1A v2",
-        "chipfamily": "esp32s3",
-        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyapkart1A_v2-0.13.0.zip",
-        "releases": []
     },
     "microdev_micro_c3": {
         "name": "MicroDev microC3",
@@ -1224,11 +1217,6 @@
             }
         ]
     },
-    "deneyapkart": {
-        "name": "Deneyap Kart",
-        "chipfamily": "esp32",
-        "releases": []
-    },
     "ai_thinker_esp32-c3s-2m": {
         "name": "ESP-C3-32S (2M)",
         "chipfamily": "esp32c3",
@@ -1327,6 +1315,12 @@
             }
         ]
     },
+    "deneyap_mini_v2": {
+        "name": "Deneyap Mini v2",
+        "chipfamily": "esp32s2",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyap_mini_v2-0.13.0.zip",
+        "releases": []
+    },
     "lilygo_ttgo_t8_s2_st7789": {
         "name": "TTGO T8 ESP32-S2 ST7789",
         "chipfamily": "esp32s2",
@@ -1357,6 +1351,12 @@
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_stick_c/en_US/adafruit-circuitpython-m5stack_stick_c-en_US-8.0.4.bin"
             }
         ]
+    },
+    "deneyap_kart_1a_v2": {
+        "name": "Deneyap Kart 1A v2",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-deneyap_kart_1a_v2-0.13.0.zip",
+        "releases": []
     },
     "lilygo_ttgo_t-oi-plus": {
         "name": "TTGO T-OI Plus",
