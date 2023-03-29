@@ -8,7 +8,7 @@ board_url: "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-mini"
 board_image: "deneyapmini.jpg"
 date_added: 2023-03-14
 family: esp32s2
-bootloader_id: deneyapmini
+bootloader_id: deneyap_mini
 features:
   - Wi-Fi
   - Battery Charging
