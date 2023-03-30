@@ -24,7 +24,7 @@ features:
 
 **Features:**
  
- - ESP32-S3-WROOM-1-N8R8
+ - ESP32-S3-WROOM-1-N8R8 Module
  - 32-bit 240 MHz Dual-Core LX-7 Processor 
  - 512 KB SRAM
  - 8 MB Flash
