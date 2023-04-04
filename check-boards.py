@@ -10,6 +10,22 @@ with open('template.md', "rt") as f:
     metadata, content = frontmatter.parse(f.read())
     acceptable_features = set(metadata['features'])
 
+def verify_board_id(folder):
+    valid = True
+    for filename in Path(folder).glob("*.md"):
+        with open(filename, "rt") as f:
+            metadata, _ = frontmatter.parse(f.read())
+        downloads_display = metadata.get('downloads_display')
+        if downloads_display is None or downloads_display:
+            board_id = metadata.get('board_id')
+            if board_id == "unknown":
+                continue
+            if not board_id:
+                print(f"board_id should be set for {filename}")
+                valid = False
+
+    return valid
+
 def valid_date(date):
     date = str(date)
     if date:
@@ -93,7 +109,7 @@ def verify_contribute_not_present(folder):
 if not verify_features("_board", acceptable_features):
     print("Non-standard features found. See https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/adding-to-downloads for acceptable features")
     raise SystemExit(True)
- 
+
 # Check Blinka Download Features
 blinka_features = {
     "Ethernet",
@@ -107,6 +123,14 @@ blinka_features = {
     "USB 3.0",
     "Infrared Receiver",
 }
+
+if not verify_board_id("_board"):
+    print("board_id missing for some boards. This is a required field.")
+    raise SystemExit(True)
+
+if not verify_board_id("_blinka"):
+    print("board_id missing for some boards. This is a required field.")
+    raise SystemExit(True)
 
 if not verify_features("_blinka", blinka_features):
     print("Non-standard features found. See https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/adding-to-blinka for acceptable features")

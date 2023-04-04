@@ -61,6 +61,11 @@ def main():
                 board_id = metadata.get("board_id").strip() or ()
                 if board_id == "unknown":
                     continue
+                board_alias = metadata.get("board_alias")
+                if not board_alias:
+                    board_alias = board_id
+                else:
+                    board_alias = board_alias.strip()
                 board["name"] = metadata.get("name").strip()
                 board["chipfamily"] = metadata.get("family").strip()
                 if board["chipfamily"] not in INCLUDED_CHIP_FAMILIES:
@@ -70,7 +75,7 @@ def main():
                     board["bootloader"] = get_bootloader(
                         board["chipfamily"], bootloader_id
                     )
-                board["releases"] = get_releases(board_id)
+                board["releases"] = get_releases(board_alias)
                 boards[board_id] = board
                 print(f"Added {board_id}")
         return boards
