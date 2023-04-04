@@ -1,5 +1,6 @@
 ---
 layout: download
+board_id: "adafruit_feather_rp2040_rfm9x"
 board_alias: "adafruit_feather_rp2040_rfm"
 title: "Feather RP2040 RFM9x Board Download"
 name: "Feather RP2040 RFM9x"
