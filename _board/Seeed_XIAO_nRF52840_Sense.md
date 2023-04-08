@@ -31,7 +31,7 @@ Seeed Studio XIAO nRF52840 (Sense) contains a wealthy interface. The first thing
 * Bluetooth 5.0
 * NFC
 * 21 x 17.5mm tiny board
-* 5 μA power consumption in deep sleep model
+* 5 μA power consumption in deep sleep mode
 * Battery Charging
 * built-in 2 MB flash, microphone and 6-axis IMU 
 
