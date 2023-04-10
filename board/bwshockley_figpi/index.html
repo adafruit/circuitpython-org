@@ -19,7 +19,7 @@
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
 <title>FigPi Download</title>
-<meta name="description" content="This has STEMMA QT/Qwiic 4-pin JST SH connectors on the back. The board has two I2C ST QT/ QW connectors, an SPI connector, ADC connector, Digital connector,..." />
+<meta name="description" content="Fig Pi is a minifigure-sized development board based on the Raspberry Pi Foundation RP2040 Dual Cortex®-M0+ MCU running at 133Mhz with 16 I/O, one built-in L..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:description" content="This has STEMMA QT/Qwiic 4-pin JST SH connectors on the back. The board has two I2C ST QT/ QW connectors, an SPI connector, ADC connector, Digital connector, and a generic 3.3V/GND power shared connector.Learn More  Twitter  Twitter" />
+<meta property="og:description" content="Fig Pi is a minifigure-sized development board based on the Raspberry Pi Foundation RP2040 Dual Cortex®-M0+ MCU running at 133Mhz with 16 I/O, one built-in LED around back, a 3x3 matrix of RGB LEDs, built-in Button, and an extra 2MB of memory. Additionally, the Fig Pi has STEMMA QT/Qwiic 4-pin JS..." />
 
 
 
@@ -152,13 +152,72 @@
         
         <img src="/assets/images/boards/large/bwshockley_figpi.jpg" alt="Image of Board">
         <p>
-          <p>This has STEMMA QT/Qwiic 4-pin JST SH connectors on the back. The board has two I2C ST QT/ QW connectors, an SPI connector, ADC connector, Digital connector, and a generic 3.3V/GND power shared connector.</p>
+          <p>Fig Pi is a minifigure-sized development board based on the Raspberry Pi Foundation RP2040 Dual Cortex®-M0+ MCU running at 133Mhz with 16 I/O, one built-in LED around back, a 3x3 matrix of RGB LEDs, built-in Button, and an extra 2MB of memory. Additionally, the Fig Pi has STEMMA QT/Qwiic 4-pin JST SH connectors on the back that support two I2C ST QT/ QW connectors, an SPI connector, ADC connector, Digital connector, and a battery connector (2-pin JST SH).</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>RP2040 is a low-cost, high-performance microcontroller device with flexible digital interfaces. Key features:
+    <ul>
+      <li>Dual Cortex M0+ processor cores, up to 133MHz</li>
+      <li>264kB of embedded SRAM in 6 banks</li>
+      <li>30 multifunction GPIO</li>
+      <li>6 dedicated IO for SPI Flash (supporting XIP)</li>
+      <li>Dedicated hardware for commonly used peripherals</li>
+      <li>Programmable IO for extended peripheral support</li>
+      <li>4 channel ADC with internal temperature sensor, 500ksps, 12-bit conversion</li>
+      <li>USB 1.1 Host/Device</li>
+    </ul>
+  </li>
+  <li>2MB On Board Memory</li>
+  <li>Micro-USB Connector</li>
+  <li>3.3V LDO Power
+    <ul>
+      <li>Low Dropout Voltage (250-320mV at 600mA</li>
+      <li>Rated 600mA Output Current</li>
+      <li>High Output Voltage Accuracy (±2% typical)</li>
+      <li>Over-Current and Over-Temperature Protection</li>
+    </ul>
+  </li>
+  <li>Built in RED LED accessible in and CircuitPython
+    <ul>
+      <li>BOARD.LED</li>
+    </ul>
+  </li>
+  <li>Built in RGB LED 3x3 Matrix
+    <ul>
+      <li>Uses Neopixel CP Library</li>
+      <li>Self-Contained Driver/RGB LED</li>
+    </ul>
+  </li>
+  <li>Only requires one dedicated PIN</li>
+  <li>Built in RESET Button</li>
+  <li>Built-In BOOT/User Button</li>
+  <li>16 Total I/O Pins
+    <ul>
+      <li>4 Analog Input Pins</li>
+      <li>16 Digital Pins - All Support PWM</li>
+      <li>1 UART Interface</li>
+      <li>2 I2C Interfaces</li>
+      <li>1 SPI Interface</li>
+      <li>Accessed via 4 pin JST SH connectors - STEMMA QT and QWIIC compatible for I2C interfaces</li>
+    </ul>
+  </li>
+  <li>U2F Bootloader - Appears like a USB Drive on your computer.</li>
+  <li>CircuitPython Compatible</li>
+  <li>Minifigure Shaped Board
+    <ul>
+      <li>Approximately 0.95×1.55 inches (24.21×39.32 mm)</li>
+      <li>2-Layer, High Quality PCB</li>
+      <li>Multiple Colors</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="learn-more">Learn More</h2>
 
 <ul>
-  <li><a href="https://twitter.com/bwshockley/status/1550501200881242112">Twitter</a></li>
-  <li><a href="https://twitter.com/bwshockley/status/1549391107196321795">Twitter</a></li>
+  <li><a href="https://minifigboards.com/fig-pi">Minifig Boards</a></li>
 </ul>
 
         </p>
