@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 11 Apr 2023 06:03:48 -0400</lastBuildDate>
+<lastBuildDate>Tue, 11 Apr 2023 11:22:05 -0400</lastBuildDate>
 <item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
@@ -8972,6 +8972,61 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <category>CircuitPython</category>
     <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/m5stack_atom_u/</guid>
+  </item><item>
+    <title>AtomS3 Lite ESP32S3 Dev Kit</title>
+    <link>https://circuitpython.org/board/m5stack_atoms3_lite/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_atoms3_lite.png 300w,
+               /assets/images/boards/large/m5stack_atoms3_lite.png 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_atoms3_lite.png" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>ATOMS3 Liteis anAtom Series Programmable Controllerin the M5Stack Development Kit series using ESP32-S3.</p>
+
+<p>The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has <strong>WiFi</strong> and <strong>BLE</strong> support, <strong>built-in native USB</strong> as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<ul>
+  <li>Small size is only 24x24x9.5mm,</li>
+  <li><strong>USB Type C connector</strong> - <a href="https://www.adafruit.com/product/4299">If you have only Micro B cables, this adapter will come in handy</a>!</li>
+  <li><strong>ESP32-S3 (ESP32-S3FN8) Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li>Comes with <strong>8MB Flash, 512KB SRAM, no PSRAM</strong></li>
+  <li>Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>
+  <li>Can be used with <strong>Arduino IDE</strong> or <strong>CircuitPython</strong></li>
+  <li><strong>Built-in user button with RGB NeoPixel LED</strong></li>
+  <li>Infrared LED</li>
+  <li>6 GPIO pins</li>
+  <li>1 GROVE/HY2.0-4P interfaces</li>
+  <li>Built-in 3D antenna</li>
+  <li>An M2 screw holeis provided on the back for fixing</li>
+  <li><strong>Reset switch</strong> for starting your project code over. Hold the reset switch for 2 second to enter bootloader mode</li>
+  <li>Hold <strong>Button A</strong> and tap <strong>Reset switch</strong> for entering UF2 bootloader drive</li>
+</ul>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>ESP32-based</li>
+  <li>RGB LED(SK6812)</li>
+  <li>Programmable button</li>
+  <li>Built-in Infra-red</li>
+  <li>Extendable Pins &amp; Holes</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/AtomS3%20Lite">AtomS3 Lite</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 04 Apr 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_atoms3_lite/</guid>
   </item><item>
     <title>ESP32 Basic Core IoT</title>
     <link>https://circuitpython.org/board/m5stack_core_basic/</link>
