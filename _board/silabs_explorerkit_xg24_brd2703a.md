@@ -40,7 +40,7 @@ Key features of the board includes a USB interface, an on-board SEGGER J-Link de
 * USB-C powered
 
 ## Learn More
-* [Getting Started](https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=getting-started)
+* [Getting Started](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=getting-started)
 
 ## Purchase
 * [Silicon Labs](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview)

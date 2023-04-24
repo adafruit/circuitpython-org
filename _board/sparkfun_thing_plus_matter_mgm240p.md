@@ -36,7 +36,7 @@ The MGM240P wireless module is built around the EFR32MG24 Wireless SoC with a 32
 * USB-C powered
 
 ## Learn More
-* [MGM240P Wireless Module](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-modules/device.mgm240pa32vnn?tab=specs)
+* [MGM240P Wireless Module](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-modules/device.mgm240pb32vna?tab=specs)
 * [SparkFun Thing Plus Matter - MGM240P](https://www.sparkfun.com/products/20270)
 
 ## Purchase
