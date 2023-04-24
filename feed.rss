@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 24 Apr 2023 06:03:33 -0400</lastBuildDate>
+<lastBuildDate>Mon, 24 Apr 2023 13:37:42 -0400</lastBuildDate>
 <item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
@@ -13020,6 +13020,110 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <pubDate>Tue, 10 Dec 2019 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/shirtty/</guid>
   </item><item>
+    <title>EFR32xG24 Dev Kit</title>
+    <link>https://circuitpython.org/board/silabs_devkit_xg24_brd2601b/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/silabs_devkit_xg24_brd2601b.jpg 300w,
+               /assets/images/boards/large/silabs_devkit_xg24_brd2601b.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/silabs_devkit_xg24_brd2601b.jpg" alt="Image of Board" loading="lazy">
+<p>By Silicon Labs</p> <p>The xG24 Dev Kit is a low-cost, small form factor development
+and evaluation platform for the EFR32MG24 Wireless Gecko System-on-Chip</p>
+
+<p>The board is a small and cost-effective, feature-rich, prototype and development platform
+based on the EFR32™ Wireless Gecko System-on-Chip. The xG24 Dev Kit is an ideal
+platform for developing energy-friendly connected IoT devices.</p>
+
+<p>A built-in SEGGER J-Link debugger ensures easy debugging through the USB Micro-B
+connector.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>EFR32 Wireless Gecko System-on-Chip(EFR32MG24B310F1536IM48-B)</li>
+  <li>High-performance 2.4 GHz radio</li>
+  <li>32-bit ARM® Cortex®-M33 with 78.0 MHz maximum operating frequency</li>
+  <li>1536 flash and 256 kB RAM</li>
+  <li>32 Mbit external flash</li>
+  <li>2.4 GHz ceramic chip antenna</li>
+  <li>Relative humidity and temperature sensor</li>
+  <li>Ambient light sensor</li>
+  <li>Hall effect sensor</li>
+  <li>6-axis inertial sensor</li>
+  <li>Pressure sensor</li>
+  <li>RGB LED and two push buttons</li>
+  <li>20-pin 2.54 mm breakout pads</li>
+  <li>Qwiic® connector</li>
+  <li>SEGGER J-Link on-board debugger</li>
+  <li>Virtual COM port</li>
+  <li>Packet Trace Interface (PTI)</li>
+  <li>USB or coin cell battery powered</li>
+  <li>External battery connector</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=getting-started">Getting Started</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=overview">Silicon Labs</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 19 Apr 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/silabs_devkit_xg24_brd2601b/</guid>
+  </item><item>
+    <title>EFR32xG24 Explorer Kit</title>
+    <link>https://circuitpython.org/board/silabs_explorerkit_xg24_brd2703a/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/silabs_explorerkit_xg24_brd2703a.jpg 300w,
+               /assets/images/boards/large/silabs_explorerkit_xg24_brd2703a.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/silabs_explorerkit_xg24_brd2703a.jpg" alt="Image of Board" loading="lazy">
+<p>By Silicon Labs</p> <p>The EFR32xG24 Explorer Kit is an ultra-low-cost, small form factor
+development and evaluation platform for the EFR32MG24 Wireless Gecko System-on-Chip.</p>
+
+<p>The EFR32xG24 Explorer Kit is focused on rapid prototyping and concept creation of IoT
+applications. It is designed around the EFR32MG24 SoC, which is an ideal device family
+for developing energy-friendly connected IoT applications.</p>
+
+<p>Key features of the board includes a USB interface, an on-board SEGGER J-Link debugger, Packet Trace Interface, push buttons, and support for hardware add-on boards via a mikroBus socket and a Qwiic® connector. The hardware add-on support allows developers to create and prototype applications using a virtually endless combination of off-the-shelf boards from mikroE, sparkfun, AdaFruit, and Seeed Studios.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>EFR32MG24 Wireless Gecko System-onChip (EFR32MG24B210F1536IM48)</li>
+  <li>High-performance 2.4 GHz radio</li>
+  <li>32-bit ARM® Cortex®-M33 with 78 MHz maximum operating frequency</li>
+  <li>1536 kB flash and 256 kB RAM</li>
+  <li>User LEDs and push buttons</li>
+  <li>20-pin 2.54 mm breakout pads</li>
+  <li>mikroBUS™ socket</li>
+  <li>Qwiic® connector</li>
+  <li>SEGGER J-Link on-board debugger</li>
+  <li>Virtual COM port</li>
+  <li>Packet Trace Interface (PTI)</li>
+  <li>USB-C powered</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=getting-started">Getting Started</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview">Silicon Labs</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 19 Apr 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/silabs_explorerkit_xg24_brd2703a/</guid>
+  </item><item>
     <title>M4-Shim</title>
     <link>https://circuitpython.org/board/silicognition-m4-shim/</link>
     <description><![CDATA[   
@@ -13660,6 +13764,51 @@ used for the circuity python build that includes this chip!</li>
     <category>CircuitPython</category>
     <pubDate>Tue, 03 May 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/sparkfun_teensy_micromod/</guid>
+  </item><item>
+    <title>SparkFun Thing Plus Matter MGM240P</title>
+    <link>https://circuitpython.org/board/sparkfun_thing_plus_matter_mgm240p/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/sparkfun_thing_plus_matter_mgm240p.jpg 300w,
+               /assets/images/boards/large/sparkfun_thing_plus_matter_mgm240p.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/sparkfun_thing_plus_matter_mgm240p.jpg" alt="Image of Board" loading="lazy">
+<p>By SparkFun</p> <p>The SparkFun Thing Plus Matter is the first easily accessible board of its kind that combines Matter and SparkFun’s Qwiic ecosystem for agile development and prototyping of Matter-based IoT devices. The MGM240P wireless module from Silicon Labs® provides secure connectivity for both 802.15.4 with Mesh communication (Thread) and Bluetooth® Low Energy 5.3 protocols. SparkFun’s Thing Plus development boards are Feather-compatible and include a Qwiic connector for easy integration into our Qwiic Connect System for solderless I2C circuits.</p>
+
+<p>The Thing Plus Matter - MGM240P includes Qwiic and LiPo battery connectors, and multiple GPIO pins capable of complete multiplexing through software. The board also features the MCP73831 single-cell LiPo charger as well as the MAX17048 fuel gauge to charge and monitor a connected battery. Lastly, we’ve included a µSD card slot for any external memory needs.</p>
+
+<p>The MGM240P wireless module is built around the EFR32MG24 Wireless SoC with a 32-bit ARM Cortext-M33 core processor running at 39 MHz with 1536 kb Flash memory and 256 kb RAM.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>MGM240P Wireless Module</li>
+  <li>32-bit ARM® Cortex®-M33 core at 39 MHz</li>
+  <li>1536/256 kB of Flash/RAM memory</li>
+  <li>User LEDs and reset button</li>
+  <li>MC73831 Single-Cell LiPo Charger</li>
+  <li>MAX17048 Single-Cell LiPo Fuel Gauge</li>
+  <li>µSD Card Slot</li>
+  <li>Feather-compatible</li>
+  <li>Qwiic® connector</li>
+  <li>SEGGER J-Link on-board debugger</li>
+  <li>USB-C powered</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-modules/device.mgm240pb32vna?tab=specs">MGM240P Wireless Module</a></li>
+  <li><a href="https://www.sparkfun.com/products/20270">SparkFun Thing Plus Matter - MGM240P</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.sparkfun.com/products/20270">SparkFun</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 19 Apr 2023 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/sparkfun_thing_plus_matter_mgm240p/</guid>
   </item><item>
     <title>Thing Plus - RP2040</title>
     <link>https://circuitpython.org/board/sparkfun_thing_plus_rp2040/</link>
