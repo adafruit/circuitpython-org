@@ -40,10 +40,10 @@ The MGM240P wireless module is built around the EFR32MG24 Wireless SoC with a 32
 * [SparkFun Thing Plus Matter - MGM240P](https://www.sparkfun.com/products/20270)
 
 ## Flash Circuitpython to the SparkFun Thing Plus Matter board
-1. Dowload the .BIN file
+1. Download the .BIN file
 2. Start Flash programmer in SimplicityStudio
-3. Select 0x08000000 as 'Base address'
-4. Click 'Program'
+3. Select 0x08000000 as _Base address_
+4. Click _Program_
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/20270)
