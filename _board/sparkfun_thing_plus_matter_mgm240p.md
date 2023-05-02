@@ -39,5 +39,11 @@ The MGM240P wireless module is built around the EFR32MG24 Wireless SoC with a 32
 * [MGM240P Wireless Module](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-modules/device.mgm240pb32vna?tab=specs)
 * [SparkFun Thing Plus Matter - MGM240P](https://www.sparkfun.com/products/20270)
 
+## Flash Circuitpython to the SparkFun Thing Plus Matter board
+1. Dowload the .BIN file
+2. Start Flash programmer in SimplicityStudio
+3. Select 0x08000000 as 'Base address'
+4. Click 'Program'
+
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/20270)
