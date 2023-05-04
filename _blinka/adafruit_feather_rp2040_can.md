@@ -13,10 +13,7 @@ tags:
   - Feather CAN Bus
 features:
   - Feather-Compatible
-  - Battery Charging
   - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
 ---
 
 If you'd like quickly get started with CAN bus interfacing, with no soldering required, our **Adafruit RP2040 CAN Bus Feather** comes ready-to-rock with a microcontroller, CAN chipset and terminal blocks for instant gratification. [The controller used is the MCP26525 (aka a MCP2515 with built-in transciever), an extremely popular and well-supported chipset](https://www.microchip.com/en-us/product/MCP2515) that has drivers in Arduino and [CircuitPython](https://github.com/adafruit/Adafruit_CircuitPython_MCP2515) and only requires an SPI port and two pins for chip-select and IRQ. Use it to send and receive messages in either standard or extended format at up to 1 Mbps.

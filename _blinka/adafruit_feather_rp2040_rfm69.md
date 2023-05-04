@@ -10,10 +10,7 @@ blinka: true
 date_added: 2023-4-4
 features:
   - Feather-Compatible
-  - Battery Charging
-  - LoRa/Radio
-  - USB-C
-  - Breadboard-Friendly
+  - STEMMA QT/QWIIC
 ---
 This is the Adafruit Feather RP2040 RFM69. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It's an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.
 
