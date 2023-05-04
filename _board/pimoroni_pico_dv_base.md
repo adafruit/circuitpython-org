@@ -6,7 +6,7 @@ name: "Pimoroni Pico DV Demo Base for Pico"
 manufacturer: "Pimoroni"
 board_url: "https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base"
 board_image: "pimoroni_pico_dv_base.jpg"
-date_added: 2023-5-3
+date_added: 2023-5-4
 family: raspberrypi
 ---
 
