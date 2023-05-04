@@ -1,7 +1,7 @@
 ---
 layout: download
 board_id: "waveshare_rp2040_lcd_1_28"
-title: "Waveshare RP2040-LCD-1.28 Download"
+title: "RP2040-LCD-1.28 Download"
 name: "RP2040-LCD-1.28"
 manufacturer: "Waveshare"
 board_url: "https://www.waveshare.com/rp2040-lcd-1.28.htm"

@@ -6,8 +6,8 @@ name: "Feather RP2040 ThinkInk"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/5727"
 board_image: "adafruit_feather_rp2040_thinkink.jpg"
+blinka: true
 date_added: 2023-5-2
-family: raspberrypi
 tags:
   - ThinkInk Feather
   - Feather ThinkInk

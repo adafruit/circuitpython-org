@@ -1,20 +1,19 @@
 ---
 layout: download
 board_id: "datalore_ip_m4"
-title: "datalore_ip_m4 Download"
-name: "datalore_ip_m4"
-manufacturer: "unknown"
-board_url: ""
-board_image: "unknown.jpg"
-downloads_display: false
+title: "Datalore-IP-M4 Download"
+name: "Datalore-IP-M4"
+manufacturer: "TG-Techie"
+board_url: "https://github.com/TG-Techie/Datalore-IP-M4"
+board_image: "datalore_ip_m4.jpg"
 date_added: 2019-4-5
 family: atmel-samd
 features:
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
+Datalore IP M4 is an integrable CircuitPython ready module for soldering onto projects. Like
+[Adafruit's Metro M4](/board/metro_m4_express/) squeezed into 1 square inch.
 
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
-
-## Purchase
-Add any links to purchase the board
+## Learn More
+* [Twitter](https://twitter.com/tg_techie/status/1143972797691191297)
+* [GitHub](https://github.com/TG-Techie/Datalore-IP-M4)
