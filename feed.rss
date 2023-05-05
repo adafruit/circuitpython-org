@@ -4,8 +4,50 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 04 May 2023 18:42:45 -0400</lastBuildDate>
+<lastBuildDate>Fri, 05 May 2023 11:43:29 -0400</lastBuildDate>
 <item>
+    <title>ESP32-C3-0.42LCD</title>
+    <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/01space_lcd042_esp32c3.jpg 300w,
+               /assets/images/boards/large/01space_lcd042_esp32c3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/01space_lcd042_esp32c3.jpg" alt="Image of Board" loading="lazy">
+<p>By 01space</p> <p>The ESP32-C3-0.42LCD is an ESP32 C3 / RP2040 Raspberry Pi Pico Development board with 0.42 inch LCD risc-v WiFi Bluetooth.</p>
+
+<p>ESP32-C3 is a low-cost microcontroller from Espressif that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy ( Bluetooth 5 (LE)).Use RISC V as the core. There’s a minimum number of pins on this chip, it’s specifically designed to be low cost and for simpler projects than ESP32-Sx or ESP32 classics with their large number of GPIO. Think of it more as an intended replacement to the ESP8266 than to the ESP32! It has built-inUSB-to-Serial, but not native USB - it cannot act as a keyboard or disk drive. The chip used here has 4MB of Flash memory, 400 KB of SRAM.</p>
+
+<p>The ESP32-C3 integrates a rich set of peripherals, ranging from UART, I2C, I2S, remote control peripheral, LED PWM controller, general DMA controller, TWAI controller, USB Serial/JTAG controller, temperature sensor, and ADC. It also includes SPI, Dual SPI, and Quad SPI interfaces. There is no DAC or native capacitive touch.</p>
+
+<p>With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the Internet of Things (IoT), wearable electronics, and smart homes.</p>
+
+<p><strong>Specifications</strong></p>
+<ul>
+  <li>Based ESP32-C3FH4 WIFI &amp; Bluetooth LE RISC-V Single-Core CPU</li>
+  <li>Type-C USB</li>
+  <li>4MB Flash</li>
+  <li>11x IO</li>
+  <li>1x1.0-4P connector(GND,3V3,SDA(GPIO5),SCL(GPIO6))</li>
+  <li>1x RGB(GPIO2)</li>
+  <li>1xLED(3.3V Power Supply)</li>
+  <li>1xReset button(CHIP_EN,great for restarting your program or entering the ROM bootloader)</li>
+  <li>1xBoot button(GPIO9,entering the ROM bootloader or for user input)</li>
+  <li>3.3V Regulator with 500mA peak output</li>
+  <li>Ceramic Antenna</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256804679132291.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 04 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/01space_lcd042_esp32c3/</guid>
+  </item><item>
     <title>Helios</title>
     <link>https://circuitpython.org/board/0xcb_helios/</link>
     <description><![CDATA[   
@@ -121,6 +163,28 @@
     <category>CircuitPython</category>
     <pubDate>Tue, 24 Mar 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/8086_commander/</guid>
+  </item><item>
+    <title>ADM_52840 Breakout board for Holyiot_18010</title>
+    <link>https://circuitpython.org/board/ADM_B_NRF52840_1/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/ADM_B_NRF52840_1.jpg 300w,
+               /assets/images/boards/large/ADM_B_NRF52840_1.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/ADM_B_NRF52840_1.jpg" alt="Image of Board" loading="lazy">
+<p>By Atelier du Maker</p> <p>The ADM_52840 is a Breakout board to test an NRF52840 module from HolyIOT. Nothing very difficult, apart from the soldering part which requires a stencil in order to solder all the pads of the module. However, since internal pads are routed using vias, it’s possible to solder them all with a good soldering iron. It requires a J-link type programmer. An ST-Link V2 should be suitable or the J-Link of Nordic DK boards.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://github.com/Atelier-Du-Maker/ADM_52840">GitHub</a></li>
+  <li><a href="https://anderson69s.com/portfolio/nrf52840-breakout-holyiot/">anderson69s.com (French)</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 29 Oct 2020 20:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/ADM_B_NRF52840_1/</guid>
   </item><item>
     <title>Seeed Studio XIAO nRF52840 (Sense)</title>
     <link>https://circuitpython.org/board/Seeed_XIAO_nRF52840_Sense/</link>
@@ -790,6 +854,73 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <pubDate>Thu, 21 Jan 2021 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_rp2040/</guid>
   </item><item>
+    <title>Feather RP2040 CAN Bus</title>
+    <link>https://circuitpython.org/board/adafruit_feather_rp2040_can/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_can.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040_can.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_rp2040_can.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>If you’d like quickly get started with CAN bus interfacing, with no soldering required, our <strong>Adafruit RP2040 CAN Bus Feather</strong> comes ready-to-rock with a microcontroller, CAN chipset and terminal blocks for instant gratification. <a href="https://www.microchip.com/en-us/product/MCP2515">The controller used is the MCP26525 (aka a MCP2515 with built-in transciever), an extremely popular and well-supported chipset</a> that has drivers in Arduino and <a href="https://github.com/adafruit/Adafruit_CircuitPython_MCP2515">CircuitPython</a> and only requires an SPI port and two pins for chip-select and IRQ. Use it to send and receive messages in either standard or extended format at up to 1 Mbps.</p>
+
+<p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. <a href="https://www.adafruit.com/feather">We have other boards in the Feather family, check’em out here</a>.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/CAN_bus">CAN Bus is a small-scale networking standard</a>, originally designed for cars and, yes, busses, but is now used for many robotics or sensor networks that need better range and addressing than I2C and don’t have the pins or computational ability to talk on Ethernet. CAN is 2 wire differential, which means it’s good for long distances and noisy environments.</p>
+
+<p>Messages are sent at about 1Mbps rate - you set the frequency for the bus and then all ‘joiners’ must match it, and have an address before the packet so that each node can listen in to messages just for it. New nodes can be attached easily because they just need to connect to the two data lines anywhere in the shared net. Each CAN device sends messages whenever it wants, and thanks to some clever data encoding, can detect if there’s a message collision and retransmit later.</p>
+
+<p>We’ve added a few nice extras to this Feather to make it useful in many common CAN scenarios:</p>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/3661"><strong>5V charge-pump voltage generator</strong></a>, so even though you are running 3.3V on a Feather board, it will generate a nice clean 5V as required by the interal transceiver.</li>
+  <li><strong><a href="https://www.adafruit.com/product/725">3.5mm soldered terminal block</a></strong> quick access to the High and Low data lines as well as a ground pin, without any soldering.</li>
+  <li><strong>120-ohm termination resistor on board</strong>, you can remove the termination easily by cutting the jumper marked TERM on the top of the board.</li>
+  <li><strong>CAN control CS, Reset, Int, standby pins</strong> connected internally so you can use any FeatherWing without pin conflicts.</li>
+</ul>
+
+<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the <a href="https://www.adafruit.com/product/4864">Raspberry Pi Pico</a>. This chip has a whopping 8 MB of onboard QSPI FLASH and 264K of RAM! There’s even room left over for a STEMMA QT connector for plug-and-play of I2C devices.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available.</p>
+
+<p><strong>Here’re some handy specs! You get:</strong></p>
+
+<ul>
+  <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - 6.3 grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li><strong>8 MB SPI FLASH</strong> chip for storing files, images and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:
+    <ul>
+      <li><strong>Four</strong> 12-bit ADCs (one more than Pico)</li>
+      <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+    </ul>
+  </li>
+  <li><strong>Built-in 200mA+ lipoly charger</strong> with charging status indicator LED</li>
+  <li><strong>Pin #13 red LED</strong> for general purpose blinking</li>
+  <li><strong>RGB NeoPixel</strong> for full-color indication.</li>
+  <li>On-board <strong>STEMMA QT connector</strong> that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li><strong>Both Reset button and Bootloader select button for quick restarts</strong> (no unplugging-replugging to relaunch code)</li>
+  <li><strong>USB Type C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3V regulator with 500mA peak current output and power enable pin</li>
+  <li>4 mounting holes</li>
+  <li>12 MHz crystal for perfect timing.</li>
+  <li><strong>Support circuitry for CAN Bus using SPI interface</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5724">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 02 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_rp2040_can/</guid>
+  </item><item>
     <title>Feather RP2040 with DVI Output Port</title>
     <link>https://circuitpython.org/board/adafruit_feather_rp2040_dvi/</link>
     <description><![CDATA[   
@@ -818,6 +949,22 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <category>CircuitPython</category>
     <pubDate>Mon, 27 Mar 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_rp2040_dvi/</guid>
+  </item><item>
+    <title>Feather RP2040 Prop-Maker</title>
+    <link>https://circuitpython.org/board/adafruit_feather_rp2040_prop_maker/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_prop_maker.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040_prop_maker.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_rp2040_prop_maker.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Coming Soon</p>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 04 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_rp2040_prop_maker/</guid>
   </item><item>
     <title>Feather RP2040 RFM69</title>
     <link>https://circuitpython.org/board/adafruit_feather_rp2040_rfm69/</link>
@@ -2991,6 +3138,50 @@ onboard easy-to-connect GDI saves the trouble of wiring when using a screen.</p>
     <pubDate>Sat, 07 Aug 2021 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/bluemicro840/</guid>
   </item><item>
+    <title>Blok</title>
+    <link>https://circuitpython.org/board/boardsource_blok/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/boardsource_blok.jpg 300w,
+               /assets/images/boards/large/boardsource_blok.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/boardsource_blok.jpg" alt="Image of Board" loading="lazy">
+<p>By Boardsource</p> <p>Blok’s elevate any keyboard compatible with Pro Micro Footprints and grants them instant access to a modern and feature-rich ecosystem. Users who don’t want to touch a text editor or config file don’t have to, Blok’s work out of the box with Peg. Users can map keys, set LED colors, configure rotary encoders, create OLED images, and much more all from within an easy to use visual program (GUI). Many of Peg’s features and configuration options are unavailable through any other flashing program built for yesterday’s ATmega32U4 processors. Now, deep configuration and rich features custom keyboards offer can be configured easily instead of becoming another project. On the other hand, users who enjoy in-the-editor programming, product development, design, or any other roll your solution will similarly love the Blok. Shipping with KMK and CircuitPython out of the box, Blok’s offer enthusiasts and creators a modern development environment limited only by your imagination instead of programming knowledge and hardware constraints. Create your entire keymap in Python within a single main.py file and test your changes instantly, no recompiling necessary. Remember, if this isn’t your thing — Peg can handle it for you.</p>
+
+<p>Built on top of a powerful RP2040 ARM microprocessor and designed with the future in mind, Blok’s handle whatever you throw at them. Compared to older ATmega based controllers Blok’s have an incredible 100x the RAM, 8x the computing speed, 500x the ROM, are 32 bit instead of 8 bit, and are dual-core instead of single core. These are huge upgrades and allows for innovation and development within the custom keyboard space. Blok’s offer additional features and functionality compared to other RP2040 based controllers as well, such as OLED screen compatibility, innovative reset/boot switches accessible in any controller orientation, and a programmable RGB LED on-board.</p>
+
+<p><strong>Specifications</strong></p>
+<ul>
+  <li>RP2040 Controller</li>
+  <li>Dual core</li>
+  <li>16MB ROM</li>
+  <li>133 MHz</li>
+  <li>32 bit processor</li>
+  <li>264kb RAM</li>
+  <li>Height: 3.2mm (Height of USB C Port)</li>
+  <li>USB Type-C</li>
+</ul>
+
+<p><strong>Features</strong></p>
+<ul>
+  <li>Compatible With All Pro Micro Footprints.</li>
+  <li>Durable USB-C Port</li>
+  <li>On-board Reset and Boot switch in accessible locations.</li>
+  <li>Programmable RGB LED</li>
+  <li>Extremely low profile</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://boardsource.xyz/store/628b95b494dfa308a6581622">Boardsource</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/boardsource_blok/</guid>
+  </item><item>
     <title>BPI-Bit-S2</title>
     <link>https://circuitpython.org/board/bpi_bit_s2/</link>
     <description><![CDATA[   
@@ -4536,6 +4727,28 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
     <category>CircuitPython</category>
     <pubDate>Wed, 25 May 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/cytron_maker_zero_samd21/</guid>
+  </item><item>
+    <title>Datalore-IP-M4</title>
+    <link>https://circuitpython.org/board/datalore_ip_m4/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/datalore_ip_m4.jpg 300w,
+               /assets/images/boards/large/datalore_ip_m4.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/datalore_ip_m4.jpg" alt="Image of Board" loading="lazy">
+<p>By TG-Techie</p> <p>Datalore IP M4 is an integrable CircuitPython ready module for soldering onto projects. Like
+<a href="/board/metro_m4_express/">Adafruit’s Metro M4</a> squeezed into 1 square inch.</p>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://twitter.com/tg_techie/status/1143972797691191297">Twitter</a></li>
+  <li><a href="https://github.com/TG-Techie/Datalore-IP-M4">GitHub</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 05 Apr 2019 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/datalore_ip_m4/</guid>
   </item><item>
     <title>datum-Distance</title>
     <link>https://circuitpython.org/board/datum_distance/</link>
@@ -8575,6 +8788,80 @@ o   o        o   o
     <pubDate>Sat, 13 Feb 2021 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/lilygo_ttgo_t8_s2_st7789/</guid>
   </item><item>
+    <title>TTGO T-Display ESP32 16M</title>
+    <link>https://circuitpython.org/board/lilygo_ttgo_tdisplay_esp32_16m/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lilygo_ttgo_tdisplay_esp32_16m.jpg 300w,
+               /assets/images/boards/large/lilygo_ttgo_tdisplay_esp32_16m.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lilygo_ttgo_tdisplay_esp32_16m.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <p>A basic development board with LCD, and a built-in ESP32 chip as master control, supports daily entry-level programming.</p>
+
+<p><strong>Specifications:</strong></p>
+<ul>
+  <li>ESP32 Xtensa dual-core LX6 microprocessor</li>
+  <li>Wi-Fi 802.11 b/ g/ n, BL V4.2+BLE</li>
+  <li>CH9102 Serial Chip</li>
+  <li>16M Flash</li>
+  <li>l006+I007 Buttons</li>
+  <li>battery power detection</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board?variant=42159376466101">LILYGO store</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 03 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_ttgo_tdisplay_esp32_16m/</guid>
+  </item><item>
+    <title>T-Watch 2020 V3</title>
+    <link>https://circuitpython.org/board/lilygo_twatch_2020_v3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lilygo_twatch_2020_v3.jpg 300w,
+               /assets/images/boards/large/lilygo_twatch_2020_v3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lilygo_twatch_2020_v3.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <p>LILYGO T-Watch 2020 V3 is based on the hardware function of T-WATCH-2020 and adds the PDM microphone function, which makes the product functions richer and more interesting. The MAX98357 I2S speaker is connected to the cloud and can be used to make intelligent voice control.</p>
+
+<p>T-WATCH-2020 is based on a design concept that can be programmed, can be worn, can be networked, and can be interactive. Integrated ESP32 with WIFI/Bluetooth, easy to program and develop, and more convenient to connect to the Internet.</p>
+
+<p>2D IPS 1.54-inch watch capacitive touch screen using OCA process, zinc alloy metal process frame, making the device structure more robust and beautiful. Suitable for wearable use, The sensitive capacitive touch screen makes human-computer interaction smoother.</p>
+
+<p><strong>Specifications</strong></p>
+
+<ul>
+  <li>ESP32-D0WDQ6-V3 Chip WiFi / Bluetooth</li>
+  <li>FLASH 16MB</li>
+  <li>SRAM 520 kB SRAM / PSRAM 8MB</li>
+  <li>Custom function power button (6S / off) (/ 2S / on)</li>
+  <li>OCA process of 1.54 inch IPS 2D arc capacitive touch screen</li>
+  <li>Step algorithm function of BMA423 three-axis accelerometer</li>
+  <li>AXP202 PMU</li>
+  <li>PCF853 RTC chip</li>
+  <li>MAX98357 I2S amplifier chip</li>
+  <li>8ʊ @ 1W speaker</li>
+  <li>Vibrating motor</li>
+  <li>Infrared signal transmitter</li>
+  <li>PDM microphone added to t-watch-2020 V3</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.lilygo.cc/products/t-watch-2020-v3">LILYGO Store</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 03 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_twatch_2020_v3/</guid>
+  </item><item>
     <title>LOLIN C3 Mini</title>
     <link>https://circuitpython.org/board/lolin_c3_mini/</link>
     <description><![CDATA[   
@@ -9116,6 +9403,53 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <category>CircuitPython</category>
     <pubDate>Tue, 04 Apr 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_atoms3_lite/</guid>
+  </item><item>
+    <title>Core2 ESP32 IoT</title>
+    <link>https://circuitpython.org/board/m5stack_core2/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_core2.jpg 300w,
+               /assets/images/boards/large/m5stack_core2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_core2.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p><strong>M5Core2</strong> is the second generation core device in the M5Stack development kit series, which further enhances the functions of the original generation of cores.</p>
+
+<p>The MCU is an <a href="https://en.wikipedia.org/wiki/ESP32">ESP32 </a>model D0WDQ6-V3 and has dual core Xtensa® 32-bit 240Mhz LX6 processors that can be controlled separately. Wi-Fi are supported as standard and it includes an on board 16MB Flash and 8MB PSRAM, USB TYPE-C interface for charging, downloading of programs and serial communication, a 2.0-inch integrated capacitive touch screen, and a built-in vibration motor.</p>
+
+<p>M5Core2 also features a built-in RTC module which can provide accurate timing. The power supply is managed by an AXP192 power management chip, which can effectively control the power consumption of the base and a built-in green LED power indicator helps to notify the user of battery level. The battery capacity has been upgraded to 390mAh, which can power the core for much longer than the previous model.</p>
+
+<p>The M5Core2 retains the TF-card(microSD) slot and speakers. However, in order to ensure higher quality sound output, the I2S digital audio interface power amplifier chip is used to effectively prevent signal distortion. There are independent power and reset buttons on the left side and bottom of the base.</p>
+
+<p>The 3 icons on the front of the screen are capacitive buttons which are programmable. There is a small expansion board on the back of the base with a 6-axis IMU sensor and microphone. The development platform and programming language supported by M5Stack Core2: Arduino, <a href="http://flow.m5stack.com/">UIFlow </a>(using Blockly, MicroPython language) No matter what level of your development and programming skills, M5Stack will help You gradually turn your ideas into reality.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32-based, built-in Bluetooth/Wi-Fi</li>
+  <li>16M Flash,8M PSRAM</li>
+  <li>Built-in speaker, power indicator, vibration motor, RTC, I2S amplifier, capacitive touch screen, power button, reset button</li>
+  <li>TF card slot (16G Maximum size)</li>
+  <li>Built-in lithium battery, equipped with power management chip</li>
+  <li>Independent small board built-in 6-axis IMU, PDM microphone</li>
+  <li>M-Bus Socket &amp; Pins</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/core2">Basic Core IoT</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 04 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_core2/</guid>
   </item><item>
     <title>ESP32 Basic Core IoT</title>
     <link>https://circuitpython.org/board/m5stack_core_basic/</link>
@@ -10275,7 +10609,7 @@ Gaze upon these features:</p>
     <pubDate>Tue, 15 Sep 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/muselab_nanoesp32_s2_wrover/</guid>
   </item><item>
-    <title>Ndbit6</title>
+    <title>FeatherSnow</title>
     <link>https://circuitpython.org/board/ndgarage_ndbit6/</link>
     <description><![CDATA[   
   
@@ -10284,11 +10618,44 @@ Gaze upon these features:</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/ndgarage_ndbit6.jpg" alt="Image of Board" loading="lazy">
-<p>By n°Garage</p> 
+<p>By n°Garage</p> <p>FeatherSnow is a decoration easy to program. It works out of the box.</p>
+
+<p>FeatherSnow is powered by a SAMD21 from Microchip. There are 18 white LEDs that can be controlled independently. With a native USB and a built-in regulator, FeatherSnow comes with a UF2 bootloader and a small CircuitPython runtime. The SWD header is populated. FeatherSnow works with CircuitPython, Arduino and even C code.</p>
+
+<p>This project is inspired by Jiří Praus’ Arduinoflake and LuckyResistor’s SnowFlakeProject.</p>
+
+<p>Kudos to Adafruit for USB PID and easy CircuitPython.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://hackaday.io/project/168684-feathersnow">Hackaday.io</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Wed, 05 Feb 2020 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/ndgarage_ndbit6/</guid>
+  </item><item>
+    <title>FeatherSnow V2</title>
+    <link>https://circuitpython.org/board/ndgarage_ndbit6_v2/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/ndgarage_ndbit6_v2.jpg 300w,
+               /assets/images/boards/large/ndgarage_ndbit6_v2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/ndgarage_ndbit6_v2.jpg" alt="Image of Board" loading="lazy">
+<p>By n°Garage</p> <p>FeatherSnow v2 is a decoration easy to program. FeatherSnow is powered by a SAMD21 from Microchip. There are 19 white LEDs that can be controlled independently. With a native USB and a built-in regulator, FeatherSnow comes with a UF2 bootloader and a small CircuitPython runtime. FeatherSnow works with CircuitPython, and Arduino. One small addition is one accelerometer of BMA253.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://hackaday.io/project/173537-feathersnow-v2">Hackaday.io</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 01 Sep 2020 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/ndgarage_ndbit6_v2/</guid>
   </item><item>
     <title>Neo Trinkey - SAMD21</title>
     <link>https://circuitpython.org/board/neopixel_trinkey_m0/</link>
@@ -15924,6 +16291,54 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
     <pubDate>Mon, 16 Dec 2019 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/xinabox_cs11/</guid>
   </item><item>
+    <title>YD-ESP32-S3 N16R8</title>
+    <link>https://circuitpython.org/board/yd_esp32_s3_n16r8/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/yd_esp32_s3.jpg 300w,
+               /assets/images/boards/large/yd_esp32_s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/yd_esp32_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By VCC-GND Studio</p> <p>The YD-ESP32-S3 core board is designed by VCC-GND Studio. If necessary, you can visit www.vcc-gnd.com for purchase. The device uses the ESP32-S3 chip, which can be used for the test prototype of the Internet of Things application and can also be used for practical applications. It is equipped with two USBs, one is a hardware USB-to-serial port (CH343P WCH Qinheng), and the other is ESP32-S3 usb port.</p>
+
+<p>YD-ESP32-S3 is an entry-level development board equipped with Wi-Fi + Bluetooth® LE module ESP32-S3-WROOM-1.</p>
+
+<p>Most of the pins of the modules on the board have been led out to the pin rows on both sides of the development board. Developers can easily connect various peripheral devices through jumpers according to actual needs, or plug the development board into a breadboard for use.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982306">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 03 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/yd_esp32_s3_n16r8/</guid>
+  </item><item>
+    <title>YD-ESP32-S3 N8R8</title>
+    <link>https://circuitpython.org/board/yd_esp32_s3_n8r8/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/yd_esp32_s3.jpg 300w,
+               /assets/images/boards/large/yd_esp32_s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/yd_esp32_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By VCC-GND Studio</p> <p>The YD-ESP32-S3 core board is designed by VCC-GND Studio. If necessary, you can visit www.vcc-gnd.com for purchase. The device uses the ESP32-S3 chip, which can be used for the test prototype of the Internet of Things application and can also be used for practical applications. It is equipped with two USBs, one is a hardware USB-to-serial port (CH343P WCH Qinheng), and the other is ESP32-S3 usb port.</p>
+
+<p>YD-ESP32-S3 is an entry-level development board equipped with Wi-Fi + Bluetooth® LE module ESP32-S3-WROOM-1.</p>
+
+<p>Most of the pins of the modules on the board have been led out to the pin rows on both sides of the development board. Developers can easily connect various peripheral devices through jumpers according to actual needs, or plug the development board into a breadboard for use.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982305">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 03 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/yd_esp32_s3_n8r8/</guid>
+  </item><item>
     <title>RP2.65-F</title>
     <link>https://circuitpython.org/board/zrichard_rp2.65-f/</link>
     <description><![CDATA[   
@@ -16079,6 +16494,271 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
       <category>Blinka</category>
       <pubDate>Mon, 06 Dec 2021 00:00:00 -0500</pubDate>
       <guid>https://circuitpython.org/blinka/adafruit_feather_rp2040/</guid>
+    </item>
+
+    <item>
+      <title>Feather RP2040 CAN Bus</title>
+      <link>https://circuitpython.org/blinka/adafruit_feather_rp2040_can/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_can.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040_can.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_rp2040_can.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>If you’d like quickly get started with CAN bus interfacing, with no soldering required, our <strong>Adafruit RP2040 CAN Bus Feather</strong> comes ready-to-rock with a microcontroller, CAN chipset and terminal blocks for instant gratification. <a href="https://www.microchip.com/en-us/product/MCP2515">The controller used is the MCP26525 (aka a MCP2515 with built-in transciever), an extremely popular and well-supported chipset</a> that has drivers in Arduino and <a href="https://github.com/adafruit/Adafruit_CircuitPython_MCP2515">CircuitPython</a> and only requires an SPI port and two pins for chip-select and IRQ. Use it to send and receive messages in either standard or extended format at up to 1 Mbps.</p>
+
+<p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. <a href="https://www.adafruit.com/feather">We have other boards in the Feather family, check’em out here</a>.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/CAN_bus">CAN Bus is a small-scale networking standard</a>, originally designed for cars and, yes, busses, but is now used for many robotics or sensor networks that need better range and addressing than I2C and don’t have the pins or computational ability to talk on Ethernet. CAN is 2 wire differential, which means it’s good for long distances and noisy environments.</p>
+
+<p>Messages are sent at about 1Mbps rate - you set the frequency for the bus and then all ‘joiners’ must match it, and have an address before the packet so that each node can listen in to messages just for it. New nodes can be attached easily because they just need to connect to the two data lines anywhere in the shared net. Each CAN device sends messages whenever it wants, and thanks to some clever data encoding, can detect if there’s a message collision and retransmit later.</p>
+
+<p>We’ve added a few nice extras to this Feather to make it useful in many common CAN scenarios:</p>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/3661"><strong>5V charge-pump voltage generator</strong></a>, so even though you are running 3.3V on a Feather board, it will generate a nice clean 5V as required by the interal transceiver.</li>
+  <li><strong><a href="https://www.adafruit.com/product/725">3.5mm soldered terminal block</a></strong> quick access to the High and Low data lines as well as a ground pin, without any soldering.</li>
+  <li><strong>120-ohm termination resistor on board</strong>, you can remove the termination easily by cutting the jumper marked TERM on the top of the board.</li>
+  <li><strong>CAN control CS, Reset, Int, standby pins</strong> connected internally so you can use any FeatherWing without pin conflicts.</li>
+</ul>
+
+<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the <a href="https://www.adafruit.com/product/4864">Raspberry Pi Pico</a>. This chip has a whopping 8 MB of onboard QSPI FLASH and 264K of RAM! There’s even room left over for a STEMMA QT connector for plug-and-play of I2C devices.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available.</p>
+
+<p><strong>Here’re some handy specs! You get:</strong></p>
+
+<ul>
+  <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - 6.3 grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li><strong>8 MB SPI FLASH</strong> chip for storing files, images and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:
+    <ul>
+      <li><strong>Four</strong> 12-bit ADCs (one more than Pico)</li>
+      <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+    </ul>
+  </li>
+  <li><strong>Built-in 200mA+ lipoly charger</strong> with charging status indicator LED</li>
+  <li><strong>Pin #13 red LED</strong> for general purpose blinking</li>
+  <li><strong>RGB NeoPixel</strong> for full-color indication.</li>
+  <li>On-board <strong>STEMMA QT connector</strong> that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li><strong>Both Reset button and Bootloader select button for quick restarts</strong> (no unplugging-replugging to relaunch code)</li>
+  <li><strong>USB Type C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3V regulator with 500mA peak current output and power enable pin</li>
+  <li>4 mounting holes</li>
+  <li>12 MHz crystal for perfect timing.</li>
+  <li><strong>Support circuitry for CAN Bus using SPI interface</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5724">Adafruit</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Tue, 02 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_feather_rp2040_can/</guid>
+    </item>
+
+    <item>
+      <title>Feather RP2040 RFM9x</title>
+      <link>https://circuitpython.org/blinka/adafruit_feather_rp2040_rfm/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_rfm9x.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040_rfm9x.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_rp2040_rfm9x.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>This is the Adafruit Feather RP2040 RFM9x. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It’s an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.</p>
+
+<p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check’em out here.</p>
+
+<p>It’s kinda like we took our RP2040 Feather and an RFM9x breakout board and glued them together. You get all the pins for use on the Feather, the LiPoly battery support, USB C power / data, onboard NeoPixel, 8MB of FLASH for storing code and files, and then with the 8 unused pins, we wired up all the DIO pins on the RFM module. There’s even room left over for a STEMMA QT connector and a uFL connector for connecting larger antennas.</p>
+
+<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the Raspberry Pi Pico. This chip has a whopping 8MB of onboard QSPI FLASH and 264K of RAM! This makes it great for making wireless sensor nodes that can send to each other without a lot of software configuration.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available.</p>
+
+<h2 id="technical-details">Technical Details</h2>
+
+<ul>
+  <li>Measures approximately 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - approximately 6 grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li>8 MB SPI FLASH chip for storing files and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:</li>
+  <li>Four 12-bit ADCs (one more than Pico)</li>
+  <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+  <li>16 x PWM outputs - for servos, LEDs, etc</li>
+  <li>Built-in 200mA+ lipoly charger with charging status indicator LED</li>
+  <li>Pin #13 red LED for general purpose blinking</li>
+  <li>RGB NeoPixel for full-color indication.</li>
+  <li>On-board STEMMA QT connector that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li>Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)</li>
+  <li>USB Type C connector lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3V Power/enable pin</li>
+  <li>4 mounting holes</li>
+  <li>12 MHz crystal for perfect timing.</li>
+  <li>3.3V regulator with 500mA peak current output</li>
+  <li>SX127x LoRa® based module with SPI interface</li>
+  <li>Packet radio with ready-to-go Arduino libraries</li>
+  <li>Uses the license-free ISM bands (ITU “Europe” @ 433MHz and ITU “Americas” @ 900MHz)</li>
+  <li>+5 to +20 dBm up to 100 mW Power Output Capability (power output selectable in software)</li>
+  <li>~300uA during full sleep, ~120mA peak during +20dBm transmit, ~40mA during active radio listening.</li>
+  <li>Simple wire antenna can be soldered into a solder pad, there’s also a uFL connector that can be used with uFL-to-SMA adapters for attaching bigger antennas.</li>
+</ul>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<ul>
+  <li>Guide is coming soon!</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5714">Adafruit</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_feather_rp2040_rfm/</guid>
+    </item>
+
+    <item>
+      <title>Feather RP2040 RFM69</title>
+      <link>https://circuitpython.org/blinka/adafruit_feather_rp2040_rfm69/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_rfm69.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040_rfm69.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_rp2040_rfm69.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>This is the Adafruit Feather RP2040 RFM69. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It’s an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.</p>
+
+<p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check’em out here.</p>
+
+<p>It’s kinda like we took our RP2040 Feather and an RFM69 breakout board and glued them together. You get all the pins for use on the Feather, the LiPoly battery support, USB C power / data, onboard NeoPixel, 8MB of FLASH for storing code and files, and then with the 8 unused pins, we wired up all the DIO pins on the RFM module. There’s even room left over for a STEMMA QT connector and a uFL connector for connecting larger antennas.</p>
+
+<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the Raspberry Pi Pico. This chip has a whopping 8MB of onboard QSPI FLASH and 264K of RAM! This makes it great for making wireless sensor nodes that can send to each other without a lot of software configuration.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available.</p>
+
+<h2 id="technical-details">Technical Details</h2>
+<ul>
+  <li>Measures approximately 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - approximately 6 grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li>8 MB SPI FLASH chip for storing files and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:</li>
+  <li>Four 12-bit ADCs (one more than Pico)</li>
+  <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+  <li>16 x PWM outputs - for servos, LEDs, etc</li>
+  <li>Built-in 200mA+ lipoly charger with charging status indicator LED</li>
+  <li>Pin #13 red LED for general purpose blinking</li>
+  <li>RGB NeoPixel for full-color indication.</li>
+  <li>On-board STEMMA QT connector that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li>Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)</li>
+  <li>USB Type C connector lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3V Power/enable pin</li>
+  <li>4 mounting holes</li>
+  <li>12 MHz crystal for perfect timing.</li>
+  <li>3.3V regulator with 500mA peak current output</li>
+  <li>SX1231 based module with SPI interface</li>
+  <li>+13 to +20 dBm up to 100 mW Power Output Capability (power output selectable in software)</li>
+  <li>50mA (+13 dBm) to 150mA (+20dBm) current draw for transmissions, ~30mA during active radio listening.</li>
+  <li>Range of approx. 500 meters, depending on obstructions, frequency, antenna and power output</li>
+  <li>Create multipoint networks with individual node addresses</li>
+  <li>Encrypted packet engine with AES-128</li>
+  <li>Packet radio with ready-to-go Arduino &amp; CircuitPython libraries</li>
+  <li>Uses the license-free ISM band: “European ISM” @ 868MHz or “American ISM” @ 915MHz</li>
+  <li>Simple wire antenna can be soldered into a solder pad, there’s also a uFL connector that can be used with uFL-to-SMA adapters for attaching bigger antennas.</li>
+</ul>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<ul>
+  <li>Guide is coming soon!</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5712">Adafruit</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_feather_rp2040_rfm69/</guid>
+    </item>
+
+    <item>
+      <title>Feather RP2040 ThinkInk</title>
+      <link>https://circuitpython.org/blinka/adafruit_feather_rp2040_thinkink/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_thinkink.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040_thinkink.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_rp2040_thinkink.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that’s designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you’ve seen one of those new-fangled ‘e-readers’ like the Kindle or Nook. They have gigantic electronic paper ‘static’ displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!</p>
+
+<p>We’ve liked these displays for a long time, and we’ve got Arduino/CircuitPython drivers for tons of the various display chipsets, so wouldn’t an e-paper RP2040 Feather make a ton of sense? Luckily for us, just about every small-medium size EInk display made these days has a standard 24-pin connection. This Feather will add all the power supply support circuitry and level shifting so you can attach your favorite display - we’ve tested it with up to 5.6” sized 7-color ACeP displays.</p>
+
+<p>Since all ePaper displays with the 24-pin interface require you to buffer the layers of data and write them all out at once over SPI, the RP2040 chip is an excellent driver. It has 264K of internal SRAM so even with the largest displays, there’s plenty of memory to store all the image data plus run your own code. We also put the display on it’s own SPI port so that the Feather’s main SPI port can be used for other peripheral devices.</p>
+
+<p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check’em out here.</p>
+
+<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the Raspberry Pi Pico. This chip has a whopping MB of onboard QSPI FLASH and 264K of RAM!  There’s even room left over for a STEMMA QT connector for plug-and-play of I2C devices.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available. While the RP2040 is not designed for low power usage - you can get down to about 1.5mA of power draw in sleep mode.</p>
+
+<p>Here’re some handy specs! You get:</p>
+
+<ul>
+  <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - 6.3 grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li>8 MB SPI FLASH chip for storing files, images and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:
+    <ul>
+      <li>Four 12-bit ADCs (one more than Pico)</li>
+      <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+    </ul>
+  </li>
+  <li>Built-in 200mA+ lipoly charger with charging status indicator LED</li>
+  <li>Pin #13 red LED for general purpose blinking</li>
+  <li>RGB NeoPixel for full-color indication.</li>
+  <li>On-board STEMMA QT connector that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li>Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)</li>
+  <li>USB Type C connector lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3V regulator with 500mA peak current output and power enable pin</li>
+  <li>4 mounting holes</li>
+  <li>12 MHz crystal for perfect timing.</li>
+  <li>Support circuitry for common 24-pin e-Paper/e-Ink displays. These tend to be 1.54” to 7” diagonal and designed for ‘smart labels’. No soldering required, simply plug in the display to the FPC connector on the end and load up your code. Not for use with the larger resolution displays on e-Readers like Kindles. Those use a different interface!</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5727">Adafruit</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Tue, 02 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_feather_rp2040_thinkink/</guid>
     </item>
 
     <item>
@@ -16690,6 +17370,46 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
       <category>Blinka</category>
       <pubDate>Wed, 25 Mar 2020 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/beaglebone_black_wireless/</guid>
+    </item>
+
+    <item>
+      <title>BeagleBone Blue</title>
+      <link>https://circuitpython.org/blinka/beaglebone_blue/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/beaglebone_blue.jpg 300w,
+               /assets/images/boards/large/beaglebone_blue.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/beaglebone_blue.jpg" alt="Image of Board" loading="lazy">
+<p>By BeagleBoard</p> <p>BeagleBone® Blue is an all-in-one Linux-based computer for robotics, integrating onto a single small (3.5” x 2.15”) board the Octavo OSD3358 microprocessor together with wifi/bluetooth, IMU/barometer, power regulation and state-of-charge LEDs for a 2-cell LiPo, H-Bridges, and discrete connectors for 4 DC motors+encoders, 8 servos, and all of the commonly-needed buses for additional peripherals in embedded applications. Fully open source and actively supported by a strong community, the real-time performance, flexible networking, and rich set of robotics-oriented capabilities make building mobile robots with the Blue fast, streamlined, affordable, and fun.</p>
+
+<ul>
+  <li>AM335x 1GHz ARM® Cortex-A8 processor</li>
+  <li>512MB DDR3 RAM</li>
+  <li>4GB 8-bit eMMC flash storage</li>
+  <li>Integrated power management</li>
+  <li>2×32-bit 200-MHz programmable real-time units (PRUs)</li>
+  <li>NEON floating-point accelerator</li>
+  <li>ARM Cortex-M3</li>
+  <li>USB2 client for power &amp; communications, USB2 host</li>
+  <li>Battery support: 2-cell LiPo with balancing, LED state-of-charge monitor</li>
+  <li>Charger input: 9-18V</li>
+  <li>Wireless: 802.11bgn, Bluetooth 4.1 and BLE</li>
+  <li>Motor control: 8 6V servo out, 4 bidirectional DC motor out, 4 quadrature encoder in</li>
+  <li>Sensors: 9 axis IMU (accels, gyros, magnetometer), barometer, thermometer</li>
+  <li>User interface: 11 user programmable LEDs, 2 user programmable buttons</li>
+  <li>Easy connect JST interfaces for adding additional buses and peripherals including: GPS, DSM2 radio, UARTs, SPI, I2C, 1.8V analog, 3.3V GPIOs</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.newark.com/beagleboard/bbone-blue/beaglebone-blue-robotics-platform/dp/95Y0640">Newark</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Thu, 04 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/beaglebone_blue/</guid>
     </item>
 
     <item>

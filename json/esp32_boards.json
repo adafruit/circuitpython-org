@@ -95,6 +95,17 @@
             }
         ]
     },
+    "yd_esp32_s3_n16r8": {
+        "name": "YD-ESP32-S3 N16R8",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "8.1.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yd_esp32_s3_n16r8/en_US/adafruit-circuitpython-yd_esp32_s3_n16r8-en_US-8.1.0-beta.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yd_esp32_s3_n16r8/en_US/adafruit-circuitpython-yd_esp32_s3_n16r8-en_US-8.1.0-beta.2.uf2"
+            }
+        ]
+    },
     "microdev_micro_c3": {
         "name": "MicroDev microC3",
         "chipfamily": "esp32c3",
@@ -247,6 +258,16 @@
                 "version": "8.1.0-beta.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/ai_thinker_esp_12k_nodemcu/en_US/adafruit-circuitpython-ai_thinker_esp_12k_nodemcu-en_US-8.1.0-beta.2.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/ai_thinker_esp_12k_nodemcu/en_US/adafruit-circuitpython-ai_thinker_esp_12k_nodemcu-en_US-8.1.0-beta.2.uf2"
+            }
+        ]
+    },
+    "m5stack_core2": {
+        "name": "Core2 ESP32 IoT",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "8.1.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_core2/en_US/adafruit-circuitpython-m5stack_core2-en_US-8.1.0-beta.2.bin"
             }
         ]
     },
@@ -749,6 +770,17 @@
             }
         ]
     },
+    "yd_esp32_s3_n8r8": {
+        "name": "YD-ESP32-S3 N8R8",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "8.1.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yd_esp32_s3_n8r8/en_US/adafruit-circuitpython-yd_esp32_s3_n8r8-en_US-8.1.0-beta.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yd_esp32_s3_n8r8/en_US/adafruit-circuitpython-yd_esp32_s3_n8r8-en_US-8.1.0-beta.2.uf2"
+            }
+        ]
+    },
     "luatos_core_esp32c3": {
         "name": "Luatos Core ESP32C3",
         "chipfamily": "esp32c3",
@@ -997,6 +1029,16 @@
             }
         ]
     },
+    "01space_lcd042_esp32c3": {
+        "name": "ESP32-C3-0.42LCD",
+        "chipfamily": "esp32c3",
+        "releases": [
+            {
+                "version": "8.1.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/01space_lcd042_esp32c3/en_US/adafruit-circuitpython-01space_lcd042_esp32c3-en_US-8.1.0-beta.2.bin"
+            }
+        ]
+    },
     "adafruit_qtpy_esp32s2": {
         "name": "Adafruit QT Py ESP32-S2 (including uFL version)",
         "chipfamily": "esp32s2",
@@ -1198,6 +1240,16 @@
             {
                 "version": "8.1.0-beta.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/adafruit_qtpy_esp32_pico/en_US/adafruit-circuitpython-adafruit_qtpy_esp32_pico-en_US-8.1.0-beta.2.bin"
+            }
+        ]
+    },
+    "lilygo_twatch_2020_v3": {
+        "name": "T-Watch 2020 V3",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "8.1.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_twatch_2020_v3/en_US/adafruit-circuitpython-lilygo_twatch_2020_v3-en_US-8.1.0-beta.2.bin"
             }
         ]
     },
@@ -1469,6 +1521,16 @@
             {
                 "version": "8.1.0-beta.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_tinypico/en_US/adafruit-circuitpython-unexpectedmaker_tinypico-en_US-8.1.0-beta.2.bin"
+            }
+        ]
+    },
+    "lilygo_ttgo_tdisplay_esp32_16m": {
+        "name": "TTGO T-Display ESP32 16M",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "8.1.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_ttgo_tdisplay_esp32_16m/en_US/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_US-8.1.0-beta.2.bin"
             }
         ]
     },

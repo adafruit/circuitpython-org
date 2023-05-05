@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-7723544-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-7723544-8');
+</script>
+
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>TTGO T-Display ESP32 16M Download</title>
+<meta name="description" content="A basic development board with LCD, and a built-in ESP32 chip as master control, supports daily entry-level programming.Specifications:  ESP32 Xtensa dual-co..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/lilygo_ttgo_tdisplay_esp32_16m/" />
+
+<meta property="og:title"   content="CircuitPython - TTGO T-Display ESP32 16M Download" />
+
+
+
+<meta property="og:description" content="A basic development board with LCD, and a built-in ESP32 chip as master control, supports daily entry-level programming.Specifications:  ESP32 Xtensa dual-core LX6 microprocessor  Wi-Fi 802.11 b/ g/ n, BL V4.2+BLE  CH9102 Serial Chip  16M Flash  l006+I007 Buttons  battery power detectionPurchase ..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/lilygo_ttgo_tdisplay_esp32_16m.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/lilygo_ttgo_tdisplay_esp32_16m/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://docs.circuitpython.org/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>TTGO T-Display ESP32 16M</h1>
+  <h3>by LILYGO</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        <img src="/assets/images/boards/large/lilygo_ttgo_tdisplay_esp32_16m.jpg" alt="Image of Board">
+        <p>
+          <p>A basic development board with LCD, and a built-in ESP32 chip as master control, supports daily entry-level programming.</p>
+
+<p><strong>Specifications:</strong></p>
+<ul>
+  <li>ESP32 Xtensa dual-core LX6 microprocessor</li>
+  <li>Wi-Fi 802.11 b/ g/ n, BL V4.2+BLE</li>
+  <li>CH9102 Serial Chip</li>
+  <li>16M Flash</li>
+  <li>l006+I007 Buttons</li>
+  <li>battery power detection</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board?variant=42159376466101">LILYGO store</a></li>
+</ul>
+
+        </p>
+        <h2>Contribute</h2>
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/lilygo_ttgo_tdisplay_esp32_16m.md">here</a>.</p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  <div class="section unstable">
+    <h3>CircuitPython 8.1.0-beta.2</h3>
+    
+    <p>
+      This is the latest development release of CircuitPython that will work with the TTGO T-Display ESP32 16M.
+    </p>
+    <p>
+      <strong>Alpha</strong> development releases are early releases.
+      They are unfinished, are likely to have bugs, and the features they provide may change.
+      <strong>Beta</strong> releases may have some bugs and unfinished features,
+      but should be suitable for many uses.
+      A <strong>Release Candidate (rc)</strong> release is considered done and
+      will become the next stable release, assuming no further issues are found.
+    </p>
+    <p>
+      Please try alpha, beta, and rc releases if you are able.
+      Your testing is invaluable: it helps us uncover and find issues quickly.
+    </p>
+    
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/8.1.0-beta.2">Release Notes for 8.1.0-beta.2</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/zh_Latn_pinyin/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-zh_Latn_pinyin-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/zh_Latn_pinyin/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-zh_Latn_pinyin-8.1.0-beta.2.bin"
+                    data-locale="zh-Latn-pinyin"
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/nl/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-nl-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/nl/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-nl-8.1.0-beta.2.bin"
+                    data-locale="nl"
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/en_GB/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_GB-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/en_GB/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_GB-8.1.0-beta.2.bin"
+                    data-locale="en-GB"
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/en_US/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_US-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/en_US/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_US-8.1.0-beta.2.bin"
+                    data-locale="en-US"
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/fil/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-fil-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/fil/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-fil-8.1.0-beta.2.bin"
+                    data-locale="fil"
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/fr/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-fr-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/fr/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-fr-8.1.0-beta.2.bin"
+                    data-locale="fr"
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/de_DE/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-de_DE-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/de_DE/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-de_DE-8.1.0-beta.2.bin"
+                    data-locale="de-DE"
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/ID/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-ID-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/ID/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-ID-8.1.0-beta.2.bin"
+                    data-locale="ID"
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/it_IT/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-it_IT-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/it_IT/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-it_IT-8.1.0-beta.2.bin"
+                    data-locale="it-IT"
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/ja/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-ja-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/ja/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-ja-8.1.0-beta.2.bin"
+                    data-locale="ja"
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/en_x_pirate/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_x_pirate-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/en_x_pirate/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_x_pirate-8.1.0-beta.2.bin"
+                    data-locale="en-x-pirate"
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/pl/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-pl-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/pl/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-pl-8.1.0-beta.2.bin"
+                    data-locale="pl"
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/pt_BR/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-pt_BR-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/pt_BR/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-pt_BR-8.1.0-beta.2.bin"
+                    data-locale="pt-BR"
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/ru/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-ru-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/ru/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-ru-8.1.0-beta.2.bin"
+                    data-locale="ru"
+                    >
+              RUSSIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/es/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-es-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/es/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-es-8.1.0-beta.2.bin"
+                    data-locale="es"
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/sv/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-sv-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/sv/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-sv-8.1.0-beta.2.bin"
+                    data-locale="sv"
+                    >
+              SWEDISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/tr/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-tr-8.1.0-beta.2.bin"
+                    data-files="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/tr/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-tr-8.1.0-beta.2.bin"
+                    data-locale="tr"
+                    >
+              TURKISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable bin" href="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/en_US/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_US-8.1.0-beta.2.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      
+        <button is="cp-install-button" class="installer-button" boardid="lilygo_ttgo_tdisplay_esp32_16m"
+        
+            binfile="https://downloads.circuitpython.org/bin/lilygo_ttgo_tdisplay_esp32_16m/en_US/adafruit-circuitpython-lilygo_ttgo_tdisplay_esp32_16m-en_US-8.1.0-beta.2.bin"
+        
+        version="8.1.0-beta.2"
+        >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">_asyncio, _pixelmap, adafruit_bus_device, adafruit_pixelbuf, aesio, alarm, analogbufio, analogio, array, atexit, audiobusio, audiocore, audiomixer, binascii, bitbangio, bitmaptools, board, builtins, busio, canio, collections, countio, digitalio, displayio, dualbank, errno, espidf, espnow, espulp, fontio, framebufferio, frequencyio, getpass, hashlib, i2ctarget, ipaddress, json, keypad, math, mdns, memorymap, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, ps2io, pulseio, pwmio, rainbowio, random, re, rotaryio, rtc, sdcardio, select, sharpdisplay, socketpool, ssl, storage, struct, supervisor, synthio, sys, terminalio, time, touchio, traceback, ulab, vectorio, watchdog, wifi, zlib</span>
+    </p>
+    
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language. The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. These releases are even newer than the development release listed above.
+    Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/lilygo_ttgo_tdisplay_esp32_16m/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Previous Versions of CircuitPython</h3>
+  <p>
+    All previous releases of CircuitPython are available for download from Amazon S3 through the button below.
+    For very old releases, look in the <strong>OLD/</strong> folder for each board.
+    Release notes for each release are available at GitHub button below.
+  </p>
+  <p>
+    Older releases are useful for testing if you something appears to be broken in a newer release
+    but used to work,
+    or if you have older code that depends on features only available in an older release.
+    Otherwise we recommend using the latest stable release.
+  </p>
+  <div class="previous-versions-buttons">
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/lilygo_ttgo_tdisplay_esp32_16m/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/gh/adafruit/web-firmware-installer-js@latest/dist/cpinstaller.min.js" type="module"></script>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+
+    <!-- Google Analytics -->
+    <!-- TODO -->
+    <!-- End Google Analytics -->
+
+  </body>
+
+</html>
