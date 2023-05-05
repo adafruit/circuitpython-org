@@ -27,4 +27,5 @@ HDMI connector, SD card slot, line level I2S audio and buttons.
 - [Schematic](https://cdn.shopify.com/s/files/1/0174/1800/files/pico_dv_schematic.pdf?v=1636985340)
 
 ## Purchase
+* [Adafruit](https://www.adafruit.com/product/5674)
 * [Pimoroni](https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base)
