@@ -3,7 +3,7 @@ layout: download
 board_id: "hexky_s2"
 title: "hexky_s2 Download"
 name: "hexky_s2"
-manufacturer: "unknown"
+manufacturer: "FutureKeys"
 board_url: ""
 board_image: "unknown.jpg"
 downloads_display: false

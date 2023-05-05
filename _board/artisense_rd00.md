@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "artisense_rd00"
-title: "artisense_rd00 Download"
-name: "artisense_rd00"
+title: "Artisense Reference Design RD00 Download"
+name: "Artisense Reference Design RD00"
 manufacturer: "Unknown"
 board_url: ""
 board_image: "unknown.jpg"

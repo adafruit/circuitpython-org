@@ -1,9 +1,9 @@
 ---
 layout: download
 board_id: "loc_ber_m4_base_board"
-title: "LoC BeR M4 base board Download"
-name: "LoC BeR M4 base board"
-manufacturer: "Unknown"
+title: "LoC BeR M4 Download"
+name: "LoC BeR M4"
+manufacturer: "Florin Trutiu"
 board_url: ""
 board_image: "unknown.jpg"
 downloads_display: false

@@ -1,20 +1,15 @@
 ---
 layout: download
-board_id: "adafruit_feather_rp2040_rfm9x"
-board_alias: "adafruit_feather_rp2040_rfm"
+board_id: "adafruit_feather_rp2040_rfm"
 title: "Feather RP2040 RFM9x Board Download"
 name: "Feather RP2040 RFM9x"
 manufacturer: "Adafruit"
 board_url: "https://www.adafruit.com/product/5714"
 board_image: "adafruit_feather_rp2040_rfm9x.jpg"
+blinka: true
 date_added: 2023-4-4
-family: raspberrypi
 features:
   - Feather-Compatible
-  - Battery Charging
-  - LoRa/Radio
-  - USB-C
-  - Breadboard-Friendly
   - STEMMA QT/QWIIC
 ---
 This is the Adafruit Feather RP2040 RFM9x. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It's an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.
