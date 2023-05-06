@@ -20,10 +20,10 @@ This isn’t just apowerful chip: it’s designed to help you bring every last d
 VCC-GND Studios' YD-RP2040 has the following improvements over the Raspberry Pi Pico:
 - Added PWR power LED
 - The USB interface was changed to type-C USB
-- Added reset button to facilitate reset operation and firmware update operation.
-- Added the USRkey user button（GPIO24).
-- Added RGB lights（GPIO23）
-- Change PICO's W25Q16 to W25Q32（4M）/W25Q64（8M）/W25Q128（16M）
+- Added reset button to facilitate reset operation and firmware update operation
+- Added the USRkey user button (GPIO24)
+- Added RGB lights (GPIO23)
+- Change PICO's W25Q16 to W25Q32 (4M) / W25Q64 (8M) / W25Q128 (16M)
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.us/item/3256803817805852.html)
