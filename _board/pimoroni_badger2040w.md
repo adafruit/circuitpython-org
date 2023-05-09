@@ -15,7 +15,6 @@ features:
   - Bluetooth/BTLE
   - Display
   - STEMMA QT/QWIIC
-  - USB-C
   - Wi-Fi
 ---
 
