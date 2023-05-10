@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 10 May 2023 16:56:44 -0400</lastBuildDate>
+<lastBuildDate>Wed, 10 May 2023 19:03:42 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -18194,6 +18194,65 @@ Enclosure</li>
     </item>
 
     <item>
+      <title>Jetson Orin NX AI Dev Kit</title>
+      <link>https://circuitpython.org/blinka/jetson_orin_nano/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/jetson_orin_nx.jpg 300w,
+               /assets/images/boards/large/jetson_orin_nx.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/jetson_orin_nx.jpg" alt="Image of Board" loading="lazy">
+<p>By NVIDIA</p> <p>NVIDIA Jetson Orin™ Nano Developer Kit is a compact edge AI board built with Jetson Orin™ Nano 8GB module which delivers up to 40TOPS AI performance and has a rich set of IOs including USB 3.2 Gen 2 ports, 2x M.2 Key M for SSD, pre-installed Wi-Fi module, and more.</p>
+
+<p>The NVIDIA Jetson Orin™ Nano Developer Kit sets a new standard for creating entry-level AI-powered robots, smart drones, and intelligent cameras. It also simplifies the process of starting with Jetson Orin Nano series modules. Compact design, lots of connectors, and up to 40 TOPS of AI performance make this the perfect developer kit to bring your AI concepts to life. With up to 80X the performance of Jetson Nano, it can run all modern AI models, including transformer and advanced robotics models.</p>
+
+<p>The developer kit comprises a Jetson Orin™ Nano 8GB module and a reference carrier board that can accommodate all Orin Nano and Orin NX modules. This provides the ideal platform for prototyping your next-gen edge-AI product. The Jetson Orin™ Nano 8GB module features an Ampere architecture GPU and a 6-core ARM CPU, enabling multiple concurrent AI application pipelines and high-performance inference. The carrier board boasts a wide array of connectors, including two camera connectors that can handle 2-lane and 4-lane cameras.</p>
+
+<p><strong>Features</strong></p>
+<ul>
+  <li>Excellent AI Performance for production: on-device processing with up to 40 TOPS AI performance with low power and low latency</li>
+  <li>Hand-size edge AI device: compact size at 100mm x79mm x 21mm, includes Jetson Orin™ Nano 8GB module, a heatsink with a fan and a power adapter.</li>
+  <li>Expandable with rich I/Os: USB 3.2 Gen 2 ports(4x), DP 1.2, M.2 key E with pre-installed Wi-Fi module, 2x M.2 Key M for SSD, microSD slot, 2x MIPI CSI-2 connectors, Gigabit Ethernet, 40-pin GPIO</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/42Ay4Xf">Amazon</a></li>
+  <li><a href="https://www.arrow.com/en/products/945-13766-0000-000/nvidia">Arrow</a></li>
+  <li><a href="https://www.seeedstudio.com/NVIDIAr-Jetson-Orintm-Nano-Developer-Kit-p-5617.html">Seeed Studio</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/jetson_orin_nano/</guid>
+    </item>
+
+    <item>
+      <title>Jetson Orin NX AI Dev Kit</title>
+      <link>https://circuitpython.org/blinka/jetson_orin_nx/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/jetson_orin_nx.jpg 300w,
+               /assets/images/boards/large/jetson_orin_nx.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/jetson_orin_nx.jpg" alt="Image of Board" loading="lazy">
+<p>By NVIDIA</p> <p>Based on <a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/">Jetson Orin NX Module</a>, with <a href="https://www.waveshare.com/jetson-xavier-nx-dev-kit.htm?sku=22452">JETSON-IO-BASE-B</a> base board, providing rich peripheral interfaces such as M.2, HDMI, USB, etc., which is more convenient for users to realize the product performance.</p>
+
+<p>This kit includes the Orin NX Module with options for 8GB/16GB memory, no built-in storage module, provides up to 70 TOPS/100 TOPS AI Performance. Comes with a Free 128 GB NVMe Solid State Drive, high-speed reading/writing, meet the needs of large AI project development.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/jetson-orin-nx-16g-dev-kit.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/jetson_orin_nx/</guid>
+    </item>
+
+    <item>
       <title>Jetson TX1</title>
       <link>https://circuitpython.org/blinka/jetson_tx1/</link>
       <description><![CDATA[   
@@ -18500,6 +18559,46 @@ Enclosure</li>
     </item>
 
     <item>
+      <title>ROC-RK3328-CC (Renegade)</title>
+      <link>https://circuitpython.org/blinka/libre_roc-rk3328-cc/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/libre_roc-rk3328-cc.jpg 300w,
+               /assets/images/boards/large/libre_roc-rk3328-cc.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/libre_roc-rk3328-cc.jpg" alt="Image of Board" loading="lazy">
+<p>By Libre Computer</p> <p>The ROC-RK3328-CC platform is built on the Rockchip RK3328 system-on-chip optimized for low cost, low power, and high performance IO. It features a high performance native USB 3.0 interface and Gigabit MAC. Libre Computer is one of the few Linux-based software and hardware solutions provider for this chip.</p>
+
+<p><strong>Product Features</strong></p>
+<ul>
+  <li>Form Factor Compatible with Raspberry Pi® 2/3 Model B/B+</li>
+  <li>Quad 64-bit Low Power Cores</li>
+  <li>Quad Core 3D GPU with OpenGL ES 2.0</li>
+  <li>Rockchip Multimedia Processor
+    <ul>
+      <li>H.265</li>
+      <li>H.264</li>
+      <li>VP9</li>
+    </ul>
+  </li>
+  <li>HDMI 2.0 with 4K HDR support</li>
+  <li>Up to 4GB DDR4</li>
+  <li>USB 3.0</li>
+  <li>Gigabit Ethernet MAC</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3NYdb3Y">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/libre_roc-rk3328-cc/</guid>
+    </item>
+
+    <item>
       <title>Lichee RV Dock D1</title>
       <link>https://circuitpython.org/blinka/lichee_rv_dock_d1/</link>
       <description><![CDATA[   
@@ -18526,6 +18625,168 @@ Enclosure</li>
     </item>
 
     <item>
+      <title>LubanCat1</title>
+      <link>https://circuitpython.org/blinka/lubancat1/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lubancat1.jpg 300w,
+               /assets/images/boards/large/lubancat1.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lubancat1.jpg" alt="Image of Board" loading="lazy">
+<p>By EmbedFire</p> <p><strong>Specifications</strong></p>
+<ul>
+  <li>5V@3A DC input, Type-C interface</li>
+  <li>RK3566 (quad-core Cortex-A55, 1.8GHz, Mali-G52)</li>
+  <li>1/2/4/8GB, LPDDR4/4x, 1056MHz</li>
+  <li>8/32/64/128GB eMMC</li>
+  <li>10/100/1000M adaptive Ethernet port*1</li>
+  <li>HDMI2.0 display interface</li>
+  <li>MIPI screen interface, can be plugged into Wildfire MIPI screen</li>
+  <li>Camera interface, can plug wildfire OV5648 camera</li>
+  <li>Type-A interface*1 (HOST)</li>
+  <li>The SIM card function needs to be used with a 4G module</li>
+  <li>Compatible with Raspberry Pi 40Pin interface, supports PWM, GPIO, I²C, SPI, UART functions</li>
+  <li>Default parameter 1500000-8-N-1</li>
+  <li>Support Micro SD (TF) card boot system, up to 128GB</li>
+  <li>Headphone output + microphone input 2 in 1 interface</li>
+  <li>MaskRom via; Recovery via;</li>
+  <li>Support infrared remote control function</li>
+  <li>Support RTC function</li>
+  <li>Support fan cooling</li>
+  <li>Type-A interface*3 (HOST);</li>
+  <li>Type-C interface *1 (OTG), for firmware burning interface, shared with the power interface</li>
+  <li>It can be used with full-height or half-height WIFI network card, 4G module or</li>
+  <li>Other Mini-PCIe interface modules use</li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/lubancat1/</guid>
+    </item>
+
+    <item>
+      <title>LubanCat1N</title>
+      <link>https://circuitpython.org/blinka/lubancat1n/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lubancat1n.jpg 300w,
+               /assets/images/boards/large/lubancat1n.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lubancat1n.jpg" alt="Image of Board" loading="lazy">
+<p>By EmbedFire</p> <p><strong>Specifications</strong></p>
+<ul>
+  <li>5V@3A DC input, Type-C interface</li>
+  <li>RK3566 (quad-core Cortex-A55, 1.8GHz, Mali-G52)</li>
+  <li>1/2/4/8GB, LPDDR4/4x, 1056MHz</li>
+  <li>8/32/64/128GB, eMMC</li>
+  <li>802.11ac dual-band wireless network card, up to 433Mbps; Bluetooth supports BT4.2 protocol</li>
+  <li>10/100/1000M adaptive Ethernet port*2</li>
+  <li>HDMI2.0 display interface</li>
+  <li>MIPI screen interface, can be plugged into Wildfire MIPI screen</li>
+  <li>Camera interface, can plug wildfire OV5648 camera</li>
+  <li>Type-A interface*1 (HOST)</li>
+  <li>Compatible with Raspberry Pi 40Pin interface, supports PWM, GPIO, I²C, SPI, UART functions</li>
+  <li>Default parameter 1500000-8-N-1</li>
+  <li>Support Micro SD (TF) card boot system, up to 128GB</li>
+  <li>Headphone output + microphone input 2 in 1 interface</li>
+  <li>Power button; MaskRom button; Recovery button</li>
+  <li>Support infrared remote control function</li>
+  <li>Support fan cooling</li>
+  <li>Type-A interface*1 (HOST);</li>
+  <li>Type-C interface *1 (OTG), for firmware burning interface, shared with the power interface</li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/lubancat1n/</guid>
+    </item>
+
+    <item>
+      <title>LubanCat2</title>
+      <link>https://circuitpython.org/blinka/lubancat2/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lubancat2.jpg 300w,
+               /assets/images/boards/large/lubancat2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lubancat2.jpg" alt="Image of Board" loading="lazy">
+<p>By EmbedFire</p> <p><strong>Specifications</strong></p>
+<ul>
+  <li>5V@3A DC input, DC/Type-C interface</li>
+  <li>RK3568 (quad-core Cortex-A55, 2.0GHz, Mali-G52)</li>
+  <li>1/2/4/8GB, LPDDR4/4x, 1560MHz</li>
+  <li>8/32/64/128GB, eMMC</li>
+  <li>10/100/1000M adaptive Ethernet port*2</li>
+  <li>HDMI2.0 display interface, support dual-screen display with MIPI-DSI</li>
+  <li>MIPI screen interface, wildfire MIPI screen can be plugged in, support dual-screen display with HDMI2.0</li>
+  <li>Camera interface, can plug wildfire OV5648 camera</li>
+  <li>Type-A interface*1 (HOST)</li>
+  <li>M.Key type, PCIe3.0x2Lanes, can insert 2280 specification NVME SSD</li>
+  <li>SATA cable interface, need to be used with an adapter board, can support SATA interface hard disk with 5V power supply</li>
+  <li>The SIM card function needs to be used with a 4G module</li>
+  <li>Compatible with Raspberry Pi 40Pin interface, supports PWM, GPIO, I²C, SPI, UART functions</li>
+  <li>Default parameter 1500000-8-N-1</li>
+  <li>Support Micro SD (TF) card boot system, up to 128GB</li>
+  <li>Headphone output + microphone input 2 in 1 interface</li>
+  <li>1W power speaker can be connected</li>
+  <li>Power button; MaskRom button; Recovery button</li>
+  <li>Support infrared remote control function</li>
+  <li>Support RTC function</li>
+  <li>Support fan cooling</li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/lubancat2/</guid>
+    </item>
+
+    <item>
+      <title>LubanCat2N</title>
+      <link>https://circuitpython.org/blinka/lubancat2n/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lubancat2n.jpg 300w,
+               /assets/images/boards/large/lubancat2n.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lubancat2n.jpg" alt="Image of Board" loading="lazy">
+<p>By EmbedFire</p> <p><strong>Specifications</strong></p>
+<ul>
+  <li>12V@2A DC input, DC interface</li>
+  <li>RK3568B2 (quad-core Cortex-A55, 2.0GHz, Mali-G52)</li>
+  <li>1/2/4/8GB, LPDDR4/4x, 1560MHz</li>
+  <li>8/32/64/128GB, eMMC</li>
+  <li>2.5G Ethernet port<em>2; 10/100/1000M adaptive Ethernet port</em>2</li>
+  <li>HDMI2.0 display interface, support dual-screen display with MIPI-DSI</li>
+  <li>MIPI screen interface, wildfire MIPI screen can be plugged in, support dual-screen display with HDMI2.0</li>
+  <li>Camera interface, can plug wildfire OV5648 camera</li>
+  <li>Type-A interface<em>1 (HOST); Type-C interface</em>1 (OTG), for firmware burning interface</li>
+  <li>Type-A interface*1 (HOST)</li>
+  <li>Standard SATA interface</li>
+  <li>Support 12V output</li>
+  <li>The SIM card function needs to be used with a 4G module</li>
+  <li>Compatible with Raspberry Pi 40Pin interface, supports PWM, GPIO, I²C, SPI, UART functions</li>
+  <li>Default parameter 1500000-8-N-1</li>
+  <li>Support Micro SD (TF) card boot system, up to 128GB</li>
+  <li>Headphone output + microphone input 2 in 1 interface</li>
+  <li>Speaker interface, can be connected to 1W power speaker</li>
+  <li>Power button; MaskRom button; Recovery button</li>
+  <li>Support infrared remote control function</li>
+  <li>Support RTC function</li>
+  <li>Support fan cooling</li>
+  <li>Mini-PCIe interface, can be used with full-height or half-height WIFI network card, 4G module</li>
+  <li>or other Mini-PCIe interface modules to use</li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/lubancat2n/</guid>
+    </item>
+
+    <item>
       <title>LubanCat I.MX6ULL</title>
       <link>https://circuitpython.org/blinka/lubancat_i.mx6ull/</link>
       <description><![CDATA[   
@@ -18535,7 +18796,7 @@ Enclosure</li>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/lubancat_i.mx6ull.jpg" alt="Image of Board" loading="lazy">
-<p>By LubanCat</p> <p>Meet the new i.MX6ULL ARM Cortex A7 processor from NXP, it is a high performance and power-efficient processor with a frequency up to 800MHz!</p>
+<p>By EmbedFire</p> <p>Meet the new i.MX6ULL ARM Cortex A7 processor from NXP, it is a high performance and power-efficient processor with a frequency up to 800MHz!</p>
 
 <p>The NPi i.MX6ULL Dev Board is a low power consumption Linux single board computer built around the powerful i.MX6ULL. You would love the onboard 512MB DDR3L and 512MB NAND, not to mention the rich interfaces and I/O resources.</p>
 
@@ -18553,6 +18814,68 @@ Enclosure</li>
       <category>Blinka</category>
       <pubDate>Fri, 15 Jan 2021 00:00:00 -0500</pubDate>
       <guid>https://circuitpython.org/blinka/lubancat_i.mx6ull/</guid>
+    </item>
+
+    <item>
+      <title>LubanCat Zero N</title>
+      <link>https://circuitpython.org/blinka/lubancat_zero_n/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lubancat_zero_n.jpg 300w,
+               /assets/images/boards/large/lubancat_zero_n.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lubancat_zero_n.jpg" alt="Image of Board" loading="lazy">
+<p>By EmbedFire</p> <p><strong>Specifications</strong></p>
+<ul>
+  <li>5V@3A DC input, Type-C interface</li>
+  <li>RK3566 (quad-core Cortex-A55, 1.8GHz, Mali-G52)</li>
+  <li>1/2/4/8GB, LPDDR4/4x, 1056MHz</li>
+  <li>10/100/1000M adaptive Ethernet port*1</li>
+  <li>Mini-HDMI2.0 display interface</li>
+  <li>MIPI screen interface, can be plugged into Wildfire MIPI screen</li>
+  <li>Camera interface, can plug wildfire OV5648 camera</li>
+  <li>Compatible with Raspberry Pi 40Pin interface, supports PWM, GPIO, I²C, SPI, UART functions</li>
+  <li>Default parameter 1500000-8-N-1</li>
+  <li>Support Micro SD (TF) card boot system, up to 128GB</li>
+  <li>Type-C interface*1 (OTG), shared with the power interface;</li>
+  <li>Type-C interface*1 (HOST), not for power supply</li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/lubancat_zero_n/</guid>
+    </item>
+
+    <item>
+      <title>LubanCat Zero W</title>
+      <link>https://circuitpython.org/blinka/lubancat_zero_w/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lubancat_zero_w.jpg 300w,
+               /assets/images/boards/large/lubancat_zero_w.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lubancat_zero_w.jpg" alt="Image of Board" loading="lazy">
+<p>By EmbedFire</p> <p><strong>Specifications</strong></p>
+<ul>
+  <li>5V@3A DC input, Type-C interface</li>
+  <li>RK3566 (quad-core Cortex-A55, 1.8GHz, Mali-G52)</li>
+  <li>1/2/4/8GB, LPDDR4/4x, 1056MHz</li>
+  <li>802.11ac dual-band wireless network card, up to 433Mbps; Bluetooth supports BT4.2 protocol</li>
+  <li>Mini-HDMI2.0 display interface</li>
+  <li>MIPI screen interface, can be plugged into Wildfire MIPI screen</li>
+  <li>Camera interface, can plug wildfire OV5648 camera</li>
+  <li>Compatible with Raspberry Pi 40Pin interface, supports PWM, GPIO, I²C, SPI, UART functions</li>
+  <li>Default parameter 1500000-8-N-1</li>
+  <li>Support Micro SD (TF) card boot system, up to 128GB</li>
+  <li>Type-C interface*1 (OTG), shared with the power interface;</li>
+  <li>Type-C interface*1 (HOST), not for power supply</li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/lubancat_zero_w/</guid>
     </item>
 
     <item>
@@ -19372,6 +19695,51 @@ This allows users to truly experience an upgrade in computing, especially with f
     </item>
 
     <item>
+      <title>Orange Pi 5</title>
+      <link>https://circuitpython.org/blinka/orange_pi_5/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/orange_pi_5.jpg 300w,
+               /assets/images/boards/large/orange_pi_5.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/orange_pi_5.jpg" alt="Image of Board" loading="lazy">
+<p>By Shenzhen Xunlong Software CO., Limited</p> <p>Orange Pi 5 uses Rockchip RK3588S new generation 8-core 64-bit processor, quad-core A76+quad-core A55, with 8nm process design, up to 2.4GHz main frequency, integrated ARM Mali-G610 GPU, embedded high-performance 3D/2D image acceleration module, built-in NPU with 6Tops computing power, with 4GB/8GB/16GB/32GB (LPDDR4/4x), and up to 8K display processing capability.</p>
+
+<p>Orange Pi 5 provides abundant interfaces, including HDMI output, GPIO interface, M.2 PCIe2.0, Type-C, Gigabit LAN port, 2<em>USB2.0, 1</em>USB3.0, etc.; It can be widely used in tablets, edge computing, artificial intelligence, cloud computing, AR/VR, intelligent security, smart home and other fields, covering AIoT various industries.</p>
+
+<p><strong>Specifications</strong></p>
+<ul>
+  <li>Rockchip RK3588S (8nm LP process)</li>
+  <li>8-core 64-bit processor  Big.Little Architecture: 4xCortex-A76 and 4xCortex-A55, Big core cluster is 2.4GHz, and Little core cluster is 1.8GHz frequency.</li>
+  <li>Arm Mali-G610 MP4 “Odin” GPU  Compatible with OpenGL ES1.1/2.0/3.2, OpenCL 2.2 and Vulkan 1.2  3D graphics engine and 2D graphics engine</li>
+  <li>Built-in AI accelerator NPU with up to 6 TOPS, supports INT4/INT8/INT16 mixed operation</li>
+  <li>RK806-1 PMU</li>
+  <li>4GB/8GB/16GB /32GB（LPDDR4/4x）</li>
+  <li>QSPI Nor FLASH 16MB  MicroSD (TF) Card Slot  M.2 M-KEY Socket
+USB3.0 × 1 USB2.0 × 2 Type-C (USB3.1) ×1</li>
+  <li>HDMI2.1, up to 8K @60Hz  DP1.4 (DisplayPort), DP1.4 and USB3.1 ports are multiplexed, and the port is shared with Type-C  2 * MIPI D-PHY TX 4Lane, configurable up to 4K @60Hz</li>
+  <li>MIPI CSI 4Lane  2 * MIPI D-PHY RX 4Lane</li>
+  <li>CODEC: ES8388  3.5mm headphone jack audio input/output  Input: Onboard MIC  HDMI 2.1 eARC</li>
+  <li>10/100/1000Mbps Ethernet</li>
+  <li>For extending UART, PWM, I2C, SPI, CAN and GPIO interfaces.</li>
+  <li>Support PCIe NVMe SSD Support custom PCIe Wi-Fi6+BT5.0 module</li>
+  <li>1×MaskROM key 1×Recovery key 1×On/Off key</li>
+  <li>Support Type-C power supply, 5V @ 4A</li>
+  <li>3 Pin debug serial port (UART)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3LLi7ql">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Mon, 08 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/orange_pi_5/</guid>
+    </item>
+
+    <item>
       <title>Orange Pi Lite</title>
       <link>https://circuitpython.org/blinka/orange_pi_lite/</link>
       <description><![CDATA[   
@@ -20090,6 +20458,138 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
       <category>Blinka</category>
       <pubDate>Mon, 24 May 2021 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/pyboard_v11/</guid>
+    </item>
+
+    <item>
+      <title>Radxa CM3 IO Board</title>
+      <link>https://circuitpython.org/blinka/radxa_cm3_io_board/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/radxa_cm3_io_board.jpg 300w,
+               /assets/images/boards/large/radxa_cm3_io_board.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/radxa_cm3_io_board.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa Limited</p> <p>Radxa CM3 + Raspberry Pi CM4 IO Board is an application board for the ROCK3 Compute Module(CM3) with rich IO features.</p>
+
+<p>Unleash the potential of your Radxa ROCK 3 Compute Module (CM3) with The ROCK 3 Compute Module (CM3) IO Board, a high‑performance, interface‑rich application board, providing SD card slot, SATA interface, PCIe, HDMI, MIPI, Ethernet, TP interface, eDP screen, USB3.0, USB2. 0, RTC, CSI, GPIO, headphone jack, fan, and other rich peripheral interfaces.</p>
+
+<p><strong>Details</strong></p>
+<ul>
+  <li>Key features of the ROCK 3 Compute Module (CM3) IO Board</li>
+  <li>Half mini-itx design</li>
+  <li>Support for multiple display interfaces including HDMI, 2x MIPI DSI/LVDS, eDP, with the option to have dual displays</li>
+  <li>Support for x1 PCIe card</li>
+  <li>Up to 2x SATA via USB3.0, or PCIe 2.0</li>
+  <li>Supports Ubuntu/Debian and Android</li>
+  <li>Multiple Connectivity Options</li>
+  <li>5 x USB 2.0 ports (2 x internal USB2 headers, 3 x type connectors)</li>
+  <li>1 x USB 3.0 port (5Gbps, type A connector)</li>
+  <li>1x USB 2.0 OTG (Micro USB connector)</li>
+  <li>1 x PCIe 1-lane Host, Gen 2 (5Gbps, x1 PCIe connector)</li>
+  <li>2 x SATA 7P connectors (1 x shared with USB 3, 1 x shared with PCIe)</li>
+  <li>1 x microSD card connector</li>
+  <li>40 x GPIO pin header</li>
+  <li>Reliable Network Option with PoE Support</li>
+  <li>1x Gigabit Ethernet RJ45 with PoE support</li>
+  <li>Video and Audio Connectivity</li>
+  <li>1 x HDMI up to 4K x 2K@60HZ</li>
+  <li>1 x eDP support 4K x 2K@60HZ</li>
+  <li>2 x MIPI DSI 4 lanes, supporting dual displays up to 1920 x 1080@60HZ</li>
+  <li>Dual MIPI CSI input</li>
+  <li>5mm headphone jack with mic support</li>
+  <li>Other features of the ROCK 3 Compute Module (CM3) IO Board</li>
+  <li>Li-Ion battery connector</li>
+  <li>RTC battery connector</li>
+  <li>FAN connector</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.okdo.com/us/p/rock-3-compute-module-cm3-io-board/">OKdo</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Fri, 05 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/radxa_cm3_io_board/</guid>
+    </item>
+
+    <item>
+      <title>Rock 3A</title>
+      <link>https://circuitpython.org/blinka/radxa_rock_3a/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/radxa_rock_3a.jpg 300w,
+               /assets/images/boards/large/radxa_rock_3a.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/radxa_rock_3a.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa Limited</p> <p>ROCK 3A is an improved version of the ROCK Pi 4. ROCK 3A features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up to 4K@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN, PCIe 3.0, PCIe 2.0, 40-pin color expansion header, RTC. Also, ROCK 3 supports USB PD and QC powering.</p>
+
+<p><strong>Key Features</strong></p>
+<ul>
+  <li>RK3568, Quad A55 up to 2GHz, Mali G52 GPU, 0.8T NPU</li>
+  <li>eMMC module socket, 2GB/4GB/8GB LPDDR4 3200MT/s, DRAM controller frequency up to 1560MHz</li>
+  <li>uSD slot supports up to 128G uSD card</li>
+  <li>QC/PD power support, with a new generation QC/PD protocol IC</li>
+  <li>Two USB2 same as ROCK Pi 4, two USB3(1x OTG+1x HOST)</li>
+  <li>USB3 can be configured in SATA mode with a SATA breakout cable</li>
+  <li>GbE with PoE support</li>
+  <li>M.2 M key for NVMe with PCIe 3.0 x2 lanes</li>
+  <li>M.2 E key for connectivity with PCIe 2.0 x1/SDIO/UART, support WiFi 6 cards</li>
+  <li>1x MIPI DSI, 1x MIPI CSI, compatible with ROCK Pi 4</li>
+  <li>40P GPIO mostly compatible with ROCK Pi 4</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.okdo.com/us/p/okdo-rock-3-model-a-2gb-single-board-computer-rockchip-rk3568-arm-cortex-a55/">OKd (2GB)</a></li>
+  <li><a href="https://www.okdo.com/us/p/okdo-rock-3-model-a-4gb-single-board-computer-rockchip-rk3568-arm-cortex-a55/">OKd (4GB)</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Fri, 05 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/radxa_rock_3a/</guid>
+    </item>
+
+    <item>
+      <title>Rock 5B</title>
+      <link>https://circuitpython.org/blinka/radxa_rock_5b/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/radxa_rock_5b.jpg 300w,
+               /assets/images/boards/large/radxa_rock_5b.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/radxa_rock_5b.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa Limited</p> <p>The ROCK 5 Model B is the latest Radxa SBC with a Pico ITX form factor (2.5 inch, 100 x 72mm). Powered by the all-new powerhouse RK3588 SoC, the ROCK5 Model B offers awesome power-efficient performance in 4GB, 8GB or 16GB RAM configurations.</p>
+
+<p><strong>Key Features</strong></p>
+<ul>
+  <li>RK3588, ARM powered, Quad A76 + Quad A55, Mali G610MP4, 6T NPU, 8K 10 bit encoder, 8K decoder.</li>
+  <li>4GB/8GB/16GB LPDDR4x RAM Options.</li>
+  <li>Supports WiFi 6E and BTE 5.2</li>
+  <li>Supports PCle 3.0 x4 NVMe SSD</li>
+  <li>Triple Display Support (with HDR), two HDMI 2.1 up to 8K@60FPS, one USB-C with DP up to 8K@30FPS</li>
+  <li>HDMI in support up to 4K@60FPS</li>
+  <li>2.5G Ethernet with PoE Support (requires optional PoE HAT)</li>
+  <li>Linux Kernel 5.10 Compatible</li>
+  <li>Debian Buster Compatible</li>
+  <li>40P GPIO</li>
+  <li>2x USB 3.1</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.okdo.com/us/p/okdo-rock-5-model-b-8gb-single-board-computer-rockchip-rk3588-arm-cortex-a76-cortex-a55/">OKdo</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Fri, 05 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/radxa_rock_5b/</guid>
     </item>
 
     <item>
@@ -20899,15 +21399,73 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
 <p>ROCK Pi features maker friendly expansion options, including a 40-pin GPIO interface that allows for interfacing with range inputs from buttons, switches, sensors, LEDs, and much more. ROCK Pi also features a Gbit LAN for the network, with dedicated bus and controller, it works without latency under heavy load network applications. Onboard 802.11 ac wifi offers 2.4G&amp;5G WLAN connectivity. With Bluetooth 5.0, ROCK Pi benefits-improved Bluetooth speed and greater range. ROCK Pi also features one USB 3.0 host and one USB 3.0 OTG ports, each 5Gbps/s, working independently. The USB 3.0 OTG can work as a USB device such as Android ADB or USB gadgets. A hardware switch is provided for OTG mode switch.</p>
 
 <p>ROCK Pi supports mainstream AI stack with GPU acceleration. Furthermore, a dedicated hardware NPU accelerator coming up next for ROCK Pi will boosts complex Machine Learning algorithm and reduce the power. Industrial standard MIPI CSI connector makes it easy to connect existing cameras to ROCK Pi and ROCK Pi also supports industrial standard MIPI DSI for LCD and touch screen. With the hardware-accelerated algorithm, it’s great for Computer Vision application, Robotics and much more</p>
-
-<h2 id="purchase">Purchase</h2>
-<ul>
-  <li><a href="https://www.seeedstudio.com/ROCK-PI-4-Model-C-p-4658.html">seeedstudio</a></li>
-</ul>
  ]]></description>
       <category>Blinka</category>
       <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/rock_pi_4c/</guid>
+    </item>
+
+    <item>
+      <title>ROCK Pi 4C+</title>
+      <link>https://circuitpython.org/blinka/rock_pi_4c_plus/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/rock_pi_4c_plus.jpg 300w,
+               /assets/images/boards/large/rock_pi_4c_plus.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/rock_pi_4c_plus.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa Limited</p> <p>ROCK Pi 4 Model C+ is a single board computer (SBC) by a Rockchip RK3399-T hexa-core processor @ 1.5 GHz, equipped with 4GB RAM, and two micro HDMI ports to drive up to one 4K display, and one 2K display.</p>
+
+<p>ROCK Pi 4 Model C+ support dual HDMI output, Micro HDMI 2.0 port up to 4K @ 60 Hz; Micro HDMI 2.0 port up to 2K @ 60 Hz; 4-lane MIPI DSI via FPC connector (only 2 lanes if the SPI flash is soldered to the board); Dual independent display support (not three before the 2K HDMI and MIPI DSI interfaces are multiplexed)</p>
+
+<p>ROCK Pi 4 Model C+ including a 40-pin GPIO interface ,and also features a Gbit LAN for network, with dedicated bus and controller, it works without latency under heavy load network applications.On board 802.11 ac wifi offers 2.4G&amp;5G WLAN connectivity. With Bluetooh 5.0, ROCK Pi benefits improved Bluetooth speed and greater range.</p>
+
+<p>ROCK Pi 4 Model C+ provides support for Debian/Ubuntu Linux, Android 7.1/9.0/11 for the board, with open-source GPU drivers (that should be Panfrost), as well as hardware access/control library for Linux/Android. All RK3399/OP1 processors are software compatible</p>
+
+<ul>
+  <li>Rockchip RK3399-T 64bits hexa core processor</li>
+  <li>Dual Cortex-72, frequency <strong>1.5GHz</strong> with qual Cortex-A53, frequency <strong>1.0GHz</strong></li>
+  <li>Mali T860MP4 gpu, support OpenGL ES 1.1/2.0/3.0/3.1/3.2, Vulkan 1.0, Open CL 1.1 1.2, DX11.</li>
+  <li>64bit dual channel LPDDR4@3200Mb/s, 1GB/2GB/4GB optioal</li>
+  <li>eMMC connector</li>
+  <li>μSD card (μSD slot supports up to 256 GB μSD card)</li>
+  <li>One Micro HDMI 2K up to 1440P@60</li>
+  <li>One Micro HDMI 4K 2.0 up to 4k@60</li>
+  <li>MIPI DSI 4 lanes via FPC connector</li>
+  <li>Only two of HDMI 2k, HDMI 4K and MIPI DSI can work at the same time.</li>
+  <li>3.5mm jack HD codec that supports up to 24-bit/96KHz audio.</li>
+  <li>MIPI CSI 2 lanes via FPC connector, support up to 800 MP camera.</li>
+  <li>802.11 ac wifi</li>
+  <li>BT 5.0 with external antenna</li>
+  <li>USB 3.0 OTG X1, upper one, software configurable to be host or OTG,</li>
+  <li>USB 3.0 HOST X1, dedicated USB 3.0 channel, lower one</li>
+  <li>USB 2.0 HOST X2</li>
+  <li>GbE LAN with Power over Ethernet (PoE) support</li>
+  <li>additional HAT is required for powering from PoE</li>
+  <li>40-pin expansion header</li>
+  <li>2 x UART</li>
+  <li>2 x SPI bus</li>
+  <li>3 x I2C bus</li>
+  <li>1 x PCM/I2S</li>
+  <li>1 x SPDIF</li>
+  <li>2 x PWM</li>
+  <li>1 x ADC</li>
+  <li>6 x GPIO</li>
+  <li>2 x 5V DC power in</li>
+  <li>2 x 3.3V DC power in</li>
+  <li>RTC</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.okdo.com/us/p/okdo-rock-4-model-c-4gb-single-board-computer-rockchip-rk3399-t-arm-cortex-a72-cortex-a53/">OKdo</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Fri, 05 May 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/rock_pi_4c_plus/</guid>
     </item>
 
     <item>
