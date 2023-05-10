@@ -21,7 +21,7 @@ features:
 
  - Powerful Rockchip RK3399 64-bit Hexa-core processor for better multithread application performance
  - Mali T860MP4 Quad-core GPU for AI capabilities
- - Better IO performance with multiple storage options 
+ - Better IO performance with multiple storage options
  - Faster wireless connectivity with 2.4/5GHz Wi-Fi and Bluetooth 5.0
  - GbE LAN to work without latency under heavy load
  - Dual Display output with mirror or extended modes
@@ -34,6 +34,3 @@ ROCK Pi has a modern and powerful hexa-core ARM-based processor, RK3399 inside, 
 ROCK Pi features maker friendly expansion options, including a 40-pin GPIO interface that allows for interfacing with range inputs from buttons, switches, sensors, LEDs, and much more. ROCK Pi also features a Gbit LAN for the network, with dedicated bus and controller, it works without latency under heavy load network applications. Onboard 802.11 ac wifi offers 2.4G&5G WLAN connectivity. With Bluetooth 5.0, ROCK Pi benefits-improved Bluetooth speed and greater range. ROCK Pi also features one USB 3.0 host and one USB 3.0 OTG ports, each 5Gbps/s, working independently. The USB 3.0 OTG can work as a USB device such as Android ADB or USB gadgets. A hardware switch is provided for OTG mode switch.
 
 ROCK Pi supports mainstream AI stack with GPU acceleration. Furthermore, a dedicated hardware NPU accelerator coming up next for ROCK Pi will boosts complex Machine Learning algorithm and reduce the power. Industrial standard MIPI CSI connector makes it easy to connect existing cameras to ROCK Pi and ROCK Pi also supports industrial standard MIPI DSI for LCD and touch screen. With the hardware-accelerated algorithm, it's great for Computer Vision application, Robotics and much more
-
-## Purchase
- * [seeedstudio](https://www.seeedstudio.com/ROCK-PI-4-Model-C-p-4658.html)
