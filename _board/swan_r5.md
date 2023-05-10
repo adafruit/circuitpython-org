@@ -25,6 +25,8 @@ The board has three independent power options â€“ USB, Battery, or Line power â€
 * Ultra low-power Arm Cortex-M4 core clocked at 120Mhz
 * STM32L4R5-based microcontroller
 * 2MB of flash and 640KB of RAM
+* Qwiic connector
+* Support for [Notecard Outboard Firmware Update](https://dev.blues.io/guides-and-tutorials/notecard-guides/notecard-outboard-firmware-update/) in CircuitPython
 * Castellated-edge access to 55 GPIO ports including:
   * 8 analog
   * 16 digital
@@ -36,7 +38,7 @@ The board has three independent power options â€“ USB, Battery, or Line power â€
   * low-power RTC, and CRC calculation peripherals
 
 ## Tutorial
-* [Swan Quickstart on dev.blues.io](https://dev.blues.io/quickstart/swan-quickstart/#using-circuitpython)
+* [Swan CircuitPython Quickstart on dev.blues.io](https://dev.blues.io/swan/using-circuitpython-with-swan/)
 
 ## Purchase
 * [Blues Shop](https://shop.blues.io/products/swan)
