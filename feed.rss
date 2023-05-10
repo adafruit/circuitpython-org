@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 10 May 2023 06:03:40 -0400</lastBuildDate>
+<lastBuildDate>Wed, 10 May 2023 16:56:44 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -14819,6 +14819,8 @@ used for the circuity python build that includes this chip!</li>
   <li>Ultra low-power Arm Cortex-M4 core clocked at 120Mhz</li>
   <li>STM32L4R5-based microcontroller</li>
   <li>2MB of flash and 640KB of RAM</li>
+  <li>Qwiic connector</li>
+  <li>Support for <a href="https://dev.blues.io/guides-and-tutorials/notecard-guides/notecard-outboard-firmware-update/">Notecard Outboard Firmware Update</a> in CircuitPython</li>
   <li>Castellated-edge access to 55 GPIO ports including:
     <ul>
       <li>8 analog</li>
@@ -14835,7 +14837,7 @@ used for the circuity python build that includes this chip!</li>
 
 <h2 id="tutorial">Tutorial</h2>
 <ul>
-  <li><a href="https://dev.blues.io/quickstart/swan-quickstart/#using-circuitpython">Swan Quickstart on dev.blues.io</a></li>
+  <li><a href="https://dev.blues.io/swan/using-circuitpython-with-swan/">Swan CircuitPython Quickstart on dev.blues.io</a></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
