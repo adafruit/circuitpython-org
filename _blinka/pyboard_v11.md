@@ -4,6 +4,7 @@ board_id: "pyboard_v11"
 title: "Pyboard Download"
 name: "Pyboard"
 manufacturer: "Damien George"
+blinka: true
 board_url: "https://www.adafruit.com/product/2390"
 board_image: "pyboard_v11.jpg"
 date_added: 2021-5-24
