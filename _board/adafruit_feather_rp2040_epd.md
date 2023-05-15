@@ -1,7 +1,6 @@
 ---
 layout: download
-board_id: "adafruit_feather_rp2040_thinkink"
-board_alias: "adafruit_feather_rp2040_epd"
+board_id: "adafruit_feather_rp2040_epd"
 title: "Feather RP2040 ThinkInk Download"
 name: "Feather RP2040 ThinkInk"
 manufacturer: "Adafruit"
