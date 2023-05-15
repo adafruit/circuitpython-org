@@ -166,7 +166,7 @@ if not verify_contribute_not_present("_board") or not verify_contribute_not_pres
     raise SystemExit(True)
 
 if not verify_blinka_board("_blinka"):
-    print("blinka flag missing or false for some Blinka boards. This should be set to true.")
+    print("blinka flag missing or false for some Blinka boards. Are you sure this board runs Blinka?")
     raise SystemExit(True)
 
 raise SystemExit(False)
