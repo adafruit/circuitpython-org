@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 15 May 2023 15:54:07 -0400</lastBuildDate>
+<lastBuildDate>Mon, 15 May 2023 18:24:52 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -8523,6 +8523,46 @@ Install Arduino and learn some basic coding. We will provide online guides to co
     <category>CircuitPython</category>
     <pubDate>Sat, 13 Apr 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/kicksat-sprite/</guid>
+  </item><item>
+    <title>T-Display RP2040</title>
+    <link>https://circuitpython.org/board/lilygo_t_display_rp2040/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lilygo_t_display_rp2040.jpg 300w,
+               /assets/images/boards/large/lilygo_t_display_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lilygo_t_display_rp2040.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <p>The LILYGO T-Display RP2040 is a mid-size (52 mm x 25 mm) development board. It features a ST7789V 1.14 inch display and supprt for dual power supply (USB and battery).</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>RP2040 Dual Arm Cortex-M0+</li>
+  <li>4 MB of flash memory</li>
+  <li>ST7789V 1.14 inch display with a resolution of 135x240</li>
+  <li>19 GPIO (2 UART, 2 SPI, 2 I2C)</li>
+  <li>2 buttons (<code class="language-plaintext highlighter-rouge">GPIO6</code> and <code class="language-plaintext highlighter-rouge">GPIO7</code>)</li>
+  <li>Reset button and Boot button</li>
+  <li>Battery charching circuit (JST GH 1.25 mm)</li>
+  <li>Onboard LED (red)</li>
+</ul>
+
+<h2 id="schematic">Schematic</h2>
+
+<ul>
+  <li><a href="https://github.com/Xinyuan-LilyGO/LILYGO-T-display-RP2040">LILYGO Github repository</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005003281043979.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 15 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_t_display_rp2040/</guid>
   </item><item>
     <title>T-Embed</title>
     <link>https://circuitpython.org/board/lilygo_tembed_esp32s3/</link>
