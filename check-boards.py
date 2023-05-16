@@ -106,6 +106,23 @@ def verify_contribute_not_present(folder):
             print(f"Contribute Section found for {board_id} in {folder}")
     return valid
 
+def verify_blinka_board(folder):
+    # Check that blinka flag is set for all boards in the folder
+    valid = True
+    for filename in Path(folder).glob("*.md"):
+        with open(filename, "rt") as f:
+            metadata, _ = frontmatter.parse(f.read())
+        downloads_display = metadata.get('downloads_display')
+        if downloads_display is None or downloads_display:
+            board_id = metadata.get('board_id') or ()
+            if board_id == "unknown":
+                continue
+            blinka_flag = metadata.get('blinka')
+            if blinka_flag is None or blinka_flag == False:
+                print(f"blinka field is not set to True for {board_id}")
+                valid = False
+    return valid
+
 if not verify_features("_board", acceptable_features):
     print("Non-standard features found. See https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/adding-to-downloads for acceptable features")
     raise SystemExit(True)
@@ -146,6 +163,10 @@ if not verify_date_added("_board") or not verify_date_added("blinka"):
 
 if not verify_contribute_not_present("_board") or not verify_contribute_not_present("blinka"):
     print("Contribute section found. This should not be there since it is automatically added.")
+    raise SystemExit(True)
+
+if not verify_blinka_board("_blinka"):
+    print("blinka flag missing or false for some Blinka boards. Are you sure this board runs Blinka?")
     raise SystemExit(True)
 
 raise SystemExit(False)
