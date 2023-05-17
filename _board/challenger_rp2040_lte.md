@@ -15,9 +15,9 @@ features:
   - Feather-Compatible
 ---
 
-The Challenger RP2040 LTE is an Arduino/CircuitPython compatible Adafruit Feather format micro controller board based on the Raspberry Pico chip.
+The Challenger RP2040 LTE is an Arduino/CircuitPython compatible Adafruit Feather format microcontroller board based on the Raspberry Pico chip.
 
-This board has been designed with portable applications in mind. By using the powerful dual core RP2040 combined with 8Mbyte of flash memory you get a device that can handle pretty much anything you can trow at it. For instance if you let one core handle the LTE modem and the second core do all the UI stuff you get an extremely responsive system. Not to mention that the 8 MByte of FLASH memory will let you install any (or all) CircuitPython support libraries that you will every need.
+This board has been designed with portable applications in mind. By using the powerful dual core RP2040 combined with 8Mbyte of flash memory, you get a device that can handle pretty much anything you can throw at it. For instance, if you let one core handle the LTE modem and the second core do all the UI stuff, you get an extremely responsive system. Not to mention that the 8 MByte of FLASH memory will let you install any (or all) CircuitPython support libraries that you will ever need.
 
 ### Technical details
 
