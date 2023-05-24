@@ -12,6 +12,7 @@ features:
   - Wi-Fi
   - USB-C
   - Bluetooth/BTLE
+  - Camera
   - Battery Charging
 ---
 
