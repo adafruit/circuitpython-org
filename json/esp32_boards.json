@@ -1134,6 +1134,12 @@
             }
         ]
     },
+    "lolin_s3_mini": {
+        "name": "LOLIN S3 MINI",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lolin_s3_mini-0.13.0.zip",
+        "releases": []
+    },
     "hardkernel_odroid_go": {
         "name": "Odroid Go",
         "chipfamily": "esp32",

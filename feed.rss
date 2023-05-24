@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 24 May 2023 12:05:44 -0400</lastBuildDate>
+<lastBuildDate>Wed, 24 May 2023 12:06:08 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -9191,6 +9191,52 @@ status LED operation.</p>
     <category>CircuitPython</category>
     <pubDate>Mon, 05 Sep 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/lolin_s3/</guid>
+  </item><item>
+    <title>LOLIN S3 MINI</title>
+    <link>https://circuitpython.org/board/lolin_s3_mini/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lolin_s3_mini.jpg 300w,
+               /assets/images/boards/large/lolin_s3_mini.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lolin_s3_mini.jpg" alt="Image of Board" loading="lazy">
+<p>By LOLIN</p> <p>WiFi &amp; Bluetooth 5 (LE) development boards based ESP32-S3FH4R2.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>based ESP32-S3FH4R2</li>
+  <li>Type-C USB</li>
+  <li>4MB Flash</li>
+  <li>2MB PSRAM</li>
+  <li>Clock speed: 240 Mhz</li>
+  <li>Digital I/O Pins: 27</li>
+  <li>ADC, DAC, I2C, SPI, UART, USB OTG</li>
+  <li>RGB LED (IO47)</li>
+  <li>Size: 34.3 mm x 25.4 mm</li>
+  <li>Weight: 3g</li>
+  <li>Default firmware: Micropython</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/3256805262904443.html">AliExpress</a></li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://www.wemos.cc/en/latest/s3/s3_mini.html">Manufacturer Specifications</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/sch_s3_mini_v1.0.0.pdf">Schematic</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/dim_s3_mini_v1.0.0.pdf">Dimension</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 23 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lolin_s3_mini/</guid>
   </item><item>
     <title>Luatos Core ESP32C3</title>
     <link>https://circuitpython.org/board/luatos_core_esp32c3/</link>
