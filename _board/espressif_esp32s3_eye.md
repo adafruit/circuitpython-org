@@ -12,6 +12,7 @@ family: esp32s3
 features:
   - Wi-Fi
   - Display
+  - Camera
   - Battery Charging
 ---
 

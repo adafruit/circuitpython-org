@@ -10,6 +10,7 @@ date_added: 2022-08-22
 family: esp32
 features:
   - Wi-Fi
+  - Camera
   - Bluetooth/BTLE
 ---
 

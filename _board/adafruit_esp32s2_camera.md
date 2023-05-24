@@ -12,6 +12,7 @@ bootloader_id: adafruit_esp32s2_camera
 downloads_display: true
 features:
   - Wi-Fi
+  - Camera
 ---
 
 Coming Soon!
