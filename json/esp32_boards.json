@@ -1245,6 +1245,17 @@
             }
         ]
     },
+    "lolin_c3_pico": {
+        "name": "LOLIN C3 Pico",
+        "chipfamily": "esp32c3",
+        "bootloader": null,
+        "releases": [
+            {
+                "version": "8.2.0-beta.0",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lolin_c3_pico/en_US/adafruit-circuitpython-lolin_c3_pico-en_US-8.2.0-beta.0.bin"
+            }
+        ]
+    },
     "adafruit_esp32s2_camera": {
         "name": "Adafruit ESP32-S2 Camera",
         "chipfamily": "esp32s2",

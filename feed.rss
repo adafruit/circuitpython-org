@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 25 May 2023 11:48:46 -0400</lastBuildDate>
+<lastBuildDate>Thu, 25 May 2023 11:51:42 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -8960,6 +8960,54 @@ status LED operation.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 02 Nov 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/lolin_c3_mini/</guid>
+  </item><item>
+    <title>LOLIN C3 Pico</title>
+    <link>https://circuitpython.org/board/lolin_c3_pico/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lolin_c3_pico.jpg 300w,
+               /assets/images/boards/large/lolin_c3_pico.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lolin_c3_pico.jpg" alt="Image of Board" loading="lazy">
+<p>By LOLIN</p> <p>A mini Wi-Fi &amp; Bluetooth LE board based on ESP32-C3FH4.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>based ESP32-C3 WIFI &amp; Bluetooth LE RISC-V Single-Core CPU</li>
+  <li>Type-C USB</li>
+  <li>4MB Flash</li>
+  <li>Lolin I2C Port (does not match QWIIC/Stemma-Qt pinout)</li>
+  <li>RGB LED (IO7)</li>
+  <li>Clock speed: 160 Mhz</li>
+  <li>12x Digital IO</li>
+  <li>ADC, I2C, SPI, UART</li>
+  <li>Size: 25.4 mm x 25.4 mm</li>
+  <li>Weight: 2.6g</li>
+  <li>Compatible with LOLIN D1 mini shields</li>
+  <li>Compatible with MicroPython, Arduino and ESP-IDF</li>
+  <li>Default firmware: MicroPython</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005004866531117.html">AliExpress</a></li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://www.wemos.cc/en/latest/c3/c3_pico.html">Manufacturer Specifications</a></li>
+  <li><a href="https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf">ESP32-C3 Datasheet</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/sch_c3_pico_v1.0.0.pdf">Schematic</a></li>
+  <li><a href="https://www.wemos.cc/en/latest/_static/files/dim_c3_pico_v1.0.0.pdf">Dimension</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 24 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lolin_c3_pico/</guid>
   </item><item>
     <title>LOLIN S2 Mini</title>
     <link>https://circuitpython.org/board/lolin_s2_mini/</link>
