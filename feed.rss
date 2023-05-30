@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 30 May 2023 06:03:28 -0400</lastBuildDate>
+<lastBuildDate>Tue, 30 May 2023 11:28:12 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -2516,7 +2516,9 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/arduino_nano_33_ble.jpg" alt="Image of Board" loading="lazy">
-<p>By Arduino</p> <p>This compact and reliable NANO board is built around the NINA B306 module, based on Nordic nRF 52840 and containing a powerful Cortex M4F. Its architecture, fully compatible with Arduino IDE Online and Offline, has a 9 axis Inertial Measurement Unit (IMU) and a reduced power consumption compared to other same size boards.
+<p>By Arduino</p> <p>Please note that the pictured board is a Nano 33 BLE Sense. This build works with both the Nano 33 BLE and the Sense.</p>
+
+<p>This compact and reliable NANO board is built around the u-blox NINA B306 module, based on the Nordic nRF52840 and containing a powerful Cortex M4F core. Its architecture, fully compatible with Arduino IDE Online and Offline, has a 9 axis Inertial Measurement Unit (IMU) and a reduced power consumption compared to other same size boards.
 This allows the design of wearable devices and movement sensing projects that need to communicate to other devices at a close range. Arduino NANO 33 BLE is also ideal for automation projects thanks to the multiprotocol BT 5.0 radio.</p>
 
 <p>To use this board with CircuitPython you must <a href="https://forums.adafruit.com/viewtopic.php?f=60&amp;t=158279">replace the existing bootloader</a> with the Adafruit UF2 bootloader. You need to restore the original bootloader to use the board again with Arduino.</p>
