@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 05 Jun 2023 06:05:43 -0400</lastBuildDate>
+<lastBuildDate>Mon, 05 Jun 2023 16:07:07 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -950,64 +950,6 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <pubDate>Mon, 27 Mar 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_rp2040_dvi/</guid>
   </item><item>
-    <title>Feather RP2040 ThinkInk</title>
-    <link>https://circuitpython.org/board/adafruit_feather_rp2040_epd/</link>
-    <description><![CDATA[   
-  
-  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_thinkink.jpg 300w,
-               /assets/images/boards/large/adafruit_feather_rp2040_thinkink.jpg 700w"
-       sizes="(max-width: 1024px) 700px,
-              300px"
-       src="/assets/images/boards/large/adafruit_feather_rp2040_thinkink.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <p>Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that’s designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you’ve seen one of those new-fangled ‘e-readers’ like the Kindle or Nook. They have gigantic electronic paper ‘static’ displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!</p>
-
-<p>We’ve liked these displays for a long time, and we’ve got Arduino/CircuitPython drivers for tons of the various display chipsets, so wouldn’t an e-paper RP2040 Feather make a ton of sense? Luckily for us, just about every small-medium size EInk display made these days has a standard 24-pin connection. This Feather will add all the power supply support circuitry and level shifting so you can attach your favorite display - we’ve tested it with up to 5.6” sized 7-color ACeP displays.</p>
-
-<p>Since all ePaper displays with the 24-pin interface require you to buffer the layers of data and write them all out at once over SPI, the RP2040 chip is an excellent driver. It has 264K of internal SRAM so even with the largest displays, there’s plenty of memory to store all the image data plus run your own code. We also put the display on it’s own SPI port so that the Feather’s main SPI port can be used for other peripheral devices.</p>
-
-<p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check’em out here.</p>
-
-<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the Raspberry Pi Pico. This chip has a whopping MB of onboard QSPI FLASH and 264K of RAM!  There’s even room left over for a STEMMA QT connector for plug-and-play of I2C devices.</p>
-
-<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available. While the RP2040 is not designed for low power usage - you can get down to about 1.5mA of power draw in sleep mode.</p>
-
-<p>Here’re some handy specs! You get:</p>
-
-<ul>
-  <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
-  <li>Light as a (large?) feather - 6.3 grams</li>
-  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
-  <li>264 KB RAM</li>
-  <li>8 MB SPI FLASH chip for storing files, images and CircuitPython/MicroPython code storage. No EEPROM</li>
-  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:
-    <ul>
-      <li>Four 12-bit ADCs (one more than Pico)</li>
-      <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
-      <li>16 x PWM outputs - for servos, LEDs, etc</li>
-    </ul>
-  </li>
-  <li>Built-in 200mA+ lipoly charger with charging status indicator LED</li>
-  <li>Pin #13 red LED for general purpose blinking</li>
-  <li>RGB NeoPixel for full-color indication.</li>
-  <li>On-board STEMMA QT connector that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
-  <li>Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)</li>
-  <li>USB Type C connector lets you access built-in ROM USB bootloader and serial port debugging</li>
-  <li>3.3V regulator with 500mA peak current output and power enable pin</li>
-  <li>4 mounting holes</li>
-  <li>12 MHz crystal for perfect timing.</li>
-  <li>Support circuitry for common 24-pin e-Paper/e-Ink displays. These tend to be 1.54” to 7” diagonal and designed for ‘smart labels’. No soldering required, simply plug in the display to the FPC connector on the end and load up your code. Not for use with the larger resolution displays on e-Readers like Kindles. Those use a different interface!</li>
-</ul>
-
-<h2 id="purchase">Purchase</h2>
-
-<ul>
-  <li><a href="https://www.adafruit.com/product/5727">Adafruit</a></li>
-</ul>
- ]]></description>
-    <category>CircuitPython</category>
-    <pubDate>Tue, 02 May 2023 00:00:00 -0400</pubDate>
-    <guid>https://circuitpython.org/board/adafruit_feather_rp2040_epd/</guid>
-  </item><item>
     <title>Feather RP2040 Prop-Maker</title>
     <link>https://circuitpython.org/board/adafruit_feather_rp2040_prop_maker/</link>
     <description><![CDATA[   
@@ -1212,6 +1154,64 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <category>CircuitPython</category>
     <pubDate>Thu, 22 Dec 2022 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_rp2040_scorpio/</guid>
+  </item><item>
+    <title>Feather RP2040 ThinkInk</title>
+    <link>https://circuitpython.org/board/adafruit_feather_rp2040_thinkink/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_rp2040_thinkink.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_rp2040_thinkink.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_rp2040_thinkink.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that’s designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you’ve seen one of those new-fangled ‘e-readers’ like the Kindle or Nook. They have gigantic electronic paper ‘static’ displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!</p>
+
+<p>We’ve liked these displays for a long time, and we’ve got Arduino/CircuitPython drivers for tons of the various display chipsets, so wouldn’t an e-paper RP2040 Feather make a ton of sense? Luckily for us, just about every small-medium size EInk display made these days has a standard 24-pin connection. This Feather will add all the power supply support circuitry and level shifting so you can attach your favorite display - we’ve tested it with up to 5.6” sized 7-color ACeP displays.</p>
+
+<p>Since all ePaper displays with the 24-pin interface require you to buffer the layers of data and write them all out at once over SPI, the RP2040 chip is an excellent driver. It has 264K of internal SRAM so even with the largest displays, there’s plenty of memory to store all the image data plus run your own code. We also put the display on it’s own SPI port so that the Feather’s main SPI port can be used for other peripheral devices.</p>
+
+<p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check’em out here.</p>
+
+<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the Raspberry Pi Pico. This chip has a whopping MB of onboard QSPI FLASH and 264K of RAM!  There’s even room left over for a STEMMA QT connector for plug-and-play of I2C devices.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available. While the RP2040 is not designed for low power usage - you can get down to about 1.5mA of power draw in sleep mode.</p>
+
+<p>Here’re some handy specs! You get:</p>
+
+<ul>
+  <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - 6.3 grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li>8 MB SPI FLASH chip for storing files, images and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:
+    <ul>
+      <li>Four 12-bit ADCs (one more than Pico)</li>
+      <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+    </ul>
+  </li>
+  <li>Built-in 200mA+ lipoly charger with charging status indicator LED</li>
+  <li>Pin #13 red LED for general purpose blinking</li>
+  <li>RGB NeoPixel for full-color indication.</li>
+  <li>On-board STEMMA QT connector that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li>Both Reset button and Bootloader select button for quick restarts (no unplugging-replugging to relaunch code)</li>
+  <li>USB Type C connector lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3V regulator with 500mA peak current output and power enable pin</li>
+  <li>4 mounting holes</li>
+  <li>12 MHz crystal for perfect timing.</li>
+  <li>Support circuitry for common 24-pin e-Paper/e-Ink displays. These tend to be 1.54” to 7” diagonal and designed for ‘smart labels’. No soldering required, simply plug in the display to the FPC connector on the end and load up your code. Not for use with the larger resolution displays on e-Readers like Kindles. Those use a different interface!</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5727">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 02 May 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_rp2040_thinkink/</guid>
   </item><item>
     <title>Feather RP2040 with USB Type A Host</title>
     <link>https://circuitpython.org/board/adafruit_feather_rp2040_usb_host/</link>
