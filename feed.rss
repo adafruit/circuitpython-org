@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 07 Jun 2023 06:03:31 -0400</lastBuildDate>
+<lastBuildDate>Wed, 07 Jun 2023 13:07:09 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -8072,7 +8072,7 @@ Install Arduino and learn some basic coding. We will provide online guides to co
     <pubDate>Sat, 29 Aug 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/ikigaisense_vita/</guid>
   </item><item>
-    <title>MIMXRT1010 Eval Kit</title>
+    <title>MIMXRT1010-EVK Eval Kit</title>
     <link>https://circuitpython.org/board/imxrt1010_evk/</link>
     <description><![CDATA[   
   
@@ -8085,14 +8085,34 @@ Install Arduino and learn some basic coding. We will provide online guides to co
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1010-evaluation-kit:MIMXRT1010-EVK">NXP</a></li>
+  <li><a href="https://www.nxp.com/part/MIMXRT1010-EVK">NXP</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Wed, 08 Jan 2020 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/imxrt1010_evk/</guid>
   </item><item>
-    <title>MIMXRT1020 Eval Kit</title>
+    <title>MIMXRT1015-EVK Eval Kit</title>
+    <link>https://circuitpython.org/board/imxrt1015_evk/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/imxrt1015_evk.jpg 300w,
+               /assets/images/boards/large/imxrt1015_evk.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/imxrt1015_evk.jpg" alt="Image of Board" loading="lazy">
+<p>By NXP</p> <p>i.MX RT evaluation boards provide a powerful, extendable platform or evaluation and prototyping using the MCUXpresso suite of software and tools. An Arduino UNO site is provided for expansion using NXP or 3rd party shield boards. The boards feature a high speed USB debug probe based with easy firmware update options to support CMSIS-DSP or a special version of J-link LITE from SEGGER.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.nxp.com/part/MIMXRT1015-EVK">NXP</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 05 Jun 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/imxrt1015_evk/</guid>
+  </item><item>
+    <title>MIMXRT1020-EVK Eval Kit</title>
     <link>https://circuitpython.org/board/imxrt1020_evk/</link>
     <description><![CDATA[   
   
@@ -8105,14 +8125,54 @@ Install Arduino and learn some basic coding. We will provide online guides to co
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1020-evaluation-kit:MIMXRT1020-EVK">NXP</a></li>
+  <li><a href="https://www.nxp.com/part/MIMXRT1020-EVK">NXP</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Fri, 31 Jan 2020 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/imxrt1020_evk/</guid>
   </item><item>
-    <title>MIMXRT1060 Eval Kit</title>
+    <title>MIMXRT1040-EVK Eval Kit</title>
+    <link>https://circuitpython.org/board/imxrt1040_evk/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/imxrt1040_evk.jpg 300w,
+               /assets/images/boards/large/imxrt1040_evk.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/imxrt1040_evk.jpg" alt="Image of Board" loading="lazy">
+<p>By NXP</p> <p>i.MX RT evaluation boards provide a powerful, extendable platform or evaluation and prototyping using the MCUXpresso suite of software and tools. An Arduino UNO site is provided for expansion using NXP or 3rd party shield boards. The boards feature a high speed USB debug probe based with easy firmware update options to support CMSIS-DSP or a special version of J-link LITE from SEGGER.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.nxp.com/part/MIMXRT1040-EVK">NXP</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 05 Jun 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/imxrt1040_evk/</guid>
+  </item><item>
+    <title>MIMXRT1050-EVKB Eval Kit</title>
+    <link>https://circuitpython.org/board/imxrt1050_evkb/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/imxrt1050_evkb.jpg 300w,
+               /assets/images/boards/large/imxrt1050_evkb.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/imxrt1050_evkb.jpg" alt="Image of Board" loading="lazy">
+<p>By NXP</p> <p>i.MX RT evaluation boards provide a powerful, extendable platform or evaluation and prototyping using the MCUXpresso suite of software and tools. An Arduino UNO site is provided for expansion using NXP or 3rd party shield boards. The boards feature a high speed USB debug probe based with easy firmware update options to support CMSIS-DSP or a special version of J-link LITE from SEGGER.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.nxp.com/part/MIMXRT1060-EVKB">NXP</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 05 Jun 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/imxrt1050_evkb/</guid>
+  </item><item>
+    <title>MIMXRT1060-EVK Eval Kit</title>
     <link>https://circuitpython.org/board/imxrt1060_evk/</link>
     <description><![CDATA[   
   
@@ -8125,12 +8185,32 @@ Install Arduino and learn some basic coding. We will provide online guides to co
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1060-evaluation-kit:MIMXRT1060-EVK">NXP</a></li>
+  <li><a href="https://www.nxp.com/part/MIMXRT1060-EVK">NXP</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Fri, 31 Jan 2020 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/imxrt1060_evk/</guid>
+  </item><item>
+    <title>MIMXRT1060-EVKB Eval Kit</title>
+    <link>https://circuitpython.org/board/imxrt1060_evkb/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/imxrt1060_evk.jpg 300w,
+               /assets/images/boards/large/imxrt1060_evk.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/imxrt1060_evk.jpg" alt="Image of Board" loading="lazy">
+<p>By NXP</p> <p>i.MX RT evaluation boards provide a powerful, extendable platform or evaluation and prototyping using the MCUXpresso suite of software and tools. An Arduino UNO site is provided for expansion using NXP or 3rd party shield boards. The boards feature a high speed USB debug probe based with easy firmware update options to support CMSIS-DSP or a special version of J-link LITE from SEGGER.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.nxp.com/part/MIMXRT1060-EVKB">NXP</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 05 Jun 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/imxrt1060_evkb/</guid>
   </item><item>
     <title>ItsyBitsy M0 Express</title>
     <link>https://circuitpython.org/board/itsybitsy_m0_express/</link>
@@ -11722,6 +11802,91 @@ and <a href="https://hackaday.io/project/165032-pewpew-m4">Hackaday.io</a>.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 09 May 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/pimoroni_badger2040w/</guid>
+  </item><item>
+    <title>Inky Frame 5.7" (Pico W Aboard)</title>
+    <link>https://circuitpython.org/board/pimoroni_inky_frame_5_7/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/pimoroni_inky_frame_5_7.jpg 300w,
+               /assets/images/boards/large/pimoroni_inky_frame_5_7.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/pimoroni_inky_frame_5_7.jpg" alt="Image of Board" loading="lazy">
+<p>By Pimoroni</p> <p>A large Pico W powered E Ink® photo frame / home dashboard / life organiser with glorious seven colour display and wireless connectivity.</p>
+
+<p>Inky Frame 5.7” features a big <strong>seven colour E Ink display</strong> (which can also be found on <a href="https://shop.pimoroni.com/en-us/products/inky-impression-5-7">Inky Impression 5.7”</a>), with loads of space for displaying images, text, graphs or interfaces. There’s <strong>five buttons with LED indicators</strong> for interacting with the display, <strong>two Qw/ST connectors</strong> for plugging in breakouts and a <strong>micro SD card slot</strong> for all-important storage of cat photos.</p>
+
+<p>Every Inky Frame comes with a pair of sleek little <strong>metal legs</strong> so you can stand it up on your desk (and a selection of mounting holes if you’d prefer to do something else). There’s also a <strong>battery connector</strong> so you can power it without annoying trailing wires, and some <strong>neato power saving features</strong> that mean you can run it from batteries for ages.</p>
+
+<p>We’ve designed Inky Frame with organisation in mind, here are some things we reckon it would be really great for:</p>
+
+<ul>
+  <li>Checking your calendar and upcoming appointments at a glance!</li>
+  <li>Attaching to your office door to display your availability</li>
+  <li>Displaying motivational posters, quotes, or images (fungible or otherwise)</li>
+  <li>Showing cute graphs and readouts from local or wirelessly connected sensors.</li>
+</ul>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>
+    <p>Raspberry Pi Pico W Aboard</p>
+  </li>
+  <li>Dual Arm Cortex M0+ running at up to 133Mhz with 264kB of SRAM
+    <ul>
+      <li>2MB of QSPI flash supporting XiP</li>
+      <li>Powered and programmable by USB micro-B</li>
+      <li>2.4GHz wireless</li>
+    </ul>
+  </li>
+  <li>
+    <p>5.7” EPD display (600 x 448 pixels)</p>
+  </li>
+  <li>E Ink Gallery Palette™ 4000 ePaper
+    <ul>
+      <li>ACeP (Advanced Color ePaper) 7-color with black, white, red, green, blue, yellow, orange.</li>
+      <li>Ultra wide viewing angle – &gt;170°</li>
+      <li>Dot pitch – 0.1915 x 0.1915mm</li>
+    </ul>
+  </li>
+  <li>
+    <p>5 x tactile buttons with LED indicators</p>
+  </li>
+  <li>
+    <p>Two Qw/ST connectors for attaching breakouts</p>
+  </li>
+  <li>
+    <p>microSD card slot *</p>
+  </li>
+  <li>
+    <p>Dedicated RTC chip (PCF85063A) for deep sleep / wake **</p>
+  </li>
+  <li>
+    <p>Fully assembled</p>
+  </li>
+  <li>No soldering required.</li>
+</ul>
+
+<h2 id="about-pico-w-aboard">About Pico W Aboard</h2>
+
+<p>Our new Pico W Aboard products come with a <strong>built in Raspberry Pi Pico W</strong>. This means you get all the advantages of a RP2040 microcontroller - a speedy fast dual-core ARM processor, a dynamic, growing ecosystem and a choice of different programming methods to experiment with. Most excitingly though, Pico W has <strong>wireless connectivity</strong>, so your Pico/RP2040 devices can communicate with each other, and the internet</p>
+
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li><a href="https://cdn.shopify.com/s/files/1/0174/1800/files/inky_frame_5_7_schematic.pdf?v=1664452062">Schematics</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/inky-frame-5-7">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 05 Jun 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_inky_frame_5_7/</guid>
   </item><item>
     <title>Interstate 75</title>
     <link>https://circuitpython.org/board/pimoroni_interstate75/</link>
