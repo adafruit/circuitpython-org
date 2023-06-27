@@ -951,6 +951,18 @@
             }
         ]
     },
+    "unexpectedmaker_nanos3": {
+        "name": "Unexpected Maker NanoS3",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_nanos3-0.13.0.zip",
+        "releases": [
+            {
+                "version": "8.2.0-rc.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_nanos3/en_US/adafruit-circuitpython-unexpectedmaker_nanos3-en_US-8.2.0-rc.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_nanos3/en_US/adafruit-circuitpython-unexpectedmaker_nanos3-en_US-8.2.0-rc.1.uf2"
+            }
+        ]
+    },
     "m5stack_atom_lite": {
         "name": "ATOM Lite ESP32 IoT",
         "chipfamily": "esp32",
@@ -1766,6 +1778,29 @@
                 "version": "8.2.0-rc.1",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_tinys3/en_US/adafruit-circuitpython-unexpectedmaker_tinys3-en_US-8.2.0-rc.1.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_tinys3/en_US/adafruit-circuitpython-unexpectedmaker_tinys3-en_US-8.2.0-rc.1.uf2"
+            }
+        ]
+    },
+    "adafruit_matrixportal_s3": {
+        "name": "MatrixPortal S3",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_matrixportal_s3-0.13.0.zip",
+        "releases": [
+            {
+                "version": "8.2.0-rc.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/adafruit_matrixportal_s3/en_US/adafruit-circuitpython-adafruit_matrixportal_s3-en_US-8.2.0-rc.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/adafruit_matrixportal_s3/en_US/adafruit-circuitpython-adafruit_matrixportal_s3-en_US-8.2.0-rc.1.uf2"
+            }
+        ]
+    },
+    "smartbeedesigns_bee_data_logger": {
+        "name": "Bee Data Logger",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "8.2.0-rc.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/smartbeedesigns_bee_data_logger/en_US/adafruit-circuitpython-smartbeedesigns_bee_data_logger-en_US-8.2.0-rc.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/smartbeedesigns_bee_data_logger/en_US/adafruit-circuitpython-smartbeedesigns_bee_data_logger-en_US-8.2.0-rc.1.uf2"
             }
         ]
     },

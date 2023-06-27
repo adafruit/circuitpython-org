@@ -19,7 +19,7 @@
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
 <title>Feather RP2040 Prop-Maker Download</title>
-<meta name="description" content="Coming Soon" />
+<meta name="description" content="The Adafruit Feather series gives you lots of options for a small, portable, rechargeable microcontroller board. By picking a feather and stacking on a Feath..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:description" content="Coming Soon" />
+<meta property="og:description" content="The Adafruit Feather series gives you lots of options for a small, portable, rechargeable microcontroller board. By picking a feather and stacking on a FeatherWing you can create advanced projects quickly. One popular combo is our Feather M4 or Feather RP2040 with a Prop-Maker FeatherWing on top ..." />
 
 
 
@@ -152,8 +152,59 @@
         
         <img src="/assets/images/boards/large/adafruit_feather_rp2040_prop_maker.jpg" alt="Image of Board">
         <p>
-          <p>Coming Soon</p>
+          <p>The Adafruit Feather series gives you lots of options for a small, portable, rechargeable microcontroller board. By picking a feather and stacking on a FeatherWing you can create advanced projects quickly. One popular combo is our <a href="https://www.adafruit.com/product/3857">Feather M4</a> or <a href="https://www.adafruit.com/product/4884">Feather RP2040</a> with a <a href="https://www.adafruit.com/product/3988">Prop-Maker FeatherWing</a> on top to create animatronics or props that boot up instantly and can drive LEDs, and small speakers.</p>
 
+<p>We’ve used the <a href="https://www.adafruit.com/product/3988">Prop-Maker FeatherWing</a> to make lots of lil robots, swords, and other prop projects. However, what if we made it <em>even easier</em> for people to make props? What if we made it so many projects can be built with minimal or no soldering at all? Yeah that would be pretty nice!</p>
+
+<p>Thus, the creation of the <strong>Adafruit RP2040 Prop-Maker Feather</strong>: an all-in-one combination of the <a href="https://www.adafruit.com/product/4884">Feather RP2040</a> with a <a href="https://www.adafruit.com/product/3988">Prop-Maker FeatherWing</a> with a few tweaks based on feedback from expert prop-builders. Perfect for fitting into your next prop build! This Feather will <a href="https://en.wikipedia.org/wiki/Imagineering">unlock the ‘Imagineer’ inside all of us</a>, with tons of stuff packed in to make sabers &amp; swords, props, toys, mini robots, cosplay pieces, and more.</p>
+
+<p>We looked at hundreds of prop builds, and thought about what would make for a great low-cost (but well-designed) add-on for our Feather boards. Here’s what we came up with:</p>
+
+<ul>
+  <li><strong>Terminal Block NeoPixel Port -</strong> With easy-to-use screw terminals you can quickly connect and disconnect your NeoPixel strips and rings. This port provides high current drive from either the Feather Lipoly or USB port, whichever is higher. A 5V level up-shifter gives you a clean voltage signal to reduce glitchiness no matter what LED chip you’re using. You can also cut power to the entire strip instantly to reduce quiescent power, thanks to a separate control transistor. <a href="https://www.adafruit.com/category/168">Works with any and all NeoPixels</a> (SK6812 / WS2812 family)</li>
+  <li><strong>MAX98357 I2S 3 Watt Class D Audio Amplifier</strong> - Drive any 4-8Ω speaker, up to 3 Watts, for sound effects. Audio comes out on two of the terminal blocks so you can screw in any wires to a speaker you like - <a href="https://www.adafruit.com/product/3968">we’re partial to this small 3W speaker</a> or <a href="https://www.adafruit.com/product/4445">this enclosed style 3W speaker</a>, both come with pre-attached wires. <a href="https://www.adafruit.com/product/3006">Thanks to the I2S digital inputs</a>, you’ll get excellent audio quality</li>
+  <li><strong>Triple-Axis Accelerometer with Tap Detection</strong> - The LIS3DH is our favorite accelerometer, you can use this for detection motion, tilt, or taps. <a href="https://learn.adafruit.com/hallowing-lightsaber">Here’s an example of a lightsaber that makes sounds when swung or hit.</a> We have code for this chip in both Arduino and CircuitPython.</li>
+  <li><strong>Extra Button or Output Pin</strong> - One more pin on the terminal screw block can be used for button input or digital output, for activation or a simple LED.</li>
+  <li><strong>Servo Connection</strong> - <a href="https://www.adafruit.com/search?q=servo">Plug any hobby servo with 3 wires</a> into the 0.1” spaced header, and you can have quick motion control.</li>
+  <li><strong>Low power mode!</strong> The power system for the NeoPixels and speaker amplifier can be controlled by a pin to cut power to them, so you have lower power usage when the prop is in sleep or off mode (but can wake up fast by listening to the button press or accelerometer data).</li>
+</ul>
+
+<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the <a href="https://www.adafruit.com/product/4864">Raspberry Pi Pico</a>. This chip has a whopping 8 MB of onboard QSPI FLASH and 264K of RAM! There’s even room left over for a STEMMA QT connector for plug-and-play of I2C devices.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available.</p>
+
+<p><strong>Here’re some handy specs! You get:</strong></p>
+
+<ul>
+  <li>Measures 52.1mm x 22.8mm x 12.2mm / 2.1” x 0.9” x 0.5 without headers soldered in</li>
+  <li>Light as a (large?) feather - ~7grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li><strong>8 MB SPI FLASH</strong> chip for storing files, images, and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:
+    <ul>
+      <li><strong>Four</strong> 12-bit ADCs (one more than Pico)</li>
+      <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+    </ul>
+  </li>
+  <li><strong>Built-in 200mA+ lipoly charger</strong> with charging status indicator LED</li>
+  <li><strong>Pin #13 red LED</strong> for general purpose blinking</li>
+  <li><strong>RGB NeoPixel</strong> for full-color indication.</li>
+  <li>On-board <strong>STEMMA QT connector</strong> that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li><strong>Both Reset button and Bootloader select button for quick restarts</strong> (no unplugging-replugging to relaunch code)</li>
+  <li><strong>USB Type C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3V regulator with 500mA peak current output and power enable pin</li>
+  <li>4 mounting holes</li>
+  <li>12 MHz crystal for perfect timing.</li>
+  <li><strong>Prop-Making section with I2S 3W audio amplifier, 5V NeoPixel level shifting, accelerometer, servo port, and terminal blocks for fast solder-free connections.</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5768">Adafruit</a></li>
+</ul>
 
         </p>
         <h2>Contribute</h2>
