@@ -287,7 +287,12 @@ By the way, boolean operation precedence is right to left! (yeesh)
 
   {% if page.family == 'nrf52840' %}
   <p>
-    To update the bootloader on an nRF board, refer to the "Update Bootloader" page in the guide for
+    <b>On nRF boards, CircuitPython 8.2.0 and later require bootloader version 0.6.1 or later.
+      Older bootloaders cannot load the firmware.
+    To check the version of your board's bootloader,
+      look at <i>INFO_UF2.TXT</i> when the <i>BOOT</i> drive is present.
+    </b>
+    To update the bootloader, refer to the "Update Bootloader" page in the guide for
     your board, or start with
     <a href="https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/update-bootloader">this page</a>.
   </p>
