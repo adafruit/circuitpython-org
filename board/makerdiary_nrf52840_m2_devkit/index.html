@@ -773,9 +773,14 @@
 
   
   <p>
-    Updating the bootloader on nRF52840 boards is an involved process right now.
-    Follow the instructions in this
-    <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/blob/master/README.md">README</a>.
+    <b>On nRF boards, CircuitPython 8.2.0 and later require bootloader version 0.6.1 or later.
+      Older bootloaders cannot load the firmware.
+    To check the version of your board's bootloader,
+      look at <i>INFO_UF2.TXT</i> when the <i>BOOT</i> drive is present.
+    </b>
+    To update the bootloader, refer to the "Update Bootloader" page in the guide for
+    your board, or start with
+    <a href="https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/update-bootloader">this page</a>.
   </p>
   <p>
     After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
