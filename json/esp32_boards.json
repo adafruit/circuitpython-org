@@ -1373,6 +1373,12 @@
             }
         ]
     },
+    "adafruit_qtpy_esp32s3_4mbflash_2mbpsram": {
+        "name": "Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_qtpy_esp32s3_n4r2-0.13.0.zip",
+        "releases": []
+    },
     "doit_esp32_devkit_v1": {
         "name": "DOIT ESP32 Development Board",
         "chipfamily": "esp32",
