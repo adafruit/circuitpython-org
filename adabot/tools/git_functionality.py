@@ -132,11 +132,9 @@ def sync_commit_push(
     """
 
     def decorator_sync_commit_push(func):
-
         functools.wraps(func)
 
         def wrapper_sync_commit_push(lib_path: StrPath, *args, **kwargs) -> Any:
-
             # Fetch and pull to repo
             sync_and_checkout(lib_path, remote_name, branch_name)
 

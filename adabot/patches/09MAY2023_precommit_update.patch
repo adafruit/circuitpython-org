@@ -1,0 +1,42 @@
+From a70dfa8cd8a37dbd5674a4efd0ace8597dc44be5 Mon Sep 17 00:00:00 2001
+From: Tekktrik <tekktrik@gmail.com>
+Date: Tue, 9 May 2023 20:26:25 -0400
+Subject: [PATCH] Update pre-commit hooks
+
+---
+ .pre-commit-config.yaml | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index 0e5fccc..70ade69 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -4,21 +4,21 @@
+ 
+ repos:
+   - repo: https://github.com/python/black
+-    rev: 22.3.0
++    rev: 23.3.0
+     hooks:
+       - id: black
+   - repo: https://github.com/fsfe/reuse-tool
+-    rev: v0.14.0
++    rev: v1.1.2
+     hooks:
+       - id: reuse
+   - repo: https://github.com/pre-commit/pre-commit-hooks
+-    rev: v4.2.0
++    rev: v4.4.0
+     hooks:
+       - id: check-yaml
+       - id: end-of-file-fixer
+       - id: trailing-whitespace
+   - repo: https://github.com/pycqa/pylint
+-    rev: v2.15.5
++    rev: v2.17.4
+     hooks:
+       - id: pylint
+         name: pylint (library code)
+-- 
+2.40.0
+

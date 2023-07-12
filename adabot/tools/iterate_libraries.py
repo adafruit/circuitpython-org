@@ -16,8 +16,9 @@ Bundle to run functions on each library
 
 import os
 import glob
+import pathlib
 from collections.abc import Sequence, Iterable
-from typing import TypeVar
+from typing import TypeVar, Any, Union, List
 from typing_extensions import TypeAlias
 import parse
 from github import Github
@@ -65,9 +66,25 @@ function(s)"""
 _BUNDLE_BRANCHES = ("drivers", "helpers")
 
 
+def perform_func(
+    item: Any,
+    func_workflow: Union[RemoteLibFunc_IterInstruction, LocalLibFunc_IterInstruction],
+) -> Union[List[RemoteLibFunc_IterResult], List[LocalLibFunc_IterResult]]:
+    """
+    Perform the given function
+    """
+    func_results = []
+    for func, args, kwargs in func_workflow:
+        result = func(item, *args, **kwargs)
+        func_results.append(result)
+    return func_results
+
+
 def iter_local_bundle_with_func(
     bundle_path: StrPath,
     func_workflow: Iterable[LocalLibFunc_IterInstruction],
+    *,
+    local_folder: str = "",
 ) -> list[LocalLibFunc_IterResult]:
     """Iterate through the libraries and run a given function with the
     provided arguments
@@ -85,29 +102,40 @@ def iter_local_bundle_with_func(
     # Initialize list of results
     results = []
 
+    # Keep track of all libraries iterated
+    iterated = set()
+
     # Loop through each bundle branch
     for branch_name in _BUNDLE_BRANCHES:
-
         libraries_glob_path = os.path.join(bundle_path, "libraries", branch_name, "*")
         libraries_path_list = glob.glob(libraries_glob_path)
 
         # Enter each library in the bundle
         for library_path in libraries_path_list:
-
-            func_results = []
-
-            for func, args, kwargs in func_workflow:
-                result = func(library_path, *args, **kwargs)
-                func_results.append(result)
+            iterated.add(os.path.split(library_path)[1].lower())
+            func_results = perform_func(library_path, func_workflow)
 
             results.append((library_path, func_results))
+
+    if local_folder:
+        additional = {
+            os.path.split(pathname)[1].lower()
+            for pathname in glob.glob(os.path.join(local_folder, "*"))
+        }
+        diff = additional.difference(iterated)
+        for unused in diff:
+            unused_func_results = perform_func(unused, func_workflow)
+            results.append((unused, unused_func_results))
 
     return results
 
 
 # pylint: disable=too-many-locals
 def iter_remote_bundle_with_func(
-    gh_token: str, func_workflow: RemoteLibFunc_IterInstruction
+    gh_token: str,
+    func_workflow: RemoteLibFunc_IterInstruction,
+    *,
+    local_folder: str = "",
 ) -> list[RemoteLibFunc_IterResult]:
     """Iterate through the remote bundle, accessing each library's git repo
     using the GitHub RESTful API (specifically using ``PyGithub``)
@@ -129,28 +157,35 @@ def iter_remote_bundle_with_func(
     # Initialize list of results
     results = []
 
+    # Keep track of all libraries iterated
+    iterated = set()
+
     # Loop through each bundle branch
     for branch_name in _BUNDLE_BRANCHES:
-
         branch_repos_path = "/".join(("libraries", branch_name))
         branch_repos: list[ContentFile] = bundle_repo.get_contents(branch_repos_path)
 
         # Enter each library in the bundle
         for repo_file in branch_repos:
-
             repo_name_result: parse.Result = parse.search(
                 "repos/adafruit/{repo_name:w}/", repo_file.git_url
             )
             repo_name: str = repo_name_result.named["repo_name"]
 
             repo = github_client.get_repo(f"adafruit/{repo_name}")
+            iterated.add(repo_name.lower())
 
-            func_results = []
-
-            for func, args, kwargs in func_workflow:
-                result = func(repo, *args, **kwargs)
-                func_results.append(result)
-
+            func_results = perform_func(repo, func_workflow)
             results.append((repo, func_results))
+
+    if local_folder:
+        additional = {
+            path.name.lower() for path in pathlib.Path(local_folder).glob("*")
+        }
+        diff = additional.difference(iterated)
+        for unused in diff:
+            unused_repo = github_client.get_repo(f"adafruit/{unused}")
+            unused_func_results = perform_func(unused_repo, func_workflow)
+            results.append((unused_repo, unused_func_results))
 
     return results

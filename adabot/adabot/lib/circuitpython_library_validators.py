@@ -198,6 +198,7 @@ def uses_token(func):
     return func
 
 
+# pylint: disable=too-many-instance-attributes
 class LibraryValidator:
     """Class to hold instance variables needed to traverse the calling
     code, and the validator functions.
@@ -367,7 +368,6 @@ class LibraryValidator:
                 ".pre-commit-config.yaml",
                 ".pylintrc",
                 ".gitignore",
-                "CODE_OF_CONDUCT.md",
                 "README.rst",
                 "pyproject.toml",
             }
@@ -414,7 +414,6 @@ class LibraryValidator:
         compare_tags_json = compare_tags.json()
         if "status" in compare_tags_json:
             if compare_tags_json["status"] != "identical":
-
                 filtered_files = _filter_file_diffs(
                     [file["filename"] for file in compare_tags_json.get("files")]
                 )
@@ -1140,9 +1139,14 @@ class LibraryValidator:
             if days_open.days < 0:  # opened earlier today
                 days_open += datetime.timedelta(days=(days_open.days * -1))
             if "pull_request" in issue:
+                pull_request = gh_reqs.get(
+                    f"/repos/{repo['full_name']}/pulls/{issue['number']}"
+                ).json()
                 pr_link = "{0} (Open {1} days)".format(
                     issue["pull_request"]["html_url"], days_open.days
                 )
+                if pull_request["draft"]:
+                    pr_link += " (draft)"
                 insights["open_prs"].append(pr_link)
             else:
                 issue_link = "{0} (Open {1} days)".format(

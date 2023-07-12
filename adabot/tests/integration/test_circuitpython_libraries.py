@@ -12,6 +12,7 @@ from adabot import circuitpython_libraries
 
 from adabot.lib import circuitpython_library_validators
 
+
 # pylint: disable=unused-argument
 def mock_list_repos(*args, **kwargs):
     """Function to monkeypatch `common_funcs.list_repos()` for a shorter set of repos."""

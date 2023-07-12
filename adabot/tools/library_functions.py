@@ -24,6 +24,7 @@ from github.Repository import Repository
 StrPath: TypeAlias = Union[str, os.PathLike[str]]
 """Path or path-like strings"""
 
+
 # pylint: disable=too-few-public-methods
 class LocalLibFunc(Protocol):
     """Typing protocol for methods (or callables) that take the following
@@ -65,7 +66,6 @@ def in_lib_path(func: LocalLibFunc) -> LocalLibFunc:
 
     @functools.wraps(func)
     def wrapper_use_lib_path(lib_path: StrPath, *args, **kwargs) -> Any:
-
         # Get the current directory
         current_path = os.getcwd()
 

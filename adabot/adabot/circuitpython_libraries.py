@@ -12,7 +12,10 @@ import logging
 import os
 import re
 import sys
+import time
 import traceback
+
+import github as pygithub
 
 from adabot import github_requests as gh_reqs
 from adabot import pypi_requests as pypi
@@ -20,7 +23,10 @@ from adabot.lib import circuitpython_library_validators as cirpy_lib_vals
 from adabot.lib import common_funcs
 from adabot.lib import assign_hacktober_label as hacktober
 from adabot.lib import blinka_funcs
+from adabot.lib import bundle_announcer
 from adabot import circuitpython_library_download_stats as dl_stats
+
+GH_INTERFACE = pygithub.Github(os.environ.get("ADABOT_GITHUB_ACCESS_TOKEN"))
 
 logger = logging.getLogger(__name__)
 ch = logging.StreamHandler(stream=sys.stdout)
@@ -87,6 +93,7 @@ blinka_repos = [
     "Adafruit_Python_Extended_Bus",
 ]
 
+
 # pylint: disable=too-many-locals, too-many-branches, too-many-statements
 def run_library_checks(validators, kw_args, error_depth):
     """runs the various library checking functions"""
@@ -118,8 +125,6 @@ def run_library_checks(validators, kw_args, error_depth):
     repo_needs_work = []
     since = datetime.datetime.now() - datetime.timedelta(days=7)
     repos_by_error = {}
-    new_libs = {}
-    updated_libs = {}
 
     validator = cirpy_lib_vals.LibraryValidator(
         validators, bundle_submodules, latest_pylint, **kw_args
@@ -166,14 +171,6 @@ def run_library_checks(validators, kw_args, error_depth):
                     logger.info(", ".join(validator.output_file_data))
                     validator.output_file_data.clear()
 
-        # get a list of new & updated libraries for the last week
-        if repo["name"] != "Adafruit_CircuitPython_Bundle":
-            check_releases = common_funcs.is_new_or_updated(repo)
-            if check_releases == "new":
-                new_libs[repo["name"]] = repo["html_url"]
-            elif check_releases == "updated":
-                updated_libs[repo["name"]] = repo["html_url"]
-
     logger.info("")
     logger.info("State of CircuitPython + Libraries + Blinka")
 
@@ -212,7 +209,7 @@ def run_library_checks(validators, kw_args, error_depth):
         item for item in no_milestone_items if "pull_request" not in item
     ]
     logger.info(
-        "  * %s issues not assigned a milestone",
+        " * %s issues not assigned a milestone",
         len(no_milestone_issues),
     )
     logger.info("")
@@ -221,28 +218,51 @@ def run_library_checks(validators, kw_args, error_depth):
     #  - GitHub API has been broken, due to the number of release artifacts
     #  - Release asset delivery is being moved to AWS CloudFront/S3
     # print_circuitpython_dl_stats()
-    logger.info("* Core download stats available at https://circuitpython.org/stats")
-
-    logger.info("")
 
     # Get PyPI stats
-    if os.environ.get("BIGQUERY_PRIVATE_KEY") and os.environ["BIGQUERY_CLIENT_EMAIL"]:
-        pypi_stats = dl_stats.retrieve_pypi_stats(repos)
-        library_pypi_names = [
-            repo["name"].replace("_", "-").lower() for repo in common_funcs.list_repos()
-        ]
-        library_pypi_stats = []
-        blinka_pypi_stats = None
-        total_library_pypi_stats = 0
-        for stat in pypi_stats:
-            if stat.name == "adafruit-blinka":
-                blinka_pypi_stats = stat
-            if stat.name in library_pypi_names:
-                library_pypi_stats.append(stat)
-            total_library_pypi_stats += stat.num_downloads
-        top_library_pypi_stats = library_pypi_stats[:10]
-    else:
-        pypi_stats = None
+    have_secrets = False
+    while True:
+        try:
+            ada_bundle = GH_INTERFACE.get_repo("adafruit/Adafruit_CircuitPython_Bundle")
+            file_contents = ada_bundle.get_contents(
+                "circuitpython_library_pypi_stats.md"
+            )
+            stats_contents = file_contents.decoded_content.decode("utf-8").split("\n")
+            lib_stats = {}
+            total_library_pypi_stats = 0
+            blinka_pypi_downloads = 0
+            in_lib_stats = False
+            for line in stats_contents:
+                line = line.strip()
+                if not line:
+                    continue
+                if line.startswith("| Adafruit Blinka (adafruit-blinka) |"):
+                    blinka_pypi_downloads = int(line[38:-2])
+                    continue
+                if line.startswith(
+                    "**Total PyPI library downloads in the last 7 days:"
+                ):
+                    total_library_pypi_stats = int(line[51:-2])
+                    continue
+                if line.startswith("|"):
+                    parts = [part.strip() for part in line.split("|") if part.strip()]
+                    if parts[0] in ("Library (PyPI Package)", "---"):
+                        in_lib_stats = True
+                        continue
+                    if in_lib_stats:
+                        lib_stats[parts[0]] = int(parts[1][:-10])
+                else:
+                    in_lib_stats = False
+            have_secrets = True
+            break
+        except pygithub.RateLimitExceededException:
+            core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
+            sleep_time = core_rate_limit_reset - datetime.datetime.now()
+            logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
+            time.sleep(sleep_time.seconds)
+            continue
+        except pygithub.GithubException:
+            break
 
     logger.info("### Libraries")
     print_pr_overview(lib_insights)
@@ -277,38 +297,47 @@ def run_library_checks(validators, kw_args, error_depth):
 
     logger.info("")
     logger.info("#### Library PyPI Weekly Download Stats")
-    if pypi_stats:
+    # if pypi_stats:
+    if have_secrets:
         logger.info("* **Total Library Stats**")
         logger.info(
             "  * %d PyPI downloads over %d libraries",
             total_library_pypi_stats,
-            len(library_pypi_names),
+            len(lib_stats),
         )
         logger.info("* **Top 10 Libraries by PyPI Downloads**")
-        for lib_stat in top_library_pypi_stats:
+        for index, (lib_stat_name, lib_stat_dl) in enumerate(lib_stats.items()):
+            if index == 10:
+                break
             logger.info(
                 "  * %s: %d",
-                lib_stat.name,
-                lib_stat.num_downloads,
+                lib_stat_name,
+                lib_stat_dl,
             )
     else:
         logger.info(
-            "*This info is not printed because the cron is unable to access secrets.*"
+            "Secrets unavailable, cannot report PyPI download stats for libraries"
         )
-        logger.info(
-            "*This is expected if this was run as part of the CI for a pull request.*"
-        )
+        logger.info("*This is normal for CI runs from PRs*")
+
+    new_libs, updated_libs = bundle_announcer.get_adafruit_bundle_updates()
+    (
+        new_community_libs,
+        updated_community_libs,
+    ) = bundle_announcer.get_community_bundle_updates()
 
     logger.info("")
     logger.info("#### Library updates in the last seven days:")
-    if len(new_libs) != 0:
+    if new_libs or new_community_libs:
         logger.info("* **New Libraries**")
-        for title, link in new_libs.items():
-            logger.info("  * [%s](%s)", title, link)
-    if len(updated_libs) != 0:
+        for new_lib_category in (new_libs, new_community_libs):
+            for title, link in new_lib_category:
+                logger.info("  * [%s](%s)", title, link)
+    if updated_libs or updated_community_libs:
         logger.info("* **Updated Libraries**")
-        for title, link in updated_libs.items():
-            logger.info("  * [%s](%s)", title, link)
+        for updated_lib_category in (updated_libs, updated_community_libs):
+            for title, link in updated_lib_category:
+                logger.info("  * [%s](%s)", title, link)
 
     if len(validators) != 0:
         lib_repos = []
@@ -352,15 +381,14 @@ def run_library_checks(validators, kw_args, error_depth):
         .get("adafruit-blinka", {})
         .get("month", "N/A")
     )
-    if pypi_stats:
+    if have_secrets:
         logger.info(
             "* PyPI downloads in the last week: %d",
-            blinka_pypi_stats.num_downloads,
+            blinka_pypi_downloads,
         )
     else:
-        logger.info(
-            "* PyPI download stats unavailable - this is normal for CI runs triggered by PRs"
-        )
+        logger.info("Secrets unavailable, cannot report PyPI download stats for Blinka")
+        logger.info("*This is normal for CI runs from PRs*")
     logger.info("* Piwheels Downloads in the last month: %s", blinka_dl)
     logger.info("Number of supported boards: %s", blinka_funcs.board_count())
 

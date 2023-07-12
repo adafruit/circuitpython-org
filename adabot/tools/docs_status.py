@@ -106,7 +106,6 @@ def check_docs_statuses(
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser(
         description="Check the RTD docs build status of the Bundle libraries"
     )

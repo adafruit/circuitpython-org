@@ -83,7 +83,6 @@ def compare(git_file: str, token: Optional[str] = None) -> list:
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser(
         description="Compare files across the adafruit CircuitPython repos",
     )

@@ -12,6 +12,7 @@ from adabot.lib import common_funcs
 from adabot import github_requests
 from adabot import update_cp_org_libraries
 
+
 # pylint: disable=unused-argument
 def mock_list_repos(*args, **kwargs):
     """Function to monkeypatch `common_funcs.list_repos()` for a shorter set of repos."""
