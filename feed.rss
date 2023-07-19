@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 19 Jul 2023 06:03:34 -0400</lastBuildDate>
+<lastBuildDate>Wed, 19 Jul 2023 13:33:09 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -14275,25 +14275,23 @@ for developing energy-friendly connected IoT applications.</p>
     <link>https://circuitpython.org/board/smartbeedesigns_bee_data_logger/</link>
     <description><![CDATA[   
   
-  <img srcset="/assets/images/boards/small/smartbeedesigns_bee_data_logger.jpg 300w,
-               /assets/images/boards/large/smartbeedesigns_bee_data_logger.jpg 700w"
+  <img srcset="/assets/images/boards/small/smartbeedesigns_bee-data-logger.jpg 300w,
+               /assets/images/boards/large/smartbeedesigns_bee-data-logger.jpg 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="/assets/images/boards/large/smartbeedesigns_bee_data_logger.jpg" alt="Image of Board" loading="lazy">
-<p>By Smart Bee Designs</p> <p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p>
-
-<p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p>
+       src="/assets/images/boards/large/smartbeedesigns_bee-data-logger.jpg" alt="Image of Board" loading="lazy">
+<p>By Smart Bee Designs</p> <p>This is a ESP32-S3 data logger board with built in RTC and SD card reader as well as two QWIIC connectors, RGB LED, lipo charging circuit and voltage dividers.</p>
 
 <h2 id="learn-more">Learn More</h2>
 
 <ul>
-  <li><a href="http://github.com/strid3r21/Bee-Data-Logger/">GitHub</a></li>
+  <li><a href="https://github.com/strid3r21/Bee-Data-Logger">GitHub</a></li>
   <li><a href="https://www.smartbeedesigns.com">Website</a></li>
   <li><a href="https://www.instagram.com/smartbeedesigns/">Instagram</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
-    <pubDate>Mon, 26 Jun 2023 00:00:00 -0400</pubDate>
+    <pubDate>Mon, 12 Jun 2023 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/smartbeedesigns_bee_data_logger/</guid>
   </item><item>
     <title>Bee Motion S3</title>
