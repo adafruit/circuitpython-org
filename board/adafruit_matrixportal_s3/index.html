@@ -19,7 +19,7 @@
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
 <title> MatrixPortal S3 Download</title>
-<meta name="description" content="Coming Soon" />
+<meta name="description" content="Folks love our wide selection of RGB matrices and accessories for making custom colorful LED displays… and our RGB Matrix Shields and FeatherWings can be qui..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
@@ -29,7 +29,7 @@
 
 
 
-<meta property="og:description" content="Coming Soon" />
+<meta property="og:description" content="Folks love our wide selection of RGB matrices and accessories for making custom colorful LED displays… and our RGB Matrix Shields and FeatherWings can be quickly soldered together to make the wiring much easier. But what if we made it even easier than that? Like, no solder, no wiring, just instan..." />
 
 
 
@@ -152,7 +152,45 @@
         
         <img src="/assets/images/boards/large/adafruit_matrixportal_s3.jpg" alt="Image of Board">
         <p>
-          <p>Coming Soon</p>
+          <p>Folks love our <a href="https://www.adafruit.com/category/327">wide selection of RGB matrices</a> and accessories for making custom colorful LED displays… and our RGB Matrix Shields and FeatherWings can be quickly soldered together to make the wiring much easier. But what if we made it <em>even easier</em> than that? <strong>Like, no solder, no wiring, just instant plug-and-play?</strong> Dream no more - with the <strong>Adafruit Matrix Portal S3 add-on for RGB Matrices</strong>, there’s never been an easier way to create powerful Internet-connected LED displays.</p>
+
+<p>You can plug directly into the back of <a href="https://www.adafruit.com/category/327">any HUB-75 compatible display (all the ones we stock will work) from 16x32 up to 64x64</a> or use the stock 2x8 IDC cables to plug into the front. Use the included screws to attach the power cable to the power plugs with a common screwdriver, then power it with any USB C power supply. Chain dozens of displays for long stretches, or you can panelize them in a grid for bigger displays. For larger projects, power the matrices with a separate 5V power adapter.</p>
+
+<p>Then code up your project in <a href="https://learn.adafruit.com/rgb-led-matrices-matrix-panels-with-circuitpython">CircuitPython</a> or <a href="https://learn.adafruit.com/adafruit-protomatter-rgb-matrix-library">Arduino</a>, our Protomatter matrix library works great on the ESP32-S3 chipset, knowing that you’ve got the wiring and level shifting all handled. Here’s what you get:</p>
+
+<ul>
+  <li><strong>ESP32-S3 processor</strong>, 8 MB flash, 2 MB of SRAM, with full Arduino or CircuitPython support</li>
+  <li><strong>WiFi and Bluetooth LE</strong> baked right in, full Arduino support. CircuitPython only supports WiFi at this time, not BLE on the S3 chip.</li>
+  <li><strong>USB Type C</strong> connector for data and power connectivity</li>
+  <li><a href="https://www.adafruit.com/category/620"><strong>I2C STEMMA QT connector</strong> for plug-n-play use of any of our STEMMA QT devices or sensors</a> can also be used with <a href="https://www.adafruit.com/product/4528">any Grove I2C devices using this adapter cable</a></li>
+  <li><strong>JST 3-pin connector</strong> that also has analog input <a href="https://www.adafruit.com/search?q=jst+2mm">for quick connection with any JST PH 2.0mm pitch cable</a>.</li>
+  <li><strong>LIS3DH accelerometer</strong> for digital sand projects or detecting taps/orientation.</li>
+  <li><strong>GPIO breakout strip -</strong> has reset, boot selection, TX debug output, and 6 GPIO including 4 analog inputs with PWM, SPI, or I2S support for adding other hardware.</li>
+  <li><strong>Address E line jumper</strong> for use with 64x64 matrices (check your matrix to see which pin is used for address E, we default to pin 8</li>
+  <li><strong>Two user interface buttons</strong> + one reset button</li>
+  <li><strong>Indicator NeoPixel</strong> and red LED</li>
+  <li><strong>Green power indicator LEDs</strong> for both 3V and 5V power</li>
+  <li><strong>2x10 socket connector</strong> fits snugly into 2x8 HUB75 ports without worrying about ‘off by one’ errors</li>
+  <li><strong>2x8 IDC plug connector</strong> works with standard cables that come with matrices.</li>
+</ul>
+
+<p>The Matrix Portal uses an Espressif ESP32-S3 Wi-Fi+BLE chipset, and has dropped the SAMD51 from the original Matrix Portal due to silicon shortages. But turns out the S3 is really great at doing all the work of the original all on its own:</p>
+
+<ul>
+  <li>The S3 has a parallel output drive peripheral which means that controlling the matrix is done without bitbanging.</li>
+  <li>The S3 has two cores so one can be dedicated to WiFi networking or matrix control while the other runs your code.</li>
+  <li>With native USB, its easy to have it act like a keyboard, or mouse, or MIDI device and it also has plenty of I2C, SPI, I2S, UART and analog inputs.</li>
+  <li>Lots of memory: 8MB of Flash means plenty of space for code, files, GIFs and more. 2MB of PSRAM means you can read and parse a lot of IoT data and still have plenty of RAM for the matrix display buffers.</li>
+  <li>The only real thing missing from the original Matrix Portal is the S3 does not have an analog output DAC pin, we recommend an I2S amplifier for audio instead.</li>
+</ul>
+
+<p>Comes with one fully programmed and assembled MatrixPortal, preprogrammed with a basic display demo for 32x64 LED matrices.</p>
+
+<h2 id="purchase">Purchase:</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5778">Adafruit</a></li>
+</ul>
 
         </p>
         <h2>Contribute</h2>
