@@ -73,4 +73,5 @@ jobs:
           publish_dir: ./build
           cname: circuitpython.org
           user_name: ${{ secrets.ADABOT_GITHUB_USER }}
+          user_email: ${{ secrets.ADABOT_GITHUB_EMAIL }}
       if: github.event_name != 'pull_request'
