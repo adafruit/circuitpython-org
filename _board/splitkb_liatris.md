@@ -38,4 +38,4 @@ The default settings are right for most people out of the gate. For those who de
 
 ## Purchase
 
-* [Adafruit](https://splitkb.com/products/liatris)
+* [SplitKB](https://splitkb.com/products/liatris)
