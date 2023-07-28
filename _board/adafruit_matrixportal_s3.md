@@ -9,6 +9,8 @@ board_image: "adafruit_matrixportal_s3.jpg"
 date_added: 2023-6-26
 family: esp32s3
 bootloader_id: adafruit_matrixportal_s3
+tags:
+  - Matrix Portal
 features:
   - External Display
   - Wi-Fi
