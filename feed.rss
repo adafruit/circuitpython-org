@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 28 Jul 2023 06:03:57 -0400</lastBuildDate>
+<lastBuildDate>Fri, 28 Jul 2023 12:18:47 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -11469,6 +11469,61 @@ The badge will be given to all attendees of the Open Hardware Summit!</p>
     <category>CircuitPython</category>
     <pubDate>Wed, 29 Apr 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/openmv_h7/</guid>
+  </item><item>
+    <title>Pajenicko Picopad</title>
+    <link>https://circuitpython.org/board/pajenicko_picopad/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/pajenicko_picopad.jpg 300w,
+               /assets/images/boards/large/pajenicko_picopad.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/pajenicko_picopad.jpg" alt="Image of Board" loading="lazy">
+<p>By Pajenicko s.r.o.</p> <p>Picopad is an <strong>open-source DIY gaming console kit</strong> for young tech enthusiasts. It utilizes a Raspberry Pi Pico module and features a 2” 240x320 IPS display, speaker, LED, buttons, and a microSD slot. Picopad supports programming in C, MicroPython and CircuitPython, enabling users to learn coding skills. The kit contains all necessary components to assemble the console. Picopad promotes STEM education through electronics and programming. It has an external connector for expansions. The Picopad Wifi variant adds wireless connectivity with Wifi 802.11n 2.4GHz (WPA3 security) and Bluetooth 5.2. Games and software are open source to enable customization. Picopad enables hands-on learning of electronics and programming in an engaging gaming platform. There are 16 classic games including Pacman, Tetris, Snake, and more available in the <a href="https://github.com/Pajenicko/Picopad">Picopad GitHub repository</a> that are programmed using the Picopad C SDK and their source codes are included.</p>
+
+<h2 id="how-to-upload-circuitpython">How to upload CircuitPython:</h2>
+
+<ul>
+  <li>Download UF2 file for Picopad</li>
+  <li>Press and hold BOOTSEL button (bottom) while connecting USB cable to power on Picopad</li>
+  <li>Picopad enters bootloader mode, release BOOTSEL button</li>
+  <li>Copy UF2 file to RPI-RP2 drive</li>
+  <li>Picopad reboots and runs the new firmware</li>
+  <li>If everything went smoothly, you should see the CircuitPython console appear on screen</li>
+  <li>Have fun!</li>
+</ul>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Powered by Raspberry Pico/Pico-W (RP2040)</li>
+  <li>ARM Cortex M0+ running at up to 133Mhz</li>
+  <li>264kB of SRAM</li>
+  <li>IPS LCD 240x320 screen (ST7789)</li>
+  <li>LED</li>
+  <li>Buttons</li>
+  <li>Lipo battery with charging circuit (TP4056)</li>
+  <li>Speaker</li>
+  <li>External connector</li>
+  <li><a href="https://picopad.eu/en/">More info &amp; guides</a></li>
+</ul>
+
+<h2 id="community">Community</h2>
+<ul>
+  <li><a href="https://www.printables.com/model/504447-picopad-case">Picopad 3D printed case</a></li>
+  <li><a href="https://github.com/tvecera/picopad-playground/tree/main/picopad-sdk/picopad-gb">Picopad GameBoy Emulator</a></li>
+  <li><a href="https://github.com/tvecera/picopad-playground/tree/main/picopad-sdk">Picopad SDK Pico SDK Fork</a></li>
+  <li><a href="https://github.com/tvecera/picopad-template">Picopad Program Template</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://pajenicko.cz/picopad-wifi-open-source-herni-konzole">Pajenicko</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 25 Jul 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/pajenicko_picopad/</guid>
   </item><item>
     <title>Argon</title>
     <link>https://circuitpython.org/board/particle_argon/</link>
