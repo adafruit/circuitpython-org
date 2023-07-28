@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 28 Jul 2023 12:18:47 -0400</lastBuildDate>
+<lastBuildDate>Fri, 28 Jul 2023 13:11:56 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -1772,6 +1772,71 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <category>CircuitPython</category>
     <pubDate>Fri, 02 Oct 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_metro_esp32s2/</guid>
+  </item><item>
+    <title>Metro ESP32-S3</title>
+    <link>https://circuitpython.org/board/adafruit_metro_esp32s3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_metro_esp32s3.jpg 300w,
+               /assets/images/boards/large/adafruit_metro_esp32s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_metro_esp32s3.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>What’s Metro-shaped and has an ESP32-S3 WiFi module? What has a STEMMA QT connector for I2C devices and a Lipoly charger circuit? What has your favorite Espressif WiFi microcontroller and lots of memory for your next IoT project?</p>
+
+<p>That’s right - it’s the new <strong>Adafruit Metro ESP32-*S3*</strong>! With native USB and a load of PSRAM, this board is perfect for use with CircuitPython or Arduino to add low-cost WiFi while retaining shield compatibility.</p>
+
+<p>The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi/BLE System-on-Chip (SoC) solution that has built-in native USB as well as some other interesting new technologies like Time of Flight distance measurements and AI acceleration. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href="https://www.adafruit.com/category/342">Internet of Things (IoT)</a>, <a href="https://www.adafruit.com/category/65">wearable electronics</a>, and smart homes.</p>
+
+<p>The Metro ESP32-S3 has a dual-core 240 MHz chip, so it is comparable to ESP32’s dual-core. However, there is no Bluetooth <strong>Classic</strong> support, only Bluetooth LE. This chip is a great step up from the earlier ESP32-S2! This ESP32-S3 mini-module we are using on the Metro comes with massive 16 MB flash and 8 MB PSRAM, as well as lots of 512KB of SRAM so it’s perfect for use with CircuitPython support or any time massive buffers are needed: for fast memory access use SRAM, for slower-but-roomier access use PSRAM. It’s also great for use in ESP-IDF or with Arduino support.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>Mini module</strong> has FCC/CE certification and comes with 16 MByte of Flash, 8 MByte PSRAM</li>
+  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+  <li><strong>LiPoly battery monitor</strong> - MAX17048 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>
+  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+  <li><strong>JTAG 2x5 Header</strong> for more intense debugging</li>
+  <li><strong>Serial debug output pins</strong> (optional, for checking the hardware serial debug console)</li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>
+  <li><strong>On/Charge/User</strong> LEDs + status <strong>NeoPixel</strong> with pin-controlled power for low power usage</li>
+  <li><strong>Low Power friendly</strong>! In deep sleep mode we can get down to ~100uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S3 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C power for the lowest quiescent current draw.</li>
+  <li><strong>Works with ESP-IDF, Arduino</strong> <strong>or CircuitPython</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase:</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5500">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 28 Jul 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_metro_esp32s3/</guid>
+  </item><item>
+    <title>Metro RP2040</title>
+    <link>https://circuitpython.org/board/adafruit_metro_rp2040/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_metro_rp2040.jpg 300w,
+               /assets/images/boards/large/adafruit_metro_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_metro_rp2040.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Coming Soon!</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://youtu.be/Js_T10Ww8Dk">YouTube</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 28 Jul 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_metro_rp2040/</guid>
   </item><item>
     <title>NeoKey Trinkey - SAMD21</title>
     <link>https://circuitpython.org/board/adafruit_neokey_trinkey_m0/</link>
@@ -4915,6 +4980,55 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
     <category>CircuitPython</category>
     <pubDate>Fri, 05 Apr 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/datalore_ip_m4/</guid>
+  </item><item>
+    <title>PicoADK - Audio Development Kit</title>
+    <link>https://circuitpython.org/board/datanoise_picoadk/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/datanoise_picoadk.jpg 300w,
+               /assets/images/boards/large/datanoise_picoadk.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/datanoise_picoadk.jpg" alt="Image of Board" loading="lazy">
+<p>By DatanoiseTV</p> <p>The PicoADK is a RP2040 based Audio Development Kit, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico / RP2040, plus a high quality Audio Output, 8 Analog Inputs for connecting potentiometers, control voltage from Eurorack systems or even additional input signals.</p>
+
+<h4 id="why-did-you-make-it">Why did you make it?</h4>
+
+<p>I made it initially for myself to build digital oscillators for a hybrid synth and to experiment with the RP2040 as a DSP.</p>
+
+<h4 id="what-makes-it-special">What makes it special?</h4>
+
+<p>It has a 32-bit Audio Codec and an SPI 8x 12-bit ADC and is only longer by 4 pins on each side than the Raspberry Pico!</p>
+
+<h4 id="specifications">Specifications</h4>
+
+<ul>
+  <li>RP2040 Dual Core 133MHz Cortex M0+ (running at 2x 400MHz Overclocked in the RTOS Template)</li>
+  <li>2MB Flash (plenty for synthesizers and sound generators)</li>
+  <li>Very low noise LDO regulators (separate LDO for digital circuits and separate for analog circuits)</li>
+  <li>No switching regulators</li>
+  <li>Pin-compatible with RP2040 (besides a few pins internally used or rearranged)</li>
+  <li>PCM5100A 32-bit, up to 384KHz I2S Audio Codec</li>
+  <li>Dedicated Boot and Reset Buttons</li>
+  <li>8 channel 12-bit ADC with up to 1MS/s, with selectable 3.3V range (on-board low-noise power supply) or range up to 5V via external VREF</li>
+  <li>Low-Pass filter on each ADC input (fMax=48 KHz) at low-impedance (100 Ohm). With 5V VREF suitable for CV (no overvoltage protection, unipolar)</li>
+  <li>Series resistors on ADC SPI to improve signal integrity and reduce crosstalk</li>
+  <li>Symbols marking special pin functions on the pin headers</li>
+  <li>4 LEDs on shared GPIO2-5 for debugging</li>
+  <li>GPIO15 is hard-wired to a LED</li>
+  <li>ESD Protection on USB</li>
+  <li>SWD Debug Port</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.tindie.com/products/datanoisetv/picoadk-audio-development-kit-raspberry-rp2040/">Tindie</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 28 Jul 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/datanoise_picoadk/</guid>
   </item><item>
     <title>datum-Distance</title>
     <link>https://circuitpython.org/board/datum_distance/</link>
@@ -10116,6 +10230,62 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <pubDate>Sun, 26 Jul 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/makerdiary_m60_keyboard/</guid>
   </item><item>
+    <title>nRF52840 Connect Kit</title>
+    <link>https://circuitpython.org/board/makerdiary_nrf52840_connectkit/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/makerdiary_nrf52840_connectkit.jpg 300w,
+               /assets/images/boards/large/makerdiary_nrf52840_connectkit.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/makerdiary_nrf52840_connectkit.jpg" alt="Image of Board" loading="lazy">
+<p>By MakerDiary</p> <p>nRF52840 Connect Kit is an open-source prototyping kit designed for connected projects. It is built using the nRF52840 SoC, which has protocol support for Bluetooth LE, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary stacks. It provides Arm TrustZone® CryptoCell cryptographic unit as well as numerous peripherals such as USB 2.0, NFC-A, GPIO, UART, SPI, TWI, PDM, I2S, QSPI, PWM, ADC, QDEC to support a wide range of applications.</p>
+
+<p>The design is available in an easy-to-use form factor with USB-C and 40 pin DIP/SMT type, including up to 32 multi-function GPIO pins (7 can be used as ADC inputs) and Serial Wire Debug (SWD) port. It features RGB LED, Buttons, external 64 Mbit QSPI flash and flexible power management with various options for easily powering the unit from USB-C, external supplies or batteries, and also has Chip antenna and U.FL receptacle options to support various wireless scenarios.</p>
+
+<p>nRF52840 Connect Kit supports <a href="https://wiki.makerdiary.com/nrf52840-connectkit/guides/ncs/">nRF Connect SDK</a>, which integrates the Zephyr RTOS, protocol stacks, samples, hardware drivers and much more. We also offer <a href="https://wiki.makerdiary.com/nrf52840-connectkit/guides/python/">Python</a> support, allowing you access hardware-specific functionality and peripherals with Python programming language.</p>
+
+<h3 id="key-features">Key Features</h3>
+
+<ul>
+  <li>
+    <p>Nordic Semiconductor nRF52840 SoC</p>
+  </li>
+  <li>
+    <ul>
+      <li>64 MHz Arm® Cortex-M4 with FPU</li>
+      <li>1 MB Flash + 256 KB RAM</li>
+      <li>Bluetooth LE, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary</li>
+      <li>Arm TrustZone® Cryptocell 310 Security Subsystem</li>
+      <li>2.4 GHz Transceiver with +8 dBm TX Power</li>
+      <li>GPIO, UART, SPI, TWI(I2C), PDM, I2S, QSPI, PWM, QDEC, 12-bit ADC support</li>
+      <li>Integrated USB 2.0 Full-speed Controller</li>
+      <li>Integrated NFC-A Tag</li>
+    </ul>
+  </li>
+  <li>Ultra low power 64 Mbit QSPI flash memory</li>
+  <li>User programmable RBG LED and Buttons</li>
+  <li>Up to 32 multi-function General Purpose IOs (7 can be used as ADC inputs)</li>
+  <li>Arm Serial Wire Debug (SWD) port via edge pins</li>
+  <li>Flexible power management with various options for easily powering the unit</li>
+  <li>Wide input voltage range: 1.8 V to 5.5 V, output 3.3V and up to 2A when Input ≥ 2.3 V</li>
+  <li>3.3V IO Operating Voltage</li>
+  <li>Reversible USB-C connector</li>
+  <li>Available in Chip antenna and U.FL receptacle options</li>
+  <li>40 pin 55.88mm x 20.32mm (2.2” x 0.8”) DIP/SMT form factor</li>
+  <li>Shipped with UF2 Bootloader supporting Drag-and-drop programming over USB drive</li>
+  <li>Built on open source, supporting nRF Connect SDK, Zephyr RTOS, Python, etc.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://makerdiary.com/products/nrf52840-connectkit?variant=43255093035163">MakerDiary</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 28 Jul 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/makerdiary_nrf52840_connectkit/</guid>
+  </item><item>
     <title>nRF52840 M.2 Developer Kit</title>
     <link>https://circuitpython.org/board/makerdiary_nrf52840_m2_devkit/</link>
     <description><![CDATA[   
@@ -10137,7 +10307,7 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
 </ul>
  ]]></description>
     <category>CircuitPython</category>
-    <pubDate>Sun, 26 Jul 2020 20:00:00 -0400</pubDate>
+    <pubDate>Mon, 27 Jul 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/makerdiary_nrf52840_m2_devkit/</guid>
   </item><item>
     <title>nRF52840 Micro Dev Kit</title>
@@ -10192,7 +10362,7 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <pubDate>Sat, 09 Mar 2019 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/makerdiary_nrf52840_mdk_usb_dongle/</guid>
   </item><item>
-    <title>Matrix Portal M4</title>
+    <title>MatrixPortal M4</title>
     <link>https://circuitpython.org/board/matrixportal_m4/</link>
     <description><![CDATA[   
   
@@ -15035,6 +15205,51 @@ used for the circuity python build that includes this chip!</li>
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/sparkfun_thing_plus_rp2040/</guid>
+  </item><item>
+    <title>Liatris</title>
+    <link>https://circuitpython.org/board/splitkb_liatris/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/splitkb_liatris.jpg 300w,
+               /assets/images/boards/large/splitkb_liatris.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/splitkb_liatris.jpg" alt="Image of Board" loading="lazy">
+<p>By SplitKB</p> <p>The Liatris is a new controller designed by splitkb.com that’s a designed specifically for (split) keyboards. It’s a drop-in replacement for the Pro Micro, and a perfect alternative for other RP2040-based controllers.</p>
+
+<h3 id="core-features">Core features</h3>
+
+<ul>
+  <li>Designed for <strong>maximum compatibility</strong> with kits that work with Pro Micro controllers, including the Kyria and our Aurora Series.</li>
+  <li><strong>Supports <a href="https://docs.qmk.fm/#/platformdev_rp2040">QMK</a> (all capabilities) and ZMK firmware (wired, single controller)</strong> out of the box. Also compatible with <a href="https://github.com/KMKfw/kmk_firmware">KMK</a> and <a href="https://circuitpython.org/">CircuitPython</a>.</li>
+  <li><strong>Has 128Mbit (16MB) of flash memory</strong>, ensuring you’ll never run out of space even when making heavy use of OLED animations or text expansion macros. We added as much flash as the RP2040 can handle!</li>
+  <li><strong>Access to 23 GPIO pins</strong> to use on your keyboard, meaning that on any Aurora Series keyboard, you’ll have 5 pins left over for any modifications you may want to do.</li>
+  <li><strong>Rear-facing bootloader button</strong> allowing you to easily recover from a bricked firmware, even when mounted in the usual upside-down position.</li>
+  <li>An <strong>ultra-low profile</strong> with a mid-mounted USB-C port and a mere 1mm thick PCB. The rear-mounted reset button checks in at only 0.35mm, too, like it’s almost not there.</li>
+  <li><strong>Supports at least 1A of power output</strong>, so you can maximize the output of your LEDs when your computer outputs enough power.</li>
+</ul>
+
+<h3 id="advanced-features">Advanced features</h3>
+
+<p>The default settings are right for most people out of the gate. For those who demand more of their controller, we have some advanced features:</p>
+
+<ul>
+  <li><strong>5V tolerant I2C pins</strong> so you won’t have to worry when hooking up an I2C device like an OLED or trackball board;</li>
+  <li><strong>Runs at 3.6V for better 5V signal compatibility</strong> so your LEDs will listen better to those smooth colour change commands (according to data sheets, 3.5V is the minimum to reliably talk with LEDs);</li>
+  <li><strong>Selectable voltage on the VCC</strong> (defaults to 5V to support RGB LEDs) <strong>and RAW pins</strong> (which we named VA, and isn’t connected by default to be compatible with common Corne-style kits that bridge VCC with RAW on the keyboard by default) for when you need to get specific with your kit;</li>
+  <li><strong>USB data pads</strong> for hand wired builds where you want to have a separate USB port somewhere else on the board;</li>
+  <li><strong>Debug pads</strong> to be able to better look into microcontroller behaviour when you really need to.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://splitkb.com/products/liatris">SplitKB</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Fri, 28 Jul 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/splitkb_liatris/</guid>
   </item><item>
     <title>Spresense</title>
     <link>https://circuitpython.org/board/spresense/</link>
