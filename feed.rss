@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 04 Aug 2023 10:23:39 -0400</lastBuildDate>
+<lastBuildDate>Fri, 04 Aug 2023 11:06:29 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -16426,13 +16426,33 @@ Unexpected Maker - https://unexpectedmaker.com/shop/feathers3</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/unexpectedmaker_nanos3.jpg" alt="Image of Board" loading="lazy">
-<p>By Unexpected Maker</p> <p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p>
+<p>By Unexpected Maker</p> <p>Introducing the NanoS3 - The world’s smallest, fully-featured ESP32-S3 board in module form!</p>
 
-<p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p>
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>
+  <li>RISC-V Ultra Low Power Co-processor</li>
+  <li>2.4GHz Wifi - 802.11b/g/n</li>
+  <li>BLE 5.0 + Mesh</li>
+  <li>8MB QSPI Flash</li>
+  <li>8MB of extra QSPI PSRAM</li>
+  <li>700mA 3.3V LDO Regulator</li>
+  <li>Low power RGB LED</li>
+  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>
+  <li>5V back-feed protection</li>
+  <li>Native USB + USB Serial JTAG</li>
+  <li>LiPo Battery Charging</li>
+  <li>3D High Gain Antenna</li>
+  <li>27 GPIO</li>
+  <li>Only 28 x 11mm in size</li>
+  <li>Drop in compatible with TinyPICO Nano</li>
+</ul>
 
-<h2 id="learn-more">Learn More</h2>
+<p>You can find out more about the NanoS3 at <a href="https://nanos3.io">nanos3.io</a></p>
 
-<p><a href="https://www.youtube.com/watch?v=dIdsLbFjqDY">YouTube</a></p>
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own NanoS3 from:
+Unexpected Maker - https://unexpectedmaker.com/shop/nanos3</p>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Mon, 26 Jun 2023 00:00:00 -0400</pubDate>
