@@ -38,6 +38,12 @@
       Your testing is invaluable: it helps us uncover and find issues quickly.
     </p>
     {% endif %}
+    {% if page.family == 'nrf52840' %}
+      <p>
+        <b>On nRF boards, CircuitPython 8.2.0 and later require UF2 bootloader version 0.6.1 or later.
+        Older bootloaders cannot load the firmware. See <i>Update UF2 Bootloader</i> below.</b>
+      </p>
+    {% endif %}
     <p>
       <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
     </p>
@@ -287,7 +293,7 @@ By the way, boolean operation precedence is right to left! (yeesh)
 
   {% if page.family == 'nrf52840' %}
   <p>
-    <b>On nRF boards, CircuitPython 8.2.0 and later require bootloader version 0.6.1 or later.
+    <b>On nRF boards, CircuitPython 8.2.0 and later require UF2 bootloader version 0.6.1 or later.
       Older bootloaders cannot load the firmware.
     To check the version of your board's bootloader,
       look at <i>INFO_UF2.TXT</i> when the <i>BOOT</i> drive is present.
