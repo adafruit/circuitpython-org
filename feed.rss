@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 30 Aug 2023 06:03:20 -0400</lastBuildDate>
+<lastBuildDate>Wed, 30 Aug 2023 14:53:48 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -16792,6 +16792,45 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
     <category>CircuitPython</category>
     <pubDate>Sun, 21 Aug 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/waveshare_esp32s2_pico/</guid>
+  </item><item>
+    <title>ESP32-S3-Pico</title>
+    <link>https://circuitpython.org/board/waveshare_esp32s3_pico/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/ESP32-S3-Pico.jpg 300w,
+               /assets/images/boards/large/ESP32-S3-Pico.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/ESP32-S3-Pico.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.
+Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Adopts ESP32-S3R2 as the main chip.</li>
+  <li>Comes with Xtensa 32-bit LX7 dual-core processor, capable of running at 240 MHz.</li>
+  <li>An MCU chip with integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE).</li>
+  <li>Integrated 512KB SRAM, 384KB ROM, 2MB PSRAM, 16MB Extarnal Flash memory.</li>
+  <li>Type-C connector, easier to use.</li>
+  <li>Onboard CH343 and CH334 chips can meet the needs of USB and UART development via a Type-C interface.</li>
+  <li>Onboard DC-DC chip MP28164, high-efficiency DC-DC buck-boost chip with load current up to 2A.</li>
+  <li>27 × multi-function GPIO headers.</li>
+  <li>Rich peripheral interfaces, including full-speed USB OTG, SPI, I2C, UART, ADC, PWM, and DVP (8-bit ~ 16-bit camera interface), LCD interfaces (8-bit ~ 16-bit parallel RGB, I8080, MOTO6800), etc. to achieve various functions flexibly.</li>
+  <li>Supports Raspberry Pi Pico expansion board ecology, suitable for artificial intelligence IoT application development</li>
+</ul>
+
+<p>Waveshare wiki <a href="https://www.waveshare.com/wiki/ESP32-S3-Pico">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="[https://www.waveshare.com/esp32-s3-pico.htm">Waveshare</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 30 Aug 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32s3_pico/</guid>
   </item><item>
     <title>RP2040-LCD-0.96</title>
     <link>https://circuitpython.org/board/waveshare_rp2040_lcd_0_96/</link>
