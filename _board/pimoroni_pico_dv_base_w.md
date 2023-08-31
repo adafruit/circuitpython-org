@@ -13,24 +13,7 @@ family: raspberrypi
 A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico or Pico W, with 
 HDMI connector, SD card slot, line level I2S audio and buttons.  
 
-**Note** The Pico W version of the Pico dv Demo Base does not bring up the DVI output by default. In order to activate the DVI output you must run CircuitPython user code. If you are running version 8.2.4 of CircuitPython the following example code will activate and display the REPL on the DVI interface.
-```py
-import displayio
-displayio.release_displays()
-
-import board
-import picodvi
-import framebufferio
-
-fb = picodvi.Framebuffer(
-    width=320, height=240, color_depth=8,
-    clk_dp=board.CKP, clk_dn=board.CKN,
-    red_dp=board.D0P, red_dn=board.D0N,
-    green_dp=board.D1P, green_dn=board.D1N,
-    blue_dp=board.D2P, blue_dn=board.D2N)
-
-display = framebufferio.FramebufferDisplay(fb)
-```
+**Note** The Pico W version of the Pico dv Demo Base does not bring up the DVI output by default. In order to activate the DVI output you must run CircuitPython user code. 
 
 ## Features
 - HDMI connector
