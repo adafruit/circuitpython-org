@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 31 Aug 2023 06:03:35 -0400</lastBuildDate>
+<lastBuildDate>Thu, 31 Aug 2023 11:25:27 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -12483,6 +12483,45 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
     <category>CircuitPython</category>
     <pubDate>Thu, 04 May 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/pimoroni_pico_dv_base/</guid>
+  </item><item>
+    <title>Pimoroni Pico DV Demo Base for Pico W</title>
+    <link>https://circuitpython.org/board/pimoroni_pico_dv_base_w/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/pimoroni_pico_dv_base_w.jpg 300w,
+               /assets/images/boards/large/pimoroni_pico_dv_base_w.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/pimoroni_pico_dv_base_w.jpg" alt="Image of Board" loading="lazy">
+<p>By Pimoroni</p> <p>A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico or Pico W, with 
+HDMI connector, SD card slot, line level I2S audio and buttons.</p>
+
+<p><strong>Note</strong> The Pico W version of the Pico dv Demo Base does not bring up the DVI output by default. In order to activate the DVI output you must run CircuitPython user code.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>HDMI connector</li>
+  <li>PCM5100A DAC for line out audio over I2S <a href="https://cdn.shopify.com/s/files/1/0174/1800/files/pcm5100a_617130f1-79f1-45ac-96bc-a3752b4afa59.pdf?v=1611151321">datasheet</a></li>
+  <li>SD card slot</li>
+  <li>Reset button</li>
+  <li>Socket headers to install your Raspberry Pi Pico</li>
+  <li>Three user-controllable switches</li>
+  <li>Rubber feet</li>
+  <li>Compatible with Raspberry Pi Pico</li>
+  <li>No soldering required (as long as your Pico has header pins attached)</li>
+  <li>Programmable with C/C++</li>
+  <li><a href="https://cdn.shopify.com/s/files/1/0174/1800/files/pico_dv_schematic.pdf?v=1636985340">Schematic</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/5674">Adafruit</a></li>
+  <li><a href="https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 29 Aug 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_pico_dv_base_w/</guid>
   </item><item>
     <title>Pimoroni Pico LiPo (16MB)</title>
     <link>https://circuitpython.org/board/pimoroni_picolipo_16mb/</link>
