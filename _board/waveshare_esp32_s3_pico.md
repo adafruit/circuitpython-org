@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "waveshare_esp32s3_pico"
+board_id: "waveshare_esp32_s3_pico"
 title: "ESP32-S3-Pico Download"
 name: "ESP32-S3-Pico"
 manufacturer: "Waveshare"
