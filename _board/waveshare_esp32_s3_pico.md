@@ -1,18 +1,19 @@
 ---
 layout: download
-board_id: "waveshare_esp32s3_pico"
+board_id: "waveshare_esp32_s3_pico"
 title: "ESP32-S3-Pico Download"
 name: "ESP32-S3-Pico"
 manufacturer: "Waveshare"
 board_url: "https://www.waveshare.com/esp32-s3.htm"
 board_image: "ESP32-S3-Pico.jpg"
-bootloader_id: waveshare_esp32s3_pico
+bootloader_id: waveshare_esp32_s3_pico
 date_added: 2023-8-30
 family: esp32s3
 features:
   - Breadboard-Friendly
   - USB-C
   - Wi-Fi
+  - Bluetooth/BTLE
 ---
 
 This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.
