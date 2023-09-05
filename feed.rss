@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 05 Sep 2023 06:03:35 -0400</lastBuildDate>
+<lastBuildDate>Tue, 05 Sep 2023 19:28:42 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -16796,44 +16796,8 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
     <pubDate>Mon, 22 Aug 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/waveshare_esp32_s2_pico_lcd/</guid>
   </item><item>
-    <title>ESP32-S2-Pico</title>
-    <link>https://circuitpython.org/board/waveshare_esp32s2_pico/</link>
-    <description><![CDATA[   
-  
-  <img srcset="/assets/images/boards/small/waveshare_esp32s2_pico.jpg 300w,
-               /assets/images/boards/large/waveshare_esp32s2_pico.jpg 700w"
-       sizes="(max-width: 1024px) 700px,
-              300px"
-       src="/assets/images/boards/large/waveshare_esp32s2_pico.jpg" alt="Image of Board" loading="lazy">
-<p>By Waveshare</p> <p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.
-Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p>
-
-<h2 id="technical-details">Technical details</h2>
-
-<ul>
-  <li><strong>ESP32-S2FH4</strong> - Xtensa single-core 32-bit LX7 240Mhz microprocessor</li>
-  <li><strong>Boot &amp; Reset</strong> buttons to get into the bootloader</li>
-  <li><strong>TPS63000DRCR</strong> on-board 1.8A current high efficiency boost/buck DC-DC power supply IC</li>
-  <li>Integrated 320KB SRAM, 128KB ROM, 8MB PSRAM, 4MB Flash memory</li>
-  <li>Support IEEE802.11 b/g/n, on-board 2.4 GHz WiFi ceramic antenna, up to 150 Mbps data transfer rate</li>
-  <li>USB-C connector, no more plug orientation problem</li>
-</ul>
-
-<p>Waveshare wiki <a href="https://www.waveshare.com/wiki/ESP32-S2-Pico">link</a>.</p>
-
-<h2 id="purchase">Purchase</h2>
-<p>Add any links to purchase the board</p>
-<ul>
-  <li><a href="https://www.waveshare.com/esp32-s2.htm">Waveshare</a></li>
-  <li><a href="https://grobotronics.com/waveshare-esp32-s2-wifi-development-board.html">Grobotronics</a></li>
-</ul>
- ]]></description>
-    <category>CircuitPython</category>
-    <pubDate>Sun, 21 Aug 2022 00:00:00 -0400</pubDate>
-    <guid>https://circuitpython.org/board/waveshare_esp32s2_pico/</guid>
-  </item><item>
     <title>ESP32-S3-Pico</title>
-    <link>https://circuitpython.org/board/waveshare_esp32s3_pico/</link>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_pico/</link>
     <description><![CDATA[   
   
   <img srcset="/assets/images/boards/small/ESP32-S3-Pico.jpg 300w,
@@ -16869,7 +16833,43 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Wed, 30 Aug 2023 00:00:00 -0400</pubDate>
-    <guid>https://circuitpython.org/board/waveshare_esp32s3_pico/</guid>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_pico/</guid>
+  </item><item>
+    <title>ESP32-S2-Pico</title>
+    <link>https://circuitpython.org/board/waveshare_esp32s2_pico/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/waveshare_esp32s2_pico.jpg 300w,
+               /assets/images/boards/large/waveshare_esp32s2_pico.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/waveshare_esp32s2_pico.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.
+Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li><strong>ESP32-S2FH4</strong> - Xtensa single-core 32-bit LX7 240Mhz microprocessor</li>
+  <li><strong>Boot &amp; Reset</strong> buttons to get into the bootloader</li>
+  <li><strong>TPS63000DRCR</strong> on-board 1.8A current high efficiency boost/buck DC-DC power supply IC</li>
+  <li>Integrated 320KB SRAM, 128KB ROM, 8MB PSRAM, 4MB Flash memory</li>
+  <li>Support IEEE802.11 b/g/n, on-board 2.4 GHz WiFi ceramic antenna, up to 150 Mbps data transfer rate</li>
+  <li>USB-C connector, no more plug orientation problem</li>
+</ul>
+
+<p>Waveshare wiki <a href="https://www.waveshare.com/wiki/ESP32-S2-Pico">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<p>Add any links to purchase the board</p>
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-s2.htm">Waveshare</a></li>
+  <li><a href="https://grobotronics.com/waveshare-esp32-s2-wifi-development-board.html">Grobotronics</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 21 Aug 2022 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32s2_pico/</guid>
   </item><item>
     <title>RP2040-LCD-0.96</title>
     <link>https://circuitpython.org/board/waveshare_rp2040_lcd_0_96/</link>
