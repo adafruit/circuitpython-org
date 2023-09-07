@@ -244,6 +244,11 @@
             }
         ]
     },
+    "arduino_nano_esp32s3": {
+        "name": "Nano ESP32",
+        "chipfamily": "esp32s3",
+        "releases": []
+    },
     "bpi_bit_s2": {
         "name": "BPI-Bit-S2",
         "chipfamily": "esp32s2",
@@ -1181,6 +1186,11 @@
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/muselab_nanoesp32_s2_wrover/en_US/adafruit-circuitpython-muselab_nanoesp32_s2_wrover-en_US-8.2.4.uf2"
             }
         ]
+    },
+    "arduino_nano_esp32s3_inverted_statusled": {
+        "name": "Nano ESP32 with inverted Status LED",
+        "chipfamily": "esp32s3",
+        "releases": []
     },
     "01space_lcd042_esp32c3": {
         "name": "ESP32-C3-0.42LCD",

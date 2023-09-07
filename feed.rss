@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 07 Sep 2023 06:03:26 -0400</lastBuildDate>
+<lastBuildDate>Thu, 07 Sep 2023 16:45:28 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -1817,6 +1817,50 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <pubDate>Fri, 28 Jul 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_metro_esp32s3/</guid>
   </item><item>
+    <title>Metro M7 with microSD</title>
+    <link>https://circuitpython.org/board/adafruit_metro_m7_1011_sd/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_metro_m7_1011_sd.jpg 300w,
+               /assets/images/boards/large/adafruit_metro_m7_1011_sd.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_metro_m7_1011_sd.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Your favorite electronics companies have collaborated to make the fastest Metro ever! For this new product, DigiKey, NXP and Adafruit all contributed the stuff they know best: shipping parts fast (DigiKey), designing microcontrollers (NXP) and crafting great products with tutorials (that’s us, Adafruit!)</p>
+
+<p>We teamed up to present to you the <strong>Adafruit Metro M7 with microSD</strong>! An NXP iMX RT1011 microcontroller powers this board with a 500 MHz ARM Cortex M7 processor. There’s 8 MB of execute-in-place QSPI for firmware + disk storage and 128KB of SRAM in-chip. Arduino-compatible headers make using any ‘shield’ daughterboard easy. And, as you can expect, there’s a micro SD card slot wired up right on board so that you can read files or data log easily to removable, wear-leveled storage.</p>
+
+<p>The iMX series of chips is the fastest microcontrollers around, with a Cortex M7 processor that is more powerful than the M0 or M4, and clock speeds of 500MHz+. For pure performance, there’s nothing better! This chip family is well known for being featured in the Teensy 4 dev board series. Now we have a Metro-shaped board so you can use many Arduino shields, that is fully open source so you can adapt the design to create your own custom layouts, and a USB drag-n-drop bootloader plus CircuitPython support for easy development. Beginners and experts alike will enjoy the combination of low cost, roomy memory and storage, and no-soldering quick start.</p>
+
+<p>Please note that this board does <em>not</em> have Arduino or Platform.io support. You can program it with CircuitPython, a fast-to-start embedded version of the popular Python programming language, or with <a href="https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE">MCU Xpresso IDE for C/C++ advanced embedded development</a>.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+  <li><strong>NXP iMX RT1011 processor</strong> - ARM Cortex M7 processor running at 500 MHz, with 128KB SRAM and high-speed USB!</li>
+  <li><strong>Micro SD Card Slot -</strong> For audio files, images, scripts, or data logging. Uses SPI port and a chip select pin</li>
+  <li><strong>8MB of QSPI XIP Flash</strong></li>
+  <li><strong>Power options</strong> - 6-12VDC barrel jack <strong>or</strong> USB type C</li>
+  <li><strong>Arduino-UNO-shape</strong> so shields can plug in</li>
+  <li><strong>Reset</strong> button - Click to restart, double-click to enter UF2 bootloader</li>
+  <li><strong>Boot-mode switches</strong> to get into the ROM bootloader (you can always reload code over USB if TinyUF2 gets corrupted somehow)</li>
+  <li><strong>SWD connector</strong> for advanced debugging access.</li>
+  <li><strong>On/Off switch</strong></li>
+  <li><strong>STEMMA QT</strong> connector for I2C devices</li>
+  <li><strong>On/User</strong> LEDs + status <strong>NeoPixel</strong></li>
+  <li><strong>Works with CircuitPython!</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5600">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_metro_m7_1011_sd/</guid>
+  </item><item>
     <title>Metro RP2040</title>
     <link>https://circuitpython.org/board/adafruit_metro_rp2040/</link>
     <description><![CDATA[   
@@ -1826,12 +1870,68 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/adafruit_metro_rp2040.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <p>Coming Soon!</p>
-
-<h2 id="learn-more">Learn More</h2>
+<p>By Adafruit</p> <p>Choo! Choo! This is the RP2040 Metro Line, making all station stops at “Dual Cortex M0+ mountain”, “264K RAM round-about” and “16 Megabytes of Flash town”. This train is piled high with hardware that complements the Raspberry Pi RP2040 chip to make it an excellent development board for projects that want Arduino-shape-compatibility or just need the extra space and debugging ports.</p>
 
 <ul>
-  <li><a href="https://youtu.be/Js_T10Ww8Dk">YouTube</a></li>
+  <li><strong>RP2040 main chip</strong>, 133MHz clock, 3.3V logic</li>
+  <li><strong>16 MB of QSPI flash</strong> for program storage</li>
+  <li><strong>24 GPIO</strong>, 4 of which are also analog inputs</li>
+  <li><strong>Micro SD card socket</strong> wired up for SPI interfacing, also has extra pins connected for advanced-user SDIO interfacing (note that there’s no released usage code for SDIO in Arduino/Python, so this is a super-cutting-edge setup)</li>
+  <li>Onboard <strong>RGB NeoPixel</strong></li>
+  <li>Onboard <strong>#13 LED</strong></li>
+  <li><strong>Stemma QT</strong> port for I2C peripherals and sensors</li>
+  <li><strong>Reset and Boot buttons</strong> on PCB edge</li>
+  <li><strong>Pico Probe</strong> debug port - 3 pin JST SH compatible</li>
+  <li><strong>SWD debug</strong> port - 2x5 0.05” standard connector</li>
+  <li><strong>USB Type C</strong> power and data</li>
+  <li>5.5mm / 2.1mm <strong>DC jack</strong> for 6-12VDC power</li>
+  <li><strong>On/off switch</strong> for DC jack</li>
+  <li>GPIO pin numbers match classic Arduino pins, other than A4/A5 which are D24 and D25 (there’s only 4 ADC pins on the RP2040)</li>
+  <li>RX / TX switch for swapping D0 and D1 locations</li>
+</ul>
+
+<p>You may be wondering about the RX-TX switch: we added this because traditional Arduino board start counting the GPIO for the digital pins with 0-7 and then 8-13. However, the D0/D1 pins are also traditionally the hardware UART Serial1, where D0 is Rx and D1 is Tx. On the RP2040, however, the UART pins are the other around: D0 is Tx and D1 is Rx. Thus a DPDT switch: flip one way to have the GPIO go in order of 0-7, flip the other way to have the logical locations of the hardware UART correct but now the pin order is 1, 0, 2, 3..7. Of course, it’s also handy if, like us, you often swap the pins - now you don’t need to require or cut/solder traces!</p>
+
+<h3 id="about-the-rp2040"><strong>About the RP2040</strong></h3>
+
+<p>The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD21). Since it is an M0 chip, it does not have a floating point unit or DSP hardware support - so if you’re doing something with heavy floating-point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you’ll get close-to-M4 speeds!</p>
+
+<p>For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).</p>
+
+<p>You’ll note there’s no I2S peripheral, or SDIO, or camera, what’s up with that? Well, instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system, which is a unique and powerful way to create <em>custom hardware logic and data processing blocks</em> that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. <a href="https://github.com/raspberrypi/pico-examples/tree/master/pio">Same with I2S audio in or out, LED matrix displays, 8-bit or SPI based TFTs, even VGA</a>! In MicroPython and CircuitPython, you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.</p>
+
+<p><strong>There is great <a href="https://github.com/raspberrypi/pico-sdk">C/C++ support</a>, <a href="https://learn.adafruit.com/rp2040-arduino-with-the-earlephilhower-core">unofficial (but really good) Arduino support,</a> an official <a href="https://github.com/micropython/micropython">MicroPython port</a>, and a <a href="https://circuitpython.org/downloads">CircuitPython port</a>!</strong> We, of course, <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think it’s the easiest way to get started</a>, and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
+
+<p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board, there is 16 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++, you get the whole flash memory, if using Python, you will have about 7 MB remaining for code, files, images, fonts, etc.</p>
+
+<h3 id="rp2040-chip-features"><strong>RP2040 Chip features:</strong></h3>
+
+<ul>
+  <li>Dual ARM Cortex-M0+ @ 133MHz</li>
+  <li>264kB on-chip SRAM in six independent banks</li>
+  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>
+  <li>DMA controller</li>
+  <li>Fully-connected AHB crossbar</li>
+  <li>Interpolator and integer divider peripherals</li>
+  <li>On-chip programmable LDO to generate core voltage</li>
+  <li>2 on-chip PLLs to generate USB and core clocks</li>
+  <li>30 GPIO pins, 4 of which can be used as analog inputs</li>
+  <li>Peripherals
+    <ul>
+      <li>2 UARTs</li>
+      <li>2 SPI controllers</li>
+      <li>2 I2C controllers</li>
+      <li>16 PWM channels</li>
+      <li>USB 1.1 controller and PHY, with host and device support</li>
+      <li>8 PIO state machines</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5786">Adafruit</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -2784,6 +2884,54 @@ This allows the design of wearable devices and movement sensing projects that ne
     <category>CircuitPython</category>
     <pubDate>Thu, 27 Feb 2020 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/arduino_nano_33_iot/</guid>
+  </item><item>
+    <title>Nano ESP32</title>
+    <link>https://circuitpython.org/board/arduino_nano_esp32s3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/arduino_nano_esp32s3.jpg 300w,
+               /assets/images/boards/large/arduino_nano_esp32s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/arduino_nano_esp32s3.jpg" alt="Image of Board" loading="lazy">
+<p>By Arduino</p> <p><strong>A limited number of boards have <a href="https://support.arduino.cc/hc/en-us/articles/9589073738012-About-Nano-ESP32-boards-with-inverted-green-and-blue-pins">inverted green/blue on the internal status RGB LEDs</a>.</strong> Try this board first. If the colors on your board appear inverted, use the <a href="arduino_nano_esp32s3_inverted_statusled">inverted Arduino Nano ESP32</a> board definition instead.</p>
+
+<p>Introducing the Nano ESP32, a powerful addition to the Arduino ecosystem that brings the popular ESP32-S3 to the world of Arduino and MicroPython programming. Whether you’re a beginner stepping into the world of IoT or MicroPython, or an advanced user looking to incorporate it into your next product, the Nano ESP32 is the perfect choice. It covers all your needs to kick-start your IoT or MicroPython project with ease.</p>
+
+<p>The Arduino Nano ESP32 features the NORA-W106, a module with a ESP32-S3 chip inside. This module supports both Wi-Fi® and Bluetooth® (5.0 and above), making it an ideal device for IoT development. The popular Nano form factor also makes it compatible with many hardware accessories.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://store.arduino.cc/pages/nano-esp32">Arduino</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/arduino_nano_esp32s3/</guid>
+  </item><item>
+    <title>Nano ESP32 with inverted Status LED</title>
+    <link>https://circuitpython.org/board/arduino_nano_esp32s3_inverted_statusled/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/arduino_nano_esp32s3.jpg 300w,
+               /assets/images/boards/large/arduino_nano_esp32s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/arduino_nano_esp32s3.jpg" alt="Image of Board" loading="lazy">
+<p>By Arduino</p> <p><strong>A limited number of boards have <a href="https://support.arduino.cc/hc/en-us/articles/9589073738012-About-Nano-ESP32-boards-with-inverted-green-and-blue-pins">inverted green/blue on the internal status RGB LEDs</a>.</strong> Try the <a href="arduino_nano_esp32s3">non-inverted Arduino Nano ESP32</a> board first. If the colors on your board appear inverted, use this board definition.</p>
+
+<p>Introducing the Nano ESP32, a powerful addition to the Arduino ecosystem that brings the popular ESP32-S3 to the world of Arduino and MicroPython programming. Whether you’re a beginner stepping into the world of IoT or MicroPython, or an advanced user looking to incorporate it into your next product, the Nano ESP32 is the perfect choice. It covers all your needs to kick-start your IoT or MicroPython project with ease.</p>
+
+<p>The Arduino Nano ESP32 features the NORA-W106, a module with a ESP32-S3 chip inside. This module supports both Wi-Fi® and Bluetooth® (5.0 and above), making it an ideal device for IoT development. The popular Nano form factor also makes it compatible with many hardware accessories.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://store.arduino.cc/pages/nano-esp32">Arduino</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/arduino_nano_esp32s3_inverted_statusled/</guid>
   </item><item>
     <title>Nano RP2040 Connect</title>
     <link>https://circuitpython.org/board/arduino_nano_rp2040_connect/</link>
@@ -10689,7 +10837,7 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <pubDate>Sat, 09 Mar 2019 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/metro_m4_express/</guid>
   </item><item>
-    <title>Metro M7 1011</title>
+    <title>Metro M7 with AirLift</title>
     <link>https://circuitpython.org/board/metro_m7_1011/</link>
     <description><![CDATA[   
   
@@ -10698,16 +10846,19 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/metro_m7_1011.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <p>Get ready for our fastest Metro ever - the NXP iMX RT1011 microcontroller powers this board with a 500 MHz ARM Cortex M7 processor. There’s 4 MB of execute-in-place QSPI for firmware + disk storage and 128KB of SRAM in-chip</p>
+<p>By Adafruit</p> <p>Get ready for our fastest Metro ever - the NXP iMX RT1011 microcontroller powers this board with a 500 MHz ARM Cortex M7 processor. There’s 8 MB of execute-in-place QSPI for firmware + disk storage and 128KB of SRAM in-chip, plus a WiFi co-processor using an on-board ESP32 module.</p>
 
-<p>We’re still working on the design but here’s some stuff you can look forward to:</p>
+<p>The iMX series of chips is the fastest microcontrollers around, with a Cortex M7 processor that is more powerful than the M0 or M4, and clock speeds of 500MHz+. For pure performance, there’s nothing better! This chip family is well known for being featured in the Teensy 4 dev board series. Now we have a Metro-shaped board so you can use many Arduino shields, that is fully open source so you can adapt the design to create your own custom layouts, and a USB drag-n-drop bootloader plus CircuitPython support for easy development. Beginners and experts alike will enjoy the combination of low cost, roomy memory and storage, and no-soldering quick start.</p>
+
+<p>Please note that this board does <em>not</em> have Arduino or Platform.io support. You can program it with CircuitPython, a fast-to-start embedded version of the popular Python programming language, or with <a href="https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE">MCU Xpresso IDE for C/C++ advanced embedded development</a>.</p>
 
 <p><strong>Features:</strong></p>
 
 <ul>
   <li><strong>NXP iMX RT1011 processor</strong> - ARM Cortex M7 processor running at 500 MHz, with 128KB SRAM and high speed USB!</li>
   <li><strong>AirLift WiFi Co-processor</strong>, with TLS/SSL support, plenty of RAM for sockets, communication is over SPI and has CircuitPython library support ready to go for fast wireless integration.</li>
-  <li><strong>4MB of QSPI XIP Flash</strong></li>
+  <li><strong>8MB of QSPI XIP Flash</strong></li>
+  <li><strong>ESP32 WiFi co-processor</strong> - programmed with ‘nina-fw’ firmware as a SPI-to-Wireless</li>
   <li><strong>Power options</strong> - 6-12VDC barrel jack <strong>or</strong> USB type C</li>
   <li><strong>UNO-shape</strong> so shields can plug in</li>
   <li><strong>Reset</strong> button - Click to restart, double-click to enter UF2 bootloder</li>
@@ -17877,6 +18028,61 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
     </item>
 
     <item>
+      <title>Adafruit KB2040</title>
+      <link>https://circuitpython.org/blinka/adafruit_kb2040/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_kb2040.jpg 300w,
+               /assets/images/boards/large/adafruit_kb2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_kb2040.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>A wild Kee Boar appears! It’s a shiny <strong>KB2040</strong>! An Arduino Pro Micro-shaped board for Keebs with RP2040. (#keeblife 4 evah) A lot of folks like using Adafruit parts for their Keeb builds – but with the ItsyBitsy not being pin-compatible with the Pro Micro pinout, it really wasn’t very easy without some sort of adapter plate.</p>
+
+<p>Now we’re seeing lots of people use CircuitPython for keebs, which is awesome! So why not try our hands at spinning up a pro-micro-compatible RP2040 board? The RP2040 is plenty powerful, low-cost, and makes for an excellent keeb driver chip.</p>
+
+<p>We mixed together what we liked most about the SparkFun Pro Micro RP2040 (<strong>Qwiic / STEMMA QT I2C port on the end</strong>, so good!) and Elite-C (<strong>castellated pads &amp; pins for D+ and D-</strong>) and our existing RP2040 boards (<strong>boot button can be used for user, 8MB QSPI flash, onboard NeoPixel, jumper for skipping the diode/fuse for high power RGB LEDs or USB hosting</strong>). We even got it to all fit on a 2-layer PCB with 7/7 routing – just needed to make the smallest caps and resistors 0402.</p>
+
+<p>With 20 GPIO available (18 on castellated pins, 2 on STEMMA QT port) you can easily make up to 100-keys matrices, or common 65% 5x15 layouts. <a href="https://www.adafruit.com/product/4209">Use a plug-and-play QT cable to connect to the last two pins</a> without having to do any desoldering/rework.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li><a href="https://www.sparkfun.com/products/12640">Same size and form-factor as a Pro Micro breakout</a> and nearly-identical pinout (this board has fewer analog pins, for example)</li>
+  <li>Measures 1.3” x 0.7” without headers soldered in</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~125 MHz @ 3.3 V logic and power. 264 KB RAM, No EEPROM. 12 MHz crystal for perfect timing.</li>
+  <li><strong>8 MB SPI FLASH</strong> chip for storing files and CircuitPython/MicroPython code storage.</li>
+  <li>20 GPIO pins with following capabilities:
+    <ul>
+      <li>18 GPIO on castellated/pin breakout pads. 2 GPIO on QT port that can be easily accessed for 5x15 keyboard layouts.</li>
+      <li>4 12 bit ADCs</li>
+      <li>2 I2C, 2 SPI and 2 UART peripherals, we label one of for the ‘main’ interface in standard Pro Micro locations</li>
+      <li>16 PWM outputs - for servos, LEDs, etc</li>
+      <li>The 10 digital non-ADC GPIO are consecutive for maximum PIO compatibility</li>
+    </ul>
+  </li>
+  <li><strong>RGB NeoPixel</strong> for colorful status indiction</li>
+  <li>Classic <strong>green power LED</strong></li>
+  <li>Both Reset button and Bootloader select button for quick restarts. Bootloader button is also available as a generic GPIO input button.</li>
+  <li><a href="https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt">STEMMA QT connector</a> on the end is compatible with the <a href="https://www.sparkfun.com/qwiic">SparkFun Qwiic</a> I2C connector, and can be used to plug and play I2C devices, or just as 2 extra GPIO pins.</li>
+  <li>3.3 V regulator with 500 mA peak current output</li>
+  <li><strong>RAW</strong> output, for powering NeoPixels or other 5 V devices. Jumper on bottom lets you skip over the 500 mA fuse, for up to 2 A from USB ports.</li>
+  <li><strong>USB-C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li><strong>Extra D- and D+ breakouts</strong> for alternative USB connection options.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5302">Adafruit</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/adafruit_kb2040/</guid>
+    </item>
+
+    <item>
       <title>MacroPad RP2040</title>
       <link>https://circuitpython.org/blinka/adafruit_macropad_rp2040/</link>
       <description><![CDATA[   
@@ -19390,6 +19596,38 @@ Enclosure</li>
       <category>Blinka</category>
       <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/khadas_vim3/</guid>
+    </item>
+
+    <item>
+      <title>Banana Pro</title>
+      <link>https://circuitpython.org/blinka/lemaker_banana_pro/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lemaker_banana_pro.jpg 300w,
+               /assets/images/boards/large/lemaker_banana_pro.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lemaker_banana_pro.jpg" alt="Image of Board" loading="lazy">
+<p>By LeMaker</p> <p>LeMaker Banana Pro is an updated version of its predecessor Banana Pi, a low-cost single-board computer.</p>
+
+<p>The Banana Pro is a credit card-sized and low-power single-board computer developed in China by the LeMaker Team, with the goal of promoting STEM (science, technology, engineering and mathematics) education in schools.</p>
+
+<p>Like its smaller sibling the Banana Pi, the Pro concept is heavily influenced by the Raspberry Pi, however the Banana Pro provides various enhancements over prior designs.</p>
+
+<p>The Banana Pro has an Allwinner A20 system on a chip (SoC), which includes an ARM Cortex-A7 Dual-core (ARMv7-A) 1 GHz, Mali-400 MP2 GPU and 1GB DDR3 SDRAM.</p>
+
+<p>The Banana Pro uses a microSD card for booting an OS, but also includes a SATA 2.0 interface to allow connection of a hard disk for additional storage, however you cannot boot from the hard disk.</p>
+
+<p>Other differences from the Banana Pi include on-board Wi-Fi 802.11b/g/n AP6181, integrated composite video and audio output into a 3.5 mm TRRS jack. This makes space for a 40-pin extension header.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.tindie.com/products/DIGCM/banana-pro-single-board-computer-with-wifi/">Tindie</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/lemaker_banana_pro/</guid>
     </item>
 
     <item>
