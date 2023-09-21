@@ -14,12 +14,11 @@ tags:
 features:
   - Breadboard-Friendly
   - Wi-Fi
-  - Bluetooth/BTLE
 ---
 
 The Raspberry Pi foundation changed single-board computing [when they released the Raspberry Pi computer](https://www.raspberrypi.org/archives/723), now they're ready to do the same for microcontrollers with the release of the brand new **Raspberry Pi Pico W**. This low-cost microcontroller board features their powerful new chip, the **RP2040**, and all the fixin's to get started with IoT embedded electronics projects at a stress-free price.
 
-Raspberry Pi Pico W brings WiFi + BLE (coming soon) wireless networking to the Pico platform while retaining complete pin compatibility with its older sibling.
+Raspberry Pi Pico W brings WiFi + BLE wireless networking to the Pico platform while retaining complete pin compatibility with its older sibling.(BLE is not currently available on CircuitPython.)
 
 **Raspberry Pi Pico W** is [just like the classic Pico](https://www.adafruit.com/product/4864) but adds on-board single-band 2.4GHz wireless interfaces (802.11n) using the Infineon CYW43439 while retaining the Pico form factor. The on-board 2.4GHz wireless interface has the following features:
 
