@@ -84,7 +84,9 @@ def is_arduino_library(repo):
     lib_prop_file = requests.get(
         "https://raw.githubusercontent.com/adafruit/"
         + repo["name"]
-        + "/master/library.properties"
+        + "/"
+        + repo["default_branch"]
+        + "/library.properties"
     )
     return lib_prop_file.ok
 
@@ -112,7 +114,9 @@ def validate_library_properties(repo):
     lib_prop_file = requests.get(
         "https://raw.githubusercontent.com/adafruit/"
         + repo["name"]
-        + "/master/library.properties"
+        + "/"
+        + repo["default_branch"]
+        + "/library.properties"
     )
     if not lib_prop_file.ok:
         # print("{} skipped".format(repo["name"]))
@@ -152,22 +156,29 @@ def validate_release_state(repo):
         return None
 
     compare_tags = gh_reqs.get(
-        "/repos/" + repo["full_name"] + "/compare/master..." + repo["tag_name"]
+        "/repos/"
+        + repo["full_name"]
+        + "/compare/"
+        + repo["default_branch"]
+        + "..."
+        + repo["tag_name"]
     )
     if not compare_tags.ok:
         logger.error(
-            "Error: failed to compare %s 'master' to tag '%s'",
+            "Error: failed to compare %s '%s' to tag '%s'",
             repo["name"],
+            repo["default_branch"],
             repo["tag_name"],
         )
         return None
     compare_tags_json = compare_tags.json()
     if "status" in compare_tags_json:
-        if compare_tags.json()["status"] != "identical":
+        if compare_tags_json["status"] != "identical":
             return [repo["tag_name"], compare_tags_json["behind_by"]]
     elif "errors" in compare_tags_json:
         logger.error(
-            "Error: comparing latest release to 'master' failed on '%s'. Error Message: %s",
+            "Error: comparing latest release to '%s' failed on '%s'. Error Message: %s",
+            repo["default_branch"],
             repo["name"],
             compare_tags_json["message"],
         )
@@ -180,7 +191,9 @@ def validate_actions(repo):
     repo_has_actions = requests.get(
         "https://raw.githubusercontent.com/adafruit/"
         + repo["name"]
-        + "/master/.github/workflows/githubci.yml"
+        + "/"
+        + repo["default_branch"]
+        + "/.github/workflows/githubci.yml"
     )
     return repo_has_actions.ok
 
