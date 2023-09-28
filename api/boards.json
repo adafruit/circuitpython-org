@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /api/boards.json
+excerpt: CircuitPython supported boards.
+---
+
+{{ site.board | jsonify }}
