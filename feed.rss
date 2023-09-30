@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sat, 30 Sep 2023 06:03:07 -0400</lastBuildDate>
+<lastBuildDate>Sat, 30 Sep 2023 17:22:53 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -10295,6 +10295,45 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
     <category>CircuitPython</category>
     <pubDate>Mon, 22 May 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_timer_camera_x/</guid>
+  </item><item>
+    <title>MagiClick S3</title>
+    <link>https://circuitpython.org/board/magiclick_s3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/magiclick_s3.jpg 300w,
+               /assets/images/boards/large/magiclick_s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/magiclick_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By MakerM0</p> <p>A single-button keyboard, based on ESP32-S3, with a color screen.</p>
+
+<p><strong>Specifications</strong></p>
+
+<ul>
+  <li>Color 0.85” IPS TFT with 128x128 pixels</li>
+  <li>ESP32-S3</li>
+  <li>4MB Flash</li>
+  <li>2MB RAM</li>
+  <li>1 keyboard switch</li>
+  <li>2 user buttons</li>
+  <li>1 speaker</li>
+  <li>6-axis motion sensor</li>
+  <li>Extendable Pins</li>
+  <li>USB Type-C interface</li>
+  <li>reset button</li>
+  <li>RGB LEDs</li>
+  <li>Power options - USB-C or Lipoly battery</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://github.com/MakerM0/MagiClick-esp32s3">GitHub</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sat, 30 Sep 2023 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/magiclick_s3/</guid>
   </item><item>
     <title>Maker badge</title>
     <link>https://circuitpython.org/board/maker_badge/</link>
