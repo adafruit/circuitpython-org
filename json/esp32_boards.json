@@ -838,6 +838,12 @@
             }
         ]
     },
+    "adafruit_qualia_s3_rgb666": {
+        "name": "Qualia ESP32-S3 for TTL RGB-666 Displays",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_qualia_s3_rgb666-0.16.0.zip",
+        "releases": []
+    },
     "microdev_micro_s2": {
         "name": "MicroDev microS2",
         "chipfamily": "esp32s2",
