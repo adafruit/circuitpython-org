@@ -32,7 +32,7 @@ up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; *
 - **Lithium battery power supply & charging**: MX 1.25mm 2-Pin Socket.Supports arbitrary switching between 3.7V lithium battery and 5V USB power supply without interrupting program operation.
 - **Battery voltage detection**: On GPIO14, detection half value of battery voltage.
 - **STEMMA QT / Qwiic connectors**: JST SH 1mm 4-Pin Socket, SDA&GPIO15, SCL&GPIO16.
-- **Boot Button**: Download button. Holding down **Boot** and then pressing **Reset** initiates Firmware Download mode for downloading firmware through the serial port or USB port.
+- **Boot Button**: Download button. Pressing **Reset** and then pressing **Boot** when the LED is purple initiates Firmware Download mode for downloading firmware through the serial port or USB port.
 - **Reset Button** New v1.1 version support double-clicking the reset button to enter the UF2 bootloader.
 - **RGB LED**: Addressable RGB LED, driven by GPIO48.
 - **Power LED**: Steady on when power is supplied.
