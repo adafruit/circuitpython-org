@@ -607,6 +607,12 @@
             }
         ]
     },
+    "waveshare_esp32_s3_zero": {
+        "name": "Waveshare ESP32-S3-Zero",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_feather_esp32s3-0.16.0.zip",
+        "releases": []
+    },
     "adafruit_feather_esp32s2_bme280": {
         "name": "Feather ESP32-S2 with BME280 Sensor",
         "chipfamily": "esp32s2",
