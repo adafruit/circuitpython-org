@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "MagiClick_S3"
+board_id: "magiclick_s3_n4r2"
 title: "MagiClick S3 Download"
 name: "MagiClick S3"
 manufacturer: "MakerM0"
@@ -8,7 +8,6 @@ board_url: "https://github.com/MakerM0/MagiClick-esp32s3"
 board_image: "magiclick_s3.jpg"
 date_added: 2023-9-30
 family: esp32s3
-bootloader_id: magiclick_s3
 downloads_display: true
 features:
   - Wi-Fi
