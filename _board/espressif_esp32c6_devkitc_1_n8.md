@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "espressif_esp32c6_devkitc_1_n8"
-title: "ESP32-S3-DevKitC-1-N8 Download"
-name: "ESP32-S3-DevKitC-1-N8"
+title: "ESP32-C6-DevKitC-1-N8 Download"
+name: "ESP32-C6-DevKitC-1-N8"
 manufacturer: "Espressif"
 board_url: "https://www.adafruit.com/product/5672"
 board_image: "espressif_esp32c6_devkitc_1.jpg"
