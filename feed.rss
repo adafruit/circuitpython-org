@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 14 Nov 2023 05:03:16 -0500</lastBuildDate>
+<lastBuildDate>Tue, 14 Nov 2023 14:24:01 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -197,7 +197,7 @@
        src="/assets/images/boards/large/Seeed_XIAO_nRF52840_Sense.jpg" alt="Image of Board" loading="lazy">
 <p>By Seeed Studio</p> <p>Seeed Studio XIAO nRF52840 (Sense) has equipped a powerful Nordic nRF52840 MCU which is designed in a Bluetooth 5.0 module, built around 32-bit ARM® Cortex™-M4 CPU with Floating-Point Unit(FPU) operating at 64Mhz. With the capabilities of wireless connection, it still remains the Seeed Studio XIAO series classic form-factor of small and exquisite which can be used for wearable devices and Internet of Things projects. Furthermore, it only costs 5 μA in the deep sleep model and it supports battery charge management because of the BQ25101 chip.</p>
 
-<p>In addition, the SENSE version of the board carries two extra onboard sensors. One of them is a digital microphone created through Pulse Density Modulation(PDM) module on the nRF52840 chip. It can receive audio data in real-time which allows it can be used for audio recognition. The board not only receives audio data but also can speak through the MSM261D3526H1CPM microphone. The other one is 6-axis Inertial Measurement Unit(IMU) which can be applied in TinyML projects like gesture recognition. These onboard sensors provide a great convenience for users and the ultra-small size feature of the board has still remained.</p>
+<p>In addition, the SENSE version of the board carries two extra onboard sensors. One of them is a digital microphone created through Pulse Density Modulation(PDM) module on the nRF52840 chip. It can receive audio data in real-time which allows it can be used for audio recognition. The board can receive audio data through the MSM261D3526H1CPM microphone. The other one is 6-axis Inertial Measurement Unit(IMU) which can be applied in TinyML projects like gesture recognition. These onboard sensors provide a great convenience for users and the ultra-small size feature of the board has still remained.</p>
 
 <p>The same CircuitPython firmware can be used both for the Seed Studio XIAO nRF52840 with or without additional sensor.</p>
 
