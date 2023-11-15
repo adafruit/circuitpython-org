@@ -44,7 +44,7 @@ You'll note there's no I2S peripheral, or SDIO, or camera, what's up with that? 
 
 **There is great [C/C++ support](https://github.com/raspberrypi/pico-sdk), [unofficial (but really good) Arduino support,](https://learn.adafruit.com/rp2040-arduino-with-the-earlephilhower-core) an official [MicroPython port](https://github.com/micropython/micropython), and a [CircuitPython port](https://circuitpython.org/downloads)!** We, of course, [recommend CircuitPython because we think it's the easiest way to get started](https://learn.adafruit.com/welcome-to-circuitpython), and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.
 
-While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. **On this board, there is 16 MB**, which is shared between the program it's running and any file storage used by MicroPython or CircuitPython. When using C/C++, you get the whole flash memory, if using Python, you will have about 7 MB remaining for code, files, images, fonts, etc.
+While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. **On this board, there is 16 MB**, which is shared between the program it's running and any file storage used by MicroPython or CircuitPython. When using C/C++, you get the whole flash memory, if using Python, you will have about 15 MB remaining for code, files, images, fonts, etc.
 
 ### **RP2040 Chip features:**
 
