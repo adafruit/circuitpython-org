@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "odroid_m1"
-title: "Odroid M1 Download"
-name: "Odroid M1"
+title: "ODROID M1 Download"
+name: "ODROID M1"
 manufacturer: "Hardkernel co., Ltd."
 board_url: "https://www.hardkernel.com/shop/odroid-m1-with-4gbyte-ram/"
 board_image: "odroid_m1.jpg"
@@ -42,7 +42,8 @@ Let’s take a look at the main features and peripherals of ODROID-M1.
 -  1 x eMMC Module Socket
 -  1 x IR Receiver
 -  1 x RTC Backup Battery Holder
--  1 x Reset jumper 1 x Power jumper
+-  1 x Reset jumper
+-  1 x Power jumper
 -  1 x Micro SD Slot
 -  1 x SATA3
 -  1 x SATA Power (5volt only)
