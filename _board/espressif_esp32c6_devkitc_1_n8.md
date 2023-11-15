@@ -11,6 +11,7 @@ family: esp32c6
 bootloader_id: espressif_esp32c6_devkitc_1
 features:
   - Wi-Fi
+  - Bluetooth/BTLE
   - Breadboard-Friendly
 ---
 

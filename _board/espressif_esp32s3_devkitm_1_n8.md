@@ -11,6 +11,7 @@ family: esp32s3
 bootloader_id: espressif_esp32s3_devkitm_1
 features:
   - Wi-Fi
+  - Bluetooth/BTLE
   - Breadboard-Friendly
 ---
 

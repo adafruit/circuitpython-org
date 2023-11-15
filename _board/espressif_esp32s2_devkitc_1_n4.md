@@ -10,6 +10,7 @@ date_added: 2022-4-1
 family: esp32s2
 features:
   - Wi-Fi
+  - Bluetooth/BTLE
   - Breadboard-Friendly
 ---
 

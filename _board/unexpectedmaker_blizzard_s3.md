@@ -5,8 +5,7 @@ title: "Unexpected Maker Blizzard S3 Download"
 name: "Unexpected Maker Blizzard S3"
 manufacturer: "Unexpected Maker"
 board_url: ""
-board_image: "unknown.jpg"
-downloads_display: false
+board_image: "unexpectedmaker_blizzard_s3.jpg"
 date_added: 2023-10-27
 family: esp32s3
 bootloader_id: unexpectedmaker_blizzard_s3

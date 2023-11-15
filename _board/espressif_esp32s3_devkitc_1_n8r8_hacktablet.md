@@ -10,6 +10,7 @@ date_added: 2023-10-27
 family: esp32s3
 features:
   - Wi-Fi
+  - Bluetooth/BTLE
   - STEMMA QT/QWIIC
   - Display
 ---
