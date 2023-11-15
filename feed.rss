@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 14 Nov 2023 17:01:06 -0500</lastBuildDate>
+<lastBuildDate>Tue, 14 Nov 2023 20:25:59 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -1924,7 +1924,7 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
 
 <p><strong>There is great <a href="https://github.com/raspberrypi/pico-sdk">C/C++ support</a>, <a href="https://learn.adafruit.com/rp2040-arduino-with-the-earlephilhower-core">unofficial (but really good) Arduino support,</a> an official <a href="https://github.com/micropython/micropython">MicroPython port</a>, and a <a href="https://circuitpython.org/downloads">CircuitPython port</a>!</strong> We, of course, <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think it’s the easiest way to get started</a>, and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
 
-<p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board, there is 16 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++, you get the whole flash memory, if using Python, you will have about 7 MB remaining for code, files, images, fonts, etc.</p>
+<p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board, there is 16 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++, you get the whole flash memory, if using Python, you will have about 15 MB remaining for code, files, images, fonts, etc.</p>
 
 <h3 id="rp2040-chip-features"><strong>RP2040 Chip features:</strong></h3>
 
