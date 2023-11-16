@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import os
 import json
 import re
 from pathlib import Path
@@ -10,9 +11,12 @@ with open('template.md', "rt") as f:
     metadata, content = frontmatter.parse(f.read())
     acceptable_features = set(metadata['features'])
 
+def get_files(folder):
+    return sorted(Path(folder).glob("*.md"), key=os.path.basename)
+
 def verify_board_id(folder):
     valid = True
-    for filename in Path(folder).glob("*.md"):
+    for filename in get_files(folder):
         with open(filename, "rt") as f:
             metadata, _ = frontmatter.parse(f.read())
         downloads_display = metadata.get('downloads_display')
@@ -38,7 +42,7 @@ def valid_date(date):
 
 def verify_features(folder, valid_features):
     valid = True
-    for filename in Path(folder).glob("*.md"):
+    for filename in get_files(folder):
         with open(filename, "rt") as f:
             metadata, _ = frontmatter.parse(f.read())
         downloads_display = metadata.get('downloads_display')
@@ -54,30 +58,29 @@ def verify_features(folder, valid_features):
 
 def verify_family(folder):
     valid = True
-    bl_file = open('./_data/bootloaders.json')
-    bootloaders = json.load(bl_file)
-    valid_bootloaders = bootloaders["bootloaders"].keys()
-    for filename in Path(folder).glob("*.md"):
-        with open(filename, "rt") as f:
-            metadata, _ = frontmatter.parse(f.read())
-        downloads_display = metadata.get('downloads_display')
-        if downloads_display is None or downloads_display:
-            board_id = metadata.get('board_id') or ()
-            if board_id == "unknown":
-                continue
-            family = metadata.get('family')
-            if family is None:
-                print(f"Family field is missing for {board_id}")
-                valid = False
-            elif family not in valid_bootloaders:
-                print(f"Family field value of {family} for {board_id} is invalid.")
-                valid = False
-    bl_file.close()
+    with open('./_data/bootloaders.json') as bl_file:
+        bootloaders = json.load(bl_file)
+        valid_bootloaders = bootloaders["bootloaders"].keys()
+        for filename in get_files(folder):
+            with open(filename, "rt") as f:
+                metadata, _ = frontmatter.parse(f.read())
+            downloads_display = metadata.get('downloads_display')
+            if downloads_display is None or downloads_display:
+                board_id = metadata.get('board_id') or ()
+                if board_id == "unknown":
+                    continue
+                family = metadata.get('family')
+                if family is None:
+                    print(f"Family field is missing for {board_id}")
+                    valid = False
+                elif family not in valid_bootloaders:
+                    print(f"Family field value of {family} for {board_id} is invalid.")
+                    valid = False
     return valid
 
 def verify_date_added(folder):
     valid = True
-    for filename in Path(folder).glob("*.md"):
+    for filename in get_files(folder):
         with open(filename, "rt") as f:
             metadata, _ = frontmatter.parse(f.read())
         downloads_display = metadata.get('downloads_display')
@@ -97,7 +100,7 @@ def verify_date_added(folder):
 def verify_contribute_not_present(folder):
     valid = True
     contribute = re.compile(r".*\n## Contribute", re.MULTILINE | re.DOTALL)
-    for filename in Path(folder).glob("*.md"):
+    for filename in get_files(folder):
         with open(filename, "rt") as f:
             metadata, content = frontmatter.parse(f.read())
         board_id = metadata.get('board_id') or ()
@@ -109,7 +112,7 @@ def verify_contribute_not_present(folder):
 def verify_blinka_board(folder):
     # Check that blinka flag is set for all boards in the folder
     valid = True
-    for filename in Path(folder).glob("*.md"):
+    for filename in get_files(folder):
         with open(filename, "rt") as f:
             metadata, _ = frontmatter.parse(f.read())
         downloads_display = metadata.get('downloads_display')

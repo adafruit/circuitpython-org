@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 15 Nov 2023 16:48:27 -0500</lastBuildDate>
+<lastBuildDate>Wed, 15 Nov 2023 21:13:05 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -8655,6 +8655,43 @@ Install Arduino and learn some basic coding. We will provide online guides to co
     <pubDate>Mon, 22 Aug 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/hardkernel_odroid_go/</guid>
   </item><item>
+    <title>WiFi LoRa 32 V3</title>
+    <link>https://circuitpython.org/board/heltec_esp32s3_wifi_lora_v3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/heltec_esp32s3_wifi_lora_v3.jpg 300w,
+               /assets/images/boards/large/heltec_esp32s3_wifi_lora_v3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/heltec_esp32s3_wifi_lora_v3.jpg" alt="Image of Board" loading="lazy">
+<p>By Heltec Automation</p> <p>WiFi LoRa 32 is a classic IoT dev-board designed &amp; produced by Heltec Automation. Since its launch in 2017, it has been loved by developers and makers. The newly launched V3 version has the same pin sequence as the V2 version and retains Wi-Fi, BLE, LoRa, OLED display, and other functions.</p>
+
+<p>It is the best option for smart cities, farms, homes, industrial control, house security, wireless meter reading, and IoT developers.</p>
+
+<h4 id="wifi-lora-32-v3-is-a-part-of-the-heltec-lora-series-with-the-following-features">WiFi LoRa 32 （V3） is a part of the “Heltec LoRa“ series, with the following features</h4>
+
+<ul>
+  <li>Microprocessor: ESP32-S3FN8 (Xtensa® 32-bit LX7 dual-core processor, five-stage pipeline rack Structure, frequency up to 240 MHz).</li>
+  <li>SX1262 LoRa node chip.</li>
+  <li>Type-C USB interface with a complete voltage regulator, ESD protection, short circuit protection, RF shielding, and other protection measures.</li>
+  <li>Onboard SH1.25-2 battery interface, integrated lithium battery management system (charge and discharge management, overcharge protection, battery power detection, USB / battery power automatic switching).</li>
+  <li>Integrated WiFi, LoRa, Bluetooth three network connections, onboard Wi-Fi, Bluetooth dedicated 2.4GHz metal spring antenna, reserved IPEX (U.FL) interface for LoRa use.</li>
+  <li>Onboard 0.96-inch 128*64 dot matrix OLED display can be used to display debugging information, battery power, and other information.</li>
+  <li>Integrated CP2102 USB to serial port chip, convenient for program downloading, and debugging information printing.</li>
+  <li>Support the<a href="https://heltec.org/wifi_kit_install/"> Arduino development environment</a>.</li>
+  <li>With good RF circuit design and low-power design.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://heltec.org/project/wifi-lora-32-v3/">Heltec Automation Store</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/heltec_esp32s3_wifi_lora_v3/</guid>
+  </item><item>
     <title>HiiBot BlueFi</title>
     <link>https://circuitpython.org/board/hiibot_bluefi/</link>
     <description><![CDATA[   
@@ -9358,6 +9395,35 @@ Install Arduino and learn some basic coding. We will provide online guides to co
     <category>CircuitPython</category>
     <pubDate>Mon, 15 May 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/lilygo_t_display_rp2040/</guid>
+  </item><item>
+    <title>T-Deck</title>
+    <link>https://circuitpython.org/board/lilygo_tdeck/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lilygo_tdeck.jpg 300w,
+               /assets/images/boards/large/lilygo_tdeck.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lilygo_tdeck.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <p>T-Deck is a pocket-sized gadget with a 2.8-inch, 320 x 240 pixel IPS LCD display, a mini keyboard, and an ESP32 dual-core processor. While it’s not exactly a smartphone, you can use your programming knowledge to turn it into a standalone messaging device, or coding software.</p>
+
+<p><strong>Specifications</strong></p>
+
+<ul>
+  <li>ESP32-S3FN16R8 Dual-core LX7 microprocessor</li>
+  <li>FLASH 16MB</li>
+  <li>PSRAM 8MB</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.lilygo.cc/products/t-deck">LILYGO Store</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_tdeck/</guid>
   </item><item>
     <title>T-Embed</title>
     <link>https://circuitpython.org/board/lilygo_tembed_esp32s3/</link>
@@ -11092,6 +11158,50 @@ version with the CH343 which connects to the USB-C connector.</p>
     <pubDate>Thu, 26 Oct 2023 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/makerfabs_tft7/</guid>
   </item><item>
+    <title>Maple Elite-Pi</title>
+    <link>https://circuitpython.org/board/maple_elite_pi/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/maple_elite_pi.jpg 300w,
+               /assets/images/boards/large/maple_elite_pi.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/maple_elite_pi.jpg" alt="Image of Board" loading="lazy">
+<p>By Maple</p> <p>The Elite-Pi is an RP2040-based controller with a Pro Micro/Elite-C compatible pinout that’s primarily intended for use with keyboards.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>Compatible with Pro Micro-based PCBs</li>
+  <li>Mid-Mount USB-C port for low profile</li>
+  <li>RP2040 microcontroller</li>
+  <li>Flash Memory: 16Mbit (W25Q16JVUXIQ)</li>
+  <li>Up to 25 I/O pins available</li>
+  <li>USB D+/D- accessible via pads</li>
+  <li>On-board boot and run/reset buttons</li>
+  <li>1.6mm thick PCB</li>
+  <li>Comes with two 12-pin headers and one 5-pin header</li>
+  <li>Firmware Support: QMK, KMK, CircuitPython</li>
+</ul>
+
+<p>In comparison to the Pro Micro or Elite-C, the Elite-Pi provides a few advantages over them:</p>
+
+<ul>
+  <li>Flash memory: Lots of space to compile in various QMK features without worry, as the Elite-Pi has much more flash memory</li>
+  <li>Price: Since the RP2040 microcontroller costs less than the ATmega32u4, we can provide it at a lower price than the Elite-C</li>
+  <li>Flashing: Instead of using QMK Toolbox, you can just copy a complied .uf2 file to the Elite-Pi to update the firmware</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://keeb.io/products/elite-pi-usb-c-pro-micro-replacement-rp2040">Keeb.io</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/maple_elite_pi/</guid>
+  </item><item>
     <title>MatrixPortal M4</title>
     <link>https://circuitpython.org/board/matrixportal_m4/</link>
     <description><![CDATA[   
@@ -12372,6 +12482,128 @@ The badge will be given to all attendees of the Open Hardware Summit!</p>
     <category>CircuitPython</category>
     <pubDate>Wed, 29 Apr 2020 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/openmv_h7/</guid>
+  </item><item>
+    <title>Oxocard Artwork Card</title>
+    <link>https://circuitpython.org/board/oxocard_artwork/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/oxocard_artwork.jpg 300w,
+               /assets/images/boards/large/oxocard_artwork.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/oxocard_artwork.jpg" alt="Image of Board" loading="lazy">
+<p>By Oxocard</p> <p>The Oxocard Artwork is an interactive, programmable minicomputer with powerful hardware in credit card format.</p>
+
+<p>The new Oxocard-Artwork consists of a high quality computer board where you can see what’s “inside”. The powerful dual-core chip ESP32 with 2MB RAM and 8MB Flash provide you with enough power for your experiments.</p>
+
+<p>Algorithmic art for beginners Learn in a short time how to create impressive visual effects as we know them from games and movies.</p>
+
+<p>The Oxocard Artwork is used with the scripting language Oxoscript programmed. It was specially designed for computer graphics and -games developed and is for beginners particularly suitable.</p>
+
+<p>Thanks to ready-made programs you can get started immediately even without programming experience. We show you how you can create amazing effects with simple adjustments.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.oxon.ch/?shop=oxocard">OXON</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/oxocard_artwork/</guid>
+  </item><item>
+    <title>Oxocard Connect Card</title>
+    <link>https://circuitpython.org/board/oxocard_connect/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/oxocard_connect.jpg 300w,
+               /assets/images/boards/large/oxocard_connect.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/oxocard_connect.jpg" alt="Image of Board" loading="lazy">
+<p>By Oxocard</p> <p>The Oxocard Connect is a small experimental computer in which you can plug in ready-made or self-soldered circuit boards. As you know it from game consoles, it then goes off immediately.</p>
+
+<p>Choose from a variety of ready-made cartridges, plug them into the CONNECT and immediately a sample application will start showing you how to use the cartridge. No computer, no software installation and no wiring required.</p>
+
+<p>Experiment with electronic circuits now - without the need for a computer. Enter the fascinating world of circuit design. Learn how LEDs, servos, light sensors and much more work.</p>
+
+<p>Gone are the days when you had to buy a controller again for every electronics project. With the Oxocard CONNECT you can easily change projects by inserting the appropriate cartridge.</p>
+
+<p>The circuit design of the cartridges is OPEN SOURCE and OPEN HARDWARE. Create your own cartridges for the Connect or use the cartridges with other microcontrollers.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.oxon.ch/?shop=oxocard">OXON</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/oxocard_connect/</guid>
+  </item><item>
+    <title>Oxocard Galaxy Card</title>
+    <link>https://circuitpython.org/board/oxocard_galaxy/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/oxocard_galaxy.jpg 300w,
+               /assets/images/boards/large/oxocard_galaxy.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/oxocard_galaxy.jpg" alt="Image of Board" loading="lazy">
+<p>By Oxocard</p> <p>The new Oxocard-Galaxy consists of a high quality computer board, on which you see, what «inside» is. The powerful Dual-Core-Chip ESP32 with 2MB RAM and 8MB Flash provide you enough Power for your experiments.</p>
+
+<p>The games and animations are immediately executable. The complete source code is at your disposal and you can customize everything.</p>
+
+<p>The Oxocard Galaxy is used with the scripting language Oxoscript programmed. It was specially designed for computer graphics and -games developed and is for beginners particularly suitable.</p>
+
+<p>Thanks to ready-made programs you can get started immediately even without programming experience. We show you how you can create amazing effects with simple adjustments.</p>
+
+<p>With the new pedagogical concept «Use-Modify-Create» we start with ready-made programs, which are adapted by means of instructions. This leads to faster results and increases the motivation to learn.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.oxon.ch/?shop=oxocard">OXON</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/oxocard_galaxy/</guid>
+  </item><item>
+    <title>Oxocard Science Card</title>
+    <link>https://circuitpython.org/board/oxocard_science/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/oxocard_science.jpg 300w,
+               /assets/images/boards/large/oxocard_science.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/oxocard_science.jpg" alt="Image of Board" loading="lazy">
+<p>By Oxocard</p> <p>This programmable multi-sensor board measures light/IR, temperature, noise, humidity, pressure and volatile compounds (VoC, eCO2 and ethanol). It comes with ready-to-use programs with documented source code, so you can start your own experiments right away.</p>
+
+<p>The seven built-in environmental sensors provide twelve sensor values that you can experiment with. Use the built-in programs, modify them or write your own code.</p>
+
+<p>We only perceive a small part of the environment with our senses. Impressive examples show you more about how to make the invisible visible. The card comes with over ten examples and small games - all with full source code and tutorials - that you can experiment with right away, even without programming.</p>
+
+<p>Be amazed by impressive animations that show you how to simulate life. Bounce balls that move when you move the map.</p>
+
+<p>On the board, which is only the size of a credit card, you’ll find a high-resolution screen, five buttons, seven sensors and a powerful computer chip that you can program directly via a browser.</p>
+
+<p>The Oxocard is programmed with the scripting language Oxoscript. This was optimized especially for small computers and is particularly suitable for beginners, since it contains many powerful commands from sensor technology, computer graphics and animation.</p>
+
+<p>Thanks to ready-made programs, you can get started right away even without programming experience. We’ll show you how to create amazing effects with simple adjustments.</p>
+
+<p>With the pedagogical concept «Use-Modify-Create» starten wir mit fixfertigen Programmen, we start with ready-to-use programs that are adapted by means of instructions. This leads to faster results and increases the motivation to learn.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.oxon.ch/?shop=oxocard">OXON</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/oxocard_science/</guid>
   </item><item>
     <title>Pajenicko Picopad</title>
     <link>https://circuitpython.org/board/pajenicko_picopad/</link>
@@ -17036,6 +17268,36 @@ library which gives you graphic primitives such as tiled grids and sprites.</p>
     <pubDate>Thu, 26 Oct 2023 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/ugame22/</guid>
   </item><item>
+    <title>Unexpected Maker Bling</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_bling/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/unexpectedmaker_bling.jpg 300w,
+               /assets/images/boards/large/unexpectedmaker_bling.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/unexpectedmaker_bling.jpg" alt="Image of Board" loading="lazy">
+<p>By Unexpected Maker</p> <p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_bling/</guid>
+  </item><item>
+    <title>Unexpected Maker Blizzard S3</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_blizzard_s3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/unexpectedmaker_blizzard_s3.jpg 300w,
+               /assets/images/boards/large/unexpectedmaker_blizzard_s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/unexpectedmaker_blizzard_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By Unexpected Maker</p> <p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_blizzard_s3/</guid>
+  </item><item>
     <title>Unexpected Maker FeatherS2</title>
     <link>https://circuitpython.org/board/unexpectedmaker_feathers2/</link>
     <description><![CDATA[   
@@ -17504,6 +17766,21 @@ Unexpected Maker - https://unexpectedmaker.com/shop/ttinys3-esp32s3</p>
     <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/unexpectedmaker_tinys3/</guid>
   </item><item>
+    <title>Unexpected Maker TinyWATCH S3</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_tinywatch_s3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/unexpectedmaker_tinywatch_s3.jpg 300w,
+               /assets/images/boards/large/unexpectedmaker_tinywatch_s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/unexpectedmaker_tinywatch_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By Unexpected Maker</p> <p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_tinywatch_s3/</guid>
+  </item><item>
     <title>YD-RP2040</title>
     <link>https://circuitpython.org/board/vcc_gnd_yd_rp2040/</link>
     <description><![CDATA[   
@@ -17954,6 +18231,46 @@ What’s different, it features onboard 4MB Flash, USB-C connector, recharge hea
     <category>CircuitPython</category>
     <pubDate>Wed, 12 Jan 2022 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/waveshare_rp2040_zero/</guid>
+  </item><item>
+    <title>WeAct Studio ESP32-C6 N4</title>
+    <link>https://circuitpython.org/board/weact_esp32c6_n4/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/weact_esp32c6.jpg 300w,
+               /assets/images/boards/large/weact_esp32c6.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/weact_esp32c6.jpg" alt="Image of Board" loading="lazy">
+<p>By WeAct Studio</p> <p>WeAct ESP32-C6 Minimal System Development Board with WiFi6 and Bluetooth</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256805383205472.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/weact_esp32c6_n4/</guid>
+  </item><item>
+    <title>WeAct Studio ESP32-C6 N8</title>
+    <link>https://circuitpython.org/board/weact_esp32c6_n8/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/weact_esp32c6.jpg 300w,
+               /assets/images/boards/large/weact_esp32c6.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/weact_esp32c6.jpg" alt="Image of Board" loading="lazy">
+<p>By WeAct Studio</p> <p>WeAct ESP32-C6 Minimal System Development Board with WiFi6 and Bluetooth</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256805383205472.html?skuId=12000034319347394">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/weact_esp32c6_n8/</guid>
   </item><item>
     <title>WeAct Studio Pico</title>
     <link>https://circuitpython.org/board/weact_studio_pico/</link>
@@ -21120,7 +21437,7 @@ Enclosure</li>
     </item>
 
     <item>
-      <title>Odroid C2</title>
+      <title>ODROID C2</title>
       <link>https://circuitpython.org/blinka/odroid_c2/</link>
       <description><![CDATA[   
   
@@ -21165,7 +21482,7 @@ Enclosure</li>
     </item>
 
     <item>
-      <title>Odroid C4</title>
+      <title>ODROID C4</title>
       <link>https://circuitpython.org/blinka/odroid_c4/</link>
       <description><![CDATA[   
   
@@ -21205,7 +21522,7 @@ Enclosure</li>
     </item>
 
     <item>
-      <title>Odroid M1</title>
+      <title>ODROID M1</title>
       <link>https://circuitpython.org/blinka/odroid_m1/</link>
       <description><![CDATA[   
   
@@ -21240,7 +21557,8 @@ Enclosure</li>
   <li>1 x eMMC Module Socket</li>
   <li>1 x IR Receiver</li>
   <li>1 x RTC Backup Battery Holder</li>
-  <li>1 x Reset jumper 1 x Power jumper</li>
+  <li>1 x Reset jumper</li>
+  <li>1 x Power jumper</li>
   <li>1 x Micro SD Slot</li>
   <li>1 x SATA3</li>
   <li>1 x SATA Power (5volt only)</li>
@@ -21260,7 +21578,56 @@ Enclosure</li>
     </item>
 
     <item>
-      <title>Odroid N2</title>
+      <title>ODROID M1S</title>
+      <link>https://circuitpython.org/blinka/odroid_m1s/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/odroid_m1s.jpg 300w,
+               /assets/images/boards/large/odroid_m1s.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/odroid_m1s.jpg" alt="Image of Board" loading="lazy">
+<p>By Hardkernel co., Ltd.</p> <p>We launched ODROID-M1 about 20 months ago and have supplied it to many B2B and B2C customers. Feedback from many customers requested a lower price, more GPIO ports, lower power consumption, a slimmer form factor, and a variety of practical peripherals.</p>
+
+<p>We would like to introduce you to the ODROID-M1S which was developed over the past six months to respond to market demands. We made the board about 20% thinner, reduced power consumption by about 20%, added 14 header pins, and a built-in 64GB eMMC chip on the board. We have lowered the price to only $49 including a case, heatsink, and power adapter. We believe this will help significantly reduce the cost of building your own affordable and sustainable embedded systems. To ensure longevity, which is important to customers using it for industrial purposes, we will supply this product until at least 2036.</p>
+
+<p>By utilizing 3D modeling from the early PCB design stage, we were able to complete case development relatively precisely and rapidly. It will be remembered for a long time as a novel development project in which collaboration between circuit design &amp; mechanical design proceeded quite smoothly.</p>
+
+<p>Let’s take a look at the main features and peripherals of ODROID-M1S.</p>
+
+<ul>
+  <li>Rockchip RK3566 CPU</li>
+  <li>LPDDR4 RAM</li>
+  <li>1 x Micro USB2.0 Device only</li>
+  <li>1 x RJ45 Ethernet Port (10/100/1000)</li>
+  <li>1 x HDMI 2.0</li>
+  <li>1 x USB 2.0</li>
+  <li>1 x USB 3.0</li>
+  <li>1 x USB 2.0 Micro OTG</li>
+  <li>1 x DC Power Jack</li>
+  <li>1 x M.2 NVMe M-Key PCIe2.1 1-Lane</li>
+  <li>40 x GPIO Pins</li>
+  <li>1 x MIPI DSI 4Lane</li>
+  <li>1 x Mono Speaker Output (1.3W at 8Ω load)</li>
+  <li>1 x Built-In 64GB eMMC</li>
+  <li>1 x RTC Backup Battery Connector</li>
+  <li>1 x Micro SD Slot</li>
+  <li>1 x UART for System Console</li>
+  <li>2 x System LED Indicators</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.hardkernel.com/shop/odroid-m1s-with-8gbyte-ram/">Hardkernel</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
+      <guid>https://circuitpython.org/blinka/odroid_m1s/</guid>
+    </item>
+
+    <item>
+      <title>ODROID N2</title>
       <link>https://circuitpython.org/blinka/odroid_n2/</link>
       <description><![CDATA[   
   
@@ -21304,7 +21671,7 @@ The large metal housing heatsink is designed to optimize the CPU and RAM heat di
     </item>
 
     <item>
-      <title>Odroid XU4</title>
+      <title>ODROID XU4</title>
       <link>https://circuitpython.org/blinka/odroid_xu4/</link>
       <description><![CDATA[   
   
@@ -21344,7 +21711,7 @@ This allows users to truly experience an upgrade in computing, especially with f
     </item>
 
     <item>
-      <title>Odroid XU4Q</title>
+      <title>ODROID XU4Q</title>
       <link>https://circuitpython.org/blinka/odroid_xu4q/</link>
       <description><![CDATA[   
   

@@ -1,4 +1,14 @@
 {
+    "oxocard_connect": {
+        "name": "Oxocard Connect Card",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/oxocard_connect/en_US/adafruit-circuitpython-oxocard_connect-en_US-9.0.0-alpha.5.bin"
+            }
+        ]
+    },
     "lolin_s3": {
         "name": "LOLIN S3",
         "chipfamily": "esp32s3",
@@ -30,6 +40,17 @@
                 "version": "9.0.0-alpha.5",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deneyap_kart_1a_v2/en_US/adafruit-circuitpython-deneyap_kart_1a_v2-en_US-9.0.0-alpha.5.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deneyap_kart_1a_v2/en_US/adafruit-circuitpython-deneyap_kart_1a_v2-en_US-9.0.0-alpha.5.uf2"
+            }
+        ]
+    },
+    "unexpectedmaker_tinywatch_s3": {
+        "name": "Unexpected Maker TinyWATCH S3",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_tinywatch_s3/en_US/adafruit-circuitpython-unexpectedmaker_tinywatch_s3-en_US-9.0.0-alpha.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_tinywatch_s3/en_US/adafruit-circuitpython-unexpectedmaker_tinywatch_s3-en_US-9.0.0-alpha.5.uf2"
             }
         ]
     },
@@ -141,6 +162,17 @@
             {
                 "version": "9.0.0-alpha.5",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_stick_c_plus/en_US/adafruit-circuitpython-m5stack_stick_c_plus-en_US-9.0.0-alpha.5.bin"
+            }
+        ]
+    },
+    "unexpectedmaker_bling": {
+        "name": "Unexpected Maker Bling",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_bling/en_US/adafruit-circuitpython-unexpectedmaker_bling-en_US-9.0.0-alpha.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_bling/en_US/adafruit-circuitpython-unexpectedmaker_bling-en_US-9.0.0-alpha.5.uf2"
             }
         ]
     },
@@ -333,6 +365,17 @@
             }
         ]
     },
+    "lilygo_tdeck": {
+        "name": "T-Deck",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tdeck/en_US/adafruit-circuitpython-lilygo_tdeck-en_US-9.0.0-alpha.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tdeck/en_US/adafruit-circuitpython-lilygo_tdeck-en_US-9.0.0-alpha.5.uf2"
+            }
+        ]
+    },
     "adafruit_feather_esp32s2_bme280": {
         "name": "Feather ESP32-S2 with BME280 Sensor",
         "chipfamily": "esp32s2",
@@ -364,6 +407,16 @@
                 "version": "9.0.0-alpha.5",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_devkitc_1_n8r2/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8r2-en_US-9.0.0-alpha.5.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_devkitc_1_n8r2/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8r2-en_US-9.0.0-alpha.5.uf2"
+            }
+        ]
+    },
+    "oxocard_galaxy": {
+        "name": "Oxocard Galaxy Card",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/oxocard_galaxy/en_US/adafruit-circuitpython-oxocard_galaxy-en_US-9.0.0-alpha.5.bin"
             }
         ]
     },
@@ -429,7 +482,6 @@
     "adafruit_qualia_s3_rgb666": {
         "name": "Qualia ESP32-S3 for TTL RGB-666 Displays",
         "chipfamily": "esp32s3",
-        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-adafruit_qualia_s3_rgb666-0.16.0.zip",
         "releases": [
             {
                 "version": "9.0.0-alpha.5",
@@ -527,6 +579,23 @@
                 "version": "9.0.0-alpha.5",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yd_esp32_s3_n16r8/en_US/adafruit-circuitpython-yd_esp32_s3_n16r8-en_US-9.0.0-alpha.5.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yd_esp32_s3_n16r8/en_US/adafruit-circuitpython-yd_esp32_s3_n16r8-en_US-9.0.0-alpha.5.uf2"
+            }
+        ]
+    },
+    "unexpectedmaker_blizzard_s3": {
+        "name": "Unexpected Maker Blizzard S3",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_blizzard_s3-0.16.0.zip",
+        "releases": [
+            {
+                "version": "8.2.7",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_blizzard_s3/en_US/adafruit-circuitpython-unexpectedmaker_blizzard_s3-en_US-8.2.7.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_blizzard_s3/en_US/adafruit-circuitpython-unexpectedmaker_blizzard_s3-en_US-8.2.7.uf2"
+            },
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_blizzard_s3/en_US/adafruit-circuitpython-unexpectedmaker_blizzard_s3-en_US-9.0.0-alpha.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_blizzard_s3/en_US/adafruit-circuitpython-unexpectedmaker_blizzard_s3-en_US-9.0.0-alpha.5.uf2"
             }
         ]
     },
@@ -1146,6 +1215,16 @@
             }
         ]
     },
+    "heltec_esp32s3_wifi_lora_v3": {
+        "name": "WiFi LoRa 32 V3",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/heltec_esp32s3_wifi_lora_v3/en_US/adafruit-circuitpython-heltec_esp32s3_wifi_lora_v3-en_US-9.0.0-alpha.5.bin"
+            }
+        ]
+    },
     "luatos_core_esp32c3_ch343": {
         "name": "Luatos ESP32-C3 Core Board \u2013 CH343 USB UART",
         "chipfamily": "esp32c3",
@@ -1266,6 +1345,16 @@
             {
                 "version": "9.0.0-alpha.5",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/doit_esp32_devkit_v1/en_US/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-9.0.0-alpha.5.bin"
+            }
+        ]
+    },
+    "oxocard_artwork": {
+        "name": "Oxocard Artwork Card",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/oxocard_artwork/en_US/adafruit-circuitpython-oxocard_artwork-en_US-9.0.0-alpha.5.bin"
             }
         ]
     },
@@ -1446,6 +1535,16 @@
             {
                 "version": "9.0.0-alpha.5",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_atom_lite/en_US/adafruit-circuitpython-m5stack_atom_lite-en_US-9.0.0-alpha.5.bin"
+            }
+        ]
+    },
+    "oxocard_science": {
+        "name": "Oxocard Science Card",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.0.0-alpha.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/oxocard_science/en_US/adafruit-circuitpython-oxocard_science-en_US-9.0.0-alpha.5.bin"
             }
         ]
     },
