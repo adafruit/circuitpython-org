@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "odroid_c2"
-title: "Odroid C2 Download"
-name: "Odroid C2"
+title: "ODROID C2 Download"
+name: "ODROID C2"
 manufacturer: "Hardkernel co., Ltd."
 board_url: "https://www.hardkernel.com/shop/odroid-c2/"
 board_image: "odroid_c2.jpg"

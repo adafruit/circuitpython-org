@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "odroid_xu4q"
-title: "Odroid XU4Q Download"
-name: "Odroid XU4Q"
+title: "ODROID XU4Q Download"
+name: "ODROID XU4Q"
 manufacturer: "Hardkernel co., Ltd."
 board_url: "https://www.hardkernel.com/shop/odroid-xu4q-special-price/"
 board_image: "odroid_xu4q.jpg"
@@ -19,7 +19,7 @@ features:
 ODROID-XU4Q
 is powered by ARM® big.LITTLE™ technology, the Heterogeneous Multi-Processing (HMP) solution.
 
-The ODROID-XU4Q is the same board as the ODROID-XU4 but with a large heatsink instead of a fan which makes it quiet. 
+The ODROID-XU4Q is the same board as the ODROID-XU4 but with a large heatsink instead of a fan which makes it quiet.
 
 ODROID-XU4 is a new generation of computing device with more powerful, more energy-efficient hardware and a smaller form factor. Offering open source support, the board can run various flavors of Linux, including the latest Ubuntu 16.04 and Android 4.4 KitKat, 5.0 Lollipop and 7.1 Nougat.
 By implementing the eMMC 5.0, USB 3.0 and Gigabit Ethernet interfaces, the ODROID-XU4 boasts amazing data transfer speeds, a feature that is increasingly required to support advanced processing power on ARM devices.

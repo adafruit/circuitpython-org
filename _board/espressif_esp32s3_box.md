@@ -11,6 +11,7 @@ date_added: 2020-05-15
 family: esp32s3
 features:
   - Wi-Fi
+  - Bluetooth/BTLE
   - Breadboard-Friendly
   - Display
   - Speaker
