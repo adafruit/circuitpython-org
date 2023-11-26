@@ -82,6 +82,9 @@ def request(method, url, **kwargs):
             "See log for error text that has been sanitized for secrets"
         ) from None
 
+    if not from_cache:
+        if remaining % 100 == 0 or remaining < 20:
+            logging.info("%d requests remaining this hour", remaining)
     if not from_cache and remaining <= 1:
         rate_limit_reset = datetime.datetime.fromtimestamp(
             int(response.headers["X-RateLimit-Reset"])
@@ -95,9 +98,6 @@ def request(method, url, **kwargs):
 
             logging.info("Sleeping %s seconds", reset_diff.seconds)
             time.sleep(reset_diff.seconds + 1)
-
-        if remaining % 100 == 0:
-            logging.info(remaining, "requests remaining this hour")
 
     return response
 
