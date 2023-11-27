@@ -916,7 +916,7 @@ class LibraryValidator:
                 break
             except pygithub.RateLimitExceededException:
                 core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
-                sleep_time = core_rate_limit_reset - datetime.datetime.now()
+                sleep_time = core_rate_limit_reset - datetime.datetime.utcnow()
                 logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
                 time.sleep(sleep_time.seconds)
                 continue
@@ -1275,7 +1275,7 @@ class LibraryValidator:
                 return []
             except pygithub.RateLimitExceededException:
                 core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
-                sleep_time = core_rate_limit_reset - datetime.datetime.now()
+                sleep_time = core_rate_limit_reset - datetime.datetime.utcnow()
                 logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
                 time.sleep(sleep_time.seconds)
 

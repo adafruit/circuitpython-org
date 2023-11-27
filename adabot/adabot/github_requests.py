@@ -92,6 +92,11 @@ def request(method, url, **kwargs):
         logging.warning(
             "GitHub API Rate Limit reached. Pausing until Rate Limit reset."
         )
+        # This datetime.now() is correct, *because* `fromtimestamp` above
+        # converts the timestamp into local time, same as now(). This is
+        # different than the sites that use GH_INTERFACE.get_rate_limit, in
+        # which the rate limit is a UTC time, so it has to be compared to
+        # utcnow.
         while datetime.datetime.now() < rate_limit_reset:
             logging.warning("Rate Limit will reset at: %s", rate_limit_reset)
             reset_diff = rate_limit_reset - datetime.datetime.now()
