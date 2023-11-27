@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 27 Nov 2023 05:03:36 -0500</lastBuildDate>
+<lastBuildDate>Mon, 27 Nov 2023 11:41:57 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -7984,6 +7984,35 @@ We tested this in Arduino STM32duino with all our FeatherWings and only the RFM6
     <category>CircuitPython</category>
     <pubDate>Thu, 26 Sep 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/feather_stm32f405_express/</guid>
+  </item><item>
+    <title>FireBeetle 2 ESP32-S3</title>
+    <link>https://circuitpython.org/board/firebeetle2_esp32s3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/firebeetle2_esp32s3.jpg 300w,
+               /assets/images/boards/large/firebeetle2_esp32s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/firebeetle2_esp32s3.jpg" alt="Image of Board" loading="lazy">
+<p>By DFRobot</p> <p>FireBeetle 2 ESP32-S3 is a high-performance main-controller built around the ESP32-S3-WROOM-1-N16R8 module. ESP32-S3-WROOM-1-N16R8 comes with 16MB Flash and 8MB PSRAM for storing more data. The acceleration for neural network computing and signal processing workloads provided by the ESP32-S3 chip make the module an ideal choice for a wide variety of applications, such as speech recognition, image recognition, and so on.</p>
+
+<p>FireBeetle 2 ESP32-S3 offers a camera interface onboard for easy connection with a camera. Also, an independent camera power supply circuit is designed, which helps reduce interference from other signals to the camera. The board comes with an OV2640 camera that offers 2 megapixel, 68° FOV, and up to 1600×1200 resolution. Besides, its onboard easy-to-connect GDI greatly saves the trouble of wiring for using with a screen. Meanwhile, the controller integrates a power management function, which enables users to charge a Li-ion battery and turn the hardware on/off.</p>
+
+<p>In addition, FireBeetle 2 ESP32-S3 supports WiFi and Bluetooth 5 (LE) dual-mode communication that reduces the difficulty of networking, and also both Bluetooth Mesh protocol and Espressif WiFi Mesh are supported for more stable communication and a larger coverage area. With the support of Matter protocol, the board can be used to develop industrial standard smart home devices for a wider range of IoT scenarios.
+FireBeetle 2 ESP32-S3 can be programmed by Arduino IDE, ESP-IDF, MicroPython and CircuitPython. Both C and Python are supported.</p>
+
+<p>To use the camera under CircuitPython, you need to use the included frozen module <code class="language-plaintext highlighter-rouge">AXP313a</code>.
+For more information, please refer to the module <a href="https://circuitpython-axp313a.readthedocs.io/en/latest/">documentation</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.dfrobot.com/product-2676.html">DFRobot</a></li>
+  <li><a href="https://grobotronics.com/firebeetle-2-esp32-s3-n16r8-aiot-microcontroller-with-camera.html">Grobotronics</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 20 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/firebeetle2_esp32s3/</guid>
   </item><item>
     <title>Fluff M0</title>
     <link>https://circuitpython.org/board/fluff_m0/</link>
