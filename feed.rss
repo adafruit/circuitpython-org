@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 29 Nov 2023 05:03:23 -0500</lastBuildDate>
+<lastBuildDate>Wed, 29 Nov 2023 11:10:30 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -12633,6 +12633,45 @@ The badge will be given to all attendees of the Open Hardware Summit!</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/oxocard_science/</guid>
+  </item><item>
+    <title>ProductivityOpen P1AM-200</title>
+    <link>https://circuitpython.org/board/p1am_200/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/p1am_200.jpg 300w,
+               /assets/images/boards/large/p1am_200.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/p1am_200.jpg" alt="Image of Board" loading="lazy">
+<p>By AutomationDirect</p> <p>The ProductivityOpen P1AM-200 is an automation platform compatible with Productivity1000 Series I/O modules, P1AM Series shields, and Arduino MKR format shields. It can be programmed using the Arduino IDE or with the CircuitPython language. The board uses the SAMD51P20 Microcontroller.</p>
+
+<ul>
+  <li>Cortex M4 core running at <strong>120 MHz</strong></li>
+  <li><a href="https://developer.arm.com/technologies/dsp/dsp-for-cortex-m">Floating point support with Cortex M4 DSP instructions</a></li>
+  <li><strong>1MB</strong> flash, <strong>256 KB</strong> RAM</li>
+  <li><strong>16MB</strong> external QSPI flash for CircuitPython code, libraries, and files</li>
+  <li>Easy to use interface to Productivity1000 Industrial I/O modules</li>
+  <li>UL/CE Agency approvals</li>
+  <li>Supercap backed real time clock</li>
+  <li>ATECC608 CryptoAuthentication chip</li>
+  <li>AT24MAC402 EEPROM with built-in MAC address</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://facts-engineering.github.io/modules/P1AM-200/P1AM-200.html">ProductivityOpen P1AM-200</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/productivity_open_(arduino-compatible)/controllers_-a-_shields/p1am-200">AutomationDirect</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 28 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/p1am_200/</guid>
   </item><item>
     <title>Pajenicko Picopad</title>
     <link>https://circuitpython.org/board/pajenicko_picopad/</link>
