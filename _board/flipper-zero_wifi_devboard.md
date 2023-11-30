@@ -10,7 +10,8 @@ date_added: 2023-11-28
 family: esp32s2
 bootloader_id: espressif_saola_1_wrover
 features:
-  - ESP32-S2-WROVER
+  - Bluetooth/BTLE
+  - Wi-Fi
   - USB-C
 ---
 
