@@ -10,7 +10,6 @@ date_added: 2023-11-28
 family: esp32s2
 bootloader_id: espressif_saola_1_wrover
 features:
-  - Bluetooth/BTLE
   - Wi-Fi
   - USB-C
 ---
@@ -50,8 +49,11 @@ The developer board with Wi-Fi connectivity made specially for Flipper Zero. Bas
 ## Tutorials
 
 * [Flipper Docs Wi-Fi Developer Page](https://docs.flipper.net/development/hardware/wifi-developer-board)
-* [ESP32-S2-WROVER Product page](https://products.espressif.com/#/product-selector?language=en&names=ESP32-S2-WROVER-N4R2)
 
 ## Purchase
 
 * [Flipper Zero](https://shop.flipperzero.one/products/wifi-devboard)
+
+## Learn More
+
+* [ESP32-S2-WROVER Product page](https://products.espressif.com/#/product-selector?language=en&names=ESP32-S2-WROVER-N4R2)
