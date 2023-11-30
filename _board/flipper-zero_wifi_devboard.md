@@ -22,7 +22,7 @@ The developer board with Wi-Fi connectivity made specially for Flipper Zero. Bas
 
 ## Technical deatils
 
-* ESP32-S3-WROVER Xtensa® single-core 32-bit LX7 CPU, frequency up to 240MHz
+* ESP32-S2-WROVER Xtensa® single-core 32-bit LX7 CPU, frequency up to 240MHz
 * 2.4 GHz Wi-Fi (802.11 b/g/n)
 * USB-C
 * 128 KB ROM
