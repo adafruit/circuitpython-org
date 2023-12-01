@@ -71,7 +71,7 @@ While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLAS
   - USB 1.1 controller and PHY, with host and device support
   - 8 PIO state machines
 
-[Click here for the Raspberry Pi documentation.](https://raspberrypi.org/documentation/pico/getting-started/)
+[Click here for the Raspberry Pi documentation.](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w)
 [Click here for Getting Started with Raspberry Pi Pico and CircuitPython.](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython)
 
 ## Purchase
