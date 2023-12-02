@@ -8,6 +8,7 @@ board_url: "https://github.com/MakerM0/MagiClick-esp32s3"
 board_image: "magiclick_s3.jpg"
 date_added: 2023-9-30
 family: esp32s3
+bootloader_id: magiclick_s3_n4r2
 downloads_display: true
 features:
   - Wi-Fi
