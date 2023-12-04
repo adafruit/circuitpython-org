@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sun, 03 Dec 2023 05:03:14 -0500</lastBuildDate>
+<lastBuildDate>Sun, 03 Dec 2023 22:15:48 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -5101,54 +5101,6 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
     <category>CircuitPython</category>
     <pubDate>Mon, 31 May 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/cytron_maker_pi_rp2040/</guid>
-  </item><item>
-    <title>Maker Zero SAMD21</title>
-    <link>https://circuitpython.org/board/cytron_maker_zero_samd21/</link>
-    <description><![CDATA[   
-  
-  <img srcset="/assets/images/boards/small/cytron_maker_zero_samd21.jpg 300w,
-               /assets/images/boards/large/cytron_maker_zero_samd21.jpg 700w"
-       sizes="(max-width: 1024px) 700px,
-              300px"
-       src="/assets/images/boards/large/cytron_maker_zero_samd21.jpg" alt="Image of Board" loading="lazy">
-<p>By Cytron Technologies</p> <p>Do you need a powerful microcontroller with low power consumption for your project? Introducing Maker Zero SAMD21, a development board based on the famous ATSAMD21 chip featuring a 32-bit ARM Cortex® M0+ core.</p>
-
-<p>Maker Zero SAMD21 is packed with convenient yet exciting features such as a servo ports, grove ports, GPIO LED indicators, RGB LEDs, programmable push buttons and a piezo buzzer. It has the same form factor as Arduino Uno and compatible with Arduino Zero.</p>
-
-<p>The SAMD21 chip offers higher performance, enabling project opportunities for a variety of devices, and as a great educational tool for learning 32-bit applications. The SAMD21 chip applications span from smart IoT devices, wearable technology, high-tech automation, to robotics.</p>
-
-<p>The Maker Zero SAMD21 is shipped with bootloader from Adafruit that accepts code from Arduino IDE. The bootloader also allows you to easily change the board to CircuitPython mode by double-tapping the reset button and copying the .uf2 file that contains CircuitPython firmware into the board.</p>
-
-<h2 id="technical-details">Technical details</h2>
-<ul>
-  <li>Arduino Uno form factor</li>
-  <li>Compatible with Arduino Zero</li>
-  <li>Powered by Atmel’s ATSAMD21</li>
-  <li>Arm Cortex-M0+ processor
-    <ul>
-      <li>Up to 48MHz operating frequency</li>
-      <li>32KB of SRAM</li>
-      <li>256KB of Flash memory</li>
-    </ul>
-  </li>
-  <li>8x Grove Ports (Digital I/O, PWM Output, UART, I2C, Analog Input)</li>
-  <li>4x Servo Ports</li>
-  <li>17x Status indicator LEDs for GPIOs</li>
-  <li>1x Piezo buzzer with mute switch</li>
-  <li>2x Push button</li>
-  <li>2x RGB LEDs (WS2812 Neopixel)</li>
-  <li>1x Maker Ports, compatible with Qwiic, STEMMA QT, Grove (via conversion cable)</li>
-  <li>Support Arduino IDE, CircuitPython</li>
-</ul>
-
-<h2 id="purchase">Purchase</h2>
-<ul>
-  <li><a href="https://www.cytron.io/p-maker-zero-samd21">Cytron Technologies</a></li>
-</ul>
- ]]></description>
-    <category>CircuitPython</category>
-    <pubDate>Wed, 25 May 2022 00:00:00 -0400</pubDate>
-    <guid>https://circuitpython.org/board/cytron_maker_zero_samd21/</guid>
   </item><item>
     <title>Datalore-IP-M4</title>
     <link>https://circuitpython.org/board/datalore_ip_m4/</link>
