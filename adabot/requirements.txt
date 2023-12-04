@@ -6,7 +6,7 @@ black==22.3.0
 packaging==20.3
 pylint==2.11.1
 pytest
-pyyaml==5.4.1
+pyyaml>=5.4.1
 redis==4.5.4
 requests==2.31.0
 sh==1.12.14
@@ -17,3 +17,5 @@ PyGithub==1.57
 typing-extensions~=4.0
 google-auth~=2.13
 google-cloud-bigquery~=3.3
+toml
+jinja2
