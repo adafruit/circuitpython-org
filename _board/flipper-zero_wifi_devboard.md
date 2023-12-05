@@ -20,7 +20,7 @@ The developer board with Wi-Fi connectivity made specially for Flipper Zero. Bas
 * Advanced in-circuit debugging via USB or Wi-Fi using the [Black Magic Probe](https://github.com/blackmagic-debug/blackmagic) open source project
 * As a bonus, ESP32-S2 allows Wi-Fi penetration testing (PMKID capturing, deauth, and more) and connects Flipper Zero to the Internet. These functions are not supplied with the module and must be implemented additionally.
 
-## Technical deatils
+## Technical details
 
 * ESP32-S2-WROVER Xtensa® single-core 32-bit LX7 CPU, frequency up to 240MHz
 * 2.4 GHz Wi-Fi (802.11 b/g/n)
@@ -29,7 +29,7 @@ The developer board with Wi-Fi connectivity made specially for Flipper Zero. Bas
 * 320 KB SRAM
 * 16 KB RTCSRAM
 * 4 MB Flash
-* 2MV PSRAM
+* 2 MB PSRAM
 * Working Voltage: 3 V to 3.6 V
 * Up to 36 GPIOs
 * 3 strapping GPIOs
