@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 06 Dec 2023 14:27:35 -0500</lastBuildDate>
+<lastBuildDate>Wed, 06 Dec 2023 14:33:19 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -7943,6 +7943,79 @@ For more information, please refer to the module <a href="https://circuitpython-
     <category>CircuitPython</category>
     <pubDate>Mon, 20 Nov 2023 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/firebeetle2_esp32s3/</guid>
+  </item><item>
+    <title>Flipper Zero WiFi Dev</title>
+    <link>https://circuitpython.org/board/flipper-zero_wifi_devboard/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/flipper-zero_wifi_devboard.jpg 300w,
+               /assets/images/boards/large/flipper-zero_wifi_devboard.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/flipper-zero_wifi_devboard.jpg" alt="Image of Board" loading="lazy">
+<p>By Flipper Zero</p> <p>The developer board with Wi-Fi connectivity made specially for Flipper Zero. Based on the <a href="https://www.espressif.com/en/products/socs/esp32-s2">ESP32-S2</a> module, this devboard allows:</p>
+
+<ul>
+  <li>Wireless Flipper Zero firmware update</li>
+  <li>Advanced in-circuit debugging via USB or Wi-Fi using the <a href="https://github.com/blackmagic-debug/blackmagic">Black Magic Probe</a> open source project</li>
+  <li>As a bonus, ESP32-S2 allows Wi-Fi penetration testing (PMKID capturing, deauth, and more) and connects Flipper Zero to the Internet. These functions are not supplied with the module and must be implemented additionally.</li>
+</ul>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32-S2-WROVER Xtensa® single-core 32-bit LX7 CPU, frequency up to 240MHz</li>
+  <li>2.4 GHz Wi-Fi (802.11 b/g/n)</li>
+  <li>USB-C</li>
+  <li>128 KB ROM</li>
+  <li>320 KB SRAM</li>
+  <li>16 KB RTCSRAM</li>
+  <li>4 MB Flash</li>
+  <li>2 MB PSRAM</li>
+  <li>Working Voltage: 3 V to 3.6 V</li>
+  <li>Up to 36 GPIOs</li>
+  <li>3 strapping GPIOs</li>
+  <li>7 GPIOs need for flash/PSRAM</li>
+  <li>2*12-bit ADC (up to 20 channels)</li>
+  <li>Communication interfaces
+    <ul>
+      <li>2 I2C interfaces</li>
+      <li>1 I2S interface</li>
+      <li>4 SPI interfaces</li>
+      <li>2 UART interfaces</li>
+      <li>1 USB OTG interface</li>
+    </ul>
+  </li>
+  <li>Security
+    <ul>
+      <li>4096 bit OTP</li>
+      <li>AES, SHA, RSA, ECC, RNG</li>
+      <li>Secure Boot, Flash Encryption, Digital signature, HMAC module</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<ul>
+  <li><a href="https://docs.flipper.net/development/hardware/wifi-developer-board">Flipper Docs Wi-Fi Developer Page</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.flipperzero.one/products/wifi-devboard">Flipper Zero</a></li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://products.espressif.com/#/product-selector?language=en&amp;names=ESP32-S2-WROVER-N4R2">ESP32-S2-WROVER Product page</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 27 Nov 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/flipper-zero_wifi_devboard/</guid>
   </item><item>
     <title>Fluff M0</title>
     <link>https://circuitpython.org/board/fluff_m0/</link>

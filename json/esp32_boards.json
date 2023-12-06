@@ -1975,6 +1975,12 @@
             }
         ]
     },
+    "flipperzero_wifi_dev": {
+        "name": "Flipper Zero WiFi Dev",
+        "chipfamily": "esp32s2",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_saola_1_wrover-0.18.1.zip",
+        "releases": []
+    },
     "deneyap_mini": {
         "name": "Deneyap Mini",
         "chipfamily": "esp32s2",
