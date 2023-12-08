@@ -4,7 +4,8 @@ board_id: "adafruit_huzzah32_breakout"
 title: "Adafruit HUZZAH32 Breakout Download"
 name: "Adafruit HUZZAH32 Breakout"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4172"
+board_url:
+ - "https://www.adafruit.com/product/4172"
 board_image: "adafruit_huzzah32_breakout.jpg"
 date_added: 2023-3-1
 family: esp32

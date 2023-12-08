@@ -4,7 +4,8 @@ board_id: "waveshare_esp32_s3_pico"
 title: "ESP32-S3-Pico Download"
 name: "ESP32-S3-Pico"
 manufacturer: "Waveshare"
-board_url: "https://www.waveshare.com/esp32-s3.htm"
+board_url:
+ - "https://www.waveshare.com/esp32-s3.htm"
 board_image: "ESP32-S3-Pico.jpg"
 bootloader_id: waveshare_esp32_s3_pico
 date_added: 2023-8-30

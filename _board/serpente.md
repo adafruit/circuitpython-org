@@ -4,7 +4,10 @@ board_id: "serpente"
 title: "Serpente Download"
 name: "Serpente"
 manufacturer: "arturo182"
-board_url: "https://serpente.solder.party/"
+board_url:
+ - "https://serpente.solder.party/"
+ - "https://www.adafruit.com/product/4513"
+ - "https://www.adafruit.com/product/4514"
 board_image: "serpente.jpg"
 date_added: 2019-9-17
 family: atmel-samd

@@ -4,7 +4,11 @@ board_id: "circuitplayground_bluefruit"
 title: "Circuit Playground Bluefruit Download"
 name: "Circuit Playground Bluefruit"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/4333"
+ - "https://www.adafruit.com/product/764"
+ - "https://www.adafruit.com/product/4504"
+ - "https://www.adafruit.com/product/4371"
 board_image: "circuitplayground_bluefruit.jpg"
 date_added: 2019-8-30
 family: nrf52840

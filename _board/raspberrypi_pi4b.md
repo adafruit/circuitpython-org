@@ -4,7 +4,14 @@ board_id: "raspberrypi_pi4b"
 title: "Raspberry Pi 4 Model B Download"
 name: "Pi 4 Model B"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
+ - "https://www.adafruit.com/product/4295"
+ - "https://www.adafruit.com/product/4292"
+ - "https://www.adafruit.com/product/4296"
+ - "https://www.adafruit.com/product/4564"
+ - "https://www.adafruit.com/product/4297"
+
 board_image: "raspberry_pi_4b.jpg"
 date_added: 2021-11-29
 family: broadcom

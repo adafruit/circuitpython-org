@@ -4,7 +4,12 @@ board_id: "microbit_v2"
 title: "micro:bit v2 Download"
 name: "micro:bit v2"
 manufacturer: "BBC"
-board_url: "https://microbit.org/new-microbit/"
+board_url:
+ - "https://microbit.org/new-microbit/"
+ - "https://www.adafruit.com/product/4781"
+ - "https://www.adafruit.com/product/4834"
+ - "https://www.adafruit.com/product/4833"
+
 board_image: "microbit_v2.jpg"
 date_added: 2021-08-11
 family: nrf52840

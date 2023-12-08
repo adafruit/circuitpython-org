@@ -4,7 +4,8 @@ board_id: "qtpy_m0"
 title: "QT Py Download"
 name: "QT Py"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4600"
+board_url:
+ - "https://www.adafruit.com/product/4600"
 board_image: "qtpy_m0.jpg"
 date_added: 2020-9-28
 family: atmel-samd

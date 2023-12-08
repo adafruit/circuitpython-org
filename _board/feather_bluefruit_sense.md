@@ -4,7 +4,8 @@ board_id: "feather_bluefruit_sense"
 title: "Feather Bluefruit Sense Download"
 name: "Feather Bluefruit Sense"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4516"
+board_url:
+ - "https://www.adafruit.com/product/4516"
 board_image: "feather_bluefruit_sense.jpg"
 date_added: 2020-2-1
 family: nrf52840

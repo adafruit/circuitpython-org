@@ -4,12 +4,13 @@ board_id: "hack_club_sprig"
 title: "Hack Club Sprig Download"
 name: "Hack Club Sprig"
 manufacturer: "Hack Club"
-board_url: "https://sprig.hackclub.com"
+board_url:
+ - "https://sprig.hackclub.com"
 board_image: "hack_club_sprig.jpeg"
 date_added: "2023-02-03"
 family: raspberrypi
-features:  
-  - Display  
+features:
+  - Display
   - Speaker
 ---
 

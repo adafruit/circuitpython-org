@@ -4,7 +4,8 @@ board_id: "bpi_bit_s2"
 title: "BPI-Bit-S2 Download"
 name: "BPI-Bit-S2"
 manufacturer: "Banana Pi"
-board_url: ""
+board_url:
+ - "https://wiki.banana-pi.org/BPI-Bit-S2"
 board_image: "bpi_bit_s2.jpg"
 date_added: 2022-9-14
 family: esp32s2
@@ -16,7 +17,7 @@ features:
   - Speaker
 ---
 
-The BPI-Bit-S2 is a development board equipped ESP32-S2 chip, with 5x5 RGB LED matrix, 1 buzzer, 2 photosensitive sensors, 1 thermosensitive sensor, provides Wi-Fi functions via PCB antenna. 
+The BPI-Bit-S2 is a development board equipped ESP32-S2 chip, with 5x5 RGB LED matrix, 1 buzzer, 2 photosensitive sensors, 1 thermosensitive sensor, provides Wi-Fi functions via PCB antenna.
 
 And, the board uses the same edge connector as the micro:bit or micro:bit v2, which makes it possible to connect the alligator clip, or the breakout boards in most micro:bit kits.
 

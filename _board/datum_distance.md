@@ -4,7 +4,8 @@ board_id: "datum_distance"
 title: "datum-Distance Download"
 name: "datum-Distance"
 manufacturer: "J&J Studios"
-board_url: "https://jandjstudios.io/datum/datum-Distance/"
+board_url:
+ - "https://jandjstudios.io/datum/datum-Distance/"
 board_image: "datum_distance.jpg"
 date_added: 2019-7-12
 family: atmel-samd
@@ -18,7 +19,7 @@ The datum-Distance sensor emulates a serial port over a USB connection, presents
 
 The datum-Distance sensor can do much more than just collect the data. The measurement units can be customized to suit your application. Distance data can be returned in mm, cm, inches, or feet. The datum-Distance sensor does all the calculations for you.
 
-It can also apply filters such as min, mix, mean, and RMS to the data stream. This truly makes the datum-Distance sensor a smart sensor that goes far beyond what a breakout board can do. 
+It can also apply filters such as min, mix, mean, and RMS to the data stream. This truly makes the datum-Distance sensor a smart sensor that goes far beyond what a breakout board can do.
 
 ## Learn more
 * [datum-Distance Website](https://jandjstudios.io/datum/datum-Distance/)

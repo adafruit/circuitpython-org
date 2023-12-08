@@ -4,7 +4,8 @@ board_id: "luatos_core_esp32c3_ch343"
 title: "Luatos ESP32-C3 Core Board – CH343 USB UART Download"
 name: "Luatos ESP32-C3 Core Board – CH343 USB UART"
 manufacturer: "Luatos"
-board_url: "https://universal-solder.ca/product/luatos-esp32-c3-core-board-ch343-4mb/"
+board_url:
+ - "https://universal-solder.ca/product/luatos-esp32-c3-core-board-ch343-4mb/"
 board_image: "luatos_core_esp32c3_ch343.jpg"
 date_added: 2023-10-27
 family: esp32c3

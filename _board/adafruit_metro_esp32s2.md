@@ -4,7 +4,8 @@ board_id: "adafruit_metro_esp32s2"
 title: " Metro ESP32-S2 Download"
 name: "Metro ESP32-S2"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4775"
+board_url:
+ - "https://www.adafruit.com/product/4775"
 board_image: "adafruit_metro_esp32s2.jpg"
 date_added: 2020-10-2
 family: esp32s2

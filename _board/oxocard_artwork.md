@@ -4,7 +4,8 @@ board_id: "oxocard_artwork"
 title: "Oxocard Artwork Card Download"
 name: "Oxocard Artwork Card"
 manufacturer: "Oxocard"
-board_url: "https://oxocard.ch/en/artwork/"
+board_url:
+ - "https://oxocard.ch/en/artwork/"
 board_image: "oxocard_artwork.jpg"
 date_added: 2023-11-15
 family: esp32

@@ -4,12 +4,13 @@ board_id: "bluemicro840"
 title: "BlueMicro840 Download"
 name: "BlueMicro840"
 manufacturer: "JPConstantineau"
-board_url: "http://nrf52.jpconstantineau.com/docs/bluemicro840_v1"
+board_url:
+ - "http://nrf52.jpconstantineau.com/docs/bluemicro840_v1"
 board_image: "bluemicro840.jpg"
 date_added: 2021-08-08
 family: nrf52840
 bootloader_id: bluemicro_nrf52840
-features: 
+features:
   - USB-C
   - Breadboard-Friendly
   - Bluetooth/BTLE

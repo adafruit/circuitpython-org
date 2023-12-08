@@ -4,7 +4,8 @@ board_id: "oxocard_connect"
 title: "Oxocard Connect Card Download"
 name: "Oxocard Connect Card"
 manufacturer: "Oxocard"
-board_url: "https://oxocard.ch/en/connect/"
+board_url:
+ - "https://oxocard.ch/en/connect/"
 board_image: "oxocard_connect.jpg"
 date_added: 2023-11-15
 family: esp32

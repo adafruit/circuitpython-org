@@ -4,7 +4,8 @@ board_id: "adafruit_kb2040"
 title: "Adafruit KB2040 Download"
 name: "Adafruit KB2040"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5302"
+board_url:
+ - "https://www.adafruit.com/product/5302"
 board_image: "adafruit_kb2040.jpg"
 date_added: 2021-11-15
 family: raspberrypi

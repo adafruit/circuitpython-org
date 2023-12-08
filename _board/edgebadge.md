@@ -4,7 +4,8 @@ board_id: "edgebadge"
 title: "EdgeBadge Download"
 name: "EdgeBadge"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4400"
+board_url:
+ - "https://www.adafruit.com/product/4400"
 board_image: "edgebadge.jpg"
 date_added: 2019-11-19
 family: atmel-samd
@@ -16,7 +17,7 @@ features:
   - Battery Charging
 ---
 
-Machine learning has come to the 'edge' - small microcontrollers that can run a very miniature version of TensorFlow Lite to do ML computations. 
+Machine learning has come to the 'edge' - small microcontrollers that can run a very miniature version of TensorFlow Lite to do ML computations.
 
 But you don't need super complex hardware to start developing your own TensorFlow models! We've adapted our popular PyBadge board to add a microphone so you can dip your toes into machine learning waters. It does everything that the PyBadge does, and as we make more projects that use Machine Learning we'll adapt this board to make it better and better for machine learning.
 

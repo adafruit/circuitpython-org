@@ -4,7 +4,8 @@ board_id: "espressif_esp32c3_devkitm_1_n4"
 title: "ESP32-C3-DevKitM-1-N4 Download"
 name: "ESP32-C3-DevKitM-1-N4"
 manufacturer: "Espressif"
-board_url: ""
+board_url:
+ - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html"
 board_image: "espressif_esp32c3_devkitm_1_n4.jpg"
 date_added: 2022-2-14
 family: esp32c3
@@ -35,7 +36,7 @@ It is recommended to use the first option: Micro-USB Port.
 - **ESP32-C3-MINI-1-N4**: ESP32-C3-MINI-1-N4 from Espressif is a powerful and general-purpose RISC V module that offers Wi-Fi and Bluetooth LE coexistence. It has a PCB antenna and 4 MB SPI flash.
 - **5V to 3.3V LDO**: Power regulator that converts a 5V supply into a 3.3V output.
 - **5V Power On LED**: Turns on when the USB power is connected to the board.
-- **Pin Headers**: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see [Header Block](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks).
+- **Pin Headers**: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see [Header Block](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html#user-guide-c3-devkitm-1-v1-header-blocks).
 - **Micro-USB Port**: USB interface. Power supply for the board as well as the communication interface between a computer and the ESP32-C3 chip.
 - **Boot Button**: Download button. Holding down **Boot** and then pressing **Reset** initiates Firmware Download mode for downloading firmware through the serial port.
 - **Reset Button:** Press this button to restart the system.

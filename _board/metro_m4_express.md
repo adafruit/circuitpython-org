@@ -4,7 +4,8 @@ board_id: "metro_m4_express"
 title: "Metro M4 Express Download"
 name: "Metro M4 Express"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/3382"
+board_url:
+ - "https://www.adafruit.com/product/3382"
 board_image: "metro_m4_express.jpg"
 date_added: 2019-3-9
 family: atmel-samd

@@ -4,7 +4,9 @@ board_id: "unexpectedmaker_feathers2_prerelease"
 title: "Unexpected Maker FeatherS2 Prerelease Download"
 name: "Unexpected Maker FeatherS2 Prerelease"
 manufacturer: "Unexpected Maker"
-board_url: ""
+board_url:
+ - "https://unexpectedmaker.com/shop/feathers2-esp32-s2"
+ - "https://www.adafruit.com/product/4769"
 board_image: "unexpectedmaker_feathers2_prerelease.jpg"
 date_added: 2020-6-14
 family: esp32s2

@@ -4,7 +4,8 @@ board_id: "e_fidget"
 title: "E-Fidget Download"
 name: "E-Fidget"
 manufacturer: "2231puppy"
-board_url: "https://e-fidget.xyz"
+board_url:
+ - "https://e-fidget.xyz"
 board_image: "e_fidget.jpg"
 date_added: 2023-1-4
 family: raspberrypi

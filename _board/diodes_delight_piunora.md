@@ -4,9 +4,12 @@ board_id: "diodes_delight_piunora"
 title: "Piunora Download"
 name: "Piunora"
 manufacturer: "Diodes Delight"
-board_url: "https://www.crowdsupply.com/diodes-delight/piunora"
+board_url:
+ - "https://www.crowdsupply.com/diodes-delight/piunora"
+ - "https://www.adafruit.com/product/5404"
+ - "https://www.adafruit.com/product/5403"
 board_image: "diodes_delight_piunora.jpg"
-download_instructions: 
+download_instructions:
 date_added: 2021-2-14
 family: broadcom
 features:
@@ -39,4 +42,6 @@ It may be small, but Piunora is packed with powerful peripherals that will come 
 
 ## Purchase
 
-* [Crowd Supply](https://www.crowdsupply.com/diodes-delight/piunora)
+ * [Adafruit - Piunora Pro](https://www.adafruit.com/product/5404)
+ * [Adafruit - Piunora Lite](https://www.adafruit.com/product/5403)
+ * [Crowd Supply](https://www.crowdsupply.com/diodes-delight/piunora)

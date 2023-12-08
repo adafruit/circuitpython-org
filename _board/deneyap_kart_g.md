@@ -4,7 +4,8 @@ board_id: "deneyap_kart_g"
 title: "Deneyap Kart G Download"
 name: "Deneyap Kart G"
 manufacturer: "Turkish Technology Team Foundation"
-board_url: "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-g"
+board_url:
+ - "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-g"
 board_image: "deneyapkartg.jpg"
 date_added: 2023-03-14
 family: esp32c3

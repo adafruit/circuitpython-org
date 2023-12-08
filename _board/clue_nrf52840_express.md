@@ -4,7 +4,10 @@ board_id: "clue_nrf52840_express"
 title: "CLUE NRF52840 Express Download"
 name: "CLUE NRF52840 Express"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4500"
+board_url:
+ - "https://www.adafruit.com/product/4500"
+ - "https://www.adafruit.com/product/4491"
+ - "https://www.adafruit.com/product/5627"
 board_image: "clue_nrf52840_express.jpg"
 date_added: 2019-12-30
 family: nrf52840

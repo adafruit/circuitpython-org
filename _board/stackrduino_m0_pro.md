@@ -4,7 +4,8 @@ board_id: "stackrduino_m0_pro"
 title: "StackRduino M0+ PRO Download"
 name: "StackRduino M0+ PRO"
 manufacturer: "StackRduino"
-board_url: "https://github.com/StackRduino/StackRduino_M0"
+board_url:
+ - "https://github.com/StackRduino/StackRduino_M0"
 board_image: "stackrduino_m0_pro.jpg"
 date_added: 2021-4-6
 family: atmel-samd

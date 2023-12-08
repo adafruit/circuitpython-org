@@ -4,7 +4,8 @@ board_id: "teknikio_bluebird"
 title: "Bluebird Download"
 name: "Bluebird"
 manufacturer: "Teknikio"
-board_url: "https://www.teknikio.com/pages/bluebird"
+board_url:
+ - "https://www.teknikio.com/pages/bluebird"
 board_image: "teknikio_bluebird.jpg"
 date_added: 2019-12-20
 family: nrf52840

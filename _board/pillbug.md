@@ -4,7 +4,8 @@ board_id: "pillbug"
 title: "PillBug Download"
 name: "PillBug"
 manufacturer: "MechWild"
-board_url: "https://mechwild.com/product/pillbug/"
+board_url:
+ - "https://mechwild.com/product/pillbug/"
 board_image: "pillbug.jpg"
 date_added: 2022-11-10
 downloads_display: true

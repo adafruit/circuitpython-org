@@ -4,7 +4,8 @@ board_id: "electronut_labs_papyr"
 title: "Papyr Download"
 name: "Papyr"
 manufacturer: "Electronut Labs"
-board_url: "https://gitlab.com/electronutlabs-public/papyr"
+board_url:
+ - "https://gitlab.com/electronutlabs-public/papyr"
 board_image: "electronut_labs_papyr.jpg"
 downloads_display: true
 date_added: 2019-4-23

@@ -4,7 +4,8 @@ board_id: "stm32f4_discovery"
 title: "STM32F407 Discovery kit Download"
 name: "STM32F407 Discovery kit"
 manufacturer: "ST"
-board_url: "https://www.st.com/en/evaluation-tools/stm32f4discovery.html"
+board_url:
+ - "https://www.st.com/en/evaluation-tools/stm32f4discovery.html"
 board_image: "stm32f407.jpg"
 date_added: 2019-9-18
 family: stm

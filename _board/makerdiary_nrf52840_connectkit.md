@@ -4,7 +4,8 @@ board_id: "makerdiary_nrf52840_connectkit"
 title: "nRF52840 Connect Kit Download"
 name: "nRF52840 Connect Kit"
 manufacturer: "MakerDiary"
-board_url: "https://makerdiary.com/products/nrf52840-connectkit?variant=43255093035163"
+board_url:
+ - "https://makerdiary.com/products/nrf52840-connectkit?variant=43255093035163"
 board_image: "makerdiary_nrf52840_connectkit.jpg"
 date_added: 2023-7-28
 family: nrf52840

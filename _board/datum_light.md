@@ -4,7 +4,8 @@ board_id: "datum_light"
 title: "datum-Light Download"
 name: "datum-Light"
 manufacturer: "J&J Studios"
-board_url: "https://jandjstudios.io/datum/datum-Light/"
+board_url:
+ - "https://jandjstudios.io/datum/datum-Light/"
 board_image: "datum_light.jpg"
 date_added: 2019-7-12
 family: atmel-samd

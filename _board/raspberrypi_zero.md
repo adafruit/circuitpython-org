@@ -4,7 +4,10 @@ board_id: "raspberrypi_zero"
 title: "Raspberry Pi Zero Download"
 name: "Zero"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero/"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-zero/"
+ - "https://www.adafruit.com/product/2885"
+ - "https://www.adafruit.com/product/3644"
 board_image: "raspberry_pi_zero.jpg"
 date_added: 2022-2-14
 family: broadcom

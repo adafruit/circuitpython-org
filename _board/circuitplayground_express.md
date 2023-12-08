@@ -4,7 +4,17 @@ board_id: "circuitplayground_express"
 title: "Circuit Playground Express Download"
 name: "Circuit Playground Express"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com"
+board_url:
+ - "https://www.adafruit.com/product/3333"
+ - "https://www.adafruit.com/product/3697"
+ - "https://www.adafruit.com/product/2769"
+ - "https://www.adafruit.com/product/3517"
+ - "https://www.adafruit.com/product/4060"
+ - "https://www.adafruit.com/product/2599"
+ - "https://www.adafruit.com/product/1394"
+ - "https://www.adafruit.com/product/3399"
+ - "https://www.adafruit.com/product/3795"
+ - "https://www.adafruit.com/product/3906"
 board_image: "circuitplayground_express.jpg"
 date_added: 2018-12-13
 family: atmel-samd

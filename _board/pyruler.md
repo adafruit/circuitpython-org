@@ -4,14 +4,15 @@ board_id: "pyruler"
 title: "PyRuler Download"
 name: "PyRuler"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/4319"
 board_image: "pyruler.jpg"
 date_added: 2019-7-15
 family: atmel-samd
 bootloader_id: trinket_m0
 ---
 
-CircuitPython rules! The PyRuler is the first ruler to be able to run CircuitPython. It features an embedded Adafruit Trinket M0, which is a tiny microcontroller board, built around the Atmel ATSAMD21E18 powerhouse. 
+CircuitPython rules! The PyRuler is the first ruler to be able to run CircuitPython. It features an embedded Adafruit Trinket M0, which is a tiny microcontroller board, built around the Atmel ATSAMD21E18 powerhouse.
 
 The first time you soldered up a surface mount component you may have been surprised "these are really small parts!" and there's dozens of different names too! QFN, TDFN, SOIC, SOP, J-Lead, what do they mean and how can you tell how big they are? On the reverse side of the PyRuler, just like with our PCB ruler, you have a reference board right at your fingertips.
 
@@ -20,3 +21,7 @@ While you can use the PyRuler with the Arduino IDE, it ships with CircuitPython 
 ## Tutorial
 
 - [PyRuler Overview](https://learn.adafruit.com/adafruit-pyruler)
+
+## Purchase
+
+* [Adafruit](https://www.adafruit.com/product/4319)

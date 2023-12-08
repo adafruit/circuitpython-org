@@ -4,7 +4,8 @@ board_id: "adafruit_feather_esp32s3_reverse_tft"
 title: "ESP32-S3 Reverse TFT Feather Download"
 name: "ESP32-S3 Reverse TFT Feather"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/5691"
 board_image: "adafruit_feather_esp32s3_reverse_tft.jpg"
 date_added: 2023-1-31
 family: esp32s3
@@ -49,3 +50,6 @@ For low power usages, the Feather has a *second* low-dropout 3.3V regulator. The
 - **Low Power friendly**! In deep sleep mode, we can get down to 40~50uA of current draw from the Lipoly connection. Quiescent current is from the power regulator, ESP32-S2 chip, and Lipoly monitor. Turn off the NeoPixel and external I2C/TFT power for the lowest quiescent current draw.
 - **Works with Arduino or CircuitPython**
 
+## Purchase
+
+* [Adafruit](https://www.adafruit.com/product/5691)

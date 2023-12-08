@@ -4,7 +4,8 @@ board_id: "feather_m0_adalogger"
 title: "Feather M0 Adalogger Download"
 name: "Feather M0 Adalogger"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/2796"
 board_image: "feather_m0_adalogger.jpg"
 date_added: 2019-3-9
 family: atmel-samd
@@ -23,7 +24,7 @@ At the Feather M0's heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 
 
 To make it easy to use for portable projects, Adafruit added a connector for 3.7 V Lithium polymer batteries and built in battery charging. You don't need a battery, it will run just fine straight from the micro USB connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when its available. The battery is tied thru a divider to an analog pin, so you can measure and monitor the battery voltage to detect when you need a recharge.
 
-## ## Technical details
+## Technical details
 
 * Measures 2.0" x 0.9" x 0.28" (51 mm x 23 mm x 8 mm) without headers soldered in
 * Light as a (large?) feather - 5.3 grams

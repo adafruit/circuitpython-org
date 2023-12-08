@@ -4,7 +4,8 @@ board_id: "espressif_esp32s3_devkitc_1_n8"
 title: "ESP32-S3-DevKitC-1-N8 Download"
 name: "ESP32-S3-DevKitC-1-N8"
 manufacturer: "Espressif"
-board_url: "https://www.adafruit.com/product/5312"
+board_url:
+ - "https://www.adafruit.com/product/5312"
 board_image: "espressif_esp32s3_devkitc_1.jpg"
 date_added: 2022-1-4
 family: esp32s3

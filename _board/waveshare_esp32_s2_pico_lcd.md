@@ -4,7 +4,8 @@ board_id: "waveshare_esp32_s2_pico_lcd"
 title: "ESP32-S2-Pico with LCD Download"
 name: "ESP32-S2-Pico with LCD"
 manufacturer: "Waveshare"
-board_url: ""
+board_url:
+ - "https://www.waveshare.com/wiki/ESP32-S2-Pico"
 board_image: "waveshare_esp32_s2_pico_lcd.jpg"
 bootloader_id: waveshare_esp32_s2_pico_lcd
 date_added: 2022-8-22

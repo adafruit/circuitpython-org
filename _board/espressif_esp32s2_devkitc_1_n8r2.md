@@ -4,7 +4,8 @@ board_id: "espressif_esp32s2_devkitc_1_n8r2"
 title: "ESP32-S2-DevKitC-1-N8R2 Download"
 name: "ESP32-S2-DevKitC-1-N8R2"
 manufacturer: "Espressif"
-board_url: ""
+board_url:
+ - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-s2-devkitc-1.html"
 board_image: "espressif_esp32s2_devkitc_1_n8r2.jpg"
 date_added: 2022-10-14
 family: esp32s2

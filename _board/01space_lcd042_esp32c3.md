@@ -4,7 +4,8 @@ board_id: "01space_lcd042_esp32c3"
 title: "ESP32-C3-0.42LCD Download"
 name: "ESP32-C3-0.42LCD"
 manufacturer: "01space"
-board_url: "https://github.com/01Space/ESP32-C3-0.42LCD"
+board_url:
+ - "https://github.com/01Space/ESP32-C3-0.42LCD"
 board_image: "01space_lcd042_esp32c3.jpg"
 date_added: 2023-5-4
 family: esp32c3

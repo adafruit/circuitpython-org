@@ -4,7 +4,8 @@ board_id: "<board id>"
 title: "<board name> Download"
 name: "<board name>"
 manufacturer: "<board manufacturer>"
-board_url: ""
+board_url:
+ - ""
 board_image: "unknown.jpg"
 date_added: 2020-3-31
 downloads_display: true
@@ -13,6 +14,8 @@ download_instructions: "BLINKA ONLY - url"
 # Features are tags; they should be limited to the items in this list and spelled exactly the same.
 # Include only the features your board supports, and remove these comment lines before committing.
 # Breadboard-Friendly is a parallel pin layout with minimal non-critical perpendicular pins
+family: esp32  # See _data/bootloaders.json
+bootloader_id:
 features:
   - Arduino Shield Compatible
   - Battery Charging

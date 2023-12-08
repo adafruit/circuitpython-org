@@ -4,7 +4,8 @@ board_id: "espressif_saola_1_wrover"
 title: "Saola 1 w/WROVER Download"
 name: "Saola 1 w/WROVER"
 manufacturer: "Espressif"
-board_url: "https://www.adafruit.com/product/4693"
+board_url:
+ - "https://www.adafruit.com/product/4693"
 board_image: "espressif_saola_1_wrover.jpg"
 date_added: 2020-05-15
 family: esp32s2

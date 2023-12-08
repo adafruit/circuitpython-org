@@ -4,7 +4,8 @@ board_id: "adafruit_feather_esp32_v2"
 title: "Adafruit Feather ESP32 V2 Download"
 name: "Adafruit Feather ESP32 V2"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5400"
+board_url:
+ - "https://www.adafruit.com/product/5400"
 board_image: "adafruit_feather_esp32_v2.jpg"
 date_added: 2022-8-19
 family: esp32

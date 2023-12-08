@@ -4,7 +4,8 @@ board_id: "hiibot_bluefi"
 title: "HiiBot BlueFi Download"
 name: "HiiBot BlueFi"
 manufacturer: "Hangzhou LeBan"
-board_url: ""
+board_url:
+ - "https://www.tindie.com/products/bradchan/hiibot-bluefi/"
 board_image: "hiibot_bluefi.jpg"
 date_added: 2020-5-19
 family: nrf52840
@@ -38,9 +39,9 @@ The HiiBot BlueFi is a microbit-compatible single board computer, but has enhanc
   - 1x 3-axis Accelerometer and 3-axis Gyroscope (LSM6DS)
   - 1x mini-Grove/Qwiic/STEMMA QT connector
 
-The HiiBot BlueFi have a lot of sensors, vs 6-DoF motion sensor of microbit, including 9-DoF motion sensors, sound sensor, temperature & humidity sensor, and integrated optical sensor. At the same time, BlueFi have two buttons, three touchpads, and 40-Pin extended interface on the microbit. 
+The HiiBot BlueFi have a lot of sensors, vs 6-DoF motion sensor of microbit, including 9-DoF motion sensors, sound sensor, temperature & humidity sensor, and integrated optical sensor. At the same time, BlueFi have two buttons, three touchpads, and 40-Pin extended interface on the microbit.
 
-In a variety of IoT application scenario, BlueTooth and WiFi is an integral part of the wireless connection channel. BlueTooth and WiFi be supportted at the same time on the BlueFI board. You can realize bridges, gateways and other net equipment with BlueFi. 
+In a variety of IoT application scenario, BlueTooth and WiFi is an integral part of the wireless connection channel. BlueTooth and WiFi be supportted at the same time on the BlueFI board. You can realize bridges, gateways and other net equipment with BlueFi.
 
 Built-in a lot of sensors and output devices on the HiiBot BlueFi, but a low-cost SBC. Our purpose is to help you quickly realize all kinds of ideas, no trouble wiring and welding electronic components.
 
@@ -48,5 +49,5 @@ The most exciting part of the HiiBot BlueFi is that while you can use it with th
 
 Easy reprogramming: the HiiBot BlueFi comes pre-loaded with the UF2 bootloader, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython or Arduino IDE.
 
-
-
+## Purchase
+ * [Tindie](https://www.tindie.com/products/bradchan/hiibot-bluefi/)

@@ -4,7 +4,8 @@ board_id: "datanoise_picoadk"
 title: "PicoADK - Audio Development Kit Download"
 name: "PicoADK - Audio Development Kit"
 manufacturer: "DatanoiseTV"
-board_url: "https://www.tindie.com/products/datanoisetv/picoadk-audio-development-kit-raspberry-rp2040/"
+board_url:
+ - "https://www.tindie.com/products/datanoisetv/picoadk-audio-development-kit-raspberry-rp2040/"
 board_image: "datanoise_picoadk.jpg"
 date_added: 2023-7-28
 family: raspberrypi

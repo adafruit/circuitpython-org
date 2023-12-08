@@ -4,7 +4,8 @@ board_id: "deneyap_kart"
 title: "Deneyap Kart Download"
 name: "Deneyap Kart"
 manufacturer: "Turkish Technology Team Foundation"
-board_url: "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart"
+board_url:
+ - "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart"
 board_image: "deneyapkart.jpg"
 date_added: 2023-03-14
 family: esp32

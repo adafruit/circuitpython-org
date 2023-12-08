@@ -4,7 +4,8 @@ board_id: "pycubed"
 title: "PyCubedv04 Download"
 name: "PyCubedv04"
 manufacturer: "PyCubed.org"
-board_url: "https://pycubed.org/"
+board_url:
+ - "https://pycubed.org/"
 board_image: "pycubed.jpg"
 date_added: 2020-2-27
 family: atmel-samd

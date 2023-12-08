@@ -4,7 +4,8 @@ board_id: "lolin_s2_mini"
 title: "LOLIN S2 Mini Download"
 name: "LOLIN S2 Mini"
 manufacturer: "LOLIN"
-board_url: "https://www.wemos.cc/en/latest/s2/s2_mini.html"
+board_url:
+ - "https://www.wemos.cc/en/latest/s2/s2_mini.html"
 board_image: "lolin_s2_mini.jpg"
 date_added: 2021-9-3
 family: esp32s2
@@ -75,7 +76,7 @@ The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form fac
 ## Enter bootloader
 
 To enter UF2 Bootloader Version 0.10.2:
-* Click reset button 
+* Click reset button
 * Wait until LED is lit
 * Hold BOOT button
 

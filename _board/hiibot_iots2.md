@@ -4,7 +4,8 @@ board_id: "hiibot_iots2"
 title: "HiiBot IoTs2 Download"
 name: "HiiBot IoTs2"
 manufacturer: "Hangzhou LeBan"
-board_url: "https://www.tindie.com/products/bradchan/hiibot-iots2/"
+board_url:
+ - "https://www.tindie.com/products/bradchan/hiibot-iots2/"
 board_image: "hiibot_iots2.jpg"
 date_added: 2020-11-20
 family: esp32s2

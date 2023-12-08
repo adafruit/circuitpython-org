@@ -4,7 +4,8 @@ board_id: "cp_sapling_m0"
 title: "CP Sapling M0 Download"
 name: "CP Sapling M0"
 manufacturer: "Oak Development Technologies"
-board_url: "https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/"
+board_url:
+ - "https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/"
 board_image: "cp_sapling_m0.jpg"
 date_added: 2020-11-23
 family: atmel-samd

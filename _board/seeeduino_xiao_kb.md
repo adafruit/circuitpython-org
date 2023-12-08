@@ -4,7 +4,8 @@ board_id: "seeeduino_xiao_kb"
 title: "Seeeduino XIAO Download"
 name: "Seeeduino XIAO - Keyboard Optimized"
 manufacturer: "Seeed Studio"
-board_url: "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
+board_url:
+ - "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
 board_image: "seeeduino_xiao.jpg"
 date_added: 2021-10-08
 family: atmel-samd

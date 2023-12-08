@@ -4,7 +4,8 @@ board_id: "ai_thinker_esp_12k_nodemcu"
 title: "NodeMCU ESP-12K Download"
 name: "NodeMCU ESP-12K"
 manufacturer: "Ai-Thinker"
-board_url: "https://docs.ai-thinker.com/en/12k_development_board_esp32-s2"
+board_url:
+ - "https://docs.ai-thinker.com/en/12k_development_board_esp32-s2"
 board_image: "ai_thinker_esp_12k_nodemcu.jpg"
 date_added: 2021-8-24
 family: esp32s2

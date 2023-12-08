@@ -4,7 +4,8 @@ board_id: "espruino_wifi"
 title: "Espruino WiFi Download"
 name: "Espruino WiFi"
 manufacturer: "Espruino"
-board_url: "https://www.adafruit.com/product/3514"
+board_url:
+ - "https://www.adafruit.com/product/3514"
 board_image: "espruino_wifi.jpg"
 date_added: 2020-2-13
 family: stm
@@ -32,7 +33,7 @@ Once you've uploaded code, you can inspect and change variables (including funct
  - On-board 3.3v 250mA voltage regulator, accepts voltages from 3.5v to 5v
  - Current draw in sleep: < 0.05mA - over 2.5 years on a 2500mAh battery
  - 500mA polyfuse on board
- 
+
 The Espruino's fast response time has a lot of advantages. It allows for quick and easy debugging and is a great way to test your project before your big reveal. In addition, you can control the Espruino from almost anything - Windows, Mac OS, Linux, RasPi, Android, anything that can talk to a USB Serial port.
 
 The Espruino also interacts well with our [NeoPixels](https://www.adafruit.com/category/168). For more info, check out [Espruino's page on the WS2811 and WS2812](http://www.espruino.com/WS2811).

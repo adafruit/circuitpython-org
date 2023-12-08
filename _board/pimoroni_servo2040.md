@@ -4,7 +4,9 @@ board_id: "pimoroni_servo2040"
 title: "Servo 2040 Download"
 name: "Servo 2040"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/servo-2040"
+board_url:
+ - "https://shop.pimoroni.com/products/servo-2040"
+ - "https://www.adafruit.com/product/5437"
 board_image: "pimoroni_servo2040.jpg"
 date_added: 2022-4-1
 family: raspberrypi
@@ -35,4 +37,5 @@ Raspberry Pi's RP2040 microcontroller is a dual core ARM Cortex M0+ running at u
 One very exciting feature of RP2040 is the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.
 
 ## Purchase
+* [Adafruit](https://www.adafruit.com/product/5437)
 * [Pimoroni](https://shop.pimoroni.com/products/servo-2040)

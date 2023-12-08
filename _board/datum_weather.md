@@ -4,7 +4,8 @@ board_id: "datum_weather"
 title: "datum-Weather Download"
 name: "datum-Weather"
 manufacturer: "J&J Studios"
-board_url: "https://jandjstudios.io/datum/datum-Weather/"
+board_url:
+ - "https://jandjstudios.io/datum/datum-Weather/"
 board_image: "datum_weather.jpg"
 date_added: 2019-7-12
 family: atmel-samd

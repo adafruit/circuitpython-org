@@ -4,7 +4,8 @@ board_id: "feather_mimxrt1062"
 title: "Feather MIMXRT1062 Download"
 name: "Feather MIMXRT1062"
 manufacturer: "arturo182"
-board_url: "https://hackaday.io/project/169387-mimxrt10xx-feathers-rt1011-and-rt1062"
+board_url:
+ - "https://hackaday.io/project/169387-mimxrt10xx-feathers-rt1011-and-rt1062"
 board_image: "feather_mimxrt1062.jpg"
 date_added: 2020-1-8
 family: mimxrt10xx

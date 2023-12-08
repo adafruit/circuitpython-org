@@ -4,7 +4,8 @@ board_id: "sparkfun_samd51_micromod"
 title: "MicroMod SAMD51 Processor Download"
 name: "MicroMod SAMD51 Processor"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/16791"
+board_url:
+ - "https://www.sparkfun.com/products/16791"
 board_image: "sparkfun_samd51_micromod.jpg"
 date_added: 2021-6-4
 family: atmel-samd

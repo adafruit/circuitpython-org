@@ -4,7 +4,9 @@ board_id: "seeeduino_wio_terminal"
 title: "Seeeduino Wio Terminal Download"
 name: "Seeeduino Wio Terminal"
 manufacturer: "Seeed Studio"
-board_url: "https://www.seeedstudio.com/Wio-Terminal-p-4509.html"
+board_url:
+ - "https://www.seeedstudio.com/Wio-Terminal-p-4509.html"
+ - "https://www.adafruit.com/product/4707"
 board_image: "seeeduino_wio_terminal.jpg"
 date_added: 2020-7-3
 family: atmel-samd
@@ -56,5 +58,5 @@ Instead of being a single embedded functional module, **Wio Terminal** is more o
 **NOTE:** The RTL8720DN isn't supported from CircuitPython. Therefore, Wifi and Bluetooth will not work.
 
 ## Purchase
-* [Adafruit](https://www.adafruit.com/product/4707) 
+* [Adafruit](https://www.adafruit.com/product/4707)
 * [Seeed Studio](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)

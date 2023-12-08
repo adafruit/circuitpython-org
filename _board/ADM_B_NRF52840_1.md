@@ -4,7 +4,8 @@ board_id: "ADM_B_NRF52840_1"
 title: "ADM_52840 Breakout board for Holyiot_18010 Download"
 name: "ADM_52840 Breakout board for Holyiot_18010"
 manufacturer: "Atelier du Maker"
-board_url: "https://anderson69s.com/portfolio/nrf52840-breakout-holyiot/"
+board_url:
+ - "https://anderson69s.com/portfolio/nrf52840-breakout-holyiot/"
 board_image: "ADM_B_NRF52840_1.jpg"
 date_added: 2020-10-30
 family: nrf52840

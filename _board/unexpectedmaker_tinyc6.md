@@ -4,7 +4,8 @@ board_id: "unexpectedmaker_tinyc6"
 title: "Unexpected Maker TinyC6 Download"
 name: "Unexpected Maker TinyC6"
 manufacturer: "Unexpected Maker"
-board_url: ""
+board_url:
+ - "https://unexpectedmaker.com/shop.html#!/TinyC6/p/602208790/category=0"
 board_image: "unexpectedmaker_tinyc6.jpg"
 date_added: 2023-11-22
 family: esp32c6

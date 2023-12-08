@@ -4,7 +4,7 @@ board_id: "feather_radiofruit_zigbee"
 title: "feather_radiofruit_zigbee Download"
 name: "feather_radiofruit_zigbee"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
 board_image: "unknown.jpg"
 date_added: 2019-4-5
 family: atmel-samd

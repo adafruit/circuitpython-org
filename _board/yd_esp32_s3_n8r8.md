@@ -4,7 +4,8 @@ board_id: "yd_esp32_s3_n8r8"
 title: "YD-ESP32-S3 N8R8 Download"
 name: "YD-ESP32-S3 N8R8"
 manufacturer: "VCC-GND Studio"
-board_url: ""
+board_url:
+ - "https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982305"
 board_image: "yd_esp32_s3.jpg"
 date_added: 2023-5-3
 family: esp32s3

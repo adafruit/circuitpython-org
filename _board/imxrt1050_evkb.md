@@ -4,7 +4,8 @@ board_id: "imxrt1050_evkb"
 title: "MIMXRT1050-EVKB Eval Kit Download"
 name: "MIMXRT1050-EVKB Eval Kit"
 manufacturer: "NXP"
-board_url: "https://www.nxp.com/part/MIMXRT1060-EVK"
+board_url:
+ - "https://www.nxp.com/part/MIMXRT1060-EVK"
 board_image: "imxrt1050_evkb.jpg"
 date_added: 2023-6-5
 family: mimxrt10xx

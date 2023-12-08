@@ -4,7 +4,9 @@ board_id: "monster_m4sk"
 title: "MONSTER M4SK Download"
 name: "MONSTER M4SK"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/4343"
+ - "https://www.adafruit.com/product/4281"
 board_image: "monster_m4sk.jpg"
 date_added: 2019-8-30
 family: atmel-samd

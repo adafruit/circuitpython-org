@@ -4,7 +4,8 @@ board_id: "pygamer_advance"
 title: "PyGamer Advance Download"
 name: "PyGamer Advance"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/"
 board_image: "pygamer_advance.jpg"
 date_added: 2019-7-1
 family: atmel-samd

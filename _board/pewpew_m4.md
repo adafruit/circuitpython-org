@@ -4,7 +4,8 @@ board_id: "pewpew_m4"
 title: "PewPew M4 Download"
 name: "PewPew M4"
 manufacturer: "Radomir Dopieralski"
-board_url: "https://hackaday.io/project/165032-pewpew-m4"
+board_url:
+ - "https://hackaday.io/project/165032-pewpew-m4"
 board_image: "pewpew_m4.jpg"
 date_added: 2019-9-16
 family: atmel-samd

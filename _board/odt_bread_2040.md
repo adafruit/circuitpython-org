@@ -4,7 +4,8 @@ board_id: "odt_bread_2040"
 title: "Bread 2040 Download"
 name: "Bread 2040 Dev Board"
 manufacturer: "Oak Development Technologies"
-board_url: "https://www.tindie.com/products/24791/"
+board_url:
+ - "https://www.tindie.com/products/24791/"
 board_image: "odt_bread_2040.jpg"
 date_added: 2021-10-17
 family: raspberrypi

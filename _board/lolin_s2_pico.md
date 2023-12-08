@@ -4,7 +4,8 @@ board_id: "lolin_s2_pico"
 title: "LOLIN S2 Pico Download"
 name: "LOLIN S2 Pico"
 manufacturer: "LOLIN"
-board_url: "https://www.wemos.cc/en/latest/s2/s2_pico.html"
+board_url:
+ - "https://www.wemos.cc/en/latest/s2/s2_pico.html"
 board_image: "lolin_s2_pico.jpg"
 date_added: 2021-11-2
 family: esp32s2

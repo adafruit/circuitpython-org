@@ -4,7 +4,8 @@ board_id: "metro_m7_1011"
 title: "Metro M7 with AirLift Download"
 name: "Metro M7 with AirLift"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4950"
+board_url:
+ - "https://www.adafruit.com/product/4950"
 board_image: "metro_m7_1011.jpg"
 date_added: 2020-10-16
 family: mimxrt10xx

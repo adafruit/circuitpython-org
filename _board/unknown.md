@@ -4,7 +4,7 @@ board_id: "unknown"
 title: "Unknown Board Download"
 name: "Unknown Board"
 manufacturer: "Unknown"
-board_url: ""
+board_url:
 board_image: "unknown.jpg"
 
 ---

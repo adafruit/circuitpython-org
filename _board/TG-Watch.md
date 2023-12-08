@@ -4,7 +4,8 @@ board_id: "TG-Watch"
 title: "TG-Watch Download"
 name: "TG-Watch"
 manufacturer: "TG-Techie"
-board_url: "https://github.com/TG-Techie/TG-Watch02-PCB"
+board_url:
+ - "https://github.com/TG-Techie/TG-Watch02-PCB"
 board_image: "TG-Watch.jpg"
 date_added: 2020-3-31
 family: atmel-samd

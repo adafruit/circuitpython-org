@@ -4,7 +4,8 @@ board_id: "espressif_esp32_eye"
 title: "ESP-EYE Download"
 name: "ESP-EYE"
 manufacturer: "Espressif"
-board_url: "https://www.adafruit.com/product/4095"
+board_url:
+ - "https://www.adafruit.com/product/4095"
 board_image: "espressif_esp32_eye.jpg"
 date_added: 2022-08-22
 family: esp32

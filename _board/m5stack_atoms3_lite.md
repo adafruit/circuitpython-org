@@ -4,7 +4,8 @@ board_id: "m5stack_atoms3_lite"
 title: "AtomS3 Lite ESP32S3 Dev Kit Download"
 name: "AtomS3 Lite ESP32S3 Dev Kit"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/AtomS3%20Lite"
+board_url:
+ - "https://docs.m5stack.com/en/core/AtomS3%20Lite"
 board_image: "m5stack_atoms3_lite.png"
 date_added: 2023-4-4
 family: esp32s3
@@ -20,7 +21,7 @@ ATOMS3 Liteis anAtom Series Programmable Controllerin the M5Stack Development Ki
 
 The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has **WiFi** and **BLE** support, **built-in native USB** as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the [Internet of Things (IoT)](https://www.adafruit.com/category/342), [wearable electronics](https://www.adafruit.com/category/65), and smart homes.
 
-- Small size is only 24x24x9.5mm, 
+- Small size is only 24x24x9.5mm,
 - **USB Type C connector** - [If you have only Micro B cables, this adapter will come in handy](https://www.adafruit.com/product/4299)!
 - **ESP32-S3 (ESP32-S3FN8) Dual Core 240MHz Tensilica processor** - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!
 - Comes with **8MB Flash, 512KB SRAM, no PSRAM**

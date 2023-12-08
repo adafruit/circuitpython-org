@@ -4,7 +4,8 @@ board_id: "sparkfun_samd21_dev"
 title: "SAMD21 Dev Download"
 name: "SAMD21 Dev"
 manufacturer: "SparkFun"
-board_url: ""
+board_url:
+ - "https://www.sparkfun.com/products/13672"
 board_image: "sparkfun_samd21_dev.jpg"
 date_added: 2019-3-9
 family: atmel-samd

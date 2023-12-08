@@ -4,7 +4,8 @@ board_id: "adafruit_qualia_s3_rgb666"
 title: "Qualia ESP32-S3 for TTL RGB-666 Displays Download"
 name: "Qualia ESP32-S3 for TTL RGB-666 Displays"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5800"
+board_url:
+ - "https://www.adafruit.com/product/5800"
 board_image: "adafruit_qualia_s3_rgb666.jpg"
 date_added: 2023-10-3
 family: esp32s3

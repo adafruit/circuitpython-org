@@ -4,7 +4,8 @@ board_id: "adafruit_qtpy_esp32s3_nopsram"
 title: "Adafruit QT Py ESP32-S3 No PSRAM Download"
 name: "Adafruit QT Py ESP32-S3 No PSRAM"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5426"
+board_url:
+ - "https://www.adafruit.com/product/5426"
 board_image: "adafruit_qtpy_esp32s3_nopsram.jpg"
 date_added: 2022-2-14
 family: esp32s3

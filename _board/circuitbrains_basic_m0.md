@@ -4,7 +4,8 @@ board_id: "circuitbrains_basic_m0"
 title: "CircuitBrains Basic Download"
 name: "CircuitBrains Basic"
 manufacturer: "Null Byte Labs LLC"
-board_url: ""
+board_url:
+ - "https://github.com/neubauek/CircuitBrains"
 board_image: "circuitbrains_basic.jpg"
 date_added: 2020-2-27
 family: atmel-samd

@@ -4,7 +4,8 @@ board_id: "datum_imu"
 title: "datum-IMU Download"
 name: "datum-IMU"
 manufacturer: "J&J Studios"
-board_url: "https://jandjstudios.io/datum/datum-IMU/"
+board_url:
+ - "https://jandjstudios.io/datum/datum-IMU/"
 board_image: "datum_imu.jpg"
 date_added: 2019-7-12
 family: atmel-samd

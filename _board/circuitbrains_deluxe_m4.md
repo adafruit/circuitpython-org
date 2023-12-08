@@ -4,7 +4,8 @@ board_id: "circuitbrains_deluxe_m4"
 title: "CircuitBrains Deluxe Download"
 name: "CircuitBrains Deluxe"
 manufacturer: "Null Byte Labs LLC"
-board_url: ""
+board_url:
+ -  "https://github.com/neubauek/CircuitBrains"
 board_image: "circuitbrains_deluxe.jpg"
 date_added: 2020-2-27
 family: atmel-samd

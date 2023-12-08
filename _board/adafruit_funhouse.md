@@ -4,7 +4,9 @@ board_id: "adafruit_funhouse"
 title: "FunHouse - WiFi Home Automation Development Board Download"
 name: "FunHouse - WiFi Home Automation Development Board"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4985"
+board_url:
+ - "https://www.adafruit.com/product/4985"
+ - "https://www.adafruit.com/product/5069"
 board_image: "adafruit_funhouse.jpg"
 date_added: 2021-4-6
 family: esp32s2

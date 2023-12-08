@@ -4,7 +4,8 @@ board_id: "challenger_rp2040_wifi_ble"
 title: "Challenger RP2040 WiFi/BLE Download"
 name: "Challenger RP2040 WiFi/BLE"
 manufacturer: "Invector Labs"
-board_url: "https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/"
+board_url:
+ - "https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/"
 board_image: "challenger_rp2040_wifi_ble.jpg"
 date_added: 2022-10-6
 family: raspberrypi

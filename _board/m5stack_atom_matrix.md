@@ -4,7 +4,9 @@ board_id: "m5stack_atom_matrix"
 title: "ATOM Matrix ESP32 Download"
 name: "ATOM Matrix ESP32"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/atom_matrix"
+board_url:
+ - "https://docs.m5stack.com/en/core/atom_matrix"
+ - "https://www.adafruit.com/product/4497"
 board_image: "m5stack_atom_matrix.jpg"
 date_added: 2023-1-31
 family: esp32
@@ -31,4 +33,5 @@ ATOM Matrix, which has a size of only 24 * 24mm, is the most compact development
 
 ## Purchase
 
+* [Adafruit](https://www.adafruit.com/product/4497)
 * [M5Stack](https://shop.m5stack.com/collections/m5-controllers/products/atom-matrix-esp32-development-kit)

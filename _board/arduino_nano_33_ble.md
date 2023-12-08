@@ -4,7 +4,8 @@ board_id: "arduino_nano_33_ble"
 title: "NANO 33 BLE Download"
 name: "NANO 33 BLE"
 manufacturer: "Arduino"
-board_url: "https://www.arduino.cc/en/Guide/NANO33BLE"
+board_url:
+ - "https://www.arduino.cc/en/Guide/NANO33BLE"
 board_image: "arduino_nano_33_ble.jpg"
 date_added: 2019-10-26
 family: nrf52840

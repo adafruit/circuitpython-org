@@ -4,7 +4,8 @@ board_id: "lilygo_ttgo_t-01c3"
 title: "TTGO T-01C3 ESP32-C3 Download"
 name: "TTGO T-01C3 ESP32-C3"
 manufacturer: "LILYGO"
-board_url: ""
+board_url:
+ - "https://www.aliexpress.com/item/1005003538055090.html"
 board_image: "lilygo_ttgo_t-01c3.jpg"
 date_added: 2022-4-1
 family: esp32c3

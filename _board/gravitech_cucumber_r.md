@@ -4,7 +4,8 @@ board_id: "gravitech_cucumber_r"
 title: "Cucumber R Download"
 name: "Cucumber R"
 manufacturer: "Gravitech"
-board_url: "https://www.gravitech.us/curesdebo.html"
+board_url:
+ - "https://www.gravitech.us/curesdebo.html"
 board_image: "gravitech_cucumber_r.jpg"
 date_added: 2021-8-13
 family: esp32s2

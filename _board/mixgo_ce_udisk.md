@@ -4,7 +4,8 @@ board_id: "mixgo_ce_udisk"
 title: "MixGo CE UDisk Download"
 name: "MixGo CE UDisk"
 manufacturer: "Mixly"
-board_url: "https://mixly.org/"
+board_url:
+ - "https://mixly.org/"
 board_image: "mixgo_ce_udisk.jpg"
 date_added: 2022-5-1
 family: esp32s2

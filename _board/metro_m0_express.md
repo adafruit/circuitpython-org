@@ -4,7 +4,8 @@ board_id: "metro_m0_express"
 title: "Metro M0 Express Download"
 name: "Metro M0 Express"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/3505"
+board_url:
+ - "https://www.adafruit.com/product/3505"
 board_image: "metro_m0_express.jpg"
 date_added: 2019-3-9
 family: atmel-samd
@@ -13,7 +14,7 @@ features:
   - Arduino Shield Compatible
 ---
 
-This **Metro M0 Express** board looks a whole lot like the [original Metro 328](https://www.adafruit.com/product/2488), but with a huge upgrade. Instead of the ATmega328, this Metro features a ATSAMD21G18 chip, an ARM Cortex M0+. It's the first Adafruit Metro that is designed for use with CircuitPython! 
+This **Metro M0 Express** board looks a whole lot like the [original Metro 328](https://www.adafruit.com/product/2488), but with a huge upgrade. Instead of the ATmega328, this Metro features a ATSAMD21G18 chip, an ARM Cortex M0+. It's the first Adafruit Metro that is designed for use with CircuitPython!
 
 At the Metro M0's heart is an ATSAMD21G18 ARM Cortex M0 processor, clocked at 48 MHz and at 3.3 V logic, the same one used in the new [Arduino Zero](https://www.adafruit.com/products/2843). This chip has a whopping 256 KB of FLASH (8x more than the Atmega328) and 32 KB of RAM (16x as much)! This chip comes with built in USB so it has USB-to-Serial program & debug capability built in with no need for an FTDI-like chip.
 

@@ -4,7 +4,8 @@ board_id: "waveshare_rp2040_lcd_0_96"
 title: "Waveshare RP2040-LCD-0.96 Download"
 name: "RP2040-LCD-0.96"
 manufacturer: "Waveshare"
-board_url: "https://www.waveshare.com/rp2040-lcd-0.96.htm"
+board_url:
+ - "https://www.waveshare.com/rp2040-lcd-0.96.htm"
 board_image: "waveshare_rp2040_lcd_0_96.jpg"
 date_added: 2023-4-7
 downloads_display: true

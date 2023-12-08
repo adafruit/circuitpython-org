@@ -4,7 +4,8 @@ board_id: "franzininho_wifi_wroom"
 title: "Franzininho WiFi Wrover Download"
 name: "Franzininho WiFi Wroom"
 manufacturer: "Franzininho"
-board_url: "https://github.com/Franzininho/Franzininho-WIFI"
+board_url:
+ - "https://github.com/Franzininho/Franzininho-WIFI"
 board_image: "Franzininho-wifi-wroom.jpg"
 date_added: 2021-3-13
 family: esp32s2
@@ -21,7 +22,7 @@ This version comes with **ESP32-S2 Wroom module**.
 
 **Features:**
 
-- ESP32-S2 Wroom: 
+- ESP32-S2 Wroom:
   - Xtensa®single-core32-bit LX7 microprocessor, up to 240 MHz
   - 128 KB ROM
   - 320 KB SRAM
@@ -36,7 +37,7 @@ This version comes with **ESP32-S2 Wroom module**.
 JTAG pads for advanced debugging access.
 - 3.3 V Power On LED
 - 3.3 V Regulator
-- Power: 
+- Power:
   - Micro USB port (default power supply)
   - 5V and GND header pins
   - 3V3 and GND header pins

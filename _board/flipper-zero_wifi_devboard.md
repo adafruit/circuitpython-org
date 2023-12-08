@@ -4,7 +4,8 @@ board_id: "flipperzero_wifi_dev"
 title: "Flipper Zero WiFi Dev Board Download"
 name: "Flipper Zero WiFi Dev"
 manufacturer: "Flipper Zero"
-board_url: "https://docs.flipper.net/development/hardware/wifi-developer-board"
+board_url:
+ - "https://docs.flipper.net/development/hardware/wifi-developer-board"
 board_image: "flipper-zero_wifi_devboard.jpg"
 date_added: 2023-11-28
 family: esp32s2

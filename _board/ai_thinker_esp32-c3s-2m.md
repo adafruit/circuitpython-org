@@ -4,7 +4,8 @@ board_id: "ai_thinker_esp32-c3s-2m"
 title: "ESP-C3-32S (2M) Download"
 name: "ESP-C3-32S (2M)"
 manufacturer: "Ai-Thinker"
-board_url: "https://docs.ai-thinker.com/en/esp32c3"
+board_url:
+ - "https://docs.ai-thinker.com/en/esp32c3"
 board_image: "ai_thinker_esp32-c3s.jpg"
 date_added: 2022-02-22
 family: esp32c3

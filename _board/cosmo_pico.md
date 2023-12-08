@@ -4,7 +4,8 @@ board_id: "cosmo_pico"
 title: "COSMO-Pico Download"
 name: "COSMO-Pico"
 manufacturer: "Potekku"
-board_url: ""
+board_url:
+ - "https://edtechzine.jp/article/detail/8715"
 board_image: "cosmo_pico.jpg"
 date_added: 2023-3-1
 family: raspberrypi

@@ -4,7 +4,8 @@ board_id: "dynalora_usb"
 title: "DynaLoRa-USB Download"
 name: "DynaLoRa-USB"
 manufacturer: "BH Dynamics"
-board_url: "https://github.com/BHDynamics/rfm_radio_dongle"
+board_url:
+ - "https://github.com/BHDynamics/rfm_radio_dongle"
 board_image: "dynalora_usb.jpg"
 date_added: 2021-02-11
 family: atmel-samd

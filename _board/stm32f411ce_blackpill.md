@@ -4,7 +4,9 @@ board_id: "stm32f411ce_blackpill"
 title: "STM32F411CE Black Pill Download"
 name: "STM32F411CE Black Pill"
 manufacturer: "WeAct Studio"
-board_url: "https://www.aliexpress.com/item/1005001456186625.html"
+board_url:
+ - "https://www.aliexpress.com/item/1005001456186625.html"
+ - "https://www.adafruit.com/product/4877"
 board_image: "stm32f411ce_blackpill.jpg"
 date_added: 2019-12-20
 family: stm
@@ -30,5 +32,7 @@ In the F401 series, the chip is the cheapest, even cheaper than some F1, and cru
 
 ## Learn More
 * [Github Docs](https://github.com/WeActTC/MiniF4-STM32F4x1)
-* [Aliexpress](https://www.aliexpress.com/item/1005001456186625.html)
 * [stm32duino - Offical Arduino Support](https://github.com/stm32duino/Arduino_Core_STM32)
+
+## Purchase
+ * [Adafruit](https://www.adafruit.com/product/4877)

@@ -4,7 +4,8 @@ board_id: "makerfabs_tft7"
 title: "MaTouch ESP32-S3 Parallel TFT with Touch 7“ Download"
 name: "MaTouch ESP32-S3 Parallel TFT with Touch 7“"
 manufacturer: "Makerfabs"
-board_url: "https://www.makerfabs.com/esp32-s3-parallel-tft-with-touch-7-inch.html"
+board_url:
+ - "https://www.makerfabs.com/esp32-s3-parallel-tft-with-touch-7-inch.html"
 board_image: "makerfabs_tft7.jpg"
 date_added: 2023-10-27
 family: esp32s3

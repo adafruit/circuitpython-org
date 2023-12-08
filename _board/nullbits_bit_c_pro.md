@@ -4,7 +4,8 @@ board_id: "nullbits_bit_c_pro"
 title: "nullbits Bit-C PRO Download"
 name: "Bit-C PRO"
 manufacturer: "nullbits"
-board_url: "https://nullbits.co/bit-c-pro/"
+board_url:
+ - "https://nullbits.co/bit-c-pro/"
 board_image: "nullbits_bit_c_pro.jpg"
 date_added: "2023-1-31"
 family: raspberrypi

@@ -4,7 +4,8 @@ board_id: "kicksat-sprite"
 title: "KickSat Sprite Download"
 name: "KickSat Sprite"
 manufacturer: "Max Holliday"
-board_url: "https://github.com/RoboticExplorationLab/sprite"
+board_url:
+ - "https://github.com/RoboticExplorationLab/sprite"
 board_image: "kicksat-sprite.jpg"
 date_added: 2019-4-13
 family: atmel-samd

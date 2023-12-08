@@ -4,7 +4,8 @@ board_id: "xinabox_cc03"
 title: "XinaBox CC03 download"
 name: "XinaBox CC03"
 manufacturer: "XinaBox"
-board_url: "https://drive.google.com/file/d/13xfg0SRZEeO-_xMElqdf0Sne8rjAcfyn/view"
+board_url:
+ - "https://drive.google.com/file/d/13xfg0SRZEeO-_xMElqdf0Sne8rjAcfyn/view"
 board_image: "xinabox_cc03.jpg"
 date_added: 2019-12-17
 family: atmel-samd

@@ -4,7 +4,8 @@ board_id: "atmegazero_esp32s2"
 title: "ATMegaZero ESP32-S2 Download"
 name: "ATMegaZero ESP32-S2"
 manufacturer: "ATMegaZero"
-board_url: ""
+board_url:
+ - "https://www.atmegazero.com"
 board_image: "atmegazero_esp32s2.jpg"
 date_added: 2021-4-19
 family: esp32s2
@@ -14,10 +15,10 @@ features:
 ---
 
 ** COMING SOON! **
-Introducing the new ATMegaZero ESP32-S2 
+Introducing the new ATMegaZero ESP32-S2
 
 **Features:**
- - 32-bit 240 MHz single-core processor 
+ - 32-bit 240 MHz single-core processor
  - 16 MB SPI Flash
  - 8 MB extra PSRAM
  - 2.4 GHz Wi-Fi - 802.11b/g/n

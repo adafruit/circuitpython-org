@@ -4,7 +4,8 @@ board_id: "sparkfun_thingplus_matter_mgm240p_brd2704a"
 title: "SparkFun Thing Plus Matter MGM240P Download"
 name: "SparkFun Thing Plus Matter MGM240P"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/20270"
+board_url:
+ - "https://www.sparkfun.com/products/20270"
 board_image: "sparkfun_thing_plus_matter_mgm240p.jpg"
 date_added: 2023-04-20
 family: silabs

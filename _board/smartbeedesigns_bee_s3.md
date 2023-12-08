@@ -4,7 +4,8 @@ board_id: "smartbeedesigns_bee_s3"
 title: "Bee S3 Download"
 name: "Bee S3"
 manufacturer: "Smart Bee Designs"
-board_url: ""
+board_url:
+ - "http://github.com/strid3r21/BeeS3/"
 board_image: "smartbeedesigns_bee_s3.jpg"
 date_added: 2022-8-22
 family: esp32s3

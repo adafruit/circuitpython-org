@@ -4,12 +4,13 @@ board_id: "bluemicro833"
 title: "BlueMicro833 Download"
 name: "BlueMicro833"
 manufacturer: "JPConstantineau"
-board_url: "http://nrf52.jpconstantineau.com/docs/bluemicro833"
+board_url:
+ - "http://nrf52.jpconstantineau.com/docs/bluemicro833"
 board_image: "bluemicro833.jpg"
 date_added: 2021-12-28
 family: nrf52840
 bootloader_id: bluemicro_nrf52833
-features: 
+features:
   - USB-C
   - Breadboard-Friendly
   - Bluetooth/BTLE

@@ -4,7 +4,8 @@ board_id: "unexpectedmaker_nanos3"
 title: "Unexpected Maker NanoS3 Download"
 name: "Unexpected Maker NanoS3"
 manufacturer: "Unexpected Maker"
-board_url: ""
+board_url:
+ - "https://unexpectedmaker.com/shop/nanos3"
 board_image: "unexpectedmaker_nanos3.jpg"
 date_added: 2023-6-26
 family: esp32s3

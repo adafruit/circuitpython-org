@@ -4,7 +4,8 @@ board_id: "thunderpack_v12"
 title: "Thunderpack v1.2 Download"
 name: "Thunderpack v1.2"
 manufacturer: "Jeremy Gillick"
-board_url: "https://github.com/jgillick/ThunderPack"
+board_url:
+ - "https://github.com/jgillick/ThunderPack"
 board_image: "thunderpack_v12.jpg"
 date_added: 2020-4-16
 family: stm

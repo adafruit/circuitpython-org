@@ -4,7 +4,8 @@ board_id: "ugame10"
 title: "µGame Download"
 name: "µGame"
 manufacturer: "Radomir Dopieralski"
-board_url: "https://ugame.rtfd.io"
+board_url:
+ - "https://ugame.rtfd.io"
 board_image: "ugame_10.jpg"
 date_added: 2019-3-12
 family: atmel-samd

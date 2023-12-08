@@ -4,7 +4,8 @@ board_id: "aramcon2_badge"
 title: "ARAMCON2 Badge Download"
 name: "ARAMCON2 Badge"
 manufacturer: "ARAMCON Badge Team"
-board_url: "https://github.com/aramcon-badge/"
+board_url:
+ - "https://github.com/aramcon-badge/"
 board_image: "aramcon2_badge.jpg"
 date_added: 2021-4-14
 family: nrf52840

@@ -4,7 +4,8 @@ board_id: "electrolama_minik"
 title: "Electrolama minik Download"
 name: "Electrolama minik Octave"
 manufacturer: "Electrolama"
-board_url: ""
+board_url:
+ - "https://github.com/electrolama/minik"
 board_image: "electrolama_minik.jpg"
 date_added: 2022-8-22
 family: raspberrypi

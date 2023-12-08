@@ -4,7 +4,8 @@ board_id: "feather_m0_basic"
 title: "Feather M0 Basic Download"
 name: "Feather M0 Basic"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/2772"
 board_image: "feather_m0_basic.jpg"
 date_added: 2019-3-9
 family: atmel-samd

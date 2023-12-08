@@ -4,7 +4,8 @@ board_id: "espressif_esp32c6_devkitm_1_n4"
 title: "ESP32-C6-DevKitC-1-N4 Download"
 name: "ESP32-C6-DevKitC-1-N4"
 manufacturer: "Espressif"
-board_url: ""
+board_url:
+ - "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/user_guide.html"
 board_image: "espressif_esp32c6_devkitc_1.jpg"
 date_added: 2023-10-27
 family: esp32c6
@@ -36,7 +37,7 @@ It is recommended to use the first option: USB Type-C to UART Port.
 - **ESP32-C6-WROOM-1**: ESP32-C6-WROOM-1 is a general-purpose module supporting Wi-Fi 6, Bluetooth 5, and IEEE 802.15.4 (Zigbee 3.0 and Thread). This module is built around the ESP32-C6 chip, and comes with a PCB antenna and 4 MB SPI flash.
 - **5V to 3.3V LDO**: Power regulator that converts a 5V supply into a 3.3V output.
 - **3.3V Power On LED**: Turns on when the USB power is connected to the board.
-- **Pin Headers**: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see [Header Block](https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html#hardware-reference).
+- **Pin Headers**: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see [Header Block](https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/user_guide.html#hardware-reference).
 - **USB-to-UART Port**: Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.
 - **ESP32-C6 USB Type-C Port**: The USB Type-C port on the ESP32-C6 chip is compliant with USB 2.0 full speed. It is capable of up to 12 Mbps transfer speed (Note that this port does not support the faster 480 Mbps high-speed transfer mode).
 - **Boot Button**: Download button. Holding down **Boot** and then pressing **Reset** initiates Firmware Download mode for downloading firmware through the serial port.

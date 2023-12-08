@@ -4,7 +4,8 @@ board_id: "waveshare_rp2040_zero"
 title: "Waveshare RP2040-Zero Download"
 name: "RP2040-Zero"
 manufacturer: "Waveshare"
-board_url: "https://www.waveshare.com/rp2040-zero.htm"
+board_url:
+ - "https://www.waveshare.com/rp2040-zero.htm"
 board_image: "waveshare_rp2040_zero.jpg"
 date_added: "2022-1-12"
 family: raspberrypi

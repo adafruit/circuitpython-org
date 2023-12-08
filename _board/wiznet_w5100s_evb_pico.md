@@ -4,7 +4,8 @@ board_id: "wiznet_w5100s_evb_pico"
 title: "W5100S-EVB-Pico Download"
 name: "W5100S-EVB-Pico"
 manufacturer: "WIZnet"
-board_url: "https://www.wiznet.io/product-item/w5100s-evb-pico/"
+board_url:
+ - "https://www.wiznet.io/product-item/w5100s-evb-pico/"
 board_image: "w5100s-evb-pico.jpg"
 date_added: 2022-4-26
 family: raspberrypi

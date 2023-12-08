@@ -4,7 +4,8 @@ board_id: "jpconstantineau_pykey44"
 title: "PyKey44 Ergo Keyboard Download"
 name: "PyKey44 Ergo Keyboard"
 manufacturer: "JPConstantineau"
-board_url: "https://github.com/jpconstantineau/PyKey60"
+board_url:
+ - "https://github.com/jpconstantineau/PyKey60"
 board_image: "jpconstantineau_pykey44.jpg"
 downloads_display: True
 date_added: 2021-12-15

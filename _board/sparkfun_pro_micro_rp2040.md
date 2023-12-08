@@ -4,7 +4,8 @@ board_id: "sparkfun_pro_micro_rp2040"
 title: "Pro Micro - RP2040 Download"
 name: "Pro Micro - RP2040"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/17717"
+board_url:
+ - "https://www.sparkfun.com/products/17717"
 board_image: "sparkfun_pro_micro_rp2040.jpg"
 date_added: 2021-4-6
 family: raspberrypi

@@ -4,7 +4,8 @@ board_id: "pewpew_lcd"
 title: "PewPew LCD Download"
 name: "PewPew LCD"
 manufacturer: "Radomir Dopieralski"
-board_url: "https://pewpew.rtfd.io"
+board_url:
+ - "https://pewpew.rtfd.io"
 board_image: "pewpew_lcd.jpg"
 family: atmel-samd
 bootloader_id: fluff_m0

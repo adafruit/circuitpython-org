@@ -4,7 +4,8 @@ board_id: "pycubed_mram"
 title: "PyCubedv04 w/MRAM Download"
 name: "PyCubedv04 w/MRAM"
 manufacturer: "PyCubed.org"
-board_url: "https://pycubed.org/"
+board_url:
+ - "https://pycubed.org/"
 board_image: "pycubed.jpg"
 date_added: 2020-4-07
 family: atmel-samd

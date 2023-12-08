@@ -1,10 +1,11 @@
 ---
 layout: download
 board_id: "hardkernel_odroid_go"
-title: "Odroid Go Download"
-name: "Odroid Go"
+title: "ODROID Go Download"
+name: "ODROID Go"
 manufacturer: "HardKernel"
-board_url: "https://www.hardkernel.com/shop/odroid-go/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-go/"
 board_image: "hardkernel_odroid_go.jpg"
 date_added: 2022-8-22
 family: esp32
@@ -16,7 +17,7 @@ features:
   - Display
 ---
 
-**The original Odroid Go has been discontinued**
+**The original ODROID Go has been discontinued**
 
 **To celebrate ODROID’s 10th anniversary,** we present the ODROID-GO Game Kit! It includes a special anniversary board with all the parts to put together your own game kit and see the workings behind such a device. It is not only a fun assembly project but also an educational tool to learn about all the hardware and software that goes into building such a device.
 

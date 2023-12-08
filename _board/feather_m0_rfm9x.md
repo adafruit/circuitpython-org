@@ -4,7 +4,9 @@ board_id: "feather_m0_rfm9x"
 title: "Feather M0 RFM9x Download"
 name: "Feather M0 RFM9x"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/3178"
+ - "https://www.adafruit.com/product/3179"
 board_image: "feather_m0_rfm9x.jpg"
 date_added: 2019-3-9
 family: atmel-samd
