@@ -4,7 +4,8 @@ board_id: "jetson_nano"
 title: "Jetson Nano Dev Kit"
 name: "Jetson Nano Dev Kit"
 manufacturer: "NVIDIA"
-board_url: "https://developer.nvidia.com/embedded/jetson-nano-developer-kit"
+board_url:
+ - "https://developer.nvidia.com/embedded/jetson-nano-developer-kit"
 board_image: "jetson_nano.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-nvidia-jetson-nano"
 downloads_display: true
@@ -17,7 +18,7 @@ features:
   - 40-pin GPIO
 ---
 
-The NVIDIA® Jetson Nano™ Developer Kit delivers the compute performance to run modern AI workloads at unprecedented size, power, and cost. Developers, learners, and makers can now run AI frameworks and models for applications like image classification, object detection, segmentation, and speech processing.  
+The NVIDIA® Jetson Nano™ Developer Kit delivers the compute performance to run modern AI workloads at unprecedented size, power, and cost. Developers, learners, and makers can now run AI frameworks and models for applications like image classification, object detection, segmentation, and speech processing.
 
 The developer kit can be powered by micro-USB and comes with extensive I/Os, ranging from GPIO to CSI. This makes it simple for developers to connect a diverse set of new sensors to enable a variety of AI applications. And it is incredibly power-efficient, consuming as little as 5 watts.
 

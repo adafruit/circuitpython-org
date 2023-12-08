@@ -4,7 +4,8 @@ board_id: "giant_board"
 title: "Giant Board"
 name: "Giant Board"
 manufacturer: "Groboards"
-board_url: "https://www.crowdsupply.com/groboards/giant-board"
+board_url:
+ - "https://www.crowdsupply.com/groboards/giant-board"
 board_image: "giant_board.jpg"
 downloads_display: true
 blinka: true

@@ -4,7 +4,8 @@ board_id: "greatfet_one"
 title: "GreatFET One Download"
 name: "GreatFET One"
 manufacturer: "Great Scott Gadgets"
-board_url: "https://www.adafruit.com/product/4234"
+board_url:
+ - "https://www.adafruit.com/product/4234"
 board_image: "greatfet_one.jpg"
 downloads_display: true
 blinka: true

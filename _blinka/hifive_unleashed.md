@@ -4,7 +4,8 @@ board_id: "hifive_unleashed"
 title: "Hifive Unleashed"
 name: "Hifive Unleashed"
 manufacturer: "Sifive"
-board_url: "https://www.crowdsupply.com/sifive/hifive-unleashed"
+board_url:
+ - "https://www.crowdsupply.com/sifive/hifive-unleashed"
 board_image: "hifive_unleashed.jpg"
 downloads_display: true
 blinka: true

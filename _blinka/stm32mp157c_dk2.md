@@ -4,7 +4,8 @@ board_id: "stm32mp157c_dk2"
 title: "STM32MP1 Discovery Kit 2 Download"
 name: "STM32MP1 Discovery Kit 2"
 manufacturer: "STMicroelectronics"
-board_url: "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html"
+board_url:
+ - "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html"
 board_image: "stm32mp157c_dk2.jpg"
 download_instructions: ""
 downloads_display: true
@@ -37,7 +38,7 @@ Additionally, the STM32MP157C-DK2 Discovery kit features an LCD display with a t
 - 4 user LEDs
 - 2 user and reset push-buttons, 1 wake-up button
 - 5 V / 3 A USB-C power supply input (not provided)
-- Board connectors: 
+- Board connectors:
   - Ethernet RJ45
   - 4x USB Host Type-A and USB-C
   - HDMI Stereo headset jack including analog microphone input

@@ -4,7 +4,8 @@ board_id: "adafruit_qtpy_rp2040"
 title: "QT Py RP2040 Download"
 name: "QT Py RP2040"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4900"
+board_url:
+ - "https://www.adafruit.com/product/4900"
 board_image: "adafruit_qtpy_rp2040.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 blinka: true

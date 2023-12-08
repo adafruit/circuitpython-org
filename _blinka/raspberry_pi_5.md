@@ -4,7 +4,8 @@ board_id: "raspberry_pi_5"
 title: "Raspberry Pi 5 Download"
 name: "Pi 5"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-5/"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-5/"
 board_image: "raspberry_pi_5.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true

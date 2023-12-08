@@ -4,7 +4,8 @@ board_id: "jetson_tx2_nx"
 title: "Jetson TX2 Dev Kit"
 name: "Jetson TX2 Dev Kit"
 manufacturer: "NVIDIA"
-board_url: "https://developer.nvidia.com/embedded/jetson-tx2-nx"
+board_url:
+ - "https://developer.nvidia.com/embedded/jetson-tx2-nx"
 board_image: "jetson_tx2_nx.jpg"
 downloads_display: true
 blinka: true

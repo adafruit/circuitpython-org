@@ -4,7 +4,8 @@ board_id: "khadas_vim3"
 title: "Khadas VIM3 Download"
 name: "Khadas VIM3"
 manufacturer: "Khadas"
-board_url: "https://www.khadas.com/vim3"
+board_url:
+ - "https://www.khadas.com/vim3"
 board_image: "khadas_vim3.jpg"
 downloads_display: true
 blinka: true

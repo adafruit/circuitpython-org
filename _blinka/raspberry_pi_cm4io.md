@@ -4,9 +4,10 @@ board_id: "raspberry_pi_cm4io"
 title: "Raspberry Pi Compute Module 4 IO Board Download"
 name: "Compute Module 4 IO Board"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/compute-module-4-io-board/"
+board_url:
+ - "https://www.raspberrypi.com/products/compute-module-4-io-board/"
 board_image: "raspberrypi_cm4io.jpg"
-download_instructions: 
+download_instructions:
 downloads_display: true
 blinka: true
 date_added: 2020-12-10
@@ -23,7 +24,7 @@ Compute Module 4
 The power of Raspberry Pi 4 in a compact form factor for deeply embedded applications. Raspberry Pi Compute Module 4 incorporates a quad-core ARM Cortex-A72 processor, dual video output, and a wide selection of other interfaces. Available in 32 variants, with a range of RAM and eMMC Flash options, and with or without wireless connectivity.
 
  * Broadcom BCM2711 quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
- * H.265 (HEVC) (up to 4Kp60 decode), H.264 (up to 1080p60 decode, 1080p30 encode) 
+ * H.265 (HEVC) (up to 4Kp60 decode), H.264 (up to 1080p60 decode, 1080p30 encode)
  * OpenGL ES 3.0 graphics
  * Options for 1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on variant)
  * Options for 0GB ("Lite"), 8GB, 16GB or 32GB eMMC Flash memory (depending on variant)

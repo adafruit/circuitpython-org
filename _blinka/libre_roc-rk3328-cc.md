@@ -4,7 +4,8 @@ board_id: "libre_roc-rk3328-cc"
 title: "ROC-RK3328-CC (Renegade) Download"
 name: "ROC-RK3328-CC (Renegade)"
 manufacturer: "Libre Computer"
-board_url: "https://libre.computer/products/roc-rk3328-cc/"
+board_url:
+ - "https://libre.computer/products/roc-rk3328-cc/"
 board_image: "libre_roc-rk3328-cc.jpg"
 download_instructions: ""
 downloads_display: true

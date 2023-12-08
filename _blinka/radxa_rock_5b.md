@@ -4,7 +4,8 @@ board_id: "radxa_rock_5b"
 title: "Rock 5B Download"
 name: "Rock 5B"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/Rock5/5b"
+board_url:
+ - "https://wiki.radxa.com/Rock5/5b"
 board_image: "radxa_rock_5b.jpg"
 download_instructions: ""
 downloads_display: true

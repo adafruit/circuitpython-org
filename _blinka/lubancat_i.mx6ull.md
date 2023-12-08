@@ -4,7 +4,8 @@ board_id: "lubancat_i.mx6ull"
 title: "LubanCat I.MX6ULL Download"
 name: "LubanCat I.MX6ULL"
 manufacturer: "EmbedFire"
-board_url: "https://www.seeedstudio.com/NPi-i-MX6ULL-Dev-Board-Industrial-Grade-Linux-SBC-NAND-Version-p-4220.html"
+board_url:
+ - "https://www.seeedstudio.com/NPi-i-MX6ULL-Dev-Board-Industrial-Grade-Linux-SBC-NAND-Version-p-4220.html"
 board_image: "lubancat_i.mx6ull.jpg"
 download_instructions: ""
 blinka: true

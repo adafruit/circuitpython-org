@@ -4,7 +4,8 @@ board_id: "raspberry_pi_1a"
 title: "Raspberry Pi 1 Model A Download"
 name: "Pi 1 Model A"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.adafruit.com/product/998"
+board_url:
+ - "https://www.adafruit.com/product/998"
 board_image: "raspberry_pi_1a.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true

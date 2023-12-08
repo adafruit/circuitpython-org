@@ -4,7 +4,8 @@ board_id: "lubancat_zero_w"
 title: "LubanCat Zero W Download"
 name: "LubanCat Zero W"
 manufacturer: "EmbedFire"
-board_url: ""
+board_url:
+ - "https://embedfire.com/products/"
 board_image: "lubancat_zero_w.jpg"
 download_instructions: ""
 blinka: true

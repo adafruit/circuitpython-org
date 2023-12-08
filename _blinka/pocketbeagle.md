@@ -4,7 +4,8 @@ board_id: "pocketbeagle"
 title: "PocketBeagle"
 name: "PocketBeagle"
 manufacturer: "BeagleBoard"
-board_url: "https://beagleboard.org/pocket"
+board_url:
+ - "https://beagleboard.org/pocket"
 board_image: "pocketbeagle.jpg"
 downloads_display: true
 blinka: true

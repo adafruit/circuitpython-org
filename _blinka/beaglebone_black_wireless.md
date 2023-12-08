@@ -4,7 +4,8 @@ board_id: "beaglebone_black_wireless"
 title: "BeagleBone Black Wireless Download"
 name: "BeagleBone Black Wireless"
 manufacturer: "BeagleBoard"
-board_url: "https://beagleboard.org/black-wireless"
+board_url:
+ - "https://beagleboard.org/black-wireless"
 board_image: "beaglebone_black_wireless.jpg"
 downloads_display: true
 blinka: true

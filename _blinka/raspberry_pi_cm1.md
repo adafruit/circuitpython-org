@@ -4,7 +4,8 @@ board_id: "raspberry_pi_cm1"
 title: "Raspberry Pi Compute Module 1 Download"
 name: "Compute Module 1"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/compute-module-1/"
+board_url:
+ - "https://www.raspberrypi.com/products/compute-module-1/"
 board_image: "raspberry_pi_cm1.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true

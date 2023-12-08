@@ -92,7 +92,7 @@ def find_boards_missing_url(folder):
 
             board_urls = metadata.get('board_url')
             if board_urls is not None and isinstance(board_urls, str):
-                print(f"{bcolors.WARNING}{board_id} is still string{bcolors.ENDC}")
+                print(f"{bcolors.WARNING}{folder}/{board_id} is still string{bcolors.ENDC}")
                 if len(board_urls) == 0:
                     board_urls = []
                 else:
@@ -107,7 +107,8 @@ def find_boards_missing_url(folder):
             if board_urls is not None and len(board_urls) > 0:
                 continue
 
-            print(f"{bcolors.FAIL}{board_id} is missing a URL{bcolors.ENDC}")
+            print(f"{bcolors.FAIL}{folder}/{board_id} is missing a URL{bcolors.ENDC}")
             missing_url_boards.append(board_id)
 
 find_boards_missing_url("_board")
+find_boards_missing_url("_blinka")

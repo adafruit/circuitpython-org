@@ -5,7 +5,8 @@ title: "pcDuino3 Download"
 name: "pcDuino3"
 manufacturer: "LinkSprite"
 blinka: true
-board_url: "https://www.linksprite.com/linksprite-pcduino3/"
+board_url:
+ - "https://www.linksprite.com/linksprite-pcduino3/"
 board_image: "pcduino3.jpg"
 date_added: 2023-10-27
 

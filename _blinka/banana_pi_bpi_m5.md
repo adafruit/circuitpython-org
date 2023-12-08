@@ -4,7 +4,8 @@ board_id: "banana_pi_bpi_m5"
 title: "Banana Pi BPI-M5 Download"
 name: "Banana Pi BPI-M5"
 manufacturer: "SinoVoip"
-board_url: "https://www.banana-pi.org/en/banana-pi-sbcs/55.html"
+board_url:
+ - "https://www.banana-pi.org/en/banana-pi-sbcs/55.html"
 board_image: "banana_pi_bpi_m5.jpg"
 download_instructions: ""
 downloads_display: true
@@ -26,7 +27,7 @@ Banana Pi BPI-M5 is the next generation single board computer from Banana Pi in 
 - Network : 10/100/1000 Mbit/s Ethernet ,Optional WiFi USB dongle
 - Video Output(s): 1 x HDMI 2.1 (up to 4K@60Hz with HDR, CEC, EDID)
 - Audio Output(s): 3.5mm jack and 1 x HDMI digital output
-- USB ports: USB 3.0 PORT (x4) 
+- USB ports: USB 3.0 PORT (x4)
 - GPIO: 40 Pin Header : GPIO (x28) and Power (+5V, +3.3V and GND). GPIO pins can be used for UART, I2C, SPI or PWM
 - Switches: Reset, Power and U-boot
 - LED: Power Status and Activity status

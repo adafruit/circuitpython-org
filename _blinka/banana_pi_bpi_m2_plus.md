@@ -4,7 +4,8 @@ board_id: "banana_pi_bpi_m2_plus"
 title: "Banana Pi BPI-M2+ Download"
 name: "Banana Pi BPI-M2+"
 manufacturer: "SinoVoip"
-board_url: "https://wiki.banana-pi.org/Banana_Pi_BPI-M2%2B"
+board_url:
+ - "https://wiki.banana-pi.org/Banana_Pi_BPI-M2%2B"
 board_image: "banana_pi_bpi_m2_plus.jpg"
 download_instructions: ""
 downloads_display: true

@@ -4,7 +4,8 @@ board_id: "beaglebone_black"
 title: "BeagleBone Black Download"
 name: "BeagleBone Black"
 manufacturer: "BeagleBoard"
-board_url: "https://beagleboard.org/black"
+board_url:
+ - "https://beagleboard.org/black"
 board_image: "beaglebone_black.jpg"
 downloads_display: true
 blinka: true

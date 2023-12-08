@@ -4,7 +4,8 @@ board_id: "radxa_rock_3a"
 title: "Rock 3A Download"
 name: "Rock 3A"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/Rock3/3a"
+board_url:
+ - "https://wiki.radxa.com/Rock3/3a"
 board_image: "radxa_rock_3a.jpg"
 download_instructions: ""
 downloads_display: true
