@@ -4,7 +4,8 @@ board_id: "ikigaisense_vita"
 title: "Ikigaisense Vita Download"
 name: "Ikigaisense Vita"
 manufacturer: "Ikigaisense"
-board_url: "https://hackaday.io/project/173761-vita-hardware"
+board_url:
+ - "https://hackaday.io/project/173761-vita-hardware"
 board_image: "ikigaisense_vita.jpg"
 date_added: 2020-08-30
 family: nrf52840

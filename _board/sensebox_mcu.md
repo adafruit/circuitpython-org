@@ -4,7 +4,8 @@ board_id: "sensebox_mcu"
 title: "senseBox MCU Download"
 name: "senseBox MCU"
 manufacturer: "senseBox"
-board_url: "https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/"
+board_url:
+ - "https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/"
 board_image: "sensebox_mcu.jpg"
 date_added: 2021-4-12
 family: atmel-samd

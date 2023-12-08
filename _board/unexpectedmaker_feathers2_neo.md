@@ -4,7 +4,9 @@ board_id: "unexpectedmaker_feathers2_neo"
 title: "Unexpected Maker FeatherS2 Neo Download"
 name: "Unexpected Maker FeatherS2 Neo"
 manufacturer: "Unexpected Maker"
-board_url: ""
+board_url:
+ - "https://unexpectedmaker.com/shop/feathers2neo-esp32s2"
+ - "https://www.adafruit.com/product/5629"
 board_image: "unexpectedmaker_feathers2_neo.jpg"
 date_added: 2021-08-31
 family: esp32s2
@@ -21,7 +23,7 @@ features:
 Introducing the FeatherS2 Neo - The Blingy RGB ESP32-S2 based development board in a Feather format!
 
 **Features & Specifications**
- - 32-bit 240 MHz single-core processor 
+ - 32-bit 240 MHz single-core processor
  - 4 MB SPI Flash
  - 2 MB extra PSRAM
  - 2.4 GHz Wi-Fi - 802.11b/g/n
@@ -41,13 +43,12 @@ Introducing the FeatherS2 Neo - The Blingy RGB ESP32-S2 based development board 
 
 **Onboard 5x5 RGB Matrix? Really?**
 
-Yeah, why not! Getting compelling information out of a single RGB LED can be a real challenge, so with a 5x5 matrix, you can scroll text, show icons or even display cool animating patterns! 
+Yeah, why not! Getting compelling information out of a single RGB LED can be a real challenge, so with a 5x5 matrix, you can scroll text, show icons or even display cool animating patterns!
 
 The RGB Matrix is powered from its own 3.3V LDO, that defaults to the off state, so there is no current draw if you put the FeatherS2 Neo into deep sleep. Turning the power on is as simple as setting IO4 HIGH.
 
 You can find out more about the FeatherS2 Neo at [unexpected maker](https://unexpectedmaker.com/feathers2-neo-soon).
 
 ## Purchase
-You can purchase your very own FeatherS2 Neo from:
-
-* [unexpectedmaker shop](https://unexpectedmaker.com/shop/feathers2neo-esp32s2)
+ * [Adafruit](https://www.adafruit.com/product/5629)
+ * [unexpectedmaker shop](https://unexpectedmaker.com/shop/feathers2neo-esp32s2)

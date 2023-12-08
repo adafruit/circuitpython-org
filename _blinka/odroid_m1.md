@@ -4,7 +4,8 @@ board_id: "odroid_m1"
 title: "ODROID M1 Download"
 name: "ODROID M1"
 manufacturer: "Hardkernel co., Ltd."
-board_url: "https://www.hardkernel.com/shop/odroid-m1-with-4gbyte-ram/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-m1-with-4gbyte-ram/"
 board_image: "odroid_m1.jpg"
 downloads_display: true
 blinka: true

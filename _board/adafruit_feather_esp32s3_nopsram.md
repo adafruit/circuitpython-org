@@ -4,7 +4,8 @@ board_id: "adafruit_feather_esp32s3_nopsram"
 title: "Feather ESP32-S3 No PSRAM Download"
 name: "Feather ESP32-S3 No PSRAM"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5323"
+board_url:
+ - "https://www.adafruit.com/product/5323"
 board_image: "adafruit_feather_esp32s3_nopsram.jpg"
 date_added: 2022-4-1
 family: esp32s3

@@ -4,7 +4,8 @@ board_id: "stringcar_m0_express"
 title: "StringCar M0 Express Download"
 name: "StringCar M0 Express"
 manufacturer: "Cedar Grove Studios"
-board_url: "https://github.com/CedarGroveStudios/StringCar_M0_Express"
+board_url:
+ - "https://github.com/CedarGroveStudios/StringCar_M0_Express"
 board_image: "stringcar_m0_express.jpg"
 date_added: 2019-10-14
 family: atmel-samd

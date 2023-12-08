@@ -4,7 +4,8 @@ board_id: "libre_aml-s905x-cc"
 title: "AML-S905X-CC (Le Potato) Download"
 name: "AML-S905X-CC (Le Potato)"
 manufacturer: "Libre Computer"
-board_url: "https://libre.computer/products/s905x/"
+board_url:
+ - "https://libre.computer/products/s905x/"
 board_image: "libre_aml-s905x-cc.jpg"
 download_instructions: ""
 downloads_display: true

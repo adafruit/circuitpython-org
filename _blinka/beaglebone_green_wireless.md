@@ -4,7 +4,8 @@ board_id: "beaglebone_green_wireless"
 title: "BeagleBone Green Wireless Download"
 name: "BeagleBone Green Wireless"
 manufacturer: "SeeedStudio"
-board_url: "https://beagleboard.org/green-wireless"
+board_url:
+ - "https://beagleboard.org/green-wireless"
 board_image: "beaglebone_green_wireless.jpg"
 downloads_display: true
 blinka: true

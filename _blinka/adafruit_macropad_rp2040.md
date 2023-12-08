@@ -4,7 +4,8 @@ board_id: "adafruit_macropad_rp2040"
 title: "MacroPad RP2040 Download"
 name: "MacroPad RP2040"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5128"
+board_url:
+ - "https://www.adafruit.com/product/5128"
 board_image: "adafruit_macropad_rp2040.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 blinka: true

@@ -4,7 +4,8 @@ board_id: "odroid_n2"
 title: "ODROID N2 Download"
 name: "ODROID N2"
 manufacturer: "Hardkernel co., Ltd."
-board_url: "https://www.hardkernel.com/shop/odroid-n2-with-2gbyte-ram/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-n2-with-2gbyte-ram/"
 board_image: "odroid_n2.jpg"
 downloads_display: true
 blinka: true

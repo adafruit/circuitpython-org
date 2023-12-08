@@ -4,7 +4,8 @@ board_id: "odroid_xu4q"
 title: "ODROID XU4Q Download"
 name: "ODROID XU4Q"
 manufacturer: "Hardkernel co., Ltd."
-board_url: "https://www.hardkernel.com/shop/odroid-xu4q-special-price/"
+board_url:
+ - "https://www.hardkernel.com/shop/odroid-xu4q-special-price/"
 board_image: "odroid_xu4q.jpg"
 downloads_display: true
 blinka: true

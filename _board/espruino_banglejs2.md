@@ -4,7 +4,8 @@ board_id: "espruino_banglejs2"
 title: "Espruino Bangle.js v2 Download"
 name: "Espruino Bangle.js v2"
 manufacturer: "Espruino"
-board_url: "https://www.adafruit.com/product/5427"
+board_url:
+ - "https://www.adafruit.com/product/5427"
 board_image: "espruino_banglejs2.jpg"
 date_added: 2023-3-1
 family: nrf52840

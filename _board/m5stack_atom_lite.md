@@ -4,7 +4,8 @@ board_id: "m5stack_atom_lite"
 title: "ATOM Lite ESP32 IoT Download"
 name: "ATOM Lite ESP32 IoT"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/atom_lite"
+board_url:
+ - "https://docs.m5stack.com/en/core/atom_lite"
 board_image: "m5stack_atom_lite.jpg"
 date_added: 2022-11-1
 family: esp32

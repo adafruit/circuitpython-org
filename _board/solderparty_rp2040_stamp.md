@@ -4,7 +4,8 @@ board_id: "solderparty_rp2040_stamp"
 title: "RP2040 Stamp Download"
 name: "RP2040 Stamp"
 manufacturer: "Solder Party"
-board_url: "https://www.solder.party/docs/rp2040-stamp/"
+board_url:
+ - "https://www.solder.party/docs/rp2040-stamp/"
 board_image: "solderparty_rp2040_stamp.jpg"
 date_added: 2021-11-15
 family: raspberrypi

@@ -4,13 +4,15 @@ board_id: "pimoroni_pico_dv_base"
 title: "Pimoroni Pico DV Demo Base for Pico Download"
 name: "Pimoroni Pico DV Demo Base for Pico"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base"
+board_url:
+ - "https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base"
+ - "https://www.adafruit.com/product/5674"
 board_image: "pimoroni_pico_dv_base.jpg"
 date_added: 2023-5-4
 family: raspberrypi
 ---
 
-A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico, with 
+A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico, with
 HDMI connector, SD card slot, line level I2S audio and buttons.
 
 ## Features

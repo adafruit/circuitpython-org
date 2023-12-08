@@ -4,7 +4,8 @@ board_id: "lilygo_ttgo_tdisplay_esp32_16m"
 title: "TTGO T-Display ESP32 16M Download"
 name: "TTGO T-Display ESP32 16M"
 manufacturer: "LILYGO"
-board_url: "https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board?variant=42159376466101"
+board_url:
+ - "https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board?variant=42159376466101"
 board_image: "lilygo_ttgo_tdisplay_esp32_16m.jpg"
 date_added: 2023-5-3
 family: esp32

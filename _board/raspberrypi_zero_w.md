@@ -4,7 +4,15 @@ board_id: "raspberrypi_zero_w"
 title: "Raspberry Pi Zero W Download"
 name: "Zero W"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-w/"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-zero-w/"
+ - "https://www.adafruit.com/product/3400"
+ - "https://www.adafruit.com/product/3408"
+ - "https://www.adafruit.com/product/3409"
+ - "https://www.adafruit.com/product/3410"
+ - "https://www.adafruit.com/product/3411"
+ - "https://www.adafruit.com/product/3414"
+ - "https://www.adafruit.com/product/3415"
 board_image: "raspberry_pi_zero_w.jpg"
 date_added: 2022-01-07
 family: broadcom

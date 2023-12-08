@@ -4,7 +4,8 @@ board_id: "bpi_leaf_s3"
 title: "BPI-Leaf-S3 Download"
 name: "BPI-Leaf-S3"
 manufacturer: "Banana Pi"
-board_url: ""
+board_url:
+ - "https://wiki.banana-pi.org/BPI-Leaf-S3"
 board_image: "bpi_leaf_s3.jpg"
 date_added: 2022-7-4
 family: esp32s3

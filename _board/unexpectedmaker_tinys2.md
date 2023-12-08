@@ -4,7 +4,9 @@ board_id: "unexpectedmaker_tinys2"
 title: "Unexpected Maker TinyS2 Download"
 name: "Unexpected Maker TinyS2"
 manufacturer: "Unexpected Maker"
-board_url: ""
+board_url:
+ - "https://unexpectedmaker.com/shop/tinys2-esp32-s2"
+ - "https://www.adafruit.com/product/5029"
 board_image: "unexpectedmaker_tinys2.jpg"
 date_added: 2021-03-20
 family: esp32s2
@@ -19,7 +21,7 @@ features:
 Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!
 
 **Features & Specifications**
- - 32-bit 240 MHz single-core processor 
+ - 32-bit 240 MHz single-core processor
  - 4 MB SPI Flash
  - 2 MB extra PSRAM
  - 2.4 GHz Wi-Fi - 802.11b/g/n
@@ -40,7 +42,6 @@ Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!
 You can find out more about the TinyS2 at [tinys2.io](https://tinys2.io)
 
 ## Purchase
-You can purchase your very own TinyS2 from:
-* [Unexpected Maker](https://unexpectedmaker.com/shop/tinys2-esp32-s2)
-* [Adafruit](https://www.adafruit.com/product/5029)
-* [Pimoroni](https://shop.pimoroni.com/products/tinys2)
+ * [Adafruit](https://www.adafruit.com/product/5029)
+ * [Unexpected Maker](https://unexpectedmaker.com/shop/tinys2-esp32-s2)
+ * [Pimoroni](https://shop.pimoroni.com/products/tinys2)

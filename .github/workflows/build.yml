@@ -48,13 +48,13 @@ jobs:
         bundle install --full-index
         pip install python-frontmatter pillow python-dateutil
     - name: Check feature names and other data
-      run: python3 check-boards.py
+      run: python3 tools/check-boards.py
     - name: Check Image Dimensions
-      run: python3 check-images.py
+      run: python3 tools/check-images.py
     - name: Make Directory For Report Files
       run: mkdir -p json
     - name: Generate ESP32 Boards JSON
-      run: python3 generate-board-info.py -o json/esp32_boards.json
+      run: python3 tools/generate-board-info.py -o json/esp32_boards.json
     - name: Check For Files
       run: |
         ls json

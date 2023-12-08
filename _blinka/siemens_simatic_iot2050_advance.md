@@ -4,7 +4,8 @@ board_id: "siemens_simatic_iot2050_advance"
 title: "SIMATIC IOT2050 Advance Download"
 name: "SIMATIC IOT2050 Advance"
 manufacturer: "Siemens"
-board_url: "https://iot2050.com/products/simatic-iot2050-advance"
+board_url:
+ - "https://iot2050.com/products/simatic-iot2050-advance"
 board_image: "siemens_simatic_iot2050.jpg"
 downloads_display: true
 blinka: true

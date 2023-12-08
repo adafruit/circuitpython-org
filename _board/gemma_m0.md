@@ -4,7 +4,10 @@ board_id: "gemma_m0"
 title: "Gemma M0 Download"
 name: "Gemma M0"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/3501"
+ - "https://www.adafruit.com/product/1657"
+ - "https://www.adafruit.com/product/3778"
 board_image: "gemma_m0.jpg"
 date_added: 2019-3-9
 family: atmel-samd

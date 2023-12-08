@@ -4,7 +4,8 @@ board_id: "waveshare_esp32s2_pico"
 title: "ESP32-S2-Pico Download"
 name: "ESP32-S2-Pico"
 manufacturer: "Waveshare"
-board_url: "https://www.waveshare.com/esp32-s2.htm"
+board_url:
+ - "https://www.waveshare.com/esp32-s2.htm"
 board_image: "waveshare_esp32s2_pico.jpg"
 bootloader_id: waveshare_esp32s2_pico
 date_added: 2022-8-21

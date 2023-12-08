@@ -4,7 +4,8 @@ board_id: "udoo_x86_ii_ultra"
 title: "X86 II ULTRA Download"
 name: "X86 II ULTRA"
 manufacturer: "UDOO"
-board_url: "https://shop.udoo.org/udoo-x86-ii-ultra.html"
+board_url:
+ - "https://shop.udoo.org/udoo-x86-ii-ultra.html"
 board_image: "udoo_x86_ii_ultra.jpg"
 download_instructions: ""
 downloads_display: true
@@ -15,7 +16,7 @@ features:
   - Bluetooth/BLE
   - Ethernet
   - HDMI/DisplayPort
-  - USB 3.0  
+  - USB 3.0
 ---
 
 UDOO X86 II is the New PC: the most powerful x86 maker board ever and an Arduino™ Leonardo-compatible platform, all embedded on the same board.

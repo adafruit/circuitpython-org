@@ -4,7 +4,8 @@ board_id: "splitkb_liatris"
 title: "Liatris Download"
 name: "Liatris"
 manufacturer: "SplitKB"
-board_url: "https://splitkb.com/products/liatris"
+board_url:
+ - "https://splitkb.com/products/liatris"
 board_image: "splitkb_liatris.jpg"
 date_added: 2023-7-28
 family: raspberrypi

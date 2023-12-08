@@ -4,7 +4,8 @@ board_id: "heltec_esp32s3_wifi_lora_v3"
 title: "WiFi LoRa 32 V3 Download"
 name: "WiFi LoRa 32 V3"
 manufacturer: "Heltec Automation"
-board_url: "https://heltec.org/project/wifi-lora-32-v3/"
+board_url:
+ - "https://heltec.org/project/wifi-lora-32-v3/"
 board_image: "heltec_esp32s3_wifi_lora_v3.jpg"
 date_added: 2023-11-15
 family: esp32s3

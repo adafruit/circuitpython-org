@@ -4,7 +4,8 @@ board_id: "pimoroni_badger2040"
 title: "Badger 2040 Download"
 name: "Badger 2040"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/badger-2040"
+board_url:
+ - "https://shop.pimoroni.com/products/badger-2040"
 board_image: "pimoroni_badger2040.jpg"
 date_added: 2022-2-24
 family: raspberrypi

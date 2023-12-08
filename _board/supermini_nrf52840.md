@@ -4,7 +4,8 @@ board_id: "supermini_nrf52840"
 title: "SuperMini NRF52840 Download"
 name: "SuperMini NRF52840"
 manufacturer: "ICBbuy"
-board_url: "http://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
+board_url:
+ - "http://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
 board_image: "supermini_nrf52840.png"
 date_added: "2023-10-21"
 family: nrf52840

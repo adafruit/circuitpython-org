@@ -4,7 +4,8 @@ board_id: "espressif_esp32s3_lcd_ev"
 title: "ESP32-S3 LCD Evaluation Kit Download"
 name: "ESP32-S3 LCD Evaluation Kit"
 manufacturer: "Espressif"
-board_url: "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/user_guide.html"
+board_url:
+ - "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/user_guide.html"
 board_image: "espressif_esp32s3_lcd_ev.jpg"
 date_added: 2023-10-27
 family: esp32s3

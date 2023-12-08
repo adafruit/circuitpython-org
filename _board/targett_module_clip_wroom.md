@@ -4,7 +4,8 @@ board_id: "targett_module_clip_wroom"
 title: "Targett ESP32-S2 Module Clip (WROOM) Download"
 name: "Targett ESP32-S2 Module Clip (WROOM)"
 manufacturer: "Targett"
-board_url: "https://www.targettpcb.co.uk/s2-mcb-1"
+board_url:
+ - "https://www.targettpcb.co.uk/s2-mcb-1"
 board_image: "targett_module_clip_wroom.jpg"
 date_added: 2020-12-6
 family: esp32s2

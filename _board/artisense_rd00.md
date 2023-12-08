@@ -4,7 +4,7 @@ board_id: "artisense_rd00"
 title: "Artisense Reference Design RD00 Download"
 name: "Artisense Reference Design RD00"
 manufacturer: "Unknown"
-board_url: ""
+board_url:
 board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2021-05-26

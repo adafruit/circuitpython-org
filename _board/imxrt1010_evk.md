@@ -4,7 +4,8 @@ board_id: "imxrt1010_evk"
 title: "MIMXRT1010-EVK Eval Kit Download"
 name: "MIMXRT1010-EVK Eval Kit"
 manufacturer: "NXP"
-board_url: "https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1010-evaluation-kit:MIMXRT1010-EVK"
+board_url:
+ - "https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1010-evaluation-kit:MIMXRT1010-EVK"
 board_image: "imxrt1010_evk.jpg"
 date_added: 2020-1-8
 family: mimxrt10xx

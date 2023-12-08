@@ -4,7 +4,8 @@ board_id: "beaglev_starlight"
 title: "BeagleV Starlight Beta Prototype Download"
 name: "BeagleV Starlight Beta Prototype"
 manufacturer: "BeagleV"
-board_url: "https://github.com/beagleboard/beaglev-starlight#readme"
+board_url:
+ - "https://github.com/beagleboard/beaglev-starlight#readme"
 board_image: "beaglev_starlight.jpg"
 downloads_display: true
 blinka: true

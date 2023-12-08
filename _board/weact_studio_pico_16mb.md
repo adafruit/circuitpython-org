@@ -4,7 +4,8 @@ board_id: "weact_studio_pico_16mb"
 title: "WeAct Studio Pico (16MB Variant) Download"
 name: "WeAct Studio Pico (16MB Variant)"
 manufacturer: "WeAct Studio"
-board_url: ""
+board_url:
+ - "https://www.aliexpress.com/item/3256803521775546.html?skuId=12000026898823783"
 board_image: "weact_studio_pico.jpg"
 date_added: 2022-12-23
 family: raspberrypi

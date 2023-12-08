@@ -4,7 +4,8 @@ board_id: "m5stack_atom_echo"
 title: "ATOM Echo Smart Speaker Download"
 name: "ATOM Echo Smart Speaker"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/atom/atomecho"
+board_url:
+ - "https://docs.m5stack.com/en/atom/atomecho"
 board_image: "m5stack_atom_echo.jpg"
 date_added: 2023-1-31
 family: esp32

@@ -4,7 +4,8 @@ board_id: "shirtty"
 title: "shIRtty Board Download"
 name: "shIRtty Board"
 manufacturer: "Sarfata"
-board_url: "https://github.com/sarfata/shirtty-addon"
+board_url:
+ - "https://github.com/sarfata/shirtty-addon"
 board_image: "shirtty.jpg"
 date_added: 2019-12-11
 family: atmel-samd

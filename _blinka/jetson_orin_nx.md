@@ -4,7 +4,8 @@ board_id: "jetson_orin_nx"
 title: "Jetson Orin NX AI Dev Kit Download"
 name: "Jetson Orin NX AI Dev Kit"
 manufacturer: "NVIDIA"
-board_url: "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
+board_url:
+ - "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
 board_image: "jetson_orin_nx.jpg"
 download_instructions: ""
 downloads_display: true

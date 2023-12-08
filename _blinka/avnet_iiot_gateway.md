@@ -4,7 +4,8 @@ board_id: "avnet_iiot_gateway"
 title: "SmartEdge Industrial IOT Gateway Download"
 name: "SmartEdge Industrial IOT Gateway"
 manufacturer: "Avnet, Inc."
-board_url: "https://www.avnet.com/wps/portal/us/solutions/iot/products/gateways/"
+board_url:
+ - "https://www.avnet.com/wps/portal/us/solutions/iot/products/gateways/"
 board_image: "avnet_iiot_gateway.jpg"
 downloads_display: true
 blinka: true

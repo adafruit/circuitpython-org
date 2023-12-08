@@ -4,7 +4,8 @@ board_id: "devkit_xg24_brd2601b"
 title: "EFR32xG24 Dev Kit Download"
 name: "EFR32xG24 Dev Kit"
 manufacturer: "Silicon Labs"
-board_url: "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=overview"
+board_url:
+ - "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=overview"
 board_image: "silabs_devkit_xg24_brd2601b.jpg"
 date_added: 2023-04-20
 family: silabs
@@ -29,7 +30,7 @@ connector.
 * High-performance 2.4 GHz radio
 * 32-bit ARM® Cortex®-M33 with 78.0 MHz maximum operating frequency
 * 1536 flash and 256 kB RAM
-* 32 Mbit external flash 
+* 32 Mbit external flash
 * 2.4 GHz ceramic chip antenna
 * Relative humidity and temperature sensor
 * Ambient light sensor

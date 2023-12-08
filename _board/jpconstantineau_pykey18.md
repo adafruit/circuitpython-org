@@ -4,7 +4,8 @@ board_id: "jpconstantineau_pykey18"
 title: "PyKey18 Numpad Download"
 name: "PyKey18 Numpad"
 manufacturer: "JPConstantineau"
-board_url: "https://github.com/jpconstantineau/PyKey60"
+board_url:
+ - "https://github.com/jpconstantineau/PyKey60"
 board_image: "jpconstantineau_pykey18.jpg"
 downloads_display: true
 date_added: 2021-12-15
@@ -39,7 +40,7 @@ It's not just a keyboard but also a USB drive containing the firmware as Circuit
 
 ## Learn More
 * [Board Hardware Repo](https://github.com/jpconstantineau/PyKey60)
-* [Helpful Documentation](http://pykey.jpconstantineau.com/docs/) 
+* [Helpful Documentation](http://pykey.jpconstantineau.com/docs/)
 
 ## Purchase
 The PyKey18 is available on the Tindie store if you are interested in getting one.

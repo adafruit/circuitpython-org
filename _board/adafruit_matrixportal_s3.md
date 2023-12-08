@@ -4,7 +4,8 @@ board_id: "adafruit_matrixportal_s3"
 title: " MatrixPortal S3 Download"
 name: "MatrixPortal S3"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5778"
+board_url:
+ - "https://www.adafruit.com/product/5778"
 board_image: "adafruit_matrixportal_s3.jpg"
 date_added: 2023-6-26
 family: esp32s3

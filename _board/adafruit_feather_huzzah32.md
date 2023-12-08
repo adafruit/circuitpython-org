@@ -4,7 +4,8 @@ board_id: "adafruit_feather_huzzah32"
 title: "Adafruit Feather HUZZAH32 Download"
 name: "Adafruit Feather HUZZAH32"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/3707"
+board_url:
+ - "https://www.adafruit.com/product/3707"
 board_image: "adafruit_feather_huzzah32.jpg"
 date_added: 2022-8-19
 family: esp32
@@ -54,8 +55,8 @@ Here are [specifications from Espressif about the ESP32](https://espressif.com/e
 Comes fully assembled and tested, with a USB interface that lets you quickly use it with the Arduino IDE or the low-level ESP32 IDF. We also toss in some header so you can solder it in and plug into a solderless breadboard. **Lipoly battery and USB cable not included** (but we do have lots of options in the shop if you'd like!)
 
 **CircuitPython on ESP32**
-Want to learn how to load circuitpython onto this board? check out [this](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/) on the Adafruit learning system 
-Want to use the supernew web workflow, [this](https://learn.adafruit.com/getting-started-with-web-workflow-using-the-code-editor) tutorial shows you how.  
+Want to learn how to load circuitpython onto this board? check out [this](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/) on the Adafruit learning system
+Want to use the supernew web workflow, [this](https://learn.adafruit.com/getting-started-with-web-workflow-using-the-code-editor) tutorial shows you how.
 
 ## Purchase
 

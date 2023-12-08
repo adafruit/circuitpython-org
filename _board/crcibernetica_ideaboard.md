@@ -4,7 +4,8 @@ board_id: "crcibernetica-ideaboard"
 title: "CRCibernetica IdeaBoard Download"
 name: "CRCibernetica IdeaBoard"
 manufacturer: "CRCibernetica"
-board_url: "https://www.crcibernetica.com/crcibernetica-ideaboard/"
+board_url:
+ - "https://www.crcibernetica.com/crcibernetica-ideaboard/"
 board_image: "crcibernetica_ideaboard.jpg"
 date_added: 2022-11-13
 family: esp32
@@ -16,7 +17,7 @@ features:
 ---
 
 The CRCibernetica IdeaBoard is an educational Internet of Things and Robotics development board based on the ESP32 microcontroller.
-Easily connect multiple dc motors, servos and sensors to power your experiments! 
+Easily connect multiple dc motors, servos and sensors to power your experiments!
 
 ## Features
 

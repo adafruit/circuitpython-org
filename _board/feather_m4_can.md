@@ -4,7 +4,8 @@ board_id: "feather_m4_can"
 title: "Feather M4 CAN Download"
 name: "Feather M4 CAN"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4759"
+board_url:
+ - "https://www.adafruit.com/product/4759"
 board_image: "feather_m4_can.jpg"
 date_added: 2020-9-28
 family: atmel-samd
@@ -15,7 +16,7 @@ features:
   - USB-C
   - Breadboard-Friendly
 ---
- 
+
 One of our favorite Feathers, the Feather M4 Express, gets a glow-up here with an upgrade to the SAME51 chipset which has built-in CAN bus support! Like its SAMD51 cousin, the ATSAME51J19 comes with a 120 MHz Cortex M4 with floating point support and 512 KB Flash and 192 KB RAM. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset for CAN interfacing projects.
 
 At the end of the board we have placed a CAN transceiver chip as well as a 5 V converter to generate 5 V power to the transceiver even when running on battery. The two CAN signal lines and ground reference signal are available on a 3-pin 3.5 mm terminal block. The chip and booster can be put to sleep for power saving. The built-in CAN can read or write packets and has support in both Arduino and CircuitPython.

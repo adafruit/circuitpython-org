@@ -4,7 +4,8 @@ board_id: "vcc_gnd_yd_rp2040"
 title: "YD-RP2040 Download"
 name: "YD-RP2040"
 manufacturer: "VCC-GND Studio"
-board_url: ""
+board_url:
+ - "https://www.aliexpress.us/item/3256803817805852.html"
 board_image: "vcc_gnd_yd_rp2040.jpg"
 date_added: 2022-10-14
 family: raspberrypi

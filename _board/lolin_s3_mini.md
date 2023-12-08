@@ -4,7 +4,8 @@ board_id: "lolin_s3_mini"
 title: "LOLIN S3 MINI Download"
 name: "LOLIN S3 MINI"
 manufacturer: "LOLIN"
-board_url: "https://www.wemos.cc/en/latest/s3/s3_mini.html"
+board_url:
+ - "https://www.wemos.cc/en/latest/s3/s3_mini.html"
 board_image: "lolin_s3_mini.jpg"
 date_added: 2023-5-23
 family: esp32s3

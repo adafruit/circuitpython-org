@@ -4,7 +4,9 @@ board_id: "m5stack_core_basic"
 title: "ESP32 Basic Core IoT Download"
 name: "ESP32 Basic Core IoT"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/basic_v2.6"
+board_url:
+ - "https://docs.m5stack.com/en/core/basic_v2.6"
+ - "https://www.adafruit.com/product/4178"
 board_image: "m5stack_core_basic.jpg"
 date_added: 2022-10-30
 family: esp32

@@ -4,7 +4,8 @@ board_id: "bdmicro_vina_d51"
 title: "Vina-D51 Download"
 name: "VINA-D51"
 manufacturer: "BDMICRO, LLC"
-board_url: "https://bdmicro.com/products/vina-d51"
+board_url:
+ - "https://bdmicro.com/products/vina-d51"
 board_image: "bdmicro_vina_d51.jpg"
 date_added: 2020-10-16
 family: atmel-samd

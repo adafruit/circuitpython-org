@@ -4,7 +4,8 @@ board_id: "0xcb_helios"
 title: "0xCB Helios Download"
 name: "Helios"
 manufacturer: "0xCB"
-board_url: "https://github.com/0xCB-dev/0xCB-Helios"
+board_url:
+ - "https://github.com/0xCB-dev/0xCB-Helios"
 board_image: "0xcb_helios.jpg"
 date_added: 2023-01-05
 family: raspberrypi

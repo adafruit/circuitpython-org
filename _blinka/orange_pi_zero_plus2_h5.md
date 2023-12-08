@@ -4,7 +4,8 @@ board_id: "orange_pi_zero_plus2_h5"
 title: "Orange Pi Zero Plus2 (H5 Version) Download"
 name: "Orange Pi Zero Plus2 (H5 Version)"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/OrangePiZeroPlus2/"
+board_url:
+ - "http://www.orangepi.org/OrangePiZeroPlus2/"
 board_image: "orange_pi_zero_plus2_h5.jpg"
 download_instructions: ""
 downloads_display: true
@@ -40,7 +41,7 @@ Pretty much anything else, because Orange Pi Zero Plus2 is open source
 Who's it for?
 Orange Pi Zero Plus2 is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.
 
-- H5 Quad-core Cortex-A53 
+- H5 Quad-core Cortex-A53
 - H3 Quad-core Cortex-A7
 - H5 Mali450 GPU
 - H3 Mali400MP2 GPU

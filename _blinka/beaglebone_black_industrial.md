@@ -4,7 +4,8 @@ board_id: "beaglebone_black_industrial"
 title: "BeagleBone Black Industrial Download"
 name: "BeagleBone Black Industrial"
 manufacturer: "Element14"
-board_url: "https://beagleboard.org/e14-bbbi"
+board_url:
+ - "https://beagleboard.org/e14-bbbi"
 board_image: "beaglebone_black_industrial.jpg"
 downloads_display: true
 blinka: true

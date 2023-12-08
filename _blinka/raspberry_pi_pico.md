@@ -4,7 +4,8 @@ board_id: "raspberry_pi_pico"
 title: "Pico Download"
 name: "Pico"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.adafruit.com/product/4883"
+board_url:
+ - "https://www.adafruit.com/product/4883"
 board_image: "raspberry_pi_pico.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico"
 downloads_display: true

@@ -4,7 +4,8 @@ board_id: "pewpew10"
 title: "PewPew Download"
 name: "PewPew"
 manufacturer: "Radomir Dopieralski"
-board_url: "https://pewpew.rtfd.io"
+board_url:
+ - "https://pewpew.rtfd.io"
 board_image: "pewpew_10.2.jpg"
 date_added: 2019-3-12
 family: atmel-samd

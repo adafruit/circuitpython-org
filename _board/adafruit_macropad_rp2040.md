@@ -4,7 +4,9 @@ board_id: "adafruit_macropad_rp2040"
 title: "MacroPad RP2040 Download"
 name: "MacroPad RP2040"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5128"
+board_url:
+ - "https://www.adafruit.com/product/5128"
+ - "https://www.adafruit.com/product/5100"
 board_image: "adafruit_macropad_rp2040.jpg"
 date_added: 2021-6-4
 family: raspberrypi
@@ -20,7 +22,7 @@ Get ready to upgrade your desk's mission control station with a CircuitPython or
 Each of the 12 sockets can accept a Cherry MX-compatible key switch. No soldering required, just snap it in! Use any key switch you like - but we recommend ones with slots that will allow the matching twelve NeoPixels underneath to shine through.
 
 This space-ship is also fitted with a 128x64 monochome OLED for a crisp heads-up display that can be used in Arduino or CircuitPython to display keymaps, stats, computer performance, etc. There's also a rotary encoder with push-button soldered in. Twist and turn it or push to change volume or monitor brightness or scroll: whatever you like! A tiny speaker can give audio feedback or play fun bleepy tunes.
- 
+
 Want to add more hardware? No worries - [a STEMMA QT port on the side lets you connect any I2C add-on peripherals from the massive STEMMA QT / Qwiic family of plug in boards](https://www.adafruit.com/category/1018).
 
  **Please note, the RP2040 chip does not currently have QMK support** - this macropad is designed to be programmed in Arduino or CircuitPython! If QMK eventually does add RP2040 as a supported chipset (no ETA and no plans that we know of), we'll update this page.

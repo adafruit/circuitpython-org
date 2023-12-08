@@ -4,7 +4,8 @@ board_id: "ndgarage_ndbit6_v2"
 title: "FeatherSnow V2 Download"
 name: "FeatherSnow V2"
 manufacturer: "n°Garage"
-board_url: "https://hackaday.io/project/173537-feathersnow-v2"
+board_url:
+ - "https://hackaday.io/project/173537-feathersnow-v2"
 board_image: "ndgarage_ndbit6_v2.jpg"
 date_added: 2020-09-1
 family: atmel-samd

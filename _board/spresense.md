@@ -4,7 +4,10 @@ board_id: "spresense"
 title: "Spresense Download"
 name: "Spresense"
 manufacturer: "Sony"
-board_url: "https://developer.sony.com/develop/spresense/docs/introduction_en.html"
+board_url:
+ - "https://developer.sony.com/develop/spresense/docs/introduction_en.html"
+ - "https://www.adafruit.com/product/4419"
+ - "https://www.adafruit.com/product/4420"
 board_image: "spresense.jpg"
 date_added: 2019-10-23
 family: cxd56
@@ -22,7 +25,7 @@ The Spresense uses Sony's new chipset on the main board:
 * The CXD5602 System on Chip (SoC) multi core processor with GNSS
 * The CXD5247 power management and audio analog interface chip
 
-The Spresense extension board is a board which extends the interfaces compared to the Spresense main board. The Spresense main board and the Spresense extension board are connected by a Board-to-Board (B-2-B) connector. The Spresense extension board has Arduino Uno pin compatible shape and pin socket locations. However, there are some differences compared to the Arduino Uno. 
+The Spresense extension board is a board which extends the interfaces compared to the Spresense main board. The Spresense main board and the Spresense extension board are connected by a Board-to-Board (B-2-B) connector. The Spresense extension board has Arduino Uno pin compatible shape and pin socket locations. However, there are some differences compared to the Arduino Uno.
 
 ## Technical details
 

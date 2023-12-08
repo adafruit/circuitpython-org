@@ -4,7 +4,8 @@ board_id: "pimoroni_motor2040"
 title: "Motor 2040 Download"
 name: "Motor 2040"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/motor-2040"
+board_url:
+ - "https://shop.pimoroni.com/products/motor-2040"
 board_image: "pimoroni_motor2040.jpg"
 date_added: 2022-6-15
 family: raspberrypi

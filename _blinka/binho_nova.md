@@ -4,7 +4,8 @@ board_id: "binho_nova"
 title: "Nova"
 name: "Nova"
 manufacturer: "Binho"
-board_url: "https://binho.io/"
+board_url:
+ - "https://binho.io/"
 board_image: "binho_nova.jpg"
 downloads_display: true
 blinka: true

@@ -4,7 +4,8 @@ board_id: "pimoroni_badger2040w"
 title: "Badger 2040 W Download"
 name: "Badger 2040 W (Pico W Aboard)"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/badger-2040-w"
+board_url:
+ - "https://shop.pimoroni.com/products/badger-2040-w"
 board_image: "pimoroni_badger2040w.jpg"
 date_added: 2023-5-9
 family: raspberrypi

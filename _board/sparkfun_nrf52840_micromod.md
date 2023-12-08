@@ -4,7 +4,8 @@ board_id: "sparkfun_nrf52840_micromod"
 title: "MicroMod nRF52840 Processor Download"
 name: "MicroMod nRF52840 Processor"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/16984"
+board_url:
+ - "https://www.sparkfun.com/products/16984"
 board_image: "sparkfun_nrf52840_micromod.jpg"
 date_added: 2021-4-6
 family: nrf52840

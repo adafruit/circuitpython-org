@@ -4,7 +4,8 @@ board_id: "challenger_rp2040_subghz"
 title: "Challenger RP2040 SubGHz Download"
 name: "Challenger RP2040 SubGHz"
 manufacturer: "Invector Labs"
-board_url: "https://ilabs.se/product/challenger-rp2040-subghz-915mhz/"
+board_url:
+ - "https://ilabs.se/product/challenger-rp2040-subghz-915mhz/"
 board_image: "challenger_rp2040_subghz.jpg"
 date_added: 2022-10-6
 family: raspberrypi

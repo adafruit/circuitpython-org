@@ -4,7 +4,8 @@ board_id: "espressif_esp32s3_eye"
 title: "ESP32-S3-EYE Download"
 name: "ESP32-S3-EYE"
 manufacturer: "Espressif"
-board_url: "https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md"
+board_url:
+ - "https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md"
 board_image: "espressif_esp32s3_eye.jpg"
 bootloader_id: espressif_esp32s3_eye
 date_added: 2022-08-22

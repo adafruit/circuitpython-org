@@ -4,7 +4,8 @@ board_id: "morpheans_morphesp-240"
 title: "MorphESP 240 Download"
 name: "MorphESP 240"
 manufacturer: "Morpheans"
-board_url: "https://github.com/ccadic/ESP32-S2-DevBoardTFT"
+board_url:
+ - "https://github.com/ccadic/ESP32-S2-DevBoardTFT"
 board_image: "morpheans_morphesp-240.jpg"
 date_added: 2021-8-24
 family: esp32s2

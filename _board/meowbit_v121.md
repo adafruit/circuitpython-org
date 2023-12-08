@@ -4,7 +4,8 @@ board_id: "meowbit_v121"
 title: "KittenBot Meowbit Download"
 name: "Meowbit"
 manufacturer: "KittenBot"
-board_url: "https://www.adafruit.com/product/4324"
+board_url:
+ - "https://www.adafruit.com/product/4324"
 board_image: "meowbit_v121.jpg"
 downloads_display: true
 blinka: false

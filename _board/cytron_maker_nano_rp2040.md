@@ -4,7 +4,8 @@ board_id: "cytron_maker_nano_rp2040"
 title: "Maker Nano RP2040 Download"
 name: "Maker Nano RP2040"
 manufacturer: "Cytron Technologies"
-board_url: "https://www.cytron.io/p-maker-nano-rp2040"
+board_url:
+ - "https://www.cytron.io/p-maker-nano-rp2040"
 board_image: "cytron_maker_nano_rp2040.jpg"
 date_added: 2021-12-6
 family: raspberrypi
@@ -28,7 +29,7 @@ The I/O voltage is only 3.3 V and it's not 5 V compatible.
 - Dual-core Arm Cortex-M0+ processor
 - 264 KB internal RAM
 - 2 MB of Flash memory
-- 22x Digital I/O pins (4 ADC inputs `A0` - `A3`) 
+- 22x Digital I/O pins (4 ADC inputs `A0` - `A3`)
 - 14x Status indicator LEDs for GPIOs
 - 1x Piezo buzzer with mute switch
 - 1x Push button

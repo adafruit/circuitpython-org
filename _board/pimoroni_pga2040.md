@@ -4,7 +4,8 @@ board_id: "pimoroni_pga2040"
 title: "PGA2040 Download"
 name: "PGA2040"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/pga2040"
+board_url:
+ - "https://shop.pimoroni.com/products/pga2040"
 board_image: "pimoroni_pga2040.jpg"
 date_added: 2021-6-10
 family: raspberrypi

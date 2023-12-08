@@ -4,14 +4,16 @@ board_id: "raytac_mdbt50q-rx"
 title: "MDBT50Q-RX Download"
 name: "MDBT50Q-RX"
 manufacturer: "Raytac Corporation"
-board_url: "https://www.raytac.com/product/ins.php?index_id=89"
+board_url:
+ - "https://www.raytac.com/product/ins.php?index_id=89"
+ - "https://www.adafruit.com/product/5199"
 board_image: "raytac_mdbt50q-rx.jpg"
 date_added: 2021-08-13
 family: nrf52840
 bootloader_id: raytac_mdbt50q_rx
 features:
   - Bluetooth/BTLE
-  
+
 ---
 
 This USB dongle/key type thing is a little unusual - it *isn't* a BLE adapter that you plug into a computer to add wireless capability. (If you do want something like that, our [Bluetooth 4.0 USB Module](https://www.adafruit.com/products/1327) will do the job nicely.) Instead, this is basically a minimal nRF52840 wireless microcontroller dev board on a stick. You can program it in Arduino or CircuitPython and it's completely standalone. This could be useful for some situations where you want to have a standalone BLE device that communicates with a USB host *but without dealing with the operating system's BLE stack*.

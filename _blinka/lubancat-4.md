@@ -4,7 +4,8 @@ board_id: "lubancat-4"
 title: "LubanCat-4 Download"
 name: "LubanCat-4"
 manufacturer: "EmbedFire"
-board_url: ""
+board_url:
+ - "https://embedfire.com/products/"
 board_image: "lubancat-4.jpg"
 download_instructions: ""
 blinka: true

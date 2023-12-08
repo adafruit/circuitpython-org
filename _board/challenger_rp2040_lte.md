@@ -4,7 +4,8 @@ board_id: "challenger_rp2040_lte"
 title: "Challenger RP2040 LTE Download"
 name: "Challenger RP2040 LTE"
 manufacturer: "Invector Labs"
-board_url: "https://www.tindie.com/products/invector/challenger-rp2040-lte/"
+board_url:
+ - "https://www.tindie.com/products/invector/challenger-rp2040-lte/"
 board_image: "challenger_rp2040_lte.jpg"
 date_added: 2021-11-15
 family: raspberrypi

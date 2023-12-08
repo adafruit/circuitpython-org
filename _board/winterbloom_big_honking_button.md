@@ -4,7 +4,8 @@ board_id: "winterbloom_big_honking_button"
 title: "Winterbloom Big Honking Button Download"
 name: "Winterbloom Big Honking Button"
 manufacturer: "Alethea Flowers"
-board_url: "https://winterbloom.com"
+board_url:
+ - "https://winterbloom.com"
 board_image: "honk.jpg"
 downloads_display: true
 blinka: false

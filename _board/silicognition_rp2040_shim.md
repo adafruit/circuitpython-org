@@ -4,7 +4,8 @@ board_id: "silicognition_rp2040_shim"
 title: "RP2040-Shim Download"
 name: "RP2040-Shim"
 manufacturer: "Silicognition LLC"
-board_url: "https://github.com/xorbit/RP2040-Shim"
+board_url:
+ - "https://github.com/xorbit/RP2040-Shim"
 board_image: "silicognition-rp2040-shim.jpg"
 date_added: 2022-7-1
 family: raspberrypi

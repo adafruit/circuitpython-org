@@ -4,7 +4,8 @@ board_id: "stm32f411ve_discovery"
 title: "Discovery kit for STM32F411 Download"
 name: "Discovery kit for STM32F411"
 manufacturer: "ST"
-board_url: "https://www.st.com/en/evaluation-tools/32f411ediscovery.html"
+board_url:
+ - "https://www.st.com/en/evaluation-tools/32f411ediscovery.html"
 board_image: "stm32f411.jpg"
 date_added: 2019-9-16
 family: stm

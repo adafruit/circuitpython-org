@@ -4,7 +4,8 @@ board_id: "qtpy_m0_haxpress"
 title: "QT Py Haxpress Download"
 name: "QT Py Haxpress"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/4600"
 board_image: "qtpy_m0_haxpress.jpg"
 date_added: 2020-9-28
 family: atmel-samd
@@ -50,4 +51,4 @@ Runs Arduino like a dream, and can be used for basic CircuitPython projects. For
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/4600)
-* [Flash Chip](https://www.adafruit.com/product/4763)
+* [Adafruit - Flash Chip](https://www.adafruit.com/product/4763)

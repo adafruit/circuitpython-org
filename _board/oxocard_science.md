@@ -4,7 +4,8 @@ board_id: "oxocard_science"
 title: "Oxocard Science Card Download"
 name: "Oxocard Science Card"
 manufacturer: "Oxocard"
-board_url: "https://oxocard.ch/en/science/"
+board_url:
+ - "https://oxocard.ch/en/science/"
 board_image: "oxocard_science.jpg"
 date_added: 2023-11-15
 family: esp32

@@ -4,7 +4,8 @@ board_id: "adafruit_qtpy_esp32s3_4mbflash_2mbpsram"
 title: "Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM Download"
 name: "Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5700"
+board_url:
+ - "https://www.adafruit.com/product/5700"
 board_image: "adafruit_qtpy_esp32s3_4mbflash_2mbpsram.jpg"
 date_added: 2023-07-11
 family: esp32s3
@@ -19,7 +20,7 @@ features:
 
 The ESP32-S3 has arrived in QT Py format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this QT Py is great for powering your IoT projects. Now we even have this powerhouse of a board with built in 2 Megabytes of PSRAM for when you need to buffer large datasets in memory.
 
-The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has WiFi and BLE support, built-in native USB, as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the Internet of Things (IoT), wearable electronics, and smart homes. 
+The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has WiFi and BLE support, built-in native USB, as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the Internet of Things (IoT), wearable electronics, and smart homes.
 
 With native USB and 4 MB Flash + 2 MB PSRAM, this board will let you upgrade your existing ESP32 projects. Native USB means it can act like a keyboard or a disk drive, and no external USB-to-Serial converter required. WiFi and BLE mean it's awesome for IoT projects.
 

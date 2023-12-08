@@ -4,7 +4,8 @@ board_id: "muselab_nanoesp32_s2_wrover"
 title: "NanoESP32 S2 w/WROVER Download"
 name: "NanoESP32 S2 w/WROVER"
 manufacturer: "Muselab"
-board_url: "https://www.muselab-tech.com/nanoesp32-s2kai-fa-ban/"
+board_url:
+ - "https://www.muselab-tech.com/nanoesp32-s2kai-fa-ban/"
 board_image: "muselab_nanoesp32_s2.jpg"
 date_added: 2020-09-16
 family: esp32s2
@@ -24,8 +25,8 @@ This is the nanoESP32-S2 board with a WROVER ESP32-S2 module.
 * Co-processor: ULP (RISC-V)
 * SRAM: 320 KB
 * ROM: 128 KB
-* RTC Memory: 16 KB 
-* External SPIRAM: Up to 128 MB 
+* RTC Memory: 16 KB
+* External SPIRAM: Up to 128 MB
 * External Flash: Up to 1 GB
 * Wi-Fi (802.11 b/g/n): HT20
 * ESP-MESH: Yes

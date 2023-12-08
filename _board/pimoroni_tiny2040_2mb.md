@@ -4,7 +4,8 @@ board_id: "pimoroni_tiny2040_2mb"
 title: "Tiny 2040 (2MB) Download"
 name: "Tiny 2040 (2MB)"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/tiny-2040"
+board_url:
+ - "https://shop.pimoroni.com/products/tiny-2040"
 board_image: "pimoroni_tiny2040_2mb.jpg"
 date_added: 2021-12-02
 family: raspberrypi

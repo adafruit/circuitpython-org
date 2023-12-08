@@ -4,7 +4,8 @@ board_id: "odt_cast_away_rp2040"
 title: "CAST-AWAY RP2040 Download"
 name: "CAST-AWAY RP2040"
 manufacturer: "Oak Development Technologies"
-board_url: "https://www.tindie.com/products/oakdevtech/cast-away-rp2040-a-castellated-rp2040-dev-board/"
+board_url:
+ - "https://www.tindie.com/products/oakdevtech/cast-away-rp2040-a-castellated-rp2040-dev-board/"
 board_image: "odt_cast_away_rp2040.jpg"
 date_added: 2022-1-4
 family: raspberrypi

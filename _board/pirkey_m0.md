@@ -4,7 +4,8 @@ board_id: "pirkey_m0"
 title: "pIRkey Download"
 name: "pIRkey"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/3364"
+board_url:
+ - "https://www.adafruit.com/product/3364"
 board_image: "pirkey_m0.jpg"
 date_added: 2019-3-11
 family: atmel-samd

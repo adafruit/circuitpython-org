@@ -4,7 +4,8 @@ board_id: "m5stack_atoms3"
 title: "AtomS3 Dev Kit w/ 0.85-inch Screen Download"
 name: "AtomS3 Dev Kit w/ 0.85-inch Screen"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/AtomS3"
+board_url:
+ - "https://docs.m5stack.com/en/core/AtomS3"
 board_image: "m5stack_atoms3.jpg"
 date_added: 2023-10-27
 family: esp32s3

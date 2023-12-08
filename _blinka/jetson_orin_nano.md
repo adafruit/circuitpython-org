@@ -4,7 +4,8 @@ board_id: "jetson_orin_nano"
 title: "Jetson Orin Nano Dev Kit Download"
 name: "Jetson Orin Nano Dev Kit"
 manufacturer: "NVIDIA"
-board_url: "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
+board_url:
+ - "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
 board_image: "jetson_orin_nano.jpg"
 download_instructions: ""
 downloads_display: true

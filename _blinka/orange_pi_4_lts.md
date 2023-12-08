@@ -4,7 +4,8 @@ board_id: "orange_pi_4_lts"
 title: "Orange Pi 4 LTS Download"
 name: "Orange Pi 4 LTS"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/orange-pi-4-LTS.html"
+board_url:
+ - "http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/orange-pi-4-LTS.html"
 board_image: "orange_pi_4_lts.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true

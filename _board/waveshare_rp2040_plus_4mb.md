@@ -4,7 +4,8 @@ board_id: "waveshare_rp2040_plus_4mb"
 title: "RP2040-Plus with 4MB Flash Download"
 name: "RP2040-Plus with 4MB Flash"
 manufacturer: "Waveshare"
-board_url: "https://www.waveshare.com/rp2040-plus.htm"
+board_url:
+ - "https://www.waveshare.com/rp2040-plus.htm"
 board_image: "waveshare_rp2040_plus.jpg"
 date_added: "2023-10-27"
 family: raspberrypi

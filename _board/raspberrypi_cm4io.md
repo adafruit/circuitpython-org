@@ -4,7 +4,9 @@ board_id: "raspberrypi_cm4io"
 title: "Raspberry Pi CM4 IO Download"
 name: "Compute Module 4 IO Board"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/compute-module-4-io-board/"
+board_url:
+ - "https://www.raspberrypi.com/products/compute-module-4-io-board/"
+ - "https://www.adafruit.com/product/4787"
 board_image: "raspberrypi_cm4io.jpg"
 date_added: 2021-11-29
 family: broadcom

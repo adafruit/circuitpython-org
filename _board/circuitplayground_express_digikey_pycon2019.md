@@ -4,7 +4,8 @@ board_id: "circuitplayground_express_digikey_pycon2019"
 title: "Circuit Playground Express Digi-Key PyCon 2019 Download"
 name: "Circuit Playground Express Digi-Key"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com"
+board_url:
+ - "https://github.com/adafruit/PyCon2019"
 board_image: "circuitplayground_express_digikey_pycon2019.jpg"
 date_added: 2019-4-13
 family: atmel-samd

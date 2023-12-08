@@ -4,7 +4,10 @@ board_id: "unexpectedmaker_feathers3"
 title: "Unexpected Maker FeatherS3 Download"
 name: "Unexpected Maker FeatherS3"
 manufacturer: "Unexpected Maker"
-board_url: ""
+board_url:
+ - "https://unexpectedmaker.com/shop/feathers3"
+ - "https://www.adafruit.com/product/5399"
+ - "https://www.adafruit.com/product/5748"
 board_image: "unexpectedmaker_feathers3.jpg"
 date_added: 2022-01-29
 family: esp32s3
@@ -43,7 +46,7 @@ Introducing the FeatherS3 - The Pro ESP32-S3 Development Board in the Feather Fo
 You can find out more about the FeatherS3 at [feathers3.io](https://feathers3.io)
 
 ## Purchase
-You can purchase your very own FeatherS3 from:
-Adafruit - https://www.adafruit.com/product/5399
-Pimoroni - https://shop.pimoroni.com/products/feathers3-esp32-s3
-Unexpected Maker - https://unexpectedmaker.com/shop/feathers3
+ * [Adafruit](https://www.adafruit.com/product/5399)
+ * [Adafruit with u.FL](https://www.adafruit.com/product/5748)
+ * [Pimoroni](https://shop.pimoroni.com/products/feathers3-esp32-s3)
+ * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers3)

@@ -4,7 +4,8 @@ board_id: "lilygo_ttgo_t8_esp32_s2_wroom"
 title: "TTGO T8 ESP32-S2-WROOM Download"
 name: "TTGO T8 ESP32-S2-WROOM"
 manufacturer: "LILYGO"
-board_url: "http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1320&FId=t3:50063:3"
+board_url:
+ - "http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1320&FId=t3:50063:3"
 board_image: "lilygo_ttgo_t8_esp32_s2_wroom.jpg"
 bootloader_id: "lilygo_ttgo_t8_s2_wroom"
 date_added: 2022-3-1
@@ -38,7 +39,7 @@ You need to install an UF2 Bootloader.
 
 After flashing the Bootloader change the DIP switches (the ones closer to the
 USB-C connector) to OTG mode, when reconnected you should see the drive and can
-copy over the CircuitPython UF2 file. 
+copy over the CircuitPython UF2 file.
 
 ```text
 USB        OTG

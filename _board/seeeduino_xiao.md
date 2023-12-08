@@ -4,7 +4,8 @@ board_id: "seeeduino_xiao"
 title: "Seeed Studio XIAO SAMD21 Download"
 name: "Seeed Studio XIAO SAMD21"
 manufacturer: "Seeed Studio"
-board_url: "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
+board_url:
+ - "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
 board_image: "seeeduino_xiao.jpg"
 date_added: 2020-1-17
 family: atmel-samd

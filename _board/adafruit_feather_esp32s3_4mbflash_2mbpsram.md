@@ -4,7 +4,8 @@ board_id: "adafruit_feather_esp32s3_4mbflash_2mbpsram"
 title: "Feather ESP32-S3 4MB Flash 2MB PSRAM Download"
 name: "Feather ESP32-S3 4MB Flash 2MB PSRAM"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5477"
+board_url:
+ - "https://www.adafruit.com/product/5477"
 board_image: "adafruit_feather_esp32s3_4mbflash_2mbpsram.jpg"
 date_added: 2022-6-9
 family: esp32s3
@@ -22,7 +23,7 @@ features:
 
 The ESP32-S3 has arrived in Feather format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this Feather is great for powering your IoT projects.
 
-That's right - it's the new **Adafruit ESP32-\*S3\* Feather** with dual core and native USB - **this version comes with 4 MB flash, and 2 MB PSRAM** compared to the [Feather ESP32-S3 with 8MB Flash / no PSRAM version here](https://www.adafruit.com/product/5323). 
+That's right - it's the new **Adafruit ESP32-\*S3\* Feather** with dual core and native USB - **this version comes with 4 MB flash, and 2 MB PSRAM** compared to the [Feather ESP32-S3 with 8MB Flash / no PSRAM version here](https://www.adafruit.com/product/5323).
 
 Native USB means it can act like a keyboard or a disk drive, and no external USB-to-Serial converter required. WiFi and BLE mean it's awesome for IoT projects. And Feather means it works with the large community of Feather Wings for expandability.
 

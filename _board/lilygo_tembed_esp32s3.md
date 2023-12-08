@@ -4,7 +4,8 @@ board_id: "lilygo_tembed_esp32s3"
 title: "T-Embed Download"
 name: "T-Embed"
 manufacturer: "LILYGO"
-board_url: "https://www.lilygo.cc/products/t-embed"
+board_url:
+ - "https://www.lilygo.cc/products/t-embed"
 board_image: "lilygo_tembed_esp32s3.jpg"
 date_added: 2023-3-1
 family: esp32s3

@@ -4,7 +4,8 @@ board_id: "challenger_nb_rp2040_wifi"
 title: "Challenger NB RP2040 WiFi Download"
 name: "Challenger NB RP2040 WiFi"
 manufacturer: "Invector Labs"
-board_url: "https://www.tindie.com/products/invector/challenger-nb-rp2040-wifi/"
+board_url:
+ - "https://www.tindie.com/products/invector/challenger-nb-rp2040-wifi/"
 board_image: "challenger_nb_rp2040_wifi.jpg"
 date_added: 2021-11-15
 family: raspberrypi

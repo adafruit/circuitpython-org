@@ -4,7 +4,8 @@ board_id: "makerdiary_nrf52840_m2_devkit"
 title: "nRF52840 M.2 Developer Kit Download"
 name: "nRF52840 M.2 Developer Kit"
 manufacturer: "MakerDiary"
-board_url: "https://makerdiary.com/collections/frontpage/products/nrf52840-m2-developer-kit"
+board_url:
+ - "https://makerdiary.com/collections/frontpage/products/nrf52840-m2-developer-kit"
 board_image: "makerdiary_nrf52840_m2_devkit.jpg"
 date_added: 2020-7-27
 family: nrf52840

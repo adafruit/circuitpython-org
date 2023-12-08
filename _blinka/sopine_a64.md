@@ -4,7 +4,8 @@ board_id: "sopine_a64"
 title: "SOPINE A64 Download"
 name: "SOPINE A64"
 manufacturer: "Pine64"
-board_url: "https://www.pine64.org/sopine/"
+board_url:
+ - "https://www.pine64.org/sopine/"
 board_image: "sopine_a64.jpg"
 download_instructions: ""
 downloads_display: true

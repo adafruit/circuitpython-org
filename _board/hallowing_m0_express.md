@@ -4,7 +4,9 @@ board_id: "hallowing_m0_express"
 title: "HalloWing M0 Express Download"
 name: "HalloWing M0 Express"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/3900"
+ - "https://www.adafruit.com/product/3956"
 board_image: "hallowing_m0_express.jpg"
 date_added: 2019-3-9
 family: atmel-samd

@@ -4,7 +4,8 @@ board_id: "orange_pi_3"
 title: "Orange Pi 3 Download"
 name: "Orange Pi 3"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/Orange%20Pi%203/"
+board_url:
+ - "http://www.orangepi.org/Orange%20Pi%203/"
 board_image: "orange_pi_3.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true

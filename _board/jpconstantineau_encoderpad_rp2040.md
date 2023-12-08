@@ -4,7 +4,8 @@ board_id: "jpconstantineau_encoderpad_rp2040"
 title: "EncoderPad RP2040 Download"
 name: "EncoderPad RP2040"
 manufacturer: "JPConstantineau"
-board_url: "https://github.com/jpconstantineau/EncoderPad_RP2040"
+board_url:
+ - "https://github.com/jpconstantineau/EncoderPad_RP2040"
 board_image: "jpconstantineau_encoderpad_rp2040.jpg"
 date_added: 2021-09-02
 family: raspberrypi

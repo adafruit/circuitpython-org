@@ -4,7 +4,9 @@ board_id: "raspberry_pi_pico_w"
 title: "Pico W Download"
 name: "Pico W"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.adafruit.com/product/5526"
+board_url:
+ - "https://www.adafruit.com/product/5526"
+ - "https://www.adafruit.com/product/5544"
 board_image: "raspberry_pi_pico_w.jpg"
 date_added: 2022-10-2
 family: raspberrypi

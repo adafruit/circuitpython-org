@@ -4,7 +4,8 @@ board_id: "lilygo_ttgo_t-oi-plus"
 title: "TTGO T-OI Plus Download"
 name: "TTGO T-OI Plus"
 manufacturer: "LILYGO"
-board_url: ""
+board_url:
+ - "https://www.tindie.com/products/lilygo/lilygo-ttgo-t-oi-plus-risc-v-esp32-c3/"
 board_image: "lilygo_ttgo_t-oi-plus.jpg"
 date_added: 2022-5-16
 family: esp32c3

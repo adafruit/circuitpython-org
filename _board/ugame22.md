@@ -4,7 +4,8 @@ board_id: "ugame22"
 title: "µGame 22 Download"
 name: "µGame 22"
 manufacturer: "Radomir Dopieralski"
-board_url: "https://hackaday.io/project/186921-game-22"
+board_url:
+ - "https://hackaday.io/project/186921-game-22"
 board_image: "ugame22.jpg"
 date_added: 2023-10-27
 family: raspberrypi

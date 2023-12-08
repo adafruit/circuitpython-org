@@ -4,7 +4,8 @@ board_id: "jetson_xavier_nx"
 title: "Jetson Xavier NX"
 name: "Jetson Xavier NX"
 manufacturer: "NVIDIA"
-board_url: "https://developer.nvidia.com/embedded/jetson-xavier-nx"
+board_url:
+ - "https://developer.nvidia.com/embedded/jetson-xavier-nx"
 board_image: "jetson_xavier_nx.jpg"
 downloads_display: true
 blinka: true

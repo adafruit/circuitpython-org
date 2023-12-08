@@ -4,7 +4,8 @@ board_id: "orange_pi_5"
 title: "Orange Pi 5 Download"
 name: "Orange Pi 5"
 manufacturer: "Shenzhen Xunlong Software CO., Limited"
-board_url: "http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html"
+board_url:
+ - "http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html"
 board_image: "orange_pi_5.jpg"
 download_instructions: ""
 downloads_display: true

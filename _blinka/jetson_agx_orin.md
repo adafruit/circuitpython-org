@@ -4,7 +4,8 @@ board_id: "jetson_agx_orin"
 title: "Jetson AGX Orin"
 name: "Jetson AGX Orin"
 manufacturer: "NVIDIA"
-board_url: "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
+board_url:
+ - "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
 board_image: "jetson_agx_orin.jpg"
 downloads_display: true
 blinka: true
@@ -13,7 +14,7 @@ features:
   - Ethernet
   - 40-pin GPIO
   - HDMI/DisplayPort
-  
+
 ---
 
 Bring your next-gen products to life with the world’s most powerful AI computer for energy-efficient autonomous machines. With up to 275 TOPS and 8X the performance of the last generation for multiple concurrent AI inference pipelines, plus high-speed interface support for multiple sensors, NVIDIA Jetson Orin™ modules provide the ideal solution for a new age of robotics.

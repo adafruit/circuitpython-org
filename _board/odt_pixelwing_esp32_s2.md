@@ -4,7 +4,8 @@ board_id: "odt_pixelwing_esp32_s2"
 title: "PixelWing ESP32-S2 RGB Matrix Download"
 name: "PixelWing ESP32-S2 RGB Matrix"
 manufacturer: "Oak Development Technologies"
-board_url: "https://www.tindie.com/products/oakdevtech/pixelwing-esp32-s2-rgb-matrix/"
+board_url:
+ - "https://www.tindie.com/products/oakdevtech/pixelwing-esp32-s2-rgb-matrix/"
 board_image: "odt_pixelwing_esp32_s2.jpg"
 date_added: 2021-8-24
 family: esp32s2

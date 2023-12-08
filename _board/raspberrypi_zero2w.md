@@ -4,7 +4,9 @@ board_id: "raspberrypi_zero2w"
 title: "Raspberry Pi Zero 2 W Download"
 name: "Zero 2 W"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
+board_url:
+ - "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
+ - "https://www.adafruit.com/product/5291"
 board_image: "raspberry_pi_zero_2_w.jpg"
 date_added: 2021-11-29
 family: broadcom

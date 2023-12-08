@@ -4,7 +4,12 @@ board_id: "pybadge"
 title: "PyBadge Download"
 name: "PyBadge"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/4200"
+board_url:
+ - "https://www.adafruit.com/product/4200"
+ - "https://www.adafruit.com/product/3939"
+ - "https://www.adafruit.com/product/4623"
+ - "https://www.adafruit.com/product/4624"
+ - "https://www.adafruit.com/product/4317"
 board_image: "pybadge.jpg"
 date_added: 2019-3-19
 family: atmel-samd

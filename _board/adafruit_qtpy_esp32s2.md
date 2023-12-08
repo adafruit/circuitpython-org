@@ -4,7 +4,8 @@ board_id: "adafruit_qtpy_esp32s2"
 title: "Adafruit QT Py ESP32-S2 (including uFL version) Download"
 name: "Adafruit QT Py ESP32-S2 (including uFL version)"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5325"
+board_url:
+ - "https://www.adafruit.com/product/5325"
 board_image: "adafruit_qtpy_esp32s2.jpg"
 date_added: 2021-11-30
 family: esp32s2
@@ -17,7 +18,7 @@ features:
   - Xiao / QTPy Form Factor
 ---
 
-What has your favorite Espressif WiFi microcontroller, comes with [our favorite connector - the STEMMA QT](http://adafruit.com/stemma), a chainable I2C port, and has lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy? What a cutie pie! Or is it... a **QT Py**? This diminutive dev board comes with one of our new favorite lil chips, the **ESP32-S2**! 
+What has your favorite Espressif WiFi microcontroller, comes with [our favorite connector - the STEMMA QT](http://adafruit.com/stemma), a chainable I2C port, and has lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy? What a cutie pie! Or is it... a **QT Py**? This diminutive dev board comes with one of our new favorite lil chips, the **ESP32-S2**!
 
 The ESP32-S2 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has **built-in native USB** as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the [Internet of Things (IoT)](https://www.adafruit.com/category/342), [wearable electronics](https://www.adafruit.com/category/65), and smart homes.
 

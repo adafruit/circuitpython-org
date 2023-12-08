@@ -4,7 +4,8 @@ board_id: "beaglebone"
 title: "BeagleBone Download"
 name: "BeagleBone"
 manufacturer: "BeagleBoard"
-board_url: "https://beagleboard.org/bone-original"
+board_url:
+ - "https://beagleboard.org/bone-original"
 board_image: "beaglebone.jpg"
 download_instructions: ""
 downloads_display: true

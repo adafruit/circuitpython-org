@@ -4,7 +4,8 @@ board_id: "adafruit_qtpy_esp32_pico"
 title: "Adafruit QT Py ESP32 Pico Download"
 name: "Adafruit QT Py ESP32 Pico"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5395"
+board_url:
+ - "https://www.adafruit.com/product/5395"
 board_image: "adafruit_qtpy_esp32_pico.jpg"
 date_added: 2022-8-19
 family: esp32

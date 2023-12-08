@@ -4,7 +4,9 @@ board_id: "fomu"
 title: "Fomu Download"
 name: "Fomu"
 manufacturer: Sean Cross (xobs)
-board_url: "https://tomu.im/fomu.html"
+board_url:
+ - "https://tomu.im/fomu.html"
+ - "https://www.adafruit.com/product/4332"
 board_image: "fomu.jpg"
 date_added: 2020-4-16
 family: litex

@@ -4,7 +4,8 @@ board_id: "firebeetle2_esp32s3"
 title: "FireBeetle 2 ESP32-S3 Download"
 name: "FireBeetle 2 ESP32-S3"
 manufacturer: "DFRobot"
-board_url: "https://wiki.dfrobot.com/SKU_DFR0975_FireBeetle_2_Board_ESP32_S3"
+board_url:
+ - "https://wiki.dfrobot.com/SKU_DFR0975_FireBeetle_2_Board_ESP32_S3"
 board_image: "firebeetle2_esp32s3.jpg"
 date_added: 2023-11-21
 family: esp32s3

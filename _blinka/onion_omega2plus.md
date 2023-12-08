@@ -4,7 +4,8 @@ board_id: "onion_omega2plus"
 title: "Onion Omega2+"
 name: "Onion Omega2+"
 manufacturer: "Onion Corporation"
-board_url: "https://onion.io/store/omega2p/"
+board_url:
+ - "https://onion.io/store/omega2p/"
 board_image: "onion_omega2plus.jpg"
 download_instructions: ""
 downloads_display: true

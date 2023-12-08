@@ -4,7 +4,8 @@ board_id: "rock_pi_e"
 title: "Rock Pi E Download"
 name: "Rock Pi E"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/RockpiE"
+board_url:
+ - "https://wiki.radxa.com/RockpiE"
 board_image: "rock_pi_e.jpg"
 download_instructions: ""
 downloads_display: true

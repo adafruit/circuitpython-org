@@ -4,7 +4,8 @@ board_id: "aloriumtech_evo_m51"
 title: "AloriumTech Evo M51 Download"
 name: "AloriumTech Evo M51"
 manufacturer: "Alorium Technology, LLC"
-board_url: "https://www.aloriumtech.com/evom51"
+board_url:
+ - "https://www.aloriumtech.com/evom51"
 board_image: "aloriumtech_evo_m51.jpg"
 date_added: 2020-5-21
 family: atmel-samd
@@ -17,11 +18,11 @@ features:
   - Breadboard-Friendly
 ---
 
-The Evo M51 is an FPGA-enhanced Feather compatible compute module from Alorium Technology that features a 32-bit SAMD51 microcontroller along with an Intel MAX 10 FPGA.  
+The Evo M51 is an FPGA-enhanced Feather compatible compute module from Alorium Technology that features a 32-bit SAMD51 microcontroller along with an Intel MAX 10 FPGA.
 
 Designed for use as an embeddable system-on-module, all of the standard Feather I/O are also routed to castellated vias along the edge of the board. There are 34 additional castellated digital I/O connected to the FPGA and accessible via the SAMD51.
 
-Most digital I/O connections are routed through the FPGA to and from the primary and castellated I/O. This provides the opportunity for developers to immediately capture inputs or drive outputs from the FPGA without requiring direct interaction with the SAMD controller.  
+Most digital I/O connections are routed through the FPGA to and from the primary and castellated I/O. This provides the opportunity for developers to immediately capture inputs or drive outputs from the FPGA without requiring direct interaction with the SAMD controller.
 
 Evo M51 will support Alorium Technology-supplied pre-built FPGA images that target specific application use cases. In addition, designers will have the option to develop their own custom logic blocks and integrate them into the top-level MAX 10 FPGA design.
 
@@ -46,7 +47,7 @@ Evo was specifically designed to support running CircuitPython. It is also progr
 ## Misc
 
 * [Quickstart guide](https://aloriumtech.com/evom51-quickstart/)
-* [Pinout](https://aloriumtech.com/documents/Evo_M51_PinMap.pdf) 
+* [Pinout](https://aloriumtech.com/documents/Evo_M51_PinMap.pdf)
 * [Schematics](https://aloriumtech.com/documents/Evo_M51_Schematic.pdf)
 
 In order to take full advantage of the additional I/O on Evo M51 using CircuitPython, we have created a custom library bundle that can be found on the Alorium Technology GitHub page:

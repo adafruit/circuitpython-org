@@ -4,7 +4,8 @@ board_id: "orange_pi_pc_plus"
 title: "Orange Pi PC Plus Download"
 name: "Orange Pi PC Plus"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/orangepipcplus/"
+board_url:
+ - "http://www.orangepi.org/orangepipcplus/"
 board_image: "orange_pi_pc_plus.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true

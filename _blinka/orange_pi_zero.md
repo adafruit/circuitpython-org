@@ -4,7 +4,8 @@ board_id: "orange_pi_zero"
 title: "Orange Pi Zero Download"
 name: "Orange Pi Zero"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/orangepizero/"
+board_url:
+ - "http://www.orangepi.org/orangepizero/"
 board_image: "orange_pi_zero.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true

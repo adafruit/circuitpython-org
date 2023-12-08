@@ -4,7 +4,8 @@ board_id: "dynossat_edu_eps"
 title: "DynOSSAT-EDU EPS Download"
 name: "DynOSSAT-EDU EPS"
 manufacturer: "BH Dynamics"
-board_url: "https://bhdyn.com/newspace"
+board_url:
+ - "https://bhdyn.com/newspace"
 board_image: "dynossat_edu_eps.jpg"
 date_added: 2020-10-16
 family: atmel-samd

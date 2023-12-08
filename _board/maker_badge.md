@@ -4,7 +4,8 @@ board_id: "maker_badge"
 title: "Maker badge download"
 name: "Maker badge"
 manufacturer: "Czech maker & Make More"
-board_url: "https://github.com/dronecz/maker_badge"
+board_url:
+ - "https://github.com/dronecz/maker_badge"
 board_image: "maker_badge.jpg"
 date_added: 2022-11-13
 family: esp32s2
@@ -15,7 +16,7 @@ features:
   - Battery Charging
 ---
 
-The Maker badge board is official badge board for Maker Faire´s in Czech republic. Main purpose is to show visitors/exhibitors name and/or project, but secondary goal is to have at each Maker Faire some interactive game so people can have more fun at the time of the visit. 
+The Maker badge board is official badge board for Maker Faire´s in Czech republic. Main purpose is to show visitors/exhibitors name and/or project, but secondary goal is to have at each Maker Faire some interactive game so people can have more fun at the time of the visit.
 
 ## Features
 
@@ -37,6 +38,6 @@ The Maker badge board is official badge board for Maker Faire´s in Czech republ
 
 * will be added later
 
-## Resources 
+## Resources
 
 * [Github](https://github.com/dronecz/maker_badge)

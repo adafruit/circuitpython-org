@@ -4,7 +4,9 @@ board_id: "espressif_esp32h2_devkitm_1_n4"
 title: "ESP32-H2-DevKitM-1-N4 Download"
 name: "ESP32-H2-DevKitM-1-N4"
 manufacturer: "Espressif"
-board_url: "https://www.adafruit.com/product/5715"
+board_url:
+ - "https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html"
+ - "https://www.adafruit.com/product/5715"
 board_image: "espressif_esp32h2_devkitm_1.jpg"
 date_added: 2023-10-27
 family: esp32h2
@@ -36,7 +38,7 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
 **Features:**
 
 - **ESP32-H2-MINI-1**: ESP32-H2-MINI-1, with ESP32-H2 inside which integrates a 2.4 GHz transceiver compliant with Bluetooth ® Low Energy and IEEE 802.15.4-based technologies, supporting Bluetooth 5 (LE), Bluetooth mesh, Thread, Matter, and Zigbee. This module is specially designed for all kinds of low-power IoT applications.
-- **Pin Headers**: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board. For details, please see Espressif's [Header Block](https://espressif-docs.readthedocs-hosted.com/projects/espressif-esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html#header-block).
+- **Pin Headers**: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board. For details, please see Espressif's [Header Block](https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html#header-block).
 - **3.3V Power On LED**: Turns on when the USB power is connected to the board.
 - **5V to 3.3V LDO**: Power regulator that converts a 5 V supply into a 3.3 V output.
 - **USB-to-UART Bridge**: Single USB-UART bridge chip provides transfer rates up to 3 Mbps.
@@ -45,7 +47,7 @@ ESP32-H2 is an ultra-low-power Internet of Things (IoT) solution offering multip
 - **Reset Button**: Press this button to restart the system.
 - **USB Type-C to UART Port**: Power supply for the board as well as the communication interface between a computer and the ESP32-H2 chip via USB-to-UART bridge.
 - **RGB LED**: Addressable RGB LED, driven by GPIO8.
-- **J5**: Used for current measurement. See details in Section [Current Measurement](https://espressif-docs.readthedocs-hosted.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide_v1.1.html#user-guide-c6-devkitc-1-v1-current).
+- **J5**: Used for current measurement. See details in Section [Current Measurement](https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide_v1.1.html#user-guide-c6-devkitc-1-v1-current).
 
 ## Purchase
 

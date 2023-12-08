@@ -4,7 +4,8 @@ board_id: "cytron_maker_feather_aiot_s3"
 title: "Maker Feather AIoT S3 Download"
 name: "Maker Feather AIoT S3"
 manufacturer: "Cytron Technologies"
-board_url: "www.cytron.io/p-v-maker-feather-aiot-s3-simplifying-aiot-with-esp32"
+board_url:
+ - "www.cytron.io/p-v-maker-feather-aiot-s3-simplifying-aiot-with-esp32"
 board_image: "cytron_maker_feather_aiot_s3.jpg"
 date_added: 2022-11-25
 family: esp32s3
@@ -20,7 +21,7 @@ The Maker Feather AIoT S3 is powered by the ESP32-S3 WROOM 1 N8R8 module with 8M
 
 The board comes with 3 Maker Ports (STEMMA QT / Qwiic JST SH) that have flexible I/O options: digital, analog and I2C. The Maker Ports consist of 2 horizontal ports that are powered by VPeripheral that allows users to save power by turning  on and off via programming code and 1 vertical port that is powered by constant 3.3V.
 
-There are 11 LEDs that act as the status LED of their respective GPIOs, a programmable Neopixel RGB LED to make your project colourful, 1 "RESET" and 1 "BOOT" buttons to reset the board and enter bootloader mode and a programmable push button. At the bottom of the board, there is a piezo buzzer with a mute switch that allows you to add audio features to your projects. 
+There are 11 LEDs that act as the status LED of their respective GPIOs, a programmable Neopixel RGB LED to make your project colourful, 1 "RESET" and 1 "BOOT" buttons to reset the board and enter bootloader mode and a programmable push button. At the bottom of the board, there is a piezo buzzer with a mute switch that allows you to add audio features to your projects.
 
 There are 2 ways to power up the Maker Feather AIoT S3, either through USB C Data Cable or rechargeable LiPo/Li-Ion Battery. The built-in 1-cell LiPo/Li-Ion charger port comes with overcharged and over-discharged protection features.
 

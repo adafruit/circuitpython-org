@@ -4,7 +4,8 @@ board_id: "grandcentral_m4_express"
 title: "Grand Central M4 Express Download"
 name: "Grand Central M4 Express"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/4064"
 board_image: "grandcentral_m4_express.jpg"
 date_added: 2019-3-9
 family: atmel-samd
@@ -41,7 +42,7 @@ Extras:
 *   **Logic level is 3.3V**
 *   **Native USB**, there's no need for a hardware USB to Serial converter as the Metro M4 has built in USB support. When used to act like a serial device, the USB interface can be used by any computer to listen/send data to the METRO, and can also be used to launch and update code via the bootloader. It can also act like an HID keyboard or mouse.
 *   **Four indicator LEDs and one NeoPixel**, on the front edge of the PCB, for easy debugging. One green power LED, two RX/TX LEDs for data being sent over USB, and a red LED connected. Next to the reset button there is an RGB NeoPixel that can be used for any purpose.
-*   **8 MB QSPI Flash **storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 8 MB flash acts as storage for all your scripts, libraries and files. 
+*   **8 MB QSPI Flash **storage chip is included on board. You can use the SPI Flash storage like a very tiny hard drive. When used in Circuit Python, the 8 MB flash acts as storage for all your scripts, libraries and files.
 *   **Micro SD Card slot** - removable storage of any size, connected to an SPI SERCOM (SDIO is not supported)
 *   **Easy reprogramming**, comes pre-loaded with the [UF2 bootloader](https://learn.adafruit.com/adafruit-metro-m0-express-designed-for-circuitpython/uf2-bootloader), which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython (it is bossa v1.8 compatible)
 

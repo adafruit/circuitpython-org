@@ -4,7 +4,8 @@ board_id: "m5stack_atoms3u"
 title: "AtomS3U ESP32S3 Dev Kit Download"
 name: "AtomS3U ESP32S3 Dev Kit"
 manufacturer: "M5Stack"
-board_url: "https://shop.m5stack.com/products/atoms3u"
+board_url:
+ - "https://shop.m5stack.com/products/atoms3u"
 board_image: "m5stack_atoms3u.jpg"
 date_added: 2023-10-27
 family: esp32s3

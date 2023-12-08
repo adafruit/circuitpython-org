@@ -4,7 +4,8 @@ board_id: "m5stack_atom_u"
 title: "AtomU ESP32 Download"
 name: "AtomU ESP32"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/atom_u"
+board_url:
+ - "https://docs.m5stack.com/en/core/atom_u"
 board_image: "m5stack_atom_u.jpg"
 date_added: 2023-1-31
 family: esp32

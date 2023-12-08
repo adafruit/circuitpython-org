@@ -4,7 +4,8 @@ board_id: "mini_sam_m4"
 title: "Mini SAM M4 Download"
 name: "Mini SAM M4"
 manufacturer: "Benjamin Shockley"
-board_url: "www.minisam.cc"
+board_url:
+ - "www.minisam.cc"
 board_image: "mini_sam_m4.jpg"
 date_added: 2019-3-12
 family: atmel-samd

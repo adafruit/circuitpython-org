@@ -4,7 +4,8 @@ board_id: "dragonboard_410c"
 title: "Dragonboard 410c Download"
 name: "Dragonboard 410c"
 manufacturer: "Arrow Electronics"
-board_url: "https://www.96boards.org/product/dragonboard410c/"
+board_url:
+ - "https://www.96boards.org/product/dragonboard410c/"
 board_image: "dragonboard_410c.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-96boards-dragonboard-410c"
 downloads_display: true

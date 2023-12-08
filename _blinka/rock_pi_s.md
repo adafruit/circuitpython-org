@@ -4,7 +4,8 @@ board_id: "rock_pi_s"
 title: "Rock Pi S Download"
 name: "Rock Pi S"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/RockpiS"
+board_url:
+ - "https://wiki.radxa.com/RockpiS"
 board_image: "rock_pi_s.jpg"
 download_instructions: ""
 downloads_display: true

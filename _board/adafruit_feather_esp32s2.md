@@ -4,7 +4,8 @@ board_id: "adafruit_feather_esp32s2"
 title: "Feather ESP32-S2 Download"
 name: "Feather ESP32-S2"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5000"
+board_url:
+ - "https://www.adafruit.com/product/5000"
 board_image: "adafruit_feather_esp32s2.jpg"
 date_added: 2021-4-6
 family: esp32s2

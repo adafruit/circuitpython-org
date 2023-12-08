@@ -5,7 +5,8 @@ title: "pcDuino2 Download"
 name: "pcDuino2"
 manufacturer: "LinkSprite"
 blinka: true
-board_url: "https://www.linksprite.com/linksprite-pcduino2/"
+board_url:
+ - "https://www.linksprite.com/linksprite-pcduino2/"
 board_image: "pcduino2.jpg"
 date_added: 2023-10-27
 

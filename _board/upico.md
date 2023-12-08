@@ -4,7 +4,8 @@ board_id: "upico"
 title: "uPico Download"
 name: "uPico"
 manufacturer: "Quadbit"
-board_url: "https://github.com/dotcypress/upico"
+board_url:
+ - "https://github.com/dotcypress/upico"
 board_image: "upico.jpg"
 date_added: 2023-11-29
 family: raspberrypi
@@ -14,7 +15,7 @@ features:
 uPico is a RP2040 powered expansion card designed to enhance the capabilities of [Clockwork's uConsole](https://www.clockworkpi.com/uconsole).
 uPico is fully compatible with RaspberryPi Pico, including LED pin(GPIO25).
 
-All sources are open, including: 
+All sources are open, including:
 - PCB design
 - Control application code
 - Cover bracket 3D model

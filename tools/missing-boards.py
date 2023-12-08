@@ -21,12 +21,10 @@ def find_hidden_boards(folder):
             if board_id == "unknown":
                 continue
             hidden_boards.append(board_id)
-    print("Hidden boards:")
-    print("----------------")
+    print(f"{len(hidden_boards)} Hidden boards")
     if hidden_boards:
+        print("-" * (15 + len(str(len(hidden_boards)))))
         print("\n".join(hidden_boards))
-    else:
-        print("No Hidden Boards")
 
 def find_missing_boards(folder):
     missing_boards = []
@@ -49,13 +47,10 @@ def find_missing_boards(folder):
 
     # Print out remaining board_ids
     print("")
-    print("Missing boards:")
-    print("----------------")
+    print(f"{len(missing_boards)} Missing boards")
     if missing_boards:
+        print("-" * (16 + len(str(len(missing_boards)))))
         print("\n".join(missing_boards))
-    else:
-        print("No Missing Boards")
-
 
 find_hidden_boards("_board")
 find_missing_boards("_board")

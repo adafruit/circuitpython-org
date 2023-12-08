@@ -4,7 +4,8 @@ board_id: "beaglebone_ai"
 title: "BeagleBone AI Download"
 name: "BeagleBone AI"
 manufacturer: "BeagleBoard"
-board_url: "https://beagleboard.org/ai"
+board_url:
+ - "https://beagleboard.org/ai"
 board_image: "beaglebone_ai.jpg"
 downloads_display: true
 blinka: true

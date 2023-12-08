@@ -4,7 +4,8 @@ board_id: "smartbeedesigns_bee_data_logger"
 title: "Bee Data Logger Download"
 name: "Bee Data Logger"
 manufacturer: "Smart Bee Designs"
-board_url: ""
+board_url:
+ - "https://github.com/strid3r21/Bee-Data-Logger"
 board_image: "smartbeedesigns_bee-data-logger.jpg"
 date_added: 2023-06-13
 family: esp32s3

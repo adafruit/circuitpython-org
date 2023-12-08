@@ -4,7 +4,9 @@ board_id: "teensy41"
 title: "Teensy 4.1 Download"
 name: "Teensy 4.1"
 manufacturer: "PJRC"
-board_url: "https://www.adafruit.com/product/4622"
+board_url:
+ - "https://www.pjrc.com/store/teensy41.html"
+ - "https://www.adafruit.com/product/4622"
 board_image: "teensy41.jpg"
 date_added: 2020-05-11
 family: mimxrt10xx
@@ -12,7 +14,7 @@ features:
   - Breadboard-Friendly
 ---
 
-The [Teensy](http://www.pjrc.com/teensy/index.html) 4.1, like the [4.0](http://www.adafruit.com/product/4323), also features an ARM Cortex-M7 processor at 600 MHz, with an NXP iMXRT1062 chip, the fastest microcontroller available today - [ten times faster than the Teensy 3.2](https://github.com/PaulStoffregen/CoreMark)! The NXP iMXRT1062 is a 'cross-over' processor, which has the functionality of a microcontroller, at the speeds of a microcomputer. It's perfect for when you need tons of flash, RAM and, to crunch lots of data, or when you need two full-speed USB ports. 
+The [Teensy](http://www.pjrc.com/teensy/index.html) 4.1, like the [4.0](http://www.adafruit.com/product/4323), also features an ARM Cortex-M7 processor at 600 MHz, with an NXP iMXRT1062 chip, the fastest microcontroller available today - [ten times faster than the Teensy 3.2](https://github.com/PaulStoffregen/CoreMark)! The NXP iMXRT1062 is a 'cross-over' processor, which has the functionality of a microcontroller, at the speeds of a microcomputer. It's perfect for when you need tons of flash, RAM and, to crunch lots of data, or when you need two full-speed USB ports.
 
 Teensy 4.1 comes with **four times larger flash memory than the 4.0**, and two new locations to optionally add more memory. The Teensy 4.1 has the same form factor as the [Teensy 3.6](http://www.adafruit.com/product/3266) (2.4" by 0.7"), but provides a **ton more I/O capability**, including an 100MB Ethernet PHY, SD card socket (SDIO connected), and USB host port. Please check out the [Teensy 4.0 page for common specifications and features](https://www.pjrc.com/store/teensy40.html).
 

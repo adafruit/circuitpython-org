@@ -4,7 +4,10 @@ board_id: "raspberry_pi_pico"
 title: "Pico Download"
 name: "Pico"
 manufacturer: "Raspberry Pi"
-board_url: "https://www.adafruit.com/product/4883"
+board_url:
+ - "https://www.adafruit.com/product/4864"
+ - "https://www.adafruit.com/product/4883"
+ - "https://www.adafruit.com/product/5525"
 board_image: "raspberry_pi_pico.jpg"
 date_added: 2021-1-21
 family: raspberrypi

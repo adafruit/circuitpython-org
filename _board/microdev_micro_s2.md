@@ -4,7 +4,8 @@ board_id: "microdev_micro_s2"
 title: "MicroDev microS2 Download"
 name: "MicroDev microS2"
 manufacturer: "MicroDev"
-board_url: "https://microdev.systems/"
+board_url:
+ - "https://microdev.systems/"
 board_image: "microdev_micro_s2.jpg"
 date_added: 2020-08-26
 family: esp32s2

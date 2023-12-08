@@ -4,7 +4,8 @@ board_id: "deneyap_mini"
 title: "Deneyap Mini Download"
 name: "Deneyap Mini"
 manufacturer: "Turkish Technology Team Foundation"
-board_url: "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-mini"
+board_url:
+ - "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-mini"
 board_image: "deneyapmini.jpg"
 date_added: 2023-03-14
 family: esp32s2

@@ -4,7 +4,8 @@ board_id: "melopero_shake_rp2040"
 title: "Shake RP2040 Download"
 name: "Shake RP2040"
 manufacturer: "Melopero"
-board_url: "https://www.melopero.com/melopero-shake-rp2040"
+board_url:
+ - "https://www.melopero.com/melopero-shake-rp2040"
 board_image: "melopero_shake_rp2040.jpg"
 date_added: 2021-9-22
 family: raspberrypi
@@ -34,7 +35,7 @@ The board features:
 * SWD header for debugging
 * 4 mounting holes
 * Programmable in **C/C++**, **MicroPython**, **CircuitPython** and **Arduino**
- 
+
 
 Dimensions: 2.0" x 0.9" x 0.28" (50.8mm x 22.8mm x 7.05/max height)
 

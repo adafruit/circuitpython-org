@@ -4,7 +4,8 @@ board_id: "odyssey_x86j4105"
 title: "ODYSSEY - X86J4105 Download"
 name: "ODYSSEY - X86J4105"
 manufacturer: "SeeedStudio"
-board_url: "https://www.seeedstudio.com/ODYSSEY-X86J4105800-p-4445.html"
+board_url:
+ - "https://www.seeedstudio.com/ODYSSEY-X86J4105800-p-4445.html"
 board_image: "odyssey_x86j4105.jpg"
 download_instructions: ""
 downloads_display: true

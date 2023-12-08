@@ -4,7 +4,8 @@ board_id: "lilygo_tdeck"
 title: "T-Deck Download"
 name: "T-Deck"
 manufacturer: "LILYGO"
-board_url: "https://www.lilygo.cc/products/t-deck"
+board_url:
+ - "https://www.lilygo.cc/products/t-deck"
 board_image: "lilygo_tdeck.jpg"
 date_added: 2023-11-15
 family: esp32s3

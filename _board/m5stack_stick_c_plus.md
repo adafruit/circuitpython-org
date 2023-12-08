@@ -4,7 +4,10 @@ board_id: "m5stack_stick_c_plus"
 title: "M5StickC PLUS ESP32-PICO Mini IoT Download"
 name: "M5StickC PLUS ESP32-PICO Mini IoT"
 manufacturer: "M5Stack"
-board_url: "https://docs.m5stack.com/en/core/m5stickc_plus"
+board_url:
+ - "https://docs.m5stack.com/en/core/m5stickc_plus"
+ - "https://www.adafruit.com/product/4289"
+ - "https://www.adafruit.com/product/4290"
 board_image: "m5stack_stick_c_plus.jpg"
 date_added: 2023-1-31
 family: esp32
@@ -38,4 +41,5 @@ features:
 
 ## Purchase
 
+* [Adafruit](https://www.adafruit.com/product/4289)
 * [M5Stack](https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit)

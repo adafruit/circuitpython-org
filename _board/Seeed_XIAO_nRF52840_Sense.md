@@ -4,7 +4,8 @@ board_id: "Seeed_XIAO_nRF52840_Sense"
 title: "Seeed Studio XIAO nRF52840 (Sense) Download"
 name: "Seeed Studio XIAO nRF52840 (Sense)"
 manufacturer: "Seeed Studio"
-board_url: "https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html"
+board_url:
+ - "https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html"
 board_image: "Seeed_XIAO_nRF52840_Sense.jpg"
 date_added: 2021-12-29
 family: nrf52840
@@ -33,8 +34,8 @@ Seeed Studio XIAO nRF52840 (Sense) contains a wealthy interface. The first thing
 * 21 x 17.5mm tiny board
 * 5 μA power consumption in deep sleep mode
 * Battery Charging
-* built-in 2 MB flash, microphone and 6-axis IMU 
+* built-in 2 MB flash, microphone and 6-axis IMU
 
 ## Purchase
-* [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html) SENSE version 
-* [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) version without sensor 
+* [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html) SENSE version
+* [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) version without sensor

@@ -4,7 +4,8 @@ board_id: "adafruit_metro_rp2040"
 title: "Metro RP2040 Download"
 name: "Metro RP2040"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5786"
+board_url:
+ - "https://www.adafruit.com/product/5786"
 board_image: "adafruit_metro_rp2040.jpg"
 date_added: 2023-7-28
 family: raspberrypi

@@ -4,7 +4,8 @@ board_id: "oxocard_galaxy"
 title: "Oxocard Galaxy Card Download"
 name: "Oxocard Galaxy Card"
 manufacturer: "Oxocard"
-board_url: "https://oxocard.ch/en/galaxy/"
+board_url:
+ - "https://oxocard.ch/en/galaxy/"
 board_image: "oxocard_galaxy.jpg"
 date_added: 2023-11-15
 family: esp32

@@ -4,7 +4,8 @@ board_id: "adafruit_feather_rp2040_can"
 title: "Feather RP2040 CAN Bus Download"
 name: "Feather RP2040 CAN Bus"
 manufacturer: "Adafruit"
-board_url: "https://www.adafruit.com/product/5724"
+board_url:
+ - "https://www.adafruit.com/product/5724"
 board_image: "adafruit_feather_rp2040_can.jpg"
 date_added: 2023-5-2
 family: raspberrypi

@@ -4,7 +4,8 @@ board_id: "42keebs_frood"
 title: "42. Keebs Frood Download"
 name: "The Frood"
 manufacturer: "42. Keebs"
-board_url: "https://github.com/piit79/frood"
+board_url:
+ - "https://github.com/piit79/frood"
 board_image: "42keebs_frood.jpg"
 date_added: 2022-10-26
 family: raspberrypi
@@ -23,7 +24,7 @@ It follows the SparkFun Pro Micro RP2040 pinout with 5 extra pins (GPIO12-GPIO16
 - Only 3.2 mm thick thanks to a mid-mounted USB-C socket
 - 500 mA linear regulator and resettable fuse
 - Combined Pro Micro / Elite-C / nice!nano / SparkFun Pro Micro RP2040 compatible pinout
-- 5 extra I/O pins (GPIO12-GPIO16) added along the bottom edge 
+- 5 extra I/O pins (GPIO12-GPIO16) added along the bottom edge
 - 23 available digital pins for a maximum of 11x12 = 132 switches (using a standard matrix)
 - 4 pins configurable as analogue inputs
 - USB D+/D- broken out for use with an external USB socket/daughterboard

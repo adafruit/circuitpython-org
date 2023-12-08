@@ -4,7 +4,8 @@ board_id: "rock_pi_4c_plus"
 title: "ROCK Pi 4C+ Download"
 name: "ROCK Pi 4C+"
 manufacturer: "Radxa Limited"
-board_url: "https://wiki.radxa.com/Rock4/4cplus"
+board_url:
+ - "https://wiki.radxa.com/Rock4/4cplus"
 board_image: "rock_pi_4c_plus.jpg"
 download_instructions: ""
 downloads_display: true

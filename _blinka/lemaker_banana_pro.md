@@ -4,7 +4,8 @@ board_id: "lemaker_banana_pro"
 title: "Banana Pro Download"
 name: "Banana Pro"
 manufacturer: "LeMaker"
-board_url: "https://en.wikipedia.org/wiki/Banana_Pi#Banana_Pi_Pro"
+board_url:
+ - "https://en.wikipedia.org/wiki/Banana_Pi#Banana_Pi_Pro"
 board_image: "lemaker_banana_pro.jpg"
 download_instructions: ""
 downloads_display: true

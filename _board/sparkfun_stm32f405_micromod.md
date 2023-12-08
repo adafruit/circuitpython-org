@@ -4,7 +4,8 @@ board_id: "sparkfun_stm32f405_micromod"
 title: "MicroMod STM32 Processor Download"
 name: "MicroMod STM32 Processor"
 manufacturer: "SparkFun"
-board_url: "https://www.sparkfun.com/products/17713"
+board_url:
+ - "https://www.sparkfun.com/products/17713"
 board_image: "sparkfun_stm32f405_micromod.jpg"
 date_added: 2021-8-13
 family: stm

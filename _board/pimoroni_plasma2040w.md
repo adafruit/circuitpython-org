@@ -4,7 +4,8 @@ board_id: "pimoroni_plasma2040w"
 title: "Plasma Stick 2040 W Download"
 name: "Plasma Stick 2040 W (Pico W Aboard)"
 manufacturer: "Pimoroni"
-board_url: "https://shop.pimoroni.com/products/plasma-stick-2040-w"
+board_url:
+ - "https://shop.pimoroni.com/products/plasma-stick-2040-w"
 board_image: "pimoroni_plasma2040w.jpg"
 date_added: 2023-5-9
 family: raspberrypi

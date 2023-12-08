@@ -4,7 +4,8 @@ board_id: "deneyap_kart_1a_v2"
 title: "Deneyap Kart 1A v2 Download"
 name: "Deneyap Kart 1A v2"
 manufacturer: "Turkish Technology Team Foundation"
-board_url: "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-1a-v2"
+board_url:
+ - "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-1a-v2"
 board_image: "deneyapkart1Av2.jpg"
 date_added: 2023-03-14
 family: esp32s3

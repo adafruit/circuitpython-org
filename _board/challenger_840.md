@@ -4,7 +4,8 @@ board_id: "challenger_840"
 title: "Challenger 840 BLE Download"
 name: "Challenger 840 BLE"
 manufacturer: "Invector Labs"
-board_url: "https://ilabs.se/product/challenger-840-ble/"
+board_url:
+ - "https://ilabs.se/product/challenger-840-ble/"
 board_image: "challenger_840.jpg"
 date_added: 2022-4-1
 family: nrf52840

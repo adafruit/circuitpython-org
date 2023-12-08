@@ -4,7 +4,8 @@ board_id: "boardsource_blok"
 title: "Blok Download"
 name: "Blok"
 manufacturer: "Boardsource"
-board_url: "https://boardsource.xyz/store/628b95b494dfa308a6581622"
+board_url:
+ - "https://boardsource.xyz/store/628b95b494dfa308a6581622"
 board_image: "boardsource_blok.jpg"
 date_added: 2021-4-6
 family: raspberrypi

@@ -4,7 +4,8 @@ board_id: "sparkfun_lumidrive"
 title: "LumiDrive Download"
 name: "LumiDrive"
 manufacturer: "SparkFun"
-board_url: ""
+board_url:
+ - "https://www.sparkfun.com/products/14779"
 board_image: "sparkfun_lumidrive_01.jpg"
 date_added: 2019-3-9
 family: atmel-samd

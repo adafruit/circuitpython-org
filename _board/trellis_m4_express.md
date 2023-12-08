@@ -4,7 +4,10 @@ board_id: "trellis_m4_express"
 title: "NeoTrellis M4 Download"
 name: "NeoTrellis M4"
 manufacturer: "Adafruit"
-board_url: ""
+board_url:
+ - "https://www.adafruit.com/product/4020"
+ - "https://www.adafruit.com/product/3938"
+ - "https://www.adafruit.com/product/4018"
 board_image: "trellis_m4_express.jpg"
 date_added: 2019-3-9
 family: atmel-samd

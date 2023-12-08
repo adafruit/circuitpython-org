@@ -4,7 +4,8 @@ board_id: "orange_pi_zero_plus"
 title: "Orange Pi Zero Plus Download"
 name: "Orange Pi Zero Plus"
 manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url: "http://www.orangepi.org/OrangePiZeroPlus/"
+board_url:
+ - "http://www.orangepi.org/OrangePiZeroPlus/"
 board_image: "orange_pi_zero_plus.jpg"
 download_instructions: ""
 downloads_display: true
@@ -40,7 +41,7 @@ Who’s it for?
 Orange Pi Zero Plus is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.
 
 
-- H5 Quad-core Cortex-A53 
+- H5 Quad-core Cortex-A53
 - H5 Mali450 GPU
 - 512MB DDR3 (shared with GPU)
 - TF card (Max. 32GB) / Spi flash(2MB)

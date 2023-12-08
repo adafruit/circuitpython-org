@@ -4,7 +4,8 @@ board_id: "sparkfun_redboard_turbo"
 title: "RedBoard Turbo Download"
 name: "RedBoard Turbo"
 manufacturer: "SparkFun"
-board_url: ""
+board_url:
+ - "https://www.sparkfun.com/products/14812"
 board_image: "sparkfun_redboard_turbo.jpg"
 date_added: 2019-3-9
 family: atmel-samd
