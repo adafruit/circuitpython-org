@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 08 Dec 2023 05:03:29 -0500</lastBuildDate>
+<lastBuildDate>Fri, 08 Dec 2023 14:34:42 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -254,7 +254,7 @@
     <pubDate>Tue, 31 Mar 2020 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/TG-Watch/</guid>
   </item><item>
-    <title>Adafruit ESP32-S3 Camera</title>
+    <title>MEMENTO - Python Programmable DIY Camera</title>
     <link>https://circuitpython.org/board/adafruit_esp32s3_camera/</link>
     <description><![CDATA[   
   
@@ -263,13 +263,40 @@
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/adafruit_esp32s3_camera.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <p>Coming Soon!</p>
+<p>By Adafruit</p> <p>Make memories, or just a cool camera-based project, with <strong>Adafruit’s MEMENTO Camera Board</strong>. It’s a development board with everything you need to create programmable camera and vision projects: with a camera module, TFT preview screen, buttons, SD card slot and driven by a powerful ESP32-S3 with 2 MB of PSRAM for buffering 5 MegaPixel camera images.</p>
 
-<h2 id="learn-more">Learn More</h2>
+<p><strong>This product is just the mainboard, and does not come with an enclosure, LED ring, hardware, SD card, or battery.</strong></p>
+
+<p>The ESP32-S3 is a WiFi and Bluetooth LE capable, 240 MHz dual core Tensilica processor - much like the famous ESP32. The S3 adds native USB support so it’s great for use with Arduino or CircuitPython. The S3 also has the ability to interface with raw camera modules. The cameras require 12 GPIO pins and fast data transfer in order to get images off the sensor, and then a lot of memory for storing 2560 x 1920 images - which is why we picked an S3 module with 2MB of PSRAM so that we can read JPEGs into memory for saving onto an SD card.</p>
+
+<p>To make the board easy to use we added a ton of supporting hardware, here’s a full list of the hardware included:</p>
 
 <ul>
-  <li><a href="https://www.youtube.com/watch?v=vQdIaJH_Trw">YouTube</a></li>
-  <li><a href="https://www.youtube.com/watch?v=3qTod5rLvnw">YouTube</a></li>
+  <li><strong>ESP32-S3 module with 8 MB Flash, 2 MB PSRAM</strong> - dual core 240MHz Tensilica with WiFi and BTLE.</li>
+  <li><a href="https://www.adafruit.com/product/5840"><strong>OV5640 camera module with 72 degree view and auto-focus motor</strong></a> - 5MP camera sensor with JPEG encoder built in.</li>
+  <li><a href="https://www.adafruit.com/product/4421"><strong>1.54” 240x240 Color TFT</strong></a> - For previewing the camera images, or user interface design.</li>
+  <li><strong>MicroSD card slot</strong> - Store images or animations to any SPI-capable micro SD card.</li>
+  <li><strong>Two Digital/Analog Stemma Ports</strong> - JST PH-3 connectors for A0, A1 and power+ground for adding external buttons, LEDs, or sensors. Can provide 3V or 5V power.</li>
+  <li><strong>I2C Stemma QT Port</strong> - Connect just about any I2C sensor you please with a Stemma QT JST SH port, provides 3.3V power and logic.</li>
+  <li><strong>LIS3DH Accelerometer</strong> - Triple-access accelerometer can detect orientation, shaking or movement.</li>
+  <li><strong>LiPoly battery charging support</strong> - <a href="https://www.adafruit.com/product/4237">Use a 3.7/4.2V 350mA</a> or <a href="https://www.adafruit.com/product/4236">420mA battery</a> for on-the-go snaps.</li>
+  <li><strong>6 User Buttons</strong> - change modes, preview saved images, play DOOM (?). Connected through a GPIO expander</li>
+  <li><strong>Buzzer</strong> - play tones or alerts, or indicate when a photo was successfully taken</li>
+  <li><strong>Analog Microphone</strong> - Can be used as a sensor to detect loud sounds, not for recording video with audio.</li>
+  <li><strong>Shutter button</strong> - Connected to GPIO 0 for entering the ROM bootloader</li>
+  <li><strong>Reset button</strong> - For entering the bootloader or starting over</li>
+  <li><strong>On/Off switch</strong> - Cut all power when using a battery</li>
+  <li><strong>USB Type C</strong> for programming the ESP32-S3, as well as REPL access in CircuitPython and charging the optional LiPoly battery</li>
+  <li><strong>Breakout pads for hardware UART</strong> - for more intense debugging needs, solder wires to the through-hole pads to connect to a console cable.</li>
+  <li><strong>Four M3 standoffs</strong> for mounting or enclosure attachment.</li>
+</ul>
+
+<p>We’ve got both Arduino and CircuitPython example code that lets you preview the camera, adjust settings, and take photos that are saved to disk. However, we recommend CircuitPython because the compilation time in Arduino is pretty intense due to the huge amount of code required to run the camera. <a href="https://github.com/adafruit/Adafruit_CircuitPython_PyCamera">CircuitPython is fast to develop for and our library will make it easy to start making custom camera projects</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5420">Adafruit</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -654,6 +681,11 @@ Note the names are in the same spots, we haven’t changed where the I2C/UART/SP
   <li><strong>Works with Arduino or CircuitPython</strong></li>
 </ul>
 
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5691">Adafruit</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Tue, 31 Jan 2023 00:00:00 -0500</pubDate>
@@ -754,7 +786,7 @@ Note the names are in the same spots, we haven’t changed where the I2C/UART/SP
 <p>Comes fully assembled and tested, with a USB interface that lets you quickly use it with the Arduino IDE or the low-level ESP32 IDF. We also toss in some header so you can solder it in and plug into a solderless breadboard. <strong>Lipoly battery and USB cable not included</strong> (but we do have lots of options in the shop if you’d like!)</p>
 
 <p><strong>CircuitPython on ESP32</strong>
-Want to learn how to load circuitpython onto this board? check out <a href="https://learn.adafruit.com/circuitpython-with-esp32-quick-start/">this</a> on the Adafruit learning system 
+Want to learn how to load circuitpython onto this board? check out <a href="https://learn.adafruit.com/circuitpython-with-esp32-quick-start/">this</a> on the Adafruit learning system
 Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getting-started-with-web-workflow-using-the-code-editor">this</a> tutorial shows you how.</p>
 
 <h2 id="purchase">Purchase</h2>
@@ -3019,7 +3051,7 @@ This allows the design of wearable devices and movement sensing projects that ne
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://store.arduino.cc/usa/arduino-zero">Arduino</a></li>
+  <li><a href="https://store-usa.arduino.cc/products/arduino-zero">Arduino</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -3119,8 +3151,8 @@ Introducing the new ATMegaZero ESP32-S2</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/bastble.jpg" alt="Image of Board" loading="lazy">
-<p>By Electronic Cats</p> <p>The Bast BLE is the new Feather family member with Bluetooth Low Energy and native USB-C support featuring the nRF52840!<br />
-It’s our take on an ‘all-in-one’ Arduino-compatible + Bluetooth Low Energy with built in USB plus battery charging. 
+<p>By Electronic Cats</p> <p>The Bast BLE is the new Feather family member with Bluetooth Low Energy and native USB-C support featuring the nRF52840!
+It’s our take on an ‘all-in-one’ Arduino-compatible + Bluetooth Low Energy with built in USB plus battery charging.
 With native USB it’s even ready to join the CircuitPython party.</p>
 
 <h2 id="purchase">Purchase</h2>
@@ -5568,6 +5600,8 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
 <h2 id="purchase">Purchase</h2>
 
 <ul>
+  <li><a href="https://www.adafruit.com/product/5404">Adafruit - Piunora Pro</a></li>
+  <li><a href="https://www.adafruit.com/product/5403">Adafruit - Piunora Lite</a></li>
   <li><a href="https://www.crowdsupply.com/diodes-delight/piunora">Crowd Supply</a></li>
 </ul>
  ]]></description>
@@ -6078,7 +6112,7 @@ for an SD card slot, which makes it a complete and versatile development board.<
   <li><strong>ESP32-C3-MINI-1-N4</strong>: ESP32-C3-MINI-1-N4 from Espressif is a powerful and general-purpose RISC V module that offers Wi-Fi and Bluetooth LE coexistence. It has a PCB antenna and 4 MB SPI flash.</li>
   <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>
   <li><strong>5V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
-  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks">Header Block</a>.</li>
+  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html#user-guide-c3-devkitm-1-v1-header-blocks">Header Block</a>.</li>
   <li><strong>Micro-USB Port</strong>: USB interface. Power supply for the board as well as the communication interface between a computer and the ESP32-C3 chip.</li>
   <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>
   <li><strong>Reset Button:</strong> Press this button to restart the system.</li>
@@ -6182,7 +6216,7 @@ for an SD card slot, which makes it a complete and versatile development board.<
   <li><strong>ESP32-C6-WROOM-1</strong>: ESP32-C6-WROOM-1 is a general-purpose module supporting Wi-Fi 6, Bluetooth 5, and IEEE 802.15.4 (Zigbee 3.0 and Thread). This module is built around the ESP32-C6 chip, and comes with a PCB antenna and 4 MB SPI flash.</li>
   <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>
   <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
-  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html#hardware-reference">Header Block</a>.</li>
+  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/user_guide.html#hardware-reference">Header Block</a>.</li>
   <li><strong>USB-to-UART Port</strong>: Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>
   <li><strong>ESP32-C6 USB Type-C Port</strong>: The USB Type-C port on the ESP32-C6 chip is compliant with USB 2.0 full speed. It is capable of up to 12 Mbps transfer speed (Note that this port does not support the faster 480 Mbps high-speed transfer mode).</li>
   <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>
@@ -6239,7 +6273,7 @@ for an SD card slot, which makes it a complete and versatile development board.<
 
 <ul>
   <li><strong>ESP32-H2-MINI-1</strong>: ESP32-H2-MINI-1, with ESP32-H2 inside which integrates a 2.4 GHz transceiver compliant with Bluetooth ® Low Energy and IEEE 802.15.4-based technologies, supporting Bluetooth 5 (LE), Bluetooth mesh, Thread, Matter, and Zigbee. This module is specially designed for all kinds of low-power IoT applications.</li>
-  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board. For details, please see Espressif’s <a href="https://espressif-docs.readthedocs-hosted.com/projects/espressif-esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html#header-block">Header Block</a>.</li>
+  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board. For details, please see Espressif’s <a href="https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html#header-block">Header Block</a>.</li>
   <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
   <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5 V supply into a 3.3 V output.</li>
   <li><strong>USB-to-UART Bridge</strong>: Single USB-UART bridge chip provides transfer rates up to 3 Mbps.</li>
@@ -6248,7 +6282,7 @@ for an SD card slot, which makes it a complete and versatile development board.<
   <li><strong>Reset Button</strong>: Press this button to restart the system.</li>
   <li><strong>USB Type-C to UART Port</strong>: Power supply for the board as well as the communication interface between a computer and the ESP32-H2 chip via USB-to-UART bridge.</li>
   <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO8.</li>
-  <li><strong>J5</strong>: Used for current measurement. See details in Section <a href="https://espressif-docs.readthedocs-hosted.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide_v1.1.html#user-guide-c6-devkitc-1-v1-current">Current Measurement</a>.</li>
+  <li><strong>J5</strong>: Used for current measurement. See details in Section <a href="https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide_v1.1.html#user-guide-c6-devkitc-1-v1-current">Current Measurement</a>.</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
@@ -7181,7 +7215,7 @@ for an SD card slot, which makes it a complete and versatile development board.<
 
 <p>To make it easy to use for portable projects, Adafruit added a connector for 3.7 V Lithium polymer batteries and built in battery charging. You don’t need a battery, it will run just fine straight from the micro USB connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when its available. The battery is tied thru a divider to an analog pin, so you can measure and monitor the battery voltage to detect when you need a recharge.</p>
 
-<h2 id="-technical-details">## Technical details</h2>
+<h2 id="technical-details">Technical details</h2>
 
 <ul>
   <li>Measures 2.0” x 0.9” x 0.28” (51 mm x 23 mm x 8 mm) without headers soldered in</li>
@@ -8635,7 +8669,41 @@ was distributed for free to teenage makers and coders. It is not for sale.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/hallowing_m4_express.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <p>This is Hallowing, now with SAMD51 M4 processor! More later!</p>
+<p>By Adafruit</p> <p><a href="https://www.youtube.com/watch?v=kGiYxCUAhks&amp;t=39s">This is Hallowing..this is Hallowing… Hallowing! Hallowing! </a>Following up on 2018’s <a href="https://www.adafruit.com/product/3900">most-successful-skull-shaped development board</a>, we UPPED our -skull-shaped development board game, and <a href="https://www.adafruit.com/product/3900">re-spinned (re-spun?) the HalloWing M0</a> into the HalloWing M4 with MORE of everything that makes this the spoooookiest dev board.</p>
+
+<p>Are you the kind of person who doesn’t like taking down the skeletons and spiders until after January? Well, we’ve got the development board for you. This is electronics at its <em>most spooky!</em> The <strong>Adafruit HalloWing M4</strong> is a skull-shaped ATSAM521 board with a ton of extras built in to make for an adorable wearable, badge, development kit, or the engine for your next cosplay or prop.</p>
+
+<p>On the front is a cute <strong>1.54” sized 240x240 full color IPS TFT.</strong> Compared to the HalloWing M0’s 1.44” 128x128, this has 4x as many pixels and is IPS for great color and brightness. <a href="https://learn.adafruit.com/customeyesation-diy-monster-m4sk-graphics">Our default example code has our new fully-customizable spooky eye demo</a> running but you can use it for anything you like to display in glorious color.</p>
+
+<p>There’s also 4 fang-teeth below the display, these are analog/capacitive touch inputs with big alligator-clip holes.</p>
+
+<p>On the reverse is a smorgasbord of electronic goodies:</p>
+
+<ul>
+  <li><strong>ATSAMD51J19</strong> @ 120MHz with 3.3V logic/power - 512KB of FLASH + 192KB of RAM, can run Arduino or CircuitPython super fast</li>
+  <li><strong>8 MB of SPI Flash</strong> for storing images, sounds, animations, whatever!</li>
+  <li><strong>3-axis accelerometer</strong> (motion sensor)</li>
+  <li><strong>Light sensor</strong>, reverse-mount so that it points out the front</li>
+  <li><strong>Mono Class-D speaker driver</strong> for 4-8 ohm speakers, up to 1 Watt, connected to a 12-bit DAC on the SAMD51</li>
+  <li><strong>Four side-light NeoPixel LEDs</strong> for cool underlighting effects</li>
+  <li>LiPoly battery port with built in recharging capability</li>
+  <li>USB port for battery charging, programming and debugging</li>
+  <li>Two female header strips with Feather-compatible pinout so you can plug any FeatherWings in</li>
+  <li>JST ports for Neopixels, sensor input, and I2C (you can fit I2C Grove connectors in here)</li>
+  <li>3.3V regulator with 500mA peak current output</li>
+  <li>Reset button</li>
+  <li>On-Off switch</li>
+</ul>
+
+<p><strong>OK so technically it’s more like a really tricked-out Feather M4 Express than a *Wing* but we simply could not resist the HalloWing pun.</strong></p>
+
+<p>You can use the Hallowing similarly Feather M4 Express, it’s got the same chip although the pins have been rearranged. We’ve got both Arduino and CircuitPython build support for it so you can pick your favorite development language! The extra 8 MB of SPI Flash is great for sound effects projects where you want to play up to 3 minutes of WAV files.</p>
+
+<p>On each side of the Hallowing are JST-PH plugs for connecting external devices. The 3-pin JSTs connect to analog pins on the SAMD51, so you can use them for analog inputs. We label one for NeoPixel and one for Sensors since we think most people will have one of each. The 4-pin JST connector connects to the I2C port and you can fit Grove connectors in it for additional hardware support.</p>
+
+<p><strong>Does not come with a Lipoly battery!</strong> <a href="https://www.adafruit.com/product/2750">We recommend our 350mAh</a> or<a href="https://www.adafruit.com/product/1578"> 500mAh batteries</a> but any 3.7/4.2V Adafruit Lipoly will do the trick.</p>
+
+<p>Comes fully assembled and ready to be your spooky skull friend. We install the UF2 bootloader on it so updating code and converting it to CircuitPython is easy.</p>
 
 <h2 id="tutorial">Tutorial</h2>
 
@@ -8654,7 +8722,7 @@ was distributed for free to teenage makers and coders. It is not for sale.</p>
     <pubDate>Fri, 30 Aug 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/hallowing_m4_express/</guid>
   </item><item>
-    <title>Odroid Go</title>
+    <title>ODROID Go</title>
     <link>https://circuitpython.org/board/hardkernel_odroid_go/</link>
     <description><![CDATA[   
   
@@ -8663,7 +8731,7 @@ was distributed for free to teenage makers and coders. It is not for sale.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/hardkernel_odroid_go.jpg" alt="Image of Board" loading="lazy">
-<p>By HardKernel</p> <p><strong>The original Odroid Go has been discontinued</strong></p>
+<p>By HardKernel</p> <p><strong>The original ODROID Go has been discontinued</strong></p>
 
 <p><strong>To celebrate ODROID’s 10th anniversary,</strong> we present the ODROID-GO Game Kit! It includes a special anniversary board with all the parts to put together your own game kit and see the workings behind such a device. It is not only a fun assembly project but also an educational tool to learn about all the hardware and software that goes into building such a device.</p>
 
@@ -8764,6 +8832,10 @@ Install Arduino and learn some basic coding. We will provide online guides to co
 
 <p>Easy reprogramming: the HiiBot BlueFi comes pre-loaded with the UF2 bootloader, which looks like a USB storage key. Simply drag firmware on to program, no special tools or drivers needed! It can be used to load up CircuitPython or Arduino IDE.</p>
 
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.tindie.com/products/bradchan/hiibot-bluefi/">Tindie</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Tue, 19 May 2020 00:00:00 -0400</pubDate>
@@ -10380,6 +10452,7 @@ version with the CH343 which connects to the USB-C connector.</p>
 <h2 id="purchase">Purchase</h2>
 
 <ul>
+  <li><a href="https://www.adafruit.com/product/4497">Adafruit</a></li>
   <li><a href="https://shop.m5stack.com/collections/m5-controllers/products/atom-matrix-esp32-development-kit">M5Stack</a></li>
 </ul>
  ]]></description>
@@ -10842,6 +10915,7 @@ version with the CH343 which connects to the USB-C connector.</p>
 <h2 id="purchase">Purchase</h2>
 
 <ul>
+  <li><a href="https://www.adafruit.com/product/4289">Adafruit</a></li>
   <li><a href="https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit">M5Stack</a></li>
 </ul>
  ]]></description>
@@ -11627,12 +11701,6 @@ version with the CH343 which connects to the USB-C connector.</p>
   <li>1 MB flash and 256 KB SRAM</li>
   <li><strong>Native Open Source USB stack</strong> - pre-programmed with UF2 bootloader</li>
   <li>Bluetooth Low Energy compatible 2.4 GHz radio (Details available in the <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840">nRF52840</a> product specification)</li>
-</ul>
-
-<h2 id="purchase">Purchase</h2>
-
-<ul>
-  <li><a href="https://www.adafruit.com/">Adafruit</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -13345,6 +13413,7 @@ and <a href="https://hackaday.io/project/165032-pewpew-m4">Hackaday.io</a>.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
+  <li><a href="https://www.adafruit.com/product/5342">Adafruit</a></li>
   <li><a href="https://shop.pimoroni.com/products/interstate-75">Pimoroni</a></li>
 </ul>
  ]]></description>
@@ -13492,7 +13561,7 @@ and <a href="https://hackaday.io/project/165032-pewpew-m4">Hackaday.io</a>.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/pimoroni_pico_dv_base.jpg" alt="Image of Board" loading="lazy">
-<p>By Pimoroni</p> <p>A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico, with 
+<p>By Pimoroni</p> <p>A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico, with
 HDMI connector, SD card slot, line level I2S audio and buttons.</p>
 
 <h2 id="features">Features</h2>
@@ -13529,7 +13598,7 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/pimoroni_pico_dv_base_w.jpg" alt="Image of Board" loading="lazy">
-<p>By Pimoroni</p> <p>A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico or Pico W, with 
+<p>By Pimoroni</p> <p>A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico or Pico W, with
 HDMI connector, SD card slot, line level I2S audio and buttons.</p>
 
 <p><strong>Note</strong> The Pico W version of the Pico dv Demo Base does not bring up the DVI output by default. In order to activate the DVI output you must run CircuitPython user code.</p>
@@ -13818,6 +13887,7 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
+  <li><a href="https://www.adafruit.com/product/5437">Adafruit</a></li>
   <li><a href="https://shop.pimoroni.com/products/servo-2040">Pimoroni</a></li>
 </ul>
  ]]></description>
@@ -14380,6 +14450,12 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
 <ul>
   <li><a href="https://learn.adafruit.com/adafruit-pyruler">PyRuler Overview</a></li>
 </ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4319">Adafruit</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Mon, 15 Jul 2019 00:00:00 -0400</pubDate>
@@ -14492,7 +14568,7 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
 
 <ul>
   <li><a href="https://www.adafruit.com/product/4600">Adafruit</a></li>
-  <li><a href="https://www.adafruit.com/product/4763">Flash Chip</a></li>
+  <li><a href="https://www.adafruit.com/product/4763">Adafruit - Flash Chip</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -15967,15 +16043,15 @@ programmed from the host.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/sparkfun_qwiic_micro.jpg" alt="Image of Board" loading="lazy">
-<p>By SparkFun</p> <p>The <strong>SparkFun Qwiic Micro</strong> is an <em>1 x 1 inch</em> microcontroller made for the <a href="https://sparkfun.com/qwiic">Qwiic Eco-system</a>. 
+<p>By SparkFun</p> <p>The <strong>SparkFun Qwiic Micro</strong> is an <em>1 x 1 inch</em> microcontroller made for the <a href="https://sparkfun.com/qwiic">Qwiic Eco-system</a>.
 It’s SparkFun’s smallest microcontroller to date that’s made for integrating into small projects.
 Onboard is the Atmel ATSAMD21E18 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz.</p>
 
 <ul>
   <li><strong>13 GPIO Pins</strong> - The SparkFun Qwiic Micro <em>still</em> has 13 GPIO pins, 5 of which are analog.</li>
-  <li><strong>UF2 Bootloader</strong> - The SparkFun Qwiic Micro comes with the <a href="https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide/all#uf2-bootloader-and-drivers">UF2 Bootloader</a> 
+  <li><strong>UF2 Bootloader</strong> - The SparkFun Qwiic Micro comes with the <a href="https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide/all#uf2-bootloader-and-drivers">UF2 Bootloader</a>
 which does not require the board to have drivers installed on modern operating systems. It also allows for easy drag and drop programming.</li>
-  <li><strong>SWD Programming Header</strong> - On board is a four pin header for reprogramming the microcontroller for advanced users who want to modify 
+  <li><strong>SWD Programming Header</strong> - On board is a four pin header for reprogramming the microcontroller for advanced users who want to modify
 the chip to their liking.</li>
   <li><strong>Optional Circuitry</strong> - There are pads for an extra flash memory chip in an SOIC 8-Pin Package. Check out SparkFun’s site for the specific chip
 used for the circuity python build that includes this chip!</li>
@@ -15999,15 +16075,15 @@ used for the circuity python build that includes this chip!</li>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/sparkfun_qwiic_micro.jpg" alt="Image of Board" loading="lazy">
-<p>By SparkFun</p> <p>The <strong>SparkFun Qwiic Micro</strong> is an <em>1 x 1 inch</em> microcontroller made for the <a href="https://sparkfun.com/qwiic">Qwiic Eco-system</a>. 
+<p>By SparkFun</p> <p>The <strong>SparkFun Qwiic Micro</strong> is an <em>1 x 1 inch</em> microcontroller made for the <a href="https://sparkfun.com/qwiic">Qwiic Eco-system</a>.
 It’s SparkFun’s smallest microcontroller to date that’s made for integrating into small projects.
 Onboard is the Atmel ATSAMD21E18 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz.</p>
 
 <ul>
   <li><strong>13 GPIO Pins</strong> - The SparkFun Qwiic Micro <em>still</em> has 13 GPIO pins, 5 of which are analog.</li>
-  <li><strong>UF2 Bootloader</strong> - The SparkFun Qwiic Micro comes with the <a href="https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide/all#uf2-bootloader-and-drivers">UF2 Bootloader</a> 
+  <li><strong>UF2 Bootloader</strong> - The SparkFun Qwiic Micro comes with the <a href="https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide/all#uf2-bootloader-and-drivers">UF2 Bootloader</a>
 which does not require the board to have drivers installed on modern operating systems. It also allows for easy drag and drop programming.</li>
-  <li><strong>SWD Programming Header</strong> - On board is a four pin header for reprogramming the microcontroller for advanced users who want to modify 
+  <li><strong>SWD Programming Header</strong> - On board is a four pin header for reprogramming the microcontroller for advanced users who want to modify
 the chip to their liking.</li>
   <li><strong>Optional Circuitry</strong> - There are pads for an extra flash memory chip in an SOIC 8-Pin Package. Check out SparkFun’s site for the specific chip
 used for the circuity python build that includes this chip!</li>
@@ -16499,8 +16575,12 @@ used for the circuity python build that includes this chip!</li>
 <h2 id="learn-more">Learn More</h2>
 <ul>
   <li><a href="https://github.com/WeActTC/MiniF4-STM32F4x1">Github Docs</a></li>
-  <li><a href="https://www.aliexpress.com/item/1005001456186625.html">Aliexpress</a></li>
   <li><a href="https://github.com/stm32duino/Arduino_Core_STM32">stm32duino - Offical Arduino Support</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/4877">Adafruit</a></li>
 </ul>
  ]]></description>
     <category>CircuitPython</category>
@@ -17251,7 +17331,7 @@ chip bodged on by Dave Astels. It is not available for purchase.</p>
 
 <p>And now uChip runs CircuitPython too!</p>
 
-<p>Unlike many Arduino Zero compatible board, uChip also mounts a high efficiency buck converter, which converts the USB voltage down to 3.3V at up to 1A, which is provided on pin 16, for the external circuitry. A software-selected pass-through mode also allows to output 5V instead of 3.3V. 
+<p>Unlike many Arduino Zero compatible board, uChip also mounts a high efficiency buck converter, which converts the USB voltage down to 3.3V at up to 1A, which is provided on pin 16, for the external circuitry. A software-selected pass-through mode also allows to output 5V instead of 3.3V.
 uChip can operate also as an USB host. For this purpose, a built-in boost converter can provide up to 500mA to the external USB device, even when the input voltage is as low as 3.3V. The built-in automatic power-path management prevents external power from being fed into an USB port, when uChip is connected to a PC/Mac, and a voltage is provided also externally on pin 16.</p>
 
 <p>You can program uChip using virtually any IDE, in many languages (CircuitPython too!) and you can choose of using either the USB port or an external SWD programmer.</p>
@@ -17348,7 +17428,58 @@ library which gives you graphic primitives such as tiled grids and sprites.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/unexpectedmaker_bling.jpg" alt="Image of Board" loading="lazy">
-<p>By Unexpected Maker</p> <p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>
+<p>By Unexpected Maker</p> <h3 id="there-are-3-versions-of-bling">There are 3 versions of BLING!</h3>
+
+<p>All versions of BLING come with a wonderful 40x8 RGB LED matrix made up of tiny 1x1mm addressable LEDs. They are all also the same size (99x22m) and come with 2.5mm half cut holes to allow for easy mounting using M2.5 screws.</p>
+
+<p>What makes each version different is what components and features come on the back.</p>
+
+<h3 id="hello-bling">Hello BLING!</h3>
+
+<p>The full version of BLING comes with an ESP32-S3 with 8MB of Flash, 2MB of PSRAM, and a bunch of onboard features and peripherals. Want to build a cool RGB Clock with custom alarm sounds? No problem! Want to build a portable Web Radio device? Yup, you can do that too! Want to play with captured audio? Maybe a nice audio level display? BLING has you covered!</p>
+
+<p>Bling also comes with a user programable power switch to enable or disable the power to the LED matrix (more on that below), plus 4 user programmable buttons and a USB-C connector for power and for charging a battery, if you connect one.</p>
+
+<h3 id="bling-features--specifications">BLING! Features &amp; Specifications</h3>
+
+<ul>
+  <li>ESP32-S3</li>
+  <li>32Bit Dual Core 240MHz</li>
+  <li>RISC-V ultra low power core</li>
+  <li>2.4GHz WiFi - 802.11b/g/n</li>
+  <li>Bluetooth 5, BLE + Mesh</li>
+  <li>8MB QSPI Flash</li>
+  <li>2MB Extra QSPI PSRAM</li>
+  <li>40x8 RGB LED Matrix</li>
+  <li>4 User programmable buttons</li>
+  <li>User programmable Matrix power</li>
+  <li>Battery charging</li>
+  <li>USB-C Connector + ESD Protection</li>
+  <li>Reverse USB back-feed protection</li>
+  <li>700mA 3.3V LDO Regulator</li>
+  <li>I2S MEMS Microphone</li>
+  <li>I2S Audio Amplifier</li>
+  <li>Low Power RTC</li>
+  <li>uSD Card Slot</li>
+  <li>STEMMA/QT Connector</li>
+  <li>JST Battery connector</li>
+  <li>JST Speaker connector</li>
+</ul>
+
+<h3 id="hello-tinybling">Hello TinyBLING!</h3>
+
+<p>TinyBLING doesn’t have an included ESP32-S3 + peripherals on the back, but instead provides headers to plug in an Unexpected Maker Tiny board (TinyPICO, TinyS2, TinyS3 and the new TinyC6) to act as the brains for your project.</p>
+
+<p>You also get a STEMMA/QT connector and a bunch of IO and power broken out on an extra header, for easy expansion. TinyBLING still has a user programable power switch to enable or disable the power to the LED matrix (more on that below), plus 4 user programmable buttons.</p>
+
+<h3 id="finally-hello-solobling">Finally, hello SoloBLING!</h3>
+
+<p>SoloBLING is just the 40x8 RGB LED matrix on its own. It provides the BLING, you provide everything else.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0">Unexpected Maker</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
@@ -17408,10 +17539,9 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 <p>You can find out more about the FeatherS2 at <a href="https://feathers2.io">feathers2.io</a>, including how to <a href="https://feathers2.io/install_uf2.html">install the UF2 Bootloader</a>.</p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own FeatherS2 from:</p>
 <ul>
-  <li><a href="https://unexpectedmaker.com/shop/feathers2-esp32-s2">Unexpected Maker</a></li>
   <li><a href="https://www.adafruit.com/product/4769">Adafruit</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/feathers2-esp32-s2">Unexpected Maker</a></li>
   <li><a href="https://shop.pimoroni.com/products/feathers2-esp32-s2">Pimoroni</a></li>
 </ul>
  ]]></description>
@@ -17460,9 +17590,8 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 <p>You can find out more about the FeatherS2 Neo at <a href="https://unexpectedmaker.com/feathers2-neo-soon">unexpected maker</a>.</p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own FeatherS2 Neo from:</p>
-
 <ul>
+  <li><a href="https://www.adafruit.com/product/5629">Adafruit</a></li>
   <li><a href="https://unexpectedmaker.com/shop/feathers2neo-esp32s2">unexpectedmaker shop</a></li>
 </ul>
  ]]></description>
@@ -17557,10 +17686,12 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 <p>You can find out more about the FeatherS3 at <a href="https://feathers3.io">feathers3.io</a></p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own FeatherS3 from:
-Adafruit - https://www.adafruit.com/product/5399
-Pimoroni - https://shop.pimoroni.com/products/feathers3-esp32-s3
-Unexpected Maker - https://unexpectedmaker.com/shop/feathers3</p>
+<ul>
+  <li><a href="https://www.adafruit.com/product/5399">Adafruit</a></li>
+  <li><a href="https://www.adafruit.com/product/5748">Adafruit with u.FL</a></li>
+  <li><a href="https://shop.pimoroni.com/products/feathers3-esp32-s3">Pimoroni</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/feathers3">Unexpected Maker</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
@@ -17645,10 +17776,12 @@ Unexpected Maker - https://unexpectedmaker.com/shop/nanos3</p>
 <p>You can find out more about the ProS3 at <a href="https://pros3.io">pros3.io</a></p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own ProS3 from:
-Adafruit - https://www.adafruit.com/product/5401
-Pimoroni - https://shop.pimoroni.com/products/pros3-esp32-s3
-Unexpected Maker - https://unexpectedmaker.com/shop/pros3</p>
+<ul>
+  <li><a href="https://www.adafruit.com/product/5401">Adafruit</a></li>
+  <li><a href="https://www.adafruit.com/product/5749">Adafruit with u.FL</a></li>
+  <li><a href="https://shop.pimoroni.com/products/pros3-esp32-s3">Pimoroni</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/pros3">Unexpected Maker</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
@@ -17737,10 +17870,9 @@ It can work on he original V1 board, but some features like VBUS sense won’t b
 You can find out more about how at <a href="https://learn.adafruit.com/circuitpython-with-esp32-quick-start">Circuitpython with ESP32 quick start</a></p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own TinyPICO from:</p>
-
 <ul>
   <li><a href="https://www.adafruit.com/product/5028">Adafruit</a></li>
+  <li><a href="https://www.adafruit.com/product/5750">Adafruit with u.FL</a></li>
   <li><a href="https://shop.pimoroni.com/products/tinypico-v2?variant=3928508953403">Pimoroni</a></li>
   <li><a href="https://unexpectedmaker.com/shop/tinypico-usbc">Unexpected Maker</a></li>
 </ul>
@@ -17825,10 +17957,9 @@ You can find out more about how at <a href="https://learn.adafruit.com/circuitpy
 <p>You can find out more about the TinyS2 at <a href="https://tinys2.io">tinys2.io</a></p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own TinyS2 from:</p>
 <ul>
-  <li><a href="https://unexpectedmaker.com/shop/tinys2-esp32-s2">Unexpected Maker</a></li>
   <li><a href="https://www.adafruit.com/product/5029">Adafruit</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/tinys2-esp32-s2">Unexpected Maker</a></li>
   <li><a href="https://shop.pimoroni.com/products/tinys2">Pimoroni</a></li>
 </ul>
  ]]></description>
@@ -17872,10 +18003,12 @@ You can find out more about how at <a href="https://learn.adafruit.com/circuitpy
 <p>You can find out more about the TinyS3 at <a href="https://tinys3.io">tinys3.io</a></p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own TinyS3 from:
-Adafruit - https://www.adafruit.com/product/5398
-Pimoroni - https://shop.pimoroni.com/products/tinys3-esp32-s3
-Unexpected Maker - https://unexpectedmaker.com/shop/ttinys3-esp32s3</p>
+<ul>
+  <li><a href="https://www.adafruit.com/product/5398">Adafruit</a></li>
+  <li><a href="https://www.adafruit.com/product/5747">Adafruit with u.FL</a></li>
+  <li><a href="https://shop.pimoroni.com/products/tinys3-esp32-s3">Pimoroni</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/ttinys3-esp32s3">Unexpected Maker</a></li>
+</ul>
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Fri, 28 Jan 2022 19:00:00 -0500</pubDate>
@@ -18085,7 +18218,7 @@ Press it and then press the RESET button to enter download mode</li>
   <li>34 GPIO contacts (18 available on breadboard friendly castelated edges, 16 on the bottom of the board through exposed pads)</li>
   <li>2.4G ceramic antenna
     <ul>
-      <li>Supports 2.4GHz Wi-Fi (802.11 b/g/n) and Bluetooth® 5 (LE) 
+      <li>Supports 2.4GHz Wi-Fi (802.11 b/g/n) and Bluetooth® 5 (LE)
 <em>although CircuitPython at the time of writing does not offer proper Bluetooth supports for ESP32-S3 chips, a NRF52840 based board will serve you better in that regard</em></li>
     </ul>
   </li>

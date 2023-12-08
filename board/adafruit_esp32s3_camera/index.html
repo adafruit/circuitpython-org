@@ -8,18 +8,18 @@
 <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
-<title>Adafruit ESP32-S3 Camera Download</title>
-<meta name="description" content="Coming Soon!Learn More  YouTube  YouTube" />
+<title>MEMENTO - Python Programmable DIY Camera Download</title>
+<meta name="description" content="Make memories, or just a cool camera-based project, with Adafruit’s MEMENTO Camera Board. It’s a development board with everything you need to create program..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
 <meta property="og:url" content="https://circuitpython.org/board/adafruit_esp32s3_camera/" />
 
-<meta property="og:title"   content="CircuitPython - Adafruit ESP32-S3 Camera Download" />
+<meta property="og:title"   content="CircuitPython - MEMENTO - Python Programmable DIY Camera Download" />
 
 
 
-<meta property="og:description" content="Coming Soon!Learn More  YouTube  YouTube" />
+<meta property="og:description" content="Make memories, or just a cool camera-based project, with Adafruit’s MEMENTO Camera Board. It’s a development board with everything you need to create programmable camera and vision projects: with a camera module, TFT preview screen, buttons, SD card slot and driven by a powerful ESP32-S3 with 2 M..." />
 
 
 
@@ -133,7 +133,7 @@
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Adafruit ESP32-S3 Camera</h1>
+  <h1>MEMENTO - Python Programmable DIY Camera</h1>
   <h3>by Adafruit</h3>
 
   <div class="download-section">
@@ -142,13 +142,40 @@
         
         <img src="/assets/images/boards/large/adafruit_esp32s3_camera.jpg" alt="Image of Board">
         <p>
-          <p>Coming Soon!</p>
+          <p>Make memories, or just a cool camera-based project, with <strong>Adafruit’s MEMENTO Camera Board</strong>. It’s a development board with everything you need to create programmable camera and vision projects: with a camera module, TFT preview screen, buttons, SD card slot and driven by a powerful ESP32-S3 with 2 MB of PSRAM for buffering 5 MegaPixel camera images.</p>
 
-<h2 id="learn-more">Learn More</h2>
+<p><strong>This product is just the mainboard, and does not come with an enclosure, LED ring, hardware, SD card, or battery.</strong></p>
+
+<p>The ESP32-S3 is a WiFi and Bluetooth LE capable, 240 MHz dual core Tensilica processor - much like the famous ESP32. The S3 adds native USB support so it’s great for use with Arduino or CircuitPython. The S3 also has the ability to interface with raw camera modules. The cameras require 12 GPIO pins and fast data transfer in order to get images off the sensor, and then a lot of memory for storing 2560 x 1920 images - which is why we picked an S3 module with 2MB of PSRAM so that we can read JPEGs into memory for saving onto an SD card.</p>
+
+<p>To make the board easy to use we added a ton of supporting hardware, here’s a full list of the hardware included:</p>
 
 <ul>
-  <li><a href="https://www.youtube.com/watch?v=vQdIaJH_Trw">YouTube</a></li>
-  <li><a href="https://www.youtube.com/watch?v=3qTod5rLvnw">YouTube</a></li>
+  <li><strong>ESP32-S3 module with 8 MB Flash, 2 MB PSRAM</strong> - dual core 240MHz Tensilica with WiFi and BTLE.</li>
+  <li><a href="https://www.adafruit.com/product/5840"><strong>OV5640 camera module with 72 degree view and auto-focus motor</strong></a> - 5MP camera sensor with JPEG encoder built in.</li>
+  <li><a href="https://www.adafruit.com/product/4421"><strong>1.54” 240x240 Color TFT</strong></a> - For previewing the camera images, or user interface design.</li>
+  <li><strong>MicroSD card slot</strong> - Store images or animations to any SPI-capable micro SD card.</li>
+  <li><strong>Two Digital/Analog Stemma Ports</strong> - JST PH-3 connectors for A0, A1 and power+ground for adding external buttons, LEDs, or sensors. Can provide 3V or 5V power.</li>
+  <li><strong>I2C Stemma QT Port</strong> - Connect just about any I2C sensor you please with a Stemma QT JST SH port, provides 3.3V power and logic.</li>
+  <li><strong>LIS3DH Accelerometer</strong> - Triple-access accelerometer can detect orientation, shaking or movement.</li>
+  <li><strong>LiPoly battery charging support</strong> - <a href="https://www.adafruit.com/product/4237">Use a 3.7/4.2V 350mA</a> or <a href="https://www.adafruit.com/product/4236">420mA battery</a> for on-the-go snaps.</li>
+  <li><strong>6 User Buttons</strong> - change modes, preview saved images, play DOOM (?). Connected through a GPIO expander</li>
+  <li><strong>Buzzer</strong> - play tones or alerts, or indicate when a photo was successfully taken</li>
+  <li><strong>Analog Microphone</strong> - Can be used as a sensor to detect loud sounds, not for recording video with audio.</li>
+  <li><strong>Shutter button</strong> - Connected to GPIO 0 for entering the ROM bootloader</li>
+  <li><strong>Reset button</strong> - For entering the bootloader or starting over</li>
+  <li><strong>On/Off switch</strong> - Cut all power when using a battery</li>
+  <li><strong>USB Type C</strong> for programming the ESP32-S3, as well as REPL access in CircuitPython and charging the optional LiPoly battery</li>
+  <li><strong>Breakout pads for hardware UART</strong> - for more intense debugging needs, solder wires to the through-hole pads to connect to a console cable.</li>
+  <li><strong>Four M3 standoffs</strong> for mounting or enclosure attachment.</li>
+</ul>
+
+<p>We’ve got both Arduino and CircuitPython example code that lets you preview the camera, adjust settings, and take photos that are saved to disk. However, we recommend CircuitPython because the compilation time in Arduino is pretty intense due to the huge amount of code required to run the camera. <a href="https://github.com/adafruit/Adafruit_CircuitPython_PyCamera">CircuitPython is fast to develop for and our library will make it easy to start making custom camera projects</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5420">Adafruit</a></li>
 </ul>
 
         </p>
@@ -174,7 +201,7 @@
     <h3>CircuitPython 9.0.0-alpha.5</h3>
     
     <p>
-      This is the latest development release of CircuitPython that will work with the Adafruit ESP32-S3 Camera.
+      This is the latest development release of CircuitPython that will work with the MEMENTO - Python Programmable DIY Camera.
     </p>
     <p>
       <strong>Alpha</strong> development releases are early releases.
