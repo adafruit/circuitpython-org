@@ -3,5 +3,25 @@ layout: null
 permalink: /api/boards.json
 excerpt: CircuitPython supported boards.
 ---
-
-{{ site.board | jsonify }}
+[{% for board in site.board %}
+    {
+        "board_id": "{{ board.board_id }}",
+        "title": {{ board.title | jsonify }},
+        "name": {{ board.name | jsonify }},
+        "board_url": [{% for url in board.board_url %}
+            "{{ url }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+        ],
+        "board_image": "{{ board.board_image }}",
+        "date_added": "{{ board.date_added }}",
+        "family": "{{ board.family }}",
+        "bootloader_id": "{{ board.bootloader_id }}",
+        "tags": [{% for tag in board.tags %}
+            "{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+        ],
+        "features": [{% for feature in board.features %}
+            "{{ feature }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+        ],
+        "url_path": "{{ board.url }}",
+        "description": {{ board.content | strip_newlines | jsonify}}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+]
