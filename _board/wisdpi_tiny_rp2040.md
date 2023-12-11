@@ -15,7 +15,7 @@ features:
   - USB-C
 ---
 
-Introducing our RP2040-based development board, a compact yet powerful alternative to the popular Pico. This board packs all the GPIO capabilities of the RP2040, along with expanded flash memory and an additional WS2812 RGB LED.
+Introducing an RP2040-based development board, a compact yet powerful alternative to the popular Pico. This board packs all the GPIO capabilities of the RP2040, along with expanded flash memory and an additional WS2812 RGB LED.
 
 Size matters, and our development board takes it to the next level. Despite its smaller form factor, it offers the same GPIO capabilities as the RP2040, allowing seamless integration with various devices and sensors for your projects.
 

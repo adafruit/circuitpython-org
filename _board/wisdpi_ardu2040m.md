@@ -18,7 +18,7 @@ features:
 
 Ardu2040M | An Arduino style RP2040 RGB Matrix board
 
-Introducing our new product - the Arduino-like Development Board with RP2040 MCU and WS2812 Matrix.
+Introducing a new product - the Arduino-like Development Board with RP2040 MCU and WS2812 Matrix.
 
 This board is compact and versatile, featuring RP2040 MCU with GPIO expansion, a 5x5 WS2812 matrix for visual projects, Arduino compatibility, and expandability options.
 
