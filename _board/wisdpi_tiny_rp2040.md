@@ -15,17 +15,15 @@ features:
   - USB-C
 ---
 
-Introducing an RP2040-based development board, a compact yet powerful alternative to the popular Pico. This board packs all the GPIO capabilities of the RP2040, along with expanded flash memory and an additional WS2812 RGB LED.
+Introducing an RP2040-based development board, a compact yet powerful alternative to the popular Pico. This board packs all the GPIO capabilities of the RP2040 along with expanded flash memory.
 
-Size matters, and our development board takes it to the next level. Despite its smaller form factor, it offers the same GPIO capabilities as the RP2040, allowing seamless integration with various devices and sensors for your projects.
+Size matters, and this development board takes it to the next level. Despite its smaller form factor, it offers the same GPIO capabilities as the RP2040, allowing seamless integration with various devices and sensors for your projects.
 
-We understand the importance of storage space, so we've increased the flash memory on this board. With more space for your code and data, you can tackle ambitious projects without worrying about limitations.
+Understanding the importance of storage space, the flash memory on this board has been increased. With more space for your code and data, you can tackle ambitious projects without worrying about limitations.
 
-But that's not all. We've also added a vibrant WS2812 RGB LED to the board. Create stunning visual effects and dynamic lighting displays to enhance your projects.
+But that's not all. A vibrant WS2812 RGB LED has been added to the board. Create stunning visual effects and dynamic lighting displays to enhance your projects.
 
 This development board is designed with convenience in mind. It features a user-friendly interface and is compatible with popular development environments, making it suitable for both beginners and experienced developers.
-
-Unleash the full potential of your projects with our RP2040-based development board. It offers the GPIO capabilities of the RP2040 in a compact size, expanded flash memory, and an additional WS2812 RGB LED. Get ready to bring your ideas to life in the world of embedded systems and IoT applications.
 
 ## Purchase
 * [WisdPi](https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash)
