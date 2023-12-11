@@ -7,6 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4180"
  - "https://www.adafruit.com/product/4241"
+ - "https://www.adafruit.com/product/4263"
 board_image: "circuitplayground_express_4h.jpg"
 date_added: 2019-4-13
 family: atmel-samd

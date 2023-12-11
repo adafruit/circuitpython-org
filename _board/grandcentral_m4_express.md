@@ -6,6 +6,7 @@ name: "Grand Central M4 Express"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4064"
+ - "https://www.adafruit.com/product/4084"
 board_image: "grandcentral_m4_express.jpg"
 date_added: 2019-3-9
 family: atmel-samd

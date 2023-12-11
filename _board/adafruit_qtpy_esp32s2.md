@@ -6,6 +6,7 @@ name: "Adafruit QT Py ESP32-S2 (including uFL version)"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5325"
+ - "https://www.adafruit.com/product/5348"
 board_image: "adafruit_qtpy_esp32s2.jpg"
 date_added: 2021-11-30
 family: esp32s2
