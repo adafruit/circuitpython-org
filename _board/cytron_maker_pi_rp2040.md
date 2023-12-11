@@ -6,6 +6,7 @@ name: "Maker Pi RP2040"
 manufacturer: "Cytron Technologies"
 board_url:
  - "https://www.cytron.io/p-maker-pi-rp2040"
+ - "https://www.adafruit.com/product/5129"
 board_image: "cytron_maker_pi_rp2040.jpg"
 date_added: 2021-5-31
 family: raspberrypi
@@ -53,4 +54,5 @@ CircuitPython is preloaded on the Maker Pi RP2040 and it runs a simple demo prog
 
 ## Purchase
 
+* [Adafruit](https://www.adafruit.com/product/5129)
 * [Cytron](https://www.cytron.io/p-maker-pi-rp2040)
