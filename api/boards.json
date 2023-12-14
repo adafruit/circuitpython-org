@@ -1800,6 +1800,27 @@
         "description": "<ul>  <li>    <p>BrainBoardz is a revolutionary modular Mini PCI Express (mPCIe) based system that greatly simplifies the design of circuit boards and custom microcontroller projects. Through the use of our inexpensive ESP32-S3 based Neuron modules and our ever expanding range of BrainBoardz prototyping boards anyone can easily develop custom projects to harness the impressive capabilities of the latest generation Espressif ESP32-S3 microcontroller. Simply plug in a Neuron module to a BrainBoardz mPCIe connector and you are ready to go. Neurons not only provide complete access to the extensive range of capabilities provided by the cutting edge ESP32-S3, they can also function as standalone modules if required. You are welcome to design/manufacture your own BrainBoardz compatible boards and Neuron compatible module(s). The entire BrainBoardz system is open source and 100% license free.</p>  </li>  <li>    <p>The components we have included on the Neuron are those that are most likely to be needed in core operations for the vast majority of prototypes and production. These include an ultra-low noise TI 5V to 3.3V LDO, a Mini-USB connector, a status LED and a MicroSD card reader. This razor focused approach ensures that we can provide the most affordable and flexible solution for ESP32-S3 microcontroller based projects!</p>  </li>  <li>    <p>Neurons and BrainBoardz are provided with a complete set of mounting hardware. It only takes a few seconds to add/remove a Neuron module to/from a BrainBoardz. There are no fragile pins to contend with in the BrainBoardz system. If you have access to an 3D printer you can also print as many spare mPCIe mounting parts as you need using the STL/FreeCAD model files provided in our GitHub repository. This revolutionary mPCIe connector based approach supports ultra-low profile projects and guarantees microcontroller module re-usability.  We even provide an mPCIe stencil to make designing your own low profile boards easy. We fully support CircuitPython, Arduino, MicroPython and PlatformIO. Are you ready for a prototyping revolution?</p>  </li></ul><p><strong>Features:</strong></p><ul>  <li>ESP32-S3-WROOM-1-N8R8 Module</li>  <li>32-bit 240 MHz Dual-Core LX-7 Processor</li>  <li>512 KB SRAM</li>  <li>8 MB Flash</li>  <li>8 MB OCTAL PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>On-Board PCB Antenna</li>  <li>Bluetooth LE: Bluetooth 5, Bluetooth Mesh</li>  <li>Native ESP32-S3 USB Port</li>  <li>Reset Button</li>  <li>Boot Button</li>  <li>Support for 14 Touch Sensors</li>  <li>Blink LED</li>  <li>MicroSD Card Reader</li>  <li>Micro-USB Connector</li>  <li>Low Noise TI 5V to 3.3V LDO</li>  <li>2.54mm 4 Pin Header4 (Neuron-Z) Boards</li>  <li>Access to All of the ESP32-S3’s GPIO Pins</li>  <li>Compatible with all BrainBoardz boards</li></ul><h2 id=\"more-info\">More Info:</h2><ul>  <li><a href=\"https://github.com/BrainBoardz/BrainBoardz/\">GitHub</a></li></ul><h2 id=\"purchase\">Purchase:</h2><ul>  <li><a href=\"https://www.brainboardz.com/\">BrainBoardz</a></li></ul>"
     },
     {
+        "board_id": "breadstick_raspberry",
+        "title": "Raspberry Breadstick Download",
+        "name": "Raspberry Breadstick",
+        "board_url": [
+            "https://github.com/Breadstick-Innovations/Raspberry-Breadstick",
+            "https://www.crowdsupply.com/breadstick-innovations/raspberry-breadstick"
+        ],
+        "board_image": "breadstick_raspberry.jpg",
+        "date_added": "2023-12-14",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/breadstick_raspberry/",
+        "description": "<p>Raspberry Breadstick is a long, lean, delicious development board with a unique form factor that simplifies your journey into the world of electronics. Whether your goal is to build a robot or an interactive art piece, you’ll begin by prototyping with a microcontroller development-board and a breadboard. Doing this with traditional dev-boards quickly leads to a tangled mess of jumper wires. The Raspberry Breadstick spreads its I/O pins out along the length of the breadboard, eliminating the need for long jumper wires, and delivers a clean prototyping experience that is easier to understand and troubleshoot.</p><p>The Raspberry Breadstick eliminates the need for lengthy jumper wires through a classroom-friendly design, while still catering to experienced hobbyists and engineers.</p><h3 id=\"code-with-ease-in-python\">Code with Ease in Python</h3><p>The Raspberry Breadstick fully supports CircuitPython and MicroPython, offering a hassle-free coding experience. Embrace Python’s beginner-friendly syntax, a skill relevant across diverse industries. Why struggle with complex coding languages when you can save time and accelerate your projects with Python? Raspberry Breadstick’s also compatible with Arduino programming language for those that prefer that flavour.</p><h3 id=\"explore-exciting-features\">Explore Exciting Features</h3><p>The Raspberry Breadstick is loaded with exciting components to help ensure your exploration is both educational and enjoyable. Control 24 vibrant RGB LEDs effortlessly using the <a href=\"https://github.com/adafruit/Adafruit_DotStar\">Adafruit DotStar library</a> or <a href=\"https://github.com/FastLED/FastLED\">FastLED library</a>. Gather rotation &amp; accelerometer data from the 6-axis IMU, opening the door to captivating LED POV displays that react to your every move as you wave your breadstick through the air!</p><h3 id=\"maximize-pin-utility\">Maximize Pin Utility</h3><p>Designed for your convenience, the Raspberry Breadstick’s strategic pin spacing ensures efficient use of every available pin, keeping your component layout clean and organized. Unlike traditional development boards that need long jumper wires to connect every component, our design maintains a clean and organized workspace.</p><h3 id=\"features--specifications\">Features &amp; Specifications</h3><ul>  <li>Powerful RP2040 Microcontroller    <ul>      <li>Dual ARM Cortex-M0+ @ 133 MHz Clock</li>      <li>No EEPROM</li>      <li>264 kB on-chip SRAM</li>      <li>16 MB Flash (External IC)</li>    </ul>  </li>  <li>I/O support    <ul>      <li>Native USB support</li>      <li>Read-Only Boot ROM initializes device as USB drive, eliminating need for external programming hardware</li>      <li>4 x 12-bit ADCs</li>      <li>18 x GPIO Pins rated for 3.3 V</li>      <li>Hardware Serial, I2C, and SPI support</li>      <li>One-Wire support via CircuitPython’s adafruit_onewire library</li>      <li>MIDI support via CircuitPython’s usb_midi library</li>    </ul>  </li>  <li>6-Axis IMU    <ul>      <li>LSM6DSMTR</li>      <li>Accelerometer: X, Y, Z</li>      <li>Gyroscope: Roll, Pitch, Yaw</li>    </ul>  </li>  <li>Onboard RGB LEDs    <ul>      <li>24 SK9822 addressable LEDs</li>      <li>DotStar Compatible with Separate Data &amp; Clock Pins</li>      <li>Powered by 5 V rail</li>    </ul>  </li>  <li>USB-C with Power Delivery    <ul>      <li>Can request up to 3 A at 5 V from USB-PD devices e.g. computers, wall-adapters, portable power banks</li>      <li>There is a 3A PTC fuse on board for overcurrent protection</li>      <li>The voltage is regulated down to 3.3 V (600 mA) for the microcontroller and user devices</li>    </ul>  </li>  <li>Compact Layout    <ul>      <li>Measures 0.4” x 6.45” x 0.2” (10 mm x 164 mm x 5 mm) without headers</li>      <li>Lean format leaves 4 breadboard holes clearance on either side of the breadstick</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.crowdsupply.com/breadstick-innovations/raspberry-breadstick\">Crowd Supply</a></li></ul>"
+    },
+    {
         "board_id": "bwshockley_figpi",
         "title": "FigPi Download",
         "name": "FigPi",
@@ -2443,6 +2464,26 @@
         ],
         "url_path": "/board/cytron_maker_pi_rp2040/",
         "description": "<p>Cytron Maker Pi RP2040 features the RP2040 chip, embedded on a robot controller board. The board also comes with 2-channel DC motor driver, 4 servo motor ports and 7 Grove I/O connectors, ready for your next DIY robot/motion control projects.</p><p>The DC motor driver onboard is able to control two brushed DC motors or single bipolar/unipolar stepper motor from 3.6 V to 6 V, providing up to 1 A current per channel continuously. The built-in Quick Test buttons and motor output LEDs allow functional test of the motor driver in a quick and convenient way without the need of writing any test code. Vmotor for both DC and servo motors depends on the input voltage supplied to the board.</p><p>Maker Pi RP2040 has lots of LEDs for troubleshooting and visual effects, is able to make quite some noise with the onboard piezo buzzer and comes with push buttons ready to detect your touch.</p><p>There are three ways to supply power to the Maker Pi RP2040 - via USB (5 V) socket, with a single cell LiPo/Li-Ion battery or through the VIN (3.6-6 V) terminals. However only one power source is needed to power up both controller board and motors at a time. Power supply from all these power sources can all be controlled with the power on/off switch onboard.</p><p>CircuitPython is preloaded on the Maker Pi RP2040 and it runs a simple demo program right out-of-the-box. It can also be programmed with C/C++ (natively or with Arduino IDE support) or MicroPython.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Dual-core Arm Cortex-M0+ processor</li>  <li>264 KB internal RAM</li>  <li>2 MB of Flash memory</li>  <li>Robot controller board    <ul>      <li>4x Servo motors (<code class=\"language-plaintext highlighter-rouge\">GPIO12</code>. <code class=\"language-plaintext highlighter-rouge\">GPIO13</code>, <code class=\"language-plaintext highlighter-rouge\">GPIO14</code>, <code class=\"language-plaintext highlighter-rouge\">GPIO15</code>)</li>      <li>2x DC motors with quick test buttons (Dual-channel H-bridge)</li>    </ul>  </li>  <li>Versatile power circuit    <ul>      <li>7 Automatic power selection: USB 5 V, LiPo (1-cell) or Vin (3.6-6 V)</li>      <li>Built-in 1-cell LiPo/Li-Ion charger (over-charged &amp; over-discharged protection)</li>      <li>Power on/off switch</li>    </ul>  </li>  <li>13x Status indicator LEDs for GPIO pins</li>  <li>1x Piezo buzzer with mute switch</li>  <li>2x Push button</li>  <li>22x RGB LED (Neopixel)</li>  <li>7x Grove ports (flexible I/O options: digital, analog, I2C, SPI, UART)</li>  <li>Mouting holes    <ul>      <li>4x 4.8 mm mounting hole (LEGO® pin compatible)</li>      <li>6x M3 screw hole</li>    </ul>  </li></ul><h2 id=\"resources\">Resources</h2><ul>  <li><a href=\"https://github.com/CytronTechnologies/MAKER-PI-RP2040\">Getting Started with Maker Pi RP2040 &amp; Example Code</a></li>  <li><a href=\"https://docs.google.com/document/d/1DJASwxgbattM37V4AIlJVR4pxukq0up25LppA8-z_AY/edit\">Maker Pi RP2040 Datasheet</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5129\">Adafruit</a></li>  <li><a href=\"https://www.cytron.io/p-maker-pi-rp2040\">Cytron</a></li></ul>"
+    },
+    {
+        "board_id": "cytron_maker_uno_rp2040",
+        "title": "Maker Uno RP2040 Download",
+        "name": "Maker Uno RP2040",
+        "board_url": [
+            "https://www.cytron.io/c-maker-series/p-maker-uno-simplifying-arduino-for-education"
+        ],
+        "board_image": "cytron_maker_uno_rp2040.jpg",
+        "date_added": "2023-12-14",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Arduino Shield Compatible",
+            "Speaker"
+        ],
+        "url_path": "/board/cytron_maker_uno_rp2040/",
+        "description": "<p>Students/Makers can skip the hassle of constructing the basic electronic circuit which is boring and time-consuming. Although it is equally important to learn about basic electronics, it can always come later after they have experienced how easy it is to create an awesome project. Start with fun and excitement. Start coding right away and see your board lights up and plays the melody with the press of a button.</p><p>For experienced makers, this is also useful to quickly test your code without having to connect any other devices.</p><p>With the conventional Arduino boards, makers also face another common problem - difficulty in troubleshooting their circuit. This is because when it doesn’t work, they do not know whether the problem is due to wire connection or coding.</p><p>With Maker UNO, the problem is solved! Not only do the onboard LEDs work as outputs, they can also act as indicators, clearly showing what’s happening on that pin. When the pin is used as input, you can clearly see whether the signal is received by just looking at changes on the LEDs.</p><p>One of the brilliant features of the official Arduino Uno is the label printed on its pin headers. It saves a lot of time when connecting the I/O pins to the external circuit. So, a set of these label stickers for pin headers is included in each of the Maker UNO! (Please note that you need to peel off the stickers and stick them on your Maker UNO by yourself)</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.cytron.io/c-maker-series/p-maker-uno-simplifying-arduino-for-education\">Cytron</a></li></ul>"
     },
     {
         "board_id": "datalore_ip_m4",
@@ -6642,6 +6683,25 @@
         "description": "<p>Nordic Semiconductor nRF52833 DK is a single-board development kit for the development of Bluetooth Low Energy, Bluetooth mesh, NFC, Thread, and Zigbee applications on nRF52833 SoC.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Arm® Cortex-M4 with FPU</li>  <li>Bluetooth 5.2 multiprotocol radio (2 Mbps, Long range, Advertising extensions, Channel Selection Algorithm #2, Bluetooth mesh, Direction Finding)</li>  <li>IEEE 802.15.4 radio support (Thread, Zigbee)</li>  <li>Arduino Rev3 compatible connector for use with third-party shields</li>  <li>All I/Os and interfaces available via connectors</li>  <li>Segger J-Link OB programming/debugging supported</li>  <li>Support for programming/debugging of external boards</li>  <li>USB interface direct to nRF52833 SoC</li>  <li>USB interface to power and program/debug</li>  <li>Connector for external NFC antenna (included)</li>  <li>SWF connector for direct RF measurements</li>  <li>Pins for power consumption measurements</li>  <li>4x user-programmable buttons</li>  <li>4x user-programmable LEDs</li>  <li>CR2032 coin-cell battery holder</li>  <li>1.7 V to 5.5 V supplied from battery, USB or external VDD</li>  <li>Integrated 2.4 GHz PCB antenna</li>  <li>50 Ω antenna connector type</li></ul><h2 id=\"misc\">Misc</h2><ul>  <li><a href=\"https://www.mouser.ch/datasheet/2/297/nRF52833_DK_PB_1.0-1815248.pdf\">Datasheet</a></li>  <li><a href=\"https://www.mouser.ch/pdfDocs/Nordic_nRF52833-DK_UG.pdf\">User guide</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.nordicsemi.com/About-us/BuyOnline?search_token=nRF52833-DK&amp;series_token=nRF52833\">Price Comparison</a></li></ul>"
     },
     {
+        "board_id": "pctel_wsc_1450",
+        "title": "Wireless Sensor Core WSC-1450 Download",
+        "name": "Wireless Sensor Core WSC-1450",
+        "board_url": [
+            "https://www.pctel.com/products/industrial-iot/wireless-sensor-solutions/wireless-sensor-core/"
+        ],
+        "board_image": "pctel_wsc_1450.jpg",
+        "date_added": "2023-12-14",
+        "family": "nrf52840",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE"
+        ],
+        "url_path": "/board/pctel_wsc_1450/",
+        "description": "<p>The PCTEL Wireless Sensor Core (WSC) is a versatile Industrial IoT product line that offers multiple radio connectivity options including cellular, LoRa, Bluetooth® 5, NFC as well as 802.15.4 support.</p><p>In addition to several radios, the PCTEL WSC includes several sensors to monitor a variety of physical conditions. These sensors can detect gas, air quality, temperature, relative humidity, acceleration, angular rate of change, magnetic field, range, and sound. For solution optimization, the PCTEL WSC can be ordered with a subset of radios and sensors.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.pctel.com/products/industrial-iot/wireless-sensor-solutions/wireless-sensor-core/\">PCTEL</a></li></ul>"
+    },
+    {
         "board_id": "pewpew10",
         "title": "PewPew Download",
         "name": "PewPew",
@@ -9804,6 +9864,47 @@
         ],
         "url_path": "/board/winterbloom_sol/",
         "description": "<p>Winterbloom Sol is a modular synthesizer (Eurorack) module. It is a multi-purpose, scriptable USB MIDI to CV/gate converter. Its code can be modified while in use to change how it processes MIDI data into CV and gate outputs.</p><h2 id=\"purchase\">Purchase</h2><p>Sol is available for purchase on <a href=\"https://winterbloom.com\">Winterbloom.com</a> and several modular synthesizer distributors.</p>"
+    },
+    {
+        "board_id": "wisdpi_ardu2040m",
+        "title": "WisdPi Ardu2040M Download",
+        "name": "WisdPi Ardu2040M",
+        "board_url": [
+            "https://www.wisdpi.com/products/ardu2040m-rp2040-arduino-style-dev-board"
+        ],
+        "board_image": "wisdpi_ardu2040m.jpg",
+        "date_added": "2023-12-11",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Arduino Shield Compatible",
+            "USB-C"
+        ],
+        "url_path": "/board/wisdpi_ardu2040m/",
+        "description": "<table>  <tbody>    <tr>      <td>Ardu2040M</td>      <td>An Arduino style RP2040 RGB Matrix board</td>    </tr>  </tbody></table><p>Introducing a new product - the Arduino-like Development Board with RP2040 MCU and WS2812 Matrix.</p><p>This board is compact and versatile, featuring RP2040 MCU with GPIO expansion, a 5x5 WS2812 matrix for visual projects, Arduino compatibility, and expandability options.</p><p>It’s lightweight and portable, making it suitable for use in labs, workshops, or on-the-go.</p><p>The board is open-source, and its design files, schematics, and code examples will be available to the community.</p><p>This board is perfect for hobbyists, students, and professional developers looking to create interactive projects, IoT devices, wearables, and more.</p><h3 id=\"features\">Features:</h3><ul>  <li>Arduino Shield compatible</li>  <li>BOOTSEL and RESET key</li>  <li>5x5 RGB Matrix</li>  <li>Wide voltage input</li>  <li>DC power jack</li>  <li>Exposes all rp2040 GPIOs</li>  <li>3-pin SWD header</li>  <li>On board 2MByte Flash</li></ul><h3 id=\"specifications\">Specifications:</h3><ul>  <li>DC jack input voltage: 7~15V</li>  <li>Dimensions: 68.6x53.3x11.6 mm</li>  <li>Weight: 18 g</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.wisdpi.com/products/ardu2040m-rp2040-arduino-style-dev-board\">WisdPi</a></li>  <li><a href=\"https://amzn.to/3uLWscH\">Amazon</a></li></ul>"
+    },
+    {
+        "board_id": "wisdpi_tiny_rp2040",
+        "title": "WisdPi Tiny RP2040 Download",
+        "name": "WisdPi Tiny RP2040",
+        "board_url": [
+            "https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash"
+        ],
+        "board_image": "wisdpi_tiny_rp2040.jpg",
+        "date_added": "2023-12-11",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "USB-C"
+        ],
+        "url_path": "/board/wisdpi_tiny_rp2040/",
+        "description": "<p>Introducing an RP2040-based development board, a compact yet powerful alternative to the popular Pico. This board packs all the GPIO capabilities of the RP2040 along with expanded flash memory.</p><p>Size matters, and this development board takes it to the next level. Despite its smaller form factor, it offers the same GPIO capabilities as the RP2040, allowing seamless integration with various devices and sensors for your projects.</p><p>Understanding the importance of storage space, the flash memory on this board has been increased. With more space for your code and data, you can tackle ambitious projects without worrying about limitations.</p><p>But that’s not all. A vibrant WS2812 RGB LED has been added to the board. Create stunning visual effects and dynamic lighting displays to enhance your projects.</p><p>This development board is designed with convenience in mind. It features a user-friendly interface and is compatible with popular development environments, making it suitable for both beginners and experienced developers.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash\">WisdPi</a></li></ul>"
     },
     {
         "board_id": "wiznet_w5100s_evb_pico",

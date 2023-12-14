@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Maker Uno RP2040 Download</title>
+<meta name="description" content="Students/Makers can skip the hassle of constructing the basic electronic circuit which is boring and time-consuming. Although it is equally important to lear..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/cytron_maker_uno_rp2040/" />
+
+<meta property="og:title"   content="CircuitPython - Maker Uno RP2040 Download" />
+
+
+
+<meta property="og:description" content="Students/Makers can skip the hassle of constructing the basic electronic circuit which is boring and time-consuming. Although it is equally important to learn about basic electronics, it can always come later after they have experienced how easy it is to create an awesome project. Start with fun ..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/cytron_maker_uno_rp2040.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/cytron_maker_uno_rp2040/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://docs.circuitpython.org/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Maker Uno RP2040</h1>
+  <h3>by Cytron Technologies</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        <img src="/assets/images/boards/large/cytron_maker_uno_rp2040.jpg" alt="Image of Board">
+        <p>
+          <p>Students/Makers can skip the hassle of constructing the basic electronic circuit which is boring and time-consuming. Although it is equally important to learn about basic electronics, it can always come later after they have experienced how easy it is to create an awesome project. Start with fun and excitement. Start coding right away and see your board lights up and plays the melody with the press of a button.</p>
+
+<p>For experienced makers, this is also useful to quickly test your code without having to connect any other devices.</p>
+
+<p>With the conventional Arduino boards, makers also face another common problem - difficulty in troubleshooting their circuit. This is because when it doesn’t work, they do not know whether the problem is due to wire connection or coding.</p>
+
+<p>With Maker UNO, the problem is solved! Not only do the onboard LEDs work as outputs, they can also act as indicators, clearly showing what’s happening on that pin. When the pin is used as input, you can clearly see whether the signal is received by just looking at changes on the LEDs.</p>
+
+<p>One of the brilliant features of the official Arduino Uno is the label printed on its pin headers. It saves a lot of time when connecting the I/O pins to the external circuit. So, a set of these label stickers for pin headers is included in each of the Maker UNO! (Please note that you need to peel off the stickers and stick them on your Maker UNO by yourself)</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.cytron.io/c-maker-series/p-maker-uno-simplifying-arduino-for-education">Cytron</a></li>
+</ul>
+
+        </p>
+        <h2>Contribute</h2>
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/cytron_maker_uno_rp2040.md">here</a>.</p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+  <div class="section unstable">
+    <h3>CircuitPython 9.0.0-alpha.6</h3>
+    
+    <p>
+      This is the latest development release of CircuitPython that will work with the Maker Uno RP2040.
+    </p>
+    <p>
+      <strong>Alpha</strong> development releases are early releases.
+      They are unfinished, are likely to have bugs, and the features they provide may change.
+      <strong>Beta</strong> releases may have some bugs and unfinished features,
+      but should be suitable for many uses.
+      A <strong>Release Candidate (rc)</strong> release is considered done and
+      will become the next stable release, assuming no further issues are found.
+    </p>
+    <p>
+      Please try alpha, beta, and rc releases if you are able.
+      Your testing is invaluable: it helps us uncover and find issues quickly.
+    </p>
+    
+    
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.0.0-alpha.6">Release Notes for 9.0.0-alpha.6</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/zh_Latn_pinyin/adafruit-circuitpython-cytron_maker_uno_rp2040-zh_Latn_pinyin-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/zh_Latn_pinyin/adafruit-circuitpython-cytron_maker_uno_rp2040-zh_Latn_pinyin-9.0.0-alpha.6.uf2"
+                    data-locale="zh-Latn-pinyin"
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/nl/adafruit-circuitpython-cytron_maker_uno_rp2040-nl-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/nl/adafruit-circuitpython-cytron_maker_uno_rp2040-nl-9.0.0-alpha.6.uf2"
+                    data-locale="nl"
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/en_GB/adafruit-circuitpython-cytron_maker_uno_rp2040-en_GB-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/en_GB/adafruit-circuitpython-cytron_maker_uno_rp2040-en_GB-9.0.0-alpha.6.uf2"
+                    data-locale="en-GB"
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/en_US/adafruit-circuitpython-cytron_maker_uno_rp2040-en_US-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/en_US/adafruit-circuitpython-cytron_maker_uno_rp2040-en_US-9.0.0-alpha.6.uf2"
+                    data-locale="en-US"
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/fil/adafruit-circuitpython-cytron_maker_uno_rp2040-fil-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/fil/adafruit-circuitpython-cytron_maker_uno_rp2040-fil-9.0.0-alpha.6.uf2"
+                    data-locale="fil"
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/fr/adafruit-circuitpython-cytron_maker_uno_rp2040-fr-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/fr/adafruit-circuitpython-cytron_maker_uno_rp2040-fr-9.0.0-alpha.6.uf2"
+                    data-locale="fr"
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/de_DE/adafruit-circuitpython-cytron_maker_uno_rp2040-de_DE-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/de_DE/adafruit-circuitpython-cytron_maker_uno_rp2040-de_DE-9.0.0-alpha.6.uf2"
+                    data-locale="de-DE"
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/ID/adafruit-circuitpython-cytron_maker_uno_rp2040-ID-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/ID/adafruit-circuitpython-cytron_maker_uno_rp2040-ID-9.0.0-alpha.6.uf2"
+                    data-locale="ID"
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/it_IT/adafruit-circuitpython-cytron_maker_uno_rp2040-it_IT-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/it_IT/adafruit-circuitpython-cytron_maker_uno_rp2040-it_IT-9.0.0-alpha.6.uf2"
+                    data-locale="it-IT"
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/ja/adafruit-circuitpython-cytron_maker_uno_rp2040-ja-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/ja/adafruit-circuitpython-cytron_maker_uno_rp2040-ja-9.0.0-alpha.6.uf2"
+                    data-locale="ja"
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/en_x_pirate/adafruit-circuitpython-cytron_maker_uno_rp2040-en_x_pirate-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/en_x_pirate/adafruit-circuitpython-cytron_maker_uno_rp2040-en_x_pirate-9.0.0-alpha.6.uf2"
+                    data-locale="en-x-pirate"
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/pl/adafruit-circuitpython-cytron_maker_uno_rp2040-pl-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/pl/adafruit-circuitpython-cytron_maker_uno_rp2040-pl-9.0.0-alpha.6.uf2"
+                    data-locale="pl"
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/pt_BR/adafruit-circuitpython-cytron_maker_uno_rp2040-pt_BR-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/pt_BR/adafruit-circuitpython-cytron_maker_uno_rp2040-pt_BR-9.0.0-alpha.6.uf2"
+                    data-locale="pt-BR"
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/ru/adafruit-circuitpython-cytron_maker_uno_rp2040-ru-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/ru/adafruit-circuitpython-cytron_maker_uno_rp2040-ru-9.0.0-alpha.6.uf2"
+                    data-locale="ru"
+                    >
+              RUSSIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/es/adafruit-circuitpython-cytron_maker_uno_rp2040-es-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/es/adafruit-circuitpython-cytron_maker_uno_rp2040-es-9.0.0-alpha.6.uf2"
+                    data-locale="es"
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/sv/adafruit-circuitpython-cytron_maker_uno_rp2040-sv-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/sv/adafruit-circuitpython-cytron_maker_uno_rp2040-sv-9.0.0-alpha.6.uf2"
+                    data-locale="sv"
+                    >
+              SWEDISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/tr/adafruit-circuitpython-cytron_maker_uno_rp2040-tr-9.0.0-alpha.6.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/tr/adafruit-circuitpython-cytron_maker_uno_rp2040-tr-9.0.0-alpha.6.uf2"
+                    data-locale="tr"
+                    >
+              TURKISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/cytron_maker_uno_rp2040/en_US/adafruit-circuitpython-cytron_maker_uno_rp2040-en_US-9.0.0-alpha.6.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">_asyncio, _bleio, _pixelmap, adafruit_bus_device, adafruit_pixelbuf, aesio, alarm, analogbufio, analogio, array, atexit, audiobusio, audiocore, audiomixer, audiomp3, audiopwmio, binascii, bitbangio, bitmaptools, bitops, board, builtins, builtins.pow3, busdisplay, busio, busio.SPI, busio.UART, collections, countio, digitalio, displayio, epaperdisplay, errno, floppyio, fontio, fourwire, framebufferio, getpass, gifio, i2cdisplaybus, i2ctarget, imagecapture, io, jpegio, json, keypad, keypad.KeyMatrix, keypad.Keys, keypad.ShiftRegisterKeys, locale, math, memorymap, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, os.getenv, paralleldisplaybus, pulseio, pwmio, qrio, rainbowio, random, re, rgbmatrix, rotaryio, rp2pio, rtc, sdcardio, select, sharpdisplay, storage, struct, supervisor, synthio, sys, terminalio, time, touchio, traceback, ulab, usb, usb_cdc, usb_hid, usb_host, usb_midi, vectorio, warnings, watchdog, zlib</span>
+    </p>
+    
+    
+    <p>
+        Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
+        <span class="download-modules unstable">neopixel, simpleio</span>
+    </p>
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language. The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. These releases are even newer than the development release listed above.
+    Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/cytron_maker_uno_rp2040/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Previous Versions of CircuitPython</h3>
+  <p>
+    All previous releases of CircuitPython are available for download from Amazon S3 through the button below.
+    For very old releases, look in the <strong>OLD/</strong> folder for each board.
+    Release notes for each release are available at GitHub button below.
+  </p>
+  <p>
+    Older releases are useful for testing if you something appears to be broken in a newer release
+    but used to work,
+    or if you have older code that depends on features only available in an older release.
+    Otherwise we recommend using the latest stable release.
+  </p>
+  <div class="previous-versions-buttons">
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/cytron_maker_uno_rp2040/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+  </body>
+</html>

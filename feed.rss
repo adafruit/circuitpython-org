@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 14 Dec 2023 05:03:30 -0500</lastBuildDate>
+<lastBuildDate>Thu, 14 Dec 2023 15:15:39 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -3812,6 +3812,92 @@ up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; <
     <pubDate>Sun, 19 Feb 2023 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/brainboardz_neuron/</guid>
   </item><item>
+    <title>Raspberry Breadstick</title>
+    <link>https://circuitpython.org/board/breadstick_raspberry/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/breadstick_raspberry.jpg 300w,
+               /assets/images/boards/large/breadstick_raspberry.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/breadstick_raspberry.jpg" alt="Image of Board" loading="lazy">
+<p>By Breadstick Innovations</p> <p>Raspberry Breadstick is a long, lean, delicious development board with a unique form factor that simplifies your journey into the world of electronics. Whether your goal is to build a robot or an interactive art piece, you’ll begin by prototyping with a microcontroller development-board and a breadboard. Doing this with traditional dev-boards quickly leads to a tangled mess of jumper wires. The Raspberry Breadstick spreads its I/O pins out along the length of the breadboard, eliminating the need for long jumper wires, and delivers a clean prototyping experience that is easier to understand and troubleshoot.</p>
+
+<p>The Raspberry Breadstick eliminates the need for lengthy jumper wires through a classroom-friendly design, while still catering to experienced hobbyists and engineers.</p>
+
+<h3 id="code-with-ease-in-python">Code with Ease in Python</h3>
+
+<p>The Raspberry Breadstick fully supports CircuitPython and MicroPython, offering a hassle-free coding experience. Embrace Python’s beginner-friendly syntax, a skill relevant across diverse industries. Why struggle with complex coding languages when you can save time and accelerate your projects with Python? Raspberry Breadstick’s also compatible with Arduino programming language for those that prefer that flavour.</p>
+
+<h3 id="explore-exciting-features">Explore Exciting Features</h3>
+
+<p>The Raspberry Breadstick is loaded with exciting components to help ensure your exploration is both educational and enjoyable. Control 24 vibrant RGB LEDs effortlessly using the <a href="https://github.com/adafruit/Adafruit_DotStar">Adafruit DotStar library</a> or <a href="https://github.com/FastLED/FastLED">FastLED library</a>. Gather rotation &amp; accelerometer data from the 6-axis IMU, opening the door to captivating LED POV displays that react to your every move as you wave your breadstick through the air!</p>
+
+<h3 id="maximize-pin-utility">Maximize Pin Utility</h3>
+
+<p>Designed for your convenience, the Raspberry Breadstick’s strategic pin spacing ensures efficient use of every available pin, keeping your component layout clean and organized. Unlike traditional development boards that need long jumper wires to connect every component, our design maintains a clean and organized workspace.</p>
+
+<h3 id="features--specifications">Features &amp; Specifications</h3>
+
+<ul>
+  <li>Powerful RP2040 Microcontroller
+    <ul>
+      <li>Dual ARM Cortex-M0+ @ 133 MHz Clock</li>
+      <li>No EEPROM</li>
+      <li>264 kB on-chip SRAM</li>
+      <li>16 MB Flash (External IC)</li>
+    </ul>
+  </li>
+  <li>I/O support
+    <ul>
+      <li>Native USB support</li>
+      <li>Read-Only Boot ROM initializes device as USB drive, eliminating need for external programming hardware</li>
+      <li>4 x 12-bit ADCs</li>
+      <li>18 x GPIO Pins rated for 3.3 V</li>
+      <li>Hardware Serial, I2C, and SPI support</li>
+      <li>One-Wire support via CircuitPython’s adafruit_onewire library</li>
+      <li>MIDI support via CircuitPython’s usb_midi library</li>
+    </ul>
+  </li>
+  <li>6-Axis IMU
+    <ul>
+      <li>LSM6DSMTR</li>
+      <li>Accelerometer: X, Y, Z</li>
+      <li>Gyroscope: Roll, Pitch, Yaw</li>
+    </ul>
+  </li>
+  <li>Onboard RGB LEDs
+    <ul>
+      <li>24 SK9822 addressable LEDs</li>
+      <li>DotStar Compatible with Separate Data &amp; Clock Pins</li>
+      <li>Powered by 5 V rail</li>
+    </ul>
+  </li>
+  <li>USB-C with Power Delivery
+    <ul>
+      <li>Can request up to 3 A at 5 V from USB-PD devices e.g. computers, wall-adapters, portable power banks</li>
+      <li>There is a 3A PTC fuse on board for overcurrent protection</li>
+      <li>The voltage is regulated down to 3.3 V (600 mA) for the microcontroller and user devices</li>
+    </ul>
+  </li>
+  <li>Compact Layout
+    <ul>
+      <li>Measures 0.4” x 6.45” x 0.2” (10 mm x 164 mm x 5 mm) without headers</li>
+      <li>Lean format leaves 4 breadboard holes clearance on either side of the breadstick</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.crowdsupply.com/breadstick-innovations/raspberry-breadstick">Crowd Supply</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 13 Dec 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/breadstick_raspberry/</guid>
+  </item><item>
     <title>FigPi</title>
     <link>https://circuitpython.org/board/bwshockley_figpi/</link>
     <description><![CDATA[   
@@ -5134,6 +5220,35 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
     <category>CircuitPython</category>
     <pubDate>Mon, 31 May 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/cytron_maker_pi_rp2040/</guid>
+  </item><item>
+    <title>Maker Uno RP2040</title>
+    <link>https://circuitpython.org/board/cytron_maker_uno_rp2040/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/cytron_maker_uno_rp2040.jpg 300w,
+               /assets/images/boards/large/cytron_maker_uno_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/cytron_maker_uno_rp2040.jpg" alt="Image of Board" loading="lazy">
+<p>By Cytron Technologies</p> <p>Students/Makers can skip the hassle of constructing the basic electronic circuit which is boring and time-consuming. Although it is equally important to learn about basic electronics, it can always come later after they have experienced how easy it is to create an awesome project. Start with fun and excitement. Start coding right away and see your board lights up and plays the melody with the press of a button.</p>
+
+<p>For experienced makers, this is also useful to quickly test your code without having to connect any other devices.</p>
+
+<p>With the conventional Arduino boards, makers also face another common problem - difficulty in troubleshooting their circuit. This is because when it doesn’t work, they do not know whether the problem is due to wire connection or coding.</p>
+
+<p>With Maker UNO, the problem is solved! Not only do the onboard LEDs work as outputs, they can also act as indicators, clearly showing what’s happening on that pin. When the pin is used as input, you can clearly see whether the signal is received by just looking at changes on the LEDs.</p>
+
+<p>One of the brilliant features of the official Arduino Uno is the label printed on its pin headers. It saves a lot of time when connecting the I/O pins to the external circuit. So, a set of these label stickers for pin headers is included in each of the Maker UNO! (Please note that you need to peel off the stickers and stick them on your Maker UNO by yourself)</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.cytron.io/c-maker-series/p-maker-uno-simplifying-arduino-for-education">Cytron</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 13 Dec 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/cytron_maker_uno_rp2040/</guid>
   </item><item>
     <title>Datalore-IP-M4</title>
     <link>https://circuitpython.org/board/datalore_ip_m4/</link>
@@ -13039,6 +13154,29 @@ The badge will be given to all attendees of the Open Hardware Summit!</p>
     <pubDate>Fri, 03 May 2019 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/pca10100/</guid>
   </item><item>
+    <title>Wireless Sensor Core WSC-1450</title>
+    <link>https://circuitpython.org/board/pctel_wsc_1450/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/pctel_wsc_1450.jpg 300w,
+               /assets/images/boards/large/pctel_wsc_1450.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/pctel_wsc_1450.jpg" alt="Image of Board" loading="lazy">
+<p>By PCTEL</p> <p>The PCTEL Wireless Sensor Core (WSC) is a versatile Industrial IoT product line that offers multiple radio connectivity options including cellular, LoRa, Bluetooth® 5, NFC as well as 802.15.4 support.</p>
+
+<p>In addition to several radios, the PCTEL WSC includes several sensors to monitor a variety of physical conditions. These sensors can detect gas, air quality, temperature, relative humidity, acceleration, angular rate of change, magnetic field, range, and sound. For solution optimization, the PCTEL WSC can be ordered with a subset of radios and sensors.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://www.pctel.com/products/industrial-iot/wireless-sensor-solutions/wireless-sensor-core/">PCTEL</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 13 Dec 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/pctel_wsc_1450/</guid>
+  </item><item>
     <title>PewPew</title>
     <link>https://circuitpython.org/board/pewpew10/</link>
     <description><![CDATA[   
@@ -18691,6 +18829,95 @@ What’s different, it features onboard 4MB Flash, USB-C connector, recharge hea
     <category>CircuitPython</category>
     <pubDate>Thu, 07 Nov 2019 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/winterbloom_sol/</guid>
+  </item><item>
+    <title>WisdPi Ardu2040M</title>
+    <link>https://circuitpython.org/board/wisdpi_ardu2040m/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/wisdpi_ardu2040m.jpg 300w,
+               /assets/images/boards/large/wisdpi_ardu2040m.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/wisdpi_ardu2040m.jpg" alt="Image of Board" loading="lazy">
+<p>By WisdPi</p> <table>
+  <tbody>
+    <tr>
+      <td>Ardu2040M</td>
+      <td>An Arduino style RP2040 RGB Matrix board</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Introducing a new product - the Arduino-like Development Board with RP2040 MCU and WS2812 Matrix.</p>
+
+<p>This board is compact and versatile, featuring RP2040 MCU with GPIO expansion, a 5x5 WS2812 matrix for visual projects, Arduino compatibility, and expandability options.</p>
+
+<p>It’s lightweight and portable, making it suitable for use in labs, workshops, or on-the-go.</p>
+
+<p>The board is open-source, and its design files, schematics, and code examples will be available to the community.</p>
+
+<p>This board is perfect for hobbyists, students, and professional developers looking to create interactive projects, IoT devices, wearables, and more.</p>
+
+<h3 id="features">Features:</h3>
+
+<ul>
+  <li>Arduino Shield compatible</li>
+  <li>BOOTSEL and RESET key</li>
+  <li>5x5 RGB Matrix</li>
+  <li>Wide voltage input</li>
+  <li>DC power jack</li>
+  <li>Exposes all rp2040 GPIOs</li>
+  <li>3-pin SWD header</li>
+  <li>On board 2MByte Flash</li>
+</ul>
+
+<h3 id="specifications">Specifications:</h3>
+
+<ul>
+  <li>DC jack input voltage: 7~15V</li>
+  <li>Dimensions: 68.6x53.3x11.6 mm</li>
+  <li>Weight: 18 g</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.wisdpi.com/products/ardu2040m-rp2040-arduino-style-dev-board">WisdPi</a></li>
+  <li><a href="https://amzn.to/3uLWscH">Amazon</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 10 Dec 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/wisdpi_ardu2040m/</guid>
+  </item><item>
+    <title>WisdPi Tiny RP2040</title>
+    <link>https://circuitpython.org/board/wisdpi_tiny_rp2040/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/wisdpi_tiny_rp2040.jpg 300w,
+               /assets/images/boards/large/wisdpi_tiny_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/wisdpi_tiny_rp2040.jpg" alt="Image of Board" loading="lazy">
+<p>By WisdPi</p> <p>Introducing an RP2040-based development board, a compact yet powerful alternative to the popular Pico. This board packs all the GPIO capabilities of the RP2040 along with expanded flash memory.</p>
+
+<p>Size matters, and this development board takes it to the next level. Despite its smaller form factor, it offers the same GPIO capabilities as the RP2040, allowing seamless integration with various devices and sensors for your projects.</p>
+
+<p>Understanding the importance of storage space, the flash memory on this board has been increased. With more space for your code and data, you can tackle ambitious projects without worrying about limitations.</p>
+
+<p>But that’s not all. A vibrant WS2812 RGB LED has been added to the board. Create stunning visual effects and dynamic lighting displays to enhance your projects.</p>
+
+<p>This development board is designed with convenience in mind. It features a user-friendly interface and is compatible with popular development environments, making it suitable for both beginners and experienced developers.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash">WisdPi</a></li>
+</ul>
+
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 10 Dec 2023 19:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/wisdpi_tiny_rp2040/</guid>
   </item><item>
     <title>W5100S-EVB-Pico</title>
     <link>https://circuitpython.org/board/wiznet_w5100s_evb_pico/</link>
