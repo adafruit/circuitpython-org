@@ -515,7 +515,21 @@ def new_release(bundle, bundle_path):
         " especially important for non-express boards with limited flash, such as the"
         " [Trinket M0](https://www.adafruit.com/product/3500),"
         " [Gemma M0](https://www.adafruit.com/product/3501) and"
-        " [Feather M0 Basic](https://www.adafruit.com/product/2772)."
+        " [Feather M0 Basic](https://www.adafruit.com/product/2772).\n"
+    )
+
+    release_description.append(
+        "To automate the use of bundles, including the Adafruit CircuitPython Bundle"
+        " and the Community Bundle, install [circup](https://pypi.org/project/circup/)"
+        " using pip or pipx."
+        " This command-line tool allows you to install packages from the bundle to your CIRCUITPY"
+        " drive without manually downloading anything.\n"
+    )
+
+    release_description.append(
+        "To download the libraries as Python source code, use the link containing 'bundle-py'."
+        " Due to github's technical limitations, the 'Source code (zip)' and 'Source code (tar.gz')"
+        " links do not contain the library source code and cannot be hidden by project admins."
     )
 
     release = {
