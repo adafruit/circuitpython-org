@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 25 Jan 2024 05:03:16 -0500</lastBuildDate>
+<lastBuildDate>Thu, 25 Jan 2024 17:07:22 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -13321,6 +13321,51 @@ and <a href="https://hackaday.io/project/165032-pewpew-m4">Hackaday.io</a>.</p>
     <category>CircuitPython</category>
     <pubDate>Mon, 16 Sep 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/pewpew_m4/</guid>
+  </item><item>
+    <title>PicoMo</title>
+    <link>https://circuitpython.org/board/picomo_v2/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/picomo_v2.jpg 300w,
+               /assets/images/boards/large/picomo_v2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/picomo_v2.jpg" alt="Image of Board" loading="lazy">
+<p>By HEIA-FR</p> <p>The <a href="https://go.heia-fr.ch/picomo">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href="https://www.heia-fr.ch/en/">HEIA-FR</a>’s <a href="https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/">Electrical Engineering</a> and <a href="https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p>
+
+<p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p>
+
+<p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>RP2040 Dual Arm Cortex-M0+</li>
+  <li>264kB of SRAM</li>
+  <li>2 MB of flash memory</li>
+  <li>ST7789 1.69 inch display with a resolution of 240x280</li>
+  <li>Temperature and humidity sensor (SHTC3)</li>
+  <li>7 buttons</li>
+  <li>Speaker (buzzer)</li>
+  <li>Onboard LED (RGB)</li>
+  <li>USB-C power</li>
+</ul>
+
+<h2 id="schematic">Schematic</h2>
+
+<ul>
+  <li><a href="https://github.com/heia-picomo/hardware/blob/main/schematic/P095V2_PicoSalon_Schematic.pdf">PicoMo Github repository</a></li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://go.heia-fr.ch/picomo">PicoMo home page</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Thu, 25 Jan 2024 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/picomo_v2/</guid>
   </item><item>
     <title>PicoPlanet</title>
     <link>https://circuitpython.org/board/picoplanet/</link>
