@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 07 Feb 2024 05:04:31 -0500</lastBuildDate>
+<lastBuildDate>Wed, 07 Feb 2024 13:12:25 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -6188,6 +6188,70 @@ for an SD card slot, which makes it a complete and versatile development board.<
     <category>CircuitPython</category>
     <pubDate>Sat, 25 May 2019 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/escornabot_makech/</guid>
+  </item><item>
+    <title>ESP32-DevKitC-VE-WROVER</title>
+    <link>https://circuitpython.org/board/espressif_esp32_devkitc_v4_wroom_32e/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/espressif_esp32_devkitc_v4_wroom_32e.jpg 300w,
+               /assets/images/boards/large/espressif_esp32_devkitc_v4_wroom_32e.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/espressif_esp32_devkitc_v4_wroom_32e.jpg" alt="Image of Board" loading="lazy">
+<p>By Espressif</p> <p>The ESP8266 started a small revolution by bringing WiFi to a small and cheap package that also had enough processing power and enough pins to get small things done. Now get ready to take your bite-sized WiFi capabilities to the next level with the <strong>ESP32 Development Board!</strong></p>
+
+<p>The development board breaks out all the module’s pins to 0.1″ headers and provides a CP2102 USB-TTL serial adapter, programming and reset buttons, and a power regulator to supply the ESP32 with a stable 3.3 V. Espressif doubled-down on the CPU resources for the ESP32 with a dual core, running at 160MHz and tons more pins and peripherals.</p>
+
+<p><strong>Please note: The ESP32 is still targeted to developers</strong>. Not all of the peripherals are fully documented with example code, and there are some bugs still being found and fixed. We got many sensors and displays working under Arduino IDE, so you can expect things like I2C and SPI and analog reads to work. But other elements are still under development. This board is designed for use with the Tensilica toolchain (ESP IDF) so we recommend that for better hardware-support coverage.</p>
+
+<p>Color of PCB may vary. Note that is is exactly large enough to cover both sides of a solderless breadboard with no left-over pins, so if you want to use with a solderless breadboard, use two side-by-side!</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/3269">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 06 Feb 2024 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32_devkitc_v4_wroom_32e/</guid>
+  </item><item>
+    <title>ESP32-DevKitC-VE-WROVER</title>
+    <link>https://circuitpython.org/board/espressif_esp32_devkitc_v4_wrover/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/espressif_esp32_devkitc_v4_wrover.jpg 300w,
+               /assets/images/boards/large/espressif_esp32_devkitc_v4_wrover.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/espressif_esp32_devkitc_v4_wrover.jpg" alt="Image of Board" loading="lazy">
+<p>By Espressif</p> <p>ESP32-DevKitC is a low-footprint and entry-level development board that is part of the ESP32 series. This board has a rich peripheral set. The built-in ESP32 pinout is optimized for hassle-free prototyping!</p>
+
+<p>ESP32 general-purpose development board, embeds ESP32-WROVERE, 8 MB flash, with pin header</p>
+
+<p>This DevKit includes: ESP32-WROVER-E, EN button (restart), Boot button (download), USB-to-UART Bridge, Micro USB Port, 5V Power On LED, and an I/O connector.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>A module with ESP32 at its core.</li>
+  <li>Single USB-UART bridge chip provides transfer rates of up to 3 Mbps.</li>
+  <li>USB interface</li>
+  <li>5V Power On LED</li>
+  <li>4 MB Flash Memory</li>
+  <li>Internal PCB onboard antenna</li>
+  <li>Male or Female Pin Headers</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.digikey.ca/en/products/detail/espressif-systems/ESP32-DEVKITC-VE/12091812">Digi-Key</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 06 Feb 2024 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32_devkitc_v4_wrover/</guid>
   </item><item>
     <title>ESP-EYE</title>
     <link>https://circuitpython.org/board/espressif_esp32_eye/</link>
