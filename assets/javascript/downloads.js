@@ -387,6 +387,17 @@ function setFeaturesChecked() {
   downloadsSearch.featuresChecked = document.querySelectorAll('input[name="feature"]:checked').length > 0;
 }
 
+var cachedSearchTerm;
+var searchRx;
+function searchTermRegex() {
+    if(downloadsSearch.searchTerm != cachedSearchTerm) {
+        cachedSearchTerm = downloadsSearch.searchTerm;
+        mangledSearchTerm = cachedSearchTerm.split(" ").reduce(function(acc, val) { return acc + "(=?.*" + val + ")" }, "")
+        searchRx = new RegExp(mangledSearchTerm, "gi");
+    }
+    return searchRx;
+}
+
 function shouldDisplayDownload(download, displayedManufacturers, displayedMcufamilies, displayedFeatures) {
   var shouldFilterFeatures = downloadsSearch.featuresChecked;
   var shouldFilterManufacturers = displayedManufacturers.length > 0;
@@ -434,7 +445,7 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedMcufam
   }
 
   if (downloadsSearch.searchTerm && downloadsSearch.searchTerm.length > 0 && shouldDisplay) {
-    var regex = new RegExp(downloadsSearch.searchTerm, "gi");
+    var regex = searchTermRegex();
     var dataFields = [
         download.dataset.name,
         download.dataset.id,
