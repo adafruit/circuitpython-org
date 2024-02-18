@@ -418,7 +418,7 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedMcufam
     ].join(" ").toLowerCase();
 
 
-    for (const term of downloadsSearch.searchTerm.split(" ")) {
+    for (const term of downloadsSearch.searchTerm.toLowerCase().split(" ")) {
         if (!downloadData.includes(term)) {
             return false;
         }
