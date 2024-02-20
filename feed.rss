@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 20 Feb 2024 17:56:01 -0500</lastBuildDate>
+<lastBuildDate>Tue, 20 Feb 2024 17:56:38 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -1430,6 +1430,72 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <category>CircuitPython</category>
     <pubDate>Wed, 01 Mar 2023 00:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/adafruit_huzzah32_breakout/</guid>
+  </item><item>
+    <title>Adafruit ItsyBitsy ESP32</title>
+    <link>https://circuitpython.org/board/adafruit_itsybitsy_esp32/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_itsybitsy_esp32.jpg 300w,
+               /assets/images/boards/large/adafruit_itsybitsy_esp32.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_itsybitsy_esp32.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>What’s smaller than a Feather but larger than a Trinket? It’s an Adafruit ItsyBitsy ESP32, a powerful processor PCB with a plethora of pins! It features the ESP32 Pico module, an FCC-certified module that contains an ESP32 chip with dual-core 240MHz Tensilica processor, WiFi, and Bluetooth classic + BLE, configured with 8 MB of Flash memory, and 2 MB of PSRAM.</p>
+
+<p>We’ve added some handy accessories like a USB to serial converter chip, power regulator, USB Micro B, buttons, NeoPixel, and Stemma QT I2C connector to outfit this super-hero chip for any task you want to throw it at. This is also an ultra low power ESP32 board with a deep sleep current consumption of 10uA!</p>
+
+<p>At the core of the Itsy is the ESP32 (PICO ECO V3) chip, which is a single 2.4 GHz Wi-Fi and Bluetooth combo chip designed with TSMC’s 40 nm low-power technology. The ESP32 PICO in particular integrates all peripheral components seamlessly, including a crystal oscillator, flash, PSRAM, filter capacitors, and RF matching links in one single package. This makes it perfect for stuffing into a small space as the ItsyBitsy.</p>
+
+<p>Please note, like other ESP32 modules, the ItsyBitsy ESP32 does not have native USB support - instead, there’s a USB to serial converter chip. This means it cannot act like a USB keyboard or mouse, but it does have BLE and BT classic, so you could use it wirelessly.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Same size, form-factor as the remaining ItsyBitsy mainboards - with a similar but not identical pinout (there are no pins at the end of the board like most other Itsy’s due to the radio antenna being there)</li>
+  <li>USB Micro B - To maintain compatibility with the rest of the ItsyBitsy’s</li>
+  <li>ESP32 V2 03 Dual Core 240MHz Xtensa processor - the ESP32 you know and love, with the latest engineering fixes. Massive user base and thousands of existing projects and libraries to use.</li>
+  <li>WiFi, Bluetooth LE, and BT Classic for any IoT project usage</li>
+  <li>8 MB Flash &amp; 2 MB PSRAM</li>
+  <li>USB to Serial converter built-in with high-speed UART for debugging and uploading, auto-reset circuit works perfectly with any ESP32 uploading tool.</li>
+  <li>Can be used with Arduino IDE, CircuitPython or MicroPython</li>
+  <li>Built-in RGB NeoPixel LED with power control to reduce quiescent power in deep sleep</li>
+  <li>Built-in Red LED on pin D13</li>
+  <li>5V level-shifted output on D5, perfect for driving NeoPixels or other devices that want 5V logic signal</li>
+  <li>Battery input pads on the underside with diode protection for external battery packs up to 6V input</li>
+  <li>20 General Purpose “IO” pins:</li>
+  <li>20 Pads expose pins from the ESP32:</li>
+  <li>3 are analog input only (A3, A4, A5)</li>
+  <li>1 is digital output only (5) with 5V level shifted up</li>
+  <li>13 x 12-bit analog inputs (A0, A1, A2, A3, A4, A5, D12, D13, D14, SDA, SCL, D32, D33)</li>
+  <li>Dual 8-bit analog output DACs on A0/A1</li>
+  <li>PWM outputs on any pin</li>
+  <li>I2C port with STEMMA QT plug-n-play connector - a second I2C port can be defined on any other pins.</li>
+  <li>Hardware UART in addition to the USB-serial UART</li>
+  <li>Hardware SPI on the high speed SPI peripheral pins - a second SPI port can be defined on any other pins.</li>
+  <li>Hardware I2S on any pins</li>
+  <li>8 x Capacitive Touch with no additional components required</li>
+  <li>3.3V regulator with 600mA peak output</li>
+  <li>Light sleep at 4mA, deep sleep at ~10uA</li>
+  <li>Reset switch for starting your project code over, for entering bootloader mode or for user reading</li>
+  <li>User switch on pin 35</li>
+  <li>Really small</li>
+</ul>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<ul>
+  <li><a href="https://learn.adafruit.com/adafruit-itsybitsy-esp32">Adafruit ItsyBitsy ESP32</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5889">Adafruit</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Tue, 20 Feb 2024 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_itsybitsy_esp32/</guid>
   </item><item>
     <title>ItsyBitsy RP2040</title>
     <link>https://circuitpython.org/board/adafruit_itsybitsy_rp2040/</link>
