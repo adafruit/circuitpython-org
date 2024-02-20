@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 20 Feb 2024 17:53:26 -0500</lastBuildDate>
+<lastBuildDate>Tue, 20 Feb 2024 17:56:01 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -11033,6 +11033,47 @@ version with the CH343 which connects to the USB-C connector.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 01 Nov 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_core_fire/</guid>
+  </item><item>
+    <title>Dial - Smart Rotary Knob with Touch Screen</title>
+    <link>https://circuitpython.org/board/m5stack_dial/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_dial.jpg 300w,
+               /assets/images/boards/large/m5stack_dial.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_dial.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>As a versatile embedded development board, <strong>M5Dial</strong> integrates the necessary features and sensors for various smart home control applications. It features a 1.28-inch round TFT touchscreen, a rotary encoder, an RFID detection module, an RTC circuit, a buzzer, and under-screen buttons, enabling users to easily implement a wide range of creative projects.</p>
+
+<p>M5Dial provides versatile power supply options to cater to various needs. It accommodates a wide range of input voltages, accepting 6-36V DC input. Additionally, it features a battery port with a built-in charging circuit, enabling seamless connection to external Lithium batteries. This adaptability allows users to power M5Dial via USB-C, the DC interface, or an external battery for on-the-go convenience. M5Dial also reserves two PORTA and PORTB interfaces, supporting the expansion of I2C and GPIO devices. Users can connect various sensors, actuators, displays, and other peripherals through these interfaces, adding more functionality and possibilities.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>Circular TFT touch screen</li>
+  <li>M5StampS3</li>
+  <li>Encoder</li>
+  <li>RFID</li>
+  <li>6-36V voltage input</li>
+  <li>Battery charger</li>
+  <li>Interface extension: reserved PORTA and PORTB interfaces</li>
+  <li>Programmable button</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/M5Dial">AtomS3 Lite</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/m5stack-dial-esp32-s3-smart-rotary-knob-w-1-28-round-touch-screen">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 19 Feb 2024 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_dial/</guid>
   </item><item>
     <title>M5Paper ESP32 Dev Kit</title>
     <link>https://circuitpython.org/board/m5stack_m5paper/</link>

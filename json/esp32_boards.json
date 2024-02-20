@@ -660,6 +660,18 @@
             }
         ]
     },
+    "m5stack_dial": {
+        "name": "Dial - Smart Rotary Knob with Touch Screen",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-m5stack_dial-0.18.1.zip",
+        "releases": [
+            {
+                "version": "9.0.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_dial/en_US/adafruit-circuitpython-m5stack_dial-en_US-9.0.0-beta.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_dial/en_US/adafruit-circuitpython-m5stack_dial-en_US-9.0.0-beta.2.uf2"
+            }
+        ]
+    },
     "espressif_kaluga_1": {
         "name": "ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER",
         "chipfamily": "esp32s2",
