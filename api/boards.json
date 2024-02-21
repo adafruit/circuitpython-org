@@ -8107,6 +8107,28 @@
         "description": "<p>The senseBox-microcontroller (MCU) is specially designed and developed for the <a href=\"https://sensebox.de/en/\">senseBox project</a>. The three main advantages and characteristics of the microcontroller are: expandability, speed, and efficiency.</p><h4 id=\"processor\">Processor</h4><p>The processor is based on the ARM Cortex-M0+ processor from Microchip’s SAM D21 family.</p><h4 id=\"interfaces\">Interfaces</h4><p>Sensors and actuators are addressed via proven interfaces such as I2C, UART and digital I/Os with a robust JST connector system (5V tolerant).</p><h4 id=\"data-transmission\">Data transmission</h4><p>UART or SPI modules are offered via the two XBee compatible sockets. Optionally, the data transmission can be performed via WLAN, LAN, or LoRa in real time. Alternatively, the data can be stored on a micro SD card.</p><p><strong>Open-source documentation</strong>: <a href=\"https://github.com/watterott/senseBox-MCU\">https://github.com/watterott/senseBox-MCU</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://sensebox.shop/product/sensebox-mcu-2\">senseBox.shop</a></li>  <li><a href=\"https://shop.watterott.com/senseBox-MCU_1\">Watterott electronic</a></li></ul>"
     },
     {
+        "board_id": "sensebox_mcu_esp32s2",
+        "title": "senseBox MCU-S2 Download",
+        "name": "senseBox MCU-S2",
+        "board_url": [
+            "https://sensebox.de/de/products-boards"
+        ],
+        "board_image": "sensebox_mcu_esp32s2.jpg",
+        "date_added": "2024-2-21",
+        "family": "esp32s2",
+        "bootloader_id": "sensebox_mcu_esp32s2",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "STEMMA QT/QWIIC",
+            "Wi-Fi",
+            "USB-C"
+        ],
+        "url_path": "/board/sensebox_mcu_esp32s2/",
+        "description": "<p>The new senseBox MCU-S2 with ESP32S2 core!</p><h3 id=\"features\">Features</h3><ul>  <li><strong>ESP32-S2 240 MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>  <li><strong>Power options</strong> - USB-C <strong>or</strong> Lipoly battery</li>  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>  <li><strong>Switch</strong> to turn on and off</li>  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>  <li><strong>2 QWIIC</strong> connectors for I2C devices</li>  <li><strong>GPIO</strong> Ports</li>  <li><strong>UART</strong> Port</li>  <li><strong>XBEE</strong> Socket</li>  <li><strong>Onboard</strong> Sensors e.g. PD Module and 6 axis sensor</li>  <li><strong>Onboard</strong> MicroSD Card Slot</li>  <li><strong>On/Charge/User</strong> LEDs and status <strong>NeoPixel</strong></li>  <li>Works with Arduino or CircuitPython</li></ul><h2 id=\"purchase\">Purchase</h2><p>Add any links to purchase the board</p><ul>  <li><a href=\"https://sensebox.kaufen/product/sensebox-mcu-s2-mpu\">senseBox</a></li></ul>"
+    },
+    {
         "board_id": "serpente",
         "title": "Serpente Download",
         "name": "Serpente",

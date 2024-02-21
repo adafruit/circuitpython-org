@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 21 Feb 2024 05:03:35 -0500</lastBuildDate>
+<lastBuildDate>Wed, 21 Feb 2024 13:11:53 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -15883,6 +15883,44 @@ There are also 4 square-top buttons which fit <a href="https://www.adafruit.com/
     <category>CircuitPython</category>
     <pubDate>Mon, 12 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/sensebox_mcu/</guid>
+  </item><item>
+    <title>senseBox MCU-S2</title>
+    <link>https://circuitpython.org/board/sensebox_mcu_esp32s2/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/sensebox_mcu_esp32s2.jpg 300w,
+               /assets/images/boards/large/sensebox_mcu_esp32s2.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/sensebox_mcu_esp32s2.jpg" alt="Image of Board" loading="lazy">
+<p>By senseBox</p> <p>The new senseBox MCU-S2 with ESP32S2 core!</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li><strong>ESP32-S2 240 MHz Tensilica processor</strong> - the next generation of ESP32, now with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>
+  <li><strong>Power options</strong> - USB-C <strong>or</strong> Lipoly battery</li>
+  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>
+  <li><strong>Switch</strong> to turn on and off</li>
+  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>
+  <li><strong>2 QWIIC</strong> connectors for I2C devices</li>
+  <li><strong>GPIO</strong> Ports</li>
+  <li><strong>UART</strong> Port</li>
+  <li><strong>XBEE</strong> Socket</li>
+  <li><strong>Onboard</strong> Sensors e.g. PD Module and 6 axis sensor</li>
+  <li><strong>Onboard</strong> MicroSD Card Slot</li>
+  <li><strong>On/Charge/User</strong> LEDs and status <strong>NeoPixel</strong></li>
+  <li>Works with Arduino or CircuitPython</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<p>Add any links to purchase the board</p>
+<ul>
+  <li><a href="https://sensebox.kaufen/product/sensebox-mcu-s2-mpu">senseBox</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 21 Feb 2024 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/sensebox_mcu_esp32s2/</guid>
   </item><item>
     <title>Serpente</title>
     <link>https://circuitpython.org/board/serpente/</link>

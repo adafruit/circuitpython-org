@@ -1458,6 +1458,12 @@
             }
         ]
     },
+    "sensebox_mcu_esp32s2": {
+        "name": "senseBox MCU-S2",
+        "chipfamily": "esp32s2",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-sensebox_mcu_esp32s2-0.18.1.zip",
+        "releases": []
+    },
     "smartbeedesigns_bee_motion_s3": {
         "name": "Bee Motion S3",
         "chipfamily": "esp32s3",
