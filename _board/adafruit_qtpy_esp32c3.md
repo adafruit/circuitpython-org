@@ -59,3 +59,10 @@ Runs [Arduino with Espressif's ESP32 core](https://github.com/espressif/arduino-
 ## Purchase
 
 * [Adafruit](https://www.adafruit.com/product/5405)
+
+## Getting Started
+Since the ESP32C3 chip does not have support for native USB, you won't see a CIRCUITPY drive appear when you plug it into your computer. [Here is a complete guide](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/overview) for getting Circuitpython installed onto an ESP32C3 device, and for enabling [Web Workflow](https://docs.circuitpython.org/en/latest/docs/workflows.html#web) so you can load your Python code onto it.
+
+
+
+
