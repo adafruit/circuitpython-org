@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 04 Mar 2024 05:34:41 -0500</lastBuildDate>
+<lastBuildDate>Mon, 04 Mar 2024 11:50:11 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -2271,6 +2271,10 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
 <ul>
   <li><a href="https://www.adafruit.com/product/5405">Adafruit</a></li>
 </ul>
+
+<h2 id="getting-started">Getting Started</h2>
+<p>Since the ESP32C3 chip does not have support for native USB, you won’t see a CIRCUITPY drive appear when you plug it into your computer. <a href="https://learn.adafruit.com/circuitpython-with-esp32-quick-start/overview">Here is a complete guide</a> for getting Circuitpython installed onto an ESP32C3 device, and for enabling <a href="https://docs.circuitpython.org/en/latest/docs/workflows.html#web">Web Workflow</a> so you can load your Python code onto it.</p>
+
  ]]></description>
     <category>CircuitPython</category>
     <pubDate>Fri, 01 Apr 2022 00:00:00 -0400</pubDate>
