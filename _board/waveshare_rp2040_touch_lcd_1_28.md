@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "waveshare_rp2040_touch_lcd_1_28"
-title: "RP2040-LCD-1.28 Download"
-name: "RP2040-LCD-1.28"
+title: "RP2040-Touch-LCD-1.28 Download"
+name: "RP2040-Touch-LCD-1.28"
 manufacturer: "Waveshare"
 board_url:
  - "https://www.waveshare.com/product/raspberry-pi/boards-kits/raspberry-pi-pico-cat/rp2040-touch-lcd-1.28.htm"
