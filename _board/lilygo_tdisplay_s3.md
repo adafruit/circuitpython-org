@@ -11,13 +11,12 @@ date_added: 2024-3-9
 family: esp32s3
 features:
   - Wi-Fi
-  - BLE
+  - Bluetooth/BTLE
   - Battery Charging
   - USB-C
   - Display
-  - Touchscreen (Optional)
   - Breadboard-Friendly
-  - STEMMA QT/Qwiic Connector
+  - STEMMA QT/QWIIC
 ---
 
 The LILYGO T-Display S3 is a compact development board based on the ESP32-S3 chip. It features a 1.9-inch ST7789 LCD display using a parallel bus, with an optional CST816 touchscreen.
