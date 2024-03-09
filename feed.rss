@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sat, 09 Mar 2024 05:03:13 -0500</lastBuildDate>
+<lastBuildDate>Sat, 09 Mar 2024 17:55:39 -0500</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -9875,6 +9875,49 @@ Install Arduino and learn some basic coding. We will provide online guides to co
     <category>CircuitPython</category>
     <pubDate>Tue, 14 Nov 2023 19:00:00 -0500</pubDate>
     <guid>https://circuitpython.org/board/lilygo_tdeck/</guid>
+  </item><item>
+    <title>T-Display S3</title>
+    <link>https://circuitpython.org/board/lilygo_tdisplay_s3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lilygo_tdisplay_s3.jpg 300w,
+               /assets/images/boards/large/lilygo_tdisplay_s3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lilygo_tdisplay_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <p>The LILYGO T-Display S3 is a compact development board based on the ESP32-S3 chip. It features a 1.9-inch ST7789 LCD display using a parallel bus, with an optional CST816 touchscreen.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>
+  <li>16 MB Flash memory</li>
+  <li>8 MB PSRAM</li>
+  <li>1.9 inch ST7789 LCD display, optional CST816 touchscreen</li>
+  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>
+  <li>2 user buttons (<code class="language-plaintext highlighter-rouge">IO0</code> for Boot and <code class="language-plaintext highlighter-rouge">IO14</code> for custom functions), 1 reset button</li>
+  <li>Battery charging circuit (JST connector for Li-Po battery)</li>
+  <li>USB-C for programming and power</li>
+  <li>Onboard LED</li>
+</ul>
+
+<h2 id="schematic">Schematic</h2>
+
+<ul>
+  <li><a href="https://github.com/Xinyuan-LilyGO/T-Display-S3">LILYGO Github repository</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.lilygo.cc/products/t-display-s3?variant=42351558590645">LILYGO Own Store - Non-Touch Variant</a></li>
+  <li><a href="https://www.lilygo.cc/products/t-display-s3?variant=42589373268149">LILYGO Own Store - Touch Variant</a></li>
+  <li><a href="https://lilygo.aliexpress.com/store/2090076">LILYGO Aliexpress Store</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_tdisplay_s3/</guid>
   </item><item>
     <title>T-Embed</title>
     <link>https://circuitpython.org/board/lilygo_tembed_esp32s3/</link>

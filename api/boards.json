@@ -4911,6 +4911,31 @@
         "description": "<p>T-Deck is a pocket-sized gadget with a 2.8-inch, 320 x 240 pixel IPS LCD display, a mini keyboard, and an ESP32 dual-core processor. While it’s not exactly a smartphone, you can use your programming knowledge to turn it into a standalone messaging device, or coding software.</p><p><strong>Specifications</strong></p><ul>  <li>ESP32-S3FN16R8 Dual-core LX7 microprocessor</li>  <li>FLASH 16MB</li>  <li>PSRAM 8MB</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-deck\">LILYGO Store</a></li></ul>"
     },
     {
+        "board_id": "lilygo_tdisplay_s3",
+        "title": "T-Display S3 Download",
+        "name": "T-Display S3",
+        "board_url": [
+            "https://www.lilygo.cc/products/t-display-s3"
+        ],
+        "board_image": "lilygo_tdisplay_s3.jpg",
+        "date_added": "2024-3-9",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Battery Charging",
+            "USB-C",
+            "Display",
+            "Breadboard-Friendly",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/lilygo_tdisplay_s3/",
+        "description": "<p>The LILYGO T-Display S3 is a compact development board based on the ESP32-S3 chip. It features a 1.9-inch ST7789 LCD display using a parallel bus, with an optional CST816 touchscreen.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>8 MB PSRAM</li>  <li>1.9 inch ST7789 LCD display, optional CST816 touchscreen</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>2 user buttons (<code class=\"language-plaintext highlighter-rouge\">IO0</code> for Boot and <code class=\"language-plaintext highlighter-rouge\">IO14</code> for custom functions), 1 reset button</li>  <li>Battery charging circuit (JST connector for Li-Po battery)</li>  <li>USB-C for programming and power</li>  <li>Onboard LED</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/Xinyuan-LilyGO/T-Display-S3\">LILYGO Github repository</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-display-s3?variant=42351558590645\">LILYGO Own Store - Non-Touch Variant</a></li>  <li><a href=\"https://www.lilygo.cc/products/t-display-s3?variant=42589373268149\">LILYGO Own Store - Touch Variant</a></li>  <li><a href=\"https://lilygo.aliexpress.com/store/2090076\">LILYGO Aliexpress Store</a></li></ul>"
+    },
+    {
         "board_id": "lilygo_tembed_esp32s3",
         "title": "T-Embed Download",
         "name": "T-Embed",
