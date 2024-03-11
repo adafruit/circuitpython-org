@@ -36,7 +36,7 @@ M5Dial provides versatile power supply options to cater to various needs. It acc
 
 ## Documentation
 
-* [AtomS3 Lite](https://docs.m5stack.com/en/core/M5Dial)
+* [M5Dial](https://docs.m5stack.com/en/core/M5Dial)
 
 ## Purchase
 
