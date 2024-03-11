@@ -9,7 +9,7 @@ board_url:
 board_image: "m5stack_cardputer.jpg"
 date_added: 2024-3-10
 family: esp32s3
-bootloader_id: m5stack_cardputer
+bootloader_id: adafruit_feather_esp32s3_nopsram
 downloads_display: true
 features:
   - Speaker
