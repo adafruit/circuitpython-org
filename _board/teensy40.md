@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/4323"
 board_image: "teensy40.jpg"
 date_added: 2020-1-31
-family: stm
+family: mimxrt10xx
 features:
   - Breadboard-Friendly
 ---
