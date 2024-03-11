@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "m5stack_cardputer"
-title: "Dial - Smart Rotary Knob with Touch Screen Download"
-name: "Dial - Smart Rotary Knob with Touch Screen"
+title: "M5Stack CardPuter - M5StampS3 powered mini computer Download"
+name: "M5Stack CardPuter - M5StampS3 powered mini computer"
 manufacturer: "M5Stack"
 board_url:
  - "https://docs.m5stack.com/en/core/Cardputer"
