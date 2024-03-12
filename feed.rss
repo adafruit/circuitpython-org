@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 11 Mar 2024 11:37:48 -0400</lastBuildDate>
+<lastBuildDate>Mon, 11 Mar 2024 21:55:02 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -11052,6 +11052,48 @@ version with the CH343 which connects to the USB-C connector.</p>
     <category>CircuitPython</category>
     <pubDate>Thu, 26 Oct 2023 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/m5stack_atoms3u/</guid>
+  </item><item>
+    <title>M5Stack CardPuter - M5StampS3 powered mini computer</title>
+    <link>https://circuitpython.org/board/m5stack_cardputer/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/m5stack_cardputer.jpg 300w,
+               /assets/images/boards/large/m5stack_cardputer.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/m5stack_cardputer.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>Cardputer is a card-sized portable computer that is perfect for engineers. At the heart of Cardputer is the M5StampS3, a mini development board based on the ESP32-S3 chip. Cardputer features a powerful dual-core processor, supports Wi-Fi functionality and integrates various peripherals and sensors, making it ideal for rapid functional verification, industrial control and home automation systems.</p>
+
+<p>The device is powered by an internal 120mAh+1400mAh (in the base) lithium battery solution, eliminating concerns about battery life. In addition, Cardputer has built-in battery charging and voltage regulation circuits that automatically adjust voltage and current to protect the battery and the device. The base of the Cardputer incorporates a magnet, allowing it to be attached to metal surfaces such as fridges or whiteboards. What’s more, Cardputer’s structure is compatible with Lego hole extensions, allowing users to create even more interesting designs using Lego bricks.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>Display: IPS LCD, 1,14”, 240x135px</li>
+  <li>Battery: internal 120mAh + 1400mAh (in the base) lithium battery</li>
+  <li>TF-Card (MicroSD) slot</li>
+  <li>1 USB-C OTG in/out</li>
+  <li>Keyboard: 56 keys, QWERTY type, ortholinear with tactile click switches</li>
+  <li>Infrared ∠0° : 410cm, &lt; 90° : 66cm, &lt; 45° : 170cm</li>
+  <li>Digital MEMS Microphone</li>
+  <li>Sound: I2S-Speaker, 8Ω@1W</li>
+  <li>HY2.0-4P interface for expanding I2C sensors</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/Cardputer">Cardputer</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/m5stack-cardputer-kit-w-m5stamps3">M5Stack</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Sun, 10 Mar 2024 00:00:00 -0500</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_cardputer/</guid>
   </item><item>
     <title>Core2 ESP32 IoT</title>
     <link>https://circuitpython.org/board/m5stack_core2/</link>
