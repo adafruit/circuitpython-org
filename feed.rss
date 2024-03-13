@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 13 Mar 2024 15:10:55 -0400</lastBuildDate>
+<lastBuildDate>Wed, 13 Mar 2024 15:21:47 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -1327,6 +1327,27 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <pubDate>Tue, 02 May 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_rp2040_usb_host/</guid>
   </item><item>
+    <title>Adafruit Floppsy RP2040</title>
+    <link>https://circuitpython.org/board/adafruit_floppsy_rp2040/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_floppsy_rp2040.jpg 300w,
+               /assets/images/boards/large/adafruit_floppsy_rp2040.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_floppsy_rp2040.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href="https://www.youtube.com/adafruit">YouTube</a>.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://youtu.be/qldx4CtDDGs?si=ceHoqA7LALtyojni">YouTube</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 13 Mar 2024 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_floppsy_rp2040/</guid>
+  </item><item>
     <title>FunHouse - WiFi Home Automation Development Board</title>
     <link>https://circuitpython.org/board/adafruit_funhouse/</link>
     <description><![CDATA[   
@@ -2611,6 +2632,27 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <category>CircuitPython</category>
     <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_rotary_trinkey_m0/</guid>
+  </item><item>
+    <title>Temp and Humidity Trinkey</title>
+    <link>https://circuitpython.org/board/adafruit_sht4x_trinkey_m0/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_sht4x_trinkey_m0.jpg 300w,
+               /assets/images/boards/large/adafruit_sht4x_trinkey_m0.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_sht4x_trinkey_m0.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href="https://www.youtube.com/adafruit">YouTube</a>.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://youtu.be/F55C2RzlXJk?si=wjKQhMp73NXmFBD8&amp;t=158">YouTube</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 13 Mar 2024 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_sht4x_trinkey_m0/</guid>
   </item><item>
     <title>Slide Trinkey - SAMD21</title>
     <link>https://circuitpython.org/board/adafruit_slide_trinkey_m0/</link>
@@ -13955,6 +13997,76 @@ and <a href="https://hackaday.io/project/165032-pewpew-m4">Hackaday.io</a>.</p>
     <pubDate>Mon, 05 Jun 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/pimoroni_inky_frame_5_7/</guid>
   </item><item>
+    <title>Inky Frame 7.3" (Pico W Aboard)</title>
+    <link>https://circuitpython.org/board/pimoroni_inky_frame_7_3/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/pimoroni_inky_frame_7_3.jpg 300w,
+               /assets/images/boards/large/pimoroni_inky_frame_7_3.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/pimoroni_inky_frame_7_3.jpg" alt="Image of Board" loading="lazy">
+<p>By Pimoroni</p> <p>There’s a new ePaper screen in town, and it’s a biggie! Inky Frame 7.3” features a <strong>super crisp E Ink display</strong> with 800 x 480 pixels of seven colour goodness. We’ve added <strong>five buttons with LED indicators</strong> for interacting with the display, <strong>two Qw/ST connectors</strong> for plugging in breakouts and a <strong>micro SD card slot</strong> for storing photos of fond maritime adventures (or whatever floats your boat).</p>
+
+<p>Every Inky Frame comes with a pair of sleek little <strong>metal legs</strong> so you can stand it up on your desk (and a selection of mounting holes if you’d prefer to do something else). There’s also a <strong>battery connector</strong> so you can power it without annoying trailing wires, and some <strong>neato power saving features</strong> that mean you can run it from batteries for ages.</p>
+
+<p>Here are some things we reckon this mahoosive Inky would be great for:</p>
+<ul>
+  <li>An ultra readable, low power consumption home automation dashboard</li>
+  <li>Displaying stylised photos, pop art images or favourite comic panels.</li>
+  <li>Showing cute graphs and readouts from local or wirelessly connected sensors</li>
+  <li>Displaying fascinating data from online APIs.</li>
+</ul>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Raspberry Pi Pico W Aboard
+    <ul>
+      <li>Dual Arm Cortex M0+ running at up to 133Mhz with 264kB of SRAM</li>
+      <li>2MB of QSPI flash supporting XiP</li>
+      <li>Powered and programmable by USB micro-B</li>
+      <li>2.4GHz wireless</li>
+    </ul>
+  </li>
+  <li>7.3” EPD display (800 x 480 pixels)
+    <ul>
+      <li>E Ink Gallery Palette® ePaper</li>
+      <li>ACeP (Advanced Color ePaper) 7-color with black, white, red, green, blue, yellow, orange.</li>
+      <li>Ultra wide viewing angles</li>
+      <li>Ultra low power consumption</li>
+      <li>Dot pitch – 0.2 x 0.2mm</li>
+    </ul>
+  </li>
+  <li>5 x tactile buttons with LED indicators</li>
+  <li>Two Qw/ST connectors for attaching breakouts</li>
+  <li>microSD card slot *</li>
+  <li>8MB PSRAM</li>
+  <li>Dedicated RTC chip (PCF85063A) for deep sleep / wake **</li>
+  <li>Fully assembled</li>
+  <li>No soldering required.</li>
+</ul>
+
+<h2 id="about-pico-w-aboard">About Pico W Aboard</h2>
+
+<p>Our new Pico W Aboard products come with a <strong>built in Raspberry Pi Pico W</strong>. This means you get all the advantages of a RP2040 microcontroller - a speedy fast dual-core ARM processor, a dynamic, growing ecosystem and a choice of different programming methods to experiment with. Most excitingly though, Pico W has <strong>wireless connectivity</strong>, so your Pico/RP2040 devices can communicate with each other, and the internet</p>
+
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li><a href="https://cdn.shopify.com/s/files/1/0174/1800/files/inky_frame_73_schematic.pdf?v=1677857184">Schematics</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/inky-frame-7-3">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Wed, 13 Mar 2024 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_inky_frame_7_3/</guid>
+  </item><item>
     <title>Interstate 75</title>
     <link>https://circuitpython.org/board/pimoroni_interstate75/</link>
     <description><![CDATA[   
@@ -22230,6 +22342,41 @@ Enclosure</li>
     </item>
 
     <item>
+      <title>MilkV Duo</title>
+      <link>https://circuitpython.org/blinka/milkv_duo/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/milkv_duo.jpg 300w,
+               /assets/images/boards/large/milkv_duo.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/milkv_duo.jpg" alt="Image of Board" loading="lazy">
+<p>By Shenzhen MilkV Technology Co., Ltd</p> <p>Milk-V Duo is an ultra-compact embedded development platform based on the CV1800B chip. It can run Linux and RTOS, providing a reliable, low-cost, and high-performance platform for professionals, industrial ODMs, AIoT enthusiasts, DIY hobbyists, and creators.</p>
+
+<ul>
+  <li>1GHz and 700MHz RISC-V C906 processors</li>
+  <li>Integrated CVITEK TPU for smart detection.</li>
+  <li>SIP DRAM 64MB</li>
+  <li>Supports H.264/H.265 video encoding, up to 2880x1620@20fps.</li>
+  <li>Compatible with high-definition CMOS sensors.</li>
+  <li>Programmable frequency output for sensor clock.</li>
+  <li>Comprehensive ISP features for image optimization.</li>
+  <li>Partial OpenCV library support with CV hardware acceleration.</li>
+  <li>16-bit audio codec with built-in mic input and output functions.</li>
+  <li>Flexible network configurations with 1 Ethernet PHY.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://milkv.io/duo#buy">MilkV</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/milkv_duo/</guid>
+    </item>
+
+    <item>
       <title>NanoPi Duo2</title>
       <link>https://circuitpython.org/blinka/nanopi_duo2/</link>
       <description><![CDATA[   
@@ -24118,6 +24265,86 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
       <category>Blinka</category>
       <pubDate>Fri, 05 May 2023 00:00:00 -0400</pubDate>
       <guid>https://circuitpython.org/blinka/radxa_rock_3a/</guid>
+    </item>
+
+    <item>
+      <title>Rock 3C</title>
+      <link>https://circuitpython.org/blinka/radxa_rock_3c/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/radxa_rock_3a.jpg 300w,
+               /assets/images/boards/large/radxa_rock_3a.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/radxa_rock_3a.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa Limited</p> <p>This is the documentation for ROCK 3 Model C, written by Radxa Team with community contributions.
+ROCK 3C features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up to 1920x1080@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN, PCIe 2.0, 40-pin color expansion header.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li><strong>RK3566</strong>  Quad-core Cortex-A55, frequency 1.6Ghz Mali G52</li>
+  <li>1/2/4GB LPDDR4 2112MT/s</li>
+  <li>eMMC μSD card (μSD slot supports up to 128 GB μSD card) M.2 2230 SSD (M.2 connector supports up to 1TB M2 NVME SSD)</li>
+  <li>HDMI 2.0 up to 1920x1080 60p MIPI DSI 2 lanes via FPC connector HDMI and MIPI DSI can not work at the same time</li>
+  <li>3.5mm jack with mic HD codec that supports up to 24-bit/96KHz audio. Camera -  MIPI CSI 2 lanes via FPC connector, support up to 800 MP camera.</li>
+  <li>802.11 ac WiFi 5/ BT 5</li>
+  <li>USB 2.0 OTG X1(middle upper one), hardware switch for host/device switch USB 3.0 HOST X1 USB 2.0 HOST X2</li>
+  <li>GbE LAN with Power over Ethernet (PoE) support additional HAT is required for powering from PoE</li>
+  <li>40-pin expansion header 5 x UART 1 x SPI bus 2 x I2C bus 6 x PWM 1 x ADC 6 x GPIO 2 x 5V DC power in 1 x 3.3V DC power in</li>
+  <li>RTC RTC battery connector for time backup(optional)</li>
+  <li>USB type C 5V, 5V/3A is suggested when using without SSD, 5V/5A is suggested</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://amzn.to/3v01Idv">Amazon</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/radxa_rock_3c/</guid>
+    </item>
+
+    <item>
+      <title>Rock 4 SE</title>
+      <link>https://circuitpython.org/blinka/radxa_rock_4se/</link>
+      <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/radxa_rock_4se.jpg 300w,
+               /assets/images/boards/large/radxa_rock_4se.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/radxa_rock_4se.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa Limited</p> <p>This is the documentation for ROCK 4 SE, written by Radxa Team with community contributions.</p>
+
+<p>ROCK 4 SE is powered by RK3399-T with a dual core Cortex-A72@1.5GHz + quad core Cortex-A53@1Ghz ARM processor, 64bit LPDDR4, up to 4K@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN, 40-pin color expansion header, RTC. ROCK 4 SE is introduced in 2022.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>64bits hexa core processor Rockchip RK3399-T Dual Cortex-72, frequency <strong>1.5GHz</strong> with qual Cortex-A53, frequency <strong>1.0GHz</strong> Mali T860MP4 GPU, support OpenGL ES 1.1/2.0/3.0/3.1/3.2, Vulkan 1.0, Open CL 1.1 1.2, DX11.</li>
+  <li>LPDDR4 64bit dual channel LPDDR4@3200Mb/s, 1GB/2GB/4GB optional</li>
+  <li>eMMC connector μSD card (μSD slot supports up to 256 GB μSD card) M.2 SSD (M.2 connector supports up to 2T M2 NVME SSD)</li>
+  <li>Standard HDMI 2.0 up to 4k@60 MIPI DSI 2 lanes via FPC connector HDMI and MIPI DSI can work at the same time, support mirror mode or extend mode.</li>
+  <li>3.5mm jack with mic HD codec that supports up to 24-bit/96KHz audio.</li>
+  <li>MIPI CSI 2 lanes via FPC connector, support up to 800 MP camera(1mm pitch connector).</li>
+  <li>802.11 ac wifi BT 5.0 with onboard or external antenna</li>
+  <li>USB 3.0 OTG X1, hardware switch for host/device switch, upper one USB 3.0 HOST X1, dedicated USB 3.0 channel, lower one USB 2.0 HOST X2</li>
+  <li>GbE LAN with Power over Ethernet (PoE) support additional HAT is required for powering from PoE</li>
+  <li>40-pin expansion header 2 x UART 2 x SPI bus 3 x I2C bus 1 x PCM/I2S 1 x SPDIF 2 x PWM 1 x ADC 6 x GPIO 2 x 5V DC power in 2 x 3.3V DC power in</li>
+  <li>RTC RTC battery connector for time backup(optional)</li>
+  <li>USB PD, support USB Type C PD 2.0, 9V/2A, 12V/2A. Qualcomm® Quick ChargeTM: Supports QC 3.0/2.0 adapter, 9V/2A, 12V/1.5A</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256804923772687.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+      <category>Blinka</category>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 -0400</pubDate>
+      <guid>https://circuitpython.org/blinka/radxa_rock_4se/</guid>
     </item>
 
     <item>
