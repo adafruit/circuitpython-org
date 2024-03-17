@@ -40,7 +40,7 @@ There are three mutually exclusive ways to provide power to the board:
 - **Boot Button**: Download button. Holding down **Boot** and then pressing **Reset** initiates Firmware Download mode for downloading firmware through the serial port.
 - **Reset Button**
 - **USB-to-UART Bridge:** Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.
-- **RGB LED**: Addressable RGB LED, driven by GPIO48.
+- **RGB LED**: Addressable RGB LED, a Rose Lighting model SK68XXMINI-HS, driven by GPIO48 aka board.NEOPIXEL, works with CircuitPython NeoPixel driver.  Note that version 1.1 of this board has the LED wired to GPIO38, aka board.IO38.  
 - **3.3V Power On LED**: Turns on when the USB power is connected to the board.
 
 ## Purchase
