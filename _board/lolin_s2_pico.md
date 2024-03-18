@@ -3,7 +3,7 @@ layout: download
 board_id: "lolin_s2_pico"
 title: "LOLIN S2 Pico Download"
 name: "LOLIN S2 Pico"
-manufacturer: "LOLIN"
+manufacturer: "Wemos"
 board_url:
  - "https://www.wemos.cc/en/latest/s2/s2_pico.html"
 board_image: "lolin_s2_pico.jpg"
