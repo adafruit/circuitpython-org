@@ -754,6 +754,18 @@
             }
         ]
     },
+    "lolin_s3_pro": {
+        "name": "LOLIN S3 Pro",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lolin_s3_pro-0.18.1.zip",
+        "releases": [
+            {
+                "version": "9.0.0",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lolin_s3_pro/en_US/adafruit-circuitpython-lolin_s3_pro-en_US-9.0.0.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lolin_s3_pro/en_US/adafruit-circuitpython-lolin_s3_pro-en_US-9.0.0.uf2"
+            }
+        ]
+    },
     "espressif_esp32s3_usb_otg_n8": {
         "name": "ESP32-S3-USB-OTG-N8",
         "chipfamily": "esp32s3",

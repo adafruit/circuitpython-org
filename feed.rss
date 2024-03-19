@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 18 Mar 2024 20:33:30 -0400</lastBuildDate>
+<lastBuildDate>Mon, 18 Mar 2024 20:36:45 -0400</lastBuildDate>
 <item>
     <title>ESP32-C3-0.42LCD</title>
     <link>https://circuitpython.org/board/01space_lcd042_esp32c3/</link>
@@ -369,6 +369,27 @@ Note the names are in the same spots, we haven’t changed where the I2C/UART/SP
     <category>CircuitPython</category>
     <pubDate>Fri, 19 Aug 2022 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_esp32_v2/</guid>
+  </item><item>
+    <title>Feather ESP32-S6 4MB Flash No PSRAM</title>
+    <link>https://circuitpython.org/board/adafruit_feather_esp32c6_4mbflash_nopsram/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/adafruit_feather_esp32c6_4mbflash_nopsram.jpg 300w,
+               /assets/images/boards/large/adafruit_feather_esp32c6_4mbflash_nopsram.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/adafruit_feather_esp32c6_4mbflash_nopsram.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>Coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href="https://www.youtube.com/adafruit">YouTube</a>.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://youtu.be/FV0-gMT9uBA?si=yZjXHgKLal3B5I9-&amp;t=130">YouTube</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 18 Mar 2024 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_esp32c6_4mbflash_nopsram/</guid>
   </item><item>
     <title>Feather ESP32-S2</title>
     <link>https://circuitpython.org/board/adafruit_feather_esp32s2/</link>
@@ -10341,7 +10362,7 @@ o   o        o   o
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/lolin_c3_mini.png" alt="Image of Board" loading="lazy">
-<p>By LOLIN</p> <p>A mini Wi-Fi &amp; Bluetooth LE board based on ESP32-C3FH4.</p>
+<p>By Wemos</p> <p>A mini Wi-Fi &amp; Bluetooth LE board based on ESP32-C3FH4.</p>
 
 <h2 id="features">Features</h2>
 
@@ -10400,7 +10421,7 @@ status LED operation.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/lolin_c3_pico.jpg" alt="Image of Board" loading="lazy">
-<p>By LOLIN</p> <p>A mini Wi-Fi &amp; Bluetooth LE board based on ESP32-C3FH4.</p>
+<p>By Wemos</p> <p>A mini Wi-Fi &amp; Bluetooth LE board based on ESP32-C3FH4.</p>
 
 <h2 id="features">Features</h2>
 
@@ -10448,7 +10469,7 @@ status LED operation.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/lolin_s2_mini.jpg" alt="Image of Board" loading="lazy">
-<p>By LOLIN</p> <p>The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form factor is almost the same as the well-known LOLIN D1 mini. This means that there is a high chance that the <a href="https://www.wemos.cc/en/latest/d1_mini_shield/index.html">D1 Mini Shields</a> could also be uses with this board.</p>
+<p>By Wemos</p> <p>The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form factor is almost the same as the well-known LOLIN D1 mini. This means that there is a high chance that the <a href="https://www.wemos.cc/en/latest/d1_mini_shield/index.html">D1 Mini Shields</a> could also be uses with this board.</p>
 
 <h2 id="technical-details">Technical details</h2>
 
@@ -10557,7 +10578,7 @@ status LED operation.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/lolin_s2_pico.jpg" alt="Image of Board" loading="lazy">
-<p>By LOLIN</p> <p>A development boards with an OLED and a small form factor.</p>
+<p>By Wemos</p> <p>A development boards with an OLED and a small form factor.</p>
 
 <h2 id="features">Features</h2>
 
@@ -10623,7 +10644,7 @@ status LED operation.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/lolin_s3.png" alt="Image of Board" loading="lazy">
-<p>By LOLIN</p> <p>WiFi &amp; Bluetooth 5 (LE) development boards based ESP32-S3-WROOM-1.</p>
+<p>By Wemos</p> <p>WiFi &amp; Bluetooth 5 (LE) development boards based ESP32-S3-WROOM-1.</p>
 
 <h2 id="features">Features</h2>
 
@@ -10679,7 +10700,7 @@ status LED operation.</p>
        sizes="(max-width: 1024px) 700px,
               300px"
        src="/assets/images/boards/large/lolin_s3_mini.jpg" alt="Image of Board" loading="lazy">
-<p>By LOLIN</p> <p>WiFi &amp; Bluetooth 5 (LE) development boards based ESP32-S3FH4R2.</p>
+<p>By Wemos</p> <p>WiFi &amp; Bluetooth 5 (LE) development boards based ESP32-S3FH4R2.</p>
 
 <h2 id="features">Features</h2>
 
@@ -10715,6 +10736,43 @@ status LED operation.</p>
     <category>CircuitPython</category>
     <pubDate>Tue, 23 May 2023 00:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/lolin_s3_mini/</guid>
+  </item><item>
+    <title>LOLIN S3 Pro</title>
+    <link>https://circuitpython.org/board/lolin_s3_pro/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/lolin_s3_pro.jpg 300w,
+               /assets/images/boards/large/lolin_s3_pro.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/lolin_s3_pro.jpg" alt="Image of Board" loading="lazy">
+<p>By Wemos</p> <p>WiFi &amp; Bluetooth 5 (LE) boards based ESP32-S3-WROOM-1.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Based ESP32-S3-WROOM-1</li>
+  <li>16MB Flash (Quad SPI)</li>
+  <li>8MB PSRAM (Octal SPI)</li>
+  <li>25x IO</li>
+  <li>1x LOLIN I2C Port</li>
+  <li>1x LOLIN DISPLAY Port (TFT, EPD)</li>
+  <li>1x MicroSD(TF) card slot</li>
+  <li>1x Battery port with 500mA charging</li>
+  <li>ADC, DAC, I2C, SPI, UART, USB OTG</li>
+  <li>Compatible with MicroPython, Arduino and ESP-IDF</li>
+  <li>Default firmware: MicroPython</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256804745042333.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 18 Mar 2024 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/lolin_s3_pro/</guid>
   </item><item>
     <title>Luatos Core ESP32C3</title>
     <link>https://circuitpython.org/board/luatos_core_esp32c3/</link>
@@ -19145,7 +19203,7 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
 </ul>
  ]]></description>
     <category>CircuitPython</category>
-    <pubDate>Fri, 27 Oct 2023 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 26 Oct 2023 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/waveshare_rp2040_plus_16mb/</guid>
   </item><item>
     <title>RP2040-Plus with 4MB Flash</title>
@@ -19188,8 +19246,47 @@ What’s different, it features onboard 4MB Flash, USB-C connector, recharge hea
 </ul>
  ]]></description>
     <category>CircuitPython</category>
-    <pubDate>Fri, 27 Oct 2023 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 26 Oct 2023 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/waveshare_rp2040_plus_4mb/</guid>
+  </item><item>
+    <title>RP2040-Tiny</title>
+    <link>https://circuitpython.org/board/waveshare_rp2040_tiny/</link>
+    <description><![CDATA[   
+  
+  <img srcset="/assets/images/boards/small/waveshare_rp2040_tiny.jpg 300w,
+               /assets/images/boards/large/waveshare_rp2040_tiny.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="/assets/images/boards/large/waveshare_rp2040_tiny.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>Waveshare RP2040-Tiny Development Board, Raspberry Pi Microcontroller Development Board, Based On Official RP2040 Dual Core Processor, USB Port Adapter Board Optional</p>
+
+<p><strong>Board specifications</strong></p>
+
+<ul>
+  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>
+  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>
+  <li>264KB of SRAM, and 2MB of onboard Flash memory</li>
+  <li>Onboard FPC 8PIN connector, adapting USB Type-C port via adapter board</li>
+  <li>Castellated module allows soldering direct to carrier boards</li>
+  <li>USB 1.1 with device and host support</li>
+  <li>Low-power sleep and dormant modes</li>
+  <li>Drag-and-drop programming using mass storage over USB</li>
+  <li>20 × multi-function GPIO pins</li>
+  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>
+  <li>Accurate clock and timer on-chip</li>
+  <li>Temperature sensor</li>
+  <li>Accelerated floating-point libraries on-chip</li>
+  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/rp2040-tiny.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    <category>CircuitPython</category>
+    <pubDate>Mon, 18 Mar 2024 00:00:00 -0400</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_rp2040_tiny/</guid>
   </item><item>
     <title>RP2040-Touch-LCD-1.28</title>
     <link>https://circuitpython.org/board/waveshare_rp2040_touch_lcd_1_28/</link>
@@ -19225,7 +19322,7 @@ What’s different, it features onboard 4MB Flash, USB-C connector, recharge hea
 </ul>
  ]]></description>
     <category>CircuitPython</category>
-    <pubDate>Fri, 27 Oct 2023 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 26 Oct 2023 20:00:00 -0400</pubDate>
     <guid>https://circuitpython.org/board/waveshare_rp2040_touch_lcd_1_28/</guid>
   </item><item>
     <title>RP2040-Zero</title>
