@@ -7,7 +7,7 @@ manufacturer: "Waveshare"
 board_url:
  - "https://www.waveshare.com/product/raspberry-pi/boards-kits/raspberry-pi-pico-cat/rp2040-touch-lcd-1.28.htm"
 board_image: "waveshare_rp2040_touch_lcd_1_28.jpg"
-date_added: "2023-10-27"
+date_added: 2023-10-27
 family: raspberrypi
 features:
   - USB-C

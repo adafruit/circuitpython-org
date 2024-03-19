@@ -3,7 +3,7 @@ layout: download
 board_id: "lolin_s2_mini"
 title: "LOLIN S2 Mini Download"
 name: "LOLIN S2 Mini"
-manufacturer: "LOLIN"
+manufacturer: "Wemos"
 board_url:
  - "https://www.wemos.cc/en/latest/s2/s2_mini.html"
 board_image: "lolin_s2_mini.jpg"
