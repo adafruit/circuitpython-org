@@ -8,8 +8,8 @@ permalink: /feed.rss
 <link>{{ "/" | absolute_url }}</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
 <lastBuildDate>{{ "now" | date_to_rfc822 }}</lastBuildDate>
-{% assign cp_boards = site.board | sort: 'date_added' | reverse %}
-{% for board in cp_boards %}
+{% assign chronological_boards = site.board | sort: "date_added" %}
+{% for board in chronological_boards reversed %}
   {%- if board.downloads_display == false -%}
     {%- continue -%}
   {%- endif -%}
@@ -24,8 +24,8 @@ permalink: /feed.rss
   </item>
   {%- endif -%}
 {% endfor %}
-{% assign blinka_boards = site.board | sort: 'date_added' | reverse %}
-{% for board in blinka_boards %}
+{% assign chronological_blinka_boards = site.board | sort: "date_added" %}
+{% for board in chronological_blinka_boards reversed %}
     <item>
       <title>{{ board.name }}</title>
       <link>{{ board.url | absolute_url }}</link>
