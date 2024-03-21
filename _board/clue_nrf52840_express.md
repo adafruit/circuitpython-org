@@ -1,23 +1,24 @@
 ---
-layout: download
-board_id: "clue_nrf52840_express"
-title: "CLUE NRF52840 Express Download"
-name: "CLUE NRF52840 Express"
-manufacturer: "Adafruit"
+board_id: clue_nrf52840_express
+board_image: clue_nrf52840_express.jpg
 board_url:
- - "https://www.adafruit.com/product/4500"
- - "https://www.adafruit.com/product/4491"
- - "https://www.adafruit.com/product/5627"
-board_image: "clue_nrf52840_express.jpg"
-date_added: 2019-12-30
-family: nrf52840
+- https://www.adafruit.com/product/4500
+- https://www.adafruit.com/product/4491
+- https://www.adafruit.com/product/5627
 bootloader_id: clue_nrf52840
+date_added: 2019-12-30 12:00:00
+family: nrf52840
 features:
-  - Display
-  - Bluetooth/BTLE
-  - Solder-Free Alligator Clip
-  - STEMMA QT/QWIIC
+- Display
+- Bluetooth/BTLE
+- Solder-Free Alligator Clip
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Adafruit
+name: CLUE NRF52840 Express
+title: CLUE NRF52840 Express Download
 ---
+
 We wanted to build some projects that have a small screen and a lot of sensors. This board has a 1.3″ 240×240 IPS TFT display, two buttons, and sensors.
 
 Available sensors:

@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "sparkfun_nrf52840_mini"
-title: "nRF52840 Mini Download"
-name: "Pro nRF52840 Mini"
-manufacturer: "SparkFun"
+board_id: sparkfun_nrf52840_mini
+board_image: sparkfun_nrf52840_mini-01.jpg
 board_url:
- - "https://www.sparkfun.com/products/15025"
-board_image: "sparkfun_nrf52840_mini-01.jpg"
-date_added: 2019-3-9
+- https://www.sparkfun.com/products/15025
+date_added: 2019-03-09 12:00:00
 family: nrf52840
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - STEMMA QT/QWIIC
+- Battery Charging
+- Bluetooth/BTLE
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: SparkFun
+name: Pro nRF52840 Mini
+title: nRF52840 Mini Download
 ---
 
 The SparkFun Pro nRF52840 Mini is a breakout and development board for Nordic Semiconductor’s nRF52840 – a powerful combination of ARM Cortex-M4 CPU and 2.4GHz Bluetooth radio. With the nRF52840 at the heart of your project, you’ll be presented with a seemingly endless list of project-possibilities in an incredibly small package.

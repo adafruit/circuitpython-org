@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "adafruit_macropad_rp2040"
-title: "MacroPad RP2040 Download"
-name: "MacroPad RP2040"
-manufacturer: "Adafruit"
-board_url:
- - "https://www.adafruit.com/product/5128"
-board_image: "adafruit_macropad_rp2040.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 blinka: true
-date_added: 2021-12-6
+board_id: adafruit_macropad_rp2040
+board_image: adafruit_macropad_rp2040.jpg
+board_url:
+- https://www.adafruit.com/product/5128
+date_added: 2021-12-06 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico
 features:
-  - STEMMA QT/QWIIC
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Adafruit
+name: MacroPad RP2040
+title: MacroPad RP2040 Download
 ---
 
 Strap yourself in, we're launching in T-minus 10 seconds...Destination? A new Class M planet called MACROPAD! M here, stands for Microcontroller because this 3x4 keyboard controller features the newest technology from the Raspberry Pi sector: say hello to the RP2040. It's speedy little microcontroller with lots of GPIO pins and a 64 times more RAM than the Apollo Guidance Computer. We added 8 MB of flash memory for plenty of storage.

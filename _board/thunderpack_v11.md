@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "thunderpack_v11"
-title: "Thunderpack v1.1 Download"
-name: "Thunderpack v1.1"
-manufacturer: "Jeremy Gillick"
+board_id: thunderpack_v11
+board_image: thunderpack_v11.jpg
 board_url:
- - "https://github.com/jgillick/ThunderPack"
-board_image: "thunderpack_v11.jpg"
-date_added: 2020-4-16
+- https://github.com/jgillick/ThunderPack
+date_added: 2020-04-16 12:00:00
 family: stm
 features:
 - Battery Charging
+layout: download
+manufacturer: Jeremy Gillick
+name: Thunderpack v1.1
+title: Thunderpack v1.1 Download
 ---
 
 A kick-ass microcontroller board with everything you need in a compact package that fits in your pocket. Integrated battery, power management system, Arm microcontroller, USB bootloader, 4 high-power PWM outputs, and 12 GPIOs.

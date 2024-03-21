@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "beaglebone_ai"
-title: "BeagleBone AI Download"
-name: "BeagleBone AI"
-manufacturer: "BeagleBoard"
-board_url:
- - "https://beagleboard.org/ai"
-board_image: "beaglebone_ai.jpg"
-downloads_display: true
 blinka: true
-date_added: 2021-1-20
+board_id: beaglebone_ai
+board_image: beaglebone_ai.jpg
+board_url:
+- https://beagleboard.org/ai
+date_added: 2021-01-20 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - Wi-Fi
-  - Bluetooth/BLE
-  - HDMI/DisplayPort
+- Ethernet
+- Wi-Fi
+- Bluetooth/BLE
+- HDMI/DisplayPort
+layout: download
+manufacturer: BeagleBoard
+name: BeagleBone AI
+title: BeagleBone AI Download
 ---
 
 Built on the proven BeagleBoard.org® open source Linux approach, BeagleBone® AI fills the gap between small SBCs and more powerful industrial computers. Based on the Texas Instruments AM5729, developers have access to the powerful SoC with the ease of BeagleBone® Black header and mechanical compatibility. BeagleBone® AI makes it easy to explore how artificial intelligence (AI) can be used in everyday life via the TI C66x digital-signal-processor (DSP) cores and embedded-vision-engine (EVE) cores supported through an optimized TIDL machine learning OpenCL API with pre-installed tools. Focused on everyday automation in industrial, commercial and home applications.

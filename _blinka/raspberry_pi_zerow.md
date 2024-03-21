@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "raspberry_pi_zerow"
-title: "Raspberry Pi Zero W Download"
-name: "Zero W"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/raspberry-pi-zero-w/"
-board_image: "raspberry_pi_zerow.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-17
+board_id: raspberry_pi_zerow
+board_image: raspberry_pi_zerow.jpg
+board_url:
+- https://www.raspberrypi.com/products/raspberry-pi-zero-w/
+date_added: 2019-06-17 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Raspberry Pi
+name: Zero W
+title: Raspberry Pi Zero W Download
 ---
 
 If you didn't think that the Raspberry Pi Zero could possibly get any better, then boy do we have a pleasant surprise for you! The new Raspberry Pi Zero W offers all the benefits of the Pi Zero v1.3, but with one big difference – built-in WiFi!

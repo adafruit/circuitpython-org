@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "challenger_nb_rp2040_wifi"
-title: "Challenger NB RP2040 WiFi Download"
-name: "Challenger NB RP2040 WiFi"
-manufacturer: "Invector Labs"
+board_id: challenger_nb_rp2040_wifi
+board_image: challenger_nb_rp2040_wifi.jpg
 board_url:
- - "https://www.tindie.com/products/invector/challenger-nb-rp2040-wifi/"
-board_image: "challenger_nb_rp2040_wifi.jpg"
-date_added: 2021-11-15
+- https://www.tindie.com/products/invector/challenger-nb-rp2040-wifi/
+date_added: 2021-11-15 12:00:00
 family: raspberrypi
 features:
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
-  - Feather-Compatible
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+- Feather-Compatible
+layout: download
+manufacturer: Invector Labs
+name: Challenger NB RP2040 WiFi
+title: Challenger NB RP2040 WiFi Download
 ---
 
 The Challenger NB RP2040 WiFi is an Arduino/Micropython compatible **Challenger NB** (NB for No Battery) format micro controller board based on the Raspberry Pico chip. The **Challenger NB** form factor is based on Adafruits Feather format but we have removed the battery connector, LiPo charger and instead added a bunch of IO pins. It has retained most of the original Feather pinout so most (all) existing feather wings should work nicely with this board as well.
@@ -43,4 +43,3 @@ The ESP8285 chip comes pre-flashed with Espressif’s AT command interpreter sto
 ## Purchase
 
 * [Tindie](https://www.tindie.com/products/invector/challenger-nb-rp2040-wifi/)
-

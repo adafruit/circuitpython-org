@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "google_coral"
-title: "Google Coral Dev Board"
-name: "Google Coral Dev Board"
-manufacturer: "Google"
-board_url:
- - "https://coral.withgoogle.com/products/dev-board"
-board_image: "google_coral.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-google-coral-linux-blinka"
-downloads_display: true
 blinka: true
-date_added: 2019-5-13
+board_id: google_coral
+board_image: google_coral.jpg
+board_url:
+- https://coral.withgoogle.com/products/dev-board
+date_added: 2019-05-13 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-google-coral-linux-blinka
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Google
+name: Google Coral Dev Board
+title: Google Coral Dev Board
 ---
 
 A development board to quickly prototype on-device ML products. Scale from prototype to production with a removable system-on-module (SOM).

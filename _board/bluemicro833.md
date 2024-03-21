@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "bluemicro833"
-title: "BlueMicro833 Download"
-name: "BlueMicro833"
-manufacturer: "JPConstantineau"
+board_id: bluemicro833
+board_image: bluemicro833.jpg
 board_url:
- - "http://nrf52.jpconstantineau.com/docs/bluemicro833"
-board_image: "bluemicro833.jpg"
-date_added: 2021-12-28
-family: nrf52840
+- http://nrf52.jpconstantineau.com/docs/bluemicro833
 bootloader_id: bluemicro_nrf52833
+date_added: 2021-12-28 12:00:00
+family: nrf52840
 features:
-  - USB-C
-  - Breadboard-Friendly
-  - Bluetooth/BTLE
-  - Battery Charging
+- USB-C
+- Breadboard-Friendly
+- Bluetooth/BTLE
+- Battery Charging
+layout: download
+manufacturer: JPConstantineau
+name: BlueMicro833
+title: BlueMicro833 Download
 ---
 
 The BlueMicro833 is a nRF52833 controller with the footprint of an Arduino Pro Micro and a USB-C connector. It uses the EByte E73-2GM08S1E nRF52833 module, has a Neopixel and software controller 3.3 V regulator that can turn on/off power to external devices. It's based on the BlueMicro840 design but uses the internal voltage regulator to run. Just like other Bluemicros, there is a LiPo battery charger on board.

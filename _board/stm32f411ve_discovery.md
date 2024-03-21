@@ -1,14 +1,14 @@
 ---
-layout: download
-board_id: "stm32f411ve_discovery"
-title: "Discovery kit for STM32F411 Download"
-name: "Discovery kit for STM32F411"
-manufacturer: "ST"
+board_id: stm32f411ve_discovery
+board_image: stm32f411.jpg
 board_url:
- - "https://www.st.com/en/evaluation-tools/32f411ediscovery.html"
-board_image: "stm32f411.jpg"
-date_added: 2019-9-16
+- https://www.st.com/en/evaluation-tools/32f411ediscovery.html
+date_added: 2019-09-16 12:00:00
 family: stm
+layout: download
+manufacturer: ST
+name: Discovery kit for STM32F411
+title: Discovery kit for STM32F411 Download
 ---
 
 The Discovery kit for STM32F411 line helps you to discover the entry level microcontrollers of the STM32 F4 series and to develop your applications easily. It offers everything required for beginners and experienced users to get started quickly.

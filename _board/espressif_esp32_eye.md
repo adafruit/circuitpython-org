@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "espressif_esp32_eye"
-title: "ESP-EYE Download"
-name: "ESP-EYE"
-manufacturer: "Espressif"
+board_id: espressif_esp32_eye
+board_image: espressif_esp32_eye.jpg
 board_url:
- - "https://www.adafruit.com/product/4095"
-board_image: "espressif_esp32_eye.jpg"
-date_added: 2022-08-22
+- https://www.adafruit.com/product/4095
+date_added: 2022-08-22 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - Camera
-  - Bluetooth/BTLE
+- Wi-Fi
+- Camera
+- Bluetooth/BTLE
+layout: download
+manufacturer: Espressif
+name: ESP-EYE
+title: ESP-EYE Download
 ---
 
 Ever wanted to dabble in face and/or speech recognition? [Espressif's](https://www.espressif.com/) **ESP-EYE** is a miniature [ESP32-based](https://www.adafruit.com/?q=ESP32) development board that combines a digital microphone, ESP32 (of course) with 8 MB PSRAM and 4 MB flash, and a 2 megapixel camera. There's a few buttons and LEDs as well for basic control and configuration.

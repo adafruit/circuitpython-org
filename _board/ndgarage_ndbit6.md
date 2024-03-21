@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "ndgarage_ndbit6"
-title: "FeatherSnow Download"
-name: "FeatherSnow"
-manufacturer: "n°Garage"
-board_url:
- - "https://hackaday.io/project/168684-feathersnow"
-board_image: "ndgarage_ndbit6.jpg"
-date_added: 2020-2-5
-family: atmel-samd
-bootloader_id: ndbit6
-downloads_display: true
 blinka: false
-features:
+board_id: ndgarage_ndbit6
+board_image: ndgarage_ndbit6.jpg
+board_url:
+- https://hackaday.io/project/168684-feathersnow
+bootloader_id: ndbit6
+date_added: 2020-02-05 12:00:00
+downloads_display: true
+family: atmel-samd
+features: null
+layout: download
+manufacturer: n°Garage
+name: FeatherSnow
 tags:
- - Ndbit6
+- Ndbit6
+title: FeatherSnow Download
 ---
 
 FeatherSnow is a decoration easy to program. It works out of the box.

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "diodes_delight_piunora"
-title: "Piunora Download"
-name: "Piunora"
-manufacturer: "Diodes Delight"
-board_url:
- - "https://www.crowdsupply.com/diodes-delight/piunora"
-board_image: "diodes_delight_piunora.jpg"
-download_instructions:
-downloads_display: true
 blinka: true
-date_added: 2021-12-6
+board_id: diodes_delight_piunora
+board_image: diodes_delight_piunora.jpg
+board_url:
+- https://www.crowdsupply.com/diodes-delight/piunora
+date_added: 2021-12-06 12:00:00
+download_instructions: null
+downloads_display: true
 features:
-  - HDMI/DisplayPort
-  - Wi-Fi
-  - Bluetooth/BLE
-  - STEMMA QT/QWIIC
+- HDMI/DisplayPort
+- Wi-Fi
+- Bluetooth/BLE
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Diodes Delight
+name: Piunora
+title: Piunora Download
 ---
 
 Piunora is a compact, easy-to-use development board for electronics prototyping with Linux. It has a familiar form factor, legible pin labels, and a design that’s well suited to space-constrained applications.

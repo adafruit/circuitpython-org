@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "seeeduino_xiao_rp2040"
-title: "Seeed Studio XIAO RP2040 Download"
-name: "Seeed Studio XIAO RP2040"
-manufacturer: "Seeed Studio"
+board_id: seeeduino_xiao_rp2040
+board_image: seeeduino_xiao_rp2040.jpg
 board_url:
- - "https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html"
-board_image: "seeeduino_xiao_rp2040.jpg"
-date_added: 2022-1-4
+- https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
+date_added: 2022-01-04 12:00:00
 family: raspberrypi
 features:
-  - Breadboard-Friendly
-  - Xiao / QTPy Form Factor
-  - USB-C
+- Breadboard-Friendly
+- Xiao / QTPy Form Factor
+- USB-C
+layout: download
+manufacturer: Seeed Studio
+name: Seeed Studio XIAO RP2040
+title: Seeed Studio XIAO RP2040 Download
 ---
 
 Seeed Studio XIAO RP2040 is a microcontroller using the Raspberry RP2040 chip. It runs at up to 133 MHz, is built with rich interfaces in a tiny thumb size, and fully supports Arduino, MicroPython, and CircuitPython.

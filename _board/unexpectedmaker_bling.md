@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "unexpectedmaker_bling"
-title: "Unexpected Maker Bling Download"
-name: "Unexpected Maker Bling"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_bling
+board_image: unexpectedmaker_bling.jpg
 board_url:
- - "https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0"
-board_image: "unexpectedmaker_bling.jpg"
-date_added: 2023-11-15
+- https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0
+date_added: 2023-11-15 12:00:00
 family: esp32s3
-features:
+features: null
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker Bling
+title: Unexpected Maker Bling Download
 ---
 
 ### There are 3 versions of BLING!

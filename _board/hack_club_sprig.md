@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "hack_club_sprig"
-title: "Hack Club Sprig Download"
-name: "Hack Club Sprig"
-manufacturer: "Hack Club"
+board_id: hack_club_sprig
+board_image: hack_club_sprig.jpeg
 board_url:
- - "https://sprig.hackclub.com"
-board_image: "hack_club_sprig.jpeg"
-date_added: "2023-02-03"
+- https://sprig.hackclub.com
+date_added: 2023-02-03 12:00:00
 family: raspberrypi
 features:
-  - Display
-  - Speaker
+- Display
+- Speaker
+layout: download
+manufacturer: Hack Club
+name: Hack Club Sprig
+title: Hack Club Sprig Download
 ---
 
 The [Sprig](https://sprig.hackclub.com) is a handheld game console made by

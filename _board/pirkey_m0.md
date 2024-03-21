@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "pirkey_m0"
-title: "pIRkey Download"
-name: "pIRkey"
-manufacturer: "Adafruit"
+board_id: pirkey_m0
+board_image: pirkey_m0.jpg
 board_url:
- - "https://www.adafruit.com/product/3364"
-board_image: "pirkey_m0.jpg"
-date_added: 2019-3-11
-family: atmel-samd
+- https://www.adafruit.com/product/3364
 bootloader_id: pirkey
+date_added: 2019-03-11 12:00:00
+family: atmel-samd
+layout: download
+manufacturer: Adafruit
+name: pIRkey
+title: pIRkey Download
 ---
 
 The pIRkey adds an IR remote receiver to any computer, laptop, tablet...any computer or device with a USB port that can use a keyboard. This little board slides into any USB A port, and shows up as an every-day USB keyboard. The onboard ATSAMD21 microcontroller listens for IR remote signals and converts them to keypresses, mouse movements, or even USB serial output.

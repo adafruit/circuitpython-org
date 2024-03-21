@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "unexpectedmaker_feathers2_neo"
-title: "Unexpected Maker FeatherS2 Neo Download"
-name: "Unexpected Maker FeatherS2 Neo"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_feathers2_neo
+board_image: unexpectedmaker_feathers2_neo.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/feathers2neo-esp32s2"
- - "https://www.adafruit.com/product/5629"
-board_image: "unexpectedmaker_feathers2_neo.jpg"
-date_added: 2021-08-31
-family: esp32s2
+- https://unexpectedmaker.com/shop/feathers2neo-esp32s2
+- https://www.adafruit.com/product/5629
 bootloader_id: unexpectedmaker_feathers2_neo
+date_added: 2021-08-31 12:00:00
+family: esp32s2
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Wi-Fi
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Wi-Fi
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker FeatherS2 Neo
+title: Unexpected Maker FeatherS2 Neo Download
 ---
 
 Introducing the FeatherS2 Neo - The Blingy RGB ESP32-S2 based development board in a Feather format!

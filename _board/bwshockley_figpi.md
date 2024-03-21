@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "bwshockley_figpi"
-title: "FigPi Download"
-name: "FigPi"
-manufacturer: "Benjamin Shockley"
+board_id: bwshockley_figpi
+board_image: bwshockley_figpi.jpg
 board_url:
- - "https://minifigboards.com/fig-pi"
-board_image: "bwshockley_figpi.jpg"
-date_added: 2022-8-22
+- https://minifigboards.com/fig-pi
+date_added: 2022-08-22 12:00:00
 family: raspberrypi
 features:
-  - STEMMA QT/QWIIC
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Benjamin Shockley
+name: FigPi
+title: FigPi Download
 ---
 
 Fig Pi is a minifigure-sized development board based on the Raspberry Pi Foundation RP2040 Dual Cortex®-M0+ MCU running at 133Mhz with 16 I/O, one built-in LED around back, a 3x3 matrix of RGB LEDs, built-in Button, and an extra 2MB of memory. Additionally, the Fig Pi has STEMMA QT/Qwiic 4-pin JST SH connectors on the back that support two I2C ST QT/ QW connectors, an SPI connector, ADC connector, Digital connector, and a battery connector (2-pin JST SH).

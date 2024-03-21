@@ -1,26 +1,26 @@
 ---
-layout: download
-board_id: "adafruit_feather_rp2040_prop_maker"
-title: "Feather RP2040 Prop-Maker Download"
-name: "Feather RP2040 Prop-Maker"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_rp2040_prop_maker
+board_image: adafruit_feather_rp2040_prop_maker.jpg
 board_url:
- - "https://www.adafruit.com/product/5768"
-board_image: "adafruit_feather_rp2040_prop_maker.jpg"
-date_added: 2023-5-4
+- https://www.adafruit.com/product/5768
+date_added: 2023-05-04 12:00:00
 family: raspberrypi
-tags:
-  - Propmaker Feather
-  - Prop-Maker Feather
-  - Prop Maker
-  - Feather Propmaker
-  - Feather Prop-Maker
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather RP2040 Prop-Maker
+tags:
+- Propmaker Feather
+- Prop-Maker Feather
+- Prop Maker
+- Feather Propmaker
+- Feather Prop-Maker
+title: Feather RP2040 Prop-Maker Download
 ---
 
 The Adafruit Feather series gives you lots of options for a small, portable, rechargeable microcontroller board. By picking a feather and stacking on a FeatherWing you can create advanced projects quickly. One popular combo is our [Feather M4](https://www.adafruit.com/product/3857) or [Feather RP2040](https://www.adafruit.com/product/4884) with a [Prop-Maker FeatherWing](https://www.adafruit.com/product/3988) on top to create animatronics or props that boot up instantly and can drive LEDs, and small speakers.

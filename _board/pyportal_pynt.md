@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "pyportal_pynt"
-title: "PyPortal Pynt Download"
-name: "PyPortal Pynt"
-manufacturer: "Adafruit"
+board_id: pyportal_pynt
+board_image: pyportal_pynt.jpg
 board_url:
- - "https://www.adafruit.com/product/4465"
-board_image: "pyportal_pynt.jpg"
-date_added: 2019-12-11
-family: atmel-samd
+- https://www.adafruit.com/product/4465
 bootloader_id: pyportal_m4
+date_added: 2019-12-11 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Speaker
-  - Wi-Fi
+- Display
+- Speaker
+- Wi-Fi
+layout: download
+manufacturer: Adafruit
+name: PyPortal Pynt
+title: PyPortal Pynt Download
 ---
 
 The **PyPortal Pynt** is the little sister to our [popular PyPortal](https://www.adafruit.com/product/4116) - zapped with a shink ray to take the design from a 3.2" diagonal down to 2.4" diagonal screen - but otherwise the same! The PyPortal is our easy-to-use IoT device that allows you to create all the things for the “Internet of Things” in minutes. Make custom touch screen interface GUIs, all open-source, and Python-powered using tinyJSON / APIs to get news, stock, weather, cat photos, and more – all over Wi-Fi with the latest technologies. Create little pocket universes of joy that connect to something good. Rotate it 90 degrees, it’s a web-connected conference badge #badgelife.

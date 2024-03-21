@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "oxocard_artwork"
-title: "Oxocard Artwork Card Download"
-name: "Oxocard Artwork Card"
-manufacturer: "Oxocard"
+board_id: oxocard_artwork
+board_image: oxocard_artwork.jpg
 board_url:
- - "https://oxocard.ch/en/artwork/"
-board_image: "oxocard_artwork.jpg"
-date_added: 2023-11-15
+- https://oxocard.ch/en/artwork/
+date_added: 2023-11-15 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Display
-  - Speaker
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Display
+- Speaker
+layout: download
+manufacturer: Oxocard
+name: Oxocard Artwork Card
+title: Oxocard Artwork Card Download
 ---
 
 The Oxocard Artwork is an interactive, programmable minicomputer with powerful hardware in credit card format.

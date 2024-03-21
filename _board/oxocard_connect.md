@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "oxocard_connect"
-title: "Oxocard Connect Card Download"
-name: "Oxocard Connect Card"
-manufacturer: "Oxocard"
+board_id: oxocard_connect
+board_image: oxocard_connect.jpg
 board_url:
- - "https://oxocard.ch/en/connect/"
-board_image: "oxocard_connect.jpg"
-date_added: 2023-11-15
+- https://oxocard.ch/en/connect/
+date_added: 2023-11-15 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Display
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Display
+layout: download
+manufacturer: Oxocard
+name: Oxocard Connect Card
+title: Oxocard Connect Card Download
 ---
 
 The Oxocard Connect is a small experimental computer in which you can plug in ready-made or self-soldered circuit boards. As you know it from game consoles, it then goes off immediately.

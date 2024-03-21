@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "radxa_rock_3c"
-title: "Rock 3C Download"
-name: "Rock 3C"
-manufacturer: "Radxa Limited"
-board_url:
- - "https://wiki.radxa.com/Rock3/3c"
-board_image: "radxa_rock_3a.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2024-3-13
+board_id: radxa_rock_3c
+board_image: radxa_rock_3a.jpg
+board_url:
+- https://wiki.radxa.com/Rock3/3c
+date_added: 2024-03-13 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
+- Wi-Fi
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+layout: download
+manufacturer: Radxa Limited
+name: Rock 3C
+title: Rock 3C Download
 ---
 
 This is the documentation for ROCK 3 Model C, written by Radxa Team with community contributions.

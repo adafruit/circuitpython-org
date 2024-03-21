@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "beaglebone_black_wireless"
-title: "BeagleBone Black Wireless Download"
-name: "BeagleBone Black Wireless"
-manufacturer: "BeagleBoard"
-board_url:
- - "https://beagleboard.org/black-wireless"
-board_image: "beaglebone_black_wireless.jpg"
-downloads_display: true
 blinka: true
-date_added: 2020-3-25
+board_id: beaglebone_black_wireless
+board_image: beaglebone_black_wireless.jpg
+board_url:
+- https://beagleboard.org/black-wireless
+date_added: 2020-03-25 12:00:00
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - HDMI/DisplayPort
+- Wi-Fi
+- Bluetooth/BLE
+- HDMI/DisplayPort
+layout: download
+manufacturer: BeagleBoard
+name: BeagleBone Black Wireless
+title: BeagleBone Black Wireless Download
 ---
 
 Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the popular open source BeagleBone® Black computer now comes with built-in wireless networking capability. Leveraging a partnership with Octavo Systems and designed in CadSoft Eagle, BeagleBone® Black Wireless is the easiest to use and modify credit-card sized IoT Linux computer available.

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "tinkeringtech_scoutmakes_azul"
-title: "ScoutMakes Azul Download"
-name: "ScoutMakes Azul"
-manufacturer: "TinkeringTech"
+board_id: tinkeringtech_scoutmakes_azul
+board_image: scoutmakes_azul.jpg
 board_url:
- - "https://tinkeringtech.com/blog/scoutmakes-azul/"
- - "https://www.adafruit.com/product/4968"
-board_image: "scoutmakes_azul.jpg"
-date_added: 2020-07-27
+- https://tinkeringtech.com/blog/scoutmakes-azul/
+- https://www.adafruit.com/product/4968
+date_added: 2020-07-27 12:00:00
 family: nrf52840
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Display
-  - USB-C
+- Feather-Compatible
+- Battery Charging
+- Bluetooth/BTLE
+- Display
+- USB-C
+layout: download
+manufacturer: TinkeringTech
+name: ScoutMakes Azul
+title: ScoutMakes Azul Download
 ---
 
 The **ScoutMakes Azul** is an open source Bluetooth (BLE) development platform featuring the nRF52840 (32bit ARM Cortex-M4 processor) from Nordic semiconductors enabling excellent Bluetooth development capabilities for your project. It conforms to the Adafruit feather format, runs CircuitPython, Arduino. The platform also has native USB support.

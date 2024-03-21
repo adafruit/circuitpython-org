@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "raspberry_pi_zero"
-title: "Raspberry Pi Zero Download"
-name: "Zero"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/raspberry-pi-zero/"
-board_image: "raspberry_pi_zero.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-17
+board_id: raspberry_pi_zero
+board_image: raspberry_pi_zero.jpg
+board_url:
+- https://www.raspberrypi.com/products/raspberry-pi-zero/
+date_added: 2019-06-17 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
 - HDMI/DisplayPort
 - 40-pin GPIO
+layout: download
+manufacturer: Raspberry Pi
+name: Zero
+title: Raspberry Pi Zero Download
 ---
 
 At first glance, the Pi Zero isn't much.  It just looks like a slimmed down version of the Raspberry Pi we know and love.  But when we started to think of the possibilities - and what a well-chosen set of accessories could add - we realized the appeal.  And then we saw the price...could it be true? Yes!

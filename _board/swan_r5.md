@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "swan_r5"
-title: "Swan R5 Download"
-name: "Swan R5"
-manufacturer: "Blues Wireless"
+board_id: swan_r5
+board_image: swan_r5.jpg
 board_url:
- - "https://blues.io/products/swan"
-board_image: "swan_r5.jpg"
-date_added: 2021-9-29
+- https://blues.io/products/swan
+date_added: 2021-09-29 12:00:00
 family: stm
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Breadboard-Friendly
+layout: download
+manufacturer: Blues Wireless
+name: Swan R5
+title: Swan R5 Download
 ---
 
 Swan is a low-cost embeddable STM32L4-based microcontroller designed to accelerate the development and deployment of battery-powered solutions. It is especially useful for applications requiring large memory or a high degree of I/O expandability at an affordable cost, such as edge inferencing and remote monitoring.

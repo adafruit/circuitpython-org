@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "aramcon_badge_2019"
-title: "ARAMCON Badge 2019 Download"
-name: "ARAMCON Badge 2019"
-manufacturer: "ARAMCON Badge Team"
+board_id: aramcon_badge_2019
+board_image: aramcon_badge_2019.jpg
 board_url:
- - "https://github.com/aramcon-badge/"
-board_image: "aramcon_badge_2019.jpg"
-date_added: 2020-1-25
-family: nrf52840
+- https://github.com/aramcon-badge/
 bootloader_id: aramcon_badge_2019
+date_added: 2020-01-25 12:00:00
+family: nrf52840
 features:
-  - Display
-  - Bluetooth/BTLE
-  - Wi-Fi
+- Display
+- Bluetooth/BTLE
+- Wi-Fi
+layout: download
+manufacturer: ARAMCON Badge Team
+name: ARAMCON Badge 2019
+title: ARAMCON Badge 2019 Download
 ---
 
 nRF52840-Based Smart Badge with Bluetooth, Thread Mesh Network, 2.9" ePaper Display, Neopixels, built-in MP3 Sound decoder and more!

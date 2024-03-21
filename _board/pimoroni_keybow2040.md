@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "pimoroni_keybow2040"
-title: "Keybow 2040 Download"
-name: "Keybow 2040"
-manufacturer: "Pimoroni"
+board_id: pimoroni_keybow2040
+board_image: pimoroni_keybow2040.jpg
 board_url:
- - "https://shop.pimoroni.com/products/keybow-2040"
- - "https://www.adafruit.com/product/4144"
-board_image: "pimoroni_keybow2040.jpg"
-date_added: 2021-2-24
+- https://shop.pimoroni.com/products/keybow-2040
+- https://www.adafruit.com/product/4144
+date_added: 2021-02-24 12:00:00
 family: raspberrypi
 features:
-  - USB-C
+- USB-C
+layout: download
+manufacturer: Pimoroni
+name: Keybow 2040
+title: Keybow 2040 Download
 ---
 
 A luxe 16 key USB-C keyboard with tactile mechanical switches and fully customisable RGB lighting, ideal for custom macro pads, midi controllers and stream decks. RP2040 gives Keybow 2040 low latency input, zero boot time and a new, compact footprint.

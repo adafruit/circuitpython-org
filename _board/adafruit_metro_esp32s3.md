@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "adafruit_metro_esp32s3"
-title: " Metro ESP32-S3 Download"
-name: "Metro ESP32-S3"
-manufacturer: "Adafruit"
+board_id: adafruit_metro_esp32s3
+board_image: adafruit_metro_esp32s3.jpg
 board_url:
- - "https://www.adafruit.com/product/5500"
-board_image: "adafruit_metro_esp32s3.jpg"
-date_added: 2023-7-28
-family: esp32s3
+- https://www.adafruit.com/product/5500
 bootloader_id: adafruit_metro_esp32s3
+date_added: 2023-07-28 12:00:00
+family: esp32s3
 features:
-  - Wi-Fi
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Arduino Shield Compatible
+- Wi-Fi
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Arduino Shield Compatible
+layout: download
+manufacturer: Adafruit
+name: Metro ESP32-S3
+title: ' Metro ESP32-S3 Download'
 ---
 
 What's Metro-shaped and has an ESP32-S3 WiFi module? What has a STEMMA QT connector for I2C devices and a Lipoly charger circuit? What has your favorite Espressif WiFi microcontroller and lots of memory for your next IoT project?

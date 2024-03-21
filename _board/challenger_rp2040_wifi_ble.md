@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "challenger_rp2040_wifi_ble"
-title: "Challenger RP2040 WiFi/BLE Download"
-name: "Challenger RP2040 WiFi/BLE"
-manufacturer: "Invector Labs"
+board_id: challenger_rp2040_wifi_ble
+board_image: challenger_rp2040_wifi_ble.jpg
 board_url:
- - "https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/"
-board_image: "challenger_rp2040_wifi_ble.jpg"
-date_added: 2022-10-6
+- https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/
+date_added: 2022-10-06 12:00:00
 family: raspberrypi
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - USB-C
-  - Breadboard-Friendly
-  - Feather-Compatible
-  - Battery Charging
+- Wi-Fi
+- Bluetooth/BTLE
+- USB-C
+- Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+layout: download
+manufacturer: Invector Labs
+name: Challenger RP2040 WiFi/BLE
+title: Challenger RP2040 WiFi/BLE Download
 ---
 
 The Challenger RP2040 WiFi/BLE is an Arduino/Micropython compatible Adafruit Feather format micro controller board based on the Raspberry Pico chip, equipped with an WiFi/BLE chip that provides both WiFi as well as BLE functionality on the board.
@@ -32,4 +32,3 @@ The ESP32-C3 device comes pre loaded with the ESP-AT interpreter already program
 
 * [Invector Labs (Chip Antenna)](https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/)
 * [Invector Labs (U.FL Connector)](https://ilabs.se/product/challenger-rp2040-wifi-ble-with-u-fl-connector/)
-

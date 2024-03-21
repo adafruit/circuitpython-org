@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "feather_m4_express"
-title: "Feather M4 Express Download"
-name: "Feather M4 Express"
-manufacturer: "Adafruit"
+board_id: feather_m4_express
+board_image: feather_m4_express.jpg
 board_url:
- - "https://www.adafruit.com/product/3857"
- - "https://www.adafruit.com/product/4352"
-board_image: "feather_m4_express.jpg"
-date_added: 2019-3-8
-family: atmel-samd
+- https://www.adafruit.com/product/3857
+- https://www.adafruit.com/product/4352
 bootloader_id: feather_m4
+date_added: 2019-03-08 12:00:00
+family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather M4 Express
+title: Feather M4 Express Download
 ---
 
 This feather is powered by the ATSAMD51J19 -  with its 120 MHz Cortex M4 with floating point support and 512 KB Flash and 192 KB RAM. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "waveshare_rp2040_lcd_0_96"
-title: "Waveshare RP2040-LCD-0.96 Download"
-name: "RP2040-LCD-0.96"
-manufacturer: "Waveshare"
+board_id: waveshare_rp2040_lcd_0_96
+board_image: waveshare_rp2040_lcd_0_96.jpg
 board_url:
- - "https://www.waveshare.com/rp2040-lcd-0.96.htm"
-board_image: "waveshare_rp2040_lcd_0_96.jpg"
-date_added: 2023-4-7
+- https://www.waveshare.com/rp2040-lcd-0.96.htm
+date_added: 2023-04-07 12:00:00
 downloads_display: true
 family: raspberrypi
 features:
-  - Battery Charging
-  - Breadboard-Friendly
-  - Display
-  - USB-C
+- Battery Charging
+- Breadboard-Friendly
+- Display
+- USB-C
+layout: download
+manufacturer: Waveshare
+name: RP2040-LCD-0.96
+title: Waveshare RP2040-LCD-0.96 Download
 ---
 
 RP2040-LCD-0.96 is a low-cost, high-performance Pico-like MCU board with flexible digital interfaces. It incorporates Raspberry Pi's RP2040 microcontroller chip, as same as the one on Raspberry Pi Pico. For software development, either Raspberry Pi's C/C++ SDK, or the MicroPython is available, which makes it easy for you to get started, and integrate it into end products quickly.

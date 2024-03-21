@@ -1,20 +1,19 @@
 ---
-layout: download
-board_id: "seeeduino_xiao_kb"
-title: "Seeeduino XIAO Download"
-name: "Seeeduino XIAO - Keyboard Optimized"
-manufacturer: "Seeed Studio"
+board_id: seeeduino_xiao_kb
+board_image: seeeduino_xiao.jpg
 board_url:
- - "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
-board_image: "seeeduino_xiao.jpg"
-date_added: 2021-10-08
-family: atmel-samd
+- https://wiki.seeedstudio.com/Seeeduino-XIAO/
 bootloader_id: XIAO_m0
-
+date_added: 2021-10-08 12:00:00
+family: atmel-samd
 features:
-  - USB-C
-  - Breadboard-Friendly
-  - Xiao / QTPy Form Factor
+- USB-C
+- Breadboard-Friendly
+- Xiao / QTPy Form Factor
+layout: download
+manufacturer: Seeed Studio
+name: Seeeduino XIAO - Keyboard Optimized
+title: Seeeduino XIAO Download
 ---
 
 # Keyboard Optimized

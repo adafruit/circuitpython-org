@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "stm32f412zg_discovery"
-title: "STM32F412 Discovery kit Download"
-name: "STM32F412 Discovery kit"
-manufacturer: "ST"
+board_id: stm32f412zg_discovery
+board_image: stm32f412.jpg
 board_url:
- - "https://www.st.com/en/evaluation-tools/32f412gdiscovery.html"
-board_image: "stm32f412.jpg"
-date_added: 2019-9-16
+- https://www.st.com/en/evaluation-tools/32f412gdiscovery.html
+date_added: 2019-09-16 12:00:00
 family: stm
 features:
-  - Display
+- Display
+layout: download
+manufacturer: ST
+name: STM32F412 Discovery kit
+title: STM32F412 Discovery kit Download
 ---
 
 The STM32F412 Discovery kit (32F412GDISCOVERY) allows users to easily develop applications with the STM32F412 high performance MCUs with ARM® Cortex®-M4 core.

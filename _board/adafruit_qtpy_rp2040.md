@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "adafruit_qtpy_rp2040"
-title: "QT Py RP2040 Download"
-name: "QT Py RP2040"
-manufacturer: "Adafruit"
+board_id: adafruit_qtpy_rp2040
+board_image: adafruit_qtpy_rp2040.jpg
 board_url:
- - "https://www.adafruit.com/product/4900"
-board_image: "adafruit_qtpy_rp2040.jpg"
-date_added: 2021-4-6
+- https://www.adafruit.com/product/4900
+date_added: 2021-04-06 12:00:00
 family: raspberrypi
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
-  - Xiao / QTPy Form Factor
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+- Xiao / QTPy Form Factor
+layout: download
+manufacturer: Adafruit
+name: QT Py RP2040
+title: QT Py RP2040 Download
 ---
 
 What a cutie pie! Or is it... a QT Py? This diminutive dev board comes with one of our new favorite chip, the RP2040. It's been made famous in the new [Raspberry Pi Pico](https://www.adafruit.com/pico) *and* our [Feather RP2040](http://www.adafruit.com/product/4884) and [ItsyBitsy RP2040](http://www.adafruit.com/product/4888), but what if we wanted something really *smol?*

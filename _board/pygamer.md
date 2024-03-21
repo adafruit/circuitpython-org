@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "pygamer"
-title: "PyGamer Download"
-name: "PyGamer"
-manufacturer: "Adafruit"
+board_id: pygamer
+board_image: pygamer.jpg
 board_url:
- - "https://www.adafruit.com/product/4242"
- - "https://www.adafruit.com/product/4185"
- - "https://www.adafruit.com/product/4277"
-board_image: "pygamer.jpg"
-date_added: 2019-5-25
-family: atmel-samd
+- https://www.adafruit.com/product/4242
+- https://www.adafruit.com/product/4185
+- https://www.adafruit.com/product/4277
 bootloader_id: arcade_pygamer
+date_added: 2019-05-25 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Speaker
-  - Feather-Compatible
-  - Battery Charging
+- Display
+- Speaker
+- Feather-Compatible
+- Battery Charging
+layout: download
+manufacturer: Adafruit
+name: PyGamer
+title: PyGamer Download
 ---
 
 The Adafruit PyGamer is an entry-level gaming handheld for DIY gaming and maybe a little retro-emulation, all in one compact dev board.

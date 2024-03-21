@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "neopixel_trinkey_m0"
-title: "Neo Trinkey - SAMD21 Download"
-name: "Neo Trinkey - SAMD21"
-manufacturer: "Adafruit"
+board_id: neopixel_trinkey_m0
+board_image: neopixel_trinkey_m0.jpg
 board_url:
- - "https://www.adafruit.com/product/4870"
-board_image: "neopixel_trinkey_m0.jpg"
-date_added: 2021-4-6
-family: atmel-samd
+- https://www.adafruit.com/product/4870
 bootloader_id: neopixel_trinkey_m0
-features:
-
+date_added: 2021-04-06 12:00:00
+family: atmel-samd
+features: null
+layout: download
+manufacturer: Adafruit
+name: Neo Trinkey - SAMD21
+title: Neo Trinkey - SAMD21 Download
 ---
 
 It's half USB Key, half Adafruit Trinket*...*it's **Neo Trinkey**, the circuit board with a Trinket M0 heart and four RGB NeoPixels for customizable glow. We were inspired by some USB key flashlight boards that would turn any battery pack into an LED torch. So we thought, hey what if we made something like that but with fully programmable color NeoPixels? And this is what we came up with!

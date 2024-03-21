@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "radxa_zero"
-title: "Radxa Zero Download"
-name: "Radxa Zero"
-manufacturer: "Radxa"
-board_url:
- - "https://wiki.radxa.com/Zero"
-board_image: "radxa_zero.jpg"
-downloads_display: true
 blinka: true
-date_added: "2022-6-2"
+board_id: radxa_zero
+board_image: radxa_zero.jpg
+board_url:
+- https://wiki.radxa.com/Zero
+date_added: 2022-06-02 12:00:00
+downloads_display: true
 features:
-  - HDMI/DisplayPort
-  - Wi-Fi
-  - Bluetooth/BLE
-  - USB 3.0
-  - 40-pin GPIO
+- HDMI/DisplayPort
+- Wi-Fi
+- Bluetooth/BLE
+- USB 3.0
+- 40-pin GPIO
+layout: download
+manufacturer: Radxa
+name: Radxa Zero
+title: Radxa Zero Download
 ---
 
 Radxa Zero is an ultra thin SBC in small form factor with powerful performance based on Amlogic S905Y2. It can run Android and selected Linux distributions.

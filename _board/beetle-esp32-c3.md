@@ -1,24 +1,24 @@
 ---
-layout: download
-board_id: "beetle-esp32-c3"
-title: "DFRobot Beetle ESP32-C3 Download"
-name: "DFRobot Beetle ESP32-C3"
-manufacturer: "DFRobot"
-board_url:
- - "https://wiki.dfrobot.com/SKU_DFR0868_Beetle_ESP32_C3"
-board_image: "beetle-esp32-c3.png"
-date_added: 2022-07-17
-downloads_display: true
 blinka: false
-family: esp32c3
+board_id: beetle-esp32-c3
+board_image: beetle-esp32-c3.png
+board_url:
+- https://wiki.dfrobot.com/SKU_DFR0868_Beetle_ESP32_C3
 bootloader_id: lolin_c3_mini
+date_added: 2022-07-17 12:00:00
+downloads_display: true
+family: esp32c3
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - External Display
-  - USB-C
-  - Wi-Fi
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- External Display
+- USB-C
+- Wi-Fi
+layout: download
+manufacturer: DFRobot
+name: DFRobot Beetle ESP32-C3
+title: DFRobot Beetle ESP32-C3 Download
 ---
 
 Beetle ESP32-C3, mainly intended for IoT applications, is a controller based on

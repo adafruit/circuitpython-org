@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "jetson_xavier"
-title: "Jetson AGX Xavier Dev Kit"
-name: "Jetson AGX Xavier Dev Kit"
-manufacturer: "NVIDIA"
-board_url:
- - "https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit"
-board_image: "jetson_xavier.jpg"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
+board_id: jetson_xavier
+board_image: jetson_xavier.jpg
+board_url:
+- https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit
+date_added: 2019-12-03 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - USB 3.0
-  - 40-pin GPIO
+- Ethernet
+- HDMI/DisplayPort
+- USB 3.0
+- 40-pin GPIO
+layout: download
+manufacturer: NVIDIA
+name: Jetson AGX Xavier Dev Kit
+title: Jetson AGX Xavier Dev Kit
 ---
 
 With the NVIDIA Jetson AGX Xavier developer kit, you can easily create and deploy end-to-end AI robotics applications for manufacturing, delivery, retail, agriculture, and more.

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "m5stack_timer_camera_x"
-title: "M5Stack Timer Camera X Download"
-name: "M5Stack Timer Camera X"
-manufacturer: "M5Stack"
+board_id: m5stack_timer_camera_x
+board_image: m5stack_timer_camera_x.jpg
 board_url:
- - "https://docs.m5stack.com/en/unit/timercam_x"
- - "https://www.adafruit.com/product/4959"
-board_image: "m5stack_timer_camera_x.jpg"
-date_added: 2023-5-22
+- https://docs.m5stack.com/en/unit/timercam_x
+- https://www.adafruit.com/product/4959
+date_added: 2023-05-22 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Camera
-  - Battery Charging
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Camera
+- Battery Charging
+layout: download
+manufacturer: M5Stack
+name: M5Stack Timer Camera X
+title: M5Stack Timer Camera X Download
 ---
 
 M5Stack's Timer Camera X is an all-in-one camera module based on ESP32, integrated with ESP32 chip and has 8M PSRAM. Why so much PSRAM? Well, the camera can shoot up to 2048x1536 resolution photos(!). The module also comes with a built-in 140mAh battery and LED status indicator. There is a reset button under the LED.

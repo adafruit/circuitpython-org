@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "muselab_nanoesp32_s2_wrover"
-title: "NanoESP32 S2 w/WROVER Download"
-name: "NanoESP32 S2 w/WROVER"
-manufacturer: "Muselab"
+board_id: muselab_nanoesp32_s2_wrover
+board_image: muselab_nanoesp32_s2.jpg
 board_url:
- - "https://www.muselab-tech.com/nanoesp32-s2kai-fa-ban/"
-board_image: "muselab_nanoesp32_s2.jpg"
-date_added: 2020-09-16
-family: esp32s2
+- https://www.muselab-tech.com/nanoesp32-s2kai-fa-ban/
 bootloader_id: muselab_nanoesp32-s2_wrover
+date_added: 2020-09-16 12:00:00
+family: esp32s2
 features:
-  - USB-C
-  - Wi-Fi
-  - Breadboard-Friendly
+- USB-C
+- Wi-Fi
+- Breadboard-Friendly
+layout: download
+manufacturer: Muselab
+name: NanoESP32 S2 w/WROVER
+title: NanoESP32 S2 w/WROVER Download
 ---
 
 This is the nanoESP32-S2 board with a WROVER ESP32-S2 module.

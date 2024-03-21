@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "m5stack_m5paper"
-title: "M5Paper ESP32 Dev Kit Download"
-name: "M5Paper ESP32 Dev Kit"
-manufacturer: "M5Stack"
+board_id: m5stack_m5paper
+board_image: m5stack_m5paper.jpg
 board_url:
- - "https://docs.m5stack.com/en/core/m5paper"
-board_image: "m5stack_m5paper.jpg"
-date_added: 2023-10-27
-family: esp32s3
+- https://docs.m5stack.com/en/core/m5paper
 bootloader_id: m5stack_m5paper
+date_added: 2023-10-27 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Display
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Display
+layout: download
+manufacturer: M5Stack
+name: M5Paper ESP32 Dev Kit
+title: M5Paper ESP32 Dev Kit Download
 ---
 
 **M5Paper** is M5Stacks latest core device with a touch enabled E-ink display. Powered by the ESP32-D0WDQ6-V3 this is our first device to integrate a super sized 540*960 @4.7" E-ink display,which supports 16 gray scale levels. The display is a GT911 capacitive touch screen,which supports two point touch and a variety of gesture controls . Compared to a regular LCD,E-ink displays are easier on the eyes, which makes them a great choice for reading or viewing for longer periods. Other benefits are the low power consumption and the ability to retain the image even if power to the display is terminated. Integrated in the CoreInk are an multi-function button for operation, SHT30 temperature and moisture sensor, physical buttons and an TF-card(microSD) port for data storage.

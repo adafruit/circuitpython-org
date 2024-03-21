@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "arduino_nano_33_ble"
-title: "NANO 33 BLE Download"
-name: "NANO 33 BLE"
-manufacturer: "Arduino"
+board_id: arduino_nano_33_ble
+board_image: arduino_nano_33_ble.jpg
 board_url:
- - "https://www.arduino.cc/en/Guide/NANO33BLE"
-board_image: "arduino_nano_33_ble.jpg"
-date_added: 2019-10-26
-family: nrf52840
+- https://www.arduino.cc/en/Guide/NANO33BLE
 bootloader_id: arduino_nano_33_ble
+date_added: 2019-10-26 12:00:00
+family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Arduino
+name: NANO 33 BLE
+title: NANO 33 BLE Download
 ---
 
 Please note that the pictured board is a Nano 33 BLE Sense. This build works with both the Nano 33 BLE and the Sense.

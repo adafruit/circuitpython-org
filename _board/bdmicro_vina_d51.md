@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "bdmicro_vina_d51"
-title: "Vina-D51 Download"
-name: "VINA-D51"
-manufacturer: "BDMICRO, LLC"
+board_id: bdmicro_vina_d51
+board_image: bdmicro_vina_d51.jpg
 board_url:
- - "https://bdmicro.com/products/vina-d51"
-board_image: "bdmicro_vina_d51.jpg"
-date_added: 2020-10-16
+- https://bdmicro.com/products/vina-d51
+date_added: 2020-10-16 12:00:00
 family: atmel-samd
 features:
-  - Wi-Fi
+- Wi-Fi
+layout: download
+manufacturer: BDMICRO, LLC
+name: VINA-D51
+title: Vina-D51 Download
 ---
 
 The VINA-D51 is a powerful, robust, pluggable control module designed for modular control applications, even in harsh environments. Built with all-industrial grade components, latching connectors and features, it is well-suited for a wide variety of automation and control applications.

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "solderparty_bbq20kbd"
-title: "BB Q20 Keyboard with trackpad Download"
-name: "BB Q20 Keyboard with trackpad"
-manufacturer: "Solder Party"
-board_url:
- - "https://www.solder.party/docs/bbq20kbd/"
-board_image: "solderparty_bbq20kbd.jpg"
-date_added: 2022-08-20
-family: raspberrypi
-bootloader_id: solderparty__bbq20kbd
-downloads_display: true
 blinka: false
-download_instructions: ""
+board_id: solderparty_bbq20kbd
+board_image: solderparty_bbq20kbd.jpg
+board_url:
+- https://www.solder.party/docs/bbq20kbd/
+bootloader_id: solderparty__bbq20kbd
+date_added: 2022-08-20 12:00:00
+download_instructions: ''
+downloads_display: true
+family: raspberrypi
 features:
-  - USB-C
-  - STEMMA QT/QWIIC
+- USB-C
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Solder Party
+name: BB Q20 Keyboard with trackpad
+title: BB Q20 Keyboard with trackpad Download
 ---
 
 A BB Q20 Keyboard in USB/PMOD/Qwiic format with a injection molded clear plastic case.

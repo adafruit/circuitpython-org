@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "lilygo_ttgo_tdisplay_esp32_4m"
-title: "TTGO T-Display ESP32 4M Download"
-name: "TTGO T-Display ESP32 4M"
-manufacturer: "LILYGO"
+board_id: lilygo_ttgo_tdisplay_esp32_4m
+board_image: lilygo_ttgo_tdisplay_esp32_4m.jpg
 board_url:
-  - "https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board?variant=42159376433333"
-board_image: "lilygo_ttgo_tdisplay_esp32_4m.jpg"
-date_added: 2024-1-18
+- https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board?variant=42159376433333
+date_added: 2024-01-18 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - Display
-  - Battery Charging
-  - USB-C
-  - Breadboard-Friendly
+- Wi-Fi
+- Display
+- Battery Charging
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: LILYGO
+name: TTGO T-Display ESP32 4M
+title: TTGO T-Display ESP32 4M Download
 ---
 
 A basic development board with LCD, and a built-in ESP32 chip as master control, supports daily entry-level programming.

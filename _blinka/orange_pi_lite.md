@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "orange_pi_lite"
-title: "Orange Pi Lite Download"
-name: "Orange Pi Lite"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/orangepilite/"
-board_image: "orange_pi_lite.png"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2020-1-18
+board_id: orange_pi_lite
+board_image: orange_pi_lite.png
+board_url:
+- http://www.orangepi.org/orangepilite/
+date_added: 2020-01-18 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi Lite
+title: Orange Pi Lite Download
 ---
 
 What's Orange Pi Lite？

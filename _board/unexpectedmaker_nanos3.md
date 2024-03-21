@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "unexpectedmaker_nanos3"
-title: "Unexpected Maker NanoS3 Download"
-name: "Unexpected Maker NanoS3"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_nanos3
+board_image: unexpectedmaker_nanos3.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/nanos3"
-board_image: "unexpectedmaker_nanos3.jpg"
-date_added: 2023-6-26
-family: esp32s3
+- https://unexpectedmaker.com/shop/nanos3
 bootloader_id: unexpectedmaker_nanos3
+date_added: 2023-06-26 12:00:00
+family: esp32s3
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Wi-Fi
+- Battery Charging
+- Bluetooth/BTLE
+- Wi-Fi
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker NanoS3
+title: Unexpected Maker NanoS3 Download
 ---
 
 Introducing the NanoS3 - The world’s smallest, fully-featured ESP32-S3 board in module form!

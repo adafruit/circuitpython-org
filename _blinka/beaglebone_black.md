@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "beaglebone_black"
-title: "BeagleBone Black Download"
-name: "BeagleBone Black"
-manufacturer: "BeagleBoard"
-board_url:
- - "https://beagleboard.org/black"
-board_image: "beaglebone_black.jpg"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
+board_id: beaglebone_black
+board_image: beaglebone_black.jpg
+board_url:
+- https://beagleboard.org/black
+date_added: 2019-12-03 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
+- Ethernet
+- HDMI/DisplayPort
+layout: download
+manufacturer: BeagleBoard
+name: BeagleBone Black
+title: BeagleBone Black Download
 ---
 
 If you liked the BeagleBone Black Rev B, you will love the Rev C! The Rev C has a blistering 1GHz AM3358 processor and 512MB onboard DDR3 RAM, two 46-pin headers, micro HDMI for audio/video output, USB ports, 10/100 Ethernet and other I/O features. The Rev C is an ultra-powered embedded computer that can fit in a mint tin.

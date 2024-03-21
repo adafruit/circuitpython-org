@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "raspberry_pi_1bplus"
-title: "Raspberry Pi 1 Model B+ Download"
-name: "Pi 1 Model B+"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/"
-board_image: "raspberry_pi_1bplus.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-17
+board_id: raspberry_pi_1bplus
+board_image: raspberry_pi_1bplus.jpg
+board_url:
+- https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/
+date_added: 2019-06-17 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Raspberry Pi
+name: Pi 1 Model B+
+title: Raspberry Pi 1 Model B+ Download
 ---
 
 The Model B+ is the final revision of the original Raspberry Pi. It replaced the Model B in July 2014 and was superseded by the Raspberry Pi 2 Model B

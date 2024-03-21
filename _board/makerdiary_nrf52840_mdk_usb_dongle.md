@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "makerdiary_nrf52840_mdk_usb_dongle"
-title: "nRF52840 Micro Dev Kit USB Dongle Download"
-name: "nRF52840 Micro Dev Kit USB Dongle"
-manufacturer: "MakerDiary"
+board_id: makerdiary_nrf52840_mdk_usb_dongle
+board_image: nRF52840_micro_dev_kit_usb_dongle.jpg
 board_url:
- - "https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-usb-dongle"
-board_image: "nRF52840_micro_dev_kit_usb_dongle.jpg"
-date_added: 2019-3-9
-family: nrf52840
+- https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-usb-dongle
 bootloader_id: mdk_nrf52840_dongle
+date_added: 2019-03-09 12:00:00
+family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: MakerDiary
+name: nRF52840 Micro Dev Kit USB Dongle
+title: nRF52840 Micro Dev Kit USB Dongle Download
 ---
 
 The nRF52840 Micro Dev Kit USB Dongle is a small and low-cost development platform enabled by the nRF52840 multi-protocol SoC in a convenient USB dongle form factor.

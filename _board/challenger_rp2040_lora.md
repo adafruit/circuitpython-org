@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "challenger_rp2040_lora"
-title: "Challenger RP2040 LoRa Download"
-name: "Challenger RP2040 LoRa"
-manufacturer: "Invector Labs"
+board_id: challenger_rp2040_lora
+board_image: challenger_rp2040_lora.jpg
 board_url:
- - "https://www.tindie.com/products/invector/challenger-rp2040-lora-915mhz/"
- - "https://thepihut.com/products/challenger-rp2040-lora-868mhz"
-board_image: "challenger_rp2040_lora.jpg"
-date_added: 2022-6-9
+- https://www.tindie.com/products/invector/challenger-rp2040-lora-915mhz/
+- https://thepihut.com/products/challenger-rp2040-lora-868mhz
+date_added: 2022-06-09 12:00:00
 family: raspberrypi
 features:
-  - LoRa/Radio
-  - Battery Charging
-  - Feather-Compatible
-  - USB-C
-  - Breadboard-Friendly
+- LoRa/Radio
+- Battery Charging
+- Feather-Compatible
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Invector Labs
+name: Challenger RP2040 LoRa
+title: Challenger RP2040 LoRa Download
 ---
 
 The iLabs Challenger RP2040 LoRa is a small embedded computer equipped with a LoRa modem module on board, in the popular [Adafruit Feather form factor](https://www.adafruit.com/?q=feather). It is based on an RP2040 microcontroller from Raspberry Pi which is a dual-core Cortex M0 that can run on a clock up to 133MHz.

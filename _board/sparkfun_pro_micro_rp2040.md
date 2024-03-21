@@ -1,19 +1,20 @@
 ---
-layout: download
-board_id: "sparkfun_pro_micro_rp2040"
-title: "Pro Micro - RP2040 Download"
-name: "Pro Micro - RP2040"
-manufacturer: "SparkFun"
+board_id: sparkfun_pro_micro_rp2040
+board_image: sparkfun_pro_micro_rp2040.jpg
 board_url:
- - "https://www.sparkfun.com/products/17717"
-board_image: "sparkfun_pro_micro_rp2040.jpg"
-date_added: 2021-4-6
+- https://www.sparkfun.com/products/17717
+date_added: 2021-04-06 12:00:00
 family: raspberrypi
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: SparkFun
+name: Pro Micro - RP2040
+title: Pro Micro - RP2040 Download
 ---
+
 The SparkFun Pro Micro RP2040 is a low-cost, high performance board with flexible digital interfaces featuring the Raspberry Pi Foundation's RP2040 microcontroller. Besides the good 'ol Pro Micro footprint, the board also includes a WS2812B addressable LED, boot button, reset button, Qwiic connector, USB-C, resettable PTC fuse, and castellated pads.
 
 The RP2040 utilizes dual ARM Cortex-M0+ processors (up to 133MHz) and features:

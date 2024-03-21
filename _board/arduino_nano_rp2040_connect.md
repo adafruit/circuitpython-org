@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "arduino_nano_rp2040_connect"
-title: "Nano RP2040 Connect Download"
-name: "Nano RP2040 Connect"
-manufacturer: "Arduino"
+board_id: arduino_nano_rp2040_connect
+board_image: arduino_nano_rp2040_connect.jpg
 board_url:
- - "https://store.arduino.cc/usa/nano-rp2040-connect-with-headers"
-board_image: "arduino_nano_rp2040_connect.jpg"
-date_added: 2021-5-24
+- https://store.arduino.cc/usa/nano-rp2040-connect-with-headers
+date_added: 2021-05-24 12:00:00
 family: raspberrypi
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Arduino
+name: Nano RP2040 Connect
+title: Nano RP2040 Connect Download
 ---
 
 Meet the first connected RP2040 board. It fits the Arduino Nano form factor, making it a small board with BIG features.

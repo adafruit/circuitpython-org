@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "snekboard"
-title: "Snekboard Download"
-name: "Snekboard"
-manufacturer: "keithp.com"
+board_id: snekboard
+board_image: snekboard.jpg
 board_url:
- - "https://keithp.com/snek/snekboard"
-board_image: "snekboard.jpg"
-date_added: 2019-7-30
-family: atmel-samd
+- https://keithp.com/snek/snekboard
 bootloader_id: snekboard
+date_added: 2019-07-30 12:00:00
+family: atmel-samd
 features:
-  - Battery Charging
+- Battery Charging
+layout: download
+manufacturer: keithp.com
+name: Snekboard
+title: Snekboard Download
 ---
 
 Snekboard is designed to hook up to Lego Power Functions motors and

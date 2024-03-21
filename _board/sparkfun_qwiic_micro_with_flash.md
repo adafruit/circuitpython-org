@@ -1,18 +1,19 @@
 ---
-layout: download
-board_id: "sparkfun_qwiic_micro_with_flash"
-title: "Qwiic Micro with Flash Download"
-name: "Qwiic Micro with Flash"
-manufacturer: "SparkFun"
+board_id: sparkfun_qwiic_micro_with_flash
+board_image: sparkfun_qwiic_micro.jpg
 board_url:
- - "https://www.sparkfun.com/products/15423"
-board_image: "sparkfun_qwiic_micro.jpg"
-date_added: 2019-11-4
+- https://www.sparkfun.com/products/15423
+date_added: 2019-11-04 12:00:00
 family: atmel-samd
 features:
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+layout: download
+manufacturer: SparkFun
+name: Qwiic Micro with Flash
+title: Qwiic Micro with Flash Download
 ---
+
 The **SparkFun Qwiic Micro** is an _1 x 1 inch_ microcontroller made for the [Qwiic Eco-system](https://sparkfun.com/qwiic).
 It's SparkFun's smallest microcontroller to date that's made for integrating into small projects.
 Onboard is the Atmel ATSAMD21E18 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz.

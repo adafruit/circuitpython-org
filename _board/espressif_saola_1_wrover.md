@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "espressif_saola_1_wrover"
-title: "Saola 1 w/WROVER Download"
-name: "Saola 1 w/WROVER"
-manufacturer: "Espressif"
+board_id: espressif_saola_1_wrover
+board_image: espressif_saola_1_wrover.jpg
 board_url:
- - "https://www.adafruit.com/product/4693"
-board_image: "espressif_saola_1_wrover.jpg"
-date_added: 2020-05-15
-family: esp32s2
+- https://www.adafruit.com/product/4693
 bootloader_id: espressif_saola_1_wrover
+date_added: 2020-05-15 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
-  - Breadboard-Friendly
+- Wi-Fi
+- Breadboard-Friendly
+layout: download
+manufacturer: Espressif
+name: Saola 1 w/WROVER
+title: Saola 1 w/WROVER Download
 ---
 
 **ESP32-S2 Saola-1** is a small-sized ESP32-S2 based development board produced by Espressif. Just about all of the I/O pins are broken out to the pin headers on both sides for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S2 Saola-1 on a breadboard - we recommend two breadboards 'side-by-side' since the Saola is a bit wide and you won't have extra holes on one side for wiring.

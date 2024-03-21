@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "aramcon2_badge"
-title: "ARAMCON2 Badge Download"
-name: "ARAMCON2 Badge"
-manufacturer: "ARAMCON Badge Team"
-board_url:
- - "https://github.com/aramcon-badge/"
-board_image: "aramcon2_badge.jpg"
-date_added: 2021-4-14
-family: nrf52840
-bootloader_id: aramcon2_badge
-downloads_display: true
 blinka: false
-download_instructions: ""
+board_id: aramcon2_badge
+board_image: aramcon2_badge.jpg
+board_url:
+- https://github.com/aramcon-badge/
+bootloader_id: aramcon2_badge
+date_added: 2021-04-14 12:00:00
+download_instructions: ''
+downloads_display: true
+family: nrf52840
 features:
-  - Display
-  - Bluetooth/BTLE
+- Display
+- Bluetooth/BTLE
+layout: download
+manufacturer: ARAMCON Badge Team
+name: ARAMCON2 Badge
+title: ARAMCON2 Badge Download
 ---
 
 nRF52840-Based Smart Badge with Bluetooth, 2.9" ePaper Display, Neopixels, SAO support, and more!

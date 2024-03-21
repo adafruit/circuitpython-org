@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "m5stack_cardputer"
-title: "M5Stack CardPuter - M5StampS3 powered mini computer Download"
-name: "M5Stack CardPuter - M5StampS3 powered mini computer"
-manufacturer: "M5Stack"
+board_id: m5stack_cardputer
+board_image: m5stack_cardputer.jpg
 board_url:
- - "https://docs.m5stack.com/en/core/Cardputer"
-board_image: "m5stack_cardputer.jpg"
-date_added: 2024-3-10
-family: esp32s3
+- https://docs.m5stack.com/en/core/Cardputer
 bootloader_id: adafruit_feather_esp32s3_nopsram
+date_added: 2024-03-10 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Speaker
-  - Battery Charging
-  - Display
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
+- Speaker
+- Battery Charging
+- Display
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+layout: download
+manufacturer: M5Stack
+name: M5Stack CardPuter - M5StampS3 powered mini computer
+title: M5Stack CardPuter - M5StampS3 powered mini computer Download
 ---
 
 Cardputer is a card-sized portable computer that is perfect for engineers. At the heart of Cardputer is the M5StampS3, a mini development board based on the ESP32-S3 chip. Cardputer features a powerful dual-core processor, supports Wi-Fi functionality and integrates various peripherals and sensors, making it ideal for rapid functional verification, industrial control and home automation systems.

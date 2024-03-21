@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "datum_imu"
-title: "datum-IMU Download"
-name: "datum-IMU"
-manufacturer: "J&J Studios"
+board_id: datum_imu
+board_image: datum_imu.jpg
 board_url:
- - "https://jandjstudios.io/datum/datum-IMU/"
-board_image: "datum_imu.jpg"
-date_added: 2019-7-12
+- https://jandjstudios.io/datum/datum-IMU/
+date_added: 2019-07-12 12:00:00
 family: atmel-samd
 features:
-  - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: J&J Studios
+name: datum-IMU
+title: datum-IMU Download
 ---
 
 The datum-IMU sensor combines the same SAMD21G18 microcontroller used on the Arduino Zero with the LSM9DS1 IMU sensor from ST Microelectronics to create the simplest, easiest to use IMU sensor for your application.

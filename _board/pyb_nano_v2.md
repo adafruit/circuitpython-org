@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "pyb_nano_v2"
-title: "PYB Nano v2 Download"
-name: "PYB Nano v2"
-manufacturer: "Elecrow"
+board_id: pyb_nano_v2
+board_image: pyb_nano_v2.jpg
 board_url:
- - "https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html"
-board_image: "pyb_nano_v2.jpg"
-date_added: 2019-12-10
-family: stm
+- https://www.elecrow.com/micropython-development-board-pyb-nano-compatible-with-python.html
 bootloader_id: pyb_nano_v2
+date_added: 2019-12-10 12:00:00
+family: stm
 features:
-  - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: Elecrow
+name: PYB Nano v2
+title: PYB Nano v2 Download
 ---
 
 DETAILS

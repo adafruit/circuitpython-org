@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "lemaker_banana_pro"
-title: "Banana Pro Download"
-name: "Banana Pro"
-manufacturer: "LeMaker"
-board_url:
- - "https://en.wikipedia.org/wiki/Banana_Pi#Banana_Pi_Pro"
-board_image: "lemaker_banana_pro.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2023-9-6
+board_id: lemaker_banana_pro
+board_image: lemaker_banana_pro.jpg
+board_url:
+- https://en.wikipedia.org/wiki/Banana_Pi#Banana_Pi_Pro
+date_added: 2023-09-06 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - Wi-Fi
-  - Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- Wi-Fi
+- Ethernet
+layout: download
+manufacturer: LeMaker
+name: Banana Pro
+title: Banana Pro Download
 ---
 
 LeMaker Banana Pro is an updated version of its predecessor Banana Pi, a low-cost single-board computer.

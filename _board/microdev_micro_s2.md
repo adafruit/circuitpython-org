@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "microdev_micro_s2"
-title: "MicroDev microS2 Download"
-name: "MicroDev microS2"
-manufacturer: "MicroDev"
+board_id: microdev_micro_s2
+board_image: microdev_micro_s2.jpg
 board_url:
- - "https://microdev.systems/"
-board_image: "microdev_micro_s2.jpg"
-date_added: 2020-08-26
-family: esp32s2
+- https://microdev.systems/
 bootloader_id: microdev_micro_s2
+date_added: 2020-08-26 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
-  - STEMMA QT/QWIIC
+- Wi-Fi
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: MicroDev
+name: MicroDev microS2
+title: MicroDev microS2 Download
 ---
 
 Introducing the **microS2** - _An ESP32-S2 based dev-board in the size of a tiny module!_

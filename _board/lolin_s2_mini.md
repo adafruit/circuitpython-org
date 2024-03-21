@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "lolin_s2_mini"
-title: "LOLIN S2 Mini Download"
-name: "LOLIN S2 Mini"
-manufacturer: "Wemos"
+board_id: lolin_s2_mini
+board_image: lolin_s2_mini.jpg
 board_url:
- - "https://www.wemos.cc/en/latest/s2/s2_mini.html"
-board_image: "lolin_s2_mini.jpg"
-date_added: 2021-9-3
-family: esp32s2
+- https://www.wemos.cc/en/latest/s2/s2_mini.html
 bootloader_id: lolin_s2_mini
+date_added: 2021-09-03 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
-  - USB-C
+- Wi-Fi
+- USB-C
+layout: download
+manufacturer: Wemos
+name: LOLIN S2 Mini
+title: LOLIN S2 Mini Download
 ---
 
 The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form factor is almost the same as the well-known LOLIN D1 mini. This means that there is a high chance that the [D1 Mini Shields](https://www.wemos.cc/en/latest/d1_mini_shield/index.html) could also be uses with this board.

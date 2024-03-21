@@ -1,16 +1,15 @@
 ---
-layout: download
-board_id: "raspberrypi_cm4io"
-title: "Raspberry Pi CM4 IO Download"
-name: "Compute Module 4 IO Board"
-manufacturer: "Raspberry Pi"
+board_id: raspberrypi_cm4io
+board_image: raspberrypi_cm4io.jpg
 board_url:
- - "https://www.raspberrypi.com/products/compute-module-4-io-board/"
- - "https://www.adafruit.com/product/4787"
-board_image: "raspberrypi_cm4io.jpg"
-date_added: 2021-11-29
+- https://www.raspberrypi.com/products/compute-module-4-io-board/
+- https://www.adafruit.com/product/4787
+date_added: 2021-11-29 12:00:00
 family: broadcom
-
+layout: download
+manufacturer: Raspberry Pi
+name: Compute Module 4 IO Board
+title: Raspberry Pi CM4 IO Download
 ---
 
 **NOTE**: This build is alpha quality and is for experimental use. It is [missing features and has known issues](https://github.com/adafruit/circuitpython/labels/broadcom).

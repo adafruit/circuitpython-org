@@ -1,26 +1,26 @@
 ---
-layout: download
-board_id: "adafruit_feather_rp2040_thinkink"
-title: "Feather RP2040 ThinkInk Download"
-name: "Feather RP2040 ThinkInk"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_rp2040_thinkink
+board_image: adafruit_feather_rp2040_thinkink.jpg
 board_url:
- - "https://www.adafruit.com/product/5727"
-board_image: "adafruit_feather_rp2040_thinkink.jpg"
-date_added: 2023-5-2
+- https://www.adafruit.com/product/5727
+date_added: 2023-05-02 12:00:00
 family: raspberrypi
-tags:
-  - ThinkInk Feather
-  - Feather ThinkInk
-  - epd
-  - epaper
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
-  - External Display
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+- External Display
+layout: download
+manufacturer: Adafruit
+name: Feather RP2040 ThinkInk
+tags:
+- ThinkInk Feather
+- Feather ThinkInk
+- epd
+- epaper
+title: Feather RP2040 ThinkInk Download
 ---
 
 Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that's designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you've seen one of those new-fangled 'e-readers' like the Kindle or Nook. They have gigantic electronic paper 'static' displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!

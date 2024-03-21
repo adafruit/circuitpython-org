@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "nucleo_f746zg"
-title: "STM32F746 Nucleo Download"
-name: "STM32F746 Nucleo"
-manufacturer: "ST"
+board_id: nucleo_f746zg
+board_image: nucleo_f746zg.jpg
 board_url:
- - "https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-f746zg.html"
-board_image: "nucleo_f746zg.jpg"
-date_added: 2020-04-23
+- https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-f746zg.html
+date_added: 2020-04-23 12:00:00
 family: stm
-features:
+features: null
+layout: download
+manufacturer: ST
+name: STM32F746 Nucleo
+title: STM32F746 Nucleo Download
 ---
 
 The STM32F746 Nucleo dev board from ST.

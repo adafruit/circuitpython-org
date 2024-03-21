@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "raspberry_pi_1b"
-title: "Raspberry Pi 1 Model B Download"
-name: "Pi 1 Model B"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.adafruit.com/product/998"
-board_image: "raspberry_pi_1b.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-17
+board_id: raspberry_pi_1b
+board_image: raspberry_pi_1b.jpg
+board_url:
+- https://www.adafruit.com/product/998
+date_added: 2019-06-17 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
 - Ethernet
 - HDMI/DisplayPort
+layout: download
+manufacturer: Raspberry Pi
+name: Pi 1 Model B
+title: Raspberry Pi 1 Model B Download
 ---
 
 The Model B was the original Raspberry Pi Model B and consisted of two revisions.  In July 2014 It was superseded by the Raspberry Pi 1 Model B+

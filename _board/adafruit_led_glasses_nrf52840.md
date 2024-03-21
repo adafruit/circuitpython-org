@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "adafruit_led_glasses_nrf52840"
-title: "LED Glasses Download"
-name: "LED Glasses "
-manufacturer: "Adafruit"
+board_id: adafruit_led_glasses_nrf52840
+board_image: adafruit_led_glasses_nrf52840.jpg
 board_url:
- - "https://www.adafruit.com/product/5217"
- - "https://www.adafruit.com/product/5255"
-board_image: "adafruit_led_glasses_nrf52840.jpg"
-date_added: 2021-9-3
-family: nrf52840
+- https://www.adafruit.com/product/5217
+- https://www.adafruit.com/product/5255
 bootloader_id: ledglasses_nrf52840
+date_added: 2021-09-03 12:00:00
+family: nrf52840
 features:
-  - USB-C
-  - Bluetooth/BTLE
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
+- USB-C
+- Bluetooth/BTLE
+- Battery Charging
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: 'LED Glasses '
+title: LED Glasses Download
 ---
 
 This board is designed to be a thin, bluetooth-enabled driver board for our [Adafruit LED Glasses](https://www.adafruit.com/product/5210) RGB LED matrix. That said, it's a perfectly good stand-alone development board for the Nordic nRF52840 chipset, with a very slim design, optional LiPo battery support, a few sensors, and a Stemma QT port for adding other devices or sensors with I2C plug-and-play.

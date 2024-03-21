@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "feather_bluefruit_sense"
-title: "Feather Bluefruit Sense Download"
-name: "Feather Bluefruit Sense"
-manufacturer: "Adafruit"
+board_id: feather_bluefruit_sense
+board_image: feather_bluefruit_sense.jpg
 board_url:
- - "https://www.adafruit.com/product/4516"
-board_image: "feather_bluefruit_sense.jpg"
-date_added: 2020-2-1
-family: nrf52840
+- https://www.adafruit.com/product/4516
 bootloader_id: feather_nrf52840_sense
+date_added: 2020-02-01 12:00:00
+family: nrf52840
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather Bluefruit Sense
+title: Feather Bluefruit Sense Download
 ---
 
 The **Adafruit Feather Bluefruit Sense** takes our popular [Feather nRF52840 Express](https://www.adafruit.com/product/4062) and adds a smorgasbord of sensors to make a great wireless sensor platform. This Feather microcontroller comes with Bluetooth Low Energy and native USB support featuring the nRF52840!  This Feather is an 'all-in-one' Arduino-compatible + Bluetooth Low Energy with built in USB plus battery charging. With native USB it works great with CircuitPython, too.

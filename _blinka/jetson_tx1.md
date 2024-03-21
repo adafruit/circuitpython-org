@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "jetson_tx1"
-title: "Jetson TX1"
-name: "Jetson TX1"
-manufacturer: "NVIDIA"
-board_url:
- - "https://developer.nvidia.com/embedded/jetson-tx1"
-board_image: "jetson_tx1.jpg"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
+board_id: jetson_tx1
+board_image: jetson_tx1.jpg
+board_url:
+- https://developer.nvidia.com/embedded/jetson-tx1
+date_added: 2019-12-03 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - USB 3.0
-  - 40-pin GPIO
+- Ethernet
+- HDMI/DisplayPort
+- USB 3.0
+- 40-pin GPIO
+layout: download
+manufacturer: NVIDIA
+name: Jetson TX1
+title: Jetson TX1
 ---
 
 The world's first supercomputer on a module, Jetson TX1 is capable of delivering the performance and power efficiency needed for the latest visual computing applications. It's built around the revolutionary NVIDIA Maxwell™ architecture with 256 CUDA cores delivering over 1 TeraFLOPs of performance. 64-bit CPUs, 4K video encode and decode capabilities, and a camera interface capable of 1400 MPix/s make this the best system for embedded deep learning, computer vision, graphics, and GPU computing.

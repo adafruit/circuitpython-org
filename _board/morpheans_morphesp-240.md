@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "morpheans_morphesp-240"
-title: "MorphESP 240 Download"
-name: "MorphESP 240"
-manufacturer: "Morpheans"
+board_id: morpheans_morphesp-240
+board_image: morpheans_morphesp-240.jpg
 board_url:
- - "https://github.com/ccadic/ESP32-S2-DevBoardTFT"
-board_image: "morpheans_morphesp-240.jpg"
-date_added: 2021-8-24
-family: esp32s2
+- https://github.com/ccadic/ESP32-S2-DevBoardTFT
 bootloader_id: morpheans_morphesp-240
+date_added: 2021-08-24 12:00:00
+family: esp32s2
 features:
-  - Display
-  - Wi-Fi
+- Display
+- Wi-Fi
+layout: download
+manufacturer: Morpheans
+name: MorphESP 240
+title: MorphESP 240 Download
 ---
 
 While there are many ESP32 dev boards on the market, we here at [Morpheans](http://www.morpheans.com/) found ourselves lamenting the scarcity of such boards for the new ESP32-*S2*. So we decided to build one. **Introducing MorphESP 240, an easy-to-use, Arduino- and CircuitPython-compatible, open hardware ESP32-S2 dev board with a built-in high-resolution, IPS-color display.**

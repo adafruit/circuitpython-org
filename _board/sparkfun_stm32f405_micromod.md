@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "sparkfun_stm32f405_micromod"
-title: "MicroMod STM32 Processor Download"
-name: "MicroMod STM32 Processor"
-manufacturer: "SparkFun"
+board_id: sparkfun_stm32f405_micromod
+board_image: sparkfun_stm32f405_micromod.jpg
 board_url:
- - "https://www.sparkfun.com/products/17713"
-board_image: "sparkfun_stm32f405_micromod.jpg"
-date_added: 2021-8-13
+- https://www.sparkfun.com/products/17713
+date_added: 2021-08-13 12:00:00
 family: stm
-features:
+features: null
+layout: download
+manufacturer: SparkFun
+name: MicroMod STM32 Processor
+title: MicroMod STM32 Processor Download
 ---
 
 The SparkFun MicroMod STM32 Processor Board is ready to rock your MicroMod world with its ARM® Cortex®-M4 32-bit RISC core! This little Processor Board provides you with an economical and easy to use development platform if you're needing more power with minimal working space. With the M.2 MicroMod connector, connecting your STM32 Processor is a breeze. Simply match up the key on your processor's beveled edge connector to the key on the M.2 connector and secure it with a screw (included with all Carrier Boards). The STM32 is one of the most powerful and economical microcontrollers available so to be able to add it to your MicroMod Carrier Board is a huge advantage for your project!

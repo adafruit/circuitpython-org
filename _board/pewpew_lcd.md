@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "pewpew_lcd"
-title: "PewPew LCD Download"
-name: "PewPew LCD"
-manufacturer: "Radomir Dopieralski"
+board_id: pewpew_lcd
+board_image: pewpew_lcd.jpg
 board_url:
- - "https://pewpew.rtfd.io"
-board_image: "pewpew_lcd.jpg"
-family: atmel-samd
+- https://pewpew.rtfd.io
 bootloader_id: fluff_m0
-date_added: 2022-05-10
+date_added: 2022-05-10 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Breadboard-Friendly
+- Display
+- Breadboard-Friendly
+layout: download
+manufacturer: Radomir Dopieralski
+name: PewPew LCD
+title: PewPew LCD Download
 ---
 
 PewPew are a family of handheld game devices designed for running Python

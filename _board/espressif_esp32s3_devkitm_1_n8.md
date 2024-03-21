@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "espressif_esp32s3_devkitm_1_n8"
-title: "ESP32-S3-DevKitM-1-N8 Download"
-name: "ESP32-S3-DevKitM-1-N8"
-manufacturer: "Espressif"
+board_id: espressif_esp32s3_devkitm_1_n8
+board_image: espressif_esp32s3_devkitm_1_n8.jpg
 board_url:
- - "https://www.adafruit.com/product/5311"
-board_image: "espressif_esp32s3_devkitm_1_n8.jpg"
-date_added: 2022-4-1
-family: esp32s3
+- https://www.adafruit.com/product/5311
 bootloader_id: espressif_esp32s3_devkitm_1
+date_added: 2022-04-01 12:00:00
+family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Espressif
+name: ESP32-S3-DevKitM-1-N8
+title: ESP32-S3-DevKitM-1-N8 Download
 ---
 
 The ESP32-S3-DevKitM-1 is an entry-level development board equipped with the ESP32-S3-MINI-1, a powerful, generic Wi-Fi + Bluetooth LE MCU module that features a rich set of peripherals, yet an optimized size. It's an ideal choice for a wide variety of application scenarios related to the Internet of Things (IoT), such as embedded systems, smart homes, wearable electronics, etc. ESP32-S3-MINI-1 comes with a PCB antenna. **This version is equipped with the ESP32-S3-MINI-1 with 8MB Flash.**

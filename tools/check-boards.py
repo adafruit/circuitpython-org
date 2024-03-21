@@ -5,7 +5,6 @@ import json
 import re
 from pathlib import Path
 import frontmatter
-from dateutil.parser import parse
 
 # Check CircuitPython Download Features
 with open('template.md', "rt") as f:

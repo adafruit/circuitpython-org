@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "challenger_rp2040_subghz"
-title: "Challenger RP2040 SubGHz Download"
-name: "Challenger RP2040 SubGHz"
-manufacturer: "Invector Labs"
+board_id: challenger_rp2040_subghz
+board_image: challenger_rp2040_subghz.jpg
 board_url:
- - "https://ilabs.se/product/challenger-rp2040-subghz-915mhz/"
-board_image: "challenger_rp2040_subghz.jpg"
-date_added: 2022-10-6
+- https://ilabs.se/product/challenger-rp2040-subghz-915mhz/
+date_added: 2022-10-06 12:00:00
 family: raspberrypi
 features:
-  - LoRa/Radio
-  - USB-C
-  - Breadboard-Friendly
-  - Feather-Compatible
-  - Battery Charging
+- LoRa/Radio
+- USB-C
+- Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+layout: download
+manufacturer: Invector Labs
+name: Challenger RP2040 SubGHz
+title: Challenger RP2040 SubGHz Download
 ---
 
 The Challenger RP2040 SubGHz board is an Arduino/Circuitpython compatible Adafruit Feather format micro controller board based on the Raspberry Pico (RP2040) chip.
@@ -48,4 +48,3 @@ The RFM69HCW is connected to the RP2040 via SPI channel 1 and a few GPIO’s tha
 
 * [Invector Labs (868MHz)](https://ilabs.se/product/challenger-rp2040-subghz-868mhz/)
 * [Invector Labs (915MHz)](https://ilabs.se/product/challenger-rp2040-subghz-915mhz/)
-

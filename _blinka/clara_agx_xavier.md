@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "clara_agx_xavier"
-title: "Clara AGX Xavier Download"
-name: "Clara AGX Xavier"
-manufacturer: "NVIDIA"
-board_url:
- - "https://developer.nvidia.com/clara-agx-devkit"
-board_image: "clara_agx_xavier.jpg"
-downloads_display: true
 blinka: true
-date_added: 2020-10-6
-features:
-
+board_id: clara_agx_xavier
+board_image: clara_agx_xavier.jpg
+board_url:
+- https://developer.nvidia.com/clara-agx-devkit
+date_added: 2020-10-06 12:00:00
+downloads_display: true
+features: null
+layout: download
+manufacturer: NVIDIA
+name: Clara AGX Xavier
+title: Clara AGX Xavier Download
 ---
 
 The NVIDIA Clara AGX™ developer kit delivers real-time AI and imaging for medical devices. By combining low-powered, NVIDIA Xavier SOC (system on a chip) and RTX GPUs with the NVIDIA Clara AGX SDK and the NVIDIA EGX stack, it’s easy to securely provision and remotely manage fleets of distributed medical instruments.

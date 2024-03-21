@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "odt_pixelwing_esp32_s2"
-title: "PixelWing ESP32-S2 RGB Matrix Download"
-name: "PixelWing ESP32-S2 RGB Matrix"
-manufacturer: "Oak Development Technologies"
+board_id: odt_pixelwing_esp32_s2
+board_image: odt_pixelwing_esp32_s2.jpg
 board_url:
- - "https://www.tindie.com/products/oakdevtech/pixelwing-esp32-s2-rgb-matrix/"
-board_image: "odt_pixelwing_esp32_s2.jpg"
-date_added: 2021-8-24
+- https://www.tindie.com/products/oakdevtech/pixelwing-esp32-s2-rgb-matrix/
+date_added: 2021-08-24 12:00:00
 family: esp32s2
 features:
-  - Wi-Fi
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Display
+- Wi-Fi
+- STEMMA QT/QWIIC
+- USB-C
+- Display
+layout: download
+manufacturer: Oak Development Technologies
+name: PixelWing ESP32-S2 RGB Matrix
+title: PixelWing ESP32-S2 RGB Matrix Download
 ---
 
 The PixelWing Matrix is a powerful ESP32-S2 RGB Matrix Display board that allows you to make a simple connected display, data logger, or environmental indicator. The PixelWing features USB-C power, a 5x10 RGB Matrix Display using SK6812mini Addressable LEDs that are compatible with Adafruit NEOPIXEL Libraries!

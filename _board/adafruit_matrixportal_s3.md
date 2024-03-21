@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_matrixportal_s3"
-title: " MatrixPortal S3 Download"
-name: "MatrixPortal S3"
-manufacturer: "Adafruit"
+board_id: adafruit_matrixportal_s3
+board_image: adafruit_matrixportal_s3.jpg
 board_url:
- - "https://www.adafruit.com/product/5778"
-board_image: "adafruit_matrixportal_s3.jpg"
-date_added: 2023-6-26
-family: esp32s3
+- https://www.adafruit.com/product/5778
 bootloader_id: adafruit_matrixportal_s3
-tags:
-  - Matrix Portal
+date_added: 2023-06-26 12:00:00
+family: esp32s3
 features:
-  - External Display
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - STEMMA QT/QWIIC
-  - USB-C
+- External Display
+- Wi-Fi
+- Bluetooth/BTLE
+- STEMMA QT/QWIIC
+- USB-C
+layout: download
+manufacturer: Adafruit
+name: MatrixPortal S3
+tags:
+- Matrix Portal
+title: ' MatrixPortal S3 Download'
 ---
 
 Folks love our [wide selection of RGB matrices](https://www.adafruit.com/category/327) and accessories for making custom colorful LED displays... and our RGB Matrix Shields and FeatherWings can be quickly soldered together to make the wiring much easier. But what if we made it *even easier* than that? **Like, no solder, no wiring, just instant plug-and-play?** Dream no more - with the **Adafruit Matrix Portal S3 add-on for RGB Matrices**, there's never been an easier way to create powerful Internet-connected LED displays.

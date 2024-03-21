@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "dragonboard_410c"
-title: "Dragonboard 410c Download"
-name: "Dragonboard 410c"
-manufacturer: "Arrow Electronics"
-board_url:
- - "https://www.96boards.org/product/dragonboard410c/"
-board_image: "dragonboard_410c.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-96boards-dragonboard-410c"
-downloads_display: true
 blinka: true
-date_added: 2019-6-29
+board_id: dragonboard_410c
+board_image: dragonboard_410c.jpg
+board_url:
+- https://www.96boards.org/product/dragonboard410c/
+date_added: 2019-06-29 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-96boards-dragonboard-410c
+downloads_display: true
 features:
-  - Wi-Fi
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - GPS
+- Wi-Fi
+- HDMI/DisplayPort
+- 40-pin GPIO
+- GPS
+layout: download
+manufacturer: Arrow Electronics
+name: Dragonboard 410c
+title: Dragonboard 410c Download
 ---
 
 The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® APQ8016E processor. It features advanced processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.

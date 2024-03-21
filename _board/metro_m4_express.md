@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "metro_m4_express"
-title: "Metro M4 Express Download"
-name: "Metro M4 Express"
-manufacturer: "Adafruit"
+board_id: metro_m4_express
+board_image: metro_m4_express.jpg
 board_url:
- - "https://www.adafruit.com/product/3382"
-board_image: "metro_m4_express.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/3382
 bootloader_id: metro_m4
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Arduino Shield Compatible
+- Arduino Shield Compatible
+layout: download
+manufacturer: Adafruit
+name: Metro M4 Express
+title: Metro M4 Express Download
 ---
 
 The most powerful Metro at this time, the **Adafruit Metro M4** featuring the **Microchip ATSAMD51**. This Metro is like a bullet train, with it's 120 MHz Cortex M4 with floating point support. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.

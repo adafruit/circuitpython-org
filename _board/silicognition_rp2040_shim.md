@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "silicognition_rp2040_shim"
-title: "RP2040-Shim Download"
-name: "RP2040-Shim"
-manufacturer: "Silicognition LLC"
+board_id: silicognition_rp2040_shim
+board_image: silicognition-rp2040-shim.jpg
 board_url:
- - "https://github.com/xorbit/RP2040-Shim"
-board_image: "silicognition-rp2040-shim.jpg"
-date_added: 2022-7-1
+- https://github.com/xorbit/RP2040-Shim
+date_added: 2022-07-01 12:00:00
 family: raspberrypi
 features:
-  - Feather-Compatible
-  - Breadboard-Friendly
+- Feather-Compatible
+- Breadboard-Friendly
+layout: download
+manufacturer: Silicognition LLC
+name: RP2040-Shim
+title: RP2040-Shim Download
 ---
 
 This board is an alternative to the [Silicognition M4-Shim](https://www.amazon.com/M4-Shim-Feather-PoE-FeatherWing-Ultra-Compact-Vertical/dp/B0971PKDV7/), and just like that board it is specifically made to fit on top of the [PoE-FeatherWing](https://www.amazon.com/Silicognition-PoE-FeatherWing-Ethernet-802-3at-Feather/dp/B08KTVD7BR/), filling the empty space around the RJ45 and flyback transformer and allowing the creation of extremely compact Power over Ethernet systems.

@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "pycubed"
-title: "PyCubedv04 Download"
-name: "PyCubedv04"
-manufacturer: "PyCubed.org"
+board_id: pycubed
+board_image: pycubed.jpg
 board_url:
- - "https://pycubed.org/"
-board_image: "pycubed.jpg"
-date_added: 2020-2-27
-family: atmel-samd
+- https://pycubed.org/
 bootloader_id: pycubed
-features:
+date_added: 2020-02-27 12:00:00
+family: atmel-samd
+features: null
+layout: download
+manufacturer: PyCubed.org
+name: PyCubedv04
+title: PyCubedv04 Download
 ---
 
 ### ⭐ Double-check the your PyCubed board version before updating firmware.

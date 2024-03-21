@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_feather_rp2040_usb_host"
-title: "Feather RP2040 with USB Type A Host Download"
-name: "Feather RP2040 with USB Type A Host"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_rp2040_usb_host
+board_image: adafruit_feather_rp2040_usb_host.jpg
 board_url:
- - "https://www.adafruit.com/product/5723"
-board_image: "adafruit_feather_rp2040_usb_host.jpg"
-date_added: 2023-5-2
+- https://www.adafruit.com/product/5723
+date_added: 2023-05-02 12:00:00
 family: raspberrypi
-tags:
-  - USB Host Feather
-  - Feather USB Host
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather RP2040 with USB Type A Host
+tags:
+- USB Host Feather
+- Feather USB Host
+title: Feather RP2040 with USB Type A Host Download
 ---
 
 You're probably really used to microcontroller boards with USB, but what about a dev board with two? Two is more than one, so that makes it twice as good! And the Adafruit Feather RP2040 with USB Host is definitely double-the-fun of our other Feather RP2040 boards, with a USB Type A port on the end for connecting USB devices to.

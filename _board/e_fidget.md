@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "e_fidget"
-title: "E-Fidget Download"
-name: "E-Fidget"
-manufacturer: "2231puppy"
+board_id: e_fidget
+board_image: e_fidget.jpg
 board_url:
- - "https://e-fidget.xyz"
-board_image: "e_fidget.jpg"
-date_added: 2023-1-4
+- https://e-fidget.xyz
+date_added: 2023-01-04 12:00:00
 family: raspberrypi
 features:
-  - Battery Charging
-  - USB-C
+- Battery Charging
+- USB-C
+layout: download
+manufacturer: 2231puppy
+name: E-Fidget
+title: E-Fidget Download
 ---
 
 The E-Fidget is a new kind of fidget spinner. It uses haptic feedback in the form of 8 vibration

@@ -1,18 +1,17 @@
 ---
-layout: download
-board_id: "raytac_mdbt50q-db-40"
-title: "MDBT50Q-DB-40 Download"
-name: "MDBT50Q-DB-40"
-manufacturer: "Raytac Corporation"
+board_id: raytac_mdbt50q-db-40
+board_image: raytac_mdbt50q-db-40.jpg
 board_url:
- - "https://www.raytac.com/product/ins.php?index_id=81"
-board_image: "raytac_mdbt50q-db-40.jpg"
-date_added: 2020-07-27
-family: nrf52840
+- https://www.raytac.com/product/ins.php?index_id=81
 bootloader_id: raytac_mdbt50q_db_40
+date_added: 2020-07-27 12:00:00
+family: nrf52840
 features:
-  - Bluetooth/BTLE
-
+- Bluetooth/BTLE
+layout: download
+manufacturer: Raytac Corporation
+name: MDBT50Q-DB-40
+title: MDBT50Q-DB-40 Download
 ---
 
 MDBT50Q-DB demo board is designed for quick testing and debugging without building your own board. The board is only available with MDBT50Q-1MV2 (Chip Antenna) module.

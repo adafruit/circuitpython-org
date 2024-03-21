@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "atmegazero_esp32s2"
-title: "ATMegaZero ESP32-S2 Download"
-name: "ATMegaZero ESP32-S2"
-manufacturer: "ATMegaZero"
+board_id: atmegazero_esp32s2
+board_image: atmegazero_esp32s2.jpg
 board_url:
- - "https://www.atmegazero.com"
-board_image: "atmegazero_esp32s2.jpg"
-date_added: 2021-4-19
-family: esp32s2
+- https://www.atmegazero.com
 bootloader_id: atmegazero_esp32s2
+date_added: 2021-04-19 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
+- Wi-Fi
+layout: download
+manufacturer: ATMegaZero
+name: ATMegaZero ESP32-S2
+title: ATMegaZero ESP32-S2 Download
 ---
 
 ** COMING SOON! **

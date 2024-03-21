@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "nucleo_h743zi_2"
-title: "STM32H743 Nucleo Download"
-name: "STM32H743 Nucleo"
-manufacturer: "ST"
+board_id: nucleo_h743zi_2
+board_image: nucleo_h743zi_2.jpg
 board_url:
- - "https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-h743zi.html"
-board_image: "nucleo_h743zi_2.jpg"
-date_added: 2020-04-01
+- https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-h743zi.html
+date_added: 2020-04-01 12:00:00
 family: stm
-features:
+features: null
+layout: download
+manufacturer: ST
+name: STM32H743 Nucleo
+title: STM32H743 Nucleo Download
 ---
 
 The STM32H743 Nucleo dev board from ST.

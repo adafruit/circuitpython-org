@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "pimoroni_servo2040"
-title: "Servo 2040 Download"
-name: "Servo 2040"
-manufacturer: "Pimoroni"
+board_id: pimoroni_servo2040
+board_image: pimoroni_servo2040.jpg
 board_url:
- - "https://shop.pimoroni.com/products/servo-2040"
- - "https://www.adafruit.com/product/5437"
-board_image: "pimoroni_servo2040.jpg"
-date_added: 2022-4-1
+- https://shop.pimoroni.com/products/servo-2040
+- https://www.adafruit.com/product/5437
+date_added: 2022-04-01 12:00:00
 family: raspberrypi
 features:
-  - Robotics
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Robotics
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Pimoroni
+name: Servo 2040
+title: Servo 2040 Download
 ---
 
 A standalone, RP2040 powered servo controller - great for building hexapods, robot arms or other things with lots of moving parts. It has RGB LEDs/Neopixels for status updates, built in current monitoring and headers to add up to 6 analog sensors. There's also a Qwiic/STEMMA QT connector for adding breakouts!

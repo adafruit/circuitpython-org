@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "feather_m7_1011"
-title: "Feather M7 1011 Download"
-name: "Feather M7 1011"
-manufacturer: "Adafruit"
+board_id: feather_m7_1011
+board_image: feather_m7_1011.jpg
 board_url:
- - "https://www.adafruit.com/product/4950"
-board_image: "feather_m7_1011.jpg"
-date_added: 2020-2-27
+- https://www.adafruit.com/product/4950
+date_added: 2020-02-27 12:00:00
 family: mimxrt10xx
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather M7 1011
+title: Feather M7 1011 Download
 ---
 
 The NXP iMX RT1011 microcontroller powers this board with a 500 MHz ARM Cortex M7 processor. There's 4 MB of execute-in-place QSPI for firmware and disk storage plus 128 KB of SRAM in-chip.

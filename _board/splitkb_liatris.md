@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "splitkb_liatris"
-title: "Liatris Download"
-name: "Liatris"
-manufacturer: "SplitKB"
+board_id: splitkb_liatris
+board_image: splitkb_liatris.jpg
 board_url:
- - "https://splitkb.com/products/liatris"
-board_image: "splitkb_liatris.jpg"
-date_added: 2023-7-28
+- https://splitkb.com/products/liatris
+date_added: 2023-07-28 12:00:00
 family: raspberrypi
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: SplitKB
+name: Liatris
+title: Liatris Download
 ---
 
 The Liatris is a new controller designed by splitkb.com that's a designed specifically for (split) keyboards. It's a drop-in replacement for the Pro Micro, and a perfect alternative for other RP2040-based controllers.

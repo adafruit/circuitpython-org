@@ -1,24 +1,24 @@
 ---
-layout: download
-board_id: "pybadge"
-title: "PyBadge Download"
-name: "PyBadge"
-manufacturer: "Adafruit"
+board_id: pybadge
+board_image: pybadge.jpg
 board_url:
- - "https://www.adafruit.com/product/4200"
- - "https://www.adafruit.com/product/3939"
- - "https://www.adafruit.com/product/4623"
- - "https://www.adafruit.com/product/4624"
- - "https://www.adafruit.com/product/4317"
-board_image: "pybadge.jpg"
-date_added: 2019-3-19
-family: atmel-samd
+- https://www.adafruit.com/product/4200
+- https://www.adafruit.com/product/3939
+- https://www.adafruit.com/product/4623
+- https://www.adafruit.com/product/4624
+- https://www.adafruit.com/product/4317
 bootloader_id: arcade_pybadge
+date_added: 2019-03-19 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Speaker
-  - Feather-Compatible
-  - Battery Charging
+- Display
+- Speaker
+- Feather-Compatible
+- Battery Charging
+layout: download
+manufacturer: Adafruit
+name: PyBadge
+title: PyBadge Download
 ---
 
 The Adafruit PyBadge an all-in-one compact dev board programmable in CircuitPython. Full of features squeezed onto a 3 3⁄8 × 2 1⁄8 inch rounded credit card sized rectangle. It's a perfect wearable badge, but can be used for many projects.

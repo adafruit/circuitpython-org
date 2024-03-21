@@ -1,18 +1,17 @@
 ---
-layout: download
-board_id: "jpconstantineau_pykey60"
-title: "PyKey 60% Keyboard Download"
-name: "PyKey60 Keyboard"
-manufacturer: "JPConstantineau"
+board_id: jpconstantineau_pykey60
+board_image: jpconstantineau_pykey60.jpg
 board_url:
- - "https://github.com/jpconstantineau/PyKey60"
-board_image: "jpconstantineau_pykey60.jpg"
-date_added: 2021-09-17
+- https://github.com/jpconstantineau/PyKey60
+date_added: 2021-09-17 12:00:00
 family: raspberrypi
-
 features:
-  - USB-C
-  - Speaker
+- USB-C
+- Speaker
+layout: download
+manufacturer: JPConstantineau
+name: PyKey60 Keyboard
+title: PyKey 60% Keyboard Download
 ---
 
 The PyKey60 is a custom programmable mechanical keyboard with a standard ANSI 60% keyboard layout compatible with any cases made for the GH60. The PyKey60 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.  The PCB was designed for use with PCB-mount stabilizers.

@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "adafruit_neokey_trinkey_m0"
-title: "NeoKey Trinkey - SAMD21 Download"
-name: "NeoKey Trinkey - SAMD21"
-manufacturer: "Adafruit"
+board_id: adafruit_neokey_trinkey_m0
+board_image: adafruit_neokey_trinkey_m0.jpg
 board_url:
- - "https://www.adafruit.com/product/5020"
-board_image: "adafruit_neokey_trinkey_m0.jpg"
-date_added: 2021-4-14
-family: atmel-samd
+- https://www.adafruit.com/product/5020
 bootloader_id: neokey_trinkey_m0
-features:
-
+date_added: 2021-04-14 12:00:00
+family: atmel-samd
+features: null
+layout: download
+manufacturer: Adafruit
+name: NeoKey Trinkey - SAMD21
+title: NeoKey Trinkey - SAMD21 Download
 ---
 
 It's half USB Key, half Adafruit Trinket, half mechanical keeb*...*it's **NeoKey Trinkey**, the circuit board with a Trinket M0 heart, a NeoPixel glow, and a Cherry MX-compatible. We were inspired by single-key macro pads we've seen. So we thought, hey what if we made something like that that plugs right into your computer's USB port, with a fully programmable color NeoPixel? And this is what we came up with!

@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "wiznet_w5100s_evb_pico"
-title: "W5100S-EVB-Pico Download"
-name: "W5100S-EVB-Pico"
-manufacturer: "WIZnet"
+board_id: wiznet_w5100s_evb_pico
+board_image: w5100s-evb-pico.jpg
 board_url:
- - "https://www.wiznet.io/product-item/w5100s-evb-pico/"
-board_image: "w5100s-evb-pico.jpg"
-date_added: 2022-4-26
+- https://www.wiznet.io/product-item/w5100s-evb-pico/
+date_added: 2022-04-26 12:00:00
 family: raspberrypi
 features:
-    - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: WIZnet
+name: W5100S-EVB-Pico
+title: W5100S-EVB-Pico Download
 ---
 
 W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.

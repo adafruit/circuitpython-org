@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "adafruit_qtpy_esp32s3_nopsram"
-title: "Adafruit QT Py ESP32-S3 No PSRAM Download"
-name: "Adafruit QT Py ESP32-S3 No PSRAM"
-manufacturer: "Adafruit"
+board_id: adafruit_qtpy_esp32s3_nopsram
+board_image: adafruit_qtpy_esp32s3_nopsram.jpg
 board_url:
- - "https://www.adafruit.com/product/5426"
-board_image: "adafruit_qtpy_esp32s3_nopsram.jpg"
-date_added: 2022-2-14
-family: esp32s3
+- https://www.adafruit.com/product/5426
 bootloader_id: adafruit_qtpy_esp32s3
+date_added: 2022-02-14 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
-  - Wi-Fi
-  - Xiao / QTPy Form Factor
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+- Wi-Fi
+- Xiao / QTPy Form Factor
+layout: download
+manufacturer: Adafruit
+name: Adafruit QT Py ESP32-S3 No PSRAM
+title: Adafruit QT Py ESP32-S3 No PSRAM Download
 ---
 
 The ESP32-S3 has arrived in QT Py format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this QT Py is great for powering your IoT projects.

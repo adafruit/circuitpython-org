@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "diodes_delight_piunora"
-title: "Piunora Download"
-name: "Piunora"
-manufacturer: "Diodes Delight"
+board_id: diodes_delight_piunora
+board_image: diodes_delight_piunora.jpg
 board_url:
- - "https://www.crowdsupply.com/diodes-delight/piunora"
- - "https://www.adafruit.com/product/5404"
- - "https://www.adafruit.com/product/5403"
-board_image: "diodes_delight_piunora.jpg"
-download_instructions:
-date_added: 2021-2-14
+- https://www.crowdsupply.com/diodes-delight/piunora
+- https://www.adafruit.com/product/5404
+- https://www.adafruit.com/product/5403
+date_added: 2021-02-14 12:00:00
+download_instructions: null
 family: broadcom
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - STEMMA QT/QWIIC
-  - Arduino Shield Compatible
-  - USB-C
+- Wi-Fi
+- Bluetooth/BTLE
+- STEMMA QT/QWIIC
+- Arduino Shield Compatible
+- USB-C
+layout: download
+manufacturer: Diodes Delight
+name: Piunora
+title: Piunora Download
 ---
 
 Piunora is a compact, easy-to-use development board for electronics prototyping with Linux. It has a familiar form factor, legible pin labels, and a design that’s well suited to space-constrained applications.

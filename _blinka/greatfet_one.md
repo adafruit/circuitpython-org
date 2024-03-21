@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "greatfet_one"
-title: "GreatFET One Download"
-name: "GreatFET One"
-manufacturer: "Great Scott Gadgets"
-board_url:
- - "https://www.adafruit.com/product/4234"
-board_image: "greatfet_one.jpg"
-downloads_display: true
 blinka: true
-date_added: 2020-5-15
+board_id: greatfet_one
+board_image: greatfet_one.jpg
+board_url:
+- https://www.adafruit.com/product/4234
+date_added: 2020-05-15 12:00:00
+downloads_display: true
 features:
-  - 40-pin GPIO
+- 40-pin GPIO
+layout: download
+manufacturer: Great Scott Gadgets
+name: GreatFET One
+title: GreatFET One Download
 ---
 
 **GreatFET One** from [Great Scott Gadgets](https://greatscottgadgets.com/) is a hardware hacker’s best friend. At the center is a powerful NXP LPC4330 (Cortex M4 @ 204MHz) with two USB ports, one host and one peripheral, so it can act as a 'man in the middle' for USB interfacing. With an extensible, open source design, two USB ports, and 100 expansion pins, GreatFET One is your essential gadget for hacking, making, and reverse engineering. By adding expansion boards called neighbors, you can turn GreatFET One into a USB peripheral that does almost anything.

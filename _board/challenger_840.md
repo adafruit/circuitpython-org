@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "challenger_840"
-title: "Challenger 840 BLE Download"
-name: "Challenger 840 BLE"
-manufacturer: "Invector Labs"
+board_id: challenger_840
+board_image: challenger_840.jpg
 board_url:
- - "https://ilabs.se/product/challenger-840-ble/"
-board_image: "challenger_840.jpg"
-date_added: 2022-4-1
+- https://ilabs.se/product/challenger-840-ble/
+date_added: 2022-04-01 12:00:00
 family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - USB-C
-  - Breadboard-Friendly
-  - Feather-Compatible
-  - Battery Charging
+- Bluetooth/BTLE
+- USB-C
+- Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+layout: download
+manufacturer: Invector Labs
+name: Challenger 840 BLE
+title: Challenger 840 BLE Download
 ---
 
 The Challenger 840 BLE board is an Arduino/Circuitpython compatible Adafruit Feather format micro controller board packed with loads of functionality for your projects that require low power consumption and a BLE connection.
@@ -48,4 +48,3 @@ The board is packed with hardware features, here’s a short list of its most pr
 ## Purchase
 
 * [Invector Labs](https://ilabs.se/product/challenger-840-ble/)
-

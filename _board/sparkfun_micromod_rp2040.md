@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "sparkfun_micromod_rp2040"
-title: "MicroMod RP2040 Processor Download"
-name: "MicroMod RP2040 Processor"
-manufacturer: "SparkFun"
+board_id: sparkfun_micromod_rp2040
+board_image: sparkfun_micromod_rp2040.jpg
 board_url:
- - "https://www.sparkfun.com/products/17720"
-board_image: "sparkfun_micromod_rp2040.jpg"
-date_added: 2021-5-26
+- https://www.sparkfun.com/products/17720
+date_added: 2021-05-26 12:00:00
 family: raspberrypi
-features:
+features: null
+layout: download
+manufacturer: SparkFun
+name: MicroMod RP2040 Processor
+title: MicroMod RP2040 Processor Download
 ---
 
 The SparkFun MicroMod Pi RP2040 Processor Board is a low-cost, high-performance board with flexible digital interfaces featuring the Raspberry Pi Foundation's RP2040 microcontroller. With the MicroMod M.2 connector, connecting your MicroMod Pi RP2040 Processor Board is a breeze. Simply match up the key on your processor's beveled edge connector to the key on the M.2 connector and secure it with a screw (included with all Carrier Boards).

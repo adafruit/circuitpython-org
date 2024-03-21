@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "jetson_tx2_nx"
-title: "Jetson TX2 Dev Kit"
-name: "Jetson TX2 Dev Kit"
-manufacturer: "NVIDIA"
-board_url:
- - "https://developer.nvidia.com/embedded/jetson-tx2-nx"
-board_image: "jetson_tx2_nx.jpg"
-downloads_display: true
 blinka: true
-date_added: 2021-2-25
-features:
-
+board_id: jetson_tx2_nx
+board_image: jetson_tx2_nx.jpg
+board_url:
+- https://developer.nvidia.com/embedded/jetson-tx2-nx
+date_added: 2021-02-25 12:00:00
+downloads_display: true
+features: null
+layout: download
+manufacturer: NVIDIA
+name: Jetson TX2 Dev Kit
+title: Jetson TX2 Dev Kit
 ---
 
 NVIDIA® Jetson™ TX2 NX delivers the next step in AI performance for entry-level embedded and edge products. It provides up to 2.5X the performance of Jetson Nano, and shares form-factor and pin compatibility with Jetson Nano and Jetson Xavier™ NX.

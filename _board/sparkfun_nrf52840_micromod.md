@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "sparkfun_nrf52840_micromod"
-title: "MicroMod nRF52840 Processor Download"
-name: "MicroMod nRF52840 Processor"
-manufacturer: "SparkFun"
+board_id: sparkfun_nrf52840_micromod
+board_image: sparkfun_nrf52840_micromod.jpg
 board_url:
- - "https://www.sparkfun.com/products/16984"
-board_image: "sparkfun_nrf52840_micromod.jpg"
-date_added: 2021-4-6
-family: nrf52840
+- https://www.sparkfun.com/products/16984
 bootloader_id: sparkfun_nrf52840_micromod
+date_added: 2021-04-06 12:00:00
+family: nrf52840
 features:
-  - Bluetooth/BTLE
+- Bluetooth/BTLE
+layout: download
+manufacturer: SparkFun
+name: MicroMod nRF52840 Processor
+title: MicroMod nRF52840 Processor Download
 ---
 
 Featuring the nRF52840 SoC from Nordic Semiconductor, the SparkFun MicroMod nRF52840 Processor offers a powerful combination of ARM Cortex-M4 CPU and 2.4 GHz Bluetooth transceiver in the MicroMod form-factor with the M.2 MicroMod connector to allow you to plug in a compatible MicroMod Carrier Board with any number of peripherals.

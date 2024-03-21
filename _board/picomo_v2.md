@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "heiafr_picomo_v2"
-title: "PicoMo V2 Download"
-name: "PicoMo"
-manufacturer: "HEIA-FR"
-board_url: 
-  - "https://go.heia-fr.ch/picomo"
-board_image: "picomo_v2.jpg"
-date_added: 2024-1-25
+board_id: heiafr_picomo_v2
+board_image: picomo_v2.jpg
+board_url:
+- https://go.heia-fr.ch/picomo
+date_added: 2024-01-25 12:00:00
 family: raspberrypi
 features:
-  - Speaker
-  - Display
-  - USB-C
+- Speaker
+- Display
+- USB-C
+layout: download
+manufacturer: HEIA-FR
+name: PicoMo
+title: PicoMo V2 Download
 ---
 
 The [PicoMo](https://go.heia-fr.ch/picomo), based on a Raspberry Pi Pico microcontroller chip, has been developed by [HEIA-FR](https://www.heia-fr.ch/en/)'s [Electrical Engineering](https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/) and [Computer Science and Communication Systems](https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/) departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.

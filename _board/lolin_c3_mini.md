@@ -1,21 +1,20 @@
 ---
-layout: download
-board_id: "lolin_c3_mini"
-title: "LOLIN C3 Mini Download"
-name: "LOLIN C3 Mini"
-manufacturer: "Wemos"
+board_id: lolin_c3_mini
+board_image: lolin_c3_mini.png
 board_url:
- - "https://www.wemos.cc/en/latest/c3/c3_mini.html"
-board_image: "lolin_c3_mini.png"
-date_added: 2021-11-2
-family: esp32c3
+- https://www.wemos.cc/en/latest/c3/c3_mini.html
 bootloader_id: lolin_c3_mini
+date_added: 2021-11-02 12:00:00
+family: esp32c3
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Wemos
+name: LOLIN C3 Mini
+title: LOLIN C3 Mini Download
 ---
 
 A mini Wi-Fi & Bluetooth LE board based on ESP32-C3FH4.

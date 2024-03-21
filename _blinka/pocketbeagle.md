@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "pocketbeagle"
-title: "PocketBeagle"
-name: "PocketBeagle"
-manufacturer: "BeagleBoard"
-board_url:
- - "https://beagleboard.org/pocket"
-board_image: "pocketbeagle.jpg"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
+board_id: pocketbeagle
+board_image: pocketbeagle.jpg
+board_url:
+- https://beagleboard.org/pocket
+date_added: 2019-12-03 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
+- Ethernet
+- HDMI/DisplayPort
+layout: download
+manufacturer: BeagleBoard
+name: PocketBeagle
+title: PocketBeagle
 ---
 
 Want a powerful 1GHz AM3358 powered Linux single board that's ultra-tiny and open-source? PocketBeagle offers a wealth of computer power in a small footprint (pawprint?). This board is just like the BeagleBone Black but small enough to fit in your wallet. It has a fully-integrated chip that combines the processor and RAM all on one chip, so it's super small. Despite the compact shape, there are 72 total breakout pads, a microSD card slot for your filesystem and OS, and a native USB connection

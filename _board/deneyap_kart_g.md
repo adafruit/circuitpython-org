@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "deneyap_kart_g"
-title: "Deneyap Kart G Download"
-name: "Deneyap Kart G"
-manufacturer: "Turkish Technology Team Foundation"
+board_id: deneyap_kart_g
+board_image: deneyapkartg.jpg
 board_url:
- - "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-g"
-board_image: "deneyapkartg.jpg"
-date_added: 2023-03-14
-family: esp32c3
+- https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-g
+date_added: 2023-03-14 12:00:00
 downloads_display: true
+family: esp32c3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
-  - USB-C
+- Wi-Fi
+- Bluetooth/BTLE
+- Battery Charging
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+- USB-C
+layout: download
+manufacturer: Turkish Technology Team Foundation
+name: Deneyap Kart G
+title: Deneyap Kart G Download
 ---
 
 ## Technical Specs

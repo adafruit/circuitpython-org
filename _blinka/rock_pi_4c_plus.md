@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "rock_pi_4c_plus"
-title: "ROCK Pi 4C+ Download"
-name: "ROCK Pi 4C+"
-manufacturer: "Radxa Limited"
-board_url:
- - "https://wiki.radxa.com/Rock4/4cplus"
-board_image: "rock_pi_4c_plus.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2023-5-5
+board_id: rock_pi_4c_plus
+board_image: rock_pi_4c_plus.jpg
+board_url:
+- https://wiki.radxa.com/Rock4/4cplus
+date_added: 2023-05-05 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+layout: download
+manufacturer: Radxa Limited
+name: ROCK Pi 4C+
+title: ROCK Pi 4C+ Download
 ---
 
 ROCK Pi 4 Model C+ is a single board computer (SBC) by a Rockchip RK3399-T hexa-core processor @ 1.5 GHz, equipped with 4GB RAM, and two micro HDMI ports to drive up to one 4K display, and one 2K display.

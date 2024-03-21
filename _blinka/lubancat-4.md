@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "lubancat-4"
-title: "LubanCat-4 Download"
-name: "LubanCat-4"
-manufacturer: "EmbedFire"
-board_url:
- - "https://embedfire.com/products/"
-board_image: "lubancat-4.jpg"
-download_instructions: ""
 blinka: true
-date_added: 2023-10-27
+board_id: lubancat-4
+board_image: lubancat-4.jpg
+board_url:
+- https://embedfire.com/products/
+date_added: 2023-10-27 12:00:00
+download_instructions: ''
 features:
-  - HDMI/DisplayPort
-  - Ethernet
-  - USB 3.0
-  - 40-pin GPIO
-  - Infrared Receiver
+- HDMI/DisplayPort
+- Ethernet
+- USB 3.0
+- 40-pin GPIO
+- Infrared Receiver
+layout: download
+manufacturer: EmbedFire
+name: LubanCat-4
+title: LubanCat-4 Download
 ---
 
 LubanCat-4 is equipped with a quad-core A76+quad-core A55 eight-core CPU and a powerful Arm high-performance GPU, and has a built-in NPU with 6T computing power. Equipped with a Gigabit network port, mini-HDMI, USB3.0, MINI PCI-E interface, MIPI and other peripherals. While introducing high-usage interfaces, some low-usage interfaces and peripherals are deleted, significantly reducing the board area, and the reserved universal interfaces such as USB and MINI PCI-E are further expanded. In the usage scenarios of the board, the small body can still burst out great performance.

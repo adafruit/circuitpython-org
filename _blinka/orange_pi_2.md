@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "orange_pi_2"
-title: "Orange Pi 2 Download"
-name: "Orange Pi 2"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/orangepi2/"
-board_image: "orange_pi_2.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2020-5-11
+board_id: orange_pi_2
+board_image: orange_pi_2.jpg
+board_url:
+- http://www.orangepi.org/orangepi2/
+date_added: 2020-05-11 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi 2
+title: Orange Pi 2 Download
 ---
 
 Orange Pi 2 is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.

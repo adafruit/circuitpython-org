@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "dynalora_usb"
-title: "DynaLoRa-USB Download"
-name: "DynaLoRa-USB"
-manufacturer: "BH Dynamics"
+board_id: dynalora_usb
+board_image: dynalora_usb.jpg
 board_url:
- - "https://github.com/BHDynamics/rfm_radio_dongle"
-board_image: "dynalora_usb.jpg"
-date_added: 2021-02-11
+- https://github.com/BHDynamics/rfm_radio_dongle
+date_added: 2021-02-11 12:00:00
+downloads_display: true
 family: atmel-samd
 features:
-  - LoRa/Radio
-downloads_display: true
+- LoRa/Radio
+layout: download
+manufacturer: BH Dynamics
+name: DynaLoRa-USB
+title: DynaLoRa-USB Download
 ---
 
 ## Overview

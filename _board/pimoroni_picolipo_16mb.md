@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "pimoroni_picolipo_16mb"
-title: "Pimoroni Pico LiPo (16MB) Download"
-name: "Pimoroni Pico LiPo (16MB)"
-manufacturer: "Pimoroni"
+board_id: pimoroni_picolipo_16mb
+board_image: pimoroni_picolipo.jpg
 board_url:
- - "https://shop.pimoroni.com/products/picolipo"
-board_image: "pimoroni_picolipo.jpg"
-date_added: 2021-5-12
+- https://shop.pimoroni.com/products/picolipo
+date_added: 2021-05-12 12:00:00
 family: raspberrypi
 features:
-  - Battery Charging
-  - USB-C
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
+- Battery Charging
+- USB-C
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+layout: download
+manufacturer: Pimoroni
+name: Pimoroni Pico LiPo (16MB)
+title: Pimoroni Pico LiPo (16MB) Download
 ---
 
 A top of the line Pirate-brand RP2040-powered microcontroller with all the extras - lots of flash memory, USB-C, STEMMA QT/Qwiic and debug connectors... and onboard LiPo charging! Pimoroni Pico boards add extra functionality whilst keeping to the Pico footprint, ensuring compatibility with existing Pico addons.

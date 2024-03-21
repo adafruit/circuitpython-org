@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "franzininho_wifi_wroom"
-title: "Franzininho WiFi Wrover Download"
-name: "Franzininho WiFi Wroom"
-manufacturer: "Franzininho"
+board_id: franzininho_wifi_wroom
+board_image: Franzininho-wifi-wroom.jpg
 board_url:
- - "https://github.com/Franzininho/Franzininho-WIFI"
-board_image: "Franzininho-wifi-wroom.jpg"
-date_added: 2021-3-13
-family: esp32s2
+- https://github.com/Franzininho/Franzininho-WIFI
+date_added: 2021-03-13 12:00:00
 downloads_display: true
+family: esp32s2
 features:
-  - Wi-Fi
+- Wi-Fi
+layout: download
+manufacturer: Franzininho
+name: Franzininho WiFi Wroom
+title: Franzininho WiFi Wrover Download
 ---
 
 Franzininho WiFi Board is a development board to evaluate ESP32-S2 Modules (Wroom and Wrover) and develop the new generation of Franzininho Boards. The Franzininho project was created to develop skills in people in the areas of electronics and programming, through activities in the DIY format and in conjunction with maker culture in Brazil.

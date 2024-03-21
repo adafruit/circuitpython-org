@@ -1,21 +1,20 @@
 ---
-layout: download
-board_id: "solderparty_rp2040_stamp"
-title: "RP2040 Stamp Download"
-name: "RP2040 Stamp"
-manufacturer: "Solder Party"
-board_url:
- - "https://www.solder.party/docs/rp2040-stamp/"
-board_image: "solderparty_rp2040_stamp.jpg"
-date_added: 2021-11-15
-family: raspberrypi
-bootloader_id: solderparty_rp2040_stamp
-downloads_display: true
 blinka: false
-download_instructions: ""
-
+board_id: solderparty_rp2040_stamp
+board_image: solderparty_rp2040_stamp.jpg
+board_url:
+- https://www.solder.party/docs/rp2040-stamp/
+bootloader_id: solderparty_rp2040_stamp
+date_added: 2021-11-15 12:00:00
+download_instructions: ''
+downloads_display: true
+family: raspberrypi
 features:
-  - Battery Charging
+- Battery Charging
+layout: download
+manufacturer: Solder Party
+name: RP2040 Stamp
+title: RP2040 Stamp Download
 ---
 
 The Stamp was created to allow you to use the **Raspberry Pi RP2040** in your designs without having to solder small-pitch QFN chips or worry about lots of external circuitry.

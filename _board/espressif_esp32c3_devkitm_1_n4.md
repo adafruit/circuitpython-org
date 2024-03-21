@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "espressif_esp32c3_devkitm_1_n4"
-title: "ESP32-C3-DevKitM-1-N4 Download"
-name: "ESP32-C3-DevKitM-1-N4"
-manufacturer: "Espressif"
+board_id: espressif_esp32c3_devkitm_1_n4
+board_image: espressif_esp32c3_devkitm_1_n4.jpg
 board_url:
- - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html"
-board_image: "espressif_esp32c3_devkitm_1_n4.jpg"
-date_added: 2022-2-14
+- https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html
+date_added: 2022-02-14 12:00:00
 family: esp32c3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Espressif
+name: ESP32-C3-DevKitM-1-N4
+title: ESP32-C3-DevKitM-1-N4 Download
 ---
 
 The ESP32-C3-DevKitM-1 is an entry-level **RISC V** development board equipped with the ESP32-C3-MINI-1-N4, a powerful, generic Wi-Fi + Bluetooth LE MCU module that features a rich set of peripherals, yet an optimized size. It's an ideal choice for a wide variety of application scenarios related to the Internet of Things (IoT), such as embedded systems, smart homes, wearable electronics, etc. ESP32-C3-DevKitM-1 comes with a PCB antenna. **This version is equipped with the ESP32-C3-MINI-1-N4 with 4MB SPI Flash and no PSRAM.**

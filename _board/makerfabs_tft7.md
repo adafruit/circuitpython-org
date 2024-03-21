@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "makerfabs_tft7"
-title: "MaTouch ESP32-S3 Parallel TFT with Touch 7“ Download"
-name: "MaTouch ESP32-S3 Parallel TFT with Touch 7“"
-manufacturer: "Makerfabs"
+board_id: makerfabs_tft7
+board_image: makerfabs_tft7.jpg
 board_url:
- - "https://www.makerfabs.com/esp32-s3-parallel-tft-with-touch-7-inch.html"
-board_image: "makerfabs_tft7.jpg"
-date_added: 2023-10-27
+- https://www.makerfabs.com/esp32-s3-parallel-tft-with-touch-7-inch.html
+date_added: 2023-10-27 12:00:00
 family: esp32s3
 features:
-  - Wi-Fi
-  - Display
-  - USB-C
+- Wi-Fi
+- Display
+- USB-C
+layout: download
+manufacturer: Makerfabs
+name: MaTouch ESP32-S3 Parallel TFT with Touch 7“
+title: MaTouch ESP32-S3 Parallel TFT with Touch 7“ Download
 ---
 
 This ESP32 S3 7-inch IPS display could be an ideal displayer& controller for IOT applications. It has 2 versions: High-resolution version 800*480, and Ultra High-resolution version 1024*600; Display on both versions is IPS, and the display effect is beautiful, together with 5 points capacitive touch, great for applications such as home automation; There on-board SD card, to make it possible to record/play filed data. Also, there 2 Mabee/ Grove connectors, so the users can connect kinds of sensors to this board, to create personal prototype projects instantly.

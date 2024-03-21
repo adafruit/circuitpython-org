@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "unexpectedmaker_tinys2"
-title: "Unexpected Maker TinyS2 Download"
-name: "Unexpected Maker TinyS2"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_tinys2
+board_image: unexpectedmaker_tinys2.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/tinys2-esp32-s2"
- - "https://www.adafruit.com/product/5029"
-board_image: "unexpectedmaker_tinys2.jpg"
-date_added: 2021-03-20
-family: esp32s2
+- https://unexpectedmaker.com/shop/tinys2-esp32-s2
+- https://www.adafruit.com/product/5029
 bootloader_id: unexpectedmaker_tinys2
+date_added: 2021-03-20 12:00:00
+family: esp32s2
 features:
-  - Battery Charging
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Battery Charging
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker TinyS2
+title: Unexpected Maker TinyS2 Download
 ---
 
 Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!

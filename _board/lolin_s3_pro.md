@@ -1,24 +1,23 @@
 ---
-layout: download
-board_id: "lolin_s3_pro"
-title: "LOLIN S3 Pro Download"
-name: "LOLIN S3 Pro"
-manufacturer: "Wemos"
+board_id: lolin_s3_pro
+board_image: lolin_s3_pro.jpg
 board_url:
- - "https://www.wemos.cc/en/latest/s3/s3.html"
-board_image: "lolin_s3_pro.jpg"
-date_added: 2024-3-18
-family: esp32s3
+- https://www.wemos.cc/en/latest/s3/s3.html
 bootloader_id: lolin_s3_pro
+date_added: 2024-03-18 12:00:00
+family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - USB-C
-  - Breadboard-Friendly
-  - External Display
-  - STEMMA QT/QWIIC
-  - Battery Charging
-
+- Wi-Fi
+- Bluetooth/BTLE
+- USB-C
+- Breadboard-Friendly
+- External Display
+- STEMMA QT/QWIIC
+- Battery Charging
+layout: download
+manufacturer: Wemos
+name: LOLIN S3 Pro
+title: LOLIN S3 Pro Download
 ---
 
 WiFi & Bluetooth 5 (LE) boards based ESP32-S3-WROOM-1.

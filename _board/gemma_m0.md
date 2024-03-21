@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "gemma_m0"
-title: "Gemma M0 Download"
-name: "Gemma M0"
-manufacturer: "Adafruit"
+board_id: gemma_m0
+board_image: gemma_m0.jpg
 board_url:
- - "https://www.adafruit.com/product/3501"
- - "https://www.adafruit.com/product/1657"
- - "https://www.adafruit.com/product/3778"
-board_image: "gemma_m0.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/3501
+- https://www.adafruit.com/product/1657
+- https://www.adafruit.com/product/3778
 bootloader_id: gemma_m0
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Solder-Free Alligator Clip
+- Solder-Free Alligator Clip
+layout: download
+manufacturer: Adafruit
+name: Gemma M0
+title: Gemma M0 Download
 ---
 
 The **Adafruit Gemma M0** is a super small microcontroller board, with just enough built-in to create many simple projects. It may look small and cute: round, about the size of a quarter, with friendly alligator-clip sew pads. But do not be fooled! The Gemma M0 is incredibly powerful! Adafruit used the same form factor from [the original ATtiny85-based Gemma](https://www.adafruit.com/product/1222) and gave it an upgrade. The Gemma M0 has swapped out the lightweight ATtiny85 for a ATSAMD21E18 powerhouse.

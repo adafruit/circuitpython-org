@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "raspberry_pi_pico"
-title: "Pico Download"
-name: "Pico"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.adafruit.com/product/4883"
-board_image: "raspberry_pi_pico.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico"
-downloads_display: true
 blinka: true
-date_added: 2021-5-20
+board_id: raspberry_pi_pico
+board_image: raspberry_pi_pico.jpg
+board_url:
+- https://www.adafruit.com/product/4883
+date_added: 2021-05-20 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico
+downloads_display: true
+layout: download
+manufacturer: Raspberry Pi
+name: Pico
+title: Pico Download
 ---
 
 The Raspberry Pi foundation changed single-board computing when they released the Raspberry Pi computer, now they're ready to do the same for microcontrollers with the release of the brand new **Raspberry Pi Pico**. This low-cost microcontroller board features a powerful new chip, the **RP2040**, and all the fixin's to get started with embedded electronics projects at a stress-free price.

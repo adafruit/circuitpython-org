@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "banana_pi_bpi_m5"
-title: "Banana Pi BPI-M5 Download"
-name: "Banana Pi BPI-M5"
-manufacturer: "SinoVoip"
-board_url:
- - "https://www.banana-pi.org/en/banana-pi-sbcs/55.html"
-board_image: "banana_pi_bpi_m5.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2022-7-22
+board_id: banana_pi_bpi_m5
+board_image: banana_pi_bpi_m5.jpg
+board_url:
+- https://www.banana-pi.org/en/banana-pi-sbcs/55.html
+date_added: 2022-07-22 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
-  - Infrared Receiver
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+- Infrared Receiver
+layout: download
+manufacturer: SinoVoip
+name: Banana Pi BPI-M5
+title: Banana Pi BPI-M5 Download
 ---
 
 Banana Pi BPI-M5 is the next generation single board computer from Banana Pi in 2020. It is powered by Amlogic S905X3 quad-core Cortex-A55 (2.0 XXGHz) processor.Onboard 4GB LPDDR4 memory and 16GB EMMC storage, and supports 4 USB 3.0 interface, a gigabit network port.

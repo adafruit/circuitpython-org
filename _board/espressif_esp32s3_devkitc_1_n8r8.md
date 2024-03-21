@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "espressif_esp32s3_devkitc_1_n8r8"
-title: "ESP32-S3-DevKitC-1-N8R8 Download"
-name: "ESP32-S3-DevKitC-1-N8R8"
-manufacturer: "Espressif"
+board_id: espressif_esp32s3_devkitc_1_n8r8
+board_image: espressif_esp32s3_devkitc_1.jpg
 board_url:
- - "https://www.adafruit.com/product/5336"
-board_image: "espressif_esp32s3_devkitc_1.jpg"
-date_added: 2022-1-15
-family: esp32s3
+- https://www.adafruit.com/product/5336
 bootloader_id: espressif_esp32s3_devkitc_1
+date_added: 2022-01-15 12:00:00
+family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Espressif
+name: ESP32-S3-DevKitC-1-N8R8
+title: ESP32-S3-DevKitC-1-N8R8 Download
 ---
 
 The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. **This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 8MB Flash and 8MB PSRAM.**

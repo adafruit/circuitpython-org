@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "sparkfun_samd51_thing_plus"
-title: "SAMD51 Thing Plus Download"
-name: "SAMD51 Thing Plus"
-manufacturer: "SparkFun"
+board_id: sparkfun_samd51_thing_plus
+board_image: sparkfun_samd51_thing_plus.jpg
 board_url:
- - "https://www.sparkfun.com/products/14713"
-board_image: "sparkfun_samd51_thing_plus.jpg"
-date_added: 2020-2-26
+- https://www.sparkfun.com/products/14713
+date_added: 2020-02-26 12:00:00
 family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+layout: download
+manufacturer: SparkFun
+name: SAMD51 Thing Plus
+title: SAMD51 Thing Plus Download
 ---
 
 Is it power you seek? With a 32-bit ARM Cortex-M4F MCU, the SparkFun SAMD51 Thing Plus is one of our most powerful microcontroller boards yet! The SAMD51 Thing Plus provides you with an economical and easy to use development platform if you're needing more power with minimal working space. This Thing even comes flashed with the same convenient UF2 bootloader as the RedBoard Turbo. To make the Thing Plus even easier to use, we've moved a few pins around to make the board Feather compatible and it utilizes our handy Qwiic Connect System which means no soldering or shields are required to connect it to the rest of your system!
@@ -22,4 +22,3 @@ The ATSAMD51J20 utilizes a 32-bit ARM Cortex-M4 processor with Floating Point Un
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/14713)
-

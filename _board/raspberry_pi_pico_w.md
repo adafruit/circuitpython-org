@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "raspberry_pi_pico_w"
-title: "Pico W Download"
-name: "Pico W"
-manufacturer: "Raspberry Pi"
+board_id: raspberry_pi_pico_w
+board_image: raspberry_pi_pico_w.jpg
 board_url:
- - "https://www.adafruit.com/product/5526"
- - "https://www.adafruit.com/product/5544"
-board_image: "raspberry_pi_pico_w.jpg"
-date_added: 2022-10-2
+- https://www.adafruit.com/product/5526
+- https://www.adafruit.com/product/5544
+date_added: 2022-10-02 12:00:00
 family: raspberrypi
-tags:
-  - picow
-  - 🥧🐮
 features:
-  - Breadboard-Friendly
-  - Wi-Fi
+- Breadboard-Friendly
+- Wi-Fi
+layout: download
+manufacturer: Raspberry Pi
+name: Pico W
+tags:
+- picow
+- "\U0001F967\U0001F42E"
+title: Pico W Download
 ---
 
 The Raspberry Pi foundation changed single-board computing [when they released the Raspberry Pi computer](https://www.raspberrypi.org/archives/723), now they're ready to do the same for microcontrollers with the release of the brand new **Raspberry Pi Pico W**. This low-cost microcontroller board features their powerful new chip, the **RP2040**, and all the fixin's to get started with IoT embedded electronics projects at a stress-free price.

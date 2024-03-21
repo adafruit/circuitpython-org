@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "m5stack_dial"
-title: "Dial - Smart Rotary Knob with Touch Screen Download"
-name: "Dial - Smart Rotary Knob with Touch Screen"
-manufacturer: "M5Stack"
+board_id: m5stack_dial
+board_image: m5stack_dial.jpg
 board_url:
- - "https://docs.m5stack.com/en/core/M5Dial"
-board_image: "m5stack_dial.jpg"
-date_added: 2024-2-19
-family: esp32s3
+- https://docs.m5stack.com/en/core/M5Dial
 bootloader_id: m5stack_dial
+date_added: 2024-02-19 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Speaker
-  - Battery Charging
-  - Display
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
+- Speaker
+- Battery Charging
+- Display
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+layout: download
+manufacturer: M5Stack
+name: Dial - Smart Rotary Knob with Touch Screen
+title: Dial - Smart Rotary Knob with Touch Screen Download
 ---
 
 As a versatile embedded development board, **M5Dial** integrates the necessary features and sensors for various smart home control applications. It features a 1.28-inch round TFT touchscreen, a rotary encoder, an RFID detection module, an RTC circuit, a buzzer, and under-screen buttons, enabling users to easily implement a wide range of creative projects.

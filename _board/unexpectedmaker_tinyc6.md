@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "unexpectedmaker_tinyc6"
-title: "Unexpected Maker TinyC6 Download"
-name: "Unexpected Maker TinyC6"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_tinyc6
+board_image: unexpectedmaker_tinyc6.jpg
 board_url:
- - "https://unexpectedmaker.com/shop.html#!/TinyC6/p/602208790/category=0"
-board_image: "unexpectedmaker_tinyc6.jpg"
-date_added: 2023-11-22
-family: esp32c6
+- https://unexpectedmaker.com/shop.html#!/TinyC6/p/602208790/category=0
 bootloader_id: unexpectedmaker_tinyc6
+date_added: 2023-11-22 12:00:00
+family: esp32c6
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - USB-C
-  - Wi-Fi
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- USB-C
+- Wi-Fi
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker TinyC6
+title: Unexpected Maker TinyC6 Download
 ---
 
 Introducing the TinyC6 - The Mighty Tiny ESP32-C6 based development board!

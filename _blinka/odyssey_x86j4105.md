@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "odyssey_x86j4105"
-title: "ODYSSEY - X86J4105 Download"
-name: "ODYSSEY - X86J4105"
-manufacturer: "SeeedStudio"
-board_url:
- - "https://www.seeedstudio.com/ODYSSEY-X86J4105800-p-4445.html"
-board_image: "odyssey_x86j4105.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2022-11-28
+board_id: odyssey_x86j4105
+board_image: odyssey_x86j4105.jpg
+board_url:
+- https://www.seeedstudio.com/ODYSSEY-X86J4105800-p-4445.html
+date_added: 2022-11-28 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - USB 3.0
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- USB 3.0
+layout: download
+manufacturer: SeeedStudio
+name: ODYSSEY - X86J4105
+title: ODYSSEY - X86J4105 Download
 ---
 
 Edge Computing devices are playing an increasingly important role in the field of IoT. Nowadays, a computer is not just a big rectangular black box under the desk, or a small portable device working on your knees. Computers are ubiquitous devices that span calculating, communicating, and data storage. Based on this definition, here we would like to introduce our new product – the ODYSSEY - X86J4105.

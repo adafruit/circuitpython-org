@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "takayoshiotake_octave_rp2040"
-title: "OTAKE Takayoshi Octave Download"
-name: "OTAKE Takayoshi Octave"
-manufacturer: "OTAKE Takayoshi"
+board_id: takayoshiotake_octave_rp2040
+board_image: takayoshiotake_octave_rp2040.jpg
 board_url:
- - "https://github.com/takayoshiotake/octave-12-key-macropad"
-board_image: "takayoshiotake_octave_rp2040.jpg"
-date_added: 2022-8-22
+- https://github.com/takayoshiotake/octave-12-key-macropad
+date_added: 2022-08-22 12:00:00
 family: raspberrypi
 features:
-  - USB-C
+- USB-C
+layout: download
+manufacturer: OTAKE Takayoshi
+name: OTAKE Takayoshi Octave
+title: OTAKE Takayoshi Octave Download
 ---
 
 The Octave is a 12-key macropad. It is primarily designed to be a compact keyboard with support for 12 function keys (F1 - F12).

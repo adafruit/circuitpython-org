@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "cytron_edu_pico_w"
-title: "EDU PICO for Pico W Download"
-name: "EDU PICO for Pico W"
-manufacturer: "Cytron Technologies"
+board_id: cytron_edu_pico_w
+board_image: cytron_edu_pico_w.jpg
 board_url:
- - "https://www.cytron.io/p-edu-project-and-innovation-kits-for-pico-w"
-board_image: "cytron_edu_pico_w.jpg"
-date_added: 2024-1-24
+- https://www.cytron.io/p-edu-project-and-innovation-kits-for-pico-w
+date_added: 2024-01-24 12:00:00
 family: raspberrypi
 features:
-  - Battery Charging
-  - Speaker
-  - Robotics
-  - Display
+- Battery Charging
+- Speaker
+- Robotics
+- Display
+layout: download
+manufacturer: Cytron Technologies
+name: EDU PICO for Pico W
+title: EDU PICO for Pico W Download
 ---
 
 EDU PICO Project and Innovation Kit for Raspberry Pi Pico W – an all-in-one solution designed to inspire creativity, foster learning, and fuel innovation. Whether you're a student, educator, or maker, this kit is your gateway to the exciting world of embedded systems and programming using CircuitPython.

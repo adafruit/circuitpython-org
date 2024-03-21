@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "unexpectedmaker_feathers2"
-title: "Unexpected Maker FeatherS2 Download"
-name: "Unexpected Maker FeatherS2"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_feathers2
+board_image: unexpectedmaker_feathers2.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/feathers2-esp32-s2"
- - "https://www.adafruit.com/product/4769"
-board_image: "unexpectedmaker_feathers2.jpg"
-date_added: 2020-10-1
-family: esp32s2
+- https://unexpectedmaker.com/shop/feathers2-esp32-s2
+- https://www.adafruit.com/product/4769
 bootloader_id: unexpectedmaker_feathers2
+date_added: 2020-10-01 12:00:00
+family: esp32s2
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Wi-Fi
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Wi-Fi
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker FeatherS2
+title: Unexpected Maker FeatherS2 Download
 ---
 
 Introducing the FeatherS2 - The PRO ESP32-S2 based development board in a Feather format!

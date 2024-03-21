@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "circuitplayground_express_digikey_pycon2019"
-title: "Circuit Playground Express Digi-Key PyCon 2019 Download"
-name: "Circuit Playground Express Digi-Key"
-manufacturer: "Adafruit"
+board_id: circuitplayground_express_digikey_pycon2019
+board_image: circuitplayground_express_digikey_pycon2019.jpg
 board_url:
- - "https://github.com/adafruit/PyCon2019"
-board_image: "circuitplayground_express_digikey_pycon2019.jpg"
-date_added: 2019-4-13
-family: atmel-samd
+- https://github.com/adafruit/PyCon2019
 bootloader_id: circuitplay_m0
+date_added: 2019-04-13 12:00:00
+family: atmel-samd
 features:
-  - Speaker
-  - Solder-Free Alligator Clip
+- Speaker
+- Solder-Free Alligator Clip
+layout: download
+manufacturer: Adafruit
+name: Circuit Playground Express Digi-Key
+title: Circuit Playground Express Digi-Key PyCon 2019 Download
 ---
 
 The Circuit Playground Express is Adafruit's flagship educational board designed for CircuitPython.

@@ -1,24 +1,21 @@
 ---
-layout: download
-board_id: "pillbug"
-title: "PillBug Download"
-name: "PillBug"
-manufacturer: "MechWild"
+board_id: pillbug
+board_image: pillbug.jpg
 board_url:
- - "https://mechwild.com/product/pillbug/"
-board_image: "pillbug.jpg"
-date_added: 2022-11-10
+- https://mechwild.com/product/pillbug/
+bootloader_id: pillbug
+date_added: 2022-11-10 12:00:00
 downloads_display: true
 family: nrf52840
-bootloader_id: pillbug
-# Features are tags; they should be limited to the items in this list and spelled exactly the same.
-# Include only the features your board supports, and remove these comment lines before committing.
-# Breadboard-Friendly is a parallel pin layout with minimal non-critical perpendicular pins
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - USB-C
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- USB-C
+layout: download
+manufacturer: MechWild
+name: PillBug
+title: PillBug Download
 ---
 
 The PillBug is a BLE enabled development board powered by the nRF52840 that is designed to be a drop in replacement for the stm32f401/stm32f411 blackpill development board. This board was designed for compatibility with blackpill driven keyboards and will work as a simple replacement in most cases. The PillBug features 3.7V Li-Ion battery charger, a software controlled hardware cutoff for powering peripherals, a controllable status LED, and compatibility with blackpill's pinouts for I2C/SPI/UART.

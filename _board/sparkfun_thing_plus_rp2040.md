@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "sparkfun_thing_plus_rp2040"
-title: "Thing Plus - RP2040 Download"
-name: "Thing Plus - RP2040"
-manufacturer: "SparkFun"
+board_id: sparkfun_thing_plus_rp2040
+board_image: sparkfun_thing_plus_rp2040.jpg
 board_url:
- - "https://www.sparkfun.com/products/17745"
-board_image: "sparkfun_thing_plus_rp2040.jpg"
-date_added: 2021-4-6
+- https://www.sparkfun.com/products/17745
+date_added: 2021-04-06 12:00:00
 family: raspberrypi
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: SparkFun
+name: Thing Plus - RP2040
+title: Thing Plus - RP2040 Download
 ---
 
 The SparkFun Thing Plus - RP2040 is a low-cost, high performance board with flexible digital interfaces featuring the Raspberry Pi Foundation's RP2040 microcontroller. Besides the Thing Plus or *Feather* footprint (with 18 GPIO pins), the board also includes an SD card slot, 16MB (128Mbit) flash memory, a JST single cell battery connector (with a charging circuit and fuel gauge sensor), an addressable WS2812 RGB LED, JTAG PTH pins, four (4-40 screw) mounting holes, and our signature Qwiic connector.
@@ -33,4 +33,3 @@ The RP2040 is supported with both C/C++ and MicroPython cross-platform developme
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/17745)
-

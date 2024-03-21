@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "mixgo_ce_serial"
-title: "MixGo CE Serial Download"
-name: "MixGo CE Serial"
-manufacturer: "Mixly"
+board_id: mixgo_ce_serial
+board_image: mixgo_ce_serial.jpg
 board_url:
- - "https://mixly.org/"
-board_image: "mixgo_ce_serial.jpg"
-date_added: 2022-5-22
+- https://mixly.org/
+date_added: 2022-05-22 12:00:00
 family: esp32s2
 features:
-  - Display
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Display
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Mixly
+name: MixGo CE Serial
+title: MixGo CE Serial Download
 ---
 
 Mixgo CE Serial(Serial port loader) is designed by mixly team and can be programmed with mixly software (mixly2.0 version of graphic and graphic mixed programming platform) to facilitate information popularization and education

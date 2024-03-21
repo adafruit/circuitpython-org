@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "avnet_iiot_gateway"
-title: "SmartEdge Industrial IOT Gateway Download"
-name: "SmartEdge Industrial IOT Gateway"
-manufacturer: "Avnet, Inc."
-board_url:
- - "https://www.avnet.com/wps/portal/us/solutions/iot/products/gateways/"
-board_image: "avnet_iiot_gateway.jpg"
-downloads_display: true
 blinka: true
-date_added: 2020-5-15
+board_id: avnet_iiot_gateway
+board_image: avnet_iiot_gateway.jpg
+board_url:
+- https://www.avnet.com/wps/portal/us/solutions/iot/products/gateways/
+date_added: 2020-05-15 12:00:00
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Avnet, Inc.
+name: SmartEdge Industrial IOT Gateway
+title: SmartEdge Industrial IOT Gateway Download
 ---
 
 Gateways can be as varied as the devices they help connect, with each gateway needing different protocols, connection methodologies and energy requirements to bring together the myriad of distributed parts that make up the IoT whole. Gateways serve critical functions such as data filtering and security and up to application code. Whether an app on a mobile device, a demo board, or even a connected sensor, gateways are critical to the functioning of the IoT—and Avnet’s deep hardware experience help connect your solutions to the cloud smartly and with security in mind.

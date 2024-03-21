@@ -1,24 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_feather_esp32s3_nopsram"
-title: "Feather ESP32-S3 No PSRAM Download"
-name: "Feather ESP32-S3 No PSRAM"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_esp32s3_nopsram
+board_image: adafruit_feather_esp32s3_nopsram.jpg
 board_url:
- - "https://www.adafruit.com/product/5323"
-board_image: "adafruit_feather_esp32s3_nopsram.jpg"
-date_added: 2022-4-1
-family: esp32s3
+- https://www.adafruit.com/product/5323
 bootloader_id: adafruit_feather_esp32s3_nopsram
+date_added: 2022-04-01 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
-
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather ESP32-S3 No PSRAM
+title: Feather ESP32-S3 No PSRAM Download
 ---
 
 The ESP32-S3 has arrived in Feather format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this Feather is great for powering your IoT projects.

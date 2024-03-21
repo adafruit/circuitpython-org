@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "adafruit_feather_esp32s2"
-title: "Feather ESP32-S2 Download"
-name: "Feather ESP32-S2"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_esp32s2
+board_image: adafruit_feather_esp32s2.jpg
 board_url:
- - "https://www.adafruit.com/product/5000"
-board_image: "adafruit_feather_esp32s2.jpg"
-date_added: 2021-4-6
-family: esp32s2
+- https://www.adafruit.com/product/5000
 bootloader_id: adafruit_feather_esp32s2
+date_added: 2021-04-06 12:00:00
+family: esp32s2
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather ESP32-S2
+title: Feather ESP32-S2 Download
 ---
 
 What's Feather-shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connector for I2C devices? What has your favorite Espressif WiFi microcontroller and lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy?

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "feather_m0_express_crickit"
-title: "Feather M0 Express + Crickit Download"
-name: "Feather M0 Express + Crickit"
-manufacturer: "Adafruit"
+board_id: feather_m0_express_crickit
+board_image: feather_m0_express_crickit.jpg
 board_url:
- - "https://www.adafruit.com/product/3343"
-board_image: "feather_m0_express_crickit.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/3343
 bootloader_id: feather_m0_express
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Speaker
-  - Feather-Compatible
-  - Battery Charging
-  - Robotics
+- Speaker
+- Feather-Compatible
+- Battery Charging
+- Robotics
+layout: download
+manufacturer: Adafruit
+name: Feather M0 Express + Crickit
+title: Feather M0 Express + Crickit Download
 ---
 
 **Crickit** is Adafruit's **C**reative **R**obotics & **I**nteractive **C**onstruction **Kit**. It's an add-on to popular Feather ecosystem boards that lets you **#MakeRobotFriend **using CircuitPython.

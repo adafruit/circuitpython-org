@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "feather_m4_can"
-title: "Feather M4 CAN Download"
-name: "Feather M4 CAN"
-manufacturer: "Adafruit"
+board_id: feather_m4_can
+board_image: feather_m4_can.jpg
 board_url:
- - "https://www.adafruit.com/product/4759"
-board_image: "feather_m4_can.jpg"
-date_added: 2020-9-28
-family: atmel-samd
+- https://www.adafruit.com/product/4759
 bootloader_id: feather_m4_can
+date_added: 2020-09-28 12:00:00
+family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather M4 CAN
+title: Feather M4 CAN Download
 ---
 
 One of our favorite Feathers, the Feather M4 Express, gets a glow-up here with an upgrade to the SAME51 chipset which has built-in CAN bus support! Like its SAMD51 cousin, the ATSAME51J19 comes with a 120 MHz Cortex M4 with floating point support and 512 KB Flash and 192 KB RAM. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset for CAN interfacing projects.

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "ohs2020_badge"
-title: "OHS2020 Badge Download"
-name: "Open Hardware Summit 2020 Badge"
-manufacturer: "OSHWA"
-board_url:
- - "https://hackaday.io/project/168483-open-hardware-summit-2020-badge"
-board_image: "ohs2020_badge.jpg"
-downloads_display: true
 blinka: false
-date_added: 2020-1-16
-family: nrf52840
+board_id: ohs2020_badge
+board_image: ohs2020_badge.jpg
+board_url:
+- https://hackaday.io/project/168483-open-hardware-summit-2020-badge
 bootloader_id: ohs2020_badge
+date_added: 2020-01-16 12:00:00
+downloads_display: true
+family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - Display
-  - Battery Charging
+- Bluetooth/BTLE
+- Display
+- Battery Charging
+layout: download
+manufacturer: OSHWA
+name: Open Hardware Summit 2020 Badge
+title: OHS2020 Badge Download
 ---
 
 This is the badge for the Open Hardware Summit in NYC on on March 13th.

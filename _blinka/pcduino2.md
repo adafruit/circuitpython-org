@@ -1,15 +1,14 @@
 ---
-layout: download
-board_id: "pcduino2"
-title: "pcDuino2 Download"
-name: "pcDuino2"
-manufacturer: "LinkSprite"
 blinka: true
+board_id: pcduino2
+board_image: pcduino2.jpg
 board_url:
- - "https://www.linksprite.com/linksprite-pcduino2/"
-board_image: "pcduino2.jpg"
-date_added: 2023-10-27
-
+- https://www.linksprite.com/linksprite-pcduino2/
+date_added: 2023-10-27 12:00:00
+layout: download
+manufacturer: LinkSprite
+name: pcDuino2
+title: pcDuino2 Download
 ---
 
 As the field of embedded electronics gets more advanced, hobbyists and professionals are both in need of smaller and more powerful computers. The pcDuino2 is a high performance, cost effective mini PC platform that runs full-featured operating systems such as Ubuntu and Android ICS. Now included with the pcDuino2 is a built in Wi-Fi module and Arduino headers (finally with the same architecture as Uno boards) meaning you will no longer need to purchase a separate wireless module or shield adapter for this dev board!

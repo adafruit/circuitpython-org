@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "raspberry_pi_cm1"
-title: "Raspberry Pi Compute Module 1 Download"
-name: "Compute Module 1"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/compute-module-1/"
-board_image: "raspberry_pi_cm1.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-24
+board_id: raspberry_pi_cm1
+board_image: raspberry_pi_cm1.jpg
+board_url:
+- https://www.raspberrypi.com/products/compute-module-1/
+date_added: 2019-06-24 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
-  - HDMI/DisplayPort
+- HDMI/DisplayPort
+layout: download
+manufacturer: Raspberry Pi
+name: Compute Module 1
+title: Raspberry Pi Compute Module 1 Download
 ---
 
 The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application.

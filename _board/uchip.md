@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "uchip"
-title: "uChip Download"
-name: "uChip M0"
-manufacturer: "Itaca Innovation"
+board_id: uchip
+board_image: uchip.jpg
 board_url:
- - "https://shop.itaca-innovation.com"
-board_image: "uchip.jpg"
-date_added: 2019-3-25
-family: atmel-samd
+- https://shop.itaca-innovation.com
 bootloader_id: uchip
+date_added: 2019-03-25 12:00:00
+family: atmel-samd
 features:
-  - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: Itaca Innovation
+name: uChip M0
+title: uChip Download
 ---
 
 **Small. Yet powerful!**

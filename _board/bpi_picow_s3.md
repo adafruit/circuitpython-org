@@ -1,20 +1,19 @@
 ---
-layout: download
-board_id: "bpi_picow_s3"
-title: "BPI-PicoW-S3 Download"
-name: "BPI-PicoW-S3"
-manufacturer: "Banana Pi"
+board_id: bpi_picow_s3
+board_image: bpi_picow_s3.jpg
 board_url:
- - "https://wiki.banana-pi.org/BPI-PicoW-S3"
-board_image: "bpi_picow_s3.jpg"
-date_added: 2022-10-11
-family: esp32s3
+- https://wiki.banana-pi.org/BPI-PicoW-S3
 bootloader_id: bpi_picow_s3
+date_added: 2022-10-11 12:00:00
+family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Banana Pi
+name: BPI-PicoW-S3
+title: BPI-PicoW-S3 Download
 ---
 
 BPI-Pico-S3 is the same size as Raspberry Pi Pico board, equipped with ESP32S3 chip, 8M flash, 4-layer PCB, electroplated half-hole process, ceramic antenna, supports 2.4 GHz Wi-Fi and Bluetooth® LE dual-mode wireless communication, is a development board designed for IoT development and Maker DIY.

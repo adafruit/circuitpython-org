@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "lilygo_t_display_rp2040"
-title: "T-Display RP2040 Download"
-name: "T-Display RP2040"
-manufacturer: "LILYGO"
+board_id: lilygo_t_display_rp2040
+board_image: lilygo_t_display_rp2040.jpg
 board_url:
- - "https://www.lilygo.cc/products/t-display-rp2040"
-board_image: "lilygo_t_display_rp2040.jpg"
-date_added: 2023-5-15
+- https://www.lilygo.cc/products/t-display-rp2040
+date_added: 2023-05-15 12:00:00
 family: raspberrypi
 features:
-  - Battery Charging
-  - USB-C
-  - Breadboard-Friendly
+- Battery Charging
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: LILYGO
+name: T-Display RP2040
+title: T-Display RP2040 Download
 ---
 
 The LILYGO T-Display RP2040 is a mid-size (52 mm x 25 mm) development board. It features a ST7789V 1.14 inch display and supprt for dual power supply (USB and battery).

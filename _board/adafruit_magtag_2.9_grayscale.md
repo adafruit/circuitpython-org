@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_magtag_2.9_grayscale"
-title: "MagTag - 2.9\" Grayscale E-Ink WiFi Display Download"
-name: "MagTag - 2.9\" Grayscale E-Ink WiFi Display"
-manufacturer: "Adafruit"
+board_id: adafruit_magtag_2.9_grayscale
+board_image: adafruit_magtag_2.9_grayscale.jpg
 board_url:
- - "https://www.adafruit.com/product/4800"
- - "https://www.adafruit.com/product/4819"
-board_image: "adafruit_magtag_2.9_grayscale.jpg"
-date_added: 2020-11-10
-family: esp32s2
+- https://www.adafruit.com/product/4800
+- https://www.adafruit.com/product/4819
 bootloader_id: adafruit_magtag_29gray
+date_added: 2020-11-10 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Speaker
-  - Display
-  - USB-C
+- Wi-Fi
+- Battery Charging
+- STEMMA QT/QWIIC
+- Speaker
+- Display
+- USB-C
+layout: download
+manufacturer: Adafruit
+name: MagTag - 2.9" Grayscale E-Ink WiFi Display
+title: MagTag - 2.9" Grayscale E-Ink WiFi Display Download
 ---
 
 The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9" grayscale E-Ink display to make a low-power IoT display that can show data on its screen even when power is removed! The ESP32-S2 is great because it builds on the years of code and support for the ESP32 and also adds native USB support so you can use this board with Arduino _or_ CircuitPython!

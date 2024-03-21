@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "seeed_xiao_esp32c3"
-title: "Seeed Studio XIAO ESP32C3 Download"
-name: "Seeed Studio XIAO ESP32C3"
-manufacturer: "Seeed Studio"
+board_id: seeed_xiao_esp32c3
+board_image: seeed_xiao_esp32c3.jpg
 board_url:
- - "https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html"
-board_image: "seeed_xiao_esp32c3.jpg"
-date_added: 2022-8-22
+- https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
+date_added: 2022-08-22 12:00:00
 family: esp32c3
 features:
-  - Breadboard-Friendly
-  - Xiao / QTPy Form Factor
-  - USB-C
-  - Wi-Fi
-  - Battery Charging
+- Breadboard-Friendly
+- Xiao / QTPy Form Factor
+- USB-C
+- Wi-Fi
+- Battery Charging
+layout: download
+manufacturer: Seeed Studio
+name: Seeed Studio XIAO ESP32C3
+title: Seeed Studio XIAO ESP32C3 Download
 ---
 
 Seeed Studio XIAO ESP32C3 featuring **ESP32C3** carries a complete Wi-Fi system along with Bluetooth Low Energy function. With its exquisite design and **WiFi+BT** ability, it's perfect for various **IoT controlling scenarios** and **complex carriable applications**.
@@ -44,4 +44,3 @@ Being a number to the Seeed Studio XIAO family, the board deservedly maintains t
 
 ## Getting Started
 Since the ESP32C3 chip does not have support for native USB, you won't see a CIRCUITPY drive appear when you plug it into your computer. [Here is a complete guide](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/overview) for getting Circuitpython installed onto an ESP32C3 device, and for enabling [Web Workflow](https://docs.circuitpython.org/en/latest/docs/workflows.html#web) so you can load your Python code onto it.
-

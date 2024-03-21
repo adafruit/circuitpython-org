@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "capablerobot_usbhub"
-title: "Programmable USB Hub Download"
-name: "Programmable USB Hub"
-manufacturer: "Capable Robot Components"
+board_id: capablerobot_usbhub
+board_image: capablerobot_usbhub.jpg
 board_url:
- - "https://www.crowdsupply.com/capable-robot-components/programmable-usb-hub"
-board_image: "capablerobot_usbhub.jpg"
-date_added: 2019-5-25
-family: atmel-samd
+- https://www.crowdsupply.com/capable-robot-components/programmable-usb-hub
 bootloader_id: capablerobot_usbhub
+date_added: 2019-05-25 12:00:00
+family: atmel-samd
 features:
-  - STEMMA QT/QWIIC
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Capable Robot Components
+name: Programmable USB Hub
+title: Programmable USB Hub Download
 ---
 
 In addition to being a 4-port USB 2 High-Speed hub, this Programmable USB hub is also:

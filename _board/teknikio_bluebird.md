@@ -1,16 +1,17 @@
 ---
-layout: download
-board_id: "teknikio_bluebird"
-title: "Bluebird Download"
-name: "Bluebird"
-manufacturer: "Teknikio"
+board_id: teknikio_bluebird
+board_image: teknikio_bluebird.jpg
 board_url:
- - "https://www.teknikio.com/pages/bluebird"
-board_image: "teknikio_bluebird.jpg"
-date_added: 2019-12-20
+- https://www.teknikio.com/pages/bluebird
+date_added: 2019-12-20 12:00:00
 family: nrf52840
-features:
+features: null
+layout: download
+manufacturer: Teknikio
+name: Bluebird
+title: Bluebird Download
 ---
+
 A plug-n-play circuit board that can be programmed to send and receive information over Bluetooth and the Internet.
 
 Bluebirds can form a network to send and receive data to one another.

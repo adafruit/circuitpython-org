@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "edgebadge"
-title: "EdgeBadge Download"
-name: "EdgeBadge"
-manufacturer: "Adafruit"
+board_id: edgebadge
+board_image: edgebadge.jpg
 board_url:
- - "https://www.adafruit.com/product/4400"
-board_image: "edgebadge.jpg"
-date_added: 2019-11-19
-family: atmel-samd
+- https://www.adafruit.com/product/4400
 bootloader_id: arcade_pybadge
+date_added: 2019-11-19 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Speaker
-  - Feather-Compatible
-  - Battery Charging
+- Display
+- Speaker
+- Feather-Compatible
+- Battery Charging
+layout: download
+manufacturer: Adafruit
+name: EdgeBadge
+title: EdgeBadge Download
 ---
 
 Machine learning has come to the 'edge' - small microcontrollers that can run a very miniature version of TensorFlow Lite to do ML computations.

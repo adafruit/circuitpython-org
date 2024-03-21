@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "espressif_esp32c6_devkitc_1_n8"
-title: "ESP32-C6-DevKitC-1-N8 Download"
-name: "ESP32-C6-DevKitC-1-N8"
-manufacturer: "Espressif"
+board_id: espressif_esp32c6_devkitc_1_n8
+board_image: espressif_esp32c6_devkitc_1.jpg
 board_url:
- - "https://www.adafruit.com/product/5672"
-board_image: "espressif_esp32c6_devkitc_1.jpg"
-date_added: 2023-10-27
-family: esp32c6
+- https://www.adafruit.com/product/5672
 bootloader_id: espressif_esp32c6_devkitc_1
+date_added: 2023-10-27 12:00:00
+family: esp32c6
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Espressif
+name: ESP32-C6-DevKitC-1-N8
+title: ESP32-C6-DevKitC-1-N8 Download
 ---
 
 The **ESP32-C6-DevKitC-1-N8** is an entry-level development board equipped with ESP32-C6-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE RISC-V MCU module that integrates complete Wi-Fi and Bluetooth LE functions. This board integrates complete Wi-Fi, Bluetooth LE, Zigbee, and Thread functions.

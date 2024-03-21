@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "orange_pi_one"
-title: "Orange Pi One Download"
-name: "Orange Pi One"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/orangepione/"
-board_image: "orange_pi_one.png"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2020-1-18
+board_id: orange_pi_one
+board_image: orange_pi_one.png
+board_url:
+- http://www.orangepi.org/orangepione/
+date_added: 2020-01-18 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi One
+title: Orange Pi One Download
 ---
 
 What’s Orange Pi One？ It’s an open-source single-board computer. It can run Android 4.4, Ubuntu, Debian Image. It uses the AllWinner H3 SoC, and has 512MB DDR3 SDRAM

@@ -1,24 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_feather_esp32s3_4mbflash_2mbpsram"
-title: "Feather ESP32-S3 4MB Flash 2MB PSRAM Download"
-name: "Feather ESP32-S3 4MB Flash 2MB PSRAM"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_esp32s3_4mbflash_2mbpsram
+board_image: adafruit_feather_esp32s3_4mbflash_2mbpsram.jpg
 board_url:
- - "https://www.adafruit.com/product/5477"
-board_image: "adafruit_feather_esp32s3_4mbflash_2mbpsram.jpg"
-date_added: 2022-6-9
-family: esp32s3
+- https://www.adafruit.com/product/5477
 bootloader_id: adafruit_feather_esp32s3
+date_added: 2022-06-09 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
-
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather ESP32-S3 4MB Flash 2MB PSRAM
+title: Feather ESP32-S3 4MB Flash 2MB PSRAM Download
 ---
 
 The ESP32-S3 has arrived in Feather format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this Feather is great for powering your IoT projects.

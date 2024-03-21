@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "binho_nova"
-title: "Nova"
-name: "Nova"
-manufacturer: "Binho"
-board_url:
- - "https://binho.io/"
-board_image: "binho_nova.jpg"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
-features:
+board_id: binho_nova
+board_image: binho_nova.jpg
+board_url:
+- https://binho.io/
+date_added: 2019-12-03 12:00:00
+downloads_display: true
+features: null
+layout: download
+manufacturer: Binho
+name: Nova
+title: Nova
 ---
 
 The Binho Nova brings Multi-Protocol USB Host Adapters into the 21st Century. No more fumbling through development with cumbersome, clunky, out-dated adapters. Let your productivity soar to new heights!

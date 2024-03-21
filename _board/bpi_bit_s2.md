@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "bpi_bit_s2"
-title: "BPI-Bit-S2 Download"
-name: "BPI-Bit-S2"
-manufacturer: "Banana Pi"
+board_id: bpi_bit_s2
+board_image: bpi_bit_s2.jpg
 board_url:
- - "https://wiki.banana-pi.org/BPI-Bit-S2"
-board_image: "bpi_bit_s2.jpg"
-date_added: 2022-9-14
-family: esp32s2
+- https://wiki.banana-pi.org/BPI-Bit-S2
 bootloader_id: bpi_bit_s2
+date_added: 2022-09-14 12:00:00
+family: esp32s2
 features:
-  - USB-C
-  - Wi-Fi
-  - Solder-Free Alligator Clip
-  - Speaker
+- USB-C
+- Wi-Fi
+- Solder-Free Alligator Clip
+- Speaker
+layout: download
+manufacturer: Banana Pi
+name: BPI-Bit-S2
+title: BPI-Bit-S2 Download
 ---
 
 The BPI-Bit-S2 is a development board equipped ESP32-S2 chip, with 5x5 RGB LED matrix, 1 buzzer, 2 photosensitive sensors, 1 thermosensitive sensor, provides Wi-Fi functions via PCB antenna.

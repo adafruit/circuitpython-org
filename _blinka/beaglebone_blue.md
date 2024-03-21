@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "beaglebone_blue"
-title: "BeagleBone Blue Download"
-name: "BeagleBone Blue"
-manufacturer: "BeagleBoard"
-board_url:
- - "https://beagleboard.org/blue"
-board_image: "beaglebone_blue.jpg"
-downloads_display: true
 blinka: true
-date_added: 2023-5-4
+board_id: beaglebone_blue
+board_image: beaglebone_blue.jpg
+board_url:
+- https://beagleboard.org/blue
+date_added: 2023-05-04 12:00:00
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - STEMMA QT/QWIIC
+- Wi-Fi
+- Bluetooth/BLE
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: BeagleBoard
+name: BeagleBone Blue
+title: BeagleBone Blue Download
 ---
 
 BeagleBone® Blue is an all-in-one Linux-based computer for robotics, integrating onto a single small (3.5" x 2.15") board the Octavo OSD3358 microprocessor together with wifi/bluetooth, IMU/barometer, power regulation and state-of-charge LEDs for a 2-cell LiPo, H-Bridges, and discrete connectors for 4 DC motors+encoders, 8 servos, and all of the commonly-needed buses for additional peripherals in embedded applications. Fully open source and actively supported by a strong community, the real-time performance, flexible networking, and rich set of robotics-oriented capabilities make building mobile robots with the Blue fast, streamlined, affordable, and fun.

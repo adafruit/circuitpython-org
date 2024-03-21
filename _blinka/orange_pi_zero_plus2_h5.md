@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "orange_pi_zero_plus2_h5"
-title: "Orange Pi Zero Plus2 (H5 Version) Download"
-name: "Orange Pi Zero Plus2 (H5 Version)"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/OrangePiZeroPlus2/"
-board_image: "orange_pi_zero_plus2_h5.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2020-11-2
+board_id: orange_pi_zero_plus2_h5
+board_image: orange_pi_zero_plus2_h5.jpg
+board_url:
+- http://www.orangepi.org/OrangePiZeroPlus2/
+date_added: 2020-11-02 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi Zero Plus2 (H5 Version)
+title: Orange Pi Zero Plus2 (H5 Version) Download
 ---
 
 What’s Orange Pi Zero Plus2？

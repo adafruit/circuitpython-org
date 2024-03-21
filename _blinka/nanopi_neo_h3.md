@@ -1,19 +1,18 @@
 ---
-layout: download
-board_id: "nanopi_neo"
-title: "NanoPi NEO Download"
-name: "NanoPi NEO"
-manufacturer: "FriendlyElec"
-board_url:
- - "http://nanopi.io/nanopi-neo.html"
-board_image: "nanopi_neo.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2022-1-4
+board_id: nanopi_neo
+board_image: nanopi_neo.jpg
+board_url:
+- http://nanopi.io/nanopi-neo.html
+date_added: 2022-01-04 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Ethernet
-
+- Ethernet
+layout: download
+manufacturer: FriendlyElec
+name: NanoPi NEO
+title: NanoPi NEO Download
 ---
 
 LTS - long term support, We will not make any changes to this model and will provide support as long as possible

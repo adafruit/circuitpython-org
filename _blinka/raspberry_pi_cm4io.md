@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "raspberry_pi_cm4io"
-title: "Raspberry Pi Compute Module 4 IO Board Download"
-name: "Compute Module 4 IO Board"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/compute-module-4-io-board/"
-board_image: "raspberrypi_cm4io.jpg"
-download_instructions:
-downloads_display: true
 blinka: true
-date_added: 2020-12-10
+board_id: raspberry_pi_cm4io
+board_image: raspberrypi_cm4io.jpg
+board_url:
+- https://www.raspberrypi.com/products/compute-module-4-io-board/
+date_added: 2020-12-10 12:00:00
+download_instructions: null
+downloads_display: true
 features:
-  - HDMI/DisplayPort
-  - Ethernet
-  - Wi-Fi
-  - 40-pin GPIO
-  - Bluetooth/BLE
+- HDMI/DisplayPort
+- Ethernet
+- Wi-Fi
+- 40-pin GPIO
+- Bluetooth/BLE
+layout: download
+manufacturer: Raspberry Pi
+name: Compute Module 4 IO Board
+title: Raspberry Pi Compute Module 4 IO Board Download
 ---
 
 Compute Module 4

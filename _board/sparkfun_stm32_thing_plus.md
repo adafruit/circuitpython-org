@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "sparkfun_stm32_thing_plus"
-title: "STM32 Thing Plus Download"
-name: "STM32 Thing Plus"
-manufacturer: "SparkFun"
+board_id: sparkfun_stm32_thing_plus
+board_image: sparkfun_stm32_thing_plus.jpg
 board_url:
- - "https://www.sparkfun.com/products/17712"
-board_image: "sparkfun_stm32_thing_plus.jpg"
-date_added: 2022-1-4
+- https://www.sparkfun.com/products/17712
+date_added: 2022-01-04 12:00:00
 family: stm
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
-  - USB-C
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+- USB-C
+layout: download
+manufacturer: SparkFun
+name: STM32 Thing Plus
+title: STM32 Thing Plus Download
 ---
 
 With a 32-bit ARM® Cortex®-M4 RISC core, the SparkFun STM32 Thing Plus brings power and precision to your projects. The STM32 Thing Plus provides you with an economical and easy to use development platform if you're needing more power with a minimal working space. This Thing comes flashed with the DFU bootloader, and to make the Thing Plus even easier to use, we've moved a few pins around to make the board Feather compatible. In addition, it utilizes our handy Qwiic Connect System which means no soldering or shields are required to connect it to the rest of your system!
@@ -23,4 +23,3 @@ As we previously stated; the STM32F405 Processor is based on the high-performanc
 
 ## Purchase
 * [SparkFun](https://www.sparkfun.com/products/17712)
-

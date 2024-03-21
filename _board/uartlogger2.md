@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "uartlogger2"
-title: "uartlogger2 Download"
-name: "uartlogger2"
-manufacturer: "unknown"
-board_url:
-board_image: "unknown.jpg"
-downloads_display: false
-date_added: 2020-3-31
-family: atmel-samd
+board_id: uartlogger2
+board_image: unknown.jpg
+board_url: null
 bootloader_id: uartlogger2
-features:
+date_added: 2020-03-31 12:00:00
+downloads_display: false
+family: atmel-samd
+features: null
+layout: download
+manufacturer: unknown
+name: uartlogger2
+title: uartlogger2 Download
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

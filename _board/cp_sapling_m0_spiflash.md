@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "cp_sapling_m0_spiflash"
-title: "CP Sapling M0 with SPI Flash Download"
-name: "CP Sapling M0 with SPI Flash"
-manufacturer: "Oak Development Technologies"
+board_id: cp_sapling_m0_spiflash
+board_image: cp_sapling_m0.jpg
 board_url:
- - "https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/"
-board_image: "cp_sapling_m0.jpg"
-date_added: 2021-4-6
-family: atmel-samd
+- https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/
 bootloader_id: cp_sapling_m0
+date_added: 2021-04-06 12:00:00
+family: atmel-samd
 features:
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+layout: download
+manufacturer: Oak Development Technologies
+name: CP Sapling M0 with SPI Flash
+title: CP Sapling M0 with SPI Flash Download
 ---
 
 Finally, a tree that runs CircuitPython? YEP! Now you can get working in CircuitPython fast with our new CircuitPython compatible development board featuring the popular Microchip AT SAM D21 microcontroller.

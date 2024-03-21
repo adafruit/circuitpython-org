@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "gravitech_cucumber_r"
-title: "Cucumber R Download"
-name: "Cucumber R"
-manufacturer: "Gravitech"
+board_id: gravitech_cucumber_r
+board_image: gravitech_cucumber_r.jpg
 board_url:
- - "https://www.gravitech.us/curesdebo.html"
-board_image: "gravitech_cucumber_r.jpg"
-date_added: 2021-8-13
-family: esp32s2
+- https://www.gravitech.us/curesdebo.html
 bootloader_id: gravitech_cucumberRIS_v1.1
+date_added: 2021-08-13 12:00:00
 downloads_display: true
+family: esp32s2
 features:
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Gravitech
+name: Cucumber R
+title: Cucumber R Download
 ---
 
 Cucumber R is a WiFi IoT development board. It features the latest ESP32-S2 chipset from Espressif (ESP32-S2-WROVER).

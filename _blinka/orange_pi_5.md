@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "orange_pi_5"
-title: "Orange Pi 5 Download"
-name: "Orange Pi 5"
-manufacturer: "Shenzhen Xunlong Software CO., Limited"
-board_url:
- - "http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html"
-board_image: "orange_pi_5.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2023-5-8
+board_id: orange_pi_5
+board_image: orange_pi_5.jpg
+board_url:
+- http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html
+date_added: 2023-05-08 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Ethernet
-  - USB 3.0
-  - HDMI/DisplayPort
+- Ethernet
+- USB 3.0
+- HDMI/DisplayPort
+layout: download
+manufacturer: Shenzhen Xunlong Software CO., Limited
+name: Orange Pi 5
+title: Orange Pi 5 Download
 ---
 
 Orange Pi 5 uses Rockchip RK3588S new generation 8-core 64-bit processor, quad-core A76+quad-core A55, with 8nm process design, up to 2.4GHz main frequency, integrated ARM Mali-G610 GPU, embedded high-performance 3D/2D image acceleration module, built-in NPU with 6Tops computing power, with 4GB/8GB/16GB/32GB (LPDDR4/4x), and up to 8K display processing capability.

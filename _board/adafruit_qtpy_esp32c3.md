@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "adafruit_qtpy_esp32c3"
-title: "Adafruit QT Py ESP32-C3 Download"
-name: "Adafruit QT Py ESP32-C3"
-manufacturer: "Adafruit"
+board_id: adafruit_qtpy_esp32c3
+board_image: adafruit_qtpy_esp32c3.jpg
 board_url:
- - "https://www.adafruit.com/product/5405"
-board_image: "adafruit_qtpy_esp32c3.jpg"
-date_added: 2022-4-1
-family: esp32c3
+- https://www.adafruit.com/product/5405
+date_added: 2022-04-01 12:00:00
 downloads_display: true
+family: esp32c3
 features:
-  - STEMMA QT/QWIIC
-  - Xiao / QTPy Form Factor
-  - USB-C
-  - Breadboard-Friendly
-  - Wi-Fi
+- STEMMA QT/QWIIC
+- Xiao / QTPy Form Factor
+- USB-C
+- Breadboard-Friendly
+- Wi-Fi
+layout: download
+manufacturer: Adafruit
+name: Adafruit QT Py ESP32-C3
+title: Adafruit QT Py ESP32-C3 Download
 ---
 
 What's life without a little RISC? This miniature dev board is perfect for small projects: it comes with [our favorite connector - the STEMMA QT](http://adafruit.com/stemma), a chainable I2C port, WiFi, Bluetooth LE, and plenty of FLASH and RAM memory for many IoT projects. What a cutie pie! Or is it... a **QT Py**? This diminutive dev board comes with a RISC-V IoT microcontroller, the **ESP32-C3**!
@@ -62,7 +62,3 @@ Runs [Arduino with Espressif's ESP32 core](https://github.com/espressif/arduino-
 
 ## Getting Started
 Since the ESP32C3 chip does not have support for native USB, you won't see a CIRCUITPY drive appear when you plug it into your computer. [Here is a complete guide](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/overview) for getting Circuitpython installed onto an ESP32C3 device, and for enabling [Web Workflow](https://docs.circuitpython.org/en/latest/docs/workflows.html#web) so you can load your Python code onto it.
-
-
-
-

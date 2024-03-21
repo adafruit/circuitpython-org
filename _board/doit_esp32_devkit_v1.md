@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "doit_esp32_devkit_v1"
-title: "DOIT ESP32 Development Board Download"
-name: "DOIT ESP32 Development Board"
-manufacturer: "DOIT"
+board_id: doit_esp32_devkit_v1
+board_image: doit_esp32_devkit_v1.jpg
 board_url:
- - "https://www.aliexpress.us/item/2251832638296842.html"
-board_image: "doit_esp32_devkit_v1.jpg"
-date_added: 2023-1-31
+- https://www.aliexpress.us/item/2251832638296842.html
+date_added: 2023-01-31 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
+- Wi-Fi
+- Bluetooth/BTLE
+layout: download
+manufacturer: DOIT
+name: DOIT ESP32 Development Board
+title: DOIT ESP32 Development Board Download
 ---
 
 ESP32 is already integrated antenna and RF balun, power amplifier, low-noise amplifiers, filters,

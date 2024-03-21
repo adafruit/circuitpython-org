@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "adafruit_feather_rp2040"
-title: "Feather RP2040 Download"
-name: "Feather RP2040"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_rp2040
+board_image: adafruit_feather_rp2040.jpg
 board_url:
- - "https://www.adafruit.com/product/4884"
-board_image: "adafruit_feather_rp2040.jpg"
-date_added: 2021-1-21
+- https://www.adafruit.com/product/4884
+date_added: 2021-01-21 12:00:00
 family: raspberrypi
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather RP2040
+title: Feather RP2040 Download
 ---
 
 A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought "this chip is going to be awesome when we give it the Feather Treatment" and so we did! This Feather features the **RP2040**, and all niceties you know and love about Feather.

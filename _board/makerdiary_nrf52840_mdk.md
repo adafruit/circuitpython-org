@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "makerdiary_nrf52840_mdk"
-title: "nRF52840 Micro Dev Kit Download"
-name: "nRF52840 Micro Dev Kit"
-manufacturer: "MakerDiary"
+board_id: makerdiary_nrf52840_mdk
+board_image: nRF52840_micro_dev_kit.jpg
 board_url:
- - "https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-iot-development-kit"
-board_image: "nRF52840_micro_dev_kit.jpg"
-date_added: 2019-3-9
+- https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-iot-development-kit
+date_added: 2019-03-09 12:00:00
 family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - USB-C
-  - Breadboard-Friendly
+- Bluetooth/BTLE
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: MakerDiary
+name: nRF52840 Micro Dev Kit
+title: nRF52840 Micro Dev Kit Download
 ---
 
 The nRF52840-MDK is a versatile, easy-to-use IoT hardware platform for Bluetooth 5, Bluetooth Mesh, Thread, IEEE 802.15.4, ANT and 2.4GHz proprietary wireless applications using the nRF52840 SoC.

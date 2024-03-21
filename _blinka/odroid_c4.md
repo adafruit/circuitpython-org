@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "odroid_c4"
-title: "ODROID C4 Download"
-name: "ODROID C4"
-manufacturer: "Hardkernel co., Ltd."
-board_url:
- - "https://www.hardkernel.com/shop/odroid-c4/"
-board_image: "odroid_c4.jpg"
-downloads_display: true
 blinka: true
-date_added: 2020-5-15
+board_id: odroid_c4
+board_image: odroid_c4.jpg
+board_url:
+- https://www.hardkernel.com/shop/odroid-c4/
+date_added: 2020-05-15 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - Infrared Receiver
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- Infrared Receiver
+layout: download
+manufacturer: Hardkernel co., Ltd.
+name: ODROID C4
+title: ODROID C4 Download
 ---
 
 ODROID-C4 is a new generation single board computer that is more energy efficient and faster performing than ODROID-C2 which was introduced over four years ago as the world’s first affordable ARM 64bit computer.

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "deneyap_kart_1a"
-title: "Deneyap Kart 1A Download"
-name: "Deneyap Kart 1A"
-manufacturer: "Turkish Technology Team Foundation"
+board_id: deneyap_kart_1a
+board_image: deneyapkart1A.jpg
 board_url:
- - "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-1a"
-board_image: "deneyapkart1A.jpg"
-date_added: 2023-03-14
-family: esp32
+- https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-1a
+date_added: 2023-03-14 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Battery Charging
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+layout: download
+manufacturer: Turkish Technology Team Foundation
+name: Deneyap Kart 1A
+title: Deneyap Kart 1A Download
 ---
 
 ## Technical Specs

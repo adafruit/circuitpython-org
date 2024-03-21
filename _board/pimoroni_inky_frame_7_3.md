@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "pimoroni_inky_frame_7_3"
-title: "Inky Frame 7.3\" Download"
-name: "Inky Frame 7.3\" (Pico W Aboard)"
-manufacturer: "Pimoroni"
+board_id: pimoroni_inky_frame_7_3
+board_image: pimoroni_inky_frame_7_3.jpg
 board_url:
- - "https://shop.pimoroni.com/products/inky-frame-7-3"
-board_image: "pimoroni_inky_frame_7_3.jpg"
-date_added: 2024-3-13
+- https://shop.pimoroni.com/products/inky-frame-7-3
+date_added: 2024-03-13 12:00:00
 family: raspberrypi
-tags:
-  - picow
-  - 🥧🐮
 features:
-  - Bluetooth/BTLE
-  - Display
-  - STEMMA QT/QWIIC
-  - Wi-Fi
+- Bluetooth/BTLE
+- Display
+- STEMMA QT/QWIIC
+- Wi-Fi
+layout: download
+manufacturer: Pimoroni
+name: Inky Frame 7.3" (Pico W Aboard)
+tags:
+- picow
+- "\U0001F967\U0001F42E"
+title: Inky Frame 7.3" Download
 ---
 
 There's a new ePaper screen in town, and it's a biggie! Inky Frame 7.3" features a **super crisp E Ink display** with 800 x 480 pixels of seven colour goodness. We've added **five buttons with LED indicators** for interacting with the display, **two Qw/ST connectors** for plugging in breakouts and a **micro SD card slot** for storing photos of fond maritime adventures (or whatever floats your boat).

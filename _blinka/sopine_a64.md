@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "sopine_a64"
-title: "SOPINE A64 Download"
-name: "SOPINE A64"
-manufacturer: "Pine64"
-board_url:
- - "https://www.pine64.org/sopine/"
-board_image: "sopine_a64.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2020-11-18
-
+board_id: sopine_a64
+board_image: sopine_a64.jpg
+board_url:
+- https://www.pine64.org/sopine/
+date_added: 2020-11-18 12:00:00
+download_instructions: ''
+downloads_display: true
+layout: download
+manufacturer: Pine64
+name: SOPINE A64
+title: SOPINE A64 Download
 ---
 
 SOPINE A64 is a compute module powered by the same Quad-Core ARM Cortex A53 64-Bit Processor used in the PINE A64 with 2G LPDDR3 RAM memory, Power Management Unit, SPI Flash and integrated MicroSD Slot (for bootable OS images microSD card). The SOPINE module has a 5 years LTS (Long Term Supply) status, which means that it will be supplied to 2022 at the very least. There is a one year warranty period for the SOPINE module.

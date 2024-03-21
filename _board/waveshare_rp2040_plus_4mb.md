@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "waveshare_rp2040_plus_4mb"
-title: "RP2040-Plus with 4MB Flash Download"
-name: "RP2040-Plus with 4MB Flash"
-manufacturer: "Waveshare"
+board_id: waveshare_rp2040_plus_4mb
+board_image: waveshare_rp2040_plus.jpg
 board_url:
- - "https://www.waveshare.com/rp2040-plus.htm"
-board_image: "waveshare_rp2040_plus.jpg"
-date_added: 2023-10-27
+- https://www.waveshare.com/rp2040-plus.htm
+date_added: 2023-10-27 12:00:00
 family: raspberrypi
 features:
-  - USB-C
-  - Breadboard-Friendly
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Waveshare
+name: RP2040-Plus with 4MB Flash
+title: RP2040-Plus with 4MB Flash Download
 ---
 
 Need more Flash for Raspberry Pi Pico? Dislike the outdated Micro USB connector? All these problems are solved by our **RP2040-Plus** now.

@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "grandcentral_m4_express"
-title: "Grand Central M4 Express Download"
-name: "Grand Central M4 Express"
-manufacturer: "Adafruit"
+board_id: grandcentral_m4_express
+board_image: grandcentral_m4_express.jpg
 board_url:
- - "https://www.adafruit.com/product/4064"
- - "https://www.adafruit.com/product/4084"
-board_image: "grandcentral_m4_express.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/4064
+- https://www.adafruit.com/product/4084
 bootloader_id: grandcentral_m4
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Arduino Shield Compatible
+- Arduino Shield Compatible
+layout: download
+manufacturer: Adafruit
+name: Grand Central M4 Express
+title: Grand Central M4 Express Download
 ---
 
 The **Adafruit Grand Central** features the **Microchip ATSAMD51**. This dev board is so big, it's not named after a Metro train, it's a whole freakin' _station_!

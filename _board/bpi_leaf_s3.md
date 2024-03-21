@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "bpi_leaf_s3"
-title: "BPI-Leaf-S3 Download"
-name: "BPI-Leaf-S3"
-manufacturer: "Banana Pi"
+board_id: bpi_leaf_s3
+board_image: bpi_leaf_s3.jpg
 board_url:
- - "https://wiki.banana-pi.org/BPI-Leaf-S3"
-board_image: "bpi_leaf_s3.jpg"
-date_added: 2022-7-4
-family: esp32s3
+- https://wiki.banana-pi.org/BPI-Leaf-S3
 bootloader_id: bpi_leaf_s3
+date_added: 2022-07-04 12:00:00
+family: esp32s3
 features:
-  - USB-C
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - Battery Charging
-  - STEMMA QT/QWIIC
+- USB-C
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- Battery Charging
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Banana Pi
+name: BPI-Leaf-S3
+title: BPI-Leaf-S3 Download
 ---
 
 The BPI-Leaf-S3 is a basic development board equipped ESP32-S3R2 chip , provides Wi-Fi and Bluetooth LE functions via PCB antenna.

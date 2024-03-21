@@ -1,14 +1,14 @@
 ---
-layout: download
-board_id: "stm32f4_discovery"
-title: "STM32F407 Discovery kit Download"
-name: "STM32F407 Discovery kit"
-manufacturer: "ST"
+board_id: stm32f4_discovery
+board_image: stm32f407.jpg
 board_url:
- - "https://www.st.com/en/evaluation-tools/stm32f4discovery.html"
-board_image: "stm32f407.jpg"
-date_added: 2019-9-18
+- https://www.st.com/en/evaluation-tools/stm32f4discovery.html
+date_added: 2019-09-18 12:00:00
 family: stm
+layout: download
+manufacturer: ST
+name: STM32F407 Discovery kit
+title: STM32F407 Discovery kit Download
 ---
 
 The STM32F4DISCOVERY kit leverages the capabilities of the STM32F407 high performance microcontrollers, to allow users to easily develop applications featuring audio.

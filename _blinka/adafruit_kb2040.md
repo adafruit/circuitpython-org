@@ -1,18 +1,17 @@
 ---
-layout: download
-board_id: "adafruit_kb2040"
-title: "Adafruit KB2040 Download"
-name: "Adafruit KB2040"
-manufacturer: "Adafruit"
-board_url:
- - "https://www.adafruit.com/product/5302"
-board_image: "adafruit_kb2040.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 blinka: true
-date_added: 2023-9-6
+board_id: adafruit_kb2040
+board_image: adafruit_kb2040.jpg
+board_url:
+- https://www.adafruit.com/product/5302
+date_added: 2023-09-06 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico
 features:
-  - STEMMA QT/QWIIC
-
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Adafruit
+name: Adafruit KB2040
+title: Adafruit KB2040 Download
 ---
 
 A wild Kee Boar appears! It’s a shiny **KB2040**! An Arduino Pro Micro-shaped board for Keebs with RP2040. (#keeblife 4 evah) A lot of folks like using Adafruit parts for their Keeb builds – but with the ItsyBitsy not being pin-compatible with the Pro Micro pinout, it really wasn't very easy without some sort of adapter plate.

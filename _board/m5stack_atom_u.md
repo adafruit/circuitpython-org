@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "m5stack_atom_u"
-title: "AtomU ESP32 Download"
-name: "AtomU ESP32"
-manufacturer: "M5Stack"
+board_id: m5stack_atom_u
+board_image: m5stack_atom_u.jpg
 board_url:
- - "https://docs.m5stack.com/en/core/atom_u"
-board_image: "m5stack_atom_u.jpg"
-date_added: 2023-1-31
+- https://docs.m5stack.com/en/core/atom_u
+date_added: 2023-01-31 12:00:00
 family: esp32
-tags:
-  - Atom U
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+layout: download
+manufacturer: M5Stack
+name: AtomU ESP32
+tags:
+- Atom U
+title: AtomU ESP32 Download
 ---
 
 ATOM U is a compact low-power consumption speech recognition IoT development kit. It adopts an ESP32 chipset, equipped with 2 low-power Xtensa 32-bit LX6 microprocessors with the main frequency of up to 240MHz. Built-in USB-A interface, IR emitter, programmable RGB LED. Plug-and-play, easy to upload and download programs. Integrated Wi-Fi and digital microphone SPM1423(I2S) for the clear sound record. suitable for HMI, Speech-to-Text (STT).

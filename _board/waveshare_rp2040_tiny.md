@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "waveshare_rp2040_tiny"
-title: "Waveshare RP2040-Tiny Download"
-name: "RP2040-Tiny"
-manufacturer: "Waveshare"
+board_id: waveshare_rp2040_tiny
+board_image: waveshare_rp2040_tiny.jpg
 board_url:
- - "https://www.waveshare.com/wiki/RP2040-Tiny"
-board_image: "waveshare_rp2040_tiny.jpg"
-date_added: 2024-3-18
+- https://www.waveshare.com/wiki/RP2040-Tiny
+date_added: 2024-03-18 12:00:00
 family: raspberrypi
 features:
-  - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: Waveshare
+name: RP2040-Tiny
+title: Waveshare RP2040-Tiny Download
 ---
 
 Waveshare RP2040-Tiny Development Board, Raspberry Pi Microcontroller Development Board, Based On Official RP2040 Dual Core Processor, USB Port Adapter Board Optional

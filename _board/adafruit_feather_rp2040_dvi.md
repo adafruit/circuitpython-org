@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_feather_rp2040_dvi"
-title: "Feather RP2040 with DVI Output Port Download"
-name: "Feather RP2040 with DVI Output Port"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_rp2040_dvi
+board_image: adafruit_feather_rp2040_dvi.jpg
 board_url:
- - "https://www.adafruit.com/product/5710"
-board_image: "adafruit_feather_rp2040_dvi.jpg"
-date_added: 2023-3-27
+- https://www.adafruit.com/product/5710
+date_added: 2023-03-27 12:00:00
 family: raspberrypi
-tags:
-  - DVI Feather
-  - Feather DVI
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather RP2040 with DVI Output Port
+tags:
+- DVI Feather
+- Feather DVI
+title: Feather RP2040 with DVI Output Port Download
 ---
 
 Wouldn't it be cool if you could display images and graphics from a microcontroller directly to an HDMI monitor or television? We think so! So we designed this RP2040 Feather that has a digital video output (a.k.a DVI) that will work with any HDMI monitor or display. Note it doesn't do audio, just graphics!

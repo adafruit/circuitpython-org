@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "stm32mp157c_dk2"
-title: "STM32MP1 Discovery Kit 2 Download"
-name: "STM32MP1 Discovery Kit 2"
-manufacturer: "STMicroelectronics"
-board_url:
- - "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html"
-board_image: "stm32mp157c_dk2.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2020-9-10
+board_id: stm32mp157c_dk2
+board_image: stm32mp157c_dk2.jpg
+board_url:
+- https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html
+date_added: 2020-09-10 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: STMicroelectronics
+name: STM32MP1 Discovery Kit 2
+title: STM32MP1 Discovery Kit 2 Download
 ---
 
 The STM32MP157A-DK1 and STM32MP157C-DK2 Discovery kits leverage the capabilities of STM32MP1 Series microprocessors to allow users easily develop applications using STM32 MPU OpenSTLinux Distribution software for the main processor and STM32CubeMP1 software for the co-processor.

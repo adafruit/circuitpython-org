@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "deneyap_kart_1a_v2"
-title: "Deneyap Kart 1A v2 Download"
-name: "Deneyap Kart 1A v2"
-manufacturer: "Turkish Technology Team Foundation"
+board_id: deneyap_kart_1a_v2
+board_image: deneyapkart1Av2.jpg
 board_url:
- - "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-1a-v2"
-board_image: "deneyapkart1Av2.jpg"
-date_added: 2023-03-14
-family: esp32s3
+- https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-kart-1a-v2
 bootloader_id: deneyap_kart_1a_v2
+date_added: 2023-03-14 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
-  - USB-C
+- Wi-Fi
+- Bluetooth/BTLE
+- Battery Charging
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+- USB-C
+layout: download
+manufacturer: Turkish Technology Team Foundation
+name: Deneyap Kart 1A v2
+title: Deneyap Kart 1A v2 Download
 ---
 
 ## Technical Specs

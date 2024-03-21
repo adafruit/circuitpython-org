@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "espressif_esp32_devkitc_v4_wrover"
-title: "ESP32-DevKitC-VE-WROVER Download"
-name: "ESP32-DevKitC-VE-WROVER"
-manufacturer: "Espressif"
+board_id: espressif_esp32_devkitc_v4_wrover
+board_image: espressif_esp32_devkitc_v4_wrover.jpg
 board_url:
- - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html"
-board_image: "espressif_esp32_devkitc_v4_wrover.jpg"
-date_added: 2024-2-6
+- https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+date_added: 2024-02-06 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Espressif
+name: ESP32-DevKitC-VE-WROVER
+title: ESP32-DevKitC-VE-WROVER Download
 ---
 
 ESP32-DevKitC is a low-footprint and entry-level development board that is part of the ESP32 series. This board has a rich peripheral set. The built-in ESP32 pinout is optimized for hassle-free prototyping!

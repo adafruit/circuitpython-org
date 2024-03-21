@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "waveshare_rp2040_touch_lcd_1_28"
-title: "RP2040-Touch-LCD-1.28 Download"
-name: "RP2040-Touch-LCD-1.28"
-manufacturer: "Waveshare"
+board_id: waveshare_rp2040_touch_lcd_1_28
+board_image: waveshare_rp2040_touch_lcd_1_28.jpg
 board_url:
- - "https://www.waveshare.com/product/raspberry-pi/boards-kits/raspberry-pi-pico-cat/rp2040-touch-lcd-1.28.htm"
-board_image: "waveshare_rp2040_touch_lcd_1_28.jpg"
-date_added: 2023-10-27
+- https://www.waveshare.com/product/raspberry-pi/boards-kits/raspberry-pi-pico-cat/rp2040-touch-lcd-1.28.htm
+date_added: 2023-10-27 12:00:00
 family: raspberrypi
 features:
-  - USB-C
-  - Battery Charging
-  - Display
+- USB-C
+- Battery Charging
+- Display
+layout: download
+manufacturer: Waveshare
+name: RP2040-Touch-LCD-1.28
+title: RP2040-Touch-LCD-1.28 Download
 ---
 
 **RP2040-Touch-LCD-1.28** is a low-cost, high-performance MCU board designed by Waveshare, tiny size, with onboard 1.28inch capacitive touch display, Li-ion battery recharge manager, 6-axis sensor (3-axis accelerometer and 3-axis gyroscope), and so on, which makes it easy for you to develop and integrate it into products quickly.

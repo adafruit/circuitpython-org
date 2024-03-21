@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "m5stack_atoms3_lite"
-title: "AtomS3 Lite ESP32S3 Dev Kit Download"
-name: "AtomS3 Lite ESP32S3 Dev Kit"
-manufacturer: "M5Stack"
+board_id: m5stack_atoms3_lite
+board_image: m5stack_atoms3_lite.png
 board_url:
- - "https://docs.m5stack.com/en/core/AtomS3%20Lite"
-board_image: "m5stack_atoms3_lite.png"
-date_added: 2023-4-4
-family: esp32s3
+- https://docs.m5stack.com/en/core/AtomS3%20Lite
 bootloader_id: m5stack_atoms3_lite
+date_added: 2023-04-04 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+layout: download
+manufacturer: M5Stack
+name: AtomS3 Lite ESP32S3 Dev Kit
+title: AtomS3 Lite ESP32S3 Dev Kit Download
 ---
 
 ATOMS3 Liteis anAtom Series Programmable Controllerin the M5Stack Development Kit series using ESP32-S3.

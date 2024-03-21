@@ -1,26 +1,23 @@
 ---
-layout: download
-board_id: "sensebox_mcu_esp32s2"
-title: "senseBox MCU-S2 Download"
-name: "senseBox MCU-S2"
-manufacturer: "senseBox"
-board_url:
- - "https://sensebox.de/de/products-boards"
-board_image: "sensebox_mcu_esp32s2.jpg"
-date_added: 2024-2-21
-downloads_display: true
 blinka: false
-download_instructions: ""
-# Features are tags; they should be limited to the items in this list and spelled exactly the same.
-# Include only the features your board supports, and remove these comment lines before committing.
-# Breadboard-Friendly is a parallel pin layout with minimal non-critical perpendicular pins
-family: esp32s2  # See _data/bootloaders.json
+board_id: sensebox_mcu_esp32s2
+board_image: sensebox_mcu_esp32s2.jpg
+board_url:
+- https://sensebox.de/de/products-boards
 bootloader_id: sensebox_mcu_esp32s2
+date_added: 2024-02-21 12:00:00
+download_instructions: ''
+downloads_display: true
+family: esp32s2
 features:
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Wi-Fi
-  - USB-C
+- Battery Charging
+- STEMMA QT/QWIIC
+- Wi-Fi
+- USB-C
+layout: download
+manufacturer: senseBox
+name: senseBox MCU-S2
+title: senseBox MCU-S2 Download
 ---
 
 The new senseBox MCU-S2 with ESP32S2 core!

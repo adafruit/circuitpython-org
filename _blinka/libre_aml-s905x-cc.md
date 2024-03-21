@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "libre_aml-s905x-cc"
-title: "AML-S905X-CC (Le Potato) Download"
-name: "AML-S905X-CC (Le Potato)"
-manufacturer: "Libre Computer"
-board_url:
- - "https://libre.computer/products/s905x/"
-board_image: "libre_aml-s905x-cc.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2022-10-17
+board_id: libre_aml-s905x-cc
+board_image: libre_aml-s905x-cc.jpg
+board_url:
+- https://libre.computer/products/s905x/
+date_added: 2022-10-17 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - Ethernet
-  - Infrared Receiver
+- HDMI/DisplayPort
+- 40-pin GPIO
+- Ethernet
+- Infrared Receiver
+layout: download
+manufacturer: Libre Computer
+name: AML-S905X-CC (Le Potato)
+title: AML-S905X-CC (Le Potato) Download
 ---
 
 Le Potato is our flagship hardware platform with support for the latest Android 9/TV, upstream Linux, u-boot, Kodi, and more. Based on a long term supported SoC family with a proven record of mass deployments by the largest regional content providers, Google, and Amazon, AML-S905X-CC is the perfect development platform for projects that require highly performant ARM Cortex-A class CPUs, secure and non-secure 4K media delivery and playback, Widevine CAS DRM, high reliability, and low power.

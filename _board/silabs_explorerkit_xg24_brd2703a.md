@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "explorerkit_xg24_brd2703a"
-title: "EFR32xG24 Explorer Kit Download"
-name: "EFR32xG24 Explorer Kit"
-manufacturer: "Silicon Labs"
+board_id: explorerkit_xg24_brd2703a
+board_image: silabs_explorerkit_xg24_brd2703a.jpg
 board_url:
- - "https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview"
-board_image: "silabs_explorerkit_xg24_brd2703a.jpg"
-date_added: 2023-04-20
+- https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview
+date_added: 2023-04-20 12:00:00
 family: silabs
-
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - STEMMA QT/QWIIC
-  - USB-C
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- STEMMA QT/QWIIC
+- USB-C
+layout: download
+manufacturer: Silicon Labs
+name: EFR32xG24 Explorer Kit
+title: EFR32xG24 Explorer Kit Download
 ---
+
 The EFR32xG24 Explorer Kit is an ultra-low-cost, small form factor
 development and evaluation platform for the EFR32MG24 Wireless Gecko System-on-Chip.
 

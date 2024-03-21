@@ -1,21 +1,20 @@
 ---
-layout: download
-board_id: "jpconstantineau_pykey18"
-title: "PyKey18 Numpad Download"
-name: "PyKey18 Numpad"
-manufacturer: "JPConstantineau"
+board_id: jpconstantineau_pykey18
+board_image: jpconstantineau_pykey18.jpg
 board_url:
- - "https://github.com/jpconstantineau/PyKey60"
-board_image: "jpconstantineau_pykey18.jpg"
+- https://github.com/jpconstantineau/PyKey60
+date_added: 2021-12-15 12:00:00
 downloads_display: true
-date_added: 2021-12-15
 family: raspberrypi
-
 features:
-  - USB-C
-  - Speaker
-  - Display
-  - STEMMA QT/QWIIC
+- USB-C
+- Speaker
+- Display
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: JPConstantineau
+name: PyKey18 Numpad
+title: PyKey18 Numpad Download
 ---
 
 The PyKey18 is a custom programmable mechanical keyboard with a standard Numpad layout, a rotary encoder and a small OLED display. The PyKey18 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.  The PCB was designed for use with PCB-mount stabilizers.

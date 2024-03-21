@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "lichee_rv_dock_d1"
-title: "Lichee RV Dock D1 Download"
-name: "Lichee RV Dock D1"
-manufacturer: "Sipeed"
-board_url:
- - "https://www.seeedstudio.com/Lichee-RV-Dock-Allwinner-D1-SoC-RISC-V-Linux-dev-kit-High-Integration-Open-Source-p-5380.html"
-board_image: "lichee_rv_dock_d1.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2022-10-6
+board_id: lichee_rv_dock_d1
+board_image: lichee_rv_dock_d1.jpg
+board_url:
+- https://www.seeedstudio.com/Lichee-RV-Dock-Allwinner-D1-SoC-RISC-V-Linux-dev-kit-High-Integration-Open-Source-p-5380.html
+date_added: 2022-10-06 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - HDMI/DisplayPort
-  - Wi-Fi
-  - Bluetooth/BLE
+- HDMI/DisplayPort
+- Wi-Fi
+- Bluetooth/BLE
+layout: download
+manufacturer: Sipeed
+name: Lichee RV Dock D1
+title: Lichee RV Dock D1 Download
 ---
 
 Lichee RV Dock is a RISC-V Linux development kit. It expands the module’s usable interfaces by providing an HDMI port with support for up to 4K@30fps output, a 40-pin header with GPIO and power switches, among other things, plus headers and connectors that you can use for speakers, microphones, and more. It supports RGB and MIPI screen interfaces with its screen convert board. There is an onboard 2.4G WIFI+BT module, a 2.4G Patch antenna, an IPEX connector, and a USB Type-A host. The highest network speed is up to 30Mbps (with RTL8723DS), and the average network bandwidth is about 20Mbps.

@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "robohatmm1_m4"
-title: "Robo HAT MM1 Download"
-name: "Robo HAT MM1 M4"
-manufacturer: "Robotics Masters"
+board_id: robohatmm1_m4
+board_image: robohatmm1.jpg
 board_url:
- - "https://www.crowdsupply.com/robotics-masters/robo-hat-mm1"
-board_image: "robohatmm1.jpg"
-date_added: 2019-7-27
-family: atmel-samd
+- https://www.crowdsupply.com/robotics-masters/robo-hat-mm1
 bootloader_id: robohatmm1_m4
+date_added: 2019-07-27 12:00:00
+family: atmel-samd
 features:
-  - Robotics
+- Robotics
+layout: download
+manufacturer: Robotics Masters
+name: Robo HAT MM1 M4
+title: Robo HAT MM1 Download
 ---
 
 The Robotics Masters Robo HAT MM1 is an open source robotics controller board for Raspberry Pi. It is education focused but works in many applications. The Robo HAT provides all the hardware you need in one simple, easy-to-use form factor. It removes the initial barriers to starting any robotics project.

@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "circuitplayground_express_crickit"
-title: "Circuit Playground Express + Crickit Download"
-name: "Circuit Playground Express + Crickit"
-manufacturer: "Adafruit"
+board_id: circuitplayground_express_crickit
+board_image: circuitplayground_express_crickit.jpg
 board_url:
- - "https://www.adafruit.com/product/3093"
-board_image: "circuitplayground_express_crickit.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/3093
 bootloader_id: circuitplay_m0
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Speaker
-  - Robotics
-  - Solder-Free Alligator Clip
+- Speaker
+- Robotics
+- Solder-Free Alligator Clip
+layout: download
+manufacturer: Adafruit
+name: Circuit Playground Express + Crickit
+title: Circuit Playground Express + Crickit Download
 ---
 
 **Crickit** is a **C**reative **R**obotics & **I**nteractive **C**onstruction **Kit**. It's an add-on for the popular Circuit Playground Express that lets you **#MakeRobotFriend** using CircuitPython (and more).

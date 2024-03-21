@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "beaglebone"
-title: "BeagleBone Download"
-name: "BeagleBone"
-manufacturer: "BeagleBoard"
-board_url:
- - "https://beagleboard.org/bone-original"
-board_image: "beaglebone.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2021-4-6
+board_id: beaglebone
+board_image: beaglebone.jpg
+board_url:
+- https://beagleboard.org/bone-original
+date_added: 2021-04-06 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Ethernet
+- Ethernet
+layout: download
+manufacturer: BeagleBoard
+name: BeagleBone
+title: BeagleBone Download
 ---
 
 BeagleBone is an $89 MSRP, credit-card-sized Linux computer that connects to the Internet and runs software such as Android 4.0 and Ubuntu. With plenty of I/O and processing power for real-time analysis provided by an AM335x 720MHz ARM® processor, BeagleBone can be complemented with cape plug-in boards to augment functionality.

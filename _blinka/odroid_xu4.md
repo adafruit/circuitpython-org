@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "odroid_xu4"
-title: "ODROID XU4 Download"
-name: "ODROID XU4"
-manufacturer: "Hardkernel co., Ltd."
-board_url:
- - "https://www.hardkernel.com/shop/odroid-xu4-special-price/"
-board_image: "odroid_xu4.jpg"
-downloads_display: true
 blinka: true
-date_added: 2020-5-29
+board_id: odroid_xu4
+board_image: odroid_xu4.jpg
+board_url:
+- https://www.hardkernel.com/shop/odroid-xu4-special-price/
+date_added: 2020-05-29 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+layout: download
+manufacturer: Hardkernel co., Ltd.
+name: ODROID XU4
+title: ODROID XU4 Download
 ---
 
 ODROID-XU4 is powered by ARM® big.LITTLE™ technology, the Heterogeneous Multi-Processing (HMP) solution.

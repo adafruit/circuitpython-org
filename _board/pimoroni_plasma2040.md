@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "pimoroni_plasma2040"
-title: "Plasma 2040 Download"
-name: "Plasma 2040"
-manufacturer: "Pimoroni"
+board_id: pimoroni_plasma2040
+board_image: pimoroni_plasma2040.jpg
 board_url:
- - "https://shop.pimoroni.com/products/plasma-2040"
-board_image: "pimoroni_plasma2040.jpg"
-date_added: 2021-08-11
+- https://shop.pimoroni.com/products/plasma-2040
+date_added: 2021-08-11 12:00:00
 family: raspberrypi
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Pimoroni
+name: Plasma 2040
+title: Plasma 2040 Download
 ---
 
 Swathe everything in rainbows with this all-in-one, USB-C powered controller for WS2812/Neopixel and APA102/Dotstar addressable LED strips, with RP2040 in the driving seat - just perfect for whipping up some custom mood lighting.

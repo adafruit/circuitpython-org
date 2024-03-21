@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "pimoroni_inky_frame_5_7"
-title: "Inky Frame 5.7\" Download"
-name: "Inky Frame 5.7\" (Pico W Aboard)"
-manufacturer: "Pimoroni"
+board_id: pimoroni_inky_frame_5_7
+board_image: pimoroni_inky_frame_5_7.jpg
 board_url:
- - "https://shop.pimoroni.com/products/inky-frame-5-7"
-board_image: "pimoroni_inky_frame_5_7.jpg"
-date_added: 2023-6-5
+- https://shop.pimoroni.com/products/inky-frame-5-7
+date_added: 2023-06-05 12:00:00
 family: raspberrypi
-tags:
-  - picow
-  - 🥧🐮
 features:
-  - Bluetooth/BTLE
-  - Display
-  - STEMMA QT/QWIIC
-  - Wi-Fi
+- Bluetooth/BTLE
+- Display
+- STEMMA QT/QWIIC
+- Wi-Fi
+layout: download
+manufacturer: Pimoroni
+name: Inky Frame 5.7" (Pico W Aboard)
+tags:
+- picow
+- "\U0001F967\U0001F42E"
+title: Inky Frame 5.7" Download
 ---
 
 A large Pico W powered E Ink® photo frame / home dashboard / life organiser with glorious seven colour display and wireless connectivity.

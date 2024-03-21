@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "firebeetle2_esp32s3"
-title: "FireBeetle 2 ESP32-S3 Download"
-name: "FireBeetle 2 ESP32-S3"
-manufacturer: "DFRobot"
+board_id: firebeetle2_esp32s3
+board_image: firebeetle2_esp32s3.jpg
 board_url:
- - "https://wiki.dfrobot.com/SKU_DFR0975_FireBeetle_2_Board_ESP32_S3"
-board_image: "firebeetle2_esp32s3.jpg"
-date_added: 2023-11-21
+- https://wiki.dfrobot.com/SKU_DFR0975_FireBeetle_2_Board_ESP32_S3
+date_added: 2023-11-21 12:00:00
 family: esp32s3
 features:
-  - Breadboard-Friendly
-  - USB-C
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Camera
-  - Battery Charging
+- Breadboard-Friendly
+- USB-C
+- Wi-Fi
+- Bluetooth/BTLE
+- Camera
+- Battery Charging
+layout: download
+manufacturer: DFRobot
+name: FireBeetle 2 ESP32-S3
+title: FireBeetle 2 ESP32-S3 Download
 ---
 
 FireBeetle 2 ESP32-S3 is a high-performance main-controller built around the ESP32-S3-WROOM-1-N16R8 module. ESP32-S3-WROOM-1-N16R8 comes with 16MB Flash and 8MB PSRAM for storing more data. The acceleration for neural network computing and signal processing workloads provided by the ESP32-S3 chip make the module an ideal choice for a wide variety of applications, such as speech recognition, image recognition, and so on.

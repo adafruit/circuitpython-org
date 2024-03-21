@@ -1,24 +1,24 @@
 ---
-layout: download
-board_id: "unexpectedmaker_feathers3"
-title: "Unexpected Maker FeatherS3 Download"
-name: "Unexpected Maker FeatherS3"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_feathers3
+board_image: unexpectedmaker_feathers3.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/feathers3"
- - "https://www.adafruit.com/product/5399"
- - "https://www.adafruit.com/product/5748"
-board_image: "unexpectedmaker_feathers3.jpg"
-date_added: 2022-01-29
-family: esp32s3
+- https://unexpectedmaker.com/shop/feathers3
+- https://www.adafruit.com/product/5399
+- https://www.adafruit.com/product/5748
 bootloader_id: unexpectedmaker_feathers3
+date_added: 2022-01-29 12:00:00
+family: esp32s3
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Wi-Fi
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- STEMMA QT/QWIIC
+- USB-C
+- Wi-Fi
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker FeatherS3
+title: Unexpected Maker FeatherS3 Download
 ---
 
 Introducing the FeatherS3 - The Pro ESP32-S3 Development Board in the Feather Format!

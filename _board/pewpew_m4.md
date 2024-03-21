@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "pewpew_m4"
-title: "PewPew M4 Download"
-name: "PewPew M4"
-manufacturer: "Radomir Dopieralski"
+board_id: pewpew_m4
+board_image: pewpew_m4.jpg
 board_url:
- - "https://hackaday.io/project/165032-pewpew-m4"
-board_image: "pewpew_m4.jpg"
-date_added: 2019-9-16
-family: atmel-samd
+- https://hackaday.io/project/165032-pewpew-m4
 bootloader_id: pewpew_m4
+date_added: 2019-09-16 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Speaker
-  - Breadboard-Friendly
+- Display
+- Speaker
+- Breadboard-Friendly
+layout: download
+manufacturer: Radomir Dopieralski
+name: PewPew M4
+title: PewPew M4 Download
 ---
 
 This board was designed to get you to make games with CircuitPython with

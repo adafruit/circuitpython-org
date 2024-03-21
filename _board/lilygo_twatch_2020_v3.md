@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "lilygo_twatch_2020_v3"
-title: "T-Watch 2020 V3 Download"
-name: "T-Watch 2020 V3"
-manufacturer: "LILYGO"
+board_id: lilygo_twatch_2020_v3
+board_image: lilygo_twatch_2020_v3.jpg
 board_url:
- - "https://www.lilygo.cc/products/t-watch-2020-v3"
-board_image: "lilygo_twatch_2020_v3.jpg"
-date_added: 2023-5-3
+- https://www.lilygo.cc/products/t-watch-2020-v3
+date_added: 2023-05-03 12:00:00
 family: esp32
 features:
-  - Display
-  - Bluetooth/BTLE
-  - Battery Charging
+- Display
+- Bluetooth/BTLE
+- Battery Charging
+layout: download
+manufacturer: LILYGO
+name: T-Watch 2020 V3
+title: T-Watch 2020 V3 Download
 ---
 
 LILYGO T-Watch 2020 V3 is based on the hardware function of T-WATCH-2020 and adds the PDM microphone function, which makes the product functions richer and more interesting. The MAX98357 I2S speaker is connected to the cloud and can be used to make intelligent voice control.

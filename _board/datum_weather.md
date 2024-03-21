@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "datum_weather"
-title: "datum-Weather Download"
-name: "datum-Weather"
-manufacturer: "J&J Studios"
+board_id: datum_weather
+board_image: datum_weather.jpg
 board_url:
- - "https://jandjstudios.io/datum/datum-Weather/"
-board_image: "datum_weather.jpg"
-date_added: 2019-7-12
+- https://jandjstudios.io/datum/datum-Weather/
+date_added: 2019-07-12 12:00:00
 family: atmel-samd
 features:
-  - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: J&J Studios
+name: datum-Weather
+title: datum-Weather Download
 ---
 
 The datum-Weather sensor combines the same SAMD21G18 microcontroller used on the Arduino Zero with the BME280 environmental sensor from Bosch Sensortec to create the simplest, easiest to use weather sensor for your application.

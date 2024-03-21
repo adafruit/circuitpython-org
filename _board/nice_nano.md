@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "nice_nano"
-title: "nice!nano Download"
-name: "Nice!Nano"
-manufacturer: "Nice Keyboards"
+board_id: nice_nano
+board_image: nice_nano.jpg
 board_url:
- - "https://docs.nicekeyboards.com/#/nice!nano/"
-board_image: "nice_nano.jpg"
-date_added: 2020-06-05
-family: nrf52840
+- https://docs.nicekeyboards.com/#/nice!nano/
 bootloader_id: nice_nano
+date_added: 2020-06-05 12:00:00
+family: nrf52840
 features:
-  - USB-C
-  - Breadboard-Friendly
-  - Battery Charging
-  - Bluetooth/BTLE
+- USB-C
+- Breadboard-Friendly
+- Battery Charging
+- Bluetooth/BTLE
+layout: download
+manufacturer: Nice Keyboards
+name: Nice!Nano
+title: nice!nano Download
 ---
 
 The nice!nano is a Pro Micro replacement development board offering BLE using the nRF52840 chip. It has the same pinout as the Pro Micro meaning it will work with almost any Pro Micro keyboard. The nice!nano also has a 3.7 V lithium battery charger on board as well as a software level switch to cut off power to LEDs, which can eat 1 mA each even when off.

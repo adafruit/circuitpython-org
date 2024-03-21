@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "unexpectedmaker_tinypico"
-title: "Unexpected Maker TinyPICO Download"
-name: "Unexpected Maker TinyPICO"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_tinypico
+board_image: unexpectedmaker_tinypico.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/tinypico-usbc"
- - "https://www.adafruit.com/product/5028"
- - "https://www.adafruit.com/product/5750"
-board_image: "unexpectedmaker_tinypico.jpg"
-date_added: 2022-9-18
-family: esp32
+- https://unexpectedmaker.com/shop/tinypico-usbc
+- https://www.adafruit.com/product/5028
+- https://www.adafruit.com/product/5750
+date_added: 2022-09-18 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - USB-C
-  - Wi-Fi
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- USB-C
+- Wi-Fi
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker TinyPICO
+title: Unexpected Maker TinyPICO Download
 ---
 
 Introducing the TinyPICO - The Mighty Tiny ESP32 based development board!
@@ -52,4 +52,3 @@ You can find out more about how at [Circuitpython with ESP32 quick start](https:
  * [Adafruit with u.FL](https://www.adafruit.com/product/5750)
  * [Pimoroni](https://shop.pimoroni.com/products/tinypico-v2?variant=3928508953403)
  * [Unexpected Maker](https://unexpectedmaker.com/shop/tinypico-usbc)
-

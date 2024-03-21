@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "crcibernetica-ideaboard"
-title: "CRCibernetica IdeaBoard Download"
-name: "CRCibernetica IdeaBoard"
-manufacturer: "CRCibernetica"
+board_id: crcibernetica-ideaboard
+board_image: crcibernetica_ideaboard.jpg
 board_url:
- - "https://www.crcibernetica.com/crcibernetica-ideaboard/"
-board_image: "crcibernetica_ideaboard.jpg"
-date_added: 2022-11-13
-family: esp32
+- https://www.crcibernetica.com/crcibernetica-ideaboard/
+date_added: 2022-11-13 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Bluetooth/BTLE
-  - Wi-Fi
-  - USB-C
+- Bluetooth/BTLE
+- Wi-Fi
+- USB-C
+layout: download
+manufacturer: CRCibernetica
+name: CRCibernetica IdeaBoard
+title: CRCibernetica IdeaBoard Download
 ---
 
 The CRCibernetica IdeaBoard is an educational Internet of Things and Robotics development board based on the ESP32 microcontroller.

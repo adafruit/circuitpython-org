@@ -1,16 +1,15 @@
 ---
-layout: download
-board_id: "raspberrypi_zero2w"
-title: "Raspberry Pi Zero 2 W Download"
-name: "Zero 2 W"
-manufacturer: "Raspberry Pi"
+board_id: raspberrypi_zero2w
+board_image: raspberry_pi_zero_2_w.jpg
 board_url:
- - "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
- - "https://www.adafruit.com/product/5291"
-board_image: "raspberry_pi_zero_2_w.jpg"
-date_added: 2021-11-29
+- https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
+- https://www.adafruit.com/product/5291
+date_added: 2021-11-29 12:00:00
 family: broadcom
-
+layout: download
+manufacturer: Raspberry Pi
+name: Zero 2 W
+title: Raspberry Pi Zero 2 W Download
 ---
 
 **NOTE**: This build is alpha quality and is for experimental use. It is [missing features and has known issues](https://github.com/adafruit/circuitpython/labels/broadcom).

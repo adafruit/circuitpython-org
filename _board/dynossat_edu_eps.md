@@ -1,18 +1,17 @@
 ---
-layout: download
-board_id: "dynossat_edu_eps"
-title: "DynOSSAT-EDU EPS Download"
-name: "DynOSSAT-EDU EPS"
-manufacturer: "BH Dynamics"
+board_id: dynossat_edu_eps
+board_image: dynossat_edu_eps.jpg
 board_url:
- - "https://bhdyn.com/newspace"
-board_image: "dynossat_edu_eps.jpg"
-date_added: 2020-10-16
-family: atmel-samd
+- https://bhdyn.com/newspace
+date_added: 2020-10-16 12:00:00
 downloads_display: true
-
+family: atmel-samd
 features:
-  - USB-C
+- USB-C
+layout: download
+manufacturer: BH Dynamics
+name: DynOSSAT-EDU EPS
+title: DynOSSAT-EDU EPS Download
 ---
 
 DynOSSAT-EDU is the first open source PocketQube educational kit compatible with CircuitPython and Arduino.

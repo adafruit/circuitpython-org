@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "raspberry_pi_5"
-title: "Raspberry Pi 5 Download"
-name: "Pi 5"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/raspberry-pi-5/"
-board_image: "raspberry_pi_5.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2023-10-27
+board_id: raspberry_pi_5
+board_image: raspberry_pi_5.jpg
+board_url:
+- https://www.raspberrypi.com/products/raspberry-pi-5/
+date_added: 2023-10-27 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+layout: download
+manufacturer: Raspberry Pi
+name: Pi 5
+title: Raspberry Pi 5 Download
 ---
 
 The Raspberry Pi 5 is the newest Raspberry Pi computer, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 5 better than the 4? How about a faster processor, USB 3.0 ports, and an updated Gigabit Ethernet chip with PoE capability? Good guess - that's exactly what they did!

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "deneyap_mini_v2"
-title: "Deneyap Mini v2 Download"
-name: "Deneyap Mini v2"
-manufacturer: "Turkish Technology Team Foundation"
+board_id: deneyap_mini_v2
+board_image: deneyapminiv2.jpg
 board_url:
- - "https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-mini-v2"
-board_image: "deneyapminiv2.jpg"
-date_added: 2023-03-14
-family: esp32s2
+- https://docs.deneyapkart.org/tr/content/contentDetail/deneyap-mini-v2
 bootloader_id: deneyap_mini_v2
+date_added: 2023-03-14 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
-  - USB-C
+- Wi-Fi
+- Battery Charging
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+- USB-C
+layout: download
+manufacturer: Turkish Technology Team Foundation
+name: Deneyap Mini v2
+title: Deneyap Mini v2 Download
 ---
 
 ## Technical Specs

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "adafruit_qtpy_esp32s3_4mbflash_2mbpsram"
-title: "Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM Download"
-name: "Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM"
-manufacturer: "Adafruit"
+board_id: adafruit_qtpy_esp32s3_4mbflash_2mbpsram
+board_image: adafruit_qtpy_esp32s3_4mbflash_2mbpsram.jpg
 board_url:
- - "https://www.adafruit.com/product/5700"
-board_image: "adafruit_qtpy_esp32s3_4mbflash_2mbpsram.jpg"
-date_added: 2023-07-11
-family: esp32s3
+- https://www.adafruit.com/product/5700
 bootloader_id: adafruit_qtpy_esp32s3_n4r2
+date_added: 2023-07-11 12:00:00
+family: esp32s3
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
-  - Wi-Fi
-  - Xiao / QTPy Form Factor
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+- Wi-Fi
+- Xiao / QTPy Form Factor
+layout: download
+manufacturer: Adafruit
+name: Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM
+title: Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM Download
 ---
 
 The ESP32-S3 has arrived in QT Py format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this QT Py is great for powering your IoT projects. Now we even have this powerhouse of a board with built in 2 Megabytes of PSRAM for when you need to buffer large datasets in memory.

@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "wisdpi_ardu2040m"
-title: "WisdPi Ardu2040M Download"
-name: "WisdPi Ardu2040M"
-manufacturer: "WisdPi"
+board_id: wisdpi_ardu2040m
+board_image: wisdpi_ardu2040m.jpg
 board_url:
- - "https://www.wisdpi.com/products/ardu2040m-rp2040-arduino-style-dev-board"
-board_image: "wisdpi_ardu2040m.jpg"
-date_added: 2023-12-11
+- https://www.wisdpi.com/products/ardu2040m-rp2040-arduino-style-dev-board
+date_added: 2023-12-11 12:00:00
 family: raspberrypi
 features:
-  - Display
-  - Arduino Shield Compatible
-  - USB-C
+- Display
+- Arduino Shield Compatible
+- USB-C
+layout: download
+manufacturer: WisdPi
+name: WisdPi Ardu2040M
+title: WisdPi Ardu2040M Download
 ---
 
 Ardu2040M | An Arduino style RP2040 RGB Matrix board
@@ -47,5 +47,3 @@ This board is perfect for hobbyists, students, and professional developers looki
 ## Purchase
 * [WisdPi](https://www.wisdpi.com/products/ardu2040m-rp2040-arduino-style-dev-board)
 * [Amazon](https://amzn.to/3uLWscH)
-
-

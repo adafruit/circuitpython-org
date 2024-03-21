@@ -1,15 +1,14 @@
 ---
-layout: download
-board_id: "pcduino3"
-title: "pcDuino3 Download"
-name: "pcDuino3"
-manufacturer: "LinkSprite"
 blinka: true
+board_id: pcduino3
+board_image: pcduino3.jpg
 board_url:
- - "https://www.linksprite.com/linksprite-pcduino3/"
-board_image: "pcduino3.jpg"
-date_added: 2023-10-27
-
+- https://www.linksprite.com/linksprite-pcduino3/
+date_added: 2023-10-27 12:00:00
+layout: download
+manufacturer: LinkSprite
+name: pcDuino3
+title: pcDuino3 Download
 ---
 
 The pcDuino3 is a high performance, cost effective mini PC platform that runs full-featured operating systems such as Ubuntu and Android. In addition to running Linux and Android, the pcDuino3 has support for programming languages such as C, C++, Java, Python, Arduino, and more. You can even use your favorite Arduino shields for added hardware capability. The pcDuino3 has an impressive set of features including an IR receiver, SATA host, USB-OTG, LVDS LCD interface, MIPI camera interface, 3.5mm audio output, battery header, WiFi, Ethernet, and more. If you're looking for the 'kitchen sink' of development boards, look no further.

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "01space_lcd042_esp32c3"
-title: "ESP32-C3-0.42LCD Download"
-name: "ESP32-C3-0.42LCD"
-manufacturer: "01space"
+board_id: 01space_lcd042_esp32c3
+board_image: 01space_lcd042_esp32c3.jpg
 board_url:
- - "https://github.com/01Space/ESP32-C3-0.42LCD"
-board_image: "01space_lcd042_esp32c3.jpg"
-date_added: 2023-5-4
-family: esp32c3
+- https://github.com/01Space/ESP32-C3-0.42LCD
+date_added: 2023-05-04 12:00:00
 downloads_display: true
+family: esp32c3
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
-  - Wi-Fi
-  - Display
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+- Wi-Fi
+- Display
+layout: download
+manufacturer: 01space
+name: ESP32-C3-0.42LCD
+title: ESP32-C3-0.42LCD Download
 ---
 
 The ESP32-C3-0.42LCD is an ESP32 C3 / RP2040 Raspberry Pi Pico Development board with 0.42 inch LCD risc-v WiFi Bluetooth.

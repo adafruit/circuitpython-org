@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "yd_esp32_s3_n8r8"
-title: "YD-ESP32-S3 N8R8 Download"
-name: "YD-ESP32-S3 N8R8"
-manufacturer: "VCC-GND Studio"
+board_id: yd_esp32_s3_n8r8
+board_image: yd_esp32_s3.jpg
 board_url:
- - "https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982305"
-board_image: "yd_esp32_s3.jpg"
-date_added: 2023-5-3
+- https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982305
+date_added: 2023-05-03 12:00:00
 family: esp32s3
 features:
-  - Breadboard-Friendly
-  - USB-C
+- Breadboard-Friendly
+- USB-C
+layout: download
+manufacturer: VCC-GND Studio
+name: YD-ESP32-S3 N8R8
+title: YD-ESP32-S3 N8R8 Download
 ---
 
 The YD-ESP32-S3 core board is designed by VCC-GND Studio. If necessary, you can visit www.vcc-gnd.com for purchase. The device uses the ESP32-S3 chip, which can be used for the test prototype of the Internet of Things application and can also be used for practical applications. It is equipped with two USBs, one is a hardware USB-to-serial port (CH343P WCH Qinheng), and the other is ESP32-S3 usb port.

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "odroid_m1s"
-title: "ODROID M1S Download"
-name: "ODROID M1S"
-manufacturer: "Hardkernel co., Ltd."
-board_url:
- - "https://www.hardkernel.com/shop/odroid-m1s-with-8gbyte-ram/"
-board_image: "odroid_m1s.jpg"
-downloads_display: true
 blinka: true
-date_added: 2023-11-15
+board_id: odroid_m1s
+board_image: odroid_m1s.jpg
+board_url:
+- https://www.hardkernel.com/shop/odroid-m1s-with-8gbyte-ram/
+date_added: 2023-11-15 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - USB 3.0
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Ethernet
+- USB 3.0
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Hardkernel co., Ltd.
+name: ODROID M1S
+title: ODROID M1S Download
 ---
 
 We launched ODROID-M1 about 20 months ago and have supplied it to many B2B and B2C customers. Feedback from many customers requested a lower price, more GPIO ports, lower power consumption, a slimmer form factor, and a variety of practical peripherals.

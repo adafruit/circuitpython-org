@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "lilygo_ttgo_t8_esp32_s2_wroom"
-title: "TTGO T8 ESP32-S2-WROOM Download"
-name: "TTGO T8 ESP32-S2-WROOM"
-manufacturer: "LILYGO"
+board_id: lilygo_ttgo_t8_esp32_s2_wroom
+board_image: lilygo_ttgo_t8_esp32_s2_wroom.jpg
 board_url:
- - "http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1320&FId=t3:50063:3"
-board_image: "lilygo_ttgo_t8_esp32_s2_wroom.jpg"
-bootloader_id: "lilygo_ttgo_t8_s2_wroom"
-date_added: 2022-3-1
+- http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1320&FId=t3:50063:3
+bootloader_id: lilygo_ttgo_t8_s2_wroom
+date_added: 2022-03-01 12:00:00
 downloads_display: true
 family: esp32s2
 features:
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: LILYGO
+name: TTGO T8 ESP32-S2-WROOM
+title: TTGO T8 ESP32-S2-WROOM Download
 ---
 
 The LILYGO TTGO T8 ESP32-S2 ESP32-S2-WROOM is a basic development board.

@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "raspberry_pi_4b"
-title: "Raspberry Pi 4 Model B Download"
-name: "Pi 4 Model B"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
-board_image: "raspberry_pi_4b.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-24
+board_id: raspberry_pi_4b
+board_image: raspberry_pi_4b.jpg
+board_url:
+- https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
+date_added: 2019-06-24 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+layout: download
+manufacturer: Raspberry Pi
+name: Pi 4 Model B
+title: Raspberry Pi 4 Model B Download
 ---
 
 The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that's exactly what they did!

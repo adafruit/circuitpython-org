@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "melopero_shake_rp2040"
-title: "Shake RP2040 Download"
-name: "Shake RP2040"
-manufacturer: "Melopero"
+board_id: melopero_shake_rp2040
+board_image: melopero_shake_rp2040.jpg
 board_url:
- - "https://www.melopero.com/melopero-shake-rp2040"
-board_image: "melopero_shake_rp2040.jpg"
-date_added: 2021-9-22
+- https://www.melopero.com/melopero-shake-rp2040
+date_added: 2021-09-22 12:00:00
 family: raspberrypi
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Melopero
+name: Shake RP2040
+title: Shake RP2040 Download
 ---
 
 The **Melopero Shake RP2040** is a powerful development board based on the **Raspberry Pi RP2040** microcontroller, programmable in C/C++, MicroPython, CircuitPython and Arduino.

@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "datalore_ip_m4"
-title: "Datalore-IP-M4 Download"
-name: "Datalore-IP-M4"
-manufacturer: "TG-Techie"
+board_id: datalore_ip_m4
+board_image: datalore_ip_m4.jpg
 board_url:
- - "https://github.com/TG-Techie/Datalore-IP-M4"
-board_image: "datalore_ip_m4.jpg"
-date_added: 2019-4-5
+- https://github.com/TG-Techie/Datalore-IP-M4
+date_added: 2019-04-05 12:00:00
 family: atmel-samd
-features:
+features: null
+layout: download
+manufacturer: TG-Techie
+name: Datalore-IP-M4
+title: Datalore-IP-M4 Download
 ---
 
 Datalore IP M4 is an integrable CircuitPython ready module for soldering onto projects. Like

@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "maker_badge"
-title: "Maker badge download"
-name: "Maker badge"
-manufacturer: "Czech maker & Make More"
+board_id: maker_badge
+board_image: maker_badge.jpg
 board_url:
- - "https://github.com/dronecz/maker_badge"
-board_image: "maker_badge.jpg"
-date_added: 2022-11-13
+- https://github.com/dronecz/maker_badge
+date_added: 2022-11-13 12:00:00
 family: esp32s2
 features:
-  - Wi-Fi
-  - USB-C
-  - Display
-  - Battery Charging
+- Wi-Fi
+- USB-C
+- Display
+- Battery Charging
+layout: download
+manufacturer: Czech maker & Make More
+name: Maker badge
+title: Maker badge download
 ---
 
 The Maker badge board is official badge board for Maker Faire´s in Czech republic. Main purpose is to show visitors/exhibitors name and/or project, but secondary goal is to have at each Maker Faire some interactive game so people can have more fun at the time of the visit.

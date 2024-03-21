@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "spresense"
-title: "Spresense Download"
-name: "Spresense"
-manufacturer: "Sony"
+board_id: spresense
+board_image: spresense.jpg
 board_url:
- - "https://developer.sony.com/develop/spresense/docs/introduction_en.html"
- - "https://www.adafruit.com/product/4419"
- - "https://www.adafruit.com/product/4420"
-board_image: "spresense.jpg"
-date_added: 2019-10-23
+- https://developer.sony.com/develop/spresense/docs/introduction_en.html
+- https://www.adafruit.com/product/4419
+- https://www.adafruit.com/product/4420
+date_added: 2019-10-23 12:00:00
 family: cxd56
 features:
-  - GPS
-  - Arduino Shield Compatible
+- GPS
+- Arduino Shield Compatible
+layout: download
+manufacturer: Sony
+name: Spresense
+title: Spresense Download
 ---
 
 The Spresense project consists of a Arduino compatible board with Sony's high performance CXD5602 micro-controller. The CXD5602 has built-in GPS and high-resolution audio capabilities.

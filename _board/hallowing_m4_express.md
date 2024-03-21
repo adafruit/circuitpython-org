@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "hallowing_m4_express"
-title: "HalloWing M4 Express Download"
-name: "HalloWing M4 Express"
-manufacturer: "Adafruit"
+board_id: hallowing_m4_express
+board_image: hallowing_m4_express.jpg
 board_url:
- - "https://www.adafruit.com/product/4300"
-board_image: "hallowing_m4_express.jpg"
-date_added: 2019-8-30
-family: atmel-samd
+- https://www.adafruit.com/product/4300
 bootloader_id: hallowing_m4
+date_added: 2019-08-30 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Speaker
-  - Feather-Compatible
-  - Battery Charging
-  - Solder-Free Alligator Clip
+- Display
+- Speaker
+- Feather-Compatible
+- Battery Charging
+- Solder-Free Alligator Clip
+layout: download
+manufacturer: Adafruit
+name: HalloWing M4 Express
+title: HalloWing M4 Express Download
 ---
 
 [This is Hallowing..this is Hallowing... Hallowing! Hallowing! ](https://www.youtube.com/watch?v=kGiYxCUAhks&t=39s)Following up on 2018's [most-successful-skull-shaped development board](https://www.adafruit.com/product/3900), we UPPED our -skull-shaped development board game, and [re-spinned (re-spun?) the HalloWing M0](https://www.adafruit.com/product/3900) into the HalloWing M4 with MORE of everything that makes this the spoooookiest dev board.

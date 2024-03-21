@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "cytron_maker_uno_rp2040"
-title: "Maker Uno RP2040 Download"
-name: "Maker Uno RP2040"
-manufacturer: "Cytron Technologies"
+board_id: cytron_maker_uno_rp2040
+board_image: cytron_maker_uno_rp2040.jpg
 board_url:
- - "https://my.cytron.io/p-maker-uno-rp2040"
-board_image: "cytron_maker_uno_rp2040.jpg"
-date_added: 2023-12-14
+- https://my.cytron.io/p-maker-uno-rp2040
+date_added: 2023-12-14 12:00:00
 family: raspberrypi
 features:
-  - Battery Charging
-  - Arduino Shield Compatible
-  - Speaker
+- Battery Charging
+- Arduino Shield Compatible
+- Speaker
+layout: download
+manufacturer: Cytron Technologies
+name: Maker Uno RP2040
+title: Maker Uno RP2040 Download
 ---
 
 Introducing the **Maker Uno RP2040**, a revolutionary development board that combines the beloved **Uno form factor** with the powerful dual-core Arm Cortex-M0+ processor chip, the **Raspberry Pi® RP2040**. Packed with Maker Series goodness and enhanced features, this board is designed to elevate both your innovative projects and educational pursuits.

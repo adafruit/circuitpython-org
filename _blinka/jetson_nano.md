@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "jetson_nano"
-title: "Jetson Nano Dev Kit"
-name: "Jetson Nano Dev Kit"
-manufacturer: "NVIDIA"
-board_url:
- - "https://developer.nvidia.com/embedded/jetson-nano-developer-kit"
-board_image: "jetson_nano.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-nvidia-jetson-nano"
-downloads_display: true
 blinka: true
-date_added: 2019-9-10
+board_id: jetson_nano
+board_image: jetson_nano.jpg
+board_url:
+- https://developer.nvidia.com/embedded/jetson-nano-developer-kit
+date_added: 2019-09-10 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-libraries-on-linux-and-the-nvidia-jetson-nano
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - USB 3.0
-  - 40-pin GPIO
+- Ethernet
+- HDMI/DisplayPort
+- USB 3.0
+- 40-pin GPIO
+layout: download
+manufacturer: NVIDIA
+name: Jetson Nano Dev Kit
+title: Jetson Nano Dev Kit
 ---
 
 The NVIDIA® Jetson Nano™ Developer Kit delivers the compute performance to run modern AI workloads at unprecedented size, power, and cost. Developers, learners, and makers can now run AI frameworks and models for applications like image classification, object detection, segmentation, and speech processing.

@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "metro_nrf52840_express"
-title: "Metro nRF52840 Express Download"
-name: "Metro nRF52840 Express"
-manufacturer: "Adafruit"
+board_id: metro_nrf52840_express
+board_image: metro_nrf52840_express.png
 board_url:
- - "https://www.adafruit.com/"
-board_image: "metro_nrf52840_express.png"
-date_added: 2019-8-30
-family: nrf52840
+- https://www.adafruit.com/
 bootloader_id: metro_nrf52840_express
+date_added: 2019-08-30 12:00:00
+family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - USB-C
-  - Arduino Shield Compatible
+- Bluetooth/BTLE
+- USB-C
+- Arduino Shield Compatible
+layout: download
+manufacturer: Adafruit
+name: Metro nRF52840 Express
+title: Metro nRF52840 Express Download
 ---
 
 The **Adafruit Metro nRF52840 Express** is a new Metro family member with Bluetooth Low Energy and _native USB support_ featuring the nRF52840! 

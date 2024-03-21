@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "vcc_gnd_yd_rp2040"
-title: "YD-RP2040 Download"
-name: "YD-RP2040"
-manufacturer: "VCC-GND Studio"
+board_id: vcc_gnd_yd_rp2040
+board_image: vcc_gnd_yd_rp2040.jpg
 board_url:
- - "https://www.aliexpress.us/item/3256803817805852.html"
-board_image: "vcc_gnd_yd_rp2040.jpg"
-date_added: 2022-10-14
+- https://www.aliexpress.us/item/3256803817805852.html
+date_added: 2022-10-14 12:00:00
 family: raspberrypi
 features:
-  - Breadboard-Friendly
-  - USB-C
+- Breadboard-Friendly
+- USB-C
+layout: download
+manufacturer: VCC-GND Studio
+name: YD-RP2040
+title: YD-RP2040 Download
 ---
 
 Flexible I/O connects RP2040 to the physical world by allowing it to speak to almost anyexternal device. High performance breezes through integer workloads. Low cost helps ease the barrier to entry.

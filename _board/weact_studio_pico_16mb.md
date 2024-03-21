@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "weact_studio_pico_16mb"
-title: "WeAct Studio Pico (16MB Variant) Download"
-name: "WeAct Studio Pico (16MB Variant)"
-manufacturer: "WeAct Studio"
+board_id: weact_studio_pico_16mb
+board_image: weact_studio_pico.jpg
 board_url:
- - "https://www.aliexpress.com/item/3256803521775546.html?skuId=12000026898823783"
-board_image: "weact_studio_pico.jpg"
-date_added: 2022-12-23
+- https://www.aliexpress.com/item/3256803521775546.html?skuId=12000026898823783
+date_added: 2022-12-23 12:00:00
 family: raspberrypi
 features:
-  - USB-C
-  - Breadboard-Friendly
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: WeAct Studio
+name: WeAct Studio Pico (16MB Variant)
+title: WeAct Studio Pico (16MB Variant) Download
 ---
 
 The Raspberry Pi Pico is a microcontroller board based on the Raspberry Pi RP2040 microcontroller chip. It has been designed to be a low-cost, high-performance microcontroller board with flexible digital interfaces. The Raspberry Pi Pico features two ARM Cortex-M0+ cores run up to 133MHz; 256KB RAM; 30 GPIO pins; and a broad range of interfacing options. This is paired with 2MB/4MB/8MB/16MB of onboard QSPI Flash memory for code and data storage.

@@ -1,27 +1,27 @@
 ---
-layout: download
-board_id: "circuitplayground_express"
-title: "Circuit Playground Express Download"
-name: "Circuit Playground Express"
-manufacturer: "Adafruit"
+board_id: circuitplayground_express
+board_image: circuitplayground_express.jpg
 board_url:
- - "https://www.adafruit.com/product/3333"
- - "https://www.adafruit.com/product/3697"
- - "https://www.adafruit.com/product/2769"
- - "https://www.adafruit.com/product/3517"
- - "https://www.adafruit.com/product/4060"
- - "https://www.adafruit.com/product/2599"
- - "https://www.adafruit.com/product/1394"
- - "https://www.adafruit.com/product/3399"
- - "https://www.adafruit.com/product/3795"
- - "https://www.adafruit.com/product/3906"
-board_image: "circuitplayground_express.jpg"
-date_added: 2018-12-13
-family: atmel-samd
+- https://www.adafruit.com/product/3333
+- https://www.adafruit.com/product/3697
+- https://www.adafruit.com/product/2769
+- https://www.adafruit.com/product/3517
+- https://www.adafruit.com/product/4060
+- https://www.adafruit.com/product/2599
+- https://www.adafruit.com/product/1394
+- https://www.adafruit.com/product/3399
+- https://www.adafruit.com/product/3795
+- https://www.adafruit.com/product/3906
 bootloader_id: circuitplay_m0
+date_added: 2018-12-13 12:00:00
+family: atmel-samd
 features:
-  - Speaker
-  - Solder-Free Alligator Clip
+- Speaker
+- Solder-Free Alligator Clip
+layout: download
+manufacturer: Adafruit
+name: Circuit Playground Express
+title: Circuit Playground Express Download
 ---
 
 The Circuit Playground Express is Adafruit's flagship educational board designed for CircuitPython.

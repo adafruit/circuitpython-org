@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "hardkernel_odroid_go"
-title: "ODROID Go Download"
-name: "ODROID Go"
-manufacturer: "HardKernel"
+board_id: hardkernel_odroid_go
+board_image: hardkernel_odroid_go.jpg
 board_url:
- - "https://www.hardkernel.com/shop/odroid-go/"
-board_image: "hardkernel_odroid_go.jpg"
-date_added: 2022-8-22
-family: esp32
+- https://www.hardkernel.com/shop/odroid-go/
+date_added: 2022-08-22 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Wi-Fi
-  - Display
+- Battery Charging
+- Bluetooth/BTLE
+- Wi-Fi
+- Display
+layout: download
+manufacturer: HardKernel
+name: ODROID Go
+title: ODROID Go Download
 ---
 
 **The original ODROID Go has been discontinued**

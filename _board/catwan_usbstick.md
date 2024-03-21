@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "catwan_usbstick"
-title: "CatWAN USB Stick Download"
-name: "CatWAN USB Stick"
-manufacturer: "Electronic Cats"
+board_id: catwan_usbstick
+board_image: catwan_usbstick.jpg
 board_url:
- - "https://electroniccats.com/producto/catwan_usb-stick/"
-board_image: "catwan_usbstick.jpg"
-date_added: 2019-4-2
+- https://electroniccats.com/producto/catwan_usb-stick/
+date_added: 2019-04-02 12:00:00
 family: atmel-samd
 features:
-  - LoRa/Radio
+- LoRa/Radio
+layout: download
+manufacturer: Electronic Cats
+name: CatWAN USB Stick
+title: CatWAN USB Stick Download
 ---
 
 Are you interested in learning how LoRa works at the package level? Debugging your own LoRa hardware and trying to detect where something is wrong? Or maybe you’re writing a custom application for your Internet of Things (IoT) network with LoraWAN?

@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "metro_m7_1011"
-title: "Metro M7 with AirLift Download"
-name: "Metro M7 with AirLift"
-manufacturer: "Adafruit"
+board_id: metro_m7_1011
+board_image: metro_m7_1011.jpg
 board_url:
- - "https://www.adafruit.com/product/4950"
-board_image: "metro_m7_1011.jpg"
-date_added: 2020-10-16
+- https://www.adafruit.com/product/4950
+date_added: 2020-10-16 12:00:00
 family: mimxrt10xx
 features:
-  - Wi-Fi
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Arduino Shield Compatible
+- Wi-Fi
+- STEMMA QT/QWIIC
+- USB-C
+- Arduino Shield Compatible
+layout: download
+manufacturer: Adafruit
+name: Metro M7 with AirLift
+title: Metro M7 with AirLift Download
 ---
 
 Get ready for our fastest Metro ever - the NXP iMX RT1011 microcontroller powers this board with a 500 MHz ARM Cortex M7 processor. There's 8 MB of execute-in-place QSPI for firmware + disk storage and 128KB of SRAM in-chip, plus a WiFi co-processor using an on-board ESP32 module.

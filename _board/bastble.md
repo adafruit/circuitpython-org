@@ -1,22 +1,21 @@
 ---
-layout: download
-board_id: "bastble"
-title: "BAST BLE Download"
-name: "BAST BLE"
-manufacturer: "Electronic Cats"
+board_id: bastble
+board_image: bastble.jpg
 board_url:
- - "https://electroniccats.com/store/bast-ble/"
-board_image: "bastble.jpg"
-date_added: 2020-11-05
-family: nrf52840
+- https://electroniccats.com/store/bast-ble/
 bootloader_id: bast_ble
-
+date_added: 2020-11-05 12:00:00
+family: nrf52840
 features:
-  - Feather-Compatible
-  - Bluetooth/BTLE
-  - Battery Charging
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Bluetooth/BTLE
+- Battery Charging
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Electronic Cats
+name: BAST BLE
+title: BAST BLE Download
 ---
 
 The Bast BLE is the new Feather family member with Bluetooth Low Energy and native USB-C support featuring the nRF52840!

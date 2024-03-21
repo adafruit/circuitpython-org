@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "heltec_esp32s3_wifi_lora_v3"
-title: "WiFi LoRa 32 V3 Download"
-name: "WiFi LoRa 32 V3"
-manufacturer: "Heltec Automation"
+board_id: heltec_esp32s3_wifi_lora_v3
+board_image: heltec_esp32s3_wifi_lora_v3.jpg
 board_url:
- - "https://heltec.org/project/wifi-lora-32-v3/"
-board_image: "heltec_esp32s3_wifi_lora_v3.jpg"
-date_added: 2023-11-15
+- https://heltec.org/project/wifi-lora-32-v3/
+date_added: 2023-11-15 12:00:00
 family: esp32s3
 features:
-  - Display
-  - Bluetooth/BTLE
-  - Battery Charging
-  - LoRa/Radio
+- Display
+- Bluetooth/BTLE
+- Battery Charging
+- LoRa/Radio
+layout: download
+manufacturer: Heltec Automation
+name: WiFi LoRa 32 V3
+title: WiFi LoRa 32 V3 Download
 ---
 
 WiFi LoRa 32 is a classic IoT dev-board designed & produced by Heltec Automation. Since its launch in 2017, it has been loved by developers and makers. The newly launched V3 version has the same pin sequence as the V2 version and retains Wi-Fi, BLE, LoRa, OLED display, and other functions.

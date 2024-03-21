@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_feather_esp32_v2"
-title: "Adafruit Feather ESP32 V2 Download"
-name: "Adafruit Feather ESP32 V2"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_esp32_v2
+board_image: adafruit_feather_esp32_v2.jpg
 board_url:
- - "https://www.adafruit.com/product/5400"
-board_image: "adafruit_feather_esp32_v2.jpg"
-date_added: 2022-8-19
-family: esp32
+- https://www.adafruit.com/product/5400
+date_added: 2022-08-19 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
-  - STEMMA QT/QWIIC
+- Feather-Compatible
+- Battery Charging
+- Bluetooth/BTLE
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Adafruit
+name: Adafruit Feather ESP32 V2
+title: Adafruit Feather ESP32 V2 Download
 ---
 
 One of our star Feathers is the [Adafruit HUZZAH32 ESP32 Feather](https://www.adafruit.com/product/3405) - with the fabulous ESP32 WROOM module on there, it makes quick work of WiFi and Bluetooth projects that take advantage of Espressifs most popular chipset. Recently we had to redesign this feather to move from the obsolete CP2104 to the available CH9102F and one thing led to another and before you know it we made a completely refreshed design: the **Adafruit ESP32 Feather V2**.

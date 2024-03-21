@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "bluemicro840"
-title: "BlueMicro840 Download"
-name: "BlueMicro840"
-manufacturer: "JPConstantineau"
+board_id: bluemicro840
+board_image: bluemicro840.jpg
 board_url:
- - "http://nrf52.jpconstantineau.com/docs/bluemicro840_v1"
-board_image: "bluemicro840.jpg"
-date_added: 2021-08-08
-family: nrf52840
+- http://nrf52.jpconstantineau.com/docs/bluemicro840_v1
 bootloader_id: bluemicro_nrf52840
+date_added: 2021-08-08 12:00:00
+family: nrf52840
 features:
-  - USB-C
-  - Breadboard-Friendly
-  - Bluetooth/BTLE
-  - Battery Charging
+- USB-C
+- Breadboard-Friendly
+- Bluetooth/BTLE
+- Battery Charging
+layout: download
+manufacturer: JPConstantineau
+name: BlueMicro840
+title: BlueMicro840 Download
 ---
 
 The BlueMicro840 is a nRF52840 controller inspired on the Adafruit nRF52840 feather but with the footprint of an Arduino Pro Micro and a USB-C connector.

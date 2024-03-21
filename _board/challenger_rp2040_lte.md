@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "challenger_rp2040_lte"
-title: "Challenger RP2040 LTE Download"
-name: "Challenger RP2040 LTE"
-manufacturer: "Invector Labs"
+board_id: challenger_rp2040_lte
+board_image: challenger_rp2040_lte.jpg
 board_url:
- - "https://www.tindie.com/products/invector/challenger-rp2040-lte/"
-board_image: "challenger_rp2040_lte.jpg"
-date_added: 2021-11-15
+- https://www.tindie.com/products/invector/challenger-rp2040-lte/
+date_added: 2021-11-15 12:00:00
 family: raspberrypi
 features:
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
-  - Feather-Compatible
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+- Feather-Compatible
+layout: download
+manufacturer: Invector Labs
+name: Challenger RP2040 LTE
+title: Challenger RP2040 LTE Download
 ---
 
 The Challenger RP2040 LTE is an Arduino/CircuitPython compatible Adafruit Feather format microcontroller board based on the Raspberry Pico chip.
@@ -43,4 +43,3 @@ This board has been designed with portable applications in mind. By using the po
 ## Purchase
 
 * [Tindie](https://www.tindie.com/products/invector/challenger-rp2040-lte/)
-

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "odroid_n2"
-title: "ODROID N2 Download"
-name: "ODROID N2"
-manufacturer: "Hardkernel co., Ltd."
-board_url:
- - "https://www.hardkernel.com/shop/odroid-n2-with-2gbyte-ram/"
-board_image: "odroid_n2.jpg"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
+board_id: odroid_n2
+board_image: odroid_n2.jpg
+board_url:
+- https://www.hardkernel.com/shop/odroid-n2-with-2gbyte-ram/
+date_added: 2019-12-03 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - USB 3.0
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - Infrared Receiver
+- Ethernet
+- USB 3.0
+- HDMI/DisplayPort
+- 40-pin GPIO
+- Infrared Receiver
+layout: download
+manufacturer: Hardkernel co., Ltd.
+name: ODROID N2
+title: ODROID N2 Download
 ---
 
 ODROID-N2 is a new generation single board computer that is more powerful, more stable, and faster performing than N1.

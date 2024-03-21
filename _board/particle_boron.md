@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "particle_boron"
-title: "Boron Download"
-name: "Boron"
-manufacturer: "Particle"
+board_id: particle_boron
+board_image: particle_boron.jpg
 board_url:
- - "https://docs.particle.io/datasheets/wi-fi/boron-datasheet/"
- - "https://www.adafruit.com/product/3998"
- - "https://www.adafruit.com/product/3994"
-board_image: "particle_boron.jpg"
-date_added: 2019-3-9
-family: nrf52840
+- https://docs.particle.io/datasheets/wi-fi/boron-datasheet/
+- https://www.adafruit.com/product/3998
+- https://www.adafruit.com/product/3994
 bootloader_id: particle_boron
+date_added: 2019-03-09 12:00:00
+family: nrf52840
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Particle
+name: Boron
+title: Boron Download
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

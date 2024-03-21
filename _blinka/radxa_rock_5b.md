@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "radxa_rock_5b"
-title: "Rock 5B Download"
-name: "Rock 5B"
-manufacturer: "Radxa Limited"
-board_url:
- - "https://wiki.radxa.com/Rock5/5b"
-board_image: "radxa_rock_5b.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2023-5-5
+board_id: radxa_rock_5b
+board_image: radxa_rock_5b.jpg
+board_url:
+- https://wiki.radxa.com/Rock5/5b
+date_added: 2023-05-05 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+layout: download
+manufacturer: Radxa Limited
+name: Rock 5B
+title: Rock 5B Download
 ---
 
 The ROCK 5 Model B is the latest Radxa SBC with a Pico ITX form factor (2.5 inch, 100 x 72mm). Powered by the all-new powerhouse RK3588 SoC, the ROCK5 Model B offers awesome power-efficient performance in 4GB, 8GB or 16GB RAM configurations.

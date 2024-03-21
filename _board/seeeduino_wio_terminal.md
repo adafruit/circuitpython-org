@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "seeeduino_wio_terminal"
-title: "Seeeduino Wio Terminal Download"
-name: "Seeeduino Wio Terminal"
-manufacturer: "Seeed Studio"
+board_id: seeeduino_wio_terminal
+board_image: seeeduino_wio_terminal.jpg
 board_url:
- - "https://www.seeedstudio.com/Wio-Terminal-p-4509.html"
- - "https://www.adafruit.com/product/4707"
-board_image: "seeeduino_wio_terminal.jpg"
-date_added: 2020-7-3
+- https://www.seeedstudio.com/Wio-Terminal-p-4509.html
+- https://www.adafruit.com/product/4707
+date_added: 2020-07-03 12:00:00
 family: atmel-samd
 features:
-    - Display
-    - USB-C
+- Display
+- USB-C
+layout: download
+manufacturer: Seeed Studio
+name: Seeeduino Wio Terminal
+title: Seeeduino Wio Terminal Download
 ---
 
 Instead of being a single embedded functional module, **Wio Terminal** is more of a complete system equipped with Screen + Development Board + Input/Output Interface + Enclosure. Because it uses the SAMD51, it is compatible with Arduino and CircuitPython - using the same Arduino & CircuitPython core we have developed here at Adafruit!

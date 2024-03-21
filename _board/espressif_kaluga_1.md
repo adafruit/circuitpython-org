@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "espressif_kaluga_1"
-title: "ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER Download"
-name: "ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER"
-manufacturer: "Espressif"
+board_id: espressif_kaluga_1
+board_image: espressif_kaluga_1.jpg
 board_url:
- - "https://www.adafruit.com/product/4729"
-board_image: "espressif_kaluga_1.jpg"
-date_added: 2020-08-30
-family: esp32s2
+- https://www.adafruit.com/product/4729
 bootloader_id: espressif_kaluga_1
+date_added: 2020-08-30 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
+- Wi-Fi
+layout: download
+manufacturer: Espressif
+name: ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER
+title: ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER Download
 ---
 
 The **ESP32-S2-Kaluga-1** version 1.2 kit is a full featured development kit by Espressif for the ESP32-S2. From TFTs to touch panels, this dev board has it all. Espressif designed this kit to demonstrate the ESP32-S2's human-computer interaction functionalities and provide the users with the tools for development of human-computer interaction applications based on their new WiFi modules with the ESP32-S2 chip.

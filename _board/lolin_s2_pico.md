@@ -1,21 +1,20 @@
 ---
-layout: download
-board_id: "lolin_s2_pico"
-title: "LOLIN S2 Pico Download"
-name: "LOLIN S2 Pico"
-manufacturer: "Wemos"
+board_id: lolin_s2_pico
+board_image: lolin_s2_pico.jpg
 board_url:
- - "https://www.wemos.cc/en/latest/s2/s2_pico.html"
-board_image: "lolin_s2_pico.jpg"
-date_added: 2021-11-2
-family: esp32s2
+- https://www.wemos.cc/en/latest/s2/s2_pico.html
 bootloader_id: lolin_s2_pico
+date_added: 2021-11-02 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
-  - USB-C
-  - Display
-  - Breadboard-Friendly
-
+- Wi-Fi
+- USB-C
+- Display
+- Breadboard-Friendly
+layout: download
+manufacturer: Wemos
+name: LOLIN S2 Pico
+title: LOLIN S2 Pico Download
 ---
 
 A development boards with an OLED and a small form factor.

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "adafruit_itsybitsy_esp32"
-title: "Adafruit ItsyBitsy ESP32 Download"
-name: "Adafruit ItsyBitsy ESP32"
-manufacturer: "Adafruit"
+board_id: adafruit_itsybitsy_esp32
+board_image: adafruit_itsybitsy_esp32.jpg
 board_url:
- - "https://www.adafruit.com/product/5889"
-board_image: "adafruit_itsybitsy_esp32.jpg"
-date_added: 2024-2-20
-family: esp32
+- https://www.adafruit.com/product/5889
+date_added: 2024-02-20 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Bluetooth/BTLE
-  - Wi-Fi
-  - Breadboard-Friendly
-  - STEMMA QT/QWIIC
+- Bluetooth/BTLE
+- Wi-Fi
+- Breadboard-Friendly
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Adafruit
+name: Adafruit ItsyBitsy ESP32
+title: Adafruit ItsyBitsy ESP32 Download
 ---
 
 What's smaller than a Feather but larger than a Trinket? It's an Adafruit ItsyBitsy ESP32, a powerful processor PCB with a plethora of pins! It features the ESP32 Pico module, an FCC-certified module that contains an ESP32 chip with dual-core 240MHz Tensilica processor, WiFi, and Bluetooth classic + BLE, configured with 8 MB of Flash memory, and 2 MB of PSRAM.

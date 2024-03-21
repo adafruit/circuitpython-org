@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "adafruit_esp32s3_camera"
-title: "MEMENTO - Python Programmable DIY Camera Download"
-name: "MEMENTO - Python Programmable DIY Camera"
-manufacturer: "Adafruit"
+board_id: adafruit_esp32s3_camera
+board_image: adafruit_esp32s3_camera.jpg
 board_url:
- - "https://www.adafruit.com/product/5420"
-board_image: "adafruit_esp32s3_camera.jpg"
-date_added: 2023-10-27
-family: esp32s3
+- https://www.adafruit.com/product/5420
 bootloader_id: adafruit_camera_esp32s3
+date_added: 2023-10-27 12:00:00
+family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Camera
-  - Display
-  - USB-C
-  - Battery Charging
+- Wi-Fi
+- Bluetooth/BTLE
+- Camera
+- Display
+- USB-C
+- Battery Charging
+layout: download
+manufacturer: Adafruit
+name: MEMENTO - Python Programmable DIY Camera
+title: MEMENTO - Python Programmable DIY Camera Download
 ---
 
 Make memories, or just a cool camera-based project, with **Adafruit's MEMENTO Camera Board**. It's a development board with everything you need to create programmable camera and vision projects: with a camera module, TFT preview screen, buttons, SD card slot and driven by a powerful ESP32-S3 with 2 MB of PSRAM for buffering 5 MegaPixel camera images.

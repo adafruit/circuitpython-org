@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "onion_omega2plus"
-title: "Onion Omega2+"
-name: "Onion Omega2+"
-manufacturer: "Onion Corporation"
-board_url:
- - "https://onion.io/store/omega2p/"
-board_image: "onion_omega2plus.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2020-4-22
+board_id: onion_omega2plus
+board_image: onion_omega2plus.jpg
+board_url:
+- https://onion.io/store/omega2p/
+date_added: 2020-04-22 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
+- Wi-Fi
+layout: download
+manufacturer: Onion Corporation
+name: Onion Omega2+
+title: Onion Omega2+
 ---
 
 Ever wanted your own Linux-based IoT computer? A small one, that can be battery powered? The Onion Omega2 is sort of in-between a microcontroller (like an Arduino/CircuitPython/MakeCode running chip) and a full-fledged microcomputer (like Raspbery Pi). What you get is a bite-sized development board that combines the power-efficiency of the Arduino and the flexibility of the Raspberry Pi!

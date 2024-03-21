@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "banana_pi_bpi_m2_plus"
-title: "Banana Pi BPI-M2+ Download"
-name: "Banana Pi BPI-M2+"
-manufacturer: "SinoVoip"
-board_url:
- - "https://wiki.banana-pi.org/Banana_Pi_BPI-M2%2B"
-board_image: "banana_pi_bpi_m2_plus.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2022-10-17
+board_id: banana_pi_bpi_m2_plus
+board_image: banana_pi_bpi_m2_plus.jpg
+board_url:
+- https://wiki.banana-pi.org/Banana_Pi_BPI-M2%2B
+date_added: 2022-10-17 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - Ethernet
-  - Infrared Receiver
+- Wi-Fi
+- Bluetooth/BLE
+- HDMI/DisplayPort
+- 40-pin GPIO
+- Ethernet
+- Infrared Receiver
+layout: download
+manufacturer: SinoVoip
+name: Banana Pi BPI-M2+
+title: Banana Pi BPI-M2+ Download
 ---
 
 Banana PI BPI-M2+ is the open source hardware platform, use Alliwnner H3 (option H2+ chip and H5 chip ) chip on board. and mini size only 65mm*65mm,

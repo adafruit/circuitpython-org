@@ -1,18 +1,17 @@
 ---
-layout: download
-board_id: "jpconstantineau_encoderpad_rp2040"
-title: "EncoderPad RP2040 Download"
-name: "EncoderPad RP2040"
-manufacturer: "JPConstantineau"
+board_id: jpconstantineau_encoderpad_rp2040
+board_image: jpconstantineau_encoderpad_rp2040.jpg
 board_url:
- - "https://github.com/jpconstantineau/EncoderPad_RP2040"
-board_image: "jpconstantineau_encoderpad_rp2040.jpg"
-date_added: 2021-09-02
+- https://github.com/jpconstantineau/EncoderPad_RP2040
+date_added: 2021-09-02 12:00:00
 family: raspberrypi
-
 features:
-  - USB-C
-  - Speaker
+- USB-C
+- Speaker
+layout: download
+manufacturer: JPConstantineau
+name: EncoderPad RP2040
+title: EncoderPad RP2040 Download
 ---
 
 The EncoderPad RP2040 is a Video Editing Macropad with a 60mm Encoder Wheel. This encoder is made of metal and feels like it will last forever. The EncoderPad uses 9 mechanical switches (Cherry MX type) for sending commands to the computer and/or changing the operation of the encoder. The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.

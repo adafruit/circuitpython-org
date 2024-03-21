@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "espressif_hmi_devkit_1"
-title: "ESP32-S2 HMI Dev Kit Download"
-name: "ESP32-S2 Human Machine Interface Dev Kit"
-manufacturer: "Espressif"
+board_id: espressif_hmi_devkit_1
+board_image: espressif_hmi_devkit_1.jpg
 board_url:
- - "https://www.adafruit.com/product/5207"
-board_image: "espressif_hmi_devkit_1.jpg"
-date_added: 2021-9-03
-family: esp32s2
+- https://www.adafruit.com/product/5207
 bootloader_id: espressif_hmi_1
+date_added: 2021-09-03 12:00:00
+family: esp32s2
 features:
-  - Battery Charging
-  - Display
-  - Speaker
-  - USB-C
-  - Wi-Fi
+- Battery Charging
+- Display
+- Speaker
+- USB-C
+- Wi-Fi
+layout: download
+manufacturer: Espressif
+name: ESP32-S2 Human Machine Interface Dev Kit
+title: ESP32-S2 HMI Dev Kit Download
 ---
 
 Espressif's **ESP32-S2 Human Machine Interface Dev Kit 1 (ESP32-S2-HMI-DevKit-1)** has been specifically designed for human-machine interfaces in smart-home automation controllers, smart speakers with display, smart alarm clocks, etc.

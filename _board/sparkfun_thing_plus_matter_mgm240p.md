@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "sparkfun_thingplus_matter_mgm240p_brd2704a"
-title: "SparkFun Thing Plus Matter MGM240P Download"
-name: "SparkFun Thing Plus Matter MGM240P"
-manufacturer: "SparkFun"
+board_id: sparkfun_thingplus_matter_mgm240p_brd2704a
+board_image: sparkfun_thing_plus_matter_mgm240p.jpg
 board_url:
- - "https://www.sparkfun.com/products/20270"
-board_image: "sparkfun_thing_plus_matter_mgm240p.jpg"
-date_added: 2023-04-20
+- https://www.sparkfun.com/products/20270
+date_added: 2023-04-20 12:00:00
 family: silabs
-
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - STEMMA QT/QWIIC
-  - USB-C
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- STEMMA QT/QWIIC
+- USB-C
+layout: download
+manufacturer: SparkFun
+name: SparkFun Thing Plus Matter MGM240P
+title: SparkFun Thing Plus Matter MGM240P Download
 ---
+
 The SparkFun Thing Plus Matter is the first easily accessible board of its kind that combines Matter and SparkFun’s Qwiic ecosystem for agile development and prototyping of Matter-based IoT devices. The MGM240P wireless module from Silicon Labs® provides secure connectivity for both 802.15.4 with Mesh communication (Thread) and Bluetooth® Low Energy 5.3 protocols. SparkFun's Thing Plus development boards are Feather-compatible and include a Qwiic connector for easy integration into our Qwiic Connect System for solderless I2C circuits.
 
 The Thing Plus Matter - MGM240P includes Qwiic and LiPo battery connectors, and multiple GPIO pins capable of complete multiplexing through software. The board also features the MCP73831 single-cell LiPo charger as well as the MAX17048 fuel gauge to charge and monitor a connected battery. Lastly, we've included a µSD card slot for any external memory needs.

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "cytron_maker_feather_aiot_s3"
-title: "Maker Feather AIoT S3 Download"
-name: "Maker Feather AIoT S3"
-manufacturer: "Cytron Technologies"
+board_id: cytron_maker_feather_aiot_s3
+board_image: cytron_maker_feather_aiot_s3.jpg
 board_url:
- - "www.cytron.io/p-v-maker-feather-aiot-s3-simplifying-aiot-with-esp32"
-board_image: "cytron_maker_feather_aiot_s3.jpg"
-date_added: 2022-11-25
-family: esp32s3
+- www.cytron.io/p-v-maker-feather-aiot-s3-simplifying-aiot-with-esp32
 bootloader_id: cytron_maker_feather_aiot_s3
+date_added: 2022-11-25 12:00:00
+family: esp32s3
 features:
-  - Speaker
-  - STEMMA QT/QWIIC
-  - Battery Charging
-  - Breadboard-Friendly
+- Speaker
+- STEMMA QT/QWIIC
+- Battery Charging
+- Breadboard-Friendly
+layout: download
+manufacturer: Cytron Technologies
+name: Maker Feather AIoT S3
+title: Maker Feather AIoT S3 Download
 ---
 
 The Maker Feather AIoT S3 is powered by the ESP32-S3 WROOM 1 N8R8 module with 8MB Flash and 8MB PSRAM. This board allows the users to access both AI and IoT applications on their own projects. Users may choose from two different variants of Maker Feather AIoT S3: Basic (without pre-soldered female headers) and Pre-soldered female headers which the user can use a breadboard to expand all the GPIOs.
@@ -48,4 +48,3 @@ This board is pre-loaded with CircuitPython and is also supported by various pro
 ## Purchase
 
 * [Cytron](https://cytron.io/p-v-maker-feather-aiot-s3-simplifying-aiot-with-esp32)
-

@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "pewpew10"
-title: "PewPew Download"
-name: "PewPew"
-manufacturer: "Radomir Dopieralski"
+board_id: pewpew10
+board_image: pewpew_10.2.jpg
 board_url:
- - "https://pewpew.rtfd.io"
-board_image: "pewpew_10.2.jpg"
-date_added: 2019-3-12
-family: atmel-samd
+- https://pewpew.rtfd.io
 bootloader_id: trinket_m0
+date_added: 2019-03-12 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Breadboard-Friendly
+- Display
+- Breadboard-Friendly
+layout: download
+manufacturer: Radomir Dopieralski
+name: PewPew
+title: PewPew Download
 ---
 
 This board was designed to be an affordable device for teaching game

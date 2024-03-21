@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "lubancat_zero_w"
-title: "LubanCat Zero W Download"
-name: "LubanCat Zero W"
-manufacturer: "EmbedFire"
-board_url:
- - "https://embedfire.com/products/"
-board_image: "lubancat_zero_w.jpg"
-download_instructions: ""
 blinka: true
-date_added: 2023-5-8
+board_id: lubancat_zero_w
+board_image: lubancat_zero_w.jpg
+board_url:
+- https://embedfire.com/products/
+date_added: 2023-05-08 12:00:00
+download_instructions: ''
 features:
-  - HDMI/DisplayPort
-  - Ethernet
-  - USB 3.0
-  - 40-pin GPIO
-  - Infrared Receiver
+- HDMI/DisplayPort
+- Ethernet
+- USB 3.0
+- 40-pin GPIO
+- Infrared Receiver
+layout: download
+manufacturer: EmbedFire
+name: LubanCat Zero W
+title: LubanCat Zero W Download
 ---
 
 **Specifications**

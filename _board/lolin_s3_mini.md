@@ -1,20 +1,19 @@
 ---
-layout: download
-board_id: "lolin_s3_mini"
-title: "LOLIN S3 MINI Download"
-name: "LOLIN S3 MINI"
-manufacturer: "Wemos"
+board_id: lolin_s3_mini
+board_image: lolin_s3_mini.jpg
 board_url:
- - "https://www.wemos.cc/en/latest/s3/s3_mini.html"
-board_image: "lolin_s3_mini.jpg"
-date_added: 2023-5-23
-family: esp32s3
+- https://www.wemos.cc/en/latest/s3/s3_mini.html
 bootloader_id: lolin_s3_mini
+date_added: 2023-05-23 12:00:00
+family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - USB-C
-
+- Wi-Fi
+- Bluetooth/BTLE
+- USB-C
+layout: download
+manufacturer: Wemos
+name: LOLIN S3 MINI
+title: LOLIN S3 MINI Download
 ---
 
 WiFi & Bluetooth 5 (LE) development boards based ESP32-S3FH4R2.
@@ -43,4 +42,3 @@ WiFi & Bluetooth 5 (LE) development boards based ESP32-S3FH4R2.
 * [Manufacturer Specifications](https://www.wemos.cc/en/latest/s3/s3_mini.html)
 * [Schematic](https://www.wemos.cc/en/latest/_static/files/sch_s3_mini_v1.0.0.pdf)
 * [Dimension](https://www.wemos.cc/en/latest/_static/files/dim_s3_mini_v1.0.0.pdf)
-

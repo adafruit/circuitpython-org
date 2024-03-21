@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "pycubed_mram"
-title: "PyCubedv04 w/MRAM Download"
-name: "PyCubedv04 w/MRAM"
-manufacturer: "PyCubed.org"
+board_id: pycubed_mram
+board_image: pycubed.jpg
 board_url:
- - "https://pycubed.org/"
-board_image: "pycubed.jpg"
-date_added: 2020-4-07
+- https://pycubed.org/
+date_added: 2020-04-07 12:00:00
 family: atmel-samd
-features:
+features: null
+layout: download
+manufacturer: PyCubed.org
+name: PyCubedv04 w/MRAM
+title: PyCubedv04 w/MRAM Download
 ---
 
 ### ⭐ Double-check the your PyCubed board version before updating firmware.

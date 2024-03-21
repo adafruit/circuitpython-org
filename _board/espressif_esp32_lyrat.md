@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "espressif_esp32_lyrat"
-title: "ESP32-LyraT Download"
-name: "ESP32-LyraT"
-manufacturer: "Espressif"
+board_id: espressif_esp32_lyrat
+board_image: espressif_esp32_lyrat.jpg
 board_url:
- - "https://www.espressif.com/en/products/devkits/esp32-lyrat"
-board_image: "espressif_esp32_lyrat.jpg"
-date_added: 2023-3-1
+- https://www.espressif.com/en/products/devkits/esp32-lyrat
+date_added: 2023-03-01 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
+- Wi-Fi
+- Bluetooth/BTLE
+layout: download
+manufacturer: Espressif
+name: ESP32-LyraT
+title: ESP32-LyraT Download
 ---
 
 ESP32-LyraT is an open-source development board for Espressif Systems’ Audio Development Framework (ADF). It is designed for smart speakers and smart-home applications.  The dev board consists  of the ESP32-WROVER-B module, a Micro SD card, expansion interfaces, touch buttons and several function keys.

@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "orange_pi_plus_2e"
-title: "Orange Pi Plus 2E Download"
-name: "Orange Pi Plus 2E"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/orangepiplus2e/"
-board_image: "orange_pi_plus_2e.png"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2020-1-18
+board_id: orange_pi_plus_2e
+board_image: orange_pi_plus_2e.png
+board_url:
+- http://www.orangepi.org/orangepiplus2e/
+date_added: 2020-01-18 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi Plus 2E
+title: Orange Pi Plus 2E Download
 ---
 
 What's Orange Pi Plus 2E？

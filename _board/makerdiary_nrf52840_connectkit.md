@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "makerdiary_nrf52840_connectkit"
-title: "nRF52840 Connect Kit Download"
-name: "nRF52840 Connect Kit"
-manufacturer: "MakerDiary"
+board_id: makerdiary_nrf52840_connectkit
+board_image: makerdiary_nrf52840_connectkit.jpg
 board_url:
- - "https://makerdiary.com/products/nrf52840-connectkit?variant=43255093035163"
-board_image: "makerdiary_nrf52840_connectkit.jpg"
-date_added: 2023-7-28
+- https://makerdiary.com/products/nrf52840-connectkit?variant=43255093035163
+date_added: 2023-07-28 12:00:00
 family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - USB-C
-  - Breadboard-Friendly
+- Bluetooth/BTLE
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: MakerDiary
+name: nRF52840 Connect Kit
+title: nRF52840 Connect Kit Download
 ---
 
 nRF52840 Connect Kit is an open-source prototyping kit designed for connected projects. It is built using the nRF52840 SoC, which has protocol support for Bluetooth LE, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary stacks. It provides Arm TrustZone® CryptoCell cryptographic unit as well as numerous peripherals such as USB 2.0, NFC-A, GPIO, UART, SPI, TWI, PDM, I2S, QSPI, PWM, ADC, QDEC to support a wide range of applications.

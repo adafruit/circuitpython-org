@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "feather_m0_rfm69"
-title: "Feather M0 RFM69 Download"
-name: "Feather M0 RFM69"
-manufacturer: "Adafruit"
+board_id: feather_m0_rfm69
+board_image: feather_m0_rfm69.jpg
 board_url:
- - "https://www.adafruit.com/product/3176"
- - "https://www.adafruit.com/product/3177"
-board_image: "feather_m0_rfm69.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/3176
+- https://www.adafruit.com/product/3177
 bootloader_id: radiofruit_m0
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - LoRa/Radio
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- LoRa/Radio
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather M0 RFM69
+title: Feather M0 RFM69 Download
 ---
 
 This is the** Adafruit Feather M0 RFM69 Packet Radio (433, 868, or 915 MHz)****.** Also called _RadioFruits**,**_ Adafruit's take on an microcontroller with a RFM69HCW packet radio transceiver plus built in USB and battery charging. Its an Adafruit Feather M0 with a VHF radio module cooked in!

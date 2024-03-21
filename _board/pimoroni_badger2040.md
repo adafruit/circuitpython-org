@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "pimoroni_badger2040"
-title: "Badger 2040 Download"
-name: "Badger 2040"
-manufacturer: "Pimoroni"
+board_id: pimoroni_badger2040
+board_image: pimoroni_badger2040.jpg
 board_url:
- - "https://shop.pimoroni.com/products/badger-2040"
-board_image: "pimoroni_badger2040.jpg"
-date_added: 2022-2-24
+- https://shop.pimoroni.com/products/badger-2040
+date_added: 2022-02-24 12:00:00
 family: raspberrypi
 features:
-  - Display
-  - STEMMA QT/QWIIC
-  - USB-C
+- Display
+- STEMMA QT/QWIIC
+- USB-C
+layout: download
+manufacturer: Pimoroni
+name: Badger 2040
+title: Badger 2040 Download
 ---
 
 A hackable, programmable badge(r) with monochrome E Ink® display, powered by Raspberry Pi RP2040. It has a quintet of buttons (one for each claw), a slot so you can clip it onto a lanyard and a battery connector to keep things portable. You can even connect it up to Qwiic and STEMMA QT breakouts!

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "jetson_tx2"
-title: "Jetson TX2 Dev Kit"
-name: "Jetson TX2 Dev Kit"
-manufacturer: "NVIDIA"
-board_url:
- - "https://developer.nvidia.com/embedded/jetson-tx2-developer-kit"
-board_image: "jetson_tx2.jpg"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
+board_id: jetson_tx2
+board_image: jetson_tx2.jpg
+board_url:
+- https://developer.nvidia.com/embedded/jetson-tx2-developer-kit
+date_added: 2019-12-03 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - USB 3.0
-  - 40-pin GPIO
+- Ethernet
+- HDMI/DisplayPort
+- USB 3.0
+- 40-pin GPIO
+layout: download
+manufacturer: NVIDIA
+name: Jetson TX2 Dev Kit
+title: Jetson TX2 Dev Kit
 ---
 
 The Jetson TX2 Developer Kit gives you a fast, easy way to develop hardware and software for the Jetson TX2 AI supercomputer on a module. It exposes the hardware capabilities and interfaces of the developer board, comes with design guides and other documentation, and is pre-flashed with a Linux development environment.

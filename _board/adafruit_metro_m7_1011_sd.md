@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "adafruit_metro_m7_1011_sd"
-title: "Metro M7 with microSD Download"
-name: "Metro M7 with microSD"
-manufacturer: "Adafruit"
+board_id: adafruit_metro_m7_1011_sd
+board_image: adafruit_metro_m7_1011_sd.jpg
 board_url:
- - "https://www.adafruit.com/product/5600"
-board_image: "adafruit_metro_m7_1011_sd.jpg"
-date_added: 2023-9-6
+- https://www.adafruit.com/product/5600
+date_added: 2023-09-06 12:00:00
 family: mimxrt10xx
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Arduino Shield Compatible
+- STEMMA QT/QWIIC
+- USB-C
+- Arduino Shield Compatible
+layout: download
+manufacturer: Adafruit
+name: Metro M7 with microSD
+title: Metro M7 with microSD Download
 ---
 
 Your favorite electronics companies have collaborated to make the fastest Metro ever! For this new product, DigiKey, NXP and Adafruit all contributed the stuff they know best: shipping parts fast (DigiKey), designing microcontrollers (NXP) and crafting great products with tutorials (that's us, Adafruit!)

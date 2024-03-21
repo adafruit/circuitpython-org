@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "feather_m0_supersized"
-title: "Feather M0 Supersized Download"
-name: "Feather M0 Supersized"
-manufacturer: "Dave Astels"
+board_id: feather_m0_supersized
+board_image: feather_m0_supersized.jpg
 board_url:
- - "https://blog.adafruit.com/2017/10/27/supersizing-the-feather-m0-express-with-8mb-spi-flash-memory-s25fl064l/"
-board_image: "feather_m0_supersized.jpg"
-date_added: 2019-3-19
-family: atmel-samd
+- https://blog.adafruit.com/2017/10/27/supersizing-the-feather-m0-express-with-8mb-spi-flash-memory-s25fl064l/
 bootloader_id: feather_m0_express
+date_added: 2019-03-19 12:00:00
+family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Breadboard-Friendly
+layout: download
+manufacturer: Dave Astels
+name: Feather M0 Supersized
+title: Feather M0 Supersized Download
 ---
 
 This is a [Feather M0 Express]({{ "/board/feather_m0_express/" | relative_url }}) that has been

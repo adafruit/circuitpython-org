@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "waveshare_esp32_s3_zero"
-title: "Waveshare ESP32-S3-Zero Download"
-name: "Waveshare ESP32-S3-Zero"
-manufacturer: "Waveshare"
+board_id: waveshare_esp32_s3_zero
+board_image: waveshare_esp32_s3_zero.png
 board_url:
- - "https://www.waveshare.com/esp32-s3-zero.htm"
-board_image: "waveshare_esp32_s3_zero.png"
-date_added: 2023-10-21
-family: esp32s3
+- https://www.waveshare.com/esp32-s3-zero.htm
 bootloader_id: adafruit_feather_esp32s3
+date_added: 2023-10-21 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Waveshare
+name: Waveshare ESP32-S3-Zero
+title: Waveshare ESP32-S3-Zero Download
 ---
 
 Tiny, but mighty! This board with a powerful ESP32-S3 MCU measures in at 24.8mmx18mm (23.5mm for just the PCB, the USB-C connector sticks out a little bit). Despite it's small size it still exposes a wealth of GPIO connections - a whopping 34 in total. It does however have 'only' 4MB of Flash storage rather than the more typical 8MB found on most ESP32-S3 boards (and even 16MB on some).

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "challenger_rp2040_wifi"
-title: "Challenger RP2040 WiFi Download"
-name: "Challenger RP2040 WiFi"
-manufacturer: "Invector Labs"
+board_id: challenger_rp2040_wifi
+board_image: challenger_rp2040_wifi.jpg
 board_url:
- - "https://www.tindie.com/products/invector/challenger-rp2040-wifi/"
-board_image: "challenger_rp2040_wifi.jpg"
-date_added: 2021-9-16
+- https://www.tindie.com/products/invector/challenger-rp2040-wifi/
+date_added: 2021-09-16 12:00:00
 family: raspberrypi
 features:
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
-  - Feather-Compatible
-  - Battery Charging
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+layout: download
+manufacturer: Invector Labs
+name: Challenger RP2040 WiFi
+title: Challenger RP2040 WiFi Download
 ---
 
 The Challenger RP2040 WiFi is an Arduino/Micropython compatible Adafruit Feather format micro controller board based on the Raspberry Pico chip.
@@ -45,4 +45,3 @@ Just like the Challenger M0 WiFi it has a ESP8285 WiFi chip. For those of you th
 ## Purchase
 
 * [Tindie](https://www.tindie.com/products/invector/challenger-rp2040-wifi/)
-

@@ -1,21 +1,20 @@
 ---
-layout: download
-board_id: "luatos_core_esp32c3"
-title: "Luatos Core ESP32C3 Download"
-name: "Luatos Core ESP32C3"
-manufacturer: "Luatos"
+board_id: luatos_core_esp32c3
+board_image: luatos_core_esp32c3.jpg
 board_url:
- - "https://wiki.luatos.com/chips/esp32c3/index.html"
-board_image: "luatos_core_esp32c3.jpg"
-date_added: 2022-12-20
-family: esp32c3
+- https://wiki.luatos.com/chips/esp32c3/index.html
 bootloader_id: luatos_core_esp32c3
+date_added: 2022-12-20 12:00:00
+family: esp32c3
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Luatos
+name: Luatos Core ESP32C3
+title: Luatos Core ESP32C3 Download
 ---
 
 A low-cost WiFi/BLE board based on ESP32-C3.

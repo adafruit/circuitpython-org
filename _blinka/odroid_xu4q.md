@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "odroid_xu4q"
-title: "ODROID XU4Q Download"
-name: "ODROID XU4Q"
-manufacturer: "Hardkernel co., Ltd."
-board_url:
- - "https://www.hardkernel.com/shop/odroid-xu4q-special-price/"
-board_image: "odroid_xu4q.jpg"
-downloads_display: true
 blinka: true
-date_added: 2020-5-29
+board_id: odroid_xu4q
+board_image: odroid_xu4q.jpg
+board_url:
+- https://www.hardkernel.com/shop/odroid-xu4q-special-price/
+date_added: 2020-05-29 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+layout: download
+manufacturer: Hardkernel co., Ltd.
+name: ODROID XU4Q
+title: ODROID XU4Q Download
 ---
 
 ODROID-XU4Q

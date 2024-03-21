@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "0xcb_helios"
-title: "0xCB Helios Download"
-name: "Helios"
-manufacturer: "0xCB"
+board_id: 0xcb_helios
+board_image: 0xcb_helios.jpg
 board_url:
- - "https://github.com/0xCB-dev/0xCB-Helios"
-board_image: "0xcb_helios.jpg"
-date_added: 2023-01-05
+- https://github.com/0xCB-dev/0xCB-Helios
+date_added: 2023-01-05 12:00:00
 family: raspberrypi
 features:
-  - USB-C
-  - Breadboard-Friendly
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: '0xCB'
+name: Helios
+title: 0xCB Helios Download
 ---
 
 The 0xCB Helios is our Elite-C compatible MicroController, based on the high-performance and affordable RP2040.

@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "orange_pi_zero2"
-title: "Orange Pi Zero2 Download"
-name: "Orange Pi Zero2"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/Orange%20Pi%20Zero2/"
-board_image: "orange_pi_zero.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2020-2-8
+board_id: orange_pi_zero2
+board_image: orange_pi_zero.jpg
+board_url:
+- http://www.orangepi.org/Orange%20Pi%20Zero2/
+date_added: 2020-02-08 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi Zero2
+title: Orange Pi Zero2 Download
 ---
 
 Orange Pi Zero2 is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.

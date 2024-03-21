@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "orange_pi_zero_plus"
-title: "Orange Pi Zero Plus Download"
-name: "Orange Pi Zero Plus"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/OrangePiZeroPlus/"
-board_image: "orange_pi_zero_plus.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2021-1-14
+board_id: orange_pi_zero_plus
+board_image: orange_pi_zero_plus.jpg
+board_url:
+- http://www.orangepi.org/OrangePiZeroPlus/
+date_added: 2021-01-14 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi Zero Plus
+title: Orange Pi Zero Plus Download
 ---
 
 What’s Orange Pi Zero Plus？

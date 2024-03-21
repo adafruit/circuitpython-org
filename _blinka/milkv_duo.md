@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "milkv_duo"
-title: "MilkV Duo Download"
-name: "MilkV Duo"
-manufacturer: "Shenzhen MilkV Technology Co., Ltd"
-board_url:
- - "https://milkv.io/docs/duo/overview"
-board_image: "milkv_duo.jpg"
-downloads_display: true
 blinka: true
-date_added: 2024-3-13
-features:
-
+board_id: milkv_duo
+board_image: milkv_duo.jpg
+board_url:
+- https://milkv.io/docs/duo/overview
+date_added: 2024-03-13 12:00:00
+downloads_display: true
+features: null
+layout: download
+manufacturer: Shenzhen MilkV Technology Co., Ltd
+name: MilkV Duo
+title: MilkV Duo Download
 ---
 
 Milk-V Duo is an ultra-compact embedded development platform based on the CV1800B chip. It can run Linux and RTOS, providing a reliable, low-cost, and high-performance platform for professionals, industrial ODMs, AIoT enthusiasts, DIY hobbyists, and creators.

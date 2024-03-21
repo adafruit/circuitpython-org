@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "pimoroni_motor2040"
-title: "Motor 2040 Download"
-name: "Motor 2040"
-manufacturer: "Pimoroni"
+board_id: pimoroni_motor2040
+board_image: pimoroni_motor2040.jpg
 board_url:
- - "https://shop.pimoroni.com/products/motor-2040"
-board_image: "pimoroni_motor2040.jpg"
-date_added: 2022-6-15
+- https://shop.pimoroni.com/products/motor-2040
+date_added: 2022-06-15 12:00:00
 family: raspberrypi
 features:
-  - Robotics
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Robotics
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Pimoroni
+name: Motor 2040
+title: Motor 2040 Download
 ---
 
 A compact 4 channel motor+encoder controller, powered by RP2040. It has RGB and per-motor indicator LEDs plus built in voltage and current sensing. There's also a Qwiic/STEMMA QT connector for adding breakouts!

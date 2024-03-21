@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "wisdpi_tiny_rp2040"
-title: "WisdPi Tiny RP2040 Download"
-name: "WisdPi Tiny RP2040"
-manufacturer: "WisdPi"
+board_id: wisdpi_tiny_rp2040
+board_image: wisdpi_tiny_rp2040.jpg
 board_url:
- - "https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash"
-board_image: "wisdpi_tiny_rp2040.jpg"
-date_added: 2023-12-11
+- https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash
+date_added: 2023-12-11 12:00:00
 family: raspberrypi
 features:
-  - Breadboard-Friendly
-  - USB-C
+- Breadboard-Friendly
+- USB-C
+layout: download
+manufacturer: WisdPi
+name: WisdPi Tiny RP2040
+title: WisdPi Tiny RP2040 Download
 ---
 
 Introducing an RP2040-based development board, a compact yet powerful alternative to the popular Pico. This board packs all the GPIO capabilities of the RP2040 along with expanded flash memory.
@@ -26,6 +26,3 @@ This development board is designed with convenience in mind. It features a user-
 
 ## Purchase
 * [WisdPi](https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash)
-
-
-

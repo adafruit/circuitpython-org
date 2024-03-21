@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "stm32f411ce_blackpill"
-title: "STM32F411CE Black Pill Download"
-name: "STM32F411CE Black Pill"
-manufacturer: "WeAct Studio"
+board_id: stm32f411ce_blackpill
+board_image: stm32f411ce_blackpill.jpg
 board_url:
- - "https://www.aliexpress.com/item/1005001456186625.html"
- - "https://www.adafruit.com/product/4877"
-board_image: "stm32f411ce_blackpill.jpg"
-date_added: 2019-12-20
+- https://www.aliexpress.com/item/1005001456186625.html
+- https://www.adafruit.com/product/4877
+date_added: 2019-12-20 12:00:00
 family: stm
-
 features:
-  - USB-C
-  - Breadboard-Friendly
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: WeAct Studio
+name: STM32F411CE Black Pill
+title: STM32F411CE Black Pill Download
 ---
+
 In the F401 series, the chip is the cheapest, even cheaper than some F1, and crushed F1 on the main frequency, and has a floating-point arithmetic module, the IO port contains all the basic functions. Therefore, it is possible to provide a learning platform with a very high cost performance for beginners. In practical applications, it is not because the computing power is insufficient, and the IO port is incomplete and hinders development.
 
 ## Product details

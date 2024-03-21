@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "orange_pi_4"
-title: "Orange Pi 4 Download"
-name: "Orange Pi 4"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-4.html"
-board_image: "orange_pi_4.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2022-10-6
+board_id: orange_pi_4
+board_image: orange_pi_4.jpg
+board_url:
+- http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-4.html
+date_added: 2022-10-06 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Ethernet
-  - Bluetooth/BLE
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Ethernet
+- Bluetooth/BLE
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi 4
+title: Orange Pi 4 Download
 ---
 
 Orange Pi 4 is an open-source single-board computer with dual-band wireless WiFi and Bluetooth 5.0. It is highly compact with a dimension of 56 x 91mm.

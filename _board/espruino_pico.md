@@ -1,16 +1,15 @@
 ---
-layout: download
-board_id: "espruino_pico"
-title: "Espruino Pico Download"
-name: "Espruino Pico"
-manufacturer: "Espruino"
+board_id: espruino_pico
+board_image: espruino_pico.jpg
 board_url:
- - "https://www.adafruit.com/product/2621"
-board_image: "espruino_pico.jpg"
-date_added: 2020-2-7
+- https://www.adafruit.com/product/2621
+date_added: 2020-02-07 12:00:00
 family: stm
-features:
-
+features: null
+layout: download
+manufacturer: Espruino
+name: Espruino Pico
+title: Espruino Pico Download
 ---
 
 Control Electronics quickly and easily with a tiny USB stick that runs JavaScript - introducing the **Espruino Pico**! [Dig in to the JavaScript of things, with a mini version of the popular Espruino board we already carry](https://www.adafruit.com/product/1887)

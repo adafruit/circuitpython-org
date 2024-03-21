@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "lilygo_ttgo_t-oi-plus"
-title: "TTGO T-OI Plus Download"
-name: "TTGO T-OI Plus"
-manufacturer: "LILYGO"
+board_id: lilygo_ttgo_t-oi-plus
+board_image: lilygo_ttgo_t-oi-plus.jpg
 board_url:
- - "https://www.tindie.com/products/lilygo/lilygo-ttgo-t-oi-plus-risc-v-esp32-c3/"
-board_image: "lilygo_ttgo_t-oi-plus.jpg"
-date_added: 2022-5-16
+- https://www.tindie.com/products/lilygo/lilygo-ttgo-t-oi-plus-risc-v-esp32-c3/
+date_added: 2022-05-16 12:00:00
 family: esp32c3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - USB-C
+- Wi-Fi
+- Bluetooth/BTLE
+- USB-C
+layout: download
+manufacturer: LILYGO
+name: TTGO T-OI Plus
+title: TTGO T-OI Plus Download
 ---
 
 LILYGO® TTGO T-OI PLUS RISC-V ESP32-C3 Chip Module Rechargeable 16340 Battery Holder Support Wi-Fi BLE Development Board

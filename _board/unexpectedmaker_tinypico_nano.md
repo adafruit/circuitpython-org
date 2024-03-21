@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "unexpectedmaker_tinypico_nano"
-title: "Unexpected Maker TinyPICO NANO Download"
-name: "Unexpected Maker TinyPICO NANO"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_tinypico_nano
+board_image: unexpectedmaker_tinypico_nano.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/tinypico-nano"
-board_image: "unexpectedmaker_tinypico_nano.jpg"
-date_added: 2022-9-18
-family: esp32
+- https://unexpectedmaker.com/shop/tinypico-nano
+date_added: 2022-09-18 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Wi-Fi
+- Battery Charging
+- Bluetooth/BTLE
+- Wi-Fi
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker TinyPICO NANO
+title: Unexpected Maker TinyPICO NANO Download
 ---
 
 Introducing the TinyPICO NANO - The Mighty Tiny ESP32 all in one module!

@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "ai_thinker_esp_12k_nodemcu"
-title: "NodeMCU ESP-12K Download"
-name: "NodeMCU ESP-12K"
-manufacturer: "Ai-Thinker"
+board_id: ai_thinker_esp_12k_nodemcu
+board_image: ai_thinker_esp_12k_nodemcu.jpg
 board_url:
- - "https://docs.ai-thinker.com/en/12k_development_board_esp32-s2"
-board_image: "ai_thinker_esp_12k_nodemcu.jpg"
-date_added: 2021-8-24
-family: esp32s2
+- https://docs.ai-thinker.com/en/12k_development_board_esp32-s2
 bootloader_id: adafruit_qtpy_esp32s2
+date_added: 2021-08-24 12:00:00
+family: esp32s2
 features:
-  - Breadboard-Friendly
-  - Wi-Fi
+- Breadboard-Friendly
+- Wi-Fi
+layout: download
+manufacturer: Ai-Thinker
+name: NodeMCU ESP-12K
+title: NodeMCU ESP-12K Download
 ---
 
 This board is a version of the NodeMCU board with an ESP-12K (ESP32-S2) module on it. The board has a micro USB connection with which it can be programmed and/or powered.

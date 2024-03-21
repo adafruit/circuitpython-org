@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "orange_pi_3"
-title: "Orange Pi 3 Download"
-name: "Orange Pi 3"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/Orange%20Pi%203/"
-board_image: "orange_pi_3.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2022-1-4
+board_id: orange_pi_3
+board_image: orange_pi_3.jpg
+board_url:
+- http://www.orangepi.org/Orange%20Pi%203/
+date_added: 2022-01-04 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Ethernet
-  - HDMI/DisplayPort
-  - Infrared Receiver
+- Wi-Fi
+- Ethernet
+- HDMI/DisplayPort
+- Infrared Receiver
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi 3
+title: Orange Pi 3 Download
 ---
 
 Orange Pi 3 is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.

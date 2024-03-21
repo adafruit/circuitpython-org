@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "m5stack_atoms3"
-title: "AtomS3 Dev Kit w/ 0.85-inch Screen Download"
-name: "AtomS3 Dev Kit w/ 0.85-inch Screen"
-manufacturer: "M5Stack"
+board_id: m5stack_atoms3
+board_image: m5stack_atoms3.jpg
 board_url:
- - "https://docs.m5stack.com/en/core/AtomS3"
-board_image: "m5stack_atoms3.jpg"
-date_added: 2023-10-27
-family: esp32s3
+- https://docs.m5stack.com/en/core/AtomS3
 bootloader_id: m5stack_atoms3
+date_added: 2023-10-27 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Display
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Display
+layout: download
+manufacturer: M5Stack
+name: AtomS3 Dev Kit w/ 0.85-inch Screen
+title: AtomS3 Dev Kit w/ 0.85-inch Screen Download
 ---
 
 AtomS3 is a highly integrated programmable controller that harnesses the power of the ESP32-S3 chip. This compact controller boasts a range of features, including integrated WiFi functionality and 8MB of on-chip FLASH memory. With the ESP32-S3 chip, AtomS3 delivers exceptional performance and versatility for a variety of applications.

@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "nucleo_f767zi"
-title: "STM32F767 Nucleo Download"
-name: "STM32F767 Nucleo"
-manufacturer: "ST"
+board_id: nucleo_f767zi
+board_image: nucleo_f767zi.jpg
 board_url:
- - "https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-f767zi.html"
-board_image: "nucleo_f767zi.jpg"
-date_added: 2020-04-06
+- https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-f767zi.html
+date_added: 2020-04-06 12:00:00
 family: stm
-features:
+features: null
+layout: download
+manufacturer: ST
+name: STM32F767 Nucleo
+title: STM32F767 Nucleo Download
 ---
 
 The STM32F767 Nucleo dev board from ST.

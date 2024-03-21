@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "google_coral_mini"
-title: "Google Coral Dev Board Mini"
-name: "Google Coral Dev Board Mini"
-manufacturer: "Google"
-board_url:
- - "https://coral.ai/products/dev-board-mini/"
-board_image: "google_coral_mini.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-google-coral-linux-blinka"
-downloads_display: true
 blinka: true
-date_added: 2020-12-7
+board_id: google_coral_mini
+board_image: google_coral_mini.jpg
+board_url:
+- https://coral.ai/products/dev-board-mini/
+date_added: 2020-12-07 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-google-coral-linux-blinka
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Google
+name: Google Coral Dev Board Mini
+title: Google Coral Dev Board Mini
 ---
 
 The Coral Dev Board Mini is a single-board computer that provides fast machine learning (ML) inferencing in a small form factor. It's primarily designed as an evaluation device for the Accelerator Module (a surface-mounted module that provides the Edge TPU), but it's also a fully-functional embedded system you can use for various on-device ML projects.

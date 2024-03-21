@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "lilygo_ttgo_t8_s2"
-title: "TTGO T8 ESP32-S2 Download"
-name: "TTGO T8 ESP32-S2"
-manufacturer: "LILYGO"
+board_id: lilygo_ttgo_t8_s2
+board_image: lilygo_ttgo_t8_s2.jpg
 board_url:
- - "http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1321"
-board_image: "lilygo_ttgo_t8_s2.jpg"
-date_added: 2022-03-09
-family: esp32s2
+- http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1321
 bootloader_id: lilygo_ttgo_t8_s2
+date_added: 2022-03-09 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
-  - Battery Charging
-  - USB-C
-  - Breadboard-Friendly
+- Wi-Fi
+- Battery Charging
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: LILYGO
+name: TTGO T8 ESP32-S2
+title: TTGO T8 ESP32-S2 Download
 ---
 
 The TTGO T8 ESP32-S2 development board has useful features like the microSD card slot or the option to run the board with battery power. This board is very similar to the TTGO T8 ESP32-S2 ST7789 just without the display.

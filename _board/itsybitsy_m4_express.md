@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "itsybitsy_m4_express"
-title: "ItsyBitsy M4 Express Download"
-name: "ItsyBitsy M4 Express"
-manufacturer: "Adafruit"
+board_id: itsybitsy_m4_express
+board_image: itsybitsy_m4_express.jpg
 board_url:
- - "https://www.adafruit.com/product/3800"
- - "https://www.adafruit.com/product/4028"
-board_image: "itsybitsy_m4_express.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/3800
+- https://www.adafruit.com/product/4028
 bootloader_id: itsybitsy_m4
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: ItsyBitsy M4 Express
+title: ItsyBitsy M4 Express Download
 ---
 
 What's smaller than a Feather but larger than a Trinket? It's an **Adafruit ItsyBitsy M4 Express** featuring the **Microchip ATSAMD51**! Small, powerful, with a ultra fast ATSAMD51 Cortex M4 processor running at 120 MHz - this microcontroller board is perfect when you want something very compact, with a ton of horsepower and a bunch of pins. This Itsy is like a bullet train, with it's **120MHz Cortex M4** with floating point support and **512KB Flash and 192KB RAM**. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.

@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "adafruit_metro_rp2040"
-title: "Metro RP2040 Download"
-name: "Metro RP2040"
-manufacturer: "Adafruit"
+board_id: adafruit_metro_rp2040
+board_image: adafruit_metro_rp2040.jpg
 board_url:
- - "https://www.adafruit.com/product/5786"
-board_image: "adafruit_metro_rp2040.jpg"
-date_added: 2023-7-28
+- https://www.adafruit.com/product/5786
+date_added: 2023-07-28 12:00:00
 family: raspberrypi
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Arduino Shield Compatible
+- STEMMA QT/QWIIC
+- USB-C
+- Arduino Shield Compatible
+layout: download
+manufacturer: Adafruit
+name: Metro RP2040
+title: Metro RP2040 Download
 ---
 
 Choo! Choo! This is the RP2040 Metro Line, making all station stops at "Dual Cortex M0+ mountain", "264K RAM round-about" and "16 Megabytes of Flash town". This train is piled high with hardware that complements the Raspberry Pi RP2040 chip to make it an excellent development board for projects that want Arduino-shape-compatibility or just need the extra space and debugging ports.

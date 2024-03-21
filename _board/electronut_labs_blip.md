@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "electronut_labs_blip"
-title: "Blip Download"
-name: "Blip"
-manufacturer: "Electronut Labs"
+board_id: electronut_labs_blip
+board_image: electronut_labs_blip.png
 board_url:
- - "https://gitlab.com/electronutlabs-public/ElectronutLabs-blip"
-board_image: "electronut_labs_blip.png"
-date_added: 2019-5-23
-family: nrf52840
+- https://gitlab.com/electronutlabs-public/ElectronutLabs-blip
+date_added: 2019-05-23 12:00:00
 downloads_display: true
+family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - Battery Charging
+- Bluetooth/BTLE
+- Battery Charging
+layout: download
+manufacturer: Electronut Labs
+name: Blip
+title: Blip Download
 ---
 
 Blip is a development board for Bluetooth Low Energy (BLE) and 802.15.4 based wireless applications,

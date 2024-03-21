@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "openbook_m4"
-title: "Open Book Download"
-name: "The Open Book "
-manufacturer: "Oddly Specific Objects"
+board_id: openbook_m4
+board_image: openbook_m4.jpg
 board_url:
- - "https://github.com/joeycastillo/The-Open-Book"
-board_image: "openbook_m4.jpg"
-date_added: 2020-1-16
-family: atmel-samd
+- https://github.com/joeycastillo/The-Open-Book
 bootloader_id: openbook_m4
+date_added: 2020-01-16 12:00:00
+family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Display
+- Feather-Compatible
+- Battery Charging
+- Display
+layout: download
+manufacturer: Oddly Specific Objects
+name: 'The Open Book '
+title: Open Book Download
 ---
 
 The Open Book is an open-hardware device for reading books in all the languages of the world. It includes a large screen and buttons for navigation, as well as audio options for accessibility and ports to extend its functionality. Its detailed silkscreen, with the all the manic energy and quixotic ambition of a Dr. Bronner's bottle, aims to demystify the Open Book's own design, breaking down for the curious reader both how the book works, and how they can build one for themselves.

@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "pimoroni_pico_dv_base_w"
-title: "Pimoroni Pico DV Demo Base for Pico W Download"
-name: "Pimoroni Pico DV Demo Base for Pico W"
-manufacturer: "Pimoroni"
+board_id: pimoroni_pico_dv_base_w
+board_image: pimoroni_pico_dv_base_w.jpg
 board_url:
- - "https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base"
- - "https://www.adafruit.com/product/5674"
-board_image: "pimoroni_pico_dv_base_w.jpg"
-date_added: 2023-8-29
+- https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base
+- https://www.adafruit.com/product/5674
+date_added: 2023-08-29 12:00:00
 family: raspberrypi
+layout: download
+manufacturer: Pimoroni
+name: Pimoroni Pico DV Demo Base for Pico W
+title: Pimoroni Pico DV Demo Base for Pico W Download
 ---
 
 A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico or Pico W, with

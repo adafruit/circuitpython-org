@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "orange_pi_zero"
-title: "Orange Pi Zero Download"
-name: "Orange Pi Zero"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/orangepizero/"
-board_image: "orange_pi_zero.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
+board_id: orange_pi_zero
+board_image: orange_pi_zero.jpg
+board_url:
+- http://www.orangepi.org/orangepizero/
+date_added: 2019-12-03 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi Zero
+title: Orange Pi Zero Download
 ---
 
 Orange Pi Zero is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.

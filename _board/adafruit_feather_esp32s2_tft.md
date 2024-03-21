@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_feather_esp32s2_tft"
-title: "Feather ESP32-S2 with TFT Download"
-name: "Feather ESP32-S2 with TFT"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_esp32s2_tft
+board_image: adafruit_feather_esp32s2_tft.jpg
 board_url:
- - "https://www.adafruit.com/product/5300"
-board_image: "adafruit_feather_esp32s2_tft.jpg"
-date_added: 2021-4-6
-family: esp32s2
+- https://www.adafruit.com/product/5300
 bootloader_id: adafruit_feather_esp32s2_tft
+date_added: 2021-04-06 12:00:00
+family: esp32s2
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Wi-Fi
-  - USB-C
-  - Display
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- Wi-Fi
+- USB-C
+- Display
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather ESP32-S2 with TFT
+title: Feather ESP32-S2 with TFT Download
 ---
 
 We've got a new machine here at Adafruit, it can uncover your deepest desires. Don't believe me? I'll turn it on right now to prove it to you! What, you want unlimited mozzarella sticks? OK well, that's not something we can provide. But we can provide your *second*-deepest desire: an **ESP32-S2 Feather board with a built in IPS TFT color display**. It's got all the ~~gooeyness of a mozzarella stick~~ features of a Feather main board, the comforting warmth of an ESP32-S2 WiFi microcontroller, and the crispness of a 240x135 pixel color TFT display. All that and it will even plug in nicely into a breadboard, [terminal block wing](https://www.adafruit.com/product/2926), or [Feather Doubler](https://www.adafruit.com/product/2890) or even just stack on top of another wing.

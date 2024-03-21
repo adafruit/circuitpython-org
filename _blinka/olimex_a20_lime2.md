@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "olimex_a20_lime2"
-title: "A20-OLinuXino-LIME2 Download"
-name: "A20-OLinuXino-LIME2"
-manufacturer: "Olimex"
-board_url:
- - "https://www.olimex.com/wiki/A20-OLinuXino-LIME2"
-board_image: "olimex_a20_lime2.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2023-12-11
+board_id: olimex_a20_lime2
+board_image: olimex_a20_lime2.jpg
+board_url:
+- https://www.olimex.com/wiki/A20-OLinuXino-LIME2
+date_added: 2023-12-11 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - Infrared Receiver
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- Infrared Receiver
+layout: download
+manufacturer: Olimex
+name: A20-OLinuXino-LIME2
+title: A20-OLinuXino-LIME2 Download
 ---
 
 A20-OLinuXino-LIME2 looks similar to both [A20-OLinuXino-LIME](https://www.olimex.com/wiki/A20-OLinuXino-LIME) and [A10-OLinuXino-LIME](https://www.olimex.com/wiki/A10-OLinuXino-LIME). The major differences between A20-OLinuXino-LIME2 and A20-OLinuXino-LIME are:

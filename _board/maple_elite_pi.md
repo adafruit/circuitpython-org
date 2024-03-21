@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "maple_elite_pi"
-title: "Maple Elite-Pi Download"
-name: "Maple Elite-Pi"
-manufacturer: "Maple"
+board_id: maple_elite_pi
+board_image: maple_elite_pi.jpg
 board_url:
- - "https://keeb.io/products/elite-pi-usb-c-pro-micro-replacement-rp2040"
-board_image: "maple_elite_pi.jpg"
-date_added: 2023-11-15
+- https://keeb.io/products/elite-pi-usb-c-pro-micro-replacement-rp2040
+date_added: 2023-11-15 12:00:00
 family: raspberrypi
 features:
-  - USB-C
-  - Breadboard-Friendly
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Maple
+name: Maple Elite-Pi
+title: Maple Elite-Pi Download
 ---
 
 The Elite-Pi is an RP2040-based controller with a Pro Micro/Elite-C compatible pinout that's primarily intended for use with keyboards.

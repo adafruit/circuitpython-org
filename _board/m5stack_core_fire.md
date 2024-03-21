@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "m5stack_core_fire"
-title: "M5Stack FIRE IoT Download"
-name: "M5Stack FIRE IoT"
-manufacturer: "M5Stack"
+board_id: m5stack_core_fire
+board_image: m5stack_core_fire.jpg
 board_url:
- - "https://docs.m5stack.com/en/core/fire_v2.6"
-board_image: "m5stack_core_fire.jpg"
-date_added: 2022-11-1
+- https://docs.m5stack.com/en/core/fire_v2.6
+date_added: 2022-11-01 12:00:00
 family: esp32
-tags:
-  - Core Fire
 features:
-  - Speaker
-  - Battery Charging
-  - Display
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - USB-C
+- Speaker
+- Battery Charging
+- Display
+- Wi-Fi
+- Bluetooth/BTLE
+- USB-C
+layout: download
+manufacturer: M5Stack
+name: M5Stack FIRE IoT
+tags:
+- Core Fire
+title: M5Stack FIRE IoT Download
 ---
 
 M5Stack FIRE is a cost-effective Wi-Fi IoT controller adopts Espressif ESP32 main control chip, equipped with two low-power Xtensa® 32-bit LX6 microprocessors, with main frequency up to 240MHz. With 8M PSRAM + 16M FLASH memory, 2.0-inch full-color HD IPS display panel, IMU, LED, microphone, speaker, TFCard slot and other peripherals. The full-coverage case ensures circuit stability even in complex industrial applications. The internal offers a wide range of common interface resources (ADC/DAC/I2C/UART/SPI, etc.) which is highly expandable. This functional and powerful IoT controller is very applicable to various product prototyping, industrial control and smart building applications.

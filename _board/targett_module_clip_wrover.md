@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "targett_module_clip_wrover"
-title: "Targett ESP32-S2 Module Clip (WROVER) Download"
-name: "Targett ESP32-S2 Module Clip (WROVER)"
-manufacturer: "Targett"
+board_id: targett_module_clip_wrover
+board_image: targett_module_clip_wrover.jpg
 board_url:
- - "https://www.targettpcb.co.uk/s2-mcb-1"
-board_image: "targett_module_clip_wrover.jpg"
-date_added: 2020-12-6
-family: esp32s2
+- https://www.targettpcb.co.uk/s2-mcb-1
 bootloader_id: targett_mcb_wrover
+date_added: 2020-12-06 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
+- Wi-Fi
+layout: download
+manufacturer: Targett
+name: Targett ESP32-S2 Module Clip (WROVER)
+title: Targett ESP32-S2 Module Clip (WROVER) Download
 ---
 
 This board will allow you to clip in an ESP32-S2 WROOM or WROVER module for programming, prototyping and testing. Slot the module into the pins where it will be held securely while you upload your code.

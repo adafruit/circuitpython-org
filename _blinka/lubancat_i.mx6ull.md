@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "lubancat_i.mx6ull"
-title: "LubanCat I.MX6ULL Download"
-name: "LubanCat I.MX6ULL"
-manufacturer: "EmbedFire"
-board_url:
- - "https://www.seeedstudio.com/NPi-i-MX6ULL-Dev-Board-Industrial-Grade-Linux-SBC-NAND-Version-p-4220.html"
-board_image: "lubancat_i.mx6ull.jpg"
-download_instructions: ""
 blinka: true
-date_added: 2021-1-15
+board_id: lubancat_i.mx6ull
+board_image: lubancat_i.mx6ull.jpg
+board_url:
+- https://www.seeedstudio.com/NPi-i-MX6ULL-Dev-Board-Industrial-Grade-Linux-SBC-NAND-Version-p-4220.html
+date_added: 2021-01-15 12:00:00
+download_instructions: ''
 features:
-  - Ethernet
-  - 40-pin GPIO
+- Ethernet
+- 40-pin GPIO
+layout: download
+manufacturer: EmbedFire
+name: LubanCat I.MX6ULL
+title: LubanCat I.MX6ULL Download
 ---
 
 Meet the new i.MX6ULL ARM Cortex A7 processor from NXP, it is a high performance and power-efficient processor with a frequency up to 800MHz!

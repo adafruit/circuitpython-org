@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "espressif_esp32_devkitc_v4_wroom_32e"
-title: "ESP32-DevKitC-VE-WROVER Download"
-name: "ESP32-DevKitC-VE-WROVER"
-manufacturer: "Espressif"
+board_id: espressif_esp32_devkitc_v4_wroom_32e
+board_image: espressif_esp32_devkitc_v4_wroom_32e.jpg
 board_url:
- - "https://www.adafruit.com/product/3269"
- - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html"
-board_image: "espressif_esp32_devkitc_v4_wroom_32e.jpg"
-date_added: 2024-2-6
+- https://www.adafruit.com/product/3269
+- https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
+date_added: 2024-02-06 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Espressif
+name: ESP32-DevKitC-VE-WROVER
+title: ESP32-DevKitC-VE-WROVER Download
 ---
 
 The ESP8266 started a small revolution by bringing WiFi to a small and cheap package that also had enough processing power and enough pins to get small things done. Now get ready to take your bite-sized WiFi capabilities to the next level with the **ESP32 Development Board!**

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "sam32"
-title: "SAM32 Download"
-name: "SAM32"
-manufacturer: "Max Holliday"
+board_id: sam32
+board_image: sam32.jpg
 board_url:
- - "https://github.com/maholli/SAM32"
-board_image: "sam32.jpg"
-date_added: 2019-4-5
-family: atmel-samd
+- https://github.com/maholli/SAM32
 bootloader_id: sam32
+date_added: 2019-04-05 12:00:00
+family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Wi-Fi
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Wi-Fi
+- Breadboard-Friendly
+layout: download
+manufacturer: Max Holliday
+name: SAM32
+title: SAM32 Download
 ---
 
 An open source "swiss army knife" for hardware and IoT applications. This board is designed for quickly prototyping a wide range of makerspace, university, and science-related projects.

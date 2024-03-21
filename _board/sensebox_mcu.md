@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "sensebox_mcu"
-title: "senseBox MCU Download"
-name: "senseBox MCU"
-manufacturer: "senseBox"
+board_id: sensebox_mcu
+board_image: sensebox_mcu.jpg
 board_url:
- - "https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/"
-board_image: "sensebox_mcu.jpg"
-date_added: 2021-4-12
-family: atmel-samd
+- https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/
 bootloader_id: sensebox-mcu
+date_added: 2021-04-12 12:00:00
+family: atmel-samd
 features:
-  - USB-C
+- USB-C
+layout: download
+manufacturer: senseBox
+name: senseBox MCU
+title: senseBox MCU Download
 ---
 
 The senseBox-microcontroller (MCU) is specially designed and developed for the [senseBox project](https://sensebox.de/en/). The three main advantages and characteristics of the microcontroller are: expandability, speed, and efficiency.

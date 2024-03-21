@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "elecfreaks_picoed"
-title: "ELECFREAKS Pico:ed Download"
-name: "ELECFREAKS Pico:ed"
-manufacturer: "ELECFREAKS"
+board_id: elecfreaks_picoed
+board_image: elecfreaks_picoed.jpg
 board_url:
- - "https://www.elecfreaks.com/picoed.html"
-board_image: "elecfreaks_picoed.jpg"
-date_added: 2022-4-21
+- https://www.elecfreaks.com/picoed.html
+date_added: 2022-04-21 12:00:00
 family: raspberrypi
 features:
-  - Speaker
-  - Display
-  - Solder-Free Alligator Clip
+- Speaker
+- Display
+- Solder-Free Alligator Clip
+layout: download
+manufacturer: ELECFREAKS
+name: ELECFREAKS Pico:ed
+title: ELECFREAKS Pico:ed Download
 ---
 
 The **Pico:ed** is a development board based on **Raspberry Pi RP2040 MCU**. It uses dual-core Arm Cortex-M0+ processor with 264KB RAM. The front of the board contains two buttons and a 7x17 dot matrix screen, which can be conveniently used for classroom teaching.

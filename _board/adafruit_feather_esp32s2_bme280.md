@@ -1,25 +1,24 @@
 ---
-layout: download
-board_id: "adafruit_feather_esp32s2_bme280"
-board_alias: "adafruit_feather_esp32s2"
-title: "Feather ESP32-S2 with BME280 Sensor Download"
-name: "Feather ESP32-S2 with BME280 Sensor"
-manufacturer: "Adafruit"
+board_alias: adafruit_feather_esp32s2
+board_id: adafruit_feather_esp32s2_bme280
+board_image: adafruit_feather_esp32s2_bme280.jpg
 board_url:
- - "https://www.adafruit.com/product/5303"
-board_image: "adafruit_feather_esp32s2_bme280.jpg"
-date_added: 2021-12-6
-family: esp32s2
+- https://www.adafruit.com/product/5303
 bootloader_id: adafruit_feather_esp32s2
+date_added: 2021-12-06 12:00:00
+family: esp32s2
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather ESP32-S2 with BME280 Sensor
+title: Feather ESP32-S2 with BME280 Sensor Download
 ---
-
 
 What's Feather-shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connector for I2C devices and a built in ambient sensor? What has your favorite Espressif WiFi microcontroller and lots of Flash and RAM memory for your next IoT project? What will make your next IoT project sensor project flyyyyy?
 

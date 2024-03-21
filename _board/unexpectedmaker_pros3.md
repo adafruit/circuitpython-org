@@ -1,24 +1,24 @@
 ---
-layout: download
-board_id: "unexpectedmaker_pros3"
-title: "Unexpected Maker ProS3 Download"
-name: "Unexpected Maker ProS3"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_pros3
+board_image: unexpectedmaker_pros3.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/pros3"
- - "https://www.adafruit.com/product/5401"
- - "https://www.adafruit.com/product/5749"
-board_image: "unexpectedmaker_pros3.jpg"
-date_added: 2022-01-29
-family: esp32s3
+- https://unexpectedmaker.com/shop/pros3
+- https://www.adafruit.com/product/5401
+- https://www.adafruit.com/product/5749
 bootloader_id: unexpectedmaker_pros3
+date_added: 2022-01-29 12:00:00
+family: esp32s3
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Wi-Fi
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- STEMMA QT/QWIIC
+- USB-C
+- Wi-Fi
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker ProS3
+title: Unexpected Maker ProS3 Download
 ---
 
 Introducing the ProS3 - The Ultimate Pro ESP32-S3 Development Board!

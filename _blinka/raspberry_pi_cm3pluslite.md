@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "raspberry_pi_cm3pluslite"
-title: "Raspberry Pi Compute Module 3+ Lite Download"
-name: "Compute Module 3+ Lite"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/compute-module-3-plus/"
-board_image: "raspberry_pi_cm3pluslite.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-24
+board_id: raspberry_pi_cm3pluslite
+board_image: raspberry_pi_cm3pluslite.jpg
+board_url:
+- https://www.raspberrypi.com/products/compute-module-3-plus/
+date_added: 2019-06-24 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
-  - HDMI/DisplayPort
+- HDMI/DisplayPort
+layout: download
+manufacturer: Raspberry Pi
+name: Compute Module 3+ Lite
+title: Raspberry Pi Compute Module 3+ Lite Download
 ---
 
 The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+ Lite) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is the new heat spreader on the main processor which will let it run at full speed much faster without overheating.

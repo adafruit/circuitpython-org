@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "espressif_esp32s3_box"
-title: "ESP32-S3 Box - 16MB Flash, 8MB PSRAM"
-name: "ESP32-S3 Box"
-manufacturer: "Espressif"
+board_id: espressif_esp32s3_box
+board_image: espressif_esp32s3_box.jpg
 board_url:
- - "https://www.adafruit.com/product/5290"
-board_image: "espressif_esp32s3_box.jpg"
+- https://www.adafruit.com/product/5290
 bootloader_id: espressif_esp32s3_box
-date_added: 2020-05-15
+date_added: 2020-05-15 12:00:00
 family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - Display
-  - Speaker
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- Display
+- Speaker
+layout: download
+manufacturer: Espressif
+name: ESP32-S3 Box
+title: ESP32-S3 Box - 16MB Flash, 8MB PSRAM
 ---
 
 The **ESP-BOX** is a new generation AIoT development platform released by Espressif Systems. The ESP32-S3-BOX is an AIoT development board that is based on Espressif’s ESP32-S3 Wi-Fi + Bluetooth 5 (LE) SoC. The ESP32-S3-BOX provides a platform for developing the control of home appliances using Voice Assistance + touch screen controller, sensor, infrared controller, and intelligent Wi-Fi gateway.

@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "datum_distance"
-title: "datum-Distance Download"
-name: "datum-Distance"
-manufacturer: "J&J Studios"
+board_id: datum_distance
+board_image: datum_distance.jpg
 board_url:
- - "https://jandjstudios.io/datum/datum-Distance/"
-board_image: "datum_distance.jpg"
-date_added: 2019-7-12
+- https://jandjstudios.io/datum/datum-Distance/
+date_added: 2019-07-12 12:00:00
 family: atmel-samd
 features:
-  - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: J&J Studios
+name: datum-Distance
+title: datum-Distance Download
 ---
 
 The datum-Distance sensor combines the same SAMD21G18 microcontroller used on the Arduino Zero with the VL53LX1 distance sensor from ST Microelectronics to create the simplest, easiest to use distance sensor for your application.

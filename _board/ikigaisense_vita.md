@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "ikigaisense_vita"
-title: "Ikigaisense Vita Download"
-name: "Ikigaisense Vita"
-manufacturer: "Ikigaisense"
+board_id: ikigaisense_vita
+board_image: ikigaisense_vita.jpg
 board_url:
- - "https://hackaday.io/project/173761-vita-hardware"
-board_image: "ikigaisense_vita.jpg"
-date_added: 2020-08-30
-family: nrf52840
+- https://hackaday.io/project/173761-vita-hardware
 bootloader_id: ikigaisense_vita
+date_added: 2020-08-30 12:00:00
+family: nrf52840
 features:
-  - Bluetooth/BTLE
+- Bluetooth/BTLE
+layout: download
+manufacturer: Ikigaisense
+name: Ikigaisense Vita
+title: Ikigaisense Vita Download
 ---
 
 Ideally VitaPatch could be a disposable patch. It is an dedicated device to monitor vital signs of temperature, heart rate, SpO2 and blood pressure. It is also an integrated solution to monitor all these vital signs.

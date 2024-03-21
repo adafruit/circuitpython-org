@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "arduino_nano_esp32s3_inverted_statusled"
-title: "Nano ESP32 with inverted Status LED Download"
-name: "Nano ESP32 with inverted Status LED"
-manufacturer: "Arduino"
+board_id: arduino_nano_esp32s3_inverted_statusled
+board_image: arduino_nano_esp32s3.jpg
 board_url:
- - "https://store.arduino.cc/pages/nano-esp32"
-board_image: "arduino_nano_esp32s3.jpg"
-date_added: 2023-9-6
+- https://store.arduino.cc/pages/nano-esp32
+date_added: 2023-09-06 12:00:00
 family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Arduino
+name: Nano ESP32 with inverted Status LED
+title: Nano ESP32 with inverted Status LED Download
 ---
 
 **A limited number of boards have [inverted green/blue on the internal status RGB LEDs](https://support.arduino.cc/hc/en-us/articles/9589073738012-About-Nano-ESP32-boards-with-inverted-green-and-blue-pins).** Try the [non-inverted Arduino Nano ESP32](arduino_nano_esp32s3) board first. If the colors on your board appear inverted, use this board definition.

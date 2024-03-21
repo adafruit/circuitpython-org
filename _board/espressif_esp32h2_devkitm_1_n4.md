@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "espressif_esp32h2_devkitm_1_n4"
-title: "ESP32-H2-DevKitM-1-N4 Download"
-name: "ESP32-H2-DevKitM-1-N4"
-manufacturer: "Espressif"
+board_id: espressif_esp32h2_devkitm_1_n4
+board_image: espressif_esp32h2_devkitm_1.jpg
 board_url:
- - "https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html"
- - "https://www.adafruit.com/product/5715"
-board_image: "espressif_esp32h2_devkitm_1.jpg"
-date_added: 2023-10-27
+- https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html
+- https://www.adafruit.com/product/5715
+date_added: 2023-10-27 12:00:00
 family: esp32h2
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Espressif
+name: ESP32-H2-DevKitM-1-N4
+title: ESP32-H2-DevKitM-1-N4 Download
 ---
 
 **ESP32-H2-DevKitM-1** is an entry-level development board based on Bluetooth® Low Energy and IEEE 802.15.4 combo modules ESP32-H2-MINI-1. Most of the I/O pins on the ESP32-H2-MINI-1 module are broken out to the pin headers on both sides of this board for easy interfacing.

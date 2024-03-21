@@ -1,15 +1,15 @@
 ---
-layout: download
-board_id: "fomu"
-title: "Fomu Download"
-name: "Fomu"
-manufacturer: Sean Cross (xobs)
+board_id: fomu
+board_image: fomu.jpg
 board_url:
- - "https://tomu.im/fomu.html"
- - "https://www.adafruit.com/product/4332"
-board_image: "fomu.jpg"
-date_added: 2020-4-16
+- https://tomu.im/fomu.html
+- https://www.adafruit.com/product/4332
+date_added: 2020-04-16 12:00:00
 family: litex
+layout: download
+manufacturer: Sean Cross (xobs)
+name: Fomu
+title: Fomu Download
 ---
 
 Only 13mm long, **Fomu** really puts the _micro_ in microprocessor. Fomu is a fully open-source, programmable FPGA device that sits inside a USB Type-A port. It has four buttons, an RGB LED, and an FPGA that is compatible with a fully open source chain and capable of running a RISC-V core. Fomu comes in a custom plastic enclosure that slots perfectly into a USB port.

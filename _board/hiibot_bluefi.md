@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "hiibot_bluefi"
-title: "HiiBot BlueFi Download"
-name: "HiiBot BlueFi"
-manufacturer: "Hangzhou LeBan"
+board_id: hiibot_bluefi
+board_image: hiibot_bluefi.jpg
 board_url:
- - "https://www.tindie.com/products/bradchan/hiibot-bluefi/"
-board_image: "hiibot_bluefi.jpg"
-date_added: 2020-5-19
-family: nrf52840
+- https://www.tindie.com/products/bradchan/hiibot-bluefi/
 bootloader_id: hiibot_bluefi
+date_added: 2020-05-19 12:00:00
+family: nrf52840
 features:
-  - Speaker
-  - Solder-Free Alligator Clip
-  - Battery Charging
-  - Display
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - STEMMA QT/QWIIC
+- Speaker
+- Solder-Free Alligator Clip
+- Battery Charging
+- Display
+- Wi-Fi
+- Bluetooth/BTLE
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Hangzhou LeBan
+name: HiiBot BlueFi
+title: HiiBot BlueFi Download
 ---
 
 The HiiBot BlueFi is a microbit-compatible single board computer, but has enhanced computing ability, and connectivity. BlueFi uses Nordic nRF52840 (64MHz Cortex M4F, 1MB Flash and 256KB SRAM) as main processor, ESP32 (160MHz dual CPU, 4MB Flash and 520KB SRAM) as a co-processor. Features:

@@ -1,26 +1,26 @@
 ---
-layout: download
-board_id: "rock_pi_4c"
-title: "Rock Pi 4C Download"
-name: "Rock Pi 4C"
-manufacturer: "Radxa Limited"
-board_url:
- - "https://wiki.radxa.com/Rockpi4"
-board_image: "rock_pi_4c.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2021-4-6
+board_id: rock_pi_4c
+board_image: rock_pi_4c.jpg
+board_url:
+- https://wiki.radxa.com/Rockpi4
+date_added: 2021-04-06 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - USB 3.0
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- USB 3.0
+layout: download
+manufacturer: Radxa Limited
+name: Rock Pi 4C
+title: Rock Pi 4C Download
 ---
 
- - Powerful Rockchip RK3399 64-bit Hexa-core processor for better multithread application performance
+- Powerful Rockchip RK3399 64-bit Hexa-core processor for better multithread application performance
  - Mali T860MP4 Quad-core GPU for AI capabilities
  - Better IO performance with multiple storage options
  - Faster wireless connectivity with 2.4/5GHz Wi-Fi and Bluetooth 5.0

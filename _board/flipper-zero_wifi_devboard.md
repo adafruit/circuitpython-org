@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "flipperzero_wifi_dev"
-title: "Flipper Zero WiFi Dev Board Download"
-name: "Flipper Zero WiFi Dev"
-manufacturer: "Flipper Zero"
+board_id: flipperzero_wifi_dev
+board_image: flipper-zero_wifi_devboard.jpg
 board_url:
- - "https://docs.flipper.net/development/hardware/wifi-developer-board"
-board_image: "flipper-zero_wifi_devboard.jpg"
-date_added: 2023-11-28
-family: esp32s2
+- https://docs.flipper.net/development/hardware/wifi-developer-board
 bootloader_id: espressif_saola_1_wrover
+date_added: 2023-11-28 12:00:00
+family: esp32s2
 features:
-  - Wi-Fi
-  - USB-C
+- Wi-Fi
+- USB-C
+layout: download
+manufacturer: Flipper Zero
+name: Flipper Zero WiFi Dev
+title: Flipper Zero WiFi Dev Board Download
 ---
 
 The developer board with Wi-Fi connectivity made specially for Flipper Zero. Based on the [ESP32-S2](https://www.espressif.com/en/products/socs/esp32-s2) module, this devboard allows:

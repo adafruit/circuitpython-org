@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "bless_dev_board_multi_sensor"
-title: "BLE-SS Dev Board Multi Sensor Download"
-name: "BLE-SS Dev Board Multi Sensor"
-manufacturer: "Switch Science, Inc"
+board_id: bless_dev_board_multi_sensor
+board_image: bless_dev_board_multi_sensor.jpg
 board_url:
- - "http://ssci.to/6250"
-board_image: "bless_dev_board_multi_sensor.jpg"
-downloads_display: true
-date_added: 2020-07-27
-family: nrf52840
+- http://ssci.to/6250
 bootloader_id: aramcon_badge_2019
-features:
+date_added: 2020-07-27 12:00:00
+downloads_display: true
+family: nrf52840
+features: null
+layout: download
+manufacturer: Switch Science, Inc
+name: BLE-SS Dev Board Multi Sensor
+title: BLE-SS Dev Board Multi Sensor Download
 ---
 
 This development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840) and six sensors: acceleration, magnetism, gyro, temperature, humidity and air pressure.

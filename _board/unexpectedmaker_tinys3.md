@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "unexpectedmaker_tinys3"
-title: "Unexpected Maker TinyS3 Download"
-name: "Unexpected Maker TinyS3"
-manufacturer: "Unexpected Maker"
+board_id: unexpectedmaker_tinys3
+board_image: unexpectedmaker_tinys3.jpg
 board_url:
- - "https://unexpectedmaker.com/shop/ttinys3-esp32s3"
- - "https://www.adafruit.com/product/5398"
- - "https://www.adafruit.com/product/5747"
-board_image: "unexpectedmaker_tinys3.jpg"
-date_added: 2022-01-29
-family: esp32s3
+- https://unexpectedmaker.com/shop/ttinys3-esp32s3
+- https://www.adafruit.com/product/5398
+- https://www.adafruit.com/product/5747
 bootloader_id: unexpectedmaker_tinys3
+date_added: 2022-01-29 12:00:00
+family: esp32s3
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - USB-C
-  - Wi-Fi
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- USB-C
+- Wi-Fi
+layout: download
+manufacturer: Unexpected Maker
+name: Unexpected Maker TinyS3
+title: Unexpected Maker TinyS3 Download
 ---
 
 Introducing the TinyS3 - The Mighty Tiny ESP32-S3 based development board!

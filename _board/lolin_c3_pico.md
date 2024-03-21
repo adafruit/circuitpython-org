@@ -1,22 +1,21 @@
 ---
-layout: download
-board_id: "lolin_c3_pico"
-title: "LOLIN C3 Pico Download"
-name: "LOLIN C3 Pico"
-manufacturer: "Wemos"
+board_id: lolin_c3_pico
+board_image: lolin_c3_pico.jpg
 board_url:
- - "https://www.wemos.cc/en/latest/c3/c3_pico.html"
-board_image: "lolin_c3_pico.jpg"
-date_added: 2023-5-24
-family: esp32c3
+- https://www.wemos.cc/en/latest/c3/c3_pico.html
 bootloader_id: lolin_c3_pico
+date_added: 2023-05-24 12:00:00
+family: esp32c3
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - Battery Charging
-
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- Battery Charging
+layout: download
+manufacturer: Wemos
+name: LOLIN C3 Pico
+title: LOLIN C3 Pico Download
 ---
 
 A mini Wi-Fi & Bluetooth LE board based on ESP32-C3FH4.

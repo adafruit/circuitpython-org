@@ -1,20 +1,21 @@
 ---
-layout: download
-board_id: "devkit_xg24_brd2601b"
-title: "EFR32xG24 Dev Kit Download"
-name: "EFR32xG24 Dev Kit"
-manufacturer: "Silicon Labs"
+board_id: devkit_xg24_brd2601b
+board_image: silabs_devkit_xg24_brd2601b.jpg
 board_url:
- - "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=overview"
-board_image: "silabs_devkit_xg24_brd2601b.jpg"
-date_added: 2023-04-20
+- https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=overview
+date_added: 2023-04-20 12:00:00
 family: silabs
 features:
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - STEMMA QT/QWIIC
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Silicon Labs
+name: EFR32xG24 Dev Kit
+title: EFR32xG24 Dev Kit Download
 ---
+
 The xG24 Dev Kit is a low-cost, small form factor development
 and evaluation platform for the EFR32MG24 Wireless Gecko System-on-Chip
 

@@ -1,20 +1,19 @@
 ---
-layout: download
-board_id: "jpconstantineau_pykey87"
-title: "PyKey87 TKL Download"
-name: "PyKey87 Ten Key Less (TKL) Keyboard"
-manufacturer: "JPConstantineau"
+board_id: jpconstantineau_pykey87
+board_image: jpconstantineau_pykey87.jpg
 board_url:
- - "https://github.com/jpconstantineau/PyKey60"
-board_image: "jpconstantineau_pykey87.jpg"
+- https://github.com/jpconstantineau/PyKey60
+date_added: 2021-12-15 12:00:00
 downloads_display: true
-date_added: 2021-12-15
 family: raspberrypi
-
 features:
-  - USB-C
-  - Speaker
-  - STEMMA QT/QWIIC
+- USB-C
+- Speaker
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: JPConstantineau
+name: PyKey87 Ten Key Less (TKL) Keyboard
+title: PyKey87 TKL Download
 ---
 
 The PyKey87 is a custom programmable mechanical keyboard with a standard TKL layout. The PyKey87 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.  The PCB was designed for use with PCB-mount stabilizers.

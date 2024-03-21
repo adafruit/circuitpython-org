@@ -1,24 +1,21 @@
 ---
-layout: download
-board_id: "Seeed_XIAO_nRF52840_Sense"
-title: "Seeed Studio XIAO nRF52840 (Sense) Download"
-name: "Seeed Studio XIAO nRF52840 (Sense)"
-manufacturer: "Seeed Studio"
+board_id: Seeed_XIAO_nRF52840_Sense
+board_image: Seeed_XIAO_nRF52840_Sense.jpg
 board_url:
- - "https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html"
-board_image: "Seeed_XIAO_nRF52840_Sense.jpg"
-date_added: 2021-12-29
-family: nrf52840
+- https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+date_added: 2021-12-29 12:00:00
 downloads_display: true
-
-
+family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - Battery Charging
-  - USB-C
-  - Xiao / QTPy Form Factor
-
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- Battery Charging
+- USB-C
+- Xiao / QTPy Form Factor
+layout: download
+manufacturer: Seeed Studio
+name: Seeed Studio XIAO nRF52840 (Sense)
+title: Seeed Studio XIAO nRF52840 (Sense) Download
 ---
 
 Seeed Studio XIAO nRF52840 (Sense) has equipped a powerful Nordic nRF52840 MCU which is designed in a Bluetooth 5.0 module, built around 32-bit ARM® Cortex™-M4 CPU with Floating-Point Unit(FPU) operating at 64Mhz. With the capabilities of wireless connection, it still remains the Seeed Studio XIAO series classic form-factor of small and exquisite which can be used for wearable devices and Internet of Things projects. Furthermore, it only costs 5 μA in the deep sleep model and it supports battery charge management because of the BQ25101 chip.

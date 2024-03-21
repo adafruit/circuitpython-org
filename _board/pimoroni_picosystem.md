@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "pimoroni_picosystem"
-title: "PicoSystem Download"
-name: "PicoSystem"
-manufacturer: "Pimoroni"
+board_id: pimoroni_picosystem
+board_image: pimoroni_picosystem.jpg
 board_url:
- - "https://shop.pimoroni.com/products/picosystem"
-board_image: "pimoroni_picosystem.jpg"
-date_added: 2021-2-24
+- https://shop.pimoroni.com/products/picosystem
+date_added: 2021-02-24 12:00:00
 family: raspberrypi
 features:
-  - Speaker
-  - Battery Charging
-  - Display
-  - USB-C
+- Speaker
+- Battery Charging
+- Display
+- USB-C
+layout: download
+manufacturer: Pimoroni
+name: PicoSystem
+title: PicoSystem Download
 ---
 
 An all-in-one pocket sized games console with RP2040 at its heart, ready for filling up with all the most fun pixels! PicoSystem has a nice tactile joypad and buttons, a vibrant 240x240 screen and a lipo battery, neatly wrapped up in some shiny abstract PCB art.

@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "jetson_xavier_nx"
-title: "Jetson Xavier NX"
-name: "Jetson Xavier NX"
-manufacturer: "NVIDIA"
-board_url:
- - "https://developer.nvidia.com/embedded/jetson-xavier-nx"
-board_image: "jetson_xavier_nx.jpg"
-downloads_display: true
 blinka: true
-date_added: 2020-3-25
-features:
-
+board_id: jetson_xavier_nx
+board_image: jetson_xavier_nx.jpg
+board_url:
+- https://developer.nvidia.com/embedded/jetson-xavier-nx
+date_added: 2020-03-25 12:00:00
+downloads_display: true
+features: null
+layout: download
+manufacturer: NVIDIA
+name: Jetson Xavier NX
+title: Jetson Xavier NX
 ---
 
 Jetson Xavier NX delivers up to 21 TOPS for running modern AI workloads, consumes as little as 10 watts of power, and has a compact form factor smaller than a credit card. It can run modern neural networks in parallel and process data from multiple high-resolution sensors, opening the door for embedded and edge computing devices that demand increased performance but are constrained by size, weight, and power budgets.

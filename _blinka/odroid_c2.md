@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "odroid_c2"
-title: "ODROID C2 Download"
-name: "ODROID C2"
-manufacturer: "Hardkernel co., Ltd."
-board_url:
- - "https://www.hardkernel.com/shop/odroid-c2/"
-board_image: "odroid_c2.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libaries-linux-odroid-c2"
-downloads_display: true
 blinka: true
-date_added: 2019-6-17
+board_id: odroid_c2
+board_image: odroid_c2.jpg
+board_url:
+- https://www.hardkernel.com/shop/odroid-c2/
+date_added: 2019-06-17 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-libaries-linux-odroid-c2
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
-  - Infrared Receiver
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+- Infrared Receiver
+layout: download
+manufacturer: Hardkernel co., Ltd.
+name: ODROID C2
+title: ODROID C2 Download
 ---
 
 The ODROID-C2 is a 64-bit quad-core single board computer(SBC) that is one of the most cost-effective 64bit development boards available in the ARM world. It can function as a home theater set-top box, a general purpose computer for web browsing, gaming and socializing, a compact tool for college or office work, a prototyping device for hardware tinkering, a controller for home automation, a workstation for software development, and much more.

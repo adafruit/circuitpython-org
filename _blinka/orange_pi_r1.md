@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "orange_pi_r1"
-title: "Orange Pi R1 Download"
-name: "Orange Pi R1"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/OrangePiR1/"
-board_image: "orange_pi_r1.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-4
+board_id: orange_pi_r1
+board_image: orange_pi_r1.jpg
+board_url:
+- http://www.orangepi.org/OrangePiR1/
+date_added: 2019-06-04 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi R1
+title: Orange Pi R1 Download
 ---
 
 What’s Orange Pi R1？It’s an open-source single-board computer. It can run Android 4.4, Ubuntu, Debian Image. It uses the AllWinner H2 SoC, and has 256MB DDR3 SDRAM.

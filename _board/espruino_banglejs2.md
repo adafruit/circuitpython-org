@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "espruino_banglejs2"
-title: "Espruino Bangle.js v2 Download"
-name: "Espruino Bangle.js v2"
-manufacturer: "Espruino"
+board_id: espruino_banglejs2
+board_image: espruino_banglejs2.jpg
 board_url:
- - "https://www.adafruit.com/product/5427"
-board_image: "espruino_banglejs2.jpg"
-date_added: 2023-3-1
+- https://www.adafruit.com/product/5427
+date_added: 2023-03-01 12:00:00
 family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - Battery Charging
-  - Display
+- Bluetooth/BTLE
+- Battery Charging
+- Display
+layout: download
+manufacturer: Espruino
+name: Espruino Bangle.js v2
+title: Espruino Bangle.js v2 Download
 ---
 
 **Bangle.js 2 is an open, hackable smartwatch.** With a sunlight-readable always-on screen, 4-week battery life, complete flexibility, and complete control of your data, Bangle.js 2 is a refreshing break from expensive smart watches.

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "espressif_esp32s3_usb_otg_n8"
-title: "ESP32-S3-USB-OTG-N8 Download"
-name: "ESP32-S3-USB-OTG-N8"
-manufacturer: "Espressif"
+board_id: espressif_esp32s3_usb_otg_n8
+board_image: espressif_esp32s3_usb_otg_n8.jpg
 board_url:
- - "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32s3/esp32-s3-usb-otg/user_guide.html"
-board_image: "espressif_esp32s3_usb_otg_n8.jpg"
-date_added: 2022-4-1
+- https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32s3/esp32-s3-usb-otg/user_guide.html
+date_added: 2022-04-01 12:00:00
 family: esp32s3
 features:
-  - Display
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-  - Battery Charging
+- Display
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+- Battery Charging
+layout: download
+manufacturer: Espressif
+name: ESP32-S3-USB-OTG-N8
+title: ESP32-S3-USB-OTG-N8 Download
 ---
 
 ESP32-S3-USB-OTG is a development board that focuses on USB-OTG function verification and application development. It is based on ESP32-S3 SoC, supports Wi-Fi and BLE 5.0 wireless functions, and supports USB host and USB device functions. It can be used to develop applications such as wireless storage devices, Wi-Fi network cards, LTE MiFi, multimedia devices, virtual keyboards and mice. The development board has the following features:

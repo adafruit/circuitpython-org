@@ -1,21 +1,20 @@
 ---
-layout: download
-board_id: "electroniccats_bastwifi"
-title: "Bast Wifi Download"
-name: "Bast Wifi"
-manufacturer: "Electronic Cats"
+board_id: electroniccats_bastwifi
+board_image: bast_wifi.jpg
 board_url:
- - "https://electroniccats.com/store/bast-wifi/"
-board_image: "bast_wifi.jpg"
-date_added: 2020-10-13
+- https://electroniccats.com/store/bast-wifi/
+date_added: 2020-10-13 12:00:00
 family: esp32s2
-
 features:
-  - Feather-Compatible
-  - Wi-Fi
-  - Battery Charging
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Wi-Fi
+- Battery Charging
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Electronic Cats
+name: Bast Wifi
+title: Bast Wifi Download
 ---
 
 The Bast WiFi includes the newer ESP32-S2 module, which is like a little brother to the ESP32 where only one core instead of 2 has cores, it has no BLE implemented, but gains a native USB, a new processor and crypto accelerators for better performance protection against physical fault injection attacks and more improvements over the SoC.

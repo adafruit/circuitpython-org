@@ -1,14 +1,14 @@
 ---
-layout: download
-board_id: "gb_m4"
-title: "Python powered GameBoy-compatible cartridge Download"
-name: "Python powered GameBoy-compatible cartridge"
-manufacturer: "Scott Shawcroft"
+board_id: gb_m4
+board_image: gb_m4.jpg
 board_url:
- - "https://github.com/chickadee-tech/pygb"
-board_image: "gb_m4.jpg"
-date_added: 2019-4-5
+- https://github.com/chickadee-tech/pygb
+date_added: 2019-04-05 12:00:00
 family: atmel-samd
+layout: download
+manufacturer: Scott Shawcroft
+name: Python powered GameBoy-compatible cartridge
+title: Python powered GameBoy-compatible cartridge Download
 ---
 
 CircuitPython for Game Boy is a work in progress, check out the weekly "Show and Tell" or “Top Secret” segment on ASK AN ENGINEER or when it's ready, the new product videos on [YouTube](https://www.youtube.com/adafruit).

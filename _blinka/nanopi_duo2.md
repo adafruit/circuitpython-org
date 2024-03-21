@@ -1,20 +1,19 @@
 ---
-layout: download
-board_id: "nanopi_duo2"
-title: "NanoPi Duo2 Download"
-name: "NanoPi Duo2"
-manufacturer: "FriendlyElec"
-board_url:
- - "http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2"
-board_image: "nanopi_duo2.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2021-2-5
+board_id: nanopi_duo2
+board_image: nanopi_duo2.jpg
+board_url:
+- http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2
+date_added: 2021-02-05 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-
+- Wi-Fi
+- Bluetooth/BLE
+layout: download
+manufacturer: FriendlyElec
+name: NanoPi Duo2
+title: NanoPi Duo2 Download
 ---
 
 The NanoPi Duo2("Duo2") is an ARM board designed and developed by FriendlyELEC for makers and hobbyists. It is only 55 x 25.4mm. It features Allwinner quad-core A7 processor H3, and has 256M/512M DDR3 RAM, onboard WiFi & bluetooth module and an OV5640 camera interface. It works with Linux variants such as Ubuntu Core.

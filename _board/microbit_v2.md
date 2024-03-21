@@ -1,24 +1,23 @@
 ---
-layout: download
-board_id: "microbit_v2"
-title: "micro:bit v2 Download"
-name: "micro:bit v2"
-manufacturer: "BBC"
+board_id: microbit_v2
+board_image: microbit_v2.jpg
 board_url:
- - "https://microbit.org/new-microbit/"
- - "https://www.adafruit.com/product/4781"
- - "https://www.adafruit.com/product/4834"
- - "https://www.adafruit.com/product/4833"
-
-board_image: "microbit_v2.jpg"
-date_added: 2021-08-11
+- https://microbit.org/new-microbit/
+- https://www.adafruit.com/product/4781
+- https://www.adafruit.com/product/4834
+- https://www.adafruit.com/product/4833
+date_added: 2021-08-11 12:00:00
 family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - Battery Charging
-  - Solder-Free Alligator Clip
-  - Speaker
-  - Display
+- Bluetooth/BTLE
+- Battery Charging
+- Solder-Free Alligator Clip
+- Speaker
+- Display
+layout: download
+manufacturer: BBC
+name: micro:bit v2
+title: micro:bit v2 Download
 ---
 
 Meet the new **BBC micro:bit v2** - Upgraded with a powerful new processor that has tons more capability and also adds more sensing with a new speaker and microphone!

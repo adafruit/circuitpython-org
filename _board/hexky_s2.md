@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "hexky_s2"
-title: "hexky_s2 Download"
-name: "hexky_s2"
-manufacturer: "FutureKeys"
-board_url:
-board_image: "unknown.jpg"
-downloads_display: false
-date_added: 2022-4-1
-family: esp32s2
+board_id: hexky_s2
+board_image: unknown.jpg
+board_url: null
 bootloader_id: hexky_s2
-features:
-
+date_added: 2022-04-01 12:00:00
+downloads_display: false
+family: esp32s2
+features: null
+layout: download
+manufacturer: FutureKeys
+name: hexky_s2
+title: hexky_s2 Download
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

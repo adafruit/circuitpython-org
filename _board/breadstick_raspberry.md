@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "breadstick_raspberry"
-title: "Raspberry Breadstick Download"
-name: "Raspberry Breadstick"
-manufacturer: "Breadstick Innovations"
+board_id: breadstick_raspberry
+board_image: breadstick_raspberry.jpg
 board_url:
- - "https://github.com/Breadstick-Innovations/Raspberry-Breadstick"
- - "https://www.crowdsupply.com/breadstick-innovations/raspberry-breadstick"
-board_image: "breadstick_raspberry.jpg"
-date_added: 2023-12-14
+- https://github.com/Breadstick-Innovations/Raspberry-Breadstick
+- https://www.crowdsupply.com/breadstick-innovations/raspberry-breadstick
+date_added: 2023-12-14 12:00:00
 family: raspberrypi
 features:
-  - USB-C
-  - Breadboard-Friendly
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Breadstick Innovations
+name: Raspberry Breadstick
+title: Raspberry Breadstick Download
 ---
 
 Raspberry Breadstick is a long, lean, delicious development board with a unique form factor that simplifies your journey into the world of electronics. Whether your goal is to build a robot or an interactive art piece, you’ll begin by prototyping with a microcontroller development-board and a breadboard. Doing this with traditional dev-boards quickly leads to a tangled mess of jumper wires. The Raspberry Breadstick spreads its I/O pins out along the length of the breadboard, eliminating the need for long jumper wires, and delivers a clean prototyping experience that is easier to understand and troubleshoot.

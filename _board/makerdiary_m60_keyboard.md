@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "makerdiary_m60_keyboard"
-title: "M60 Mechanical Keyboard Download"
-name: "M60 Mechanical Keyboard"
-manufacturer: "MakerDiary"
+board_id: makerdiary_m60_keyboard
+board_image: makerdiary_m60_keyboard.jpg
 board_url:
- - "https://makerdiary.com/pages/m60-mechanical-keyboard"
-board_image: "makerdiary_m60_keyboard.jpg"
-date_added: 2020-07-27
-family: nrf52840
+- https://makerdiary.com/pages/m60-mechanical-keyboard
 bootloader_id: m60_keyboard
+date_added: 2020-07-27 12:00:00
+family: nrf52840
 features:
-  - Bluetooth/BTLE
-  - USB-C
+- Bluetooth/BTLE
+- USB-C
+layout: download
+manufacturer: MakerDiary
+name: M60 Mechanical Keyboard
+title: M60 Mechanical Keyboard Download
 ---
 
 The M60 Mechanical Keyboard a 60% keyboard which has USB and BLE 5.0 connectivity and is hot-swappable.

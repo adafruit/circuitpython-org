@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "qtpy_m0_haxpress"
-title: "QT Py Haxpress Download"
-name: "QT Py Haxpress"
-manufacturer: "Adafruit"
+board_id: qtpy_m0_haxpress
+board_image: qtpy_m0_haxpress.jpg
 board_url:
- - "https://www.adafruit.com/product/4600"
-board_image: "qtpy_m0_haxpress.jpg"
-date_added: 2020-9-28
-family: atmel-samd
+- https://www.adafruit.com/product/4600
 bootloader_id: QTPy_m0
+date_added: 2020-09-28 12:00:00
+family: atmel-samd
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
-  - Xiao / QTPy Form Factor
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+- Xiao / QTPy Form Factor
+layout: download
+manufacturer: Adafruit
+name: QT Py Haxpress
+title: QT Py Haxpress Download
 ---
 
 This is the [QT Py board](https://www.adafruit.com/product/4600) with [the SOIC-8 2MB Flash chip](https://www.adafruit.com/product/4763) soldered on. Both are in the [Adafruit shop](https://adafruit.com).

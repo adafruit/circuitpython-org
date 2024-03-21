@@ -1,20 +1,21 @@
 ---
-layout: download
-board_id: "feather_m0_basic"
-title: "Feather M0 Basic Download"
-name: "Feather M0 Basic"
-manufacturer: "Adafruit"
+board_id: feather_m0_basic
+board_image: feather_m0_basic.jpg
 board_url:
- - "https://www.adafruit.com/product/2772"
-board_image: "feather_m0_basic.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/2772
 bootloader_id: feather_m0
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather M0 Basic
+title: Feather M0 Basic Download
 ---
+
 Feather is thin, light, and lets you fly! Adafruit designed Feather to be a new open standard for portable microcontroller cores.
 
 This is the **Feather M0 Basic Proto**, it has a bunch of prototyping space built right in. Check out the other boards in the [Feather family](https://www.adafruit.com/feather).

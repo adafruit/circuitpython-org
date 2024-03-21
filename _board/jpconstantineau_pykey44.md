@@ -1,19 +1,18 @@
 ---
-layout: download
-board_id: "jpconstantineau_pykey44"
-title: "PyKey44 Ergo Keyboard Download"
-name: "PyKey44 Ergo Keyboard"
-manufacturer: "JPConstantineau"
+board_id: jpconstantineau_pykey44
+board_image: jpconstantineau_pykey44.jpg
 board_url:
- - "https://github.com/jpconstantineau/PyKey60"
-board_image: "jpconstantineau_pykey44.jpg"
-downloads_display: True
-date_added: 2021-12-15
+- https://github.com/jpconstantineau/PyKey60
+date_added: 2021-12-15 12:00:00
+downloads_display: true
 family: raspberrypi
-
 features:
-  - USB-C
-  - Speaker
+- USB-C
+- Speaker
+layout: download
+manufacturer: JPConstantineau
+name: PyKey44 Ergo Keyboard
+title: PyKey44 Ergo Keyboard Download
 ---
 
 The PyKey44 is a custom programmable mechanical keyboard with a compact ergonobic layout similar to the popular Atreus. The PyKey44 uses mechanical switches Kailh Choc type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.

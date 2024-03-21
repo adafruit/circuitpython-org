@@ -1,19 +1,20 @@
 ---
-layout: download
-board_id: "ai_thinker_esp32-c3s-2m"
-title: "ESP-C3-32S (2M) Download"
-name: "ESP-C3-32S (2M)"
-manufacturer: "Ai-Thinker"
+board_id: ai_thinker_esp32-c3s-2m
+board_image: ai_thinker_esp32-c3s.jpg
 board_url:
- - "https://docs.ai-thinker.com/en/esp32c3"
-board_image: "ai_thinker_esp32-c3s.jpg"
-date_added: 2022-02-22
+- https://docs.ai-thinker.com/en/esp32c3
+date_added: 2022-02-22 12:00:00
 family: esp32c3
 features:
-  - Breadboard-Friendly
-  - Wi-Fi
-  - Bluetooth/BTLE
+- Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+layout: download
+manufacturer: Ai-Thinker
+name: ESP-C3-32S (2M)
+title: ESP-C3-32S (2M) Download
 ---
+
 This is an entry-level development board based on Espressif ESP32-C3 SoC, which is equipped with a RISC-V 32-bit single-core processor, operating frequency up to 160 MHz, supports secondary development without using other microcontrollers or processors. The ESP32-C3 is an highly integrated low power Wi-Fi and Bluetooth system-level chip (SoC), designed for various applications such as internet of things (IoT), mobile devices, wearable electronics, smart home, etc.
 
 ### Features

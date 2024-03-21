@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "m5stack_atom_echo"
-title: "ATOM Echo Smart Speaker Download"
-name: "ATOM Echo Smart Speaker"
-manufacturer: "M5Stack"
+board_id: m5stack_atom_echo
+board_image: m5stack_atom_echo.jpg
 board_url:
- - "https://docs.m5stack.com/en/atom/atomecho"
-board_image: "m5stack_atom_echo.jpg"
-date_added: 2023-1-31
+- https://docs.m5stack.com/en/atom/atomecho
+date_added: 2023-01-31 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Speaker
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Speaker
+layout: download
+manufacturer: M5Stack
+name: ATOM Echo Smart Speaker
+title: ATOM Echo Smart Speaker Download
 ---
 
 ATOM ECHO is a Programmable Smart Speaker based on the M5ATOM design. Its form factor is very small, its dimensions are only 24 * 24 * 17 mm. Music can be played using the BT capabilities of the ESP32 from a mobile phone or tablet. The device could be programmed to access AWS, Baidu and other cloud platforms, using the built-in microphone and speaker for voice interaction, so that ATOM ECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a BT speaker, it still has the control ability of Atom series.Screw hole on the back is convenient for users to fix.

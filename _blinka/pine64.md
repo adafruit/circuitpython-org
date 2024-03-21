@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "pine64"
-title: "Pine A64+ Download"
-name: "Pine A64+"
-manufacturer: "Pine64"
-board_url:
- - "https://www.pine64.org/devices/single-board-computers/pine-a64/"
-board_image: "pine64.png"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2020-1-9
+board_id: pine64
+board_image: pine64.png
+board_url:
+- https://www.pine64.org/devices/single-board-computers/pine-a64/
+date_added: 2020-01-09 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Pine64
+name: Pine A64+
+title: Pine A64+ Download
 ---
 
 The PINE A64 (+) is the first pine64.org Single Board Computer powered by Allwinner’s A64 Quad-Core ARM Cortex A53 64-Bit SOC. There are many Operating Systems available for the PINE A64 (+) created by the open source community and various partner projects. Currently the majority of Linux distributions for the PINE A64 are using mainline Linux but there are a number of BSP-based distribution and / or legacy systems that you can download too.

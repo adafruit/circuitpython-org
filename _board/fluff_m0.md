@@ -1,19 +1,20 @@
 ---
-layout: download
-board_id: "fluff_m0"
-title: "Fluff M0 Download"
-name: "Fluff M0"
-manufacturer: "Radomir Dopieralski"
+board_id: fluff_m0
+board_image: fluff_m0.jpg
 board_url:
- - "https://hackaday.io/project/171381-fluff-m0"
-board_image: "fluff_m0.jpg"
-date_added: 2020-5-22
-family: atmel-samd
+- https://hackaday.io/project/171381-fluff-m0
 bootloader_id: fluff_m0
+date_added: 2020-05-22 12:00:00
+family: atmel-samd
 features:
-  - USB-C
-  - Breadboard-Friendly
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Radomir Dopieralski
+name: Fluff M0
+title: Fluff M0 Download
 ---
+
 A minimal CircuitPython board compatible with the Feather M0 Basic. Everything
 that is non-essential has been removed, and the smallest possible chip is used.
 

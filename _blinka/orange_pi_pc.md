@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "orange_pi_pc"
-title: "Orange Pi PC Download"
-name: "Orange Pi PC"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/orangepipc/"
-board_image: "orange_pi_pc.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-4
+board_id: orange_pi_pc
+board_image: orange_pi_pc.jpg
+board_url:
+- http://www.orangepi.org/orangepipc/
+date_added: 2019-06-04 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi PC
+title: Orange Pi PC Download
 ---
 
 What’s Orange Pi PC？It’s an open-source single-board computer. It can run Android 4.4, Ubuntu, Debian Image. It uses the AllWinner H3 SoC, and has 1GB DDR3 SDRAM.

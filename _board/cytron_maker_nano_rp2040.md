@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "cytron_maker_nano_rp2040"
-title: "Maker Nano RP2040 Download"
-name: "Maker Nano RP2040"
-manufacturer: "Cytron Technologies"
+board_id: cytron_maker_nano_rp2040
+board_image: cytron_maker_nano_rp2040.jpg
 board_url:
- - "https://www.cytron.io/p-maker-nano-rp2040"
-board_image: "cytron_maker_nano_rp2040.jpg"
-date_added: 2021-12-6
+- https://www.cytron.io/p-maker-nano-rp2040
+date_added: 2021-12-06 12:00:00
 family: raspberrypi
 features:
-  - Speaker
-  - STEMMA QT/QWIIC
-  - Breadboard-Friendly
+- Speaker
+- STEMMA QT/QWIIC
+- Breadboard-Friendly
+layout: download
+manufacturer: Cytron Technologies
+name: Maker Nano RP2040
+title: Maker Nano RP2040 Download
 ---
 
 The Maker Nano RP2040 is a small but powerful MCU for your project. Same Arduino Nano form factor, but powered by a RP2040 MCU. This also means that it's compatible with some of the daughter boards for Arduino Nano in the market. Not to forget it's also breadboard friendly to allow building your own circuit.

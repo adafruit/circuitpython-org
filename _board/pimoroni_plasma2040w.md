@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "pimoroni_plasma2040w"
-title: "Plasma Stick 2040 W Download"
-name: "Plasma Stick 2040 W (Pico W Aboard)"
-manufacturer: "Pimoroni"
+board_id: pimoroni_plasma2040w
+board_image: pimoroni_plasma2040w.jpg
 board_url:
- - "https://shop.pimoroni.com/products/plasma-stick-2040-w"
-board_image: "pimoroni_plasma2040w.jpg"
-date_added: 2023-5-9
+- https://shop.pimoroni.com/products/plasma-stick-2040-w
+date_added: 2023-05-09 12:00:00
 family: raspberrypi
-tags:
-  - picow
-  - 🥧🐮
 features:
-  - Bluetooth/BTLE
-  - STEMMA QT/QWIIC
-  - Wi-Fi
+- Bluetooth/BTLE
+- STEMMA QT/QWIIC
+- Wi-Fi
+layout: download
+manufacturer: Pimoroni
+name: Plasma Stick 2040 W (Pico W Aboard)
+tags:
+- picow
+- "\U0001F967\U0001F42E"
+title: Plasma Stick 2040 W Download
 ---
 
 This perky Pico W-powered controller for WS2812/Neopixel/SK6812 LEDs is perfect for coding up some wireless blinkenlight shenanigans.

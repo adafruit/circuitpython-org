@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "escornabot_makech"
-title: "Escornabot Makech Download"
-name: "Escornabot Makech"
-manufacturer: "Electronic Cats"
+board_id: escornabot_makech
+board_image: escornabot_makech.jpg
 board_url:
- - "https://github.com/ElectronicCats/escornabot"
-board_image: "escornabot_makech.jpg"
-date_added: 2019-5-25
+- https://github.com/ElectronicCats/escornabot
+date_added: 2019-05-25 12:00:00
 family: atmel-samd
 features:
-  - Robotics
+- Robotics
+layout: download
+manufacturer: Electronic Cats
+name: Escornabot Makech
+title: Escornabot Makech Download
 ---
 
 Escornabot is an open source/hardware project that aims to bring robotics and programming to children.

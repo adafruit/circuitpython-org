@@ -1,18 +1,17 @@
 ---
-layout: download
-board_id: "adafruit_qt2040_trinkey"
-title: "Trinkey QT2040 Download"
-name: "Trinkey QT2040"
-manufacturer: "Adafruit"
-board_url:
- - "https://www.adafruit.com/product/5056"
-board_image: "adafruit_qt2040_trinkey.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 blinka: true
-date_added: 2021-12-6
+board_id: adafruit_qt2040_trinkey
+board_image: adafruit_qt2040_trinkey.jpg
+board_url:
+- https://www.adafruit.com/product/5056
+date_added: 2021-12-06 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico
 features:
-  - STEMMA QT/QWIIC
-
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Adafruit
+name: Trinkey QT2040
+title: Trinkey QT2040 Download
 ---
 
 It's half USB Key, half Adafruit QT Py, and a lotta RP2040*...*it's **Trinkey QT2040**, the circuit board with an RP2040 heart and Stemma QT legs. Folks are loving the [QT Py 2040](https://www.adafruit.com/product/4900) we made, but maybe you want something plug-and-play. So we thought, hey what if we made something like that plugs right into your computer's USB port? And this is what we came up with!

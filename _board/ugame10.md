@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "ugame10"
-title: "µGame Download"
-name: "µGame"
-manufacturer: "Radomir Dopieralski"
+board_id: ugame10
+board_image: ugame_10.jpg
 board_url:
- - "https://ugame.rtfd.io"
-board_image: "ugame_10.jpg"
-date_added: 2019-3-12
-family: atmel-samd
+- https://ugame.rtfd.io
 bootloader_id: trinket_m0
+date_added: 2019-03-12 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Speaker
-  - Battery Charging
+- Display
+- Speaker
+- Battery Charging
+layout: download
+manufacturer: Radomir Dopieralski
+name: µGame
+title: µGame Download
 ---
 
 A tiny game console programmable with Python, which lets you easily re-create

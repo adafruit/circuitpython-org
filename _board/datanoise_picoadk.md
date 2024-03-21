@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "datanoise_picoadk"
-title: "PicoADK - Audio Development Kit Download"
-name: "PicoADK - Audio Development Kit"
-manufacturer: "DatanoiseTV"
+board_id: datanoise_picoadk
+board_image: datanoise_picoadk.jpg
 board_url:
- - "https://www.tindie.com/products/datanoisetv/picoadk-audio-development-kit-raspberry-rp2040/"
-board_image: "datanoise_picoadk.jpg"
-date_added: 2023-7-28
+- https://www.tindie.com/products/datanoisetv/picoadk-audio-development-kit-raspberry-rp2040/
+date_added: 2023-07-28 12:00:00
 family: raspberrypi
 features:
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: DatanoiseTV
+name: PicoADK - Audio Development Kit
+title: PicoADK - Audio Development Kit Download
 ---
 
 The PicoADK is a RP2040 based Audio Development Kit, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico / RP2040, plus a high quality Audio Output, 8 Analog Inputs for connecting potentiometers, control voltage from Eurorack systems or even additional input signals.

@@ -1,23 +1,24 @@
 ---
-layout: download
-board_id: "adafruit_feather_rp2040_rfm9x"
-board_alias: "adafruit_feather_rp2040_rfm"
-title: "Feather RP2040 RFM9x Board Download"
-name: "Feather RP2040 RFM9x"
-manufacturer: "Adafruit"
+board_alias: adafruit_feather_rp2040_rfm
+board_id: adafruit_feather_rp2040_rfm9x
+board_image: adafruit_feather_rp2040_rfm9x.jpg
 board_url:
- - "https://www.adafruit.com/product/5714"
-board_image: "adafruit_feather_rp2040_rfm9x.jpg"
-date_added: 2023-4-4
+- https://www.adafruit.com/product/5714
+date_added: 2023-04-04 12:00:00
 family: raspberrypi
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - LoRa/Radio
-  - USB-C
-  - Breadboard-Friendly
-  - STEMMA QT/QWIIC
+- Feather-Compatible
+- Battery Charging
+- LoRa/Radio
+- USB-C
+- Breadboard-Friendly
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Adafruit
+name: Feather RP2040 RFM9x
+title: Feather RP2040 RFM9x Board Download
 ---
+
 This is the Adafruit Feather RP2040 RFM9x. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It's an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.
 
 Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check'em out here.

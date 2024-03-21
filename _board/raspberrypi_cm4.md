@@ -1,20 +1,19 @@
 ---
-layout: download
-board_id: "raspberrypi_cm4"
-title: "Raspberry Pi CM4 Download"
-name: "Compute Module 4"
-manufacturer: "Raspberry Pi"
+board_id: raspberrypi_cm4
+board_image: raspberry_pi_cm4.jpg
 board_url:
- - "https://www.raspberrypi.com/products/compute-module-4/"
- - "https://www.adafruit.com/product/4782"
- - "https://www.adafruit.com/product/4788"
- - "https://www.adafruit.com/product/4790"
- - "https://www.adafruit.com/product/4791"
- - "https://www.adafruit.com/product/4982"
-board_image: "raspberry_pi_cm4.jpg"
-date_added: 2022-1-4
+- https://www.raspberrypi.com/products/compute-module-4/
+- https://www.adafruit.com/product/4782
+- https://www.adafruit.com/product/4788
+- https://www.adafruit.com/product/4790
+- https://www.adafruit.com/product/4791
+- https://www.adafruit.com/product/4982
+date_added: 2022-01-04 12:00:00
 family: broadcom
-
+layout: download
+manufacturer: Raspberry Pi
+name: Compute Module 4
+title: Raspberry Pi CM4 Download
 ---
 
 **NOTE**: This build is alpha quality and is for experimental use. It is [missing features and has known issues](https://github.com/adafruit/circuitpython/labels/broadcom).

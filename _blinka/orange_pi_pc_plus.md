@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "orange_pi_pc_plus"
-title: "Orange Pi PC Plus Download"
-name: "Orange Pi PC Plus"
-manufacturer: "Shenzhen Xunlong Software CO.,Limited"
-board_url:
- - "http://www.orangepi.org/orangepipcplus/"
-board_image: "orange_pi_pc_plus.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
-downloads_display: true
 blinka: true
-date_added: 2020-3-25
+board_id: orange_pi_pc_plus
+board_image: orange_pi_pc_plus.jpg
+board_url:
+- http://www.orangepi.org/orangepipcplus/
+date_added: 2020-03-25 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Shenzhen Xunlong Software CO.,Limited
+name: Orange Pi PC Plus
+title: Orange Pi PC Plus Download
 ---
 
 What’s Orange Pi PC Plus？

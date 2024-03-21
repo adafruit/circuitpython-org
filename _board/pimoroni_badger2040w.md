@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "pimoroni_badger2040w"
-title: "Badger 2040 W Download"
-name: "Badger 2040 W (Pico W Aboard)"
-manufacturer: "Pimoroni"
+board_id: pimoroni_badger2040w
+board_image: pimoroni_badger2040w.jpg
 board_url:
- - "https://shop.pimoroni.com/products/badger-2040-w"
-board_image: "pimoroni_badger2040w.jpg"
-date_added: 2023-5-9
+- https://shop.pimoroni.com/products/badger-2040-w
+date_added: 2023-05-09 12:00:00
 family: raspberrypi
-tags:
-  - picow
-  - 🥧🐮
 features:
-  - Bluetooth/BTLE
-  - Display
-  - STEMMA QT/QWIIC
-  - Wi-Fi
+- Bluetooth/BTLE
+- Display
+- STEMMA QT/QWIIC
+- Wi-Fi
+layout: download
+manufacturer: Pimoroni
+name: Badger 2040 W (Pico W Aboard)
+tags:
+- picow
+- "\U0001F967\U0001F42E"
+title: Badger 2040 W Download
 ---
 
 A programmable badge with fast updating E Ink® display and wireless connectivity powered by the Raspberry Pi Pico W. On the front, you'll find the black and white 2.9" e-paper screen, a selection of buttons to poke at and a slot to clip it onto a lanyard. On the back, there's a battery connector, a reset button and a Qw/ST connector for plugging in Qwiic or STEMMA QT breakouts. And now that it's got a Raspberry Pi Pico W Aboard it can communicate wirelessly with other devices and retrieve tasty data from the internet, hoorah!

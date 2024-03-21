@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "waveshare_esp32s2_pico"
-title: "ESP32-S2-Pico Download"
-name: "ESP32-S2-Pico"
-manufacturer: "Waveshare"
+board_id: waveshare_esp32s2_pico
+board_image: waveshare_esp32s2_pico.jpg
 board_url:
- - "https://www.waveshare.com/esp32-s2.htm"
-board_image: "waveshare_esp32s2_pico.jpg"
+- https://www.waveshare.com/esp32-s2.htm
 bootloader_id: waveshare_esp32s2_pico
-date_added: 2022-8-21
+date_added: 2022-08-21 12:00:00
 family: esp32s2
 features:
-  - Breadboard-Friendly
-  - USB-C
-  - Wi-Fi
+- Breadboard-Friendly
+- USB-C
+- Wi-Fi
+layout: download
+manufacturer: Waveshare
+name: ESP32-S2-Pico
+title: ESP32-S2-Pico Download
 ---
 
 This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.

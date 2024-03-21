@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "m5stack_core2"
-title: "Core2 ESP32 IoT Download"
-name: "Core2 ESP32 IoT"
-manufacturer: "M5Stack"
+board_id: m5stack_core2
+board_image: m5stack_core2.jpg
 board_url:
- - "https://docs.m5stack.com/en/core/core2"
-board_image: "m5stack_core2.jpg"
-date_added: 2023-5-4
+- https://docs.m5stack.com/en/core/core2
+date_added: 2023-05-04 12:00:00
 family: esp32
 features:
-  - Speaker
-  - Battery Charging
-  - Display
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - USB-C
+- Speaker
+- Battery Charging
+- Display
+- Wi-Fi
+- Bluetooth/BTLE
+- USB-C
+layout: download
+manufacturer: M5Stack
+name: Core2 ESP32 IoT
+title: Core2 ESP32 IoT Download
 ---
 
 **M5Core2** is the second generation core device in the M5Stack development kit series, which further enhances the functions of the original generation of cores.

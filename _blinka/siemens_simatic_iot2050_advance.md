@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "siemens_simatic_iot2050_advance"
-title: "SIMATIC IOT2050 Advance Download"
-name: "SIMATIC IOT2050 Advance"
-manufacturer: "Siemens"
-board_url:
- - "https://iot2050.com/products/simatic-iot2050-advance"
-board_image: "siemens_simatic_iot2050.jpg"
-downloads_display: true
 blinka: true
-date_added: 2022-10-6
+board_id: siemens_simatic_iot2050_advance
+board_image: siemens_simatic_iot2050.jpg
+board_url:
+- https://iot2050.com/products/simatic-iot2050-advance
+date_added: 2022-10-06 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
+- Ethernet
+- HDMI/DisplayPort
+layout: download
+manufacturer: Siemens
+name: SIMATIC IOT2050 Advance
+title: SIMATIC IOT2050 Advance Download
 ---
 
 SIMATIC IOT2050 Advance is a versatile IOT edge device that allows you to connect PLCs on the factory floor to the cloud. A quad core ARM processor, 20 digital IOs and 6 analog inputs gives you enough horse power to run analytics and decision making on the edge before you send off the data to the Cloud.

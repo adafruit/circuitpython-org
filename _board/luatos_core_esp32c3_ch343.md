@@ -1,21 +1,20 @@
 ---
-layout: download
-board_id: "luatos_core_esp32c3_ch343"
-title: "Luatos ESP32-C3 Core Board – CH343 USB UART Download"
-name: "Luatos ESP32-C3 Core Board – CH343 USB UART"
-manufacturer: "Luatos"
+board_id: luatos_core_esp32c3_ch343
+board_image: luatos_core_esp32c3_ch343.jpg
 board_url:
- - "https://universal-solder.ca/product/luatos-esp32-c3-core-board-ch343-4mb/"
-board_image: "luatos_core_esp32c3_ch343.jpg"
-date_added: 2023-10-27
-family: esp32c3
+- https://universal-solder.ca/product/luatos-esp32-c3-core-board-ch343-4mb/
 bootloader_id: luatos_core_esp32c3_ch343
+date_added: 2023-10-27 12:00:00
+family: esp32c3
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
-
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Luatos
+name: Luatos ESP32-C3 Core Board – CH343 USB UART
+title: Luatos ESP32-C3 Core Board – CH343 USB UART Download
 ---
 
 The LuatOS ESP32-C3 core board is a type of development board based on the ESP32-C3 chip, which is a highly integrated Wi-Fi and Bluetooth system-on-chip (SoC) designed for low-power Internet of Things (IoT) applications.

@@ -1,15 +1,14 @@
 ---
-layout: download
-board_id: "sparkfun_teensy_micromod"
-title: "MicroMod Teensy Processor Download"
-name: "MicroMod Teensy Processor"
-manufacturer: "SparkFun"
+board_id: sparkfun_teensy_micromod
+board_image: sparkfun_teensy_micromod.jpg
 board_url:
- - "https://www.sparkfun.com/products/16402"
-board_image: "sparkfun_teensy_micromod.jpg"
-date_added: 2022-5-3
+- https://www.sparkfun.com/products/16402
+date_added: 2022-05-03 12:00:00
 family: mimxrt10xx
-
+layout: download
+manufacturer: SparkFun
+name: MicroMod Teensy Processor
+title: MicroMod Teensy Processor Download
 ---
 
 The SparkFun MicroMod Teensy Processor leverages the awesome computing power of the NXP iMXRT1062 chip and pairs it with the M.2 MicroMod connector to allow you to plug it into your choice of compatible MicroMod Carrier Board. With the M.2 MicroMod connector, connecting your Teensy Processor is a breeze. Simply match up the key on your processor's beveled edge connector to the key on the M.2 connector and secure it with a screw (included with all Carrier Boards). Adding a Teensy to your desired project has never been easier!

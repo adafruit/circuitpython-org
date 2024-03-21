@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "giant_board"
-title: "Giant Board"
-name: "Giant Board"
-manufacturer: "Groboards"
-board_url:
- - "https://www.crowdsupply.com/groboards/giant-board"
-board_image: "giant_board.jpg"
-downloads_display: true
 blinka: true
-date_added: 2019-12-3
+board_id: giant_board
+board_image: giant_board.jpg
+board_url:
+- https://www.crowdsupply.com/groboards/giant-board
+date_added: 2019-12-03 12:00:00
+downloads_display: true
 features:
-  - Feather-Compatible
+- Feather-Compatible
+layout: download
+manufacturer: Groboards
+name: Giant Board
+title: Giant Board
 ---
 
 The Giant Board is a super tiny single-board computer (SBC) based on the Adafruit Feather form factor. We always want more power in a smaller package, and the Giant Board delivers! It provides a small, powerful platform that is compatible with a wide range of pre-existing accessories. FeatherWing support makes the Giant Board a flexible, drop-in component for most Feather based projects.

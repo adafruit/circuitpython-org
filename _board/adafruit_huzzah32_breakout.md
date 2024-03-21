@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "adafruit_huzzah32_breakout"
-title: "Adafruit HUZZAH32 Breakout Download"
-name: "Adafruit HUZZAH32 Breakout"
-manufacturer: "Adafruit"
+board_id: adafruit_huzzah32_breakout
+board_image: adafruit_huzzah32_breakout.jpg
 board_url:
- - "https://www.adafruit.com/product/4172"
-board_image: "adafruit_huzzah32_breakout.jpg"
-date_added: 2023-3-1
-family: esp32
+- https://www.adafruit.com/product/4172
+date_added: 2023-03-01 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Bluetooth/BTLE
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Adafruit HUZZAH32 Breakout
+title: Adafruit HUZZAH32 Breakout Download
 ---
 
 Squeeeeze down your next ESP32 project to its bare-bones essential with the **Adafruit HUZZAH32 Breakout**. This breakout is basically the 'big sister' of our HUZZAH 8266, but instead of an ESP8266 it has the '32! We've pared down our popular [Feather ESP32](https://www.adafruit.com/product/3405), removing the battery charger and USB-serial converter. You just get a regulator, some protection diodes, two buttons and an LED. For some projects, where price and size are at a premium, you can program this board over the 'FTDI cable' breakout when needed, and leave it alone otherwise.

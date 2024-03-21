@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "oxocard_science"
-title: "Oxocard Science Card Download"
-name: "Oxocard Science Card"
-manufacturer: "Oxocard"
+board_id: oxocard_science
+board_image: oxocard_science.jpg
 board_url:
- - "https://oxocard.ch/en/science/"
-board_image: "oxocard_science.jpg"
-date_added: 2023-11-15
+- https://oxocard.ch/en/science/
+date_added: 2023-11-15 12:00:00
 family: esp32
 features:
-  - Wi-Fi
-  - USB-C
-  - Bluetooth/BTLE
-  - Display
-  - Speaker
+- Wi-Fi
+- USB-C
+- Bluetooth/BTLE
+- Display
+- Speaker
+layout: download
+manufacturer: Oxocard
+name: Oxocard Science Card
+title: Oxocard Science Card Download
 ---
 
 This programmable multi-sensor board measures light/IR, temperature, noise, humidity, pressure and volatile compounds (VoC, eCO2 and ethanol). It comes with ready-to-use programs with documented source code, so you can start your own experiments right away.

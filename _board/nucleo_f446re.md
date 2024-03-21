@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "nucleo_f446re"
-title: "STM32F446RE Nucleo Download"
-name: "STM32F446RE Nucleo"
-manufacturer: "ST"
+board_id: nucleo_f446re
+board_image: nucleo_f446re.jpg
 board_url:
- - "https://www.st.com/en/evaluation-tools/nucleo-f446re.html"
-board_image: "nucleo_f446re.jpg"
-date_added: 2022-10-06
+- https://www.st.com/en/evaluation-tools/nucleo-f446re.html
+date_added: 2022-10-06 12:00:00
 family: stm
 features:
-  - Arduino Shield Compatible
+- Arduino Shield Compatible
+layout: download
+manufacturer: ST
+name: STM32F446RE Nucleo
+title: STM32F446RE Nucleo Download
 ---
 
 The STM32 Nucleo-64 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the external SMPS significantly reduces power consumption in Run mode.

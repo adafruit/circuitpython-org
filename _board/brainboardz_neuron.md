@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "brainboardz_neuron"
-title: "BrainBoardz Neuron Download"
-name: "BrainBoardz Neuron"
-manufacturer: "BrainBoardz Inc."
+board_id: brainboardz_neuron
+board_image: brainboardz_neuron.jpg
 board_url:
- - "https://www.brainboardz.com"
-board_image: "brainboardz_neuron.jpg"
-date_added: 2023-02-20
-family: esp32s3
+- https://www.brainboardz.com
 bootloader_id: brainboardz_neuron
+date_added: 2023-02-20 12:00:00
 downloads_display: true
+family: esp32s3
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Wi-Fi
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: BrainBoardz Inc.
+name: BrainBoardz Neuron
+title: BrainBoardz Neuron Download
 ---
 
 - BrainBoardz is a revolutionary modular Mini PCI Express (mPCIe) based system that greatly simplifies the design of circuit boards and custom microcontroller projects. Through the use of our inexpensive ESP32-S3 based Neuron modules and our ever expanding range of BrainBoardz prototyping boards anyone can easily develop custom projects to harness the impressive capabilities of the latest generation Espressif ESP32-S3 microcontroller. Simply plug in a Neuron module to a BrainBoardz mPCIe connector and you are ready to go. Neurons not only provide complete access to the extensive range of capabilities provided by the cutting edge ESP32-S3, they can also function as standalone modules if required. You are welcome to design/manufacture your own BrainBoardz compatible boards and Neuron compatible module(s). The entire BrainBoardz system is open source and 100% license free.
@@ -50,6 +50,3 @@ features:
 
 ## Purchase:
 * [BrainBoardz](https://www.brainboardz.com/)
-
-
-

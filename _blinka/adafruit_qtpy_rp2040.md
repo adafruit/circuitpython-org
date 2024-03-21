@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "adafruit_qtpy_rp2040"
-title: "QT Py RP2040 Download"
-name: "QT Py RP2040"
-manufacturer: "Adafruit"
-board_url:
- - "https://www.adafruit.com/product/4900"
-board_image: "adafruit_qtpy_rp2040.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 blinka: true
-date_added: 2021-12-6
+board_id: adafruit_qtpy_rp2040
+board_image: adafruit_qtpy_rp2040.jpg
+board_url:
+- https://www.adafruit.com/product/4900
+date_added: 2021-12-06 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico
 features:
-  - STEMMA QT/QWIIC
+- STEMMA QT/QWIIC
+layout: download
+manufacturer: Adafruit
+name: QT Py RP2040
+title: QT Py RP2040 Download
 ---
 
 What a cutie pie! Or is it... a QT Py? This diminutive dev board comes with one of our new favorite chip, the RP2040. It's been made famous in the new [Raspberry Pi Pico](https://www.adafruit.com/pico) *and* our [Feather RP2040](http://www.adafruit.com/product/4884) and [ItsyBitsy RP2040](http://www.adafruit.com/product/4888), but what if we wanted something really *smol?*

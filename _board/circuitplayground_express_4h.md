@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "circuitplayground_express_4h"
-title: "Circuit Playground Express 4-H Download"
-name: "Circuit Playground Express 4-H"
-manufacturer: "Adafruit"
+board_id: circuitplayground_express_4h
+board_image: circuitplayground_express_4h.jpg
 board_url:
- - "https://www.adafruit.com/product/4180"
- - "https://www.adafruit.com/product/4241"
- - "https://www.adafruit.com/product/4263"
-board_image: "circuitplayground_express_4h.jpg"
-date_added: 2019-4-13
-family: atmel-samd
+- https://www.adafruit.com/product/4180
+- https://www.adafruit.com/product/4241
+- https://www.adafruit.com/product/4263
 bootloader_id: circuitplay_m0
+date_added: 2019-04-13 12:00:00
+family: atmel-samd
 features:
-  - Speaker
-  - Solder-Free Alligator Clip
+- Speaker
+- Solder-Free Alligator Clip
+layout: download
+manufacturer: Adafruit
+name: Circuit Playground Express 4-H
+title: Circuit Playground Express 4-H Download
 ---
 
 The Circuit Playground Express is Adafruit's flagship educational board designed for CircuitPython.

@@ -1,16 +1,16 @@
 ---
-layout: download
-board_id: "feather_radiofruit_zigbee"
-title: "feather_radiofruit_zigbee Download"
-name: "feather_radiofruit_zigbee"
-manufacturer: "Adafruit"
-board_url:
-board_image: "unknown.jpg"
-date_added: 2019-4-5
-family: atmel-samd
+board_id: feather_radiofruit_zigbee
+board_image: unknown.jpg
+board_url: null
 bootloader_id: radiofruit_m0
+date_added: 2019-04-05 12:00:00
 downloads_display: false
-features:
+family: atmel-samd
+features: null
+layout: download
+manufacturer: Adafruit
+name: feather_radiofruit_zigbee
+title: feather_radiofruit_zigbee Download
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.

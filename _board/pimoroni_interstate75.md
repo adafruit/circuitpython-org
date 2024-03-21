@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "pimoroni_interstate75"
-title: "Interstate 75 Download"
-name: "Interstate 75"
-manufacturer: "Pimoroni"
+board_id: pimoroni_interstate75
+board_image: pimoroni_interstate75.jpg
 board_url:
- - "https://shop.pimoroni.com/products/interstate-75"
- - "https://www.adafruit.com/product/5342"
-board_image: "pimoroni_interstate75.jpg"
-date_added: 2021-12-02
+- https://shop.pimoroni.com/products/interstate-75
+- https://www.adafruit.com/product/5342
+date_added: 2021-12-02 12:00:00
 family: raspberrypi
 features:
-  - External Display
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- External Display
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Pimoroni
+name: Interstate 75
+title: Interstate 75 Download
 ---
 
 Enter the (LED) matrix with Interstate 75 - a RP2040-powered driver board for HUB75-style RGB matrices, designed to plug neatly into the back of a LED panel. It provides a quick and easy way to whip up some scrolling signage or an eye-catching LED display for sensor outputs.

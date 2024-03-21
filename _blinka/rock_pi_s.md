@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "rock_pi_s"
-title: "Rock Pi S Download"
-name: "Rock Pi S"
-manufacturer: "Radxa Limited"
-board_url:
- - "https://wiki.radxa.com/RockpiS"
-board_image: "rock_pi_s.jpg"
-download_instructions: ""
-downloads_display: true
 blinka: true
-date_added: 2020-4-29
+board_id: rock_pi_s
+board_image: rock_pi_s.jpg
+board_url:
+- https://wiki.radxa.com/RockpiS
+date_added: 2020-04-29 12:00:00
+download_instructions: ''
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - Ethernet
+- Wi-Fi
+- Bluetooth/BLE
+- Ethernet
+layout: download
+manufacturer: Radxa Limited
+name: Rock Pi S
+title: Rock Pi S Download
 ---
 
 S is for Small Square.

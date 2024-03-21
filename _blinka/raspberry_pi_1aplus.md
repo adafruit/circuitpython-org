@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "raspberry_pi_1aplus"
-title: "Raspberry Pi 1 Model A+ Download"
-name: "Pi 1 Model A+"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/raspberry-pi-1-model-a-plus/"
-board_image: "raspberry_pi_1aplus.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2019-6-17
+board_id: raspberry_pi_1aplus
+board_image: raspberry_pi_1aplus.jpg
+board_url:
+- https://www.raspberrypi.com/products/raspberry-pi-1-model-a-plus/
+date_added: 2019-06-17 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Raspberry Pi
+name: Pi 1 Model A+
+title: Raspberry Pi 1 Model A+ Download
 ---
 
 The Model A+ is the low-cost variant of the Raspberry Pi. It replaced the original Model A in November 2014.

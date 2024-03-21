@@ -1,16 +1,15 @@
 ---
-layout: download
-board_id: "xinabox_cc03"
-title: "XinaBox CC03 download"
-name: "XinaBox CC03"
-manufacturer: "XinaBox"
+board_id: xinabox_cc03
+board_image: xinabox_cc03.jpg
 board_url:
- - "https://drive.google.com/file/d/13xfg0SRZEeO-_xMElqdf0Sne8rjAcfyn/view"
-board_image: "xinabox_cc03.jpg"
-date_added: 2019-12-17
-family: atmel-samd
+- https://drive.google.com/file/d/13xfg0SRZEeO-_xMElqdf0Sne8rjAcfyn/view
 bootloader_id: CC03
-
+date_added: 2019-12-17 12:00:00
+family: atmel-samd
+layout: download
+manufacturer: XinaBox
+name: XinaBox CC03
+title: XinaBox CC03 download
 ---
 
 This xCHIP forms part of the core modules. The SAM D21 is a series of low-power micro controllers using the 32-bit ARM® Cortex® -M0+ processor, with 256 KB Flash and 32KB of SRAM. Compatible with Arduino platform due to the shared architecture with the Arduino M0.

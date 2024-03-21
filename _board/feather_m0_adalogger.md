@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "feather_m0_adalogger"
-title: "Feather M0 Adalogger Download"
-name: "Feather M0 Adalogger"
-manufacturer: "Adafruit"
+board_id: feather_m0_adalogger
+board_image: feather_m0_adalogger.jpg
 board_url:
- - "https://www.adafruit.com/product/2796"
-board_image: "feather_m0_adalogger.jpg"
-date_added: 2019-3-9
-family: atmel-samd
+- https://www.adafruit.com/product/2796
 bootloader_id: feather_m0
+date_added: 2019-03-09 12:00:00
+family: atmel-samd
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather M0 Adalogger
+title: Feather M0 Adalogger Download
 ---
 
 Feather is a development board from Adafruit, and like its namesake it is thin, light, and lets you fly! Adafruit designed Feather to be a new open standard for portable microcontroller cores.

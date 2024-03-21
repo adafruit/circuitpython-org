@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "supermini_nrf52840"
-title: "SuperMini NRF52840 Download"
-name: "SuperMini NRF52840"
-manufacturer: "ICBbuy"
+board_id: supermini_nrf52840
+board_image: supermini_nrf52840.png
 board_url:
- - "http://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
-board_image: "supermini_nrf52840.png"
-date_added: "2023-10-21"
-family: nrf52840
+- http://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840
 bootloader_id: nice_nano
+date_added: 2023-10-21 12:00:00
 downloads_display: true
+family: nrf52840
 features:
-  - Battery Charging
-  - USB-C
-  - Breadboard-Friendly
-  - Battery Charging
-  - Bluetooth/BTLE
+- Battery Charging
+- USB-C
+- Breadboard-Friendly
+- Battery Charging
+- Bluetooth/BTLE
+layout: download
+manufacturer: ICBbuy
+name: SuperMini NRF52840
+title: SuperMini NRF52840 Download
 ---
 
 The SuperMini NRF52840 is Nice!Nano clone which in turn is based on the Pro Micro layout. This means that it can be used with almost any Pro Mcro keyboard. Unlike the Pro Micro however it sports wireless functionality in the form of Bluetooth and pins to use/charge a lithium-ion battery.

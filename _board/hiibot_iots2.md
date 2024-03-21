@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "hiibot_iots2"
-title: "HiiBot IoTs2 Download"
-name: "HiiBot IoTs2"
-manufacturer: "Hangzhou LeBan"
+board_id: hiibot_iots2
+board_image: hiibot_iots2.jpg
 board_url:
- - "https://www.tindie.com/products/bradchan/hiibot-iots2/"
-board_image: "hiibot_iots2.jpg"
-date_added: 2020-11-20
-family: esp32s2
+- https://www.tindie.com/products/bradchan/hiibot-iots2/
 bootloader_id: hiibot_iots2
+date_added: 2020-11-20 12:00:00
+family: esp32s2
 features:
-  - Display
-  - Wi-Fi
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Display
+- Wi-Fi
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Hangzhou LeBan
+name: HiiBot IoTs2
+title: HiiBot IoTs2 Download
 ---
 
 An ESP32-S2 based development board with small size (25.4 mm x 45.9 mm).

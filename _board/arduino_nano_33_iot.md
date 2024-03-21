@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "arduino_nano_33_iot"
-title: "NANO 33 IoT Download"
-name: "NANO 33 IoT"
-manufacturer: "Arduino"
+board_id: arduino_nano_33_iot
+board_image: arduino_nano_33_iot.jpg
 board_url:
- - "https://www.arduino.cc/en/Guide/NANO33IoT"
-board_image: "arduino_nano_33_iot.jpg"
-date_added: 2020-2-27
-family: atmel-samd
+- https://www.arduino.cc/en/Guide/NANO33IoT
 bootloader_id: nano33iot
+date_added: 2020-02-27 12:00:00
+family: atmel-samd
 features:
-  - Wi-Fi
-  - Breadboard-Friendly
+- Wi-Fi
+- Breadboard-Friendly
+layout: download
+manufacturer: Arduino
+name: NANO 33 IoT
+title: NANO 33 IoT Download
 ---
 
 Arduino NANO 33 IoT board has been designed to offer a practical and cost effective solution for makers seeking to add Wi-Fi connectivity to their projects (using Arduino) with minimal previous experience in networking. Learn how to set up the programming environment and get the hardware up and running, ready for your projects, in minutes.

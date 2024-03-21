@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "cytron_maker_pi_rp2040"
-title: "Maker Pi RP2040 Download"
-name: "Maker Pi RP2040"
-manufacturer: "Cytron Technologies"
+board_id: cytron_maker_pi_rp2040
+board_image: cytron_maker_pi_rp2040.jpg
 board_url:
- - "https://www.cytron.io/p-maker-pi-rp2040"
- - "https://www.adafruit.com/product/5129"
-board_image: "cytron_maker_pi_rp2040.jpg"
-date_added: 2021-5-31
+- https://www.cytron.io/p-maker-pi-rp2040
+- https://www.adafruit.com/product/5129
+date_added: 2021-05-31 12:00:00
 family: raspberrypi
 features:
-  - Battery Charging
-  - Speaker
-  - Robotics
+- Battery Charging
+- Speaker
+- Robotics
+layout: download
+manufacturer: Cytron Technologies
+name: Maker Pi RP2040
+title: Maker Pi RP2040 Download
 ---
 
 Cytron Maker Pi RP2040 features the RP2040 chip, embedded on a robot controller board. The board also comes with 2-channel DC motor driver, 4 servo motor ports and 7 Grove I/O connectors, ready for your next DIY robot/motion control projects.

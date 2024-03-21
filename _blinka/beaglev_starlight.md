@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "beaglev_starlight"
-title: "BeagleV Starlight Beta Prototype Download"
-name: "BeagleV Starlight Beta Prototype"
-manufacturer: "BeagleV"
-board_url:
- - "https://github.com/beagleboard/beaglev-starlight#readme"
-board_image: "beaglev_starlight.jpg"
-downloads_display: true
 blinka: true
-date_added: 2021-7-17
+board_id: beaglev_starlight
+board_image: beaglev_starlight.jpg
+board_url:
+- https://github.com/beagleboard/beaglev-starlight#readme
+date_added: 2021-07-17 12:00:00
+downloads_display: true
 features:
-  - Ethernet
-  - HDMI/DisplayPort
-  - USB 3.0
-  - 40-pin GPIO
+- Ethernet
+- HDMI/DisplayPort
+- USB 3.0
+- 40-pin GPIO
+layout: download
+manufacturer: BeagleV
+name: BeagleV Starlight Beta Prototype
+title: BeagleV Starlight Beta Prototype Download
 ---
 
 **The BeagleV™ - Starlight project has concluded and no units beyond the beta prototypes will be produced. This design was never sold as a product.**

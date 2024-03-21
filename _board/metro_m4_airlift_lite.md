@@ -1,18 +1,18 @@
 ---
-layout: download
-board_id: "metro_m4_airlift_lite"
-title: " Metro M4 AirLift Lite Download"
-name: "Metro M4 AirLift Lite"
-manufacturer: "Adafruit"
+board_id: metro_m4_airlift_lite
+board_image: metro_m4_airlift_lite.jpg
 board_url:
- - "https://www.adafruit.com/product/4000"
-board_image: "metro_m4_airlift_lite.jpg"
-date_added: 2019-4-13
-family: atmel-samd
+- https://www.adafruit.com/product/4000
 bootloader_id: metro_m4_airlift
+date_added: 2019-04-13 12:00:00
+family: atmel-samd
 features:
-  - Wi-Fi
-  - Arduino Shield Compatible
+- Wi-Fi
+- Arduino Shield Compatible
+layout: download
+manufacturer: Adafruit
+name: Metro M4 AirLift Lite
+title: ' Metro M4 AirLift Lite Download'
 ---
 
 Give your next project a lift with _AirLift_ - Adafruit's witty name for the ESP32 co-processor that graces this Metro M4.

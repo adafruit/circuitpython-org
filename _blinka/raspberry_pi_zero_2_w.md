@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "raspberry_pi_zero_2_w"
-title: "Raspberry Pi Zero 2 W Download"
-name: "Zero 2 W"
-manufacturer: "Raspberry Pi"
-board_url:
- - "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
-board_image: "raspberry_pi_zero_2_w.jpg"
-download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
-downloads_display: true
 blinka: true
-date_added: 2021-11-1
+board_id: raspberry_pi_zero_2_w
+board_image: raspberry_pi_zero_2_w.jpg
+board_url:
+- https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
+date_added: 2021-11-01 12:00:00
+download_instructions: https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+downloads_display: true
 features:
-  - Wi-Fi
-  - Bluetooth/BLE
-  - HDMI/DisplayPort
-  - 40-pin GPIO
+- Wi-Fi
+- Bluetooth/BLE
+- HDMI/DisplayPort
+- 40-pin GPIO
+layout: download
+manufacturer: Raspberry Pi
+name: Zero 2 W
+title: Raspberry Pi Zero 2 W Download
 ---
 
 **Raspberry Pi Zero 2 W** is the latest product in Raspberry Pi's most affordable range of single-board computers. The successor to the breakthrough Raspberry Pi Zero W, **Raspberry Pi Zero 2 W** is a form factor–compatible drop-in replacement for the original board.

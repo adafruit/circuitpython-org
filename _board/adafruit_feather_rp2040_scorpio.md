@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "adafruit_feather_rp2040_scorpio"
-title: "Feather RP2040 SCORPIO Download"
-name: "Feather RP2040 SCORPIO"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_rp2040_scorpio
+board_image: adafruit_feather_rp2040_scorpio.jpg
 board_url:
- - "https://www.adafruit.com/product/5650"
-board_image: "adafruit_feather_rp2040_scorpio.jpg"
-date_added: 2022-12-23
+- https://www.adafruit.com/product/5650
+date_added: 2022-12-23 12:00:00
 family: raspberrypi
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - STEMMA QT/QWIIC
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- STEMMA QT/QWIIC
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather RP2040 SCORPIO
+title: Feather RP2040 SCORPIO Download
 ---
 
 If there is one thing Adafruit is known for, its mega-blinky-fun-rainbow-LEDs. [We just love sticking NeoPixels anywhere and everywhere](https://www.adafruit.com/category/168). When we saw the new 'PIO' peripheral on[ the RP2040 from Raspberry Pi](https://www.adafruit.com/category/875), we just knew it would be perfect for driving large quantities of NeoPixels. So we created this board, the **Adafruit Feather RP2040 SCORPIO**, designed specifically for NeoPixel (WS2812) driving but also good for various other PIO-based projects that want to take advantage of the Feather pinout with 8 separate consecutive outputs (or inputs).

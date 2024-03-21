@@ -1,21 +1,21 @@
 ---
-layout: download
-board_id: "circuitplayground_express_displayio"
-title: "Circuit Playground Express + Displayio Download"
-name: "Circuit Playground Express + Displayio"
-manufacturer: "Adafruit"
+board_id: circuitplayground_express_displayio
+board_image: circuitplayground_express_displayio.jpg
 board_url:
- - "https://www.adafruit.com/product/4367"
- - "https://www.adafruit.com/product/4869"
- - "https://www.adafruit.com/product/4428"
-board_image: "circuitplayground_express_displayio.jpg"
-date_added: 2019-10-17
-family: atmel-samd
+- https://www.adafruit.com/product/4367
+- https://www.adafruit.com/product/4869
+- https://www.adafruit.com/product/4428
 bootloader_id: circuitplay_m0
+date_added: 2019-10-17 12:00:00
+family: atmel-samd
 features:
-  - Speaker
-  - Display
-  - Solder-Free Alligator Clip
+- Speaker
+- Display
+- Solder-Free Alligator Clip
+layout: download
+manufacturer: Adafruit
+name: Circuit Playground Express + Displayio
+title: Circuit Playground Express + Displayio Download
 ---
 
 Extend and expand your Circuit Playground projects with a bolt on TFT Gizmo that lets you add a lovely color display in a sturdy and reliable fashion. This PCB looks just like a round TFT breakout but has permanently affixed M3 standoffs that act as mechanical and electrical connections.

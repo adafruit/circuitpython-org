@@ -1,17 +1,16 @@
 ---
-layout: download
-board_id: "adafruit_slide_trinkey_m0"
-title: "Slide Trinkey - SAMD21 Download"
-name: "Slide Trinkey - SAMD21"
-manufacturer: "Adafruit"
+board_id: adafruit_slide_trinkey_m0
+board_image: adafruit_slide_trinkey_m0.jpg
 board_url:
- - "https://www.adafruit.com/product/5021"
-board_image: "adafruit_slide_trinkey_m0.jpg"
-date_added: 2021-4-14
-family: atmel-samd
+- https://www.adafruit.com/product/5021
 bootloader_id: slide_trinkey_m0
-features:
-
+date_added: 2021-04-14 12:00:00
+family: atmel-samd
+features: null
+layout: download
+manufacturer: Adafruit
+name: Slide Trinkey - SAMD21
+title: Slide Trinkey - SAMD21 Download
 ---
 
 It's half USB Key, half Adafruit Trinket, half mini slide pot*...* it's **Slider Trinkey**, the circuit board with a Trinket M0 heart, NeoPixel glow, and a 35mm long 10KΩ slide potentiometer.

@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "feather_mimxrt1062"
-title: "Feather MIMXRT1062 Download"
-name: "Feather MIMXRT1062"
-manufacturer: "arturo182"
+board_id: feather_mimxrt1062
+board_image: feather_mimxrt1062.jpg
 board_url:
- - "https://hackaday.io/project/169387-mimxrt10xx-feathers-rt1011-and-rt1062"
-board_image: "feather_mimxrt1062.jpg"
-date_added: 2020-1-8
+- https://hackaday.io/project/169387-mimxrt10xx-feathers-rt1011-and-rt1062
+date_added: 2020-01-08 12:00:00
 family: mimxrt10xx
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: arturo182
+name: Feather MIMXRT1062
+title: Feather MIMXRT1062 Download
 ---
 
 A Work-In-Progress Feather featuring the NXP i.MX RT1062 MCU.

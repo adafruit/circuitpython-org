@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "m5stack_core_basic"
-title: "ESP32 Basic Core IoT Download"
-name: "ESP32 Basic Core IoT"
-manufacturer: "M5Stack"
+board_id: m5stack_core_basic
+board_image: m5stack_core_basic.jpg
 board_url:
- - "https://docs.m5stack.com/en/core/basic_v2.6"
- - "https://www.adafruit.com/product/4178"
-board_image: "m5stack_core_basic.jpg"
-date_added: 2022-10-30
+- https://docs.m5stack.com/en/core/basic_v2.6
+- https://www.adafruit.com/product/4178
+date_added: 2022-10-30 12:00:00
 family: esp32
 features:
-  - Speaker
-  - Battery Charging
-  - Display
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - USB-C
+- Speaker
+- Battery Charging
+- Display
+- Wi-Fi
+- Bluetooth/BTLE
+- USB-C
+layout: download
+manufacturer: M5Stack
+name: ESP32 Basic Core IoT
+title: ESP32 Basic Core IoT Download
 ---
 
 Get yourself a kit that can do it all! The M5Stack Basic Development Kit is a ESP32-based WiFi microcontroller that's compatible with MicroPython and Arduino. It comes jam-packed with Wi-Fi / Bluetooth capability, running at 240 MHz with the dual-core processor and 16MB of SPI Flash.

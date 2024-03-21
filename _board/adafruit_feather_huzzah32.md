@@ -1,22 +1,22 @@
 ---
-layout: download
-board_id: "adafruit_feather_huzzah32"
-title: "Adafruit Feather HUZZAH32 Download"
-name: "Adafruit Feather HUZZAH32"
-manufacturer: "Adafruit"
+board_id: adafruit_feather_huzzah32
+board_image: adafruit_feather_huzzah32.jpg
 board_url:
- - "https://www.adafruit.com/product/3707"
-board_image: "adafruit_feather_huzzah32.jpg"
-date_added: 2022-8-19
-family: esp32
+- https://www.adafruit.com/product/3707
+date_added: 2022-08-19 12:00:00
 downloads_display: true
+family: esp32
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Wi-Fi
-  - USB-C
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Bluetooth/BTLE
+- Wi-Fi
+- USB-C
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Adafruit Feather HUZZAH32
+title: Adafruit Feather HUZZAH32 Download
 ---
 
 Aww yeah, it's the Feather you have been waiting for! The **HUZZAH32** is our ESP32-based Feather, made with the official WROOM32 module. We packed everything you love about Feathers: built in USB-to-Serial converter, automatic bootloader reset, Lithium Ion/Polymer charger, and just about all of the GPIOs brought out so you can use it with any of our Feather Wings. [We have other boards in the Feather family, check'em out here.](https://www.adafruit.com/feather)

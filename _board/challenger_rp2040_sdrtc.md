@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "challenger_rp2040_sdrtc"
-title: "Challenger RP2040 SD/RTC Download"
-name: "Challenger RP2040 SD/RTC"
-manufacturer: "Invector Labs"
+board_id: challenger_rp2040_sdrtc
+board_image: challenger_rp2040_sdrtc.jpg
 board_url:
- - "https://ilabs.se/product/challenger-rp2040-sd-rtc/"
-board_image: "challenger_rp2040_sdrtc.jpg"
-date_added: 2022-12-23
+- https://ilabs.se/product/challenger-rp2040-sd-rtc/
+date_added: 2022-12-23 12:00:00
 family: raspberrypi
 features:
-  - USB-C
-  - Breadboard-Friendly
-  - Feather-Compatible
-  - Battery Charging
+- USB-C
+- Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+layout: download
+manufacturer: Invector Labs
+name: Challenger RP2040 SD/RTC
+title: Challenger RP2040 SD/RTC Download
 ---
 
 The Challenger RP2040 SD/RTC is an Arduino/Circuitpython compatible Adafruit Feather format micro controller board based on the Raspberry Pico chip. This board is equipped with an micro SD card reader and a Real Time Clock making it super useful for data logging applications.

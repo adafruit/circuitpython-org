@@ -1,17 +1,17 @@
 ---
-layout: download
-board_id: "cosmo_pico"
-title: "COSMO-Pico Download"
-name: "COSMO-Pico"
-manufacturer: "Potekku"
+board_id: cosmo_pico
+board_image: cosmo_pico.jpg
 board_url:
- - "https://edtechzine.jp/article/detail/8715"
-board_image: "cosmo_pico.jpg"
-date_added: 2023-3-1
+- https://edtechzine.jp/article/detail/8715
+date_added: 2023-03-01 12:00:00
 family: raspberrypi
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
+- Wi-Fi
+- Bluetooth/BTLE
+layout: download
+manufacturer: Potekku
+name: COSMO-Pico
+title: COSMO-Pico Download
 ---
 
 Advanced Design Technology provides technology to major companies based on the development and design of integrated circuits such as LSI and FPGA. "Potekku" also utilizes this know-how to provide a curriculum that specializes in manufacturing.

@@ -1,23 +1,23 @@
 ---
-layout: download
-board_id: "adafruit_qualia_s3_rgb666"
-title: "Qualia ESP32-S3 for TTL RGB-666 Displays Download"
-name: "Qualia ESP32-S3 for TTL RGB-666 Displays"
-manufacturer: "Adafruit"
+board_id: adafruit_qualia_s3_rgb666
+board_image: adafruit_qualia_s3_rgb666.jpg
 board_url:
- - "https://www.adafruit.com/product/5800"
-board_image: "adafruit_qualia_s3_rgb666.jpg"
-date_added: 2023-10-3
-family: esp32s3
+- https://www.adafruit.com/product/5800
 bootloader_id: adafruit_qualia_s3_rgb666
-tags:
-  - Qualia S3
+date_added: 2023-10-03 12:00:00
+family: esp32s3
 features:
-  - External Display
-  - Wi-Fi
-  - Bluetooth/BTLE
-  - STEMMA QT/QWIIC
-  - USB-C
+- External Display
+- Wi-Fi
+- Bluetooth/BTLE
+- STEMMA QT/QWIIC
+- USB-C
+layout: download
+manufacturer: Adafruit
+name: Qualia ESP32-S3 for TTL RGB-666 Displays
+tags:
+- Qualia S3
+title: Qualia ESP32-S3 for TTL RGB-666 Displays Download
 ---
 
 There's a few things everyone loves: ice cream, kittens, and honkin' large TFT screens. We're no strangers to small TFT's - [from our itsy 1.14" color display](https://www.adafruit.com/search?q=1.14+tft) that graces many-a-TFT-Feather to [our fancy 3.5" 320x480](https://www.adafruit.com/product/2050) breakout screen. But most people who dabble or engineer with microcontrollers know that you sort of 'top out' at 320x480 - that's the largest resolution you can use with every day SPI or 8-bit 8080 interfaces. After that, you're in TTL-interface TFT land, where displays no longer have an internal memory buffer and instead the controller has to continuously write scanline data over a 16 or 18 or 24 pin interface.

@@ -1,20 +1,20 @@
 ---
-layout: download
-board_id: "feather_nrf52840_express"
-title: "Feather nRF52840 Express Download"
-name: "Feather nRF52840 Express"
-manufacturer: "Adafruit"
+board_id: feather_nrf52840_express
+board_image: feather_nrf52840_express.jpg
 board_url:
- - "https://www.adafruit.com/product/4062"
-board_image: "feather_nrf52840_express.jpg"
-date_added: 2019-3-9
-family: nrf52840
+- https://www.adafruit.com/product/4062
 bootloader_id: feather_nrf52840_express
+date_added: 2019-03-09 12:00:00
+family: nrf52840
 features:
-  - Feather-Compatible
-  - Battery Charging
-  - Bluetooth/BTLE
-  - Breadboard-Friendly
+- Feather-Compatible
+- Battery Charging
+- Bluetooth/BTLE
+- Breadboard-Friendly
+layout: download
+manufacturer: Adafruit
+name: Feather nRF52840 Express
+title: Feather nRF52840 Express Download
 ---
 
 The **Adafruit Feather nRF52840 Express** is the new Feather family member with Bluetooth Low Energy and _native USB support_ featuring the nRF52840!  It is Adafruit's take on an 'all-in-one' Bluetooth Low Energy device with built in USB plus battery charging. With native USB it's part of the CircuitPython party.

@@ -1,18 +1,19 @@
 ---
-layout: download
-board_id: "teensy40"
-title: "Teensy 4.0 Download"
-name: "Teensy 4.0"
-manufacturer: "PJRC"
+board_id: teensy40
+board_image: teensy40.jpg
 board_url:
- - "https://www.pjrc.com/store/teensy40.html"
- - "https://www.adafruit.com/product/4323"
-board_image: "teensy40.jpg"
-date_added: 2020-1-31
+- https://www.pjrc.com/store/teensy40.html
+- https://www.adafruit.com/product/4323
+date_added: 2020-01-31 12:00:00
 family: mimxrt10xx
 features:
-  - Breadboard-Friendly
+- Breadboard-Friendly
+layout: download
+manufacturer: PJRC
+name: Teensy 4.0
+title: Teensy 4.0 Download
 ---
+
 Who else could pack a 600 MHz microcontroller into such a Teensy little board? The Teensy 4.0 features an ARM Cortex-M7 processor at 600 MHz, with a NXP iMXRT1062 chip, the fastest microcontroller available today - [ten times faster than the Teensy 3.2](https://github.com/PaulStoffregen/CoreMark)! The NXP iMXRT1062 is a 'cross-over' processor, which has the functionality of a microcontroller, at the speeds of a microcomputer. It's perfect for when you need tons of flash, RAM and, to crunch lots of data, or when you need two full speed USB ports. It even has a graphics processor! All this for two sawbucks.
 
 Teensy 4.0 can be programmed using the Arduino IDE with [Teensyduino add-on](https://www.pjrc.com/teensy/td_download.html).

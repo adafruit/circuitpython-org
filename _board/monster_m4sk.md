@@ -1,19 +1,19 @@
 ---
-layout: download
-board_id: "monster_m4sk"
-title: "MONSTER M4SK Download"
-name: "MONSTER M4SK"
-manufacturer: "Adafruit"
+board_id: monster_m4sk
+board_image: monster_m4sk.jpg
 board_url:
- - "https://www.adafruit.com/product/4343"
- - "https://www.adafruit.com/product/4281"
-board_image: "monster_m4sk.jpg"
-date_added: 2019-8-30
-family: atmel-samd
+- https://www.adafruit.com/product/4343
+- https://www.adafruit.com/product/4281
 bootloader_id: hallowing_mask
+date_added: 2019-08-30 12:00:00
+family: atmel-samd
 features:
-  - Display
-  - Battery Charging
+- Display
+- Battery Charging
+layout: download
+manufacturer: Adafruit
+name: MONSTER M4SK
+title: MONSTER M4SK Download
 ---
 
 Peep dis! Have you always wanted to have another pair of eyes on the back of your
