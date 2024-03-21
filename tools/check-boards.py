@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import datetime
 import os
 import json
 import re
@@ -31,14 +32,7 @@ def verify_board_id(folder):
     return valid
 
 def valid_date(date):
-    date = str(date)
-    if date:
-        try:
-            parse(date)
-            return True
-        except:
-            return False
-    return False
+    return isinstance(date, datetime.datetime)
 
 def verify_features(folder, valid_features):
     valid = True
@@ -160,7 +154,7 @@ if not verify_family("_board"):
     print("Family or not found or invalid value. See https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/adding-to-downloads for details")
     raise SystemExit(True)
 
-if not verify_date_added("_board") or not verify_date_added("blinka"):
+if not verify_date_added("_board") or not verify_date_added("_blinka"):
     print("Date Added field not found or invalid value. See https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/adding-to-downloads for details")
     raise SystemExit(True)
 
