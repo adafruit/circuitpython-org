@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/"
 board_image: "adafruit_sht4x_trinkey_m0.jpg"
-date_added: 2024-3-13
+date_added: 2024-03-13
 family: atmel-samd
 features:
 

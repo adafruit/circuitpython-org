@@ -9,7 +9,7 @@ board_url:
 board_image: "radxa_zero.jpg"
 downloads_display: true
 blinka: true
-date_added: "2022-6-2"
+date_added: 2022-06-02
 features:
   - HDMI/DisplayPort
   - Wi-Fi

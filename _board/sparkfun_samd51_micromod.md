@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/16791"
 board_image: "sparkfun_samd51_micromod.jpg"
-date_added: 2021-6-4
+date_added: 2021-06-04
 family: atmel-samd
 features:
   - Bluetooth/BTLE

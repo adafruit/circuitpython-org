@@ -7,7 +7,7 @@ manufacturer: "LILYGO"
 board_url:
  - "https://www.aliexpress.com/item/1005003538055090.html"
 board_image: "lilygo_ttgo_t-01c3.jpg"
-date_added: 2022-4-1
+date_added: 2022-04-01
 family: esp32c3
 features:
   - Wi-Fi

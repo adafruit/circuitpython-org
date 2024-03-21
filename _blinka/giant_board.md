@@ -9,7 +9,7 @@ board_url:
 board_image: "giant_board.jpg"
 downloads_display: true
 blinka: true
-date_added: 2019-12-3
+date_added: 2019-12-03
 features:
   - Feather-Compatible
 ---

@@ -10,7 +10,7 @@ board_image: "lemaker_banana_pro.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-9-6
+date_added: 2023-09-06
 features:
   - HDMI/DisplayPort
   - 40-pin GPIO

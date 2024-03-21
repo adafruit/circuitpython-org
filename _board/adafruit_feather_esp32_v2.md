@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5400"
 board_image: "adafruit_feather_esp32_v2.jpg"
-date_added: 2022-8-19
+date_added: 2022-08-19
 family: esp32
 downloads_display: true
 features:

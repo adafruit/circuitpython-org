@@ -7,7 +7,7 @@ manufacturer: "WIZnet"
 board_url:
  - "https://www.wiznet.io/product-item/w5100s-evb-pico/"
 board_image: "w5100s-evb-pico.jpg"
-date_added: 2022-4-26
+date_added: 2022-04-26
 family: raspberrypi
 features:
     - Breadboard-Friendly

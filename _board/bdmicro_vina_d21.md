@@ -7,7 +7,7 @@ manufacturer: "BDMICRO, LLC"
 board_url:
  - "https://bdmicro.com/products/vina-d21"
 board_image: "bdmicro_vina_d21.jpg"
-date_added: 2020-9-28
+date_added: 2020-09-28
 family: atmel-samd
 features:
   - Battery Charging

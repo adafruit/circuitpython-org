@@ -9,7 +9,7 @@ board_url:
 board_image: "odroid_n2.jpg"
 downloads_display: true
 blinka: true
-date_added: 2019-12-3
+date_added: 2019-12-03
 features:
   - Ethernet
   - USB 3.0

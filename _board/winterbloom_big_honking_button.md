@@ -9,7 +9,7 @@ board_url:
 board_image: "honk.jpg"
 downloads_display: true
 blinka: false
-date_added: 2019-4-10
+date_added: 2019-04-10
 family: atmel-samd
 bootloader_id: winterbloom_big_honking_button
 ---

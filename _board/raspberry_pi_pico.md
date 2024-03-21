@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/4883"
  - "https://www.adafruit.com/product/5525"
 board_image: "raspberry_pi_pico.jpg"
-date_added: 2021-1-21
+date_added: 2021-01-21
 family: raspberrypi
 features:
   - Breadboard-Friendly

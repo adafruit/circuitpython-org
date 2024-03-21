@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base"
  - "https://www.adafruit.com/product/5674"
 board_image: "pimoroni_pico_dv_base.jpg"
-date_added: 2023-5-4
+date_added: 2023-05-04
 family: raspberrypi
 ---
 

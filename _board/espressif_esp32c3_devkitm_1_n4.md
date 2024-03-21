@@ -7,7 +7,7 @@ manufacturer: "Espressif"
 board_url:
  - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html"
 board_image: "espressif_esp32c3_devkitm_1_n4.jpg"
-date_added: 2022-2-14
+date_added: 2022-02-14
 family: esp32c3
 features:
   - Wi-Fi

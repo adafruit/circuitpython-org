@@ -7,7 +7,7 @@ manufacturer: "LILYGO"
 board_url:
  - "https://www.tindie.com/products/lilygo/lilygo-ttgo-t-oi-plus-risc-v-esp32-c3/"
 board_image: "lilygo_ttgo_t-oi-plus.jpg"
-date_added: 2022-5-16
+date_added: 2022-05-16
 family: esp32c3
 features:
   - Wi-Fi

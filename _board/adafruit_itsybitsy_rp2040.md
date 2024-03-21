@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4888"
 board_image: "adafruit_itsybitsy_rp2040.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: raspberrypi
 features:
   - Breadboard-Friendly

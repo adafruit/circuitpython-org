@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5723"
 board_image: "adafruit_feather_rp2040_usb_host.jpg"
-date_added: 2023-5-2
+date_added: 2023-05-02
 family: raspberrypi
 tags:
   - USB Host Feather

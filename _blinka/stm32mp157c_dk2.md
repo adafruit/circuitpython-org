@@ -10,7 +10,7 @@ board_image: "stm32mp157c_dk2.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-9-10
+date_added: 2020-09-10
 features:
   - Wi-Fi
   - Bluetooth/BLE

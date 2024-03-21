@@ -10,7 +10,7 @@ board_image: "onion_omega2plus.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-4-22
+date_added: 2020-04-22
 features:
   - Wi-Fi
 ---

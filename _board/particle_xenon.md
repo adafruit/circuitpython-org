@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/3999"
  - "https://www.adafruit.com/product/3995"
 board_image: "particle_xenon.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
 bootloader_id: particle_xenon
 features:

@@ -7,7 +7,7 @@ manufacturer: "senseBox"
 board_url:
  - "https://sensebox.de/de/products-boards"
 board_image: "sensebox_mcu_esp32s2.jpg"
-date_added: 2024-2-21
+date_added: 2024-02-21
 downloads_display: true
 blinka: false
 download_instructions: ""

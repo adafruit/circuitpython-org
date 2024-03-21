@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/5028"
  - "https://www.adafruit.com/product/5750"
 board_image: "unexpectedmaker_tinypico.jpg"
-date_added: 2022-9-18
+date_added: 2022-09-18
 family: esp32
 downloads_display: true
 features:

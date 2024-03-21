@@ -7,7 +7,7 @@ manufacturer: "DOIT"
 board_url:
  - "https://www.aliexpress.us/item/2251832638296842.html"
 board_image: "doit_esp32_devkit_v1.jpg"
-date_added: 2023-1-31
+date_added: 2023-01-31
 family: esp32
 features:
   - Wi-Fi

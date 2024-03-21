@@ -7,7 +7,7 @@ manufacturer: "Waveshare"
 board_url:
  - "https://www.waveshare.com/rp2040-zero.htm"
 board_image: "waveshare_rp2040_zero.jpg"
-date_added: 2022-1-12
+date_added: 2022-01-12
 family: raspberrypi
 features:
   - USB-C

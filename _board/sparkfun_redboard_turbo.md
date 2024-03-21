@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/14812"
 board_image: "sparkfun_redboard_turbo.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 features:
   - Battery Charging

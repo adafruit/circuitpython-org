@@ -7,7 +7,7 @@ manufacturer: "Florin Trutiu"
 board_url:
 board_image: "unknown.jpg"
 downloads_display: false
-date_added: 2020-6-14
+date_added: 2020-06-14
 family: atmel-samd
 features:
 ---

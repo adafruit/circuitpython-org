@@ -9,7 +9,7 @@ board_url:
 board_image: "lubancat1n.jpg"
 download_instructions: ""
 blinka: true
-date_added: 2023-5-8
+date_added: 2023-05-08
 features:
   - HDMI/DisplayPort
   - Ethernet

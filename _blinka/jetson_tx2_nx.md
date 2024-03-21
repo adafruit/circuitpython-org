@@ -9,7 +9,7 @@ board_url:
 board_image: "jetson_tx2_nx.jpg"
 downloads_display: true
 blinka: true
-date_added: 2021-2-25
+date_added: 2021-02-25
 features:
 
 ---

@@ -7,7 +7,7 @@ manufacturer: "Invector Labs"
 board_url:
  - "https://www.tindie.com/products/invector/challenger-rp2040-wifi/"
 board_image: "challenger_rp2040_wifi.jpg"
-date_added: 2021-9-16
+date_added: 2021-09-16
 family: raspberrypi
 features:
   - Wi-Fi

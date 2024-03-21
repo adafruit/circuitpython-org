@@ -8,7 +8,7 @@ board_url:
  - "https://www.cytron.io/p-maker-pi-rp2040"
  - "https://www.adafruit.com/product/5129"
 board_image: "cytron_maker_pi_rp2040.jpg"
-date_added: 2021-5-31
+date_added: 2021-05-31
 family: raspberrypi
 features:
   - Battery Charging

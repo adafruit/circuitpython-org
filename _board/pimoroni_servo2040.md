@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/servo-2040"
  - "https://www.adafruit.com/product/5437"
 board_image: "pimoroni_servo2040.jpg"
-date_added: 2022-4-1
+date_added: 2022-04-01
 family: raspberrypi
 features:
   - Robotics

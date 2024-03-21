@@ -7,7 +7,7 @@ manufacturer: "Espruino"
 board_url:
  - "https://www.adafruit.com/product/2621"
 board_image: "espruino_pico.jpg"
-date_added: 2020-2-7
+date_added: 2020-02-07
 family: stm
 features:
 

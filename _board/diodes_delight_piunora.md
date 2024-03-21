@@ -10,7 +10,7 @@ board_url:
  - "https://www.adafruit.com/product/5403"
 board_image: "diodes_delight_piunora.jpg"
 download_instructions:
-date_added: 2021-2-14
+date_added: 2021-02-14
 family: broadcom
 features:
   - Wi-Fi

@@ -10,7 +10,7 @@ board_image: "rock_pi_4c_plus.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-5
+date_added: 2023-05-05
 features:
   - Wi-Fi
   - Bluetooth/BLE

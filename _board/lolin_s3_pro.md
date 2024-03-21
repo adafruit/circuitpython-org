@@ -7,7 +7,7 @@ manufacturer: "Wemos"
 board_url:
  - "https://www.wemos.cc/en/latest/s3/s3.html"
 board_image: "lolin_s3_pro.jpg"
-date_added: 2024-3-18
+date_added: 2024-03-18
 family: esp32s3
 bootloader_id: lolin_s3_pro
 features:

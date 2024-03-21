@@ -9,7 +9,7 @@ board_url:
 board_image: "avnet_iiot_gateway.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-5-15
+date_added: 2020-05-15
 features:
   - Wi-Fi
   - Bluetooth/BLE

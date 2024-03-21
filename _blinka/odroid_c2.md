@@ -10,7 +10,7 @@ board_image: "odroid_c2.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libaries-linux-odroid-c2"
 downloads_display: true
 blinka: true
-date_added: 2019-6-17
+date_added: 2019-06-17
 features:
   - Ethernet
   - HDMI/DisplayPort

@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/3800"
  - "https://www.adafruit.com/product/4028"
 board_image: "itsybitsy_m4_express.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: itsybitsy_m4
 features:

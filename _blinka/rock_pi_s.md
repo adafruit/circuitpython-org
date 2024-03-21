@@ -10,7 +10,7 @@ board_image: "rock_pi_s.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-4-29
+date_added: 2020-04-29
 features:
   - Wi-Fi
   - Bluetooth/BLE

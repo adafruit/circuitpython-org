@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4172"
 board_image: "adafruit_huzzah32_breakout.jpg"
-date_added: 2023-3-1
+date_added: 2023-03-01
 family: esp32
 downloads_display: true
 features:

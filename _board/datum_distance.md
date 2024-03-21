@@ -7,7 +7,7 @@ manufacturer: "J&J Studios"
 board_url:
  - "https://jandjstudios.io/datum/datum-Distance/"
 board_image: "datum_distance.jpg"
-date_added: 2019-7-12
+date_added: 2019-07-12
 family: atmel-samd
 features:
   - Breadboard-Friendly

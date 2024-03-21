@@ -7,7 +7,7 @@ manufacturer: "VCC-GND Studio"
 board_url:
  - "https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982306"
 board_image: "yd_esp32_s3.jpg"
-date_added: 2023-5-3
+date_added: 2023-05-03
 family: esp32s3
 features:
   - Breadboard-Friendly

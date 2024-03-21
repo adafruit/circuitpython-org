@@ -7,7 +7,7 @@ manufacturer: "Electrolama"
 board_url:
  - "https://github.com/electrolama/minik"
 board_image: "electrolama_minik.jpg"
-date_added: 2022-8-22
+date_added: 2022-08-22
 family: raspberrypi
 features:
 

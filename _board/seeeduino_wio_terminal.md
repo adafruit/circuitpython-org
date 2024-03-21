@@ -8,7 +8,7 @@ board_url:
  - "https://www.seeedstudio.com/Wio-Terminal-p-4509.html"
  - "https://www.adafruit.com/product/4707"
 board_image: "seeeduino_wio_terminal.jpg"
-date_added: 2020-7-3
+date_added: 2020-07-03
 family: atmel-samd
 features:
     - Display

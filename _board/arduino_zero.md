@@ -8,7 +8,7 @@ board_url:
  - "https://www.arduino.cc/en/Guide/ArduinoZero"
  - "https://www.adafruit.com/product/2843"
 board_image: "arduino_zero.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: zero
 features:

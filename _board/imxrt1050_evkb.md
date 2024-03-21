@@ -7,7 +7,7 @@ manufacturer: "NXP"
 board_url:
  - "https://www.nxp.com/part/MIMXRT1060-EVK"
 board_image: "imxrt1050_evkb.jpg"
-date_added: 2023-6-5
+date_added: 2023-06-05
 family: mimxrt10xx
 features:
 
