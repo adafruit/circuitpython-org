@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5889"
 board_image: "adafruit_itsybitsy_esp32.jpg"
-date_added: 2024-2-20
+date_added: 2024-02-20
 family: esp32
 downloads_display: true
 features:

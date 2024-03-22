@@ -8,7 +8,7 @@ board_url:
  - "https://www.pjrc.com/store/teensy40.html"
  - "https://www.adafruit.com/product/4323"
 board_image: "teensy40.jpg"
-date_added: 2020-1-31
+date_added: 2020-01-31
 family: mimxrt10xx
 features:
   - Breadboard-Friendly

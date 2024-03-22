@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/2885"
  - "https://www.adafruit.com/product/3644"
 board_image: "raspberry_pi_zero.jpg"
-date_added: 2022-2-14
+date_added: 2022-02-14
 family: broadcom
 features:
 

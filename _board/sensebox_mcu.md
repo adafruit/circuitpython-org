@@ -7,7 +7,7 @@ manufacturer: "senseBox"
 board_url:
  - "https://docs.sensebox.de/hardware/allgemein-sensebox-mcu/"
 board_image: "sensebox_mcu.jpg"
-date_added: 2021-4-12
+date_added: 2021-04-12
 family: atmel-samd
 bootloader_id: sensebox-mcu
 features:

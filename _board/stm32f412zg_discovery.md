@@ -7,7 +7,7 @@ manufacturer: "ST"
 board_url:
  - "https://www.st.com/en/evaluation-tools/32f412gdiscovery.html"
 board_image: "stm32f412.jpg"
-date_added: 2019-9-16
+date_added: 2019-09-16
 family: stm
 features:
   - Display

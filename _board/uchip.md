@@ -7,7 +7,7 @@ manufacturer: "Itaca Innovation"
 board_url:
  - "https://shop.itaca-innovation.com"
 board_image: "uchip.jpg"
-date_added: 2019-3-25
+date_added: 2019-03-25
 family: atmel-samd
 bootloader_id: uchip
 features:

@@ -8,7 +8,7 @@ board_url:
  - "https://unexpectedmaker.com/shop/feathers2-esp32-s2"
  - "https://www.adafruit.com/product/4769"
 board_image: "unexpectedmaker_feathers2.jpg"
-date_added: 2020-10-1
+date_added: 2020-10-01
 family: esp32s2
 bootloader_id: unexpectedmaker_feathers2
 features:

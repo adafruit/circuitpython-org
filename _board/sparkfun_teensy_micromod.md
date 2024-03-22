@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/16402"
 board_image: "sparkfun_teensy_micromod.jpg"
-date_added: 2022-5-3
+date_added: 2022-05-03
 family: mimxrt10xx
 
 ---

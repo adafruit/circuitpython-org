@@ -9,7 +9,7 @@ board_url:
 board_image: "odroid_xu4.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-5-29
+date_added: 2020-05-29
 features:
   - Ethernet
   - HDMI/DisplayPort

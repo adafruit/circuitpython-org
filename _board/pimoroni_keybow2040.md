@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/keybow-2040"
  - "https://www.adafruit.com/product/4144"
 board_image: "pimoroni_keybow2040.jpg"
-date_added: 2021-2-24
+date_added: 2021-02-24
 family: raspberrypi
 features:
   - USB-C

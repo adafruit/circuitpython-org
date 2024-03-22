@@ -7,7 +7,7 @@ manufacturer: "Zach Richard"
 board_url:
  - "https://github.com/BigTuna94/RP2.65-F"
 board_image: "zrichard_rp2.65-f.jpg"
-date_added: 2022-5-16
+date_added: 2022-05-16
 family: raspberrypi
 features:
 

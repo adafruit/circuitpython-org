@@ -10,7 +10,7 @@ board_image: "diodes_delight_piunora.jpg"
 download_instructions:
 downloads_display: true
 blinka: true
-date_added: 2021-12-6
+date_added: 2021-12-06
 features:
   - HDMI/DisplayPort
   - Wi-Fi

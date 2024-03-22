@@ -10,7 +10,7 @@ board_image: "radxa_cm3_io_board.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-5
+date_added: 2023-05-05
 features:
   - Wi-Fi
   - Bluetooth/BLE

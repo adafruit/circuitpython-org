@@ -10,7 +10,7 @@ board_image: "banana_pi_bpi_m5.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2022-7-22
+date_added: 2022-07-22
 features:
   - HDMI/DisplayPort
   - 40-pin GPIO

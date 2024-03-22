@@ -7,7 +7,7 @@ manufacturer: "Waveshare"
 board_url:
  - "https://www.waveshare.com/rp2040-lcd-1.28.htm"
 board_image: "waveshare_rp2040_lcd_1_28.jpg"
-date_added: 2023-1-31
+date_added: 2023-01-31
 family: raspberrypi
 features:
   - USB-C

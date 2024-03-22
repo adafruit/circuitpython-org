@@ -8,7 +8,7 @@ board_url:
  - "https://www.waveshare.com/esp32-s3.htm"
 board_image: "ESP32-S3-Pico.jpg"
 bootloader_id: waveshare_esp32_s3_pico
-date_added: 2023-8-30
+date_added: 2023-08-30
 family: esp32s3
 features:
   - Breadboard-Friendly

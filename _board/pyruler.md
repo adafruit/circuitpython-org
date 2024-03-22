@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4319"
 board_image: "pyruler.jpg"
-date_added: 2019-7-15
+date_added: 2019-07-15
 family: atmel-samd
 bootloader_id: trinket_m0
 ---

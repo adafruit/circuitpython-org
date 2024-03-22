@@ -10,7 +10,7 @@ board_image: "nanopi_neo_air.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2021-1-20
+date_added: 2021-01-20
 features:
   - Wi-Fi
   - Bluetooth/BLE

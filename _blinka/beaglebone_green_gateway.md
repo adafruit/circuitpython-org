@@ -9,7 +9,7 @@ board_url:
 board_image: "beaglebone_green_gateway.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-11-1
+date_added: 2020-11-01
 features:
   - Wi-Fi
   - Bluetooth/BLE

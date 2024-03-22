@@ -7,7 +7,7 @@ manufacturer: "MakerM0"
 board_url:
  - "https://github.com/MakerM0/MagiClick-esp32s3"
 board_image: "magiclick_s3.jpg"
-date_added: 2023-9-30
+date_added: 2023-09-30
 family: esp32s3
 bootloader_id: magiclick_s3_n4r2
 downloads_display: true

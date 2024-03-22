@@ -12,7 +12,7 @@ board_url:
  - "https://www.adafruit.com/product/4791"
  - "https://www.adafruit.com/product/4982"
 board_image: "raspberry_pi_cm4.jpg"
-date_added: 2022-1-4
+date_added: 2022-01-04
 family: broadcom
 
 ---

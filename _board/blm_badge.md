@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/adafruit/BLM-Badge-PCB"
  - "https://www.adafruit.com/product/4703"
 board_image: "blmbadge.jpg"
-date_added: 2020-9-1
+date_added: 2020-09-01
 family: atmel-samd
 bootloader_id: blm_badge
 features:

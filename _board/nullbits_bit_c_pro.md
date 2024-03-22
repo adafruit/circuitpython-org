@@ -7,7 +7,7 @@ manufacturer: "nullbits"
 board_url:
  - "https://nullbits.co/bit-c-pro/"
 board_image: "nullbits_bit_c_pro.jpg"
-date_added: "2023-1-31"
+date_added: 2023-01-31
 family: raspberrypi
 features:
   - USB-C

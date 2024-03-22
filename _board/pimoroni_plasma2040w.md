@@ -7,7 +7,7 @@ manufacturer: "Pimoroni"
 board_url:
  - "https://shop.pimoroni.com/products/plasma-stick-2040-w"
 board_image: "pimoroni_plasma2040w.jpg"
-date_added: 2023-5-9
+date_added: 2023-05-09
 family: raspberrypi
 tags:
   - picow

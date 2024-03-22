@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/3178"
  - "https://www.adafruit.com/product/3179"
 board_image: "feather_m0_rfm9x.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: radiofruit_m0
 features:

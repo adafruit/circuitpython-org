@@ -7,7 +7,7 @@ manufacturer: "Boardsource"
 board_url:
  - "https://boardsource.xyz/store/628b95b494dfa308a6581622"
 board_image: "boardsource_blok.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: raspberrypi
 features:
   - Breadboard-Friendly

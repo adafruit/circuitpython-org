@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4759"
 board_image: "feather_m4_can.jpg"
-date_added: 2020-9-28
+date_added: 2020-09-28
 family: atmel-samd
 bootloader_id: feather_m4_can
 features:

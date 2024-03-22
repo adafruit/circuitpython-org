@@ -7,7 +7,7 @@ manufacturer: "M5Stack"
 board_url:
  - "https://docs.m5stack.com/en/core/M5Dial"
 board_image: "m5stack_dial.jpg"
-date_added: 2024-2-19
+date_added: 2024-02-19
 family: esp32s3
 bootloader_id: m5stack_dial
 downloads_display: true

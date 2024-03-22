@@ -9,7 +9,7 @@ board_url:
 board_image: "adafruit_kb2040.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 blinka: true
-date_added: 2023-9-6
+date_added: 2023-09-06
 features:
   - STEMMA QT/QWIIC
 

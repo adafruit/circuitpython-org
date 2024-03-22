@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4745"
  - "https://www.adafruit.com/product/4812"
 board_image: "matrixportal_m4.jpg"
-date_added: 2020-9-16
+date_added: 2020-09-16
 family: atmel-samd
 bootloader_id: matrixportal_m4
 tags:

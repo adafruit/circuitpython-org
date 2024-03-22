@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5786"
 board_image: "adafruit_metro_rp2040.jpg"
-date_added: 2023-7-28
+date_added: 2023-07-28
 family: raspberrypi
 features:
   - STEMMA QT/QWIIC

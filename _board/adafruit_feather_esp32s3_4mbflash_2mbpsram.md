@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5477"
 board_image: "adafruit_feather_esp32s3_4mbflash_2mbpsram.jpg"
-date_added: 2022-6-9
+date_added: 2022-06-09
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3
 downloads_display: true

@@ -7,7 +7,7 @@ manufacturer: "M5Stack"
 board_url:
  - "https://docs.m5stack.com/en/core/Cardputer"
 board_image: "m5stack_cardputer.jpg"
-date_added: 2024-3-10
+date_added: 2024-03-10
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_nopsram
 downloads_display: true

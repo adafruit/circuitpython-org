@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5500"
 board_image: "adafruit_metro_esp32s3.jpg"
-date_added: 2023-7-28
+date_added: 2023-07-28
 family: esp32s3
 bootloader_id: adafruit_metro_esp32s3
 features:

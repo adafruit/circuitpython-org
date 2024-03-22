@@ -7,7 +7,7 @@ manufacturer: "MakerDiary"
 board_url:
  - "https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-usb-dongle"
 board_image: "nRF52840_micro_dev_kit_usb_dongle.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
 bootloader_id: mdk_nrf52840_dongle
 features:

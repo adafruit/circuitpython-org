@@ -7,7 +7,7 @@ manufacturer: "arturo182"
 board_url:
  - "https://hackaday.io/project/169387-mimxrt10xx-feathers-rt1011-and-rt1062"
 board_image: "feather_mimxrt1062.jpg"
-date_added: 2020-1-8
+date_added: 2020-01-08
 family: mimxrt10xx
 features:
   - Feather-Compatible

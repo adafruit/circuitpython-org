@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5600"
 board_image: "adafruit_metro_m7_1011_sd.jpg"
-date_added: 2023-9-6
+date_added: 2023-09-06
 family: mimxrt10xx
 features:
   - STEMMA QT/QWIIC

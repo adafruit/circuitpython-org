@@ -6,7 +6,7 @@ name: "feather_radiofruit_zigbee"
 manufacturer: "Adafruit"
 board_url:
 board_image: "unknown.jpg"
-date_added: 2019-4-5
+date_added: 2019-04-05
 family: atmel-samd
 bootloader_id: radiofruit_m0
 downloads_display: false

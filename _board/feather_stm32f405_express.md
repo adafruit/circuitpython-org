@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4382"
 board_image: "feather_stm32f405_express.jpg"
-date_added: 2019-9-26
+date_added: 2019-09-26
 family: stm
 features:
   - Feather-Compatible
