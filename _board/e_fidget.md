@@ -7,7 +7,7 @@ manufacturer: "2231puppy"
 board_url:
  - "https://e-fidget.xyz"
 board_image: "e_fidget.jpg"
-date_added: 2023-1-4
+date_added: 2023-01-04
 family: raspberrypi
 features:
   - Battery Charging

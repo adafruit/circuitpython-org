@@ -9,7 +9,7 @@ board_url:
 board_image: "lubancat_i.mx6ull.jpg"
 download_instructions: ""
 blinka: true
-date_added: 2021-1-15
+date_added: 2021-01-15
 features:
   - Ethernet
   - 40-pin GPIO

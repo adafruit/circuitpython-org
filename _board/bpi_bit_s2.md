@@ -7,7 +7,7 @@ manufacturer: "Banana Pi"
 board_url:
  - "https://wiki.banana-pi.org/BPI-Bit-S2"
 board_image: "bpi_bit_s2.jpg"
-date_added: 2022-9-14
+date_added: 2022-09-14
 family: esp32s2
 bootloader_id: bpi_bit_s2
 features:

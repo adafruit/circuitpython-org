@@ -7,7 +7,7 @@ manufacturer: "M5Stack"
 board_url:
  - "https://docs.m5stack.com/en/core/AtomS3%20Lite"
 board_image: "m5stack_atoms3_lite.png"
-date_added: 2023-4-4
+date_added: 2023-04-04
 family: esp32s3
 bootloader_id: m5stack_atoms3_lite
 downloads_display: true

@@ -7,7 +7,7 @@ manufacturer: "Potekku"
 board_url:
  - "https://edtechzine.jp/article/detail/8715"
 board_image: "cosmo_pico.jpg"
-date_added: 2023-3-1
+date_added: 2023-03-01
 family: raspberrypi
 features:
   - Wi-Fi

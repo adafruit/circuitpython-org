@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/"
 board_image: "metro_nrf52840_express.png"
-date_added: 2019-8-30
+date_added: 2019-08-30
 family: nrf52840
 bootloader_id: metro_nrf52840_express
 features:

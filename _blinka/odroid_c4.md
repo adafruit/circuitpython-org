@@ -9,7 +9,7 @@ board_url:
 board_image: "odroid_c4.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-5-15
+date_added: 2020-05-15
 features:
   - Ethernet
   - HDMI/DisplayPort

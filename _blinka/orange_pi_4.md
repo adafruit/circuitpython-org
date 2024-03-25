@@ -10,7 +10,7 @@ board_image: "orange_pi_4.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-orangepi-linux/circuitpython-orangepi"
 downloads_display: true
 blinka: true
-date_added: 2022-10-6
+date_added: 2022-10-06
 features:
   - Wi-Fi
   - Ethernet

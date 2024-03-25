@@ -9,7 +9,7 @@ board_url:
 board_image: "milkv_duo.jpg"
 downloads_display: true
 blinka: true
-date_added: 2024-3-13
+date_added: 2024-03-13
 features:
 
 ---

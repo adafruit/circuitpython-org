@@ -10,7 +10,7 @@ board_image: "udoo_x86_ii_ultra.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2020-8-17
+date_added: 2020-08-17
 features:
   - Wi-Fi
   - Bluetooth/BLE

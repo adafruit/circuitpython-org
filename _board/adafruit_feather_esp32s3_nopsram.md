@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5323"
 board_image: "adafruit_feather_esp32s3_nopsram.jpg"
-date_added: 2022-4-1
+date_added: 2022-04-01
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_nopsram
 downloads_display: true

@@ -7,7 +7,7 @@ manufacturer: "Unexpected Maker"
 board_url:
  - "https://unexpectedmaker.com/shop/nanos3"
 board_image: "unexpectedmaker_nanos3.jpg"
-date_added: 2023-6-26
+date_added: 2023-06-26
 family: esp32s3
 bootloader_id: unexpectedmaker_nanos3
 features:

@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/"
 board_image: "adafruit_feather_esp32c6_4mbflash_nopsram.jpg"
-date_added: 2024-3-18
+date_added: 2024-03-18
 family: esp32c6
 downloads_display: true
 features:

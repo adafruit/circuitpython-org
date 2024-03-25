@@ -7,7 +7,7 @@ manufacturer: "Pajenicko s.r.o."
 board_url:
  - "https://github.com/Pajenicko/Picopad"
 board_image: "pajenicko_picopad.jpg"
-date_added: 2023-7-25
+date_added: 2023-07-25
 family: raspberrypi
 features:
   - Display

@@ -7,7 +7,7 @@ manufacturer: "Pimoroni"
 board_url:
  - "https://shop.pimoroni.com/products/picosystem"
 board_image: "pimoroni_picosystem.jpg"
-date_added: 2021-2-24
+date_added: 2021-02-24
 family: raspberrypi
 features:
   - Speaker

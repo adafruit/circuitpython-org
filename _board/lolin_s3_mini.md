@@ -7,7 +7,7 @@ manufacturer: "Wemos"
 board_url:
  - "https://www.wemos.cc/en/latest/s3/s3_mini.html"
 board_image: "lolin_s3_mini.jpg"
-date_added: 2023-5-23
+date_added: 2023-05-23
 family: esp32s3
 bootloader_id: lolin_s3_mini
 features:

@@ -8,7 +8,7 @@ board_url:
  - "https://docs.m5stack.com/en/unit/timercam_x"
  - "https://www.adafruit.com/product/4959"
 board_image: "m5stack_timer_camera_x.jpg"
-date_added: 2023-5-22
+date_added: 2023-05-22
 family: esp32
 features:
   - Wi-Fi

@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5483"
 board_image: "adafruit_feather_esp32s3_tft.jpg"
-date_added: 2022-6-9
+date_added: 2022-06-09
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_tft
 downloads_display: true

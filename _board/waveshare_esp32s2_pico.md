@@ -8,7 +8,7 @@ board_url:
  - "https://www.waveshare.com/esp32-s2.htm"
 board_image: "waveshare_esp32s2_pico.jpg"
 bootloader_id: waveshare_esp32s2_pico
-date_added: 2022-8-21
+date_added: 2022-08-21
 family: esp32s2
 features:
   - Breadboard-Friendly

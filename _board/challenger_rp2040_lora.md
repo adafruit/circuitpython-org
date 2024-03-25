@@ -8,7 +8,7 @@ board_url:
  - "https://www.tindie.com/products/invector/challenger-rp2040-lora-915mhz/"
  - "https://thepihut.com/products/challenger-rp2040-lora-868mhz"
 board_image: "challenger_rp2040_lora.jpg"
-date_added: 2022-6-9
+date_added: 2022-06-09
 family: raspberrypi
 features:
   - LoRa/Radio

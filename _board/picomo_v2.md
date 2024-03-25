@@ -7,7 +7,7 @@ manufacturer: "HEIA-FR"
 board_url: 
   - "https://go.heia-fr.ch/picomo"
 board_image: "picomo_v2.jpg"
-date_added: 2024-1-25
+date_added: 2024-01-25
 family: raspberrypi
 features:
   - Speaker

@@ -7,7 +7,7 @@ manufacturer: "M5Stack"
 board_url:
  - "https://docs.m5stack.com/en/core/atom_lite"
 board_image: "m5stack_atom_lite.jpg"
-date_added: 2022-11-1
+date_added: 2022-11-01
 family: esp32
 features:
   - Wi-Fi

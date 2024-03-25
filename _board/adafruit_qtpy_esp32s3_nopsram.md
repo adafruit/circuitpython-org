@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5426"
 board_image: "adafruit_qtpy_esp32s3_nopsram.jpg"
-date_added: 2022-2-14
+date_added: 2022-02-14
 family: esp32s3
 bootloader_id: adafruit_qtpy_esp32s3
 downloads_display: true

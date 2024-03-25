@@ -7,7 +7,7 @@ manufacturer: "Wemos"
 board_url:
  - "https://www.wemos.cc/en/latest/c3/c3_mini.html"
 board_image: "lolin_c3_mini.png"
-date_added: 2021-11-2
+date_added: 2021-11-02
 family: esp32c3
 bootloader_id: lolin_c3_mini
 features:

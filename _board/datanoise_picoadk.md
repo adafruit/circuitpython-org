@@ -7,7 +7,7 @@ manufacturer: "DatanoiseTV"
 board_url:
  - "https://www.tindie.com/products/datanoisetv/picoadk-audio-development-kit-raspberry-rp2040/"
 board_image: "datanoise_picoadk.jpg"
-date_added: 2023-7-28
+date_added: 2023-07-28
 family: raspberrypi
 features:
   - STEMMA QT/QWIIC

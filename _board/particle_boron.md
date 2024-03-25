@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/3998"
  - "https://www.adafruit.com/product/3994"
 board_image: "particle_boron.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
 bootloader_id: particle_boron
 features:

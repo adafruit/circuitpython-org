@@ -7,7 +7,7 @@ manufacturer: "Invector Labs"
 board_url:
  - "https://ilabs.se/product/challenger-840-ble/"
 board_image: "challenger_840.jpg"
-date_added: 2022-4-1
+date_added: 2022-04-01
 family: nrf52840
 features:
   - Bluetooth/BTLE

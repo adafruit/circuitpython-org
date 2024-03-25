@@ -10,7 +10,7 @@ board_image: "libre_roc-rk3328-cc.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-8
+date_added: 2023-05-08
 features:
   - HDMI/DisplayPort
   - 40-pin GPIO

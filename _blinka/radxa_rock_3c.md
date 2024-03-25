@@ -10,7 +10,7 @@ board_image: "radxa_rock_3a.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2024-3-13
+date_added: 2024-03-13
 features:
   - Wi-Fi
   - Ethernet

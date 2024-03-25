@@ -7,7 +7,7 @@ manufacturer: "Invector Labs"
 board_url:
  - "https://ilabs.se/product/challenger-rp2040-subghz-915mhz/"
 board_image: "challenger_rp2040_subghz.jpg"
-date_added: 2022-10-6
+date_added: 2022-10-06
 family: raspberrypi
 features:
   - LoRa/Radio

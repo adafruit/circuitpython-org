@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/3938"
  - "https://www.adafruit.com/product/4018"
 board_image: "trellis_m4_express.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: trellis_m4
 features:

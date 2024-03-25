@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/17720"
 board_image: "sparkfun_micromod_rp2040.jpg"
-date_added: 2021-5-26
+date_added: 2021-05-26
 family: raspberrypi
 features:
 ---

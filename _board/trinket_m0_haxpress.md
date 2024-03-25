@@ -7,7 +7,7 @@ manufacturer: "Dave Astels"
 board_url:
  - "http://daveastels.com/trinket-m0-express-hack.html"
 board_image: "trinket_m0_haxpress.jpg"
-date_added: 2019-3-19
+date_added: 2019-03-19
 family: atmel-samd
 bootloader_id: trinket_m0
 features:

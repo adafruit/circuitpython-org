@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/14713"
 board_image: "sparkfun_samd51_thing_plus.jpg"
-date_added: 2020-2-26
+date_added: 2020-02-26
 family: atmel-samd
 features:
   - Feather-Compatible

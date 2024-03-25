@@ -7,7 +7,7 @@ manufacturer: "Benjamin Shockley"
 board_url:
  - "https://minifigboards.com/fig-pi"
 board_image: "bwshockley_figpi.jpg"
-date_added: 2022-8-22
+date_added: 2022-08-22
 family: raspberrypi
 features:
   - STEMMA QT/QWIIC

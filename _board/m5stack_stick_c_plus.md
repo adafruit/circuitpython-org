@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/4289"
  - "https://www.adafruit.com/product/4290"
 board_image: "m5stack_stick_c_plus.jpg"
-date_added: 2023-1-31
+date_added: 2023-01-31
 family: esp32
 features:
   - Wi-Fi

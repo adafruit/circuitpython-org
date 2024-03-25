@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4064"
  - "https://www.adafruit.com/product/4084"
 board_image: "grandcentral_m4_express.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: grandcentral_m4
 features:

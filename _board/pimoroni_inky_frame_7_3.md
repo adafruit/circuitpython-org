@@ -7,7 +7,7 @@ manufacturer: "Pimoroni"
 board_url:
  - "https://shop.pimoroni.com/products/inky-frame-7-3"
 board_image: "pimoroni_inky_frame_7_3.jpg"
-date_added: 2024-3-13
+date_added: 2024-03-13
 family: raspberrypi
 tags:
   - picow

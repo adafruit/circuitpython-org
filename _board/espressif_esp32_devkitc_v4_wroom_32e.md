@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/3269"
  - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html"
 board_image: "espressif_esp32_devkitc_v4_wroom_32e.jpg"
-date_added: 2024-2-6
+date_added: 2024-02-06
 family: esp32
 features:
   - Wi-Fi

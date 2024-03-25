@@ -9,7 +9,7 @@ board_url:
 board_image: "siemens_simatic_iot2050.jpg"
 downloads_display: true
 blinka: true
-date_added: 2022-10-6
+date_added: 2022-10-06
 features:
   - Ethernet
   - HDMI/DisplayPort

@@ -7,7 +7,7 @@ manufacturer: "Seeed Studio"
 board_url:
  - "https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html"
 board_image: "seeed_xiao_esp32c3.jpg"
-date_added: 2022-8-22
+date_added: 2022-08-22
 family: esp32c3
 features:
   - Breadboard-Friendly

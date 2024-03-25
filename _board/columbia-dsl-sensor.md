@@ -6,7 +6,7 @@ name: "Colombia DSL Sensor"
 manufacturer: "Double Take Labs"
 board_url:
 board_image: "unknown.jpg"
-date_added: 2024-2-7
+date_added: 2024-02-07
 family: esp32s3
 downloads_display: false
 ---

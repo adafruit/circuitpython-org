@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5800"
 board_image: "adafruit_qualia_s3_rgb666.jpg"
-date_added: 2023-10-3
+date_added: 2023-10-03
 family: esp32s3
 bootloader_id: adafruit_qualia_s3_rgb666
 tags:

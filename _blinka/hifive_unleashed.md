@@ -9,7 +9,7 @@ board_url:
 board_image: "hifive_unleashed.jpg"
 downloads_display: true
 blinka: true
-date_added: 2020-3-25
+date_added: 2020-03-25
 features:
   - Ethernet
 ---

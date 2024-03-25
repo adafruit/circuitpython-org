@@ -7,7 +7,7 @@ manufacturer: "HardKernel"
 board_url:
  - "https://www.hardkernel.com/shop/odroid-go/"
 board_image: "hardkernel_odroid_go.jpg"
-date_added: 2022-8-22
+date_added: 2022-08-22
 family: esp32
 downloads_display: true
 features:

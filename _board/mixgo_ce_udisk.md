@@ -7,7 +7,7 @@ manufacturer: "Mixly"
 board_url:
  - "https://mixly.org/"
 board_image: "mixgo_ce_udisk.jpg"
-date_added: 2022-5-1
+date_added: 2022-05-01
 family: esp32s2
 features:
   - Display

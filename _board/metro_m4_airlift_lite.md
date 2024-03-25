@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4000"
 board_image: "metro_m4_airlift_lite.jpg"
-date_added: 2019-4-13
+date_added: 2019-04-13
 family: atmel-samd
 bootloader_id: metro_m4_airlift
 features:

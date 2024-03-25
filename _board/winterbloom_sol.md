@@ -9,7 +9,7 @@ board_url:
 board_image: "sol.jpg"
 downloads_display: true
 blinka: false
-date_added: 2019-11-7
+date_added: 2019-11-07
 family: atmel-samd
 bootloader_id: winterbloom_sol
 ---

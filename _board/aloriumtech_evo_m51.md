@@ -7,7 +7,7 @@ manufacturer: "Alorium Technology, LLC"
 board_url:
  - "https://www.aloriumtech.com/evom51"
 board_image: "aloriumtech_evo_m51.jpg"
-date_added: 2020-5-21
+date_added: 2020-05-21
 family: atmel-samd
 downloads_display: true
 blinka: false

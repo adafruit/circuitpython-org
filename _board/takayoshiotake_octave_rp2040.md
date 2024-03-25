@@ -7,7 +7,7 @@ manufacturer: "OTAKE Takayoshi"
 board_url:
  - "https://github.com/takayoshiotake/octave-12-key-macropad"
 board_image: "takayoshiotake_octave_rp2040.jpg"
-date_added: 2022-8-22
+date_added: 2022-08-22
 family: raspberrypi
 features:
   - USB-C

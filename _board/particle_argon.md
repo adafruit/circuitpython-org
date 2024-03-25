@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/3997"
  - "https://www.adafruit.com/product/3993"
 board_image: "particle_argon.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
 bootloader_id: particle_argon
 features:

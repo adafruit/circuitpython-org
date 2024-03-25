@@ -7,7 +7,7 @@ manufacturer: "WeAct Studio"
 board_url:
  - "https://www.aliexpress.com/item/3256803521775546.html"
 board_image: "weact_studio_pico.jpg"
-date_added: 2022-6-9
+date_added: 2022-06-09
 family: raspberrypi
 features:
   - USB-C

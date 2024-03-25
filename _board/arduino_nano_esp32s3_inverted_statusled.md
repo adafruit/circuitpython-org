@@ -7,7 +7,7 @@ manufacturer: "Arduino"
 board_url:
  - "https://store.arduino.cc/pages/nano-esp32"
 board_image: "arduino_nano_esp32s3.jpg"
-date_added: 2023-9-6
+date_added: 2023-09-06
 family: esp32s3
 features:
   - Wi-Fi

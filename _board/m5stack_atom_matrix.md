@@ -8,7 +8,7 @@ board_url:
  - "https://docs.m5stack.com/en/core/atom_matrix"
  - "https://www.adafruit.com/product/4497"
 board_image: "m5stack_atom_matrix.jpg"
-date_added: 2023-1-31
+date_added: 2023-01-31
 family: esp32
 features:
   - Wi-Fi

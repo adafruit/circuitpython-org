@@ -7,7 +7,7 @@ manufacturer: "Oddly Specific Objects"
 board_url:
  - "https://github.com/joeycastillo/The-Open-Book"
 board_image: "openbook_m4.jpg"
-date_added: 2020-1-16
+date_added: 2020-01-16
 family: atmel-samd
 bootloader_id: openbook_m4
 features:

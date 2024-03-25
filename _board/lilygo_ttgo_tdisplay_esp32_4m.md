@@ -7,7 +7,7 @@ manufacturer: "LILYGO"
 board_url:
   - "https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board?variant=42159376433333"
 board_image: "lilygo_ttgo_tdisplay_esp32_4m.jpg"
-date_added: 2024-1-18
+date_added: 2024-01-18
 family: esp32
 features:
   - Wi-Fi

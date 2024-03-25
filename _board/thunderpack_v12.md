@@ -7,7 +7,7 @@ manufacturer: "Jeremy Gillick"
 board_url:
  - "https://github.com/jgillick/ThunderPack"
 board_image: "thunderpack_v12.jpg"
-date_added: 2020-4-16
+date_added: 2020-04-16
 family: stm
 features:
 - Battery Charging

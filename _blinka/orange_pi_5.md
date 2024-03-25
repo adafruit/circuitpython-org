@@ -10,7 +10,7 @@ board_image: "orange_pi_5.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-8
+date_added: 2023-05-08
 features:
   - Ethernet
   - USB 3.0
