@@ -2,7 +2,7 @@
 layout: download
 board_id: "sunton_esp32_2432S028"
 title: "Sunton ESP32-2432S028 Download"
-name: "sunton_esp32_2432S028"
+name: "Sunton ESP32-2432S028"
 manufacturer: "Sunton"
 board_image: "sunton_esp32_2432S028.jpg"
 date_added: 2024-03-26
