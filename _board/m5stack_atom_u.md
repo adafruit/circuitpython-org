@@ -7,7 +7,7 @@ manufacturer: "M5Stack"
 board_url:
  - "https://docs.m5stack.com/en/core/atom_u"
 board_image: "m5stack_atom_u.jpg"
-date_added: 2023-1-31
+date_added: 2023-01-31
 family: esp32
 tags:
   - Atom U

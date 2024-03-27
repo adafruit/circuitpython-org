@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4950"
 board_image: "feather_m7_1011.jpg"
-date_added: 2020-2-27
+date_added: 2020-02-27
 family: mimxrt10xx
 features:
   - Feather-Compatible

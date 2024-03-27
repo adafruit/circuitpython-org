@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5395"
 board_image: "adafruit_qtpy_esp32_pico.jpg"
-date_added: 2022-8-19
+date_added: 2022-08-19
 family: esp32
 downloads_display: true
 features:

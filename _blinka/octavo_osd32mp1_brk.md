@@ -10,7 +10,7 @@ board_image: "octavo_osd32mp1_brk.jpg"
 download_instructions:
 downloads_display: true
 blinka: true
-date_added: 2021-12-6
+date_added: 2021-12-06
 features:
 
 ---

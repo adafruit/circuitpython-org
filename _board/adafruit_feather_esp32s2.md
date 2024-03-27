@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5000"
 board_image: "adafruit_feather_esp32s2.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: esp32s2
 bootloader_id: adafruit_feather_esp32s2
 features:

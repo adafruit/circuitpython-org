@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5710"
 board_image: "adafruit_feather_rp2040_dvi.jpg"
-date_added: 2023-3-27
+date_added: 2023-03-27
 family: raspberrypi
 tags:
   - DVI Feather

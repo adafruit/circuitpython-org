@@ -9,7 +9,7 @@ board_url:
 board_image: "jetson_agx_orin.jpg"
 downloads_display: true
 blinka: true
-date_added: 2022-7-27
+date_added: 2022-07-27
 features:
   - Ethernet
   - 40-pin GPIO

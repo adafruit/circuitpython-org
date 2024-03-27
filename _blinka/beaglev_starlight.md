@@ -9,7 +9,7 @@ board_url:
 board_image: "beaglev_starlight.jpg"
 downloads_display: true
 blinka: true
-date_added: 2021-7-17
+date_added: 2021-07-17
 features:
   - Ethernet
   - HDMI/DisplayPort

@@ -7,7 +7,7 @@ manufacturer: "Morpheans"
 board_url:
  - "https://github.com/ccadic/ESP32-S2-DevBoardTFT"
 board_image: "morpheans_morphesp-240.jpg"
-date_added: 2021-8-24
+date_added: 2021-08-24
 family: esp32s2
 bootloader_id: morpheans_morphesp-240
 features:

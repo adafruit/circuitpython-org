@@ -10,7 +10,7 @@ board_image: "jetson_orin_nx.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2023-5-8
+date_added: 2023-05-08
 features:
   - Ethernet
   - 40-pin GPIO

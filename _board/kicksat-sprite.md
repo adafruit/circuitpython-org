@@ -7,7 +7,7 @@ manufacturer: "Max Holliday"
 board_url:
  - "https://github.com/RoboticExplorationLab/sprite"
 board_image: "kicksat-sprite.jpg"
-date_added: 2019-4-13
+date_added: 2019-04-13
 family: atmel-samd
 bootloader_id: itsybitsy_m0
 ---

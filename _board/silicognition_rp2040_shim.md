@@ -7,7 +7,7 @@ manufacturer: "Silicognition LLC"
 board_url:
  - "https://github.com/xorbit/RP2040-Shim"
 board_image: "silicognition-rp2040-shim.jpg"
-date_added: 2022-7-1
+date_added: 2022-07-01
 family: raspberrypi
 features:
   - Feather-Compatible

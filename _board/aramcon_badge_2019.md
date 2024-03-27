@@ -7,7 +7,7 @@ manufacturer: "ARAMCON Badge Team"
 board_url:
  - "https://github.com/aramcon-badge/"
 board_image: "aramcon_badge_2019.jpg"
-date_added: 2020-1-25
+date_added: 2020-01-25
 family: nrf52840
 bootloader_id: aramcon_badge_2019
 features:

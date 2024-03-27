@@ -7,7 +7,7 @@ manufacturer: "Pimoroni"
 board_url:
  - "https://shop.pimoroni.com/products/pga2040"
 board_image: "pimoroni_pga2040.jpg"
-date_added: 2021-6-10
+date_added: 2021-06-10
 family: raspberrypi
 ---
 

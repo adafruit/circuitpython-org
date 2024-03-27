@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/17717"
 board_image: "sparkfun_pro_micro_rp2040.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: raspberrypi
 features:
   - STEMMA QT/QWIIC

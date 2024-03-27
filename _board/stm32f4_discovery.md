@@ -7,7 +7,7 @@ manufacturer: "ST"
 board_url:
  - "https://www.st.com/en/evaluation-tools/stm32f4discovery.html"
 board_image: "stm32f407.jpg"
-date_added: 2019-9-18
+date_added: 2019-09-18
 family: stm
 ---
 

@@ -9,7 +9,7 @@ board_url:
 board_image: "ohs2020_badge.jpg"
 downloads_display: true
 blinka: false
-date_added: 2020-1-16
+date_added: 2020-01-16
 family: nrf52840
 bootloader_id: ohs2020_badge
 features:

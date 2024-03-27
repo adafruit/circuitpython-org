@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4300"
 board_image: "hallowing_m4_express.jpg"
-date_added: 2019-8-30
+date_added: 2019-08-30
 family: atmel-samd
 bootloader_id: hallowing_m4
 features:

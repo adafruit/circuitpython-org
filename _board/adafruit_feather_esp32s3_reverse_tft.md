@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5691"
 board_image: "adafruit_feather_esp32s3_reverse_tft.jpg"
-date_added: 2023-1-31
+date_added: 2023-01-31
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_reverse_tft
 tags:

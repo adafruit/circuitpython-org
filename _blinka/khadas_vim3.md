@@ -9,7 +9,7 @@ board_url:
 board_image: "khadas_vim3.jpg"
 downloads_display: true
 blinka: true
-date_added: 2022-4-1
+date_added: 2022-04-01
 features:
   - Ethernet
   - HDMI/DisplayPort

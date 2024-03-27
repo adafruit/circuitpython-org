@@ -7,7 +7,7 @@ manufacturer: "Arduino"
 board_url:
  - "https://store.arduino.cc/usa/nano-rp2040-connect-with-headers"
 board_image: "arduino_nano_rp2040_connect.jpg"
-date_added: 2021-5-24
+date_added: 2021-05-24
 family: raspberrypi
 features:
   - Wi-Fi

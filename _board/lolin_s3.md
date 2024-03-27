@@ -3,11 +3,11 @@ layout: download
 board_id: "lolin_s3"
 title: "LOLIN S3 Download"
 name: "LOLIN S3"
-manufacturer: "LOLIN"
+manufacturer: "Wemos"
 board_url:
  - "https://www.wemos.cc/en/latest/s3/s3.html"
 board_image: "lolin_s3.png"
-date_added: 2022-9-5
+date_added: 2022-09-05
 family: esp32s3
 bootloader_id: lolin_s3
 features:

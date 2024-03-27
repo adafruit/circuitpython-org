@@ -7,7 +7,7 @@ manufacturer: "NXP"
 board_url:
  - "https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1020-evaluation-kit:MIMXRT1020-EVK"
 board_image: "imxrt1020_evk.jpg"
-date_added: 2020-1-31
+date_added: 2020-01-31
 family: mimxrt10xx
 features:
 

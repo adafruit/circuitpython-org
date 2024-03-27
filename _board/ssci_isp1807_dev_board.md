@@ -7,7 +7,7 @@ manufacturer: "Switch Science, Inc"
 board_url:
  - "https://ssci.to/6454"
 board_image: "ssci_isp1807_dev_board.jpg"
-date_added: 2022-3-16
+date_added: 2022-03-16
 family: nrf52840
 features:
   - Bluetooth/BTLE

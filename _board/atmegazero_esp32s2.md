@@ -7,7 +7,7 @@ manufacturer: "ATMegaZero"
 board_url:
  - "https://www.atmegazero.com"
 board_image: "atmegazero_esp32s2.jpg"
-date_added: 2021-4-19
+date_added: 2021-04-19
 family: esp32s2
 bootloader_id: atmegazero_esp32s2
 features:

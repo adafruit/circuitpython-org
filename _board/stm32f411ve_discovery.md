@@ -7,7 +7,7 @@ manufacturer: "ST"
 board_url:
  - "https://www.st.com/en/evaluation-tools/32f411ediscovery.html"
 board_image: "stm32f411.jpg"
-date_added: 2019-9-16
+date_added: 2019-09-16
 family: stm
 ---
 

@@ -7,7 +7,7 @@ manufacturer: "Electronic Cats"
 board_url:
  - "https://github.com/ElectronicCats/NFC-Copy-Cat"
 board_image: "nfc_copy_cat.jpg"
-date_added: 2020-4-9
+date_added: 2020-04-09
 family: atmel-samd
 features:
   - Robotics

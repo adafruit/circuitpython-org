@@ -7,7 +7,7 @@ manufacturer: "n°Garage"
 board_url:
  - "https://hackaday.io/project/168684-feathersnow"
 board_image: "ndgarage_ndbit6.jpg"
-date_added: 2020-2-5
+date_added: 2020-02-05
 family: atmel-samd
 bootloader_id: ndbit6
 downloads_display: true

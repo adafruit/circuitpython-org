@@ -7,7 +7,7 @@ manufacturer: "01space"
 board_url:
  - "https://github.com/01Space/ESP32-C3-0.42LCD"
 board_image: "01space_lcd042_esp32c3.jpg"
-date_added: 2023-5-4
+date_added: 2023-05-04
 family: esp32c3
 downloads_display: true
 features:

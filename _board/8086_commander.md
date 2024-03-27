@@ -7,7 +7,7 @@ manufacturer: "8086 Consultancy"
 board_url:
  - "https://8086.net/p/commander"
 board_image: "8086_commander.jpg"
-date_added: 2020-3-24
+date_added: 2020-03-24
 family: atmel-samd
 bootloader_id: 8086_commander
 

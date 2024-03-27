@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5056"
 board_image: "adafruit_qt2040_trinkey.jpg"
-date_added: 2021-5-26
+date_added: 2021-05-26
 family: raspberrypi
 features:
 

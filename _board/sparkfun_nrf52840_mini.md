@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/15025"
 board_image: "sparkfun_nrf52840_mini-01.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
 features:
   - Battery Charging

@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5768"
 board_image: "adafruit_feather_rp2040_prop_maker.jpg"
-date_added: 2023-5-4
+date_added: 2023-05-04
 family: raspberrypi
 tags:
   - Propmaker Feather

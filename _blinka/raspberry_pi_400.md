@@ -10,7 +10,7 @@ board_image: "raspberry_pi_400.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true
 blinka: true
-date_added: 2020-11-2
+date_added: 2020-11-02
 features:
   - Wi-Fi
   - Bluetooth/BLE

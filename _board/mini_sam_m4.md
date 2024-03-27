@@ -7,7 +7,7 @@ manufacturer: "Benjamin Shockley"
 board_url:
  - "www.minisam.cc"
 board_image: "mini_sam_m4.jpg"
-date_added: 2019-3-12
+date_added: 2019-03-12
 family: atmel-samd
 bootloader_id: mini_sam_m4
 

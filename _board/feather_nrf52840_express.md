@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4062"
 board_image: "feather_nrf52840_express.jpg"
-date_added: 2019-3-9
+date_added: 2019-03-09
 family: nrf52840
 bootloader_id: feather_nrf52840_express
 features:

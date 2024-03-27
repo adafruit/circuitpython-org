@@ -10,7 +10,7 @@ board_image: "lichee_rv_dock_d1.jpg"
 download_instructions: ""
 downloads_display: true
 blinka: true
-date_added: 2022-10-6
+date_added: 2022-10-06
 features:
   - HDMI/DisplayPort
   - Wi-Fi

@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/5128"
  - "https://www.adafruit.com/product/5100"
 board_image: "adafruit_macropad_rp2040.jpg"
-date_added: 2021-6-4
+date_added: 2021-06-04
 family: raspberrypi
 features:
   - USB-C

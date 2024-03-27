@@ -8,7 +8,8 @@ permalink: /feed.rss
 <link>{{ "/" | absolute_url }}</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
 <lastBuildDate>{{ "now" | date_to_rfc822 }}</lastBuildDate>
-{% for board in site.board %}
+{% assign all_boards = site.board | concat: site.blinka | sort: "date_added" | reverse %}
+{% for board in all_boards %}
   {%- if board.downloads_display == false -%}
     {%- continue -%}
   {%- endif -%}
@@ -17,19 +18,13 @@ permalink: /feed.rss
     <title>{{ board.name }}</title>
     <link>{{ board.url | absolute_url }}</link>
     <description><![CDATA[ {% include downloads/board_image.html board_image=board.board_image %}<p>By {{ board.manufacturer }}</p> {{ board.content }} ]]></description>
+    {% if board.blinka %}
+    <category>Blinka</category>
+    {% else %}
     <category>CircuitPython</category>
-    <pubDate>{{ board.date_added | date: '%s' | plus: twelve_hours | date_to_rfc822 }}</pubDate>
+    {% endif %}
+    <pubDate>{{ board.date_added | date: "%a, %d %b %Y 00:00:00 GMT" }}</pubDate>
     <guid>{{ board.url | absolute_url }}</guid>
   </item>
   {%- endif -%}
-{% endfor %}
-{% for board in site.blinka %}
-    <item>
-      <title>{{ board.name }}</title>
-      <link>{{ board.url | absolute_url }}</link>
-      <description><![CDATA[ {% include downloads/board_image.html board_image=board.board_image %}<p>By {{ board.manufacturer }}</p> {{ board.content }} ]]></description>
-      <category>Blinka</category>
-      <pubDate>{{ board.date_added | date: '%s' | plus: twelve_hours | date_to_rfc822 }}</pubDate>
-      <guid>{{ board.url | absolute_url }}</guid>
-    </item>
 {% endfor %}

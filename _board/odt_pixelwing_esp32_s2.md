@@ -7,7 +7,7 @@ manufacturer: "Oak Development Technologies"
 board_url:
  - "https://www.tindie.com/products/oakdevtech/pixelwing-esp32-s2-rgb-matrix/"
 board_image: "odt_pixelwing_esp32_s2.jpg"
-date_added: 2021-8-24
+date_added: 2021-08-24
 family: esp32s2
 features:
   - Wi-Fi

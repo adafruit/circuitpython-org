@@ -7,7 +7,7 @@ manufacturer: "NXP"
 board_url:
  - "https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1040-evaluation-kit:MIMXRT1040-EVK"
 board_image: "imxrt1040_evk.jpg"
-date_added: 2023-6-5
+date_added: 2023-06-05
 family: mimxrt10xx
 features:
 

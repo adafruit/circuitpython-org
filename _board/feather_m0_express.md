@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/3403"
 board_image: "feather_m0_express.jpg"
-date_added: 2019-3-8
+date_added: 2019-03-08
 family: atmel-samd
 bootloader_id: feather_m0_express
 features:

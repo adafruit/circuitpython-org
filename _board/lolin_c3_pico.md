@@ -3,11 +3,11 @@ layout: download
 board_id: "lolin_c3_pico"
 title: "LOLIN C3 Pico Download"
 name: "LOLIN C3 Pico"
-manufacturer: "LOLIN"
+manufacturer: "Wemos"
 board_url:
  - "https://www.wemos.cc/en/latest/c3/c3_pico.html"
 board_image: "lolin_c3_pico.jpg"
-date_added: 2023-5-24
+date_added: 2023-05-24
 family: esp32c3
 bootloader_id: lolin_c3_pico
 features:

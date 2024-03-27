@@ -7,7 +7,7 @@ manufacturer: "WeAct Studio"
 board_url:
  - "https://github.com/WeActTC/MiniF4-STM32F4x1"
 board_image: "stm32f411ce_blackpill.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: stm
 features:
   - USB-C

@@ -7,7 +7,7 @@ manufacturer: "Espressif"
 board_url:
  - "https://www.adafruit.com/product/5310"
 board_image: "espressif_esp32s3_devkitc_1.jpg"
-date_added: 2021-12-7
+date_added: 2021-12-07
 family: esp32s3
 bootloader_id: espressif_esp32s3_devkitc_1
 features:

@@ -9,7 +9,7 @@ board_url:
 board_image: "beaglebone_green_wireless.jpg"
 downloads_display: true
 blinka: true
-date_added: 2019-12-3
+date_added: 2019-12-03
 features:
   - Wi-Fi
 ---

@@ -8,7 +8,7 @@ board_url:
  - "https://www.waveshare.com/wiki/ESP32-S2-Pico"
 board_image: "waveshare_esp32_s2_pico_lcd.jpg"
 bootloader_id: waveshare_esp32_s2_pico_lcd
-date_added: 2022-8-22
+date_added: 2022-08-22
 family: esp32s2
 features:
   - Wi-Fi

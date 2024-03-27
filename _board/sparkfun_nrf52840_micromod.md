@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/16984"
 board_image: "sparkfun_nrf52840_micromod.jpg"
-date_added: 2021-4-6
+date_added: 2021-04-06
 family: nrf52840
 bootloader_id: sparkfun_nrf52840_micromod
 features:

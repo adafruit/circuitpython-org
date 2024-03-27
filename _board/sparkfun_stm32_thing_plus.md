@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/17712"
 board_image: "sparkfun_stm32_thing_plus.jpg"
-date_added: 2022-1-4
+date_added: 2022-01-04
 family: stm
 features:
   - Feather-Compatible

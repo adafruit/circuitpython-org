@@ -7,7 +7,7 @@ manufacturer: "PyCubed.org"
 board_url:
  - "https://pycubed.org/"
 board_image: "pycubed_v05.jpg"
-date_added: 2021-9-12
+date_added: 2021-09-12
 family: atmel-samd
 features:
 

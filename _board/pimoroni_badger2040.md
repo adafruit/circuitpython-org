@@ -7,7 +7,7 @@ manufacturer: "Pimoroni"
 board_url:
  - "https://shop.pimoroni.com/products/badger-2040"
 board_image: "pimoroni_badger2040.jpg"
-date_added: 2022-2-24
+date_added: 2022-02-24
 family: raspberrypi
 features:
   - Display

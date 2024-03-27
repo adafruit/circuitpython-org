@@ -7,7 +7,7 @@ manufacturer: "Banana Pi"
 board_url:
  - "https://wiki.banana-pi.org/BPI-Leaf-S3"
 board_image: "bpi_leaf_s3.jpg"
-date_added: 2022-7-4
+date_added: 2022-07-04
 family: esp32s3
 bootloader_id: bpi_leaf_s3
 features:

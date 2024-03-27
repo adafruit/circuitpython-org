@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5712"
 board_image: "adafruit_feather_rp2040_rfm69.jpg"
-date_added: 2023-4-4
+date_added: 2023-04-04
 family: raspberrypi
 features:
   - Feather-Compatible

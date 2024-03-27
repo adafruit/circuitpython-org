@@ -7,7 +7,7 @@ manufacturer: "SparkFun"
 board_url:
  - "https://www.sparkfun.com/products/15423"
 board_image: "sparkfun_qwiic_micro.jpg"
-date_added: 2019-11-4
+date_added: 2019-11-04
 family: atmel-samd
 features:
   - STEMMA QT/QWIIC
