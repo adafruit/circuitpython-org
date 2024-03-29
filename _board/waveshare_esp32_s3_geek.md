@@ -13,6 +13,7 @@ features:
   - USB-C
   - Wi-Fi
   - Bluetooth/BTLE
+  - Display
 ---
 
 Waveshare ESP32-GEEK Development Board, Based On ESP32-S3R2 Controller Chip, With 1.14inch 65K Color LCD, Supports WiFi & Bluetooth LE, USB-A Male Port, With White Plastic Case
