@@ -9962,7 +9962,8 @@
         "features": [
             "USB-C",
             "Wi-Fi",
-            "Bluetooth/BTLE"
+            "Bluetooth/BTLE",
+            "Display"
         ],
         "url_path": "/board/waveshare_esp32_s3_geek/",
         "description": "<p>Waveshare ESP32-GEEK Development Board, Based On ESP32-S3R2 Controller Chip, With 1.14inch 65K Color LCD, Supports WiFi &amp; Bluetooth LE, USB-A Male Port, With White Plastic Case</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Adopts ESP32-S3R2 chip with Xtensa® 32-bit LX7 dual-core processor, capable of running at 240 MHz.</li>  <li>Built-in 512KB SRAM, 384KB ROM, 2MB of on-chip PSRAM, and onboard 16MB Flash memory.</li>  <li>Onboard 1.14inch 240×135 pixels 65K color IPS LCD display.</li>  <li>Integrated 2.4GHz WiFi and Bluetooth LE wireless communication.</li>  <li>WiFi supports Infrastructure BSS in Station, SoftAP, and Station + SoftAP modes.</li>  <li>WiFi supports 1T1R mode with a data rate of up to 150 Mbps.</li>  <li>Bluetooth supports high power mode (20dBm).</li>  <li>Internal co-existence mechanism between Wi-Fi and Bluetooth to share the same antenna.</li>  <li>The onboard 3-pin UART interface can function as a USB-to-serial adapter.</li>  <li>The onboard 3-pin GPIO interface can be used for debugging other modules or for ADC data collection.</li>  <li>The onboard 4-pin I2C interface is available for testing the target board.</li>  <li>Equipped with plastic case and cables.</li>  <li>Provides online open-source demos and resources, more convenient for learning and development.</li></ul><p>Waveshare Wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S3-GEEK\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s3-geek.htm\">Waveshare</a></li></ul>"
@@ -10030,6 +10031,27 @@
         ],
         "url_path": "/board/waveshare_esp32s2_pico/",
         "description": "<p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li><strong>ESP32-S2FH4</strong> - Xtensa single-core 32-bit LX7 240Mhz microprocessor</li>  <li><strong>Boot &amp; Reset</strong> buttons to get into the bootloader</li>  <li><strong>TPS63000DRCR</strong> on-board 1.8A current high efficiency boost/buck DC-DC power supply IC</li>  <li>Integrated 320KB SRAM, 128KB ROM, 8MB PSRAM, 4MB Flash memory</li>  <li>Support IEEE802.11 b/g/n, on-board 2.4 GHz WiFi ceramic antenna, up to 150 Mbps data transfer rate</li>  <li>USB-C connector, no more plug orientation problem</li></ul><p>Waveshare wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S2-Pico\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><p>Add any links to purchase the board</p><ul>  <li><a href=\"https://www.waveshare.com/esp32-s2.htm\">Waveshare</a></li>  <li><a href=\"https://grobotronics.com/waveshare-esp32-s2-wifi-development-board.html\">Grobotronics</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2040_geek",
+        "title": "RP2040-GEEK Download",
+        "name": "RP2040-GEEK",
+        "board_url": [
+            "https://www.waveshare.com/rp2040-geek.htm"
+        ],
+        "board_image": "waveshare_rp2040_geek.jpg",
+        "date_added": "2024-03-29",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Wi-Fi",
+            "Display"
+        ],
+        "url_path": "/board/waveshare_rp2040_geek/",
+        "description": "<p>Waveshare RP2040-GEEK Development Board, Based On RP2040 Microcontroller, With 1.14inch 65K Color LCD, USB Debugging Downloader, With White Plastic Case</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Onboard 3PIN SWD port for connecting the debugged target board</li>  <li>Standard CMSIS-DAP interface can be used to debug most ARM-based microcontrollers</li>  <li>Works with OpenOCD and other tools supporting CMSIS-DAP</li>  <li>Adopts the Raspberry Pi 3PIN Debug Connector Specification</li>  <li>Onboard 3PIN USB to UART bridge</li>  <li>Onboard 4PIN I2C port for the testing target board</li>  <li>Onboard 1.14inch 240×135 pixels 65K color IPS LCD display</li>  <li>Equipped with plastic case and cables</li>  <li>Open-source firmware, more convenient to upgrade</li></ul><p>Waveshare Wiki <a href=\"https://www.waveshare.com/wiki/RP2040-GEEK\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2040-geek.htm\">Waveshare</a></li></ul>"
     },
     {
         "board_id": "waveshare_rp2040_lcd_0_96",

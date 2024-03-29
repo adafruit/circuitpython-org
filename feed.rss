@@ -4,9 +4,49 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 29 Mar 2024 12:09:36 -0400</lastBuildDate>
+<lastBuildDate>Fri, 29 Mar 2024 14:10:44 -0400</lastBuildDate>
 
 <item>
+    <title>RP2040-GEEK</title>
+    <link>https://circuitpython.org/board/waveshare_rp2040_geek/</link>
+    <description><![CDATA[   
+  
+  <img srcset="https://circuitpython.org/assets/images/boards/small/waveshare_rp2040_geek.jpg 300w,
+               https://circuitpython.org/assets/images/boards/large/waveshare_rp2040_geek.jpg 700w"
+       sizes="(max-width: 1024px) 700px,
+              300px"
+       src="https://circuitpython.org/assets/images/boards/large/waveshare_rp2040_geek.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>Waveshare RP2040-GEEK Development Board, Based On RP2040 Microcontroller, With 1.14inch 65K Color LCD, USB Debugging Downloader, With White Plastic Case</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>
+  <li>Onboard 3PIN SWD port for connecting the debugged target board</li>
+  <li>Standard CMSIS-DAP interface can be used to debug most ARM-based microcontrollers</li>
+  <li>Works with OpenOCD and other tools supporting CMSIS-DAP</li>
+  <li>Adopts the Raspberry Pi 3PIN Debug Connector Specification</li>
+  <li>Onboard 3PIN USB to UART bridge</li>
+  <li>Onboard 4PIN I2C port for the testing target board</li>
+  <li>Onboard 1.14inch 240×135 pixels 65K color IPS LCD display</li>
+  <li>Equipped with plastic case and cables</li>
+  <li>Open-source firmware, more convenient to upgrade</li>
+</ul>
+
+<p>Waveshare Wiki <a href="https://www.waveshare.com/wiki/RP2040-GEEK">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/rp2040-geek.htm">Waveshare</a></li>
+</ul>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 29 Mar 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_rp2040_geek/</guid>
+  </item><item>
     <title>Sunton ESP32-2424S012</title>
     <link>https://circuitpython.org/board/sunton_esp32_2424S012/</link>
     <description><![CDATA[   
