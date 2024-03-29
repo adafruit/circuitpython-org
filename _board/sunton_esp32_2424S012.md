@@ -13,7 +13,7 @@ Sunton ESP32-2424S012 Development Board, Based on ESP32-C3 MCU. With 1.28" 65K C
 
 ## Technical details
 
- - Onboard round 1.8inch 240×240 pixels 65K color Touch LCD display.
+ - Onboard round 1.28inch 240×240 pixels 65K color Touch LCD display.
  - Integrated 2.4GHz WiFi and Bluetooth wireless communication.
  - SPI Display
  - I2C Touch
