@@ -17,7 +17,7 @@ permalink: /feed.rss
   <item>
     <title>{{ board.name }}</title>
     <link>{{ board.url | absolute_url }}</link>
-    <description><![CDATA[ {% include downloads/board_image.html board_image=board.board_image %}<p>By {{ board.manufacturer }}</p> {{ board.content }} ]]></description>
+    <description><![CDATA[ {% include downloads/feed_board_image.html board_image=board.board_image %}<p>By {{ board.manufacturer }}</p> {{ board.content }} ]]></description>
     {% if board.blinka %}
     <category>Blinka</category>
     {% else %}
