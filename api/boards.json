@@ -1215,7 +1215,8 @@
         "title": "Temp and Humidity Trinkey Download",
         "name": "Temp and Humidity Trinkey",
         "board_url": [
-            "https://www.adafruit.com/"
+            "https://www.adafruit.com/product/5896",
+            "https://www.adafruit.com/product/5912"
         ],
         "board_image": "adafruit_sht4x_trinkey_m0.jpg",
         "date_added": "2024-03-13",
@@ -1226,7 +1227,7 @@
         "features": [
         ],
         "url_path": "/board/adafruit_sht4x_trinkey_m0/",
-        "description": "<p>Coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href=\"https://www.youtube.com/adafruit\">YouTube</a>.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://youtu.be/F55C2RzlXJk?si=wjKQhMp73NXmFBD8&amp;t=158\">YouTube</a></li></ul>"
+        "description": "<p>It’s half USB Key, half temperature-humidity sensor<em>…</em> it’s the <strong>Adafruit SHT41 and SHT45 Trinkey</strong> boards. We wanted to make it super-easy to add one of our most popular combination environmental sensors to any computer with a USB A port.</p><p>The PCB is designed to slip into any USB A port on a computer or laptop. There’s an ATSAMD21 microcontroller on board with just enough circuitry to keep it happy. One pin of the microcontroller connects to a NeoPixel LED. Another pin is used as a capacitive touch input on the end. A reset button lets you enter bootloader mode if necessary. That’s it!</p><p>The SAMD21 can run CircuitPython or Arduino nicely - both have existing SHT4x, NeoPixel, and our FreeTouch (capacitive touch) libraries. Over the USB connection, you can have serial, MIDI, or HID connectivity.</p><p>The SHT41 sensor is the fourth generation of I2C temperature and humidity sensor from Sensirion. (They started at the SHT10 and reached the top!). The <strong>SHT41 has an excellent ±1.8% typical relative humidity accuracy from 25 to 75% and ±0.2 °C typical accuracy from 0 to 75 °C.</strong> The reported temperature may be a few degrees higher than ambient due to self-heating.</p><p>The <strong>SHT45</strong> sensor is the fourth generation (started at the SHT10 and worked its way up to the top!). <strong>The SHT45 has an excellent ±1.0% typical relative humidity accuracy from 25 to 75% and ±0.1°C typical accuracy from 0 to 75 °C</strong>. The reported temperature may be a few degrees higher than ambient due to self-heating.</p><p>The SHT41 or SHT45 Trinkey is perfect for simple projects that want to read the ambient temperature and humidity without extra wiring, soldering, drivers, or complex software. We even ship the board pre-programmed with code that will print a unique serial number, the temperature, humidity, and touch sensor over a serial/COM port in CSV (comma-separated value) format so you can use it immediately. <a href=\"https://www.adafruit.com/product/993\">If you need to measure farther than the computer port, simply use any USB A extension cable</a>.</p><p><a href=\"https://www.adafruit.com/product/5912\">If you don’t need high precision, save a few $ with the SHT41 Trinkey</a>, which has ±1.8% typical relative humidity accuracy from 25 to 75% and ±0.2°C typical accuracy from 0 to 75 °C.</p><p>We think it’s just an adorable little board. It’s small, durable, and inexpensive enough to be a first microcontroller board or an inspiration for advanced developers to make something simple and fun.</p><ul>  <li>ATSAMD21E18 32-bit Cortex M0+ - 48 MHz 32-bit processor with 256KB Flash and 32 KB RAM</li>  <li>Native USB supported by every OS - can be used in Arduino or CircuitPython as a USB serial console, MIDI, Keyboard/Mouse HID, and even a little disk drive for storing Python scripts.</li>  <li>Can be used with Arduino IDE or CircuitPython</li>  <li>One RGB NeoPixel LED</li>  <li>One Capacitive Touchpad</li>  <li>SHT41 or SHT45 Temperature + Humidity sensor with thermal-isolation cutout</li>  <li>Reset switch <strong>to start</strong> your project code over or enter bootloader mode</li>  <li>Slim and cute, keychain-friendly!</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5912\">Adafruit SHT41 Trinkey</a></li>  <li><a href=\"https://www.adafruit.com/product/5896\">Adafruit SHT45 Trinkey</a></li></ul>"
     },
     {
         "board_id": "adafruit_slide_trinkey_m0",
@@ -5660,6 +5661,29 @@
         "description": "<p>M5Stack FIRE is a cost-effective Wi-Fi IoT controller adopts Espressif ESP32 main control chip, equipped with two low-power Xtensa® 32-bit LX6 microprocessors, with main frequency up to 240MHz. With 8M PSRAM + 16M FLASH memory, 2.0-inch full-color HD IPS display panel, IMU, LED, microphone, speaker, TFCard slot and other peripherals. The full-coverage case ensures circuit stability even in complex industrial applications. The internal offers a wide range of common interface resources (ADC/DAC/I2C/UART/SPI, etc.) which is highly expandable. This functional and powerful IoT controller is very applicable to various product prototyping, industrial control and smart building applications.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32 module, with WiFi / Bluetooth capability</li>  <li>16MB of FLASH</li>  <li>Micro-SD Card slot</li>  <li>USB to Serial converter built in</li>  <li>320x240 2.0” TFT display</li>  <li>3 User Buttons + 1 Reset Button</li>  <li>Small 1W speaker</li>  <li>500mAh LiPo battery</li>  <li>Grove/I2C connector</li>  <li>M5 stacking GPIO connector</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/fire_v2.6\">Basic Core IoT</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/collections/m5-controllers/products/m5stack-fire-iot-development-kit-psram-v2-6\">M5Stack</a></li></ul>"
     },
     {
+        "board_id": "m5stack_cores3",
+        "title": "CoreS3 ESP32 IoT Download",
+        "name": "CoreS3 ESP32 IoT",
+        "board_url": [
+            "https://docs.m5stack.com/en/core/cores3"
+        ],
+        "board_image": "m5stack_cores3.jpg",
+        "date_added": "2024-03-29",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Speaker",
+            "Display",
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C"
+        ],
+        "url_path": "/board/m5stack_cores3/",
+        "description": "<p><strong>CoreS3</strong> is the third generation of the M5Stack Core series. Powered by the <a href=\"https://shop.m5stack.com/products/m5stamp-esp32s3-module\">ESP32-S3</a> solution, this kit features a dual-core Xtensa LX7 processor running at 240MHz. CoreS3 comes equipped with built-in Wi-Fi functionality, enabling seamless connectivity. It boasts 16MB of onboard flash memory and 8MB of PSRAM, providing ample space for program storage.</p><p>CoreS3 offers convenient programming options through its TYPE-C interface, supporting OTG and CDC functions. This allows for easy connection with external USB devices and hassle-free firmware flashing. CoreS3 features a <strong>2.0-inch</strong> capacitive touch IPS screen, protected by high-strength glass material. Additionally, a 30W pixel camera <strong>GC0308</strong> is integrated at the bottom of the screen, accompanied by a proximity sensor <strong>LTR-553ALS-WA</strong> for enhanced functionality. Power management is handled by the <strong>AXP2101</strong> power management core chip, employing a 4-way power flow control loop for efficient power distribution. The overall design emphasizes low power consumption. CoreS3 also features a 6-axis attitude sensor <strong>BMI270</strong> and a magnetometer BMM150 for precise motion detection. With the onboard TF-card (microSD) card slot and <strong>BM8563</strong> RTC chip, accurate timing and sleep-timer wake-up functions are readily available.</p><p>Sound output on CoreS3 is optimized with the high-fidelity 16-bit I2S power amplifier chip AW88298, accompanied by a built-in 1W speaker for clear audio playback. For sound input, the kit incorporates the ES7210 audio decoding chip and dual-microphone input. The side of the device includes an independent power button and restart (RST) button, complemented by a self-built delay circuit. By long-pressing the reset button, users can easily enter the program download mode. The CoreS3 kit comes with the DinBase Base, providing convenient options for Din rail, wall, and screw fixing. It can be powered by an external DC 12V (supports 9~24V) or an internal 500mAh lithium battery. The DinBase also offers multiple proto locations for users to customize and expand their projects. CoreS3 is an ideal choice for IoT development, various DIY project development, smart home control systems, and industrial automation control systems.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Developed based on ESP32, support WiFi @16M Flash, 8M PSRAM</li>  <li>Built-in camera, proximity sensor, speaker, power indicator, RTC, I2S amplifier, dual microphone, condenser touch screen, power button, reset button, gyroscope</li>  <li>TF card slot</li>  <li>High-strength glass</li>  <li>Support OTG and CDC functions</li>  <li>AXP2101 power management, low power design</li>  <li>Supported programming platforms: Arduino, UIFlow</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/cores3\">Basic Core IoT</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/m5stack-cores3-esp32s3-lotdevelopment-kit\">M5Stack</a></li></ul>"
+    },
+    {
         "board_id": "m5stack_dial",
         "title": "Dial - Smart Rotary Knob with Touch Screen Download",
         "name": "Dial - Smart Rotary Knob with Touch Screen",
@@ -8081,6 +8105,24 @@
         ],
         "url_path": "/board/raytac_mdbt50q-rx/",
         "description": "<p>This USB dongle/key type thing is a little unusual - it <em>isn’t</em> a BLE adapter that you plug into a computer to add wireless capability. (If you do want something like that, our <a href=\"https://www.adafruit.com/products/1327\">Bluetooth 4.0 USB Module</a> will do the job nicely.) Instead, this is basically a minimal nRF52840 wireless microcontroller dev board on a stick. You can program it in Arduino or CircuitPython and it’s completely standalone. This could be useful for some situations where you want to have a standalone BLE device that communicates with a USB host <em>but without dealing with the operating system’s BLE stack</em>.</p><p>Each MDBT50Q-RX dongle comes pre-programmed with the TinyUF2 bootloader, which makes loading code onto it very easy (note that only the ones from Adafruit do this, its a special-order item). To enter the bootloader, hold down the dongle’s button while inserting into USB. The button can be used in Arduino/CircuitPython as an input. There’s also a single blue LED indicator. It’s all very simple but we could see situations where perhaps this acts as a beacon, a OS-less BLE interface or bridge, or a compact development board for experimenting with the nRF52840.</p><p>The blue LED is connected to P1.13, set that pin to be an output and pull low to turn on the LED</p><p>The button is connected to P0.15, set that pin to be an input with an internal pullup - when pressed the pin will go low.</p><p>Of course the best way to program these chips is with the Nordic SDK. This chip also has <a href=\"https://github.com/adafruit/Adafruit_nRF52_Arduino\">some basic Arduino support</a>, <a href=\"https://github.com/adafruit/circuitpython/tree/main/ports/nrf\">CircuitPython support</a>, and is <a href=\"https://mynewt.apache.org/latest/tutorials/blinky/nRF52.html\">supported by MyNewt</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5199\">Adafruit</a></li>  <li><a href=\"https://www.raytac.com/product/ins.php?index_id=89\">Raytac Corporation</a></li></ul>"
+    },
+    {
+        "board_id": "rfguru_rp2040",
+        "title": "RF.Guru µPico Download",
+        "name": "RF.Guru µPico",
+        "board_url": [
+            "https://github.com/Guru-RF/MicroPico"
+        ],
+        "board_image": "rfguru_rp2040.jpg",
+        "date_added": "2024-03-29",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/rfguru_rp2040/",
+        "description": "<p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p><p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/Guru-RF/MicroPico\">GitHub</a></li></ul>"
     },
     {
         "board_id": "robohatmm1_m4",

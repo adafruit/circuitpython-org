@@ -1687,6 +1687,17 @@
             }
         ]
     },
+    "m5stack_cores3": {
+        "name": "CoreS3 ESP32 IoT",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.1.0-beta.0",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_cores3/en_US/adafruit-circuitpython-m5stack_cores3-en_US-9.1.0-beta.0.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_cores3/en_US/adafruit-circuitpython-m5stack_cores3-en_US-9.1.0-beta.0.uf2"
+            }
+        ]
+    },
     "firebeetle2_esp32s3": {
         "name": "FireBeetle 2 ESP32-S3",
         "chipfamily": "esp32s3",
