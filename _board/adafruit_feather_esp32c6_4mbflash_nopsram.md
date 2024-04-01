@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_feather_esp32c6_4mbflash_nopsram"
-title: "Feather ESP32-S6 4MB Flash No PSRAM Download"
-name: "Feather ESP32-S6 4MB Flash No PSRAM"
+title: "Feather ESP32-C6 4MB Flash No PSRAM Download"
+name: "Feather ESP32-C6 4MB Flash No PSRAM"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/"
