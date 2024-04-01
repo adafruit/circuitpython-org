@@ -1,8 +1,7 @@
   {% assign small_image = "/assets/images/boards/small/" | append: include.board_image %}
   {% assign large_image = "/assets/images/boards/large/" | append: include.board_image %}
-  <!-- (uses an absolute URL for better compatibility with RSS readers -->
-  <img srcset="{{ small_image | absolute_url }} 300w,
-               {{ large_image | absolute_url }} 700w"
+  <img srcset="{{ small_image }} 300w,
+               {{ large_image }} 700w"
        sizes="(max-width: 1024px) 700px,
               300px"
-       src="{{ large_image | absolute_url }}" alt="Image of Board" loading="lazy">
+       src="{{ large_image }}" alt="Image of Board" loading="lazy">
