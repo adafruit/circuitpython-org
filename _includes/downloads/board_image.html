@@ -1,7 +1,7 @@
-  {% assign small_image = "/assets/images/boards/small/" | append: include.board_image %}
-  {% assign large_image = "/assets/images/boards/large/" | append: include.board_image %}
-  <img srcset="{{ small_image }} 300w,
-               {{ large_image }} 700w"
-       sizes="(max-width: 1024px) 700px,
-              300px"
-       src="{{ large_image }}" alt="Image of Board" loading="lazy">
+{% assign small_image = "/assets/images/boards/small/" | append: include.board_image | absolute_url %}
+{% assign large_image = "/assets/images/boards/large/" | append: include.board_image | absolute_url %}
+<img srcset="{{ small_image }} 300w,
+             {{ large_image }} 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="{{ large_image }}" alt="Image of Board" loading="lazy">
