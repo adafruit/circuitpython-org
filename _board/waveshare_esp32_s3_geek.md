@@ -10,7 +10,7 @@ board_image: "waveshare_esp32_s3_geek.jpg"
 date_added: 2024-03-25
 family: esp32s3
 features:
-  - USB-C
+  - STEMMA QT/QWIIC
   - Wi-Fi
   - Bluetooth/BTLE
   - Display

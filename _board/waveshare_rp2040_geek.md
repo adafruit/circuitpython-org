@@ -10,8 +10,7 @@ board_image: "waveshare_rp2040_geek.jpg"
 date_added: 2024-03-29
 family: raspberrypi
 features:
-  - USB-C
-  - Wi-Fi
+  - STEMMA QT/QWIIC
   - Display
 ---
 
