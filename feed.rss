@@ -4,9 +4,48 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 04 Apr 2024 06:03:33 -0400</lastBuildDate>
+<lastBuildDate>Thu, 04 Apr 2024 09:47:22 -0400</lastBuildDate>
 
 <item>
+    <title>Maker Go ESP32C3 Supermini</title>
+    <link>https://circuitpython.org/board/makergo-esp32c3-supermini/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/makergo-esp32c3-supermini.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/makergo-esp32c3-supermini.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/makergo-esp32c3-supermini.jpg" alt="Image of Board" loading="lazy">
+<p>By Maker Go</p> <p>ESP32C3 SuperMini is an IoT mini development board based on the Espressif ESP32C3 WiFi/Bluetooth dual mode chip. ESP32-C3 is a 32-bit RISC-V CPU that includes an FPU (floating point unit) that can perform 32-bit single precision operations and has powerful computing power. It has excellent RF performance and supports IEEE 802.11 b/g/n WiFi and Bluetooth 5 (LE) protocols. This board comes with an external antenna to enhance the signal strength of wireless applications. It also has a compact and exquisite appearance combined with a single surface mount design. It is equipped with rich interfaces, with 11 digital I/Os that can be used as PWM pins and 4 analog I/Os that can be used as ADC pins. It supports four serial interfaces: UART, I2C, and SPI. There is also a small reset button and a boot loader mode button on the board.
+Based on the above characteristics, ESP32C3SuperMini is positioned as a high-performance, low-power, and cost-effective IoT mini development board, suitable for low-power IoT applications and wireless wearable applications.</p>
+
+<h2 id="technical-details">Technical Details</h2>
+<ul>
+  <li>Powerful CPU: ESP32-C3, 32-bit RISC-V single core processor, running at frequencies up to 160 MHz</li>
+  <li>WiFi: 802.11b/g/n protocol, 2.4GhHz, supports Station mode, SoftAP mode, SoftAP Station mode, hybrid mode</li>
+  <li>Bluetooth 5.0</li>
+  <li>Ultra low power consumption: Deep sleep power consumption is about 43 μ A</li>
+  <li>Rich board resources: 400KB SRAM, 384KB ROM with built-in 4Mflash.</li>
+  <li>Chip model: ESP32C3FN4</li>
+  <li>Ultra small size: as small as the thumb (22.52x18mm) in a classic shape, suitable for wearable devices and small projects</li>
+  <li>Reliable security features: Encryption hardware accelerator supporting AES-128/256, hashing, RSA, HMAC, digital signature, and secure boot</li>
+  <li>Rich interfaces: 1xI2C, 1xSPI, 2xUART, 11xGPIO (PWM), 4xADC</li>
+  <li>Single sided components, surface mount design</li>
+  <li>Blue light led on board: gpio8 pin</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<p>Add any links to purchase the board</p>
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005006484193347.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/makergo-esp32c3-supermini/</guid>
+  </item><item>
     <title>Quartz64 Model A</title>
     <link>https://circuitpython.org/blinka/quartz64_a/</link>
     <description><![CDATA[ 

@@ -5993,6 +5993,29 @@
         "description": "<p>This ESP32 S3 7-inch IPS display could be an ideal displayer&amp; controller for IOT applications. It has 2 versions: High-resolution version 800<em>480, and Ultra High-resolution version 1024</em>600; Display on both versions is IPS, and the display effect is beautiful, together with 5 points capacitive touch, great for applications such as home automation; There on-board SD card, to make it possible to record/play filed data. Also, there 2 Mabee/ Grove connectors, so the users can connect kinds of sensors to this board, to create personal prototype projects instantly.</p><h3 id=\"specs\">Specs:</h3><ul>  <li>Controller: ESP32-S3-WROOM-1, PCB Antenna, 16MB Flash, 8MB PSRAM, ESP32-S3-WROOM-1-N16R8</li>  <li>Wireless: Wifi&amp; Bluetooth 5.0</li>  <li>LCD: 7 inch High Lightness IPS</li>  <li>FPS: &gt;30</li>  <li>Resolution: 800<em>480/1024</em>600</li>  <li>LCD interface: RGB 565</li>  <li>Touch Panel: 5 Points Touch, Capacitive</li>  <li>Touch Panel Driver: GT911</li>  <li>USB: Dual USB Type-C(one for USB-to-UART and one for native USB)</li>  <li>UART to UART Chip: CP2104</li>  <li>Power Supply: USB Type-C 5.0V(4.0V~5.25V)</li>  <li>Button: Flash button and reset button</li>  <li>Mabee interface: 1<em>I2C;1</em>GPIO</li>  <li>MicroSD: Yes</li>  <li>Arduino support: Yes</li>  <li>Type-C Power Delivery: Not Supported</li>  <li>Operation temperature: -40℃ to +85℃</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.makerfabs.com/esp32-s3-parallel-tft-with-touch-7-inch.html\">Makerfabs</a></li></ul>"
     },
     {
+        "board_id": "makergo-esp32c3-supermini",
+        "title": "Maker Go ESP32C3 Supermini Download",
+        "name": "Maker Go ESP32C3 Supermini",
+        "board_url": [
+            "https://www.aliexpress.com/item/1005006484193347.html"
+        ],
+        "board_image": "makergo-esp32c3-supermini.jpg",
+        "date_added": "2024-04-01",
+        "family": "esp32c3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/makergo-esp32c3-supermini/",
+        "description": "<p>ESP32C3 SuperMini is an IoT mini development board based on the Espressif ESP32C3 WiFi/Bluetooth dual mode chip. ESP32-C3 is a 32-bit RISC-V CPU that includes an FPU (floating point unit) that can perform 32-bit single precision operations and has powerful computing power. It has excellent RF performance and supports IEEE 802.11 b/g/n WiFi and Bluetooth 5 (LE) protocols. This board comes with an external antenna to enhance the signal strength of wireless applications. It also has a compact and exquisite appearance combined with a single surface mount design. It is equipped with rich interfaces, with 11 digital I/Os that can be used as PWM pins and 4 analog I/Os that can be used as ADC pins. It supports four serial interfaces: UART, I2C, and SPI. There is also a small reset button and a boot loader mode button on the board.Based on the above characteristics, ESP32C3SuperMini is positioned as a high-performance, low-power, and cost-effective IoT mini development board, suitable for low-power IoT applications and wireless wearable applications.</p><h2 id=\"technical-details\">Technical Details</h2><ul>  <li>Powerful CPU: ESP32-C3, 32-bit RISC-V single core processor, running at frequencies up to 160 MHz</li>  <li>WiFi: 802.11b/g/n protocol, 2.4GhHz, supports Station mode, SoftAP mode, SoftAP Station mode, hybrid mode</li>  <li>Bluetooth 5.0</li>  <li>Ultra low power consumption: Deep sleep power consumption is about 43 μ A</li>  <li>Rich board resources: 400KB SRAM, 384KB ROM with built-in 4Mflash.</li>  <li>Chip model: ESP32C3FN4</li>  <li>Ultra small size: as small as the thumb (22.52x18mm) in a classic shape, suitable for wearable devices and small projects</li>  <li>Reliable security features: Encryption hardware accelerator supporting AES-128/256, hashing, RSA, HMAC, digital signature, and secure boot</li>  <li>Rich interfaces: 1xI2C, 1xSPI, 2xUART, 11xGPIO (PWM), 4xADC</li>  <li>Single sided components, surface mount design</li>  <li>Blue light led on board: gpio8 pin</li></ul><h2 id=\"purchase\">Purchase</h2><p>Add any links to purchase the board</p><ul>  <li><a href=\"https://www.aliexpress.com/item/1005006484193347.html\">Aliexpress</a></li></ul>"
+    },
+    {
         "board_id": "maple_elite_pi",
         "title": "Maple Elite-Pi Download",
         "name": "Maple Elite-Pi",
