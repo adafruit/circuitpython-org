@@ -39,11 +39,11 @@ Introducing the ProS3 - The Ultimate Pro ESP32-S3 Development Board!
 - Native USB + USB Serial JTAG
 - LiPo Battery Charging + PicoBlade connector
 - VBAT and 5V Sense Pins
-- 3D High Gain Antenna
 - 27x GPIO including castellated headers
 - STEMMA connector powered by LDO1
 - **JTAG pins on the header**
 - Compatible with TinyPICO & TinyS3
+- Available with 3D High Gain Antenna or u.FL for external Antenna
 
 You can find out more about the ProS3 at [pros3.io](https://pros3.io)
 

@@ -5,7 +5,7 @@ title: "Unexpected Maker FeatherS2 Neo Download"
 name: "Unexpected Maker FeatherS2 Neo"
 manufacturer: "Unexpected Maker"
 board_url:
- - "https://unexpectedmaker.com/shop/feathers2neo-esp32s2"
+ - "https://unexpectedmaker.com/shop/feathers2neo"
  - "https://www.adafruit.com/product/5629"
 board_image: "unexpectedmaker_feathers2_neo.jpg"
 date_added: 2021-08-31
@@ -51,4 +51,4 @@ You can find out more about the FeatherS2 Neo at [unexpected maker](https://unex
 
 ## Purchase
  * [Adafruit](https://www.adafruit.com/product/5629)
- * [unexpectedmaker shop](https://unexpectedmaker.com/shop/feathers2neo-esp32s2)
+ * [unexpected Maker](https://unexpectedmaker.com/shop/feathers2neo)

@@ -31,13 +31,13 @@ Introducing the NanoS3 - The world’s smallest, fully-featured ESP32-S3 board i
 - 5V back-feed protection
 - Native USB + USB Serial JTAG
 - LiPo Battery Charging
-- 3D High Gain Antenna
 - 27 GPIO
 - Only 28 x 11mm in size
 - Drop in compatible with TinyPICO Nano
+- Available with 3D High Gain Antenna or u.FL for external Antenna
 
 You can find out more about the NanoS3 at [nanos3.io](https://nanos3.io)
 
 ## Purchase
 You can purchase your very own NanoS3 from:
-Unexpected Maker - https://unexpectedmaker.com/shop/nanos3
+* [Unexpected Maker](https://unexpectedmaker.com/shop/nanos3)
