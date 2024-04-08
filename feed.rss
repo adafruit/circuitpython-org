@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 08 Apr 2024 11:11:16 -0400</lastBuildDate>
+<lastBuildDate>Mon, 08 Apr 2024 16:21:45 -0400</lastBuildDate>
 
 <item>
     <title>Sunton ESP32-8048S070</title>
@@ -1755,17 +1755,20 @@ uPico is fully compatible with RaspberryPi Pico, including LED pin(GPIO25).</p>
   <li>LiPo Battery Charging</li>
   <li>JST pads on the back supports PH connector</li>
   <li>VBAT and 5V Sense Pins</li>
-  <li>3D High Gain Antenna or uFL</li>
   <li>17 GPIO</li>
   <li>Only 35 x 18mm in size</li>
   <li>Compatible with TinyPICO, TinyS2 &amp; TinyS3</li>
+  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li>
 </ul>
 
 <p>You can find out more about the TinyC6 at <a href="https://tinyc6.io">tinyc6.io</a></p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own TinyC6 from:
-Unexpected Maker - https://unexpectedmaker.com/shop.html#!/TinyC6/p/602208790/category=0</p>
+<p>You can purchase your very own TinyC6 from:</p>
+
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop/tinyc6">Unexpected Maker</a></li>
+</ul>
  ]]></description>
     
     <category>CircuitPython</category>
@@ -1906,7 +1909,50 @@ For more information, please refer to the module <a href="https://circuitpython-
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/unexpectedmaker_tinywatch_s3.jpg" alt="Image of Board" loading="lazy">
-<p>By Unexpected Maker</p> <p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>
+<p>By Unexpected Maker</p> <h3 id="core-hw-specifications">Core HW Specifications</h3>
+<ul>
+  <li>32Bit Dual Core 240MHz</li>
+  <li>RISC-V ultra low power core</li>
+  <li>2.4GHz WiFi - 802.11b/g/n</li>
+  <li>Bluetooth 5, BLE + Mesh</li>
+  <li>8MB QSPI Flash</li>
+  <li>2MB Extra QSPI PSRAM</li>
+  <li>700mA 3.3V LDO Regulator</li>
+  <li>Power On/Off Button</li>
+  <li>USB-C Connector</li>
+  <li>Reverse USB back-feed protection</li>
+  <li>ESD protection on USB and buttons</li>
+  <li>5V presence detection</li>
+  <li>LiPo Battery Charging</li>
+  <li>Charge Battery when watch power is off</li>
+  <li>5V Power (red), Charge (orange) LEDs</li>
+  <li>3D High Gain Antenna</li>
+</ul>
+
+<h3 id="included-peripherals">Included Peripherals</h3>
+<ul>
+  <li>240x280 ST7789 Display</li>
+  <li>Capacitive Touch (CST816T)</li>
+  <li>I2C Battery Fuel Gauge (MAX1704X)</li>
+  <li>I2C Low Power RTC (RV-3028-C7)</li>
+  <li>I2C 6 Axis IMU (BMI270)</li>
+  <li>I2C Magnetometer (MMC5603)</li>
+  <li>I2S MEMS Microphone (ICS-43434)</li>
+  <li>Magnetic Buzzer</li>
+  <li>Power On/Off Button</li>
+  <li>Reset Button</li>
+  <li>IO0/Boot Button</li>
+</ul>
+
+<h2 id="open-source">Open Source</h2>
+<ul>
+  <li><a href="https://github.com/tinywatch-s3">TinyWATCH S3 GitHub</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop/tinywatchs3">Unexpected Maker</a></li>
+</ul>
  ]]></description>
     
     <category>CircuitPython</category>
@@ -1923,7 +1969,7 @@ For more information, please refer to the module <a href="https://circuitpython-
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/unexpectedmaker_blizzard_s3.jpg" alt="Image of Board" loading="lazy">
-<p>By Unexpected Maker</p> <p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>
+<p>By Unexpected Maker</p> <p>Coming Soon!</p>
  ]]></description>
     
     <category>CircuitPython</category>
@@ -1990,7 +2036,7 @@ For more information, please refer to the module <a href="https://circuitpython-
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0">Unexpected Maker</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/bling">Unexpected Maker</a></li>
 </ul>
  ]]></description>
     
@@ -3929,17 +3975,19 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
   <li>5V back-feed protection</li>
   <li>Native USB + USB Serial JTAG</li>
   <li>LiPo Battery Charging</li>
-  <li>3D High Gain Antenna</li>
   <li>27 GPIO</li>
   <li>Only 28 x 11mm in size</li>
   <li>Drop in compatible with TinyPICO Nano</li>
+  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li>
 </ul>
 
 <p>You can find out more about the NanoS3 at <a href="https://nanos3.io">nanos3.io</a></p>
 
 <h2 id="purchase">Purchase</h2>
-<p>You can purchase your very own NanoS3 from:
-Unexpected Maker - https://unexpectedmaker.com/shop/nanos3</p>
+<p>You can purchase your very own NanoS3 from:</p>
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop/nanos3">Unexpected Maker</a></li>
+</ul>
  ]]></description>
     
     <category>CircuitPython</category>
@@ -8620,7 +8668,7 @@ up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; <
 
 <ul>
   <li><a href="https://shop.pimoroni.com/products/tinypico-nano?variant=39285102674003">Pimoroni</a></li>
-  <li><a href="https://unexpectedmaker.com/shop/tinypico-nano">Unexpected Maker</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/tinypiconano">Unexpected Maker</a></li>
 </ul>
  ]]></description>
     
@@ -8657,9 +8705,9 @@ It can work on he original V1 board, but some features like VBUS sense won’t b
   <li>USB-C Connector with back-feed protection</li>
   <li>LiPo Battery Charging</li>
   <li>JST pads on the back supports PH connector</li>
-  <li>3D High Gain Antenna</li>
   <li>14 GPIO</li>
   <li>Only 35 x 18mm in size</li>
+  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li>
 </ul>
 
 <p>You can find out more about the TinyPICO at <a href="https://tinypico.com">tinypico.com</a></p>
@@ -8672,9 +8720,8 @@ You can find out more about how at <a href="https://learn.adafruit.com/circuitpy
   <li><a href="https://www.adafruit.com/product/5028">Adafruit</a></li>
   <li><a href="https://www.adafruit.com/product/5750">Adafruit with u.FL</a></li>
   <li><a href="https://shop.pimoroni.com/products/tinypico-v2?variant=3928508953403">Pimoroni</a></li>
-  <li><a href="https://unexpectedmaker.com/shop/tinypico-usbc">Unexpected Maker</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/tinypico">Unexpected Maker</a></li>
 </ul>
-
  ]]></description>
     
     <category>CircuitPython</category>
@@ -11276,10 +11323,10 @@ o   o        o   o
   <li>LiPo Battery Charging</li>
   <li>JST pads on the back supports PH connector</li>
   <li>VBAT and 5V Sense Pins</li>
-  <li>3D High Gain Antenna</li>
   <li>17 GPIO</li>
   <li>Only 35 x 18mm in size</li>
-  <li>Compatible with TinyPICO &amp; TinyS2</li>
+  <li>Compatible with TinyPICO, TinyS2 &amp; TinyC6</li>
+  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li>
 </ul>
 
 <p>You can find out more about the TinyS3 at <a href="https://tinys3.io">tinys3.io</a></p>
@@ -11289,7 +11336,7 @@ o   o        o   o
   <li><a href="https://www.adafruit.com/product/5398">Adafruit</a></li>
   <li><a href="https://www.adafruit.com/product/5747">Adafruit with u.FL</a></li>
   <li><a href="https://shop.pimoroni.com/products/tinys3-esp32-s3">Pimoroni</a></li>
-  <li><a href="https://unexpectedmaker.com/shop/ttinys3-esp32s3">Unexpected Maker</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/tinys3">Unexpected Maker</a></li>
 </ul>
  ]]></description>
     
@@ -11326,11 +11373,11 @@ o   o        o   o
   <li>Native USB + USB Serial JTAG</li>
   <li>LiPo Battery Charging + PicoBlade connector</li>
   <li>VBAT and 5V Sense Pins</li>
-  <li>3D High Gain Antenna</li>
   <li>27x GPIO including castellated headers</li>
   <li>STEMMA connector powered by LDO1</li>
   <li><strong>JTAG pins on the header</strong></li>
   <li>Compatible with TinyPICO &amp; TinyS3</li>
+  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li>
 </ul>
 
 <p>You can find out more about the ProS3 at <a href="https://pros3.io">pros3.io</a></p>
@@ -11376,10 +11423,10 @@ o   o        o   o
   <li>Native USB + USB Serial JTAG</li>
   <li>LiPo Battery Charging</li>
   <li>VBAT and 5V Sense Pins</li>
-  <li>3D High Gain Antenna</li>
   <li>21x GPIO</li>
   <li>2x STEMMA connectors, 1 on LDO1 and 1 on LDO2 !</li>
   <li>Feather Format compatibility</li>
+  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li>
 </ul>
 
 <p>You can find out more about the FeatherS3 at <a href="https://feathers3.io">feathers3.io</a></p>
@@ -14098,7 +14145,7 @@ status LED operation.</p>
 <h2 id="purchase">Purchase</h2>
 <ul>
   <li><a href="https://www.adafruit.com/product/5629">Adafruit</a></li>
-  <li><a href="https://unexpectedmaker.com/shop/feathers2neo-esp32s2">unexpectedmaker shop</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/feathers2neo">unexpected Maker</a></li>
 </ul>
  ]]></description>
     
@@ -16358,9 +16405,10 @@ Introducing the new ATMegaZero ESP32-S2</p>
 <h2 id="purchase">Purchase</h2>
 <ul>
   <li><a href="https://www.adafruit.com/product/5029">Adafruit</a></li>
-  <li><a href="https://unexpectedmaker.com/shop/tinys2-esp32-s2">Unexpected Maker</a></li>
   <li><a href="https://shop.pimoroni.com/products/tinys2">Pimoroni</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/tinys2">Unexpected Maker</a></li>
 </ul>
+
  ]]></description>
     
     <category>CircuitPython</category>
@@ -18165,8 +18213,8 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 <h2 id="purchase">Purchase</h2>
 <ul>
   <li><a href="https://www.adafruit.com/product/4769">Adafruit</a></li>
-  <li><a href="https://unexpectedmaker.com/shop/feathers2-esp32-s2">Unexpected Maker</a></li>
   <li><a href="https://shop.pimoroni.com/products/feathers2-esp32-s2">Pimoroni</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/feathers2">Unexpected Maker</a></li>
 </ul>
  ]]></description>
     
@@ -19208,7 +19256,7 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
 <p>The FeatherS2 pre-release boards are no longer available for purchase now that the final release version is out, which you can grab from these locations:</p>
 
 <ul>
-  <li><a href="https://unexpectedmaker.com/shop/feathers2-esp32-s2">Unexpected Maker</a></li>
+  <li><a href="https://unexpectedmaker.com/shop/feathers2">Unexpected Maker</a></li>
   <li><a href="https://www.adafruit.com/product/4769">Adafruit</a></li>
 </ul>
  ]]></description>
