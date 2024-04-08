@@ -9242,6 +9242,23 @@
         "description": "<p>Sunton ESP32-2432S028 Development Board, Based on ESP32-D0WDQ6 MCU. With 2.8” 65K Color Touch LCD. Supports Wifi &amp; Bluetooth. User accessable GPIO ports. SD card slot.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Onboard 2.8inch 240×320 pixels 65K color Touch LCD display.</li>  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication.</li>  <li>SPI Touch, Display and SD card slot.</li>  <li>Amplified GPIO26 for PWM audio output</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/1005006556177475.html\">Aliexpress</a></li></ul>"
     },
     {
+        "board_id": "sunton_esp32_8048S070",
+        "title": "Sunton ESP32-8048S070 Download",
+        "name": "Sunton ESP32-8048S070",
+        "board_url": [
+        ],
+        "board_image": "sunton_esp32_8048S070.jpg",
+        "date_added": "2024-04-05",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/sunton_esp32_8048S070/",
+        "description": "<p>Sunton ESP32-8048S070 Development Board, Based on ESP32-S3 MCU with 16MB flash and 8MB PSRAM. Built in 7” 65K Color Touch LCD. Has a capacitive i2c or resistive spi touch device, depending on version.  Supports Wifi &amp; Bluetooth. User accessable GPIO ports. SD card slot.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Onboard 7” 800x480 pixels 65K color Touch LCD display.</li>  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication.</li>  <li>SPI or I2C Touch</li>  <li>SPI SD slot</li>  <li>RGB565 Display</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/1005005099968475.html\">Aliexpress</a></li></ul>"
+    },
+    {
         "board_id": "supermini_nrf52840",
         "title": "SuperMini NRF52840 Download",
         "name": "SuperMini NRF52840",
@@ -9603,7 +9620,7 @@
         "title": "Unexpected Maker Bling Download",
         "name": "Unexpected Maker Bling",
         "board_url": [
-            "https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0"
+            "https://unexpectedmaker.com/shop/bling"
         ],
         "board_image": "unexpectedmaker_bling.jpg",
         "date_added": "2023-11-15",
@@ -9614,7 +9631,7 @@
         "features": [
         ],
         "url_path": "/board/unexpectedmaker_bling/",
-        "description": "<h3 id=\"there-are-3-versions-of-bling\">There are 3 versions of BLING!</h3><p>All versions of BLING come with a wonderful 40x8 RGB LED matrix made up of tiny 1x1mm addressable LEDs. They are all also the same size (99x22m) and come with 2.5mm half cut holes to allow for easy mounting using M2.5 screws.</p><p>What makes each version different is what components and features come on the back.</p><h3 id=\"hello-bling\">Hello BLING!</h3><p>The full version of BLING comes with an ESP32-S3 with 8MB of Flash, 2MB of PSRAM, and a bunch of onboard features and peripherals. Want to build a cool RGB Clock with custom alarm sounds? No problem! Want to build a portable Web Radio device? Yup, you can do that too! Want to play with captured audio? Maybe a nice audio level display? BLING has you covered!</p><p>Bling also comes with a user programable power switch to enable or disable the power to the LED matrix (more on that below), plus 4 user programmable buttons and a USB-C connector for power and for charging a battery, if you connect one.</p><h3 id=\"bling-features--specifications\">BLING! Features &amp; Specifications</h3><ul>  <li>ESP32-S3</li>  <li>32Bit Dual Core 240MHz</li>  <li>RISC-V ultra low power core</li>  <li>2.4GHz WiFi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>8MB QSPI Flash</li>  <li>2MB Extra QSPI PSRAM</li>  <li>40x8 RGB LED Matrix</li>  <li>4 User programmable buttons</li>  <li>User programmable Matrix power</li>  <li>Battery charging</li>  <li>USB-C Connector + ESD Protection</li>  <li>Reverse USB back-feed protection</li>  <li>700mA 3.3V LDO Regulator</li>  <li>I2S MEMS Microphone</li>  <li>I2S Audio Amplifier</li>  <li>Low Power RTC</li>  <li>uSD Card Slot</li>  <li>STEMMA/QT Connector</li>  <li>JST Battery connector</li>  <li>JST Speaker connector</li></ul><h3 id=\"hello-tinybling\">Hello TinyBLING!</h3><p>TinyBLING doesn’t have an included ESP32-S3 + peripherals on the back, but instead provides headers to plug in an Unexpected Maker Tiny board (TinyPICO, TinyS2, TinyS3 and the new TinyC6) to act as the brains for your project.</p><p>You also get a STEMMA/QT connector and a bunch of IO and power broken out on an extra header, for easy expansion. TinyBLING still has a user programable power switch to enable or disable the power to the LED matrix (more on that below), plus 4 user programmable buttons.</p><h3 id=\"finally-hello-solobling\">Finally, hello SoloBLING!</h3><p>SoloBLING is just the 40x8 RGB LED matrix on its own. It provides the BLING, you provide everything else.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0\">Unexpected Maker</a></li></ul>"
+        "description": "<h3 id=\"there-are-3-versions-of-bling\">There are 3 versions of BLING!</h3><p>All versions of BLING come with a wonderful 40x8 RGB LED matrix made up of tiny 1x1mm addressable LEDs. They are all also the same size (99x22m) and come with 2.5mm half cut holes to allow for easy mounting using M2.5 screws.</p><p>What makes each version different is what components and features come on the back.</p><h3 id=\"hello-bling\">Hello BLING!</h3><p>The full version of BLING comes with an ESP32-S3 with 8MB of Flash, 2MB of PSRAM, and a bunch of onboard features and peripherals. Want to build a cool RGB Clock with custom alarm sounds? No problem! Want to build a portable Web Radio device? Yup, you can do that too! Want to play with captured audio? Maybe a nice audio level display? BLING has you covered!</p><p>Bling also comes with a user programable power switch to enable or disable the power to the LED matrix (more on that below), plus 4 user programmable buttons and a USB-C connector for power and for charging a battery, if you connect one.</p><h3 id=\"bling-features--specifications\">BLING! Features &amp; Specifications</h3><ul>  <li>ESP32-S3</li>  <li>32Bit Dual Core 240MHz</li>  <li>RISC-V ultra low power core</li>  <li>2.4GHz WiFi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>8MB QSPI Flash</li>  <li>2MB Extra QSPI PSRAM</li>  <li>40x8 RGB LED Matrix</li>  <li>4 User programmable buttons</li>  <li>User programmable Matrix power</li>  <li>Battery charging</li>  <li>USB-C Connector + ESD Protection</li>  <li>Reverse USB back-feed protection</li>  <li>700mA 3.3V LDO Regulator</li>  <li>I2S MEMS Microphone</li>  <li>I2S Audio Amplifier</li>  <li>Low Power RTC</li>  <li>uSD Card Slot</li>  <li>STEMMA/QT Connector</li>  <li>JST Battery connector</li>  <li>JST Speaker connector</li></ul><h3 id=\"hello-tinybling\">Hello TinyBLING!</h3><p>TinyBLING doesn’t have an included ESP32-S3 + peripherals on the back, but instead provides headers to plug in an Unexpected Maker Tiny board (TinyPICO, TinyS2, TinyS3 and the new TinyC6) to act as the brains for your project.</p><p>You also get a STEMMA/QT connector and a bunch of IO and power broken out on an extra header, for easy expansion. TinyBLING still has a user programable power switch to enable or disable the power to the LED matrix (more on that below), plus 4 user programmable buttons.</p><h3 id=\"finally-hello-solobling\">Finally, hello SoloBLING!</h3><p>SoloBLING is just the 40x8 RGB LED matrix on its own. It provides the BLING, you provide everything else.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://unexpectedmaker.com/shop/bling\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_blizzard_s3",
@@ -9630,16 +9647,21 @@
         "tags": [
         ],
         "features": [
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "USB-C",
+            "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_blizzard_s3/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<p>Coming Soon!</p>"
     },
     {
         "board_id": "unexpectedmaker_feathers2",
         "title": "Unexpected Maker FeatherS2 Download",
         "name": "Unexpected Maker FeatherS2",
         "board_url": [
-            "https://unexpectedmaker.com/shop/feathers2-esp32-s2",
+            "https://unexpectedmaker.com/shop/feathers2",
             "https://www.adafruit.com/product/4769"
         ],
         "board_image": "unexpectedmaker_feathers2.jpg",
@@ -9657,14 +9679,14 @@
             "Breadboard-Friendly"
         ],
         "url_path": "/board/unexpectedmaker_feathers2/",
-        "description": "<p>Introducing the FeatherS2 - The PRO ESP32-S2 based development board in a Feather format!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz single-core processor</li>  <li>16 MB SPI Flash</li>  <li>8 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D Antenna</li>  <li>2x 700 mA 3.3 V LDO regulator</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>  <li>21x GPIO</li>  <li>USB-C</li>  <li>USB backfeed protection</li>  <li>APA102 RGB LED (CLK IO45, DATA IO40)</li>  <li>ALS-PT19 Ambient Light Sensor (IO14)</li>  <li>QWIIC/STEMMA connector</li>  <li>Feather format</li></ul><p><strong>2x LDO Voltage Regulators?</strong>Yup! The first one is for the general operation of the board and the ESP32-S2, RAM and Flash.</p><p>The second LDO is for you to use to connect external 3V3 modules, sensors and peripherals, and it has programmable EN control tied to GPIO21 + it’s connected to the deep sleep capabilities of the S2, so if the S2 goes into deep sleep, the 2nd LDO is automatically shut down for you!</p><p>You can find out more about the FeatherS2 at <a href=\"https://feathers2.io\">feathers2.io</a>, including how to <a href=\"https://feathers2.io/install_uf2.html\">install the UF2 Bootloader</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4769\">Adafruit</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/feathers2-esp32-s2\">Unexpected Maker</a></li>  <li><a href=\"https://shop.pimoroni.com/products/feathers2-esp32-s2\">Pimoroni</a></li></ul>"
+        "description": "<p>Introducing the FeatherS2 - The PRO ESP32-S2 based development board in a Feather format!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz single-core processor</li>  <li>16 MB SPI Flash</li>  <li>8 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D Antenna</li>  <li>2x 700 mA 3.3 V LDO regulator</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>  <li>21x GPIO</li>  <li>USB-C</li>  <li>USB backfeed protection</li>  <li>APA102 RGB LED (CLK IO45, DATA IO40)</li>  <li>ALS-PT19 Ambient Light Sensor (IO14)</li>  <li>QWIIC/STEMMA connector</li>  <li>Feather format</li></ul><p><strong>2x LDO Voltage Regulators?</strong>Yup! The first one is for the general operation of the board and the ESP32-S2, RAM and Flash.</p><p>The second LDO is for you to use to connect external 3V3 modules, sensors and peripherals, and it has programmable EN control tied to GPIO21 + it’s connected to the deep sleep capabilities of the S2, so if the S2 goes into deep sleep, the 2nd LDO is automatically shut down for you!</p><p>You can find out more about the FeatherS2 at <a href=\"https://feathers2.io\">feathers2.io</a>, including how to <a href=\"https://feathers2.io/install_uf2.html\">install the UF2 Bootloader</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4769\">Adafruit</a></li>  <li><a href=\"https://shop.pimoroni.com/products/feathers2-esp32-s2\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/feathers2\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_feathers2_neo",
         "title": "Unexpected Maker FeatherS2 Neo Download",
         "name": "Unexpected Maker FeatherS2 Neo",
         "board_url": [
-            "https://unexpectedmaker.com/shop/feathers2neo-esp32s2",
+            "https://unexpectedmaker.com/shop/feathers2neo",
             "https://www.adafruit.com/product/5629"
         ],
         "board_image": "unexpectedmaker_feathers2_neo.jpg",
@@ -9682,7 +9704,7 @@
             "Breadboard-Friendly"
         ],
         "url_path": "/board/unexpectedmaker_feathers2_neo/",
-        "description": "<p>Introducing the FeatherS2 Neo - The Blingy RGB ESP32-S2 based development board in a Feather format!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz single-core processor</li>  <li>4 MB SPI Flash</li>  <li>2 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D Antenna</li>  <li>700 mA 3.3 V LDO regulator</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>  <li>5x5 RGB LED matrix + User controller power</li>  <li>22x GPIO</li>  <li>VBAT voltage sense on IO2</li>  <li>VBUS detection om IO34</li>  <li>USB-C</li>  <li>RGB LED (PWR 39, DATA IO40)</li>  <li>QWIIC/STEMMA connector</li>  <li>Feather format</li></ul><p><strong>Onboard 5x5 RGB Matrix? Really?</strong></p><p>Yeah, why not! Getting compelling information out of a single RGB LED can be a real challenge, so with a 5x5 matrix, you can scroll text, show icons or even display cool animating patterns!</p><p>The RGB Matrix is powered from its own 3.3V LDO, that defaults to the off state, so there is no current draw if you put the FeatherS2 Neo into deep sleep. Turning the power on is as simple as setting IO4 HIGH.</p><p>You can find out more about the FeatherS2 Neo at <a href=\"https://unexpectedmaker.com/feathers2-neo-soon\">unexpected maker</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5629\">Adafruit</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/feathers2neo-esp32s2\">unexpectedmaker shop</a></li></ul>"
+        "description": "<p>Introducing the FeatherS2 Neo - The Blingy RGB ESP32-S2 based development board in a Feather format!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz single-core processor</li>  <li>4 MB SPI Flash</li>  <li>2 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D Antenna</li>  <li>700 mA 3.3 V LDO regulator</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>  <li>5x5 RGB LED matrix + User controller power</li>  <li>22x GPIO</li>  <li>VBAT voltage sense on IO2</li>  <li>VBUS detection om IO34</li>  <li>USB-C</li>  <li>RGB LED (PWR 39, DATA IO40)</li>  <li>QWIIC/STEMMA connector</li>  <li>Feather format</li></ul><p><strong>Onboard 5x5 RGB Matrix? Really?</strong></p><p>Yeah, why not! Getting compelling information out of a single RGB LED can be a real challenge, so with a 5x5 matrix, you can scroll text, show icons or even display cool animating patterns!</p><p>The RGB Matrix is powered from its own 3.3V LDO, that defaults to the off state, so there is no current draw if you put the FeatherS2 Neo into deep sleep. Turning the power on is as simple as setting IO4 HIGH.</p><p>You can find out more about the FeatherS2 Neo at <a href=\"https://unexpectedmaker.com/feathers2-neo-soon\">unexpected maker</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5629\">Adafruit</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/feathers2neo\">unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_feathers2_prerelease",
@@ -9707,7 +9729,7 @@
             "Breadboard-Friendly"
         ],
         "url_path": "/board/unexpectedmaker_feathers2_prerelease/",
-        "description": "<p>Pre-Release version of the FeatherS2For those that purchased the pre-release version and would like to run CircuitPython on it without having to compile from source.</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz single-core processor</li>  <li>16 MB SPI Flash</li>  <li>8 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D Antenna</li>  <li>2x 700 mA 3.3 V LDO regulator</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>  <li>21x GPIO</li>  <li>USB-C</li>  <li>USB backfeed protection</li>  <li>APA102 RGB LED (CLK IO45, DATA IO40)</li>  <li>ALS-PT19 Ambient Light Sensor (IO14)</li>  <li>QWIIC/STEMMA connector</li>  <li>Feather format</li></ul><p><strong>2x LDO Voltage Regulators?</strong>Yup! The first one is for the general operation of the board and the ESP32-S2, RAM and Flash.</p><p>The second LDO is for you to use to connect external 3V3 modules, sensors and peripherals, and it has programmable EN control tied to GPIO21 + it’s connected to the deep sleep capabilities of the S2, so if the S2 goes into deep sleep, the 2nd LDO is automatically shut down for you!</p><p>You can find out more about the FeatherS2 at <a href=\"https://feathers2.io\">feathers2.io</a>, including how to <a href=\"https://feathers2.io/install_uf2.html\">install the UF2 Bootloader</a>.</p><h2 id=\"purchase\">Purchase</h2><p>The FeatherS2 pre-release boards are no longer available for purchase now that the final release version is out, which you can grab from these locations:</p><ul>  <li><a href=\"https://unexpectedmaker.com/shop/feathers2-esp32-s2\">Unexpected Maker</a></li>  <li><a href=\"https://www.adafruit.com/product/4769\">Adafruit</a></li></ul>"
+        "description": "<p>Pre-Release version of the FeatherS2For those that purchased the pre-release version and would like to run CircuitPython on it without having to compile from source.</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz single-core processor</li>  <li>16 MB SPI Flash</li>  <li>8 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D Antenna</li>  <li>2x 700 mA 3.3 V LDO regulator</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>  <li>21x GPIO</li>  <li>USB-C</li>  <li>USB backfeed protection</li>  <li>APA102 RGB LED (CLK IO45, DATA IO40)</li>  <li>ALS-PT19 Ambient Light Sensor (IO14)</li>  <li>QWIIC/STEMMA connector</li>  <li>Feather format</li></ul><p><strong>2x LDO Voltage Regulators?</strong>Yup! The first one is for the general operation of the board and the ESP32-S2, RAM and Flash.</p><p>The second LDO is for you to use to connect external 3V3 modules, sensors and peripherals, and it has programmable EN control tied to GPIO21 + it’s connected to the deep sleep capabilities of the S2, so if the S2 goes into deep sleep, the 2nd LDO is automatically shut down for you!</p><p>You can find out more about the FeatherS2 at <a href=\"https://feathers2.io\">feathers2.io</a>, including how to <a href=\"https://feathers2.io/install_uf2.html\">install the UF2 Bootloader</a>.</p><h2 id=\"purchase\">Purchase</h2><p>The FeatherS2 pre-release boards are no longer available for purchase now that the final release version is out, which you can grab from these locations:</p><ul>  <li><a href=\"https://unexpectedmaker.com/shop/feathers2\">Unexpected Maker</a></li>  <li><a href=\"https://www.adafruit.com/product/4769\">Adafruit</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_feathers3",
@@ -9725,6 +9747,7 @@
         "tags": [
         ],
         "features": [
+            "Feather-Compatible",
             "Battery Charging",
             "Bluetooth/BTLE",
             "Breadboard-Friendly",
@@ -9733,7 +9756,7 @@
             "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_feathers3/",
-        "description": "<p>Introducing the FeatherS3 - The Pro ESP32-S3 Development Board in the Feather Format!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>16MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>2x 700mA 3.3V LDO Regulators</li>  <li>LDO2 is user controlled &amp; also auto-shuts down in deep sleep</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>VBAT and 5V Sense Pins</li>  <li>3D High Gain Antenna</li>  <li>21x GPIO</li>  <li>2x STEMMA connectors, 1 on LDO1 and 1 on LDO2 !</li>  <li>Feather Format compatibility</li></ul><p>You can find out more about the FeatherS3 at <a href=\"https://feathers3.io\">feathers3.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5399\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5748\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/feathers3-esp32-s3\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/feathers3\">Unexpected Maker</a></li></ul>"
+        "description": "<p>Introducing the FeatherS3 - The Pro ESP32-S3 Development Board in the Feather Format!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>16MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>2x 700mA 3.3V LDO Regulators</li>  <li>LDO2 is user controlled &amp; also auto-shuts down in deep sleep</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>VBAT and 5V Sense Pins</li>  <li>21x GPIO</li>  <li>2x STEMMA connectors, 1 on LDO1 and 1 on LDO2 !</li>  <li>Feather Format compatibility</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the FeatherS3 at <a href=\"https://feathers3.io\">feathers3.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5399\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5748\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/feathers3-esp32-s3\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/feathers3\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_nanos3",
@@ -9754,7 +9777,7 @@
             "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_nanos3/",
-        "description": "<p>Introducing the NanoS3 - The world’s smallest, fully-featured ESP32-S3 board in module form!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>BLE 5.0 + Mesh</li>  <li>8MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>5V back-feed protection</li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>3D High Gain Antenna</li>  <li>27 GPIO</li>  <li>Only 28 x 11mm in size</li>  <li>Drop in compatible with TinyPICO Nano</li></ul><p>You can find out more about the NanoS3 at <a href=\"https://nanos3.io\">nanos3.io</a></p><h2 id=\"purchase\">Purchase</h2><p>You can purchase your very own NanoS3 from:Unexpected Maker - https://unexpectedmaker.com/shop/nanos3</p>"
+        "description": "<p>Introducing the NanoS3 - The world’s smallest, fully-featured ESP32-S3 board in module form!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>BLE 5.0 + Mesh</li>  <li>8MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>5V back-feed protection</li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>27 GPIO</li>  <li>Only 28 x 11mm in size</li>  <li>Drop in compatible with TinyPICO Nano</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the NanoS3 at <a href=\"https://nanos3.io\">nanos3.io</a></p><h2 id=\"purchase\">Purchase</h2><p>You can purchase your very own NanoS3 from:</p><ul>  <li><a href=\"https://unexpectedmaker.com/shop/nanos3\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_pros3",
@@ -9780,14 +9803,14 @@
             "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_pros3/",
-        "description": "<p>Introducing the ProS3 - The Ultimate Pro ESP32-S3 Development Board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>16MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>2x 700mA 3.3V LDO Regulators</li>  <li>LDO2 is user controlled &amp; also auto-shuts down in deep sleep</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li><strong>USB ESD protection</strong></li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging + PicoBlade connector</li>  <li>VBAT and 5V Sense Pins</li>  <li>3D High Gain Antenna</li>  <li>27x GPIO including castellated headers</li>  <li>STEMMA connector powered by LDO1</li>  <li><strong>JTAG pins on the header</strong></li>  <li>Compatible with TinyPICO &amp; TinyS3</li></ul><p>You can find out more about the ProS3 at <a href=\"https://pros3.io\">pros3.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5401\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5749\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/pros3-esp32-s3\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/pros3\">Unexpected Maker</a></li></ul>"
+        "description": "<p>Introducing the ProS3 - The Ultimate Pro ESP32-S3 Development Board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>16MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>2x 700mA 3.3V LDO Regulators</li>  <li>LDO2 is user controlled &amp; also auto-shuts down in deep sleep</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li><strong>USB ESD protection</strong></li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging + PicoBlade connector</li>  <li>VBAT and 5V Sense Pins</li>  <li>27x GPIO including castellated headers</li>  <li>STEMMA connector powered by LDO1</li>  <li><strong>JTAG pins on the header</strong></li>  <li>Compatible with TinyPICO &amp; TinyS3</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the ProS3 at <a href=\"https://pros3.io\">pros3.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5401\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5749\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/pros3-esp32-s3\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/pros3\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_tinyc6",
         "title": "Unexpected Maker TinyC6 Download",
         "name": "Unexpected Maker TinyC6",
         "board_url": [
-            "https://unexpectedmaker.com/shop.html#!/TinyC6/p/602208790/category=0"
+            "https://unexpectedmaker.com/shop/tinyc6"
         ],
         "board_image": "unexpectedmaker_tinyc6.jpg",
         "date_added": "2023-11-22",
@@ -9803,7 +9826,7 @@
             "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_tinyc6/",
-        "description": "<p>Introducing the TinyC6 - The Mighty Tiny ESP32-C6 based development board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32bit RISC-V High Performance core @ up to 160Mhz</li>  <li>32bit RISC-V Low Power core @ up to 20Mhz</li>  <li>2.4GHz Wifi 6 - 802.11ax</li>  <li>BLE 5.3 + Mesh</li>  <li>Zigbee and Thread (802.15.4)</li>  <li>8MB QSPI Flash</li>  <li>512K SRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>UART + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>JST pads on the back supports PH connector</li>  <li>VBAT and 5V Sense Pins</li>  <li>3D High Gain Antenna or uFL</li>  <li>17 GPIO</li>  <li>Only 35 x 18mm in size</li>  <li>Compatible with TinyPICO, TinyS2 &amp; TinyS3</li></ul><p>You can find out more about the TinyC6 at <a href=\"https://tinyc6.io\">tinyc6.io</a></p><h2 id=\"purchase\">Purchase</h2><p>You can purchase your very own TinyC6 from:Unexpected Maker - https://unexpectedmaker.com/shop.html#!/TinyC6/p/602208790/category=0</p>"
+        "description": "<p>Introducing the TinyC6 - The Mighty Tiny ESP32-C6 based development board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32bit RISC-V High Performance core @ up to 160Mhz</li>  <li>32bit RISC-V Low Power core @ up to 20Mhz</li>  <li>2.4GHz Wifi 6 - 802.11ax</li>  <li>BLE 5.3 + Mesh</li>  <li>Zigbee and Thread (802.15.4)</li>  <li>8MB QSPI Flash</li>  <li>512K SRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>UART + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>JST pads on the back supports PH connector</li>  <li>VBAT and 5V Sense Pins</li>  <li>17 GPIO</li>  <li>Only 35 x 18mm in size</li>  <li>Compatible with TinyPICO, TinyS2 &amp; TinyS3</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the TinyC6 at <a href=\"https://tinyc6.io\">tinyc6.io</a></p><h2 id=\"purchase\">Purchase</h2><p>You can purchase your very own TinyC6 from:</p><ul>  <li><a href=\"https://unexpectedmaker.com/shop/tinyc6\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_tinypico",
@@ -9828,14 +9851,14 @@
             "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_tinypico/",
-        "description": "<p>Introducing the TinyPICO - The Mighty Tiny ESP32 based development board!</p><p><strong>This firmware is for the V2 and V3 versions of TinyPICO</strong>It can work on he original V1 board, but some features like VBUS sense won’t be available.</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX6 cores @ up to 240Mhz</li>  <li>Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 4 - Classic &amp; BLE</li>  <li>4MB QSPI Flash</li>  <li>4MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>APA102 RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>LiPo Battery Charging</li>  <li>JST pads on the back supports PH connector</li>  <li>3D High Gain Antenna</li>  <li>14 GPIO</li>  <li>Only 35 x 18mm in size</li></ul><p>You can find out more about the TinyPICO at <a href=\"https://tinypico.com\">tinypico.com</a></p><p>Getting the firmware onto the Esp32 based board is different to other circuitpython supporting chips.You can find out more about how at <a href=\"https://learn.adafruit.com/circuitpython-with-esp32-quick-start\">Circuitpython with ESP32 quick start</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5028\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5750\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/tinypico-v2?variant=3928508953403\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/tinypico-usbc\">Unexpected Maker</a></li></ul>"
+        "description": "<p>Introducing the TinyPICO - The Mighty Tiny ESP32 based development board!</p><p><strong>This firmware is for the V2 and V3 versions of TinyPICO</strong>It can work on he original V1 board, but some features like VBUS sense won’t be available.</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX6 cores @ up to 240Mhz</li>  <li>Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 4 - Classic &amp; BLE</li>  <li>4MB QSPI Flash</li>  <li>4MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>APA102 RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>LiPo Battery Charging</li>  <li>JST pads on the back supports PH connector</li>  <li>14 GPIO</li>  <li>Only 35 x 18mm in size</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the TinyPICO at <a href=\"https://tinypico.com\">tinypico.com</a></p><p>Getting the firmware onto the Esp32 based board is different to other circuitpython supporting chips.You can find out more about how at <a href=\"https://learn.adafruit.com/circuitpython-with-esp32-quick-start\">Circuitpython with ESP32 quick start</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5028\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5750\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/tinypico-v2?variant=3928508953403\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/tinypico\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_tinypico_nano",
         "title": "Unexpected Maker TinyPICO NANO Download",
         "name": "Unexpected Maker TinyPICO NANO",
         "board_url": [
-            "https://unexpectedmaker.com/shop/tinypico-nano"
+            "https://unexpectedmaker.com/shop/tinypiconano"
         ],
         "board_image": "unexpectedmaker_tinypico_nano.jpg",
         "date_added": "2022-09-18",
@@ -9849,14 +9872,14 @@
             "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_tinypico_nano/",
-        "description": "<p>Introducing the TinyPICO NANO - The Mighty Tiny ESP32 all in one module!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX6 cores @ up to 240Mhz</li>  <li>Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 4 - Classic &amp; BLE</li>  <li>4MB QSPI Flash</li>  <li>4MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>LiPo Battery Charging</li>  <li>3D High Gain Antenna</li>  <li>25 GPIO</li>  <li>Only 35 x 18mm in size</li></ul><p>You can find out more about the TinyPICO NANO at <a href=\"https://www.tinypico.com/tinypico-nano\">tinypico.com</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/tinypico-nano?variant=39285102674003\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/tinypico-nano\">Unexpected Maker</a></li></ul>"
+        "description": "<p>Introducing the TinyPICO NANO - The Mighty Tiny ESP32 all in one module!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX6 cores @ up to 240Mhz</li>  <li>Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 4 - Classic &amp; BLE</li>  <li>4MB QSPI Flash</li>  <li>4MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>LiPo Battery Charging</li>  <li>3D High Gain Antenna</li>  <li>25 GPIO</li>  <li>Only 35 x 18mm in size</li></ul><p>You can find out more about the TinyPICO NANO at <a href=\"https://www.tinypico.com/tinypico-nano\">tinypico.com</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/tinypico-nano?variant=39285102674003\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/tinypiconano\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_tinys2",
         "title": "Unexpected Maker TinyS2 Download",
         "name": "Unexpected Maker TinyS2",
         "board_url": [
-            "https://unexpectedmaker.com/shop/tinys2-esp32-s2",
+            "https://unexpectedmaker.com/shop/tinys2",
             "https://www.adafruit.com/product/5029"
         ],
         "board_image": "unexpectedmaker_tinys2.jpg",
@@ -9872,14 +9895,14 @@
             "Breadboard-Friendly"
         ],
         "url_path": "/board/unexpectedmaker_tinys2/",
-        "description": "<p>Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz single-core processor</li>  <li>4 MB SPI Flash</li>  <li>2 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D High Gain Antenna</li>  <li>700 mA 3.3 V LDO regulator</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange)</li>  <li>17x GPIO</li>  <li>USB-C</li>  <li>USB backfeed protection</li>  <li>NeoPixel RGB LED</li>  <li>Battery Voltage sense</li>  <li>VBUS (5V) detection sense</li>  <li>TinyPICO compatible format</li>  <li>Charge LED can be disconnected</li></ul><p>You can find out more about the TinyS2 at <a href=\"https://tinys2.io\">tinys2.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5029\">Adafruit</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/tinys2-esp32-s2\">Unexpected Maker</a></li>  <li><a href=\"https://shop.pimoroni.com/products/tinys2\">Pimoroni</a></li></ul>"
+        "description": "<p>Introducing the TinyS2 - The Mighty Tiny ESP32-S2 based development board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz single-core processor</li>  <li>4 MB SPI Flash</li>  <li>2 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D High Gain Antenna</li>  <li>700 mA 3.3 V LDO regulator</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange)</li>  <li>17x GPIO</li>  <li>USB-C</li>  <li>USB backfeed protection</li>  <li>NeoPixel RGB LED</li>  <li>Battery Voltage sense</li>  <li>VBUS (5V) detection sense</li>  <li>TinyPICO compatible format</li>  <li>Charge LED can be disconnected</li></ul><p>You can find out more about the TinyS2 at <a href=\"https://tinys2.io\">tinys2.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5029\">Adafruit</a></li>  <li><a href=\"https://shop.pimoroni.com/products/tinys2\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/tinys2\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_tinys3",
         "title": "Unexpected Maker TinyS3 Download",
         "name": "Unexpected Maker TinyS3",
         "board_url": [
-            "https://unexpectedmaker.com/shop/ttinys3-esp32s3",
+            "https://unexpectedmaker.com/shop/tinys3",
             "https://www.adafruit.com/product/5398",
             "https://www.adafruit.com/product/5747"
         ],
@@ -9897,14 +9920,14 @@
             "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_tinys3/",
-        "description": "<p>Introducing the TinyS3 - The Mighty Tiny ESP32-S3 based development board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>8MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>JST pads on the back supports PH connector</li>  <li>VBAT and 5V Sense Pins</li>  <li>3D High Gain Antenna</li>  <li>17 GPIO</li>  <li>Only 35 x 18mm in size</li>  <li>Compatible with TinyPICO &amp; TinyS2</li></ul><p>You can find out more about the TinyS3 at <a href=\"https://tinys3.io\">tinys3.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5398\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5747\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/tinys3-esp32-s3\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/ttinys3-esp32s3\">Unexpected Maker</a></li></ul>"
+        "description": "<p>Introducing the TinyS3 - The Mighty Tiny ESP32-S3 based development board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>8MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>JST pads on the back supports PH connector</li>  <li>VBAT and 5V Sense Pins</li>  <li>17 GPIO</li>  <li>Only 35 x 18mm in size</li>  <li>Compatible with TinyPICO, TinyS2 &amp; TinyC6</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the TinyS3 at <a href=\"https://tinys3.io\">tinys3.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5398\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5747\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/tinys3-esp32-s3\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/tinys3\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_tinywatch_s3",
         "title": "Unexpected Maker TinyWATCH S3 Download",
         "name": "Unexpected Maker TinyWATCH S3",
         "board_url": [
-            "https://unexpectedmaker.com/shop.html"
+            "https://unexpectedmaker.com/shop/tinywatchs3"
         ],
         "board_image": "unexpectedmaker_tinywatch_s3.jpg",
         "date_added": "2023-11-15",
@@ -9913,9 +9936,13 @@
         "tags": [
         ],
         "features": [
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "USB-C",
+            "Wi-Fi"
         ],
         "url_path": "/board/unexpectedmaker_tinywatch_s3/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<h3 id=\"core-hw-specifications\">Core HW Specifications</h3><ul>  <li>32Bit Dual Core 240MHz</li>  <li>RISC-V ultra low power core</li>  <li>2.4GHz WiFi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>8MB QSPI Flash</li>  <li>2MB Extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Power On/Off Button</li>  <li>USB-C Connector</li>  <li>Reverse USB back-feed protection</li>  <li>ESD protection on USB and buttons</li>  <li>5V presence detection</li>  <li>LiPo Battery Charging</li>  <li>Charge Battery when watch power is off</li>  <li>5V Power (red), Charge (orange) LEDs</li>  <li>3D High Gain Antenna</li></ul><h3 id=\"included-peripherals\">Included Peripherals</h3><ul>  <li>240x280 ST7789 Display</li>  <li>Capacitive Touch (CST816T)</li>  <li>I2C Battery Fuel Gauge (MAX1704X)</li>  <li>I2C Low Power RTC (RV-3028-C7)</li>  <li>I2C 6 Axis IMU (BMI270)</li>  <li>I2C Magnetometer (MMC5603)</li>  <li>I2S MEMS Microphone (ICS-43434)</li>  <li>Magnetic Buzzer</li>  <li>Power On/Off Button</li>  <li>Reset Button</li>  <li>IO0/Boot Button</li></ul><h2 id=\"open-source\">Open Source</h2><ul>  <li><a href=\"https://github.com/tinywatch-s3\">TinyWATCH S3 GitHub</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://unexpectedmaker.com/shop/tinywatchs3\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unknown",
