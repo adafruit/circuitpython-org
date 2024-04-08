@@ -51,5 +51,5 @@ You can find out more about the FeatherS2 at [feathers2.io](https://feathers2.io
 ## Purchase
 The FeatherS2 pre-release boards are no longer available for purchase now that the final release version is out, which you can grab from these locations:
 
-* [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
+* [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2)
 * [Adafruit](https://www.adafruit.com/product/4769)

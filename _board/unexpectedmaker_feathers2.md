@@ -5,7 +5,7 @@ title: "Unexpected Maker FeatherS2 Download"
 name: "Unexpected Maker FeatherS2"
 manufacturer: "Unexpected Maker"
 board_url:
- - "https://unexpectedmaker.com/shop/feathers2-esp32-s2"
+ - "https://unexpectedmaker.com/shop/feathers2"
  - "https://www.adafruit.com/product/4769"
 board_image: "unexpectedmaker_feathers2.jpg"
 date_added: 2020-10-01
@@ -49,5 +49,5 @@ You can find out more about the FeatherS2 at [feathers2.io](https://feathers2.io
 
 ## Purchase
  * [Adafruit](https://www.adafruit.com/product/4769)
- * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2-esp32-s2)
  * [Pimoroni](https://shop.pimoroni.com/products/feathers2-esp32-s2)
+ * [Unexpected Maker](https://unexpectedmaker.com/shop/feathers2)

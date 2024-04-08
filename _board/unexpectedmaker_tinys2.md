@@ -5,7 +5,7 @@ title: "Unexpected Maker TinyS2 Download"
 name: "Unexpected Maker TinyS2"
 manufacturer: "Unexpected Maker"
 board_url:
- - "https://unexpectedmaker.com/shop/tinys2-esp32-s2"
+ - "https://unexpectedmaker.com/shop/tinys2"
  - "https://www.adafruit.com/product/5029"
 board_image: "unexpectedmaker_tinys2.jpg"
 date_added: 2021-03-20
@@ -43,5 +43,6 @@ You can find out more about the TinyS2 at [tinys2.io](https://tinys2.io)
 
 ## Purchase
  * [Adafruit](https://www.adafruit.com/product/5029)
- * [Unexpected Maker](https://unexpectedmaker.com/shop/tinys2-esp32-s2)
  * [Pimoroni](https://shop.pimoroni.com/products/tinys2)
+ * [Unexpected Maker](https://unexpectedmaker.com/shop/tinys2)
+ 

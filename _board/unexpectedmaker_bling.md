@@ -5,7 +5,7 @@ title: "Unexpected Maker Bling Download"
 name: "Unexpected Maker Bling"
 manufacturer: "Unexpected Maker"
 board_url:
- - "https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0"
+ - "https://unexpectedmaker.com/shop/bling"
 board_image: "unexpectedmaker_bling.jpg"
 date_added: 2023-11-15
 family: esp32s3
@@ -59,4 +59,4 @@ You also get a STEMMA/QT connector and a bunch of IO and power broken out on an 
 SoloBLING is just the 40x8 RGB LED matrix on its own. It provides the BLING, you provide everything else.
 
 ## Purchase
- * [Unexpected Maker](https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0)
+ * [Unexpected Maker](https://unexpectedmaker.com/shop/bling)

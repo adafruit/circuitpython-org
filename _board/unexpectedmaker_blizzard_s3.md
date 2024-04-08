@@ -11,6 +11,11 @@ date_added: 2023-11-15
 family: esp32s3
 bootloader_id: unexpectedmaker_blizzard_s3
 features:
+  - Battery Charging
+  - Bluetooth/BTLE
+  - Breadboard-Friendly
+  - USB-C
+  - Wi-Fi
 ---
 
-Oops! Looks like we don't know anything about this board. This means it's likely very new.
+Coming Soon!

@@ -5,7 +5,7 @@ title: "Unexpected Maker TinyS3 Download"
 name: "Unexpected Maker TinyS3"
 manufacturer: "Unexpected Maker"
 board_url:
- - "https://unexpectedmaker.com/shop/ttinys3-esp32s3"
+ - "https://unexpectedmaker.com/shop/tinys3"
  - "https://www.adafruit.com/product/5398"
  - "https://www.adafruit.com/product/5747"
 board_image: "unexpectedmaker_tinys3.jpg"
@@ -37,10 +37,10 @@ Introducing the TinyS3 - The Mighty Tiny ESP32-S3 based development board!
 - LiPo Battery Charging
 - JST pads on the back supports PH connector
 - VBAT and 5V Sense Pins
-- 3D High Gain Antenna
 - 17 GPIO
 - Only 35 x 18mm in size
-- Compatible with TinyPICO & TinyS2
+- Compatible with TinyPICO, TinyS2 & TinyC6
+- Available with 3D High Gain Antenna or u.FL for external Antenna
 
 You can find out more about the TinyS3 at [tinys3.io](https://tinys3.io)
 
@@ -48,4 +48,4 @@ You can find out more about the TinyS3 at [tinys3.io](https://tinys3.io)
 * [Adafruit](https://www.adafruit.com/product/5398)
 * [Adafruit with u.FL](https://www.adafruit.com/product/5747)
 * [Pimoroni](https://shop.pimoroni.com/products/tinys3-esp32-s3)
-* [Unexpected Maker](https://unexpectedmaker.com/shop/ttinys3-esp32s3)
+* [Unexpected Maker](https://unexpectedmaker.com/shop/tinys3)
