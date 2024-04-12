@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "waveshare_esp32s3_lcd_1_28"
+board_id: "waveshare_esp32_s3_lcd_1_28"
 title: "ESP32S3-LCD-1.28 Download"
 name: "ESP32S3-LCD-1.28"
 manufacturer: "Waveshare"
@@ -28,7 +28,6 @@ ESP32-S3-LCD-1.28 is a low-cost, high-performance MCU board designed by Waveshar
  - Onboard 3.7V lithium battery recharge/discharge header and GPIO headers
  - Supports flexible clock, module power supply independent setting, and other controls to realize low power consumption in different scenarios
  - Integrated with USB serial port full-speed controller, GPIO pins allow flexibly configuring pin functions
- - ESP32S3-LCD-1.28 is a low-cost, high-performance MCU board designed by Waveshare. Tiny size with onboard 1.28inch LCD round display, Li-ion battery recharge manager, 6-axis sensor (3-axis accelerometer and 3-axis gyroscope) and so on, adapting all GPIO and Debug pins, which makes it easy for you to develop and integrate it into products quickly.
 
 ## Purchase
 * [Waveshare](https://www.waveshare.com/esp32-s3-lcd-1.28.htm)
