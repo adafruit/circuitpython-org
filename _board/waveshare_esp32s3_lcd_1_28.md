@@ -7,7 +7,7 @@ manufacturer: "Waveshare"
 board_url:
  - "https://www.waveshare.com/esp32-s3-lcd-1.28.htm"
 board_image: "waveshare_esp32s3_lcd_1_28.jpg"
-date_added: 2024-04-13
+date_added: 2024-04-17
 family: esp32
 features:
   - USB-C
