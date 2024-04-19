@@ -4,9 +4,54 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 19 Apr 2024 11:30:53 -0400</lastBuildDate>
+<lastBuildDate>Fri, 19 Apr 2024 16:06:58 -0400</lastBuildDate>
 
 <item>
+    <title>Watchy</title>
+    <link>https://circuitpython.org/board/sqfmi_watchy/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/sqfmi_watchy.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/sqfmi_watchy.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/sqfmi_watchy.jpg" alt="Image of Board" loading="lazy">
+<p>By Squarofumi</p> <p>Watchy is an E-Ink watch with open source hardware and software. It has a barebones design utilizing the PCB as the watch body, allowing it to be worn as-is, or further customized with different 3D printed cases and watch straps. It is a unique timepiece that is also a wearable development platform, allowing users to create their own experience.</p>
+
+<p>Watchy’s E-Ink display delivers an always-on, beautiful, crisp image clearly visible under bright sunlight, and requires no power between updates. At 200 x 200 pixels and monochrome, the display offers a distinctive aesthetic.</p>
+
+<p>Watchy has both Wi-Fi and Bluetooth LE connectivity, allowing it to connect with internet APIs (e.g., weather, news, traffic, maps, Spotify, etc.), as well as Bluetooth LE enabled devices.</p>
+
+<p>With makers/hackers/tinkerers in mind, we chose the ESP32 for its large community and support for a wide variety of development options, such as Arduino, Micropython, ESP-IDF, and Zephyr-RTOS.</p>
+
+<h3 id="features--specifications">Features &amp; Specifications</h3>
+
+<ul>
+  <li>Ultra-low-power e-paper 1.54” display with 200 x 200 resolution and wide viewing angle</li>
+  <li>Wi-Fi &amp; Bluetooth LE connectivity</li>
+  <li>3-axis accelerometer with gesture detection</li>
+  <li>Real-time clock for accurate time keeping with calendar and alarm functions</li>
+  <li>Built-in USB-to-serial adapter for programming on the go</li>
+  <li>Vibration motor for alerts</li>
+  <li>Four tactile buttons</li>
+  <li>Open source hardware &amp; software</li>
+  <li>Tons of examples &amp; cool watch faces</li>
+  <li>3D case designs (stls) to customize your watchy (and watch straps)</li>
+  <li>Injection-molded plastic case</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.crowdsupply.com/sqfmi/watchy#products">Crowd Supply</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 19 Apr 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/sqfmi_watchy/</guid>
+  </item><item>
     <title>Sunton ESP32-8048S070</title>
     <link>https://circuitpython.org/board/sunton_esp32_8048S070/</link>
     <description><![CDATA[ 
@@ -41,7 +86,7 @@
     <guid>https://circuitpython.org/board/sunton_esp32_8048S070/</guid>
   </item><item>
     <title>Maker Go ESP32C3 Supermini</title>
-    <link>https://circuitpython.org/board/makergo-esp32c3-supermini/</link>
+    <link>https://circuitpython.org/board/makergo_esp32c3_supermini/</link>
     <description><![CDATA[ 
 
 <img srcset="https://circuitpython.org/assets/images/boards/small/makergo-esp32c3-supermini.jpg 300w,
@@ -77,7 +122,7 @@ Based on the above characteristics, ESP32C3SuperMini is positioned as a high-per
     <category>CircuitPython</category>
     
     <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/board/makergo-esp32c3-supermini/</guid>
+    <guid>https://circuitpython.org/board/makergo_esp32c3_supermini/</guid>
   </item><item>
     <title>Quartz64 Model A</title>
     <link>https://circuitpython.org/blinka/quartz64_a/</link>
@@ -417,12 +462,14 @@ Based on the above characteristics, ESP32C3SuperMini is positioned as a high-per
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/adafruit_feather_esp32c6_4mbflash_nopsram.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <p>Coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href="https://www.youtube.com/adafruit">YouTube</a>.</p>
+<p>By Adafruit</p> <p>The ESP32-C6 is Espressif’s first Wi-Fi 6 SoC integrating 2.4 GHz Wi-Fi 6, Bluetooth 5 (LE) and the 802.15.4 protocol. It brings the goodness you know from the <a href="https://www.adafruit.com/product/5337">low-cost C3 series</a> and improves it with Zigbee/802.15.4 at 2.4Ghz. <a href="https://csa-iot.org/all-solutions/matter/">That means it could make for great Matter development hardware</a>!</p>
 
-<h2 id="learn-more">Learn More</h2>
+<p>We took our <a href="https://www.adafruit.com/product/5000">Feather ESP32-S2</a> and swapped out the ‘S2 for a C6. Plus some re-routing and here’s what we’ve got: a C6 Feather with lots of GPIO, <a href="https://www.adafruit.com/product/5580">lipoly charging and monitoring with the MAX17048</a>, NeoPixel, I2C Stemma QT port, and a second low-quiescent LDO for disabling the I2C and NeoPixel when we want ultra-low power usage. We also <a href="https://www.adafruit.com/product/2652">tossed a BME280</a> on there, so you could use it immediately as a low power temp/hum/pressure sensor.</p>
+
+<h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://youtu.be/FV0-gMT9uBA?si=yZjXHgKLal3B5I9-&amp;t=130">YouTube</a></li>
+  <li><a href="https://www.adafruit.com/product/5933">Adafruit</a></li>
 </ul>
  ]]></description>
     

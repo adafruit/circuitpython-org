@@ -1192,6 +1192,16 @@
             }
         ]
     },
+    "sqfmi_watchy": {
+        "name": "Watchy",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.1.0-beta.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/sqfmi_watchy/en_US/adafruit-circuitpython-sqfmi_watchy-en_US-9.1.0-beta.1.bin"
+            }
+        ]
+    },
     "espressif_esp32s3_devkitc_1_n32r8": {
         "name": "ESP32-S3-DevKitC-1-N32R8",
         "chipfamily": "esp32s3",
@@ -1921,6 +1931,16 @@
             }
         ]
     },
+    "makergo_esp32c3_supermini": {
+        "name": "Maker Go ESP32C3 Supermini",
+        "chipfamily": "esp32c3",
+        "releases": [
+            {
+                "version": "9.1.0-beta.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/makergo_esp32c3_supermini/en_US/adafruit-circuitpython-makergo_esp32c3_supermini-en_US-9.1.0-beta.1.bin"
+            }
+        ]
+    },
     "hardkernel_odroid_go": {
         "name": "ODROID Go",
         "chipfamily": "esp32",
@@ -2294,11 +2314,6 @@
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/targett_module_clip_wroom/en_US/adafruit-circuitpython-targett_module_clip_wroom-en_US-9.1.0-beta.1.uf2"
             }
         ]
-    },
-    "makergo-esp32c3-supermini": {
-        "name": "Maker Go ESP32C3 Supermini",
-        "chipfamily": "esp32c3",
-        "releases": []
     },
     "lilygo_ttgo_tdisplay_esp32_4m": {
         "name": "TTGO T-Display ESP32 4M",
