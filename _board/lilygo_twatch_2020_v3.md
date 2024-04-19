@@ -12,6 +12,7 @@ family: esp32
 features:
   - Display
   - Bluetooth/BTLE
+  - Wi-Fi
   - Battery Charging
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "makergo-esp32c3-supermini"
+board_id: "makergo_esp32c3_supermini"
 title: "Maker Go ESP32C3 Supermini Download"
 name: "Maker Go ESP32C3 Supermini"
 manufacturer: "Maker Go"
