@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "espressif_esp32s3_devkitc_1_n8r8_hacktablet"
-title: "ESP32-S3 Box - 16MB Flash, 8MB PSRAM"
-name: "ESP32-S3 Box"
+title: "ESP32-S3 HackTablet Download"
+name: "ESP32-S3 HackTablet"
 manufacturer: "Kevin Matocha"
 board_url:
  - "https://hackaday.io/project/185831-hacktablet-crestron-tss-752-teardown-rebuild"
