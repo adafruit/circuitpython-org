@@ -17,6 +17,13 @@ The **µPico Stick** is an affordable and high-performing development board, uti
 
 The **RP2040 microcontroller chip**, often referred to as "Raspberry Silicon," features a dual-core ARM Cortex-M0+ processor clocked at 133 MHz, 256 KB of RAM, 30 GPIO pins, and various interface options. Additionally, it boasts 2 MB of onboard QSPI flash memory for storing both code and data.
 
+We at [RF.Guru](https://rf.guru/) utilize this board for internal development and testing out new product concepts. 
+
+**Enhancements Include:**
+
+- Improved 3.3V LDO for reduced noise.
+- Incorporation of ESD protection and noise filtering on both the USB Data bus and the 5V DC input.
+
 **On Board IO**
 
 - 2 push buttons
