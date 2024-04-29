@@ -8989,6 +8989,23 @@
         "description": "<p>The Liatris is a new controller designed by splitkb.com that’s a designed specifically for (split) keyboards. It’s a drop-in replacement for the Pro Micro, and a perfect alternative for other RP2040-based controllers.</p><h3 id=\"core-features\">Core features</h3><ul>  <li>Designed for <strong>maximum compatibility</strong> with kits that work with Pro Micro controllers, including the Kyria and our Aurora Series.</li>  <li><strong>Supports <a href=\"https://docs.qmk.fm/#/platformdev_rp2040\">QMK</a> (all capabilities) and ZMK firmware (wired, single controller)</strong> out of the box. Also compatible with <a href=\"https://github.com/KMKfw/kmk_firmware\">KMK</a> and <a href=\"https://circuitpython.org/\">CircuitPython</a>.</li>  <li><strong>Has 128Mbit (16MB) of flash memory</strong>, ensuring you’ll never run out of space even when making heavy use of OLED animations or text expansion macros. We added as much flash as the RP2040 can handle!</li>  <li><strong>Access to 23 GPIO pins</strong> to use on your keyboard, meaning that on any Aurora Series keyboard, you’ll have 5 pins left over for any modifications you may want to do.</li>  <li><strong>Rear-facing bootloader button</strong> allowing you to easily recover from a bricked firmware, even when mounted in the usual upside-down position.</li>  <li>An <strong>ultra-low profile</strong> with a mid-mounted USB-C port and a mere 1mm thick PCB. The rear-mounted reset button checks in at only 0.35mm, too, like it’s almost not there.</li>  <li><strong>Supports at least 1A of power output</strong>, so you can maximize the output of your LEDs when your computer outputs enough power.</li></ul><h3 id=\"advanced-features\">Advanced features</h3><p>The default settings are right for most people out of the gate. For those who demand more of their controller, we have some advanced features:</p><ul>  <li><strong>5V tolerant I2C pins</strong> so you won’t have to worry when hooking up an I2C device like an OLED or trackball board;</li>  <li><strong>Runs at 3.6V for better 5V signal compatibility</strong> so your LEDs will listen better to those smooth colour change commands (according to data sheets, 3.5V is the minimum to reliably talk with LEDs);</li>  <li><strong>Selectable voltage on the VCC</strong> (defaults to 5V to support RGB LEDs) <strong>and RAW pins</strong> (which we named VA, and isn’t connected by default to be compatible with common Corne-style kits that bridge VCC with RAW on the keyboard by default) for when you need to get specific with your kit;</li>  <li><strong>USB data pads</strong> for hand wired builds where you want to have a separate USB port somewhere else on the board;</li>  <li><strong>Debug pads</strong> to be able to better look into microcontroller behaviour when you really need to.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://splitkb.com/products/liatris\">SplitKB</a></li></ul>"
     },
     {
+        "board_id": "spotpear_esp32c3_lcd_1_44",
+        "title": "Spotpear ESP32C3 LCD 1.44 Download",
+        "name": "Spotpear ESP32C3 LCD 1.44",
+        "board_url": [
+        ],
+        "board_image": "spotpear_esp32c3_lcd_1_44.jpg",
+        "date_added": "2024-04-24",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/spotpear_esp32c3_lcd_1_44/",
+        "description": "<p>This desktop gadget, based on ESP32 C3, is not only a practical mini-TV but also a unique design artwork. Its 1.44-inch LCD screen, driven by ST7735S, can run small and short videos with LVGL drive. Additionally, it can connect to WiFi to display the current weather and time.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Onboard 1.44inch 128x128 pixels 65K color LCD display.</li>  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication.</li>  <li>5 user programmable GPIO on an external pin header</li>  <li>3 user programmable buttons</li>  <li>Lithium charge circuit with 1.27mm plug for cell</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://spotpear.com/index/product/detail/id/1354.html\">Spotpear</a></li></ul>"
+    },
+    {
         "board_id": "spresense",
         "title": "Spresense Download",
         "name": "Spresense",
