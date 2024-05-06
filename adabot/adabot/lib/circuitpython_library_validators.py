@@ -567,7 +567,7 @@ class LibraryValidator:
         errors = []
 
         black_repo = "repo: https://github.com/python/black"
-        black_version = "rev: 22.3.0"
+        black_version = "rev: 22.4.0"
 
         if black_repo not in text or black_version not in text:
             errors.append(ERROR_BLACK_VERSION)
@@ -895,9 +895,9 @@ class LibraryValidator:
                 return [ERROR_RTD_SUBPROJECT_FAILED]
             self.rtd_subprojects = {}
             for subproject in rtd_response.json()["subprojects"]:
-                self.rtd_subprojects[
-                    common_funcs.sanitize_url(subproject["repo"])
-                ] = subproject
+                self.rtd_subprojects[common_funcs.sanitize_url(subproject["repo"])] = (
+                    subproject
+                )
         repo_url = common_funcs.sanitize_url(repo["clone_url"])
         if repo_url not in self.rtd_subprojects:
             return [ERROR_RTD_SUBPROJECT_MISSING]
