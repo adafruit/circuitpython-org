@@ -10,6 +10,7 @@ board_image: "m5stack_cardputer.jpg"
 date_added: 2024-03-10
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_nopsram
+bootloader_nonstandard_entry_instructions: "After installing the UF2 bootloader, enter the bootloader by: Press and release Btn Rst, then press and release Btn G0."
 downloads_display: true
 features:
   - Speaker
