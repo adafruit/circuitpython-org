@@ -2,7 +2,7 @@
 layout: download
 board_id: "ai-thinker-esp32-cam"
 title: "Ai Thinker ESP32-CAM Download"
-name: "Ai Thinker ESP32-CAM
+name: "Ai Thinker ESP32-CAM"
 manufacturer: "Ai-Thinker"
 board_url:
   - "https://docs.ai-thinker.com/en/esp32-cam"
