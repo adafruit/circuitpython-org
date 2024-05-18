@@ -11,16 +11,19 @@ date_added: 2024-05-17
 family: esp32
 features:
   - Camera
-  - MicroSD Card Reader
-  - Flashlight
   - Wi-Fi
   - Bluetooth/BTLE
   - 8Mb PSRAM
   - Breadboard-Friendly
-  - Optional ESP32-MB expansion board includes buttons and Serial port
-
+  - Robotics
 
 ---
+
+### More features
+* Flashlight
+* MicroSD Card Reader
+* Optional ESP32-MB expansion board includes buttons and Serial port
+
 
 ESP32-CAM is a small sized ESP32 camera module released by Ai-Thinker. The module can work independently with a size of only 27 x 40.5 x 4.5mm, and a deep sleep current as low as 6mA.
 
