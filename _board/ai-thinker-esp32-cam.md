@@ -13,7 +13,6 @@ features:
   - Camera
   - Wi-Fi
   - Bluetooth/BTLE
-  - 8Mb PSRAM
   - Breadboard-Friendly
   - Robotics
 
@@ -23,6 +22,7 @@ features:
 * Flashlight
 * MicroSD Card Reader
 * Optional ESP32-MB expansion board includes buttons and Serial port
+* 8Mb PSRAM
 
 
 ESP32-CAM is a small sized ESP32 camera module released by Ai-Thinker. The module can work independently with a size of only 27 x 40.5 x 4.5mm, and a deep sleep current as low as 6mA.
