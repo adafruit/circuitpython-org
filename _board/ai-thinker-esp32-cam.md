@@ -14,7 +14,6 @@ features:
   - Wi-Fi
   - Bluetooth/BTLE
   - Breadboard-Friendly
-
 ---
 
 ### More features
