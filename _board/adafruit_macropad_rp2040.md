@@ -15,7 +15,7 @@ features:
   - STEMMA QT/QWIIC
 ---
 
-Strap yourself in, we're launching in T-minus 10 seconds...Destination? A new Class M planet called MACROPAD! M here, stands for Microcontroller because this 3x4 keyboard controller features the newest technology from the Raspberry Pi sector: say hello to the RP2040. It's speedy little microcontroller with lots of GPIO pins and a 64 times more RAM than the Apollo Guidance Computer. We added 8 MB of flash memory for plenty of storage.
+Strap yourself in, we're launching in T-minus 10 seconds...Destination? A new Class M planet called MACROPAD! M here, stands for Microcontroller because this 3x4 keyboard controller features technology from the Raspberry Pi sector: say hello to the RP2040. It's speedy little microcontroller with lots of GPIO pins and a 64 times more RAM than the Apollo Guidance Computer. We added 8 MB of flash memory for plenty of storage.
 
 Get ready to upgrade your desk's mission control station with a CircuitPython or Arduino powered Macropad - complete with 12 buttons, OLED display, speaker and rotary encoder. Customize it for your spacecraft to help guide you through the great reaches of the unknown. (Or just have it type out your favorite emojis.)
 
@@ -25,7 +25,7 @@ This space-ship is also fitted with a 128x64 monochome OLED for a crisp heads-up
 
 Want to add more hardware? No worries - [a STEMMA QT port on the side lets you connect any I2C add-on peripherals from the massive STEMMA QT / Qwiic family of plug in boards](https://www.adafruit.com/category/1018).
 
- **Please note, the RP2040 chip does not currently have QMK support** - this macropad is designed to be programmed in Arduino or CircuitPython! If QMK eventually does add RP2040 as a supported chipset (no ETA and no plans that we know of), we'll update this page.
+This macropad was originally designed to be programmed in Arduino or CircuitPython, but you can also use [QMK](https://config.qmk.fm/#/adafruit/macropad/LAYOUT) or [KMK](https://github.com/KMKfw/kmk_firmware) firmware if you prefer!
 
 ## Technical details
 
