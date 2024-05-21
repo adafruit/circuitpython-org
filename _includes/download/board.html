@@ -10,6 +10,7 @@
 {% assign bootloader_version = bootloaders[page.family].version %}
 {% assign bootloader_id = page.bootloader_id %}
 {% assign releases = stable | concat: unstable %}
+{% assign bootloader_instructions = page.bootloader_nonstandard_entry_instructions %}
 {% capture download_url %}https://downloads.circuitpython.org/bin/{{ board_id}}{% endcapture %}
 {% for version in releases %}
   <div class="section {% if version.stable %}stable{% else %}unstable{% endif %}">
@@ -259,11 +260,15 @@ By the way, boolean operation precedence is right to left! (yeesh)
    </ul>
   </li>
  </ul>
- <p>
+ {% if bootloader_instructions == nil %}
+  <p>
    After installing the UF2 bootloader, enter the bootloader by double-clicking the reset button.
    On boards with an RGB status LED, tap reset once, wait for the LED to turn purple, and tap
    again before the purple goes away. On other boards, consult the board documentation.
    </p>
+  {% else %}
+  <p>{{ bootloader_instructions }}</p>
+  {% endif %}
  <p>
    After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
    Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
