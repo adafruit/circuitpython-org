@@ -22,7 +22,7 @@ Tiny, but mighty! This board with a powerful ESP32-S3 MCU measures in at 24.8mmx
  * ESP32-S3FH4R2 dual-core Xtensa® 32-bit LX7 processor - up to 240MHz
  * USB Type-C Port
  * ME6217C33M5G low dropout LDO, 800mA (Max)
- * WS2812 GRB LED (R and G are swapped from their usual order)
+ * WS2812 RGB LED
  * BOOT button
    Press it and then press the RESET button to enter download mode
  * RESET button
@@ -41,15 +41,10 @@ Tiny, but mighty! This board with a powerful ESP32-S3 MCU measures in at 24.8mmx
 ## Learn more
 For more information please see the [Waveshare product page](https://www.waveshare.com/esp32-s3-zero.htm)
 
-*Warning: At the time of writing their product page does contain 2 small mistakes*
-It states it has a WS2812 RGB LED on pin 10. It does not.
- 1. It's a GRB LED, not RGB. Keep this in mind when trying to use it.
- 2. It's on IO21, not 10.
-
- There's a link reserved for a wiki although currently there's nothing there yet:
+ESP32-S3 Zero wiki:
 https://www.waveshare.com/wiki/ESP32-S3-Zero
 
-The Chinese version of this page does however contain some content:
+also
 https://www.waveshare.net/wiki/ESP32-S3-Zero
 
 ## Purchase
