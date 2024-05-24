@@ -1922,6 +1922,30 @@
         "description": "<p>BPI-Pico-S3 is the same size as Raspberry Pi Pico board, equipped with ESP32S3 chip, 8M flash, 4-layer PCB, electroplated half-hole process, ceramic antenna, supports 2.4 GHz Wi-Fi and Bluetooth® LE dual-mode wireless communication, is a development board designed for IoT development and Maker DIY.</p><p><strong>Features:</strong></p><ul>  <li><strong>ESP32-S3R2</strong>: Xtensa® dual-core 32-bit LX7 microprocessor,up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; <strong>2 MB Quad SPI PSRAM</strong> is integrated in the package, so don’t worry too much about using massive buffers, it’s basically sufficient.</li>  <li><strong>8MB Quad SPI Flash</strong></li>  <li><strong>Pins and Pads</strong>: It’s the same size as Raspberry Pi Pico board, can also have headers soldered in for use in a breadboard or perfboard, or can be soldered directly onto a PCB with the castellated pads. There’s 20 pads on each side, with groups of general purpose input-and-output (GPIO) pins interleaved with plenty of ground pins.</li>  <li><strong>Order of Pins</strong>: Keep the same order as Raspberry Pi Pico board in circuitpython. You get a total of 27 GPIO pins, 4 of those can be analog inputs.The ADC_VREF on Raspberry Pi Pico was change to GP29_A3 on BPI-PicoW-S3. In fact, the pin function assignments of ESP32S3 and RP2040 chip are not exactly the same, so redefine the pin order in circuitpython to adapt.</li>  <li><strong>Native USB Port</strong>: ESP32-S3 full-speed USB OTG interface, using microUSB Connector with back-feed protection. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB protocols, as well as for JTAG debugging.</li>  <li><strong>5V to 3.3V DC/DC</strong>: Maximum theoretical output 2A 3.3V.</li>  <li><strong>Reset Button</strong>: Support double-clicking the reset button to enter the UF2 bootloader.</li>  <li><strong>BOOT0</strong>: If the UF2 Bootloader is removed, you can use any conductor bar such as metal pins or tweezers to short it to put the EPS32S3 chip into bootloader mode, then the UF2 Bootloader can be re-installed.    <ul>      <li>Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.</li>      <li>Short circuit BOOT0 contact.</li>      <li>Press and release the Reset button.</li>      <li>Release the BOOT0 contact.</li>    </ul>  </li>  <li><strong>RGB LED</strong>: Addressable WS2812 RGB LED, control it with board.NEOPIXEL in circuitpython.</li>  <li><strong>Monochrome LED</strong>: Control it with board.GP25 or board.LED in circuitpython.</li></ul><h2 id=\"purchase\">Purchase</h2><p><a href=\"https://www.aliexpress.com/item/1005004775634442.html\">Aliexpress shop</a></p>"
     },
     {
+        "board_id": "bradanlanestudio_explorer_rp2040",
+        "title": "Bradán Lane STUDIO Explorer Badge Download",
+        "name": "Bradán Lane STUDIO Explorer Badge",
+        "board_url": [
+        ],
+        "board_image": "bradanlanestudio_explorer_rp2040.jpg",
+        "date_added": "2024-05-23",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Feather-Compatible",
+            "Battery Charging",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly",
+            "External Display"
+        ],
+        "url_path": "/board/bradanlanestudio_explorer_rp2040/",
+        "description": "<p>The “Explorer Badge” is an RP2040 based CircuitPython board with integrated features to provide an <em>all-in-one</em> learning device.</p><p>The board includes:</p><ul>  <li>1.54” ePaper display</li>  <li>neopixels</li>  <li>touch sensors</li>  <li>accelerometer</li>  <li>IR (receiver and emitter)</li>  <li>I2C STEMMA-QT</li>  <li>sound (both PWM and I2S support)</li></ul><p>There is also a tutorial series associated with the Explore Badge to get users started with Python and then CircuitPython with the integrated hardware. The badge has been tested with the related CircuitPython Learning Guides.</p><p>There will be at least two physical implementations of the Explorer Badge. One will be used at a conference in 2024 (that implementation will have a focus on youth education). The other will be generally available through Tindie and other options.</p>"
+    },
+    {
         "board_id": "brainboardz_neuron",
         "title": "BrainBoardz Neuron Download",
         "name": "BrainBoardz Neuron",
@@ -3206,6 +3230,27 @@
         "description": "<p>Escornabot is an open source/hardware project that aims to bring robotics and programming to children.</p><p>The basic Escornabot can be programmed with the robot’s buttons to execute sequence of movements. From this, imagination is the only one limit to the possibilities.</p><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://github.com/ElectronicCats/escornabot\">Escornabot Makech- GitHub</a></li></ul>"
     },
     {
+        "board_id": "esp32-wrover-dev-cam",
+        "title": "ESP32-WRover Cam Dev Board Download",
+        "name": "ESP32-WRover Cam Dev Board",
+        "board_url": [
+        ],
+        "board_image": "esp32-wrover-dev-cam.jpg",
+        "date_added": "2024-05-23",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Camera",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/esp32-wrover-dev-cam/",
+        "description": "<p>The Freenove ESP32-Wrover CAM board is an ESP32 development board with the ESP32-Wrover-E chip (with 4 MB PSRAM) and an OV2640 camera.</p><p>It has a USB-to-UART converter so it’s straightforward to upload code to the board. You just need toconnect a USB cable to the board and connect it to your computer to upload code or apply power. There’s no need for extra circuitry or an FTDI programmer (contrary to the ESP32-CAM AI-Thinker board).</p><p>It comes with several exposed GPIOs if you want to connect other peripherals like sensors and outputs (many more GPIOs than the ESP32-CAM AI-Thinker). Additionally, if you’re not using the camera, you can use it as a regular ESP32 with a wide number of available GPIOs. The GPIOs with a slash above the numbers are the ones used by the camera.</p><p>There are RESET and BOOT buttons, which makes it easy to reset the board or put it in flashing mode if needed.</p><h3 id=\"features\">Features:</h3><ul>  <li>ESP32-Wrover-E Chip with 4MB PSRAM</li>  <li>Built-in USB-to-UART (CH340C drivers) — no need for an FTDI programmer</li>  <li>Camera OV2640 2 Megapixel</li>  <li>BOOT and RST buttons</li>  <li>LED indicators (RX/TX ON/OFF, and built-in LED (GPIO2))</li>  <li>Onboard antenna</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256805721307260.html\">Aliexpress</a></li>  <li><a href=\"https://amzn.to/4c8Bl51\">Amazon</a></li></ul>"
+    },
+    {
         "board_id": "espressif_esp32_devkitc_v4_wroom_32e",
         "title": "ESP32-DevKitC-VE-WROVER Download",
         "name": "ESP32-DevKitC-VE-WROVER",
@@ -3675,6 +3720,27 @@
         ],
         "url_path": "/board/espressif_esp32s3_usb_otg_n8/",
         "description": "<p>ESP32-S3-USB-OTG is a development board that focuses on USB-OTG function verification and application development. It is based on ESP32-S3 SoC, supports Wi-Fi and BLE 5.0 wireless functions, and supports USB host and USB device functions. It can be used to develop applications such as wireless storage devices, Wi-Fi network cards, LTE MiFi, multimedia devices, virtual keyboards and mice. The development board has the following features:</p><ul>  <li>Onboard ESP32-S3-MINI-1-N8 module, with built-in 8 MB flash</li>  <li>Onboard USB Type-A host and device interface, with built-in USB interface switching circuit</li>  <li>Onboard USB to serial debugging chip (Micro USB interface)</li>  <li>Onboard 1.3-inch LCD color screen, supports GUI</li>  <li>Onboard SD card interface, compatible with SDIO and SPI interfaces</li>  <li>Onboard charging IC, can be connected to lithium battery</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-USB-OTG/15822449\">DigiKey</a></li>  <li><a href=\"https://amzn.to/3uTJB4F\">Amazon</a></li></ul>"
+    },
+    {
+        "board_id": "espressif_esp8684_devkitc_02_n4",
+        "title": "ESP8684-DevKitC-2-N4 Download",
+        "name": "ESP8684-DevKitC-2-N4",
+        "board_url": [
+            "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp8684/esp8684-devkitc-02/user_guide.html"
+        ],
+        "board_image": "espressif_esp8684_devkitc_02_n4.jpg",
+        "date_added": "2024-05-23",
+        "family": "esp32c2",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/espressif_esp8684_devkitc_02_n4/",
+        "description": "<p>The ESP8684-DevKitC-02 is an entry-level development board based on ESP8684WROOM-02C/02UC, a general-purpose module with 2 MB/4 MB in-package flash. This board integrates complete Wi-Fi and Bluetooth LE func ons.</p><p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP8684-DevKitC-02 on a breadboard.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/espressif-systems/ESP8684-DEVKITC-02C-N4/21572662\">DigiKey</a></li></ul>"
     },
     {
         "board_id": "espressif_hmi_devkit_1",
@@ -8189,6 +8255,24 @@
         "description": "<p>This USB dongle/key type thing is a little unusual - it <em>isn’t</em> a BLE adapter that you plug into a computer to add wireless capability. (If you do want something like that, our <a href=\"https://www.adafruit.com/products/1327\">Bluetooth 4.0 USB Module</a> will do the job nicely.) Instead, this is basically a minimal nRF52840 wireless microcontroller dev board on a stick. You can program it in Arduino or CircuitPython and it’s completely standalone. This could be useful for some situations where you want to have a standalone BLE device that communicates with a USB host <em>but without dealing with the operating system’s BLE stack</em>.</p><p>Each MDBT50Q-RX dongle comes pre-programmed with the TinyUF2 bootloader, which makes loading code onto it very easy (note that only the ones from Adafruit do this, its a special-order item). To enter the bootloader, hold down the dongle’s button while inserting into USB. The button can be used in Arduino/CircuitPython as an input. There’s also a single blue LED indicator. It’s all very simple but we could see situations where perhaps this acts as a beacon, a OS-less BLE interface or bridge, or a compact development board for experimenting with the nRF52840.</p><p>The blue LED is connected to P1.13, set that pin to be an output and pull low to turn on the LED</p><p>The button is connected to P0.15, set that pin to be an input with an internal pullup - when pressed the pin will go low.</p><p>Of course the best way to program these chips is with the Nordic SDK. This chip also has <a href=\"https://github.com/adafruit/Adafruit_nRF52_Arduino\">some basic Arduino support</a>, <a href=\"https://github.com/adafruit/circuitpython/tree/main/ports/nrf\">CircuitPython support</a>, and is <a href=\"https://mynewt.apache.org/latest/tutorials/blinky/nRF52.html\">supported by MyNewt</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5199\">Adafruit</a></li>  <li><a href=\"https://www.raytac.com/product/ins.php?index_id=89\">Raytac Corporation</a></li></ul>"
     },
     {
+        "board_id": "renode_cortex_m0plus",
+        "title": "Renode Cortex M0+ Download",
+        "name": "Renode Cortex M0+",
+        "board_url": [
+            "https://renode.readthedocs.io/en/latest/index.html"
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2024-05-23",
+        "family": "renode",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/renode_cortex_m0plus/",
+        "description": "<p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p><p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p>"
+    },
+    {
         "board_id": "rfguru_rp2040",
         "title": "RF.Guru µPico Download",
         "name": "µPico",
@@ -10489,6 +10573,27 @@
         ],
         "url_path": "/board/weact_studio_pico_16mb/",
         "description": "<p>The Raspberry Pi Pico is a microcontroller board based on the Raspberry Pi RP2040 microcontroller chip. It has been designed to be a low-cost, high-performance microcontroller board with flexible digital interfaces. The Raspberry Pi Pico features two ARM Cortex-M0+ cores run up to 133MHz; 256KB RAM; 30 GPIO pins; and a broad range of interfacing options. This is paired with 2MB/4MB/8MB/16MB of onboard QSPI Flash memory for code and data storage.</p><p><strong>Specifications:</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 2MB/4MB/8MB/16MB of on-board Flash memory</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/3256803521775546.html?skuId=12000026898823783\">Aliexpress</a></li></ul>"
+    },
+    {
+        "board_id": "wemos_lolin32_lite",
+        "title": "LOLIN32 Download",
+        "name": "LOLIN32",
+        "board_url": [
+        ],
+        "board_image": "wemos_lolin32_lite.jpg",
+        "date_added": "2024-05-23",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "Battery Charging"
+        ],
+        "url_path": "/board/wemos_lolin32_lite/",
+        "description": "<p>The WEMOS LOLIN32 Lite Board is the successor to the ESP8266. In addition to WiFi, the microcontroller also has Bluetooth and Bluetooth LE as well as more IO pins and improved analog inputs. The ESP32 can be programmed under Arduino. However, the board needs to be integrated first. I recommend the ESP32 only for advanced users, as it is not yet supported by all Arduino libraries. In addition to the WiFi/BLE SoC, the Lolin32 board includes a CH340G that converts USB to serial and allows your computer to communicate with the microcontroller. The LOLIN32 also has a LiPo charger with connection for 3.6V LiPo’s, so you can realize your ESP32 project battery-powered and really wireless.</p><p>The ESP32 is great for small projects where you don’t need so many I/Os, processing power or interfaces.</p><h2 id=\"features\">Features</h2><ul>  <li>Development board</li>  <li>WIFI</li>  <li>Bluetooth</li>  <li>4MB Flash memory</li>  <li>Lithium battery interface, 500mA Max charging current</li>  <li>ESP32 Version: REV1</li>  <li>Dual-core Tensilica LX6 microprocessor</li>  <li>Up to 240MHz clock frequency</li>  <li>520kB internal SRAM</li>  <li>Integrated 802.11 BGN WiFi transceiver</li>  <li>Integrated dual-mode Bluetooth (BLE and Classic)</li>  <li>Operating voltage: 3.3V</li>  <li>Digital I / O pins: 19</li>  <li>Analog Input Pins: 6</li>  <li>Flash: 4M bytes</li>  <li>Integrated LiPo battery charger for 3.7V Lipos with max 500mA charging current</li>  <li>Lipo battery connection: PH-2 2.0mm</li>  <li>Support capacitive touch sensors</li>  <li>USB-UART interface: CH340G</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://amzn.to/3wCPfxb\">Amazon</a></li></ul>"
     },
     {
         "board_id": "winterbloom_big_honking_button",
