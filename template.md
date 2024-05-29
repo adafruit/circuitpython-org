@@ -7,7 +7,8 @@ manufacturer: "<board manufacturer>"
 board_url:
  - ""
 board_image: "unknown.jpg"
-date_added: 2020-3-31
+# format is YYYY-MM-DD
+date_added: 2020-03-31
 downloads_display: true
 blinka: false
 download_instructions: "BLINKA ONLY - url"

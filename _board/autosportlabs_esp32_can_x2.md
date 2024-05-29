@@ -8,7 +8,7 @@ board_url:
  - "https://www.autosportlabs.com/product/esp32-can-x2-dual-can-bus-automotive-grade-development-board/"
  - "https://wiki.autosportlabs.com/ESP32-CAN-X2"
 board_image: "autosportlabs_esp32_can_x2.jpg"
-date_added: 2024-28-5
+date_added: 2024-05-29
 family: esp32  # See _data/bootloaders.json
 bootloader_id:
 features:
