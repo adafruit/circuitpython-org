@@ -12,23 +12,20 @@ date_added: 2024-5-28
 family: esp32  # See _data/bootloaders.json
 bootloader_id:
 features:
-  - Breadboard-Friendly
+  - Arduino Shield Compatible
   - Bluetooth/BTLE
-  - Wi-Fi
-  - Dual CAN bus
-  - Automotive-grade power supply
-  - On-board CAN bus transceivers
+  - Breadboard-Friendly
   - USB-C
-  - User programmable status LED 
+  - Wi-Fi
 ---
 
-The Autosport Labs ESP32-CAN-X2 is a development board suitable for automotive, industrial, and aerospace applications.
+The Autosport Labs ESP32-CAN-X2 is a development board designed to make CAN bus communications easy for automotive and industrial applications.
 
 It features the ESP32-S3-WROOM-1-N8R8 using an Xtensa® 32-bit LX7 CPU operating at up to 240 MHz (8MB flash, 8MB PSRAM), dual CAN bus support, two CAN bus transceivers, and an automotive-grade power supply to safely integrate it into your car project.
 
-All IO pins are broken out to a breadboard-friendly layout so you can easily integrate it into bigger projects. A separate connector also allows power, ground, and dual CAN connections so you can quickly wire it into a CAN network.
+All IO pins are broken out to a breadboard-friendly layout so you can easily integrate it into bigger projects. A separate connector also provides power, ground, and dual CAN connections so you can quickly wire it into CAN networks.
 
-Use the two CAN bus networks for extra versatility - some ideas:
+The two CAN bus networks brings additional possibilities, such as:
   - Bridge two CAN bus networks with different baud rates
   - Collect data from two different CAN bus networks with different baud rates
   - Isolate traffic between CAN networks
@@ -41,8 +38,8 @@ Sample Projects are available to get you started quickly [Example Projects in ou
 - **ESP32-S3-WROOM-1-N8R8** microcontroller powerful dual-core Xtensa LX6 CPU running at up to 240 MHz.
 - **Automotive grade power supply**: Ruggedized power supply up to 40v input, provides safety for automotive applications where damaging voltage surges and load dumps are common.
 - **Pin Headers**: All available GPIO pins are broken out to the pin headers on the board for easy interfacing and programming. For details, please see [our documentation](https://wiki.autosportlabs.com/ESP32-CAN-X2).
-- **USB-C port**: A USB-C port supplies power for programming, flashing your code, for communications using the USB 1.1 specification, as well as for JTAG debugging.
-- **Boot Button**: Download button. Holding down **Boot** and then pressing **Reset** initiates Firmware Download mode for downloading firmware through the serial port.
+- **USB-C port**: A USB-C port supplies power for programming, flashing your code, communications using the USB 1.1 specification, and also provides JTAG debugging.
+- **Boot Button**: Firmware download button. Holding down **Boot** and then pressing **Reset** initiates Firmware Download mode for installing firmware.
 - **Reset Button**: Resets the device
 - **LED**: User controllable LED; use it to indicate status or anything else you would like.
 - **Power LED**: Turns on when power is connected to the board.
