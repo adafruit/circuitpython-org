@@ -86,7 +86,7 @@ def verify_date_added(folder):
                 print(f"date_added field is missing for {board_id}")
                 valid = False
             elif not valid_date(date_added):
-                print(f"{date_added} is an invalid date for {board_id}")
+                print(f"{date_added} is an invalid date for {board_id}. The format must be YYYY-MM-DD, using leading zeros if necessary")
                 valid = False
     return valid
 
