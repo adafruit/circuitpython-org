@@ -31,7 +31,7 @@ The two CAN bus networks brings additional possibilities, such as:
   - Isolate traffic between CAN networks
   - Create a "man in the middle" agent, which will help identify the source of CAN messages, helpful for CAN bus reverse-engineering efforts
 
-Sample Projects are available to get you started quickly [Example Projects in our Github])https://github.com/autosportlabs/ESP32-CAN-X2)
+Sample Projects are available to get you started quickly [Example Projects in our Github](https://github.com/autosportlabs/ESP32-CAN-X2)
 
 **Components:**
 
@@ -51,5 +51,5 @@ Sample Projects are available to get you started quickly [Example Projects in ou
 ## Purchase
 
 * [Autosport Labs](https://www.autosportlabs.com/product/esp32-can-x2-dual-can-bus-automotive-grade-development-board/)
-* [Example Projects])https://github.com/autosportlabs/ESP32-CAN-X2)
+* [Example Projects](https://github.com/autosportlabs/ESP32-CAN-X2)
 * [Full documentation](https://wiki.autosportlabs.com/ESP32-CAN-X2)
