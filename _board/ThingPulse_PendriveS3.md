@@ -11,15 +11,19 @@ family: esp32s3
 bootloader_id: thingpulse_pendrive_s3
 features:
   - Wi-Fi
-  - BLE
-  - USB-C connector
+  - Bluetooth/BTLE
+  - USB-C
+---
+
+The ThingPulse Pendrive S3 is a ESP32-S3 board which fits neatly into a USB pendrive
+
+  - Wi-Fi
+  - Bluetooth/BTLE
+  - USB-C
   - 128MB Built-In SD-card-like flash memory
   - WS2812B RGB status LED
   - Capacitive touch button
   - Compact Pendrive Enclosure
----
-
-The ThingPulse Pendrive S3 is a ESP32-S3 board which fits neatly into a USB pendrive
 
 ## Applications: BadUSB
 
