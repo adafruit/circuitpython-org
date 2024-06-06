@@ -2448,6 +2448,12 @@
             }
         ]
     },
+    "thingpulse_pendrive_s3": {
+        "name": "ThingPulse Pendrive S3",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-thingpulse_pendrive_s3-0.18.2.zip",
+        "releases": []
+    },
     "unexpectedmaker_nanos3": {
         "name": "Unexpected Maker NanoS3",
         "chipfamily": "esp32s3",

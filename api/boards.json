@@ -144,6 +144,27 @@
         "description": "<p>Why buy an Apple watch when you can spend your weekends building a microcontroller based “smart” watch instead? The TG-Watch is an open source, not-dumb watch meant for makers who want to hack on their watch, people who want to bring Python with them everywhere, or as a great starting point to learn about programming.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>240x240, 1.54” LCD</li>  <li>capacitive touchscreen</li>  <li>USB-C port (2.0)</li>  <li>Step counter and pedometer</li>  <li>Vibration motor and haptic motor driver</li>  <li>Bluetooth 5, Bluetooth mesh, Thread, ZigBee</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/TG-Techie/TG-Watch02-PCB\">Download PCB Files on Github</a></li></ul>"
     },
     {
+        "board_id": "thingpulse_pendrive_s3",
+        "title": "ThingPulse Pendrive S3 Download",
+        "name": "ThingPulse Pendrive S3",
+        "board_url": [
+            "https://thingpulse.com/product/esp32-s3-pendrive-s3-128mb/"
+        ],
+        "board_image": "ThingPulse_Pendrive_S3.jpg",
+        "date_added": "2024-06-06",
+        "family": "esp32s3",
+        "bootloader_id": "thingpulse_pendrive_s3",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C"
+        ],
+        "url_path": "/board/ThingPulse_PendriveS3/",
+        "description": "<p>The ThingPulse Pendrive S3 is a ESP32-S3 board which fits neatly into a USB pendrive</p><ul>  <li>Wi-Fi</li>  <li>Bluetooth/BTLE</li>  <li>USB-C</li>  <li>128MB Built-In SD-card-like flash memory</li>  <li>WS2812B RGB status LED</li>  <li>Capacitive touch button</li>  <li>Compact Pendrive Enclosure</li></ul><h2 id=\"applications-badusb\">Applications: BadUSB</h2><p>Imagine having full control over any computer in seconds, simply by plugging in a device. That’s the power of tools that emulate a USB keyboard. Because computers inherently trust keyboards, these devices can take command with lightning speed.</p><p>Meet the Pendrive S3, a device that pretends to be a keyboard, bombarding the computer with hundreds of keystrokes per second—far faster than any human could type. By utilizing a straightforward scripting language, you can program the Pendrive S3 to execute any commands you want.</p><p>Now, take this concept to the next level with the Super WiFi Duck. This innovative tool lets you manage all your scripts wirelessly through a user-friendly web interface. No need for app installations, logging in, or tedious script transfers. With the Super WiFi Duck, everything is at your fingertips, making it easier than ever to unleash the full potential of a BadUSB device.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://thingpulse.com/product/esp32-s3-pendrive-s3-128mb/\">ThingPulse</a></li></ul>"
+    },
+    {
         "board_id": "adafruit_esp32s3_camera",
         "title": "MEMENTO - Python Programmable DIY Camera Download",
         "name": "MEMENTO - Python Programmable DIY Camera",
