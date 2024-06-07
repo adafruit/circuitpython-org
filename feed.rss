@@ -4,9 +4,52 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 07 Jun 2024 06:03:29 -0400</lastBuildDate>
+<lastBuildDate>Fri, 07 Jun 2024 16:29:11 -0400</lastBuildDate>
 
 <item>
+    <title>RPGA Feather</title>
+    <link>https://circuitpython.org/board/odt_rpga_feather/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/odt_rpga_feather.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/odt_rpga_feather.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/odt_rpga_feather.jpg" alt="Image of Board" loading="lazy">
+<p>By Oak Development Technologies</p> <p>What better way to enjoy a Raspberry Pi RP2040 than to pair it with an iCE40 FPGA. iCE40 FPGA provide a small but capable accessory to your favorite project without the hassle of figuring out the wiring and which pins to hook up!</p>
+
+<p>RPGA Feather comes equipped with the RP2040 and the iCE5LP4K fpga from Lattice Semiconductor which features 3520 LUTs, 80kb of BRAM, hardened I2C and SPI blocks (no wasted LUT for soft blocks), and a number of pins both hooked directly to the RP2040, as well as jumper blocks on the bottom to either connect up to 4 additional pins to the RP2040 or provide 4 IO for the fpga.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>2MB QSPI FLASH (w25q16)</li>
+  <li>LiPo Charging via MCP73831 1S LiPo Charger</li>
+  <li>Up to 12 direct pin connections to the RP2040 from the iCE5LP4K</li>
+  <li>USB 2.0 Type C Compatible connector</li>
+  <li>Cree RGB LED driven by FPGA</li>
+  <li>Compact and versatile Feather Form Factor</li>
+  <li>StemmaQT/QWIIC compatible JST connector</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.tindie.com/products/oakdevtech/rpga-feather-rp2040-ice40/">Tindie</a></li>
+</ul>
+
+<h2 id="learn-more">Learn more</h2>
+
+<ul>
+  <li><a href="https://github.com/Oak-Development-Technologies/RPGA-Feather/tree/main">Schematics</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/odt_rpga_feather/</guid>
+  </item><item>
     <title>ThingPulse Pendrive S3</title>
     <link>https://circuitpython.org/board/ThingPulse_PendriveS3/</link>
     <description><![CDATA[ 
