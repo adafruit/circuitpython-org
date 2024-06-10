@@ -4,9 +4,51 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 10 Jun 2024 06:03:50 -0400</lastBuildDate>
+<lastBuildDate>Mon, 10 Jun 2024 11:28:36 -0400</lastBuildDate>
 
 <item>
+    <title>Sunton ESP32-2432S032C</title>
+    <link>https://circuitpython.org/board/sunton_esp32_2432S032C/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/sunton_esp32_2432S032C.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/sunton_esp32_2432S032C.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/sunton_esp32_2432S032C.jpg" alt="Image of Board" loading="lazy">
+<p>By Sunton</p> <p>Sunton ESP32-2432S032C Development Board, Based on ESP32-D0WDQ6 MCU.
+With 3.2” 65K Color Touch LCD. Supports Wifi &amp; Bluetooth.
+Three user accessable GPIO ports (two shared with I2C, one is input-only).
+SD card slot.</p>
+
+<p>This board does not support deep-sleep, since the integrated LiPo-charger
+will go into standby if load is below 45mA for more than 32s.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Dual-Core, 240MHz MCU, 520KB SRAM, 448KB ROM, 4MB flash.</li>
+  <li>Onboard 3.2inch 320x240 pixels 65K color Touch LCD display using ST7789.</li>
+  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication.</li>
+  <li>GT911-I2C capacitive touch.</li>
+  <li>Light-Sensor (non-functional, like on most CYD).</li>
+  <li>RGB LED on the front.</li>
+  <li>SD card slot.</li>
+  <li>Amplified GPIO26 for PWM audio output (xxx, pico-blade connector).</li>
+  <li>Integrated LiPo charger IP5306 with 1.8A (sic!) charge-current (pico-blade connector)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005005138982767.html">Aliexpress</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/sunton_esp32_2432S032C/</guid>
+  </item><item>
     <title>RPGA Feather</title>
     <link>https://circuitpython.org/board/odt_rpga_feather/</link>
     <description><![CDATA[ 

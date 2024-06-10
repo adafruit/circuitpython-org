@@ -9492,6 +9492,23 @@
         "description": "<p>Sunton ESP32-2432S028 Development Board, Based on ESP32-D0WDQ6 MCU. With 2.8” 65K Color Touch LCD. Supports Wifi &amp; Bluetooth. User accessable GPIO ports. SD card slot.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Onboard 2.8inch 240×320 pixels 65K color Touch LCD display.</li>  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication.</li>  <li>SPI Touch, Display and SD card slot.</li>  <li>Amplified GPIO26 for PWM audio output</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/1005006556177475.html\">Aliexpress</a></li></ul>"
     },
     {
+        "board_id": "sunton_esp32_2432S032C",
+        "title": "Sunton ESP32-2432S032C Download",
+        "name": "Sunton ESP32-2432S032C",
+        "board_url": [
+        ],
+        "board_image": "sunton_esp32_2432S032C.jpg",
+        "date_added": "2024-06-07",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/sunton_esp32_2432S032C/",
+        "description": "<p>Sunton ESP32-2432S032C Development Board, Based on ESP32-D0WDQ6 MCU.With 3.2” 65K Color Touch LCD. Supports Wifi &amp; Bluetooth.Three user accessable GPIO ports (two shared with I2C, one is input-only).SD card slot.</p><p>This board does not support deep-sleep, since the integrated LiPo-chargerwill go into standby if load is below 45mA for more than 32s.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Dual-Core, 240MHz MCU, 520KB SRAM, 448KB ROM, 4MB flash.</li>  <li>Onboard 3.2inch 320x240 pixels 65K color Touch LCD display using ST7789.</li>  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication.</li>  <li>GT911-I2C capacitive touch.</li>  <li>Light-Sensor (non-functional, like on most CYD).</li>  <li>RGB LED on the front.</li>  <li>SD card slot.</li>  <li>Amplified GPIO26 for PWM audio output (xxx, pico-blade connector).</li>  <li>Integrated LiPo charger IP5306 with 1.8A (sic!) charge-current (pico-blade connector)</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/1005005138982767.html\">Aliexpress</a></li></ul>"
+    },
+    {
         "board_id": "sunton_esp32_8048S070",
         "title": "Sunton ESP32-8048S070 Download",
         "name": "Sunton ESP32-8048S070",
