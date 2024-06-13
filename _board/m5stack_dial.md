@@ -5,6 +5,7 @@ title: "Dial - Smart Rotary Knob with Touch Screen Download"
 name: "Dial - Smart Rotary Knob with Touch Screen"
 manufacturer: "M5Stack"
 board_url:
+ - "https://www.adafruit.com/product/5966"
  - "https://docs.m5stack.com/en/core/M5Dial"
 board_image: "m5stack_dial.jpg"
 date_added: 2024-02-19
