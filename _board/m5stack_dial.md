@@ -41,3 +41,4 @@ M5Dial provides versatile power supply options to cater to various needs. It acc
 ## Purchase
 
 * [M5Stack](https://shop.m5stack.com/products/m5stack-dial-esp32-s3-smart-rotary-knob-w-1-28-round-touch-screen)
+* [Adafruit](https://www.adafruit.com/product/5966)
