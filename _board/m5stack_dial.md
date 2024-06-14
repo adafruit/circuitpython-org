@@ -5,6 +5,7 @@ title: "Dial - Smart Rotary Knob with Touch Screen Download"
 name: "Dial - Smart Rotary Knob with Touch Screen"
 manufacturer: "M5Stack"
 board_url:
+ - "https://www.adafruit.com/product/5966"
  - "https://docs.m5stack.com/en/core/M5Dial"
 board_image: "m5stack_dial.jpg"
 date_added: 2024-02-19
@@ -41,3 +42,4 @@ M5Dial provides versatile power supply options to cater to various needs. It acc
 ## Purchase
 
 * [M5Stack](https://shop.m5stack.com/products/m5stack-dial-esp32-s3-smart-rotary-knob-w-1-28-round-touch-screen)
+* [Adafruit](https://www.adafruit.com/product/5966)
