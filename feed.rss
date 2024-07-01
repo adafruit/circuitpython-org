@@ -4,9 +4,68 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 01 Jul 2024 11:37:36 -0400</lastBuildDate>
+<lastBuildDate>Mon, 01 Jul 2024 11:39:19 -0400</lastBuildDate>
 
 <item>
+    <title>Feather RP2040 Adalogger</title>
+    <link>https://circuitpython.org/board/adafruit_feather_rp2040_adalogger/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/adafruit_feather_rp2040_adalogger.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/adafruit_feather_rp2040_adalogger.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/adafruit_feather_rp2040_adalogger.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>This is the <b>Adafruit Feather RP2040 Adalogger</b> - our take on an ‘all-in-one’ RP2040 data-logger (or data-reader) with built-in USB, battery charging, and a microSD holder ready to rock! <a href="https://www.adafruit.com/feather">We have other boards in the Feather family, check’em out here.</a></p>
+
+<p>The RP2040 Adalogger is the same size and shape as a Feather and is intended to make your next data logging or data reading project super easy. Micro SD card socket wired for SPI or SDIO? Yes! STEMMA QT / Qwiic connector for fast I2C? Of course! Neopixel? It’s a-glowin’ This board will work excellently with Arduino or CircuitPython/MicroPython for any data recording/retreiving projects.</p>
+
+<p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the <a href="https://www.adafruit.com/product/4864">Raspberry Pi Pico</a>. This chip has a whopping 8MB of onboard QSPI FLASH and 264K of RAM! This makes it great for buffering and processing data before writing it to the SD card.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available.</p>
+
+<p><b>Here’re some handy specs! You get:</b></p>
+
+<ul>
+  <li>Measures 2.0” x 0.9” x 0.28” (50.8mm x 22.8mm x 7mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - 6.3 grams</li>
+  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>
+  <li>264 KB RAM</li>
+  <li><b>8 MB SPI FLASH</b> chip for storing files and CircuitPython/MicroPython code storage. No EEPROM</li>
+  <li><b>Tons of GPIO! 21 x GPIO pins with following capabilities:</b>
+    <ul>
+      <li><b>Four</b> 12-bit ADCs (one more than Pico)</li>
+      <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>
+      <li>16 x PWM outputs - for servos, LEDs, etc</li>
+    </ul>
+  </li>
+  <li><b>Built-in 200mA+ lipoly charger</b> with charging status indicator LED</li>
+  <li><b>Pin #13 red LED</b> for general purpose blinking</li>
+  <li><b>RGB NeoPixel</b> for full-color indication.</li>
+  <li><b>MicroSD card holder</b> for adding as much storage as you could possibly want for reading or writing. Connected to the ‘second’ SPI port on pins 18, 19, 20 and card select on 23. Optional card detect line can be connected to pin 15. For advanced hackers who want to use 4-bit SDIO, we connect DAT1 and DAT2 to 21 and 22 - note we do not have Arduino or CircuitPython code for this mode.</li>
+  <li>On-board <b>STEMMA QT connector</b> that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>
+  <li><b>Both Reset button and Bootloader select button for quick restarts</b> (no unplugging-replugging to relaunch code)</li>
+  <li><b>USB Type C connector</b> lets you access built-in ROM USB bootloader and serial port debugging</li>
+  <li>3.3V Power/enable pin</li>
+  <li>4 mounting holes</li>
+  <li>12 MHz crystal for perfect timing.</li>
+  <li>3.3V regulator with 500mA peak current output</li>
+</ul>
+
+<p>Comes assembled and tested, with some header. You’ll need a soldering iron to attach the header for installing onto your Feather. Stacking headers will let you put another FeatherWing on top. <b>Lipoly battery, MicroSD card, and USB cable not included</b> (but we do have lots of options in the shop if you’d like!)</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5768">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_rp2040_adalogger/</guid>
+  </item><item>
     <title>NANO 33 BLE Rev2</title>
     <link>https://circuitpython.org/board/arduino_nano_33_ble_rev2/</link>
     <description><![CDATA[ 
