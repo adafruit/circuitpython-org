@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "bradanlanestudio_explorer_rp2040"
-title: "Bradán Lane STUDIO Explorer Badge Download"
-name: "Bradán Lane STUDIO Explorer Badge"
+title: "Bradán Lane STUDIO Explorer Badge RP2040 Download"
+name: "Bradán Lane STUDIO Explorer Badge RP2040"
 manufacturer: "Bradán Lane STUDIO"
 board_url: https://aosc.cc/eccn2024
 board_image: "bradanlanestudio_explorer_rp2040.jpg"
@@ -10,21 +10,24 @@ date_added: 2024-05-23
 family: raspberrypi
 tags:
 features:
-  - RP2040 with 8MB Flash
-  - 200*200 ePaper Display
-  - 2KB EEPROM
-  - Neopixel LEDs
+  - ePaper Display
+  - EEPROM
+  - Neopixels
   - Touch Pads
-  - Mini Speaker with Amplifier
+  - Speaker
   - Accelerometer
-  - IR (Receiver and Emitter)
+  - IR
   - STEMMA QT/QWIIC
   - USB-C
   - Battery Charging 
 ---
 
-The "Explorer Badge" is an RP2040 based CircuitPython board with integrated features to provide an *all-in-one* learning device. It has been inspired by Adafruit's Circuit Express series. The combination of the RP2040 with 8MB of Flash and a wide array of integrated hardware, makes the Explorer Badge an excellent hardware choice for learning CircuitPytnon.
+The "Explorer Badge" is a CircuitPython board with integrated features to provide an *all-in-one* learning device.
+It has been inspired by Adafruit's Circuit Express series.
 
+The combination of the RP2040 with 8MB of Flash and a wide array of integrated hardware, makes the Explorer Badge an excellent hardware choice for learning CircuitPytnon.
+
+Check out the Tutorials for an introduction to Python and CircuitPython on the Explorer Badge.
 
 ## Technical Details:
 
