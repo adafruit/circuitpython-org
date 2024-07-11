@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 11 Jul 2024 06:03:30 -0400</lastBuildDate>
+<lastBuildDate>Thu, 11 Jul 2024 12:24:24 -0400</lastBuildDate>
 
 <item>
     <title>USB Interposer</title>
@@ -432,7 +432,7 @@ connect a USB cable to the board and connect it to your computer to upload code 
     <pubDate>Thu, 23 May 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/esp32-wrover-dev-cam/</guid>
   </item><item>
-    <title>Bradán Lane STUDIO Explorer Badge</title>
+    <title>Bradán Lane STUDIO Explorer Badge RP2040</title>
     <link>https://circuitpython.org/board/bradanlanestudio_explorer_rp2040/</link>
     <description><![CDATA[ 
 
@@ -441,23 +441,40 @@ connect a USB cable to the board and connect it to your computer to upload code 
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/bradanlanestudio_explorer_rp2040.jpg" alt="Image of Board" loading="lazy">
-<p>By Bradán Lane STUDIO</p> <p>The “Explorer Badge” is an RP2040 based CircuitPython board with integrated features to provide an <em>all-in-one</em> learning device.</p>
+<p>By Bradán Lane STUDIO</p> <p>The “Explorer Badge” is a CircuitPython board with integrated features to provide an <em>all-in-one</em> learning device.
+It has been inspired by Adafruit’s Circuit Express series.</p>
 
-<p>The board includes:</p>
+<p>The combination of the RP2040 with 8MB of Flash and a wide array of integrated hardware, makes the Explorer Badge an excellent hardware choice for learning CircuitPython.</p>
+
+<p>Check out the Tutorials for an introduction to Python and CircuitPython on the Explorer Badge.</p>
+
+<h2 id="technical-details">Technical Details:</h2>
 
 <ul>
-  <li>1.54” ePaper display</li>
-  <li>neopixels</li>
-  <li>touch sensors</li>
-  <li>accelerometer</li>
+  <li>Raspberry Pi RP2040</li>
+  <li>8MB FLASH</li>
+  <li>2KB EEPROM</li>
+  <li>1.54” 200*200 ePaper display (either BW or BWR)</li>
+  <li>9 Neopixels</li>
+  <li>9 Touch Sensors</li>
+  <li>3-Axis Accelerometer (on the round version)</li>
   <li>IR (receiver and emitter)</li>
   <li>I2C STEMMA-QT</li>
-  <li>sound (both PWM and I2S support)</li>
+  <li>sound (both PWM and I2S support)
+    <ul>
+      <li>I2S pins may optionally be used as general IO pins</li>
+    </ul>
+  </li>
+  <li>LiPo Battery Charging (on the round version)</li>
 </ul>
 
-<p>There is also a tutorial series associated with the Explore Badge to get users started with Python and then CircuitPython with the integrated hardware. The badge has been tested with the related CircuitPython Learning Guides.</p>
+<h2 id="tutorials">Tutorials</h2>
 
-<p>There will be at least two physical implementations of the Explorer Badge. One will be used at a conference in 2024 (that implementation will have a focus on youth education). The other will be generally available through Tindie and other options.</p>
+<p><a href="https://aosc.cc/explorer/">Explore Badge Workshop Series</a></p>
+
+<h2 id="purchase">Purchase</h2>
+
+<p><a href="https://www.tindie.com/products/bradanlane/explorer-badge/">Bradán Lane STUDIO on Tindie</a></p>
  ]]></description>
     
     <category>CircuitPython</category>
