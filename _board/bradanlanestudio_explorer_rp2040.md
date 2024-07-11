@@ -25,7 +25,7 @@ features:
 The "Explorer Badge" is a CircuitPython board with integrated features to provide an *all-in-one* learning device.
 It has been inspired by Adafruit's Circuit Express series.
 
-The combination of the RP2040 with 8MB of Flash and a wide array of integrated hardware, makes the Explorer Badge an excellent hardware choice for learning CircuitPytnon.
+The combination of the RP2040 with 8MB of Flash and a wide array of integrated hardware, makes the Explorer Badge an excellent hardware choice for learning CircuitPython.
 
 Check out the Tutorials for an introduction to Python and CircuitPython on the Explorer Badge.
 
@@ -33,7 +33,7 @@ Check out the Tutorials for an introduction to Python and CircuitPython on the E
 
 - Raspberry Pi RP2040
 - 8MB FLASH
-- 2KB EEPROM (I2C)
+- 2KB EEPROM
 - 1.54" 200*200 ePaper display (either BW or BWR)
 - 9 Neopixels
 - 9 Touch Sensors
