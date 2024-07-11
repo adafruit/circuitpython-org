@@ -10,13 +10,8 @@ date_added: 2024-05-23
 family: raspberrypi
 tags:
 features:
-  - ePaper Display
-  - EEPROM
-  - Neopixels
-  - Touch Pads
+  - Display
   - Speaker
-  - Accelerometer
-  - IR
   - STEMMA QT/QWIIC
   - USB-C
   - Battery Charging 
