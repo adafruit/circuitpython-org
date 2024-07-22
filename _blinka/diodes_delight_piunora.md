@@ -16,6 +16,7 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
   - STEMMA QT/QWIIC
+  - NVME/M.2 Connector
 ---
 
 Piunora is a compact, easy-to-use development board for electronics prototyping with Linux. It has a familiar form factor, legible pin labels, and a design that’s well suited to space-constrained applications.

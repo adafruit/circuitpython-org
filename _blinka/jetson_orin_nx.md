@@ -15,6 +15,7 @@ features:
   - Ethernet
   - 40-pin GPIO
   - HDMI/DisplayPort
+  - NVME/M.2 Connector
 ---
 
 Based on [Jetson Orin NX Module](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/), with [JETSON-IO-BASE-B](https://www.waveshare.com/jetson-xavier-nx-dev-kit.htm?sku=22452) base board, providing rich peripheral interfaces such as M.2, HDMI, USB, etc., which is more convenient for users to realize the product performance.

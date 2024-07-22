@@ -36,5 +36,5 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
 Waveshare wiki [link](https://www.waveshare.com/wiki/ESP32-S3-Pico).
 
 ## Purchase
-* [Waveshare]([https://www.waveshare.com/esp32-s3-pico.htm)
+* [Waveshare](https://www.waveshare.com/esp32-s3-pico.htm)
 

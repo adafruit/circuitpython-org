@@ -18,6 +18,7 @@ features:
   - USB 3.0
   - Bluetooth/BLE
   - Infrared Receiver
+  - NVME/M.2 Connector
 ---
 
 - High Performance: Amlogic A311D - x4 2.2Ghz Cortex A73, x2 1.8Ghz Cortex A53 12nm SoC fabrication process for low heat 2T2R AC Wi-Fi with RSDB Features Bluetooth 5.0 USB 3.0 Available Gigabit Ethernet with WOL support LPDDR4/X USB-C PD for heavy applications

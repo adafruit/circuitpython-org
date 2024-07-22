@@ -16,6 +16,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - Infrared Receiver
+  - NVME/M.2 Connector
 ---
 
 The ODROID-M1 is a single board computer with a wide range of useful peripherals developed for use in a variety of embedded system applications. To achieve this goal, we have developed various hardware accessories and device driver software over the past 10 months. In addition, RK3568B2, the core brain of ODROID-M1, is considered suitable for embedded application use as the SoC manufacturer (Rockchip) guarantees supply for the next 15 years. Therefore, we expect we can supply the ODROID-M1 boards to our important B2B customers until the year 2036 or beyond.
