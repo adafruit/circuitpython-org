@@ -419,7 +419,9 @@ function shouldDisplayDownload(download, displayedManufacturers, displayedMcufam
 
 
     for (const term of downloadsSearch.searchTerm.toLowerCase().split(" ")) {
-        if (!downloadData.includes(term)) {
+        if (!
+            (downloadData.includes(term) ||
+             downloadData.includes(term.replaceAll("-", "")))) {
             return false;
         }
     }
