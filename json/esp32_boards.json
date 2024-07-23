@@ -137,6 +137,16 @@
             }
         ]
     },
+    "ttgo_t8_v1_7": {
+        "name": "TTGO T8 V1.7 ESP32",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.1.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/ttgo_t8_v1_7/en_US/adafruit-circuitpython-ttgo_t8_v1_7-en_US-9.1.1.bin"
+            }
+        ]
+    },
     "oxocard_connect": {
         "name": "Oxocard Connect Card",
         "chipfamily": "esp32",
@@ -376,6 +386,17 @@
                 "version": "9.1.1",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_atoms3_lite/en_US/adafruit-circuitpython-m5stack_atoms3_lite-en_US-9.1.1.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_atoms3_lite/en_US/adafruit-circuitpython-m5stack_atoms3_lite-en_US-9.1.1.uf2"
+            }
+        ]
+    },
+    "lilygo_tdisplay_s3_pro": {
+        "name": "T-Display S3 Pro",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.1.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tdisplay_s3_pro/en_US/adafruit-circuitpython-lilygo_tdisplay_s3_pro-en_US-9.1.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tdisplay_s3_pro/en_US/adafruit-circuitpython-lilygo_tdisplay_s3_pro-en_US-9.1.1.uf2"
             }
         ]
     },
@@ -794,6 +815,18 @@
             }
         ]
     },
+    "waveshare_esp32_s3_tiny": {
+        "name": "ESP32-S3-Tiny",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-waveshare_esp32_s3_tiny-0.18.2.zip",
+        "releases": [
+            {
+                "version": "9.1.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_s3_tiny/en_US/adafruit-circuitpython-waveshare_esp32_s3_tiny-en_US-9.1.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_s3_tiny/en_US/adafruit-circuitpython-waveshare_esp32_s3_tiny-en_US-9.1.1.uf2"
+            }
+        ]
+    },
     "espressif_kaluga_1.3": {
         "name": "ESP32-S2 Kaluga Dev Kit (v1.3) featuring WROVER",
         "chipfamily": "esp32s2",
@@ -815,6 +848,18 @@
                 "version": "9.1.1",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/muselab_nanoesp32_s2_wroom/en_US/adafruit-circuitpython-muselab_nanoesp32_s2_wroom-en_US-9.1.1.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/muselab_nanoesp32_s2_wroom/en_US/adafruit-circuitpython-muselab_nanoesp32_s2_wroom-en_US-9.1.1.uf2"
+            }
+        ]
+    },
+    "unexpectedmaker_feathers3_neo": {
+        "name": "Unexpected Maker FeatherS3 Neo",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_feathers3_neo-0.18.2.zip",
+        "releases": [
+            {
+                "version": "9.1.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.uf2"
             }
         ]
     },

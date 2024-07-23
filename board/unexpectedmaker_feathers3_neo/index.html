@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Unexpected Maker FeatherS3 Neo Download</title>
+<meta name="description" content="Introducing the FeatherS3 Neo - The Blingy RGB ESP32-S3 Development Board in the Feather format!Features &amp; Specifications  32-bit 240 MHz dual-core proce..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/unexpectedmaker_feathers3_neo/" />
+
+<meta property="og:title"   content="CircuitPython - Unexpected Maker FeatherS3 Neo Download" />
+
+
+
+<meta property="og:description" content="Introducing the FeatherS3 Neo - The Blingy RGB ESP32-S3 Development Board in the Feather format!Features &amp; Specifications  32-bit 240 MHz dual-core processor  8 MB SPI Flash  2 MB extra PSRAM  2.4 GHz Wi-Fi - 802.11b/g/n  3D antenna  2x 700 mA 3.3 V LDO regulators  Optimised power path for lo..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/unexpectedmaker_feathers3_neo.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/unexpectedmaker_feathers3_neo/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://docs.circuitpython.org/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>Unexpected Maker FeatherS3 Neo</h1>
+  <h3>by Unexpected Maker</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        <img src="/assets/images/boards/large/unexpectedmaker_feathers3_neo.jpg" alt="Image of Board">
+        <p>
+          <p>Introducing the FeatherS3 Neo - The Blingy RGB ESP32-S3 Development Board in the Feather format!</p>
+
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>32-bit 240 MHz dual-core processor</li>
+  <li>8 MB SPI Flash</li>
+  <li>2 MB extra PSRAM</li>
+  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>
+  <li>3D antenna</li>
+  <li>2x 700 mA 3.3 V LDO regulators</li>
+  <li>Optimised power path for low-power battery usage</li>
+  <li>LiPo battery management</li>
+  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>
+  <li>7x7 RGB LED matrix + User controllable power</li>
+  <li>22x GPIO</li>
+  <li>VBAT voltage sense on IO2</li>
+  <li>VBUS detection on IO15</li>
+  <li>USB-C with back feed protection</li>
+  <li>RGB LED (PWR IO39, DATA IO16)</li>
+  <li>QWIIC/STEMMA connector</li>
+  <li>Feather format</li>
+</ul>
+
+<p><strong>Onboard 7x7 RGB Matrix? Really?</strong></p>
+
+<p>Yeah, why not! Getting compelling information out of a single RGB LED can be a real challenge, so with a 7x7 matrix, you can scroll text, show icons or even display cool animating patterns!</p>
+
+<p>The RGB Matrix is powered from its own 3.3V LDO, which automatically shuts down if you put the FeatherS3 Neo into deep sleep. You can also turn off the RGB LED power via code by setting IO39 HIGH for on and LOW for off.</p>
+
+<p>You can find out more about the FeatherS3 Neo at <a href="https://unexpectedmaker.com/shop/feathers3neo">unexpected maker</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop/feathers3neo">unexpected Maker</a></li>
+</ul>
+
+        </p>
+        <h2>Contribute</h2>
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/unexpectedmaker_feathers3_neo.md">here</a>.</p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="section stable">
+    <h3>CircuitPython 9.1.1</h3>
+    
+    <p>
+      This is the latest <strong>stable</strong> release of CircuitPython that will work with the Unexpected Maker FeatherS3 Neo.
+    </p>
+    <p>
+      <strong>Use this release</strong> if you are new to CircuitPython.
+    </p>
+    
+    
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.1.1">Release Notes for 9.1.1</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_feathers3_neo-zh_Latn_pinyin-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_feathers3_neo-zh_Latn_pinyin-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_feathers3_neo-zh_Latn_pinyin-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/zh_Latn_pinyin/adafruit-circuitpython-unexpectedmaker_feathers3_neo-zh_Latn_pinyin-9.1.1.uf2"
+                    data-locale="zh-Latn-pinyin"
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/nl/adafruit-circuitpython-unexpectedmaker_feathers3_neo-nl-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/nl/adafruit-circuitpython-unexpectedmaker_feathers3_neo-nl-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/nl/adafruit-circuitpython-unexpectedmaker_feathers3_neo-nl-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/nl/adafruit-circuitpython-unexpectedmaker_feathers3_neo-nl-9.1.1.uf2"
+                    data-locale="nl"
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_GB/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_GB-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_GB/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_GB-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_GB/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_GB-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_GB/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_GB-9.1.1.uf2"
+                    data-locale="en-GB"
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.uf2"
+                    data-locale="en-US"
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/fil/adafruit-circuitpython-unexpectedmaker_feathers3_neo-fil-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/fil/adafruit-circuitpython-unexpectedmaker_feathers3_neo-fil-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/fil/adafruit-circuitpython-unexpectedmaker_feathers3_neo-fil-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/fil/adafruit-circuitpython-unexpectedmaker_feathers3_neo-fil-9.1.1.uf2"
+                    data-locale="fil"
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/fr/adafruit-circuitpython-unexpectedmaker_feathers3_neo-fr-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/fr/adafruit-circuitpython-unexpectedmaker_feathers3_neo-fr-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/fr/adafruit-circuitpython-unexpectedmaker_feathers3_neo-fr-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/fr/adafruit-circuitpython-unexpectedmaker_feathers3_neo-fr-9.1.1.uf2"
+                    data-locale="fr"
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/de_DE/adafruit-circuitpython-unexpectedmaker_feathers3_neo-de_DE-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/de_DE/adafruit-circuitpython-unexpectedmaker_feathers3_neo-de_DE-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/de_DE/adafruit-circuitpython-unexpectedmaker_feathers3_neo-de_DE-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/de_DE/adafruit-circuitpython-unexpectedmaker_feathers3_neo-de_DE-9.1.1.uf2"
+                    data-locale="de-DE"
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ID/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ID-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ID/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ID-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ID/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ID-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ID/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ID-9.1.1.uf2"
+                    data-locale="ID"
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/it_IT/adafruit-circuitpython-unexpectedmaker_feathers3_neo-it_IT-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/it_IT/adafruit-circuitpython-unexpectedmaker_feathers3_neo-it_IT-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/it_IT/adafruit-circuitpython-unexpectedmaker_feathers3_neo-it_IT-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/it_IT/adafruit-circuitpython-unexpectedmaker_feathers3_neo-it_IT-9.1.1.uf2"
+                    data-locale="it-IT"
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ja/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ja-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ja/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ja-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ja/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ja-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ja/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ja-9.1.1.uf2"
+                    data-locale="ja"
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_x_pirate/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_x_pirate-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_x_pirate/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_x_pirate-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_x_pirate/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_x_pirate-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_x_pirate/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_x_pirate-9.1.1.uf2"
+                    data-locale="en-x-pirate"
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/pl/adafruit-circuitpython-unexpectedmaker_feathers3_neo-pl-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/pl/adafruit-circuitpython-unexpectedmaker_feathers3_neo-pl-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/pl/adafruit-circuitpython-unexpectedmaker_feathers3_neo-pl-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/pl/adafruit-circuitpython-unexpectedmaker_feathers3_neo-pl-9.1.1.uf2"
+                    data-locale="pl"
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/pt_BR/adafruit-circuitpython-unexpectedmaker_feathers3_neo-pt_BR-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/pt_BR/adafruit-circuitpython-unexpectedmaker_feathers3_neo-pt_BR-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/pt_BR/adafruit-circuitpython-unexpectedmaker_feathers3_neo-pt_BR-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/pt_BR/adafruit-circuitpython-unexpectedmaker_feathers3_neo-pt_BR-9.1.1.uf2"
+                    data-locale="pt-BR"
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ru/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ru-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ru/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ru-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ru/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ru-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/ru/adafruit-circuitpython-unexpectedmaker_feathers3_neo-ru-9.1.1.uf2"
+                    data-locale="ru"
+                    >
+              RUSSIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/es/adafruit-circuitpython-unexpectedmaker_feathers3_neo-es-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/es/adafruit-circuitpython-unexpectedmaker_feathers3_neo-es-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/es/adafruit-circuitpython-unexpectedmaker_feathers3_neo-es-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/es/adafruit-circuitpython-unexpectedmaker_feathers3_neo-es-9.1.1.uf2"
+                    data-locale="es"
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/sv/adafruit-circuitpython-unexpectedmaker_feathers3_neo-sv-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/sv/adafruit-circuitpython-unexpectedmaker_feathers3_neo-sv-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/sv/adafruit-circuitpython-unexpectedmaker_feathers3_neo-sv-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/sv/adafruit-circuitpython-unexpectedmaker_feathers3_neo-sv-9.1.1.uf2"
+                    data-locale="sv"
+                    >
+              SWEDISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/tr/adafruit-circuitpython-unexpectedmaker_feathers3_neo-tr-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/tr/adafruit-circuitpython-unexpectedmaker_feathers3_neo-tr-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/tr/adafruit-circuitpython-unexpectedmaker_feathers3_neo-tr-9.1.1.bin,https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/tr/adafruit-circuitpython-unexpectedmaker_feathers3_neo-tr-9.1.1.uf2"
+                    data-locale="tr"
+                    >
+              TURKISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button stable bin" href="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+        <a class="download-button stable uf2" href="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      
+        <button is="cp-install-button" class="installer-button" boardid="unexpectedmaker_feathers3_neo"
+        
+            binfile="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.bin"
+        
+            uf2file="https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3_neo/en_US/adafruit-circuitpython-unexpectedmaker_feathers3_neo-en_US-9.1.1.uf2"
+        
+        version="9.1.1"
+        >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules stable">_asyncio, _bleio, _pixelmap, adafruit_bus_device, adafruit_pixelbuf, aesio, alarm, analogbufio, analogio, array, atexit, audiobusio, audiocore, audiomixer, audiomp3, binascii, bitbangio, bitmapfilter, bitmaptools, board, builtins, builtins.pow3, busdisplay, busio, busio.SPI, busio.UART, canio, codeop, collections, countio, digitalio, displayio, dualbank, epaperdisplay, errno, espcamera, espidf, espnow, espulp, fontio, fourwire, framebufferio, frequencyio, getpass, gifio, hashlib, i2cdisplaybus, io, ipaddress, jpegio, json, keypad, keypad.KeyMatrix, keypad.Keys, keypad.ShiftRegisterKeys, keypad_demux, keypad_demux.DemuxKeyMatrix, locale, math, max3421e, mdns, memorymap, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, os.getenv, paralleldisplaybus, ps2io, pulseio, pwmio, qrio, rainbowio, random, re, rgbmatrix, rotaryio, rtc, sdcardio, select, sharpdisplay, socketpool, ssl, storage, struct, supervisor, synthio, sys, terminalio, time, touchio, traceback, ulab, usb, usb_cdc, usb_hid, usb_midi, vectorio, warnings, watchdog, wifi, zlib</span>
+    </p>
+    
+    
+    <p>
+        Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
+        <span class="download-modules stable">neopixel</span>
+    </p>
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language. The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. These releases are even newer than the development release listed above.
+    Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/unexpectedmaker_feathers3_neo/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Previous Versions of CircuitPython</h3>
+  <p>
+    All previous releases of CircuitPython are available for download from Amazon S3 through the button below.
+    For very old releases, look in the <strong>OLD/</strong> folder for each board.
+    Release notes for each release are available at GitHub button below.
+  </p>
+  <p>
+    Older releases are useful for testing if you something appears to be broken in a newer release
+    but used to work,
+    or if you have older code that depends on features only available in an older release.
+    Otherwise we recommend using the latest stable release.
+  </p>
+  <div class="previous-versions-buttons">
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/unexpectedmaker_feathers3_neo/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="section unrecommended">
+  <h3>Install, Repair, or Update UF2 Bootloader</h3>
+  <p>
+    Latest version: 0.18.2
+  </p>
+  <p>
+    <strong>The UF2 bootloader allows you to load CircuitPython, MakeCode, and Arduino programs.
+      The bootloader is not CircuitPython.</strong>
+    If a UF2 bootloader is installed, you can check its version by looking in
+    the <b>INFO_UF2.TXT</b> file when the <b>BOOT</b> drive is visible
+    (<b>FTHRS2BOOT</b>, <b>MAGTAGBOOT</b>, <b>HOUSEBOOT</b>, etc.)
+  </p>
+  <p>
+    It is not necessary to reinstall a UF2 bootloader you unless a <b>BOOT</b> drive is not visible
+    when in UF2 bootloader mode, or you know of a problem with your current UF2 bootloader.
+  </p>
+  <p>
+    If a UF2 bootloader has never been installed on the board, or the UF2 bootloader was removed by erasing or overwriting the flash, the UF2 bootloader must be installed in order to flash <b>.uf2</b> files onto the board. <b>.bin</b> files can be uploaded without a UF2 bootloader, using the
+    <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">ESP Web Flasher</a>
+    or <b>esptool.py</b>.
+  </p>
+
+  <p>
+    <em>Note: <b>update.uf2</b> files are not currently working on ESP32-S2 or ESP32-S3 boards.</em>
+  </p>
+
+  <p><strong><em>Important</em></strong>:
+    <em>this will erase previously flashed firmware and sketches from the board,
+      but needs to be perfomed only once.</em>
+  </p>
+  <p><em>The instructions here are general.
+      We recommend you consult the manufacturer's board documentation for detailed
+      instructions, which may be different.</em>
+  </p>
+ <ul>
+  <li>Unzip to find the file <b>combined.bin</b>.</li>
+  <li>Place board in bootloader mode:
+   <ul>
+    <li>Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.</li>
+    <li>Press and <strong>hold down</strong> the <b>BOOT</b> or <b>0</b> button.</li>
+    <li>Press and <strong>release</strong> the <b>RESET</b> or <b>RST</b> button.</li>
+    <li>Release the <b>BOOT</b> button.</li>
+   </ul>
+  </li>
+  <li>Upload <b>combined.bin</b> (Google Chrome 89 or newer):
+   <ul>
+    <li>Open <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">ESP Web Flasher</a> in a new window/tab.</li>
+    <li>Select <b>460800 Baud</b> from the pull-down menu (top-right).</li>
+    <li>Click <b>Connect</b> (top-right).</li>
+    <li>Select the COM or Serial port from the pop-up window.</li>
+    <li>After successful connection, click <b>Erase</b>.</li>
+    <li>After successful erase, click any <b>Choose a file...</b>, then locate and select the <b>combined.bin</b> file unzipped earlier.</li>
+    <li>After successfully choosing <b>combined.bin</b>, click <b>Program</b>.</li>
+    <li>After the TinyUF2 firmware update is complete, press the <b>RESET</b> button on the board.
+      A new drive <b>BOOT</b> should be visible in your file browser.</li>
+   </ul>
+  </li>
+ </ul>
+ 
+  <p>
+   After installing the UF2 bootloader, enter the bootloader by double-clicking the reset button.
+   On boards with an RGB status LED, tap reset once, wait for the LED to turn purple, and tap
+   again before the purple goes away. On other boards, consult the board documentation.
+   </p>
+  
+ <p>
+   After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
+   Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
+ </p>
+ <div>
+    <a class="download-button" href="https://github.com/adafruit/tinyuf2/releases/download/0.18.2/tinyuf2-unexpectedmaker_feathers3_neo-0.18.2.zip">DOWNLOAD BOOTLOADER ZIP<i class="fas fa-download" aria-hidden="true"></i></a>
+ </div>
+</div>
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/gh/adafruit/web-firmware-installer-js@1.1.2/dist/cpinstaller.min.js" type="module"></script>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+  </body>
+</html>

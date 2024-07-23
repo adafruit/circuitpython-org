@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>Waveshare RP2040-Zero Download</title>
+<meta name="description" content="RP2040-PiZero is a high-performance and cost-effective microcontroller board designed by Waveshare, onboard DVI interface, TF card slot and PIO-USB port, com..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/waveshare_rp2040_pizero/" />
+
+<meta property="og:title"   content="CircuitPython - Waveshare RP2040-Zero Download" />
+
+
+
+<meta property="og:description" content="RP2040-PiZero is a high-performance and cost-effective microcontroller board designed by Waveshare, onboard DVI interface, TF card slot and PIO-USB port, compatible with Raspberry Pi 40PIN GPIO header, easy to develop and integrate into the products.Board specifications  RP2040 microcontroller ch..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/waveshare_rp2040_pizero.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/waveshare_rp2040_pizero/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://docs.circuitpython.org/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>RP2040-Zero</h1>
+  <h3>by Waveshare</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        <img src="/assets/images/boards/large/waveshare_rp2040_pizero.jpg" alt="Image of Board">
+        <p>
+          <p>RP2040-PiZero is a high-performance and cost-effective microcontroller board designed by Waveshare, onboard DVI interface, TF card slot and PIO-USB port, compatible with Raspberry Pi 40PIN GPIO header, easy to develop and integrate into the products.</p>
+
+<p><strong>Board specifications</strong></p>
+
+<ul>
+  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>
+  <li>Dual-core ARM Cortex M0+ processor, flexible clock running up to 133 MHz</li>
+  <li>264KB of SRAM, and 16MB of onboard Flash memory</li>
+  <li>Onboard DVI interface can drive most HDMI screens (DVI compatibility required)</li>
+  <li>Supports using as a USB host or slave via onboard PIO-USB port</li>
+  <li>Onboard TF card slot for reading and writing TF card</li>
+  <li>Onboard Lithium battery recharge/discharge header, suitable for mobile scenarios</li>
+  <li>USB 1.1 with device and host support</li>
+  <li>Drag-and-drop programming using mass storage over USB</li>
+  <li>Low-power sleep and dormant modes</li>
+  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>
+  <li>Accurate clock and timer on-chip</li>
+  <li>Temperature sensor</li>
+  <li>Accelerated floating-point libraries on-chip</li>
+  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/rp2040-pizero.htm">Waveshare</a></li>
+</ul>
+
+        </p>
+        <h2>Contribute</h2>
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/waveshare_rp2040_pizero.md">here</a>.</p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="section stable">
+    <h3>CircuitPython 9.1.1</h3>
+    
+    <p>
+      This is the latest <strong>stable</strong> release of CircuitPython that will work with the RP2040-Zero.
+    </p>
+    <p>
+      <strong>Use this release</strong> if you are new to CircuitPython.
+    </p>
+    
+    
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.1.1">Release Notes for 9.1.1</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/zh_Latn_pinyin/adafruit-circuitpython-waveshare_rp2040_pizero-zh_Latn_pinyin-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/zh_Latn_pinyin/adafruit-circuitpython-waveshare_rp2040_pizero-zh_Latn_pinyin-9.1.1.uf2"
+                    data-locale="zh-Latn-pinyin"
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/nl/adafruit-circuitpython-waveshare_rp2040_pizero-nl-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/nl/adafruit-circuitpython-waveshare_rp2040_pizero-nl-9.1.1.uf2"
+                    data-locale="nl"
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/en_GB/adafruit-circuitpython-waveshare_rp2040_pizero-en_GB-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/en_GB/adafruit-circuitpython-waveshare_rp2040_pizero-en_GB-9.1.1.uf2"
+                    data-locale="en-GB"
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/en_US/adafruit-circuitpython-waveshare_rp2040_pizero-en_US-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/en_US/adafruit-circuitpython-waveshare_rp2040_pizero-en_US-9.1.1.uf2"
+                    data-locale="en-US"
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/fil/adafruit-circuitpython-waveshare_rp2040_pizero-fil-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/fil/adafruit-circuitpython-waveshare_rp2040_pizero-fil-9.1.1.uf2"
+                    data-locale="fil"
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/fr/adafruit-circuitpython-waveshare_rp2040_pizero-fr-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/fr/adafruit-circuitpython-waveshare_rp2040_pizero-fr-9.1.1.uf2"
+                    data-locale="fr"
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/de_DE/adafruit-circuitpython-waveshare_rp2040_pizero-de_DE-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/de_DE/adafruit-circuitpython-waveshare_rp2040_pizero-de_DE-9.1.1.uf2"
+                    data-locale="de-DE"
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/ID/adafruit-circuitpython-waveshare_rp2040_pizero-ID-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/ID/adafruit-circuitpython-waveshare_rp2040_pizero-ID-9.1.1.uf2"
+                    data-locale="ID"
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/it_IT/adafruit-circuitpython-waveshare_rp2040_pizero-it_IT-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/it_IT/adafruit-circuitpython-waveshare_rp2040_pizero-it_IT-9.1.1.uf2"
+                    data-locale="it-IT"
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/ja/adafruit-circuitpython-waveshare_rp2040_pizero-ja-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/ja/adafruit-circuitpython-waveshare_rp2040_pizero-ja-9.1.1.uf2"
+                    data-locale="ja"
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/en_x_pirate/adafruit-circuitpython-waveshare_rp2040_pizero-en_x_pirate-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/en_x_pirate/adafruit-circuitpython-waveshare_rp2040_pizero-en_x_pirate-9.1.1.uf2"
+                    data-locale="en-x-pirate"
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/pl/adafruit-circuitpython-waveshare_rp2040_pizero-pl-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/pl/adafruit-circuitpython-waveshare_rp2040_pizero-pl-9.1.1.uf2"
+                    data-locale="pl"
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/pt_BR/adafruit-circuitpython-waveshare_rp2040_pizero-pt_BR-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/pt_BR/adafruit-circuitpython-waveshare_rp2040_pizero-pt_BR-9.1.1.uf2"
+                    data-locale="pt-BR"
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/ru/adafruit-circuitpython-waveshare_rp2040_pizero-ru-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/ru/adafruit-circuitpython-waveshare_rp2040_pizero-ru-9.1.1.uf2"
+                    data-locale="ru"
+                    >
+              RUSSIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/es/adafruit-circuitpython-waveshare_rp2040_pizero-es-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/es/adafruit-circuitpython-waveshare_rp2040_pizero-es-9.1.1.uf2"
+                    data-locale="es"
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/sv/adafruit-circuitpython-waveshare_rp2040_pizero-sv-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/sv/adafruit-circuitpython-waveshare_rp2040_pizero-sv-9.1.1.uf2"
+                    data-locale="sv"
+                    >
+              SWEDISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/tr/adafruit-circuitpython-waveshare_rp2040_pizero-tr-9.1.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/tr/adafruit-circuitpython-waveshare_rp2040_pizero-tr-9.1.1.uf2"
+                    data-locale="tr"
+                    >
+              TURKISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button stable uf2" href="https://downloads.circuitpython.org/bin/waveshare_rp2040_pizero/en_US/adafruit-circuitpython-waveshare_rp2040_pizero-en_US-9.1.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules stable">_asyncio, _bleio, _pixelmap, adafruit_bus_device, adafruit_pixelbuf, aesio, alarm, analogbufio, analogio, array, atexit, audiobusio, audiocore, audiomixer, audiomp3, audiopwmio, binascii, bitbangio, bitmapfilter, bitmaptools, bitops, board, builtins, builtins.pow3, busdisplay, busio, busio.SPI, busio.UART, codeop, collections, countio, digitalio, displayio, epaperdisplay, errno, floppyio, fontio, fourwire, framebufferio, getpass, gifio, hashlib, i2cdisplaybus, i2ctarget, imagecapture, io, jpegio, json, keypad, keypad.KeyMatrix, keypad.Keys, keypad.ShiftRegisterKeys, keypad_demux, keypad_demux.DemuxKeyMatrix, locale, math, memorymap, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, os.getenv, paralleldisplaybus, picodvi, pulseio, pwmio, qrio, rainbowio, random, re, rgbmatrix, rotaryio, rp2pio, rtc, sdcardio, select, sharpdisplay, storage, struct, supervisor, synthio, sys, terminalio, time, touchio, traceback, ulab, usb_cdc, usb_hid, usb_midi, usb_video, vectorio, warnings, watchdog, zlib</span>
+    </p>
+    
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language. The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. These releases are even newer than the development release listed above.
+    Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/waveshare_rp2040_pizero/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Previous Versions of CircuitPython</h3>
+  <p>
+    All previous releases of CircuitPython are available for download from Amazon S3 through the button below.
+    For very old releases, look in the <strong>OLD/</strong> folder for each board.
+    Release notes for each release are available at GitHub button below.
+  </p>
+  <p>
+    Older releases are useful for testing if you something appears to be broken in a newer release
+    but used to work,
+    or if you have older code that depends on features only available in an older release.
+    Otherwise we recommend using the latest stable release.
+  </p>
+  <div class="previous-versions-buttons">
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/waveshare_rp2040_pizero/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+  </body>
+</html>

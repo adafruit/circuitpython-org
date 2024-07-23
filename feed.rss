@@ -4,9 +4,900 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 22 Jul 2024 20:35:25 -0400</lastBuildDate>
+<lastBuildDate>Mon, 22 Jul 2024 20:36:04 -0400</lastBuildDate>
 
 <item>
+    <title>LuckyFox Pico Plus</title>
+    <link>https://circuitpython.org/blinka/luckyfox_pico_plus/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/luckyfox_pico_plus.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/luckyfox_pico_plus.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/luckyfox_pico_plus.jpg" alt="Image of Board" loading="lazy">
+<p>By LuckyFox</p> <p>LuckFox Pico Plus is a cost-effective Linux micro development board, based on the Rockchip RV1103 chip to provide a simple and efficient development platform for developers; Supports a variety of interfaces including MIPI CSI, GPIO, UART, SPI, 12C, USB, etc., which is convenient for developing and debugging quickly.</p>
+
+<ul>
+  <li>Single-core ARM Cortex-A7 32-bit core with integrated NEON and FPU</li>
+  <li>Built-in Rockchip self-developed 4th generation NPU, features high computing precision and supports int4, int8, and int16 hybrid quantization. The computing power of int8 is 0.5 TOPS, and up to 1.0 TOPS with int4</li>
+  <li>Built-in self-developed third-generation ISP3.2, supports 4-Megapixel, with multiple image enhancement and correction algorithms such as HDR, WDR, multi-level noise reduction, etc.</li>
+  <li>Features powerful encoding performance, supports intelligent encoding mode and adaptive stream saving according to the scene, saves more than 50% bit rate of the conventional CBR mode so that the images from camera are high-definition with smaller size, double the storage space</li>
+  <li>Built-in RISC-V MCU supports low power consumption and fast start-up, supports 250ms fast picture capture and loading AI model library at the same time to realize face recognition “in one second”</li>
+  <li>Built-in 16-bit DRAM DDR2, which is capable of sustaining demanding memory bandwidths</li>
+  <li>Integrated with built-in POR, audio codec and MAC PHY</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Cortex A7@1.2GHz + RISC-V</li>
+  <li>0.5TOPS, supports int4, int8 and int16</li>
+  <li>Input 4M @30fps (Max)</li>
+  <li>64MB DDR2</li>
+  <li>USB 2.0 Host/Device</li>
+  <li>MIPI CSI 2-lane</li>
+  <li>25 × GPIO pins</li>
+  <li>10/100M Ethernet controller and embedded PHY</li>
+  <li>SPI NAND FLASH (128MB)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.luckfox.com/Luckfox-Pico/EN-Luckfox-Pico-Plus">LuckyFox</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/luckyfox_pico_plus/</guid>
+  </item><item>
+    <title>LuckyFox Pico Mini</title>
+    <link>https://circuitpython.org/blinka/luckyfox_pico_mini/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/luckyfox_pico_mini.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/luckyfox_pico_mini.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/luckyfox_pico_mini.jpg" alt="Image of Board" loading="lazy">
+<p>By LuckyFox</p> <p>Luckfox Pico Mini is a cost-effective Linux micro development board, based on the Rockchip RV1103 chip to provide a simple and efficient development platform for developers; Supports a variety of interfaces including MIPI CSI, GPIO, UART, SPI, 12C, USB, etc., which is convenient for developing and debugging quickly.</p>
+
+<ul>
+  <li>Single-core ARM Cortex-A7 32-bit core with integrated NEON and FPU</li>
+  <li>Built-in Rockchip self-developed 4th generation NPU, features high computing precision and supports int4, int8, and int16 hybrid quantization. The computing power of int8 is 0.5 TOPS, and up to 1.0 TOPS with int4</li>
+  <li>Built-in self-developed third-generation ISP3.2, supports 4-Megapixel, with multiple image enhancement and correction algorithms such as HDR, WDR, multi-level noise reduction, etc.</li>
+  <li>Features powerful encoding performance, supports intelligent encoding mode and adaptive stream saving according to the scene, saves more than 50% bit rate of the conventional CBR mode so that the images from camera are high-definition with smaller size, double the storage space</li>
+  <li>Built-in RISC-V MCU supports low power consumption and fast start-up, supports 250ms fast picture capture and loading AI model library at the same time to realize face recognition “in one second”</li>
+  <li>Built-in 16-bit DRAM DDR2, which is capable of sustaining demanding memory bandwidths</li>
+  <li>Integrated with built-in POR, audio codec and MAC PHY</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Cortex A7@1.2GHz + RISC-V</li>
+  <li>0.5TOPS, supports int4, int8 and int16</li>
+  <li>Input 4M @30fps (Max)</li>
+  <li>64MB DDR2</li>
+  <li>USB 2.0 Host/Device</li>
+  <li>MIPI CSI 2-lane</li>
+  <li>17 × GPIO pins</li>
+  <li>10/100M Ethernet controller and embedded PHY</li>
+  <li>TF card on Mini A</li>
+  <li>SPI NAND FLASH (128MB) on Mini B</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.luckfox.com/Luckfox-Pico/Luckfox-Pico-Mini-A">LuckyFox (Mini A without Flash)</a></li>
+  <li><a href="https://www.luckfox.com/Luckfox-Pico/Luckfox-Pico-Mini-B">LuckyFox (Mini B with 128MB Flash)</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/luckyfox_pico_mini/</guid>
+  </item><item>
+    <title>LuckyFox Pico Pro/Max</title>
+    <link>https://circuitpython.org/blinka/luckyfox_pico_max/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/luckyfox_pico_max.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/luckyfox_pico_max.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/luckyfox_pico_max.jpg" alt="Image of Board" loading="lazy">
+<p>By LuckyFox</p> <p>LuckFox Pico Pro/Max is a cost-effective Linux micro development board, based on the Rockchip RV1106 chip to provide a simple and efficient development platform for developers; Supports a variety of interfaces including MIPI CSI, GPIO, UART, SPI, 12C, USB, etc., which is convenient for developing and debugging quickly.</p>
+
+<ul>
+  <li>Single-core ARM Cortex-A7 32-bit core with integrated NEON and FPU</li>
+  <li>Built-in Rockchip self-developed 4th generation NPU, features high computing precision and supports int4, int8, and int16 hybrid quantization. The computing power of int8 is 0.5 TOPS, and up to 1.0 TOPS with int4</li>
+  <li>Built-in self-developed third-generation ISP3.2, supports 5-Megapixel, with multiple image enhancement and correction algorithms such as HDR, WDR, multi-level noise reduction, etc.</li>
+  <li>Features powerful encoding performance, supports intelligent encoding mode and adaptive stream saving according to the scene, saves more than 50% bit rate of the conventional CBR mode so that the images from camera are high-definition with smaller size, double the storage space</li>
+  <li>Built-in 16-bit DRAM DDR2, which is capable of sustaining demanding memory bandwidths</li>
+  <li>Integrated with built-in POR, audio codec and MAC PHY</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Cortex A7@1.2GHz</li>
+  <li>0.5TOPS, supports int4, int8 and int16</li>
+  <li>Input 5M @30fps (Max)</li>
+  <li>256MB DDR2 (128MB DDR2 on Pro)</li>
+  <li>USB 2.0 Host/Device</li>
+  <li>MIPI CSI 2-lane</li>
+  <li>26 × GPIO pins</li>
+  <li>10/100M Ethernet controller and embedded PHY</li>
+  <li>SPI NAND FLASH (256MB)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.luckfox.com/Luckfox-Pico/EN-Luckfox-Pico-Pro">LuckyFox (Pro Version)</a></li>
+  <li><a href="https://www.luckfox.com/Luckfox-Pico/EN-Luckfox-Pico-Max">LuckyFox (Max Version)</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/luckyfox_pico_max/</guid>
+  </item><item>
+    <title>LuckyFox Pico</title>
+    <link>https://circuitpython.org/blinka/luckyfox_pico/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/luckyfox_pico.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/luckyfox_pico.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/luckyfox_pico.jpg" alt="Image of Board" loading="lazy">
+<p>By LuckyFox</p> <p>LuckFox Pico is a cost-effective Linux micro development board, based on the Rockchip RV1103 chip to provide a simple and efficient development platform for developers; Supports a variety of interfaces including MIPI CSI, GPIO, UART, SPI, 12C, USB, etc., which is convenient for developing and debugging quickly.</p>
+
+<ul>
+  <li>Single-core ARM Cortex-A7 32-bit core with integrated NEON and FPU</li>
+  <li>Built-in Rockchip self-developed 4th generation NPU, features high computing precision and supports int4, int8, and int16 hybrid quantization. The computing power of int8 is 0.5 TOPS, and up to 1.0 TOPS with int4</li>
+  <li>Built-in self-developed third-generation ISP3.2, supports 4-Megapixel, with multiple image enhancement and correction algorithms such as HDR, WDR, multi-level noise reduction, etc.</li>
+  <li>Features powerful encoding performance, supports intelligent encoding mode and adaptive stream saving according to the scene, saves more than 50% bit rate of the conventional CBR mode so that the images from camera are high-definition with smaller size, double the storage space</li>
+  <li>Built-in RISC-V MCU supports low power consumption and fast start-up, supports 250ms fast picture capture and loading AI model library at the same time to realize face recognition “in one second”</li>
+  <li>Built-in 16-bit DRAM DDR2, which is capable of sustaining demanding memory bandwidths</li>
+  <li>Integrated with built-in POR, audio codec and MAC PHY</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Cortex A7@1.2GHz + RISC-V</li>
+  <li>0.5TOPS, supports int4, int8 and int16</li>
+  <li>Input 4M @30fps (Max)</li>
+  <li>64MB DDR2</li>
+  <li>USB 2.0 Host/Device</li>
+  <li>MIPI CSI 2-lane</li>
+  <li>24 × GPIO pins</li>
+  <li>10/100M Ethernet controller and embedded PHY</li>
+  <li>TF card (Not included)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.luckfox.com/Luckfox-Pico/EN-Luckfox-Pico">LuckyFox</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/luckyfox_pico/</guid>
+  </item><item>
+    <title>Walnut Pi 1B</title>
+    <link>https://circuitpython.org/blinka/walnut_pi_1b/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/walnut_pi_1b.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/walnut_pi_1b.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/walnut_pi_1b.jpg" alt="Image of Board" loading="lazy">
+<p>By Walnut Pi</p> <p>WalnutPi is designed, developed and manufactured in China. It is positioned as a cost-effective and fully functional card computer (SBC) with a size compatible with Raspberry Pi. It is a very powerful Linux development board that you can use to surf the Internet, play games, learn programming and create your own electronic products.</p>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Allwinner H616/H618 64-bit/quad-core high-performance Cortex-A53 processor, 1.5GHz</li>
+  <li>Mali G31 MP2 GPU</li>
+  <li>Supports OpenGL ES 1.0/2.0/3.2, OpenCL 2.0</li>
+  <li>1GB (512M DDR3 x 2)</li>
+  <li>2GB (LPDDR4)</li>
+  <li>4GB (LPDDR4)</li>
+  <li>MicroSD card supports up to 512G</li>
+  <li>SPI Flash is reserved (empty post)</li>
+  <li>Dual-band WiFi (2.4G &amp; 5G) + Bluetooth 5.0</li>
+  <li>100M Ethernet port</li>
+  <li>3.5mm audio port</li>
+  <li>MicroHDMI 2.0a supports 4K@60fps</li>
+  <li>USB 2.0 x 3</li>
+  <li>Infrared receiver x 1</li>
+  <li>Button x 1</li>
+  <li>LED x 1</li>
+  <li>40Pin GPIO header (compatible with Raspberry Pi)</li>
+  <li>3P header UART (serial port) debugging”</li>
+  <li>Type-C port 5V/3A input</li>
+  <li>Walnut Pi customized version of Debian (Ubuntu, Android adaptation in progress)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256805943640754.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/walnut_pi_1b/</guid>
+  </item><item>
+    <title>Vivid Unit</title>
+    <link>https://circuitpython.org/blinka/vivid_unit/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/vivid_unit.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/vivid_unit.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/vivid_unit.jpg" alt="Image of Board" loading="lazy">
+<p>By UUGear</p> <p><a href="https://www.vividunit.com/Main_Page"><strong>UUGear’s Vivid Unit</strong></a> is a powerful and versatile single-board computer that can be used for a wide range of applications. It features an RK3399 CPU with 4GB RAM and 32GB eMMC storage. It is a palm-sized device with a 5.5″ capacitive touchscreen, speaker, microphone, WiFi/Bluetooth, and various interfaces. It can be powered with DC 5V (via USB-C) or an Ethernet cable (DC 48V via PoE).</p>
+
+<p>Vivid Unit can be used for a variety of projects, such as:</p>
+
+<ul>
+  <li><strong>Smart home automation:</strong> Vivid Unit can be used to control lights, temperature, and other home appliances using various sensors and input devices.</li>
+  <li><strong>Robotics:</strong> The Vivid Unit’s GPIO and camera interface make it ideal for robotics projects, such as autonomous cars or robotic arms.</li>
+  <li><strong>Industrial control systems:</strong> Vivid Unit is ideal for use in industrial control systems, and it can be mounted like a screen for the whole system, which the users can interact with.</li>
+  <li><strong>Portable computing:</strong> Vivid Unit’s compact size and touch screen interface make it perfect for use as a portable computing device, such as a tablet or mini laptop.</li>
+  <li><strong>Retro gaming:</strong> Vivid Unit’s high resolution screen, compact size and onboard speaker make it a perfect hardware as retro gaming console.</li>
+</ul>
+
+<p>Whether you’re a hobbyist, a student, or a professional, Vivid Unit offers a powerful and flexible platform for your computing needs.</p>
+
+<p><strong>Features:</strong></p>
+
+<ul>
+  <li>RK3399 CPU + 4GB RAM + 32GB eMMC storage</li>
+  <li>5.5 inch touchscreen with 1280x720 display resolution</li>
+  <li>Built-in speaker and stereo microphone</li>
+  <li>HDMI and MIPI camera connectors</li>
+  <li>WiFi + Gigabit Ethernet + Bluetooth</li>
+  <li>Two USB 3.1 ports and two USB 2.0 pin headers</li>
+  <li>SPI, I2C, UART, SDIO, and ADC interfaces</li>
+  <li>With onboard  connector for SSD</li>
+  <li>Powered via USB-C (DC 5V) or Ethernet cable (PoE / DC 48V)</li>
+</ul>
+
+<p><strong>Kit includes:</strong></p>
+
+<ul>
+  <li>1 x Vivid Unit PCB</li>
+  <li>2 x Brace</li>
+  <li>1 x Touchscreen</li>
+  <li>4 x M3 screws</li>
+  <li>4 x M3 standoff</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5894">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/vivid_unit/</guid>
+  </item><item>
+    <title>Starfive VisionFive2</title>
+    <link>https://circuitpython.org/blinka/starfive_visionfive2/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/starfive_visionfive2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/starfive_visionfive2.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/starfive_visionfive2.jpg" alt="Image of Board" loading="lazy">
+<p>By StarFive</p> <p>VisionFive 2 is the world’s first high-performance RISC-V single board computer (SBC) with an integrated GPU. Compared with its last generation, VisionFive 2 has been fully upgraded with significant improvements in the processor work frequency, multimedia processing capabilities, scalability, etc. Its superior performance and reasonable price make VisionFive 2 the best affordable RISC-V development board ever.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://forum.rvspace.org/t/how-to-purchase-visionfive-2/665">Multiple Vendors</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/starfive_visionfive2/</guid>
+  </item><item>
+    <title>Radxa Zero 3W</title>
+    <link>https://circuitpython.org/blinka/radxa_zero_3w/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/radxa_zero_3w.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/radxa_zero_3w.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/radxa_zero_3w.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa</p> <p>RADXA Zero 3W is an Rockchip RK3566 64bit quad core based Mini SBC in the same form factor as the Raspberry Pi Zero, but with much, much more power. It has quad-core power with up to 8GB LPDDR4 RAM that has similar dimensions to a USB stick.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Rockchip RK3566 64bit quad-core processor, Quad-core Arm® Cortex®-A55 (ARMv8) 64-bit @ 1.6GHz</li>
+  <li>Arm Mali™-G52-2EE, OpenGL® ES1.1/2.0/3.2, Vulkan® 1.1, OpenCL™ 2.0</li>
+  <li>LPDDR4 1GB / 2GB / 4GB / 8GB</li>
+  <li>Soldered high performance eMMC 5.1 with capacities of 8GB / 16GB / 32GB / 64GB</li>
+  <li>uSD slot supports up to 128GB uSD card</li>
+  <li>H.264/H.265 decoder up to 4K@60fps</li>
+  <li>H.264/H265 encoder up to 1080p@60fps</li>
+  <li>1080p@60fps via Micro HDMI</li>
+  <li>WiFi4 (802.11 b/g/n) / BT5.0 with onboard antenna and uFL connector, antenna option can be configured via software</li>
+  <li>USB 2.0 HOST</li>
+  <li>USB 2.0 OTG (for power and data)</li>
+  <li>MIPI CSI x1</li>
+  <li>Wireless 802.11 b/g/n, WiFi 2.4GHz, Bluetooth 5.0</li>
+  <li>up to 5 x UART</li>
+  <li>1 x SPI bus</li>
+  <li>up to 2 x I2C bus</li>
+  <li>1 x PCM/I2S</li>
+  <li>up to 6 x PWM</li>
+  <li>up to 28 x GPIO</li>
+  <li>2 x 5V DC power in</li>
+  <li>2 x 3.3V power pin</li>
+  <li>ARMv8 Instruction Set</li>
+  <li>Debian/Ubuntu Linux support</li>
+  <li>Hardware access/control library for Linux</li>
+  <li>Maskrom button</li>
+  <li>66 x 30 mm</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.allnetchina.cn/products/copy-of-radxa-zero-3w">ALLNET.CHINA</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/radxa_zero_3w/</guid>
+  </item><item>
+    <title>Radxa Zero 3E</title>
+    <link>https://circuitpython.org/blinka/radxa_zero_3e/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/radxa_zero_3e.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/radxa_zero_3e.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/radxa_zero_3e.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa</p> <p>RADXA Zero 3E is an Rockchip RK3566 64bit quad core based Mini SBC in the same form factor as the Raspberry Pi Zero, but with much, much more power. It has quad-core power with up to 8GB LPDDR4 RAM that has similar dimensions to a USB stick.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Rockchip RK3566 64bit quad core processor Quad‑core Arm® Cortex®‑A55 (ARMv8) 64‑bit @ 1.6GHz</li>
+  <li>Arm Mali™‑G52‑2EE, OpenGL® ES1.1/2.0/3.2, Vulkan® 1.1, OpenCL™ 2.0</li>
+  <li>LPDDR4 1GB /2GB /4GB /8GB</li>
+  <li>TF Card Slot</li>
+  <li>1080p@60fps via Micro HDMI</li>
+  <li>H.264/H.265 decoder up to 4K@60fps</li>
+  <li>H.264/H265 encoder up to 1080p@60fps</li>
+  <li>USB 3.0 HOST</li>
+  <li>Micro USB 2.0 OTG (for power and data)</li>
+  <li>MIPI CSI Camera Interface (4-lane MIPI CSI)</li>
+  <li>Gigabit Ethernet with PoE support (additional PoE HAT required)</li>
+  <li>up to 5 x UART</li>
+  <li>1 x SPI bus</li>
+  <li>up to 2 x I2C bus</li>
+  <li>1 x PCM/I2S</li>
+  <li>up to 6 x PWM</li>
+  <li>up to 28 x GPIO</li>
+  <li>2 x 5V DC power in</li>
+  <li>2 x 3.3V power pin</li>
+  <li>ARMv8 Instruction Set</li>
+  <li>Debian/Ubuntu Linux support</li>
+  <li>Hardware access/control library for Linux</li>
+  <li>Size 65mm x 30mm</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.allnetchina.cn/products/radxa-zero-3e">ALLNET.CHINA</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/radxa_zero_3e/</guid>
+  </item><item>
+    <title>Rock 5C</title>
+    <link>https://circuitpython.org/blinka/radxa_rock_5c/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/radxa_rock_5c.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/radxa_rock_5c.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/radxa_rock_5c.jpg" alt="Image of Board" loading="lazy">
+<p>By Radxa Limited</p> <p>The ROCK 5 Model C is the latest Radxa SBC.</p>
+
+<p><strong>Key Features</strong></p>
+<ul>
+  <li>Rockchip RK3588S2</li>
+  <li>ARM <strong>Quad</strong> Cortex®‑A76 and Quad Cortex®‑A55 based on Arm®DynamIQ™ configuration</li>
+  <li><strong>ARM Mali™ G610MP4</strong>
+    <ul>
+      <li>OpenGL® ES1.1, ES2.0, and ES3.2</li>
+      <li>OpenCL® 1.1, 1.2 and 2.2</li>
+      <li>Vulkan® 1.1 and 1.2</li>
+      <li>Embedded high performance 2D image acceleration module</li>
+    </ul>
+  </li>
+  <li>NPU supporting INT4 / INT8 / INT16 / FP16 / BF16 and TF32 acceleration computing power is up to <strong>6TOPs</strong></li>
+  <li><strong>H.265 / VP9 / AVS2 multivideo decoder up to 8K@60fps</strong></li>
+  <li><strong>H.264 multivideo decoder up to 8K@30fps</strong></li>
+  <li>H.265 / H.264 multivideo encoder up to <strong>8K@30fps</strong></li>
+  <li>LPDDR4x RAM Up to 32GB</li>
+  <li>1x eMMC Connector</li>
+  <li>1x microSD Card Slot</li>
+  <li>If you require <strong>SPI Flash</strong>, you will need to purchase the Radxa SPI Flash Module separately.</li>
+  <li>If you need to expand the <strong>SATA</strong>, you will need to purchase the Radxa Penta SATA HAT additionally.</li>
+  <li>1x Headphone Jack with Microphone Input</li>
+  <li>1x Standard HDMI 2.1 supporting up to 8Kp60</li>
+  <li>1x MIPI DSI supporting up to 1080p60</li>
+  <li>Able to provide 2 display outputs at the same time</li>
+  <li>1x 4‑lane MIPI CSI or 2x 2‑lane MIPI CSI</li>
+  <li>2x USB 2.0 Type-A HOST ports</li>
+  <li>1x USB 3.0 Type-A HOST port</li>
+  <li>1x USB 3.0 Type-A OTG / HOST port</li>
+  <li>1x Gigabit Ethernet port (supports PoE with add‑on PoE HAT)</li>
+  <li>WiFi 6 &amp; BT 5.4 with External Antenna Connector</li>
+  <li>1x PWM fan connector</li>
+  <li>1x Power button</li>
+  <li>5V Only USB Type-C</li>
+  <li>Radxa OS / <strong>Android</strong></li>
+  <li>Recommended environmental temperature: 0 ~ 50°C</li>
+  <li>Radxa ROCK 5C has a temperature limit of 80°C, beyond which it throttles clock speeds for reliability</li>
+  <li>For continuous high-performance use, external cooling methods like heat sinks or fans can maintain maximum clock speed below the 80°C limit</li>
+  <li>85 mm x 56 mm</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256806726687243.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/radxa_rock_5c/</guid>
+  </item><item>
+    <title>Orange Pi PC2</title>
+    <link>https://circuitpython.org/blinka/orange_pi_pc2/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/orange_pi_pc2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/orange_pi_pc2.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/orange_pi_pc2.jpg" alt="Image of Board" loading="lazy">
+<p>By Shenzhen Xunlong Software CO.,Limited</p> <p>Orange Pi PC2 is for anyone who wants to start creating with technology- not just consuming it. lt’s a simple, fun, useful tool that you can use to start taking control of the world around you.</p>
+
+<ul>
+  <li>H5 High Performance Quad-core 64-bit Cortex-A53</li>
+  <li>Integrated multimedia acceleration engine</li>
+  <li>Hardware Java acceleration</li>
+  <li>Integrated hardware floating-point coprocessor”</li>
+  <li>Full scene over-sampled 4X anti-aliasing engine with no additional bandwidth usage</li>
+  <li>High Performance Hexa-core Mali450</li>
+  <li>OpenGL ES 2.0/1.1/1.0, OpenVG 1.1, EGL</li>
+  <li>40 GFlops, Pixel fill rate greater than 2.7GPixel/s”</li>
+  <li>1GB DDR3 (shared with GPU)</li>
+  <li>TF card (Max. 32GB) / NOR flash(2MB)</li>
+  <li>1000M/100M Ethernet RJ45</li>
+  <li>A CSI input connector Camera:</li>
+  <li>Supports 8-bit YUV422 CMOS sensor interface</li>
+  <li>Supports CCIR656 protocol for NTSC and PAL</li>
+  <li>Supports SM pixel camera sensor</li>
+  <li>Supports video capture solution up to 1080p@30fps”</li>
+  <li>MIC</li>
+  <li>Supports HDMI output with HDCP</li>
+  <li>Supports HDMI CEC</li>
+  <li>Supports HDMI 30 function</li>
+  <li>Integrated CVBS</li>
+  <li>Supports simultaneous output of HDMI and CVBS”</li>
+  <li>3.5 mm Jack and HDMI</li>
+  <li>DC input can supply power, but USB OTG input don’t supply power</li>
+  <li>Three USB 2.0 HOST, one USB 2.0 OTG</li>
+  <li>Power Button(SW4)</li>
+  <li>40 Pins Header</li>
+  <li>UART, Ground.</li>
+  <li>Power led &amp; Status led</li>
+  <li>IR input, Power</li>
+  <li>Android, Ubuntu, Debian</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://tinkersphere.com/raspberry-pi-orange-pi-boards/2353-orange-pi-pc-2-1gb-ram-14ghz-x64-quad-core-processor.html">Tinkersphere</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/orange_pi_pc2/</guid>
+  </item><item>
+    <title>LubanCat-5</title>
+    <link>https://circuitpython.org/blinka/lubancat-5/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/lubancat-5.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/lubancat-5.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/lubancat-5.jpg" alt="Image of Board" loading="lazy">
+<p>By EmbedFire</p> <p>LubanCat-5 is equipped with an eight-core CPU of quad-core A76 + quad-core A55 and a powerful Arm high-performance GPU, with a built-in NPU with 6T computing power. It is equipped with two Gigabit network ports, HDMI, USB3.0, MINI PCI-E interface, MIPI and other peripherals. Compared with LubanCat-4, it has reserved more USB, HDMI and other general interfaces, further expanding the use scenarios of the board</p>
+
+<p>LubanCat-5 has powerful performance and can be used as a high-performance single-board computer and embedded motherboard for display, control, network transmission, file storage, edge computing and other scenarios</p>
+
+<p>The LubanCat-5 board provides a complete SDK driver development package, design schematics and other resources, which not only helps users further apply the board, but also greatly reduces the secondary development time based on this board and speeds up product launch.</p>
+
+<p><strong>Specifications</strong></p>
+<ul>
+  <li>DC 12V@2A DC input</li>
+  <li>RK3588S (quad-core A76 + quad-core A55, Mali-G610, 6T computing power)</li>
+  <li>LPDDR4X-4/8/16GB</li>
+  <li>eMMC-32/64/128GB</li>
+  <li>10/100/1000M adaptive Ethernet port</li>
+  <li>Type-A port x1 (HOST)</li>
+  <li>Type-A port x1 (OTG)</li>
+  <li>Type-A port x2 (HOST)</li>
+  <li>Type-C interface x1 (OTG), firmware burning interface, DP display (supports multi-screen display with other screens)</li>
+  <li>One Debug serial port, default parameters 1500000-8-N-1</li>
+  <li>ON/OFF (power button), MR (MaskRom), REC (Recovery), RST (Reset button)</li>
+  <li>Headphone output + microphone input 2 in 1 interface</li>
+  <li>Compatible with Raspberry Pi 40Pin interface, supports PWM, GPIO, I2C, SPI, UART functions</li>
+  <li>Can be used with full-height or half-height WIFI network card, 4G module or other MINI-PCIE interface module</li>
+  <li>Need to be used with 4G module</li>
+  <li>1x Input Interface</li>
+  <li>2x output interface, display interface, supports multi-screen display with other screens</li>
+  <li>2xMIPI screen interface, supports multi-screen display with other screens</li>
+  <li>6x camera ports (front x3, back x3)</li>
+  <li>Support TF card boot system, up to 512GB</li>
+  <li>Support infrared remote control</li>
+  <li>Support RTC function</li>
+  <li>Support installation of fan cooling</li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/lubancat-5/</guid>
+  </item><item>
+    <title>RP2040-Zero</title>
+    <link>https://circuitpython.org/board/waveshare_rp2040_pizero/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/waveshare_rp2040_pizero.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_rp2040_pizero.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/waveshare_rp2040_pizero.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>RP2040-PiZero is a high-performance and cost-effective microcontroller board designed by Waveshare, onboard DVI interface, TF card slot and PIO-USB port, compatible with Raspberry Pi 40PIN GPIO header, easy to develop and integrate into the products.</p>
+
+<p><strong>Board specifications</strong></p>
+
+<ul>
+  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>
+  <li>Dual-core ARM Cortex M0+ processor, flexible clock running up to 133 MHz</li>
+  <li>264KB of SRAM, and 16MB of onboard Flash memory</li>
+  <li>Onboard DVI interface can drive most HDMI screens (DVI compatibility required)</li>
+  <li>Supports using as a USB host or slave via onboard PIO-USB port</li>
+  <li>Onboard TF card slot for reading and writing TF card</li>
+  <li>Onboard Lithium battery recharge/discharge header, suitable for mobile scenarios</li>
+  <li>USB 1.1 with device and host support</li>
+  <li>Drag-and-drop programming using mass storage over USB</li>
+  <li>Low-power sleep and dormant modes</li>
+  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>
+  <li>Accurate clock and timer on-chip</li>
+  <li>Temperature sensor</li>
+  <li>Accelerated floating-point libraries on-chip</li>
+  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/rp2040-pizero.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_rp2040_pizero/</guid>
+  </item><item>
+    <title>ESP32-S3-Tiny</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_tiny/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_s3_tiny.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_tiny.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_tiny.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>This is a ESP32-S3 Mini Development Board, based on ESP32-S3FH4R2 Dual-Core Processor, 240MHz Running Frequency, USB Port Adapter Board Optional.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Adopts ESP32-S3FH4R2 chip with Xtensa 32-bit LX7 dual-core processor, up to 240MHz main frequency</li>
+  <li>Built in 512KB of SRAM and 384KB ROM, onboard 2MB PSRAM and 4MB Flash memory</li>
+  <li>Integrated 2.4GHz Wi-Fi and Bluetooth LE dual-mode wireless communication, with superior RF performance</li>
+  <li>Onboard FPC 8PIN connector, supports adapting USB Type-C port via adapter board</li>
+  <li>34 × multi-function GPIO pins</li>
+  <li>Rich peripheral interfaces, including SPI, I2C, UART, ADC, and PWM, etc. to achieve various functions flexibly</li>
+  <li>Supports multiple low-power operating states, adjustable balance between communication distance, data rate and power consumption to meet the power requirements of various application scenarios</li>
+</ul>
+
+<p>Waveshare wiki <a href="https://www.waveshare.com/wiki/ESP32-S3-Tiny">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-s3-tiny.htm">Waveshare without USB Adapter</a></li>
+  <li><a href="https://www.waveshare.com/esp32-s3-tiny.htm?sku=27070">Waveshare with USB Adapter</a></li>
+</ul>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_tiny/</guid>
+  </item><item>
+    <title>Unexpected Maker FeatherS3 Neo</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_feathers3_neo/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/unexpectedmaker_feathers3_neo.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/unexpectedmaker_feathers3_neo.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/unexpectedmaker_feathers3_neo.jpg" alt="Image of Board" loading="lazy">
+<p>By Unexpected Maker</p> <p>Introducing the FeatherS3 Neo - The Blingy RGB ESP32-S3 Development Board in the Feather format!</p>
+
+<p><strong>Features &amp; Specifications</strong></p>
+<ul>
+  <li>32-bit 240 MHz dual-core processor</li>
+  <li>8 MB SPI Flash</li>
+  <li>2 MB extra PSRAM</li>
+  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>
+  <li>3D antenna</li>
+  <li>2x 700 mA 3.3 V LDO regulators</li>
+  <li>Optimised power path for low-power battery usage</li>
+  <li>LiPo battery management</li>
+  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>
+  <li>7x7 RGB LED matrix + User controllable power</li>
+  <li>22x GPIO</li>
+  <li>VBAT voltage sense on IO2</li>
+  <li>VBUS detection on IO15</li>
+  <li>USB-C with back feed protection</li>
+  <li>RGB LED (PWR IO39, DATA IO16)</li>
+  <li>QWIIC/STEMMA connector</li>
+  <li>Feather format</li>
+</ul>
+
+<p><strong>Onboard 7x7 RGB Matrix? Really?</strong></p>
+
+<p>Yeah, why not! Getting compelling information out of a single RGB LED can be a real challenge, so with a 7x7 matrix, you can scroll text, show icons or even display cool animating patterns!</p>
+
+<p>The RGB Matrix is powered from its own 3.3V LDO, which automatically shuts down if you put the FeatherS3 Neo into deep sleep. You can also turn off the RGB LED power via code by setting IO39 HIGH for on and LOW for off.</p>
+
+<p>You can find out more about the FeatherS3 Neo at <a href="https://unexpectedmaker.com/shop/feathers3neo">unexpected maker</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop/feathers3neo">unexpected Maker</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_feathers3_neo/</guid>
+  </item><item>
+    <title>TTGO T8 V1.7 ESP32</title>
+    <link>https://circuitpython.org/board/ttgo_t8_v1_7/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/ttgo_t8_v1_7.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/ttgo_t8_v1_7.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/ttgo_t8_v1_7.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Wi-Fi &amp; Bluetooth</li>
+  <li>4MB Flash &amp; 4MB PSRAM</li>
+  <li>TF CARD, 3D ANTENNA</li>
+  <li>USB to TTL: CP2104</li>
+  <li>Sleep current: 3mA</li>
+  <li>Working current: About 37mA</li>
+  <li>Size: 63.34mmX25.96mmx4.95mm (6g)</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.tindie.com/products/lilygo/lilygo-ttgo-t8-v17-esp32-module/">Tindie</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/ttgo_t8_v1_7/</guid>
+  </item><item>
+    <title>Seeed Studio XIAO ESP32C6</title>
+    <link>https://circuitpython.org/board/seeed_xiao_esp32c6/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/seeed_xiao_esp32c6.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/seeed_xiao_esp32c6.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/seeed_xiao_esp32c6.jpg" alt="Image of Board" loading="lazy">
+<p>By Seeed Studio</p> <p>XIAO ESP32C6 is a cost-effective MCU based on Espressif’s ESP32-C6. This compact MCU excels in Matter-compliant smart home applications with its support for various wireless connectivity (2.4GHz Wi-Fi 6, BLE 5.0, Zigbee, and Thread). Designed with the thumb-size footprint and a single-sided mount of the XIAO Series, it’s perfect for space-limited projects. Encrypted on the chip, the XIAO ESP32C6 ensures a desired level of security streamlined development experience, and swift market entry by integrating easily with major IoT Cloud platforms.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li><strong><em>Enhanced Connectivity:</em></strong> Combines 2.4GHz Wi-Fi 6 (802.11ax), Bluetooth 5(LE), and IEEE 802.15.4 radio connectivity, allowing you to apply the Thread and Zigbee protocols.</li>
+  <li><strong><em>Matter Native</em></strong>: Supports building Matter-compliant smart home projects thanks to its enhanced connectivity, achieving interoperability</li>
+  <li><strong><em>Security Encrypted on Chip</em></strong>: Powered by ESP32-C6, it brings enhanced encrypted-on-chip security to your smart home projects via secure boot, encryption, and Trusted Execution Environment (TEE)</li>
+  <li><strong><em>Outstanding RF performance:</em></strong> Has an on-board antenna with up to 80m BLE/Wi-Fi range, while reserving an interface for external UFL antenna</li>
+  <li><strong><em>Leveraging Power Consumption:</em></strong> Comes with 4 working modes, with the lowest being 15 μA in deep sleep mode, while also supporting lithium battery charge management.</li>
+  <li><strong><em>Dual RISC-V Processors</em></strong>: Incorporates two 32-bit RISC-V processors, with the high-performance processor running up to 160 MHz, and the low-power processor clocking up to 20</li>
+  <li><strong><em>Classic</em></strong> <strong><em>XIAODesigns:</em></strong> Remains the classic XIAO designs of the thumb-size form factor of 21 x 17.5mm, and single-sided mount, making it perfect for space-limited projects such as wearables</li>
+</ul>
+
+<h3 id="description">Description</h3>
+
+<p>Seeed Studio XIAO ESP32C6 is powered by the highly-integrated <a href="https://www.espressif.com/en/products/socs/esp32-c6">ESP32-C6 SoC</a>, built on <strong><em>two 32-bit RISC-V processors</em></strong>, with a high-performance (HP) processor with <strong><em>running up to 160 MHz</em></strong>, and a low-power (LP) 32-bit RISC-V processor, which can be clocked up to 20 MHz. There are <strong>512KB SRAM and 4 MB Flash on the chip</strong>, allowing for more programming space, and bringing more possibilities to the IoT control scenarios.</p>
+
+<p>XIAO ESP32C6 is <strong><em>Matter native thanks to its enhanced wireless connectivity</em></strong>. The wireless stack supports <strong><em>2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee, and Thread (802.15.4)</em></strong>. As the first XIAO member compatible with Thread, it’s a perfect fit for building Matter-compliant projects, thus achieving interoperability in smart-home.</p>
+
+<p>To better support your IoT projects, XIAO ESP32C6 not only provides <strong><em>seamless integration with mainstream cloud platforms</em></strong> like <strong><em>ESP Rain Maker, AWS IoT, Microsoft Azure, and Google Cloud</em></strong>, but also leverages security for your IoT applications. With its on-chip secure boot, flash encryption, identity protection, and Trusted Execution Environment (TEE), this tiny board ensures <strong><em>the desired level of security</em></strong> for developers looking to build smart, secure, and connected solutions.</p>
+
+<p>This new XIAO is equipped with a high-performance <strong><em>onboard ceramic antenna with up to 80m BLE/Wi-Fi range</em></strong>, while it also reserves <strong><em>an interface for an external UFL antenna</em></strong>. At the same time, it also comes with an optimized power consumption management. Featuring four power modes and an <strong><em>onboard lithium battery charging management</em></strong> circuit, it works in the <strong><em>Deep Sleep mode with a current as low as 15 µA</em></strong>, making it an excellent fit for remote, battery-powered applications.</p>
+
+<p>Being the 8th member of the <a href="https://www.seeedstudio.com/xiao-series-page">Seeed Studio XIAO family</a>, XIAO ESP32C6 remains the classic XIAO design. It is designed to <strong><em>fit the 21 x 17.5mm, XIAO Standard Size</em></strong>, while remains its <strong><em>classic single-sided components mounting</em></strong>. Even being thumb-sized, it amazingly breaks out <strong>15 total</strong> <strong><em>GPIO pins, including 11 digital I/Os for PWM pins and 4 analog I/Os for ADC pins</em></strong>. It supports UART, IIC, and SPI serial communication ports. All these features make it a perfect fit for either space-limited projects such as wearables, or a production-ready unit for your PCBA designs.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html">Seeed Studio</a></li>
+</ul>
+
+<h2 id="getting-started">Getting Started</h2>
+<p>Since the ESP32C6 chip does not have support for native USB, you won’t see a CIRCUITPY drive appear when you plug it into your computer. <a href="https://learn.adafruit.com/circuitpython-with-esp32-quick-start/overview">Here is a complete guide</a> for getting Circuitpython installed onto an ESP32C6 device, and for enabling <a href="https://docs.circuitpython.org/en/latest/docs/workflows.html#web">Web Workflow</a> so you can load your Python code onto it.</p>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/seeed_xiao_esp32c6/</guid>
+  </item><item>
+    <title>NodeMCU ESP32-C2</title>
+    <link>https://circuitpython.org/board/nodemcu_esp32c2/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/nodemcu_esp32c2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/nodemcu_esp32c2.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/nodemcu_esp32c2.jpg" alt="Image of Board" loading="lazy">
+<p>By NodeMCU</p> <p>The ESPC2-12 module adopts the ESP8684 chip, which is a universal WIFI and low-power Bluetooth dual-mode module with powerful functions. The module adopts onboard antenna and external antenna, and is equipped with 4MB SPI FLASH.
+Pin connectors (row pins), all available GPIO pins have been led out to the row pins of the development board. The mainstream type-c USB interface can be used as a power supply for development boards or a communication interface between PC and ESP8684 chips.
+USB to UART bridge, single chip USB to UART bridge, providing a transfer rate of up to 3 Mbps. ESPC2-12 is an extremely low-power SoC designed based on ESP8684 and equipped with RISC-V 32-bit single core processors. It supports IEEE 802.11b/g/n (2.4 GHz WiFi) and BT 5 (BLE) modules.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>Versatile Development Kit:Comes with a comprehensive SDK and supports various protocols, making it ideal for a wide range of IoT projects.</li>
+  <li>WiFi &amp; Bluetooth Connectivity:Supports IEEE 802.11 b/g/n (2.4 GHz WiFi) and BT 5 (BLE) modules, enabling seamless wireless communication.</li>
+  <li>Extensive GPIO &amp; Peripherals:Features 13 GPIO ports, 2 SPI, 1 UART, 1 I2C, and PWM with up to 6 channels, catering to diverse application needs.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Arduino Optum Wifi</td>
+          <td>Node Include</td>
+          <td>Dual-Core Processor:Equipped with a 32-bit RISC-V single core processor, the ESPC2-12 delivers up to 120 MHz main frequency for efficient performance.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Low-Power Design:Designed for low power consumption, the ESPC2-12 operates efficiently within a voltage range of 3.0V~3.6V.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.com/i/3256805857447692.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/nodemcu_esp32c2/</guid>
+  </item><item>
+    <title>T-Display S3 Pro</title>
+    <link>https://circuitpython.org/board/lilygo_tdisplay_s3_pro/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/lilygo_tdisplay_s3_pro.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/lilygo_tdisplay_s3_pro.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/lilygo_tdisplay_s3_pro.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <p>T-Display S3 pro is the upgraded version of T-Display S3.
+The main thing is the use of a larger screen 2.33-inch screen and the addition of the chip SY6970 for phone OTG.
+Continuing the way of T-display S3, the case is ABS, and there is added the expansion of the camera module through POGOpin for the use of a built-in module. Ambient light and proximity sensors on the top of the screen, two integrated QWIIC ports, and a battery power switch. An optional MPU9250 IMU module is also available internally.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32-S3R8 Dual-core LX7 microprocessor</li>
+  <li>16 MB Flash memory</li>
+  <li>8 MB PSRAM</li>
+  <li>2.33 inch ST7796 IPS LCD display</li>
+  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>
+  <li>3 user buttons (<code class="language-plaintext highlighter-rouge">IO0</code> for Boot, <code class="language-plaintext highlighter-rouge">IO12</code> and <code class="language-plaintext highlighter-rouge">IO16</code> for custom functions), 1 reset button</li>
+  <li>Battery charging circuit (JST connector for Li-Po battery)</li>
+  <li>USB-C for programming and power</li>
+  <li>Onboard LED</li>
+</ul>
+
+<h2 id="schematic">Schematic</h2>
+
+<ul>
+  <li><a href="https://github.com/Xinyuan-LilyGO/T-Display-S3-Pro">LILYGO Github repository</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.lilygo.cc/products/t-display-s3-pro?variant=43111690141877">LILYGO Own Store - Non-Camera Variant</a></li>
+  <li><a href="https://www.lilygo.cc/products/t-display-s3-pro?variant=43111690764469">LILYGO Own Store - Camera Variant</a></li>
+  <li><a href="https://lilygo.aliexpress.com/store/2090076">LILYGO Aliexpress Store</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_tdisplay_s3_pro/</guid>
+  </item><item>
     <title>USB Interposer</title>
     <link>https://circuitpython.org/board/8086_usb_interposer/</link>
     <description><![CDATA[ 
@@ -4231,7 +5122,7 @@ Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature modul
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="[https://www.waveshare.com/esp32-s3-pico.htm">Waveshare</a></li>
+  <li><a href="https://www.waveshare.com/esp32-s3-pico.htm">Waveshare</a></li>
 </ul>
 
  ]]></description>
@@ -10928,10 +11819,6 @@ It is developed for educational purpose, so it can be programmed with blocks in 
   </li>
   <li><a href="https://shop.allnetchina.cn/products/copy-of-radxa-zero">ALLNET.CHINA</a></li>
 </ul>
-
-<h2 id="contribute">Contribute</h2>
-
-<p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/master/_blinka/radxa_zero.md">here</a>.</p>
  ]]></description>
     
     <category>Blinka</category>

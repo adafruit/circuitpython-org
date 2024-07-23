@@ -5252,6 +5252,31 @@
         "description": "<p>The LILYGO T-Display S3 is a compact development board based on the ESP32-S3 chip. It features a 1.9-inch ST7789 LCD display using a parallel bus, with an optional CST816 touchscreen.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>8 MB PSRAM</li>  <li>1.9 inch ST7789 LCD display, optional CST816 touchscreen</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>2 user buttons (<code class=\"language-plaintext highlighter-rouge\">IO0</code> for Boot and <code class=\"language-plaintext highlighter-rouge\">IO14</code> for custom functions), 1 reset button</li>  <li>Battery charging circuit (JST connector for Li-Po battery)</li>  <li>USB-C for programming and power</li>  <li>Onboard LED</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/Xinyuan-LilyGO/T-Display-S3\">LILYGO Github repository</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-display-s3?variant=42351558590645\">LILYGO Own Store - Non-Touch Variant</a></li>  <li><a href=\"https://www.lilygo.cc/products/t-display-s3?variant=42589373268149\">LILYGO Own Store - Touch Variant</a></li>  <li><a href=\"https://lilygo.aliexpress.com/store/2090076\">LILYGO Aliexpress Store</a></li></ul>"
     },
     {
+        "board_id": "lilygo_tdisplay_s3_pro",
+        "title": "T-Display S3 Pro Download",
+        "name": "T-Display S3 Pro",
+        "board_url": [
+            "https://www.lilygo.cc/products/t-display-s3-pro"
+        ],
+        "board_image": "lilygo_tdisplay_s3_pro.jpg",
+        "date_added": "2024-07-18",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Battery Charging",
+            "USB-C",
+            "Display",
+            "Breadboard-Friendly",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/lilygo_tdisplay_s3_pro/",
+        "description": "<p>T-Display S3 pro is the upgraded version of T-Display S3.The main thing is the use of a larger screen 2.33-inch screen and the addition of the chip SY6970 for phone OTG.Continuing the way of T-display S3, the case is ABS, and there is added the expansion of the camera module through POGOpin for the use of a built-in module. Ambient light and proximity sensors on the top of the screen, two integrated QWIIC ports, and a battery power switch. An optional MPU9250 IMU module is also available internally.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3R8 Dual-core LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>8 MB PSRAM</li>  <li>2.33 inch ST7796 IPS LCD display</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>3 user buttons (<code class=\"language-plaintext highlighter-rouge\">IO0</code> for Boot, <code class=\"language-plaintext highlighter-rouge\">IO12</code> and <code class=\"language-plaintext highlighter-rouge\">IO16</code> for custom functions), 1 reset button</li>  <li>Battery charging circuit (JST connector for Li-Po battery)</li>  <li>USB-C for programming and power</li>  <li>Onboard LED</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/Xinyuan-LilyGO/T-Display-S3-Pro\">LILYGO Github repository</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-display-s3-pro?variant=43111690141877\">LILYGO Own Store - Non-Camera Variant</a></li>  <li><a href=\"https://www.lilygo.cc/products/t-display-s3-pro?variant=43111690764469\">LILYGO Own Store - Camera Variant</a></li>  <li><a href=\"https://lilygo.aliexpress.com/store/2090076\">LILYGO Aliexpress Store</a></li></ul>"
+    },
+    {
         "board_id": "lilygo_tembed_esp32s3",
         "title": "T-Embed Download",
         "name": "T-Embed",
@@ -6789,6 +6814,28 @@
         ],
         "url_path": "/board/nice_nano/",
         "description": "<p>The nice!nano is a Pro Micro replacement development board offering BLE using the nRF52840 chip. It has the same pinout as the Pro Micro meaning it will work with almost any Pro Micro keyboard. The nice!nano also has a 3.7 V lithium battery charger on board as well as a software level switch to cut off power to LEDs, which can eat 1 mA each even when off.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Mid mount USB-C port making the board a 3.2 mm total thickness (thinner than a Pro Micro)</li>  <li>nRF52840 chip on board with 1 MB of Flash and 256 KB of RAM</li>  <li>Adafruit Bootloader loaded offering DFU flashing as well as flashing via UF2 storage</li>  <li>Programmable indicator (blue) LED as well as a charging indicator (orange) LED</li>  <li>Battery voltage reader to report battery percentage to main device</li>  <li>External power can be cut off using an on board MOSFET saving power from LEDs</li>  <li>5 extra GPIO pins (3 thru holes and 2 pads on the back) offering a total of 23 GPIO pins</li>  <li>3.3 V out of the VCC pin to power external features</li>  <li>32.768 kHz oscillator on board for real-time clock capabilities</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://docs.nicekeyboards.com/#/nice!nano/\">Documentation</a></li>  <li><a href=\"https://docs.nicekeyboards.com/#/nice!nano/pinout_schematic\">Pinout and schematic</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://nicekeyboards.com/nice-nano/#find-a-store\">Nice! Resellers</a></li></ul>"
+    },
+    {
+        "board_id": "nodemcu_esp32c2",
+        "title": "NodeMCU ESP32-C2 Download",
+        "name": "NodeMCU ESP32-C2",
+        "board_url": [
+            "https://www.aliexpress.com/i/3256805857447692.html"
+        ],
+        "board_image": "nodemcu_esp32c2.jpg",
+        "date_added": "2024-07-18",
+        "family": "esp32c2",
+        "bootloader_id": "nodemcu_esp32c2",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/nodemcu_esp32c2/",
+        "description": "<p>The ESPC2-12 module adopts the ESP8684 chip, which is a universal WIFI and low-power Bluetooth dual-mode module with powerful functions. The module adopts onboard antenna and external antenna, and is equipped with 4MB SPI FLASH.Pin connectors (row pins), all available GPIO pins have been led out to the row pins of the development board. The mainstream type-c USB interface can be used as a power supply for development boards or a communication interface between PC and ESP8684 chips.USB to UART bridge, single chip USB to UART bridge, providing a transfer rate of up to 3 Mbps. ESPC2-12 is an extremely low-power SoC designed based on ESP8684 and equipped with RISC-V 32-bit single core processors. It supports IEEE 802.11b/g/n (2.4 GHz WiFi) and BT 5 (BLE) modules.</p><h3 id=\"features\">Features</h3><ul>  <li>Versatile Development Kit:Comes with a comprehensive SDK and supports various protocols, making it ideal for a wide range of IoT projects.</li>  <li>WiFi &amp; Bluetooth Connectivity:Supports IEEE 802.11 b/g/n (2.4 GHz WiFi) and BT 5 (BLE) modules, enabling seamless wireless communication.</li>  <li>Extensive GPIO &amp; Peripherals:Features 13 GPIO ports, 2 SPI, 1 UART, 1 I2C, and PWM with up to 6 channels, catering to diverse application needs.</li>  <li>    <table>      <tbody>        <tr>          <td>Arduino Optum Wifi</td>          <td>Node Include</td>          <td>Dual-Core Processor:Equipped with a 32-bit RISC-V single core processor, the ESPC2-12 delivers up to 120 MHz main frequency for efficient performance.</td>        </tr>      </tbody>    </table>  </li>  <li>Low-Power Design:Designed for low power consumption, the ESPC2-12 operates efficiently within a voltage range of 3.0V~3.6V.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/i/3256805857447692.html\">AliExpress</a></li></ul>"
     },
     {
         "board_id": "nucleo_f446re",
@@ -8526,6 +8573,29 @@
         "description": "<p>Seeed Studio XIAO ESP32C3 featuring <strong>ESP32C3</strong> carries a complete Wi-Fi system along with Bluetooth Low Energy function. With its exquisite design and <strong>WiFi+BT</strong> ability, it’s perfect for various <strong>IoT controlling scenarios</strong> and <strong>complex carriable applications</strong>.</p><h3 id=\"features\">Features</h3><ul>  <li>    <p><strong>Outstanding RF performance:</strong> Powerful ESP32-C3 SoC and U.FL antenna provided that supports WiFi/Bluetooth connection over 100m.</p>  </li>  <li>    <p><strong>Thumb-size Design:</strong> 21 x 17.5mm overall dimension, portable and lightweight.</p>  </li>  <li>    <p><strong>Low power consumption:</strong> Lowest as 44 μA (deep sleep mode), with 4 working modes available.</p>  </li>  <li>    <p><strong><em>*Onboard battery charge IC:*</em></strong> Supports battery charging, great for various wearable scenarios and wireless IoT applications.</p>  </li>  <li>    <p><strong>Ready for productization:</strong> Single-sided components design, easily integrated into other boards and Seeed provides <a href=\"https://www.seeedstudio.com/fusion.html\">Fusion Service</a> for rapid production.</p>  </li></ul><h3 id=\"description\">Description</h3><p><strong>Seeed Studio XIAO ESP32C3</strong> has equipped a highly-integrated <strong>ESP32-C3 chip</strong>, built around a 32-bit RISC-V chip processor with a four-stage pipeline that operates at up to 160 MHz.</p><p>The board equips highly-integrated ESP32-C3 SoC. The chip has been installed with a <strong>complete 2.4GHz Wi-Fi subsystem</strong> which means it supports Station mode, SoftAP mode, SoftAP &amp; Station mode, and promiscuous mode for multiple Wi-Fi applications. It works under an <strong>ultra-low power state</strong>, also supporting features of <strong>Bluetooth 5</strong> and <strong>Bluetooth mesh</strong>. There are 400 KB SRAM &amp; 4 MB Flash on the chip, allowing for more programming space, and bringing more possibilities to the IoT control scenarios.</p><p>Being a number to the Seeed Studio XIAO family, the board deservedly maintains the classic <strong>thumb-sized form-factor design</strong> and elegant <strong>productization of single-sided components mounting</strong>. Meanwhile, it has equipped with a <strong>battery charge chip</strong> and integrated circuit for enhancing its ability to carry. This board comes included with an external antenna to increase the signal strength for wireless applications. There are 11 digital I/O that can be used as PWM pins and 4 analog i/o that can be used as ADC pins. It supports UART, IIC, and SPI serial communication ports, also including IIS (Internet Information Services). Utilizing its small and exquisite hardware design and the powerful onboard chip, programming by Arduino, it will offer more ability to wearable and portable devices or other applications.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html\">Seeed Studio</a></li></ul><h2 id=\"getting-started\">Getting Started</h2><p>Since the ESP32C3 chip does not have support for native USB, you won’t see a CIRCUITPY drive appear when you plug it into your computer. <a href=\"https://learn.adafruit.com/circuitpython-with-esp32-quick-start/overview\">Here is a complete guide</a> for getting Circuitpython installed onto an ESP32C3 device, and for enabling <a href=\"https://docs.circuitpython.org/en/latest/docs/workflows.html#web\">Web Workflow</a> so you can load your Python code onto it.</p>"
     },
     {
+        "board_id": "seeed_xiao_esp32c6",
+        "title": "Seeed Studio XIAO ESP32C6 Download",
+        "name": "Seeed Studio XIAO ESP32C6",
+        "board_url": [
+            "https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html"
+        ],
+        "board_image": "seeed_xiao_esp32c6.jpg",
+        "date_added": "2024-07-18",
+        "family": "esp32c6",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Xiao / QTPy Form Factor",
+            "USB-C",
+            "Wi-Fi",
+            "Battery Charging"
+        ],
+        "url_path": "/board/seeed_xiao_esp32c6/",
+        "description": "<p>XIAO ESP32C6 is a cost-effective MCU based on Espressif’s ESP32-C6. This compact MCU excels in Matter-compliant smart home applications with its support for various wireless connectivity (2.4GHz Wi-Fi 6, BLE 5.0, Zigbee, and Thread). Designed with the thumb-size footprint and a single-sided mount of the XIAO Series, it’s perfect for space-limited projects. Encrypted on the chip, the XIAO ESP32C6 ensures a desired level of security streamlined development experience, and swift market entry by integrating easily with major IoT Cloud platforms.</p><h3 id=\"features\">Features</h3><ul>  <li><strong><em>Enhanced Connectivity:</em></strong> Combines 2.4GHz Wi-Fi 6 (802.11ax), Bluetooth 5(LE), and IEEE 802.15.4 radio connectivity, allowing you to apply the Thread and Zigbee protocols.</li>  <li><strong><em>Matter Native</em></strong>: Supports building Matter-compliant smart home projects thanks to its enhanced connectivity, achieving interoperability</li>  <li><strong><em>Security Encrypted on Chip</em></strong>: Powered by ESP32-C6, it brings enhanced encrypted-on-chip security to your smart home projects via secure boot, encryption, and Trusted Execution Environment (TEE)</li>  <li><strong><em>Outstanding RF performance:</em></strong> Has an on-board antenna with up to 80m BLE/Wi-Fi range, while reserving an interface for external UFL antenna</li>  <li><strong><em>Leveraging Power Consumption:</em></strong> Comes with 4 working modes, with the lowest being 15 μA in deep sleep mode, while also supporting lithium battery charge management.</li>  <li><strong><em>Dual RISC-V Processors</em></strong>: Incorporates two 32-bit RISC-V processors, with the high-performance processor running up to 160 MHz, and the low-power processor clocking up to 20</li>  <li><strong><em>Classic</em></strong> <strong><em>XIAODesigns:</em></strong> Remains the classic XIAO designs of the thumb-size form factor of 21 x 17.5mm, and single-sided mount, making it perfect for space-limited projects such as wearables</li></ul><h3 id=\"description\">Description</h3><p>Seeed Studio XIAO ESP32C6 is powered by the highly-integrated <a href=\"https://www.espressif.com/en/products/socs/esp32-c6\">ESP32-C6 SoC</a>, built on <strong><em>two 32-bit RISC-V processors</em></strong>, with a high-performance (HP) processor with <strong><em>running up to 160 MHz</em></strong>, and a low-power (LP) 32-bit RISC-V processor, which can be clocked up to 20 MHz. There are <strong>512KB SRAM and 4 MB Flash on the chip</strong>, allowing for more programming space, and bringing more possibilities to the IoT control scenarios.</p><p>XIAO ESP32C6 is <strong><em>Matter native thanks to its enhanced wireless connectivity</em></strong>. The wireless stack supports <strong><em>2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee, and Thread (802.15.4)</em></strong>. As the first XIAO member compatible with Thread, it’s a perfect fit for building Matter-compliant projects, thus achieving interoperability in smart-home.</p><p>To better support your IoT projects, XIAO ESP32C6 not only provides <strong><em>seamless integration with mainstream cloud platforms</em></strong> like <strong><em>ESP Rain Maker, AWS IoT, Microsoft Azure, and Google Cloud</em></strong>, but also leverages security for your IoT applications. With its on-chip secure boot, flash encryption, identity protection, and Trusted Execution Environment (TEE), this tiny board ensures <strong><em>the desired level of security</em></strong> for developers looking to build smart, secure, and connected solutions.</p><p>This new XIAO is equipped with a high-performance <strong><em>onboard ceramic antenna with up to 80m BLE/Wi-Fi range</em></strong>, while it also reserves <strong><em>an interface for an external UFL antenna</em></strong>. At the same time, it also comes with an optimized power consumption management. Featuring four power modes and an <strong><em>onboard lithium battery charging management</em></strong> circuit, it works in the <strong><em>Deep Sleep mode with a current as low as 15 µA</em></strong>, making it an excellent fit for remote, battery-powered applications.</p><p>Being the 8th member of the <a href=\"https://www.seeedstudio.com/xiao-series-page\">Seeed Studio XIAO family</a>, XIAO ESP32C6 remains the classic XIAO design. It is designed to <strong><em>fit the 21 x 17.5mm, XIAO Standard Size</em></strong>, while remains its <strong><em>classic single-sided components mounting</em></strong>. Even being thumb-sized, it amazingly breaks out <strong>15 total</strong> <strong><em>GPIO pins, including 11 digital I/Os for PWM pins and 4 analog I/Os for ADC pins</em></strong>. It supports UART, IIC, and SPI serial communication ports. All these features make it a perfect fit for either space-limited projects such as wearables, or a production-ready unit for your PCBA designs.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html\">Seeed Studio</a></li></ul><h2 id=\"getting-started\">Getting Started</h2><p>Since the ESP32C6 chip does not have support for native USB, you won’t see a CIRCUITPY drive appear when you plug it into your computer. <a href=\"https://learn.adafruit.com/circuitpython-with-esp32-quick-start/overview\">Here is a complete guide</a> for getting Circuitpython installed onto an ESP32C6 device, and for enabling <a href=\"https://docs.circuitpython.org/en/latest/docs/workflows.html#web\">Web Workflow</a> so you can load your Python code onto it.</p>"
+    },
+    {
         "board_id": "seeeduino_wio_terminal",
         "title": "Seeeduino Wio Terminal Download",
         "name": "Seeeduino Wio Terminal",
@@ -9890,6 +9960,28 @@
         "description": "<p>This is a <a href=\"/board/trinket_m0/\">Trinket M0</a> that has been had a SPI flashchip bodged on by Dave Astels. It is not available for purchase.</p><p>It was documented as a DIY project <a href=\"http://daveastels.com/trinket-m0-express-hack.html\">here</a>.</p>"
     },
     {
+        "board_id": "ttgo_t8_v1_7",
+        "title": "TTGO T8 V1.7 ESP32 Download",
+        "name": "TTGO T8 V1.7 ESP32",
+        "board_url": [
+            "https://www.tindie.com/products/lilygo/lilygo-ttgo-t8-v17-esp32-module/"
+        ],
+        "board_image": "ttgo_t8_v1_7.jpg",
+        "date_added": "2024-07-18",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Wi-Fi",
+            "Battery Charging",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/ttgo_t8_v1_7/",
+        "description": "<h2 id=\"technical-details\">Technical details</h2><ul>  <li>Wi-Fi &amp; Bluetooth</li>  <li>4MB Flash &amp; 4MB PSRAM</li>  <li>TF CARD, 3D ANTENNA</li>  <li>USB to TTL: CP2104</li>  <li>Sleep current: 3mA</li>  <li>Working current: About 37mA</li>  <li>Size: 63.34mmX25.96mmx4.95mm (6g)</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.tindie.com/products/lilygo/lilygo-ttgo-t8-v17-esp32-module/\">Tindie</a></li></ul>"
+    },
+    {
         "board_id": "uartlogger2",
         "title": "uartlogger2 Download",
         "name": "uartlogger2",
@@ -10109,6 +10201,30 @@
         ],
         "url_path": "/board/unexpectedmaker_feathers3/",
         "description": "<p>Introducing the FeatherS3 - The Pro ESP32-S3 Development Board in the Feather Format!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>16MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>2x 700mA 3.3V LDO Regulators</li>  <li>LDO2 is user controlled &amp; also auto-shuts down in deep sleep</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>VBAT and 5V Sense Pins</li>  <li>21x GPIO</li>  <li>2x STEMMA connectors, 1 on LDO1 and 1 on LDO2 !</li>  <li>Feather Format compatibility</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the FeatherS3 at <a href=\"https://feathers3.io\">feathers3.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5399\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5748\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/feathers3-esp32-s3\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/feathers3\">Unexpected Maker</a></li></ul>"
+    },
+    {
+        "board_id": "unexpectedmaker_feathers3_neo",
+        "title": "Unexpected Maker FeatherS3 Neo Download",
+        "name": "Unexpected Maker FeatherS3 Neo",
+        "board_url": [
+            "https://unexpectedmaker.com/shop/feathers3neo"
+        ],
+        "board_image": "unexpectedmaker_feathers3_neo.jpg",
+        "date_added": "2024-07-18",
+        "family": "esp32s3",
+        "bootloader_id": "unexpectedmaker_feathers3_neo",
+        "tags": [
+        ],
+        "features": [
+            "Feather-Compatible",
+            "Battery Charging",
+            "Wi-Fi",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/unexpectedmaker_feathers3_neo/",
+        "description": "<p>Introducing the FeatherS3 Neo - The Blingy RGB ESP32-S3 Development Board in the Feather format!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>32-bit 240 MHz dual-core processor</li>  <li>8 MB SPI Flash</li>  <li>2 MB extra PSRAM</li>  <li>2.4 GHz Wi-Fi - 802.11b/g/n</li>  <li>3D antenna</li>  <li>2x 700 mA 3.3 V LDO regulators</li>  <li>Optimised power path for low-power battery usage</li>  <li>LiPo battery management</li>  <li>Power (red), Charge (orange) &amp; IO13 (blue) LEDs</li>  <li>7x7 RGB LED matrix + User controllable power</li>  <li>22x GPIO</li>  <li>VBAT voltage sense on IO2</li>  <li>VBUS detection on IO15</li>  <li>USB-C with back feed protection</li>  <li>RGB LED (PWR IO39, DATA IO16)</li>  <li>QWIIC/STEMMA connector</li>  <li>Feather format</li></ul><p><strong>Onboard 7x7 RGB Matrix? Really?</strong></p><p>Yeah, why not! Getting compelling information out of a single RGB LED can be a real challenge, so with a 7x7 matrix, you can scroll text, show icons or even display cool animating patterns!</p><p>The RGB Matrix is powered from its own 3.3V LDO, which automatically shuts down if you put the FeatherS3 Neo into deep sleep. You can also turn off the RGB LED power via code by setting IO39 HIGH for on and LOW for off.</p><p>You can find out more about the FeatherS3 Neo at <a href=\"https://unexpectedmaker.com/shop/feathers3neo\">unexpected maker</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://unexpectedmaker.com/shop/feathers3neo\">unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_nanos3",
@@ -10453,7 +10569,29 @@
             "Bluetooth/BTLE"
         ],
         "url_path": "/board/waveshare_esp32_s3_pico/",
-        "description": "<p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Adopts ESP32-S3R2 as the main chip.</li>  <li>Comes with Xtensa 32-bit LX7 dual-core processor, capable of running at 240 MHz.</li>  <li>An MCU chip with integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE).</li>  <li>Integrated 512KB SRAM, 384KB ROM, 2MB PSRAM, 16MB Extarnal Flash memory.</li>  <li>Type-C connector, easier to use.</li>  <li>Onboard CH343 and CH334 chips can meet the needs of USB and UART development via a Type-C interface.</li>  <li>Onboard DC-DC chip MP28164, high-efficiency DC-DC buck-boost chip with load current up to 2A.</li>  <li>27 × multi-function GPIO headers.</li>  <li>Rich peripheral interfaces, including full-speed USB OTG, SPI, I2C, UART, ADC, PWM, and DVP (8-bit ~ 16-bit camera interface), LCD interfaces (8-bit ~ 16-bit parallel RGB, I8080, MOTO6800), etc. to achieve various functions flexibly.</li>  <li>Supports Raspberry Pi Pico expansion board ecology, suitable for artificial intelligence IoT application development</li></ul><p>Waveshare wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S3-Pico\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"[https://www.waveshare.com/esp32-s3-pico.htm\">Waveshare</a></li></ul>"
+        "description": "<p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Adopts ESP32-S3R2 as the main chip.</li>  <li>Comes with Xtensa 32-bit LX7 dual-core processor, capable of running at 240 MHz.</li>  <li>An MCU chip with integrated 2.4 GHz Wi-Fi and Bluetooth 5 (LE).</li>  <li>Integrated 512KB SRAM, 384KB ROM, 2MB PSRAM, 16MB Extarnal Flash memory.</li>  <li>Type-C connector, easier to use.</li>  <li>Onboard CH343 and CH334 chips can meet the needs of USB and UART development via a Type-C interface.</li>  <li>Onboard DC-DC chip MP28164, high-efficiency DC-DC buck-boost chip with load current up to 2A.</li>  <li>27 × multi-function GPIO headers.</li>  <li>Rich peripheral interfaces, including full-speed USB OTG, SPI, I2C, UART, ADC, PWM, and DVP (8-bit ~ 16-bit camera interface), LCD interfaces (8-bit ~ 16-bit parallel RGB, I8080, MOTO6800), etc. to achieve various functions flexibly.</li>  <li>Supports Raspberry Pi Pico expansion board ecology, suitable for artificial intelligence IoT application development</li></ul><p>Waveshare wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S3-Pico\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s3-pico.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_esp32_s3_tiny",
+        "title": "ESP32-S3-Tiny Download",
+        "name": "ESP32-S3-Tiny",
+        "board_url": [
+            "https://www.waveshare.com/esp32-s3-tiny.htm"
+        ],
+        "board_image": "waveshare_esp32_s3_tiny.jpg",
+        "date_added": "2024-07-18",
+        "family": "esp32s3",
+        "bootloader_id": "waveshare_esp32_s3_tiny",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "USB-C",
+            "Wi-Fi",
+            "Bluetooth/BTLE"
+        ],
+        "url_path": "/board/waveshare_esp32_s3_tiny/",
+        "description": "<p>This is a ESP32-S3 Mini Development Board, based on ESP32-S3FH4R2 Dual-Core Processor, 240MHz Running Frequency, USB Port Adapter Board Optional.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Adopts ESP32-S3FH4R2 chip with Xtensa 32-bit LX7 dual-core processor, up to 240MHz main frequency</li>  <li>Built in 512KB of SRAM and 384KB ROM, onboard 2MB PSRAM and 4MB Flash memory</li>  <li>Integrated 2.4GHz Wi-Fi and Bluetooth LE dual-mode wireless communication, with superior RF performance</li>  <li>Onboard FPC 8PIN connector, supports adapting USB Type-C port via adapter board</li>  <li>34 × multi-function GPIO pins</li>  <li>Rich peripheral interfaces, including SPI, I2C, UART, ADC, and PWM, etc. to achieve various functions flexibly</li>  <li>Supports multiple low-power operating states, adjustable balance between communication distance, data rate and power consumption to meet the power requirements of various application scenarios</li></ul><p>Waveshare wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S3-Tiny\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s3-tiny.htm\">Waveshare without USB Adapter</a></li>  <li><a href=\"https://www.waveshare.com/esp32-s3-tiny.htm?sku=27070\">Waveshare with USB Adapter</a></li></ul>"
     },
     {
         "board_id": "waveshare_esp32_s3_zero",
@@ -10559,6 +10697,27 @@
         ],
         "url_path": "/board/waveshare_rp2040_lcd_1_28/",
         "description": "<p>RP2040-LCD-1.28 is a low-cost, high-performance MCU board designed by Waveshare. Tiny size with onboard 1.28inch LCD round display, Li-ion battery recharge manager, 6-axis sensor (3-axis accelerometer and 3-axis gyroscope) and so on, adapting all GPIO and Debug pins, which makes it easy for you to develop and integrate it into products quickly.</p><p><strong>Board specifications</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 2MB of on-board Flash memory</li>  <li>Type-C connector, keeps it up to date, easier to use</li>  <li>Onboard 1.28inch 240×240 pixels 65K colorful IPS LCD display for clear color pictures</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>All GPIO pins are adapted through 1.27 pitch female headers (There are 30 pins in total, but some pins have been connected to the internal circuit, please refer to the wiki for details when multiplexing)</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2040-lcd-1.28.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2040_pizero",
+        "title": "Waveshare RP2040-Zero Download",
+        "name": "RP2040-Zero",
+        "board_url": [
+            "https://www.waveshare.com/rp2040-pizero.htm"
+        ],
+        "board_image": "waveshare_rp2040_pizero.jpg",
+        "date_added": "2024-07-18",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Battery Charging",
+            "External Display"
+        ],
+        "url_path": "/board/waveshare_rp2040_pizero/",
+        "description": "<p>RP2040-PiZero is a high-performance and cost-effective microcontroller board designed by Waveshare, onboard DVI interface, TF card slot and PIO-USB port, compatible with Raspberry Pi 40PIN GPIO header, easy to develop and integrate into the products.</p><p><strong>Board specifications</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core ARM Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 16MB of onboard Flash memory</li>  <li>Onboard DVI interface can drive most HDMI screens (DVI compatibility required)</li>  <li>Supports using as a USB host or slave via onboard PIO-USB port</li>  <li>Onboard TF card slot for reading and writing TF card</li>  <li>Onboard Lithium battery recharge/discharge header, suitable for mobile scenarios</li>  <li>USB 1.1 with device and host support</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>Low-power sleep and dormant modes</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2040-pizero.htm\">Waveshare</a></li></ul>"
     },
     {
         "board_id": "waveshare_rp2040_plus_16mb",
