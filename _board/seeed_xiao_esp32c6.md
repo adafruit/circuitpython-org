@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "seeed_xiao_esp32c6"
-title: "Seeed Studio XIAO ESP32C6 Download"
-name: "Seeed Studio XIAO ESP32C6"
+title: "Seeed Studio XIAO ESP32-C6 Download"
+name: "Seeed Studio XIAO ESP32-C6"
 manufacturer: "Seeed Studio"
 board_url:
  - "https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html"
