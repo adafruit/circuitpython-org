@@ -17,6 +17,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - USB 3.0
+  - NVME/M.2 Connector
 ---
 
 This is the documentation for ROCK 3 Model C, written by Radxa Team with community contributions.

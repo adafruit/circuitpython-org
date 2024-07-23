@@ -55,7 +55,3 @@ Radxa Zero features a quad core 64-bit ARM processor, up to 4GB 32bit LPDDR4 mem
 * [Radxa Zero - Getting Started](https://wiki.radxa.com/Zero/getting_started)
 ## Purchase
 * [ALLNET.CHINA](https://shop.allnetchina.cn/products/copy-of-radxa-zero)
-
-## Contribute
-
-Have some info to add for this board? Edit the source for this page [here](https://github.com/adafruit/circuitpython-org/edit/master/_blinka/{{ page.board_id }}.md).

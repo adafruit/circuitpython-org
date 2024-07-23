@@ -15,6 +15,7 @@ features:
   - Ethernet
   - USB 3.0
   - HDMI/DisplayPort
+  - NVME/M.2 Connector
 ---
 
 Orange Pi 5 uses Rockchip RK3588S new generation 8-core 64-bit processor, quad-core A76+quad-core A55, with 8nm process design, up to 2.4GHz main frequency, integrated ARM Mali-G610 GPU, embedded high-performance 3D/2D image acceleration module, built-in NPU with 6Tops computing power, with 4GB/8GB/16GB/32GB (LPDDR4/4x), and up to 8K display processing capability.

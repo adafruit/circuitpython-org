@@ -135,6 +135,7 @@ blinka_features = {
     "STEMMA QT/QWIIC",
     "USB 3.0",
     "Infrared Receiver",
+    "NVME/M.2 Connector",
 }
 
 if not verify_board_id("_board"):
@@ -157,7 +158,7 @@ if not verify_date_added("_board") or not verify_date_added("_blinka"):
     print("Date Added field not found or invalid value. See https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/adding-to-downloads for details")
     raise SystemExit(True)
 
-if not verify_contribute_not_present("_board") or not verify_contribute_not_present("blinka"):
+if not verify_contribute_not_present("_board") or not verify_contribute_not_present("_blinka"):
     print("Contribute section found. This should not be there since it is automatically added.")
     raise SystemExit(True)
 
