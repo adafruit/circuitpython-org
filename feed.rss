@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 06 Aug 2024 06:03:34 -0400</lastBuildDate>
+<lastBuildDate>Tue, 06 Aug 2024 13:18:22 -0400</lastBuildDate>
 
 <item>
     <title>LuckyFox Pico Plus</title>
@@ -8419,7 +8419,7 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
     <p>BrainBoardz is a revolutionary modular Mini PCI Express (mPCIe) based system that greatly simplifies the design of circuit boards and custom microcontroller projects. Through the use of our inexpensive ESP32-S3 based Neuron-M modules and our ever expanding range of BrainBoardz prototyping boards anyone can easily develop custom projects to harness the impressive capabilities of the latest generation Espressif ESP32-S3 microcontroller. Simply plug in a Neuron module to a BrainBoardz mPCIe connector and you are ready to go. Neurons not only provide complete access to the extensive range of capabilities provided by the cutting edge ESP32-S3, they can also function as standalone modules if required. You are welcome to design/manufacture your own BrainBoardz compatible boards and Neuron compatible module(s). The entire BrainBoardz system is open source and 100% license free. For more traditional 2.54mm header scenarios, please welcome to our latest board, the feature-packed Neuron-P. It has all of the capabilities of our Neuron-M module, but this time we have loaded it with over 40 2.54mm pins. The Neuron-P is the ideal solution for using on your own breadboards and for standalone projects.</p>
   </li>
   <li>
-    <p>The components we have included on the Neuron-M and Neuron-P are those that are most likely to be needed in core operations for the vast majority of prototypes and production. These include an ultra-low noise 5V to 3.3V LDO, a Mini-USB connector, a status LED and a MicroSD card reader. This razor focused approach ensures that we can provide the most affordable and flexible solution for ESP32-S3 microcontroller based projects!</p>
+    <p>The components we have included on the Neuron-M and Neuron-P are those that are most likely to be needed in core operations for the vast majority of prototypes and production. These include an ultra-low noise 5V to 3.3V LDO, a USB-C connector, a status LED and a microSD card reader. This razor focused approach ensures that we can provide the most affordable and flexible solution for ESP32-S3 microcontroller based projects!</p>
   </li>
   <li>
     <p>Neurons and BrainBoardz are provided with a complete set of mounting hardware. It only takes a few seconds to add/remove a Neuron module to/from a BrainBoardz. There are no fragile pins to contend with in the BrainBoardz system. If you have access to an 3D printer you can also print as many spare mPCIe mounting parts as you need using the STL/FreeCAD model files provided in our GitHub repository. This revolutionary mPCIe connector based approach supports ultra-low profile projects and guarantees microcontroller module re-usability.  We even provide an mPCIe stencil to make designing your own low profile boards easy. We fully support CircuitPython, Arduino, MicroPython and PlatformIO. Are you ready for a prototyping revolution?</p>
@@ -8442,8 +8442,8 @@ Want to use the supernew web workflow, <a href="https://learn.adafruit.com/getti
   <li>Boot Button</li>
   <li>Support for 14 Touch Sensors</li>
   <li>Blink LED</li>
-  <li>Micro SD Card Reader</li>
-  <li>Micro-USB Connector</li>
+  <li>microSD Card Reader</li>
+  <li>USB-C Connector</li>
   <li>Low Noise 5V to 3.3V LDO</li>
   <li>2.54mm 4 Pin Header4 (Neuron-Z) Boards</li>
   <li>Access to All of the ESP32-S3’s GPIO Pins</li>
