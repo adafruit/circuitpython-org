@@ -52,4 +52,4 @@ Additionally, the STM32MP157C-DK2 Discovery kit features an LCD display with a t
 - Bluetooth Low Energy 4.1
 
 ## Purchase
-* [STMicroelectronics](https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32mp157c-dk2.html)
+* [STMicroelectronics](http://estore.st.com/en/stm32mp157f-dk2-cpn.html)
