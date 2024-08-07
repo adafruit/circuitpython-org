@@ -6,8 +6,8 @@ name: "RP2040-One"
 manufacturer: "Waveshare"
 board_url:
  - "https://www.waveshare.com/product/rp2040-one.htm"
-board_image: "waveshare-RP2040-one.jpg"
-date_added: 2022-01-12
+board_image: "waveshare_rp2040_one.jpg"
+date_added: 2024-08-07
 family: raspberrypi
 features:
   - Trinkey Form Factor
