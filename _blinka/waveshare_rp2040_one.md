@@ -12,7 +12,6 @@ blinka: true
 date_added: 2024-08-07
 family: raspberrypi
 features:
-  - Trinkey Form Factor
   - Breadboard-Friendly
 ---
 
