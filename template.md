@@ -35,8 +35,6 @@ features:
   - USB-C
   - Wi-Fi
   - Xiao / QTPy Form Factor
-  - Trinkey Form Factor
-  - Castellated Pads
 ---
 
 This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
