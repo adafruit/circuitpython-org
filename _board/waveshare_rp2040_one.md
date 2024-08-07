@@ -10,10 +10,8 @@ board_image: "waveshare-RP2040-one.jpg"
 date_added: 2022-01-12
 family: raspberrypi
 features:
-  - Trinkey / USB key
-  - USB A plug
-  - breadboard friendly
-  - small
+  - Trinkey Form Factor
+  - Breadboard-Friendly
 ---
 
 A Trinkey-like MCU board based on Raspberry Pi RP2040
