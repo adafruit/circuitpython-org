@@ -4,9 +4,11 @@ board_id: "waveshare_rp2040_one"
 title: "Waveshare RP2040-One Download"
 name: "RP2040-One"
 manufacturer: "Waveshare"
-board_url:
- - "https://www.waveshare.com/product/rp2040-one.htm"
+board_url: "https://www.waveshare.com/product/rp2040-one.htm"
 board_image: "waveshare_rp2040_one.jpg"
+download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
+downloads_display: true
+blinka: true
 date_added: 2024-08-07
 family: raspberrypi
 features:
