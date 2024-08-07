@@ -11,8 +11,6 @@ downloads_display: true
 blinka: true
 date_added: 2024-08-07
 family: raspberrypi
-features:
-  - Breadboard-Friendly
 ---
 
 A Trinkey-like MCU board based on Raspberry Pi RP2040
