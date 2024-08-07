@@ -10,7 +10,6 @@ board_image: "waveshare_rp2040_one.jpg"
 date_added: 2024-08-07
 family: raspberrypi
 features:
-  - Trinkey Form Factor
   - Breadboard-Friendly
 ---
 
