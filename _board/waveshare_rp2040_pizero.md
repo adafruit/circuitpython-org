@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "waveshare_rp2040_pizero"
-title: "Waveshare RP2040-Zero Download"
-name: "RP2040-Zero"
+title: "Waveshare RP2040-PiZero Download"
+name: "RP2040-PiZero"
 manufacturer: "Waveshare"
 board_url:
  - "https://www.waveshare.com/rp2040-pizero.htm"
