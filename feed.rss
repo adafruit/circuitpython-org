@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 08 Aug 2024 06:03:31 -0400</lastBuildDate>
+<lastBuildDate>Thu, 08 Aug 2024 12:59:18 -0400</lastBuildDate>
 
 <item>
     <title>RP2040-One</title>
@@ -676,7 +676,7 @@
     <pubDate>Fri, 19 Jul 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/lubancat-5/</guid>
   </item><item>
-    <title>RP2040-Zero</title>
+    <title>RP2040-PiZero</title>
     <link>https://circuitpython.org/board/waveshare_rp2040_pizero/</link>
     <description><![CDATA[ 
 
@@ -13250,6 +13250,47 @@ o   o        o   o
     
     <pubDate>Sat, 15 Jan 2022 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r8/</guid>
+  </item><item>
+    <title>RP2040-Zero</title>
+    <link>https://circuitpython.org/board/waveshare_rp2040_zero/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/waveshare_rp2040_zero.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_rp2040_zero.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/waveshare_rp2040_zero.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>a Pico-like MCU board based on Raspberry Pi RP2040</p>
+
+<p><strong>Board specifications</strong></p>
+
+<ul>
+  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>
+  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>
+  <li>264KB of SRAM, and 2MB of on-board Flash memory</li>
+  <li>USB-C connector, keeps it up to date, easier to use</li>
+  <li>Castellated module allows soldering direct to carrier boards</li>
+  <li>USB 1.1 with device and host support</li>
+  <li>Low-power sleep and dormant modes</li>
+  <li>Drag-and-drop programming using mass storage over USB</li>
+  <li>29 × multi-function GPIO pins (20× via edge pinout, others via solder points)</li>
+  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>
+  <li>Accurate clock and timer on-chip</li>
+  <li>Temperature sensor</li>
+  <li>Accelerated floating-point libraries on-chip</li>
+  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/rp2040-zero.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_rp2040_zero/</guid>
   </item><item>
     <title>Zero W</title>
     <link>https://circuitpython.org/board/raspberrypi_zero_w/</link>
