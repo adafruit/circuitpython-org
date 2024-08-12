@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 12 Aug 2024 06:03:40 -0400</lastBuildDate>
+<lastBuildDate>Mon, 12 Aug 2024 11:15:16 -0400</lastBuildDate>
 
 <item>
     <title>RP2350 Stamp XL</title>
@@ -174,6 +174,69 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Thu, 08 Aug 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/cytron_motion_2350_pro/</guid>
+  </item><item>
+    <title>IRIV IO Controller (RP2350)</title>
+    <link>https://circuitpython.org/board/cytron_iriv_io_controller/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/cytron_iriv_io_controller.png 300w,
+             https://circuitpython.org/assets/images/boards/large/cytron_iriv_io_controller.png 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/cytron_iriv_io_controller.png" alt="Image of Board" loading="lazy">
+<p>By Cytron Technologies</p> <p>Introducing the IRIV IO Controller, an industrial-grade IO controller designed for lightweight automation solutions. It is powered by the brand new Raspberry Pi RP2350 MCU, making it a reliable solution for your industrial applications.</p>
+
+<p>Engineered to simplify your industrial application and IO management, the IRIV IO Controller can be more than just a standalone IO Controller for your solution.</p>
+
+<h3 id="powered-by-the-latest-raspberry-pi-rp2350">Powered by the Latest Raspberry Pi RP2350</h3>
+<p>The IRIV IO Controller is powered by the brand new Raspberry Pi RP2350 Chip, which makes it more powerful, fast, versatile, and efficient.</p>
+
+<h3 id="various-industry-applications">Various Industry Applications</h3>
+<p>IRIV IO Controller can be used in many industry applications. It can be used as a standalone IO Expander, Data Gatherer, Network Gateway, Automation Control, and much more!</p>
+
+<h3 id="iriv-industrial-ecosystem">IRIV Industrial Ecosystem</h3>
+<p>IRIV IO Controller can be used along with the powerful IRIV PiControl, making your industrial application more manageable and systematic while reducing costs. Use IRIV PiControl as your main system controller, while using IRIV IO Controller to gather your data or monitor your machinery and automation.</p>
+
+<h2 id="technical-details">Technical Details</h2>
+<ul>
+  <li>Microcontroller: Raspberry Pi RP2350, Dual ARM Cortex-M33 @ 150MHz</li>
+  <li>RAM: 520KB on-chip SRAM</li>
+  <li>Storage: 2MB flash memory</li>
+  <li>Interface:
+    <ul>
+      <li>1x USB-C (For programming and configuration)</li>
+      <li>1x RJ45 Ethernet (via W5500 Ethernet controller)</li>
+      <li>1x isolated RS485</li>
+      <li>11x isolated digital input (up to 50V)</li>
+      <li>4x isolated digital output (up to 50V)</li>
+      <li>2x 12-bit analog input (0 - 10.56V / 0 - 42.58mA)</li>
+    </ul>
+  </li>
+  <li>Power Supply: DC 10-30V surge-protected</li>
+  <li>PCF85063A Real Time Clock</li>
+  <li>Additional Features:
+    <ul>
+      <li>1x Reset Button</li>
+      <li>1x Boot Button</li>
+      <li>1x Programmable Button</li>
+      <li>1x programmable LED</li>
+      <li>Status LED for Power, RS485, DIN &amp; DOUT</li>
+      <li>1x Passive Buzzer</li>
+    </ul>
+  </li>
+  <li>Enclosure: Metal enclosure, fanless design, DIN rail mountable</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.cytron.io/p-iriv-ioc">Cytron</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 08 Aug 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/cytron_iriv_io_controller/</guid>
   </item><item>
     <title>Metro RP2350</title>
     <link>https://circuitpython.org/board/adafruit_metro_rp2350/</link>

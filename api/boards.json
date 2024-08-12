@@ -2780,6 +2780,24 @@
         "description": "<p>EDU PICO Project and Innovation Kit for Raspberry Pi Pico W – an all-in-one solution designed to inspire creativity, foster learning, and fuel innovation. Whether you’re a student, educator, or maker, this kit is your gateway to the exciting world of embedded systems and programming using CircuitPython.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>1x Pi Pico Socket with GPIO breakout</li>  <li>1x LiPo Battery Connector</li>  <li>1x Charge LED</li>  <li>1x VIN Terminal</li>  <li>1x USB Relay</li>  <li>2x DC Motor Terminals</li>  <li>4x Motor Test Buttons</li>  <li>4x Motor Status LEDs</li>  <li>4x Servo Ports</li>  <li>1x Micro SD Card Socket</li>  <li>1x Log Data to Pico’s Flash Switch</li>  <li>9x Grove Ports</li>  <li>12x GPIO Status LEDs</li>  <li>1x Reset Button</li>  <li>1x Piezo Buzzer</li>  <li>1x Stereo Audio Jack</li>  <li>1x Audio/Buzzer Switch</li>  <li>1x Potentiometer</li>  <li>1x MP34DT05-A PDM Microphone</li>  <li>1x Protoboard</li>  <li>1x SSD1315 OLED Display</li>  <li>1x AHT20 Temperature &amp; Humidity Sensor</li>  <li>1x APDS9960 Proximity, Light, Gesture &amp; Colour Sensor</li>  <li>5x RGB LEDs (Neopixel)</li>  <li>2x Push Buttons</li></ul><h2 id=\"resources\">Resources</h2><ul>  <li><a href=\"https://docs.google.com/document/d/1iemgnd4dOW59l3svl5YFJ4y4MHd7im2AK-1F9EsAH2Y/edit\">EDU PICO Datasheet</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.cytron.io/p-edu-project-and-innovation-kits-for-pico-w\">Cytron</a></li></ul>"
     },
     {
+        "board_id": "cytron_iriv_io_controller",
+        "title": "IRIV IO Controller Download",
+        "name": "IRIV IO Controller (RP2350)",
+        "board_url": [
+            "https://www.cytron.io/p-iriv-ioc"
+        ],
+        "board_image": "cytron_iriv_io_controller.png",
+        "date_added": "2024-08-08",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/cytron_iriv_io_controller/",
+        "description": "<p>Introducing the IRIV IO Controller, an industrial-grade IO controller designed for lightweight automation solutions. It is powered by the brand new Raspberry Pi RP2350 MCU, making it a reliable solution for your industrial applications.</p><p>Engineered to simplify your industrial application and IO management, the IRIV IO Controller can be more than just a standalone IO Controller for your solution.</p><h3 id=\"powered-by-the-latest-raspberry-pi-rp2350\">Powered by the Latest Raspberry Pi RP2350</h3><p>The IRIV IO Controller is powered by the brand new Raspberry Pi RP2350 Chip, which makes it more powerful, fast, versatile, and efficient.</p><h3 id=\"various-industry-applications\">Various Industry Applications</h3><p>IRIV IO Controller can be used in many industry applications. It can be used as a standalone IO Expander, Data Gatherer, Network Gateway, Automation Control, and much more!</p><h3 id=\"iriv-industrial-ecosystem\">IRIV Industrial Ecosystem</h3><p>IRIV IO Controller can be used along with the powerful IRIV PiControl, making your industrial application more manageable and systematic while reducing costs. Use IRIV PiControl as your main system controller, while using IRIV IO Controller to gather your data or monitor your machinery and automation.</p><h2 id=\"technical-details\">Technical Details</h2><ul>  <li>Microcontroller: Raspberry Pi RP2350, Dual ARM Cortex-M33 @ 150MHz</li>  <li>RAM: 520KB on-chip SRAM</li>  <li>Storage: 2MB flash memory</li>  <li>Interface:    <ul>      <li>1x USB-C (For programming and configuration)</li>      <li>1x RJ45 Ethernet (via W5500 Ethernet controller)</li>      <li>1x isolated RS485</li>      <li>11x isolated digital input (up to 50V)</li>      <li>4x isolated digital output (up to 50V)</li>      <li>2x 12-bit analog input (0 - 10.56V / 0 - 42.58mA)</li>    </ul>  </li>  <li>Power Supply: DC 10-30V surge-protected</li>  <li>PCF85063A Real Time Clock</li>  <li>Additional Features:    <ul>      <li>1x Reset Button</li>      <li>1x Boot Button</li>      <li>1x Programmable Button</li>      <li>1x programmable LED</li>      <li>Status LED for Power, RS485, DIN &amp; DOUT</li>      <li>1x Passive Buzzer</li>    </ul>  </li>  <li>Enclosure: Metal enclosure, fanless design, DIN rail mountable</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.cytron.io/p-iriv-ioc\">Cytron</a></li></ul>"
+    },
+    {
         "board_id": "cytron_maker_feather_aiot_s3",
         "title": "Maker Feather AIoT S3 Download",
         "name": "Maker Feather AIoT S3",
