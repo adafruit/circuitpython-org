@@ -147,13 +147,29 @@
     {% if version.modules %}
     <p>
         Built-in modules available:
-        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.modules | join: ', ' }}</span>
+        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">
+          {% for module_name in version.modules %}
+          {% if module_name contains "." %}
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/{{ module_name | split: '.' | first }}/#{{ module_name }}">
+          {% else %}
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/{{ module_name }}">
+          {% endif %}
+            {{ module_name }}
+          </a>{% if module_name != version.modules[version.modules.size - 1] %}, {% endif %}
+          {% endfor %}
+        </span>
     </p>
     {% endif %}
     {% if version.frozen_libraries and version.frozen_libraries.size != 0 %}
     <p>
         Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
-        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">{{ version.frozen_libraries | join: ', ' }}</span>
+        <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">
+          {% for module_name in version.frozen_libraries %}
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/{{ module_name | split: 'adafruit_' | last }}">
+            {{ module_name }}
+          </a>{% if module_name != version.frozen_libraries[version.frozen_libraries.size - 1] %}, {% endif %}
+          {% endfor %}
+        </span>
     </p>
     {% endif %}
   </div>
