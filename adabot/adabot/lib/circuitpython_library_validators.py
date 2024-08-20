@@ -424,8 +424,7 @@ class LibraryValidator:
                         commit_date = datetime.datetime.strptime(
                             commit_date_val, "%Y-%m-%dT%H:%M:%SZ"
                         )
-                        if commit_date < oldest_commit_date:
-                            oldest_commit_date = commit_date
+                        oldest_commit_date = min(oldest_commit_date, commit_date)
 
                     date_diff = datetime.datetime.today() - oldest_commit_date
                     if date_diff.days > datetime.date.today().max.day:

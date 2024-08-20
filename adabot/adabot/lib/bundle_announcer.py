@@ -65,7 +65,7 @@ def get_bundle_updates(full_repo_name: str) -> Tuple[Set[RepoResult], Set[RepoRe
                         x.strip(",") for x in relevant_line.split(" ")[2:]
                     ]
                     for lib in lib_components:
-                        comps = parse.parse("[{name:S}]({link_comp:S})", lib)
+                        comps = parse.parse("[{name:S}]({link_comp:S})", lib.strip())
                         link: str = parse.search(
                             "{link:S}/releases", comps["link_comp"]
                         )["link"]
