@@ -28,7 +28,7 @@ jobs:
     # be limited (they run on all forks' default branches).
     if: startswith(github.repository, 'adafruit/')
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         submodules: true
     - name: Update Awesome CircuitPython
