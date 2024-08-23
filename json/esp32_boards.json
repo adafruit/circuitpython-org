@@ -1001,6 +1001,18 @@
             }
         ]
     },
+    "unexpectedmaker_rgbtouch_mini": {
+        "name": "Unexpected Maker RGBTouch Mini",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_rgbtouch_mini-0.18.2.zip",
+        "releases": [
+            {
+                "version": "9.2.0-alpha.2351",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_rgbtouch_mini/en_US/adafruit-circuitpython-unexpectedmaker_rgbtouch_mini-en_US-9.2.0-alpha.2351.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_rgbtouch_mini/en_US/adafruit-circuitpython-unexpectedmaker_rgbtouch_mini-en_US-9.2.0-alpha.2351.uf2"
+            }
+        ]
+    },
     "ai_thinker_esp32-c3s-2m": {
         "name": "ESP-C3-32S (2M)",
         "chipfamily": "esp32c3",
@@ -1729,6 +1741,18 @@
             }
         ]
     },
+    "unexpectedmaker_omgs3": {
+        "name": "Unexpected Maker OMGS3",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-unexpectedmaker_omgs3-0.18.2.zip",
+        "releases": [
+            {
+                "version": "9.2.0-alpha.2351",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_omgs3/en_US/adafruit-circuitpython-unexpectedmaker_omgs3-en_US-9.2.0-alpha.2351.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_omgs3/en_US/adafruit-circuitpython-unexpectedmaker_omgs3-en_US-9.2.0-alpha.2351.uf2"
+            }
+        ]
+    },
     "waveshare_esp32_s3_geek": {
         "name": "ESP32-S3-GEEK",
         "chipfamily": "esp32s3",
@@ -1758,6 +1782,16 @@
                 "version": "9.2.0-alpha.2351",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/smartbeedesigns_bee_motion_s3/en_US/adafruit-circuitpython-smartbeedesigns_bee_motion_s3-en_US-9.2.0-alpha.2351.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/smartbeedesigns_bee_motion_s3/en_US/adafruit-circuitpython-smartbeedesigns_bee_motion_s3-en_US-9.2.0-alpha.2351.uf2"
+            }
+        ]
+    },
+    "vidi_x": {
+        "name": "VIDI X",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.2.0-alpha.2351",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/vidi_x/en_US/adafruit-circuitpython-vidi_x-en_US-9.2.0-alpha.2351.bin"
             }
         ]
     },
@@ -1809,6 +1843,17 @@
                 "version": "9.2.0-alpha.2351",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/morpheans_morphesp-240/en_US/adafruit-circuitpython-morpheans_morphesp-240-en_US-9.2.0-alpha.2351.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/morpheans_morphesp-240/en_US/adafruit-circuitpython-morpheans_morphesp-240-en_US-9.2.0-alpha.2351.uf2"
+            }
+        ]
+    },
+    "lilygo_twatch_s3": {
+        "name": "T-Display S3",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.2.0-alpha.2351",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_twatch_s3/en_US/adafruit-circuitpython-lilygo_twatch_s3-en_US-9.2.0-alpha.2351.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_twatch_s3/en_US/adafruit-circuitpython-lilygo_twatch_s3-en_US-9.2.0-alpha.2351.uf2"
             }
         ]
     },
@@ -2204,6 +2249,18 @@
                 "version": "9.2.0-alpha.2351",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/bpi_leaf_s3/en_US/adafruit-circuitpython-bpi_leaf_s3-en_US-9.2.0-alpha.2351.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/bpi_leaf_s3/en_US/adafruit-circuitpython-bpi_leaf_s3-en_US-9.2.0-alpha.2351.uf2"
+            }
+        ]
+    },
+    "espressif_esp32s3_devkitc_1_n16": {
+        "name": "ESP32-S3-DevKitC-1-N16",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-espressif_esp32s3_devkitc_1-0.18.2.zip",
+        "releases": [
+            {
+                "version": "9.2.0-alpha.2351",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_devkitc_1_n16/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n16-en_US-9.2.0-alpha.2351.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_devkitc_1_n16/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n16-en_US-9.2.0-alpha.2351.uf2"
             }
         ]
     },

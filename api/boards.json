@@ -1394,6 +1394,23 @@
         "description": "<p>Coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href=\"https://www.youtube.com/adafruit\">YouTube</a>.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://youtu.be/dpVr7x5JiAY?si=le8yqdVi1fjpHHe8&amp;t=9\">YouTube</a></li></ul>"
     },
     {
+        "board_id": "adafruit_vindie_s2",
+        "title": "Adafruit Vindie S2 Download",
+        "name": "Adafruit Vindie S2",
+        "board_url": [
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2024-08-22",
+        "family": "esp32s2",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/adafruit_vindie_s2/",
+        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+    },
+    {
         "board_id": "ai-thinker-esp32-cam",
         "title": "Ai Thinker ESP32-CAM Download",
         "name": "Ai Thinker ESP32-CAM",
@@ -3738,6 +3755,27 @@
         "description": "<p>The <strong>ESP-BOX</strong> is a new generation AIoT development platform released by Espressif Systems. The ESP32-S3-BOX is an AIoT development board that is based on Espressif’s ESP32-S3 Wi-Fi + Bluetooth 5 (LE) SoC. The ESP32-S3-BOX provides a platform for developing the control of home appliances using Voice Assistance + touch screen controller, sensor, infrared controller, and intelligent Wi-Fi gateway.</p><p><strong><a href=\"https://www.espressif.com/en/news/ESP32-S3-BOX_video\">The Lite version is a little different than the non-Lite:</a></strong></p><ul>  <li>Does <strong>not</strong> include the dock that serves as a stand for your device.</li>  <li>Comes with 3 mechanical buttons instead of software buttons</li>  <li>Does not support AEC or waking during speak/music playback</li></ul><p><a href=\"https://www.espressif.com/en/news/ESP32-S3-BOX_video\">Full differences are documented here.</a><em>**</em> If you want the original S3-Box, check out <a href=\"http://www.adafruit.com/product/5290\">this version</a>.</p><p>The ESP32-S3-BOX Lite comes with pre-built firmware that supports offline voice interaction, with the SDKs and examples provided by Espressif, you will be able to develop a wide variety of AIoT applications based on the ESP32-S3-BOX Lite such as online and offline voice assistants, voice-enabled devices, HMI touch-screen devices, control panels, multi-protocol gateways easily.</p><p><strong>ESP-BOX Lite features:</strong></p><ul>  <li>Supports far-field voice interaction with 2 mics</li>  <li>Offline voice wake-up with high wake-up rate</li>  <li>Offline speech commands recognition in Chinese and English languages with high recognition rate</li>  <li>Reconfigurable voice commands in Chinese and English languages</li>  <li>Flexible and reusable GUI framework</li>  <li>End-to-end IoT development framework ESP-RainMaker</li>  <li>    <p>Pmod™ compatible headers support expand peripheral modules</p>  </li>  <li>For getting started with ESP32-S3-BOX, <a href=\"https://github.com/espressif/esp-box/blob/master/docs/getting_started.md\">Please refer to the Getting Started</a></li>  <li>For voice control and customization, <a href=\"https://github.com/espressif/esp-box/blob/master/docs/getting_started.md#voice-assistance-control-and-customization\">please refer to the Voice Assistance Control and Customization</a></li>  <li>For controlling the device by graphical user interface, <a href=\"https://github.com/espressif/esp-box/blob/master/docs/getting_started.md#esp32-s3-box-graphical-user-interface\">please refer to the GUI Guide</a></li>  <li>For more details of ESP32-S3-BOX hardware, <a href=\"https://github.com/espressif/esp-box/blob/master/docs/hardware_overview.md\">Please refer to ESP32-S3-BOX hardware overview</a></li>  <li>For the latest version firmware, <a href=\"https://github.com/espressif/esp-box/blob/master/docs/firmware_update.md\">Please refer to the ESP32-S3-BOX firmware update</a></li></ul><p><strong>Important Note: We recommend <a href=\"https://github.com/espressif/esp-box/blob/master/docs/firmware_update.md\">updating the ESP32-S3-BOX firmware</a> when you first receive the kit to have the latest features and bugfix. Current firmware support is though ESP-IDF (not Arduino yet)</strong></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5511\">Adafruit</a></li></ul>"
     },
     {
+        "board_id": "espressif_esp32s3_devkitc_1_n16",
+        "title": "ESP32-S3-DevKitC-1-N16 Download",
+        "name": "ESP32-S3-DevKitC-1-N16",
+        "board_url": [
+            "https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N16/22320677"
+        ],
+        "board_image": "espressif_esp32s3_devkitc_1.jpg",
+        "date_added": "2024-08-22",
+        "family": "esp32s3",
+        "bootloader_id": "espressif_esp32s3_devkitc_1",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/espressif_esp32s3_devkitc_1_n16/",
+        "description": "<p>The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. <strong>This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 16MB Flash and no PSRAM.</strong></p><p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there’s a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.</p><p>At the core of the module is an ESP32-S3FN8, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds.</p><p>ESP32-S3FN8 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/Jtag, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1, i.e. CAN Specification 2.0), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p><p>There are three mutually exclusive ways to provide power to the board:</p><ul>  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>  <li>5V and G (GND) pins</li>  <li>3v3 and G (GND) pins</li></ul><p><strong>Components:</strong></p><ul>  <li><strong>ESP32-S3-WROOM-1</strong>: ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-WROOM-1 comes with a PCB antenna.</li>  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href=\"https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks\">Header Block</a>.</li>  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>  <li><strong>Reset Button</strong></li>  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO48.</li>  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-DEVKITC-1-N16/22320677\">Digikey</a></li></ul>"
+    },
+    {
         "board_id": "espressif_esp32s3_devkitc_1_n32r8",
         "title": "ESP32-S3-DevKitC-1-N32R8 Download",
         "name": "ESP32-S3-DevKitC-1-N32R8",
@@ -5552,6 +5590,28 @@
         ],
         "url_path": "/board/lilygo_twatch_2020_v3/",
         "description": "<p>LILYGO T-Watch 2020 V3 is based on the hardware function of T-WATCH-2020 and adds the PDM microphone function, which makes the product functions richer and more interesting. The MAX98357 I2S speaker is connected to the cloud and can be used to make intelligent voice control.</p><p>T-WATCH-2020 is based on a design concept that can be programmed, can be worn, can be networked, and can be interactive. Integrated ESP32 with WIFI/Bluetooth, easy to program and develop, and more convenient to connect to the Internet.</p><p>2D IPS 1.54-inch watch capacitive touch screen using OCA process, zinc alloy metal process frame, making the device structure more robust and beautiful. Suitable for wearable use, The sensitive capacitive touch screen makes human-computer interaction smoother.</p><p><strong>Specifications</strong></p><ul>  <li>ESP32-D0WDQ6-V3 Chip WiFi / Bluetooth</li>  <li>FLASH 16MB</li>  <li>SRAM 520 kB SRAM / PSRAM 8MB</li>  <li>Custom function power button (6S / off) (/ 2S / on)</li>  <li>OCA process of 1.54 inch IPS 2D arc capacitive touch screen</li>  <li>Step algorithm function of BMA423 three-axis accelerometer</li>  <li>AXP202 PMU</li>  <li>PCF853 RTC chip</li>  <li>MAX98357 I2S amplifier chip</li>  <li>8ʊ @ 1W speaker</li>  <li>Vibrating motor</li>  <li>Infrared signal transmitter</li>  <li>PDM microphone added to t-watch-2020 V3</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-watch-2020-v3\">LILYGO Store</a></li></ul>"
+    },
+    {
+        "board_id": "lilygo_twatch_s3",
+        "title": "T-Display S3 Download",
+        "name": "T-Display S3",
+        "board_url": [
+            "https://www.lilygo.cc/products/t-watch-s3"
+        ],
+        "board_image": "lilygo_twatch_s3.jpg",
+        "date_added": "2024-08-22",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Bluetooth/BTLE",
+            "Wi-Fi",
+            "Battery Charging"
+        ],
+        "url_path": "/board/lilygo_twatch_s3/",
+        "description": "<p>T-Watch S3 meets the needs of developers who want to experiment with LoRa and ESP32 S3 technology in wearable devices, highly customizable and usable in a variety of applications.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>8 MB PSRAM</li>  <li>1.549 inch ST7789 LCD display</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>RTC</li>  <li>Microphone</li>  <li>MAX98357A I2S Audio</li>  <li>Power Detection</li>  <li>BMA423 3-axis acceleration sensor</li>  <li>DRV2605 Haptic Driver Motor for ERM and LRA</li>  <li>AXP2101 Highly Integrated Power Management Unit</li>  <li>SX1262 Low Power LoRa Transceiver Supports 433Mhz, 868Mhz, 915Mhz</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-watch-s3\">LILYGO Own Store</a></li></ul>"
     },
     {
         "board_id": "loc_ber_m4_base_board",
@@ -7741,6 +7801,24 @@
         "description": "<p>A minimal RP2040 breakout board wrangled into a Pin Grid Array, with a maximal dash of retraux style. PGA2040 has no USB port, LED or buttons but it does have an embed-friendly 21mm square footprint, 8MB of flash and lots of exposed RP2040 pins to play with.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2040</li>  <li>Dual ARM Cortex M0+ running at up to 133Mhz</li>  <li>264kB of SRAM</li>  <li>8MB of QSPI flash supporting XiP</li>  <li>Crystal oscillator</li>  <li>On-board 3V3 regulator (max regulator current output 300mA)</li>  <li>48 pins, arranged with 2.54mm (0.1”) spacing in a Pin Grid Array</li>  <li>30 multi-function General Purpose IO (4 can be used for ADC)</li>  <li>8 GND pins</li>  <li>Input voltage range 3V - 5.5V (on VB pin)</li></ul><h2 id=\"about-the-rp2040\">About the RP2040</h2><p>The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p><p>One very exciting feature of the RP2040 microcontroller are the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/pga2040\">Pimoroni</a></li></ul>"
     },
     {
+        "board_id": "pimoroni_pga2350",
+        "title": "PGA2350 Download",
+        "name": "PGA2350",
+        "board_url": [
+            "https://shop.pimoroni.com/products/pga2350"
+        ],
+        "board_image": "pimoroni_pga2350.jpg",
+        "date_added": "2024-08-22",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/pimoroni_pga2350/",
+        "description": "<p>A minimal but powerful RP2350 breakout board modelled on a Pin Grid Array, with the maximum exposed pins crammed into the smallest possible space.</p><p>PGA2350 is a <strong>compact RP2350 breakout</strong> designed to be embedded in projects where space is limited. It contains the components necessary to run the mighty RP2350B chip (that’s the crystal, regulator and essential support circuits), a beefy <strong>8MB of PSRAM</strong> and a prodigious <strong>16MB of flash storage</strong>. Note that it has no LEDs, buttons or USB connectors - you’ll need to attach your own USB connector to be able to program it.</p><p>All this drastic pruning means you get a small 25.4mm square footprint and <strong>a lot of exposed RP2350 pins</strong> to play with. 48 of them can be used as general purpose I/O (that’s eighteen more I/O than on a Raspberry Pi Pico!) and 8 are ADC-equipped. We’ve even managed to squeeze in some tiny pin labels to help identify them.</p><p><strong>Header pins are sold separately</strong> - you can use <a href=\"https://shop.pimoroni.com/products/pico-header-pack\">standard Pico pin headers</a> (though bear in mind you’ll need 64 pins if you want to populate it fully).</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2350B (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>  <li>16MB of QSPI flash supporting XiP</li>  <li>8MB PSRAM (CS wired to GP47 via cuttable trace)</li>  <li>Crystal oscillator</li>  <li>On-board 3V3 regulator (max regulator current output 300mA)</li>  <li>64 pins, arranged with 2.54mm (0.1”) spacing in a Pin Grid Array</li>  <li>48 multi-function General Purpose IO (8 can be used for ADC)</li>  <li>6 GND pins</li>  <li>Input voltage range 3V - 5.5V (on VB pin only)</li>  <li>Measurements: approx 25.4mm x 25.4mm x 3.6mm (L x W x H)</li>  <li>Programmable with C/C++ or MicroPython</li></ul><h2 id=\"about-rp2350\">About RP2350</h2><p>The RP2350 chip is the Double Quarter Pounder &amp; Fries to the RP2040’s Double Cheeseburger and can have one or more RISC-V burgers instead of either of the M33 ARMs, to stretch the metaphor.</p><p>In addition to the modern M33 ARM cores, there are sides of: more PIO capability, a variety of low power states for sipping electrons, a whole security system and some sprinklings of specialist digital video circuits to offload DVI/HDMI output.</p><p>You can expect a tasty boost in performance - our “real world” MicroPython tests are running up to 2x faster compared to RP2040, and floating point number crunching in C/C++ is up to 20x faster. The extra on-chip RAM will make a big difference when performing memory intensive operations (such as working with higher resolution displays) and even more can be added thanks to external PSRAM support.</p><p>RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/pga2350\">Pimoroni</a></li></ul>"
+    },
+    {
         "board_id": "pimoroni_pico_dv_base",
         "title": "Pimoroni Pico DV Demo Base for Pico Download",
         "name": "Pimoroni Pico DV Demo Base for Pico",
@@ -7777,6 +7855,28 @@
         ],
         "url_path": "/board/pimoroni_pico_dv_base_w/",
         "description": "<p>A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico or Pico W, withHDMI connector, SD card slot, line level I2S audio and buttons.</p><p><strong>Note</strong> The Pico W version of the Pico dv Demo Base does not bring up the DVI output by default. In order to activate the DVI output you must run CircuitPython user code.</p><h2 id=\"features\">Features</h2><ul>  <li>HDMI connector</li>  <li>PCM5100A DAC for line out audio over I2S <a href=\"https://cdn.shopify.com/s/files/1/0174/1800/files/pcm5100a_617130f1-79f1-45ac-96bc-a3752b4afa59.pdf?v=1611151321\">datasheet</a></li>  <li>SD card slot</li>  <li>Reset button</li>  <li>Socket headers to install your Raspberry Pi Pico</li>  <li>Three user-controllable switches</li>  <li>Rubber feet</li>  <li>Compatible with Raspberry Pi Pico</li>  <li>No soldering required (as long as your Pico has header pins attached)</li>  <li>Programmable with C/C++</li>  <li><a href=\"https://cdn.shopify.com/s/files/1/0174/1800/files/pico_dv_schematic.pdf?v=1636985340\">Schematic</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5674\">Adafruit</a></li>  <li><a href=\"https://shop.pimoroni.com/en-us/products/pimoroni-pico-dv-demo-base\">Pimoroni</a></li></ul>"
+    },
+    {
+        "board_id": "pimoroni_pico_plus2",
+        "title": "Pico Plus2 Download",
+        "name": "Pico Plus2",
+        "board_url": [
+            "https://shop.pimoroni.com/products/pimoroni-pico-plus-2"
+        ],
+        "board_image": "pimoroni_pico_plus2.jpg",
+        "date_added": "2024-08-22",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "USB-C",
+            "STEMMA QT/QWIIC",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/pimoroni_pico_plus2/",
+        "description": "<p>A top of the line Pirate-brand RP2350 microcontroller with 16MB of flash memory, 8MB of PSRAM, USB-C, Qw/ST and debug connectors.</p><p>We adore the versatility and value of Raspberry Pi Pico but we also enjoy a souped up RP2350 board with all the extras baked in. With Pimoroni Pico boards, we’ve tried to cram in as much extra functionality as we possibly can whilst keeping to the original Pico footprint to maintain compatibility with existing Pico addons.</p><p>Pimoroni Pico Plus 2 is <strong>powered and programmable via USB-C</strong> and comes with an upgraded <strong>8MB RAM</strong>, <strong>16MB of flash storage</strong> and <strong>easy to read pin labels</strong>. It’s super easy to connect up to things without soldering, with a <strong><a href=\"https://shop.pimoroni.com/collections/qwiic\">Qwiic</a>/<a href=\"https://shop.pimoroni.com/collections/stemma-qt\">STEMMA QT</a> connector</strong> (for adding I2C sensors and breakouts), a <strong>SP/CE connector</strong> (for hooking up SPI/serial devices) and a <strong>debug connector</strong> (for if you like to program using a SWD debugger). We’ve also added a reset button, and a BOOT button - this can also be used as a user switch.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2350B (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>  <li>16MB of QSPI flash supporting XiP</li>  <li>8MB of PSRAM</li>  <li>USB-C connector for power, programming, and data transfer</li>  <li>Qw/ST (Qwiic/STEMMA QT) connector for attaching breakouts</li>  <li>Intriguing SP/CE connector</li>  <li>3 pin debug connector (JST-SH)</li>  <li>Reset and BOOT buttons (the BOOT button can also be used as a user button)</li>  <li>User LED indicator</li>  <li>On-board 3V3 regulator (max regulator current output 600mA)</li>  <li>Input voltage range 3V - 5.5V</li>  <li>Compatible with Raspberry Pi Pico add-ons</li>  <li>Measurements: approx 53mm x 21mm x 9mm (L x W x H, including connectors)</li></ul><h2 id=\"about-rp2350\">About RP2350</h2><p>The RP2350 chip is the Double Quarter Pounder &amp; Fries to the RP2040’s Double Cheeseburger and can have one or more RISC-V burgers instead of either of the M33 ARMs, to stretch the metaphor.</p><p>In addition to the modern M33 ARM cores, there are sides of: more PIO capability, a variety of low power states for sipping electrons, a whole security system and some sprinklings of specialist digital video circuits to offload DVI/HDMI output.</p><p>You can expect a tasty boost in performance - our “real world” MicroPython tests are running up to 2x faster compared to RP2040, and floating point number crunching in C/C++ is up to 20x faster. The extra on-chip RAM will make a big difference when performing memory intensive operations (such as working with higher resolution displays) and even more can be added thanks to external PSRAM support.</p><p>RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/pimoroni-pico-plus-2\">Pimoroni</a></li></ul>"
     },
     {
         "board_id": "pimoroni_picolipo_16mb",
@@ -7889,6 +7989,27 @@
         "description": "<p>This perky Pico W-powered controller for WS2812/Neopixel/SK6812 LEDs is perfect for coding up some wireless blinkenlight shenanigans.</p><p>We’ve taken a Raspberry Pi Pico W and added a set of screw terminals to make it easy to connect up your LEDs and boost circuitry so they get a nice clean 5V on the power and data lines. We’ve also added a reset button (because unplugging your USB cable all the time is tedious) and a Qw/ST (Qwiic/STEMMA QT) connector so you can connect it up to breakouts, all without soldering.</p><h2 id=\"features\">Features</h2><ul>  <li>Raspberry Pi Pico W Aboard    <ul>      <li>Dual Arm Cortex M0+ running at up to 133Mhz with 264kB of SRAM</li>      <li>2MB of QSPI flash supporting XiP</li>      <li>Powered and programmable by USB micro-B</li>      <li>2.4GHz wireless</li>    </ul>  </li>  <li>Compatible with 5V WS2812/Neopixel/SK6812 LEDs</li>  <li>Screw terminals for attaching your LED strip.</li>  <li>Reset button</li>  <li>Qw/ST (Qwiic/STEMMA QT) connector</li></ul><h2 id=\"about-pico-w-aboard\">About Pico W Aboard</h2><p>Our new Pico W Aboard products come with a built in Raspberry Pi Pico W. This means you get all the advantages of a RP2040 microcontroller - a speedy fast dual-core ARM processor, a dynamic, growing ecosystem and a choice of different programming methods to experiment with. Most excitingly though, Pico W has wireless connectivity, so your Pico/RP2040 devices can communicate with each other, and the internet!</p><h2 id=\"misc\">Misc</h2><ul>  <li><a href=\"https://cdn.shopify.com/s/files/1/0174/1800/files/plasma_stick_schematic.pdf?v=1667910096\">Schematics</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/plasma-stick-2040-w\">Pimoroni</a></li></ul>"
     },
     {
+        "board_id": "pimoroni_plasma2350",
+        "title": "Plasma 2350 Download",
+        "name": "Plasma 2350",
+        "board_url": [
+            "https://shop.pimoroni.com/products/plasma-2350"
+        ],
+        "board_image": "pimoroni_plasma2350.jpg",
+        "date_added": "2024-08-22",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/pimoroni_plasma2350/",
+        "description": "<p>An all-in-one, USB-C powered controller for WS2812/Neopixel and APA102/Dotstar addressable LED strips.</p><p>Plasma 2350 is <strong>powered and programmable by USB-C</strong> and, because USB-C is capable of drawing up to 3A of power, that’s enough to power a healthy chunk of LEDs. There’s a <strong>useful button</strong> that you could use to switch between effects, plus a reset button and an <strong>onboard RGB LED</strong>. We’ve also popped a <strong>QW/ST connector</strong> on there, to make it super easy to plug in <a href=\"https://shop.pimoroni.com/collections/qwiic\">Qwiic</a> or <a href=\"https://shop.pimoroni.com/collections/stemma-qt\">STEMMA QT</a> breakouts.</p><p>You can buy a Plasma 2350 on its own, or in a kit with a USB-C cable and some super-cool LED stars, so you can get started lighting stuff up right away.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2350A (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>  <li>4MB of QSPI flash supporting XiP</li>  <li>Compatible with 5V WS2812/Neopixel/SK6812 and APA102/Dotstar/SK9822 LEDs</li>  <li>Screw terminals for attaching your LED strip.</li>  <li>USB-C connector for power and programming (3A max)</li>  <li>Qw/ST (Qwiic/STEMMA QT) connector</li>  <li>Intriguing new SP/CE connector</li>  <li>Reset, BOOT and a user button (the BOOT button can also be used as a user button)</li>  <li>RGB LED</li>  <li>Fully-assembled (no soldering required)</li>  <li>Measurements: approx 61 x 22 x 12mm (L x W x H, including connectors)</li>  <li>Programmable with C/C++ or MicroPython</li></ul><h2 id=\"about-rp2350\">About RP2350</h2><p>The RP2350 chip is the Double Quarter Pounder &amp; Fries to the RP2040’s Double Cheeseburger and can have one or more RISC-V burgers instead of either of the M33 ARMs, to stretch the metaphor.</p><p>In addition to the modern M33 ARM cores, there are sides of: more PIO capability, a variety of low power states for sipping electrons, a whole security system and some sprinklings of specialist digital video circuits to offload DVI/HDMI output.</p><p>You can expect a tasty boost in performance - our “real world” MicroPython tests are running up to 2x faster compared to RP2040, and floating point number crunching in C/C++ is up to 20x faster. The extra on-chip RAM will make a big difference when performing memory intensive operations (such as working with higher resolution displays) and even more can be added thanks to external PSRAM support.</p><p>RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/plasma-2350\">Pimoroni</a></li></ul>"
+    },
+    {
         "board_id": "pimoroni_servo2040",
         "title": "Servo 2040 Download",
         "name": "Servo 2040",
@@ -7950,6 +8071,26 @@
         ],
         "url_path": "/board/pimoroni_tiny2040_2mb/",
         "description": "<p>A postage stamp sized RP2040 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into devices. Tiny 2040 comes with 2MB of QSPI (XiP) flash on board so it can handle projects small and large with ease.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2040</li>  <li>ARM Cortex M0+ running at up to 133Mhz</li>  <li>264kB of SRAM</li>  <li>USB-C connector for power, programming, and data transfer</li>  <li>2MB of QSPI flash supporting XiP</li>  <li>User controllable RGB LED</li>  <li>Twelve IO pins (including four 12-bit ADC channels)</li>  <li>Switch for basic input (doubles up as DFU select on boot)</li>  <li>On-board 3V3 regulator (max regulator current output 300mA)</li>  <li>Input voltage range 3V - 5.5V</li></ul><h2 id=\"about-the-rp2040\">About the RP2040</h2><p>The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p><p>One very exciting feature of the RP2040 microcontroller are the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/tiny-2040\">Pimoroni</a></li></ul>"
+    },
+    {
+        "board_id": "pimoroni_tiny2350",
+        "title": "Tiny 2350 Download",
+        "name": "Tiny 2350",
+        "board_url": [
+            "https://shop.pimoroni.com/products/tiny-2350"
+        ],
+        "board_image": "pimoroni_tiny2350.jpg",
+        "date_added": "2024-08-22",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/pimoroni_tiny2350/",
+        "description": "<p>A postage stamp sized RP2350 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into stuff.</p><p>While we love the Raspberry Pi Pico we also wanted something smaller and with a bunch more flash on board. Introducing the Tiny 2350 - a teeny tiny powerhouse with the chops to realise truly ambitious projects.</p><p>Programmable via USB-C, Tiny 2350 comes with <strong>4MB of flash storage</strong> on board. The board is designed with castellated pads to allow it to be directly soldered onto a PCB (or you can attach <a href=\"https://shop.pimoroni.com/products/pico-header-pack\">pin headers</a> to hook it up on a breadboard or connect things to it directly with wires). We’ve also managed to fit in a <strong>programmable RGB LED</strong>, a <strong>reset button</strong>, a <strong>Qw/ST connector</strong> for connecting up I2C devices and some clever circuitry that lets you use the boot button as a user controllable switch.</p><p>It’s compatible with firmware built for the Raspberry Pi Pico 2 but offers a reduced number of pins due to its size. You can even run MicroPython on it!</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2350A (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>  <li>4MB of QSPI flash supporting XiP</li>  <li>USB-C connector for power, programming, and data transfer</li>  <li>User controllable RGB LED</li>  <li>Qw/ST (Qwiic/STEMMA QT) connector for attaching breakouts</li>  <li>Twelve IO pins (including four 12-bit ADC channels)</li>  <li>Reset and BOOT buttons (the BOOT button can also be used as a user button)</li>  <li>On-board 3V3 regulator (max regulator current output 300mA)</li>  <li>Input voltage range 3V - 5.5V</li>  <li>Programmable with C/C++ or MicroPython</li>  <li>Dimensions: approx 22.9 x 18 x 5.8mm (L x W x H, including the USB-C port)</li></ul><h2 id=\"about-rp2350\">About RP2350</h2><p>The RP2350 chip is the Double Quarter Pounder &amp; Fries to the RP2040’s Double Cheeseburger and can have one or more RISC-V burgers instead of either of the M33 ARMs, to stretch the metaphor.</p><p>In addition to the modern M33 ARM cores, there are sides of: more PIO capability, a variety of low power states for sipping electrons, a whole security system and some sprinklings of specialist digital video circuits to offload DVI/HDMI output.</p><p>You can expect a tasty boost in performance - our “real world” MicroPython tests are running up to 2x faster compared to RP2040, and floating point number crunching in C/C++ is up to 20x faster. The extra on-chip RAM will make a big difference when performing memory intensive operations (such as working with higher resolution displays) and even more can be added thanks to external PSRAM support.</p><p>RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/tiny-2350\">Pimoroni</a></li></ul>"
     },
     {
         "board_id": "pirkey_m0",
@@ -9223,6 +9364,27 @@
         "description": "<p>The SparkFun Pro Micro RP2040 is a low-cost, high performance board with flexible digital interfaces featuring the Raspberry Pi Foundation’s RP2040 microcontroller. Besides the good ‘ol Pro Micro footprint, the board also includes a WS2812B addressable LED, boot button, reset button, Qwiic connector, USB-C, resettable PTC fuse, and castellated pads.</p><p>The RP2040 utilizes dual ARM Cortex-M0+ processors (up to 133MHz) and features:</p><ul>  <li>264kB of embedded SRAM in six banks</li>  <li>6 dedicated IO for SPI Flash (supporting XIP)</li>  <li>30 multifunction GPIO    <ul>      <li>Dedicated hardware for commonly used peripherals</li>      <li>Programmable IO for extended peripheral support</li>      <li>Four channel ADC with internal temperature sensor, 0.5 MSa/s, 12-bit conversion</li>    </ul>  </li>  <li>USB 1.1 Host/Device</li></ul><p>The RP2040 is supported with both C/C++ and MicroPython cross-platform development environments, including easy access to runtime debugging. It has UF2 boot and floating-point routines baked into the chip. The built-in USB can act as both device and host. It has two symmetric cores and high internal bandwidth, making it useful for signal processing and video. While the chip has a large amount of internal RAM, the board includes an additional 16MB external QSPI flash chip to store program code.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.sparkfun.com/products/17717\">SparkFun</a></li></ul>"
     },
     {
+        "board_id": "sparkfun_pro_micro_rp2350",
+        "title": "Pro Micro - RP2350 Download",
+        "name": "Pro Micro - RP2350",
+        "board_url": [
+            "https://www.sparkfun.com/products/24870"
+        ],
+        "board_image": "sparkfun_pro_micro_rp2350.jpg",
+        "date_added": "2024-08-22",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/sparkfun_pro_micro_rp2350/",
+        "description": "<p>The SparkFun RP2350 Pro Micro provides a powerful development platform in SparkFun’s compact Pro Micro form factor, built around the RP2350 from the Raspberry Pi Foundation. This board uses the updated Pro Micro form factor. It includes a USB-C connector, Qwiic connector, WS2812B addressable RGB LED, Boot and Reset buttons, resettable PTC fuse, and PTH and castellated solder pads.</p><p>The RP2350 is a unique dual-core microcontroller with two ARM® Cortex® M33 processors and two Hazard3 RISC-V processors, all running at up to 150 MHz! Now, this doesn’t mean the RP2350 is a quad-core microcontroller. Instead, users can select which two processors to run on boot instead. You can run two processors of the same type or one of each. The RP2350 also features 520kB SRAM in ten banks, a host of peripherals including two UARTs, two SPI and two I2C controllers, and a USB 1.1 controller for host and device support.</p><p>The Pro Micro also includes two expanded memory options: 16MB of external Flash and 8MB PSRAM connected to the RP2350’s QSPI controller. The RP2350 Pro Micro works with C/C++ using the Pico SDK and MicroPython development environments.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.sparkfun.com/products/24870\">SparkFun</a></li></ul>"
+    },
+    {
         "board_id": "sparkfun_qwiic_micro_no_flash",
         "title": "Qwiic Micro without Flash Download",
         "name": "Qwiic Micro without Flash",
@@ -10383,6 +10545,29 @@
         "description": "<p>Introducing the NanoS3 - The world’s smallest, fully-featured ESP32-S3 board in module form!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>BLE 5.0 + Mesh</li>  <li>8MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>5V back-feed protection</li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li>27 GPIO</li>  <li>Only 28 x 11mm in size</li>  <li>Drop in compatible with TinyPICO Nano</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the NanoS3 at <a href=\"https://nanos3.io\">nanos3.io</a></p><h2 id=\"purchase\">Purchase</h2><p>You can purchase your very own NanoS3 from:</p><ul>  <li><a href=\"https://unexpectedmaker.com/shop/nanos3\">Unexpected Maker</a></li></ul>"
     },
     {
+        "board_id": "unexpectedmaker_omgs3",
+        "title": "Unexpected Maker OMGS3 Download",
+        "name": "Unexpected Maker OMGS3",
+        "board_url": [
+            "https://unexpectedmaker.com/shop.html#!/OMGS3/p/687192227"
+        ],
+        "board_image": "unexpectedmaker_omgs3.jpg",
+        "date_added": "2024-08-22",
+        "family": "esp32s3",
+        "bootloader_id": "unexpectedmaker_omgs3",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/unexpectedmaker_omgs3/",
+        "description": "<p>OMGS3 is the world’s smallest, fully-featured ESP32-S3 microcontroller module - just drop it on your PCB and focus on your features!</p><p>It can also be used without a carrier PCB if you want to solder wires directly to it, for those tiny little projects that need the smallest of boards!</p><h3 id=\"features--specifications\">Features &amp; Specifications</h3><ul>  <li>32Bit Dual Core 240MHz</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth LE 5.0 + Mesh</li>  <li>8MB QSPI Flash</li>  <li>2MB Extra QSPI PSRAM</li>  <li>D+/D- pins for external USB connector</li>  <li>700mA 3.3V LDO Regulator</li>  <li>Low Power RGB LED</li>  <li>LiPo Battery Charging</li>  <li>I2C Battery Fuel Gauge (MAX98357A)</li>  <li>17x GPIO broken out</li>  <li>USB Serial JTAG support</li>  <li>Optimised power path for low power battery usage</li>  <li>3D High Gain Antenna</li>  <li>1.27mm pitch pads</li>  <li><strong>Only 25 x 10mm in size</strong></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://unexpectedmaker.com/shop.html#!/OMGS3/p/687192227\">Unexpected Maker</a></li></ul>"
+    },
+    {
         "board_id": "unexpectedmaker_pros3",
         "title": "Unexpected Maker ProS3 Download",
         "name": "Unexpected Maker ProS3",
@@ -10407,6 +10592,28 @@
         ],
         "url_path": "/board/unexpectedmaker_pros3/",
         "description": "<p>Introducing the ProS3 - The Ultimate Pro ESP32-S3 Development Board!</p><p><strong>Features &amp; Specifications</strong></p><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>16MB QSPI Flash</li>  <li>8MB of extra QSPI PSRAM</li>  <li>2x 700mA 3.3V LDO Regulators</li>  <li>LDO2 is user controlled &amp; also auto-shuts down in deep sleep</li>  <li>Low power RGB LED</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>USB-C Connector with back-feed protection</li>  <li><strong>USB ESD protection</strong></li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging + PicoBlade connector</li>  <li>VBAT and 5V Sense Pins</li>  <li>27x GPIO including castellated headers</li>  <li>STEMMA connector powered by LDO1</li>  <li><strong>JTAG pins on the header</strong></li>  <li>Compatible with TinyPICO &amp; TinyS3</li>  <li>Available with 3D High Gain Antenna or u.FL for external Antenna</li></ul><p>You can find out more about the ProS3 at <a href=\"https://pros3.io\">pros3.io</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5401\">Adafruit</a></li>  <li><a href=\"https://www.adafruit.com/product/5749\">Adafruit with u.FL</a></li>  <li><a href=\"https://shop.pimoroni.com/products/pros3-esp32-s3\">Pimoroni</a></li>  <li><a href=\"https://unexpectedmaker.com/shop/pros3\">Unexpected Maker</a></li></ul>"
+    },
+    {
+        "board_id": "unexpectedmaker_rgbtouch_mini",
+        "title": "Unexpected Maker RGBTouch Mini Download",
+        "name": "Unexpected Maker RGBTouch Mini",
+        "board_url": [
+            "https://unexpectedmaker.com/shop.html#!/RGB-Touch-Mini/p/686203649"
+        ],
+        "board_image": "unexpectedmaker_rgbtouch_mini.jpg",
+        "date_added": "2024-08-22",
+        "family": "esp32s3",
+        "bootloader_id": "unexpectedmaker_rgbtouch_mini",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/unexpectedmaker_rgbtouch_mini/",
+        "description": "<p>RGB Touch is an ESP32-S3 based interactive LED display, feature a 12x12 touched based RGB LED matrix and a host of other features.</p><h3 id=\"core-specifications\">Core Specifications</h3><ul>  <li>32Bit Dual Core 240MHz</li>  <li>2.4GHz WiFi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>8MB QSPI Flash</li>  <li>2MB Extra QSPI PSRAM</li>  <li>USB-C Connector</li>  <li>ESD protection on USB and buttons</li>  <li>5V presence detection</li>  <li>LiPo Battery Charging</li>  <li>Charge Battery when power is off</li>  <li>Battery voltage detection</li>  <li>3D High Gain Antenna</li></ul><h3 id=\"included-peripherals\">Included Peripherals</h3><ul>  <li>12x12 RGB LED Matrix</li>  <li>Capacitive Touch (MPR121)</li>  <li>Power On/Off Button</li>  <li>IO0/Boot Button</li>  <li>I2S Audio Amplifier (MAX98357A)</li>  <li>3-Axis IMU (LIS3DH)</li>  <li>8 Ohm, 2W Speaker</li>  <li>Reset Button</li></ul><p><strong>NOTE:</strong> Battery not included. Supports a 1S LiPo battery up to 062530 in size. That’s 25mm wide, 30mm long and 6mm thick.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://unexpectedmaker.com/shop.html#!/RGB-Touch-Mini/p/686203649\">Unexpected Maker</a></li></ul>"
     },
     {
         "board_id": "unexpectedmaker_tinyc6",
@@ -10601,6 +10808,23 @@
         ],
         "url_path": "/board/vcc_gnd_yd_rp2040/",
         "description": "<p>Flexible I/O connects RP2040 to the physical world by allowing it to speak to almost anyexternal device. High performance breezes through integer workloads. Low cost helps ease the barrier to entry.</p><p>This isn’t just apowerful chip: it’s designed to help you bring every last drop of that power to bear. With six independent banks of RAM, and a fully connected switch at the heart of its bus fabric, you can easily arrange for the cores and DMA engines to run in parallel without contention.</p><p>VCC-GND Studios’ YD-RP2040 has the following improvements over the Raspberry Pi Pico:</p><ul>  <li>Added PWR power LED</li>  <li>The USB interface was changed to type-C USB</li>  <li>Added reset button to facilitate reset operation and firmware update operation</li>  <li>Added the USRkey user button (GPIO24)</li>  <li>Added RGB lights (GPIO23)</li>  <li>Change PICO’s W25Q16 to W25Q32 (4M) / W25Q64 (8M) / W25Q128 (16M)</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256803817805852.html\">Aliexpress</a></li></ul>"
+    },
+    {
+        "board_id": "vidi_x",
+        "title": "VIDI X Download",
+        "name": "VIDI X",
+        "board_url": [
+        ],
+        "board_image": "vidi_x.jpg",
+        "date_added": "2024-08-22",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/vidi_x/",
+        "description": "<p>VIDI X features a powerful ESP32 processor with dual cores, built-in Wi-Fi and BT, and has a 2.8″ touchscreen.</p><p>It functions as both a multifunctional microcomputer and a development board. It can also be used as an efficient hub for a variety of different sensors.</p><p>The device has an array of basic components like a built-in microphone, speaker, temperature sensor, IR diode, and light sensor. These components are all connected via a DIP switch to ESP32, enabling the user to select which sensors to connect. If a larger number of input/ output pins are required, users can release pins for sensors with a microswitch. This opens up a wealth of possibilities for connection to various input/ output units such as sensors and actuators.</p><p>To power up a VIDI X device, you need either 3 x AA batteries (1.5 V or 1.2 V) or a USB cable and a powerbank or another USB-compatible power source.</p><ul>  <li>Rugged and ready to use, pre-assembled kit. Minimal time is required to start working with students.</li>  <li>Microcomputer does not require an operating system: no OS maintenance required</li>  <li>Cross-curricular pathways optimized for your students</li>  <li>Browser based programming environment: Chromebook, Windows and Mac compatible.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://vidi-x.org/\">VIDI X</a></li></ul>"
     },
     {
         "board_id": "warmbit_bluepixel",
