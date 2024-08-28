@@ -134,7 +134,7 @@
       {% for extension in version.extensions %}
         <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ download_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
-      {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' %}
+      {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' or page.family == 'esp32c6' %}
         <button is="cp-install-button" class="installer-button" boardid="{{ board_id }}"
         {% for extension in version.extensions %}
             {{ extension }}file="{{ download_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}"

@@ -4,7 +4,7 @@ from pathlib import Path
 import frontmatter
 import argparse
 
-INCLUDED_CHIP_FAMILIES = ("esp32s2", "esp32s3", "esp32c3", "esp32")
+INCLUDED_CHIP_FAMILIES = ("esp32s2", "esp32s3", "esp32c3", "esp32", "esp32c6")
 BOOTLOADER_URL_PREFIX = (
     "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/"
 )
