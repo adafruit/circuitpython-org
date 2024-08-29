@@ -5,7 +5,7 @@ title: "Tiny 2040 (2MB) Download"
 name: "Tiny 2040 (2MB)"
 manufacturer: "Pimoroni"
 board_url:
- - "https://shop.pimoroni.com/products/tiny-2040"
+ - "https://shop.pimoroni.com/products/tiny-2040?variant=39560012300371"
 board_image: "pimoroni_tiny2040_2mb.jpg"
 date_added: 2021-12-02
 family: raspberrypi
@@ -35,4 +35,4 @@ The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz
 One very exciting feature of the RP2040 microcontroller are the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.
 
 ## Purchase
-* [Pimoroni](https://shop.pimoroni.com/products/tiny-2040)
+* [Pimoroni](https://shop.pimoroni.com/products/tiny-2040?variant=39560012300371) PIM593
