@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 30 Aug 2024 06:03:49 -0400</lastBuildDate>
+<lastBuildDate>Fri, 30 Aug 2024 12:49:46 -0400</lastBuildDate>
 
 <item>
     <title>VIDI X</title>
@@ -384,7 +384,7 @@
     <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/pimoroni_pga2350/</guid>
   </item><item>
-    <title>T-Display S3</title>
+    <title>T-Watch S3</title>
     <link>https://circuitpython.org/board/lilygo_twatch_s3/</link>
     <description><![CDATA[ 
 
@@ -413,10 +413,16 @@
   <li>SX1262 Low Power LoRa Transceiver Supports 433Mhz, 868Mhz, 915Mhz</li>
 </ul>
 
+<h2 id="hardware-control">Hardware control</h2>
+
+<p>For proper operation of the RTC of the watch, you need to configure the PMU to charge the coin cell battery.
+Detailed instructions are available in the <a href="https://github.com/adafruit/circuitpython/pull/9480">Board Pull Request</a>.</p>
+
 <h2 id="purchase">Purchase</h2>
 
 <ul>
   <li><a href="https://www.lilygo.cc/products/t-watch-s3">LILYGO Own Store</a></li>
+  <li><a href="https://www.aliexpress.com/item/1005005642999869.html">Aliexpress LILYGO store</a></li>
 </ul>
  ]]></description>
     

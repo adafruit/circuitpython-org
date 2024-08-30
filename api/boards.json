@@ -5593,15 +5593,15 @@
     },
     {
         "board_id": "lilygo_twatch_s3",
-        "title": "T-Display S3 Download",
-        "name": "T-Display S3",
+        "title": "T-Watch S3 Download",
+        "name": "T-Watch S3",
         "board_url": [
             "https://www.lilygo.cc/products/t-watch-s3"
         ],
         "board_image": "lilygo_twatch_s3.jpg",
         "date_added": "2024-08-22",
         "family": "esp32s3",
-        "bootloader_id": "",
+        "bootloader_id": "lilygo_twatch_s3",
         "tags": [
         ],
         "features": [
@@ -5611,7 +5611,7 @@
             "Battery Charging"
         ],
         "url_path": "/board/lilygo_twatch_s3/",
-        "description": "<p>T-Watch S3 meets the needs of developers who want to experiment with LoRa and ESP32 S3 technology in wearable devices, highly customizable and usable in a variety of applications.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>8 MB PSRAM</li>  <li>1.549 inch ST7789 LCD display</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>RTC</li>  <li>Microphone</li>  <li>MAX98357A I2S Audio</li>  <li>Power Detection</li>  <li>BMA423 3-axis acceleration sensor</li>  <li>DRV2605 Haptic Driver Motor for ERM and LRA</li>  <li>AXP2101 Highly Integrated Power Management Unit</li>  <li>SX1262 Low Power LoRa Transceiver Supports 433Mhz, 868Mhz, 915Mhz</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-watch-s3\">LILYGO Own Store</a></li></ul>"
+        "description": "<p>T-Watch S3 meets the needs of developers who want to experiment with LoRa and ESP32 S3 technology in wearable devices, highly customizable and usable in a variety of applications.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>8 MB PSRAM</li>  <li>1.549 inch ST7789 LCD display</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>RTC</li>  <li>Microphone</li>  <li>MAX98357A I2S Audio</li>  <li>Power Detection</li>  <li>BMA423 3-axis acceleration sensor</li>  <li>DRV2605 Haptic Driver Motor for ERM and LRA</li>  <li>AXP2101 Highly Integrated Power Management Unit</li>  <li>SX1262 Low Power LoRa Transceiver Supports 433Mhz, 868Mhz, 915Mhz</li></ul><h2 id=\"hardware-control\">Hardware control</h2><p>For proper operation of the RTC of the watch, you need to configure the PMU to charge the coin cell battery.Detailed instructions are available in the <a href=\"https://github.com/adafruit/circuitpython/pull/9480\">Board Pull Request</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-watch-s3\">LILYGO Own Store</a></li>  <li><a href=\"https://www.aliexpress.com/item/1005005642999869.html\">Aliexpress LILYGO store</a></li></ul>"
     },
     {
         "board_id": "loc_ber_m4_base_board",
