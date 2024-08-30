@@ -1,14 +1,16 @@
 ---
 layout: download
 board_id: "lilygo_twatch_s3"
-title: "T-Display S3 Download"
-name: "T-Display S3"
+title: "T-Watch S3 Download"
+name: "T-Watch S3"
 manufacturer: "LILYGO"
 board_url:
  - "https://www.lilygo.cc/products/t-watch-s3"
 board_image: "lilygo_twatch_s3.jpg"
 date_added: 2024-08-22
 family: esp32s3
+bootloader_id: lilygo_twatch_s3
+downloads_display: true
 features:
   - Display
   - Bluetooth/BTLE
@@ -34,6 +36,12 @@ T-Watch S3 meets the needs of developers who want to experiment with LoRa and ES
 * AXP2101 Highly Integrated Power Management Unit
 * SX1262 Low Power LoRa Transceiver Supports 433Mhz, 868Mhz, 915Mhz
 
+## Hardware control
+
+For proper operation of the RTC of the watch, you need to configure the PMU to charge the coin cell battery.
+Detailed instructions are available in the [Board Pull Request](https://github.com/adafruit/circuitpython/pull/9480).
+
 ## Purchase
 
 * [LILYGO Own Store](https://www.lilygo.cc/products/t-watch-s3)
+* [Aliexpress LILYGO store](https://www.aliexpress.com/item/1005005642999869.html)
