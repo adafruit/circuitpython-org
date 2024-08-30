@@ -9,6 +9,8 @@ board_url:
 board_image: "lilygo_twatch_s3.jpg"
 date_added: 2024-08-22
 family: esp32s3
+bootloader_id: lilygo_twatch_s3
+downloads_display: true
 features:
   - Display
   - Bluetooth/BTLE
