@@ -7,7 +7,7 @@ manufacturer: "Pimoroni"
 board_url:
  - "https://shop.pimoroni.com/products/tinyfx"
 board_image: "pimoroni_tinyfx.jpg"
-date_added: 2021-09-02
+date_added: 2024-09-02
 family: raspberrypi
 
 features:
