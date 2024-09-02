@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "pimoroni_tinyfx"
-title: "TinyFX Download"
-name: "TinyFX"
+title: "Tiny FX Download"
+name: "Tiny FX"
 manufacturer: "Pimoroni"
 board_url:
  - "https://shop.pimoroni.com/products/tinyfx"
@@ -12,15 +12,13 @@ family: raspberrypi
 
 features:
   - USB-C
-  - Qwiic/STEMMA QT
-  - I2S mono amplifier
+  - STEMMA QT/QWIIC
 ---
 
 ## Features
 * Powered by RP2040
 * ARM Cortex M0+ running at up to 133Mhz
 * 264kB of SRAM
-* USB-C connector for power, programming, and data transfer
 * 4MB of QSPI flash supporting XiP
 * 6x 2 pin JST-SUR connectors for attaching mono LEDs, with white LED indicators
 * 1x 4 pin JST-SUR connector for attaching RGB LEDs, with RGB LED indicator
