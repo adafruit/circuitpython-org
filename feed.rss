@@ -4,9 +4,51 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 04 Sep 2024 06:04:12 -0400</lastBuildDate>
+<lastBuildDate>Wed, 04 Sep 2024 14:37:12 -0400</lastBuildDate>
 
 <item>
+    <title>Tiny FX</title>
+    <link>https://circuitpython.org/board/pimoroni_tinyfx/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/pimoroni_tinyfx.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pimoroni_tinyfx.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/pimoroni_tinyfx.jpg" alt="Image of Board" loading="lazy">
+<p>By Pimoroni</p> <h2 id="features">Features</h2>
+<ul>
+  <li>Powered by RP2040</li>
+  <li>ARM Cortex M0+ running at up to 133Mhz</li>
+  <li>264kB of SRAM</li>
+  <li>4MB of QSPI flash supporting XiP</li>
+  <li>6x 2 pin JST-SUR connectors for attaching mono LEDs, with white LED indicators</li>
+  <li>1x 4 pin JST-SUR connector for attaching RGB LEDs, with RGB LED indicator</li>
+  <li>USB-C connector for power and programming (1A max)</li>
+  <li>Reset and BOOT buttons (the BOOT button can also be used as a user button)</li>
+  <li>2 pin JST-SUR power input connector (1A max)</li>
+  <li>3.2W I2S mono amplifier with 2 pin (Picoblade-compatible) connector for attaching speaker</li>
+  <li>Qw/ST (Qwiic/STEMMA QT) connector for attaching breakouts</li>
+  <li>3 pin JST-SH connector for attaching digital or analog sensors</li>
+  <li>Fully-assembled (no soldering required)</li>
+</ul>
+
+<h2 id="about-the-rp2040">About the RP2040</h2>
+<p>The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
+
+<p>One very exciting feature of the RP2040 microcontroller are the programmable IOs which allow you to execute custom programs that can manipulate GPIO pins and transfer data between peripherals - they can offload tasks that require high data transfer rates or precise timing that traditionally would have required a lot of heavy lifting from the CPU.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/tinyfx">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_tinyfx/</guid>
+  </item><item>
     <title>VIDI X</title>
     <link>https://circuitpython.org/board/vidi_x/</link>
     <description><![CDATA[ 
