@@ -9,7 +9,7 @@ board_url:
 board_image: "lolin_s3_pro.jpg"
 date_added: 2024-03-18
 family: esp32s3
-bootloader_id: lolin_s3_pro
+bootloader_id: lolin_s3
 features:
   - Wi-Fi
   - Bluetooth/BTLE
