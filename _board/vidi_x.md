@@ -1,13 +1,13 @@
 ---
 layout: download
-board_id: "vidi_x_v1.1"
+board_id: "vidi_x"
 title: "VIDI X V1.1 Download"
 name: "VIDI X V1.1"
 manufacturer: "VIDI"
 board_url:
  - "https://vidi-x.org/"
-board_image: "vidi_x_v1.1.jpg"
-date_added: 2024-09-10
+board_image: "vidi_x.jpg"
+date_added: 2024-08-22
 family: esp32
 downloads_display: true
 features:
