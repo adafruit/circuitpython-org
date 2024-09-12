@@ -12,11 +12,8 @@ family: esp32s3
 bootloader_id: circuitart_zero_s3
 downloads_display: true
 features:
-  - PI ZERO-Compatible
-  - Battery Charging
-  - Micro I2C connector
   - Wi-Fi
-  - Bluetooth/BTLE
+  - Battery Charging
   - USB-C
   - Display
   - Camera
