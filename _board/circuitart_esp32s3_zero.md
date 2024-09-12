@@ -16,15 +16,15 @@ features:
   - Battery Charging
   - Micro I2C connector
   - Wi-Fi
+  - Bluetooth/BTLE
   - USB-C
   - Display
   - Camera
-  - SD Reader
 ---
 
-A new ESP32S3 Dev board in a RaspberryPI zero footprint, The board has an additional tiny SPI/I2C connector for 1.3" IPS display + AHT20 sensor.
+A new ESP32S3 Dev board in a RaspberryPI zero footprint, The board has an additional tiny SPI/I2C connector for a 1.3" IPS display + AHT20 sensor.
 
-Thats not all, This board comes with native USB, Debug USB and **16 MB Flash + 8 MB of PSRAM**, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi and Camera means it's awesome for IoT projects. And the PI ZERO footprint make the expandability super easy.
+That's not all, This board comes with native USB, Debug USB, and **16 MB Flash + 8 MB of PSRAM**, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi and Camera means it's awesome for IoT projects. And the PI ZERO footprint makes the expandability super easy.
 
 **Features:**
 
