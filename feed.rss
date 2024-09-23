@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 23 Sep 2024 06:03:59 -0400</lastBuildDate>
+<lastBuildDate>Mon, 23 Sep 2024 13:00:27 -0400</lastBuildDate>
 
 <item>
     <title>Tiny FX</title>
@@ -2812,13 +2812,17 @@ Based on the above characteristics, ESP32C3SuperMini is positioned as a high-per
      src="https://circuitpython.org/assets/images/boards/large/sunton_esp32_2432S028.jpg" alt="Image of Board" loading="lazy">
 <p>By Sunton</p> <p>Sunton ESP32-2432S028 Development Board, Based on ESP32-D0WDQ6 MCU. With 2.8” 65K Color Touch LCD. Supports Wifi &amp; Bluetooth. User accessable GPIO ports. SD card slot.</p>
 
+<p>Depending on your board, you may need to hold down the <strong>BOOT</strong> button while programming.</p>
+
 <h2 id="technical-details">Technical details</h2>
 
 <ul>
   <li>Onboard 2.8inch 240×320 pixels 65K color Touch LCD display.</li>
   <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication.</li>
   <li>SPI Touch, Display and SD card slot.</li>
-  <li>Amplified GPIO26 for PWM audio output</li>
+  <li>Amplified GPIO26 for PWM audio output.</li>
+  <li>Uses the ILI9341 display driver via SPI.</li>
+  <li>Uses the XPT2046 touchscreen driver via SPI.</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
