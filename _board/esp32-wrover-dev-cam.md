@@ -4,7 +4,7 @@ board_id: "esp32-wrover-dev-cam"
 title: "ESP32-WRover Cam Dev Board Download"
 name: "ESP32-WRover Cam Dev Board"
 manufacturer: "Freenove"
-board_url:
+board_url: "https://store.freenove.com/products/fnk0060"
 board_image: "esp32-wrover-dev-cam.jpg"
 date_added: 2024-05-23
 family: esp32
@@ -35,5 +35,5 @@ There are RESET and BOOT buttons, which makes it easy to reset the board or put 
 
 ## Purchase
 
-* [Aliexpress](https://www.aliexpress.us/item/3256805721307260.html)
+* [Aliexpress](https://www.aliexpress.com/item/3256804153608796.html)
 * [Amazon](https://amzn.to/4c8Bl51)
