@@ -11,7 +11,9 @@ family: esp32
 
 Sunton ESP32-2432S028 Development Board, Based on ESP32-D0WDQ6 MCU. With 2.8" 65K Color Touch LCD. Supports Wifi & Bluetooth. User accessable GPIO ports. SD card slot.
 
-Depending on your board, you may need to hold down the **BOOT** button while programming.
+Depending on your board variant you may need to
+ - hold down the **BOOT** button while programming
+ - adjust the screen rotation using CIRCUITPY_DISPLAY_ROTATION in [settings.toml](https://docs.circuitpython.org/en/latest/docs/environment.html).
 
 ## Technical details
 
