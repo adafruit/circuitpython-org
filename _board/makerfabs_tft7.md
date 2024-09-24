@@ -17,6 +17,9 @@ features:
 
 This ESP32 S3 7-inch IPS display could be an ideal displayer& controller for IOT applications. It has 2 versions: High-resolution version 800*480, and Ultra High-resolution version 1024*600; Display on both versions is IPS, and the display effect is beautiful, together with 5 points capacitive touch, great for applications such as home automation; There on-board SD card, to make it possible to record/play filed data. Also, there 2 Mabee/ Grove connectors, so the users can connect kinds of sensors to this board, to create personal prototype projects instantly.
 
+Depending on your board variant you may need to:
+ - select the correct screen resolution using CIRCUITPY_DISPLAY_WIDTH in [settings.toml](https://docs.circuitpython.org/en/latest/docs/environment.html).
+
 ### Specs:
 
 - Controller: ESP32-S3-WROOM-1, PCB Antenna, 16MB Flash, 8MB PSRAM, ESP32-S3-WROOM-1-N16R8
