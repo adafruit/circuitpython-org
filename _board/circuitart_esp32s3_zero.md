@@ -33,7 +33,7 @@ That's not all, This board comes with native USB, Debug USB, and **16 MB Flash +
 - **LiPoly battery monitor** - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C
 - **Reset and DFU** (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don't need a separate cable!)
 - **USB-c debug port** the board has CP2102 serial chip (optional, for checking the hardware serial debug console)
-- **Sicro I2C** connector for I2C devices, with switchable power, so you can go into low power mode.
+- **Micro I2C** connector for I2C devices, with switchable power, so you can go into low power mode.
 - **Charge & User** LEDs + status
 - **NeoPixel** 4 tiny neopixel led next to the camera so they  can act as cam light or flash.
 - **Low Power friendly**! In deep sleep mode, we can get down to 80~100uA of current draw from the battery
