@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    bigdecimal (3.1.8)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
     deep_merge (1.2.2)
@@ -12,9 +13,11 @@ GEM
     eventmachine (1.2.7)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    google-protobuf (4.26.1)
+    google-protobuf (4.27.5)
+      bigdecimal
       rake (>= 13)
-    google-protobuf (4.26.1-x86_64-linux)
+    google-protobuf (4.27.5-x86_64-linux)
+      bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
