@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 01 Oct 2024 06:03:53 -0400</lastBuildDate>
+<lastBuildDate>Tue, 01 Oct 2024 14:53:23 -0400</lastBuildDate>
 
 <item>
     <title>Tiny FX</title>
@@ -2975,7 +2975,9 @@ Based on the above characteristics, ESP32C3SuperMini is positioned as a high-per
      src="https://circuitpython.org/assets/images/boards/large/adafruit_feather_esp32c6_4mbflash_nopsram.jpg" alt="Image of Board" loading="lazy">
 <p>By Adafruit</p> <p>The ESP32-C6 is Espressif’s first Wi-Fi 6 SoC integrating 2.4 GHz Wi-Fi 6, Bluetooth 5 (LE) and the 802.15.4 protocol. It brings the goodness you know from the <a href="https://www.adafruit.com/product/5337">low-cost C3 series</a> and improves it with Zigbee/802.15.4 at 2.4Ghz. <a href="https://csa-iot.org/all-solutions/matter/">That means it could make for great Matter development hardware</a>!</p>
 
-<p>We took our <a href="https://www.adafruit.com/product/5000">Feather ESP32-S2</a> and swapped out the ‘S2 for a C6. Plus some re-routing and here’s what we’ve got: a C6 Feather with lots of GPIO, <a href="https://www.adafruit.com/product/5580">lipoly charging and monitoring with the MAX17048</a>, NeoPixel, I2C Stemma QT port, and a second low-quiescent LDO for disabling the I2C and NeoPixel when we want ultra-low power usage. We also <a href="https://www.adafruit.com/product/2652">tossed a BME280</a> on there, so you could use it immediately as a low power temp/hum/pressure sensor.</p>
+<p>We took our Feather ESP32-S2 and swapped out the ‘S2 for a C6. Plus some re-routing and here’s what we’ve got: a C6 Feather with lots of GPIO, lipoly charging and monitoring with the MAX17048, NeoPixel, I2C Stemma QT port, and a second low-quiescent LDO for disabling the I2C and NeoPixel when we want ultra-low power usage - as low as 17uA in deep sleep.</p>
+
+<p>One thing to watch for is that, like the C3, the C6 does not have native USB. It does have a ‘built in’ USB Serial core that can be used for debugging, but it cannot act like a mouse, keyboard, or disk drive. That means if you are running CircuitPython you will need to use WiFi, Bluetooth or WebSerial for transferring files back and forth rather than drag-and-dropping to a drive. Ditto for the bootloader side, this chip cannot run UF2.</p>
 
 <h2 id="purchase">Purchase</h2>
 
