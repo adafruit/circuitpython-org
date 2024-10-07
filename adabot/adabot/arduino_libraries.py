@@ -322,8 +322,8 @@ def main(verbosity=1, output_file=None):  # pylint: disable=missing-function-doc
         run_arduino_lib_checks()
     except:
         _, exc_val, exc_tb = sys.exc_info()
-        logger.error("Exception Occurred!", quiet=True)
-        logger.error(("-" * 60), quiet=True)
+        logger.error("Exception Occurred!")
+        logger.error(("-" * 60))
         logger.error("Traceback (most recent call last):")
         trace = traceback.format_tb(exc_tb)
         for line in trace:

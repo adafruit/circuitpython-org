@@ -64,7 +64,9 @@ def request(method, url, **kwargs):
             _fix_url(url), timeout=TIMEOUT, **_fix_kwargs(kwargs)
         )
         from_cache = getattr(response, "from_cache", False)
-        remaining = int(response.headers.get("X-RateLimit-Remaining", 0))
+        # If rate limit remaining is missing, then assume we're fine. Use a million to signify this
+        # case. GitHub will be in the single thousands.
+        remaining = int(response.headers.get("X-RateLimit-Remaining", 1000000))
         logging.debug(
             "GET %s %s status=%s",
             url,
