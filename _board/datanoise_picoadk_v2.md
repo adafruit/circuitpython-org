@@ -13,8 +13,6 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
-  - Audio
-  - SDIO
 ---
 
 The PicoADK is a RP2340 based Audio Development Kit, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico 2 / RP2350, plus a high quality Audio Output, SDIO etc.
