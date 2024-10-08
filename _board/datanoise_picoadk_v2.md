@@ -1,0 +1,20 @@
+---
+layout: download
+board_id: "datanoise_picoadk_v2"
+title: "PicoADK - Audio Development Kit V2 Download"
+name: "PicoADK - Audio Development Kit V2"
+manufacturer: "Datanoise"
+board_url:
+ - https://datanoise.shop/products/picoadk-v2
+board_image: "datanoise_picoadk_v2.jpg"
+date_added: 2023-07-28
+family: raspberrypi
+features:
+  - STEMMA QT/QWIIC
+  - USB-C
+  - Breadboard-Friendly
+  - Audio
+  - SDIO
+---
+
+The PicoADK is a RP2340 based Audio Development Kit, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico 2 / RP2350, plus a high quality Audio Output, SDIO etc.
