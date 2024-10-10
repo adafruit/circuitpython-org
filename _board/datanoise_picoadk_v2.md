@@ -7,7 +7,7 @@ manufacturer: "Datanoise"
 board_url:
  - https://datanoise.shop/products/picoadk-v2
 board_image: "datanoise_picoadk_v2.jpg"
-date_added: 2023-07-28
+date_added: 2024-10-10
 family: raspberrypi
 features:
   - STEMMA QT/QWIIC
