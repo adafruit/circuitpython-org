@@ -5,11 +5,11 @@
 """
 Check if a new release needs to be made, and if so, make it.
 """
+import argparse
 import subprocess
 import logging
 from datetime import datetime
 import toml
-from jinja2 import Template
 
 # Empty RELEASE_TITLE will prompt to ask for a title for each release.
 # Set a value here if you want to use the same string for the title of all releases
@@ -32,7 +32,7 @@ def make_release(new_tag, logger, test_run=False):
 
     if not test_run:
         make_release_result = subprocess.getoutput(
-            f"gh release create {new_tag} -F release_notes.md -t '{new_tag} - {config['RELEASE_TITLE']}'"
+            f"gh release create {new_tag} --generate-notes -t '{new_tag} - {config['RELEASE_TITLE']}'"
         )
 
         if logger is not None:
@@ -44,29 +44,6 @@ def make_release(new_tag, logger, test_run=False):
         print(
             "gh release create {new_tag} -F release_notes.md -t '{new_tag} - {config['RELEASE_TITLE']}'"
         )
-
-
-def create_release_notes(pypi_name):
-    """
-    render the release notes into a md file.
-    """
-    # pylint: disable=line-too-long
-    RELEASE_NOTES_TEMPLATE = """To use in CircuitPython, simply install the [Adafruit CircuitPython Bundle](https://circuitpython.org/libraries).
-
-To use in CPython, `pip3 install {{ pypi_name }}`.
-
-Read the [docs](https://circuitpython.readthedocs.io/projects/{{ pypi_name }}/en/latest/) for info on how to use it."""
-
-    release_notes_template = Template(RELEASE_NOTES_TEMPLATE)
-
-    _rendered_template_text = release_notes_template.render(pypi_name=pypi_name)
-
-    with open("release_notes.md", "w") as f:
-        f.write(_rendered_template_text)
-
-
-if __name__ == "__main__":
-    create_release_notes("testrepo")
 
 
 def get_pypi_name():
@@ -178,6 +155,16 @@ def main_cli():
         ],
     )
 
+    parser = argparse.ArgumentParser(
+        prog="adabot.circuitpython_library_release",
+        description="Create GitHub releases for CircuitPython Library projects if they "
+        "contain commits newer than the most recent release.",
+    )
+    parser.add_argument("-t", "--title")
+    args = parser.parse_args()
+    if args.title is not None:
+        config["RELEASE_TITLE"] = args.title
+
     def menu_prompt(release_info):
         """
         Prompt the user to ask which part of the symantic version should be
@@ -210,19 +197,16 @@ def main_cli():
             logging.info(
                 "Making a new release with tag: %s", release_info["new_tag_patch"]
             )
-            create_release_notes(get_pypi_name())
             make_release(release_info["new_tag_patch"], logging)
         elif choice == "2":
             logging.info(
                 "Making a new release with tag: %s", release_info["new_tag_minor"]
             )
-            create_release_notes(get_pypi_name())
             make_release(release_info["new_tag_minor"], logging)
         elif choice == "3":
             logging.info(
                 "Making a new release with tag: %s", release_info["new_tag_major"]
             )
-            create_release_notes(get_pypi_name())
             make_release(release_info["new_tag_major"], logging)
         elif choice == "4":
             logging.info("Skipping release.")
