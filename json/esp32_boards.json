@@ -2569,6 +2569,12 @@
             }
         ]
     },
+    "CircuitArt_ESP32S3_Zero": {
+        "name": "CircuitArt ESP32S3 Zero",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-circuitart_zero_s3-0.20.1.zip",
+        "releases": []
+    },
     "adafruit_qtpy_esp32s3_4mbflash_2mbpsram": {
         "name": "Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM",
         "chipfamily": "esp32s3",

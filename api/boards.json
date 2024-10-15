@@ -2418,6 +2418,29 @@
         "description": "<p>The Challenger RP2040 WiFi/BLE is an Arduino/Micropython compatible Adafruit Feather format micro controller board based on the Raspberry Pico chip, equipped with an WiFi/BLE chip that provides both WiFi as well as BLE functionality on the board.</p><p>RP2040 is the debut micro controller from Raspberry Pi. It brings their signature values of high performance, low cost, and ease of use to the micro controller space. With a large on-chip memory, symmetric dual-core processor complex, deterministic bus fabric, and rich peripheral set augmented with our unique Programmable I/O (PIO) subsystem, RP2040 provides professional users with unrivaled power and flexibility. With detailed documentation, a polished Circuitpython port, and a UF2 boot loader in ROM, it has the lowest possible barrier to entry for beginner and hobbyist users</p><p>The Challenger RP2040 WiFi/BLE board is equipped with a powerful combined single chip solution that provides the WiFi and BLE connectivity of this board. The chip we are using is the ESP32-C3FN4 from Espressif and it is a complete WiFi subsystem that complies with IEEE 802.11b/g/n protocol and supports Station mode, SoftAP mode, SoftAP + Station mode, and promiscuous mode. It also implements A Bluetooth LE subsystem that supports features of Bluetooth 5 and Bluetooth mesh.</p><p>This solution is based on an RISC-V micro controller core and comes with 4MByte of internal flash and 408Kbyte of internal SRAM as well as the advanced 2.4GHz radio.</p><p>The ESP32-C3 device comes pre loaded with the ESP-AT interpreter already programmed into flash. This interpreter provides the system with everything from low level TCP/UDP functionality up to high level functions such as a on board integrated web server, MQTT server and client functions and much more.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/\">Invector Labs (Chip Antenna)</a></li>  <li><a href=\"https://ilabs.se/product/challenger-rp2040-wifi-ble-with-u-fl-connector/\">Invector Labs (U.FL Connector)</a></li></ul>"
     },
     {
+        "board_id": "CircuitArt_ESP32S3_Zero",
+        "title": "CircuitArt ESP32S3 Zero Download",
+        "name": "CircuitArt ESP32S3 Zero",
+        "board_url": [
+            "https://github.com/CircuitART/ESP32S3zero"
+        ],
+        "board_image": "CircuitArt_ESP32S3_Zero.jpg",
+        "date_added": "2024-09-09",
+        "family": "esp32s3",
+        "bootloader_id": "circuitart_zero_s3",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Battery Charging",
+            "USB-C",
+            "Display",
+            "Camera"
+        ],
+        "url_path": "/board/circuitart_esp32s3_zero/",
+        "description": "<p>A new ESP32S3 Dev board in a RaspberryPI zero footprint, The board has an additional tiny SPI/I2C connector for a 1.3” IPS display + AHT20 sensor.</p><p>That’s not all, This board comes with native USB, Debug USB, and <strong>16 MB Flash + 8 MB of PSRAM</strong>, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi and Camera means it’s awesome for IoT projects. And the PI ZERO footprint makes the expandability super easy.</p><p><strong>Features:</strong></p><ul>  <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>  <li><strong>huge data buffers</strong> the board comes with 16 MByte of Flash and 8 MByte of PSRAM</li>  <li><strong>Color 1.3” IPS TFT</strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle angle.</li>  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>  <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>  <li><strong>USB-c debug port</strong> the board has CP2102 serial chip (optional, for checking the hardware serial debug console)</li>  <li><strong>Micro I2C</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>  <li><strong>Charge &amp; User</strong> LEDs + status</li>  <li><strong>NeoPixel</strong> 4 tiny neopixel led next to the camera so they  can act as cam light or flash.</li>  <li><strong>Low Power friendly</strong>! In deep sleep mode, we can get down to 80~100uA of current draw from the battery</li>  <li><strong>Works with Arduino or CircuitPython</strong></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/CircuitART/ESP32S3zero\">GitHub</a></li></ul>"
+    },
+    {
         "board_id": "circuitbrains_basic_m0",
         "title": "CircuitBrains Basic Download",
         "name": "CircuitBrains Basic",
