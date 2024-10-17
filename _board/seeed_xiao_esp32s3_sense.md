@@ -19,7 +19,7 @@ features:
   - Microphone
 ---
 
-Seeed Studio XIAO ESP32S3 Sense featuring **ESP32S3** leverages dual-core ESP32S3 chip, supporting Wi-Fi, which allows battery charge. It integrates built-in camera sensor, digital microphone. It offers 8MB PSRAM, 8MB FLASH, and external SD card slot. All of these make it suitable for embedded ML, like intelligent voice and vision AI.
+Seeed Studio XIAO ESP32S3 Sense featuring **ESP32S3** leverages dual-core ESP32S3 chip, supporting both Wi-Fi and BLE wireless connectivities, which allows battery charge. It integrates built-in camera sensor, digital microphone. It offers 8MB PSRAM, 8MB FLASH, and external SD card slot. All of these make it suitable for embedded ML, like intelligent voice and vision AI.
 
 ### Features
 
@@ -35,7 +35,7 @@ Seeed Studio XIAO ESP32S3 Sense featuring **ESP32S3** leverages dual-core ESP32S
 
 ### Description
 
-**Seeed Studio XIAO ESP32S3 Sense** has equipped a highly-integrated **ESP32-S3 chip**, it supports Wi-Fi, and battery charging. It integrates a built-in camera sensor, and digital microphone. It offers 8MB PSRAM, 8MB FLASH, and external SD card slot. All of these make it suitable for embedded ML, like intelligent voice and vision AI.
+**Seeed Studio XIAO ESP32S3 Sense** has equipped a highly-integrated **ESP32-S3 chip**, it supports both Wi-Fi and BLE connectivity, and battery charging. It integrates a built-in camera sensor, and digital microphone. It offers 8MB PSRAM, 8MB FLASH, and external SD card slot. All of these make it suitable for embedded ML, like intelligent voice and vision AI.
 
 Being a number to the Seeed Studio XIAO family, the board deservedly maintains the classic **thumb-sized form-factor design** and elegant **productization of single-sided components mounting**. Meanwhile, it has equipped with a **battery charge chip** and integrated circuit for enhancing its ability to carry. This board comes included with an external antenna to increase the signal strength for wireless applications. There are 11 digital I/O that can be used as PWM pins and 9 analog i/o that can be used as ADC pins. It supports UART, IIC, and SPI serial communication ports, also including IIS (Internet Information Services). Utilizing its small and exquisite hardware design and the powerful onboard chip, programming by Arduino, it will offer more ability to wearable and portable devices or other applications.
 
