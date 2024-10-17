@@ -15,8 +15,7 @@ features:
   - USB-C
   - Wi-Fi
   - Battery Charging
-  - Detachable Camera
-  - Microphone
+  - Camera
 ---
 
 Seeed Studio XIAO ESP32S3 Sense featuring **ESP32S3** leverages dual-core ESP32S3 chip, supporting both Wi-Fi and BLE wireless connectivities, which allows battery charge. It integrates built-in camera sensor, digital microphone. It offers 8MB PSRAM, 8MB FLASH, and external SD card slot. All of these make it suitable for embedded ML, like intelligent voice and vision AI.
