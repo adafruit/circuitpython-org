@@ -11493,6 +11493,25 @@
         "description": "<p>W5500-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5500 – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5500.</p><ul>  <li>Raspberry Pi Pico Clone</li>  <li>Ethernet (W5500 Hardwired TCP/IP CHIP)</li></ul><p><strong>Features​</strong></p><ul>  <li>RP2040 microcontroller with 2MByte Flash    <ul>      <li>Dual-core cortex M0+ at up to 133MHz</li>      <li>264kByte multi-bank high performance SRAM</li>      <li>External Quad-SPI Flash with eXecute In Place (XIP)</li>      <li>High performance full-crossbar bus fabric</li>      <li>30 multi-function General Purpose IO (4 can be used for ADC)        <ul>          <li>1.8-3.3V IO Voltage (NOTE. Pico IO voltage is fixed at 3.3V)</li>        </ul>      </li>      <li>12-bit 500ksps Analogue to Digital Converter (ADC)</li>      <li>Various digital peripherals        <ul>          <li>2 × UART, 2 × I2C, 2 × SPI, 16 × PWM channels</li>          <li>1 × Timer with 4 alarms, 1 × Real Time Counter</li>        </ul>      </li>      <li>2 × Programmable IO (PIO) blocks, 8 state machines total</li>      <li>Flexible, user-programmable high-speed IO</li>      <li>Can emulate interfaces such as SD Card and VGA</li>    </ul>  </li>  <li>Includes W5500    <ul>      <li>Supports Hardwired Internet Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE</li>      <li>Supports 8 Independent Hardware SOCKETs simultaneously</li>      <li>Internal 32 Kbytes Memory for TX/ RX Buffers</li>      <li>Supports High Speed Serial Peripheral Interface(SPI MODE 0, 3)</li>    </ul>  </li>  <li>Micro-USB B port for power and data (and for reprogramming the Flash)</li>  <li>40 pin 21×51 ‘DIP’ style 1mm thick PCB with 0.1″ through-hole pins also with edge castellations</li>  <li>3-pin ARM Serial Wire Debug (SWD) port</li>  <li>10 / 100 Ethernet PHY embedded</li>  <li>Supports Auto Negotiation    <ul>      <li>Full / Half Duplex</li>      <li>10 / 100 Based</li>    </ul>  </li>  <li>Built-in RJ45</li>  <li>Built-in LDO</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://eshop.wiznet.io/shop/module/w5500-evb-pico/\">WIZnet e-shop</a></li></ul><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://docs.wiznet.io/Product/iEthernet/W5500/w5500-evb-pico\">WIZnet Docs</a></li></ul>"
     },
     {
+        "board_id": "wk-50",
+        "title": "WK-50 Bat Shaped Keyboard Download",
+        "name": "WK-50 Bat Shaped Keyboard",
+        "board_url": [
+            "https://hackaday.io/project/197550-wk-50-trackball-keyboard"
+        ],
+        "board_image": "wk_50.jpg",
+        "date_added": "2024-09-12",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C"
+        ],
+        "url_path": "/board/wk-50/",
+        "description": "<p>WK-50 is a bat shaped mechanical keyboard with 48 keys. It supports programmable macros, and has hot-swappable keys.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2040</li>  <li>Per key RGB LEDs</li>  <li>Hot-swap switch sockets (for Cherry MX-compatible switches)</li>  <li>Trackball</li>  <li>Encoder knob</li>  <li>Powered and programmable via USB-C</li></ul><h2 id=\"about-the-rp2040\">About the RP2040</h2><p>The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p><h2 id=\"powered-by-circuitpython\">Powered by CircuitPython</h2><p>It’s not just a keyboard but also a USB drive containing the firmware as CircuitPython files. Its Python code can be changed with any text editor and executed simultaneously, which makes it super easy to customize the keymap, add macros or add a new function.  This keyboard is fully programmable via CiruitPython so there’s no software to install, just plug it in, change keymaps and start building macros. Since all of the programming happens on the keyboard Python files, you can plug it into any computer and take your custom layouts wherever you go.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://hackaday.io/project/197550-wk-50-trackball-keyboard\">Additional info can be found in this Hackaday.io project</a></li></ul><h2 id=\"purchase\">Purchase</h2><p>WK-50 is available on AliExpress</p><ul>  <li><a href=\"https://www.aliexpress.us/item/3256806714957744.html\">AliExpress Listing 1</a></li>  <li><a href=\"https://www.aliexpress.us/item/3256805977413768.html\">AliExpress Listing 2</a></li></ul>"
+    },
+    {
         "board_id": "xinabox_cc03",
         "title": "XinaBox CC03 download",
         "name": "XinaBox CC03",

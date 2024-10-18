@@ -4,9 +4,54 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 18 Oct 2024 06:04:58 -0400</lastBuildDate>
+<lastBuildDate>Fri, 18 Oct 2024 12:56:34 -0400</lastBuildDate>
 
 <item>
+    <title>WK-50 Bat Shaped Keyboard</title>
+    <link>https://circuitpython.org/board/wk-50/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/wk_50.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/wk_50.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/wk_50.jpg" alt="Image of Board" loading="lazy">
+<p>By WEEKIN</p> <p>WK-50 is a bat shaped mechanical keyboard with 48 keys. It supports programmable macros, and has hot-swappable keys.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Powered by RP2040</li>
+  <li>Per key RGB LEDs</li>
+  <li>Hot-swap switch sockets (for Cherry MX-compatible switches)</li>
+  <li>Trackball</li>
+  <li>Encoder knob</li>
+  <li>Powered and programmable via USB-C</li>
+</ul>
+
+<h2 id="about-the-rp2040">About the RP2040</h2>
+<p>The RP2040 microcontroller is a dual core ARM Cortex M0+ running at up to 133Mhz. It bundles in 264kB of SRAM, 30 multifunction GPIO pins (including a four channel 12-bit ADC), a heap of standard peripherals (I2C, SPI, UART, PWM, clocks, etc), and USB support.</p>
+
+<h2 id="powered-by-circuitpython">Powered by CircuitPython</h2>
+<p>It’s not just a keyboard but also a USB drive containing the firmware as CircuitPython files. Its Python code can be changed with any text editor and executed simultaneously, which makes it super easy to customize the keymap, add macros or add a new function.  This keyboard is fully programmable via CiruitPython so there’s no software to install, just plug it in, change keymaps and start building macros. Since all of the programming happens on the keyboard Python files, you can plug it into any computer and take your custom layouts wherever you go.</p>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://hackaday.io/project/197550-wk-50-trackball-keyboard">Additional info can be found in this Hackaday.io project</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<p>WK-50 is available on AliExpress</p>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256806714957744.html">AliExpress Listing 1</a></li>
+  <li><a href="https://www.aliexpress.us/item/3256805977413768.html">AliExpress Listing 2</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 12 Sep 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/wk-50/</guid>
+  </item><item>
     <title>CircuitArt ESP32S3 Zero</title>
     <link>https://circuitpython.org/board/circuitart_esp32s3_zero/</link>
     <description><![CDATA[ 
