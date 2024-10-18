@@ -10,8 +10,6 @@ board_image: "challenger_rp2350_bconnect.jpg"
 date_added: 2024-09-16
 family: raspberrypi
 features:
-  - Wi-Fi
-  - Bluetooth/BTLE
   - USB-C
   - Breadboard-Friendly
   - Feather-Compatible
