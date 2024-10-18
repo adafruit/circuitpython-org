@@ -139,6 +139,16 @@
             }
         ]
     },
+    "makergo_esp32c6_supermini": {
+        "name": "Maker Go ESP32C6 Supermini",
+        "chipfamily": "esp32c6",
+        "releases": [
+            {
+                "version": "9.2.0-beta.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/makergo_esp32c6_supermini/en_US/adafruit-circuitpython-makergo_esp32c6_supermini-en_US-9.2.0-beta.1.bin"
+            }
+        ]
+    },
     "espressif_saola_1_wrover": {
         "name": "Saola 1 w/WROVER",
         "chipfamily": "esp32s2",
