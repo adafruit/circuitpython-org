@@ -2418,6 +2418,28 @@
         "description": "<p>The Challenger RP2040 WiFi/BLE is an Arduino/Micropython compatible Adafruit Feather format micro controller board based on the Raspberry Pico chip, equipped with an WiFi/BLE chip that provides both WiFi as well as BLE functionality on the board.</p><p>RP2040 is the debut micro controller from Raspberry Pi. It brings their signature values of high performance, low cost, and ease of use to the micro controller space. With a large on-chip memory, symmetric dual-core processor complex, deterministic bus fabric, and rich peripheral set augmented with our unique Programmable I/O (PIO) subsystem, RP2040 provides professional users with unrivaled power and flexibility. With detailed documentation, a polished Circuitpython port, and a UF2 boot loader in ROM, it has the lowest possible barrier to entry for beginner and hobbyist users</p><p>The Challenger RP2040 WiFi/BLE board is equipped with a powerful combined single chip solution that provides the WiFi and BLE connectivity of this board. The chip we are using is the ESP32-C3FN4 from Espressif and it is a complete WiFi subsystem that complies with IEEE 802.11b/g/n protocol and supports Station mode, SoftAP mode, SoftAP + Station mode, and promiscuous mode. It also implements A Bluetooth LE subsystem that supports features of Bluetooth 5 and Bluetooth mesh.</p><p>This solution is based on an RISC-V micro controller core and comes with 4MByte of internal flash and 408Kbyte of internal SRAM as well as the advanced 2.4GHz radio.</p><p>The ESP32-C3 device comes pre loaded with the ESP-AT interpreter already programmed into flash. This interpreter provides the system with everything from low level TCP/UDP functionality up to high level functions such as a on board integrated web server, MQTT server and client functions and much more.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/\">Invector Labs (Chip Antenna)</a></li>  <li><a href=\"https://ilabs.se/product/challenger-rp2040-wifi-ble-with-u-fl-connector/\">Invector Labs (U.FL Connector)</a></li></ul>"
     },
     {
+        "board_id": "challenger_rp2350_bconnect",
+        "title": "Challenger RP2350 BConnect Download",
+        "name": "Challenger RP2350 BConnect",
+        "board_url": [
+            "https://ilabs.se/product/challenger-rp2350-bconnect/"
+        ],
+        "board_image": "challenger_rp2350_bconnect.jpg",
+        "date_added": "2024-09-16",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Breadboard-Friendly",
+            "Feather-Compatible",
+            "Battery Charging"
+        ],
+        "url_path": "/board/challenger_rp350_bconnect/",
+        "description": "<p>The Challenger+ RP2350 BConnect board is a cutting-edge development platform designed to harness the full potential of the new revolutionary dual core Cortex-M33/RISCV RP2350 MCU from Raspberry Pi. The Challenger+ RP2350 BConnect board is tailored for engineers, developers, and enthusiasts seeking to create innovative applications with ease and efficiency.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2350 MCU</li>  <li>8MByte Flash and 8MByte RAM</li>  <li>Rich Peripheral Set</li>  <li>High Performance and Efficiency</li>  <li>User-Friendly Development Environment</li>  <li>Compact and Robust Design</li>  <li>Raspberry Pi compatible SWD debug connector</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://ilabs.se/product/challenger-rp2350-bconnect/\">Invector Labs</a></li></ul>"
+    },
+    {
         "board_id": "CircuitArt_ESP32S3_Zero",
         "title": "CircuitArt ESP32S3 Zero Download",
         "name": "CircuitArt ESP32S3 Zero",
