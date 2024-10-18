@@ -9034,6 +9034,27 @@
         "description": "<p>Seeed Studio XIAO RP2040 is a microcontroller using the Raspberry RP2040 chip. It runs at up to 133 MHz, is built with rich interfaces in a tiny thumb size, and fully supports Arduino, MicroPython, and CircuitPython.</p><p>The XIAO RP2040 is a development board of the Seeed Studio XIAO series. Like the Seeed Studio XIAO SAMD21, it is a compact board with a wide range of interfaces. The XIAO RP2040 is equipped with the Raspberry RP2040 chip (Dual-core ARM® Cortex® M0+) and has 2 MB of Flash on board.</p><p>Interfaces:</p><ul>  <li>11 digital pins</li>  <li>4 analog pins</li>  <li>11 PWM Pins</li>  <li>1 I2C interface</li>  <li>1 UART interface</li>  <li>1 SPI interface</li>  <li>1 SWD Bonding pad interface</li></ul><p>Some PINs have various functions, Moreover, XIAO RP2040 supports the USB-C interface which can supply power and download code. 1 Reset button, 1 BOOT button, 1 user-programmable RGB LED, 1 power LED, 2 status indicators, and 1 user LED are on board, allowing developers to debug their code very easily.</p><p>The XIAO RP2040 is very compact because all electronic components are soldered on the same board surface, which means you can easily solder the XIAO RP2040 to your own PCB. XIAO RP2040 is pin-compatible with Seeed Studio XIAO SAMD21, so XIAO RP2040 can be learned and developed using the Expansion board of Seeeduino XIAO.</p><h2 id=\"tutorial\">Tutorial</h2><ul>  <li><a href=\"https://wiki.seeedstudio.com/XIAO-RP2040-with-CircuitPython/\">Installation of CircuitPython</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html\">Seeed Studio</a></li></ul>"
     },
     {
+        "board_id": "seeeduino_xiao_rp2350",
+        "title": "Seeed Studio XIAO RP22350 Download",
+        "name": "Seeed Studio XIAO RP2350",
+        "board_url": [
+            "https://www.seeedstudio.com/Seeed-XIAO-RP2350-p-5944.html"
+        ],
+        "board_image": "seeeduino_xiao_rp2350.jpg",
+        "date_added": "2024-08-29",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Xiao / QTPy Form Factor",
+            "USB-C"
+        ],
+        "url_path": "/board/seeeduino_xiao_rp2350/",
+        "description": "<p>The XIAO RP2350 packs the power of the Raspberry Pi RP2350 (switchable architecture of dual Arm Cortex-M33 cores running at 150MHz with FPU, and dual open-hardware Hazard3 RISC‑V cores, enhanced security and encryption) into the classic XIAO form factor. Measuring just 21x17.8102010550mm, it features 19 multifunction GPIOs, an RGB LED, and a Battery Management System with ultra-low power consumption of 27μA, battery power supply, and direct battery voltage measurement. Thanks to the XIAO ecosystem, the XIAO RP2350 is compatible with a wide range of add-ons, including displays, LED matrix, Grove modules, CAN Bus, Vision AI sensors, and mmWave sensors. With native support for MicroPython, C, and C++, the XIAO RP2350 is perfect for developers of all levels looking to create compact, battery-powered applications for smart control, wearables, DIY keyboards, and more.</p><p>Interfaces:</p><ul>  <li>19 Pins</li>  <li>3 Analog</li>  <li>19 Digital</li>  <li>2 I²C</li>  <li>2 UART</li>  <li>2 SPI</li>  <li>All PWM</li></ul><h2 id=\"tutorial\">Tutorial</h2><ul>  <li><a href=\"https://wiki.seeedstudio.com/getting-started-xiao-rp2350/#seeed-studio-xiao-rp2350\">Seeed Wiki Getting Started</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.seeedstudio.com/Seeed-XIAO-RP2350-p-5944.html\">Seeed Studio</a></li></ul>"
+    },
+    {
         "board_id": "sensebox_mcu",
         "title": "senseBox MCU Download",
         "name": "senseBox MCU",
