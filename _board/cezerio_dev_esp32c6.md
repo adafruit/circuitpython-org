@@ -19,17 +19,15 @@ features:
   - Wi-Fi
 ---
 
-Packed with cutting-edge technology and housed in a compact, user-friendly footprint, cezerio dev ESP32C6 empowers your wireless creations like never before. At its heart lies the powerful ESP32-C6FH4 SoC from Espressif™, boasting a RISC-V single-core processor, 4 MB flash memory, and a diverse selection of wireless connectivity options. Dive into the realms of 2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee 3.0 and Thread 1.3 (802.15.4), unlocking a world of possibilities for your projects. Moreover, Wi-Fi 6's Target Wake Time (TWT) technology effectively reduces device power consumption, extending battery life and ensuring long-lasting device performance.
+cezerio dev ESP32C6 based on ESP32-C6FH4 SoC from Espressif, RISC-V single-core processor, 4 MB flash memory, and a diverse selection of wireless connectivity options: 2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee 3.0 and Thread 1.3 (802.15.4). Moreover, Wi-Fi 6's Target Wake Time (TWT) technology effectively reduces device power consumption, extending battery life and ensuring long-lasting device performance.
 
-The cezerio dev ESP32C6 is equipped with multiple features that accentuate the boards potential. I2C connector seamlessly integrates the vast ecosystem of sensors, actuators, and more.
+The footprint is Feather-compatible. I2C connector seamlessly integrates the vast ecosystem of sensors, actuators, and more.
 
 This development board also includes a LiPo battery charger, 6-axis IMU (3-axis Accelerometer & 3-axis Gyroscope), 5x5 RGB LED matrix, an addressable RGB LED and more.
 
-The footprint is Feather-compatible and breaks out of the ESP32-C6's 20 GPIO pins to 0.1in.-spaced PTH headers. For primary power and programming, the board is also equipped with a USB-C connector and a 2-pin JST connector for a LiPo battery.
+For primary power and programming, the board is also equipped with a USB-C connector and a 2-pin JST connector for a LiPo battery.
 
-The ESP32-C6 includes a wide range of peripheral options including SPI, UART, I2C, I2S, LED PWM, USB Serial/JTAG controller, ADC and more. Many of these peripherals can be mapped to any GPIO pin though some are tied to specific pins.
-
-Elevate your wireless projects with the cezerio dev ESP32C6. Its intuitive design, powerful features, and seamless connectivity await.
+The ESP32-C6 includes 20 GPIO pins with a wide range of peripheral options including SPI, UART, I2C, I2S, LED PWM, USB Serial/JTAG controller, ADC and more.
 
 **Features & Specifications**
 -32-bit High Performance RISC-V processor up to 160MHz
