@@ -4016,6 +4016,27 @@
         "description": "<p>ESP32-S3-LCD-EV-Board is an ESP32-S3-based development board with a touchscreen. Together with different subboards, ESP32-S3-LCD-EV-Board can drive LCDs with IIC, SPI, 8080, and RGB interfaces. It houses dual array microphones, supports voice recognition and near/far-field voice wake-up, and features screen and voice interaction. The board caters to development needs for touchscreen products with different resolutions and interfaces. Currently, we have two boards available: ESP32-S3-LCD-EV-Board with 480x480 LCD and ESP32-S3-LCD-EV-Board-2 with 800x480 LCD.</p><h3 id=\"feature-list\">Feature List</h3><p>The main features of the board are listed below:</p><ul>  <li><strong>Module Embedded:</strong> ESP32-S3-WROOM-1 module with 16 MB flash and 8 MB PSRAM</li>  <li><strong>Display:</strong> Compatibility with various subboards and support for displays with <code class=\"language-plaintext highlighter-rouge\">RGB</code>, <code class=\"language-plaintext highlighter-rouge\">8080</code>, <code class=\"language-plaintext highlighter-rouge\">SPI</code>, and <code class=\"language-plaintext highlighter-rouge\">I2C</code> interfaces. Please refer to <a href=\"https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/user_guide.html#lcd-subboards\">LCD Subboards</a> for more information</li>  <li><strong>Audio:</strong> Audio Codec + ADC amplifier and dual microphones</li>  <li><strong>USB:</strong> USB to serial port chip plus USB Type-C download/debug</li></ul><h4 id=\"mainboard\">Mainboard</h4><p><strong>ESP32-S3-LCD-EV-Board-MB</strong> is the core of the kit, which integrates the ESP32-S3-WROOM-1 module and provides ports for connection to the LCD subboard.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-LCD-EV-BOARD/20685871\">DigiKey</a></li></ul>"
     },
     {
+        "board_id": "espressif_esp32s3_lcd_ev_v1.5",
+        "title": "ESP32-S3 LCD Evaluation Kit v1.5 Download",
+        "name": "ESP32-S3 LCD Evaluation Kit v1.5",
+        "board_url": [
+            "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/user_guide.html"
+        ],
+        "board_image": "espressif_esp32s3_lcd_ev_v1.5.jpg",
+        "date_added": "2024-09-20",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "External Display",
+            "USB-C"
+        ],
+        "url_path": "/board/espressif_esp32s3_lcd_ev_v1.5/",
+        "description": "<p><strong>Note: This page is for the v1.5 revision of hardware. <a href=\"https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/user_guide.html#id1\">See here for more details</a></strong></p><p>ESP32-S3-LCD-EV-Board is an ESP32-S3-based development board with a touchscreen. Together with different subboards, ESP32-S3-LCD-EV-Board can drive LCDs with IIC, SPI, 8080, and RGB interfaces. It houses dual array microphones, supports voice recognition and near/far-field voice wake-up, and features screen and voice interaction. The board caters to development needs for touchscreen products with different resolutions and interfaces. Currently, we have two boards available: ESP32-S3-LCD-EV-Board with 480x480 LCD and ESP32-S3-LCD-EV-Board-2 with 800x480 LCD.</p><h3 id=\"feature-list\">Feature List</h3><p>The main features of the board are listed below:</p><ul>  <li><strong>Module Embedded:</strong> ESP32-S3-WROOM-1 module with 16 MB flash and 8 MB PSRAM</li>  <li><strong>Display:</strong> Compatibility with various subboards and support for displays with <code class=\"language-plaintext highlighter-rouge\">RGB</code>, <code class=\"language-plaintext highlighter-rouge\">8080</code>, <code class=\"language-plaintext highlighter-rouge\">SPI</code>, and <code class=\"language-plaintext highlighter-rouge\">I2C</code> interfaces. Please refer to <a href=\"https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/user_guide.html#lcd-subboards\">LCD Subboards</a> for more information</li>  <li><strong>Audio:</strong> Audio Codec + ADC amplifier and dual microphones</li>  <li><strong>USB:</strong> USB to serial port chip plus USB Type-C download/debug</li></ul><h4 id=\"mainboard\">Mainboard</h4><p><strong>ESP32-S3-LCD-EV-Board-MB</strong> is the core of the kit, which integrates the ESP32-S3-WROOM-1 module and provides ports for connection to the LCD subboard.</p>"
+    },
+    {
         "board_id": "espressif_esp32s3_usb_otg_n8",
         "title": "ESP32-S3-USB-OTG-N8 Download",
         "name": "ESP32-S3-USB-OTG-N8",

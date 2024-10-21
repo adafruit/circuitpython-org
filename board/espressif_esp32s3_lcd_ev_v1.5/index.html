@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
+<title>ESP32-S3 LCD Evaluation Kit v1.5 Download</title>
+<meta name="description" content="Note: This page is for the v1.5 revision of hardware. See here for more detailsESP32-S3-LCD-EV-Board is an ESP32-S3-based development board with a touchscree..." />
+
+<!-- Twitter and Open Graph cards -->
+<meta name="twitter:site" content="@circuitpython" />
+<meta property="og:url" content="https://circuitpython.org/board/espressif_esp32s3_lcd_ev_v1.5/" />
+
+<meta property="og:title"   content="CircuitPython - ESP32-S3 LCD Evaluation Kit v1.5 Download" />
+
+
+
+<meta property="og:description" content="Note: This page is for the v1.5 revision of hardware. See here for more detailsESP32-S3-LCD-EV-Board is an ESP32-S3-based development board with a touchscreen. Together with different subboards, ESP32-S3-LCD-EV-Board can drive LCDs with IIC, SPI, 8080, and RGB interfaces. It houses dual array mic..." />
+
+
+
+<meta name="twitter:card"  content="summary_large_image" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/espressif_esp32s3_lcd_ev_v1.5.jpg" />
+
+<meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="https://circuitpython.org/board/espressif_esp32s3_lcd_ev_v1.5/">
+  <!-- CircuitPython RSS Feed -->
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="CircuitPython news!"
+        href="https://blog.adafruit.com/category/circuitpython/feed/"/>
+  <link rel="alternate" type="application/rss+xml" title="Latest Boards" href="/feed.rss"/>
+  <script src="/assets/javascript/header_mobile.js"></script>
+</head>
+
+
+  <body>
+    <header id="site-header">
+  
+  <nav class="top-navigation">
+    <div>
+      <div class="navigation">
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <a  href="/contributing">Contributing</a>
+        <a href="https://blog.adafruit.com/category/circuitpython">News</a>
+        <a  href="/awesome">Awesome</a>
+        <a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a>
+        <a href="https://docs.circuitpython.org/">Documentation</a>
+        <a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a>
+        <a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="/feed.rss" type="application/rss+xml" aria-label="RSS Feed"><i class="fas fa-rss-square"></i> RSS</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="content">
+      <nav class="site-brand">
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png"
+                 srcset="/assets/images/logo.png 1x,
+                         /assets/images/logo@2x.png 2x,
+                         /assets/images/logo@3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
+        </div>
+        <div class="site-navigation">
+          <a  href="/downloads">Downloads</a>
+          <a  href="/libraries">Libraries</a>
+          <a  href="/blinka">Blinka</a>
+          <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="get-started">
+          <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <header id="mobile-header">
+  <div class="header-contents">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/images/logo.png"
+              srcset="/assets/images/logo.png 1x,
+                      /assets/images/logo@2x.png 2x,
+                      /assets/images/logo@3x.png 3x"
+                                      alt="CircuitPython Logo"
+                                      height="60" width="136">
+      </a>
+    </div>
+    <div id="mobile-menu">
+      <div class="menu-toggle">
+        <a href="#" id="mobile-menu-button">
+          <span class="sr-only">Open Mobile Menu</span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <nav id="mobile-menu-contents" role="navigation" class="hidden"
+      aria-expanded="false" aria-label="Mobile Menu">
+      <ul>
+        <li><a 
+                                  href="/downloads">Downloads</a></li>
+        <li><a 
+                                  href="/libraries">Libraries</a></li>
+        <li><a 
+                                  href="/blinka">Blinka</a></li>
+        <li><a 
+                                  href="/contributing">Contributing</a></li>
+        <li><a href="https://blog.adafruit.com/category/circuitpython">News</a></li>
+        <li><a 
+                                  href="/awesome">Awesome</a></li>
+        <li><a href="https://www.adafruitdaily.com/category/circuitpython">Newsletter</a></li>
+        <li><a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a></li>
+        <li><a href="https://forums.adafruit.com/viewforum.php?f=60">Forums</a></li>
+        <li><a href="https://adafru.it/discord" aria-label="Discord"><i class="fab fa-discord"></i> Discord</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bottom-bar"></div>
+</header>
+
+    <div id="main-content" class="wrapper">
+      <div id="download-page">
+  <h1>ESP32-S3 LCD Evaluation Kit v1.5</h1>
+  <h3>by Espressif</h3>
+
+  <div class="download-section">
+    <div class="details">
+      <div class="section">
+        
+        <img src="/assets/images/boards/large/espressif_esp32s3_lcd_ev_v1.5.jpg" alt="Image of Board">
+        <p>
+          <p><strong>Note: This page is for the v1.5 revision of hardware. <a href="https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/user_guide.html#id1">See here for more details</a></strong></p>
+
+<p>ESP32-S3-LCD-EV-Board is an ESP32-S3-based development board with a touchscreen. Together with different subboards, ESP32-S3-LCD-EV-Board can drive LCDs with IIC, SPI, 8080, and RGB interfaces. It houses dual array microphones, supports voice recognition and near/far-field voice wake-up, and features screen and voice interaction. The board caters to development needs for touchscreen products with different resolutions and interfaces. Currently, we have two boards available: ESP32-S3-LCD-EV-Board with 480x480 LCD and ESP32-S3-LCD-EV-Board-2 with 800x480 LCD.</p>
+
+<h3 id="feature-list">Feature List</h3>
+
+<p>The main features of the board are listed below:</p>
+
+<ul>
+  <li><strong>Module Embedded:</strong> ESP32-S3-WROOM-1 module with 16 MB flash and 8 MB PSRAM</li>
+  <li><strong>Display:</strong> Compatibility with various subboards and support for displays with <code class="language-plaintext highlighter-rouge">RGB</code>, <code class="language-plaintext highlighter-rouge">8080</code>, <code class="language-plaintext highlighter-rouge">SPI</code>, and <code class="language-plaintext highlighter-rouge">I2C</code> interfaces. Please refer to <a href="https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32s3/esp32-s3-lcd-ev-board/user_guide.html#lcd-subboards">LCD Subboards</a> for more information</li>
+  <li><strong>Audio:</strong> Audio Codec + ADC amplifier and dual microphones</li>
+  <li><strong>USB:</strong> USB to serial port chip plus USB Type-C download/debug</li>
+</ul>
+
+<h4 id="mainboard">Mainboard</h4>
+
+<p><strong>ESP32-S3-LCD-EV-Board-MB</strong> is the core of the kit, which integrates the ESP32-S3-WROOM-1 module and provides ports for connection to the LCD subboard.</p>
+
+
+        </p>
+        <h2>Contribute</h2>
+          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/espressif_esp32s3_lcd_ev_v1.5.md">here</a>.</p>
+      </div>
+    </div>
+    <div class="download">
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="section unstable">
+    <h3>CircuitPython 9.2.0-beta.1</h3>
+    
+    <p>
+      This is the latest development release of CircuitPython that will work with the ESP32-S3 LCD Evaluation Kit v1.5.
+    </p>
+    <p>
+      <strong>Alpha</strong> development releases are early releases.
+      They are unfinished, are likely to have bugs, and the features they provide may change.
+      <strong>Beta</strong> releases may have some bugs and unfinished features,
+      but should be suitable for many uses.
+      A <strong>Release Candidate (rc)</strong> release is considered done and
+      will become the next stable release, assuming no further issues are found.
+    </p>
+    <p>
+      Please try alpha, beta, and rc releases if you are able.
+      Your testing is invaluable: it helps us uncover and find issues quickly.
+    </p>
+    
+    
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.0-beta.1">Release Notes for 9.2.0-beta.1</a>
+    </p>
+    <div class="download-details">
+      
+      
+      
+      
+      
+      <label class="language-select">
+        <select>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/zh_Latn_pinyin/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-zh_Latn_pinyin-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/zh_Latn_pinyin/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-zh_Latn_pinyin-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/zh_Latn_pinyin/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-zh_Latn_pinyin-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/zh_Latn_pinyin/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-zh_Latn_pinyin-9.2.0-beta.1.uf2"
+                    data-locale="zh-Latn-pinyin"
+                    >
+              CHINESE (PINYIN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/nl/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-nl-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/nl/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-nl-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/nl/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-nl-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/nl/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-nl-9.2.0-beta.1.uf2"
+                    data-locale="nl"
+                    >
+              DUTCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_GB/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_GB-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_GB/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_GB-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_GB/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_GB-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_GB/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_GB-9.2.0-beta.1.uf2"
+                    data-locale="en-GB"
+                    >
+              ENGLISH (UK)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_US/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_US-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_US/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_US-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_US/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_US-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_US/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_US-9.2.0-beta.1.uf2"
+                    data-locale="en-US"
+                    selected>
+              ENGLISH (US)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/fil/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-fil-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/fil/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-fil-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/fil/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-fil-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/fil/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-fil-9.2.0-beta.1.uf2"
+                    data-locale="fil"
+                    >
+              FILIPINO
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/fr/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-fr-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/fr/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-fr-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/fr/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-fr-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/fr/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-fr-9.2.0-beta.1.uf2"
+                    data-locale="fr"
+                    >
+              FRENCH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/de_DE/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-de_DE-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/de_DE/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-de_DE-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/de_DE/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-de_DE-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/de_DE/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-de_DE-9.2.0-beta.1.uf2"
+                    data-locale="de-DE"
+                    >
+              GERMAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ID/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ID-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ID/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ID-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ID/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ID-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ID/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ID-9.2.0-beta.1.uf2"
+                    data-locale="ID"
+                    >
+              INDONESIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/it_IT/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-it_IT-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/it_IT/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-it_IT-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/it_IT/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-it_IT-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/it_IT/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-it_IT-9.2.0-beta.1.uf2"
+                    data-locale="it-IT"
+                    >
+              ITALIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ja/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ja-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ja/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ja-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ja/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ja-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ja/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ja-9.2.0-beta.1.uf2"
+                    data-locale="ja"
+                    >
+              JAPANESE
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_x_pirate/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_x_pirate-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_x_pirate/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_x_pirate-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_x_pirate/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_x_pirate-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_x_pirate/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_x_pirate-9.2.0-beta.1.uf2"
+                    data-locale="en-x-pirate"
+                    >
+              PIRATE (ENGLISH)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/pl/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-pl-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/pl/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-pl-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/pl/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-pl-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/pl/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-pl-9.2.0-beta.1.uf2"
+                    data-locale="pl"
+                    >
+              POLISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/pt_BR/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-pt_BR-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/pt_BR/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-pt_BR-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/pt_BR/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-pt_BR-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/pt_BR/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-pt_BR-9.2.0-beta.1.uf2"
+                    data-locale="pt-BR"
+                    >
+              PORTUGUESE (BRAZILIAN)
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ru/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ru-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ru/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ru-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ru/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ru-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/ru/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-ru-9.2.0-beta.1.uf2"
+                    data-locale="ru"
+                    >
+              RUSSIAN
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/es/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-es-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/es/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-es-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/es/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-es-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/es/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-es-9.2.0-beta.1.uf2"
+                    data-locale="es"
+                    >
+              SPANISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/sv/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-sv-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/sv/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-sv-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/sv/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-sv-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/sv/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-sv-9.2.0-beta.1.uf2"
+                    data-locale="sv"
+                    >
+              SWEDISH
+            </option>
+          
+            
+            
+            
+            
+            
+            
+            <option value="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/tr/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-tr-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/tr/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-tr-9.2.0-beta.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/tr/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-tr-9.2.0-beta.1.bin,https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/tr/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-tr-9.2.0-beta.1.uf2"
+                    data-locale="tr"
+                    >
+              TURKISH
+            </option>
+          
+        </select>
+      </label>
+      <div class="download-buttons">
+      
+        <a class="download-button unstable bin" href="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_US/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_US-9.2.0-beta.1.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+        <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_US/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_US-9.2.0-beta.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      
+        <button is="cp-install-button" class="installer-button" boardid="espressif_esp32s3_lcd_ev_v1.5"
+        
+            binfile="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_US/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_US-9.2.0-beta.1.bin"
+        
+            uf2file="https://downloads.circuitpython.org/bin/espressif_esp32s3_lcd_ev_v1.5/en_US/adafruit-circuitpython-espressif_esp32s3_lcd_ev_v1.5-en_US-9.2.0-beta.1.uf2"
+        
+        version="9.2.0-beta.1"
+        >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
+      
+      </div>
+    </div>
+    
+    <p>
+        Built-in modules available:
+        <span class="download-modules unstable">
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_asyncio">
+          
+            _asyncio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_bleio">
+          
+            _bleio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_eve">
+          
+            _eve
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_pixelmap">
+          
+            _pixelmap
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/adafruit_bus_device">
+          
+            adafruit_bus_device
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/adafruit_pixelbuf">
+          
+            adafruit_pixelbuf
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/aesio">
+          
+            aesio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/alarm">
+          
+            alarm
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/analogbufio">
+          
+            analogbufio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/analogio">
+          
+            analogio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/array">
+          
+            array
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/atexit">
+          
+            atexit
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiobusio">
+          
+            audiobusio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiocore">
+          
+            audiocore
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiomixer">
+          
+            audiomixer
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiomp3">
+          
+            audiomp3
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/binascii">
+          
+            binascii
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitbangio">
+          
+            bitbangio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitmapfilter">
+          
+            bitmapfilter
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitmaptools">
+          
+            bitmaptools
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/board">
+          
+            board
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/builtins">
+          
+            builtins
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/builtins/#builtins.pow3">
+          
+            builtins.pow3
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busdisplay">
+          
+            busdisplay
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio">
+          
+            busio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.SPI">
+          
+            busio.SPI
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.UART">
+          
+            busio.UART
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/canio">
+          
+            canio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/codeop">
+          
+            codeop
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/collections">
+          
+            collections
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/countio">
+          
+            countio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/digitalio">
+          
+            digitalio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/displayio">
+          
+            displayio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/dotclockframebuffer">
+          
+            dotclockframebuffer
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/dualbank">
+          
+            dualbank
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/epaperdisplay">
+          
+            epaperdisplay
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/errno">
+          
+            errno
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espcamera">
+          
+            espcamera
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espidf">
+          
+            espidf
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espnow">
+          
+            espnow
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espulp">
+          
+            espulp
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fontio">
+          
+            fontio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fourwire">
+          
+            fourwire
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/framebufferio">
+          
+            framebufferio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/frequencyio">
+          
+            frequencyio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/getpass">
+          
+            getpass
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/gifio">
+          
+            gifio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/hashlib">
+          
+            hashlib
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/i2cdisplaybus">
+          
+            i2cdisplaybus
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/io">
+          
+            io
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ipaddress">
+          
+            ipaddress
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/jpegio">
+          
+            jpegio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/json">
+          
+            json
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad">
+          
+            keypad
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad/#keypad.KeyMatrix">
+          
+            keypad.KeyMatrix
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad/#keypad.Keys">
+          
+            keypad.Keys
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad/#keypad.ShiftRegisterKeys">
+          
+            keypad.ShiftRegisterKeys
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad_demux">
+          
+            keypad_demux
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad_demux/#keypad_demux.DemuxKeyMatrix">
+          
+            keypad_demux.DemuxKeyMatrix
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/locale">
+          
+            locale
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/math">
+          
+            math
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/max3421e">
+          
+            max3421e
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/mdns">
+          
+            mdns
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/memorymap">
+          
+            memorymap
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/microcontroller">
+          
+            microcontroller
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/msgpack">
+          
+            msgpack
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/neopixel_write">
+          
+            neopixel_write
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/nvm">
+          
+            nvm
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/onewireio">
+          
+            onewireio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os">
+          
+            os
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os/#os.getenv">
+          
+            os.getenv
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/paralleldisplaybus">
+          
+            paralleldisplaybus
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ps2io">
+          
+            ps2io
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pulseio">
+          
+            pulseio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pwmio">
+          
+            pwmio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/qrio">
+          
+            qrio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rainbowio">
+          
+            rainbowio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/random">
+          
+            random
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/re">
+          
+            re
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rgbmatrix">
+          
+            rgbmatrix
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rotaryio">
+          
+            rotaryio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rtc">
+          
+            rtc
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sdcardio">
+          
+            sdcardio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sdioio">
+          
+            sdioio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/select">
+          
+            select
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sharpdisplay">
+          
+            sharpdisplay
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/socketpool">
+          
+            socketpool
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/socketpool/#socketpool.socketpool.AF_INET6">
+          
+            socketpool.socketpool.AF_INET6
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ssl">
+          
+            ssl
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
+          
+            storage
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/struct">
+          
+            struct
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/supervisor">
+          
+            supervisor
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/synthio">
+          
+            synthio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sys">
+          
+            sys
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/terminalio">
+          
+            terminalio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/time">
+          
+            time
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/touchio">
+          
+            touchio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/traceback">
+          
+            traceback
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ulab">
+          
+            ulab
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb">
+          
+            usb
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_cdc">
+          
+            usb_cdc
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_hid">
+          
+            usb_hid
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_midi">
+          
+            usb_midi
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/vectorio">
+          
+            vectorio
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/warnings">
+          
+            warnings
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/watchdog">
+          
+            watchdog
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/wifi">
+          
+            wifi
+          </a>, 
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/zlib">
+          
+            zlib
+          </a>, 
+          
+        </span>
+    </p>
+    
+    
+  </div>
+
+
+<div class="section unrecommended">
+  <h3>Absolute Newest</h3>
+  <p>
+    Every time we commit new code to CircuitPython we automatically
+    build binaries for each board and language. The binaries are
+    stored on Amazon S3, organized by board, and then by
+    language. These releases are even newer than the development release listed above.
+    Try them if you want the absolute latest and are
+    feeling daring or want to see if a problem has been fixed.
+  </p>
+  <div>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/espressif_esp32s3_lcd_ev_v1.5/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="section unrecommended">
+  <h3>Previous Versions of CircuitPython</h3>
+  <p>
+    All previous releases of CircuitPython are available for download from Amazon S3 through the button below.
+    For very old releases, look in the <strong>OLD/</strong> folder for each board.
+    Release notes for each release are available at GitHub button below.
+  </p>
+  <p>
+    Older releases are useful for testing if you something appears to be broken in a newer release
+    but used to work,
+    or if you have older code that depends on features only available in an older release.
+    Otherwise we recommend using the latest stable release.
+  </p>
+  <div class="previous-versions-buttons">
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/espressif_esp32s3_lcd_ev_v1.5/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+      
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/gh/adafruit/web-firmware-installer-js@1.1.2/dist/cpinstaller.min.js" type="module"></script>
+
+<script src="/assets/javascript/download.js"></script>
+
+    </div>
+  </body>
+</html>
