@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "CircuitArt_ESP32S3_Zero"
+board_id: "circuitart_zero_s3"
 title: "CircuitArt ESP32S3 Zero Download"
 name: "CircuitArt ESP32S3 Zero"
 manufacturer: "CircuitArt"
