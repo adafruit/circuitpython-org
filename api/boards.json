@@ -6357,6 +6357,25 @@
         "description": "<p>The Maker badge board is official badge board for Maker Faire´s in Czech republic. Main purpose is to show visitors/exhibitors name and/or project, but secondary goal is to have at each Maker Faire some interactive game so people can have more fun at the time of the visit.</p><h2 id=\"features\">Features</h2><ul>  <li>2.13” black and white E Ink® display (212 x 104 pixels in rev. A or 250 x 122 in rev.B)</li>  <li>Powered by ESP32-S2 module (single core 32-bit LX7 microprocessor running up to 240 MHz with 320kB of SRAM, 4 MB Flash (embedded))</li>  <li>Five touch buttons</li>  <li>Reset and boot buttons (the boot button can also be used as a user button)</li>  <li>5 x RGB LED with WS2812B IC</li>  <li>USB-C connector for power and programming</li>  <li>JST-PH connector for attaching a battery (input range 2.7V - 6V)</li>  <li>CR2032 battery holder</li></ul><h2 id=\"notes\">Notes</h2><ul>  <li>rev. A (distributed by Czech maker) is using 212 x 104 px e-ink display with UC8151D driver</li>  <li>rev. B (distributed by Make More) is using 250 x 122 px e-ink display with SSD1680 driver</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li>will be added later</li></ul><h2 id=\"resources\">Resources</h2><ul>  <li><a href=\"https://github.com/dronecz/maker_badge\">Github</a></li></ul>"
     },
     {
+        "board_id": "makerdiary_imxrt1011_nanokit",
+        "title": "iMX RT1011 Nano Kit Download",
+        "name": "iMX RT1011 Nano Kit",
+        "board_url": [
+            "https://wiki.makerdiary.com/imxrt1011-nanokit/"
+        ],
+        "board_image": "makerdiary_imxrt1011_nanokit.jpg",
+        "date_added": "2024-09-20",
+        "family": "mimxrt10xx",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C"
+        ],
+        "url_path": "/board/makerdiary_imxrt1011_nanokit/",
+        "description": "<p>iMX RT1011 Nano Kit is a small, high-performing prototyping kit designed around NXP’s iMX RT1011 Crossover MCU based on the Arm Cortex-M7 core, which operates at speeds up to 500 MHz to provide high CPU performance and best real-time response. It has 128 KB on-chip RAM that can be flexibly configured as TCM or general-purpose as well as numerous peripherals including high speed USB, UART, SPI, I2C, SAI, PWM, GPIO, ADC and etc to support a wide range of applications.</p><p>The design provides external 128 Mbit QSPI flash with XIP support, flexible power management, programmable LED and Button, easy-to-use form factor with USB-C and dual-row 40 pins in DIP/SMT type, including up to 33 multi-function GPIO pins (15 can be configured as ADC inputs) and Serial Wire Debug (SWD) port. Available with loose or pre-soldered headers, for even more flexibility in your projects.</p><p>Key Features</p><ul>  <li>NXP’s MIMXRT1011DAE5A Crossover MCU    <ul>      <li>Arm Cortex-M7 @ 500MHz</li>      <li>On-chip RAM size up to 128 KB shared with CM7 TCM</li>      <li>Boot ROM (64 KB)</li>      <li>High speed USB, UART, SPI, I2C, SAI, PWM, GPIO, ADC support</li>    </ul>  </li>  <li>128 Mb QSPI Flash with XIP support and on-the-fly decryption</li>  <li>User programmable Button and LED</li>  <li>Up to 33 multi-function General Purpose IOs (15 can be used as ADC inputs)</li>  <li>Arm Serial Wire Debug (SWD) port via edge pins</li>  <li>Flexible power management with various options for easily powering the unit</li>  <li>Wide input voltage range: 1.8 V to 5.5 V, output 3.3V and up to 2A when Input ≥ 2.3 V</li>  <li>3.3V IO Operating Voltage</li>  <li>Dual-row 40 pins 55.88mm x 20.32mm (2.2” x 0.8”) DIP/SMT form factor</li>  <li>Reversible USB-C connector</li>  <li>Available with loose or pre-soldered headers</li>  <li>Shipped with UF2 Bootloader supporting Drag-and-drop programming over USB drive</li>  <li>Easy to enter Boot ROM Serial Downloader even when the UF2 Bootloader gets corrupted</li>  <li>Built on open source, supporting Zephyr RTOS, Python, etc</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://makerdiary.com/products/imxrt1011-nanokit\">MakerDiary</a></li></ul>"
+    },
+    {
         "board_id": "makerdiary_m60_keyboard",
         "title": "M60 Mechanical Keyboard Download",
         "name": "M60 Mechanical Keyboard",
