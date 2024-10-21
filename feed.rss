@@ -4,9 +4,50 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 21 Oct 2024 13:41:20 -0400</lastBuildDate>
+<lastBuildDate>Mon, 21 Oct 2024 13:42:14 -0400</lastBuildDate>
 
 <item>
+    <title>PicoADK v2 - Audio Development Kit</title>
+    <link>https://circuitpython.org/board/datanoise_picoadk_v2/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/datanoise_picoadk_v2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/datanoise_picoadk_v2.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/datanoise_picoadk_v2.jpg" alt="Image of Board" loading="lazy">
+<p>By DatanoiseTV</p> <p>The PicoADK v2 is the enhanced successor to the popular PicoADK v1, designed for all your Audio Digital Signal Processing (DSP) needs. Whether you’re building custom synthesizers, noise generators, audio effects, or educational kits, the PicoADK v2 provides a powerful and versatile platform. Its robust hardware and rich feature set make it perfect for DIY enthusiasts, audio developers, and educators alike.</p>
+
+<h4 id="specifications">Specifications</h4>
+
+<ul>
+  <li>Powerful MCU: Equipped with a Raspberry Pi RP2350A MCU (Dual Core 150MHz with overclocking capability, Hazard3 RISC-V or Cortex-M33, software selectable) for fast computing with FPU (Floating Point Unit)</li>
+  <li>Lot of Storage: 4 MB QSPI Flash for your Code and Data</li>
+  <li>Expandable Memory: Optional 8MB QSPI PSRAM for applications which needs more RAM (e.g. Long Delays)</li>
+  <li>Connectivity: QUIIC / I2C Connector</li>
+  <li>Debugging Features: SWD Debug Port</li>
+  <li>Storage Options: TF-Card (Micro) on the bottom of the PCB (SPI or SDIO 4-bit Mode capable)</li>
+  <li>MIDI In Circuit with Optocoupler</li>
+  <li>Presoldered Pin Headers</li>
+  <li>Power LED</li>
+  <li>User LED</li>
+  <li>Type-C for Programming and User</li>
+  <li>5-pin USB pins (e.g. for USB Host)</li>
+  <li>I2S Pins exposed on the headers, to allow for connecting an ADC.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://datanoise.shop/products/picoadk-v2">Datanoise</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 08 Oct 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/datanoise_picoadk_v2/</guid>
+  </item><item>
     <title>Maker Go ESP32C6 Supermini</title>
     <link>https://circuitpython.org/board/makergo_esp32c6_supermini/</link>
     <description><![CDATA[ 
