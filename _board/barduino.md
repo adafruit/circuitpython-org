@@ -16,7 +16,7 @@ features:
   - Wi-Fi
 ---
 
-Barduino is a development board created by Fablab Barcelona as a tool for it's educational programs.
+Barduino is a development board created by Fablab Barcelona as a tool for its educational programs.
 
 It's based on the ESP32-S3 (ESP32-S3-WROOM-1) microcontroller.
 
