@@ -3,7 +3,7 @@ layout: download
 board_id: "datanoise_picoadk_v2"
 title: "PicoADK v2 - Audio Development Kit Download"
 name: "PicoADK v2 - Audio Development Kit"
-manufacturer: "DatanoiseTV"
+manufacturer: "Datanoise"
 board_url:
  - "https://datanoise.shop/products/picoadk-v2"
 board_image: "datanoise_picoadk_v2.jpg"
