@@ -5,7 +5,7 @@ title: "Trinket M0 Haxpress Download"
 name: "Trinket M0 Haxpress"
 manufacturer: "Dave Astels"
 board_url: 
-  - https://web.archive.org/web/20210727135908/http://daveastels.com/trinket-m0-express-hack.html
+- "https://web.archive.org/web/20210727135908/http://daveastels.com/trinket-m0-express-hack.html"
 board_image: "trinket_m0_haxpress.jpg"
 date_added: 2019-03-19
 family: atmel-samd
