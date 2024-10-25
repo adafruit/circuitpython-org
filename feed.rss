@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 25 Oct 2024 13:38:43 -0400</lastBuildDate>
+<lastBuildDate>Fri, 25 Oct 2024 13:39:16 -0400</lastBuildDate>
 
 <item>
     <title>PicoADK v2 - Audio Development Kit</title>
@@ -17007,7 +17007,19 @@ status LED operation.</p>
 <h2 id="notes">Notes</h2>
 
 <ul>
-  <li>There is an error on the v1.0.0 board silkscreen. GPIO12/13 should be reversed. Error is fixed without version change since late 2021.</li>
+  <li>
+    <p>There is an error on the v1.0.0 board silkscreen. GPIO12/13 should be reversed. Error is fixed without version change since late 2021.</p>
+  </li>
+  <li>
+    <p>There are no labeled SPI or I2C pins on the silkscreen. The following pins are configured by CircuitPython:</p>
+    <ul>
+      <li>SCL - GPIO35</li>
+      <li>SDA - GPIO33</li>
+      <li>SCK - GPIO7</li>
+      <li>MOSI - GPIO11</li>
+      <li>MISO - GPIO9</li>
+    </ul>
+  </li>
 </ul>
 
 <h2 id="learn-more">Learn More</h2>
