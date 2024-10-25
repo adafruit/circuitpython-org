@@ -142,6 +142,12 @@
         version="{{ version.version }}"
         >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
       {% endif %}
+      {% if page.download_instructions != nil and page.download_instructions != "" %}
+        <div>
+            <a class="download-button" href="{{ page.download_instructions }}">INSTALLATION INSTRUCTIONS<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+          <div class="clear"></div>
+        </div>
+      {% endif %}
       </div>
     </div>
     {% if version.modules %}

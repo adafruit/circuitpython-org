@@ -10,6 +10,7 @@ board_image: "adafruit_feather_huzzah32.jpg"
 date_added: 2022-08-19
 family: esp32
 downloads_display: true
+download_instructions: https://learn.adafruit.com/circuitpython-with-esp32-quick-start
 features:
   - Feather-Compatible
   - Battery Charging
