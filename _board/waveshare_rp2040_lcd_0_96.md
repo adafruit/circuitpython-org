@@ -15,6 +15,7 @@ features:
   - Breadboard-Friendly
   - Display
   - USB-C
+  - Castellated Pads
 ---
 
 RP2040-LCD-0.96 is a low-cost, high-performance Pico-like MCU board with flexible digital interfaces. It incorporates Raspberry Pi's RP2040 microcontroller chip, as same as the one on Raspberry Pi Pico. For software development, either Raspberry Pi's C/C++ SDK, or the MicroPython is available, which makes it easy for you to get started, and integrate it into end products quickly.

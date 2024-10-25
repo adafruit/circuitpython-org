@@ -12,6 +12,7 @@ family: raspberrypi
 features:
   - Breadboard-Friendly
   - USB-C
+  - Castellated Pads
 ---
 
 Introducing an RP2040-based development board, a compact yet powerful alternative to the popular Pico. This board packs all the GPIO capabilities of the RP2040 along with expanded flash memory.

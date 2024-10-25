@@ -15,6 +15,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor
+  - Castellated Pads
 ---
 
 Seeed Studio XIAO SAMD21 is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256 KB Flash and 32 KB SRAM. The board is 20 mm x 17.5 mm in size which is perfect for wearable devices and small projects. It has multiple interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It's compatible with both Arduino IDE and CircuitPython and uses a USB-C connector.

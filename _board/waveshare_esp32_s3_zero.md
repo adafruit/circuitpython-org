@@ -15,6 +15,7 @@ features:
   - Wi-Fi
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 Tiny, but mighty! This board with a powerful ESP32-S3 MCU measures in at 24.8mmx18mm (23.5mm for just the PCB, the USB-C connector sticks out a little bit). Despite it's small size it still exposes a wealth of GPIO connections - a whopping 34 in total. It does however have 'only' 4MB of Flash storage rather than the more typical 8MB found on most ESP32-S3 boards (and even 16MB on some).

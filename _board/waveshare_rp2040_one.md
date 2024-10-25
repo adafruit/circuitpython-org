@@ -11,6 +11,7 @@ date_added: 2024-08-07
 family: raspberrypi
 features:
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 A Trinkey-like MCU board based on Raspberry Pi RP2040

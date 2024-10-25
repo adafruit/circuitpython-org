@@ -14,7 +14,7 @@ features:
   - Wi-Fi
   - Bluetooth/BTLE
   - Breadboard-Friendly
-
+  - Castellated Pads
 ---
 
 BPI-Pico-S3 is the same size as Raspberry Pi Pico board, equipped with ESP32S3 chip, 8M flash, 4-layer PCB, electroplated half-hole process, ceramic antenna, supports 2.4 GHz Wi-Fi and Bluetooth® LE dual-mode wireless communication, is a development board designed for IoT development and Maker DIY.

@@ -17,6 +17,7 @@ features:
   - Breadboard-Friendly
   - Wi-Fi
   - Xiao / QTPy Form Factor
+  - Castellated Pads
 ---
 
 The ESP32-S3 has arrived in QT Py format - and what a great way to get started with this powerful new chip from Espressif! With dual 240 MHz cores, WiFi and BLE support, and native USB, this QT Py is great for powering your IoT projects.

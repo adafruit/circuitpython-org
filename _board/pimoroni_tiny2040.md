@@ -13,6 +13,7 @@ family: raspberrypi
 features:
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 A postage stamp sized RP2040 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into devices. Tiny 2040 comes with 8MB of QSPI (XiP) flash on board so it can handle projects small and large with ease.

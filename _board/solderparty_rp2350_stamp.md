@@ -9,7 +9,8 @@ board_url:
 board_image: "solderparty_rp2350_stamp.jpg"
 date_added: 2024-08-08
 family: raspberrypi
-
+features:
+  - Castellated Pads
 ---
 The Stamp was created to allow you to use the Raspberry Pi RP2350A in your designs without having to solder small-pitch QFN chips or worry about lots of external circuitry.
 

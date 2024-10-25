@@ -17,6 +17,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - STEMMA QT/QWIIC
+  - Castellated Pads
 ---
 
 This dev board is like when you're watching a super-hero movie and the protagonist shows up in a totally amazing costume in the third act and you're like 'OMG! That's the hero and they're here to kick some serious butt!" but in this case its a microcontroller.

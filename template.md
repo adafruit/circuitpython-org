@@ -24,6 +24,7 @@ features:
   - Breadboard-Friendly
   - Display
   - Camera
+  - Castellated Pads
   - External Display
   - Feather-Compatible
   - GPS

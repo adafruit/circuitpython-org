@@ -18,6 +18,7 @@ features:
   - Breadboard-Friendly
   - USB-C
   - Wi-Fi
+  - Castellated Pads
 ---
 
 Introducing the TinyPICO - The Mighty Tiny ESP32 based development board!

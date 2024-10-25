@@ -11,6 +11,7 @@ date_added: 2024-09-20
 family: mimxrt10xx
 features:
   - USB-C
+  - Castellated Pads
 ---
 
 iMX RT1011 Nano Kit is a small, high-performing prototyping kit designed around NXP's iMX RT1011 Crossover MCU based on the Arm Cortex-M7 core, which operates at speeds up to 500 MHz to provide high CPU performance and best real-time response. It has 128 KB on-chip RAM that can be flexibly configured as TCM or general-purpose as well as numerous peripherals including high speed USB, UART, SPI, I2C, SAI, PWM, GPIO, ADC and etc to support a wide range of applications.

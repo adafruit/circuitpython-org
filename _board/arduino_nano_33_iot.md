@@ -13,6 +13,7 @@ bootloader_id: nano33iot
 features:
   - Wi-Fi
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 Arduino NANO 33 IoT board has been designed to offer a practical and cost effective solution for makers seeking to add Wi-Fi connectivity to their projects (using Arduino) with minimal previous experience in networking. Learn how to set up the programming environment and get the hardware up and running, ready for your projects, in minutes.

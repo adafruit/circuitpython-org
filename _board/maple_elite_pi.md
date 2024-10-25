@@ -12,6 +12,7 @@ family: raspberrypi
 features:
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 The Elite-Pi is an RP2040-based controller with a Pro Micro/Elite-C compatible pinout that's primarily intended for use with keyboards.

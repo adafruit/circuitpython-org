@@ -15,6 +15,7 @@ features:
   - USB-C
   - Bluetooth/BTLE
   - Breadboard-Friendly
+  - Castellated Pads
 
 ---
 
