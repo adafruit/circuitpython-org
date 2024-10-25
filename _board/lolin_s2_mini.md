@@ -66,6 +66,13 @@ The LOLIN S2 Mini is a small (33.4 mm x 25.4 mm) development board. The form fac
 
 - There is an error on the v1.0.0 board silkscreen. GPIO12/13 should be reversed. Error is fixed without version change since late 2021.
 
+- There are no labeled SPI or I2C pins on the silkscreen. The following pins are configured by CircuitPython:
+  - SCL - GPIO35
+  - SDA - GPIO33
+  - SCK - GPIO7
+  - MOSI - GPIO11
+  - MISO - GPIO9
+
 ## Learn More
 
 * [Manufacturer Specifications](https://www.wemos.cc/en/latest/s2/s2_mini.html)
