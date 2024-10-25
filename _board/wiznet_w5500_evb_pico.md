@@ -10,7 +10,7 @@ board_image: "w5500-evb-pico.jpg"
 date_added: 2022-07-25
 family: raspberrypi
 features:
-    - Breadboard-Friendly
+  - Breadboard-Friendly
   - Castellated Pads
 ---
 
