@@ -172,6 +172,13 @@
         </span>
     </p>
     {% endif %}
+    {% if page.features %}
+    <p>Features:
+    {% for feature in page.features %}
+      <span class="feature-span">{{feature}}</span>
+    {% endfor %}
+    </p>
+    {% endif %}
   </div>
 {% endfor %}
 {% endif %}
