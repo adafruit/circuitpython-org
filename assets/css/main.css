@@ -1035,7 +1035,12 @@ input.filter-checkbox, label {
 #download-page .download-section .download a.download-button i, #download-page .download-section .download a.download-button-unrecommended i, #download-page .download-section .download button[is=cp-install-button] i {
   padding-left: 10px;
 }
-#download-page .download-section .download .download-details {
+#download-page .download-section .download .install-instructions-button {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+#download-page .download-section .download .download-details, #download-page .download-section .download .release-details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -1145,7 +1150,7 @@ input.filter-checkbox, label {
   #download-page .download-section {
     grid-template-columns: 1fr 1fr;
   }
-  #download-page .download-section .download .download-details {
+  #download-page .download-section .download .download-details, #download-page .download-section .download .release-details {
     grid-template-columns: repeat(1, 1fr);
   }
   #download-page .download-section .download .language-select {
