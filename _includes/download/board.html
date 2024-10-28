@@ -131,7 +131,8 @@
         </select>
       </label>
       <div class="download-buttons">
-      {% for extension in version.extensions %}
+      {% assign reverse_extensions = version.extensions | reverse %}
+      {% for extension in reverse_extensions %}
         <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ download_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
       {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' or page.family == 'esp32c6' %}
