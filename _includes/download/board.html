@@ -45,9 +45,14 @@
         Older bootloaders cannot load the firmware. See <i>Update UF2 Bootloader</i> below.</b>
       </p>
     {% endif %}
-    <p>
-      <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
-    </p>
+    <div class="release-details">
+      <p>
+        <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
+      </p>
+      {% if page.download_instructions != nil and page.download_instructions != "" %}
+        <a class="download-button install-instructions-button" target="_blank" href="{{ page.download_instructions }}">HOW TO INSTALL<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
     <div class="download-details">
       {% comment %}
       Create a list of language codes and names so it can be sorted.
