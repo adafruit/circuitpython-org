@@ -13,6 +13,7 @@ features:
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor
   - USB-C
+  - Castellated Pads
 ---
 
 Seeed Studio XIAO RP2040 is a microcontroller using the Raspberry RP2040 chip. It runs at up to 133 MHz, is built with rich interfaces in a tiny thumb size, and fully supports Arduino, MicroPython, and CircuitPython.

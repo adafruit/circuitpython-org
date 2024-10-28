@@ -12,6 +12,7 @@ family: raspberrypi
 features:
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 Cast your project fears away with the Cast-Away RP2040, a small and easy to use RP2040 dev board designed to take your project to the beach. This board uses the popular Raspberry Pi RP2040, a dual core ARM Cortex M0 microcontroller.

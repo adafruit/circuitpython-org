@@ -10,7 +10,8 @@ board_image: "mini_sam_m4.jpg"
 date_added: 2019-03-12
 family: atmel-samd
 bootloader_id: mini_sam_m4
-
+features:
+  - Castellated Pads
 ---
 
 Mini SAM is a LEGO® minifigure-sized development board based on the Microchip SAMD51G 48-Pin 32-Bit ARM® Cortex®-M4F MCU  running at 48Mhz.

@@ -18,7 +18,7 @@ features:
   - Battery Charging
   - USB-C
   - Xiao / QTPy Form Factor
-
+  - Castellated Pads
 ---
 
 Seeed Studio XIAO nRF52840 (Sense) has equipped a powerful Nordic nRF52840 MCU which is designed in a Bluetooth 5.0 module, built around 32-bit ARM® Cortex™-M4 CPU with Floating-Point Unit(FPU) operating at 64Mhz. With the capabilities of wireless connection, it still remains the Seeed Studio XIAO series classic form-factor of small and exquisite which can be used for wearable devices and Internet of Things projects. Furthermore, it only costs 5 μA in the deep sleep model and it supports battery charge management because of the BQ25101 chip.

@@ -16,6 +16,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - Wi-Fi
+  - Castellated Pads
 ---
 
 What's life without a little RISC? This miniature dev board is perfect for small projects: it comes with [our favorite connector - the STEMMA QT](http://adafruit.com/stemma), a chainable I2C port, WiFi, Bluetooth LE, and plenty of FLASH and RAM memory for many IoT projects. What a cutie pie! Or is it... a **QT Py**? This diminutive dev board comes with a RISC-V IoT microcontroller, the **ESP32-C3**!

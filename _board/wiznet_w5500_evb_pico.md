@@ -10,7 +10,8 @@ board_image: "w5500-evb-pico.jpg"
 date_added: 2022-07-25
 family: raspberrypi
 features:
-    - Breadboard-Friendly
+  - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 W5500-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5500 – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5500.

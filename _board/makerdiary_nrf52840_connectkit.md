@@ -13,6 +13,7 @@ features:
   - Bluetooth/BTLE
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 nRF52840 Connect Kit is an open-source prototyping kit designed for connected projects. It is built using the nRF52840 SoC, which has protocol support for Bluetooth LE, Bluetooth mesh, Thread, Zigbee, 802.15.4, ANT and 2.4 GHz proprietary stacks. It provides Arm TrustZone® CryptoCell cryptographic unit as well as numerous peripherals such as USB 2.0, NFC-A, GPIO, UART, SPI, TWI, PDM, I2S, QSPI, PWM, ADC, QDEC to support a wide range of applications.

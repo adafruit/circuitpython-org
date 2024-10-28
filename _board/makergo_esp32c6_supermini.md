@@ -15,6 +15,7 @@ features:
   - Breadboard-Friendly
   - USB-C
   - Wi-Fi
+  - Castellated Pads
 ---
 
 ESP32C6 SuperMini is an IoT mini development board based on the Espressif ESP32C6 chip.

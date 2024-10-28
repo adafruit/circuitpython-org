@@ -13,6 +13,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 The SparkFun RP2350 Pro Micro provides a powerful development platform in SparkFun's compact Pro Micro form factor, built around the RP2350 from the Raspberry Pi Foundation. This board uses the updated Pro Micro form factor. It includes a USB-C connector, Qwiic connector, WS2812B addressable RGB LED, Boot and Reset buttons, resettable PTC fuse, and PTH and castellated solder pads.
 

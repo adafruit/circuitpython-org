@@ -15,6 +15,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor
+  - Castellated Pads
 ---
 
 # Keyboard Optimized
