@@ -968,6 +968,10 @@ input.filter-checkbox, label {
   font-weight: 500;
   margin: 5px 0 5px 0;
 }
+#downloads-page .manufacturers ul {
+  max-height: 300px;
+  overflow-y: scroll;
+}
 
 @media (max-width: 1024px) {
   #downloads-page .downloads-section {
