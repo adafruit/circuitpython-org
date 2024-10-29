@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_feather_rp2040_scorpio.jpg"
 date_added: 2022-12-23
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/introducing-feather-rp2040-scorpio/install-circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

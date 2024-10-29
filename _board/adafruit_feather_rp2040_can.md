@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_feather_rp2040_can.jpg"
 date_added: 2023-05-02
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-rp2040-can-bus-feather/circuitpython
 tags:
   - CAN Bus Feather
   - Feather CAN Bus
