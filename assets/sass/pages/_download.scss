@@ -184,7 +184,7 @@
       }
     }
   }
-  .feature-span {
+  .feature-span, .library-link {
     padding: 2px 4px 2px 4px;
     margin-left: 3px;
     margin-bottom: 3px;
@@ -193,6 +193,12 @@
     color: #fff;
     border-radius: 5px;
     font-size: 14px;
+  }
+
+  .library-link:hover{
+    outline: 2px solid $purple;
+    background-color: #fff;
+    color: $purple;
   }
 }
 

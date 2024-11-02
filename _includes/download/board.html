@@ -161,7 +161,7 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/{{ module_name }}">
           {% endif %}
             {{ module_name }}
-          </a>{% if module_name != version.modules[version.modules.size - 1] %}, {% endif %}
+          </a>
           {% endfor %}
         </span>
     </p>
@@ -173,7 +173,7 @@
           {% for module_name in version.frozen_libraries %}
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/{{ module_name | split: 'adafruit_' | last }}">
             {{ module_name }}
-          </a>{% if module_name != version.frozen_libraries[version.frozen_libraries.size - 1] %}, {% endif %}
+          </a>
           {% endfor %}
         </span>
     </p>
