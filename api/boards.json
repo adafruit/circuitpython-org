@@ -1832,6 +1832,28 @@
         "description": "<p>The Autosport Labs ESP32-CAN-X2 is a development board designed to make CAN bus communications easy for automotive and industrial applications.</p><p>It features the ESP32-S3-WROOM-1-N8R8 using an Xtensa® 32-bit LX7 CPU operating at up to 240 MHz (8MB flash, 8MB PSRAM), dual CAN bus support, two CAN bus transceivers, and an automotive-grade power supply to safely integrate it into your car project.</p><p>All IO pins are broken out to a breadboard-friendly layout so you can easily integrate it into bigger projects. A separate connector also provides power, ground, and dual CAN connections so you can quickly wire it into CAN networks.</p><p>The two CAN bus networks brings additional possibilities, such as:</p><ul>  <li>Bridge two CAN bus networks with different baud rates</li>  <li>Collect data from two different CAN bus networks with different baud rates</li>  <li>Isolate traffic between CAN networks</li>  <li>Create a “man in the middle” agent, which will help identify the source of CAN messages, helpful for CAN bus reverse-engineering efforts</li></ul><p>Sample Projects are available to get you started quickly <a href=\"https://github.com/autosportlabs/ESP32-CAN-X2\">Example Projects in our Github</a></p><p><strong>Components:</strong></p><ul>  <li><strong>ESP32-S3-WROOM-1-N8R8</strong> microcontroller powerful dual-core Xtensa LX6 CPU running at up to 240 MHz.</li>  <li><strong>Automotive grade power supply</strong>: Ruggedized power supply up to 40v input, provides safety for automotive applications where damaging voltage surges and load dumps are common.</li>  <li><strong>Pin Headers</strong>: All available GPIO pins are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href=\"https://wiki.autosportlabs.com/ESP32-CAN-X2\">our documentation</a>.</li>  <li><strong>USB-C port</strong>: A USB-C port supplies power for programming, flashing your code, communications using the USB 1.1 specification, and also provides JTAG debugging.</li>  <li><strong>Boot Button</strong>: Firmware download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for installing firmware.</li>  <li><strong>Reset Button</strong>: Resets the device</li>  <li><strong>LED</strong>: User controllable LED; use it to indicate status or anything else you would like.</li>  <li><strong>Power LED</strong>: Turns on when power is connected to the board.</li>  <li><strong>Power / CAN headers</strong>: 6 pin JST-PH header provides 12v (nominal) power, ground, CAN1 and CAN2 connections.</li>  <li><strong>CAN termination jumpers</strong>: 2 CAN termination jumpers are provided, default enabled with 120 ohm termination</li>  <li><strong>Built-in CAN transceivers</strong>: Dual CAN transceivers are included on board.</li>  <li><strong>2nd CAN bus provided by MCP2515</strong>: while CAN1 uses the built in TWAI CAN compatible controller; CAN2 uses the on-board MCP2515 CAN bus controller.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.autosportlabs.com/product/esp32-can-x2-dual-can-bus-automotive-grade-development-board/\">Autosport Labs</a></li>  <li><a href=\"https://github.com/autosportlabs/ESP32-CAN-X2\">Example Projects</a></li>  <li><a href=\"https://wiki.autosportlabs.com/ESP32-CAN-X2\">Full documentation</a></li></ul>"
     },
     {
+        "board_id": "barduino",
+        "title": "Barduino Download",
+        "name": "Barduino",
+        "board_url": [
+            "https://fablabbcn-projects.gitlab.io/electronics/barduino-docs/"
+        ],
+        "board_image": "barduino.jpg",
+        "date_added": "2024-09-06",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "USB-C",
+            "Bluetooth/BTLE",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/barduino/",
+        "description": "<p>Barduino is a development board created by Fablab Barcelona as a tool for its educational programs.</p><p>It’s based on the ESP32-S3 (ESP32-S3-WROOM-1) microcontroller.</p><h2 id=\"resources\">Resources</h2><ul>  <li><a href=\"https://fablabbcn-projects.gitlab.io/electronics/barduino-docs/\">Hardware Documentation</a></li></ul>"
+    },
+    {
         "board_id": "bast_pro_mini_m0",
         "title": "Bast Pro Mini M0 Download",
         "name": "Bast Pro Mini M0",

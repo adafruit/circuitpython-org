@@ -431,6 +431,17 @@
             }
         ]
     },
+    "barduino": {
+        "name": "Barduino",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.2.0",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/barduino/en_US/adafruit-circuitpython-barduino-en_US-9.2.0.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/barduino/en_US/adafruit-circuitpython-barduino-en_US-9.2.0.uf2"
+            }
+        ]
+    },
     "sunton_esp32_2432S032C": {
         "name": "Sunton ESP32-2432S032C",
         "chipfamily": "esp32",
