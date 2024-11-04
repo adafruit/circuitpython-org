@@ -178,9 +178,11 @@
     {% endif %}
     {% if page.features %}
     <p>Features:
-    {% for feature in page.features %}
-      <span class="feature-span">{{feature}}</span>
-    {% endfor %}
+      <span class="features-list">
+      {% for feature in page.features %}
+        <a class="library-link" href="/downloads?features={{ feature }}">{{feature}}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      </span>
     </p>
     {% endif %}
   </div>
