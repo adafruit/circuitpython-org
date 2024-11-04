@@ -116,7 +116,7 @@
           background-color: $purple;
         }
 
-        .download-modules {
+        .download-modules, .features-list {
             color: $purple;
         }
       }
@@ -135,7 +135,7 @@
         a.download-button:hover, a.download-button-unrecommended:hover {
           background-color: $purple;
         }
-        .download-modules {
+        .download-modules, .features-list {
             color: $purple;
         }
       }
@@ -183,16 +183,6 @@
         }
       }
     }
-  }
-  .feature-span {
-    padding: 2px 4px 2px 4px;
-    margin-left: 3px;
-    margin-bottom: 3px;
-    display: inline-block;
-    background-color: $purple;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 14px;
   }
 }
 
