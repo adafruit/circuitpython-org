@@ -1093,7 +1093,7 @@ input.filter-checkbox, label {
 #download-page .download-section .download .stable a.download-button, #download-page .download-section .download .stable a.download-button-unrecommended {
   background-color: #652f8f;
 }
-#download-page .download-section .download .stable .download-modules {
+#download-page .download-section .download .stable .download-modules, #download-page .download-section .download .stable .features-list {
   color: #652f8f;
 }
 #download-page .download-section .download .unstable .language-select {
@@ -1108,7 +1108,7 @@ input.filter-checkbox, label {
 #download-page .download-section .download .unstable a.download-button:hover, #download-page .download-section .download .unstable a.download-button-unrecommended:hover {
   background-color: #652f8f;
 }
-#download-page .download-section .download .unstable .download-modules {
+#download-page .download-section .download .unstable .download-modules, #download-page .download-section .download .unstable .features-list {
   color: #652f8f;
 }
 #download-page .download-section .download .unrecommended .language-select:after {
@@ -1143,16 +1143,6 @@ input.filter-checkbox, label {
 }
 #download-page .download-section .download .previous-versions-buttons a:last-child, #download-page .download-section .download .previous-versions-buttons button:last-child {
   margin-bottom: 0;
-}
-#download-page .feature-span {
-  padding: 2px 4px 2px 4px;
-  margin-left: 3px;
-  margin-bottom: 3px;
-  display: inline-block;
-  background-color: #652f8f;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 14px;
 }
 
 @media (max-width: 1366px) {
