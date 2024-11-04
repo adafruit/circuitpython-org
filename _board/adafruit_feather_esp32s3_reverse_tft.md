@@ -10,6 +10,7 @@ board_image: "adafruit_feather_esp32s3_reverse_tft.jpg"
 date_added: 2023-01-31
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_reverse_tft
+download_instructions: https://learn.adafruit.com/esp32-s3-reverse-tft-feather/install-circuitpython
 tags:
   - Feather ESP32-S3 Reverse TFT
   - Reverse Feather TFT

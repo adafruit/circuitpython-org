@@ -10,6 +10,7 @@ board_image: "adafruit_feather_esp32s3_nopsram.jpg"
 date_added: 2022-04-01
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_nopsram
+download_instructions: https://learn.adafruit.com/adafruit-esp32-s3-feather/circuitpython
 downloads_display: true
 features:
   - Feather-Compatible

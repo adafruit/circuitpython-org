@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_feather_rp2040.jpg"
 date_added: 2021-01-21
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-feather-rp2040-pico/circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

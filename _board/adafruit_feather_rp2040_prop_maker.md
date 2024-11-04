@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_feather_rp2040_prop_maker.jpg"
 date_added: 2023-05-04
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-rp2040-prop-maker-feather/circuitpython
 tags:
   - Propmaker Feather
   - Prop-Maker Feather

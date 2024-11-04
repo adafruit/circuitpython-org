@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_feather_rp2040_dvi.jpg"
 date_added: 2023-03-27
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-feather-rp2040-dvi/circuitpython
 tags:
   - DVI Feather
   - Feather DVI
