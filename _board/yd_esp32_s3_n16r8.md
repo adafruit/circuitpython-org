@@ -24,4 +24,4 @@ Most of the pins of the modules on the board have been led out to the pin rows o
 * [Aliexpress](https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982306)
 
 Hardware information and example code:
-* [Github] (https://github.com/vcc-gnd/YD-ESP32-S3)
+* [Github](https://github.com/vcc-gnd/YD-ESP32-S3)
