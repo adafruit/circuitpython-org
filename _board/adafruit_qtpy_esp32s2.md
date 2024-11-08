@@ -17,6 +17,7 @@ features:
   - Breadboard-Friendly
   - Wi-Fi
   - Xiao / QTPy Form Factor
+  - Castellated Pads
 ---
 
 What has your favorite Espressif WiFi microcontroller, comes with [our favorite connector - the STEMMA QT](http://adafruit.com/stemma), a chainable I2C port, and has lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy? What a cutie pie! Or is it... a **QT Py**? This diminutive dev board comes with one of our new favorite lil chips, the **ESP32-S2**!

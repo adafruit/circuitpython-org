@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_feather_rp2350.jpg"
 date_added: 2024-08-08
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-feather-rp2350/install-circuitpython-2
 features:
   - Feather-Compatible
   - Battery Charging

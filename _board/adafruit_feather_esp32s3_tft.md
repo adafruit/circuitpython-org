@@ -11,6 +11,7 @@ date_added: 2022-06-09
 family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_tft
 downloads_display: true
+download_instructions: https://learn.adafruit.com/adafruit-esp32-s3-tft-feather/circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

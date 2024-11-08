@@ -13,6 +13,8 @@ bootloader_id: circuitbrains_basic_m0
 downloads_display: true
 blinka: false
 download_instructions: ""
+features:
+  - Castellated Pads
 ---
 
 CircuitPython on an ARM Cortex M0 in 1 square inch! This "Just Add Solder" castellated module is perfect for incorporating into your own project. The CircuitBrains Basic board footprint is small enough to fit into narrow spaces and wearable projects.

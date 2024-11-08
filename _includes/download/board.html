@@ -45,9 +45,14 @@
         Older bootloaders cannot load the firmware. See <i>Update UF2 Bootloader</i> below.</b>
       </p>
     {% endif %}
-    <p>
-      <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
-    </p>
+    <div class="release-details">
+      <p>
+        <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
+      </p>
+      {% if page.download_instructions != nil and page.download_instructions != "" %}
+        <a class="download-button install-instructions-button" target="_blank" href="{{ page.download_instructions }}">HOW TO INSTALL<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
     <div class="download-details">
       {% comment %}
       Create a list of language codes and names so it can be sorted.
@@ -131,7 +136,8 @@
         </select>
       </label>
       <div class="download-buttons">
-      {% for extension in version.extensions %}
+      {% assign reverse_extensions = version.extensions | reverse %}
+      {% for extension in reverse_extensions %}
         <a class="download-button {% if version.stable %}stable{% else %}unstable{% endif %} {{ extension }}" href="{{ download_url }}/en_US/adafruit-circuitpython-{{ board_id }}-en_US-{{ version.version }}.{{ extension }}">DOWNLOAD .{{ extension | upcase }} NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       {% endfor %}
       {% if page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32' or page.family == 'esp32c6' %}
@@ -154,8 +160,7 @@
           {% else %}
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/{{ module_name }}">
           {% endif %}
-            {{ module_name }}
-          </a>{% if module_name != version.modules[version.modules.size - 1] %}, {% endif %}
+            {{ module_name }}</a>{% unless forloop.last %}, {% endunless %}
           {% endfor %}
         </span>
     </p>
@@ -166,10 +171,18 @@
         <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">
           {% for module_name in version.frozen_libraries %}
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/{{ module_name | split: 'adafruit_' | last }}">
-            {{ module_name }}
-          </a>{% if module_name != version.frozen_libraries[version.frozen_libraries.size - 1] %}, {% endif %}
+            {{ module_name }}</a>{% unless forloop.last %}, {% endunless %}
           {% endfor %}
         </span>
+    </p>
+    {% endif %}
+    {% if page.features %}
+    <p>Features:
+      <span class="features-list">
+      {% for feature in page.features %}
+        <a class="library-link" href="/downloads?features={{ feature }}">{{feature}}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      </span>
     </p>
     {% endif %}
   </div>

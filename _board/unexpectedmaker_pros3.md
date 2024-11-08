@@ -19,6 +19,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Wi-Fi
+  - Castellated Pads
 ---
 
 Introducing the ProS3 - The Ultimate Pro ESP32-S3 Development Board!

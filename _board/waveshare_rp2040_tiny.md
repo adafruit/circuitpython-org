@@ -11,6 +11,7 @@ date_added: 2024-03-18
 family: raspberrypi
 features:
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 Waveshare RP2040-Tiny Development Board, Raspberry Pi Microcontroller Development Board, Based On Official RP2040 Dual Core Processor, USB Port Adapter Board Optional

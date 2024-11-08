@@ -15,6 +15,7 @@ features:
   - Battery Charging
   - Bluetooth/BTLE
   - Breadboard-Friendly
+  - Castellated Pads
   - USB-C
   - Wi-Fi
 ---

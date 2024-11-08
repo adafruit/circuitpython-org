@@ -12,6 +12,7 @@ family: raspberrypi
 features:
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 a Pico-like MCU board based on Raspberry Pi RP2040

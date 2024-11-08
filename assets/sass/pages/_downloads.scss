@@ -232,6 +232,10 @@
       }
     }
   }
+  .manufacturers ul {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
 }
 
 @media (max-width: $screen-md) {

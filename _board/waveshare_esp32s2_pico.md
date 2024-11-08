@@ -14,6 +14,7 @@ features:
   - Breadboard-Friendly
   - USB-C
   - Wi-Fi
+  - Castellated Pads
 ---
 
 This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.

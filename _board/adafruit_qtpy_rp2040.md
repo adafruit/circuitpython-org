@@ -14,6 +14,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor
+  - Castellated Pads
 ---
 
 What a cutie pie! Or is it... a QT Py? This diminutive dev board comes with one of our new favorite chip, the RP2040. It's been made famous in the new [Raspberry Pi Pico](https://www.adafruit.com/pico) *and* our [Feather RP2040](http://www.adafruit.com/product/4884) and [ItsyBitsy RP2040](http://www.adafruit.com/product/4888), but what if we wanted something really *smol?*

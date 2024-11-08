@@ -14,6 +14,7 @@ features:
   - Battery Charging
   - Bluetooth/BTLE
   - Wi-Fi
+  - Castellated Pads
 ---
 
 Introducing the NanoS3 - The world’s smallest, fully-featured ESP32-S3 board in module form!

@@ -15,6 +15,7 @@ features:
   - USB-C
   - Wi-Fi
   - Battery Charging
+  - Castellated Pads
 ---
 
 Seeed Studio XIAO ESP32C3 featuring **ESP32C3** carries a complete Wi-Fi system along with Bluetooth Low Energy function. With its exquisite design and **WiFi+BT** ability, it's perfect for various **IoT controlling scenarios** and **complex carriable applications**.

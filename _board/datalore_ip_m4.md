@@ -10,6 +10,7 @@ board_image: "datalore_ip_m4.jpg"
 date_added: 2019-04-05
 family: atmel-samd
 features:
+  - Castellated Pads
 ---
 
 Datalore IP M4 is an integrable CircuitPython ready module for soldering onto projects. Like

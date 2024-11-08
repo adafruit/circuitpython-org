@@ -12,6 +12,7 @@ date_added: 2024-08-08
 family: raspberrypi
 features:
   - Breadboard-Friendly
+  - Castellated Pads
 
 ---
 

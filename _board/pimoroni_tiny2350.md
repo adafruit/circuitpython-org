@@ -13,6 +13,7 @@ family: raspberrypi
 features:
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 A postage stamp sized RP2350 development board with a USB-C connection, perfect for portable projects, wearables, and embedding into stuff.

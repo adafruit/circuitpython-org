@@ -13,6 +13,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 The Liatris is a new controller designed by splitkb.com that's a designed specifically for (split) keyboards. It's a drop-in replacement for the Pro Micro, and a perfect alternative for other RP2040-based controllers.

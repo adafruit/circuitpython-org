@@ -13,6 +13,7 @@ features:
   - Wi-Fi
   - Bluetooth/BTLE
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 **A limited number of boards have [inverted green/blue on the internal status RGB LEDs](https://support.arduino.cc/hc/en-us/articles/9589073738012-About-Nano-ESP32-boards-with-inverted-green-and-blue-pins).** Try this board first. If the colors on your board appear inverted, use the [inverted Arduino Nano ESP32](arduino_nano_esp32s3_inverted_statusled) board definition instead.

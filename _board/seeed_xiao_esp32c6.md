@@ -15,6 +15,7 @@ features:
   - USB-C
   - Wi-Fi
   - Battery Charging
+  - Castellated Pads
 ---
 
 XIAO ESP32C6 is a cost-effective MCU based on Espressif’s ESP32-C6. This compact MCU excels in Matter-compliant smart home applications with its support for various wireless connectivity (2.4GHz Wi-Fi 6, BLE 5.0, Zigbee, and Thread). Designed with the thumb-size footprint and a single-sided mount of the XIAO Series, it's perfect for space-limited projects. Encrypted on the chip, the XIAO ESP32C6 ensures a desired level of security streamlined development experience, and swift market entry by integrating easily with major IoT Cloud platforms.

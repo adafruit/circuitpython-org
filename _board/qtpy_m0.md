@@ -15,6 +15,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor
+  - Castellated Pads
 ---
 
 > **Note:** If you soldered the [optional SOIC-8 SPI Flash chip](https://www.adafruit.com/product/4763) on to your QT Py, see the ["QT Py Haxpress"](../qtpy_m0_haxpress/) page to make use of the extra space!

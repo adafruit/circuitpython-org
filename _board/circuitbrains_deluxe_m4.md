@@ -14,6 +14,8 @@ bootloader_id: circuitbrains_deluxe_m4
 downloads_display: true
 blinka: false
 download_instructions: ""
+features:
+  - Castellated Pads
 ---
 
 CircuitPython on an ARM Cortex M4 in almost 1 square inch! This "Just Add Solder" castellated module is perfect for incorporating into your own project. The CircuitBrains Deluxe board footprint is small enough to fit into narrow spaces and wearable projects.

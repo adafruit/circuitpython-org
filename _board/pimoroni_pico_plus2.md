@@ -14,6 +14,7 @@ features:
   - USB-C
   - STEMMA QT/QWIIC
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 A top of the line Pirate-brand RP2350 microcontroller with 16MB of flash memory, 8MB of PSRAM, USB-C, Qw/ST and debug connectors.

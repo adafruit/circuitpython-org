@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_feather_rp2040_usb_host.jpg"
 date_added: 2023-05-02
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-feather-rp2040-with-usb-type-a-host/circuitpython
 tags:
   - USB Host Feather
   - Feather USB Host

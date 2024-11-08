@@ -16,6 +16,7 @@ features:
   - Bluetooth/BTLE
   - Camera
   - Battery Charging
+  - Castellated Pads
 ---
 
 FireBeetle 2 ESP32-S3 is a high-performance main-controller built around the ESP32-S3-WROOM-1-N16R8 module. ESP32-S3-WROOM-1-N16R8 comes with 16MB Flash and 8MB PSRAM for storing more data. The acceleration for neural network computing and signal processing workloads provided by the ESP32-S3 chip make the module an ideal choice for a wide variety of applications, such as speech recognition, image recognition, and so on.
