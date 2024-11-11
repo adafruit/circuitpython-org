@@ -12,6 +12,7 @@ family: raspberrypi
 features:
   - USB-C
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 The 0xCB Gemini is our Waveshare RP2040-Zero compatible microcontroller. It includes all the features of it's bigger brother, the [0xCB Helios](https://circuitpython.org/board/0xcb_helios/), in a much smaller form factor.
