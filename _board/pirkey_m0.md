@@ -10,7 +10,6 @@ board_image: "pirkey_m0.jpg"
 date_added: 2019-03-11
 family: atmel-samd
 bootloader_id: pirkey
-download_instructions: 
 ---
 
 The pIRkey adds an IR remote receiver to any computer, laptop, tablet...any computer or device with a USB port that can use a keyboard. This little board slides into any USB A port, and shows up as an every-day USB keyboard. The onboard ATSAMD21 microcontroller listens for IR remote signals and converts them to keypresses, mouse movements, or even USB serial output.
