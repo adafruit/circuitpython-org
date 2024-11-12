@@ -10,6 +10,7 @@ board_image: "adafruit_qtpy_esp32_pico.jpg"
 date_added: 2022-08-19
 family: esp32
 downloads_display: true
+download_instructions: https://learn.adafruit.com/circuitpython-with-esp32-quick-start/installing-circuitpython
 features:
   - Xiao / QTPy Form Factor
   - Bluetooth/BTLE
