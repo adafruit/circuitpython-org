@@ -11,6 +11,7 @@ board_image: "feather_m0_rfm69.jpg"
 date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: radiofruit_m0
+download_instructions: https://learn.adafruit.com/adafruit-feather-m0-radio-with-rfm69-packet-radio/circuitpython-for-rfm69
 features:
   - Feather-Compatible
   - Battery Charging

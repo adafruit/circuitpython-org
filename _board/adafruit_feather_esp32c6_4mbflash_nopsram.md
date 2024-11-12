@@ -10,6 +10,7 @@ board_image: "adafruit_feather_esp32c6_4mbflash_nopsram.jpg"
 date_added: 2024-03-18
 family: esp32c6
 downloads_display: true
+download_instructions: https://learn.adafruit.com/adafruit-esp32-c6-feather/install-circuitpython
 features:
   - Feather-Compatible
   - Battery Charging
