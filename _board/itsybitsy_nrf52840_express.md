@@ -10,6 +10,7 @@ board_image: "itsybitsy_nrf52840_express.jpg"
 date_added: 2019-11-04
 family: nrf52840
 bootloader_id: feather_nrf52840_express
+download_instructions: https://learn.adafruit.com/adafruit-itsybitsy-nrf52840-express/circuitpython
 features:
   - Bluetooth/BTLE
   - Breadboard-Friendly

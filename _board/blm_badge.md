@@ -11,6 +11,7 @@ board_image: "blmbadge.jpg"
 date_added: 2020-09-01
 family: atmel-samd
 bootloader_id: blm_badge
+download_instructions: https://learn.adafruit.com/black-lives-matter-badge/circuitpython
 features:
   - STEMMA QT/QWIIC
   - USB-C

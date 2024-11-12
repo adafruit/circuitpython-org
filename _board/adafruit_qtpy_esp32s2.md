@@ -11,6 +11,7 @@ board_image: "adafruit_qtpy_esp32s2.jpg"
 date_added: 2021-11-30
 family: esp32s2
 bootloader_id: adafruit_qtpy_esp32s2
+download_instructions: https://learn.adafruit.com/adafruit-qt-py-esp32-s2/circuitpython
 features:
   - STEMMA QT/QWIIC
   - USB-C

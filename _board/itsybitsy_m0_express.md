@@ -10,6 +10,7 @@ board_image: "itsybitsy_m0_express.jpg"
 date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: itsybitsy_m0
+download_instructions: https://learn.adafruit.com/introducing-itsy-bitsy-m0/circuitpython
 features:
   - Breadboard-Friendly
 ---

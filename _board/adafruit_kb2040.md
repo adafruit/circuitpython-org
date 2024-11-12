@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_kb2040.jpg"
 date_added: 2021-11-15
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-kb2040/circuitpython
 features:
   - STEMMA QT/QWIIC
   - USB-C

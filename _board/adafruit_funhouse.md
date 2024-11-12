@@ -11,6 +11,7 @@ board_image: "adafruit_funhouse.jpg"
 date_added: 2021-04-06
 family: esp32s2
 bootloader_id: adafruit_funhouse_esp32s2
+download_instructions: https://learn.adafruit.com/adafruit-funhouse/circuitpython
 features:
   - Wi-Fi
   - STEMMA QT/QWIIC

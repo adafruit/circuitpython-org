@@ -10,6 +10,7 @@ board_image: "hallowing_m4_express.jpg"
 date_added: 2019-08-30
 family: atmel-samd
 bootloader_id: hallowing_m4
+download_instructions: https://learn.adafruit.com/adafruit-hallowing-m4/circuitpython
 features:
   - Display
   - Speaker

@@ -9,6 +9,7 @@ board_url:
 board_image: "feather_stm32f405_express.jpg"
 date_added: 2019-09-26
 family: stm
+download_instructions: https://learn.adafruit.com/adafruit-stm32f405-feather-express/circuitpython-setup
 features:
   - Feather-Compatible
   - Battery Charging

@@ -11,6 +11,7 @@ board_image: "itsybitsy_m4_express.jpg"
 date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: itsybitsy_m4
+download_instructions: https://learn.adafruit.com/introducing-adafruit-itsybitsy-m4/circuitpython
 features:
   - Breadboard-Friendly
 ---

@@ -11,6 +11,7 @@ board_image: "hallowing_m0_express.jpg"
 date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: hallowing_m0
+download_instructions: https://learn.adafruit.com/adafruit-hallowing/circuitpython
 features:
   - Display
   - Speaker

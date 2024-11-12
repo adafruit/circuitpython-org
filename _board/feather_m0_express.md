@@ -10,6 +10,7 @@ board_image: "feather_m0_express.jpg"
 date_added: 2019-03-08
 family: atmel-samd
 bootloader_id: feather_m0_express
+download_instructions: https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/kattni-circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

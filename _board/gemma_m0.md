@@ -12,6 +12,7 @@ board_image: "gemma_m0.jpg"
 date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: gemma_m0
+download_instructions: https://learn.adafruit.com/adafruit-gemma-m0/circuitpython
 features:
   - Solder-Free Alligator Clip
 ---

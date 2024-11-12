@@ -12,6 +12,7 @@ family: esp32s3
 bootloader_id: adafruit_qualia_s3_rgb666
 tags:
   - Qualia S3
+download_instructions: https://learn.adafruit.com/adafruit-qualia-esp32-s3-for-rgb666-displays/circuitpython-5
 features:
   - External Display
   - Wi-Fi

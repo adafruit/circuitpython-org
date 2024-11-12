@@ -14,6 +14,7 @@ board_image: "pybadge.jpg"
 date_added: 2019-03-19
 family: atmel-samd
 bootloader_id: arcade_pybadge
+download_instructions: https://learn.adafruit.com/adafruit-pybadge/installing-circuitpython
 features:
   - Display
   - Speaker

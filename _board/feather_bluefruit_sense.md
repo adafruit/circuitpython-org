@@ -10,6 +10,7 @@ board_image: "feather_bluefruit_sense.jpg"
 date_added: 2020-02-01
 family: nrf52840
 bootloader_id: feather_nrf52840_sense
+download_instructions: https://learn.adafruit.com/adafruit-feather-sense/circuitpython-on-feather-sense
 features:
   - Feather-Compatible
   - Battery Charging

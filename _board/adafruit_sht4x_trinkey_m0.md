@@ -10,6 +10,7 @@ board_url:
 board_image: "adafruit_sht4x_trinkey_m0.jpg"
 date_added: 2024-03-13
 family: atmel-samd
+download_instructions: https://learn.adafruit.com/adafruit-sht4x-trinkey/install-circuitpython
 features:
 
 ---
