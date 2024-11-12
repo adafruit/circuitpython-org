@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_metro_m7_1011_sd.jpg"
 date_added: 2023-09-06
 family: mimxrt10xx
+download_instructions: https://learn.adafruit.com/adafruit-metro-m7-microsd/circuitpython
 features:
   - STEMMA QT/QWIIC
   - USB-C

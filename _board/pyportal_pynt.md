@@ -10,6 +10,7 @@ board_image: "pyportal_pynt.jpg"
 date_added: 2019-12-11
 family: atmel-samd
 bootloader_id: pyportal_m4
+download_instructions: https://learn.adafruit.com/adafruit-pyportal/install-circuitpython
 features:
   - Display
   - Speaker

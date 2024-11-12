@@ -10,6 +10,7 @@ board_image: "feather_nrf52840_express.jpg"
 date_added: 2019-03-09
 family: nrf52840
 bootloader_id: feather_nrf52840_express
+download_instructions: https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

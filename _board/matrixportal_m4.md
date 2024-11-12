@@ -11,6 +11,7 @@ board_image: "matrixportal_m4.jpg"
 date_added: 2020-09-16
 family: atmel-samd
 bootloader_id: matrixportal_m4
+download_instructions: https://learn.adafruit.com/adafruit-matrixportal-m4 
 tags:
   - Matrix Portal
 features:

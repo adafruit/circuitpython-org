@@ -10,6 +10,7 @@ board_image: "pyportal_titano.jpg"
 date_added: 2019-08-30
 family: atmel-samd
 bootloader_id: pyportal_m4
+download_instructions: https://learn.adafruit.com/adafruit-pyportal-titano/circuitpython
 features:
   - Display
   - Speaker

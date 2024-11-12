@@ -10,6 +10,7 @@ board_image: "adafruit_matrixportal_s3.jpg"
 date_added: 2023-06-26
 family: esp32s3
 bootloader_id: adafruit_matrixportal_s3
+download_instructions: https://learn.adafruit.com/adafruit-matrixportal-s3/install-circuitpython
 tags:
   - Matrix Portal
 features:

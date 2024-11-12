@@ -10,6 +10,7 @@ board_url:
 board_image: "adafruit_magtag_2.9_grayscale.jpg"
 date_added: 2020-11-10
 family: esp32s2
+download_instructions: https://learn.adafruit.com/adafruit-magtag/circuitpython
 bootloader_id: adafruit_magtag_29gray
 features:
   - Wi-Fi

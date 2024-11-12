@@ -9,6 +9,7 @@ board_url:
 board_image: "metro_m7_1011.jpg"
 date_added: 2020-10-16
 family: mimxrt10xx
+download_instructions: https://learn.adafruit.com/adafruit-metro-m4-express-featuring-atsamd51/circuitpython
 features:
   - Wi-Fi
   - STEMMA QT/QWIIC

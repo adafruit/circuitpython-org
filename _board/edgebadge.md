@@ -10,6 +10,7 @@ board_image: "edgebadge.jpg"
 date_added: 2019-11-19
 family: atmel-samd
 bootloader_id: arcade_pybadge
+download_instructions: 
 features:
   - Display
   - Speaker

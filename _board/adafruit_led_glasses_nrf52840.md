@@ -11,6 +11,7 @@ board_image: "adafruit_led_glasses_nrf52840.jpg"
 date_added: 2021-09-03
 family: nrf52840
 bootloader_id: ledglasses_nrf52840
+download_instructions: https://learn.adafruit.com/adafruit-eyelights-led-glasses-and-driver/circuitpython
 features:
   - USB-C
   - Bluetooth/BTLE

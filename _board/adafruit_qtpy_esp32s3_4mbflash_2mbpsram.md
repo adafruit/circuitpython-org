@@ -10,6 +10,7 @@ board_image: "adafruit_qtpy_esp32s3_4mbflash_2mbpsram.jpg"
 date_added: 2023-07-11
 family: esp32s3
 bootloader_id: adafruit_qtpy_esp32s3_n4r2
+download_instructions: https://learn.adafruit.com/adafruit-qt-py-esp32-s3/circuitpython-2
 features:
   - STEMMA QT/QWIIC
   - USB-C

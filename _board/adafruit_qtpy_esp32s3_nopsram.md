@@ -11,6 +11,7 @@ date_added: 2022-02-14
 family: esp32s3
 bootloader_id: adafruit_qtpy_esp32s3
 downloads_display: true
+download_instructions: https://learn.adafruit.com/adafruit-qt-py-esp32-s3/circuitpython-2
 features:
   - STEMMA QT/QWIIC
   - USB-C
