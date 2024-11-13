@@ -24,20 +24,20 @@ The Maker badge board is official badge board for Maker Faire´s in Czech republ
 * Powered by ESP32-S2 module (single core 32-bit LX7 microprocessor running up to 240 MHz with 320kB of SRAM, 4 MB Flash (embedded))
 * Five touch buttons
 * Reset and boot buttons (the boot button can also be used as a user button)
-* 5 x RGB LED with WS2812B IC
+* 4 x RGB LED with WS2812B IC
 * USB-C connector for power and programming
 * JST-PH connector for attaching a battery (input range 2.7V - 6V)
-* CR2032 battery holder
+* CR2032 battery holder on rev.A-C
 
 ## Notes
 
 * rev. A (distributed by Czech maker) is using 212 x 104 px e-ink display with UC8151D driver
-* rev. B (distributed by Make More) is using 250 x 122 px e-ink display with SSD1680 driver
+* rev. B-D (distributed by Make More) is using 250 x 122 px e-ink display with SSD1680 driver
 
 ## Purchase
 
-* will be added later
+* [MakerMarket](https://www.makermarket.cz/maker-badge/)
 
 ## Resources
 
-* [Github](https://github.com/dronecz/maker_badge)
+* [Github](https://github.com/makerfaireczech/maker_badge)
