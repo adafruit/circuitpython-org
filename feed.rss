@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 13 Nov 2024 05:04:09 -0500</lastBuildDate>
+<lastBuildDate>Wed, 13 Nov 2024 08:44:48 -0500</lastBuildDate>
 
 <item>
     <title>PicoADK v2 - Audio Development Kit</title>
@@ -10813,29 +10813,29 @@ version without the CH343 which connects the built-in USB-CDC/JTAG to the USB-C 
   <li>Powered by ESP32-S2 module (single core 32-bit LX7 microprocessor running up to 240 MHz with 320kB of SRAM, 4 MB Flash (embedded))</li>
   <li>Five touch buttons</li>
   <li>Reset and boot buttons (the boot button can also be used as a user button)</li>
-  <li>5 x RGB LED with WS2812B IC</li>
+  <li>4 x RGB LED with WS2812B IC</li>
   <li>USB-C connector for power and programming</li>
   <li>JST-PH connector for attaching a battery (input range 2.7V - 6V)</li>
-  <li>CR2032 battery holder</li>
+  <li>CR2032 battery holder on rev.A-C</li>
 </ul>
 
 <h2 id="notes">Notes</h2>
 
 <ul>
   <li>rev. A (distributed by Czech maker) is using 212 x 104 px e-ink display with UC8151D driver</li>
-  <li>rev. B (distributed by Make More) is using 250 x 122 px e-ink display with SSD1680 driver</li>
+  <li>rev. B-D (distributed by Make More) is using 250 x 122 px e-ink display with SSD1680 driver</li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li>will be added later</li>
+  <li><a href="https://www.makermarket.cz/maker-badge/">MakerMarket</a></li>
 </ul>
 
 <h2 id="resources">Resources</h2>
 
 <ul>
-  <li><a href="https://github.com/dronecz/maker_badge">Github</a></li>
+  <li><a href="https://github.com/makerfaireczech/maker_badge">Github</a></li>
 </ul>
  ]]></description>
     
