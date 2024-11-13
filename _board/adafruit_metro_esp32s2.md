@@ -10,6 +10,7 @@ board_image: "adafruit_metro_esp32s2.jpg"
 date_added: 2020-10-02
 family: esp32s2
 bootloader_id: adafruit_metro_esp32s2
+download_instructions: https://learn.adafruit.com/adafruit-metro-esp32-s2/circuitpython
 features:
   - Wi-Fi
   - Battery Charging

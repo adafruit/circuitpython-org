@@ -11,6 +11,7 @@ board_image: "feather_m4_express.jpg"
 date_added: 2019-03-08
 family: atmel-samd
 bootloader_id: feather_m4
+download_instructions: https://learn.adafruit.com/adafruit-feather-m4-express-atsamd51/circuitpython
 features:
   - Feather-Compatible
   - Battery Charging

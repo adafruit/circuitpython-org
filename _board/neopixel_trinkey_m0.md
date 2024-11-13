@@ -10,6 +10,7 @@ board_image: "neopixel_trinkey_m0.jpg"
 date_added: 2021-04-06
 family: atmel-samd
 bootloader_id: neopixel_trinkey_m0
+download_instructions: https://learn.adafruit.com/adafruit-neo-trinkey/circuitpython
 features:
 
 ---

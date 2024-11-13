@@ -19,6 +19,7 @@ board_image: "circuitplayground_express.jpg"
 date_added: 2018-12-13
 family: atmel-samd
 bootloader_id: circuitplay_m0
+download_instructions: https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart
 features:
   - Speaker
   - Solder-Free Alligator Clip

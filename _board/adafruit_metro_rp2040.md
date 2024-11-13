@@ -9,6 +9,7 @@ board_url:
 board_image: "adafruit_metro_rp2040.jpg"
 date_added: 2023-07-28
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-metro-rp2040/circuitpython
 features:
   - STEMMA QT/QWIIC
   - USB-C

@@ -12,6 +12,7 @@ board_image: "clue_nrf52840_express.jpg"
 date_added: 2019-12-30
 family: nrf52840
 bootloader_id: clue_nrf52840
+download_instructions: https://learn.adafruit.com/adafruit-clue/circuitpython
 features:
   - Display
   - Bluetooth/BTLE

@@ -10,6 +10,7 @@ board_image: "adafruit_itsybitsy_esp32.jpg"
 date_added: 2024-02-20
 family: esp32
 downloads_display: true
+download_instructions: https://learn.adafruit.com/adafruit-itsybitsy-esp32/circuitpython-setup
 features:
   - Bluetooth/BTLE
   - Wi-Fi

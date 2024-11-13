@@ -12,6 +12,7 @@ board_image: "pygamer.jpg"
 date_added: 2019-05-25
 family: atmel-samd
 bootloader_id: arcade_pygamer
+download_instructions: https://learn.adafruit.com/adafruit-pygamer/circuitpython
 features:
   - Display
   - Speaker

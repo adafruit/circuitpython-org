@@ -11,6 +11,7 @@ board_image: "grandcentral_m4_express.jpg"
 date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: grandcentral_m4
+download_instructions: https://learn.adafruit.com/adafruit-grand-central/circuitpython
 features:
   - Arduino Shield Compatible
 ---

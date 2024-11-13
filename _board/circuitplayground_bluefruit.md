@@ -13,6 +13,7 @@ board_image: "circuitplayground_bluefruit.jpg"
 date_added: 2019-08-30
 family: nrf52840
 bootloader_id: circuitplayground_nrf52840
+download_instructions: https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/circuitpython
 features:
   - Speaker
   - Solder-Free Alligator Clip

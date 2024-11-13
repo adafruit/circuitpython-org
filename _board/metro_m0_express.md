@@ -10,6 +10,7 @@ board_image: "metro_m0_express.jpg"
 date_added: 2019-03-09
 family: atmel-samd
 bootloader_id: metro_m0
+download_instructions: https://learn.adafruit.com/adafruit-metro-m0-express/circuitpython
 features:
   - Arduino Shield Compatible
 ---

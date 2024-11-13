@@ -11,6 +11,7 @@ board_url:
 board_image: "raspberry_pi_pico.jpg"
 date_added: 2021-01-21
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython
 features:
   - Breadboard-Friendly
   - Castellated Pads

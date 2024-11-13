@@ -10,6 +10,7 @@ board_url:
 board_image: "adafruit_macropad_rp2040.jpg"
 date_added: 2021-06-04
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython
 features:
   - USB-C
   - STEMMA QT/QWIIC

@@ -10,6 +10,7 @@ board_image: "adafruit_metro_esp32s3.jpg"
 date_added: 2023-07-28
 family: esp32s3
 bootloader_id: adafruit_metro_esp32s3
+download_instructions: https://learn.adafruit.com/adafruit-metro-esp32-s3/circuitpython
 features:
   - Wi-Fi
   - Battery Charging

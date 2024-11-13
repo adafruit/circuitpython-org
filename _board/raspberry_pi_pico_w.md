@@ -10,6 +10,7 @@ board_url:
 board_image: "raspberry_pi_pico_w.jpg"
 date_added: 2022-10-02
 family: raspberrypi
+download_instructions: https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpython
 tags:
   - picow
   - 🥧🐮
