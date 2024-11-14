@@ -10,6 +10,7 @@ board_image: "bpi_bit_s2.jpg"
 date_added: 2022-09-14
 family: esp32s2
 bootloader_id: bpi_bit_s2
+download_instructions: https://wiki.banana-pi.org/BPI-Bit-S2#CircuitPython
 features:
   - USB-C
   - Wi-Fi

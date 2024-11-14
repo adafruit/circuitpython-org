@@ -9,6 +9,7 @@ board_url:
 board_image: "sparkfun_qwiic_micro.jpg"
 date_added: 2019-11-04
 family: atmel-samd
+download_instructions: https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide#circuitpython
 features:
   - STEMMA QT/QWIIC
   - Breadboard-Friendly

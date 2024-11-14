@@ -10,6 +10,7 @@ board_image: "pewpew_m4.jpg"
 date_added: 2019-09-16
 family: atmel-samd
 bootloader_id: pewpew_m4
+download_instructions: https://pewpew.readthedocs.io/en/latest/pewpew-m4/assembly.html
 features:
   - Display
   - Speaker

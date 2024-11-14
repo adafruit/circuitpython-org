@@ -11,6 +11,7 @@ board_url:
 board_image: "spresense.jpg"
 date_added: 2019-10-23
 family: cxd56
+download_instructions: https://developer.sony.com/spresense/development-guides/circuitpython_set_up_en.html
 features:
   - GPS
   - Arduino Shield Compatible

@@ -9,6 +9,7 @@ board_url:
 board_image: "challenger_nb_rp2040_wifi.jpg"
 date_added: 2021-11-15
 family: raspberrypi
+download_instructions: https://ilabs.se/product/challenger-nb-rp2040-wifi-with-u-fl-connector/#tab-getting-started
 features:
   - Wi-Fi
   - USB-C

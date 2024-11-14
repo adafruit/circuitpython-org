@@ -9,6 +9,7 @@ board_url:
 board_image: "challenger_840.jpg"
 date_added: 2022-04-01
 family: nrf52840
+download_instructions: https://ilabs.se/product/challenger-840-ble/#tab-getting-started
 features:
   - Bluetooth/BTLE
   - USB-C

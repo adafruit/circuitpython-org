@@ -12,6 +12,7 @@ board_image: "particle_argon.jpg"
 date_added: 2019-03-09
 family: nrf52840
 bootloader_id: particle_argon
+download_instructions: https://learn.adafruit.com/circuitpython-on-the-nrf52/build-flash-particle
 features:
   - Feather-Compatible
   - Battery Charging

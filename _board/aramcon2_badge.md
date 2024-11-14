@@ -12,7 +12,7 @@ family: nrf52840
 bootloader_id: aramcon2_badge
 downloads_display: true
 blinka: false
-download_instructions: ""
+download_instructions: https://github.com/aramcon-badge/aramcon-firmware/blob/master/README.md
 features:
   - Display
   - Bluetooth/BTLE

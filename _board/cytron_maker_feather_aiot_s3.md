@@ -10,6 +10,7 @@ board_image: "cytron_maker_feather_aiot_s3.jpg"
 date_added: 2022-11-25
 family: esp32s3
 bootloader_id: cytron_maker_feather_aiot_s3
+download_instructions: https://www.cytron.io/tutorial/get-started-with-maker-feather-aIot-s3-using-circuitpyhton
 features:
   - Speaker
   - STEMMA QT/QWIIC

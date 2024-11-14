@@ -9,6 +9,7 @@ board_url:
 board_image: "ai-thinker-esp32-cam.jpg"
 date_added: 2024-05-17
 family: esp32
+download_instructions: https://learn.adafruit.com/circuitpython-with-esp32-quick-start/
 features:
   - Camera
   - Wi-Fi

@@ -9,6 +9,7 @@ board_url:
 board_image: "cytron_edu_pico_w.jpg"
 date_added: 2024-01-24
 family: raspberrypi
+download_instructions: https://drive.google.com/file/d/11HsdBkVWlOHMAWY-yf4V_Gd5FLM9MIwv/view
 features:
   - Battery Charging
   - Speaker
@@ -19,7 +20,7 @@ features:
 EDU PICO Project and Innovation Kit for Raspberry Pi Pico W – an all-in-one solution designed to inspire creativity, foster learning, and fuel innovation. Whether you're a student, educator, or maker, this kit is your gateway to the exciting world of embedded systems and programming using CircuitPython.
 
 ## Technical details
- 
+
  - 1x Pi Pico Socket with GPIO breakout
  - 1x LiPo Battery Connector
  - 1x Charge LED

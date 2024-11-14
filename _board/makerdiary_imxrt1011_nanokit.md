@@ -39,6 +39,6 @@ Key Features
 - Easy to enter Boot ROM Serial Downloader even when the UF2 Bootloader gets corrupted
 - Built on open source, supporting Zephyr RTOS, Python, etc
 
-
 ## Purchase
+
 * [MakerDiary](https://makerdiary.com/products/imxrt1011-nanokit)

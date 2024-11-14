@@ -5,7 +5,7 @@ title: "ScoutMakes Azul Download"
 name: "ScoutMakes Azul"
 manufacturer: "TinkeringTech"
 board_url:
- - "https://tinkeringtech.com/blog/scoutmakes-azul/"
+ - "https://scoutmakes.com/blogs/news/scoutmakes-azul"
  - "https://www.adafruit.com/product/4968"
 board_image: "scoutmakes_azul.jpg"
 date_added: 2020-07-27
@@ -43,9 +43,9 @@ The platform come pre-programmed with a UF2 bootloader and CircuitPython ready t
 * Works out of the box with Adafruit's feather wings
 ## Tutorial
 
-- [ScoutMakes Azul Overview](https://tinkeringtech.com/blog/scoutmakes-azul/)
+- [ScoutMakes Azul Overview](https://scoutmakes.com/blogs/news/scoutmakes-azul)
 - [ScoutMakes Youtube Channel](https://www.youtube.com/channel/UCYcssarGk-M_4w-jmb3To0Q/featured/)
 
 ## Purchase
 
-* [TinkeringTech](https://tinkeringtech.com/blog/scoutmakes-azul/)
+* [TinkeringTech](https://scoutmakes.com/blogs/news/scoutmakes-azul)

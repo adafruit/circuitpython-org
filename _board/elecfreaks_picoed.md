@@ -9,6 +9,7 @@ board_url:
 board_image: "elecfreaks_picoed.jpg"
 date_added: 2022-04-21
 family: raspberrypi
+download_instructions: https://www.elecfreaks.com/learn-en/pico-ed/index.html
 features:
   - Speaker
   - Display
