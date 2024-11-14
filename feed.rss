@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 14 Nov 2024 05:04:12 -0500</lastBuildDate>
+<lastBuildDate>Thu, 14 Nov 2024 13:15:57 -0500</lastBuildDate>
 
 <item>
     <title>PicoADK v2 - Audio Development Kit</title>
@@ -155,6 +155,7 @@
 </ul>
 
 <h2 id="purchase">Purchase</h2>
+
 <ul>
   <li><a href="https://makerdiary.com/products/imxrt1011-nanokit">MakerDiary</a></li>
 </ul>
@@ -200,8 +201,8 @@
     <pubDate>Fri, 20 Sep 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32s3_lcd_ev_v1.5/</guid>
   </item><item>
-    <title>Challenger RP2350 WiFi6 BLE5</title>
-    <link>https://circuitpython.org/board/challenger_rp350_wifi6_ble5/</link>
+    <title>Challenger+ RP2350 WiFi6 BLE5</title>
+    <link>https://circuitpython.org/board/challenger_rp2350_wifi6_ble5/</link>
     <description><![CDATA[ 
 
 <img srcset="https://circuitpython.org/assets/images/boards/small/challenger_rp2350_wifi6_ble5.jpg 300w,
@@ -236,10 +237,10 @@
     <category>CircuitPython</category>
     
     <pubDate>Mon, 16 Sep 2024 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/board/challenger_rp350_wifi6_ble5/</guid>
+    <guid>https://circuitpython.org/board/challenger_rp2350_wifi6_ble5/</guid>
   </item><item>
-    <title>Challenger RP2350 BConnect</title>
-    <link>https://circuitpython.org/board/challenger_rp350_bconnect/</link>
+    <title>Challenger+ RP2350 BConnect</title>
+    <link>https://circuitpython.org/board/challenger_rp2350_bconnect/</link>
     <description><![CDATA[ 
 
 <img srcset="https://circuitpython.org/assets/images/boards/small/challenger_rp2350_bconnect.jpg 300w,
@@ -271,7 +272,7 @@
     <category>CircuitPython</category>
     
     <pubDate>Mon, 16 Sep 2024 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/board/challenger_rp350_bconnect/</guid>
+    <guid>https://circuitpython.org/board/challenger_rp2350_bconnect/</guid>
   </item><item>
     <title>WK-50 Bat Shaped Keyboard</title>
     <link>https://circuitpython.org/board/wk-50/</link>
@@ -609,7 +610,7 @@ ESP32-S3 based devices.</p>
 
 <h3 id="purchase">Purchase</h3>
 
-<p><a href="https://vidi-x.org/contact/">VIDI X</a> <br />
+<p><a href="https://vidi-x.org/contact/">VIDI X</a>
 Contact: <a href="mailto:info@vidi-x.org">info@vidi-x.org</a></p>
  ]]></description>
     
@@ -6903,7 +6904,6 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
 <p>By Pajenicko s.r.o.</p> <p>Picopad is an <strong>open-source DIY gaming console kit</strong> for young tech enthusiasts. It utilizes a Raspberry Pi Pico module and features a 2” 240x320 IPS display, speaker, LED, buttons, and a microSD slot. Picopad supports programming in C, MicroPython and CircuitPython, enabling users to learn coding skills. The kit contains all necessary components to assemble the console. Picopad promotes STEM education through electronics and programming. It has an external connector for expansions. The Picopad Wifi variant adds wireless connectivity with Wifi 802.11n 2.4GHz (WPA3 security) and Bluetooth 5.2. Games and software are open source to enable customization. Picopad enables hands-on learning of electronics and programming in an engaging gaming platform. There are 16 classic games including Pacman, Tetris, Snake, and more available in the <a href="https://github.com/Pajenicko/Picopad">Picopad GitHub repository</a> that are programmed using the Picopad C SDK and their source codes are included.</p>
 
 <h2 id="how-to-upload-circuitpython">How to upload CircuitPython:</h2>
-
 <ul>
   <li>Download UF2 file for Picopad</li>
   <li>Press and hold BOOTSEL button (bottom) while connecting USB cable to power on Picopad</li>
@@ -11025,7 +11025,7 @@ Easily connect multiple dc motors, servos and sensors to power your experiments!
 <h2 id="documentation">Documentation</h2>
 
 <ul>
-  <li><a href="https://docs.m5stack.com/en/core/atom_lite">ATOM Lite ESP32 IoT</a></li>
+  <li><a href="https://docs.m5stack.com/en/core/ATOM%20Lite">ATOM Lite ESP32 IoT</a></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
@@ -17913,7 +17913,6 @@ status LED operation.</p>
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://www.oakdev.tech/store/p10/%28Coming_Soon%29_CP_Sapling_Rev_B.html#/">Oak Dev Tech</a></li>
   <li><a href="https://www.tindie.com/products/oakdevtech/cp-sapling-rev-b-samd21-micro-dev-board/">ODT Tindie Shop</a></li>
 </ul>
  ]]></description>
@@ -19090,11 +19089,6 @@ Introducing the new ATMegaZero ESP32-S2</p>
   <li><strong>Reset switch</strong> for starting your project code over or entering bootloader mode</li>
 </ul>
 
-<h2 id="purchase">Purchase</h2>
-
-<ul>
-  <li><a href="https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/">Oak Dev Tech</a></li>
-</ul>
  ]]></description>
     
     <category>CircuitPython</category>
@@ -20479,9 +20473,9 @@ Pretty much anything else, because Orange Pi Zero Plus is open source</p>
 
 <p>All GPIO pins are broken out to 2.54mm header pins. Caution should be taken as some pins are used by the WROVER module for PSRAM.</p>
 
-<p>##Purchace</p>
+<h2 id="purchase">Purchase</h2>
 
-<p>You can purchace the S2-MCB from <a href="https://www.tindie.com/products/targett/esp32-s2-module-protoprogrammer/">Tindie</a></p>
+<p>You can purchase the S2-MCB from <a href="https://www.tindie.com/products/targett/esp32-s2-module-protoprogrammer/">Tindie</a></p>
  ]]></description>
     
     <category>CircuitPython</category>
@@ -20510,9 +20504,9 @@ Pretty much anything else, because Orange Pi Zero Plus is open source</p>
 
 <p>All GPIO pins are broken out to 2.54mm header pins. Caution should be taken as some pins are used by the WROVER module for PSRAM.</p>
 
-<p>##Purchace</p>
+<h2 id="purchase">Purchase</h2>
 
-<p>You can purchace the S2-MCB from <a href="https://www.tindie.com/products/targett/esp32-s2-module-protoprogrammer/">Tindie</a></p>
+<p>You can purchase the S2-MCB from <a href="https://www.tindie.com/products/targett/esp32-s2-module-protoprogrammer/">Tindie</a></p>
  ]]></description>
     
     <category>CircuitPython</category>
@@ -20551,12 +20545,6 @@ Pretty much anything else, because Orange Pi Zero Plus is open source</p>
   <li>3.3V regulator with <a href="">500mA peak output</a></li>
   <li>[Optional SOIC-8 SPI Flash chip on bottom]</li>
   <li><strong>Reset switch</strong> for starting your project code over or entering bootloader mode</li>
-</ul>
-
-<h2 id="purchase">Purchase</h2>
-
-<ul>
-  <li><a href="https://www.oakdev.tech/store/p7/CP-Sapling-m0-development-board.html#/">Oak Dev Tech</a></li>
 </ul>
  ]]></description>
     
@@ -22058,14 +22046,14 @@ Yup! The first one is for the general operation of the board and the ESP32-S2, R
   <li>Works out of the box with Adafruit’s feather wings
     <h2 id="tutorial">Tutorial</h2>
   </li>
-  <li><a href="https://tinkeringtech.com/blog/scoutmakes-azul/">ScoutMakes Azul Overview</a></li>
+  <li><a href="https://scoutmakes.com/blogs/news/scoutmakes-azul">ScoutMakes Azul Overview</a></li>
   <li><a href="https://www.youtube.com/channel/UCYcssarGk-M_4w-jmb3To0Q/featured/">ScoutMakes Youtube Channel</a></li>
 </ul>
 
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://tinkeringtech.com/blog/scoutmakes-azul/">TinkeringTech</a></li>
+  <li><a href="https://scoutmakes.com/blogs/news/scoutmakes-azul">TinkeringTech</a></li>
 </ul>
  ]]></description>
     
@@ -23815,7 +23803,6 @@ An FPGA is an Array of Gates that is Field-Programmable. When you buy a chip suc
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://kevinneubauer.com/portfolio/circuitbrains-deluxe/">CircuitBrains Deluxe Project Page</a></li>
   <li><a href="https://twitter.com/kevinneubauer">Kevin Neubauer Twitter</a></li>
 </ul>
 
