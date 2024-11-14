@@ -10,6 +10,7 @@ board_url:
 board_image: "pimoroni_keybow2040.jpg"
 date_added: 2021-02-24
 family: raspberrypi
+download_instructions: https://learn.pimoroni.com/article/circuitpython-and-keybow-2040
 features:
   - USB-C
 ---

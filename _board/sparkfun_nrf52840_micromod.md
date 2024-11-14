@@ -10,6 +10,7 @@ board_image: "sparkfun_nrf52840_micromod.jpg"
 date_added: 2021-04-06
 family: nrf52840
 bootloader_id: sparkfun_nrf52840_micromod
+download_instructions: https://learn.sparkfun.com/tutorials/nrf52840-development-with-arduino-and-circuitpython#circuitpython-installation
 features:
   - Bluetooth/BTLE
 ---

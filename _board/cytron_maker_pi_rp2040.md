@@ -10,6 +10,7 @@ board_url:
 board_image: "cytron_maker_pi_rp2040.jpg"
 date_added: 2021-05-31
 family: raspberrypi
+download_instructions: https://github.com/CytronTechnologies/MAKER-PI-RP2040#circuitpython
 features:
   - Battery Charging
   - Speaker

@@ -10,6 +10,7 @@ board_url:
 board_image: "challenger_rp2040_lora.jpg"
 date_added: 2022-06-09
 family: raspberrypi
+download_instructions: https://ilabs.se/product/challenger-rp2040-lora/#tab-getting-started
 features:
   - LoRa/Radio
   - Battery Charging

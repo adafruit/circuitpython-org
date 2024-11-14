@@ -13,6 +13,7 @@ board_url:
 board_image: "microbit_v2.jpg"
 date_added: 2021-08-11
 family: nrf52840
+download_instructions: https://microbit.org/get-started/getting-started/introduction/
 features:
   - Bluetooth/BTLE
   - Battery Charging

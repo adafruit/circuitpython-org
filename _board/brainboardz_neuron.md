@@ -10,6 +10,7 @@ board_image: "brainboardz_neuron.jpg"
 date_added: 2023-02-20
 family: esp32s3
 bootloader_id: brainboardz_neuron
+download_instructions: https://www.brainboardz.com/downloads
 downloads_display: true
 features:
   - Wi-Fi

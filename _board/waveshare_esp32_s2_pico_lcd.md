@@ -10,6 +10,7 @@ board_image: "waveshare_esp32_s2_pico_lcd.jpg"
 bootloader_id: waveshare_esp32_s2_pico_lcd
 date_added: 2022-08-22
 family: esp32s2
+download_instructions: https://www.waveshare.com/wiki/ESP32-S2-Pico#CircuitPython
 features:
   - Wi-Fi
   - USB-C

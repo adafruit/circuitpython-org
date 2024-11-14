@@ -9,6 +9,7 @@ board_url:
 board_image: "pajenicko_picopad.jpg"
 date_added: 2023-07-25
 family: raspberrypi
+download_instructions: https://github.com/Pajenicko/Picopad/tree/main/circuitpython
 features:
   - Display
   - Speaker
@@ -22,7 +23,6 @@ Picopad is an **open-source DIY gaming console kit** for young tech enthusiasts.
 
 
 ## How to upload CircuitPython:
-
 * Download UF2 file for Picopad
 * Press and hold BOOTSEL button (bottom) while connecting USB cable to power on Picopad
 * Picopad enters bootloader mode, release BOOTSEL button

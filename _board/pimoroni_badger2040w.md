@@ -9,6 +9,7 @@ board_url:
 board_image: "pimoroni_badger2040w.jpg"
 date_added: 2023-05-09
 family: raspberrypi
+download_instructions: https://learn.pimoroni.com/article/getting-started-with-badger-2040
 tags:
   - picow
   - 🥧🐮

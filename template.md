@@ -11,7 +11,7 @@ board_image: "unknown.jpg"
 date_added: 2020-03-31
 downloads_display: true
 blinka: false
-download_instructions: "url"
+download_instructions: "url" # Link to Tutorial
 family: esp32  # See _data/bootloaders.json
 bootloader_id:
 # Features are tags; they should be limited to the items in this list and spelled exactly the same.

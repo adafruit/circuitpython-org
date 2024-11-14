@@ -9,6 +9,7 @@ board_url:
 board_image: "pimoroni_plasma2040.jpg"
 date_added: 2021-08-11
 family: raspberrypi
+download_instructions: https://learn.pimoroni.com/article/plasma-2040#circuitpython
 features:
   - STEMMA QT/QWIIC
   - USB-C

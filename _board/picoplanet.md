@@ -12,7 +12,6 @@ family: atmel-samd
 downloads_display: true
 blinka: false
 download_instructions: ""
-
 features:
   - USB-C
 ---

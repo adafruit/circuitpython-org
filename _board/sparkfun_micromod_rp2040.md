@@ -9,6 +9,7 @@ board_url:
 board_image: "sparkfun_micromod_rp2040.jpg"
 date_added: 2021-05-26
 family: raspberrypi
+download_instructions: https://learn.sparkfun.com/tutorials/micromod-rp2040-processor-board-hookup-guide
 features:
 ---
 

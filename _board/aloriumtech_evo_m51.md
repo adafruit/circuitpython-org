@@ -11,6 +11,7 @@ date_added: 2020-05-21
 family: atmel-samd
 downloads_display: true
 blinka: false
+download_instructions: https://aloriumtech.com/evom51-quickstart/
 features:
   - Feather-Compatible
   - Battery Charging
