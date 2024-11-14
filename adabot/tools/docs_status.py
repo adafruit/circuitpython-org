@@ -21,10 +21,12 @@ import parse
 import requests
 from github.Repository import Repository
 from github.ContentFile import ContentFile
+
 from iterate_libraries import (
     iter_remote_bundle_with_func,
     RemoteLibFunc_IterResult,
 )
+from adabot import REQUESTS_TIMEOUT
 
 
 def check_docs_status(
@@ -64,7 +66,7 @@ def check_docs_status(
     # GET the latest documentation build runs
     url = f"https://readthedocs.org/api/v3/projects/{rtd_slug}/builds/"
     headers = {"Authorization": f"token {rtd_token}"}
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, timeout=REQUESTS_TIMEOUT)
     json_response: dict[str, Any] = response.json()
 
     # Return the results of the latest run

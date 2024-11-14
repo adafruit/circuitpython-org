@@ -17,7 +17,7 @@ import requests
 from google.cloud import bigquery
 import google.oauth2.service_account
 
-from adabot import github_requests as gh_reqs
+from adabot import github_requests as gh_reqs, REQUESTS_TIMEOUT
 from adabot.lib import common_funcs
 
 # Setup ArgumentParser
@@ -60,7 +60,7 @@ PIWHEELS_PACKAGES_URL = "https://www.piwheels.org/packages.json"
 def retrieve_piwheels_stats():
     """Get data dump of piwheels download stats"""
     stats = {}
-    response = requests.get(PIWHEELS_PACKAGES_URL)
+    response = requests.get(PIWHEELS_PACKAGES_URL, timeout=REQUESTS_TIMEOUT)
     if response.ok:
         packages = response.json()
         stats = {

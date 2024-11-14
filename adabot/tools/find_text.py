@@ -19,6 +19,7 @@ import sys
 
 import requests
 
+from adabot import REQUESTS_TIMEOUT
 from adabot.lib.common_funcs import list_repos
 
 argumentList = sys.argv[1:]
@@ -129,7 +130,9 @@ print(f"Repos found: {len(all_repos)}")
 
 for repo in all_repos:
     INFO = "getting {} for: {}".format(FILE, repo["name"])
-    response = requests.get(URL_TEMPLATE.format(repo["name"], FILE))
+    response = requests.get(
+        URL_TEMPLATE.format(repo["name"], FILE), timeout=REQUESTS_TIMEOUT
+    )
     result = []
     if response.status_code == 404:
         RESULTS["file_not_found"].append(repo["html_url"])

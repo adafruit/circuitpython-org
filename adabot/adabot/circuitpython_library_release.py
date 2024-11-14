@@ -48,7 +48,7 @@ def make_release(new_tag, logger, test_run=False):
 
 def get_pypi_name():
     """
-    return the shorthand pypi project name
+    return the shorthand project name used for pypi, docs, etc.
     """
     data = toml.load("pyproject.toml")
 
@@ -126,7 +126,7 @@ def get_release_info():
     }
 
 
-def get_compare_url(tag_name):
+def get_compare_url(tag_name, compare_to_tag_name="main"):
     """
     Get the URL to the GitHub compare page for the latest release compared
     to current main.
@@ -138,7 +138,9 @@ def get_compare_url(tag_name):
     if not remote_url.startswith("https"):
         return "Sorry, Unknown Remotes"
 
-    compare_url = remote_url.replace(".git", f"/compare/{tag_name}...main")
+    compare_url = remote_url.replace(
+        ".git", f"/compare/{tag_name}...{compare_to_tag_name}"
+    )
     return compare_url
 
 
