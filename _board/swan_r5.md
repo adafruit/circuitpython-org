@@ -9,6 +9,7 @@ board_url:
 board_image: "swan_r5.jpg"
 date_added: 2021-09-29
 family: stm
+download_instructions: https://dev.blues.io/swan/using-circuitpython-with-swan/
 features:
   - Feather-Compatible
   - Battery Charging

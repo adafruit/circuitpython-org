@@ -9,6 +9,7 @@ board_url:
 board_image: "sparkfun_redboard_turbo.jpg"
 date_added: 2019-03-09
 family: atmel-samd
+download_instructions: https://learn.sparkfun.com/tutorials/redboard-turbo-hookup-guide#reinstalling-circuit-python-
 features:
   - Battery Charging
   - STEMMA QT/QWIIC

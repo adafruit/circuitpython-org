@@ -10,7 +10,7 @@ board_image: "seeeduino_xiao.jpg"
 date_added: 2020-01-17
 family: atmel-samd
 bootloader_id: XIAO_m0
-
+download_instructions: https://wiki.seeedstudio.com/Seeeduino-XIAO-CircuitPython/
 features:
   - USB-C
   - Breadboard-Friendly

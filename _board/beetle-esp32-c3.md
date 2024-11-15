@@ -12,6 +12,7 @@ downloads_display: true
 blinka: false
 family: esp32c3
 bootloader_id: lolin_c3_mini
+download_instructions: https://github.com/adafruit/circuitpython/tree/main/ports/espressif#building-and-flashing
 features:
   - Battery Charging
   - Bluetooth/BTLE

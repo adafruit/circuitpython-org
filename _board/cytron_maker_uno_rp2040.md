@@ -9,6 +9,7 @@ board_url:
 board_image: "cytron_maker_uno_rp2040.jpg"
 date_added: 2023-12-14
 family: raspberrypi
+download_instructions: https://my.cytron.io/tutorial/getting-started-guide-with-maker-uno-rp2040-circuitpython
 features:
   - Battery Charging
   - Arduino Shield Compatible
@@ -20,8 +21,8 @@ Introducing the **Maker Uno RP2040**, a revolutionary development board that com
 Comes with the handy Maker series goodness aimed to simplify digital making. Equipped with onboard LEDs for troubleshooting and visual effects, a ready-to-use programmable piezo buzzer, and push buttons, it's perfect for kickstarting your project and learning process.
 
 In addition to the ever-trusted female Uno Header, we provide the board Grove and Maker ports for quick sensors and modules connection and foolproof protection against misconnections.
- 
-Connect up to 4 servo motors simultaneously with our board’s dedicated servo port! Quickly integrate your servo motors without the hassle of using extra messy jumpers and worrying about insufficient current supply. 
+
+Connect up to 4 servo motors simultaneously with our board’s dedicated servo port! Quickly integrate your servo motors without the hassle of using extra messy jumpers and worrying about insufficient current supply.
 
 The board offers two power supply options - USB(5V) or with a single-cell LiPo/Li-Ion battery which also comes with automatic power selection, offering flexibility for various applications. Not only that, it comes with built-in charging circuit with overcharge and over-discharge protection circuit to charge the LiPo battery.
 

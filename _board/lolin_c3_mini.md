@@ -10,12 +10,12 @@ board_image: "lolin_c3_mini.png"
 date_added: 2021-11-02
 family: esp32c3
 bootloader_id: lolin_c3_mini
+download_instructions: https://www.wemos.cc/en/latest/tutorials/c3/get_started_with_circuitpython_c3.html
 features:
   - Wi-Fi
   - USB-C
   - Bluetooth/BTLE
   - Breadboard-Friendly
-
 ---
 
 A mini Wi-Fi & Bluetooth LE board based on ESP32-C3FH4.

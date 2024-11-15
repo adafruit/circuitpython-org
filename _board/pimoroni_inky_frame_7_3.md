@@ -9,6 +9,7 @@ board_url:
 board_image: "pimoroni_inky_frame_7_3.jpg"
 date_added: 2024-03-13
 family: raspberrypi
+download_instructions: https://learn.pimoroni.com/article/getting-started-with-inky-frame
 tags:
   - picow
   - 🥧🐮

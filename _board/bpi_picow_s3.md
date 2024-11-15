@@ -10,6 +10,7 @@ board_image: "bpi_picow_s3.jpg"
 date_added: 2022-10-11
 family: esp32s3
 bootloader_id: bpi_picow_s3
+download_instructions: https://wiki.banana-pi.org/BPI-PicoW-S3#CircuitPython
 features:
   - Wi-Fi
   - Bluetooth/BTLE

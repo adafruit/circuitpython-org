@@ -9,6 +9,7 @@ board_url:
 board_image: "sparkfun_lumidrive_01.jpg"
 date_added: 2019-03-09
 family: atmel-samd
+download_instructions: https://learn.sparkfun.com/tutorials/lumidrive-hookup-guide
 features:
   - Battery Charging
   - USB-C

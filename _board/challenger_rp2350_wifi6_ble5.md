@@ -1,14 +1,15 @@
 ---
 layout: download
 board_id: "challenger_rp2350_wifi6_ble5"
-title: "Challenger RP2350 WiFi6 BLE5 Download"
-name: "Challenger RP2350 WiFi6 BLE5"
+title: "Challenger+ RP2350 WiFi6 BLE5 Download"
+name: "Challenger+ RP2350 WiFi6 BLE5"
 manufacturer: "Invector Labs"
 board_url:
  - "https://ilabs.se/product/challenger-rp2350-wifi-ble/"
 board_image: "challenger_rp2350_wifi6_ble5.jpg"
 date_added: 2024-09-16
 family: raspberrypi
+download_instructions: https://ilabs.se/product/challenger-rp2350-wifi-ble/#tab-getting-started
 features:
   - USB-C
   - Wi-Fi

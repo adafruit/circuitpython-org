@@ -9,6 +9,7 @@ board_url:
 board_image: "challenger_rp2040_wifi.jpg"
 date_added: 2021-09-16
 family: raspberrypi
+download_instructions: https://ilabs.se/product/challenger-2040-wifi-chip/#tab-getting-started
 features:
   - Wi-Fi
   - USB-C

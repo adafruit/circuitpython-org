@@ -9,6 +9,7 @@ board_url:
 board_image: "cytron_motion_2350_pro.png"
 date_added: 2024-08-08
 family: raspberrypi
+download_instructions: https://www.cytron.io/tutorial/getting-started-with-motion-2350-pro-cp
 
 ---
 

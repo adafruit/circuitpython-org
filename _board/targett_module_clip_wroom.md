@@ -26,6 +26,6 @@ Where Espressif have enabled programming via the S2 USB and the module can be pu
 
 All GPIO pins are broken out to 2.54mm header pins. Caution should be taken as some pins are used by the WROVER module for PSRAM.
 
-##Purchace
+## Purchase
 
-You can purchace the S2-MCB from [Tindie](https://www.tindie.com/products/targett/esp32-s2-module-protoprogrammer/)
+You can purchase the S2-MCB from [Tindie](https://www.tindie.com/products/targett/esp32-s2-module-protoprogrammer/)

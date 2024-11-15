@@ -10,6 +10,7 @@ board_image: "nice_nano.jpg"
 date_added: 2020-06-05
 family: nrf52840
 bootloader_id: nice_nano
+download_instructions: https://docs.nicekeyboards.com/#/nice!nano/getting_started
 features:
   - USB-C
   - Breadboard-Friendly

@@ -10,6 +10,7 @@ board_image: "lolin_s2_mini.jpg"
 date_added: 2021-09-03
 family: esp32s2
 bootloader_id: lolin_s2_mini
+download_instructions: https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_circuitpython_s2.html
 features:
   - Wi-Fi
   - USB-C
