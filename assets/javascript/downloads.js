@@ -350,18 +350,33 @@ function filterResults() {
     } else {
       download.style.display = 'block';
       board_count++;
+      // exact tag match re-order
+      let searched = downloadsSearch.searchTerm.toLowerCase();
+      let tags = download.getAttribute("data-tags").split(",");
+      if (tags.indexOf(searched) >= 0 ){
+          let parent = download.parentElement;
+          parent.removeChild(download);
+          parent.prepend(download);
+
+      }
     }
   });
   document.getElementById("board_count").innerHTML = board_count;
 }
 
 function handleSortResults(event) {
+  let searched = downloadsSearch.searchTerm.toLowerCase();
   var sortType = event.target.value;
   setURL('sort-by', sortType);
   var downloads = document.querySelector('.downloads-section');
   Array.prototype.slice.call(downloads.children)
     .map(function (download) { return downloads.removeChild(download); })
     .sort(function (a, b) {
+      // exact tag match re-order
+      if (a.dataset.tags.split(",").indexOf(searched) >= 0){
+        console.log("found tag match, returning -2");
+        return -2;
+      }
       switch(sortType) {
         case 'alpha-asc':
           return a.dataset.name.localeCompare(b.dataset.name);
