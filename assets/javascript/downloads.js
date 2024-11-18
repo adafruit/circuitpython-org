@@ -374,7 +374,6 @@ function handleSortResults(event) {
     .sort(function (a, b) {
       // exact tag match re-order
       if (a.dataset.tags.split(",").indexOf(searched) >= 0){
-        console.log("found tag match, returning -2");
         return -2;
       }
       switch(sortType) {
