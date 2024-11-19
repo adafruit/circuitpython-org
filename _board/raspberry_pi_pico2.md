@@ -10,6 +10,8 @@ board_url:
 board_image: "raspberry_pi_pico2.jpg"
 date_added: 2024-08-08
 family: raspberrypi
+tags:
+  - pico 2
 features:
   - Breadboard-Friendly
   - Castellated Pads
