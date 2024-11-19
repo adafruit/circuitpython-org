@@ -23,6 +23,27 @@
         "description": "<p>The ESP32-C3-0.42LCD is an ESP32 C3 / RP2040 Raspberry Pi Pico Development board with 0.42 inch LCD risc-v WiFi Bluetooth.</p><p>ESP32-C3 is a low-cost microcontroller from Espressif that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy ( Bluetooth 5 (LE)).Use RISC V as the core. There’s a minimum number of pins on this chip, it’s specifically designed to be low cost and for simpler projects than ESP32-Sx or ESP32 classics with their large number of GPIO. Think of it more as an intended replacement to the ESP8266 than to the ESP32! It has built-inUSB-to-Serial, but not native USB - it cannot act as a keyboard or disk drive. The chip used here has 4MB of Flash memory, 400 KB of SRAM.</p><p>The ESP32-C3 integrates a rich set of peripherals, ranging from UART, I2C, I2S, remote control peripheral, LED PWM controller, general DMA controller, TWAI controller, USB Serial/JTAG controller, temperature sensor, and ADC. It also includes SPI, Dual SPI, and Quad SPI interfaces. There is no DAC or native capacitive touch.</p><p>With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the Internet of Things (IoT), wearable electronics, and smart homes.</p><p><strong>Specifications</strong></p><ul>  <li>Based ESP32-C3FH4 WIFI &amp; Bluetooth LE RISC-V Single-Core CPU</li>  <li>Type-C USB</li>  <li>4MB Flash</li>  <li>11x IO</li>  <li>1x1.0-4P connector(GND,3V3,SDA(GPIO5),SCL(GPIO6))</li>  <li>1x RGB(GPIO2)</li>  <li>1xLED(3.3V Power Supply)</li>  <li>1xReset button(CHIP_EN,great for restarting your program or entering the ROM bootloader)</li>  <li>1xBoot button(GPIO9,entering the ROM bootloader or for user input)</li>  <li>3.3V Regulator with 500mA peak output</li>  <li>Ceramic Antenna</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256804679132291.html\">Aliexpress</a></li></ul>"
     },
     {
+        "board_id": "0xcb_gemini",
+        "title": "0xCB Gemini Download",
+        "name": "Gemini",
+        "board_url": [
+            "https://github.com/0xCB-dev/0xCB-Gemini"
+        ],
+        "board_image": "0xcb_gemini.jpg",
+        "date_added": "2024-11-11",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Breadboard-Friendly",
+            "Castellated Pads"
+        ],
+        "url_path": "/board/0xcb_gemini/",
+        "description": "<p>The 0xCB Gemini is our Waveshare RP2040-Zero compatible microcontroller. It includes all the features of it’s bigger brother, the <a href=\"https://circuitpython.org/board/0xcb_helios/\">0xCB Helios</a>, in a much smaller form factor.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li><strong>Powerful RP2040</strong> 32-bit Cortex M0+ dual core running at 133 MHz and 264kB SRAM.</li>  <li><strong>16MB/128Mb QSPI FLASH</strong> chip for storing files and code</li>  <li>3.3V 500mA LDO, PTC fuse and <strong>ESD protection</strong> chip</li>  <li>4 pins configurable as <strong>analog inputs</strong></li>  <li>GPIO16 is level shifted to 5v to drive the <strong>onboard aRGB LED</strong> (DIO is connected to GP16)</li>  <li><strong>USB VBUS detection</strong> on GPIO19 for split keyboard side detection</li>  <li><strong>UF2 bootloader</strong> for drag &amp; drop programming via your file manager</li>  <li>easy to use <strong>Single button boot and reset circuit</strong> push to reset and hold &gt;500ms to enter bootloader</li>  <li>4 pads for use with an external USB socket/daughterboard</li>  <li><strong>USB-C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://keeb.supply/products/0xcb-gemini\">KeebSupply</a></li></ul>"
+    },
+    {
         "board_id": "0xcb_helios",
         "title": "0xCB Helios Download",
         "name": "Helios",

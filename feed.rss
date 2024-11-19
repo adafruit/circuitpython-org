@@ -4,9 +4,47 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 19 Nov 2024 05:04:18 -0500</lastBuildDate>
+<lastBuildDate>Tue, 19 Nov 2024 17:52:05 -0500</lastBuildDate>
 
 <item>
+    <title>Gemini</title>
+    <link>https://circuitpython.org/board/0xcb_gemini/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/0xcb_gemini.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/0xcb_gemini.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/0xcb_gemini.jpg" alt="Image of Board" loading="lazy">
+<p>By 0xCB</p> <p>The 0xCB Gemini is our Waveshare RP2040-Zero compatible microcontroller. It includes all the features of it’s bigger brother, the <a href="https://circuitpython.org/board/0xcb_helios/">0xCB Helios</a>, in a much smaller form factor.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li><strong>Powerful RP2040</strong> 32-bit Cortex M0+ dual core running at 133 MHz and 264kB SRAM.</li>
+  <li><strong>16MB/128Mb QSPI FLASH</strong> chip for storing files and code</li>
+  <li>3.3V 500mA LDO, PTC fuse and <strong>ESD protection</strong> chip</li>
+  <li>4 pins configurable as <strong>analog inputs</strong></li>
+  <li>GPIO16 is level shifted to 5v to drive the <strong>onboard aRGB LED</strong> (DIO is connected to GP16)</li>
+  <li><strong>USB VBUS detection</strong> on GPIO19 for split keyboard side detection</li>
+  <li><strong>UF2 bootloader</strong> for drag &amp; drop programming via your file manager</li>
+  <li>easy to use <strong>Single button boot and reset circuit</strong> push to reset and hold &gt;500ms to enter bootloader</li>
+  <li>4 pads for use with an external USB socket/daughterboard</li>
+  <li><strong>USB-C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://keeb.supply/products/0xcb-gemini">KeebSupply</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/0xcb_gemini/</guid>
+  </item><item>
     <title>PicoADK v2 - Audio Development Kit</title>
     <link>https://circuitpython.org/board/datanoise_picoadk_v2/</link>
     <description><![CDATA[ 
