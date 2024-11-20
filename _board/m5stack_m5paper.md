@@ -8,7 +8,7 @@ board_url:
  - "https://docs.m5stack.com/en/core/m5paper"
 board_image: "m5stack_m5paper.jpg"
 date_added: 2023-10-27
-family: esp32s3
+family: esp32
 bootloader_id: m5stack_m5paper
 downloads_display: true
 features:
