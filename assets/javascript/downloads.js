@@ -351,13 +351,14 @@ function filterResults() {
       download.style.display = 'block';
       board_count++;
       // exact tag match re-order
-      let searched = downloadsSearch.searchTerm.toLowerCase();
-      let tags = download.getAttribute("data-tags").split(",");
-      if (tags.indexOf(searched) >= 0 ){
+      if (downloadsSearch.searchTerm !== null && downloadsSearch.searchTerm !== undefined) {
+        let searched = downloadsSearch.searchTerm.toLowerCase();
+        let tags = download.getAttribute("data-tags").split(",");
+        if (searched !== "" && tags.indexOf(searched) >= 0) {
           let parent = download.parentElement;
           parent.removeChild(download);
           parent.prepend(download);
-
+        }
       }
     }
   });
@@ -365,7 +366,10 @@ function filterResults() {
 }
 
 function handleSortResults(event) {
-  let searched = downloadsSearch.searchTerm.toLowerCase();
+  let searched;
+  if (downloadsSearch.searchTerm !== null && downloadsSearch.searchTerm !== undefined) {
+    searched = downloadsSearch.searchTerm.toLowerCase();
+  }
   var sortType = event.target.value;
   setURL('sort-by', sortType);
   var downloads = document.querySelector('.downloads-section');
@@ -373,7 +377,9 @@ function handleSortResults(event) {
     .map(function (download) { return downloads.removeChild(download); })
     .sort(function (a, b) {
       // exact tag match re-order
-      if (a.dataset.tags.split(",").indexOf(searched) >= 0){
+      if (searched !== undefined && searched !== "" &&
+          a.dataset.tags.split(",").indexOf(searched) >= 0){
+
         return -2;
       }
       switch(sortType) {
