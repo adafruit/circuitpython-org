@@ -2170,6 +2170,25 @@
         "description": "<p>BPI-Pico-S3 is the same size as Raspberry Pi Pico board, equipped with ESP32S3 chip, 8M flash, 4-layer PCB, electroplated half-hole process, ceramic antenna, supports 2.4 GHz Wi-Fi and Bluetooth® LE dual-mode wireless communication, is a development board designed for IoT development and Maker DIY.</p><p><strong>Features:</strong></p><ul>  <li><strong>ESP32-S3R2</strong>: Xtensa® dual-core 32-bit LX7 microprocessor,up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; <strong>2 MB Quad SPI PSRAM</strong> is integrated in the package, so don’t worry too much about using massive buffers, it’s basically sufficient.</li>  <li><strong>8MB Quad SPI Flash</strong></li>  <li><strong>Pins and Pads</strong>: It’s the same size as Raspberry Pi Pico board, can also have headers soldered in for use in a breadboard or perfboard, or can be soldered directly onto a PCB with the castellated pads. There’s 20 pads on each side, with groups of general purpose input-and-output (GPIO) pins interleaved with plenty of ground pins.</li>  <li><strong>Order of Pins</strong>: Keep the same order as Raspberry Pi Pico board in circuitpython. You get a total of 27 GPIO pins, 4 of those can be analog inputs.The ADC_VREF on Raspberry Pi Pico was change to GP29_A3 on BPI-PicoW-S3. In fact, the pin function assignments of ESP32S3 and RP2040 chip are not exactly the same, so redefine the pin order in circuitpython to adapt.</li>  <li><strong>Native USB Port</strong>: ESP32-S3 full-speed USB OTG interface, using microUSB Connector with back-feed protection. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB protocols, as well as for JTAG debugging.</li>  <li><strong>5V to 3.3V DC/DC</strong>: Maximum theoretical output 2A 3.3V.</li>  <li><strong>Reset Button</strong>: Support double-clicking the reset button to enter the UF2 bootloader.</li>  <li><strong>BOOT0</strong>: If the UF2 Bootloader is removed, you can use any conductor bar such as metal pins or tweezers to short it to put the EPS32S3 chip into bootloader mode, then the UF2 Bootloader can be re-installed.    <ul>      <li>Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.</li>      <li>Short circuit BOOT0 contact.</li>      <li>Press and release the Reset button.</li>      <li>Release the BOOT0 contact.</li>    </ul>  </li>  <li><strong>RGB LED</strong>: Addressable WS2812 RGB LED, control it with board.NEOPIXEL in circuitpython.</li>  <li><strong>Monochrome LED</strong>: Control it with board.GP25 or board.LED in circuitpython.</li></ul><h2 id=\"purchase\">Purchase</h2><p><a href=\"https://www.aliexpress.com/item/1005004775634442.html\">Aliexpress shop</a></p>"
     },
     {
+        "board_id": "bradanlanestudio_coin_m0",
+        "title": "Bradán Lane STUDIO Coin M0 Download",
+        "name": "Bradán Lane STUDIO Coin M0",
+        "board_url": [
+            "https://aosc.cc/eccn2025"
+        ],
+        "board_image": "bradanlanestudio_coin_m0.jpg",
+        "date_added": "2024-11-22",
+        "family": "atmel-samd",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C"
+        ],
+        "url_path": "/board/bradanlanestudio_coin_m0/",
+        "description": "<p>The “Coin M0” is a little round CircuitPython board with just enough features for a mini macropad.</p><p>There’s an ATSAMD21 microcontroller on board with 4MB of flash, Neopixels, touch pads, and a little speaker.</p><p>The Coin M0 can run CircuitPython or Arduino very nicely and the flash storage is plenty for CircuitPython code, libraries, and data files (like sound effects).</p><ul>  <li>ATSAMD21G1A 32-bit Cortex M0+ - 48 MHz 32 bit processor with 256KB Flash and 32 KB RAM</li>  <li>Native USB-C supported by every OS - can be used in <strong>Arduino or CircuitPython</strong> as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>  <li>Can be used with Arduino IDE or CircuitPython</li>  <li>Three groups of RGB NeoPixel LEDs</li>  <li>Three Capacitive Touch pads</li>  <li>One speaker</li></ul><h2 id=\"purchase\">Purchase</h2><p>Coming soon from <a href=\"https://www.tindie.com/stores/bradanlane/\">Bradán Lane STUDIO on Tindie</a></p>"
+    },
+    {
         "board_id": "bradanlanestudio_explorer_rp2040",
         "title": "Bradán Lane STUDIO Explorer Badge RP2040 Download",
         "name": "Bradán Lane STUDIO Explorer Badge RP2040",

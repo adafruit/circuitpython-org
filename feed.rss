@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 25 Nov 2024 11:24:00 -0500</lastBuildDate>
+<lastBuildDate>Mon, 25 Nov 2024 15:20:38 -0500</lastBuildDate>
 
 <item>
     <title>Pico 2 W</title>
@@ -35,6 +35,40 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/raspberry_pi_pico2_w/</guid>
+  </item><item>
+    <title>Bradán Lane STUDIO Coin M0</title>
+    <link>https://circuitpython.org/board/bradanlanestudio_coin_m0/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/bradanlanestudio_coin_m0.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/bradanlanestudio_coin_m0.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/bradanlanestudio_coin_m0.jpg" alt="Image of Board" loading="lazy">
+<p>By Bradán Lane STUDIO</p> <p>The “Coin M0” is a little round CircuitPython board with just enough features for a mini macropad.</p>
+
+<p>There’s an ATSAMD21 microcontroller on board with 4MB of flash, Neopixels, touch pads, and a little speaker.</p>
+
+<p>The Coin M0 can run CircuitPython or Arduino very nicely and the flash storage is plenty for CircuitPython code, libraries, and data files (like sound effects).</p>
+
+<ul>
+  <li>ATSAMD21G1A 32-bit Cortex M0+ - 48 MHz 32 bit processor with 256KB Flash and 32 KB RAM</li>
+  <li>Native USB-C supported by every OS - can be used in <strong>Arduino or CircuitPython</strong> as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>
+  <li>Can be used with Arduino IDE or CircuitPython</li>
+  <li>Three groups of RGB NeoPixel LEDs</li>
+  <li>Three Capacitive Touch pads</li>
+  <li>One speaker</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<p>Coming soon from <a href="https://www.tindie.com/stores/bradanlane/">Bradán Lane STUDIO on Tindie</a></p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/bradanlanestudio_coin_m0/</guid>
   </item><item>
     <title>Gemini</title>
     <link>https://circuitpython.org/board/0xcb_gemini/</link>
