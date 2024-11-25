@@ -9,6 +9,7 @@ board_image: "bradanlanestudio_coin_m0.jpg"
 date_added: 2024-11-22
 family: atmel-samd
 features:
+  - USB-C
 ---
 
 The "Coin M0" is a little round CircuitPython board with just enough features for a mini macropad.
