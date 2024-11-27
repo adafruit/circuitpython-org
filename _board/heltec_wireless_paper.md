@@ -10,10 +10,12 @@ board_image: "heltec_wireless_paper.jpg"
 date_added: 2024-11-25
 family: esp32s3
 features:
-  - EPaper Display
   - Bluetooth/BTLE
   - Battery Charging
+  - Display
   - LoRa/Radio
+  - USB-C
+  - Wi-Fi
 ---
 
 Wireless Paper is an E-Ink development kit with multiple wireless drive methods. Collaborate with the sample programs and development tools we provide, users can operate the display via Bluetooth, Wi-Fi and LoRa.
@@ -30,8 +32,7 @@ This board is equipped with a default 2.13-inch black and white E-Ink display sc
 - Onboard USB-UART bridge, facilitate user secondary development.
 - With good RF circuit design and low-power design.
 
-## Specifications:
-
+## Specifications
 - MCU: ESP32-S3FN8
 - LoRa Chipset: SX1262
 - Frequency: 470~510MHz, 863~928MHz
