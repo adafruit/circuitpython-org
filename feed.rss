@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 27 Nov 2024 17:36:34 -0500</lastBuildDate>
+<lastBuildDate>Wed, 27 Nov 2024 17:37:42 -0500</lastBuildDate>
 
 <item>
     <title>Pico 2 W</title>
@@ -89,6 +89,62 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/heltec_wireless_paper/</guid>
+  </item><item>
+    <title>Pico Plus2 W</title>
+    <link>https://circuitpython.org/board/pimoroni_pico_plus2w/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/pimoroni_pico_plus2w.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pimoroni_pico_plus2w.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/pimoroni_pico_plus2w.jpg" alt="Image of Board" loading="lazy">
+<p>By Pimoroni</p> <p>A top of the line Pirate-brand RP2350 microcontroller with 16MB of flash memory, 8MB of PSRAM, USB-C, Qw/ST and 2.4GHz wireless / Bluetooth.</p>
+
+<p>We adore the versatility and value of Raspberry Pi Pico but we also enjoy a souped up RP2350 board with all the extras baked in. With Pimoroni Pico boards, we’ve tried to cram in as much extra functionality as we possibly can whilst keeping to the original Pico footprint to maintain compatibility with existing Pico addons.</p>
+
+<p>Pimoroni Pico Plus 2 W is <strong>powered and programmable via USB-C</strong> and comes with an upgraded <strong>8MB RAM</strong>, <strong>16MB of flash storage</strong> and <strong>easy to read pin labels</strong>. The ‘W’ version is also equipped with a Raspberry Pi RM2 module, which gives it 2.4 GHz wireless and Bluetooth connectivity, woohaa!</p>
+
+<p>It’s super easy to connect up to things without soldering, with a <strong><a href="https://shop.pimoroni.com/collections/qwiic">Qwiic</a>/<a href="https://shop.pimoroni.com/collections/stemma-qt">STEMMA QT</a> connector</strong> (for adding I2C sensors and breakouts), and a <strong>debug connector</strong> (for if you like to program using a SWD debugger). We’ve also added a reset button, and a BOOT button - this can also be used as a user switch.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Powered by RP2350B (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>
+  <li>16MB of QSPI flash supporting XiP</li>
+  <li>8MB of PSRAM</li>
+  <li>Raspberry Pi RM2 module provides 2.4GHz wireless and Bluetooth connectivity</li>
+  <li>USB-C connector for power, programming, and data transfer</li>
+  <li>Qw/ST (Qwiic/STEMMA QT) connector for attaching breakouts</li>
+  <li>3 pin debug connector (JST-SH)</li>
+  <li>Reset and BOOT buttons (the BOOT button can also be used as a user button)</li>
+  <li>User LED indicator</li>
+  <li>On-board 3V3 regulator (max regulator current output 600mA)</li>
+  <li>Input voltage range 3V - 5.5V</li>
+  <li>Compatible with Raspberry Pi Pico add-ons</li>
+  <li>Measurements: approx 53mm x 21mm x 9mm (L x W x H, including connectors)</li>
+</ul>
+
+<h2 id="about-rp2350">About RP2350</h2>
+
+<p>The RP2350 chip is the Double Quarter Pounder &amp; Fries to the RP2040’s Double Cheeseburger and can have one or more RISC-V burgers instead of either of the M33 ARMs, to stretch the metaphor.</p>
+
+<p>In addition to the modern M33 ARM cores, there are sides of: more PIO capability, a variety of low power states for sipping electrons, a whole security system and some sprinklings of specialist digital video circuits to offload DVI/HDMI output.</p>
+
+<p>You can expect a tasty boost in performance - our “real world” MicroPython tests are running up to 2x faster compared to RP2040, and floating point number crunching in C/C++ is up to 20x faster. The extra on-chip RAM will make a big difference when performing memory intensive operations (such as working with higher resolution displays) and even more can be added thanks to external PSRAM support.</p>
+
+<p>RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/pimoroni-pico-plus-2-w">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_pico_plus2w/</guid>
   </item><item>
     <title>Bradán Lane STUDIO Coin M0</title>
     <link>https://circuitpython.org/board/bradanlanestudio_coin_m0/</link>
