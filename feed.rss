@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 27 Nov 2024 05:04:02 -0500</lastBuildDate>
+<lastBuildDate>Wed, 27 Nov 2024 17:33:21 -0500</lastBuildDate>
 
 <item>
     <title>Pico 2 W</title>
@@ -35,6 +35,60 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/raspberry_pi_pico2_w/</guid>
+  </item><item>
+    <title>Heltec Wireless Paper</title>
+    <link>https://circuitpython.org/board/heltec_wireless_paper/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/heltec_wireless_paper.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/heltec_wireless_paper.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/heltec_wireless_paper.jpg" alt="Image of Board" loading="lazy">
+<p>By Heltec Automation</p> <p>Wireless Paper is an E-Ink development kit with multiple wireless drive methods. Collaborate with the sample programs and development tools we provide, users can operate the display via Bluetooth, Wi-Fi and LoRa.</p>
+
+<p>This board is equipped with a default 2.13-inch black and white E-Ink display screen, continuous display for 180 days after power outage. It can be used to develop applications such as electronic tags and identity tags.</p>
+
+<h2 id="technical-details">Technical Details</h2>
+<ul>
+  <li>ESP32-S3FN8 + SX1262 Chipset, device can be driven via Wi-Fi, BLE and LoRa.</li>
+  <li>Default 250 x 122 pixels black-white display, it can also be used to drive E-Ink screens of other sizes.</li>
+  <li>High contrast, high reflectance, ultra-wide viewing angle.</li>
+  <li>Low power consumption, 20uA in deep sleep.</li>
+  <li>Internal integrated display screen refresh page function, users can drag and drop BMP images to achieve refresh.</li>
+  <li>Operation condition: 0~50℃, 35~70%RH.</li>
+  <li>Onboard USB-UART bridge, facilitate user secondary development.</li>
+  <li>With good RF circuit design and low-power design.</li>
+</ul>
+
+<h2 id="specifications">Specifications</h2>
+<ul>
+  <li>MCU: ESP32-S3FN8</li>
+  <li>LoRa Chipset: SX1262</li>
+  <li>Frequency: 470~510MHz, 863~928MHz</li>
+  <li>Power Supply: lithium battery, USB Type-C</li>
+  <li>Supply Voltage: 3~5v</li>
+  <li>Operating Temperature: 0~50℃</li>
+  <li>Operating Humidity: 35~70%</li>
+  <li>Display Resolution: 122(H)x250(V) Pixel</li>
+  <li>Connection Method: Wi-Fi, LoRa, BLE</li>
+  <li>Screen Size: 2.13 Inch</li>
+  <li>Active Area: 23.705×48.55</li>
+  <li>Pixel Pitch: 0.1942X0.1942</li>
+  <li>Pixel Configuration: Square</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://heltec.org/project/wireless-paper/">Heltec Automation Store</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/heltec_wireless_paper/</guid>
   </item><item>
     <title>Bradán Lane STUDIO Coin M0</title>
     <link>https://circuitpython.org/board/bradanlanestudio_coin_m0/</link>

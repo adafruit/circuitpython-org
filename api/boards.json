@@ -5104,6 +5104,30 @@
         "description": "<p>WiFi LoRa 32 is a classic IoT dev-board designed &amp; produced by Heltec Automation. Since its launch in 2017, it has been loved by developers and makers. The newly launched V3 version has the same pin sequence as the V2 version and retains Wi-Fi, BLE, LoRa, OLED display, and other functions.</p><p>It is the best option for smart cities, farms, homes, industrial control, house security, wireless meter reading, and IoT developers.</p><h4 id=\"wifi-lora-32-v3-is-a-part-of-the-heltec-lora-series-with-the-following-features\">WiFi LoRa 32 （V3） is a part of the “Heltec LoRa“ series, with the following features</h4><ul>  <li>Microprocessor: ESP32-S3FN8 (Xtensa® 32-bit LX7 dual-core processor, five-stage pipeline rack Structure, frequency up to 240 MHz).</li>  <li>SX1262 LoRa node chip.</li>  <li>Type-C USB interface with a complete voltage regulator, ESD protection, short circuit protection, RF shielding, and other protection measures.</li>  <li>Onboard SH1.25-2 battery interface, integrated lithium battery management system (charge and discharge management, overcharge protection, battery power detection, USB / battery power automatic switching).</li>  <li>Integrated WiFi, LoRa, Bluetooth three network connections, onboard Wi-Fi, Bluetooth dedicated 2.4GHz metal spring antenna, reserved IPEX (U.FL) interface for LoRa use.</li>  <li>Onboard 0.96-inch 128*64 dot matrix OLED display can be used to display debugging information, battery power, and other information.</li>  <li>Integrated CP2102 USB to serial port chip, convenient for program downloading, and debugging information printing.</li>  <li>Support the<a href=\"https://heltec.org/wifi_kit_install/\"> Arduino development environment</a>.</li>  <li>With good RF circuit design and low-power design.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://heltec.org/project/wifi-lora-32-v3/\">Heltec Automation Store</a></li></ul>"
     },
     {
+        "board_id": "heltec_wireless_paper",
+        "title": "Heltec Wireless Paper",
+        "name": "Heltec Wireless Paper",
+        "board_url": [
+            "https://heltec.org/project/wireless-paper/"
+        ],
+        "board_image": "heltec_wireless_paper.jpg",
+        "date_added": "2024-11-25",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Battery Charging",
+            "Display",
+            "LoRa/Radio",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/heltec_wireless_paper/",
+        "description": "<p>Wireless Paper is an E-Ink development kit with multiple wireless drive methods. Collaborate with the sample programs and development tools we provide, users can operate the display via Bluetooth, Wi-Fi and LoRa.</p><p>This board is equipped with a default 2.13-inch black and white E-Ink display screen, continuous display for 180 days after power outage. It can be used to develop applications such as electronic tags and identity tags.</p><h2 id=\"technical-details\">Technical Details</h2><ul>  <li>ESP32-S3FN8 + SX1262 Chipset, device can be driven via Wi-Fi, BLE and LoRa.</li>  <li>Default 250 x 122 pixels black-white display, it can also be used to drive E-Ink screens of other sizes.</li>  <li>High contrast, high reflectance, ultra-wide viewing angle.</li>  <li>Low power consumption, 20uA in deep sleep.</li>  <li>Internal integrated display screen refresh page function, users can drag and drop BMP images to achieve refresh.</li>  <li>Operation condition: 0~50℃, 35~70%RH.</li>  <li>Onboard USB-UART bridge, facilitate user secondary development.</li>  <li>With good RF circuit design and low-power design.</li></ul><h2 id=\"specifications\">Specifications</h2><ul>  <li>MCU: ESP32-S3FN8</li>  <li>LoRa Chipset: SX1262</li>  <li>Frequency: 470~510MHz, 863~928MHz</li>  <li>Power Supply: lithium battery, USB Type-C</li>  <li>Supply Voltage: 3~5v</li>  <li>Operating Temperature: 0~50℃</li>  <li>Operating Humidity: 35~70%</li>  <li>Display Resolution: 122(H)x250(V) Pixel</li>  <li>Connection Method: Wi-Fi, LoRa, BLE</li>  <li>Screen Size: 2.13 Inch</li>  <li>Active Area: 23.705×48.55</li>  <li>Pixel Pitch: 0.1942X0.1942</li>  <li>Pixel Configuration: Square</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://heltec.org/project/wireless-paper/\">Heltec Automation Store</a></li></ul>"
+    },
+    {
         "board_id": "hexky_s2",
         "title": "hexky_s2 Download",
         "name": "hexky_s2",
