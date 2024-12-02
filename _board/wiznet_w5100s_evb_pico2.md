@@ -6,7 +6,7 @@ name: "W5100S-EVB-Pico2"
 manufacturer: "WIZnet"
 board_url:
  - "https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico2"
-board_image: "w5100s-evb-pico2.jpg"
+board_image: "wiznet_w5100s_evb_pico2.jpg"
 date_added: 2024-11-15
 family: raspberrypi
 features:
