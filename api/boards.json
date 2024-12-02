@@ -11866,6 +11866,26 @@
         "description": "<p>W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.</p><ul>  <li>Raspberry Pi Pico Clone</li>  <li>Ethernet (W5100S Hardwired TCP/IP CHIP)</li>  <li>AWS IoT Core Qualified</li>  <li>Microsoft Azure Certified</li></ul><p><strong>Features​</strong></p><ul>  <li>RP2040 microcontroller with 2MByte Flash    <ul>      <li>Dual-core cortex M0+ at up to 133MHz</li>      <li>264kByte multi-bank high performance SRAM</li>      <li>External Quad-SPI Flash with eXecute In Place (XIP)</li>      <li>High performance full-crossbar bus fabric</li>      <li>30 multi-function General Purpose IO (4 can be used for ADC)        <ul>          <li>1.8-3.3V IO Voltage (NOTE. Pico IO voltage is fixed at 3.3V)</li>        </ul>      </li>      <li>12-bit 500ksps Analogue to Digital Converter (ADC)</li>      <li>Various digital peripherals        <ul>          <li>2 × UART, 2 × I2C, 2 × SPI, 16 × PWM channels</li>          <li>1 × Timer with 4 alarms, 1 × Real Time Counter</li>        </ul>      </li>      <li>2 × Programmable IO (PIO) blocks, 8 state machines total</li>      <li>Flexible, user-programmable high-speed IO</li>      <li>Can emulate interfaces such as SD Card and VGA</li>    </ul>  </li>  <li>Includes W5100S    <ul>      <li>Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP,    PPPoE</li>      <li>Supports 4 Independent Hardware SOCKETs simultaneously</li>      <li>Internal 16 Kbytes Memory for TX/ RX Buffers</li>      <li>SPI Interface</li>    </ul>  </li>  <li>Micro-USB B port for power and data (and for reprogramming the Flash)</li>  <li>40 pin 21x51 ‘DIP’ style 1mm thick PCB with 0.1” through-hole pins also with edge castellations</li>  <li>3-pin ARM Serial Wire Debug (SWD) port</li>  <li>10 / 100 Ethernet PHY embedded</li>  <li>Supports Auto Negotiation    <ul>      <li>Full / Half Duplex</li>      <li>10 / 100 Based</li>    </ul>  </li>  <li>Built-in RJ45(RB1-125BAG1A)</li>  <li>Built-in LDO (LM8805SF5-33V)</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://eshop.wiznet.io/shop/module/w5100s-evb-pico/\">WIZnet e-shop</a></li></ul><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico\">WIZnet Docs</a></li></ul>"
     },
     {
+        "board_id": "wiznet_w5100s_evb_pico2",
+        "title": "W5100S-EVB-Pico2 Download",
+        "name": "W5100S-EVB-Pico2",
+        "board_url": [
+            "https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico2"
+        ],
+        "board_image": "wiznet_w5100s_evb_pico2.jpg",
+        "date_added": "2024-11-15",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Castellated Pads"
+        ],
+        "url_path": "/board/wiznet_w5100s_evb_pico2/",
+        "description": "<p>W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and fully hardwired TCP/IP controller W5100S – enhancing the capabilities of the traditional Raspberry Pi Pico board with additional Ethernet functionality via W5100S.</p><ul>  <li>Enhanced Raspberry Pi Pico Clone</li>  <li>Ethernet (W5100S Hardwired TCP/IP CHIP)</li></ul><p><strong>Features</strong></p><ul>  <li>RP2350 Microcontroller with Integrated 16Mbit Flash    <ul>      <li>Symmetric dual Arm Cortex-M33 cores at up to 150MHz</li>      <li>520kByte multi-bank high performance SRAM</li>      <li>External Quad-SPI Flash with eXecute In Place (XIP) capabilities</li>      <li>Enhanced performance full-crossbar bus fabric</li>      <li>Up to 48 multi-function General Purpose IO (8 can be used for ADC on RP2350-B)        <ul>          <li>1.8-5.0V IO Voltage</li>        </ul>      </li>    </ul>  </li>  <li>W5100S Ethernet Controller    <ul>      <li>Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE</li>      <li>Supports 4 Independent Hardware SOCKETs simultaneously</li>      <li>Internal 16 Kbytes Memory for TX/ RX Buffers</li>      <li>High Speed Serial Peripheral Interface (SPI MODE 0, 3)</li>    </ul>  </li>  <li>C-Type USB port for power and data (and for reprogramming the Flash)</li>  <li>40 pin 21x51 ‘DIP’ style 1mm thick PCB with 0.1” through-hole pins also with edge castellations</li>  <li>3-pin ARM Serial Wire Debug (SWD) port</li>  <li>10 / 100 Ethernet PHY embedded</li>  <li>Supports Auto Negotiation    <ul>      <li>Full / Half Duplex</li>      <li>10 / 100 Based</li>    </ul>  </li>  <li>Built-in RJ45</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://eshop.wiznet.io/shop/module/w5100s-evb-pico2/\">WIZnet e-shop</a></li></ul><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico2\">WIZnet Docs</a></li></ul>"
+    },
+    {
         "board_id": "wiznet_w5500_evb_pico",
         "title": "W5500-EVB-Pico Download",
         "name": "W5500-EVB-Pico",

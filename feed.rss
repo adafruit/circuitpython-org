@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 02 Dec 2024 09:17:31 -0500</lastBuildDate>
+<lastBuildDate>Mon, 02 Dec 2024 15:09:53 -0500</lastBuildDate>
 
 <item>
     <title>Pico 2 W</title>
@@ -179,6 +179,77 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/bradanlanestudio_coin_m0/</guid>
+  </item><item>
+    <title>W5100S-EVB-Pico2</title>
+    <link>https://circuitpython.org/board/wiznet_w5100s_evb_pico2/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/wiznet_w5100s_evb_pico2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/wiznet_w5100s_evb_pico2.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/wiznet_w5100s_evb_pico2.jpg" alt="Image of Board" loading="lazy">
+<p>By WIZnet</p> <p>W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and fully hardwired TCP/IP controller W5100S – enhancing the capabilities of the traditional Raspberry Pi Pico board with additional Ethernet functionality via W5100S.</p>
+
+<ul>
+  <li>Enhanced Raspberry Pi Pico Clone</li>
+  <li>Ethernet (W5100S Hardwired TCP/IP CHIP)</li>
+</ul>
+
+<p><strong>Features</strong></p>
+
+<ul>
+  <li>RP2350 Microcontroller with Integrated 16Mbit Flash
+    <ul>
+      <li>Symmetric dual Arm Cortex-M33 cores at up to 150MHz</li>
+      <li>520kByte multi-bank high performance SRAM</li>
+      <li>External Quad-SPI Flash with eXecute In Place (XIP) capabilities</li>
+      <li>Enhanced performance full-crossbar bus fabric</li>
+      <li>Up to 48 multi-function General Purpose IO (8 can be used for ADC on RP2350-B)
+        <ul>
+          <li>1.8-5.0V IO Voltage</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>W5100S Ethernet Controller
+    <ul>
+      <li>Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE</li>
+      <li>Supports 4 Independent Hardware SOCKETs simultaneously</li>
+      <li>Internal 16 Kbytes Memory for TX/ RX Buffers</li>
+      <li>High Speed Serial Peripheral Interface (SPI MODE 0, 3)</li>
+    </ul>
+  </li>
+  <li>C-Type USB port for power and data (and for reprogramming the Flash)</li>
+  <li>40 pin 21x51 ‘DIP’ style 1mm thick PCB with 0.1” through-hole pins also with edge castellations</li>
+  <li>3-pin ARM Serial Wire Debug (SWD) port</li>
+  <li>10 / 100 Ethernet PHY embedded</li>
+  <li>Supports Auto Negotiation
+    <ul>
+      <li>Full / Half Duplex</li>
+      <li>10 / 100 Based</li>
+    </ul>
+  </li>
+  <li>Built-in RJ45</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://eshop.wiznet.io/shop/module/w5100s-evb-pico2/">WIZnet e-shop</a></li>
+</ul>
+
+<h2 id="learn-more">Learn more</h2>
+
+<ul>
+  <li><a href="https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico2">WIZnet Docs</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/wiznet_w5100s_evb_pico2/</guid>
   </item><item>
     <title>Gemini</title>
     <link>https://circuitpython.org/board/0xcb_gemini/</link>
