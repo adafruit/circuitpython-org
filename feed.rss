@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 02 Dec 2024 15:09:53 -0500</lastBuildDate>
+<lastBuildDate>Mon, 02 Dec 2024 15:10:29 -0500</lastBuildDate>
 
 <item>
     <title>Pico 2 W</title>
@@ -250,6 +250,57 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/wiznet_w5100s_evb_pico2/</guid>
+  </item><item>
+    <title>Thing Plus - RP2350</title>
+    <link>https://circuitpython.org/board/sparkfun_thing_plus_rp2350/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/sparkfun_thing_plus_rp2350.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/sparkfun_thing_plus_rp2350.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/sparkfun_thing_plus_rp2350.jpg" alt="Image of Board" loading="lazy">
+<p>By SparkFun</p> <p>The SparkFun Thing Plus - RP2350 is a dynamic and powerful wireless development platform in the Thing Plus form factor. Built around the RP2350 microcontroller from the Raspberry Pi Foundation, this board includes their radio module for single-band 2.4 GHz WiFi 4 (802.11n) and Bluetooth® 5.2 along with standard hardware components found on all Thing Plus Boards. This includes on-board Lithium Ion (LiPo) battery charging and fuel gauge circuits, µSD card socket, Qwiic connector, and the Thing Plus pinout, allowing use of the RP2350 Thing Plus in a wide variety of both local and remote applications.</p>
+
+<p>The RP3250 is a unique dual-core microcontroller with two ARM® Cortex® M33 processors and two Hazard3 RISC-V processors, all running at up to 150 MHz! Now, this doesn’t mean the RP2350 is a quad-core microcontroller. Instead, users can select which two processors to run on boot. You can run two processors of the same type or one of each. The RP2350 also features 520kB SRAM in ten banks, a host of peripherals including two UARTs, two SPI and two I2C controllers, and a USB 1.1 controller for host and device support.</p>
+
+<p>The RP2350 contains two ARM Cortex-M3 and Hazard3 RISC-V processors and features:</p>
+
+<ul>
+  <li>Dual ARM CortexM3 and Hazard3 RISC-V Processors
+    <ul>
+      <li>User-selectable for dual-cores</li>
+    </ul>
+  </li>
+  <li>520kB integrated SRAM in 10 banks</li>
+  <li>5V-tolerant GPIO (powered) with 3.3V failsafe (unpowered)</li>
+  <li>Peripherals
+    <ul>
+      <li>2x UART</li>
+      <li>2x SPI</li>
+      <li>2x I2C</li>
+      <li>4 HSTX Pins (Rasbperry Pi’s High-speed transmit interface)</li>
+      <li>24x PWM Channels</li>
+      <li>12x PIO State Machines</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.sparkfun.com/products/25134">SparkFun</a></li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+<ul>
+  <li><a href="https://docs.sparkfun.com/SparkFun_Thing_Plus_RP2350/hardware_overview/">Hardware Overview</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/sparkfun_thing_plus_rp2350/</guid>
   </item><item>
     <title>Gemini</title>
     <link>https://circuitpython.org/board/0xcb_gemini/</link>

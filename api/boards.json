@@ -10054,6 +10054,29 @@
         "description": "<p>The SparkFun Thing Plus - RP2040 is a low-cost, high performance board with flexible digital interfaces featuring the Raspberry Pi Foundation’s RP2040 microcontroller. Besides the Thing Plus or <em>Feather</em> footprint (with 18 GPIO pins), the board also includes an SD card slot, 16MB (128Mbit) flash memory, a JST single cell battery connector (with a charging circuit and fuel gauge sensor), an addressable WS2812 RGB LED, JTAG PTH pins, four (4-40 screw) mounting holes, and our signature Qwiic connector.</p><p>The RP2040 contains two ARM Cortex-M0+ processors (up to 133MHz) and features:</p><ul>  <li>264kB of embedded SRAM in six banks</li>  <li>6 dedicated IO for SPI Flash (supporting XIP)</li>  <li>30 multifunction GPIO:    <ul>      <li>Dedicated hardware for commonly used peripherals</li>      <li>Programmable IO for extended peripheral support</li>      <li>Four 12-bit ADC channels with internal temperature sensor (up to 0.5 MSa/s)</li>    </ul>  </li>  <li>USB 1.1 Host/Device functionality</li></ul><p>The RP2040 is supported with both C/C++ and MicroPython cross-platform development environments, including easy access to runtime debugging. It has UF2 boot and floating-point routines baked into the chip. While the chip has a large amount of internal RAM, the board includes an additional 16MB of external QSPI flash memory to store program code.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.sparkfun.com/products/17745\">SparkFun</a></li></ul>"
     },
     {
+        "board_id": "sparkfun_thing_plus_rp2350",
+        "title": "Thing Plus - RP2350 Download",
+        "name": "Thing Plus - RP2350",
+        "board_url": [
+            "https://www.sparkfun.com/products/25134"
+        ],
+        "board_image": "sparkfun_thing_plus_rp2350.jpg",
+        "date_added": "2024-11-15",
+        "family": "raspberrypi",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Feather-Compatible",
+            "Battery Charging",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/sparkfun_thing_plus_rp2350/",
+        "description": "<p>The SparkFun Thing Plus - RP2350 is a dynamic and powerful wireless development platform in the Thing Plus form factor. Built around the RP2350 microcontroller from the Raspberry Pi Foundation, this board includes their radio module for single-band 2.4 GHz WiFi 4 (802.11n) and Bluetooth® 5.2 along with standard hardware components found on all Thing Plus Boards. This includes on-board Lithium Ion (LiPo) battery charging and fuel gauge circuits, µSD card socket, Qwiic connector, and the Thing Plus pinout, allowing use of the RP2350 Thing Plus in a wide variety of both local and remote applications.</p><p>The RP3250 is a unique dual-core microcontroller with two ARM® Cortex® M33 processors and two Hazard3 RISC-V processors, all running at up to 150 MHz! Now, this doesn’t mean the RP2350 is a quad-core microcontroller. Instead, users can select which two processors to run on boot. You can run two processors of the same type or one of each. The RP2350 also features 520kB SRAM in ten banks, a host of peripherals including two UARTs, two SPI and two I2C controllers, and a USB 1.1 controller for host and device support.</p><p>The RP2350 contains two ARM Cortex-M3 and Hazard3 RISC-V processors and features:</p><ul>  <li>Dual ARM CortexM3 and Hazard3 RISC-V Processors    <ul>      <li>User-selectable for dual-cores</li>    </ul>  </li>  <li>520kB integrated SRAM in 10 banks</li>  <li>5V-tolerant GPIO (powered) with 3.3V failsafe (unpowered)</li>  <li>Peripherals    <ul>      <li>2x UART</li>      <li>2x SPI</li>      <li>2x I2C</li>      <li>4 HSTX Pins (Rasbperry Pi’s High-speed transmit interface)</li>      <li>24x PWM Channels</li>      <li>12x PIO State Machines</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.sparkfun.com/products/25134\">SparkFun</a></li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.sparkfun.com/SparkFun_Thing_Plus_RP2350/hardware_overview/\">Hardware Overview</a></li></ul>"
+    },
+    {
         "board_id": "splitkb_liatris",
         "title": "Liatris Download",
         "name": "Liatris",
