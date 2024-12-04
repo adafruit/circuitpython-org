@@ -8,7 +8,7 @@ board_url:
  - "https://www.lilygo.cc/products/t-display-rp2040"
 board_image: "lilygo_t_display_rp2040.jpg"
 date_added: 2023-05-15
-family: raspberrypi
+family: rp2040
 features:
   - Battery Charging
   - USB-C

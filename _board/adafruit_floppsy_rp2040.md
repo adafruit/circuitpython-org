@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/"
 board_image: "adafruit_floppsy_rp2040.jpg"
 date_added: 2024-03-13
-family: raspberrypi
+family: rp2040
 features:
   - Display
   - USB-C

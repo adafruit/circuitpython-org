@@ -8,7 +8,7 @@ board_url:
  - "https://www.cytron.io/p-maker-nano-rp2040"
 board_image: "cytron_maker_nano_rp2040.jpg"
 date_added: 2021-12-06
-family: raspberrypi
+family: rp2040
 download_instructions: https://github.com/CytronTechnologies/MAKER-NANO-RP2040#circuitpython
 features:
   - Speaker

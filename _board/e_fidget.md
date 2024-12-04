@@ -8,7 +8,7 @@ board_url:
  - "https://e-fidget.xyz"
 board_image: "e_fidget.jpg"
 date_added: 2023-01-04
-family: raspberrypi
+family: rp2040
 features:
   - Battery Charging
   - USB-C

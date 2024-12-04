@@ -8,7 +8,7 @@ board_url:
  - "https://www.waveshare.com/rp2040-lcd-1.28.htm"
 board_image: "waveshare_rp2040_lcd_1_28.jpg"
 date_added: 2023-01-31
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
   - Battery Charging

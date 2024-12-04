@@ -8,7 +8,7 @@ board_url:
  - "https://my.cytron.io/p-maker-uno-rp2040"
 board_image: "cytron_maker_uno_rp2040.jpg"
 date_added: 2023-12-14
-family: raspberrypi
+family: rp2040
 download_instructions: https://my.cytron.io/tutorial/getting-started-guide-with-maker-uno-rp2040-circuitpython
 features:
   - Battery Charging

@@ -8,7 +8,7 @@ board_url:
  - "https://www.elecfreaks.com/picoed.html"
 board_image: "elecfreaks_picoed.jpg"
 date_added: 2022-04-21
-family: raspberrypi
+family: rp2040
 download_instructions: https://www.elecfreaks.com/learn-en/pico-ed/index.html
 features:
   - Speaker

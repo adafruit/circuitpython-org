@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/5100"
 board_image: "adafruit_macropad_rp2040.jpg"
 date_added: 2021-06-04
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.adafruit.com/adafruit-macropad-rp2040/circuitpython
 features:
   - USB-C

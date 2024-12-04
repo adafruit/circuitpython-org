@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/5342"
 board_image: "pimoroni_interstate75.jpg"
 date_added: 2021-12-02
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.pimoroni.com/article/getting-started-with-interstate-75#circuitpython
 features:
   - External Display

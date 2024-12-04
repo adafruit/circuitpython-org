@@ -8,7 +8,7 @@ board_url:
  - "https://splitkb.com/products/liatris"
 board_image: "splitkb_liatris.jpg"
 date_added: 2023-07-28
-family: raspberrypi
+family: rp2040
 features:
   - STEMMA QT/QWIIC
   - USB-C

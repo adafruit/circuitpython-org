@@ -8,7 +8,7 @@ board_url:
  - "https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico2"
 board_image: "wiznet_w5100s_evb_pico2.jpg"
 date_added: 2024-11-15
-family: raspberrypi
+family: rp2350
 features:
   - Breadboard-Friendly
   - Castellated Pads

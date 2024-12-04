@@ -8,7 +8,7 @@ board_url:
  - "https://www.cytron.io/p-edu-project-and-innovation-kits-for-pico-w"
 board_image: "cytron_edu_pico_w.jpg"
 date_added: 2024-01-24
-family: raspberrypi
+family: rp2040
 download_instructions: https://drive.google.com/file/d/11HsdBkVWlOHMAWY-yf4V_Gd5FLM9MIwv/view
 features:
   - Battery Charging

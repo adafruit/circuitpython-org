@@ -9,7 +9,7 @@ board_url:
 board_image: "jpconstantineau_pykey87.jpg"
 downloads_display: true
 date_added: 2021-12-15
-family: raspberrypi
+family: rp2040
 
 features:
   - USB-C

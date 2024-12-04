@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/Guru-RF/MicroPico"
 board_image: "rfguru_rp2040.jpg"
 date_added: 2024-03-29
-family: raspberrypi
+family: rp2040
 features:
 
 ---

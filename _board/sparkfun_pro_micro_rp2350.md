@@ -8,7 +8,7 @@ board_url:
  - "https://www.sparkfun.com/products/24870"
 board_image: "sparkfun_pro_micro_rp2350.jpg"
 date_added: 2024-08-22
-family: raspberrypi
+family: rp2350
 features:
   - STEMMA QT/QWIIC
   - USB-C

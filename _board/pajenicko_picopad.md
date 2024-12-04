@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/Pajenicko/Picopad"
 board_image: "pajenicko_picopad.jpg"
 date_added: 2023-07-25
-family: raspberrypi
+family: rp2040
 download_instructions: https://github.com/Pajenicko/Picopad/tree/main/circuitpython
 features:
   - Display

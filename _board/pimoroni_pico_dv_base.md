@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/5674"
 board_image: "pimoroni_pico_dv_base.jpg"
 date_added: 2023-05-04
-family: raspberrypi
+family: rp2040
 ---
 
 A demo board for exploring the digital video and audio capabilities of Raspberry Pi Pico, with

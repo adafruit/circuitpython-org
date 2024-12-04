@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/5437"
 board_image: "pimoroni_servo2040.jpg"
 date_added: 2022-04-01
-family: raspberrypi
+family: rp2040
 features:
   - Robotics
   - STEMMA QT/QWIIC

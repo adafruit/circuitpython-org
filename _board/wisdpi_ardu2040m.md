@@ -8,7 +8,7 @@ board_url:
  - "https://www.wisdpi.com/products/ardu2040m-rp2040-arduino-style-dev-board"
 board_image: "wisdpi_ardu2040m.jpg"
 date_added: 2023-12-11
-family: raspberrypi
+family: rp2040
 features:
   - Display
   - Arduino Shield Compatible

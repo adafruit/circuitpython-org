@@ -8,7 +8,7 @@ board_url:
  - "https://www.waveshare.com/wiki/RP2040-Tiny"
 board_image: "waveshare_rp2040_tiny.jpg"
 date_added: 2024-03-18
-family: raspberrypi
+family: rp2040
 features:
   - Breadboard-Friendly
   - Castellated Pads

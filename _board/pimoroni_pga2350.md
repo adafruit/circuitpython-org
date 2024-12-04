@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/pga2350"
 board_image: "pimoroni_pga2350.jpg"
 date_added: 2024-08-22
-family: raspberrypi
+family: rp2350
 ---
 
 A minimal but powerful RP2350 breakout board modelled on a Pin Grid Array, with the maximum exposed pins crammed into the smallest possible space.

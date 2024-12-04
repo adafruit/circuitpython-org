@@ -8,7 +8,7 @@ board_url:
  - "https://www.wiznet.io/product-item/w5500-evb-pico/"
 board_image: "w5500-evb-pico.jpg"
 date_added: 2022-07-25
-family: raspberrypi
+family: rp2040
 features:
   - Breadboard-Friendly
   - Castellated Pads

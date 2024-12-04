@@ -8,7 +8,7 @@ board_url:
  - "https://www.tindie.com/products/oakdevtech/cast-away-rp2040-a-castellated-rp2040-dev-board/"
 board_image: "odt_cast_away_rp2040.jpg"
 date_added: 2022-01-04
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly

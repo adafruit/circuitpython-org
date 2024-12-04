@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/jpconstantineau/EncoderPad_RP2040"
 board_image: "jpconstantineau_encoderpad_rp2040.jpg"
 date_added: 2021-09-02
-family: raspberrypi
+family: rp2040
 
 features:
   - USB-C

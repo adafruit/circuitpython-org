@@ -8,7 +8,7 @@ board_url:
  - "https://keeb.io/products/elite-pi-usb-c-pro-micro-replacement-rp2040"
 board_image: "maple_elite_pi.jpg"
 date_added: 2023-11-15
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly

@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/pimoroni-pico-plus-2"
 board_image: "pimoroni_pico_plus2.jpg"
 date_added: 2024-08-22
-family: raspberrypi
+family: rp2350
 features:
   - Battery Charging
   - USB-C
