@@ -7,7 +7,7 @@ manufacturer: "Bradán Lane STUDIO"
 board_url: https://aosc.cc/eccn2024
 board_image: "bradanlanestudio_explorer_rp2040.jpg"
 date_added: 2024-05-23
-family: raspberrypi
+family: rp2040
 tags:
 features:
   - Display

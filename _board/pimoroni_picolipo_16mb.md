@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/picolipo"
 board_image: "pimoroni_picolipo.jpg"
 date_added: 2021-05-12
-family: raspberrypi
+family: rp2040
 features:
   - Battery Charging
   - USB-C

@@ -8,7 +8,7 @@ board_url:
  - "https://www.wisdpi.com/products/wisdpi-tiny-rp2040-a-tiny-cool-rp2040-dev-board-with-4mb-flash"
 board_image: "wisdpi_tiny_rp2040.jpg"
 date_added: 2023-12-11
-family: raspberrypi
+family: rp2040
 features:
   - Breadboard-Friendly
   - USB-C

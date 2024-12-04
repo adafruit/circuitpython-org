@@ -10,7 +10,7 @@ download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-an
 downloads_display: true
 blinka: true
 date_added: 2024-08-07
-family: raspberrypi
+family: rp2040
 ---
 
 A Trinkey-like MCU board based on Raspberry Pi RP2040

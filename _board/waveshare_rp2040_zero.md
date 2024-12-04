@@ -8,7 +8,7 @@ board_url:
  - "https://www.waveshare.com/rp2040-zero.htm"
 board_image: "waveshare_rp2040_zero.jpg"
 date_added: 2022-01-12
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly

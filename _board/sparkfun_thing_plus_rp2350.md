@@ -8,7 +8,7 @@ board_url:
  - "https://www.sparkfun.com/products/25134"
 board_image: "sparkfun_thing_plus_rp2350.jpg"
 date_added: 2024-11-15
-family: raspberrypi
+family: rp2350
 features:
   - Feather-Compatible
   - Battery Charging

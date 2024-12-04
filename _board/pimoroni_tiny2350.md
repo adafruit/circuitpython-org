@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/tiny-2350"
 board_image: "pimoroni_tiny2350.jpg"
 date_added: 2024-08-22
-family: raspberrypi
+family: rp2350
 
 features:
   - USB-C

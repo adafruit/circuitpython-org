@@ -8,7 +8,7 @@ board_url:
  - "https://datanoise.shop/products/picoadk-v2"
 board_image: "datanoise_picoadk_v2.jpg"
 date_added: 2024-10-08
-family: raspberrypi
+family: rp2350
 features:
   - STEMMA QT/QWIIC
   - USB-C

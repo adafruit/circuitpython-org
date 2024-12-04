@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/dotcypress/upico"
 board_image: "upico.jpg"
 date_added: 2023-11-29
-family: raspberrypi
+family: rp2040
 features:
 ---
 

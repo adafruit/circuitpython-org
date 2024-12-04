@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/5544"
 board_image: "raspberry_pi_pico_w.jpg"
 date_added: 2022-10-02
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.adafruit.com/pico-w-wifi-with-circuitpython/installing-circuitpython
 tags:
   - picow

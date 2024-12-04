@@ -8,7 +8,7 @@ board_url:
  - "https://minifigboards.com/fig-pi"
 board_image: "bwshockley_figpi.jpg"
 date_added: 2022-08-22
-family: raspberrypi
+family: rp2040
 features:
   - STEMMA QT/QWIIC
 ---

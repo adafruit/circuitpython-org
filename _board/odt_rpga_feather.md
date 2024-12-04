@@ -8,7 +8,7 @@ board_url:
  - "https://www.tindie.com/products/oakdevtech/rpga-feather-rp2040-ice40/"
 board_image: "odt_rpga_feather.jpg"
 date_added: 2024-06-07
-family: raspberrypi
+family: rp2040
 features:
   - STEMMA QT/QWIIC
   - USB-C

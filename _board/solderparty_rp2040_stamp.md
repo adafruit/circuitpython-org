@@ -8,7 +8,7 @@ board_url:
  - "https://www.solder.party/docs/rp2040-stamp/"
 board_image: "solderparty_rp2040_stamp.jpg"
 date_added: 2021-11-15
-family: raspberrypi
+family: rp2040
 bootloader_id: solderparty_rp2040_stamp
 downloads_display: true
 blinka: false

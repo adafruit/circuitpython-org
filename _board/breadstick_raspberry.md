@@ -9,7 +9,7 @@ board_url:
  - "https://www.crowdsupply.com/breadstick-innovations/raspberry-breadstick"
 board_image: "breadstick_raspberry.jpg"
 date_added: 2023-12-14
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly

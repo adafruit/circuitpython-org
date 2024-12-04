@@ -8,7 +8,7 @@ board_url:
  - "https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html"
 board_image: "seeeduino_xiao_rp2040.jpg"
 date_added: 2022-01-04
-family: raspberrypi
+family: rp2040
 download_instructions: https://wiki.seeedstudio.com/XIAO-RP2040-with-CircuitPython/
 features:
   - Breadboard-Friendly

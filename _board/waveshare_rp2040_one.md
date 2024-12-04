@@ -8,7 +8,7 @@ board_url:
  - "https://www.waveshare.com/product/rp2040-one.htm"
 board_image: "waveshare_rp2040_one.jpg"
 date_added: 2024-08-07
-family: raspberrypi
+family: rp2040
 features:
   - Breadboard-Friendly
   - Castellated Pads

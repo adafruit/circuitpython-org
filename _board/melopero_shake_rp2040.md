@@ -8,7 +8,7 @@ board_url:
  - "https://www.melopero.com/melopero-shake-rp2040"
 board_image: "melopero_shake_rp2040.jpg"
 date_added: 2021-09-22
-family: raspberrypi
+family: rp2040
 features:
   - Feather-Compatible
   - Battery Charging

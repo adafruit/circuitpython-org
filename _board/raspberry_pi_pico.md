@@ -10,7 +10,7 @@ board_url:
  - "https://www.adafruit.com/product/5525"
 board_image: "raspberry_pi_pico.jpg"
 date_added: 2021-01-21
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython
 features:
   - Breadboard-Friendly

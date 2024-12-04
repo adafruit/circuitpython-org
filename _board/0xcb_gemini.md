@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/0xCB-dev/0xCB-Gemini"
 board_image: "0xcb_gemini.jpg"
 date_added: 2024-11-11
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly

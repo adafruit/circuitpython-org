@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/inky-frame-5-7"
 board_image: "pimoroni_inky_frame_5_7.jpg"
 date_added: 2023-06-05
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.pimoroni.com/article/getting-started-with-inky-frame
 tags:
   - picow

@@ -9,7 +9,7 @@ board_url:
 board_image: "waveshare_rp2040_lcd_0_96.jpg"
 date_added: 2023-04-07
 downloads_display: true
-family: raspberrypi
+family: rp2040
 features:
   - Battery Charging
   - Breadboard-Friendly

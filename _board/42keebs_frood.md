@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/piit79/frood"
 board_image: "42keebs_frood.jpg"
 date_added: 2022-10-26
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly
