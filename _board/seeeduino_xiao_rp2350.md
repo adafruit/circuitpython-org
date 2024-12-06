@@ -9,7 +9,7 @@ board_url:
  - "https://www.seeedstudio.com/Seeed-XIAO-RP2350-p-5944.html"
 board_image: "seeeduino_xiao_rp2350.jpg"
 date_added: 2024-08-29
-family: raspberrypi
+family: rp2350
 features:
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor

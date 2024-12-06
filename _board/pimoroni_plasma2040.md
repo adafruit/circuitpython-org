@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/plasma-2040"
 board_image: "pimoroni_plasma2040.jpg"
 date_added: 2021-08-11
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.pimoroni.com/article/plasma-2040#circuitpython
 features:
   - STEMMA QT/QWIIC

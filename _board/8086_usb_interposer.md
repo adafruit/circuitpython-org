@@ -7,7 +7,7 @@ manufacturer: "8086 Consultancy"
 board_url: "https://www.tindie.com/products/8086net/usb-interposer/"
 board_image: "8086_usb_interposer.jpg"
 date_added: 2024-07-03
-family: raspberrypi
+family: rp2040
 features:
   - STEMMA QT/QWIIC
 

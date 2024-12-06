@@ -8,7 +8,7 @@ board_url:
  - "https://edtechzine.jp/article/detail/8715"
 board_image: "cosmo_pico.jpg"
 date_added: 2023-03-01
-family: raspberrypi
+family: rp2040
 features:
   - Wi-Fi
   - Bluetooth/BTLE

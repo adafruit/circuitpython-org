@@ -8,7 +8,7 @@ board_url:
  - "https://archikids.com.ar/documentacion"
 board_image: "archi.jpg"
 date_added: 2022-06-26
-family: raspberrypi
+family: rp2040
 features:
   - Arduino Shield Compatible
   - USB-C

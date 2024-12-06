@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/5714"
 board_image: "adafruit_feather_rp2040_rfm9x.jpg"
 date_added: 2023-04-04
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.adafruit.com/feather-rp2040-rfm95/circuitpython
 features:
   - Feather-Compatible

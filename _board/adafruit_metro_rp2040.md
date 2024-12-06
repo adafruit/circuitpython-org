@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/5786"
 board_image: "adafruit_metro_rp2040.jpg"
 date_added: 2023-07-28
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.adafruit.com/adafruit-metro-rp2040/circuitpython
 features:
   - STEMMA QT/QWIIC

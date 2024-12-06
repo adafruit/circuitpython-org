@@ -8,7 +8,7 @@ board_url:
     - "https://www.adafruit.com/product/6003"
 board_image: "adafruit_metro_rp2350.jpg"
 date_added: 2024-08-08
-family: raspberrypi
+family: rp2350
 features:
   - STEMMA QT/QWIIC
   - USB-C

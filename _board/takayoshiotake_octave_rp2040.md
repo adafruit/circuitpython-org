@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/takayoshiotake/octave-12-key-macropad"
 board_image: "takayoshiotake_octave_rp2040.jpg"
 date_added: 2022-08-22
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
 ---

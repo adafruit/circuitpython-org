@@ -8,7 +8,7 @@ board_url:
  - "https://www.waveshare.com/rp2040-pizero.htm"
 board_image: "waveshare_rp2040_pizero.jpg"
 date_added: 2024-07-18
-family: raspberrypi
+family: rp2040
 features:
   - USB-C
   - Battery Charging

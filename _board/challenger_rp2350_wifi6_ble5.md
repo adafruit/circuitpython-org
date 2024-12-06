@@ -8,7 +8,7 @@ board_url:
  - "https://ilabs.se/product/challenger-rp2350-wifi-ble/"
 board_image: "challenger_rp2350_wifi6_ble5.jpg"
 date_added: 2024-09-16
-family: raspberrypi
+family: rp2350
 download_instructions: https://ilabs.se/product/challenger-rp2350-wifi-ble/#tab-getting-started
 features:
   - USB-C

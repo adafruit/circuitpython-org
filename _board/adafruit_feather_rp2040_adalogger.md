@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/5980"
 board_image: "adafruit_feather_rp2040_adalogger.jpg"
 date_added: 2024-06-28
-family: raspberrypi
+family: rp2040
 download_instructions: https://learn.adafruit.com/adafruit-feather-rp2040-adalogger/install-circuitpython
 tags:
   - Adalogger Feather

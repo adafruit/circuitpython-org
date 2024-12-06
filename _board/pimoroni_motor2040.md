@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/motor-2040"
 board_image: "pimoroni_motor2040.jpg"
 date_added: 2022-06-15
-family: raspberrypi
+family: rp2040
 features:
   - Robotics
   - STEMMA QT/QWIIC

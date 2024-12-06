@@ -8,7 +8,7 @@ board_url:
  - "https://hackaday.io/project/186921-game-22"
 board_image: "ugame22.jpg"
 date_added: 2023-10-27
-family: raspberrypi
+family: rp2040
 features:
   - Display
   - Speaker

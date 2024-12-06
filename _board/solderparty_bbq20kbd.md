@@ -8,7 +8,7 @@ board_url:
  - "https://www.solder.party/docs/bbq20kbd/"
 board_image: "solderparty_bbq20kbd.jpg"
 date_added: 2022-08-20
-family: raspberrypi
+family: rp2040
 bootloader_id: solderparty__bbq20kbd
 downloads_display: true
 blinka: false

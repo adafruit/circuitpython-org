@@ -8,7 +8,7 @@ board_url:
   - "https://www.adafruit.com/product/6087"
 board_image: "raspberry_pi_pico2_w.jpg"
 date_added: 2024-11-25
-family: raspberrypi
+family: rp2350
 tags:
   - pico 2
   - picow

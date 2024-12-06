@@ -8,7 +8,7 @@ board_url:
  - "https://www.tindie.com/products/datanoisetv/picoadk-audio-development-kit-raspberry-rp2040/"
 board_image: "datanoise_picoadk.jpg"
 date_added: 2023-07-28
-family: raspberrypi
+family: rp2040
 features:
   - STEMMA QT/QWIIC
   - USB-C

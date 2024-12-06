@@ -8,7 +8,7 @@ board_url:
     - "https://www.solder.party/docs/rp2350-stamp-xl/"
 board_image: "solderparty_rp2350_stamp_xl.jpg"
 date_added: 2024-08-08
-family: raspberrypi
+family: rp2350
 features:
   - Castellated Pads
 ---

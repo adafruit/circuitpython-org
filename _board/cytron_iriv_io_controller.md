@@ -8,7 +8,7 @@ board_url:
  - "https://www.cytron.io/p-iriv-ioc"
 board_image: "cytron_iriv_io_controller.png"
 date_added: 2024-08-08
-family: raspberrypi
+family: rp2350
 
 ---
 

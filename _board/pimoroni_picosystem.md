@@ -8,7 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/picosystem"
 board_image: "pimoroni_picosystem.jpg"
 date_added: 2021-02-24
-family: raspberrypi
+family: rp2040
 features:
   - Speaker
   - Battery Charging

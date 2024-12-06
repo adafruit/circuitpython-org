@@ -8,7 +8,7 @@ board_url:
  - "https://www.wiznet.io/product-item/w5100s-evb-pico/"
 board_image: "w5100s-evb-pico.jpg"
 date_added: 2022-04-26
-family: raspberrypi
+family: rp2040
 features:
   - Breadboard-Friendly
   - Castellated Pads
