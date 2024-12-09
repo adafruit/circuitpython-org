@@ -8,7 +8,7 @@ board_url:
  - "https://www.musicthing.co.uk/workshopsystem/"
 board_image: "mtm_computer.jpg"
 date_added: 2024-12-01
-family: raspberrypi
+family: rp2040
 download_instructions: https://github.com/TomWhitwell/Workshop_Computer
 features:
   - USB-C
