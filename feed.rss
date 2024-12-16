@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 16 Dec 2024 05:04:26 -0500</lastBuildDate>
+<lastBuildDate>Mon, 16 Dec 2024 09:28:48 -0500</lastBuildDate>
 
 <item>
     <title>Music Thing Modular Workshop System </title>
@@ -245,6 +245,59 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/bradanlanestudio_coin_m0/</guid>
   </item><item>
+    <title>cezerio mini dev ESP32C6</title>
+    <link>https://circuitpython.org/board/cezerio_mini_dev_esp32c6/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/cezerio_mini_dev_esp32c6.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/cezerio_mini_dev_esp32c6.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/cezerio_mini_dev_esp32c6.jpg" alt="Image of Board" loading="lazy">
+<p>By cezerio</p> <p>cezerio mini dev ESP32C6 based on ESP32-C6FH4 SoC from Espressif, RISC-V single-core processor, 4 MB flash memory, and a diverse selection of wireless connectivity options: 2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee 3.0 and Thread 1.3 (802.15.4). Moreover, Wi-Fi 6’s Target Wake Time (TWT) technology effectively reduces device power consumption, extending battery life and ensuring long-lasting device performance.</p>
+
+<p>The footprint is compatible with Adafruit QT Py and Seeed Studio XIAO. This development board also includes 5x5 RGB LED matrix, an addressable RGB LED.</p>
+
+<p>I2C connector seamlessly integrates the vast ecosystem of sensors, actuators, and more. It is also compatible with STEMMA QT and Qwiic.</p>
+
+<p>For primary power and programming, the board is equipped with a USB-Type C connector.</p>
+
+<p>The ESP32-C6 includes 15 GPIO pins with a wide range of peripheral options including SPI, UART, I2C, I2S, LED PWM, USB Serial/JTAG controller, ADC and more.</p>
+
+<p><strong>Features &amp; Specifications</strong>
+-32-bit High Performance RISC-V processor up to 160MHz
+-32-bit Low Power RISC-V processor at 20Mhz
+-2.4GHz WiFi 6 - 802.11ax
+-Bluetooth 5.3 (LE) + Mesh
+-Zigbee and Thread (802.15.4)
+-4MB QSPI Flash
+-Temperature Sensor
+-Ultra low deep sleep current
+-15 x Multifunctional GPIO (Digital, 12-bit SAR ADC, SPI, I2C, UART, I2S, LED PWM, PCNT, TWAI, USB Serial/JTAG, SDIO, Motor Control PWM, RMT, PARLIO, DMA, ETM)
+-USB-Type C Connector
+-4-pin I2C Connector
+-Reverse USB back-feed protection
+-25 x WS2812B 1010 RGB LED
+-2835 Addressable RGB LED
+-Power LED
+-2 x Button (Boot &amp; Reset)
+-3D High Gain Antenna
+-Board Dimensions: 22,86mm x 17.78mm
+-Max Thickness: 7.95mm between USB-Type C and I2C connectors</p>
+
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own cezerio dev ESP32C6 from:</p>
+
+<ul>
+  <li><a href="https://cezerio.com/cezerio_mini_dev_esp32c6">cezerio</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/cezerio_mini_dev_esp32c6/</guid>
+  </item><item>
     <title>W5100S-EVB-Pico2</title>
     <link>https://circuitpython.org/board/wiznet_w5100s_evb_pico2/</link>
     <description><![CDATA[ 
@@ -404,6 +457,64 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/0xcb_gemini/</guid>
+  </item><item>
+    <title>cezerio dev ESP32C6</title>
+    <link>https://circuitpython.org/board/cezerio_dev_esp32c6/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/cezerio_dev_esp32c6.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/cezerio_dev_esp32c6.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/cezerio_dev_esp32c6.jpg" alt="Image of Board" loading="lazy">
+<p>By cezerio</p> <p>cezerio dev ESP32C6 based on ESP32-C6FH4 SoC from Espressif, RISC-V single-core processor, 4 MB flash memory, and a diverse selection of wireless connectivity options: 2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee 3.0 and Thread 1.3 (802.15.4). Moreover, Wi-Fi 6’s Target Wake Time (TWT) technology effectively reduces device power consumption, extending battery life and ensuring long-lasting device performance.</p>
+
+<p>The footprint is Feather-compatible. I2C connector seamlessly integrates the vast ecosystem of sensors, actuators, and more.</p>
+
+<p>This development board also includes a LiPo battery charger, 6-axis IMU (3-axis Accelerometer &amp; 3-axis Gyroscope), 5x5 RGB LED matrix, an addressable RGB LED and more.</p>
+
+<p>For primary power and programming, the board is also equipped with a USB-C connector and a 2-pin JST connector for a LiPo battery.</p>
+
+<p>The ESP32-C6 includes 20 GPIO pins with a wide range of peripheral options including SPI, UART, I2C, I2S, LED PWM, USB Serial/JTAG controller, ADC and more.</p>
+
+<p><strong>Features &amp; Specifications</strong>
+-32-bit High Performance RISC-V processor up to 160MHz
+-32-bit Low Power RISC-V processor at 20Mhz
+-2.4GHz WiFi 6 - 802.11ax
+-Bluetooth 5.3 (LE) + Mesh
+-Zigbee and Thread (802.15.4)
+-4MB QSPI Flash
+-6-axis IMU (3-axis Accelerometer &amp; 3-axis Gyroscope) LSM6DS3TR-C
+-Temperature Sensor
+-USB-C Connector
+-Reverse USB back-feed protection
+-1A step-down buck DC-DC converter
+-Ultra low deep sleep current
+-BQ21040DBVR 800mAh 1-cell Li-ion and Li-polymer Battery Charging
+-Power and Charge LEDs
+-20 x Multifunctional GPIO (Digital, 12-bit SAR ADC, SPI, I2C, UART, I2S, LED PWM, PCNT, TWAI, USB Serial/JTAG, SDIO, Motor Control PWM, RMT, PARLIO, DMA, ETM)
+-3D High Gain Antenna
+-Board Dimensions: 50,8mm x 22.86mm
+-Max Thickness: 6.6mm at JST PH battery connector
+-4 Mounting Holes
+-4-pin Qwiic Connector
+-2-pin JST PH Connector for LiPo Battery
+-2835 Addressable RGB LED
+-Two Buttons (Boot &amp; Reset)
+-25 x WS2812B 1010 RGB LED</p>
+
+<h2 id="purchase">Purchase</h2>
+<p>You can purchase your very own cezerio dev ESP32C6 from:</p>
+
+<ul>
+  <li><a href="https://cezerio.com/cezerio_dev_esp32c6">cezerio</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/cezerio_dev_esp32c6/</guid>
   </item><item>
     <title>PicoADK v2 - Audio Development Kit</title>
     <link>https://circuitpython.org/board/datanoise_picoadk_v2/</link>
