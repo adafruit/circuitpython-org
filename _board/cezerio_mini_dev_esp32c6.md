@@ -46,7 +46,7 @@ The ESP32-C6 includes 15 GPIO pins with a wide range of peripheral options inclu
 -2 x Button (Boot & Reset)
 -3D High Gain Antenna
 -Board Dimensions: 22,86mm x 17.78mm
--Max Thickness: 7.15mm between USB-Type C and I2C connectors
+-Max Thickness: 7.95mm between USB-Type C and I2C connectors
 
 ## Purchase
 You can purchase your very own cezerio dev ESP32C6 from:
