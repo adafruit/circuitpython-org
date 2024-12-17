@@ -10,8 +10,6 @@ date_added: 2024-12-17
 family: rp2040
 features:
   - STEMMA QT/QWIIC
-  - UART
-  - User/BOOT Button
 
 ---
 
