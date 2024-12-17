@@ -102,6 +102,25 @@
         "description": "<p>The Commander is a handheld button and LED board supplied with the UF2 bootloader and CircuitPython.</p><h2 id=\"specifications\">Specifications</h2><ul>  <li>Dimensions: 83 x 52 x 7 mm</li>  <li>Atmel ATSAMD21G18A (32-bit ARM Cortex M0)</li>  <li>48 Mhz</li>  <li>32 KB SRAM / 256 KB FLASH</li>  <li>Accelerometer (ADXL345)</li>  <li>Micro SD socket</li>  <li>16 MB SPI FLASH</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.tindie.com/products/8086net/commander/\">8086 Consultancy</a></li></ul>"
     },
     {
+        "board_id": "8086_rp2040_interfacer",
+        "title": "RP2040 Interfacer",
+        "name": "RP2040 Interfacer",
+        "board_url": [
+            "https://www.tindie.com/products/8086net/rp2040-interfacer-uarti2c/"
+        ],
+        "board_image": "8086_rp2040_interfacer.jpg",
+        "date_added": "2024-12-17",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/8086_rp2040_interfacer/",
+        "description": "<p>The RP2040 Interfacer is designed to plug straight into your comptuer/SBC/etc. allowing quick access to UART and I2C interfaces.</p><h2 id=\"specifications\">Specifications</h2><ul>  <li>Measures 16 x 38 x 8mm including USB Type-A Plug</li>  <li>Raspberry Pi RP2040 Dual Core Cortex-M0</li>  <li>2 MB of FLASH</li>  <li>264 KB of RAM</li>  <li>User/BOOT Button</li>  <li>UART via 3-pin JST SH compatible connector</li>  <li>STEMMA QT/QWIIC I2C via 4-pin JST SH compatible connector</li>  <li>3 LED</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.tindie.com/products/8086net/rp2040-interfacer-uarti2c/\">8086 Consultancy</a></li></ul>"
+    },
+    {
         "board_id": "8086_usb_interposer",
         "title": "USB Interposer Download",
         "name": "USB Interposer",
