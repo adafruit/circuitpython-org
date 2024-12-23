@@ -11772,6 +11772,173 @@
         "description": "<p>a Pico-like MCU board based on Raspberry Pi RP2040</p><p><strong>Board specifications</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 2MB of on-board Flash memory</li>  <li>USB-C connector, keeps it up to date, easier to use</li>  <li>Castellated module allows soldering direct to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>29 × multi-function GPIO pins (20× via edge pinout, others via solder points)</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2040-zero.htm\">Waveshare</a></li></ul>"
     },
     {
+        "board_id": "waveshare_rp2350_geek",
+        "title": "RP2350-GEEK Download",
+        "name": "RP2350-GEEK",
+        "board_url": [
+            "https://www.waveshare.com/rp2350-geek.htm"
+        ],
+        "board_image": "waveshare_rp2350_geek.jpg",
+        "date_added": "2024-12-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "STEMMA QT/QWIIC",
+            "Display"
+        ],
+        "url_path": "/board/waveshare_rp2350_geek/",
+        "description": "<p>Waveshare RP2350-GEEK Development Board, Based On RP2350 Microcontroller, With 1.14inch 65K Color LCD, USB Debugging Downloader, With White Plastic Case</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>RP2350 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Onboard 3PIN SWD port for connecting the debugged target board    <ul>      <li>Standard CMSIS-DAP interface can be used to debug most ARM-based microcontrollers</li>      <li>Works with OpenOCD and other tools supporting CMSIS-DAP</li>      <li>Adopts the Raspberry Pi 3PIN Debug Connector Specification</li>    </ul>  </li>  <li>Onboard 3PIN USB to UART bridge</li>  <li>Onboard 4PIN I2C port for the testing target board</li>  <li>Onboard 1.14inch 240×135 pixels 65K color IPS LCD display</li>  <li>Equipped with plastic case and cables</li>  <li>Open-source firmware, more convenient to upgrade</li></ul><p>Waveshare Wiki <a href=\"https://www.waveshare.com/wiki/RP2350-GEEK\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-geek.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2350_lcd_0_96",
+        "title": "Waveshare RP2350-LCD-0.96 Download",
+        "name": "RP2350-LCD-0.96",
+        "board_url": [
+            "https://www.waveshare.com/rp2350-lcd-0.96.htm"
+        ],
+        "board_image": "waveshare_rp2350_lcd_0_96.jpg",
+        "date_added": "2024-12-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "Breadboard-Friendly",
+            "Display",
+            "USB-C",
+            "Castellated Pads"
+        ],
+        "url_path": "/board/waveshare_rp2350_lcd_0_96/",
+        "description": "<p>RP2350-LCD-0.96 is a low-cost, high-performance Pico-like MCU board with flexible digital interfaces. It incorporates Raspberry Pi’s RP2350A microcontroller chip, the same as the one on Raspberry Pi Pico 2. For software development, either Raspberry Pi’s C/C++ SDK, or the MicroPython is available, which makes it easy for you to get started, and integrate it into end products quickly.</p><p>In addition, there’s also an onboard 0.96inch IPS display, Lithium battery recharge/discharge header, and high efficiency DC-DC buck-boost chip.</p><p><strong>Board Specifications</strong></p><ul>  <li>RP2350A microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard 3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 4MB of on-board Flash memory</li>  <li>USB-C connector, keeps it up to date, easier to use</li>  <li>0.96inch 160×80 pixels 65K colorful IPS LCD display</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>Onboard DC-DC chip MP28164, high efficiency DC-DC buck-boost chip, maximum 2A load current</li>  <li>Castellated module allows soldering directly to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>12 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-LCD-0.96\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-lcd-0.96.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2350_lcd_1_28",
+        "title": "RP2350-LCD-1.28 Download",
+        "name": "RP2350-LCD-1.28",
+        "board_url": [
+            "https://www.waveshare.com/rp2350-lcd-1.28.htm"
+        ],
+        "board_image": "waveshare_rp2350_lcd_1_28.jpg",
+        "date_added": "2024-12-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Battery Charging",
+            "Display"
+        ],
+        "url_path": "/board/waveshare_rp2350_lcd_1_28/",
+        "description": "<p>RP2350-LCD-1.28 is a low-cost, high-performance MCU board designed by Waveshare. Tiny size with onboard 1.28inch LCD round display, Li-ion battery recharge manager, 6-axis sensor (3-axis accelerometer and 3-axis gyroscope) and so on, adapting all GPIO and Debug pins, which makes it easy for you to develop and integrate it into products quickly.</p><p><strong>Board specifications</strong></p><ul>  <li>RP2350 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 4MB of onboard Flash memory</li>  <li>Type-C connector, keeps it up to date, easier to use</li>  <li>Onboard 1.28inch 240×240 pixels 65K colorful IPS LCD display for clear color pictures</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>All GPIO pins are adapted through 1.27 pitch female headers (There are 30 pins in total, but some pins have been connected to the internal circuit, please refer to the wiki for details when multiplexing)</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 24 × controllable PWM channels</li>  <li>Temperature sensor</li>  <li>12 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-LCD-1.28\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-lcd-1.28.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2350_one",
+        "title": "Waveshare RP2350-One Download",
+        "name": "RP2350-One",
+        "board_url": [
+            "https://www.waveshare.com/product/rp2350-one.htm"
+        ],
+        "board_image": "waveshare_rp2350_one.jpg",
+        "date_added": "2024-12-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Castellated Pads"
+        ],
+        "url_path": "/board/waveshare_rp2350_one/",
+        "description": "<p>A Trinkey-like MCU board based on Raspberry Pi RP2350A</p><p>Waveshare RP2350-One, Onboard PCB Type-A Plug, 4MB Flash MCU Board Based On Raspberry Pi RP2350A Dual-core &amp; Dual-architecture Microcontroller</p><p><strong>Board specifications</strong></p><ul>  <li>RP2350A microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard 3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 4MB of on-board Flash memory</li>  <li>Onboard PCB Type-A male port, plug and play, easy to use</li>  <li>Castellated module allows soldering direct to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>29 × multi-function GPIO pins (20× via edge pinout, others via solder points)</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>12 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-One\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-one.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2350_plus",
+        "title": "Waveshare RP2350-Plus Download",
+        "name": "RP2350-Plus",
+        "board_url": [
+            "https://www.waveshare.com/rp2350-plus.htm"
+        ],
+        "board_image": "waveshare_rp2350_plus.jpg",
+        "date_added": "2024-12-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Breadboard-Friendly",
+            "Castellated Pads"
+        ],
+        "url_path": "/board/waveshare_rp2350_plus/",
+        "description": "<p>Waveshare RP2350-Plus Development Board, A Low-cost, High-performance Pico-like MCU Board Based On Raspberry Pi RP2350A Dual-core &amp; Dual-architecture Microcontroller</p><p><strong>Board specifications</strong></p><ul>  <li>RP2350A microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard 3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 4MB of on-board Flash memory</li>  <li>Type-C connector, keeps it up to date, easier to use</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>Onboard DC-DC chip MP28164, high efficiency DC-DC buck-boost chip, maximum 2A load current</li>  <li>Castellated module allows soldering directly to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>12 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-Plus\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-plus.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2350_tiny",
+        "title": "Waveshare RP2350-Tiny Download",
+        "name": "RP2350-Tiny",
+        "board_url": [
+            "https://www.waveshare.com/rp2350-tiny.htm"
+        ],
+        "board_image": "waveshare_rp2350_tiny.jpg",
+        "date_added": "2024-12-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Castellated Pads"
+        ],
+        "url_path": "/board/waveshare_rp2350_tiny/",
+        "description": "<p>Waveshare RP2350-Tiny Development Board, Raspberry Pi Microcontroller Development Board, Based On RP2350A Dual-core &amp; Dual-architecture Microcontroller, Optional for USB Port Adapter Board</p><p><strong>Board specifications</strong></p><ul>  <li>RP2350A microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard 3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 4MB of on-board Flash memory</li>  <li>Onboard FPC 8PIN connector, adapting USB Type-C port via adapter board</li>  <li>Castellated module allows soldering direct to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>28 × multi-function GPIO pins (20× via edge pinout, others via solder points)</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>12 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-Tiny\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-tiny.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2350_touch_lcd_1_28",
+        "title": "RP2350-Touch-LCD-1.28 Download",
+        "name": "RP2350-Touch-LCD-1.28",
+        "board_url": [
+            "https://www.waveshare.com/rp2350-touch-lcd-1.28.htm"
+        ],
+        "board_image": "waveshare_rp2350_touch_lcd_1_28.jpg",
+        "date_added": "2024-12-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Battery Charging",
+            "Display"
+        ],
+        "url_path": "/board/waveshare_rp2350_touch_lcd_1_28/",
+        "description": "<p>RP2350-Touch-LCD-1.28 is a low-cost, high-performance MCU board designed by Waveshare. Tiny size with onboard 1.28inch capacitive touch display, Li-ion battery recharge manager, 6-axis sensor (3-axis accelerometer and 3-axis gyroscope) and so on, which makes it easy for you to integrate it into products quickly.</p><p><strong>Board specifications</strong></p><ul>  <li>RP2350 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 16MB of onboard Flash memory</li>  <li>Type-C connector, keeps it up to date, easier to use</li>  <li>Onboard 1.28inch capacitive touch LCD, 240×240 pixels, supports 65K color for clear color picture display</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>6 × GPIO pin via SH1.0 connector</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-Touch-LCD-1.28\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/product/raspberry-pi/boards-kits/raspberry-pi-pico-cat/rp2350-touch-lcd-1.28.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_rp2350_zero",
+        "title": "Waveshare RP2350-Zero Download",
+        "name": "RP2350-Zero",
+        "board_url": [
+            "https://www.waveshare.com/rp2350-zero.htm"
+        ],
+        "board_image": "waveshare_rp2350_zero.jpg",
+        "date_added": "2024-12-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Breadboard-Friendly",
+            "Castellated Pads"
+        ],
+        "url_path": "/board/waveshare_rp2350_zero/",
+        "description": "<p>Waveshare RP2350-Zero Mini Development Board, Raspberry Pi Microcontroller Development Board, Based On Raspberry Pi Dual-core &amp; Dual-architecture Microcontroller</p><p><strong>Board specifications</strong></p><ul>  <li>RP2350A microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard 3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 4MB of on-board Flash memory</li>  <li>Type-C connector, keeps it up to date, easier to use</li>  <li>Castellated module allows soldering directly to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>29 × multi-function GPIO pins (20× via edge pinout, others via solder points)</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 24 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>12 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-Zero\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-zero.htm\">Waveshare</a></li></ul>"
+    },
+    {
         "board_id": "weact_esp32c6_n4",
         "title": "WeAct Studio  ESP32-C6 N4 Download",
         "name": "WeAct Studio ESP32-C6 N4",
