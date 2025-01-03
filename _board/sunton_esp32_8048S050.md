@@ -15,6 +15,9 @@ features:
 
 These are great "all-in-one" device that have integrated ESP32-S3 chips with 16 MB of flash and 8MB PSram. The display resolution is 800x480. This one has a display size of 5" and built in capacitive touch panel.
 
+Depending on your board variant you may need to:
+ - adjust the screen display frequency using CIRCUITPY_DISPLAY_FREQUENCY (available on CircuitPython 9.2.2 or later) in [settings.toml](https://docs.circuitpython.org/en/latest/docs/environment.html).
+
 ## Technical details
 
  - Onboard 5" 800x480 pixels 65K color Touch LCD display.
