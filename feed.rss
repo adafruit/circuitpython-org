@@ -4,9 +4,49 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 03 Jan 2025 05:03:49 -0500</lastBuildDate>
+<lastBuildDate>Fri, 03 Jan 2025 18:30:32 -0500</lastBuildDate>
 
 <item>
+    <title>Sunton ESP32-2432S024C</title>
+    <link>https://circuitpython.org/board/sunton_esp32_2432S024C/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/sunton_esp32_2432S024C.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/sunton_esp32_2432S024C.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/sunton_esp32_2432S024C.jpg" alt="Image of Board" loading="lazy">
+<p>By Sunton</p> <p>Sunton ESP32-2432S024C Development Board, based on a ESP32-D0WDQ6 MCU. With 2.4” 65K Color Touch LCD. Supports Wifi &amp; Bluetooth, has user-accessible GPIO ports, and an SD card slot.</p>
+
+<p>Depending on your board variant you may need to</p>
+<ul>
+  <li>hold down the <strong>BOOT</strong> button while programming</li>
+  <li>adjust the screen rotation using CIRCUITPY_DISPLAY_ROTATION in <a href="https://docs.circuitpython.org/en/latest/docs/environment.html">settings.toml</a>.</li>
+</ul>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Onboard 2.4inch 240×320 pixels 65K color Touch LCD display</li>
+  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication</li>
+  <li>SPI Touch, Display and SD card slot</li>
+  <li>Amplified GPIO26 for PWM audio output</li>
+  <li>Uses the ILI9341 display driver via SPI</li>
+  <li>Uses the CPT820 touchscreen driver via SPI</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.com/item/1005005865107357.html">Aliexpress</a></li>
+</ul>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/sunton_esp32_2432S024C/</guid>
+  </item><item>
     <title>RP2350-Zero</title>
     <link>https://circuitpython.org/board/waveshare_rp2350_zero/</link>
     <description><![CDATA[ 

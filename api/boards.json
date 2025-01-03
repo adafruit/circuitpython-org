@@ -10461,6 +10461,29 @@
         "description": "<p>Sunton ESP32-2424S012 Development Board, Based on ESP32-C3 MCU. With 1.28” 65K Color Touch LCD. Supports Wifi &amp; Bluetooth.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Onboard round 1.28inch 240×240 pixels 65K color Touch LCD display.</li>  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication.</li>  <li>SPI Display</li>  <li>I2C Touch</li>  <li>Battery terminal for wireless use</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/1005006300643795.html\">Aliexpress</a></li></ul>"
     },
     {
+        "board_id": "sunton_esp32_2432S024C",
+        "title": "Sunton ESP32-2432S024C Download",
+        "name": "Sunton ESP32-2432S024C",
+        "board_url": [
+        ],
+        "board_image": "sunton_esp32_2432S024C.jpg",
+        "date_added": "2024-12-28",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "Display",
+            "Speaker",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/sunton_esp32_2432S024C/",
+        "description": "<p>Sunton ESP32-2432S024C Development Board, based on a ESP32-D0WDQ6 MCU. With 2.4” 65K Color Touch LCD. Supports Wifi &amp; Bluetooth, has user-accessible GPIO ports, and an SD card slot.</p><p>Depending on your board variant you may need to</p><ul>  <li>hold down the <strong>BOOT</strong> button while programming</li>  <li>adjust the screen rotation using CIRCUITPY_DISPLAY_ROTATION in <a href=\"https://docs.circuitpython.org/en/latest/docs/environment.html\">settings.toml</a>.</li></ul><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Onboard 2.4inch 240×320 pixels 65K color Touch LCD display</li>  <li>Integrated 2.4GHz WiFi and Bluetooth wireless communication</li>  <li>SPI Touch, Display and SD card slot</li>  <li>Amplified GPIO26 for PWM audio output</li>  <li>Uses the ILI9341 display driver via SPI</li>  <li>Uses the CPT820 touchscreen driver via SPI</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/1005005865107357.html\">Aliexpress</a></li></ul>"
+    },
+    {
         "board_id": "sunton_esp32_2432S028",
         "title": "Sunton ESP32-2432S028 Download",
         "name": "Sunton ESP32-2432S028",
