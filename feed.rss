@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 06 Jan 2025 05:04:05 -0500</lastBuildDate>
+<lastBuildDate>Mon, 06 Jan 2025 16:54:50 -0500</lastBuildDate>
 
 <item>
     <title>Sunton ESP32-2432S024C</title>
@@ -1023,6 +1023,11 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
             300px"
      src="https://circuitpython.org/assets/images/boards/large/sunton_esp32_8048S050.jpg" alt="Image of Board" loading="lazy">
 <p>By Sunton</p> <p>These are great “all-in-one” device that have integrated ESP32-S3 chips with 16 MB of flash and 8MB PSram. The display resolution is 800x480. This one has a display size of 5” and built in capacitive touch panel.</p>
+
+<p>Depending on your board variant you may need to:</p>
+<ul>
+  <li>adjust the screen display frequency using CIRCUITPY_DISPLAY_FREQUENCY (available on CircuitPython 9.2.2 or later) in <a href="https://docs.circuitpython.org/en/latest/docs/environment.html">settings.toml</a>.</li>
+</ul>
 
 <h2 id="technical-details">Technical details</h2>
 
