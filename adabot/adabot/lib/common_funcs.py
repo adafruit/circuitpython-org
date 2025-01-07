@@ -84,20 +84,32 @@ def parse_gitmodules(input_text):
     return results
 
 
-def get_bundle_submodules():
+def get_bundle_submodules(bundle="adafruit"):
     """Query Adafruit_CircuitPython_Bundle repository for all the submodules
     (i.e. modules included inside) and return a list of the found submodules.
     Each list item is a 2-tuple of submodule name and a dict of submodule
     variables including 'path' (location of submodule in bundle) and
     'url' (URL to git repository with submodule contents).
+
+    :param string bundle: Which bundle to get submodules for, 'adafruit' or 'community'.
     """
     # Assume the bundle repository is public and get the .gitmodules file
     # without any authentication or Github API usage.  Also assumes the
     # master branch of the bundle is the canonical source of the bundle release.
-    result = requests.get(
-        "https://raw.githubusercontent.com/adafruit/Adafruit_CircuitPython_Bundle/main/.gitmodules",
-        timeout=REQUESTS_TIMEOUT,
-    )
+    if bundle == "adafruit":
+        result = requests.get(
+            "https://raw.githubusercontent.com/adafruit/"
+            "Adafruit_CircuitPython_Bundle/main/.gitmodules",
+            timeout=REQUESTS_TIMEOUT,
+        )
+    elif bundle == "community":
+        result = requests.get(
+            "https://raw.githubusercontent.com/adafruit/"
+            "CircuitPython_Community_Bundle/main/.gitmodules",
+            timeout=REQUESTS_TIMEOUT,
+        )
+    else:
+        raise ValueError("Bundle must be either 'adafruit' or 'community'")
     if result.status_code != 200:
         # output_handler("Failed to access bundle .gitmodules file from GitHub!", quiet=True)
         raise RuntimeError("Failed to access bundle .gitmodules file from GitHub!")

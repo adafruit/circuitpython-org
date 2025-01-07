@@ -789,6 +789,11 @@ class LibraryValidator:
         ]
         examples_list = []
         if dirs:
+
+            lib_name_start = repo["name"].rfind("CircuitPython_") + len(
+                "CircuitPython_"
+            )
+            lib_name = repo["name"][lib_name_start:].lower()
             while dirs:
                 # loop through the results to ensure we capture files
                 # in subfolders, and add any files in the current directory
@@ -797,8 +802,19 @@ class LibraryValidator:
                     errors.append(ERROR_UNABLE_PULL_REPO_EXAMPLES)
                     break
                 result_json = result.json()
-                dirs.extend([x["url"] for x in result_json if x["type"] == "dir"])
-                examples_list.extend([x for x in result_json if x["type"] == "file"])
+                for x in result_json:
+                    if x["type"] == "dir":
+                        if x["name"].startswith(lib_name):
+                            continue
+                        if (
+                            x["name"]
+                            .replace("_", "")
+                            .startswith(lib_name.replace("_", ""))
+                        ):
+                            continue
+                        dirs.append(x["url"])
+                    elif x["type"] == "file":
+                        examples_list.append(x)
 
             if len(examples_list) < 1:
                 errors.append(ERROR_MISSING_EXAMPLE_FILES)
@@ -813,9 +829,9 @@ class LibraryValidator:
                     or have additional underscores separating the repo name.
                     """
                     file_names = set()
-                    file_names.add(file_name[9:])
+                    file_names.add(file_name)
 
-                    name_split = file_name[9:].split("_")
+                    name_split = file_name.split("_")
                     name_rebuilt = "".join(
                         (part for part in name_split if ".py" not in part)
                     )
@@ -825,15 +841,12 @@ class LibraryValidator:
 
                     return any(name.startswith(repo_name) for name in file_names)
 
-                lib_name_start = repo["name"].rfind("CircuitPython_") + 14
-                lib_name = repo["name"][lib_name_start:].lower()
-
                 all_have_name = True
                 simpletest_exists = False
                 for example in examples_list:
                     if example["name"].endswith(".py"):
                         check_lib_name = __check_lib_name(
-                            lib_name, example["path"].lower()
+                            lib_name, example["name"].lower()
                         )
                         if not check_lib_name:
                             all_have_name = False

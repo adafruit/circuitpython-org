@@ -140,21 +140,26 @@ def update_download_stats(bundle_path):
 # pylint: disable=too-many-locals
 def check_lib_links_md(bundle_path):
     """Checks and updates the `circuitpython_library_list` Markdown document
-    located in the Adafruit CircuitPython Bundle.
+    located in the Adafruit CircuitPython Bundle and Community Bundle.
     """
-    if not "Adafruit_CircuitPython_Bundle" in bundle_path:
+    bundle = None
+    if "Adafruit_CircuitPython_Bundle" in bundle_path:
+        bundle = "adafruit"
+        listfile_name = "circuitpython_library_list.md"
+    elif "CircuitPython_Community_Bundle" in bundle_path:
+        bundle = "community"
+        listfile_name = "circuitpython_community_auto_library_list.md"
+    else:
         return []
     submodules_list = sorted(
-        common_funcs.get_bundle_submodules(), key=lambda module: module[1]["path"]
+        common_funcs.get_bundle_submodules(bundle=bundle),
+        key=lambda module: module[1]["path"],
     )
-    submodules_list = common_funcs.get_bundle_submodules()
 
     lib_count = len(submodules_list)
     # used to generate commit message by comparing new libs to current list
     try:
-        with open(
-            os.path.join(bundle_path, "circuitpython_library_list.md"), "r"
-        ) as lib_list:
+        with open(os.path.join(bundle_path, listfile_name), "r") as lib_list:
             read_lines = lib_list.read().splitlines()
     except OSError:
         read_lines = []
@@ -197,9 +202,7 @@ def check_lib_links_md(bundle_path):
         "## Drivers:\n",
     ]
 
-    with open(
-        os.path.join(bundle_path, "circuitpython_library_list.md"), "w"
-    ) as md_file:
+    with open(os.path.join(bundle_path, listfile_name), "w") as md_file:
         md_file.write("\n".join(lib_list_header))
         for line in sorted(write_drivers):
             md_file.write(line + "\n")
@@ -264,6 +267,16 @@ def repo_remote_url(repo_path):
 
 def update_bundle(bundle_path):
     """Process all libraries in the bundle, and update their version if necessary."""
+
+    if (
+        "Adafruit_CircuitPython_Bundle" not in bundle_path
+        and "CircuitPython_Community_Bundle" not in bundle_path
+    ):
+        raise ValueError(
+            "bundle_path must be for "
+            "Adafruit_CircuitPython_Bundle or CircuitPython_Community_Bundle"
+        )
+
     working_directory = os.path.abspath(os.getcwd())
     os.chdir(bundle_path)
     git.submodule("foreach", "git", "fetch")
@@ -307,12 +320,15 @@ def update_bundle(bundle_path):
     os.chdir(working_directory)
     lib_list_updates = check_lib_links_md(bundle_path)
     if lib_list_updates:
+        if "Adafruit_CircuitPython_Bundle" in bundle_path:
+            listfile_name = "circuitpython_library_list.md"
+            bundle_url = "https://github.com/adafruit/Adafruit_CircuitPython_Bundle/"
+        elif "CircuitPython_Community_Bundle" in bundle_path:
+            listfile_name = "circuitpython_community_auto_library_list.md"
+            bundle_url = "https://github.com/adafruit/CircuitPython_Community_Bundle/"
         updates.append(
             (
-                (
-                    "https://github.com/adafruit/Adafruit_CircuitPython_Bundle/"
-                    "circuitpython_library_list.md"
-                ),
+                f"{bundle_url}{listfile_name}",  # pylint: disable=possibly-used-before-assignment
                 "NA",
                 "NA",
                 "  > Added the following libraries: {}".format(
@@ -321,18 +337,6 @@ def update_bundle(bundle_path):
             )
         )
         release_required = True
-    if update_download_stats(bundle_path):
-        updates.append(
-            (
-                (
-                    "https://github.com/adafruit/Adafruit_CircuitPython_Bundle/"
-                    "circuitpython_library_list.md"
-                ),
-                "NA",
-                "NA",
-                "  > Updated download stats for the libraries",
-            )
-        )
 
     return updates, release_required
 
