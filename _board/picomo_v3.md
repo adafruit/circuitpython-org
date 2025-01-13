@@ -1,13 +1,13 @@
 ---
 layout: download
-board_id: "heiafr_picomo_v2"
-title: "PicoMo V2 Download"
-name: "PicoMo V2"
+board_id: "heiafr_picomo_v3"
+title: "PicoMo V3 Download"
+name: "PicoMo V3"
 manufacturer: "HEIA-FR"
 board_url: 
   - "https://go.heia-fr.ch/picomo"
-board_image: "picomo_v2.jpg"
-date_added: 2024-01-25
+board_image: "picomo_v3.jpg"
+date_added: 2025-01-13
 family: rp2040
 features:
   - Speaker
@@ -35,7 +35,7 @@ To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pr
 
 ## Schematic
 
-* [PicoMo Github repository](https://github.com/heia-picomo/hardware/blob/main/schematic/P095V2_PicoSalon_Schematic.pdf)
+* [PicoMo Github repository](https://github.com/heia-picomo/hardware/blob/main/schematic/P095V3_PicoMo_Schematic.pdf)
 
 ## Learn More
 
