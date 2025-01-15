@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 15 Jan 2025 05:03:49 -0500</lastBuildDate>
+<lastBuildDate>Wed, 15 Jan 2025 12:25:00 -0500</lastBuildDate>
 
 <item>
     <title>Sunton ESP32-2432S024C</title>
@@ -5039,7 +5039,7 @@ ROCK 3C features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up
     <pubDate>Tue, 06 Feb 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32_devkitc_v4_wrover/</guid>
   </item><item>
-    <title>ESP32-DevKitC-VE-WROVER</title>
+    <title>ESP32-DevKitC-V4-WROOM-32E</title>
     <link>https://circuitpython.org/board/espressif_esp32_devkitc_v4_wroom_32e/</link>
     <description><![CDATA[ 
 
@@ -5051,8 +5051,6 @@ ROCK 3C features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up
 <p>By Espressif</p> <p>The ESP8266 started a small revolution by bringing WiFi to a small and cheap package that also had enough processing power and enough pins to get small things done. Now get ready to take your bite-sized WiFi capabilities to the next level with the <strong>ESP32 Development Board!</strong></p>
 
 <p>The development board breaks out all the module’s pins to 0.1″ headers and provides a CP2102 USB-TTL serial adapter, programming and reset buttons, and a power regulator to supply the ESP32 with a stable 3.3 V. Espressif doubled-down on the CPU resources for the ESP32 with a dual core, running at 160MHz and tons more pins and peripherals.</p>
-
-<p><strong>Please note: The ESP32 is still targeted to developers</strong>. Not all of the peripherals are fully documented with example code, and there are some bugs still being found and fixed. We got many sensors and displays working under Arduino IDE, so you can expect things like I2C and SPI and analog reads to work. But other elements are still under development. This board is designed for use with the Tensilica toolchain (ESP IDF) so we recommend that for better hardware-support coverage.</p>
 
 <p>Color of PCB may vary. Note that is is exactly large enough to cover both sides of a solderless breadboard with no left-over pins, so if you want to use with a solderless breadboard, use two side-by-side!</p>
 
