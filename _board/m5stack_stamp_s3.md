@@ -28,36 +28,13 @@ STAMPS3 comes equipped with a built-in highly integrated 5V to 3.3V circuit, ens
 USB-C connector and RGB Status LED are independent from all broken-out GPIO. GPIO46 is drop-down by default.
 
 ### Mounting Considerations
-- 2.54mm DIP mounting breaks out 10 GPIO plus EN, 5V, 3V3, GND, GND
-- 1.27mm DIP mounting breaks out 23 GPIO plus EN, 5V, 3V3, GND, GND
-- Optional 8 pin 0.5mm pitch FPC header breaks out 6 additional GPIO plus 3V3, GND
-- Optional 12 pin 0.5mm pitch FPC header breaks out 9 additional GPIO plus 5V, 3v3, GND
+* 2.54mm DIP mounting breaks out 10 GPIO plus EN, 5V, 3V3, GND, GND
+* 1.27mm DIP mounting breaks out 23 GPIO plus EN, 5V, 3V3, GND, GND
+* Optional 8 pin 0.5mm pitch FPC header breaks out 6 additional GPIO plus 3V3, GND
+* Optional 12 pin 0.5mm pitch FPC header breaks out 9 additional GPIO plus 5V, 3v3, GND
 
 ### Optional LCD
-The M5Stamp S3 is available as a "Cardputer Accessory Kit", which includes a pre-soldered 8 pin FPC header and a 1.14" 240x135px LCD screen. If you wish to make use of this functionality without using the ST7789 library, this code will enable the display.
-
-```
-import board
-import busio
-import displayio
-from fourwire import FourWire
-
-displayio.release_displays()
-
-spi = busio.SPI(clock=board.TFT_SCK, MOSI=board.TFT_MOSI)
-while not spi.try_lock():
-    pass
-spi.configure(baudrate=40000000)
-spi.unlock()
-
-display_bus = FourWire(spi, command=board.TFT_DC, chip_select=board.TFT_CS, reset=board.TFT_RST)
-
-INIT_SEQUENCE = (
-    b"\x01\x80\x96\x11\x80\xFF\x3A\x81\x55\x0A\x36\x01\x08\x21\x80\x0A\x13\x80\x0A\x36\x01\xC0\x29\x80\xFF"
-)
-
-display = displayio.Display(display_bus, INIT_SEQUENCE, rotation=270, width=240, height=135, rowstart=40, colstart=53)
-```
+The M5Stamp S3 is available as a "Cardputer Accessory Kit", which includes a pre-soldered 8 pin FPC header and a 1.14" 240x135px LCD screen. If you wish to make use of this functionality, please use the adafruit_st7789 library.
 
 ## Documentation
 
@@ -65,4 +42,7 @@ display = displayio.Display(display_bus, INIT_SEQUENCE, rotation=270, width=240,
 
 ## Purchase
 
-* [Adafruit](https://www.adafruit.com/product/3857)
+* [M5Stack - StampS3 Module](https://shop.m5stack.com/products/m5stamp-esp32s3-module)
+* [M5Stack - StampS3 with 1.27 Header Pin](https://shop.m5stack.com/products/m5stamps3-with-1-27-header-pin)
+* [M5Stack - StampS3 with 2.54 Header Pin](https://shop.m5stack.com/products/m5stamps3-with-2-54-header-pin)
+* [M5Stack - StampS3 with Display](https://shop.m5stack.com/products/cardputer-accessory-kit)
