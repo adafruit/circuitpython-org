@@ -12,7 +12,6 @@ board_image: "m5stack_stamp_s3.jpg"
 date_added: 2025-01-11
 downloads_display: true
 blinka: false
-download_instructions: "url" # Link to Tutorial
 family: esp32s3  # See _data/bootloaders.json
 bootloader_id: adafruit_feather_esp32s3_nopsram
 features:
