@@ -8,11 +8,10 @@ board_url:
  - "https://shop.m5stack.com/products/m5stamp-esp32s3-module"
  - "https://docs.m5stack.com/en/core/StampS3"
 board_image: "m5stack_stamp_s3.jpg"
-# format is YYYY-MM-DD
 date_added: 2025-01-11
 downloads_display: true
 blinka: false
-family: esp32s3  # See _data/bootloaders.json
+family: esp32s3
 bootloader_id: adafruit_feather_esp32s3_nopsram
 features:
   - Bluetooth/BTLE
