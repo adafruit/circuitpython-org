@@ -11,6 +11,8 @@ date_added: 2023-10-27
 family: esp32s3
 bootloader_id: adafruit_camera_esp32s3
 download_instructions: https://learn.adafruit.com/adafruit-memento-camera-board/install-circuitpython
+tags:
+  - pycamera
 features:
   - Wi-Fi
   - Bluetooth/BTLE
