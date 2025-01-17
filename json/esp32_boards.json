@@ -1735,6 +1735,16 @@
             }
         ]
     },
+    "adafruit_mini_sparkle_motion": {
+        "name": "Adafruit Mini Sparkle Motion",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.2.3",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/adafruit_mini_sparkle_motion/en_US/adafruit-circuitpython-adafruit_mini_sparkle_motion-en_US-9.2.3.bin"
+            }
+        ]
+    },
     "unexpectedmaker_feathers2_prerelease": {
         "name": "Unexpected Maker FeatherS2 Prerelease",
         "chipfamily": "esp32s2",
@@ -2021,6 +2031,16 @@
                 "version": "9.2.3",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/muselab_nanoesp32_s2_wroom/en_US/adafruit-circuitpython-muselab_nanoesp32_s2_wroom-en_US-9.2.3.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/muselab_nanoesp32_s2_wroom/en_US/adafruit-circuitpython-muselab_nanoesp32_s2_wroom-en_US-9.2.3.uf2"
+            }
+        ]
+    },
+    "adafruit_sparkle_motion": {
+        "name": "Adafruit Sparkle Motion",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.2.3",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/adafruit_sparkle_motion/en_US/adafruit-circuitpython-adafruit_sparkle_motion-en_US-9.2.3.bin"
             }
         ]
     },
