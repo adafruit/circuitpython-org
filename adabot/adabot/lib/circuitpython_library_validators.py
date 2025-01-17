@@ -975,9 +975,10 @@ class LibraryValidator:
 
         # Return the results of the latest run
         doc_build_results = json_response.get("results")
-        if doc_build_results is None:
+        if doc_build_results is None or not doc_build_results:
             errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS_RTD_UNEXPECTED_RETURN)
             return errors
+
         result = doc_build_results[0].get("success")
         time.sleep(3)
         if not result:

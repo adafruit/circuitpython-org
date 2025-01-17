@@ -1,0 +1,26 @@
+From 0e4e3ab23acf83d546be3e0dd8cb47137034a32c Mon Sep 17 00:00:00 2001
+From: foamyguy <foamyguy@gmail.com>
+Date: Tue, 14 Jan 2025 11:32:34 -0600
+Subject: [PATCH] add sphinx configuration to rtd.yaml
+
+---
+ .readthedocs.yaml | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/.readthedocs.yaml b/.readthedocs.yaml
+index 33c2a61..88bca9f 100644
+--- a/.readthedocs.yaml
++++ b/.readthedocs.yaml
+@@ -8,6 +8,9 @@
+ # Required
+ version: 2
+ 
++sphinx:
++  configuration: docs/conf.py
++
+ build:
+   os: ubuntu-20.04
+   tools:
+-- 
+2.48.0
+
