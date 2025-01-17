@@ -7939,7 +7939,7 @@
     {
         "board_id": "heiafr_picomo_v2",
         "title": "PicoMo V2 Download",
-        "name": "PicoMo",
+        "name": "PicoMo V2",
         "board_url": [
             "https://go.heia-fr.ch/picomo"
         ],
@@ -7956,6 +7956,27 @@
         ],
         "url_path": "/board/picomo_v2/",
         "description": "<p>The <a href=\"https://go.heia-fr.ch/picomo\">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href=\"https://www.heia-fr.ch/en/\">HEIA-FR</a>’s <a href=\"https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/\">Electrical Engineering</a> and <a href=\"https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/\">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p><p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p><p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>RP2040 Dual Arm Cortex-M0+</li>  <li>264kB of SRAM</li>  <li>2 MB of flash memory</li>  <li>ST7789 1.69 inch display with a resolution of 240x280</li>  <li>Temperature and humidity sensor (SHTC3)</li>  <li>7 buttons</li>  <li>Speaker (buzzer)</li>  <li>Onboard LED (RGB)</li>  <li>USB-C power</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/heia-picomo/hardware/blob/main/schematic/P095V2_PicoSalon_Schematic.pdf\">PicoMo Github repository</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://go.heia-fr.ch/picomo\">PicoMo home page</a></li></ul>"
+    },
+    {
+        "board_id": "heiafr_picomo_v3",
+        "title": "PicoMo V3 Download",
+        "name": "PicoMo V3",
+        "board_url": [
+            "https://go.heia-fr.ch/picomo"
+        ],
+        "board_image": "picomo_v3.jpg",
+        "date_added": "2025-01-13",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Speaker",
+            "Display",
+            "USB-C"
+        ],
+        "url_path": "/board/picomo_v3/",
+        "description": "<p>The <a href=\"https://go.heia-fr.ch/picomo\">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href=\"https://www.heia-fr.ch/en/\">HEIA-FR</a>’s <a href=\"https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/\">Electrical Engineering</a> and <a href=\"https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/\">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p><p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p><p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>RP2040 Dual Arm Cortex-M0+</li>  <li>264kB of SRAM</li>  <li>2 MB of flash memory</li>  <li>ST7789 1.69 inch display with a resolution of 240x280</li>  <li>Temperature and humidity sensor (SHTC3)</li>  <li>7 buttons</li>  <li>Speaker (buzzer)</li>  <li>Onboard LED (RGB)</li>  <li>USB-C power</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/heia-picomo/hardware/blob/main/schematic/P095V3_PicoMo_Schematic.pdf\">PicoMo Github repository</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://go.heia-fr.ch/picomo\">PicoMo home page</a></li></ul>"
     },
     {
         "board_id": "picoplanet",

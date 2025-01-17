@@ -4,9 +4,56 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 17 Jan 2025 14:13:27 -0500</lastBuildDate>
+<lastBuildDate>Fri, 17 Jan 2025 14:14:17 -0500</lastBuildDate>
 
 <item>
+    <title>PicoMo V3</title>
+    <link>https://circuitpython.org/board/picomo_v3/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/picomo_v3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/picomo_v3.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/picomo_v3.jpg" alt="Image of Board" loading="lazy">
+<p>By HEIA-FR</p> <p>The <a href="https://go.heia-fr.ch/picomo">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href="https://www.heia-fr.ch/en/">HEIA-FR</a>’s <a href="https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/">Electrical Engineering</a> and <a href="https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p>
+
+<p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p>
+
+<p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>RP2040 Dual Arm Cortex-M0+</li>
+  <li>264kB of SRAM</li>
+  <li>2 MB of flash memory</li>
+  <li>ST7789 1.69 inch display with a resolution of 240x280</li>
+  <li>Temperature and humidity sensor (SHTC3)</li>
+  <li>7 buttons</li>
+  <li>Speaker (buzzer)</li>
+  <li>Onboard LED (RGB)</li>
+  <li>USB-C power</li>
+</ul>
+
+<h2 id="schematic">Schematic</h2>
+
+<ul>
+  <li><a href="https://github.com/heia-picomo/hardware/blob/main/schematic/P095V3_PicoMo_Schematic.pdf">PicoMo Github repository</a></li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://go.heia-fr.ch/picomo">PicoMo home page</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/picomo_v3/</guid>
+  </item><item>
     <title>Sunton ESP32-2432S024C</title>
     <link>https://circuitpython.org/board/sunton_esp32_2432S024C/</link>
     <description><![CDATA[ 
@@ -5066,7 +5113,7 @@ ROCK 3C features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up
     <pubDate>Tue, 06 Feb 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32_devkitc_v4_wroom_32e/</guid>
   </item><item>
-    <title>PicoMo</title>
+    <title>PicoMo V2</title>
     <link>https://circuitpython.org/board/picomo_v2/</link>
     <description><![CDATA[ 
 
