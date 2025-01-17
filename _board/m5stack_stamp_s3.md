@@ -17,6 +17,7 @@ features:
   - Bluetooth/BTLE
   - USB-C
   - Wi-Fi
+  - Castellated Pads
 ---
 
 STAMPS3 is a highly integrated embedded controller designed for IoT applications. It utilizes the Espressif ESP32-S3FN8 main control chip and features 8MB of SPI flash memory. Powered by a high-performance Xtensa 32-bit LX7 dual-core processor, STAMPS3 delivers impressive processing power with a main frequency of up to 240MHz. This module is specifically designed to meet the demands of IoT projects that require embedded main control modules.
