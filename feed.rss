@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 17 Jan 2025 15:56:29 -0500</lastBuildDate>
+<lastBuildDate>Fri, 17 Jan 2025 16:21:04 -0500</lastBuildDate>
 
 <item>
     <title>PicoMo V3</title>
@@ -53,6 +53,53 @@
     
     <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/picomo_v3/</guid>
+  </item><item>
+    <title>M5Stamp S3</title>
+    <link>https://circuitpython.org/board/m5stack_stamp_s3/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/m5stack_stamp_s3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/m5stack_stamp_s3.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/m5stack_stamp_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p>STAMPS3 is a highly integrated embedded controller designed for IoT applications. It utilizes the Espressif ESP32-S3FN8 main control chip and features 8MB of SPI flash memory. Powered by a high-performance Xtensa 32-bit LX7 dual-core processor, STAMPS3 delivers impressive processing power with a main frequency of up to 240MHz. This module is specifically designed to meet the demands of IoT projects that require embedded main control modules.</p>
+
+<p>STAMPS3 comes equipped with a built-in highly integrated 5V to 3.3V circuit, ensuring stable power supply for reliable operation. It features an RGB status indicator and a programmable button for enhanced user control and visual feedback. The module conveniently leads out 23 GPIOs on the ESP32-S3, allowing for extensive expansion capabilities. The GPIOs are accessible through 1.27mm/2.54mm spacing leads, supporting various usage methods such as SMT, DIP row, and jump wire connections. STAMPS3 offers a compact form factor, delivering strong performance, rich expansion IO, and low power consumption.</p>
+
+<p>USB-C connector and RGB Status LED are independent from all broken-out GPIO. GPIO46 is drop-down by default.</p>
+
+<h3 id="mounting-considerations">Mounting Considerations</h3>
+<ul>
+  <li>2.54mm DIP mounting breaks out 10 GPIO plus EN, 5V, 3V3, GND, GND</li>
+  <li>1.27mm DIP mounting breaks out 23 GPIO plus EN, 5V, 3V3, GND, GND</li>
+  <li>Optional 8 pin 0.5mm pitch FPC header breaks out 6 additional GPIO plus 3V3, GND</li>
+  <li>Optional 12 pin 0.5mm pitch FPC header breaks out 9 additional GPIO plus 5V, 3v3, GND</li>
+</ul>
+
+<h3 id="optional-lcd">Optional LCD</h3>
+<p>The M5Stamp S3 is available as a “Cardputer Accessory Kit”, which includes a pre-soldered 8 pin FPC header and a 1.14” 240x135px LCD screen. If you wish to make use of this functionality, please use the adafruit_st7789 library.</p>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/StampS3">M5Stamp S3</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/m5stamp-esp32s3-module">M5Stack - StampS3 Module</a></li>
+  <li><a href="https://shop.m5stack.com/products/m5stamps3-with-1-27-header-pin">M5Stack - StampS3 with 1.27 Header Pin</a></li>
+  <li><a href="https://shop.m5stack.com/products/m5stamps3-with-2-54-header-pin">M5Stack - StampS3 with 2.54 Header Pin</a></li>
+  <li><a href="https://shop.m5stack.com/products/cardputer-accessory-kit">M5Stack - StampS3 with Display</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_stamp_s3/</guid>
   </item><item>
     <title>Sunton ESP32-2432S024C</title>
     <link>https://circuitpython.org/board/sunton_esp32_2432S024C/</link>
