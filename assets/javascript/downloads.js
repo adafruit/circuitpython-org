@@ -353,7 +353,7 @@ function filterResults() {
       // exact tag match re-order
       if (downloadsSearch.searchTerm !== null && downloadsSearch.searchTerm !== undefined) {
         let searched = downloadsSearch.searchTerm.toLowerCase();
-        let tags = download.getAttribute("data-tags").split(",");
+        let tags = download.dataset.tags?.split(",") || [];
         if (searched !== "" && tags.indexOf(searched) >= 0) {
           let parent = download.parentElement;
           parent.removeChild(download);
