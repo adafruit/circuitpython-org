@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_feather_esp32s3_nopsram"
-title: "Feather ESP32-S3 No PSRAM Download"
-name: "Feather ESP32-S3 No PSRAM"
+title: "Feather ESP32-S3 8MB Flash No PSRAM Download"
+name: "Feather ESP32-S3 8MB Flash No PSRAM"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5323"
