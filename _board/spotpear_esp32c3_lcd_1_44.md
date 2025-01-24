@@ -6,10 +6,10 @@ name: "Spotpear ESP32C3 LCD 1.44"
 manufacturer: "Spotpear"
 board_image: "spotpear_esp32c3_lcd_1_44.jpg"
 date_added: 2024-04-24
-family: esp32
+family: esp32c3
 ---
 
-This desktop gadget, based on ESP32 C3, is not only a practical mini-TV but also a unique design artwork. Its 1.44-inch LCD screen, driven by ST7735S, can run small and short videos with LVGL drive. Additionally, it can connect to WiFi to display the current weather and time. 
+This desktop gadget, based on ESP32 C3, is not only a practical mini-TV but also a unique design artwork. Its 1.44-inch LCD screen, driven by ST7735S, can run small and short videos with LVGL drive. Additionally, it can connect to WiFi to display the current weather and time.
 
 ## Technical details
 
@@ -21,4 +21,3 @@ This desktop gadget, based on ESP32 C3, is not only a practical mini-TV but also
 
 ## Purchase
 * [Spotpear](https://spotpear.com/index/product/detail/id/1354.html)
-
