@@ -5,7 +5,7 @@ title: "Nano RP2040 Connect Download"
 name: "Nano RP2040 Connect"
 manufacturer: "Arduino"
 board_url:
- - "https://store.arduino.cc/usa/nano-rp2040-connect-with-headers"
+ - "https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect-with-headers"
 board_image: "arduino_nano_rp2040_connect.jpg"
 date_added: 2021-05-24
 family: rp2040
@@ -26,4 +26,4 @@ It’s got on-board, built-in sensors to turn your builds into powerhouse projec
 The Arduino Nano RP2040 Connect is the premium choice for RP2040 devices, and the perfect option for upgrading your projects and unlocking the potential of new ones.
 
 ## Purchase
-* [Arduino](https://store.arduino.cc/usa/nano-rp2040-connect-with-headers)
+* [Arduino](https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect-with-headers)
