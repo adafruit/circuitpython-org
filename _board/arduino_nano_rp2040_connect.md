@@ -5,7 +5,7 @@ title: "Nano RP2040 Connect Download"
 name: "Nano RP2040 Connect"
 manufacturer: "Arduino"
 board_url:
- - "https://store.arduino.cc/usa/nano-rp2040-connect-with-headers"
+ - "https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect-with-headers"
 board_image: "arduino_nano_rp2040_connect.jpg"
 date_added: 2021-05-24
 family: rp2040
