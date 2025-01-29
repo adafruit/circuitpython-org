@@ -1610,6 +1610,29 @@
         "description": "<p>The Evo M51 is an FPGA-enhanced Feather compatible compute module from Alorium Technology that features a 32-bit SAMD51 microcontroller along with an Intel MAX 10 FPGA.</p><p>Designed for use as an embeddable system-on-module, all of the standard Feather I/O are also routed to castellated vias along the edge of the board. There are 34 additional castellated digital I/O connected to the FPGA and accessible via the SAMD51.</p><p>Most digital I/O connections are routed through the FPGA to and from the primary and castellated I/O. This provides the opportunity for developers to immediately capture inputs or drive outputs from the FPGA without requiring direct interaction with the SAMD controller.</p><p>Evo M51 will support Alorium Technology-supplied pre-built FPGA images that target specific application use cases. In addition, designers will have the option to develop their own custom logic blocks and integrate them into the top-level MAX 10 FPGA design.</p><p>Evo was specifically designed to support running CircuitPython. It is also programmable with Arduino just like many other boards based upon the SAMD51.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Atmel SAMD51 32-bit ARM Cortex-M4 Microcontroller</li>  <li>Intel MAX 10 FPGA</li>  <li>512 KB FLASH and 192 KB RAM</li>  <li>2 MB External QSPI FLASH</li>  <li>6 Analog Inputs</li>  <li>2 Analog Outputs</li>  <li>55 Digital I/O    <ul>      <li>21 Through-Hole/Castellated</li>      <li>34 Additional Castellated-Only (3.3 V inputs/ouput)</li>    </ul>  </li>  <li>1 NeoPixel (<code class=\"language-plaintext highlighter-rouge\">D13</code>)</li>  <li>STEMMA QT (QWIIC Compatible)</li>  <li>Feather Footprint</li>  <li>0.9” x 2.2” (23 mm x 56 mm)</li></ul><h2 id=\"misc\">Misc</h2><ul>  <li><a href=\"https://aloriumtech.com/evom51-quickstart/\">Quickstart guide</a></li>  <li><a href=\"https://aloriumtech.com/documents/Evo_M51_PinMap.pdf\">Pinout</a></li>  <li><a href=\"https://aloriumtech.com/documents/Evo_M51_Schematic.pdf\">Schematics</a></li></ul><p>In order to take full advantage of the additional I/O on Evo M51 using CircuitPython, we have created a custom library bundle that can be found on the Alorium Technology GitHub page:</p><ul>  <li><a href=\"https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51\">Evo M51 CircuitPython Library Bundle</a></li>  <li>Download the <a href=\"https://github.com/AloriumTechnology/AloriumTech_CircuitPython_EvoM51/archive/master.zip\">.ZIP file</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aloriumtech.com/evom51-buy/\">Alorium Technology</a></li></ul>"
     },
     {
+        "board_id": "apard32690",
+        "title": "AD-APARD32690-SL Download",
+        "name": "AD-APARD32690-SL",
+        "board_url": [
+            "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/ad-apard32690-sl.html"
+        ],
+        "board_image": "apard32690.jpg",
+        "date_added": "2025-01-29",
+        "family": "analog",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Arduino Shield Compatible",
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Display",
+            "USB-C"
+        ],
+        "url_path": "/board/apard32690/",
+        "description": "<p>The AD-APARD32690-SL is a platform for prototyping intelligent, secure, and connected field devices. It has an Arduino Mega-compatible form factor and two Pmod™-compatible connectors.</p><p>The system includes the MAX32690 ARM Cortex-M4 with FPU-Based Microcontroller and Bluetooth LE 5.2. The MCU is coupled with external RAM (2 x 512 Mb) and Flash (64 Mb) memories to meet the requirements of the most demanding applications. The MAXQ1065 security coprocessor enables state of the art security features such as for root-of-trust, mutual authentication, data confidentiality and integrity, secure boot, and secure communications.</p><p>A 10 Mbps single-pair Ethernet link using the ADIN1110 10BASE-T1L MAC/PHY, enables remote data acquisition and system configuration. The 10BASE-T1L interface also supports Single-pair Power over Ethernet (SPoE) and be used for powering the system via an Arduino shield implementing the required power circuitry.</p><p>WiFi connectivity is provided via the on-board NINA-W102 multiradio wireless MCU module with internal antenna.</p><p>Power can be supplied either via the USB-C connector or via a 2-pin terminal block. The supported input voltage range is 5 V to 28 V.</p><p>The system is accompanied by an open-source software stack and associated collateral, enabling a complete experience from evaluation, and prototyping, all the way to production firmware and application development. The open-source software stack also includes drivers and example applications for a wide variety of ADCs, DACs, sensors, and other devices commonly used in industrial applications, further accelerating the development process. An external programmer such as the MAX32625PICO DAPLink, or any other similar programmer supporting the SWD interface, enables firmware programming and debug. The system’s firmware is based on Analog Devices’ open-source no-OS framework which includes all the tools required for embedded code development and debugging as well as libraries, enabling host-side connectivity for system configuration and data transfer over the UART, USB, WiFi, and 10BASE-T1L interfaces.</p><h2 id=\"features\">Features</h2><ul>  <li>Allows prototyping of intelligent, secure, and connected industrial field devices</li>  <li>Arduino Mega-compatible form factor</li>  <li>Two Pmod™-compatible connectors</li>  <li>ARM Cortex-M4 Ultra Efficient Microcontroller with integrated Bluetooth 5.2 LE</li>  <li>WiFi connectivity</li>  <li>Long-range, single-pair 10BASE-T1L Ethernet interface</li>  <li>Built-in security for root-of-trust, mutual authentication, data confidentiality and integrity, secure boot, and secure communications</li>  <li>Open-source software stack</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/ad-apard32690-sl.html\">Analog Devices</a></li></ul>"
+    },
+    {
         "board_id": "aramcon2_badge",
         "title": "ARAMCON2 Badge Download",
         "name": "ARAMCON2 Badge",
@@ -2375,7 +2398,7 @@
         "description": "<p>Are you interested in learning how LoRa works at the package level? Debugging your own LoRa hardware and trying to detect where something is wrong? Or maybe you’re writing a custom application for your Internet of Things (IoT) network with LoraWAN?</p><p>The CatWAN USB Stick is programmed with a special firmware image that makes it an easy-to-use LoRa sniffer. You can passively capture the data exchanges between two LoRa devices, capturing with our “LoRa Sniffer” the open source network analysis tool that we have created to use together.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://electroniccats.com/producto/catwan_usb-stick/\">Electronic Cats</a></li></ul>"
     },
     {
-        "board_id": "cezerio_dev_esp32c6",
+        "board_id": "cezerio_dev_ESP32C6",
         "title": "cezerio dev ESP32C6 Download",
         "name": "cezerio dev ESP32C6",
         "board_url": [
@@ -2400,7 +2423,7 @@
         "description": "<p>cezerio dev ESP32C6 based on ESP32-C6FH4 SoC from Espressif, RISC-V single-core processor, 4 MB flash memory, and a diverse selection of wireless connectivity options: 2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee 3.0 and Thread 1.3 (802.15.4). Moreover, Wi-Fi 6’s Target Wake Time (TWT) technology effectively reduces device power consumption, extending battery life and ensuring long-lasting device performance.</p><p>The footprint is Feather-compatible. I2C connector seamlessly integrates the vast ecosystem of sensors, actuators, and more.</p><p>This development board also includes a LiPo battery charger, 6-axis IMU (3-axis Accelerometer &amp; 3-axis Gyroscope), 5x5 RGB LED matrix, an addressable RGB LED and more.</p><p>For primary power and programming, the board is also equipped with a USB-C connector and a 2-pin JST connector for a LiPo battery.</p><p>The ESP32-C6 includes 20 GPIO pins with a wide range of peripheral options including SPI, UART, I2C, I2S, LED PWM, USB Serial/JTAG controller, ADC and more.</p><p><strong>Features &amp; Specifications</strong>-32-bit High Performance RISC-V processor up to 160MHz-32-bit Low Power RISC-V processor at 20Mhz-2.4GHz WiFi 6 - 802.11ax-Bluetooth 5.3 (LE) + Mesh-Zigbee and Thread (802.15.4)-4MB QSPI Flash-6-axis IMU (3-axis Accelerometer &amp; 3-axis Gyroscope) LSM6DS3TR-C-Temperature Sensor-USB-C Connector-Reverse USB back-feed protection-1A step-down buck DC-DC converter-Ultra low deep sleep current-BQ21040DBVR 800mAh 1-cell Li-ion and Li-polymer Battery Charging-Power and Charge LEDs-20 x Multifunctional GPIO (Digital, 12-bit SAR ADC, SPI, I2C, UART, I2S, LED PWM, PCNT, TWAI, USB Serial/JTAG, SDIO, Motor Control PWM, RMT, PARLIO, DMA, ETM)-3D High Gain Antenna-Board Dimensions: 50,8mm x 22.86mm-Max Thickness: 6.6mm at JST PH battery connector-4 Mounting Holes-4-pin Qwiic Connector-2-pin JST PH Connector for LiPo Battery-2835 Addressable RGB LED-Two Buttons (Boot &amp; Reset)-25 x WS2812B 1010 RGB LED</p><h2 id=\"purchase\">Purchase</h2><p>You can purchase your very own cezerio dev ESP32C6 from:</p><ul>  <li><a href=\"https://cezerio.com/cezerio_dev_esp32c6\">cezerio</a></li></ul>"
     },
     {
-        "board_id": "cezerio_mini_dev_esp32c6",
+        "board_id": "cezerio_mini_dev_ESP32C6",
         "title": "cezerio mini dev ESP32C6 Download",
         "name": "cezerio mini dev ESP32C6",
         "board_url": [
@@ -6592,6 +6615,29 @@
         "description": "<p><strong>M5StickC PLUS</strong> is powered by ESP32-PICO-D4 with Wi-Fi and is an upgrade of the original <a href=\"https://docs.m5stack.com/en/core/m5stickc\">M5StickC </a>with a bigger screen .It is a portable, easy-to-use, open source, IoT development board. This tiny device will enable you to realize your ideas, enrich your creativity, and speed up your IoT prototyping. Developing with M5StickC PLUS takes away a lot of the pains from the development process. M5StickC Plus is one of the core devices in M5Stacks product series. The compact body is integrated with rich hardware resources, such as infrared, RTC, Microphone, LED, IMU, Buttons, PMU,etc. Improvements from the regular StickC are a buzzer, bigger screen (1.14-inch, 135 * 240 resolution LCD Screen) and more stable hardware design. This revision increases the display area by 18.7%, and the battery capacity from 95mAh to 120mAh. It also supports the HAT and Unit family of products.</p><h3 id=\"features\">Features</h3><ul>  <li>ESP32-based support Wi-Fi</li>  <li>Built-in 6-Axis IMU</li>  <li>Red LED</li>  <li>IR transmitter</li>  <li>Microphone</li>  <li>RTC</li>  <li>Buttons, LCD(1.14 inch)</li>  <li>Built-in Lithium Polymer Battery</li>  <li>Extendable Socket</li>  <li>Built-in Passive Buzzer</li>  <li>Wearable &amp; Wall mounted</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/m5stickc_plus\">M5StickC PLUS ESP32-PICO Mini IoT</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4289\">Adafruit</a></li>  <li><a href=\"https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit\">M5Stack</a></li></ul>"
     },
     {
+        "board_id": "m5stack_stick_c_plus2",
+        "title": "M5StickC PLUS ESP32-PICO Mini IoT Download",
+        "name": "M5StickC PLUS ESP32-PICO Mini IoT",
+        "board_url": [
+            "https://docs.m5stack.com/en/core/M5StickC%20PLUS2"
+        ],
+        "board_image": "m5stack_stick_c_plus2.jpg",
+        "date_added": "2025-01-29",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "USB-C",
+            "Bluetooth/BTLE",
+            "Display",
+            "Battery Charging"
+        ],
+        "url_path": "/board/m5stack_stick_c_plus2/",
+        "description": "<p><strong>M5StickC PLUS2</strong> is an iterative version of M5StickC PLUS, featuring the ESP32-PICO-V3-02 chip as the main controller with built-in WiFi functionality. The compact device integrates a wealth of hardware resources within its small form factor, including infrared, RTC, microphone, LED, IMU, buttons, buzzer, and more. It boasts a 1.14-inch TFT screen with a resolution of 135*240, driven by the ST7789V2. The battery capacity has been increased to 200mAh, and the interface also supports HAT and Unit series products. This compact and versatile development tool is designed to spark limitless creative possibilities.</p><p><strong>M5StickC PLUS2</strong> facilitates the rapid prototyping of IoT products, streamlining the entire development process. Even beginners in programming can easily build interesting applications and apply them to real-life scenarios using M5StickC PLUS2.</p><h3 id=\"features\">Features</h3><ul>  <li>ESP32-­PICO-­V3-­02-Base,support WiFi</li>  <li>Built-in 6-Axis IMU</li>  <li>IR transmitter</li>  <li>Microphone</li>  <li>RTC</li>  <li>Buttons, LCD(1.14 inch)</li>  <li>Built-in Lithium Polymer Battery@200mAh</li>  <li>Extendable Socket</li>  <li>Built-in Passive Buzzer</li>  <li>Wearable &amp; Wall mounted</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/M5StickC%20PLUS2\">M5StickC PLUS ESP32-PICO Mini IoT</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/m5stickc-plus2-esp32-mini-iot-development-kit\">M5Stack</a></li></ul>"
+    },
+    {
         "board_id": "m5stack_timer_camera_x",
         "title": "M5Stack Timer Camera X Download",
         "name": "M5Stack Timer Camera X",
@@ -6897,6 +6943,26 @@
         ],
         "url_path": "/board/matrixportal_m4/",
         "description": "<p>Folks love our <a href=\"https://www.adafruit.com/category/327\">wide selection of RGB matrices</a> and accessories, for making custom colorful LED displays… and our RGB Matrix Shields and FeatherWings can be quickly soldered together to make the wiring much easier. But what if we made it even easier than that? <strong>Like, no solder, no wiring, just instant plug-and-play?</strong> Dream no more - with the <strong>Adafruit Matrix Portal add-on for RGB Matrices</strong>, there’s never been an easier way to create powerful Internet-connected LED displays.</p><p>Plug directly into the back of <a href=\"https://www.adafruit.com/category/327\">any HUB-75 compatible display (all the ones we stock will work) from 16x32 up to 64x64</a>! Use the included screws to attach the power cable to the power plugs with a common screwdriver, then power it with any USB C power supply. (For larger projects, power the matrices with a separate 5V power adapter)</p><p>Then code up your project in <a href=\"https://learn.adafruit.com/rgb-led-matrices-matrix-panels-with-circuitpython\">CircuitPython</a> or <a href=\"https://learn.adafruit.com/adafruit-protomatter-rgb-matrix-library\">Arduino</a>, our Protomatter matrix library works great on the SAMD51 chipset, knowing that you’ve got the wiring and level shifting all handled.</p><h3 id=\"features\">Features</h3><ul>  <li><strong>ATSAMD51J19 Cortex M4 processor</strong>, 512 KB flash, 192 K of SRAM, with full Arduino or CircuitPython support</li>  <li><strong>ESP32 WiFi co-processor</strong> with TLS support and SPI interface to the M4, with full Arduino or CircuitPython support</li>  <li><strong>USB-C</strong> connector for data and power connectivity</li>  <li><a href=\"https://www.adafruit.com/category/620\"><strong>I2C STEMMA QT connector</strong> for plug-n-play use of any of our STEMMA QT devices or sensors</a> can also be used with <a href=\"https://www.adafruit.com/product/4528\">any Grove I2C devices using this adapter cable</a>)</li>  <li><strong>JST 3-pin connector</strong> that also has analog input/output, say for adding audio playback to projects</li>  <li><strong>LIS3DH accelerometer</strong> for digital sand projects or detecting taps/orientation.</li>  <li><strong>GPIO breakouts</strong> including 4 analog outputs with PWM and SPI support for adding other hardware.</li>  <li><strong>Address E line jumper</strong> for use with 64x64 matrices (check your matrix to see which pin is used for address E!</li>  <li><strong>Two user interface buttons</strong> + one reset button</li>  <li><strong>Indicator NeoPixel</strong> and red LED</li>  <li><strong>Green power indicator LEDs</strong> for both 3 V and 5 V power</li>  <li><strong>2x10 socket connector</strong> fits snugly into 2x8 HUB75 ports without worrying about ‘off by one’ errors.</li></ul><p>The Matrix Portal uses an ATMEL (Microchip) ATSAMD51J19, and an Espressif ESP32 Wi-Fi coprocessor with TLS/SSL support built-in. The M4 and ESP32 are a great couple - and each bring their own strengths to this board. The SAMD51 M4 has native USB so it can show up like a disk drive, act as a MIDI or HID keyboard/mouse, and of course bootload and debug over a serial port. It also has DACs, ADC, PWM, and tons of GPIO, so it can handle the high speed updating of the RGB matrix.</p><p>Meanwhile, the ESP32 has secure WiFi capabilities, and plenty of Flash and RAM to buffer sockets. By letting the ESP32 focus on the complex TLS/SSL computation and socket buffering, it frees up the SAMD51 to act as the user interface. You get a great programming experience thanks to the native USB with files available for drag-n-drop, and you don’t have to spend a ton of processor time and memory to do SSL encryption/decryption and certificate management. It’s the best of both worlds!</p><p>Comes with one fully-programmed and assembled MatrixPortal, preprogrammed with a rainbow digital sand demo for 32x64 LED matrices.</p><h2 id=\"purchase\">Purchase:</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4745\">Adafruit</a></li></ul>"
+    },
+    {
+        "board_id": "max32690evkit",
+        "title": "MAX32690 Evaluation Kit Download",
+        "name": "MAX32690 Evaluation Kit",
+        "board_url": [
+            "https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32690evkit.html"
+        ],
+        "board_image": "max32690evkit.jpg",
+        "date_added": "2025-01-29",
+        "family": "analog",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Display"
+        ],
+        "url_path": "/board/max32690evkit/",
+        "description": "<p>The MAX32690 evaluation kit (EV kit) provides a platform for evaluating the capabilities of the MAX32690 microcontroller, which is an advanced system-on-chip (SoC). It features an Arm® Cortex®-M4F CPU for efficient computation of complex functions and algorithms, and the latest generation Bluetooth® 5 Low Energy (Bluetooth LE) radio designed for wearable and hearable fitness devices, portable and wearable wireless medical devices, industrial sensors/networks, internet of things (IoT), and asset tracking.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32690evkit.html\">Analog Devices</a></li></ul>"
     },
     {
         "board_id": "melopero_shake_rp2040",
@@ -8499,6 +8565,28 @@
         "description": "<p>An all-in-one, USB-C powered controller for WS2812/Neopixel and APA102/Dotstar addressable LED strips.</p><p>Plasma 2350 is <strong>powered and programmable by USB-C</strong> and, because USB-C is capable of drawing up to 3A of power, that’s enough to power a healthy chunk of LEDs. There’s a <strong>useful button</strong> that you could use to switch between effects, plus a reset button and an <strong>onboard RGB LED</strong>. We’ve also popped a <strong>QW/ST connector</strong> on there, to make it super easy to plug in <a href=\"https://shop.pimoroni.com/collections/qwiic\">Qwiic</a> or <a href=\"https://shop.pimoroni.com/collections/stemma-qt\">STEMMA QT</a> breakouts.</p><p>You can buy a Plasma 2350 on its own, or in a kit with a USB-C cable and some super-cool LED stars, so you can get started lighting stuff up right away.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2350A (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>  <li>4MB of QSPI flash supporting XiP</li>  <li>Compatible with 5V WS2812/Neopixel/SK6812 and APA102/Dotstar/SK9822 LEDs</li>  <li>Screw terminals for attaching your LED strip.</li>  <li>USB-C connector for power and programming (3A max)</li>  <li>Qw/ST (Qwiic/STEMMA QT) connector</li>  <li>Intriguing new SP/CE connector</li>  <li>Reset, BOOT and a user button (the BOOT button can also be used as a user button)</li>  <li>RGB LED</li>  <li>Fully-assembled (no soldering required)</li>  <li>Measurements: approx 61 x 22 x 12mm (L x W x H, including connectors)</li>  <li>Programmable with C/C++ or MicroPython</li></ul><h2 id=\"about-rp2350\">About RP2350</h2><p>The RP2350 chip is the Double Quarter Pounder &amp; Fries to the RP2040’s Double Cheeseburger and can have one or more RISC-V burgers instead of either of the M33 ARMs, to stretch the metaphor.</p><p>In addition to the modern M33 ARM cores, there are sides of: more PIO capability, a variety of low power states for sipping electrons, a whole security system and some sprinklings of specialist digital video circuits to offload DVI/HDMI output.</p><p>You can expect a tasty boost in performance - our “real world” MicroPython tests are running up to 2x faster compared to RP2040, and floating point number crunching in C/C++ is up to 20x faster. The extra on-chip RAM will make a big difference when performing memory intensive operations (such as working with higher resolution displays) and even more can be added thanks to external PSRAM support.</p><p>RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/plasma-2350\">Pimoroni</a></li></ul>"
     },
     {
+        "board_id": "pimoroni_plasma2350w",
+        "title": "Plasma 2350 Download",
+        "name": "Plasma 2350",
+        "board_url": [
+            "https://shop.pimoroni.com/products/plasma-2350-w"
+        ],
+        "board_image": "pimoroni_plasma2350w.jpg",
+        "date_added": "2024-08-22",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/pimoroni_plasma2350w/",
+        "description": "<p>An all-in-one, USB-C powered controller for WS2812/Neopixel and APA102/Dotstar addressable LED strips. Now with added wireless connectivity!</p><p>Plasma 2350 W is <strong>powered and programmable by USB-C</strong> and, because USB-C is capable of drawing up to 3A of power, that’s enough to power a healthy chunk of LEDs. There’s a <strong>useful button</strong> that you could use to switch between effects, plus a reset button and an <strong>onboard RGB LED</strong>. We’ve also popped a <strong>QW/ST connector</strong> on there, to make it super easy to plug in <a href=\"https://shop.pimoroni.com/collections/qwiic\">Qwiic</a> or <a href=\"https://shop.pimoroni.com/collections/stemma-qt\">STEMMA QT</a> breakouts.</p><p>The ‘W’ version comes equipped with a Raspberry Pi RM2 module, which gives it <strong>2.4 GHz</strong> <strong>wireless and Bluetooth connectivity</strong>. Use it to control Plasma 2350 W remotely, hook it up to online APIs or integrate it with your home automation.</p><p>You can buy a Plasma 2350 W on its own, or in a kit with a USB-C cable and some super-cool LED stars, so you can get started lighting stuff up right away.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2350A (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>  <li>4MB of QSPI flash supporting XiP</li>  <li>Compatible with 5V WS2812/Neopixel/SK6812 and APA102/Dotstar/SK9822 LEDs</li>  <li>Screw terminals for attaching your LED strip.</li>  <li>USB-C connector for power and programming (3A max)</li>  <li>Raspberry Pi RM2 module (<a href=\"https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-4-802.11n/cyw43439/\">CYW43439</a>), supporting IEEE 802.11 b/g/n wireless LAN, and Bluetooth</li>  <li>Qw/ST (Qwiic/STEMMA QT) connector</li>  <li>Reset, BOOT and a user button (the BOOT button can also be used as a user button)</li>  <li>RGB LED</li>  <li>Fully-assembled (no soldering required)</li>  <li>Measurements: approx 61 x 22 x 12mm (L x W x H, including connectors)</li>  <li>Programmable with C/C++ or MicroPython</li></ul><h2 id=\"about-rp2350\">About RP2350</h2><p>The RP2350 chip is the Double Quarter Pounder &amp; Fries to the RP2040’s Double Cheeseburger and can have one or more RISC-V burgers instead of either of the M33 ARMs, to stretch the metaphor.</p><p>In addition to the modern M33 ARM cores, there are sides of: more PIO capability, a variety of low power states for sipping electrons, a whole security system and some sprinklings of specialist digital video circuits to offload DVI/HDMI output.</p><p>You can expect a tasty boost in performance - our “real world” MicroPython tests are running up to 2x faster compared to RP2040, and floating point number crunching in C/C++ is up to 20x faster. The extra on-chip RAM will make a big difference when performing memory intensive operations (such as working with higher resolution displays) and even more can be added thanks to external PSRAM support.</p><p>RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/plasma-2350-w\">Pimoroni</a></li></ul>"
+    },
+    {
         "board_id": "pimoroni_servo2040",
         "title": "Servo 2040 Download",
         "name": "Servo 2040",
@@ -9802,6 +9890,25 @@
         ],
         "url_path": "/board/solderparty_bbq20kbd/",
         "description": "<p>A BB Q20 Keyboard in USB/PMOD/Qwiic format with a injection molded clear plastic case.</p><p>This is the evolution of our previous BBQ10 PMOD board. We took all the feedback from that board and improved on the design in every way.</p><p>We added a Qwiic/Stemma QT connector, we added USB HID support, we changed to a Q20 keyboard, which gave us four extra buttons, and the optical trackpad that works as a USB HID Mouse. And we decided to put the whole thing into a custom-designed injection molded clear plastic case for better usability and durability, as well as that retro 90s look.</p><p>The board uses the Raspberry Pi RP2040 MCU to poll the keyboard and trackpad and put the key press information into a FIFO.</p><p>You can use the I2C interface to read the FIFO, reconfigure the chip, and change the keyboar backlight.</p><p>In addition to that, the board also has a USB Type-C socket, and when connected to a desktop computer (Windows/Linux/MacOS), a smartphone (iOS/Android), or a SBC (Raspberry Pi, etc), it enumerates as a USB HID Keyboard and Mouse combo!</p><p>The firmware can be configured over USB using the Vendor Class interface.</p><p>The I2C interface is compatible with the old BBQ10 module, you can use the same libraries to interface this board.</p><p>Note: This board is not 5V-tolerant!</p><h2 id=\"links\">Links</h2><ul>  <li><a href=\"https://bbq20kbd.solder.party/\">Documentation</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.tindie.com/products/arturo182/bb-q20-keyboard-with-trackpad-usbi2cpmod/\">Tindie</a></li></ul>"
+    },
+    {
+        "board_id": "solderparty_esp32p4_stamp_xl",
+        "title": "ESP32-P4 Stamp XL Download",
+        "name": "ESP32-P4 Stamp XL",
+        "board_url": [
+            "https://www.solder.party/docs/rp2350-stamp-xl/"
+        ],
+        "board_image": "solderparty_esp32p4_stamp_xl.jpg",
+        "date_added": "2025-01-27",
+        "family": "esp32p4",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Castellated Pads"
+        ],
+        "url_path": "/board/solderparty_esp32p4_stamp_xl/",
+        "description": "<p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p><p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p><h2 id=\"purchase\">Purchase</h2><p>Add any links to purchase the board</p>"
     },
     {
         "board_id": "solderparty_rp2040_stamp",
@@ -11520,6 +11627,28 @@
         "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
     },
     {
+        "board_id": "waveshare_esp32_c6_lcd_1_47",
+        "title": "ESP32-C6 1.47inch Display Development Board Download",
+        "name": "ESP32-C6 1.47inch Display Development Board",
+        "board_url": [
+            "https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-c6-lcd-1.47.htm"
+        ],
+        "board_image": "waveshare_esp32_c6_lcd_1_47.jpg",
+        "date_added": "2025-01-29",
+        "family": "esp32c6",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Display"
+        ],
+        "url_path": "/board/waveshare_esp32_c6_lcd_1_47/",
+        "description": "<p>ESP32-C6 1.47inch Display Development Board, 172×320, 262K Color, 160MHz Running Frequency Single-core Processor, Supports WiFi 6 &amp; Bluetooth, With Colorful RGB LED, ESP32 With Display</p><p>ESP32-C6-LCD-1.47 is a microcontroller development board with 2.4GHz Wi-Fi 6 and Bluetooth BLE 5 support, integrates 4MB Flash. Onboard 1.47inch LCD screen can smoothly run GUI programs such as LVGL. Combined with various peripheral interfaces, suitable for the quick development of the HMI and other ESP32-C6 applications.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Equipped with a high-performance 32-bit RISC-V processor with clock speed up to 160 MHz, and a low-power 32-bit RISC-V processor with clock speed up to 20MHz</li>  <li>Supports 2.4GHz Wi-Fi 6 (802.11 b/g/n) and Bluetooth 5 (LE), with onboard antenna</li>  <li>Built in 320KB ROM, 512KB of HP SRAM, 16KB LP SRAM and 4MB Flash memory</li>  <li>Onboard 1.47inch LCD display, 172×320 resolution, 262K color</li>  <li>Adapting multiple IO interfaces, integrates full-speed USB port</li>  <li>Onboard TF card slot for external TF card storage of pictures or files</li>  <li>Supports accurate control such as flexible clock and multiple power modes to realize low power consumption in different scenarios</li>  <li>Built-in RGB LED with clear acrylic sandwich panel for cool lighting effect</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/ESP32-C6-LCD-1.47\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-c6-lcd-1.47.htm\">Waveshare</a></li></ul>"
+    },
+    {
         "board_id": "waveshare_esp32_s2_pico_lcd",
         "title": "ESP32-S2-Pico with LCD Download",
         "name": "ESP32-S2-Pico with LCD",
@@ -11541,6 +11670,28 @@
         ],
         "url_path": "/board/waveshare_esp32_s2_pico_lcd/",
         "description": "<p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li><strong>ESP32-S2FH4</strong> - Xtensa single-core 32-bit LX7 240Mhz microprocessor</li>  <li><strong>Boot &amp; Reset</strong> buttons to get into the bootloader</li>  <li><strong>TPS63000DRCR</strong> on-board 1.8A current high efficiency boost/buck DC-DC power supply IC</li>  <li>Integrated 320KB SRAM, 128KB ROM, 8MB PSRAM, 4MB Flash memory</li>  <li>Support IEEE802.11 b/g/n, on-board 2.4 GHz WiFi ceramic antenna, up to 150 Mbps data transfer rate</li>  <li>USB-C connector, no more plug orientation problem</li>  <li>On-board 0.96inch 160×80 pixels 65K color IPS LCD display.</li>  <li>On-board single 3.7V lithium battery charge/discharge header, suitable for mobile IoT product design.</li></ul><p>Waveshare wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S2-Pico\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s2.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_esp32_s3_eth",
+        "title": "ESP32-S3-Matrix Development Board Download",
+        "name": "ESP32-S3-Matrix Development Board",
+        "board_url": [
+            "https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-matrix.htm"
+        ],
+        "board_image": "waveshare_esp32_s3_eth.jpg",
+        "date_added": "2025-01-27",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C"
+        ],
+        "url_path": "/board/waveshare_esp32_s3_eth/",
+        "description": "<p>ESP32-S3-Matrix Development Board, Onboard 8×8 RGB LED Matrix and QMI8658 Attitude Sensor, supports Wi-Fi and Bluetooth LE, ESP32 Development Board</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Adopts ESP32-S3FH4R2 chip with Xtensa 32-bit LX7 dual-core processor, capable of running at 240 MHz</li>  <li>Integrated 512KB SRAM, 384KB ROM, 2MB PSRAM, 4MB Flash memory</li>  <li>Integrated 2.4GHz Wi-Fi and Bluetooth LE dual-mode wireless communication, with superior RF performance.</li>  <li>Type-C connector, easier to use</li>  <li>Onboard QMI8658 6-axis IMU (3-axis accelerometer and 3-axis gyroscope)</li>  <li>Onboard 8 × 8 RGB LED matrix for colorful lighting display</li>  <li>Adapting Dout pin for extending RGB matrix</li>  <li>17 × multi-function GPIO pins</li>  <li>Rich peripheral interfaces for achieving various functions flexibly</li>  <li>Supports multiple low-power operating states, adjustable balance between communication distance, data rate and power consumption to meet the power requirements of various application scenarios</li></ul><p>Waveshare Wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S3-Matrix\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-matrix.htm\">Waveshare</a></li></ul>"
     },
     {
         "board_id": "waveshare_esp32_s3_geek",
@@ -11584,6 +11735,28 @@
         ],
         "url_path": "/board/waveshare_esp32_s3_lcd_1_28/",
         "description": "<p>ESP32-S3-LCD-1.28 is a low-cost, high-performance MCU board designed by Waveshare, tiny size, with onboard 1.28inch LCD display, Li-ion battery recharge manager, 6-axis sensor (3-axis accelerometer and 3-axis gyroscope), and so on, which makes it easy for you to develop and integrate it into products quickly.</p><p><strong>Board specifications</strong></p><ul>  <li>Equipped with Xtensa® 32-bit LX7 dual-core processor, up to 240MHz main frequency</li>  <li>Supports 2.4GHz Wi-Fi (802.11 b/g/n) and Bluetooth® 5 (BLE), with onboard antenna</li>  <li>Built in 512KB of SRAM and 384KB ROM, with onboard 2MB PSRAM and an external 16MB Flash memory</li>  <li>Type-C connector, keeps it up to date, easier to use</li>  <li>Onboard 1.28inch LCD display, round IPS panel, 240×240 resolution, 65K color</li>  <li>Onboard QMI8658 6-axis IMU (3-axis accelerometer and 3-axis gyroscope) for detecting motion gesture</li>  <li>Onboard 3.7V lithium battery recharge/discharge header and GPIO headers</li>  <li>Supports flexible clock, module power supply independent setting, and other controls to realize low power consumption in different scenarios</li>  <li>Integrated with USB serial port full-speed controller, GPIO pins allow flexibly configuring pin functions</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s3-lcd-1.28.htm\">Waveshare</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_esp32_s3_matrix",
+        "title": "ESP32-S3 ETH Development Board Download",
+        "name": "ESP32-S3 ETH Development Board",
+        "board_url": [
+            "https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-eth.htm"
+        ],
+        "board_image": "waveshare_esp32_s3_matrix.jpg",
+        "date_added": "2025-01-27",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Display"
+        ],
+        "url_path": "/board/waveshare_esp32_s3_matrix/",
+        "description": "<p>ESP32-S3 ETH Development Board, 10/100Mbps RJ45 Ethernet port, Wi-Fi &amp; Bluetooth Support, 240MHz Dual Core Processor, Onboard Type-C Port And TF Card Slot, Optional For PoE Module And Camera Module</p><p>This is an ETH development board based on ESP32-S3R8, supports Wi-Fi and Bluetooth wireless communication, with reliable and efficient wired Ethernet connectivity, optional for PoE function. Onboard camera interface, compatible with OV2640, OV5640 and other mainstream cameras for image and video capture. Compatible with Pico header, it can be used with some Raspberry Pi Pico HATs. Relying on the rich ecology and open source resources of ESP32, users can get started quickly for secondary development. It is suitable for Internet of Things, image acquisition, smart home and other AI projects.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Adopts ESP32-S3R8 high-performance chip with Xtensa 32-bit LX7 dual-core processor, capable of running at 240 MHz</li>  <li>Integrated 512KB SRAM, 384KB ROM, 8MB PSRAM and 16MB Flash memory</li>  <li>Integrated 2.4GHz Wi-Fi and Bluetooth 5 (LE) wireless communication, with an onboard antenna. Supports switching to use external antenna</li>  <li>Onboard W5500 Ethernet chip for extending 10/100Mbps network port through SPI interface</li>  <li>Optional for PoE module to realize Power over Ethernet function (IEEE 802.3af-compliant)</li>  <li>Onboard camera interface, compatible with OV2640, OV5640 and other mainstream cameras for image and video capture</li>  <li>Onboard USB Type-C port for power supply, program downloading, and debugging, more convenient for development use</li>  <li>Onboard TF card slot for external TF card storage of pictures or files</li>  <li>Compatible with Pico header, onboard multiple peripheral interfaces, offering strong compatibility and expandability</li></ul><p>Waveshare Wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S3-ETH\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-eth.htm\">Waveshare</a></li></ul>"
     },
     {
         "board_id": "waveshare_esp32_s3_pico",

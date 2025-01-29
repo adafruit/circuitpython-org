@@ -1,4 +1,15 @@
 {
+    "waveshare_esp32_s3_matrix": {
+        "name": "ESP32-S3 ETH Development Board",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.2.4",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_s3_matrix/en_US/adafruit-circuitpython-waveshare_esp32_s3_matrix-en_US-9.2.4.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_s3_matrix/en_US/adafruit-circuitpython-waveshare_esp32_s3_matrix-en_US-9.2.4.uf2"
+            }
+        ]
+    },
     "adafruit_feather_esp32s2_tft": {
         "name": "Feather ESP32-S2 with TFT",
         "chipfamily": "esp32s2",
@@ -578,7 +589,7 @@
             }
         ]
     },
-    "cezerio_mini_dev_esp32c6": {
+    "cezerio_mini_dev_ESP32C6": {
         "name": "cezerio mini dev ESP32C6",
         "chipfamily": "esp32c6",
         "releases": []
@@ -720,10 +731,15 @@
             }
         ]
     },
-    "cezerio_dev_esp32c6": {
+    "cezerio_dev_ESP32C6": {
         "name": "cezerio dev ESP32C6",
         "chipfamily": "esp32c6",
-        "releases": []
+        "releases": [
+            {
+                "version": "9.2.4",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/cezerio_dev_ESP32C6/en_US/adafruit-circuitpython-cezerio_dev_ESP32C6-en_US-9.2.4.bin"
+            }
+        ]
     },
     "waveshare_esp32_s3_zero": {
         "name": "Waveshare ESP32-S3-Zero",
@@ -885,6 +901,16 @@
                 "version": "9.2.4",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deneyap_kart_1a_v2/en_US/adafruit-circuitpython-deneyap_kart_1a_v2-en_US-9.2.4.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deneyap_kart_1a_v2/en_US/adafruit-circuitpython-deneyap_kart_1a_v2-en_US-9.2.4.uf2"
+            }
+        ]
+    },
+    "waveshare_esp32_c6_lcd_1_47": {
+        "name": "ESP32-C6 1.47inch Display Development Board",
+        "chipfamily": "esp32c6",
+        "releases": [
+            {
+                "version": "9.2.4",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_c6_lcd_1_47/en_US/adafruit-circuitpython-waveshare_esp32_c6_lcd_1_47-en_US-9.2.4.bin"
             }
         ]
     },
@@ -1124,6 +1150,16 @@
                 "version": "9.2.4",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/firebeetle2_esp32s3/en_US/adafruit-circuitpython-firebeetle2_esp32s3-en_US-9.2.4.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/firebeetle2_esp32s3/en_US/adafruit-circuitpython-firebeetle2_esp32s3-en_US-9.2.4.uf2"
+            }
+        ]
+    },
+    "m5stack_stick_c_plus2": {
+        "name": "M5StickC PLUS ESP32-PICO Mini IoT",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "9.2.4",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_stick_c_plus2/en_US/adafruit-circuitpython-m5stack_stick_c_plus2-en_US-9.2.4.bin"
             }
         ]
     },
@@ -2216,6 +2252,17 @@
                 "version": "9.2.4",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_cores3/en_US/adafruit-circuitpython-m5stack_cores3-en_US-9.2.4.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_cores3/en_US/adafruit-circuitpython-m5stack_cores3-en_US-9.2.4.uf2"
+            }
+        ]
+    },
+    "waveshare_esp32_s3_eth": {
+        "name": "ESP32-S3-Matrix Development Board",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.2.4",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_s3_eth/en_US/adafruit-circuitpython-waveshare_esp32_s3_eth-en_US-9.2.4.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_s3_eth/en_US/adafruit-circuitpython-waveshare_esp32_s3_eth-en_US-9.2.4.uf2"
             }
         ]
     },

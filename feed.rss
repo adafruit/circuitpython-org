@@ -4,9 +4,267 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 29 Jan 2025 05:04:01 -0500</lastBuildDate>
+<lastBuildDate>Wed, 29 Jan 2025 15:44:33 -0500</lastBuildDate>
 
 <item>
+    <title>ESP32-C6 1.47inch Display Development Board</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_c6_lcd_1_47/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_c6_lcd_1_47.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_c6_lcd_1_47.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_c6_lcd_1_47.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>ESP32-C6 1.47inch Display Development Board, 172×320, 262K Color, 160MHz Running Frequency Single-core Processor, Supports WiFi 6 &amp; Bluetooth, With Colorful RGB LED, ESP32 With Display</p>
+
+<p>ESP32-C6-LCD-1.47 is a microcontroller development board with 2.4GHz Wi-Fi 6 and Bluetooth BLE 5 support, integrates 4MB Flash. Onboard 1.47inch LCD screen can smoothly run GUI programs such as LVGL. Combined with various peripheral interfaces, suitable for the quick development of the HMI and other ESP32-C6 applications.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Equipped with a high-performance 32-bit RISC-V processor with clock speed up to 160 MHz, and a low-power 32-bit RISC-V processor with clock speed up to 20MHz</li>
+  <li>Supports 2.4GHz Wi-Fi 6 (802.11 b/g/n) and Bluetooth 5 (LE), with onboard antenna</li>
+  <li>Built in 320KB ROM, 512KB of HP SRAM, 16KB LP SRAM and 4MB Flash memory</li>
+  <li>Onboard 1.47inch LCD display, 172×320 resolution, 262K color</li>
+  <li>Adapting multiple IO interfaces, integrates full-speed USB port</li>
+  <li>Onboard TF card slot for external TF card storage of pictures or files</li>
+  <li>Supports accurate control such as flexible clock and multiple power modes to realize low power consumption in different scenarios</li>
+  <li>Built-in RGB LED with clear acrylic sandwich panel for cool lighting effect</li>
+</ul>
+
+<p>Waveshare Wiki <a href="http://www.waveshare.com/wiki/ESP32-C6-LCD-1.47">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-c6-lcd-1.47.htm">Waveshare</a></li>
+</ul>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_c6_lcd_1_47/</guid>
+  </item><item>
+    <title>MAX32690 Evaluation Kit</title>
+    <link>https://circuitpython.org/board/max32690evkit/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/max32690evkit.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/max32690evkit.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/max32690evkit.jpg" alt="Image of Board" loading="lazy">
+<p>By Analog Devices</p> <p>The MAX32690 evaluation kit (EV kit) provides a platform for evaluating the capabilities of the MAX32690 microcontroller, which is an advanced system-on-chip (SoC). It features an Arm® Cortex®-M4F CPU for efficient computation of complex functions and algorithms, and the latest generation Bluetooth® 5 Low Energy (Bluetooth LE) radio designed for wearable and hearable fitness devices, portable and wearable wireless medical devices, industrial sensors/networks, internet of things (IoT), and asset tracking.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32690evkit.html">Analog Devices</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/max32690evkit/</guid>
+  </item><item>
+    <title>M5StickC PLUS ESP32-PICO Mini IoT</title>
+    <link>https://circuitpython.org/board/m5stack_stick_c_plus2/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/m5stack_stick_c_plus2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/m5stack_stick_c_plus2.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/m5stack_stick_c_plus2.jpg" alt="Image of Board" loading="lazy">
+<p>By M5Stack</p> <p><strong>M5StickC PLUS2</strong> is an iterative version of M5StickC PLUS, featuring the ESP32-PICO-V3-02 chip as the main controller with built-in WiFi functionality. The compact device integrates a wealth of hardware resources within its small form factor, including infrared, RTC, microphone, LED, IMU, buttons, buzzer, and more. It boasts a 1.14-inch TFT screen with a resolution of 135*240, driven by the ST7789V2. The battery capacity has been increased to 200mAh, and the interface also supports HAT and Unit series products. This compact and versatile development tool is designed to spark limitless creative possibilities.</p>
+
+<p><strong>M5StickC PLUS2</strong> facilitates the rapid prototyping of IoT products, streamlining the entire development process. Even beginners in programming can easily build interesting applications and apply them to real-life scenarios using M5StickC PLUS2.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>ESP32-­PICO-­V3-­02-Base,support WiFi</li>
+  <li>Built-in 6-Axis IMU</li>
+  <li>IR transmitter</li>
+  <li>Microphone</li>
+  <li>RTC</li>
+  <li>Buttons, LCD(1.14 inch)</li>
+  <li>Built-in Lithium Polymer Battery@200mAh</li>
+  <li>Extendable Socket</li>
+  <li>Built-in Passive Buzzer</li>
+  <li>Wearable &amp; Wall mounted</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/M5StickC%20PLUS2">M5StickC PLUS ESP32-PICO Mini IoT</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/m5stickc-plus2-esp32-mini-iot-development-kit">M5Stack</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_stick_c_plus2/</guid>
+  </item><item>
+    <title>AD-APARD32690-SL</title>
+    <link>https://circuitpython.org/board/apard32690/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/apard32690.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/apard32690.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/apard32690.jpg" alt="Image of Board" loading="lazy">
+<p>By Analog Devices</p> <p>The AD-APARD32690-SL is a platform for prototyping intelligent, secure, and connected field devices. It has an Arduino Mega-compatible form factor and two Pmod™-compatible connectors.</p>
+
+<p>The system includes the MAX32690 ARM Cortex-M4 with FPU-Based Microcontroller and Bluetooth LE 5.2. The MCU is coupled with external RAM (2 x 512 Mb) and Flash (64 Mb) memories to meet the requirements of the most demanding applications. The MAXQ1065 security coprocessor enables state of the art security features such as for root-of-trust, mutual authentication, data confidentiality and integrity, secure boot, and secure communications.</p>
+
+<p>A 10 Mbps single-pair Ethernet link using the ADIN1110 10BASE-T1L MAC/PHY, enables remote data acquisition and system configuration. The 10BASE-T1L interface also supports Single-pair Power over Ethernet (SPoE) and be used for powering the system via an Arduino shield implementing the required power circuitry.</p>
+
+<p>WiFi connectivity is provided via the on-board NINA-W102 multiradio wireless MCU module with internal antenna.</p>
+
+<p>Power can be supplied either via the USB-C connector or via a 2-pin terminal block. The supported input voltage range is 5 V to 28 V.</p>
+
+<p>The system is accompanied by an open-source software stack and associated collateral, enabling a complete experience from evaluation, and prototyping, all the way to production firmware and application development. The open-source software stack also includes drivers and example applications for a wide variety of ADCs, DACs, sensors, and other devices commonly used in industrial applications, further accelerating the development process. An external programmer such as the MAX32625PICO DAPLink, or any other similar programmer supporting the SWD interface, enables firmware programming and debug. The system’s firmware is based on Analog Devices’ open-source no-OS framework which includes all the tools required for embedded code development and debugging as well as libraries, enabling host-side connectivity for system configuration and data transfer over the UART, USB, WiFi, and 10BASE-T1L interfaces.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Allows prototyping of intelligent, secure, and connected industrial field devices</li>
+  <li>Arduino Mega-compatible form factor</li>
+  <li>Two Pmod™-compatible connectors</li>
+  <li>ARM Cortex-M4 Ultra Efficient Microcontroller with integrated Bluetooth 5.2 LE</li>
+  <li>WiFi connectivity</li>
+  <li>Long-range, single-pair 10BASE-T1L Ethernet interface</li>
+  <li>Built-in security for root-of-trust, mutual authentication, data confidentiality and integrity, secure boot, and secure communications</li>
+  <li>Open-source software stack</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/ad-apard32690-sl.html">Analog Devices</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/apard32690/</guid>
+  </item><item>
+    <title>ESP32-S3 ETH Development Board</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_matrix/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_s3_matrix.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_matrix.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_matrix.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>ESP32-S3 ETH Development Board, 10/100Mbps RJ45 Ethernet port, Wi-Fi &amp; Bluetooth Support, 240MHz Dual Core Processor, Onboard Type-C Port And TF Card Slot, Optional For PoE Module And Camera Module</p>
+
+<p>This is an ETH development board based on ESP32-S3R8, supports Wi-Fi and Bluetooth wireless communication, with reliable and efficient wired Ethernet connectivity, optional for PoE function. Onboard camera interface, compatible with OV2640, OV5640 and other mainstream cameras for image and video capture. Compatible with Pico header, it can be used with some Raspberry Pi Pico HATs. Relying on the rich ecology and open source resources of ESP32, users can get started quickly for secondary development. It is suitable for Internet of Things, image acquisition, smart home and other AI projects.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Adopts ESP32-S3R8 high-performance chip with Xtensa 32-bit LX7 dual-core processor, capable of running at 240 MHz</li>
+  <li>Integrated 512KB SRAM, 384KB ROM, 8MB PSRAM and 16MB Flash memory</li>
+  <li>Integrated 2.4GHz Wi-Fi and Bluetooth 5 (LE) wireless communication, with an onboard antenna. Supports switching to use external antenna</li>
+  <li>Onboard W5500 Ethernet chip for extending 10/100Mbps network port through SPI interface</li>
+  <li>Optional for PoE module to realize Power over Ethernet function (IEEE 802.3af-compliant)</li>
+  <li>Onboard camera interface, compatible with OV2640, OV5640 and other mainstream cameras for image and video capture</li>
+  <li>Onboard USB Type-C port for power supply, program downloading, and debugging, more convenient for development use</li>
+  <li>Onboard TF card slot for external TF card storage of pictures or files</li>
+  <li>Compatible with Pico header, onboard multiple peripheral interfaces, offering strong compatibility and expandability</li>
+</ul>
+
+<p>Waveshare Wiki <a href="https://www.waveshare.com/wiki/ESP32-S3-ETH">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-eth.htm">Waveshare</a></li>
+</ul>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_matrix/</guid>
+  </item><item>
+    <title>ESP32-S3-Matrix Development Board</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_eth/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_s3_eth.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_eth.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_eth.jpg" alt="Image of Board" loading="lazy">
+<p>By Waveshare</p> <p>ESP32-S3-Matrix Development Board, Onboard 8×8 RGB LED Matrix and QMI8658 Attitude Sensor, supports Wi-Fi and Bluetooth LE, ESP32 Development Board</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Adopts ESP32-S3FH4R2 chip with Xtensa 32-bit LX7 dual-core processor, capable of running at 240 MHz</li>
+  <li>Integrated 512KB SRAM, 384KB ROM, 2MB PSRAM, 4MB Flash memory</li>
+  <li>Integrated 2.4GHz Wi-Fi and Bluetooth LE dual-mode wireless communication, with superior RF performance.</li>
+  <li>Type-C connector, easier to use</li>
+  <li>Onboard QMI8658 6-axis IMU (3-axis accelerometer and 3-axis gyroscope)</li>
+  <li>Onboard 8 × 8 RGB LED matrix for colorful lighting display</li>
+  <li>Adapting Dout pin for extending RGB matrix</li>
+  <li>17 × multi-function GPIO pins</li>
+  <li>Rich peripheral interfaces for achieving various functions flexibly</li>
+  <li>Supports multiple low-power operating states, adjustable balance between communication distance, data rate and power consumption to meet the power requirements of various application scenarios</li>
+</ul>
+
+<p>Waveshare Wiki <a href="https://www.waveshare.com/wiki/ESP32-S3-Matrix">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-matrix.htm">Waveshare</a></li>
+</ul>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_eth/</guid>
+  </item><item>
+    <title>ESP32-P4 Stamp XL</title>
+    <link>https://circuitpython.org/board/solderparty_esp32p4_stamp_xl/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/solderparty_esp32p4_stamp_xl.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/solderparty_esp32p4_stamp_xl.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/solderparty_esp32p4_stamp_xl.jpg" alt="Image of Board" loading="lazy">
+<p>By Solder Party</p> <p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p>
+
+<p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p>
+
+<h2 id="purchase">Purchase</h2>
+<p>Add any links to purchase the board</p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/solderparty_esp32p4_stamp_xl/</guid>
+  </item><item>
     <title>Adafruit Sparkle Motion</title>
     <link>https://circuitpython.org/board/adafruit_sparkle_motion/</link>
     <description><![CDATA[ 
@@ -1917,6 +2175,62 @@ Contact: <a href="mailto:info@vidi-x.org">info@vidi-x.org</a></p>
     
     <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/pimoroni_tiny2350/</guid>
+  </item><item>
+    <title>Plasma 2350</title>
+    <link>https://circuitpython.org/board/pimoroni_plasma2350w/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/pimoroni_plasma2350w.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pimoroni_plasma2350w.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/pimoroni_plasma2350w.jpg" alt="Image of Board" loading="lazy">
+<p>By Pimoroni</p> <p>An all-in-one, USB-C powered controller for WS2812/Neopixel and APA102/Dotstar addressable LED strips. Now with added wireless connectivity!</p>
+
+<p>Plasma 2350 W is <strong>powered and programmable by USB-C</strong> and, because USB-C is capable of drawing up to 3A of power, that’s enough to power a healthy chunk of LEDs. There’s a <strong>useful button</strong> that you could use to switch between effects, plus a reset button and an <strong>onboard RGB LED</strong>. We’ve also popped a <strong>QW/ST connector</strong> on there, to make it super easy to plug in <a href="https://shop.pimoroni.com/collections/qwiic">Qwiic</a> or <a href="https://shop.pimoroni.com/collections/stemma-qt">STEMMA QT</a> breakouts.</p>
+
+<p>The ‘W’ version comes equipped with a Raspberry Pi RM2 module, which gives it <strong>2.4 GHz</strong> <strong>wireless and Bluetooth connectivity</strong>. Use it to control Plasma 2350 W remotely, hook it up to online APIs or integrate it with your home automation.</p>
+
+<p>You can buy a Plasma 2350 W on its own, or in a kit with a USB-C cable and some super-cool LED stars, so you can get started lighting stuff up right away.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Powered by RP2350A (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>
+  <li>4MB of QSPI flash supporting XiP</li>
+  <li>Compatible with 5V WS2812/Neopixel/SK6812 and APA102/Dotstar/SK9822 LEDs</li>
+  <li>Screw terminals for attaching your LED strip.</li>
+  <li>USB-C connector for power and programming (3A max)</li>
+  <li>Raspberry Pi RM2 module (<a href="https://www.infineon.com/cms/en/product/wireless-connectivity/airoc-wi-fi-plus-bluetooth-combos/wi-fi-4-802.11n/cyw43439/">CYW43439</a>), supporting IEEE 802.11 b/g/n wireless LAN, and Bluetooth</li>
+  <li>Qw/ST (Qwiic/STEMMA QT) connector</li>
+  <li>Reset, BOOT and a user button (the BOOT button can also be used as a user button)</li>
+  <li>RGB LED</li>
+  <li>Fully-assembled (no soldering required)</li>
+  <li>Measurements: approx 61 x 22 x 12mm (L x W x H, including connectors)</li>
+  <li>Programmable with C/C++ or MicroPython</li>
+</ul>
+
+<h2 id="about-rp2350">About RP2350</h2>
+
+<p>The RP2350 chip is the Double Quarter Pounder &amp; Fries to the RP2040’s Double Cheeseburger and can have one or more RISC-V burgers instead of either of the M33 ARMs, to stretch the metaphor.</p>
+
+<p>In addition to the modern M33 ARM cores, there are sides of: more PIO capability, a variety of low power states for sipping electrons, a whole security system and some sprinklings of specialist digital video circuits to offload DVI/HDMI output.</p>
+
+<p>You can expect a tasty boost in performance - our “real world” MicroPython tests are running up to 2x faster compared to RP2040, and floating point number crunching in C/C++ is up to 20x faster. The extra on-chip RAM will make a big difference when performing memory intensive operations (such as working with higher resolution displays) and even more can be added thanks to external PSRAM support.</p>
+
+<p>RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/plasma-2350-w">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_plasma2350w/</guid>
   </item><item>
     <title>Plasma 2350</title>
     <link>https://circuitpython.org/board/pimoroni_plasma2350/</link>
