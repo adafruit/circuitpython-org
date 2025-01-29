@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "cezerio_mini_dev_esp32c6"
+board_id: "cezerio_mini_dev_ESP32C6"
 title: "cezerio mini dev ESP32C6 Download"
 name: "cezerio mini dev ESP32C6"
 manufacturer: "cezerio"
