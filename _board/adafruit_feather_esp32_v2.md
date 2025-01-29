@@ -11,6 +11,8 @@ date_added: 2022-08-19
 family: esp32
 downloads_display: true
 download_instructions: https://learn.adafruit.com/adafruit-esp32-feather-v2/circuitpython
+tags:
+    - Huzzah
 features:
   - Feather-Compatible
   - Battery Charging
