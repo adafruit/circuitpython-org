@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Print a list of hidden and missing boards
+# Print a list of hidden, missing, and extra boards
 
 import os
 import json
@@ -10,6 +10,15 @@ import frontmatter
 def get_files(folder):
     return sorted(Path(folder).glob("*.md"), key=os.path.basename)
 
+def print_section(title, data, extra_lines=1):
+    for _ in range(extra_lines):
+        print("")
+    print(f"{len(data)} {title}")
+    if data:
+        print("-" * (len(title) + len(str(len(data))) + 2))
+        print("\n".join(data))
+
+# List all boards in the _boards folder that have downloads_display set to false
 def find_hidden_boards(folder):
     hidden_boards = []
     for filename in get_files(folder):
@@ -21,11 +30,9 @@ def find_hidden_boards(folder):
             if board_id == "unknown":
                 continue
             hidden_boards.append(board_id)
-    print(f"{len(hidden_boards)} Hidden boards")
-    if hidden_boards:
-        print("-" * (15 + len(str(len(hidden_boards)))))
-        print("\n".join(hidden_boards))
+    print_section("Hidden Boards", hidden_boards, 0)
 
+# List all board ids in the data file that are not in the _boards folder
 def find_missing_boards(folder):
     missing_boards = []
     # Add all board ids to a list from data file
@@ -46,11 +53,30 @@ def find_missing_boards(folder):
                 missing_boards.remove(board_id)
 
     # Print out remaining board_ids
-    print("")
-    print(f"{len(missing_boards)} Missing boards")
-    if missing_boards:
-        print("-" * (16 + len(str(len(missing_boards)))))
-        print("\n".join(missing_boards))
+    print_section("Missing Boards", missing_boards)
+
+# List all boards in the _boards folder that are not in the data file
+def find_extra_boards(folder):
+    extra_boards = []
+    # Start with a list the board_id from all boards in the _boards folder
+    for filename in get_files(folder):
+        with open(filename, "rt") as f:
+            metadata, _ = frontmatter.parse(f.read())
+            board_id = metadata.get('board_id')
+            if board_id == "unknown":
+                continue
+            extra_boards.append(board_id)
+
+    # Remove all board_ids that are in the data file
+    with open('./_data/files.json') as board_file:
+        boards = json.load(board_file)
+        for board in boards:
+            if board["id"] in extra_boards:
+                extra_boards.remove(board["id"])
+
+    # Print out remaining board_ids
+    print_section("Extra Boards", extra_boards)
 
 find_hidden_boards("_board")
 find_missing_boards("_board")
+find_extra_boards("_board")
