@@ -3,27 +3,17 @@
   grid-template-rows: 40px 1fr 3px;
   grid-column: full;
 
-  &> * {
-    display: grid;
-
-    grid-template-columns:
-      [full-start] minmax(1em, 1fr)
-      [main-start] minmax(0, 80em) [main-end]
-      minmax(1em, 1fr) [full-end];
-
-    &> * {
-      grid-column: main;
-    }
-  }
-
   .wrapper {
-    background-color: #333333;
-    height: 100px;
+    @include readable-content;
   }
 
   .content {
     display: grid;
-    padding-bottom: 20px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 25px;
+    padding: 0 25px;
+    margin: 20px;
   }
 
   a.active {
@@ -32,13 +22,14 @@
 }
 
 .top-navigation {
-  background-color: #151515;
+  @include readable-content;
+  background-color: #333;
   padding-top: 10px;
-  
+
   .navigation {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     a {
       font-size: 16px;
@@ -61,13 +52,13 @@
       }
     }
 
-    &> a {
+    & > a {
       margin-left: 40px;
     }
-    &> span {
+    & > span {
       margin-left: 35px;
       a {
-          margin-left: 5px;
+        margin-left: 5px;
       }
     }
   }
@@ -77,7 +68,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .site-logo {
@@ -106,8 +97,8 @@
   font-size: 18px;
 
   a {
-    margin-left: 40px;
-    color: #aaa;
+    margin-right: 30px;
+    color: #63338f;
 
     &:hover {
       color: #fff;
