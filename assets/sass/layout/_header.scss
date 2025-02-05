@@ -72,6 +72,7 @@
 }
 
 .site-logo {
+  flex: 1 1 0;
 }
 
 .site-banner {
@@ -84,8 +85,9 @@
 }
 
 .get-started {
-  margin-left: auto;
-  padding-bottom: 10px;
+  display: flex;
+  flex: 2 1 0;
+  justify-content: end;
 
   a {
     @include rounded-button;
@@ -93,6 +95,7 @@
 }
 
 .site-navigation {
+  flex: 2 1 0;
   padding: 0 0 10px 0;
   font-size: 18px;
 
