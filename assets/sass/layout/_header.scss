@@ -1,6 +1,6 @@
 #site-header {
   display: grid;
-  grid-template-rows: 40px 1fr 3px;
+  grid-template-rows: 40px 1fr;
   grid-column: full;
 
   .wrapper {
@@ -13,7 +13,7 @@
     height: 100px;
     border-radius: 25px;
     padding: 0 25px;
-    margin: 20px;
+    margin: 20px 0;
   }
 
   a.active {
@@ -24,16 +24,14 @@
 .top-navigation {
   @include readable-content;
   background-color: #333;
-  padding-top: 10px;
 
   .navigation {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-
+    margin-left: 15px;
+    padding: 10px;
     a {
       font-size: 16px;
       color: #aaa;
+      margin-right: 40px;
 
       &:hover {
         color: #fff;
@@ -51,16 +49,6 @@
         transform: translateY(0%);
       }
     }
-
-    & > a {
-      margin-left: 40px;
-    }
-    & > span {
-      margin-left: 35px;
-      a {
-        margin-left: 5px;
-      }
-    }
   }
 }
 
@@ -69,6 +57,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  .get-started {
+    display: flex;
+    flex: 2 1 0;
+    justify-content: end;
+
+    a {
+      @include rounded-button;
+    }
+  }
 }
 
 .site-logo {
@@ -81,16 +79,6 @@
 
   a {
     color: #fff;
-  }
-}
-
-.get-started {
-  display: flex;
-  flex: 2 1 0;
-  justify-content: end;
-
-  a {
-    @include rounded-button;
   }
 }
 
@@ -107,10 +95,6 @@
       color: #fff;
     }
   }
-}
-
-.bottom-bar {
-  background-color: #e71c8c;
 }
 
 @media (max-width: $screen-xs-max) {

@@ -3,24 +3,7 @@ layout: home
 ---
 
 <div id="home-page">
-  {% comment %}
-  <div class="promotion-banner">
-      <a
-          href="https://blog.adafruit.com/2022/08/08/circuitpython-day-2022-schedule-circuitpythonday2022-circuitpython-python/">
-        <img class="image-promotion" alt="CircuitPython Day August 19, 2022 Details"
-                                  src="{{ "assets/images/heroes/circuitpython_day_header.jpg" |
-                                          relative_url }}"
-          />
-      </a>
-  </div>
-  {% endcomment %}
-  <div class="headline-banner">
-    <div class="img-overlay"></div>
-      <img class="image-headline" alt="hero image"
-                                  src="{{ "assets/images/heroes/" |
-                                          append: site.hero_image |
-                                          relative_url }}"
-          />
+  <div class="two-column-content">
     <div class="text">
       <div class="title"><span>The easiest way to program microcontrollers</span></div>
       <div class="tagline">
@@ -30,14 +13,16 @@ layout: home
           boards.
         </span>
       </div>
+      <div class="get-started">
+        <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
+      </div>
     </div>
-  </div>
-  <div class="purple banner">
-    <p>
-      With CircuitPython, there are no upfront desktop downloads needed. Once
-      you get your board set up, open any text editor, and start editing code.
-      It's that simple.
-    </p>
+    <div class="image img-responsive-4by3">
+      <img class="image-headline" alt=""
+                                src="{{ "assets/images/learn/sketch_drawing_toy.jpg" |
+                                        relative_url }}"
+        />
+    </div>
   </div>
 
   <div class="headline-banner supported-section">
@@ -55,7 +40,7 @@ layout: home
     </div>
   </div>
 
-  <div class="content">
+  <div class="single-column-content">
     <section>
       <h2>More reasons to use CircuitPython</h2>
       <div class="home-table">

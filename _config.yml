@@ -3,10 +3,9 @@ email: justin@adafruit.com
 description: >-
   The easiest way to program microcontrollers
 site_image: "https://circuitpython.org/assets/images/CircuitPythonLogo_Black.png"
-hero_image: CircuitPython_Hero.jpg
 timezone: America/New_York
 twitter_username: circuitpython
-github_username:  adafruit
+github_username: adafruit
 baseurl: ""
 url: "https://circuitpython.org"
 paginate: 5
@@ -39,7 +38,7 @@ collections:
 
 jekyll_get_json:
   - data: libraries
-    json: 'https://adafruit-circuit-python.s3.amazonaws.com/adabot/web/libraries.v2.json'
+    json: "https://adafruit-circuit-python.s3.amazonaws.com/adabot/web/libraries.v2.json"
 
 ### Exclude from processing.
 exclude:

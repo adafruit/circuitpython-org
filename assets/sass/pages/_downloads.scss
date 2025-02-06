@@ -1,21 +1,20 @@
 #downloads-page {
   padding: 50px 0 200px 0;
   display: grid;
-    grid-template-columns:
-      [full-start] minmax(1em, 1fr)
-      [main-start] minmax(0, 80em) [main-end]
-      minmax(1em, 1fr) [full-end];
-    grid-row-gap: 1em;
+  grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 80em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  grid-row-gap: 1em;
 
-  &> * {
+  & > * {
     grid-column: main;
   }
 
   h1 {
-
   }
 
-  &> p {
+  & > p {
     font-size: 1.2em;
     margin-top: 0;
   }
@@ -33,7 +32,7 @@
         position: relative;
 
         &:before {
-          font-family: 'Font Awesome\ 5 Free';
+          font-family: "Font Awesome\ 5 Free";
           font-size: 24px;
           font-weight: 900;
           color: #652f8f;
@@ -112,7 +111,7 @@
     border-bottom: 1px solid $gray-border;
     padding: 20px;
 
-    &> div {
+    & > div {
       grid-column: main;
       display: grid;
       grid-template-columns: repeat(3, minmax(200px, 1fr));
@@ -176,15 +175,15 @@
         padding-top: 75%;
         position: relative;
         width: 100%;
-      }
 
-      img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        max-width: 100%;
-        max-height: 100%;
-        transform: translate(-50%, -50%);
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          max-width: 100%;
+          max-height: 100%;
+          transform: translate(-50%, -50%);
+        }
       }
 
       a {
@@ -222,7 +221,6 @@
             text-transform: capitalize;
           }
         }
-
       }
 
       h3 {
