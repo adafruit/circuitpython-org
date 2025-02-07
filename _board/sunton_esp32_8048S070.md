@@ -6,7 +6,7 @@ name: "Sunton ESP32-8048S070"
 manufacturer: "Sunton"
 board_image: "sunton_esp32_8048S070.jpg"
 date_added: 2024-04-05
-family: esp32
+family: esp32s3
 ---
 
 Sunton ESP32-8048S070 Development Board, Based on ESP32-S3 MCU with 16MB flash and 8MB PSRAM. Built in 7" 65K Color Touch LCD. Has a capacitive i2c or resistive spi touch device, depending on version.  Supports Wifi & Bluetooth. User accessable GPIO ports. SD card slot.
@@ -21,4 +21,3 @@ Sunton ESP32-8048S070 Development Board, Based on ESP32-S3 MCU with 16MB flash a
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/1005005099968475.html)
-
