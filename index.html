@@ -5,13 +5,13 @@ layout: home
 <div id="home-page">
   <div class="two-column-content">
     <div class="text">
-      <div class="title"><span>The easiest way to program microcontrollers</span></div>
+      <h1>The easiest way to program microcontrollers</h1>
       <div class="tagline">
-        <span>
+        <p>
           CircuitPython is a programming language designed to simplify
           experimenting and learning to code on low-cost microcontroller
           boards.
-        </span>
+        </p>
       </div>
       <div class="get-started">
         <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -86,67 +86,72 @@ layout: home
     </section>
   </div>
 
-  <div class="headline-banner supported-section">
-    <img class="image-headline pinball" alt="hero image"
-                                src="{{ "assets/images/CircuitPython_Pinball.jpg" |
-                                relative_url }}"
-         />
+  <div class="two-column-content">
+    <div class="image">
+      <img class="image-headline" alt=""
+                                src="{{ "assets/images/learn/sketch_drawing_toy.jpg" |
+                                        relative_url }}"
+        />
+    </div>
     <div class="text">
-      <div class="title"><span>The simple way to build something amazing</span></div>
+      <h2>Easily manage and use over 500+ Python libraries.</h2>
+      <div class="tagline">
+        <p>
+          Python is the fastest growing programming language. It's taught in schools and universities. It's a high-level programming language which means it's designed to be easier to read, write and maintain. It supports modules and packages which means it's easy to reuse your code for other projects. It has a built-in interpreter which means there are no extra steps, like compiling, to get your code to work. And of course, Python is Open Source Software which means it's free for anyone to use, modify or improve upon.
+        </p>
+        <p>
+          CircuitPython adds hardware support to all of these amazing features. If you already have Python knowledge, you can easily apply that to using CircuitPython. If you have no previous experience, it's really simple to get started!
+        </p>
+      </div>
     </div>
   </div>
 
-  <div class="content">
-    <section>
-      <img class="responsive" src="{{ "/assets/images/python.png" | relative_url }}"
-           srcset="{{ "/assets/images/python.png" | relative_url }} 1x,
-                   {{ "/assets/images/python@2x.png" | relative_url }} 2x,
-                   {{ "/assets/images/python@3x.png" | relative_url }} 3x"  alt="Python Logo">
-      <h2>CircuitPython is based on Python</h2>
-      <p>
-        Python is the fastest growing programming language. It's taught in schools
-        and universities. It's a high-level programming language which means it's
-        designed to be easier to read, write and maintain. It supports modules and
-        packages which means it's easy to reuse your code for other projects. It
-        has a built-in interpreter which means there are no extra steps, like
-        compiling, to get your code to work. And of course, Python is Open Source
-        Software which means it's free for anyone to use, modify or improve upon.
-      </p>
-      <p>
-        CircuitPython adds hardware support to all of these amazing features. If you
-        already have Python knowledge, you can easily apply that to using CircuitPython.
-        If you have no previous experience, it's really simple to get started!
-      </p>
-    </section>
-  </div>
-
-  <div class="headline-banner supported-section">
-    <img class="image-headline pinball" alt="hero image"
-                                src="{{ "assets/images/CircuitPython_Sensors.jpg" |
-                                relative_url }}"
-         />
+  <div class="two-column-content">
     <div class="text">
-      <div class="title"><span>280+ libraries all written in Python</span></div>
+      <h2>Supported by all of the best microcontrollers</h2>
+      <div class="tagline">
+        <p>
+          CircuitPython is now supported by over 550 microcontrollers. With so many to choose from, there is sure to be a perfect board for your next project.
+        </p>
+      </div>
+      <div class="get-started">
+        <a href="{{ "downloads" | relative_url }}">See them all</a>
+      </div>
+    </div>
+    <div class="image">
+      <img class="image-headline" alt=""
+                                src="{{ "assets/images/learn/sketch_drawing_toy.jpg" |
+                                        relative_url }}"
+        />
     </div>
   </div>
 
-  <div class="content">
-    <section>
-      <img class="responsive" src="{{ "/assets/images/raspberry_pi.png" | relative_url }}"
-           srcset="{{ "/assets/images/raspberry_pi.png" | relative_url }} 1x,
-                   {{ "/assets/images/raspberry_pi@2x.png" | relative_url }} 2x,
-                   {{ "/assets/images/raspberry_pi@3x.png" | relative_url }} 3x"  alt="Raspberry Pi">
+  <div class="two-column-content">
+    <div class="image">
+      <img class="image-headline" alt=""
+                                src="{{ "assets/images/learn/sketch_drawing_toy.jpg" |
+                                        relative_url }}"
+        />
+    </div>
+    <div class="text">
       <h2>CircuitPython libraries on single board computers</h2>
-      <p>
-        Most CircuitPython libraries also work on <a href="/blinka">single board computers (SBCs)</a>, such as the Raspberry Pi.
-        Linux runs "desktop" Python (commonly known as CPython) instead of CircuitPython.
-        Our CPython Blinka library provides CircuitPython's low-level hardware APIs, such as `digitalio`.
-      </p>
-      <p>
-        Blinka and CircuitPython libraries are just a `pip install` away.
-      </p>
-    </section>
+      <div class="tagline">
+        <p>
+          Most CircuitPython libraries also work on single board computers (SBCs), such as the Raspberry Pi. Linux runs &quot;desktop&quot; Python (commonly known as CPython) instead of CircuitPython. Our CPython Blinka library provides CircuitPython&apos;s low-level hardware APIs, such as `digitalio`.
+        </p>
+        <p>
+          Blinka and CircuitPython libraries are just a `pip install` away.
+        </p>
+      </div>
+      <div class="get-started">
+        <a href="{{ "downloads" | relative_url }}">Learn More</a>
+      </div>
+    </div>
   </div>
+
+
+
+
 
   <div class="purple banner">
     <div class="content short">
