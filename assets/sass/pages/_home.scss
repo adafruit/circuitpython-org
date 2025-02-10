@@ -37,12 +37,46 @@
     }
 
     .image {
+      position: relative;
+
       img {
         aspect-ratio: 1/1;
         object-fit: cover;
         width: 100%;
         height: auto;
         border-radius: 25px;
+      }
+
+      .image-title {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        span {
+          align-self: flex-end;
+
+          p {
+            vertical-align: bottom;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+            font-size: 24px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+          }
+        }
+
+        img {
+          height: 90px;
+          width: 90px;
+          padding: 10px;
+          background-color: rgba(0, 0, 0, 0.7);
+          border-radius: 10px;
+        }
       }
     }
   }
