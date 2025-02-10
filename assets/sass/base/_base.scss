@@ -1,3 +1,5 @@
+@use "variables";
+
 body {
   font-family: "Proxima Nova", "Montserrat", "Lucida Grande",
     "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -32,7 +34,7 @@ a.purple-button-link {
   color: #fff;
   border-radius: 5px;
   border: none;
-  background-color: $purple;
+  background-color: variables.$purple;
 
   i {
     padding-left: 10px;

@@ -1,6 +1,9 @@
+@use "../base/mixins";
+@use "../base/variables";
+
 #home-page {
-  @include readable-content;
   grid-row-grap: 1em;
+  @include mixins.readable-content;
 
   .two-column-content {
     display: grid;
@@ -28,7 +31,7 @@
 
       .get-started {
         a {
-          @include rounded-button;
+          @include mixins.rounded-button;
         }
       }
     }
@@ -79,12 +82,12 @@
   }
 }
 
-@media only screen and (max-width: $screen-md-max) {
+@media only screen and (max-width: variables.$screen-md-max) {
   #home-page {
   }
 }
 
-@media only screen and (max-width: $screen-xs-max) {
+@media only screen and (max-width: variables.$screen-xs-max) {
   #home-page {
   }
 }

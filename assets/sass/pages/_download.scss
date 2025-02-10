@@ -1,17 +1,20 @@
+@use "../base/variables";
+
 #download-page {
   padding: 50px 0 200px 0;
   display: grid;
-    grid-template-columns:
-      [full-start] minmax(1em, 1fr)
-      [main-start] minmax(0, 80em) [main-end]
-      minmax(1em, 1fr) [full-end];
-    grid-row-gap: 0.5em;
+  grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 80em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  grid-row-gap: 0.5em;
 
-  &> * {
+  & > * {
     grid-column: main;
   }
 
-  h1, h3 {
+  h1,
+  h3 {
     margin: 0;
     font-weight: 500;
   }
@@ -44,7 +47,9 @@
     }
 
     .download {
-      a.download-button, a.download-button-unrecommended, button[is="cp-install-button"] {
+      a.download-button,
+      a.download-button-unrecommended,
+      button[is="cp-install-button"] {
         display: inline-block;
         width: auto;
         padding: 15px 30px 15px 30px;
@@ -58,13 +63,14 @@
         }
       }
 
-      .install-instructions-button{
+      .install-instructions-button {
         width: 100%;
         text-align: center;
         margin-bottom: 1em;
       }
 
-      .download-details, .release-details {
+      .download-details,
+      .release-details {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
       }
@@ -73,29 +79,31 @@
         float: left;
         margin-right: 1em;
         border-radius: 5px;
-        border: 2px solid $gray;
+        border: 2px solid variables.$gray;
         overflow: hidden;
         height: 45px;
         position: relative;
         display: block;
       }
 
-      select{
+      select {
         height: 45px;
         width: 100%;
         padding: 5px;
         border: 0;
         font-size: 16px;
-       -webkit-appearance: none;
+        -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
       }
       .language-select:after {
         content: "\f0dc";
-        font-family: 'Font Awesome 5 Free';
+        font-family: "Font Awesome 5 Free";
         font-weight: 900;
         padding: 15px 8px;
-        position: absolute; right: 0; top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
         background: #fff;
         z-index: 1;
         text-align: center;
@@ -107,57 +115,64 @@
 
       .stable {
         .language-select {
-            border-color: $purple;
+          border-color: variables.$purple;
         }
         .language-select:after {
-            color: $purple;
+          color: variables.$purple;
         }
-        a.download-button, a.download-button-unrecommended {
-          background-color: $purple;
+        a.download-button,
+        a.download-button-unrecommended {
+          background-color: variables.$purple;
         }
 
-        .download-modules, .features-list {
-            color: $purple;
+        .download-modules,
+        .features-list {
+          color: variables.$purple;
         }
       }
 
       .unstable {
         .language-select {
-            border-color: $purple;
+          border-color: variables.$purple;
         }
-          .language-select:after {
-              color: $purple;
-          }
+        .language-select:after {
+          color: variables.$purple;
+        }
 
-        a.download-button, a.download-button-unrecommended {
-          background-color: $purple;
+        a.download-button,
+        a.download-button-unrecommended {
+          background-color: variables.$purple;
         }
-        a.download-button:hover, a.download-button-unrecommended:hover {
-          background-color: $purple;
+        a.download-button:hover,
+        a.download-button-unrecommended:hover {
+          background-color: variables.$purple;
         }
-        .download-modules, .features-list {
-            color: $purple;
+        .download-modules,
+        .features-list {
+          color: variables.$purple;
         }
       }
 
       .unrecommended {
-          .language-select:after {
-              color: $purple;
-          }
+        .language-select:after {
+          color: variables.$purple;
+        }
 
-        a.download-button, a.download-button-unrecommended {
-          background-color: $purple;
+        a.download-button,
+        a.download-button-unrecommended {
+          background-color: variables.$purple;
         }
       }
 
       button[is="cp-install-button"] {
-        color: $purple;
+        color: variables.$purple;
         background-color: transparent;
-        border: 2px solid $purple;
+        border: 2px solid variables.$purple;
       }
 
       .download-buttons {
-        a, button {
+        a,
+        button {
           width: 100%;
           height: 49px;
           padding: 0;
@@ -175,7 +190,8 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        a, button {
+        a,
+        button {
           margin-bottom: 1em;
           &:last-child {
             margin-bottom: 0;
@@ -186,19 +202,20 @@
   }
 }
 
-@media (max-width: $screen-lg) {
+@media (max-width: variables.$screen-lg) {
   #download-page .download-section {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (max-width: $screen-md) {
+@media (max-width: variables.$screen-md) {
   #download-page {
     .download-section {
       grid-template-columns: 1fr 1fr;
 
       .download {
-        .download-details, .release-details {
+        .download-details,
+        .release-details {
           grid-template-columns: repeat(1, 1fr);
         }
 
@@ -211,7 +228,7 @@
   }
 }
 
-@media (max-width: $screen-xs-max) {
+@media (max-width: variables.$screen-xs-max) {
   #download-page .download-section {
     grid-template-columns: 1fr;
   }

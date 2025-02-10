@@ -1,10 +1,13 @@
+@use "../base/mixins";
+@use "../base/variables";
+
 #site-header {
   display: grid;
   grid-template-rows: 40px 1fr;
   grid-column: full;
 
   .wrapper {
-    @include readable-content;
+    @include mixins.readable-content;
   }
 
   .content {
@@ -22,8 +25,8 @@
 }
 
 .top-navigation {
-  @include readable-content;
   background-color: #333;
+  @include mixins.readable-content;
 
   .navigation {
     margin-left: 15px;
@@ -64,7 +67,7 @@
     justify-content: end;
 
     a {
-      @include rounded-button;
+      @include mixins.rounded-button;
     }
   }
 }
@@ -97,7 +100,7 @@
   }
 }
 
-@media (max-width: $screen-xs-max) {
+@media (max-width: variables.$screen-xs-max) {
   #site-header {
     display: none !important;
   }

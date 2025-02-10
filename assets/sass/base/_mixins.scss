@@ -1,4 +1,5 @@
 @use "sass:color";
+@use "variables";
 
 @mixin readable-content {
   display: grid;
@@ -19,11 +20,15 @@
   color: #fff;
   font-weight: 500;
   border-radius: 10px;
-  background-color: #63338f;
+  background-color: variables.$purple;
 
   &:hover {
     color: #fff;
-    background-color: color.adjust(#63338f, $lightness: -10%, $space: hsl);
+    background-color: color.adjust(
+      variables.$purple,
+      $lightness: -10%,
+      $space: hsl
+    );
   }
 }
 
