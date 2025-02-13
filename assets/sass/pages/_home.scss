@@ -113,6 +113,12 @@
         column-gap: 20px;
       }
     }
+
+    .get-started {
+      a {
+        @include mixins.rounded-button;
+      }
+    }
   }
 }
 
