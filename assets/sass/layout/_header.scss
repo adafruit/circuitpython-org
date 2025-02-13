@@ -1,3 +1,4 @@
+@use "sass:color";
 @use "../base/mixins";
 @use "../base/variables";
 
@@ -20,7 +21,7 @@
   }
 
   a.active {
-    color: #fff;
+    color: color.adjust(variables.$purple, $lightness: -15%, $space: hsl);
   }
 }
 
@@ -88,14 +89,15 @@
 .site-navigation {
   flex: 2 1 0;
   padding: 0 0 10px 0;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 500;
 
   a {
     margin-right: 30px;
     color: #63338f;
 
     &:hover {
-      color: #fff;
+      color: color.adjust(variables.$purple, $lightness: -15%, $space: hsl);
     }
   }
 }
