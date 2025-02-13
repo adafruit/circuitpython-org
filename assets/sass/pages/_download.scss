@@ -1,7 +1,7 @@
 @use "../base/variables";
 
 #download-page {
-  padding: 50px 0 200px 0;
+  padding: 0 0 200px 0;
   display: grid;
   grid-template-columns:
     [full-start] minmax(1em, 1fr)
@@ -32,18 +32,31 @@
     grid-row-gap: 1em;
     grid-auto-rows: minmax(min-content, max-content);
 
-    .section {
-      border: 1px solid #cecece;
-      background-color: #fff;
-      border-radius: 5px;
-      padding: 20px;
-      margin-bottom: 1em;
+    .image-section {
+      position: relative;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      overflow: hidden;
+
+      h1 {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        right: 15px;
+        font-size: 22px;
+        font-weight: 400;
+        color: #fff;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+      }
     }
 
-    .details {
-      img {
-        width: 100%;
-      }
+    .section {
+      background-color: #fff;
+      border-radius: 25px;
+      padding: 20px;
+      margin-bottom: 20px;
     }
 
     .download {
