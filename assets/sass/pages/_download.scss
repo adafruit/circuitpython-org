@@ -20,7 +20,7 @@
   }
 
   h3 {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 500;
     margin: 0 0 10px 0;
   }
@@ -31,6 +31,7 @@
     grid-column-gap: 1em;
     grid-row-gap: 1em;
     grid-auto-rows: minmax(min-content, max-content);
+    font-size: 18px;
 
     .image-section {
       position: relative;
@@ -67,7 +68,7 @@
         width: auto;
         padding: 15px 30px 15px 30px;
         color: #fff;
-        border-radius: 5px;
+        border-radius: 10px;
         border: none;
         cursor: pointer;
 
@@ -76,14 +77,15 @@
         }
       }
 
-      .install-instructions-button {
+      .install-instructions {
+        display: block;
         width: 100%;
+        padding: 0 0 10px 0;
         text-align: center;
         margin-bottom: 1em;
       }
 
-      .download-details,
-      .release-details {
+      .download-details {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
       }
@@ -91,7 +93,7 @@
       .language-select {
         float: left;
         margin-right: 1em;
-        border-radius: 5px;
+        border-radius: 10px;
         border: 2px solid variables.$gray;
         overflow: hidden;
         height: 45px;
