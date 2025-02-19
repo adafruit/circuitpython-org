@@ -23,7 +23,6 @@ from adabot.lib import circuitpython_library_validators as cirpy_lib_vals
 from adabot.lib import common_funcs
 from adabot.lib import blinka_funcs
 from adabot.lib import bundle_announcer
-from adabot import circuitpython_library_download_stats as dl_stats
 
 GH_INTERFACE = pygithub.Github(os.environ.get("ADABOT_GITHUB_ACCESS_TOKEN"))
 
@@ -86,10 +85,13 @@ blinka_repos = [
     "Adafruit_Blinka",
     "Adafruit_Blinka_bleio",
     "Adafruit_Blinka_Displayio",
+    "Adafruit_Blinka_PyPortal",
+    "Adafruit_Blinka_Raspberry_Pi5_Piomatter",
+    "Adafruit_Blinka_Raspberry_Pi5_Neopixel",
+    "Adafruit_Blinka_Raspberry_Pi5_rp1pio",
+    "Adafruit_Python_Extended_Bus",
     "Adafruit_Python_PlatformDetect",
     "Adafruit_Python_PureIO",
-    "Adafruit_Blinka_PyPortal",
-    "Adafruit_Python_Extended_Bus",
 ]
 
 
@@ -321,14 +323,7 @@ def run_library_checks(validators, kw_args, error_depth):
     print_issue_overview(blinka_insights)
     logger.info("* %s open issues", len(blinka_insights["open_issues"]))
     logger.info("  * https://github.com/adafruit/Adafruit_Blinka/issues")
-    blinka_dl = (
-        dl_stats.retrieve_piwheels_stats()
-        .get("adafruit-blinka", {})
-        .get("month", "N/A")
-    )
-
-    logger.info("* Piwheels Downloads in the last month: %s", blinka_dl)
-    logger.info("Number of supported boards: %s", blinka_funcs.board_count())
+    logger.info("* Number of supported boards: %s", blinka_funcs.board_count())
 
 
 # pylint: disable=too-many-branches,too-many-statements
