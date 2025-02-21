@@ -827,6 +827,12 @@
             }
         ]
     },
+    "lolin_s3_mini_pro": {
+        "name": "LOLIN S3 MINI PRO",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lolin_s3_mini_pro-0.20.1.zip",
+        "releases": []
+    },
     "lolin_s3_mini": {
         "name": "LOLIN S3 MINI",
         "chipfamily": "esp32s3",
