@@ -7,7 +7,7 @@ manufacturer: "HXR.DK"
 board_url:
  - "https://github.com/flummer/dmm-sao"
 board_image: "hxr_sao_dmm.jpg"
-date_added: 2025-2-24
+date_added: 2025-02-24
 family: rp2040
 downloads_display: true
 blinka: false
