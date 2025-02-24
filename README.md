@@ -33,3 +33,6 @@ were tested with ruby 2.5 and ruby-bundler 1.17.3 on a Debian Stretch system.
 5. Visit the displayed "server address"
 6. After most local edits, the content will be updated.  You will need to
 reload (ctrl-r or F5) your browser
+
+Note: For faster jekyll builds, you can use the `--incremental` flag. You'll
+also want to install ruby with yjit enabled for even faster builds.
