@@ -148,8 +148,8 @@
       <a class="install-instructions" target="_blank" href="{{ page.download_instructions }}">Learn how to install CircuitPython on this board <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
     {% endif %}
     {% if version.modules %}
-    <p>
-        Built-in modules available:
+    <details>
+        <summary>Modules included in this download</summary>
         <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">
           {% for module_name in version.modules %}
           {% if module_name contains "." %}
@@ -157,10 +157,10 @@
           {% else %}
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/{{ module_name }}">
           {% endif %}
-            {{ module_name }}</a>{% unless forloop.last %}, {% endunless %}
+            {{ module_name }}</a>
           {% endfor %}
         </span>
-    </p>
+    </details>
     {% endif %}
     {% if version.frozen_libraries and version.frozen_libraries.size != 0 %}
     <p>

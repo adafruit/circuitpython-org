@@ -80,9 +80,8 @@
       .install-instructions {
         display: block;
         width: 100%;
-        padding: 0 0 10px 0;
         text-align: center;
-        margin-bottom: 1em;
+        margin: 1.5em 0;
       }
 
       .download-details {
@@ -128,6 +127,24 @@
         box-sizing: border-box;
       }
 
+      details {
+        summary {
+          color: #fff;
+          margin-top: 1em;
+          padding: 1em;
+          border-radius: 10px;
+          background-color: variables.$gray;
+          cursor: pointer;
+        }
+
+        .download-modules {
+          // three column grid
+          display: grid;
+          font-size: 12px;
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
       .stable {
         .language-select {
           border-color: variables.$purple;
@@ -138,11 +155,6 @@
         a.download-button,
         a.download-button-unrecommended {
           background-color: variables.$purple;
-        }
-
-        .download-modules,
-        .features-list {
-          color: variables.$purple;
         }
       }
 
@@ -161,10 +173,6 @@
         a.download-button:hover,
         a.download-button-unrecommended:hover {
           background-color: variables.$purple;
-        }
-        .download-modules,
-        .features-list {
-          color: variables.$purple;
         }
       }
 
