@@ -35,9 +35,13 @@
 
     .image-section {
       position: relative;
-      border-radius: 25px;
       margin-bottom: 20px;
-      overflow: hidden;
+
+      img {
+        display: inline-block;
+        width: 100%;
+        border-radius: 25px;
+      }
 
       h1 {
         position: absolute;
@@ -227,14 +231,14 @@
 
 @media (max-width: variables.$screen-lg) {
   #download-page .download-section {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: variables.$screen-md) {
   #download-page {
     .download-section {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
 
       .download {
         .download-details,
