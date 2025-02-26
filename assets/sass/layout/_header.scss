@@ -57,15 +57,17 @@
 }
 
 .site-brand {
-  width: 100%;
+  position: relative;
   display: flex;
+  width: 100%;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 
   .get-started {
+    flex: 1;
     display: flex;
-    flex: 2 1 0;
-    justify-content: end;
+    justify-content: flex-end;
 
     a {
       @include mixins.rounded-button;
@@ -74,7 +76,9 @@
 }
 
 .site-logo {
-  flex: 1 1 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .site-banner {
@@ -87,7 +91,9 @@
 }
 
 .site-navigation {
-  flex: 2 1 0;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
   padding: 0 0 10px 0;
   font-size: 20px;
   font-weight: 500;
@@ -95,10 +101,19 @@
   a {
     margin-right: 30px;
     color: #63338f;
+    white-space: nowrap;
 
     &:hover {
       color: color.adjust(variables.$purple, $lightness: -15%, $space: hsl);
     }
+  }
+}
+
+@media (max-width: variables.$screen-md-max) {
+  .site-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
 }
 
