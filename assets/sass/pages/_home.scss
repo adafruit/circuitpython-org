@@ -58,6 +58,7 @@
 
         span {
           align-self: flex-end;
+          padding-right: 20px;
 
           p {
             vertical-align: bottom;
@@ -121,13 +122,53 @@
     }
   }
 }
-
 @media only screen and (max-width: variables.$screen-md-max) {
   #home-page {
+    .two-column-content {
+      .text {
+        h1 {
+          font-size: 2.5em;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: variables.$screen-md) {
+  #home-page {
+    .two-column-content {
+      .text {
+        padding: 20px;
+
+        h1 {
+          font-size: 1.5em;
+          margin: 0;
+          padding: 0;
+        }
+      }
+      .image .image-title img {
+        display: none;
+      }
+    }
   }
 }
 
 @media only screen and (max-width: variables.$screen-xs-max) {
   #home-page {
+    .two-column-content {
+      grid-template-columns: 1fr;
+
+      .text {
+        aspect-ratio: auto;
+      }
+    }
+
+    .one-column-content {
+      section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+      }
+    }
   }
 }

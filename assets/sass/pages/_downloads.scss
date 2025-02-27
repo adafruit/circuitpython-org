@@ -3,7 +3,7 @@
 @use "../base/variables";
 
 #downloads-page {
-  padding: 20px 0 200px 0;
+  padding-bottom: 200px;
   display: grid;
   grid-template-columns:
     [full-start] minmax(1em, 1fr)
