@@ -1,16 +1,8 @@
+@use "../base/mixins";
+
 .common-layout {
   padding-bottom: 20px;
-
-  display: grid;
-  grid-template-columns:
-    [full-start] minmax(1em, 1fr)
-    [main-start] minmax(0, 80em) [main-end]
-    minmax(1em, 1fr) [full-end];
-  grid-row-gap: 1em;
-
-  & > * {
-    grid-column: main;
-  }
+  @include mixins.readable-content;
 
   .content {
     background-color: #fff;
