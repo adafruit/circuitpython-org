@@ -2,7 +2,7 @@
 layout: download
 board_id: "elecrow_crowpanel_4_2_epaper"
 title: "Elecrow CrowPanel ESP32S3 4.2 Epaper"
-name: "Heltec Wireless Paper"
+name: "Elecrow CrowPanel 4.2"
 manufacturer: "Elecrow"
 board_url:
  - "https://www.elecrow.com/crowpanel-esp32-4-2-e-paper-hmi-display-with-400-300-resolution-black-white-color-driven-by-spi-interface.html/"
