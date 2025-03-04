@@ -5372,6 +5372,26 @@
         "description": "<p>The Hunter Cat NFC is the latest security tool for contactless (Near Field Communication) used in access control, identification and bank cards. Specially created to identify NFC readers and sniffing tools, with this tool you can audit, read or emulate cards of different types.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://electroniccats.com/store/hunter-cat-nfc/\">Electronic Cats</a></li></ul>"
     },
     {
+        "board_id": "hxr_sao_dmm",
+        "title": "SAO Digital Multimeter Download",
+        "name": "SAO Digital Multimeter",
+        "board_url": [
+            "https://github.com/flummer/dmm-sao"
+        ],
+        "board_image": "hxr_sao_dmm.jpg",
+        "date_added": "2025-02-24",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "USB-C"
+        ],
+        "url_path": "/board/hxr_sao_dmm/",
+        "description": "<p>This is a Digital Multimeter in the shape of an SAO (Shitty Add-On/Simple Add-on), designed specifically to assist in electronic badge and SAO development.</p><p>This follows the 1.69bis version of the SAO standard (<a href=\"https://hackaday.io/project/52950-shitty-add-ons\">Shitty Add-on standard</a>, <a href=\"https://hackaday.io/project/175182-simple-add-ons-sao\">Simple Add-on standard</a>)</p><p>It is based on the RP2040 chip, includes a small OLED display, a rotary encoder for the main knob, a function button for sub functionality selection and two 2mm banana terminals for connecting probes for resistance, LED and continuity testing.</p><p>A USB-C connector on the side allows easy modification of the firmware, and boot and reset buttons are also included for convenience, when updating or replacing CircuitPython.</p><p><strong>CAUTION! THIS IS NOT A NORMAL MULTIMETER, AND DOES NOT INCLUDE THE PROTECTION FEATURES NORMALLY FOUND IN A DMM</strong></p><p>If you would like to probe a live circuit, please check <a href=\"https://github.com/flummer/dmm-sao/blob/main/DMM%20SAO%20Schematics.pdf\">the schematic</a> first, and proceed only if you understand the implications, as improper use might result in a short circuit and harm either the multimeter, the device under test, a connected computer or a combination of those.</p><p><strong>VOLTAGE OR CURRENT SHOULD NEVER BE MEASURED WITH THE PROBES OR TERMINALS ON THE FRONT</strong></p><h2 id=\"features\">Features</h2><ul>  <li>Resistance measurement (not the most precise, but should be OK in the range of 50-10K ohm)</li>  <li>LED Tester (this will lit up the LED if the polarity is correct and show the voltage across it on the screen, 100 ohm resistor in series to 3.3v)</li>  <li>Continuity tester with buzzer to indicate very low resistance</li>  <li>Measurement of input voltage on the SAO port</li>  <li>SAO Port GPIO monitoring (shown as either digital high/low or an analog voltage reading)</li>  <li>I2C monitor (monitor or scan the I2C bus on the SAO port)</li></ul><h2 id=\"technical-details\">Technical Details</h2><ul>  <li>Raspberry Pi RP2040 controller</li>  <li>16MB SPI flash (W25Q128JVxQ)</li>  <li>SSD1306 128x64 pixel 0.96” OLED display (white on black)</li>  <li>Automatic power switching from SAO port to USB-C (both can be connected at the same time)</li>  <li>Voltage boost circuit for operation on lower than 3.3v on the SAO port</li>  <li>Maximum input voltage on the SAO port is 3.3v</li>  <li>UART RX + TX connected to SBU pins on USB-C connector</li></ul><h2 id=\"links\">Links</h2><ul>  <li><a href=\"https://hackaday.io/project/198892-sao-digital-multimeter\">hackaday.io page</a></li>  <li><a href=\"https://github.com/flummer/dmm-sao\">Github repository</a></li></ul>"
+    },
+    {
         "board_id": "ikigaisense_vita",
         "title": "Ikigaisense Vita Download",
         "name": "Ikigaisense Vita",
