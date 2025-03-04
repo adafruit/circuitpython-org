@@ -18,13 +18,13 @@ layout: home
       </div>
     </div>
     <div class="image">
-      <img class="image-headline" alt=""
-                                src="{{ "assets/images/learn/sketch_drawing_toy.jpg" |
-                                        relative_url }}"
+      {% assign guide = site.data.guides | sample %}
+      <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
+                                src="{{ guide.image }}"
         />
       <span class="image-title">
         <span>
-          <p>Sketch Drawing Toy that is really cool and wraps by Ruiz Brothers</p>
+          <p>{{ guide.title }}</p>
         </span>
         <img alt="Made with CircuitPython Logo"
                                   src="{{ "assets/images/made_with_circuitpython.svg" |
@@ -97,10 +97,19 @@ layout: home
 
   <div class="two-column-content">
     <div class="image">
-      <img class="image-headline" alt=""
-                                src="{{ "assets/images/learn/sketch_drawing_toy.jpg" |
-                                        relative_url }}"
+      {% assign guide = site.data.guides | sample %}
+      <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
+                                src="{{ guide.image }}"
         />
+      <span class="image-title">
+        <span>
+          <p>{{ guide.title }}</p>
+        </span>
+        <img alt="Made with CircuitPython Logo"
+                                  src="{{ "assets/images/made_with_circuitpython.svg" |
+                                          relative_url }}"
+          />
+      </span>
     </div>
     <div class="text">
       <h2>Easily manage and use over 500+ Python libraries.</h2>
@@ -128,19 +137,37 @@ layout: home
       </div>
     </div>
     <div class="image">
-      <img class="image-headline" alt=""
-                                src="{{ "assets/images/learn/sketch_drawing_toy.jpg" |
-                                        relative_url }}"
+      {% assign guide = site.data.guides | sample %}
+      <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
+                                src="{{ guide.image }}"
         />
+      <span class="image-title">
+        <span>
+          <p>{{ guide.title }}</p>
+        </span>
+        <img alt="Made with CircuitPython Logo"
+                                  src="{{ "assets/images/made_with_circuitpython.svg" |
+                                          relative_url }}"
+          />
+      </span>
     </div>
   </div>
 
   <div class="two-column-content">
     <div class="image">
-      <img class="image-headline" alt=""
-                                src="{{ "assets/images/learn/sketch_drawing_toy.jpg" |
-                                        relative_url }}"
+      {% assign guide = site.data.guides | sample %}
+      <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
+                                src="{{ guide.image }}"
         />
+      <span class="image-title">
+        <span>
+          <p>{{ guide.title }}</p>
+        </span>
+        <img alt="Made with CircuitPython Logo"
+                                  src="{{ "assets/images/made_with_circuitpython.svg" |
+                                          relative_url }}"
+          />
+      </span>
     </div>
     <div class="text">
       <h2>CircuitPython libraries on single board computers</h2>
