@@ -11,7 +11,7 @@ date_added: 2025-02-24
 family: rp2040
 downloads_display: true
 blinka: false
-download_instructions: ""
+download_instructions: "https://github.com/flummer/dmm-sao/?tab=readme-ov-file#firmware"
 
 features:
   - Display
