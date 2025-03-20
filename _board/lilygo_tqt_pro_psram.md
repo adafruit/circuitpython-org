@@ -2,7 +2,7 @@
 layout: download
 board_id: "lilygo_tqt_pro_psram"
 title: "TQ-T Pro (with PSRAM) Download"
-name: "TQ-T Pro"
+name: "TQ-T Pro (with PSRAM)"
 manufacturer: "LILYGO"
 board_url:
  - "https://lilygo.cc/products/t-qt-pro?variant=42383267823797"
