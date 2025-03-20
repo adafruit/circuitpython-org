@@ -17,7 +17,8 @@ tags:
 features:
   - Breadboard-Friendly
   - Wi-Fi
-  - Castellated Pads 
+  - Castellated Pads
+  - Raspberry Pi Pico Form Factor
 ---
 
 The Raspberry Pi foundation changed single-board computing [when they released the Raspberry Pi computer](https://www.raspberrypi.org/archives/723), now they're ready to do the same for microcontrollers with the release of the brand new **Raspberry Pi Pico W**. This low-cost microcontroller board features their powerful new chip, the **RP2040**, and all the fixin's to get started with IoT embedded electronics projects at a stress-free price.

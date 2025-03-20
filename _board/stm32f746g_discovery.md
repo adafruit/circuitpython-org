@@ -3,7 +3,7 @@ layout: download
 board_id: "stm32f746g_discovery"
 title: "STM32F746 Discovery kit Download"
 name: "STM32F746 Discovery kit"
-manufacturer: "ST"
+manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/32f746gdiscovery.html"
 board_image: "stm32f746g_discovery.jpg"

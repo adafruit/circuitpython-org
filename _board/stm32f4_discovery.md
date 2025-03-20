@@ -3,7 +3,7 @@ layout: download
 board_id: "stm32f4_discovery"
 title: "STM32F407 Discovery kit Download"
 name: "STM32F407 Discovery kit"
-manufacturer: "ST"
+manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/en/evaluation-tools/stm32f4discovery.html"
 board_image: "stm32f407.jpg"

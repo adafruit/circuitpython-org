@@ -13,6 +13,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - Castellated Pads
+  - Raspberry Pi Pico Form Factor
 
 ---
 

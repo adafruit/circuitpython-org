@@ -12,6 +12,7 @@ family: rp2040
 features:
   - Breadboard-Friendly
   - USB-C
+  - Raspberry Pi Pico Form Factor
 ---
 
 Flexible I/O connects RP2040 to the physical world by allowing it to speak to almost anyexternal device. High performance breezes through integer workloads. Low cost helps ease the barrier to entry.

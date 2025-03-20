@@ -3,7 +3,7 @@ layout: download
 board_id: "stm32f411ve_discovery"
 title: "Discovery kit for STM32F411 Download"
 name: "Discovery kit for STM32F411"
-manufacturer: "ST"
+manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/en/evaluation-tools/32f411ediscovery.html"
 board_image: "stm32f411.jpg"
