@@ -816,6 +816,29 @@
         "description": "<p>Coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href=\"https://www.youtube.com/adafruit\">YouTube</a>.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://youtu.be/qldx4CtDDGs?si=ceHoqA7LALtyojni\">YouTube</a></li></ul>"
     },
     {
+        "board_id": "adafruit_fruit_jam",
+        "title": "Fruit Jam - Mini RP2350 Computer Download",
+        "name": "Fruit Jam - Mini RP2350 Computer",
+        "board_url": [
+            "https://www.adafruit.com/product/6200"
+        ],
+        "board_image": "adafruit_fruit_jam.jpg",
+        "date_added": "2025-03-19",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "External Display",
+            "USB Host",
+            "Speaker"
+        ],
+        "url_path": "/board/adafruit_fruit_jam/",
+        "description": "<p>We were catching up on a recent <a href=\"https://hackaday.io/event/202122-raspberry-pi-hack-chat-with-eben-upton\">hackaday hackchat with eben upton</a> and learned some fun facts: such as the DVI hack for the RP2040 was inspired by <a href=\"https://www.hackster.io/news/ichigojam-combines-strawberry-and-raspberry-to-deliver-a-raspberry-pi-pico-powered-educational-micro-66aa5d2f6eec\">a device called the IchigoJam</a>. we remember reading about this back when it was an LPC1114, now it uses an RP2040. well, we’re wrapping up the <a href=\"https://www.adafruit.com/product/6003\">Metro RP2350</a> and lately we’ve been joking around that with DVI output and USB Host support via bit-banged PIO, you could sorta build a little stand-alone computer.</p><p>Well, one pear-green-tea-fueled-afternoon later we tried our hand at designing a ‘credit card sized’ computer - that’s 3.375” x 2.125”, <a href=\"https://hackaday.com/2024/05/07/the-2024-business-card-challenge-starts-now/\">about the same size as a business card</a> and turns out there’s even a standard named for it: <a href=\"https://www.iso.org/standard/70483.html\">ISO/IEC 7810 ID-1</a>.</p><p>Anyhow, with the extra pins of the QFN-80 RP2350B, we’re able to jam a ridonkulous amount of hardware into this shape:</p><ul>  <li>RP2350B dual 150MHz Cortex M33</li>  <li>PicoProbe debug port</li>  <li>16 MB Flash + 8 MB PSRAM - the PSRAM will help when we want do do things like run emulations that we need to store in fast RAM access, and also let us use the main SRAM as the DVI video buffer.</li>  <li>USB type C for bootloading/USB client</li>  <li>Micro SD card with SPI or SDIO</li>  <li>DVI output on the HSTX port</li>  <li>I2S stereo headphone + mono speaker via the <a href=\"https://www.digikey.com/en/products/detail/texas-instruments/tlv320dac3100irhbt/2353656\">TLV320DAC3100</a></li>  <li>2-port USB type A hub for both keyboard and mouse or game controllers</li>  <li>Chunky on-off switch</li>  <li>Stemma QT I2C</li>  <li>Stemma classic JST 3-pin</li>  <li>EYESPI for TFT displays</li>  <li>5x NeoPixels</li>  <li>3x tactile switches</li>  <li>16-pin socket header with 10 A/D GPIO + 5V/3V/GND power pins.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/6200\">Adafruit</a></li></ul>"
+    },
+    {
         "board_id": "adafruit_funhouse",
         "title": "FunHouse - WiFi Home Automation Development Board Download",
         "name": "FunHouse - WiFi Home Automation Development Board",
@@ -1113,7 +1136,8 @@
         "title": "Metro RP2350 Download",
         "name": "Metro RP2350",
         "board_url": [
-            "https://www.adafruit.com/product/6003"
+            "https://www.adafruit.com/product/6003",
+            "https://www.adafruit.com/product/6267"
         ],
         "board_image": "adafruit_metro_rp2350.jpg",
         "date_added": "2024-08-08",
@@ -1124,10 +1148,12 @@
         "features": [
             "STEMMA QT/QWIIC",
             "USB-C",
-            "Arduino Shield Compatible"
+            "Arduino Shield Compatible",
+            "External Display",
+            "USB Host"
         ],
         "url_path": "/board/adafruit_metro_rp2350/",
-        "description": "<p>Choo! Choo! This is the RP2350 Metro Line, making all station stops at “Dual Cortex M33 mountain”, “520K RAM round-about” and “16 Megabytes of Flash town”. This train is piled high with hardware that complements the Raspberry Pi RP2350 chip to make it an excellent development board for projects that want Arduino-shape-compatibility or just need the extra space and debugging ports.</p><ul>  <li>RP2350 main chip, 150MHz clock, 3.3V logic</li>  <li>16 MB of QSPI flash for program storage</li>  <li>24 GPIO, 8 of which are also analog inputs</li>  <li>Micro SD card socket wired up for SPI interfacing, also has extra pins connected for advanced-user SDIO interfacing (note that there’s no released usage code for SDIO in Arduino/Python, so this is a super-cutting-edge setup)</li>  <li>Onboard RGB NeoPixel</li>  <li>Onboard #13 LED</li>  <li>Stemma QT port for I2C peripherals and sensors</li>  <li>22-pin 3-lane differential HSTX FPC port with ‘Pi 5’ compatible pinout</li>  <li>Reset and Boot buttons on PCB edge</li>  <li>Pico Probe debug port - 3 pin JST SH compatible</li>  <li>USB Type C power and data</li>  <li>5.5mm / 2.1mm DC jack for 6-12VDC power</li>  <li>On/off switch for DC jack</li>  <li>GPIO pin numbers match classic Arduino pins</li>  <li>RX / TX switch for swapping D0 and D1 locations</li></ul><p>You may be wondering about the RX-TX switch: we added this because traditional Arduino board start counting the GPIO for the digital pins with 0-7 and then 8-13. However, the D0/D1 pins are also traditionally the hardware UART Serial1, where D0 is Rx and D1 is Tx. On the RP2350, however, the UART pins are the other around: D0 is Tx and D1 is Rx. Thus a DPDT switch: flip one way to have the GPIO go in order of 0-7, flip the other way to have the logical locations of the hardware UART correct but now the pin order is 1, 0, 2, 3..7. Of course, it’s also handy if, like us, you often swap the pins - now you don’t need to require or cut/solder traces!</p>"
+        "description": "<p>Choo! Choo! This is the RP2350 Metro Line, making all station stops at “Dual Cortex M33 mountain”, “520K RAM round-about” and “16 Megabytes of Flash town” and available with a bonus stop at “8 Megabytes of PSRAM village”. This train is piled high with hardware that complements the Raspberry Pi RP2350 chip to make it an excellent development board for projects that want Arduino-shape-compatibility or just need the extra space and debugging ports.</p><ul>  <li>RP2350 main chip, 150MHz clock, 3.3V logic</li>  <li>16 MB of QSPI flash for program storage</li>  <li>Available with 8 MB of QSPI PSRAM for extra dynamic memory</li>  <li>24 GPIO, 8 of which are also analog inputs</li>  <li>Micro SD card socket wired up for SPI interfacing, also has extra pins connected for advanced-user SDIO interfacing (note that there’s no released usage code for SDIO in Arduino/Python, so this is a super-cutting-edge setup)</li>  <li>Onboard RGB NeoPixel</li>  <li>Onboard #13 LED</li>  <li>Stemma QT port for I2C peripherals and sensors</li>  <li>22-pin 3-lane differential HSTX FPC port with ‘Pi 5’ compatible pinout</li>  <li>Reset and Boot buttons on PCB edge</li>  <li>Pico Probe debug port - 3 pin JST SH compatible</li>  <li>USB Type C power and data</li>  <li>5.5mm / 2.1mm DC jack for 6-12VDC power</li>  <li>On/off switch for DC jack</li>  <li>GPIO pin numbers match classic Arduino pins</li>  <li>RX / TX switch for swapping D0 and D1 locations</li></ul><p>You may be wondering about the RX-TX switch: we added this because traditional Arduino board start counting the GPIO for the digital pins with 0-7 and then 8-13. However, the D0/D1 pins are also traditionally the hardware UART Serial1, where D0 is Rx and D1 is Tx. On the RP2350, however, the UART pins are the other around: D0 is Tx and D1 is Rx. Thus a DPDT switch: flip one way to have the GPIO go in order of 0-7, flip the other way to have the logical locations of the hardware UART correct but now the pin order is 1, 0, 2, 3..7. Of course, it’s also handy if, like us, you often swap the pins - now you don’t need to require or cut/solder traces!</p><p><strong>Inside the RP2350 is a ‘permanent ROM’ USB UF2 bootloader</strong>. What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique on all our native-USB boards. Just note you don’t double-click reset instead hold down BOOTSEL during boot to enter the bootloader!</p><p><strong>There is great <a href=\"https://github.com/raspberrypi/pico-sdk\">C/C++ support</a>, <a href=\"https://learn.adafruit.com/rp2040-arduino-with-the-earlephilhower-core\">unofficial (but really good) Arduino support,</a> an official <a href=\"https://github.com/micropython/micropython\">MicroPython port</a>, and a <a href=\"https://circuitpython.org/downloads\">CircuitPython port</a>!</strong> We of course <a href=\"https://learn.adafruit.com/welcome-to-circuitpython\">recommend CircuitPython because we think it’s the easiest way to get started</a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p><p>While the RP2350 has lots of onboard RAM, it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board there is 16 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 14 MB remaining for code, files, images, fonts, etc.</p><p><strong>RP2350 Chip features:</strong></p><ul>  <li>Dual ARM Cortex-M33 with floating point unit <em>or</em> Dual RISC-V @ 150MHz</li>  <li>520 kB on-chip SRAM</li>  <li>8 kB of one-time-programmable (OTP) memory.</li>  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>  <li>Support for external QSPI PSRAM</li>  <li>DMA controller, 16 channel, 4 IRQ</li>  <li>Fully-connected AHB crossbar</li>  <li>On-chip switched-mode power supply and programmable low-dropout regulator (LDO) to generate core voltage</li>  <li>Two on-chip PLLs to generate 48 MHz USB and 150MHz core clocks</li>  <li>Optional boot signing with protected OTP storage</li>  <li>Hardware SHA-256 accelerator</li>  <li>Hardware random number generator (TRNG)</li>  <li>48 GPIO pins, 8 of which can be used as analog inputs</li>  <li>Peripherals    <ul>      <li>2 UARTs</li>      <li>2 SPI controllers</li>      <li>2 I2C controllers</li>      <li>24 PWM channels (compared to 16 on RP2040)</li>      <li>USB 1.1 controller and PHY, with host and device support</li>      <li>12 PIO state machines</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/6003\">Adafruit (No PSRAM)</a></li>  <li><a href=\"https://www.adafruit.com/product/6267\">Adafruit (8MB PSRAM)</a></li></ul>"
     },
     {
         "board_id": "adafruit_mini_sparkle_motion",
@@ -3200,6 +3226,26 @@
         "description": "<h2 id=\"motion-2350-pro---advanced-robotics-controller-for-beginners\">MOTION 2350 Pro - Advanced Robotics Controller for Beginners</h2><p>It has been a few years since the first microcontroller by Raspberry Pi, the RP2040, was launched. Now, Raspberry Pi has introduced the latest upgraded processor, the RP2350. Introducing MOTION 2350 Pro, designed by Cytron, leveraging the new RP2350 processor. Built for beginner and intermediate users to experience the Pro version of the board. Ideal for those who want to build an advanced robot, minimize efforts on electronics, and focus on mechanics.</p><h2 id=\"more-power-more-ports-more-connectivity\">More Power, More Ports, More Connectivity</h2><p>The Motion 2350 Pro features an advanced DC motor driver capable of controlling up to 4 brushed DC motors (3A Max each channel), with voltage ratings from 3.6V to 16V. Building a powerful robot with mecanum wheels has never been easier, thanks to this robust 4-channel driver! Additionally, the controller is equipped with 8-channel 5V servo ports, 8-channel GPIO breakout, and 3 Maker Ports, enabling you to connect a wide array of components and sensors. The highlight? The Motion 2350 Pro comes with a direct USB host for a USB joystick/gamepad, ensuring true plug-and-play convenience.</p><h2 id=\"favorable-maker-features\">Favorable Maker Features</h2><p>“Maker” features have been a signature of Cytron products. GPIO references printed on the silkscreen and colored headers help beginners connect components to the correct GPIO pins. The built-in quick test buttons and motor output LEDs allow for quick and convenient functional testing of the motor driver without writing any code. The user buttons and piezo buzzer are also beneficial for running simple commands, eliminating the need for extra wiring! Of course not to forget the LED indicator for each Digitial IO pin.</p><p>The MOTION 2350 Pro combines the Raspberry Pi Pico 2, the benefits of the Maker series, an advanced robot controller, and other useful features. Therefore, this board is compatible with the existing Raspberry Pi Pico ecosystem. Software, firmware, libraries, and resources developed for Pico should work seamlessly with the MOTION 2350 Pro allowing users to program in familiar environments such as Python (MicroPython, CircuitPython), C/C++, and Arduino IDE (coming soon).</p><p>CircuitPython is preloaded on the MOTION 2350 Pro, running a simple demo program right out of the box. Connect it to your computer via a USB-C cable and turn it on. You will be greeted by a melody tune and running LED lights. Press the GP20 and GP21 push buttons to run another demo code. With this demo code and quick test buttons, you can test the board the moment you receive it!</p>"
     },
     {
+        "board_id": "daisy_seed_with_sdram",
+        "title": "Daisy Seed Download",
+        "name": "Daisy Seed",
+        "board_url": [
+            "https://electro-smith.com/products/daisy-seed"
+        ],
+        "board_image": "daisy_seed_with_sdram.jpg",
+        "date_added": "2025-03-19",
+        "family": "stm",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Raspberry Pi Pico Form Factor"
+        ],
+        "url_path": "/board/daisy_seed_with_sdram/",
+        "description": "<p>Daisy is an embedded platform for music. It features everything you need for creating high fidelity audio hardware devices. Just plug in a USB cable and start making sound! Programming the Daisy is a breeze with support for a number of languages including C++, Arduino, and Max/MSP Gen~. To get started, simply upload an example program over USB, and start tweaking!</p><p><strong>Documentation, design files, and assets are hosted on our <a href=\"https://daisy.audio/hardware/Seed/\">Daisy Support Site</a>.</strong></p><p>All firmware that we develop is released for free under a permissive open source license.</p><ul>  <li>Stereo audio IO - 96kHz / 24-bit audio hardware (AC-Coupled)</li>  <li>Programmable in: C++, Arduino, Max/MSP gen~, Pure Data</li>  <li>x31 GPIO, x12 ADC inputs (16-bit), x2 DAC outputs (12-bit, DC-Coupled)</li>  <li>ARM Cortex-M7 MCU, running at 480MHz</li>  <li>64MB of SDRAM for up to 10 minute long audio buffers, 8MB external flash</li>  <li>SD card interface, PWM outputs, and various serial protocols for external devices (SPI, UART, SAI/I2S, I2C)</li>  <li>Dedicated VIN pin for external power</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://electro-smith.com/products/daisy-seed\">Electrosmith</a></li></ul>"
+    },
+    {
         "board_id": "datalore_ip_m4",
         "title": "Datalore-IP-M4 Download",
         "name": "Datalore-IP-M4",
@@ -5263,6 +5309,30 @@
         "description": "<p>WiFi LoRa 32 is a classic IoT dev-board designed &amp; produced by Heltec Automation. Since its launch in 2017, it has been loved by developers and makers. The newly launched V3 version has the same pin sequence as the V2 version and retains Wi-Fi, BLE, LoRa, OLED display, and other functions.</p><p>It is the best option for smart cities, farms, homes, industrial control, house security, wireless meter reading, and IoT developers.</p><h4 id=\"wifi-lora-32-v3-is-a-part-of-the-heltec-lora-series-with-the-following-features\">WiFi LoRa 32 （V3） is a part of the “Heltec LoRa“ series, with the following features</h4><ul>  <li>Microprocessor: ESP32-S3FN8 (Xtensa® 32-bit LX7 dual-core processor, five-stage pipeline rack Structure, frequency up to 240 MHz).</li>  <li>SX1262 LoRa node chip.</li>  <li>Type-C USB interface with a complete voltage regulator, ESD protection, short circuit protection, RF shielding, and other protection measures.</li>  <li>Onboard SH1.25-2 battery interface, integrated lithium battery management system (charge and discharge management, overcharge protection, battery power detection, USB / battery power automatic switching).</li>  <li>Integrated WiFi, LoRa, Bluetooth three network connections, onboard Wi-Fi, Bluetooth dedicated 2.4GHz metal spring antenna, reserved IPEX (U.FL) interface for LoRa use.</li>  <li>Onboard 0.96-inch 128*64 dot matrix OLED display can be used to display debugging information, battery power, and other information.</li>  <li>Integrated CP2102 USB to serial port chip, convenient for program downloading, and debugging information printing.</li>  <li>Support the<a href=\"https://heltec.org/wifi_kit_install/\"> Arduino development environment</a>.</li>  <li>With good RF circuit design and low-power design.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://heltec.org/project/wifi-lora-32-v3/\">Heltec Automation Store</a></li></ul>"
     },
     {
+        "board_id": "heltec_vision_master_e290",
+        "title": "Vision Master E290 Download",
+        "name": "Vision Master E290",
+        "board_url": [
+            "https://heltec.org/project/vision-master-e290/"
+        ],
+        "board_image": "heltec_vision_master_e290.jpg",
+        "date_added": "2025-03-19",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Bluetooth/BTLE",
+            "Wi-Fi",
+            "Battery Charging",
+            "LoRa/Radio",
+            "USB-C"
+        ],
+        "url_path": "/board/heltec_vision_master_e290/",
+        "description": "<p>Vision Master E290 (HT-VME290) is an E-Ink development kit with multiple wireless drive methods. Collaborate with the sample programs and development tools we provide, users can operate the display via Bluetooth, Wi-Fi and LoRa.</p><p>This board is equipped with a default 2.90-inch black-white E-Ink display screen, continuous display for 180 days after power outage. It is compatible with Arduino, PlatformIO, Micpython and other development frameworks, can be used to develop applications such as electronic tags and identity tags, it is also possible to run open source projects like Meshtastic.</p><h2 id=\"features\">Features</h2><ul>  <li>ESP32-S3R8 MCU, support Wi-Fi and BLE.</li>  <li>LoRa module is optional, compatible with Mashtastic.</li>  <li>Low power consumption, 18uA in deep sleep, continuous display for 180 days after power outage.</li>  <li>Onboard SH1.25-2 battery interface, integrated lithium battery management system (charge and discharge management, overcharge protection, battery power detection, USB / battery power automatic switching).</li>  <li>Onboard 2.90 inch 296 x 128 pixels display, support for partial refresh.</li>  <li>Storage condition: -25 ~ 70℃, ≤45%RH.</li>  <li>Optimal operating condition：0~50℃, 55±10%RH.</li>  <li>SH2.0-4P sensor interface is perfectly compatible with QuickLink series sensors.</li>  <li>2*20 Pin Female Header, perfectly compatible with Raspberry PI.</li>  <li>Compatible with Arduino, we provide development frameworks and libraries.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://heltec.org/project/vision-master-e290/\">Heltec Automation</a></li></ul>"
+    },
+    {
         "board_id": "heltec_wireless_paper",
         "title": "Heltec Wireless Paper",
         "name": "Heltec Wireless Paper",
@@ -5811,6 +5881,31 @@
         "description": "<p>T-Display S3 pro is the upgraded version of T-Display S3.The main thing is the use of a larger screen 2.33-inch screen and the addition of the chip SY6970 for phone OTG.Continuing the way of T-display S3, the case is ABS, and there is added the expansion of the camera module through POGOpin for the use of a built-in module. Ambient light and proximity sensors on the top of the screen, two integrated QWIIC ports, and a battery power switch. An optional MPU9250 IMU module is also available internally.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3R8 Dual-core LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>8 MB PSRAM</li>  <li>2.33 inch ST7796 IPS LCD display</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>3 user buttons (<code class=\"language-plaintext highlighter-rouge\">IO0</code> for Boot, <code class=\"language-plaintext highlighter-rouge\">IO12</code> and <code class=\"language-plaintext highlighter-rouge\">IO16</code> for custom functions), 1 reset button</li>  <li>Battery charging circuit (JST connector for Li-Po battery)</li>  <li>USB-C for programming and power</li>  <li>Onboard LED</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/Xinyuan-LilyGO/T-Display-S3-Pro\">LILYGO Github repository</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.lilygo.cc/products/t-display-s3-pro?variant=43111690141877\">LILYGO Own Store - Non-Camera Variant</a></li>  <li><a href=\"https://www.lilygo.cc/products/t-display-s3-pro?variant=43111690764469\">LILYGO Own Store - Camera Variant</a></li>  <li><a href=\"https://lilygo.aliexpress.com/store/2090076\">LILYGO Aliexpress Store</a></li></ul>"
     },
     {
+        "board_id": "lilygo_tdongle_s3",
+        "title": "T-Display S3 Pro Download",
+        "name": "T-Display S3 Pro",
+        "board_url": [
+            "https://lilygo.cc/products/t-dongle-s3"
+        ],
+        "board_image": "lilygo_tdongle_s3.jpg",
+        "date_added": "2024-07-18",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Battery Charging",
+            "USB-C",
+            "Display",
+            "Breadboard-Friendly",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/lilygo_tdongle_s3/",
+        "description": "<p>ESP32-S3 Development Board With Screen 0.96 inch ST7735 LCD Display</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3 Xtensa LX7 microprocessor</li>  <li>Wi-Fi 802.11 b/g/n, bluetooth5</li>  <li>Arduino-ide、PlatformlO-ide、Micropython</li>  <li>16M Flash, Boot button, TF card</li>  <li>0.96 inch ST7735 IPS LCD</li>  <li>Full color (65k) Display, 4-Wire SPI interface</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://lilygo.cc/products/t-dongle-s3\">LILYGO Own Store</a></li></ul>"
+    },
+    {
         "board_id": "lilygo_tembed_esp32s3",
         "title": "T-Embed Download",
         "name": "T-Embed",
@@ -5832,6 +5927,54 @@
         ],
         "url_path": "/board/lilygo_tembed_esp32s3/",
         "description": "<p>T-Embed is an IoT embedded panel designed for programmable development. ABS+PC material (optional translucent version) panel + circuit board integrated standardized design, providing product 3D drawings and reference design drawings. Easy design to embed on your product.</p><h2 id=\"features--specifications\">Features &amp; Specifications</h2><ul>  <li>ESP32-S3</li>  <li>Wi-Fi IEEE 802.11 b/g/n; Bluetooth 5, Bluetooth mesh</li>  <li>1.9-inch IPS color TFT LCD</li>  <li>Rotary encoder + confirmation key in one</li>  <li>2.54 x 8pin GPIO interface</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256804730566839.html\">AliExpress - LILYGO store</a></li></ul>"
+    },
+    {
+        "board_id": "lilygo_tqt_pro_nopsram",
+        "title": "TQ-T Pro Download",
+        "name": "TQ-T Pro",
+        "board_url": [
+            "https://lilygo.cc/products/t-qt-pro?variant=43214296285365"
+        ],
+        "board_image": "lilygo_tqt_pro.jpg",
+        "date_added": "2025-03-20",
+        "family": "esp32s3",
+        "bootloader_id": "lilygo_tqt_pro_nopsram",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C",
+            "Display",
+            "Breadboard-Friendly",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/lilygo_tqt_pro_nopsram/",
+        "description": "<h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>1.9 inch ST7789 LCD display, optional CST816 touchscreen</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>2 user buttons (<code class=\"language-plaintext highlighter-rouge\">IO0</code> for Boot and <code class=\"language-plaintext highlighter-rouge\">IO14</code> for custom functions), 1 reset button</li>  <li>Battery charging circuit (JST connector for Li-Po battery)</li>  <li>USB-C for programming and power</li>  <li>Onboard LED</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://lilygo.cc/products/t-qt-pro?variant=43214296285365\">LILYGO Own Store</a></li></ul>"
+    },
+    {
+        "board_id": "lilygo_tqt_pro_psram",
+        "title": "TQ-T Pro Download",
+        "name": "TQ-T Pro",
+        "board_url": [
+            "https://lilygo.cc/products/t-qt-pro?variant=42383267823797"
+        ],
+        "board_image": "lilygo_tqt_pro.jpg",
+        "date_added": "2025-03-20",
+        "family": "esp32s3",
+        "bootloader_id": "lilygo_tqt_pro_psram",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C",
+            "Display",
+            "Breadboard-Friendly",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/lilygo_tqt_pro_psram/",
+        "description": "<h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>  <li>16 MB Flash memory</li>  <li>8 MB PSRAM</li>  <li>1.9 inch ST7789 LCD display, optional CST816 touchscreen</li>  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>  <li>2 user buttons (<code class=\"language-plaintext highlighter-rouge\">IO0</code> for Boot and <code class=\"language-plaintext highlighter-rouge\">IO14</code> for custom functions), 1 reset button</li>  <li>Battery charging circuit (JST connector for Li-Po battery)</li>  <li>USB-C for programming and power</li>  <li>Onboard LED</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://lilygo.cc/products/t-qt-pro?variant=42383267823797\">LILYGO Own Store</a></li></ul>"
     },
     {
         "board_id": "lilygo_ttgo_t-01c3",
@@ -7550,6 +7693,68 @@
         "description": "<p>The ESPC2-12 module adopts the ESP8684 chip, which is a universal WIFI and low-power Bluetooth dual-mode module with powerful functions. The module adopts onboard antenna and external antenna, and is equipped with 4MB SPI FLASH.Pin connectors (row pins), all available GPIO pins have been led out to the row pins of the development board. The mainstream type-c USB interface can be used as a power supply for development boards or a communication interface between PC and ESP8684 chips.USB to UART bridge, single chip USB to UART bridge, providing a transfer rate of up to 3 Mbps. ESPC2-12 is an extremely low-power SoC designed based on ESP8684 and equipped with RISC-V 32-bit single core processors. It supports IEEE 802.11b/g/n (2.4 GHz WiFi) and BT 5 (BLE) modules.</p><h3 id=\"features\">Features</h3><ul>  <li>Versatile Development Kit:Comes with a comprehensive SDK and supports various protocols, making it ideal for a wide range of IoT projects.</li>  <li>WiFi &amp; Bluetooth Connectivity:Supports IEEE 802.11 b/g/n (2.4 GHz WiFi) and BT 5 (BLE) modules, enabling seamless wireless communication.</li>  <li>Extensive GPIO &amp; Peripherals:Features 13 GPIO ports, 2 SPI, 1 UART, 1 I2C, and PWM with up to 6 channels, catering to diverse application needs.</li>  <li>    <table>      <tbody>        <tr>          <td>Arduino Optum Wifi</td>          <td>Node Include</td>          <td>Dual-Core Processor:Equipped with a 32-bit RISC-V single core processor, the ESPC2-12 delivers up to 120 MHz main frequency for efficient performance.</td>        </tr>      </tbody>    </table>  </li>  <li>Low-Power Design:Designed for low power consumption, the ESPC2-12 operates efficiently within a voltage range of 3.0V~3.6V.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/i/3256805857447692.html\">AliExpress</a></li></ul>"
     },
     {
+        "board_id": "nordic_nrf5340dk",
+        "title": "Nordic nRF5340 Development Kit Download",
+        "name": "Nordic nRF5340 Development Kit",
+        "board_url": [
+            "https://www.nordicsemi.com/Products/Development-hardware/nRF5340-DK"
+        ],
+        "board_image": "nordic_nrf5340dk.jpg",
+        "date_added": "2025-03-20",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Arduino Shield Compatible",
+            "Bluetooth/BTLE",
+            "Battery Charging"
+        ],
+        "url_path": "/board/nordic_nrf5340dk/",
+        "description": "<p>The nRF5340 DK is the development kit for the <a href=\"https://www.nordicsemi.com/Products/nRF5340\">nRF5340 System-on-Chip (SoC)</a>, containing everything needed to get started with development, on a single board.</p><p>The DK supports development with an extensive range of wireless protocols. It supports Bluetooth Low Energy with features such as high-throughput 2 Mbps, Advertising Extensions and Long Range. Mesh protocols like Bluetooth mesh, Thread and Zigbee can run concurrently with Bluetooth Low Energy, enabling smartphones to provision, commission, configure and control mesh nodes, which is a prerequisite for <a href=\"https://www.nordicsemi.com/Products/Technologies/Matter\">matter </a>applications. It also supports NFC, ANT, 802.15.4 and 2.4 GHz proprietary protocols.</p><p>The DK is bundled with an NFC antenna that quickly enables testing of nRF5340’s NFC-A tag functionality. A SEGGER J-Link debugger is on the board, enabling full-blown programming and debugging, of both the nRF5340 SoC and external targets.</p><p>All analog and digital interfaces, and GPIOs are available via headers and edge connectors. The kit is Arduino Uno Rev3 hardware compatible, meaning it can be easily interfaced with external device shields.</p><p>Four buttons and four LEDs simplify input and output to and from the nRF5340 SoC, and are all user-programmable. An on-board external memory is connected to the 96 MHz QSPI peripheral in the nRF5340 SoC.</p><p>The nRF5340 DK is typically powered via USB, but can be powered by a wide range of sources, within the supply range of 1.7 to 5.0 V. In addition to USB, it can be powered with external source, but also includes a CR2032 battery holder and a Li-Po battery connector, for in-field testing. Current consumption can be measured by using the dedicated current measurement pins, for example by using Nordic’s <a href=\"https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2\">Power Profiler Kit II</a>.</p><p>The <a href=\"https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK\">nRF Connect SDK</a> is the software development kit for the nRF5340 SoC, and it has board support for the nRF5340 DK. It supports software development of Bluetooth Low Energy, Thread and Zigbee applications. It integrates the Zephyr RTOS, protocol stacks, samples, hardware drivers and much more.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.mouser.com/ProductDetail/Nordic-Semiconductor/NRF5340-DK?qs=T94vaHKWudSvpk%2Fi5MmNkA%3D%3D\">Mouser</a></li></ul>"
+    },
+    {
+        "board_id": "nordic_nrf54l15dk",
+        "title": "Nordic nRF54L05 Development Kit Download",
+        "name": "Nordic nRF54L05 Development Kit",
+        "board_url": [
+            "https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-DK"
+        ],
+        "board_image": "nordic_nrf54l15dk.jpg",
+        "date_added": "2025-03-20",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE"
+        ],
+        "url_path": "/board/nordic_nrf54l15dk/",
+        "description": "<p>The nRF54L15 DK is the development kit for all three wireless SoC (System-on-Chip) options in the nRF54L Series. The nRF54L15 sits on the development board, while the nRF54L10 and nRF54L05 can be emulated. The affordable single-board development kit makes all features of the wireless SoC available to the developer.</p><p>The nRF54L15 DK is supported by a comprehensive set of nRF Connect tools and has support in the nRF Connect SDK. Developers can explore the full potential of the nRF54L15 using the extensive range of software samples, modules, and libraries available within the nRF Connect SDK.</p><p>The nRF Connect SDK Fundamentals and Bluetooth Low Energy Fundamentals courses in Nordic Developer Academy support the nRF54L15 DK. These courses have enrolled more than 15,000 developers, have received an average rating of 9.1/10, and provide more than 20 hours of in-depth training.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF54L15-DK/25601516\">Digi-Key</a></li></ul>"
+    },
+    {
+        "board_id": "nordic_nrf7002dk",
+        "title": "Nordic nRF7002 Development Kit Download",
+        "name": "Nordic nRF7002 Development Kit",
+        "board_url": [
+            "https://www.nordicsemi.com/Products/Development-hardware/nRF7002-DK"
+        ],
+        "board_image": "nordic_nrf7002dk.jpg",
+        "date_added": "2025-03-20",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Arduino Shield Compatible",
+            "Bluetooth/BTLE",
+            "Wi-Fi",
+            "Battery Charging"
+        ],
+        "url_path": "/board/nordic_nrf7002dk/",
+        "description": "<p>The nRF7002 DK is the development kit for the <a href=\"https://www.nordicsemi.com/Products/nRF7002\">nRF7002</a>, and <a href=\"https://www.nordicsemi.com/Products/nRF7001\">nRF7001</a> Wi-Fi 6 Companion ICs. It contains everything needed to get started developing on a single board. The DK features an <a href=\"https://www.nordicsemi.com/Products/nRF5340\">nRF5340 </a>multiprotocol System-on-Chip (SoC) as a host processor for the nRF7002.</p><p>The DK supports the development of low-power <a href=\"https://www.nordicsemi.com/Products/Wireless/WiFi\">Wi-Fi</a> applications and enables Wi-Fi 6 features like OFDMA, Beamforming, and Target Wake Time.</p><p>The nRF7002 is a Wi-Fi 6 companion IC, providing seamless connectivity and Wi-Fi-based locationing (SSID sniffing of local Wi-Fi hubs). It is designed to be used alongside Nordic’s existing nRF52® and nRF53® Series Bluetooth Systems-on-Chip (SoCs), and nRF91® Series cellular IoT Systems-in-Package (SiPs). The nRF7002 can also be used in conjunction with non-Nordic host devices.</p><p>To communicate with the host, SPI or QSPI can be used, and an extra coexistence feature allows for seamless coexistence with other protocols like Bluetooth, Thread, or Zigbee. The nRF7002 is integrated and supported in Nordic’s nRF Connect SDK and the nRF7002 Dk can also be used to emulate the nRF7001.</p><p>The nRF7002 is the first device in Nordic’s portfolio of unique Wi-Fi products that will combine seamlessly with Nordic’s existing ultra-low power technologies. Nordic bring their decades of ultra-low-power wireless IoT and silicon design expertise to Wi-Fi. Wi-Fi 6 brings added benefits to IoT applications, including further efficiency gains supporting long-life, battery-powered Wi-Fi operation.</p><p>With Wi-Fi 6, Nordic supports all wireless protocols used in Matter, Bluetooth LE for commissioning, Thread for low-power mesh, and Wi-Fi for high-throughput. Matter is a protocol championed by Apple, Amazon, Google, Nordic Semiconductor, Samsung, and hundreds of other companies in consumer IoT.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF7002-DK/17748188\">Digi-Key</a></li></ul>"
+    },
+    {
         "board_id": "nucleo_f446re",
         "title": "STM32F446RE Nucleo Download",
         "name": "STM32F446RE Nucleo",
@@ -8799,6 +9004,27 @@
         "description": "<p>BLE and Wifi board in a small for factor.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://store.makerdiary.com/products/pitaya-go\">MakerDiary</a></li></ul>"
     },
     {
+        "board_id": "proveskit_rp2040_v4",
+        "title": "PROVES Kit RP2040 V4 Download",
+        "name": "PROVES Kit RP2040 V4",
+        "board_url": [
+            "https://docs.proveskit.space/en/latest/core_documentation/hardware/FC_board/"
+        ],
+        "board_image": "proveskit_rp2040_v4.jpg",
+        "date_added": "2025-03-20",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Robotics",
+            "USB-C",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/proveskit_rp2040_v4/",
+        "description": "<p>The PROVES Kit blends Open-Source Hardware and Software. The Hardware developed includes the entire educational satellite structure, brackets, and printed circuit boards. One of the major issues that we sought to solve with the kit was to develop a single solution for an end to end space mission engineering education. Many other open source projects avalible to the community only feature a single element, like just a radio or just a flight computer.</p><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://docs.proveskit.space/en/latest/core_documentation/hardware/FC_board/\">PROVES Kit</a></li></ul>"
+    },
+    {
         "board_id": "pyb_nano_v2",
         "title": "PYB Nano v2 Download",
         "name": "PYB Nano v2",
@@ -9148,7 +9374,8 @@
         ],
         "features": [
             "Breadboard-Friendly",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/raspberry_pi_pico/",
         "description": "<p>The Raspberry Pi foundation changed single-board computing when they released the Raspberry Pi computer, now they’re ready to do the same for microcontrollers with the release of the brand new <strong>Raspberry Pi Pico</strong>. This low-cost microcontroller board features a powerful new chip, the <strong>RP2040</strong>, and all the fixin’s to get started with embedded electronics projects at a stress-free price.</p><p>The Pico is 0.825” x 2” and can have headers soldered in for use in a breadboard or perfboard, or can be soldered directly onto a PCB with the castellated pads. There’s 20 pads on each side, with groups of general purpose input-and-output (GPIO) pins interleaved with plenty of ground pins. All of the GPIO pins are 3.3V logic, and are not 5V-safe so stick to 3V! You get a total of 26 GPIO pins, 3 of those can be analog inputs (the chip has 4 ADC but one is not broken out). There are no true analog output (DAC) pins.</p><p>On the slim green board is minimal circuitry to get you going: A 5V to 3.3V power supply converter, single green LED on GP25, boot select button, RP2040 chip with dual-core Cortex M0, 2 MegaBytes of QSPI flash storage, and crystal.</p><p><strong>Inside the RP2040 is a ‘permanent ROM’ USB UF2 bootloader.</strong> What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique all our native-USB boards. Just note you don’t double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!</p><p>The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD21). Since it is an M0 chip, it does not have a floating point unit, or DSP hardware support - so if you’re doing something with heavy floating point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you’ll get close-to-M4 speeds!</p><p>For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).</p><p>You’ll note there’s no I2S peripheral, or SDIO, or camera, what’s up with that? Well instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system which is a unique and powerful way to create custom hardware logic and data processing blocks that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use a PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. Same with I2S audio in or out, LED matrix displays, 8-bit or SPI based TFTs, even VGA! In MicroPython and CircuitPython you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.</p><p><strong>There is <a href=\"https://github.com/raspberrypi/pico-sdk\">great C/C++ support</a>, unofficial (but really good) <a href=\"https://learn.adafruit.com/rp2040-arduino-with-the-earlephilhower-core\">Arduino support</a> an official <a href=\"https://micropython.org/download/?mcu=rp2040\">MicroPython port</a>, and a CircuitPython port!</strong> We of course <a href=\"https://learn.adafruit.com/welcome-to-circuitpython\">recommend CircuitPython because we think its the easiest way to get started</a> and it has support with most our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p><p>While the RP2040 has lots of onboard RAM (264KB), it does not have built in FLASH memory. Instead that is provided by the external QSPI flash chip. On this board there is 2MB, which is shared between the program its running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 1 MB remaining for code, files, images, fonts, etc.</p><p><strong>RP2040 Chip features:</strong></p><ul>  <li>Dual ARM Cortex-M0+ @ 133MHz</li>  <li>264kB on-chip SRAM in six independent banks</li>  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>  <li>DMA controller</li>  <li>Fully-connected AHB crossbar</li>  <li>Interpolator and integer divider peripherals</li>  <li>On-chip programmable LDO to generate core voltage</li>  <li>2 on-chip PLLs to generate USB and core clocks</li>  <li>30 GPIO pins, 4 of which can be used as analog inputs</li>  <li>Peripherals</li>  <li>2 UARTs</li>  <li>2 SPI controllers</li>  <li>2 I2C controllers</li>  <li>16 PWM channels</li>  <li>USB 1.1 controller and PHY, with host and device support</li>  <li>8 PIO state machines</li></ul><p><a href=\"https://raspberrypi.org/documentation/pico/getting-started/\">Click here for the Raspberry Pi documentation.</a><a href=\"https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython\">Click here for Getting Started with Raspberry Pi Pico and CircuitPython.</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4883\">Adafruit</a></li></ul>"
@@ -9169,7 +9396,8 @@
         ],
         "features": [
             "Breadboard-Friendly",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/raspberry_pi_pico2/",
         "description": "<p>Raspberry Pi Pico 2 is Raspberry Pi Foundation’s update to their popular RP2040-based Pico board, now built on RP2350: their new high-performance, secure microcontroller. With a higher core clock speed, double the on-chip SRAM (512KB), double the on-board flash memory (4MB!), more powerful Arm M33 cores, new security and low-power features, and upgraded interfacing capabilities, the Raspberry Pi Pico 2 delivers a significant performance and feature boost while retaining hardware and software compatibility with earlier members of the Raspberry Pi Pico series.</p><p>The unique dual-core, dual-architecture capability of RP2350 allows users to choose between a pair of industry-standard Arm Cortex-M33 cores and a pair of open-hardware Hazard3 RISC-V cores. You can use either Arm or RISC-V cores, so this is a great way to dabble in RISC-V development with an affordable board that has lots of peripherals. The M33 has an FPU, and is ‘basically’ 2x as fast as the M0+ of the RP2040 when we speed-tested it.</p><p>Not only is the Pico 2 twice as fast, it has twice as much RAM, 520KB compared to 264KB. The Pico also has twice as much FLASH memory, 4MB instead of 2MB, which will make it a much better board for CircuitPython usage where the internal memory is used to store files. There’s also one more PIO blocks (3 blocks with 4 state machines apiece, rather than 2) so you can do even more pin twiddling at once. For folks who want to use the RP2350 to generate high frequency output signals like DVI display output, you can use the HSTX (high speed transmission) peripheral rather than PIO.</p><p>For customers who wanted a more secure microcontroller for product design, the RP2350 provides a comprehensive security architecture, built around Arm TrustZone for Cortex-M, and incorporating signed boot, 8KB of antifuse OTP for key storage, SHA-256 acceleration, a hardware TRNG, and fast glitch detectors. These features, including the secure boot ROM, are extensively documented and available to all users without restriction: this transparent approach, which contrasts with the “security throughobscurity” offered by legacy vendors, allows professional users to integrate RP2350, and Raspberry Pi Pico 2, into products with confidence.</p><p>Programmable in C / C++ and CircuitPython/MicroPython, and with detailed documentation, Raspberry Pi Pico 2 is the ideal microcontroller board for enthusiasts and professional developers alike. It makes an excellent upgrade to the RP2040, with lots of back-compatibility and some excellent upgrades.</p>"
@@ -9193,7 +9421,8 @@
         "features": [
             "Breadboard-Friendly",
             "Wi-Fi",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/raspberry_pi_pico2_w/",
         "description": "<p>Raspberry Pi Pico 2W is Raspberry Pi Foundation’s update to their popular RP2040-based wireless ico board, now built on RP2350: their new high-performance, secure microcontroller. With a higher core clock speed, double the on-chip SRAM (512KB), double the on-board flash memory (4MB!), more powerful Arm M33 cores, new security and low-power features, and upgraded interfacing capabilities, the Raspberry Pi Pico 2 delivers a significant performance and feature boost while retaining hardware and software compatibility with earlier members of the Raspberry Pi Pico series.</p><p>The unique dual-core, dual-architecture capability of RP2350 allows users to choose between a pair of industry-standard Arm Cortex-M33 cores and a pair of open-hardware Hazard3 RISC-V cores. You can use either Arm or RISC-V cores, so this is a great way to dabble in RISC-V development with an affordable board that has lots of peripherals. The M33 has an FPU, and is ‘basically’ 2x as fast as the M0+ of the RP2040 when we speed-tested it.</p><p>Not only is the Pico 2 twice as fast, it has twice as much RAM, 520KB compared to 264KB. The Pico also has twice as much FLASH memory, 4MB instead of 2MB, which will make it a much better board for CircuitPython usage where the internal memory is used to store files. There’s also one more PIO blocks (3 blocks with 4 state machines apiece, rather than 2) so you can do even more pin twiddling at once. For folks who want to use the RP2350 to generate high frequency output signals like DVI display output, you can use the HSTX (high speed transmission) peripheral rather than PIO.</p><p>For customers who wanted a more secure microcontroller for product design, the RP2350 provides a comprehensive security architecture, built around Arm TrustZone for Cortex-M, and incorporating signed boot, 8KB of antifuse OTP for key storage, SHA-256 acceleration, a hardware TRNG, and fast glitch detectors. These features, including the secure boot ROM, are extensively documented and available to all users without restriction: this transparent approach, which contrasts with the “security throughobscurity” offered by legacy vendors, allows professional users to integrate RP2350, and Raspberry Pi Pico 2, into products with confidence.</p><p>Programmable in C / C++ and CircuitPython/MicroPython, and with detailed documentation, Raspberry Pi Pico 2 is the ideal microcontroller board for enthusiasts and professional developers alike. It makes an excellent upgrade to the RP2040, with lots of back-compatibility and some excellent upgrades.</p><p>Please note: The Pico 2Wcomes with the A2 version of the RP2350, <a href=\"https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf#page=1342\">which is affected by the E9 erratum</a>. This erratum affects some uses of GPIO and PIO such as high-impedance inputs and the internal pulldowns. You may need to use 8.2K or smaller resistors if pull-downs are required. At this time, Sept 9 2024, there is no other version of the RP2350 available - only the A2 version.</p>"
@@ -9217,7 +9446,8 @@
         "features": [
             "Breadboard-Friendly",
             "Wi-Fi",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/raspberry_pi_pico_w/",
         "description": "<p>The Raspberry Pi foundation changed single-board computing <a href=\"https://www.raspberrypi.org/archives/723\">when they released the Raspberry Pi computer</a>, now they’re ready to do the same for microcontrollers with the release of the brand new <strong>Raspberry Pi Pico W</strong>. This low-cost microcontroller board features their powerful new chip, the <strong>RP2040</strong>, and all the fixin’s to get started with IoT embedded electronics projects at a stress-free price.</p><p>Raspberry Pi Pico W brings WiFi + BLE wireless networking to the Pico platform while retaining complete pin compatibility with its older sibling.(BLE is not currently available on CircuitPython.)</p><p><strong>Raspberry Pi Pico W</strong> is <a href=\"https://www.adafruit.com/product/4864\">just like the classic Pico</a> but adds on-board single-band 2.4GHz wireless interfaces (802.11n) using the Infineon CYW43439 while retaining the Pico form factor. The on-board 2.4GHz wireless interface has the following features:</p><ul>  <li>Wireless (802.11n), Single-band (2.4 GHz) WiFi with WPA3 and Soft Access Point supporting up to 4 clients</li>  <li>Bluetooth Low Energy - note this isn’t supported in software yet, its just a hardware capability.</li>  <li>The wireless interface is connected via SPI to the <a href=\"https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html#welcome-to-rp2040\">RP2040</a> microcontroller and has a micropython driver for wireless capability</li></ul><p>Due to pin limitations (the Pico brings out all the GPIO) some of the wireless interface pins are shared with the exposed pads:</p><ul>  <li>The <strong>SPI CLK</strong> is shared with <strong>VSYS</strong> monitor, so only when there isn’t an SPI transaction in progress can VSYS be read via the ADC.</li>  <li>The Infineon CYW43439 <strong>SPI DIN/DOUT</strong> and <strong>IRQ</strong> all share one pin on the RP2040. Only when an SPI transaction isn’t in progress is it suitable to check for IRQs.</li>  <li>The interface typically runs at 33MHz.</li></ul><p>For best wireless performance, the antenna should be in free space. For instance, putting metal under or close by the antenna can reduce its performance both in terms of gain and bandwidth. Adding grounded metal to the sides of the antenna can improve the antenna’s bandwidth.</p><p>The Pico W is 51mm × 21mm × 1mm and can have headers soldered in for use in a breadboard or perfboard, or can be soldered directly onto a PCB with the castellated pads. There’s 20 pads on each side, with groups of general purpose input-and-output (GPIO) pins interleaved with plenty of ground pins. All of the GPIO pins are 3.3V logic, and are not 5V-safe so stick to 3V! You get a total of <strong>25 GPIO</strong> pins, <strong>3 of those can be analog inputs</strong> (the chip has 4 ADC but one is not broken out). There are no true analog output (DAC) pins.</p><p>On the slim green board is minimal circuitry to get you going: A 5V to 3.3V power supply converter, single green LED connected through on the wireless module, boot select button, RP2040 chip with dual-core Cortex M0, Wireless chipset with antenna, 2 MegaBytes of QSPI flash storage, and crystal.</p><p><strong>Inside the RP2040 is a ‘permanent ROM’ USB UF2 bootloader</strong>. What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique all our native-USB boards. Just note you don’t double-click reset, instead hold down BOOTSEL during boot to enter the bootloader!</p><p>The RP2040 is a powerful chip, which has the clock speed of our M4 (SAMD51), and two cores that are equivalent to our M0 (SAMD21). Since it is an M0 chip, it does not have a floating point unit, or DSP hardware support - so if you’re doing something with heavy floating point math, it will be done in software and thus not as fast as an M4. For many other computational tasks, you’ll get close-to-M4 speeds!</p><p>For peripherals, there are two I2C controllers, two SPI controllers, and two UARTs that are multiplexed across the GPIO - check the pinout for what pins can be set to which. There are 16 PWM channels, each pin has a channel it can be set to (ditto on the pinout).</p><p>You’ll note there’s no I2S peripheral, or SDIO, or camera, what’s up with that? Well instead of having specific hardware support for serial-data-like peripherals like these, the RP2040 comes with the PIO state machine system which is a unique and powerful way to create <em>custom hardware logic and data processing blocks</em> that run on their own without taking up a CPU. For example, NeoPixels - often we bitbang the timing-specific protocol for these LEDs. For the RP2040, we instead use a PIO object that reads in the data buffer and clocks out the right bitstream with perfect accuracy. <a href=\"https://github.com/raspberrypi/pico-examples/tree/master/pio\">Same with I2S audio in or out, LED matrix displays, 8-bit or SPI based TFTs, even VGA</a>! In MicroPython and CircuitPython you can create PIO control commands to script the peripheral and load it in at runtime. There are 2 PIO peripherals with 4 state machines each.</p><p><strong>There is great <a href=\"https://github.com/raspberrypi/pico-sdk\">C/C++ support</a>, an official <a href=\"https://github.com/raspberrypi/micropython\">MicroPython port</a>, and a <a href=\"https://circuitpython.org/downloads\">CircuitPython port</a>!</strong> We of course <a href=\"https://learn.adafruit.com/welcome-to-circuitpython\">recommend CircuitPython because we think it’s the easiest way to get started</a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p><p><a href=\"https://github.com/earlephilhower/arduino-pico\">For Arduino usage we recommend the Philhower Arduino core, which does not use mbed, has lots of peripherals supported, and many makers/companies have submitted board definitions.</a></p><p>While the RP2040 has lots of onboard RAM (264KB), it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. On this board, there is 2MB, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 1 MB remaining for code, files, images, fonts, etc.</p><p><strong>RP2040 Chip features:</strong></p><ul>  <li>Dual ARM Cortex-M0+ @ 133MHz</li>  <li>264kB on-chip SRAM in six independent banks</li>  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>  <li>DMA controller</li>  <li>Fully-connected AHB crossbar</li>  <li>Interpolator and integer divider peripherals</li>  <li>On-chip programmable LDO to generate core voltage</li>  <li>2 on-chip PLLs to generate USB and core clocks</li>  <li>30 GPIO pins, 4 of which can be used as analog inputs</li>  <li>Peripherals    <ul>      <li>2 UARTs</li>      <li>2 SPI controllers</li>      <li>2 I2C controllers</li>      <li>16 PWM channels</li>      <li>USB 1.1 controller and PHY, with host and device support</li>      <li>8 PIO state machines</li>    </ul>  </li></ul><p><a href=\"https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html#raspberry-pi-pico-w\">Click here for the Raspberry Pi documentation.</a><a href=\"https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython\">Click here for Getting Started with Raspberry Pi Pico and CircuitPython.</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5526\">Adafruit</a></li>  <li><a href=\"https://grobotronics.com/raspberry-pi-pico-w-wireless.html\">Grobotronics</a></li>  <li><a href=\"https://nettop.gr/index.php/raspberry-pi/pico/raspberry-pi-pico-kits/raspberry-pi-pico-w.html\">Nettop</a></li></ul>"
@@ -9389,6 +9619,69 @@
         ],
         "url_path": "/board/raytac_mdbt50q-rx/",
         "description": "<p>This USB dongle/key type thing is a little unusual - it <em>isn’t</em> a BLE adapter that you plug into a computer to add wireless capability. (If you do want something like that, our <a href=\"https://www.adafruit.com/products/1327\">Bluetooth 4.0 USB Module</a> will do the job nicely.) Instead, this is basically a minimal nRF52840 wireless microcontroller dev board on a stick. You can program it in Arduino or CircuitPython and it’s completely standalone. This could be useful for some situations where you want to have a standalone BLE device that communicates with a USB host <em>but without dealing with the operating system’s BLE stack</em>.</p><p>Each MDBT50Q-RX dongle comes pre-programmed with the TinyUF2 bootloader, which makes loading code onto it very easy (note that only the ones from Adafruit do this, its a special-order item). To enter the bootloader, hold down the dongle’s button while inserting into USB. The button can be used in Arduino/CircuitPython as an input. There’s also a single blue LED indicator. It’s all very simple but we could see situations where perhaps this acts as a beacon, a OS-less BLE interface or bridge, or a compact development board for experimenting with the nRF52840.</p><p>The blue LED is connected to P1.13, set that pin to be an output and pull low to turn on the LED</p><p>The button is connected to P0.15, set that pin to be an input with an internal pullup - when pressed the pin will go low.</p><p>Of course the best way to program these chips is with the Nordic SDK. This chip also has <a href=\"https://github.com/adafruit/Adafruit_nRF52_Arduino\">some basic Arduino support</a>, <a href=\"https://github.com/adafruit/circuitpython/tree/main/ports/nrf\">CircuitPython support</a>, and is <a href=\"https://mynewt.apache.org/latest/tutorials/blinky/nRF52.html\">supported by MyNewt</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5199\">Adafruit</a></li>  <li><a href=\"https://www.raytac.com/product/ins.php?index_id=89\">Raytac Corporation</a></li></ul>"
+    },
+    {
+        "board_id": "red-s2-wroom",
+        "title": "Red S2 WROOM Board Download",
+        "name": "Red S2 WROOM Board",
+        "board_url": [
+            "https://www.aliexpress.us/item/3256806120950874.html"
+        ],
+        "board_image": "red-s2-wroom.jpg",
+        "date_added": "2025-03-20",
+        "family": "esp32s2",
+        "bootloader_id": "red-s2-wroom",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/red-s2-wroom/",
+        "description": "<p>ESP 32 Mini minimum system development board, can use Arduino compiler for development, rich function library, and free open source environment, also support other compiler environment, ESP32 module built-in Hall sensor, WIFI is suitable for project or development use.</p><p>ESP32-S2 chip: The ESP32-S2 chip is equipped with the Xtensa R 32-bit LX7 single-core processor and operates at uo to 240 MHz. You can turn off the power to the CPU and use the low-power coprocessor to monitor for state changes in peripherals or whether certain analog amounts exceed thresholds. The ESP32-S2 integrates a wealth of peripherals including SPI, I2S, UART, I2C, LEDPWM, TWAI R controller, ADC, DAC, touch sensor, temperature sensor and up to 43 GPIOs. In addition, the ESP32-S2 has a full-speed USB On-The-Go(OTG) port for USB communication.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256806120950874.html\">AliExpress</a></li></ul>"
+    },
+    {
+        "board_id": "renesas_ek_ra6m5",
+        "title": "EK-RA6M5 Evaluation Kit Download",
+        "name": "EK-RA6M5 Evaluation Kit",
+        "board_url": [
+            "https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m5-evaluation-kit-ra6m5-mcu-group"
+        ],
+        "board_image": "renesas_ek_ra6m5.jpg",
+        "date_added": "2025-03-20",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "STEMMA QT/QWIIC",
+            "Arduino Shield Compatible"
+        ],
+        "url_path": "/board/renesas_ek_ra6m5/",
+        "description": "<p>The EK-RA6M5 evaluation kit enables users to effortlessly evaluate the features of the <a href=\"https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6m5-200mhz-arm-cortex-m33-trustzone-highest-integration-ethernet-and-can-fd\">RA6M5 MCU Group</a> and develop embedded systems applications using the <a href=\"https://www.renesas.com/en/software-tool/flexible-software-package-fsp\">Flexible Software Package (FSP)</a> and <a href=\"https://www.renesas.com/en/software-tool/e-studio\">e2 studio IDE</a>. Utilize rich on-board features along with your choice of popular ecosystem add-ons to bring your big ideas to life.</p><h2 id=\"features\">Features</h2><ul>  <li>Ecosystem &amp; System Control Access    <ul>      <li>USB Full Speed host and device</li>      <li>Multiple 5V input sources        <ul>          <li>USB (Debug, High Speed, Full Speed)</li>          <li>External power supply</li>        </ul>      </li>      <li><a href=\"https://www.segger.com/products/debug-probes/j-link/\">SEGGER J-LinkTM</a> on-board programmer and debugger</li>      <li>Debug modes        <ul>          <li>Debug On-board (SWD) – via J-Link</li>          <li>Debug Out (SWD) – via J-Link</li>          <li>Debug In (ETM, SWD &amp; JTAG) – via J-Link, <a href=\"https://www2.keil.com/mdk5/ulink\">Arm® Keil® ULINKTM</a>, <a href=\"https://www.iar.com/ijet\">IAR I-jetTM</a>, <a href=\"https://www.renesas.com/en/software-tool/e2-emulator-rte0t00020kce00000r\">Renesas E2</a>/<a href=\"https://www.renesas.com/en/software-tool/e2-emulator-lite-rte0t0002lkce00000r\">E2 Lite</a>, etc.</li>        </ul>      </li>      <li>User LEDs and buttons        <ul>          <li>Three user LEDs (red, blue, green)</li>          <li>Power LED (white) indicating availability of regulated power</li>          <li>Debug LED (yellow) indicating the debug connection</li>          <li>Two user buttons</li>          <li>One reset button</li>        </ul>      </li>      <li>Five most popular ecosystem expansions        <ul>          <li><a href=\"https://www.mikroe.com/click\">MikroElektronikaTM mikroBUS</a> connector</li>          <li><a href=\"https://www.sparkfun.com/qwiic\">SparkFun® Qwiic®</a> connector</li>          <li>Two <a href=\"https://www.seeedstudio.com/category/Grove-c-1003.html\">SeeedGrove®</a> system (I2C and Analog) connectors</li>          <li>Two <a href=\"https://store.digilentinc.com/pmod-expansion-modules/pmod-boards/\">Digilent PmodTM</a> (SPI and UART) connectors</li>          <li>ArduinoTM (Uno R3) connector</li>        </ul>      </li>      <li>MCU boot configuration jumper</li>    </ul>  </li>  <li>Special Feature Access    <ul>      <li>Ethernet (RMII and PHY)</li>      <li>64MB External Octo-SPI Flash</li>      <li>32MB External Quad-SPI Flash</li>      <li>CAN FD</li>      <li>USB High Speed host and device</li>    </ul>  </li>  <li>MCU Native Pin Access    <ul>      <li>R7FA6M5BH3CFC MCU</li>      <li>200MHz, Arm Cortex®-M33 core</li>      <li>2MB Code Flash, 512kB SRAM</li>      <li>176 pins, LQFP package</li>      <li>Native pin access through 4x 40-pin male headers</li>      <li>MCU and USB current measurement points</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/renesas-electronics-america/RTK7EKA6M5S00001BE/13918501\">Digi-Key</a></li></ul>"
+    },
+    {
+        "board_id": "renesas_ek_ra8d1",
+        "title": "EK-RA8D1 Evaluation Kit Download",
+        "name": "EK-RA8D1 Evaluation Kit",
+        "board_url": [
+            "https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra8d1-evaluation-kit-ra8d1-mcu-group"
+        ],
+        "board_image": "renesas_ek_ra8d1.jpg",
+        "date_added": "2025-03-20",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "STEMMA QT/QWIIC",
+            "Arduino Shield Compatible",
+            "Display",
+            "Camera"
+        ],
+        "url_path": "/board/renesas_ek_ra8d1/",
+        "description": "<p>The EK-RA8D1 evaluation kit enables users to effortlessly evaluate the features of the <a href=\"https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra8d1-480mhz-arm-cortex-m85-based-graphics-microcontroller-helium-and-trustzone\">RA8D1 MCU Group</a> and develop embedded systems applications using Renesas’ <a href=\"https://www.renesas.com/en/software-tool/flexible-software-package-fsp\">Flexible Software Package (FSP)</a> and <a href=\"https://www.renesas.com/en/software-tool/e-studio\">e2 studio</a> IDE. Utilize rich onboard features along with your choice of popular ecosystem add-ons to bring your big ideas to life.</p><p>The EK-RA8D1 kit consists of three boards: the EK-RA8D1 board featuring the RA8D1 MCU with on-chip graphics LCD controller, a MIPI graphics expansion board featuring a 4.3-inch TFT color LCD with capacitive touch overlay, and a camera expansion board featuring a 3M pixels CMOS image sensor.</p><h2 id=\"features\">Features</h2><ul>  <li>Special Feature Access    <ul>      <li>MIPI DSI and Parallel Graphics Expansion Ports</li>      <li>Camera Expansion Port</li>      <li>Ethernet</li>      <li>USB High-Speed Host and Device</li>      <li>64MB SDRAM</li>      <li>64MB External Octo-SPI Flash</li>    </ul>  </li>  <li>MCU Native Pin Access    <ul>      <li>R7FA8D1BHECBD MCU</li>      <li>480MHz, Arm® Cortex®-M85 core</li>      <li>2MB Code Flash, 1MB SRAM</li>      <li>224 pins, BGA package</li>      <li>Native pin access</li>      <li>MCU and USB current measurement</li>      <li>DC/DC mode configuration</li>    </ul>  </li>  <li>Ecosystem and System Control Access    <ul>      <li>USB Full Speed Host and Device</li>      <li>Multiple 5V input sources        <ul>          <li>USB (debug, Full-Speed, High-Speed)</li>          <li>External power supply</li>        </ul>      </li>      <li><a href=\"https://www.segger.com/products/debug-probes/j-link/\">SEGGER J-Link™</a> onboard programmer and debugger</li>      <li>Debug modes        <ul>          <li>Debug Onboard (SWD) – via J-Link</li>          <li>Debug Out (SWD) – via J-Link</li>          <li>Debug In (ETM, SWD and JTAG) – via J-Link, <a href=\"https://www2.keil.com/mdk5/ulink\">Arm® Keil® ULINK™</a>, <a href=\"https://www.iar.com/ijet\">IAR I-jet™</a>, <a href=\"https://www.renesas.com/en/software-tool/e2-emulator-rte0t00020kce00000r\">Renesas E2</a>/<a href=\"https://www.renesas.com/en/software-tool/e2-emulator-lite-rte0t0002lkce00000r\">E2 Lite</a>, etc.</li>        </ul>      </li>      <li>User LEDs and buttons        <ul>          <li>Three user LEDs (red, blue, green)</li>          <li>Power LED (white) indicating the availability of regulated power</li>          <li>Debug LED (yellow) indicating the debug connection</li>          <li>Two user buttons</li>          <li>One reset button</li>        </ul>      </li>      <li>Five most popular ecosystem expansions        <ul>          <li>MikroElektronika™ mikroBUS connector</li>          <li>SparkFun® Qwiic® connectors (may not be populated)</li>          <li>Two SeeedGrove® system (I2C and analog) connectors (may not be populated)</li>          <li>Two Digilent Pmod™ (SPI and UART) connectors</li>          <li>Arduino™ (Uno R3) connector</li>        </ul>      </li>      <li>MCU boot configuration</li>    </ul>  </li>  <li>MIPI Graphics Expansion Board    <ul>      <li>4.5 Inch backlit TFT display, 16.7M display colors</li>      <li>480x854 pixels resolution</li>      <li>2-lane MIPI interface</li>      <li>Capacitive touch overlay (I2C)</li>    </ul>  </li>  <li>Camera Expansion Board    <ul>      <li>Off-the-shelf Arducam CMOS OV3640 Camera Module</li>      <li>¼ Inch 3.1 Megapixel image sensor</li>      <li>Up to 15 fps in QXGA (2048x1536 pixels) resolution</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/renesas-electronics-america/RTK7EKA8D1S01001BE/21723717\">Digi-Key</a></li></ul>"
     },
     {
         "board_id": "renode_cortex_m0plus",
@@ -10572,6 +10865,46 @@
         "description": "<p>This development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840). This board has a 3.3 V regulator, a reset switch, a general purpose LED, and USB-C connector.</p><p>This board is pin compatible with the Arduino Pro Micro.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://ssci.to/6939\">Switch Science, Inc.</a></li></ul>"
     },
     {
+        "board_id": "st_nucleo_u575zi_q",
+        "title": "Nucleo 575ZI-Q Download",
+        "name": "STM32U575ZIT6Q Nucleo",
+        "board_url": [
+            "https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html"
+        ],
+        "board_image": "st_nucleo_u575zi_q.jpg",
+        "date_added": "2025-03-20",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Arduino Shield Compatible"
+        ],
+        "url_path": "/board/st_nucleo_u575zi_q/",
+        "description": "<p>The STM32 Nucleo-144 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the internal or external SMPS significantly reduces power consumption in Run mode.</p><p>The ST Zio connector, which extends the ARDUINO® Uno V3 connectivity, and the ST morpho headers provide an easy means of expanding the functionality of the Nucleo open development platform with a wide choice of specialized shields.</p><p>The STM32 Nucleo-144 board does not require any separate probe as it integrates the ST-LINK debugger/programmer.</p><p>The STM32 Nucleo-144 board comes with the STM32 comprehensive free software libraries and examples available with the STM32Cube MCU Package.</p><h2 id=\"features\">Features</h2><ul>  <li>Common features    <ul>      <li>STM32 microcontroller in an LQFP144, TFBGA225, or VFBGA264 package</li>      <li>3 user LEDs</li>      <li>1 user push-button and 1 reset push-button</li>      <li>32.768 kHz crystal oscillator</li>      <li>Board connectors:        <ul>          <li>SWD</li>          <li>ST morpho expansion connector</li>        </ul>      </li>      <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>      <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>      <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li>    </ul>  </li>  <li>Features specific to some of the boards (refer to the ordering information section of the data brief for details)    <ul>      <li>External or internal SMPS to generate Vcore logic supply</li>      <li>Ethernet compliant with IEEE-802.3-2002</li>      <li>USB Device only, USB OTG full speed, or SNK/UFP (full-speed or high-speed mode)</li>      <li>Board connectors:        <ul>          <li>ARDUINO® Uno V3 connector or ST Zio expansion connector including ARDUINO® Uno V3</li>          <li>Camera module FPC</li>          <li>MIPI20 compatible connector with trace signals</li>          <li>USB with Micro-AB or USB Type-C®</li>          <li>Ethernet RJ45</li>        </ul>      </li>      <li>On-board ST-LINK (STLINK/V2-1, STLINK-V3E, or STLINK-V3EC) debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-u575zi-q.html\">ST</a></li></ul>"
+    },
+    {
+        "board_id": "st_stm32h7b3i_dk",
+        "title": "STM32U575ZIT6Q Discovery Kit Download",
+        "name": "STM32U575ZIT6Q Discovery Kit",
+        "board_url": [
+            "https://www.st.com/en/evaluation-tools/stm32h7b3i-dk.html"
+        ],
+        "board_image": "st_stm32h7b3i_dk.jpg",
+        "date_added": "2025-03-20",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Wi-Fi",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/st_stm32h7b3i_dk/",
+        "description": "<p>The STM32H7B3I-DK Discovery kit is a complete demonstration and development platform for the STMicroelectronics Arm® Cortex®-M7 core-based STM32H7B3LIH6Q microcontroller.</p><p>The STM32H7B3I-DK Discovery kit is used as a reference design for user application development before porting to the final product, thus simplifying the application development.</p><p>The full range of hardware features available on the board helps users enhance their application development by an evaluation of almost all peripherals (such as USB OTG_HS, microSD™, USART, CAN FD, audio DAC stereo with audio jack input and output, camera, SDRAM, Octo‑SPI flash memory, and RGB interfaced LCD with capacitive touch panel). ARDUINO® Uno V3 connectors provide easy connection to extension shields or daughterboards for specific applications.</p><p>STLINK-V3E is integrated into the board, as an embedded in-circuit debugger and programmer for the STM32 MCU and the USB Virtual COM port bridge.</p><p>The STM32H7B3I-DK board comes with the STM32CubeH7 MCU Package, which provides an STM32 comprehensive software HAL library as well as various software examples.</p><h2 id=\"features\">Features</h2><ul>  <li>STM32H7B3LIH6Q Arm®-based microcontroller featuring 2 Mbytes of flash memory and 1.4 Mbytes of RAM in a BGA225 package</li>  <li>4.3” (480x272 pixels) TFT color LCD module including a capacitive touch panel with RGB interface</li>  <li>Wi‑Fi® module compliant with 802.11 b/g/n</li>  <li>USB OTG HS</li>  <li>Audio codec</li>  <li>512‑Mbit Octo‑SPI NOR flash memory</li>  <li>128-Mbit SDRAM</li>  <li>Two user LEDs</li>  <li>User and reset push-buttons</li>  <li>Fanout daughterboard</li>  <li>CAN FD</li>  <li>Board connectors:    <ul>      <li>8‑bit camera</li>      <li>USB with Micro-AB</li>      <li>Stereo headset jack including analog microphone input</li>      <li>Audio jack for external speakers</li>      <li>microSD™ card</li>      <li>Tag‑Connect™ 10-pin footprint</li>      <li>Arm® Cortex® 10-pin 1.27mm-pitch debug connector over STDC14 footprint</li>      <li>ARDUINO® Uno V3 expansion connector</li>      <li>STMod+ expansion connector</li>      <li>Audio daughterboard expansion connector</li>      <li>External I2C expansion connector</li>    </ul>  </li>  <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>  <li>On-board STLINK-V3E debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>  <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>  <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32h7b3i-dk.html\">ST</a></li>  <li><a href=\"https://www.newark.com/stmicroelectronics/stm32h7b3i-eval/evaluation-board-32bit-arm-cortex/dp/78AK8714\">Newark</a></li></ul>"
+    },
+    {
         "board_id": "stackrduino_m0_pro",
         "title": "StackRduino M0+ PRO Download",
         "name": "StackRduino M0+ PRO",
@@ -11668,7 +12001,8 @@
         ],
         "features": [
             "Breadboard-Friendly",
-            "USB-C"
+            "USB-C",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/vcc_gnd_yd_rp2040/",
         "description": "<p>Flexible I/O connects RP2040 to the physical world by allowing it to speak to almost anyexternal device. High performance breezes through integer workloads. Low cost helps ease the barrier to entry.</p><p>This isn’t just apowerful chip: it’s designed to help you bring every last drop of that power to bear. With six independent banks of RAM, and a fully connected switch at the heart of its bus fabric, you can easily arrange for the cores and DMA engines to run in parallel without contention.</p><p>VCC-GND Studios’ YD-RP2040 has the following improvements over the Raspberry Pi Pico:</p><ul>  <li>Added PWR power LED</li>  <li>The USB interface was changed to type-C USB</li>  <li>Added reset button to facilitate reset operation and firmware update operation</li>  <li>Added the USRkey user button (GPIO24)</li>  <li>Added RGB lights (GPIO23)</li>  <li>Change PICO’s W25Q16 to W25Q32 (4M) / W25Q64 (8M) / W25Q128 (16M)</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256803817805852.html\">Aliexpress</a></li></ul>"
@@ -11973,7 +12307,8 @@
             "Breadboard-Friendly",
             "Display",
             "USB-C",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/waveshare_rp2040_lcd_0_96/",
         "description": "<p>RP2040-LCD-0.96 is a low-cost, high-performance Pico-like MCU board with flexible digital interfaces. It incorporates Raspberry Pi’s RP2040 microcontroller chip, as same as the one on Raspberry Pi Pico. For software development, either Raspberry Pi’s C/C++ SDK, or the MicroPython is available, which makes it easy for you to get started, and integrate it into end products quickly.</p><p>In additional, there’re also onboard 0.96inch IPS display, Lithium battery recharge/discharge header, and high efficiency DC-DC buck-boost chip.</p><p><strong>Board Specifications</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 2MB of on-board Flash memory</li>  <li>USB-C connector, keeps it up to date, easier to use</li>  <li>0.96inch 160×80 pixels 65K colorful IPS LCD display</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>Onboard DC-DC chip MP28164, high efficiency DC-DC buck-boost chip, maximum 2A load current</li>  <li>Castellated module allows soldering direct to carrier boards (there should be dedicated cut-out for embedding the bottom components)</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2040-lcd-0.96.htm\">Waveshare</a></li></ul>"
@@ -12056,7 +12391,8 @@
         "features": [
             "USB-C",
             "Breadboard-Friendly",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/waveshare_rp2040_plus_16mb/",
         "description": "<p>Need more Flash for Raspberry Pi Pico? Dislike the outdated Micro USB connector? All these problems are solved by our <strong>RP2040-Plus</strong> now.</p><p>As same as Raspberry Pi Pico, it incorporates the RP2040 microcontroller, with dual-core Arm Cortex M0+ processor running up to 133 MHz, and 26x multi-function GPIO pins.</p><p>What’s different, it features onboard 16MB Flash, USB-C connector, recharge header, and higher current DC-DC chip.</p><p><strong>Board specifications</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and <strong>16MB</strong> of on-board Flash memory</li>  <li>USB-C connector, keeps it up to date, easier to use</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>Onboard DC-DC chip MP28164, high efficiency DC-DC buck-boost chip, maximum 2A load current</li>  <li>Castellated module allows soldering direct to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2040-plus.htm\">Waveshare</a></li></ul>"
@@ -12077,7 +12413,8 @@
         "features": [
             "USB-C",
             "Breadboard-Friendly",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/waveshare_rp2040_plus_4mb/",
         "description": "<p>Need more Flash for Raspberry Pi Pico? Dislike the outdated Micro USB connector? All these problems are solved by our <strong>RP2040-Plus</strong> now.As same as Raspberry Pi Pico, it incorporates the RP2040 microcontroller, with dual-core Arm Cortex M0+ processor running up to 133 MHz, and 26x multi-function GPIO pins.What’s different, it features onboard 4MB Flash, USB-C connector, recharge header, and higher current DC-DC chip.</p><p><strong>Board specifications</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and <strong>4MB</strong> of on-board Flash memory</li>  <li>USB-C connector, keeps it up to date, easier to use</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>Onboard DC-DC chip MP28164, high efficiency DC-DC buck-boost chip, maximum 2A load current</li>  <li>Castellated module allows soldering direct to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2040-plus.htm\">Waveshare</a></li></ul>"
@@ -12182,7 +12519,8 @@
             "Breadboard-Friendly",
             "Display",
             "USB-C",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/waveshare_rp2350_lcd_0_96/",
         "description": "<p>RP2350-LCD-0.96 is a low-cost, high-performance Pico-like MCU board with flexible digital interfaces. It incorporates Raspberry Pi’s RP2350A microcontroller chip, the same as the one on Raspberry Pi Pico 2. For software development, either Raspberry Pi’s C/C++ SDK, or the MicroPython is available, which makes it easy for you to get started, and integrate it into end products quickly.</p><p>In addition, there’s also an onboard 0.96inch IPS display, Lithium battery recharge/discharge header, and high efficiency DC-DC buck-boost chip.</p><p><strong>Board Specifications</strong></p><ul>  <li>RP2350A microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard 3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 4MB of on-board Flash memory</li>  <li>USB-C connector, keeps it up to date, easier to use</li>  <li>0.96inch 160×80 pixels 65K colorful IPS LCD display</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>Onboard DC-DC chip MP28164, high efficiency DC-DC buck-boost chip, maximum 2A load current</li>  <li>Castellated module allows soldering directly to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>12 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-LCD-0.96\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-lcd-0.96.htm\">Waveshare</a></li></ul>"
@@ -12244,7 +12582,8 @@
         "features": [
             "USB-C",
             "Breadboard-Friendly",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/waveshare_rp2350_plus/",
         "description": "<p>Waveshare RP2350-Plus Development Board, A Low-cost, High-performance Pico-like MCU Board Based On Raspberry Pi RP2350A Dual-core &amp; Dual-architecture Microcontroller</p><p><strong>Board specifications</strong></p><ul>  <li>RP2350A microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Adopts unique dual-core and dual-architecture design: dual-core Arm Cortex-M33 processor and dual-core Hazard 3 RISC-V processor, flexible clock running up to 150 MHz</li>  <li>520KB of SRAM, and 4MB of on-board Flash memory</li>  <li>Type-C connector, keeps it up to date, easier to use</li>  <li>Lithium battery recharge/discharge header, suitable for mobile devices</li>  <li>Onboard DC-DC chip MP28164, high efficiency DC-DC buck-boost chip, maximum 2A load current</li>  <li>Castellated module allows soldering directly to carrier boards</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 4 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>12 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><p>Waveshare Wiki <a href=\"http://www.waveshare.com/wiki/RP2350-Plus\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/rp2350-plus.htm\">Waveshare</a></li></ul>"
@@ -12370,7 +12709,8 @@
         ],
         "features": [
             "USB-C",
-            "Breadboard-Friendly"
+            "Breadboard-Friendly",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/weact_studio_pico/",
         "description": "<p>The Raspberry Pi Pico is a microcontroller board based on the Raspberry Pi RP2040 microcontroller chip. It has been designed to be a low-cost, high-performance microcontroller board with flexible digital interfaces. The Raspberry Pi Pico features two ARM Cortex-M0+ cores run up to 133MHz; 256KB RAM; 30 GPIO pins; and a broad range of interfacing options. This is paired with 2MB/4MB/8MB/16MB of onboard QSPI Flash memory for code and data storage.</p><p><strong>Specifications:</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 2MB/4MB/8MB/16MB of on-board Flash memory</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/3256803521775546.html\">Aliexpress</a></li></ul>"
@@ -12390,7 +12730,8 @@
         ],
         "features": [
             "USB-C",
-            "Breadboard-Friendly"
+            "Breadboard-Friendly",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/weact_studio_pico_16mb/",
         "description": "<p>The Raspberry Pi Pico is a microcontroller board based on the Raspberry Pi RP2040 microcontroller chip. It has been designed to be a low-cost, high-performance microcontroller board with flexible digital interfaces. The Raspberry Pi Pico features two ARM Cortex-M0+ cores run up to 133MHz; 256KB RAM; 30 GPIO pins; and a broad range of interfacing options. This is paired with 2MB/4MB/8MB/16MB of onboard QSPI Flash memory for code and data storage.</p><p><strong>Specifications:</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 2MB/4MB/8MB/16MB of on-board Flash memory</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/3256803521775546.html?skuId=12000026898823783\">Aliexpress</a></li></ul>"
@@ -12509,7 +12850,8 @@
         ],
         "features": [
             "Breadboard-Friendly",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/wiznet_w5100s_evb_pico/",
         "description": "<p>W5100S-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5100S – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5100S.</p><ul>  <li>Raspberry Pi Pico Clone</li>  <li>Ethernet (W5100S Hardwired TCP/IP CHIP)</li>  <li>AWS IoT Core Qualified</li>  <li>Microsoft Azure Certified</li></ul><p><strong>Features​</strong></p><ul>  <li>RP2040 microcontroller with 2MByte Flash    <ul>      <li>Dual-core cortex M0+ at up to 133MHz</li>      <li>264kByte multi-bank high performance SRAM</li>      <li>External Quad-SPI Flash with eXecute In Place (XIP)</li>      <li>High performance full-crossbar bus fabric</li>      <li>30 multi-function General Purpose IO (4 can be used for ADC)        <ul>          <li>1.8-3.3V IO Voltage (NOTE. Pico IO voltage is fixed at 3.3V)</li>        </ul>      </li>      <li>12-bit 500ksps Analogue to Digital Converter (ADC)</li>      <li>Various digital peripherals        <ul>          <li>2 × UART, 2 × I2C, 2 × SPI, 16 × PWM channels</li>          <li>1 × Timer with 4 alarms, 1 × Real Time Counter</li>        </ul>      </li>      <li>2 × Programmable IO (PIO) blocks, 8 state machines total</li>      <li>Flexible, user-programmable high-speed IO</li>      <li>Can emulate interfaces such as SD Card and VGA</li>    </ul>  </li>  <li>Includes W5100S    <ul>      <li>Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP,    PPPoE</li>      <li>Supports 4 Independent Hardware SOCKETs simultaneously</li>      <li>Internal 16 Kbytes Memory for TX/ RX Buffers</li>      <li>SPI Interface</li>    </ul>  </li>  <li>Micro-USB B port for power and data (and for reprogramming the Flash)</li>  <li>40 pin 21x51 ‘DIP’ style 1mm thick PCB with 0.1” through-hole pins also with edge castellations</li>  <li>3-pin ARM Serial Wire Debug (SWD) port</li>  <li>10 / 100 Ethernet PHY embedded</li>  <li>Supports Auto Negotiation    <ul>      <li>Full / Half Duplex</li>      <li>10 / 100 Based</li>    </ul>  </li>  <li>Built-in RJ45(RB1-125BAG1A)</li>  <li>Built-in LDO (LM8805SF5-33V)</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://eshop.wiznet.io/shop/module/w5100s-evb-pico/\">WIZnet e-shop</a></li></ul><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico\">WIZnet Docs</a></li></ul>"
@@ -12529,7 +12871,8 @@
         ],
         "features": [
             "Breadboard-Friendly",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/wiznet_w5100s_evb_pico2/",
         "description": "<p>W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and fully hardwired TCP/IP controller W5100S – enhancing the capabilities of the traditional Raspberry Pi Pico board with additional Ethernet functionality via W5100S.</p><ul>  <li>Enhanced Raspberry Pi Pico Clone</li>  <li>Ethernet (W5100S Hardwired TCP/IP CHIP)</li></ul><p><strong>Features</strong></p><ul>  <li>RP2350 Microcontroller with Integrated 16Mbit Flash    <ul>      <li>Symmetric dual Arm Cortex-M33 cores at up to 150MHz</li>      <li>520kByte multi-bank high performance SRAM</li>      <li>External Quad-SPI Flash with eXecute In Place (XIP) capabilities</li>      <li>Enhanced performance full-crossbar bus fabric</li>      <li>Up to 48 multi-function General Purpose IO (8 can be used for ADC on RP2350-B)        <ul>          <li>1.8-5.0V IO Voltage</li>        </ul>      </li>    </ul>  </li>  <li>W5100S Ethernet Controller    <ul>      <li>Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE</li>      <li>Supports 4 Independent Hardware SOCKETs simultaneously</li>      <li>Internal 16 Kbytes Memory for TX/ RX Buffers</li>      <li>High Speed Serial Peripheral Interface (SPI MODE 0, 3)</li>    </ul>  </li>  <li>C-Type USB port for power and data (and for reprogramming the Flash)</li>  <li>40 pin 21x51 ‘DIP’ style 1mm thick PCB with 0.1” through-hole pins also with edge castellations</li>  <li>3-pin ARM Serial Wire Debug (SWD) port</li>  <li>10 / 100 Ethernet PHY embedded</li>  <li>Supports Auto Negotiation    <ul>      <li>Full / Half Duplex</li>      <li>10 / 100 Based</li>    </ul>  </li>  <li>Built-in RJ45</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://eshop.wiznet.io/shop/module/w5100s-evb-pico2/\">WIZnet e-shop</a></li></ul><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://docs.wiznet.io/Product/iEthernet/W5100S/w5100s-evb-pico2\">WIZnet Docs</a></li></ul>"
@@ -12549,7 +12892,8 @@
         ],
         "features": [
             "Breadboard-Friendly",
-            "Castellated Pads"
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
         ],
         "url_path": "/board/wiznet_w5500_evb_pico/",
         "description": "<p>W5500-EVB-Pico is a microcontroller evaluation board based on the Raspberry Pi RP2040 and fully hardwired TCP/IP controller W5500 – and basically works the same as Raspberry Pi Pico board but with additional Ethernet via W5500.</p><ul>  <li>Raspberry Pi Pico Clone</li>  <li>Ethernet (W5500 Hardwired TCP/IP CHIP)</li></ul><p><strong>Features​</strong></p><ul>  <li>RP2040 microcontroller with 2MByte Flash    <ul>      <li>Dual-core cortex M0+ at up to 133MHz</li>      <li>264kByte multi-bank high performance SRAM</li>      <li>External Quad-SPI Flash with eXecute In Place (XIP)</li>      <li>High performance full-crossbar bus fabric</li>      <li>30 multi-function General Purpose IO (4 can be used for ADC)        <ul>          <li>1.8-3.3V IO Voltage (NOTE. Pico IO voltage is fixed at 3.3V)</li>        </ul>      </li>      <li>12-bit 500ksps Analogue to Digital Converter (ADC)</li>      <li>Various digital peripherals        <ul>          <li>2 × UART, 2 × I2C, 2 × SPI, 16 × PWM channels</li>          <li>1 × Timer with 4 alarms, 1 × Real Time Counter</li>        </ul>      </li>      <li>2 × Programmable IO (PIO) blocks, 8 state machines total</li>      <li>Flexible, user-programmable high-speed IO</li>      <li>Can emulate interfaces such as SD Card and VGA</li>    </ul>  </li>  <li>Includes W5500    <ul>      <li>Supports Hardwired Internet Protocols: TCP, UDP, ICMP, IPv4, ARP, IGMP, PPPoE</li>      <li>Supports 8 Independent Hardware SOCKETs simultaneously</li>      <li>Internal 32 Kbytes Memory for TX/ RX Buffers</li>      <li>Supports High Speed Serial Peripheral Interface(SPI MODE 0, 3)</li>    </ul>  </li>  <li>Micro-USB B port for power and data (and for reprogramming the Flash)</li>  <li>40 pin 21×51 ‘DIP’ style 1mm thick PCB with 0.1″ through-hole pins also with edge castellations</li>  <li>3-pin ARM Serial Wire Debug (SWD) port</li>  <li>10 / 100 Ethernet PHY embedded</li>  <li>Supports Auto Negotiation    <ul>      <li>Full / Half Duplex</li>      <li>10 / 100 Based</li>    </ul>  </li>  <li>Built-in RJ45</li>  <li>Built-in LDO</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://eshop.wiznet.io/shop/module/w5500-evb-pico/\">WIZnet e-shop</a></li></ul><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://docs.wiznet.io/Product/iEthernet/W5500/w5500-evb-pico\">WIZnet Docs</a></li></ul>"

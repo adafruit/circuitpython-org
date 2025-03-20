@@ -332,6 +332,17 @@
             }
         ]
     },
+    "lilygo_tdongle_s3": {
+        "name": "T-Display S3 Pro",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.2.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tdongle_s3/en_US/adafruit-circuitpython-lilygo_tdongle_s3-en_US-9.2.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tdongle_s3/en_US/adafruit-circuitpython-lilygo_tdongle_s3-en_US-9.2.5.uf2"
+            }
+        ]
+    },
     "unexpectedmaker_tinys3": {
         "name": "Unexpected Maker TinyS3",
         "chipfamily": "esp32s3",
@@ -720,6 +731,17 @@
             {
                 "version": "9.2.5",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/adafruit_feather_esp32_v2/en_US/adafruit-circuitpython-adafruit_feather_esp32_v2-en_US-9.2.5.bin"
+            }
+        ]
+    },
+    "heltec_vision_master_e290": {
+        "name": "Vision Master E290",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "9.2.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/heltec_vision_master_e290/en_US/adafruit-circuitpython-heltec_vision_master_e290-en_US-9.2.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/heltec_vision_master_e290/en_US/adafruit-circuitpython-heltec_vision_master_e290-en_US-9.2.5.uf2"
             }
         ]
     },
@@ -1685,6 +1707,18 @@
             }
         ]
     },
+    "lilygo_tqt_pro_psram": {
+        "name": "TQ-T Pro",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lilygo_tqt_pro_psram-0.21.0.zip",
+        "releases": [
+            {
+                "version": "9.2.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tqt_pro_psram/en_US/adafruit-circuitpython-lilygo_tqt_pro_psram-en_US-9.2.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tqt_pro_psram/en_US/adafruit-circuitpython-lilygo_tqt_pro_psram-en_US-9.2.5.uf2"
+            }
+        ]
+    },
     "unexpectedmaker_tinywatch_s3": {
         "name": "Unexpected Maker TinyWATCH S3",
         "chipfamily": "esp32s3",
@@ -2273,6 +2307,30 @@
                 "version": "9.2.5",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/adafruit_metro_esp32s3/en_US/adafruit-circuitpython-adafruit_metro_esp32s3-en_US-9.2.5.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/adafruit_metro_esp32s3/en_US/adafruit-circuitpython-adafruit_metro_esp32s3-en_US-9.2.5.uf2"
+            }
+        ]
+    },
+    "red-s2-wroom": {
+        "name": "Red S2 WROOM Board",
+        "chipfamily": "esp32s2",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-red-s2-wroom-0.21.0.zip",
+        "releases": [
+            {
+                "version": "9.2.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/red-s2-wroom/en_US/adafruit-circuitpython-red-s2-wroom-en_US-9.2.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/red-s2-wroom/en_US/adafruit-circuitpython-red-s2-wroom-en_US-9.2.5.uf2"
+            }
+        ]
+    },
+    "lilygo_tqt_pro_nopsram": {
+        "name": "TQ-T Pro",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lilygo_tqt_pro_nopsram-0.21.0.zip",
+        "releases": [
+            {
+                "version": "9.2.5",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tqt_pro_nopsram/en_US/adafruit-circuitpython-lilygo_tqt_pro_nopsram-en_US-9.2.5.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/lilygo_tqt_pro_nopsram/en_US/adafruit-circuitpython-lilygo_tqt_pro_nopsram-en_US-9.2.5.uf2"
             }
         ]
     },

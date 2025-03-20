@@ -4,9 +4,665 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 20 Mar 2025 06:04:14 -0400</lastBuildDate>
+<lastBuildDate>Thu, 20 Mar 2025 19:30:41 -0400</lastBuildDate>
 
 <item>
+    <title>STM32U575ZIT6Q Discovery Kit</title>
+    <link>https://circuitpython.org/board/st_stm32h7b3i_dk/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/st_stm32h7b3i_dk.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/st_stm32h7b3i_dk.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/st_stm32h7b3i_dk.jpg" alt="Image of Board" loading="lazy">
+<p>By STMicroelectronics</p> <p>The STM32H7B3I-DK Discovery kit is a complete demonstration and development platform for the STMicroelectronics Arm® Cortex®-M7 core-based STM32H7B3LIH6Q microcontroller.</p>
+
+<p>The STM32H7B3I-DK Discovery kit is used as a reference design for user application development before porting to the final product, thus simplifying the application development.</p>
+
+<p>The full range of hardware features available on the board helps users enhance their application development by an evaluation of almost all peripherals (such as USB OTG_HS, microSD™, USART, CAN FD, audio DAC stereo with audio jack input and output, camera, SDRAM, Octo‑SPI flash memory, and RGB interfaced LCD with capacitive touch panel). ARDUINO® Uno V3 connectors provide easy connection to extension shields or daughterboards for specific applications.</p>
+
+<p>STLINK-V3E is integrated into the board, as an embedded in-circuit debugger and programmer for the STM32 MCU and the USB Virtual COM port bridge.</p>
+
+<p>The STM32H7B3I-DK board comes with the STM32CubeH7 MCU Package, which provides an STM32 comprehensive software HAL library as well as various software examples.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>STM32H7B3LIH6Q Arm®-based microcontroller featuring 2 Mbytes of flash memory and 1.4 Mbytes of RAM in a BGA225 package</li>
+  <li>4.3” (480x272 pixels) TFT color LCD module including a capacitive touch panel with RGB interface</li>
+  <li>Wi‑Fi® module compliant with 802.11 b/g/n</li>
+  <li>USB OTG HS</li>
+  <li>Audio codec</li>
+  <li>512‑Mbit Octo‑SPI NOR flash memory</li>
+  <li>128-Mbit SDRAM</li>
+  <li>Two user LEDs</li>
+  <li>User and reset push-buttons</li>
+  <li>Fanout daughterboard</li>
+  <li>CAN FD</li>
+  <li>Board connectors:
+    <ul>
+      <li>8‑bit camera</li>
+      <li>USB with Micro-AB</li>
+      <li>Stereo headset jack including analog microphone input</li>
+      <li>Audio jack for external speakers</li>
+      <li>microSD™ card</li>
+      <li>Tag‑Connect™ 10-pin footprint</li>
+      <li>Arm® Cortex® 10-pin 1.27mm-pitch debug connector over STDC14 footprint</li>
+      <li>ARDUINO® Uno V3 expansion connector</li>
+      <li>STMod+ expansion connector</li>
+      <li>Audio daughterboard expansion connector</li>
+      <li>External I2C expansion connector</li>
+    </ul>
+  </li>
+  <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>
+  <li>On-board STLINK-V3E debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>
+  <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>
+  <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32h7b3i-dk.html">ST</a></li>
+  <li><a href="https://www.newark.com/stmicroelectronics/stm32h7b3i-eval/evaluation-board-32bit-arm-cortex/dp/78AK8714">Newark</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/st_stm32h7b3i_dk/</guid>
+  </item><item>
+    <title>STM32U575ZIT6Q Nucleo</title>
+    <link>https://circuitpython.org/board/st_nucleo_u575zi_q/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/st_nucleo_u575zi_q.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/st_nucleo_u575zi_q.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/st_nucleo_u575zi_q.jpg" alt="Image of Board" loading="lazy">
+<p>By STMicroelectronics</p> <p>The STM32 Nucleo-144 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the internal or external SMPS significantly reduces power consumption in Run mode.</p>
+
+<p>The ST Zio connector, which extends the ARDUINO® Uno V3 connectivity, and the ST morpho headers provide an easy means of expanding the functionality of the Nucleo open development platform with a wide choice of specialized shields.</p>
+
+<p>The STM32 Nucleo-144 board does not require any separate probe as it integrates the ST-LINK debugger/programmer.</p>
+
+<p>The STM32 Nucleo-144 board comes with the STM32 comprehensive free software libraries and examples available with the STM32Cube MCU Package.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Common features
+    <ul>
+      <li>STM32 microcontroller in an LQFP144, TFBGA225, or VFBGA264 package</li>
+      <li>3 user LEDs</li>
+      <li>1 user push-button and 1 reset push-button</li>
+      <li>32.768 kHz crystal oscillator</li>
+      <li>Board connectors:
+        <ul>
+          <li>SWD</li>
+          <li>ST morpho expansion connector</li>
+        </ul>
+      </li>
+      <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>
+      <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>
+      <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li>
+    </ul>
+  </li>
+  <li>Features specific to some of the boards (refer to the ordering information section of the data brief for details)
+    <ul>
+      <li>External or internal SMPS to generate Vcore logic supply</li>
+      <li>Ethernet compliant with IEEE-802.3-2002</li>
+      <li>USB Device only, USB OTG full speed, or SNK/UFP (full-speed or high-speed mode)</li>
+      <li>Board connectors:
+        <ul>
+          <li>ARDUINO® Uno V3 connector or ST Zio expansion connector including ARDUINO® Uno V3</li>
+          <li>Camera module FPC</li>
+          <li>MIPI20 compatible connector with trace signals</li>
+          <li>USB with Micro-AB or USB Type-C®</li>
+          <li>Ethernet RJ45</li>
+        </ul>
+      </li>
+      <li>On-board ST-LINK (STLINK/V2-1, STLINK-V3E, or STLINK-V3EC) debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-u575zi-q.html">ST</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/st_nucleo_u575zi_q/</guid>
+  </item><item>
+    <title>EK-RA8D1 Evaluation Kit</title>
+    <link>https://circuitpython.org/board/renesas_ek_ra8d1/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/renesas_ek_ra8d1.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/renesas_ek_ra8d1.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/renesas_ek_ra8d1.jpg" alt="Image of Board" loading="lazy">
+<p>By Renesas</p> <p>The EK-RA8D1 evaluation kit enables users to effortlessly evaluate the features of the <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra8d1-480mhz-arm-cortex-m85-based-graphics-microcontroller-helium-and-trustzone">RA8D1 MCU Group</a> and develop embedded systems applications using Renesas’ <a href="https://www.renesas.com/en/software-tool/flexible-software-package-fsp">Flexible Software Package (FSP)</a> and <a href="https://www.renesas.com/en/software-tool/e-studio">e2 studio</a> IDE. Utilize rich onboard features along with your choice of popular ecosystem add-ons to bring your big ideas to life.</p>
+
+<p>The EK-RA8D1 kit consists of three boards: the EK-RA8D1 board featuring the RA8D1 MCU with on-chip graphics LCD controller, a MIPI graphics expansion board featuring a 4.3-inch TFT color LCD with capacitive touch overlay, and a camera expansion board featuring a 3M pixels CMOS image sensor.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Special Feature Access
+    <ul>
+      <li>MIPI DSI and Parallel Graphics Expansion Ports</li>
+      <li>Camera Expansion Port</li>
+      <li>Ethernet</li>
+      <li>USB High-Speed Host and Device</li>
+      <li>64MB SDRAM</li>
+      <li>64MB External Octo-SPI Flash</li>
+    </ul>
+  </li>
+  <li>MCU Native Pin Access
+    <ul>
+      <li>R7FA8D1BHECBD MCU</li>
+      <li>480MHz, Arm® Cortex®-M85 core</li>
+      <li>2MB Code Flash, 1MB SRAM</li>
+      <li>224 pins, BGA package</li>
+      <li>Native pin access</li>
+      <li>MCU and USB current measurement</li>
+      <li>DC/DC mode configuration</li>
+    </ul>
+  </li>
+  <li>Ecosystem and System Control Access
+    <ul>
+      <li>USB Full Speed Host and Device</li>
+      <li>Multiple 5V input sources
+        <ul>
+          <li>USB (debug, Full-Speed, High-Speed)</li>
+          <li>External power supply</li>
+        </ul>
+      </li>
+      <li><a href="https://www.segger.com/products/debug-probes/j-link/">SEGGER J-Link™</a> onboard programmer and debugger</li>
+      <li>Debug modes
+        <ul>
+          <li>Debug Onboard (SWD) – via J-Link</li>
+          <li>Debug Out (SWD) – via J-Link</li>
+          <li>Debug In (ETM, SWD and JTAG) – via J-Link, <a href="https://www2.keil.com/mdk5/ulink">Arm® Keil® ULINK™</a>, <a href="https://www.iar.com/ijet">IAR I-jet™</a>, <a href="https://www.renesas.com/en/software-tool/e2-emulator-rte0t00020kce00000r">Renesas E2</a>/<a href="https://www.renesas.com/en/software-tool/e2-emulator-lite-rte0t0002lkce00000r">E2 Lite</a>, etc.</li>
+        </ul>
+      </li>
+      <li>User LEDs and buttons
+        <ul>
+          <li>Three user LEDs (red, blue, green)</li>
+          <li>Power LED (white) indicating the availability of regulated power</li>
+          <li>Debug LED (yellow) indicating the debug connection</li>
+          <li>Two user buttons</li>
+          <li>One reset button</li>
+        </ul>
+      </li>
+      <li>Five most popular ecosystem expansions
+        <ul>
+          <li>MikroElektronika™ mikroBUS connector</li>
+          <li>SparkFun® Qwiic® connectors (may not be populated)</li>
+          <li>Two SeeedGrove® system (I2C and analog) connectors (may not be populated)</li>
+          <li>Two Digilent Pmod™ (SPI and UART) connectors</li>
+          <li>Arduino™ (Uno R3) connector</li>
+        </ul>
+      </li>
+      <li>MCU boot configuration</li>
+    </ul>
+  </li>
+  <li>MIPI Graphics Expansion Board
+    <ul>
+      <li>4.5 Inch backlit TFT display, 16.7M display colors</li>
+      <li>480x854 pixels resolution</li>
+      <li>2-lane MIPI interface</li>
+      <li>Capacitive touch overlay (I2C)</li>
+    </ul>
+  </li>
+  <li>Camera Expansion Board
+    <ul>
+      <li>Off-the-shelf Arducam CMOS OV3640 Camera Module</li>
+      <li>¼ Inch 3.1 Megapixel image sensor</li>
+      <li>Up to 15 fps in QXGA (2048x1536 pixels) resolution</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/renesas-electronics-america/RTK7EKA8D1S01001BE/21723717">Digi-Key</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/renesas_ek_ra8d1/</guid>
+  </item><item>
+    <title>EK-RA6M5 Evaluation Kit</title>
+    <link>https://circuitpython.org/board/renesas_ek_ra6m5/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/renesas_ek_ra6m5.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/renesas_ek_ra6m5.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/renesas_ek_ra6m5.jpg" alt="Image of Board" loading="lazy">
+<p>By Renesas</p> <p>The EK-RA6M5 evaluation kit enables users to effortlessly evaluate the features of the <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6m5-200mhz-arm-cortex-m33-trustzone-highest-integration-ethernet-and-can-fd">RA6M5 MCU Group</a> and develop embedded systems applications using the <a href="https://www.renesas.com/en/software-tool/flexible-software-package-fsp">Flexible Software Package (FSP)</a> and <a href="https://www.renesas.com/en/software-tool/e-studio">e2 studio IDE</a>. Utilize rich on-board features along with your choice of popular ecosystem add-ons to bring your big ideas to life.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Ecosystem &amp; System Control Access
+    <ul>
+      <li>USB Full Speed host and device</li>
+      <li>Multiple 5V input sources
+        <ul>
+          <li>USB (Debug, High Speed, Full Speed)</li>
+          <li>External power supply</li>
+        </ul>
+      </li>
+      <li><a href="https://www.segger.com/products/debug-probes/j-link/">SEGGER J-LinkTM</a> on-board programmer and debugger</li>
+      <li>Debug modes
+        <ul>
+          <li>Debug On-board (SWD) – via J-Link</li>
+          <li>Debug Out (SWD) – via J-Link</li>
+          <li>Debug In (ETM, SWD &amp; JTAG) – via J-Link, <a href="https://www2.keil.com/mdk5/ulink">Arm® Keil® ULINKTM</a>, <a href="https://www.iar.com/ijet">IAR I-jetTM</a>, <a href="https://www.renesas.com/en/software-tool/e2-emulator-rte0t00020kce00000r">Renesas E2</a>/<a href="https://www.renesas.com/en/software-tool/e2-emulator-lite-rte0t0002lkce00000r">E2 Lite</a>, etc.</li>
+        </ul>
+      </li>
+      <li>User LEDs and buttons
+        <ul>
+          <li>Three user LEDs (red, blue, green)</li>
+          <li>Power LED (white) indicating availability of regulated power</li>
+          <li>Debug LED (yellow) indicating the debug connection</li>
+          <li>Two user buttons</li>
+          <li>One reset button</li>
+        </ul>
+      </li>
+      <li>Five most popular ecosystem expansions
+        <ul>
+          <li><a href="https://www.mikroe.com/click">MikroElektronikaTM mikroBUS</a> connector</li>
+          <li><a href="https://www.sparkfun.com/qwiic">SparkFun® Qwiic®</a> connector</li>
+          <li>Two <a href="https://www.seeedstudio.com/category/Grove-c-1003.html">SeeedGrove®</a> system (I2C and Analog) connectors</li>
+          <li>Two <a href="https://store.digilentinc.com/pmod-expansion-modules/pmod-boards/">Digilent PmodTM</a> (SPI and UART) connectors</li>
+          <li>ArduinoTM (Uno R3) connector</li>
+        </ul>
+      </li>
+      <li>MCU boot configuration jumper</li>
+    </ul>
+  </li>
+  <li>Special Feature Access
+    <ul>
+      <li>Ethernet (RMII and PHY)</li>
+      <li>64MB External Octo-SPI Flash</li>
+      <li>32MB External Quad-SPI Flash</li>
+      <li>CAN FD</li>
+      <li>USB High Speed host and device</li>
+    </ul>
+  </li>
+  <li>MCU Native Pin Access
+    <ul>
+      <li>R7FA6M5BH3CFC MCU</li>
+      <li>200MHz, Arm Cortex®-M33 core</li>
+      <li>2MB Code Flash, 512kB SRAM</li>
+      <li>176 pins, LQFP package</li>
+      <li>Native pin access through 4x 40-pin male headers</li>
+      <li>MCU and USB current measurement points</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/renesas-electronics-america/RTK7EKA6M5S00001BE/13918501">Digi-Key</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/renesas_ek_ra6m5/</guid>
+  </item><item>
+    <title>Red S2 WROOM Board</title>
+    <link>https://circuitpython.org/board/red-s2-wroom/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/red-s2-wroom.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/red-s2-wroom.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/red-s2-wroom.jpg" alt="Image of Board" loading="lazy">
+<p>By Generic</p> <p>ESP 32 Mini minimum system development board, can use Arduino compiler for development, rich function library, and free open source environment, also support other compiler environment, ESP32 module built-in Hall sensor, WIFI is suitable for project or development use.</p>
+
+<p>ESP32-S2 chip: The ESP32-S2 chip is equipped with the Xtensa R 32-bit LX7 single-core processor and operates at uo to 240 MHz. You can turn off the power to the CPU and use the low-power coprocessor to monitor for state changes in peripherals or whether certain analog amounts exceed thresholds. The ESP32-S2 integrates a wealth of peripherals including SPI, I2S, UART, I2C, LEDPWM, TWAI R controller, ADC, DAC, touch sensor, temperature sensor and up to 43 GPIOs. In addition, the ESP32-S2 has a full-speed USB On-The-Go(OTG) port for USB communication.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256806120950874.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/red-s2-wroom/</guid>
+  </item><item>
+    <title>PROVES Kit RP2040 V4</title>
+    <link>https://circuitpython.org/board/proveskit_rp2040_v4/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/proveskit_rp2040_v4.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/proveskit_rp2040_v4.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/proveskit_rp2040_v4.jpg" alt="Image of Board" loading="lazy">
+<p>By PROVES Kit</p> <p>The PROVES Kit blends Open-Source Hardware and Software. The Hardware developed includes the entire educational satellite structure, brackets, and printed circuit boards. One of the major issues that we sought to solve with the kit was to develop a single solution for an end to end space mission engineering education. Many other open source projects avalible to the community only feature a single element, like just a radio or just a flight computer.</p>
+
+<h2 id="learn-more">Learn more</h2>
+
+<ul>
+  <li><a href="https://docs.proveskit.space/en/latest/core_documentation/hardware/FC_board/">PROVES Kit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/proveskit_rp2040_v4/</guid>
+  </item><item>
+    <title>Nordic nRF7002 Development Kit</title>
+    <link>https://circuitpython.org/board/nordic_nrf7002dk/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/nordic_nrf7002dk.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/nordic_nrf7002dk.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/nordic_nrf7002dk.jpg" alt="Image of Board" loading="lazy">
+<p>By Nordic Semiconductor</p> <p>The nRF7002 DK is the development kit for the <a href="https://www.nordicsemi.com/Products/nRF7002">nRF7002</a>, and <a href="https://www.nordicsemi.com/Products/nRF7001">nRF7001</a> Wi-Fi 6 Companion ICs. It contains everything needed to get started developing on a single board. The DK features an <a href="https://www.nordicsemi.com/Products/nRF5340">nRF5340 </a>multiprotocol System-on-Chip (SoC) as a host processor for the nRF7002.</p>
+
+<p>The DK supports the development of low-power <a href="https://www.nordicsemi.com/Products/Wireless/WiFi">Wi-Fi</a> applications and enables Wi-Fi 6 features like OFDMA, Beamforming, and Target Wake Time.</p>
+
+<p>The nRF7002 is a Wi-Fi 6 companion IC, providing seamless connectivity and Wi-Fi-based locationing (SSID sniffing of local Wi-Fi hubs). It is designed to be used alongside Nordic’s existing nRF52® and nRF53® Series Bluetooth Systems-on-Chip (SoCs), and nRF91® Series cellular IoT Systems-in-Package (SiPs). The nRF7002 can also be used in conjunction with non-Nordic host devices.</p>
+
+<p>To communicate with the host, SPI or QSPI can be used, and an extra coexistence feature allows for seamless coexistence with other protocols like Bluetooth, Thread, or Zigbee. The nRF7002 is integrated and supported in Nordic’s nRF Connect SDK and the nRF7002 Dk can also be used to emulate the nRF7001.</p>
+
+<p>The nRF7002 is the first device in Nordic’s portfolio of unique Wi-Fi products that will combine seamlessly with Nordic’s existing ultra-low power technologies. Nordic bring their decades of ultra-low-power wireless IoT and silicon design expertise to Wi-Fi. Wi-Fi 6 brings added benefits to IoT applications, including further efficiency gains supporting long-life, battery-powered Wi-Fi operation.</p>
+
+<p>With Wi-Fi 6, Nordic supports all wireless protocols used in Matter, Bluetooth LE for commissioning, Thread for low-power mesh, and Wi-Fi for high-throughput. Matter is a protocol championed by Apple, Amazon, Google, Nordic Semiconductor, Samsung, and hundreds of other companies in consumer IoT.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF7002-DK/17748188">Digi-Key</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/nordic_nrf7002dk/</guid>
+  </item><item>
+    <title>Nordic nRF54L05 Development Kit</title>
+    <link>https://circuitpython.org/board/nordic_nrf54l15dk/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/nordic_nrf54l15dk.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/nordic_nrf54l15dk.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/nordic_nrf54l15dk.jpg" alt="Image of Board" loading="lazy">
+<p>By Nordic Semiconductor</p> <p>The nRF54L15 DK is the development kit for all three wireless SoC (System-on-Chip) options in the nRF54L Series. The nRF54L15 sits on the development board, while the nRF54L10 and nRF54L05 can be emulated. The affordable single-board development kit makes all features of the wireless SoC available to the developer.</p>
+
+<p>The nRF54L15 DK is supported by a comprehensive set of nRF Connect tools and has support in the nRF Connect SDK. Developers can explore the full potential of the nRF54L15 using the extensive range of software samples, modules, and libraries available within the nRF Connect SDK.</p>
+
+<p>The nRF Connect SDK Fundamentals and Bluetooth Low Energy Fundamentals courses in Nordic Developer Academy support the nRF54L15 DK. These courses have enrolled more than 15,000 developers, have received an average rating of 9.1/10, and provide more than 20 hours of in-depth training.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF54L15-DK/25601516">Digi-Key</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/nordic_nrf54l15dk/</guid>
+  </item><item>
+    <title>Nordic nRF5340 Development Kit</title>
+    <link>https://circuitpython.org/board/nordic_nrf5340dk/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/nordic_nrf5340dk.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/nordic_nrf5340dk.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/nordic_nrf5340dk.jpg" alt="Image of Board" loading="lazy">
+<p>By Nordic Semiconductor</p> <p>The nRF5340 DK is the development kit for the <a href="https://www.nordicsemi.com/Products/nRF5340">nRF5340 System-on-Chip (SoC)</a>, containing everything needed to get started with development, on a single board.</p>
+
+<p>The DK supports development with an extensive range of wireless protocols. It supports Bluetooth Low Energy with features such as high-throughput 2 Mbps, Advertising Extensions and Long Range. Mesh protocols like Bluetooth mesh, Thread and Zigbee can run concurrently with Bluetooth Low Energy, enabling smartphones to provision, commission, configure and control mesh nodes, which is a prerequisite for <a href="https://www.nordicsemi.com/Products/Technologies/Matter">matter </a>applications. It also supports NFC, ANT, 802.15.4 and 2.4 GHz proprietary protocols.</p>
+
+<p>The DK is bundled with an NFC antenna that quickly enables testing of nRF5340’s NFC-A tag functionality. A SEGGER J-Link debugger is on the board, enabling full-blown programming and debugging, of both the nRF5340 SoC and external targets.</p>
+
+<p>All analog and digital interfaces, and GPIOs are available via headers and edge connectors. The kit is Arduino Uno Rev3 hardware compatible, meaning it can be easily interfaced with external device shields.</p>
+
+<p>Four buttons and four LEDs simplify input and output to and from the nRF5340 SoC, and are all user-programmable. An on-board external memory is connected to the 96 MHz QSPI peripheral in the nRF5340 SoC.</p>
+
+<p>The nRF5340 DK is typically powered via USB, but can be powered by a wide range of sources, within the supply range of 1.7 to 5.0 V. In addition to USB, it can be powered with external source, but also includes a CR2032 battery holder and a Li-Po battery connector, for in-field testing. Current consumption can be measured by using the dedicated current measurement pins, for example by using Nordic’s <a href="https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2">Power Profiler Kit II</a>.</p>
+
+<p>The <a href="https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK">nRF Connect SDK</a> is the software development kit for the nRF5340 SoC, and it has board support for the nRF5340 DK. It supports software development of Bluetooth Low Energy, Thread and Zigbee applications. It integrates the Zephyr RTOS, protocol stacks, samples, hardware drivers and much more.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.mouser.com/ProductDetail/Nordic-Semiconductor/NRF5340-DK?qs=T94vaHKWudSvpk%2Fi5MmNkA%3D%3D">Mouser</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/nordic_nrf5340dk/</guid>
+  </item><item>
+    <title>TQ-T Pro</title>
+    <link>https://circuitpython.org/board/lilygo_tqt_pro_psram/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/lilygo_tqt_pro.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/lilygo_tqt_pro.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/lilygo_tqt_pro.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>
+  <li>16 MB Flash memory</li>
+  <li>8 MB PSRAM</li>
+  <li>1.9 inch ST7789 LCD display, optional CST816 touchscreen</li>
+  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>
+  <li>2 user buttons (<code class="language-plaintext highlighter-rouge">IO0</code> for Boot and <code class="language-plaintext highlighter-rouge">IO14</code> for custom functions), 1 reset button</li>
+  <li>Battery charging circuit (JST connector for Li-Po battery)</li>
+  <li>USB-C for programming and power</li>
+  <li>Onboard LED</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://lilygo.cc/products/t-qt-pro?variant=42383267823797">LILYGO Own Store</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_tqt_pro_psram/</guid>
+  </item><item>
+    <title>TQ-T Pro</title>
+    <link>https://circuitpython.org/board/lilygo_tqt_pro_nopsram/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/lilygo_tqt_pro.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/lilygo_tqt_pro.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/lilygo_tqt_pro.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32-S3 Dual-core 32-bit LX7 microprocessor</li>
+  <li>16 MB Flash memory</li>
+  <li>1.9 inch ST7789 LCD display, optional CST816 touchscreen</li>
+  <li>Wi-Fi 802.11 b/g/n, BLE 5.0 + BT mesh</li>
+  <li>2 user buttons (<code class="language-plaintext highlighter-rouge">IO0</code> for Boot and <code class="language-plaintext highlighter-rouge">IO14</code> for custom functions), 1 reset button</li>
+  <li>Battery charging circuit (JST connector for Li-Po battery)</li>
+  <li>USB-C for programming and power</li>
+  <li>Onboard LED</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://lilygo.cc/products/t-qt-pro?variant=43214296285365">LILYGO Own Store</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_tqt_pro_nopsram/</guid>
+  </item><item>
+    <title>Vision Master E290</title>
+    <link>https://circuitpython.org/board/heltec_vision_master_e290/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/heltec_vision_master_e290.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/heltec_vision_master_e290.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/heltec_vision_master_e290.jpg" alt="Image of Board" loading="lazy">
+<p>By Heltec Automation</p> <p>Vision Master E290 (HT-VME290) is an E-Ink development kit with multiple wireless drive methods. Collaborate with the sample programs and development tools we provide, users can operate the display via Bluetooth, Wi-Fi and LoRa.</p>
+
+<p>This board is equipped with a default 2.90-inch black-white E-Ink display screen, continuous display for 180 days after power outage. It is compatible with Arduino, PlatformIO, Micpython and other development frameworks, can be used to develop applications such as electronic tags and identity tags, it is also possible to run open source projects like Meshtastic.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>ESP32-S3R8 MCU, support Wi-Fi and BLE.</li>
+  <li>LoRa module is optional, compatible with Mashtastic.</li>
+  <li>Low power consumption, 18uA in deep sleep, continuous display for 180 days after power outage.</li>
+  <li>Onboard SH1.25-2 battery interface, integrated lithium battery management system (charge and discharge management, overcharge protection, battery power detection, USB / battery power automatic switching).</li>
+  <li>Onboard 2.90 inch 296 x 128 pixels display, support for partial refresh.</li>
+  <li>Storage condition: -25 ~ 70℃, ≤45%RH.</li>
+  <li>Optimal operating condition：0~50℃, 55±10%RH.</li>
+  <li>SH2.0-4P sensor interface is perfectly compatible with QuickLink series sensors.</li>
+  <li>2*20 Pin Female Header, perfectly compatible with Raspberry PI.</li>
+  <li>Compatible with Arduino, we provide development frameworks and libraries.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://heltec.org/project/vision-master-e290/">Heltec Automation</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/heltec_vision_master_e290/</guid>
+  </item><item>
+    <title>Daisy Seed</title>
+    <link>https://circuitpython.org/board/daisy_seed_with_sdram/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/daisy_seed_with_sdram.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/daisy_seed_with_sdram.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/daisy_seed_with_sdram.jpg" alt="Image of Board" loading="lazy">
+<p>By Electrosmith</p> <p>Daisy is an embedded platform for music. It features everything you need for creating high fidelity audio hardware devices. Just plug in a USB cable and start making sound! Programming the Daisy is a breeze with support for a number of languages including C++, Arduino, and Max/MSP Gen~. To get started, simply upload an example program over USB, and start tweaking!</p>
+
+<p><strong>Documentation, design files, and assets are hosted on our <a href="https://daisy.audio/hardware/Seed/">Daisy Support Site</a>.</strong></p>
+
+<p>All firmware that we develop is released for free under a permissive open source license.</p>
+
+<ul>
+  <li>Stereo audio IO - 96kHz / 24-bit audio hardware (AC-Coupled)</li>
+  <li>Programmable in: C++, Arduino, Max/MSP gen~, Pure Data</li>
+  <li>x31 GPIO, x12 ADC inputs (16-bit), x2 DAC outputs (12-bit, DC-Coupled)</li>
+  <li>ARM Cortex-M7 MCU, running at 480MHz</li>
+  <li>64MB of SDRAM for up to 10 minute long audio buffers, 8MB external flash</li>
+  <li>SD card interface, PWM outputs, and various serial protocols for external devices (SPI, UART, SAI/I2S, I2C)</li>
+  <li>Dedicated VIN pin for external power</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://electro-smith.com/products/daisy-seed">Electrosmith</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/daisy_seed_with_sdram/</guid>
+  </item><item>
+    <title>Fruit Jam - Mini RP2350 Computer</title>
+    <link>https://circuitpython.org/board/adafruit_fruit_jam/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/adafruit_fruit_jam.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/adafruit_fruit_jam.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/adafruit_fruit_jam.jpg" alt="Image of Board" loading="lazy">
+<p>By Adafruit</p> <p>We were catching up on a recent <a href="https://hackaday.io/event/202122-raspberry-pi-hack-chat-with-eben-upton">hackaday hackchat with eben upton</a> and learned some fun facts: such as the DVI hack for the RP2040 was inspired by <a href="https://www.hackster.io/news/ichigojam-combines-strawberry-and-raspberry-to-deliver-a-raspberry-pi-pico-powered-educational-micro-66aa5d2f6eec">a device called the IchigoJam</a>. we remember reading about this back when it was an LPC1114, now it uses an RP2040. well, we’re wrapping up the <a href="https://www.adafruit.com/product/6003">Metro RP2350</a> and lately we’ve been joking around that with DVI output and USB Host support via bit-banged PIO, you could sorta build a little stand-alone computer.</p>
+
+<p>Well, one pear-green-tea-fueled-afternoon later we tried our hand at designing a ‘credit card sized’ computer - that’s 3.375” x 2.125”, <a href="https://hackaday.com/2024/05/07/the-2024-business-card-challenge-starts-now/">about the same size as a business card</a> and turns out there’s even a standard named for it: <a href="https://www.iso.org/standard/70483.html">ISO/IEC 7810 ID-1</a>.</p>
+
+<p>Anyhow, with the extra pins of the QFN-80 RP2350B, we’re able to jam a ridonkulous amount of hardware into this shape:</p>
+
+<ul>
+  <li>RP2350B dual 150MHz Cortex M33</li>
+  <li>PicoProbe debug port</li>
+  <li>16 MB Flash + 8 MB PSRAM - the PSRAM will help when we want do do things like run emulations that we need to store in fast RAM access, and also let us use the main SRAM as the DVI video buffer.</li>
+  <li>USB type C for bootloading/USB client</li>
+  <li>Micro SD card with SPI or SDIO</li>
+  <li>DVI output on the HSTX port</li>
+  <li>I2S stereo headphone + mono speaker via the <a href="https://www.digikey.com/en/products/detail/texas-instruments/tlv320dac3100irhbt/2353656">TLV320DAC3100</a></li>
+  <li>2-port USB type A hub for both keyboard and mouse or game controllers</li>
+  <li>Chunky on-off switch</li>
+  <li>Stemma QT I2C</li>
+  <li>Stemma classic JST 3-pin</li>
+  <li>EYESPI for TFT displays</li>
+  <li>5x NeoPixels</li>
+  <li>3x tactile switches</li>
+  <li>16-pin socket header with 10 A/D GPIO + 5V/3V/GND power pins.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/6200">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_fruit_jam/</guid>
+  </item><item>
     <title>Elecrow CrowPanel 4.2</title>
     <link>https://circuitpython.org/board/elecrow_crowpanel_4_2_epaper/</link>
     <description><![CDATA[ 
@@ -2928,11 +3584,12 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/adafruit_metro_rp2350.jpg" alt="Image of Board" loading="lazy">
-<p>By Adafruit</p> <p>Choo! Choo! This is the RP2350 Metro Line, making all station stops at “Dual Cortex M33 mountain”, “520K RAM round-about” and “16 Megabytes of Flash town”. This train is piled high with hardware that complements the Raspberry Pi RP2350 chip to make it an excellent development board for projects that want Arduino-shape-compatibility or just need the extra space and debugging ports.</p>
+<p>By Adafruit</p> <p>Choo! Choo! This is the RP2350 Metro Line, making all station stops at “Dual Cortex M33 mountain”, “520K RAM round-about” and “16 Megabytes of Flash town” and available with a bonus stop at “8 Megabytes of PSRAM village”. This train is piled high with hardware that complements the Raspberry Pi RP2350 chip to make it an excellent development board for projects that want Arduino-shape-compatibility or just need the extra space and debugging ports.</p>
 
 <ul>
   <li>RP2350 main chip, 150MHz clock, 3.3V logic</li>
   <li>16 MB of QSPI flash for program storage</li>
+  <li>Available with 8 MB of QSPI PSRAM for extra dynamic memory</li>
   <li>24 GPIO, 8 of which are also analog inputs</li>
   <li>Micro SD card socket wired up for SPI interfacing, also has extra pins connected for advanced-user SDIO interfacing (note that there’s no released usage code for SDIO in Arduino/Python, so this is a super-cutting-edge setup)</li>
   <li>Onboard RGB NeoPixel</li>
@@ -2949,6 +3606,47 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
 </ul>
 
 <p>You may be wondering about the RX-TX switch: we added this because traditional Arduino board start counting the GPIO for the digital pins with 0-7 and then 8-13. However, the D0/D1 pins are also traditionally the hardware UART Serial1, where D0 is Rx and D1 is Tx. On the RP2350, however, the UART pins are the other around: D0 is Tx and D1 is Rx. Thus a DPDT switch: flip one way to have the GPIO go in order of 0-7, flip the other way to have the logical locations of the hardware UART correct but now the pin order is 1, 0, 2, 3..7. Of course, it’s also handy if, like us, you often swap the pins - now you don’t need to require or cut/solder traces!</p>
+
+<p><strong>Inside the RP2350 is a ‘permanent ROM’ USB UF2 bootloader</strong>. What that means is when you want to program new firmware, you can hold down the BOOTSEL button while plugging it into USB (or pulling down the RUN/Reset pin to ground) and it will appear as a USB disk drive you can drag the firmware onto. Folks who have been using Adafruit products will find this very familiar - we use the technique on all our native-USB boards. Just note you don’t double-click reset instead hold down BOOTSEL during boot to enter the bootloader!</p>
+
+<p><strong>There is great <a href="https://github.com/raspberrypi/pico-sdk">C/C++ support</a>, <a href="https://learn.adafruit.com/rp2040-arduino-with-the-earlephilhower-core">unofficial (but really good) Arduino support,</a> an official <a href="https://github.com/micropython/micropython">MicroPython port</a>, and a <a href="https://circuitpython.org/downloads">CircuitPython port</a>!</strong> We of course <a href="https://learn.adafruit.com/welcome-to-circuitpython">recommend CircuitPython because we think it’s the easiest way to get started</a> and it has support with most of our drivers, displays, sensors, and more, supported out of the box so you can follow along with our CircuitPython projects and tutorials.</p>
+
+<p>While the RP2350 has lots of onboard RAM, it does not have built-in FLASH memory. Instead, that is provided by the external QSPI flash chip. <strong>On this board there is 16 MB</strong>, which is shared between the program it’s running and any file storage used by MicroPython or CircuitPython. When using C/C++ you get the whole flash memory, if using Python you will have about 14 MB remaining for code, files, images, fonts, etc.</p>
+
+<p><strong>RP2350 Chip features:</strong></p>
+
+<ul>
+  <li>Dual ARM Cortex-M33 with floating point unit <em>or</em> Dual RISC-V @ 150MHz</li>
+  <li>520 kB on-chip SRAM</li>
+  <li>8 kB of one-time-programmable (OTP) memory.</li>
+  <li>Support for up to 16MB of off-chip Flash memory via dedicated QSPI bus</li>
+  <li>Support for external QSPI PSRAM</li>
+  <li>DMA controller, 16 channel, 4 IRQ</li>
+  <li>Fully-connected AHB crossbar</li>
+  <li>On-chip switched-mode power supply and programmable low-dropout regulator (LDO) to generate core voltage</li>
+  <li>Two on-chip PLLs to generate 48 MHz USB and 150MHz core clocks</li>
+  <li>Optional boot signing with protected OTP storage</li>
+  <li>Hardware SHA-256 accelerator</li>
+  <li>Hardware random number generator (TRNG)</li>
+  <li>48 GPIO pins, 8 of which can be used as analog inputs</li>
+  <li>Peripherals
+    <ul>
+      <li>2 UARTs</li>
+      <li>2 SPI controllers</li>
+      <li>2 I2C controllers</li>
+      <li>24 PWM channels (compared to 16 on RP2040)</li>
+      <li>USB 1.1 controller and PHY, with host and device support</li>
+      <li>12 PIO state machines</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/6003">Adafruit (No PSRAM)</a></li>
+  <li><a href="https://www.adafruit.com/product/6267">Adafruit (8MB PSRAM)</a></li>
+</ul>
  ]]></description>
     
     <category>CircuitPython</category>
@@ -3970,6 +4668,40 @@ USB to UART bridge, single chip USB to UART bridge, providing a transfer rate of
     
     <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/nodemcu_esp32c2/</guid>
+  </item><item>
+    <title>T-Display S3 Pro</title>
+    <link>https://circuitpython.org/board/lilygo_tdongle_s3/</link>
+    <description><![CDATA[ 
+
+<img srcset="https://circuitpython.org/assets/images/boards/small/lilygo_tdongle_s3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/lilygo_tdongle_s3.jpg 700w"
+     sizes="(max-width: 1024px) 700px,
+            300px"
+     src="https://circuitpython.org/assets/images/boards/large/lilygo_tdongle_s3.jpg" alt="Image of Board" loading="lazy">
+<p>By LILYGO</p> <p>ESP32-S3 Development Board With Screen 0.96 inch ST7735 LCD Display</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>ESP32-S3 Xtensa LX7 microprocessor</li>
+  <li>Wi-Fi 802.11 b/g/n, bluetooth5</li>
+  <li>Arduino-ide、PlatformlO-ide、Micropython</li>
+  <li>16M Flash, Boot button, TF card</li>
+  <li>0.96 inch ST7735 IPS LCD</li>
+  <li>Full color (65k) Display, 4-Wire SPI interface</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://lilygo.cc/products/t-dongle-s3">LILYGO Own Store</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/lilygo_tdongle_s3/</guid>
   </item><item>
     <title>T-Display S3 Pro</title>
     <link>https://circuitpython.org/board/lilygo_tdisplay_s3_pro/</link>
@@ -13224,7 +13956,7 @@ up to 240 MHz; 2.4G Wi-Fi + Bluetooth LE; RISC-V Ultra Low Power Co-processor; <
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/nucleo_f446re.jpg" alt="Image of Board" loading="lazy">
-<p>By ST</p> <p>The STM32 Nucleo-64 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the external SMPS significantly reduces power consumption in Run mode.</p>
+<p>By STMicroelectronics</p> <p>The STM32 Nucleo-64 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the external SMPS significantly reduces power consumption in Run mode.</p>
 
 <p>The ARDUINO® Uno V3 connectivity support and the ST morpho headers allow the easy expansion of the functionality of the STM32 Nucleo open development platform with a wide choice of specialized shields.</p>
 
@@ -24798,7 +25530,7 @@ TrustZone technology support</li>
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/stm32f746g_discovery.jpg" alt="Image of Board" loading="lazy">
-<p>By ST</p> <p>The STM32F746 Discovery kit from ST.</p>
+<p>By STMicroelectronics</p> <p>The STM32F746 Discovery kit from ST.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
@@ -24821,7 +25553,7 @@ TrustZone technology support</li>
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/nucleo_f746zg.jpg" alt="Image of Board" loading="lazy">
-<p>By ST</p> <p>The STM32F746 Nucleo dev board from ST.</p>
+<p>By STMicroelectronics</p> <p>The STM32F746 Nucleo dev board from ST.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
@@ -25089,7 +25821,7 @@ An FPGA is an Array of Gates that is Field-Programmable. When you buy a chip suc
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/nucleo_f767zi.jpg" alt="Image of Board" loading="lazy">
-<p>By ST</p> <p>The STM32F767 Nucleo dev board from ST.</p>
+<p>By STMicroelectronics</p> <p>The STM32F767 Nucleo dev board from ST.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
@@ -25112,7 +25844,7 @@ An FPGA is an Array of Gates that is Field-Programmable. When you buy a chip suc
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/nucleo_h743zi_2.jpg" alt="Image of Board" loading="lazy">
-<p>By ST</p> <p>The STM32H743 Nucleo dev board from ST.</p>
+<p>By STMicroelectronics</p> <p>The STM32H743 Nucleo dev board from ST.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
@@ -27725,7 +28457,7 @@ We tested this in Arduino STM32duino with all our FeatherWings and only the RFM6
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/stm32f407.jpg" alt="Image of Board" loading="lazy">
-<p>By ST</p> <p>The STM32F4DISCOVERY kit leverages the capabilities of the STM32F407 high performance microcontrollers, to allow users to easily develop applications featuring audio.</p>
+<p>By STMicroelectronics</p> <p>The STM32F4DISCOVERY kit leverages the capabilities of the STM32F407 high performance microcontrollers, to allow users to easily develop applications featuring audio.</p>
 
 <p>It includes an ST-LINK embedded debug tool, one ST-MEMS digital accelerometer, a digital microphone, one audio DAC with integrated class D speaker driver, LEDs, push-buttons and an USB OTG micro-AB connector.</p>
 
@@ -27803,7 +28535,7 @@ We tested this in Arduino STM32duino with all our FeatherWings and only the RFM6
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/stm32f412.jpg" alt="Image of Board" loading="lazy">
-<p>By ST</p> <p>The STM32F412 Discovery kit (32F412GDISCOVERY) allows users to easily develop applications with the STM32F412 high performance MCUs with ARM® Cortex®-M4 core.</p>
+<p>By STMicroelectronics</p> <p>The STM32F412 Discovery kit (32F412GDISCOVERY) allows users to easily develop applications with the STM32F412 high performance MCUs with ARM® Cortex®-M4 core.</p>
 
 <p>The Discovery kit combines STM32F412 features with 1.54 inch 240x240 pixel TFT color LCD with touchscreen, LEDs, Wakeup button, I2S Audio Codec, MEMS microphones, USB OTG FS, Quad-SPI NOR Flash memory, MicroSD™ card connector.</p>
 
@@ -27834,7 +28566,7 @@ We tested this in Arduino STM32duino with all our FeatherWings and only the RFM6
      sizes="(max-width: 1024px) 700px,
             300px"
      src="https://circuitpython.org/assets/images/boards/large/stm32f411.jpg" alt="Image of Board" loading="lazy">
-<p>By ST</p> <p>The Discovery kit for STM32F411 line helps you to discover the entry level microcontrollers of the STM32 F4 series and to develop your applications easily. It offers everything required for beginners and experienced users to get started quickly.</p>
+<p>By STMicroelectronics</p> <p>The Discovery kit for STM32F411 line helps you to discover the entry level microcontrollers of the STM32 F4 series and to develop your applications easily. It offers everything required for beginners and experienced users to get started quickly.</p>
 
 <p>Based on the STM32F411VET6, it includes an ST-LINK/V2 embedded debug tool, a gyroscope, an e-compass and digital microphone ST MEMs, an audio DAC with an integrated class D speaker driver, an OTG micro-AB connector, LEDs and push-buttons.</p>
 
