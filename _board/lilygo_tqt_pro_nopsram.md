@@ -1,7 +1,7 @@
 ---
 layout: download
 board_id: "lilygo_tqt_pro_nopsram"
-title: "TQ-T Pro Download"
+title: "TQ-T Pro (No PSRAM) Download"
 name: "TQ-T Pro"
 manufacturer: "LILYGO"
 board_url:
