@@ -1708,7 +1708,7 @@
         ]
     },
     "lilygo_tqt_pro_psram": {
-        "name": "TQ-T Pro",
+        "name": "TQ-T Pro (with PSRAM)",
         "chipfamily": "esp32s3",
         "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lilygo_tqt_pro_psram-0.21.0.zip",
         "releases": [
@@ -2323,7 +2323,7 @@
         ]
     },
     "lilygo_tqt_pro_nopsram": {
-        "name": "TQ-T Pro",
+        "name": "TQ-T Pro (No PSRAM)",
         "chipfamily": "esp32s3",
         "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/tinyuf2-lilygo_tqt_pro_nopsram-0.21.0.zip",
         "releases": [
