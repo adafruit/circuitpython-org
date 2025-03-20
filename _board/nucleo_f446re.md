@@ -3,7 +3,7 @@ layout: download
 board_id: "nucleo_f446re"
 title: "STM32F446RE Nucleo Download"
 name: "STM32F446RE Nucleo"
-manufacturer: "ST"
+manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/en/evaluation-tools/nucleo-f446re.html"
 board_image: "nucleo_f446re.jpg"

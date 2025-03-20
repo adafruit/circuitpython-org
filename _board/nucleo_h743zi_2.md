@@ -3,7 +3,7 @@ layout: download
 board_id: "nucleo_h743zi_2"
 title: "STM32H743 Nucleo Download"
 name: "STM32H743 Nucleo"
-manufacturer: "ST"
+manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-h743zi.html"
 board_image: "nucleo_h743zi_2.jpg"

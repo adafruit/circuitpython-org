@@ -13,6 +13,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - Castellated Pads
+  - Raspberry Pi Pico Form Factor
 ---
 
 Need more Flash for Raspberry Pi Pico? Dislike the outdated Micro USB connector? All these problems are solved by our **RP2040-Plus** now.

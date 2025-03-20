@@ -29,11 +29,13 @@ features:
   - Feather-Compatible
   - GPS
   - LoRa/Radio
+  - Raspberry Pi Pico Form Factor
   - Robotics
   - Solder-Free Alligator Clip
   - Speaker
   - STEMMA QT/QWIIC
   - USB-C
+  - USB Host
   - Wi-Fi
   - Xiao / QTPy Form Factor
 ---
