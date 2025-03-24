@@ -83,7 +83,8 @@
         img {
           height: 90px;
           width: 90px;
-          padding: 10px;
+          aspect-ratio: auto;
+          object-fit: none;
           background-color: rgba(0, 0, 0, 0.7);
           border-radius: 10px;
         }
