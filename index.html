@@ -17,21 +17,8 @@ layout: home
         <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
       </div>
     </div>
-    <div class="image">
-      {% assign guide = site.data.guides | sample %}
-      <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
-                                src="{{ guide.image }}"
-        />
-      <span class="image-title">
-        <span>
-          <p><a href="{{ guide.guide_url }}">{{ guide.title }} by {{ guide.author }}</a></p>
-        </span>
-        <img alt="Made with CircuitPython Logo"
-                                  src="{{ "assets/images/made_with_circuitpython.svg" |
-                                          relative_url }}"
-          />
-      </span>
-    </div>
+    {% assign learn_block_index = 0 %}
+    {% include index/learn_block.html index=learn_block_index %}
   </div>
 
   <div class="one-column-content">
@@ -96,21 +83,8 @@ layout: home
   </div>
 
   <div class="two-column-content">
-    <div class="image">
-      {% assign guide = site.data.guides | sample %}
-      <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
-                                src="{{ guide.image }}"
-        />
-      <span class="image-title">
-        <span>
-          <p><a href="{{ guide.guide_url }}">{{ guide.title }} by {{ guide.author }}</a></p>
-        </span>
-        <img alt="Made with CircuitPython Logo"
-                                  src="{{ "assets/images/made_with_circuitpython.svg" |
-                                          relative_url }}"
-          />
-      </span>
-    </div>
+    {% assign learn_block_index = learn_block_index | plus: 1 %}
+    {% include index/learn_block.html index=learn_block_index %}
     <div class="text">
       <h2>Easily manage and use over 500+ Python libraries.</h2>
       <div class="tagline">
@@ -136,39 +110,13 @@ layout: home
         <a href="{{ "downloads" | relative_url }}">See them all</a>
       </div>
     </div>
-    <div class="image">
-      {% assign guide = site.data.guides | sample %}
-      <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
-                                src="{{ guide.image }}"
-        />
-      <span class="image-title">
-        <span>
-          <p><a href="{{ guide.guide_url }}">{{ guide.title }} by {{ guide.author }}</a></p>
-        </span>
-        <img alt="Made with CircuitPython Logo"
-                                  src="{{ "assets/images/made_with_circuitpython.svg" |
-                                          relative_url }}"
-          />
-      </span>
-    </div>
+    {% assign learn_block_index = learn_block_index | plus: 1 %}
+    {% include index/learn_block.html index=learn_block_index %}
   </div>
 
   <div class="two-column-content">
-    <div class="image">
-      {% assign guide = site.data.guides | sample %}
-      <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
-                                src="{{ guide.image }}"
-        />
-      <span class="image-title">
-        <span>
-          <p><a href="{{ guide.guide_url }}">{{ guide.title }} by {{ guide.author }}</a></p>
-        </span>
-        <img alt="Made with CircuitPython Logo"
-                                  src="{{ "assets/images/made_with_circuitpython.svg" |
-                                          relative_url }}"
-          />
-      </span>
-    </div>
+    {% assign learn_block_index = learn_block_index | plus: 1 %}
+    {% include index/learn_block.html index=learn_block_index %}
     <div class="text">
       <h2>CircuitPython libraries on single board computers</h2>
       <div class="tagline">
