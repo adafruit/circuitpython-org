@@ -156,6 +156,10 @@
 }
 
 @media only screen and (max-width: variables.$screen-md) {
+  .hidden-tablet {
+    display: none;
+  }
+
   #home-page {
     .two-column-content {
       .text {
