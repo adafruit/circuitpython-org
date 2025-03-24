@@ -68,6 +68,15 @@
             font-size: 24px;
             border-radius: 10px;
             background-color: rgba(0, 0, 0, 0.7);
+
+            a {
+              color: #fff;
+              text-decoration: none;
+
+              &:visited {
+                color: #fff;
+              }
+            }
           }
         }
 
@@ -126,8 +135,19 @@
   #home-page {
     .two-column-content {
       .text {
+        padding: 20px;
+
         h1 {
           font-size: 2.5em;
+        }
+
+        h2 {
+          font-size: 1.5em;
+          margin-top: 0;
+        }
+
+        .tagline {
+          font-size: 1.2em;
         }
       }
     }
@@ -142,6 +162,16 @@
 
         h1 {
           font-size: 1.5em;
+          margin: 0;
+          padding: 0;
+        }
+
+        h2 {
+          font-size: 1.2em;
+        }
+
+        .tagline {
+          font-size: 1em;
           margin: 0;
           padding: 0;
         }
