@@ -144,8 +144,9 @@
         .download-modules {
           // three column grid
           display: grid;
-          font-size: 12px;
           grid-template-columns: repeat(3, 1fr);
+          font-size: 12px;
+          padding-top: 1em;
         }
       }
 
