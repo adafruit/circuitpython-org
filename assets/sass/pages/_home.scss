@@ -20,7 +20,11 @@
       h1 {
         font-size: 3.5em;
         font-weight: 500;
-        margin-bottom: 0.5em;
+        margin: 0 0 0.5em 0;
+      }
+
+      h2 {
+        margin-top: 0;
       }
 
       .tagline {
@@ -49,7 +53,7 @@
 
       .image-title {
         position: absolute;
-        bottom: 20px;
+        bottom: 25px;
         left: 20px;
         right: 20px;
         display: flex;
