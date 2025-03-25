@@ -12,6 +12,7 @@ family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly
+  - Raspberry Pi Pico Form Factor
 ---
 
 The Raspberry Pi Pico is a microcontroller board based on the Raspberry Pi RP2040 microcontroller chip. It has been designed to be a low-cost, high-performance microcontroller board with flexible digital interfaces. The Raspberry Pi Pico features two ARM Cortex-M0+ cores run up to 133MHz; 256KB RAM; 30 GPIO pins; and a broad range of interfacing options. This is paired with 2MB/4MB/8MB/16MB of onboard QSPI Flash memory for code and data storage.

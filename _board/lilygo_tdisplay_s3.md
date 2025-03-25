@@ -7,6 +7,7 @@ manufacturer: "LILYGO"
 board_url:
  - "https://www.lilygo.cc/products/t-display-s3"
 board_image: "lilygo_tdisplay_s3.jpg"
+bootloader_id: lilygo_tdisplay_s3
 date_added: 2024-03-09
 family: esp32s3
 features:

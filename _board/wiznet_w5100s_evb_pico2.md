@@ -12,6 +12,7 @@ family: rp2350
 features:
   - Breadboard-Friendly
   - Castellated Pads
+  - Raspberry Pi Pico Form Factor
 ---
 
 W5100S-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and fully hardwired TCP/IP controller W5100S – enhancing the capabilities of the traditional Raspberry Pi Pico board with additional Ethernet functionality via W5100S.

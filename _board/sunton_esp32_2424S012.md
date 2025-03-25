@@ -6,10 +6,10 @@ name: "Sunton ESP32-2424S012"
 manufacturer: "Sunton"
 board_image: "sunton_esp32_2424S012.jpg"
 date_added: 2024-03-29
-family: esp32
+family: esp32c3
 ---
 
-Sunton ESP32-2424S012 Development Board, Based on ESP32-C3 MCU. With 1.28" 65K Color Touch LCD. Supports Wifi & Bluetooth. 
+Sunton ESP32-2424S012 Development Board, Based on ESP32-C3 MCU. With 1.28" 65K Color Touch LCD. Supports Wifi & Bluetooth.
 
 ## Technical details
 
@@ -21,4 +21,3 @@ Sunton ESP32-2424S012 Development Board, Based on ESP32-C3 MCU. With 1.28" 65K C
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.com/item/1005006300643795.html)
-

@@ -16,6 +16,7 @@ features:
   - Display
   - USB-C
   - Castellated Pads
+  - Raspberry Pi Pico Form Factor
 ---
 
 RP2350-LCD-0.96 is a low-cost, high-performance Pico-like MCU board with flexible digital interfaces. It incorporates Raspberry Pi's RP2350A microcontroller chip, the same as the one on Raspberry Pi Pico 2. For software development, either Raspberry Pi's C/C++ SDK, or the MicroPython is available, which makes it easy for you to get started, and integrate it into end products quickly.

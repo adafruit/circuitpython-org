@@ -3,7 +3,7 @@ layout: download
 board_id: "stm32f412zg_discovery"
 title: "STM32F412 Discovery kit Download"
 name: "STM32F412 Discovery kit"
-manufacturer: "ST"
+manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/en/evaluation-tools/32f412gdiscovery.html"
 board_image: "stm32f412.jpg"
