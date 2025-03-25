@@ -40,7 +40,7 @@ jekyll_get_json:
   - data: libraries
     json: "https://adafruit-circuit-python.s3.amazonaws.com/adabot/web/libraries.v2.json"
   - data: guides
-    json: "https://learn.adafruit.com/api/categories/circuitpython.json?count=50&guides_only=true&random=true"
+    json: "https://learn.adafruit.com/api/categories/circuitpython.json?count=50&filter=guides_only,random,exclude_product"
 
 ### Exclude from processing.
 exclude:
