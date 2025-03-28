@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>FT232H</h1>
-  <h3>by Adafruit</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/ft232h.jpg" alt="Image of Board">
-        <p>
-          <p>Wouldn’t it be cool to drive a tiny OLED display, read a color sensor, or even just flash some LEDs directly from your computer?  Sure you can program an Arduino or Trinket to talk to these devices and your computer, but why can’t your computer just talk to those devices and sensors itself?  Well, now your computer can talk to devices using the Adafruit FT232H breakout board!</p>
+        <img src="/assets/images/boards/large/ft232h.jpg" alt="Image of Board" />
+        <h1>FT232H by Adafruit</h1>
+      </div>
+      <div class="section">
+        <p><p>Wouldn’t it be cool to drive a tiny OLED display, read a color sensor, or even just flash some LEDs directly from your computer?  Sure you can program an Arduino or Trinket to talk to these devices and your computer, but why can’t your computer just talk to those devices and sensors itself?  Well, now your computer can talk to devices using the Adafruit FT232H breakout board!</p>
 
 <p>What can the FT232H chip do?  This chip from FTDI is similar to their USB to serial converter chips but adds a ‘multi-protocol synchronous serial engine’ which allows it to speak many common protocols like SPI, I2C, serial UART, JTAG, and more!  There’s even a handful of digital GPIO pins that you can read and write to do things like flash LEDs, read switches or buttons, and more.  The FT232H breakout is like adding a little swiss army knife for serial protocols to your computer!</p>
 
@@ -153,15 +150,19 @@
 <ul>
   <li><a href="https://www.adafruit.com/product/2264">Adafruit</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/ft232h.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/ft232h.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -181,8 +182,7 @@
   </div>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

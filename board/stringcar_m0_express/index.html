@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a  href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,36 +128,39 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>StringCar M0 Express</h1>
-  <h3>by Cedar Grove Studios</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/stringcar_m0_express.jpg" alt="Image of Board">
-        <p>
-          <p>The Cedar Grove StringCar M0 Express is an ATSAMD21-based CircuitPython compatible board used to control a simple string car racer robot. The board is architecturally similar to the Adafruit Trinket M0 and ItsyBitsy M0 Express microcontroller boards with the addition of battery management and a DC motor controller. This board features JST connectors for the racer’s battery, motor output, and sensor input. LiPo battery management charge rate is 500mA. For sensor experimentation, a 3.3-volt Stemma-QT connection is available on-board. The micro-USB connector used for REPL operation, operational status data output, and battery charging. On-board flash memory size is 2MB.</p>
+        <img src="/assets/images/boards/large/stringcar_m0_express.jpg" alt="Image of Board" />
+        <h1>StringCar M0 Express by Cedar Grove Studios</h1>
+      </div>
+      <div class="section">
+        <p><p>The Cedar Grove StringCar M0 Express is an ATSAMD21-based CircuitPython compatible board used to control a simple string car racer robot. The board is architecturally similar to the Adafruit Trinket M0 and ItsyBitsy M0 Express microcontroller boards with the addition of battery management and a DC motor controller. This board features JST connectors for the racer’s battery, motor output, and sensor input. LiPo battery management charge rate is 500mA. For sensor experimentation, a 3.3-volt Stemma-QT connection is available on-board. The micro-USB connector used for REPL operation, operational status data output, and battery charging. On-board flash memory size is 2MB.</p>
 
 <p>The StringCar M0 Express board will not be sold. The GitHub repository will contain all design files and links for the BOM and the shared OSH Park project.</p>
 
 <p>The string car racer is a simple one-motor robot that is suspended from a string using a pulley attached to the motor shaft. Its challenge is to race back and forth from one end of a taut string to the other. The fastest car wins. The controller board uses sensor switches to detect the ends of the string, calculate the string length, then control motor speed and braking to avoid string-end collisions.</p>
 
 <p>The objective is to create a string car racer that can autonomously learn about its environment and adjust tradeoffs for speed and battery longevity. CircuitPython is used to easily add and interactively adjust performance features such as motor and battery efficiency, end-of-string collision avoidance, string length calculation, and predictive braking. Also, being able to watch its own battery status means that it’ll always return to the home end of the string when battery capacity begins to wane. Circuit Python also supports libraries that abstract string car functions, simplifying the primary code module to make it easier for novice programmers to get involved in customizing  string car racer operation.</p>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/stringcar_m0_express.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_board/stringcar_m0_express.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
       
-        
+      
 
 
 
@@ -176,18 +178,14 @@
     
     <p>
       This is the latest <strong>stable</strong> release of CircuitPython that will work with the StringCar M0 Express.
-    </p>
-    <p>
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
     
     
-    <div class="release-details">
-      <p>
-        <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
-      </p>
-      
-    </div>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
+    </p>
+
     <div class="download-details">
       
       
@@ -429,229 +427,230 @@
       </div>
     </div>
     
-    <p>
-        Built-in modules available:
+    
+    <details>
+        <summary>Modules included in this download</summary>
         <span class="download-modules stable">
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/adafruit_pixelbuf">
           
-            adafruit_pixelbuf</a>, 
+            adafruit_pixelbuf</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/analogio">
           
-            analogio</a>, 
+            analogio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/array">
           
-            array</a>, 
+            array</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiobusio">
           
-            audiobusio</a>, 
+            audiobusio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiocore">
           
-            audiocore</a>, 
+            audiocore</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audioio">
           
-            audioio</a>, 
+            audioio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/board">
           
-            board</a>, 
+            board</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/builtins">
           
-            builtins</a>, 
+            builtins</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busdisplay">
           
-            busdisplay</a>, 
+            busdisplay</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio">
           
-            busio</a>, 
+            busio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.SPI">
           
-            busio.SPI</a>, 
+            busio.SPI</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.UART">
           
-            busio.UART</a>, 
+            busio.UART</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/codeop">
           
-            codeop</a>, 
+            codeop</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/collections">
           
-            collections</a>, 
+            collections</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/digitalio">
           
-            digitalio</a>, 
+            digitalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/displayio">
           
-            displayio</a>, 
+            displayio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/epaperdisplay">
           
-            epaperdisplay</a>, 
+            epaperdisplay</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/errno">
           
-            errno</a>, 
+            errno</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fontio">
           
-            fontio</a>, 
+            fontio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fourwire">
           
-            fourwire</a>, 
+            fourwire</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/i2cdisplaybus">
           
-            i2cdisplaybus</a>, 
+            i2cdisplaybus</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/locale">
           
-            locale</a>, 
+            locale</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/math">
           
-            math</a>, 
+            math</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/microcontroller">
           
-            microcontroller</a>, 
+            microcontroller</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/neopixel_write">
           
-            neopixel_write</a>, 
+            neopixel_write</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/nvm">
           
-            nvm</a>, 
+            nvm</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/onewireio">
           
-            onewireio</a>, 
+            onewireio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os">
           
-            os</a>, 
+            os</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/paralleldisplaybus">
           
-            paralleldisplaybus</a>, 
+            paralleldisplaybus</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pulseio">
           
-            pulseio</a>, 
+            pulseio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pwmio">
           
-            pwmio</a>, 
+            pwmio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rainbowio">
           
-            rainbowio</a>, 
+            rainbowio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/random">
           
-            random</a>, 
+            random</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rotaryio">
           
-            rotaryio</a>, 
+            rotaryio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rtc">
           
-            rtc</a>, 
+            rtc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
           
-            storage</a>, 
+            storage</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/struct">
           
-            struct</a>, 
+            struct</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/supervisor">
           
-            supervisor</a>, 
+            supervisor</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sys">
           
-            sys</a>, 
+            sys</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/terminalio">
           
-            terminalio</a>, 
+            terminalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/time">
           
-            time</a>, 
+            time</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/touchio">
           
-            touchio</a>, 
+            touchio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_cdc">
           
-            usb_cdc</a>, 
+            usb_cdc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_hid">
           
-            usb_hid</a>, 
+            usb_hid</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/warnings">
@@ -659,7 +658,7 @@
             warnings</a>
           
         </span>
-    </p>
+    </details>
     
     
     
@@ -712,8 +711,7 @@
 
 
 
-
-      
+ 
     </div>
   </div>
 </div>

@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>ODROID C4</h1>
-  <h3>by Hardkernel co., Ltd.</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/odroid_c4.jpg" alt="Image of Board">
-        <p>
-          <p>ODROID-C4 is a new generation single board computer that is more energy efficient and faster performing than ODROID-C2 which was introduced over four years ago as the world’s first affordable ARM 64bit computer.</p>
+        <img src="/assets/images/boards/large/odroid_c4.jpg" alt="Image of Board" />
+        <h1>ODROID C4 by Hardkernel co., Ltd.</h1>
+      </div>
+      <div class="section">
+        <p><p>ODROID-C4 is a new generation single board computer that is more energy efficient and faster performing than ODROID-C2 which was introduced over four years ago as the world’s first affordable ARM 64bit computer.</p>
 
 <p>The main CPU of the ODROID-C4 is built with a quad-core Cortex-A55 cluster with a new generation Mali-G31 GPU. The A55 cores run at 2.0Ghz without thermal throttling using the stock heat sink allowing a robust and quiet computer. The CPU multi-core performance is around 40% faster, and the system DRAM performance is 50% faster than the ODROID-C2.</p>
 
@@ -167,15 +164,19 @@
 <ul>
   <li><a href="https://www.hardkernel.com/shop/odroid-c4/">Hardkernel</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/odroid_c4.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/odroid_c4.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -190,8 +191,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

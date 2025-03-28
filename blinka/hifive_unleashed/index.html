@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Hifive Unleashed</h1>
-  <h3>by Sifive</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/hifive_unleashed.jpg" alt="Image of Board">
-        <p>
-          <p>We founded SiFive to bring the power of open source to the semiconductor industry. We do this not only by supporting the RISC-V specification, but also by implementing the specification and getting usable chips into the hands of developers as quickly as we can. We did exactly that just over a year ago when we introduced the open source, Arduino-compatible HiFive1 dev board based on our Freedom Everywhere line of 32-bit microcontrollers. Today, we’re proud to be doing the same thing with our Freedom Unleashed 64-bit, Linux-capable system-on-chip (SoC) platform. Meet the HiFive Unleashed, the world’s first RISC-V-based, Linux-capable development board.</p>
+        <img src="/assets/images/boards/large/hifive_unleashed.jpg" alt="Image of Board" />
+        <h1>Hifive Unleashed by Sifive</h1>
+      </div>
+      <div class="section">
+        <p><p>We founded SiFive to bring the power of open source to the semiconductor industry. We do this not only by supporting the RISC-V specification, but also by implementing the specification and getting usable chips into the hands of developers as quickly as we can. We did exactly that just over a year ago when we introduced the open source, Arduino-compatible HiFive1 dev board based on our Freedom Everywhere line of 32-bit microcontrollers. Today, we’re proud to be doing the same thing with our Freedom Unleashed 64-bit, Linux-capable system-on-chip (SoC) platform. Meet the HiFive Unleashed, the world’s first RISC-V-based, Linux-capable development board.</p>
 
 <p>Industry skeptics have previously dismissed RISC-V as an academic project, low performance, and only for microcontrollers. HiFive Unleashed, featuring the SiFive Freedom U540 SoC, ends all of that. Linux and RISC-V were meant for each other, and the HiFive Unleashed dev board brings them together for the first time.</p>
 
@@ -160,15 +157,19 @@
 <ul>
   <li><a href="https://www.crowdsupply.com/sifive/hifive-unleashed">Crowd Supply</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/hifive_unleashed.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/hifive_unleashed.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -183,8 +184,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

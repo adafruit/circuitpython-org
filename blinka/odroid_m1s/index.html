@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>ODROID M1S</h1>
-  <h3>by Hardkernel co., Ltd.</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/odroid_m1s.jpg" alt="Image of Board">
-        <p>
-          <p>We launched ODROID-M1 about 20 months ago and have supplied it to many B2B and B2C customers. Feedback from many customers requested a lower price, more GPIO ports, lower power consumption, a slimmer form factor, and a variety of practical peripherals.</p>
+        <img src="/assets/images/boards/large/odroid_m1s.jpg" alt="Image of Board" />
+        <h1>ODROID M1S by Hardkernel co., Ltd.</h1>
+      </div>
+      <div class="section">
+        <p><p>We launched ODROID-M1 about 20 months ago and have supplied it to many B2B and B2C customers. Feedback from many customers requested a lower price, more GPIO ports, lower power consumption, a slimmer form factor, and a variety of practical peripherals.</p>
 
 <p>We would like to introduce you to the ODROID-M1S which was developed over the past six months to respond to market demands. We made the board about 20% thinner, reduced power consumption by about 20%, added 14 header pins, and a built-in 64GB eMMC chip on the board. We have lowered the price to only $49 including a case, heatsink, and power adapter. We believe this will help significantly reduce the cost of building your own affordable and sustainable embedded systems. To ensure longevity, which is important to customers using it for industrial purposes, we will supply this product until at least 2036.</p>
 
@@ -176,15 +173,19 @@
 <ul>
   <li><a href="https://www.hardkernel.com/shop/odroid-m1s-with-8gbyte-ram/">Hardkernel</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/odroid_m1s.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/odroid_m1s.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -199,8 +200,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

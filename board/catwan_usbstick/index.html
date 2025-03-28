@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a  href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>CatWAN USB Stick</h1>
-  <h3>by Electronic Cats</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/catwan_usbstick.jpg" alt="Image of Board">
-        <p>
-          <p>Are you interested in learning how LoRa works at the package level? Debugging your own LoRa hardware and trying to detect where something is wrong? Or maybe you’re writing a custom application for your Internet of Things (IoT) network with LoraWAN?</p>
+        <img src="/assets/images/boards/large/catwan_usbstick.jpg" alt="Image of Board" />
+        <h1>CatWAN USB Stick by Electronic Cats</h1>
+      </div>
+      <div class="section">
+        <p><p>Are you interested in learning how LoRa works at the package level? Debugging your own LoRa hardware and trying to detect where something is wrong? Or maybe you’re writing a custom application for your Internet of Things (IoT) network with LoraWAN?</p>
 
 <p>The CatWAN USB Stick is programmed with a special firmware image that makes it an easy-to-use LoRa sniffer. You can passively capture the data exchanges between two LoRa devices, capturing with our “LoRa Sniffer” the open source network analysis tool that we have created to use together.</p>
 
@@ -151,15 +148,20 @@
 <ul>
   <li><a href="https://electroniccats.com/producto/catwan_usb-stick/">Electronic Cats</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/catwan_usbstick.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_board/catwan_usbstick.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
       
-        
+      
 
 
 
@@ -177,18 +179,14 @@
     
     <p>
       This is the latest <strong>stable</strong> release of CircuitPython that will work with the CatWAN USB Stick.
-    </p>
-    <p>
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
     
     
-    <div class="release-details">
-      <p>
-        <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
-      </p>
-      
-    </div>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
+    </p>
+
     <div class="download-details">
       
       
@@ -430,144 +428,145 @@
       </div>
     </div>
     
-    <p>
-        Built-in modules available:
+    
+    <details>
+        <summary>Modules included in this download</summary>
         <span class="download-modules stable">
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/analogio">
           
-            analogio</a>, 
+            analogio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/array">
           
-            array</a>, 
+            array</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/board">
           
-            board</a>, 
+            board</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/builtins">
           
-            builtins</a>, 
+            builtins</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio">
           
-            busio</a>, 
+            busio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.SPI">
           
-            busio.SPI</a>, 
+            busio.SPI</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.UART">
           
-            busio.UART</a>, 
+            busio.UART</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/collections">
           
-            collections</a>, 
+            collections</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/digitalio">
           
-            digitalio</a>, 
+            digitalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/math">
           
-            math</a>, 
+            math</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/microcontroller">
           
-            microcontroller</a>, 
+            microcontroller</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/neopixel_write">
           
-            neopixel_write</a>, 
+            neopixel_write</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/nvm">
           
-            nvm</a>, 
+            nvm</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os">
           
-            os</a>, 
+            os</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pwmio">
           
-            pwmio</a>, 
+            pwmio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rainbowio">
           
-            rainbowio</a>, 
+            rainbowio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/random">
           
-            random</a>, 
+            random</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rotaryio">
           
-            rotaryio</a>, 
+            rotaryio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rtc">
           
-            rtc</a>, 
+            rtc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
           
-            storage</a>, 
+            storage</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/struct">
           
-            struct</a>, 
+            struct</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/supervisor">
           
-            supervisor</a>, 
+            supervisor</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sys">
           
-            sys</a>, 
+            sys</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/time">
           
-            time</a>, 
+            time</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/touchio">
           
-            touchio</a>, 
+            touchio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_cdc">
           
-            usb_cdc</a>, 
+            usb_cdc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_hid">
           
-            usb_hid</a>, 
+            usb_hid</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_midi">
@@ -575,7 +574,7 @@
             usb_midi</a>
           
         </span>
-    </p>
+    </details>
     
     
     
@@ -628,8 +627,7 @@
 
 
 
-
-      
+ 
     </div>
   </div>
 </div>

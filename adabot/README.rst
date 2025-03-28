@@ -160,45 +160,6 @@ run the following command:
     # the help argument to display usage.
     python3 -m adabot.circuitpython_library_patches -h
 
-
-Making Releases For CircuitPython Libraries
-===========================================
-Adabot includes a utility to check if a library needs a new release
-and to help a human create the release with a CLI instead of the
-web interface.
-
-To use it:
-
-1. Clone the adabot repo locally and open a terminal inside of it
-2. Run ``pip install .`` in the root of Adabot repo to install it via pip
-3. Clone the library repo locally
-4. ``cd`` into the library repo
-5. run ``python -m adabot.circuitpython_library_release``
-6. Answer the prompts for new tag name and title.
-
-This utility can be used in conjunction with ``git submodule foreach`` inside of the
-CircuitPython Library Bundle.
-
-These are the steps for that process:
-
-1. Clone the adabot repo locally and open a terminal inside of it
-2. If you want to use the same title for all libraries (i.e. due to a patch rollout)
-   then modify the ``RELEASE_TITLE`` dictionary value at the top
-   of ``adabot/circuitpython_library_release.py``
-3. Run ``pip install .`` in the root of Adabot repo to install it via pip
-4. Clone the Library Bundle repo and open a terminal inside of it
-5. Run these commands to update all submodules
-
-.. code-block:: shell
-
-    git submodule sync --quiet --recursive
-    git submodule update --init
-
-
-6. Run ``git submodule foreach 'python -m adabot.circuitpython_library_release'``
-
-
-
 Contributing
 ============
 

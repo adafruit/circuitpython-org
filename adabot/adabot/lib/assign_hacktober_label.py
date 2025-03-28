@@ -11,7 +11,7 @@ import argparse
 import datetime
 import requests
 
-from adabot import github_requests as gh_reqs, REQUESTS_TIMEOUT
+from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
 
 cli_args = argparse.ArgumentParser(description="Hacktoberfest Label Assigner")
@@ -73,9 +73,7 @@ def get_open_issues(repo):
         )
 
         if response.links.get("next"):
-            response = requests.get(
-                response.links["next"]["url"], timeout=REQUESTS_TIMEOUT
-            )
+            response = requests.get(response.links["next"]["url"])
         else:
             break
 

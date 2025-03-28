@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a  href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Feather RP2040 Adalogger</h1>
-  <h3>by Adafruit</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/adafruit_feather_rp2040_adalogger.jpg" alt="Image of Board">
-        <p>
-          <p>This is the <b>Adafruit Feather RP2040 Adalogger</b> - our take on an ‘all-in-one’ RP2040 data-logger (or data-reader) with built-in USB, battery charging, and a microSD holder ready to rock! <a href="https://www.adafruit.com/feather">We have other boards in the Feather family, check’em out here.</a></p>
+        <img src="/assets/images/boards/large/adafruit_feather_rp2040_adalogger.jpg" alt="Image of Board" />
+        <h1>Feather RP2040 Adalogger by Adafruit</h1>
+      </div>
+      <div class="section">
+        <p><p>This is the <b>Adafruit Feather RP2040 Adalogger</b> - our take on an ‘all-in-one’ RP2040 data-logger (or data-reader) with built-in USB, battery charging, and a microSD holder ready to rock! <a href="https://www.adafruit.com/feather">We have other boards in the Feather family, check’em out here.</a></p>
 
 <p>The RP2040 Adalogger is the same size and shape as a Feather and is intended to make your next data logging or data reading project super easy. Micro SD card socket wired for SPI or SDIO? Yes! STEMMA QT / Qwiic connector for fast I2C? Of course! Neopixel? It’s a-glowin’ This board will work excellently with Arduino or CircuitPython/MicroPython for any data recording/retreiving projects.</p>
 
@@ -186,15 +183,20 @@
 <ul>
   <li><a href="https://www.adafruit.com/product/5768">Adafruit</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/adafruit_feather_rp2040_adalogger.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_board/adafruit_feather_rp2040_adalogger.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
       
-        
+      
 
 
 
@@ -212,20 +214,14 @@
     
     <p>
       This is the latest <strong>stable</strong> release of CircuitPython that will work with the Feather RP2040 Adalogger.
-    </p>
-    <p>
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
     
     
-    <div class="release-details">
-      <p>
-        <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
-      </p>
-      
-        <a class="download-button install-instructions-button" target="_blank" href="https://learn.adafruit.com/adafruit-feather-rp2040-adalogger/install-circuitpython">HOW TO INSTALL<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
-      
-    </div>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
+    </p>
+
     <div class="download-details">
       
       
@@ -467,499 +463,502 @@
       </div>
     </div>
     
-    <p>
-        Built-in modules available:
+      <a class="install-instructions" target="_blank" href="https://learn.adafruit.com/adafruit-feather-rp2040-adalogger/install-circuitpython">Learn how to install CircuitPython on this board <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+    
+    
+    <details>
+        <summary>Modules included in this download</summary>
         <span class="download-modules stable">
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_asyncio">
           
-            _asyncio</a>, 
+            _asyncio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_bleio">
           
-            _bleio</a>, 
+            _bleio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_pixelmap">
           
-            _pixelmap</a>, 
+            _pixelmap</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/adafruit_bus_device">
           
-            adafruit_bus_device</a>, 
+            adafruit_bus_device</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/adafruit_pixelbuf">
           
-            adafruit_pixelbuf</a>, 
+            adafruit_pixelbuf</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/aesio">
           
-            aesio</a>, 
+            aesio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/alarm">
           
-            alarm</a>, 
+            alarm</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/analogbufio">
           
-            analogbufio</a>, 
+            analogbufio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/analogio">
           
-            analogio</a>, 
+            analogio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/array">
           
-            array</a>, 
+            array</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/atexit">
           
-            atexit</a>, 
+            atexit</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiobusio">
           
-            audiobusio</a>, 
+            audiobusio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiocore">
           
-            audiocore</a>, 
+            audiocore</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiomixer">
           
-            audiomixer</a>, 
+            audiomixer</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiomp3">
           
-            audiomp3</a>, 
+            audiomp3</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiopwmio">
           
-            audiopwmio</a>, 
+            audiopwmio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/binascii">
           
-            binascii</a>, 
+            binascii</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitbangio">
           
-            bitbangio</a>, 
+            bitbangio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitmapfilter">
           
-            bitmapfilter</a>, 
+            bitmapfilter</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitmaptools">
           
-            bitmaptools</a>, 
+            bitmaptools</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitops">
           
-            bitops</a>, 
+            bitops</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/board">
           
-            board</a>, 
+            board</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/builtins">
           
-            builtins</a>, 
+            builtins</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/builtins/#builtins.pow3">
           
-            builtins.pow3</a>, 
+            builtins.pow3</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busdisplay">
           
-            busdisplay</a>, 
+            busdisplay</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio">
           
-            busio</a>, 
+            busio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.SPI">
           
-            busio.SPI</a>, 
+            busio.SPI</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.UART">
           
-            busio.UART</a>, 
+            busio.UART</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/codeop">
           
-            codeop</a>, 
+            codeop</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/collections">
           
-            collections</a>, 
+            collections</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/countio">
           
-            countio</a>, 
+            countio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/digitalio">
           
-            digitalio</a>, 
+            digitalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/displayio">
           
-            displayio</a>, 
+            displayio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/epaperdisplay">
           
-            epaperdisplay</a>, 
+            epaperdisplay</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/errno">
           
-            errno</a>, 
+            errno</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/floppyio">
           
-            floppyio</a>, 
+            floppyio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fontio">
           
-            fontio</a>, 
+            fontio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fourwire">
           
-            fourwire</a>, 
+            fourwire</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/framebufferio">
           
-            framebufferio</a>, 
+            framebufferio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/getpass">
           
-            getpass</a>, 
+            getpass</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/gifio">
           
-            gifio</a>, 
+            gifio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/hashlib">
           
-            hashlib</a>, 
+            hashlib</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/i2cdisplaybus">
           
-            i2cdisplaybus</a>, 
+            i2cdisplaybus</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/i2ctarget">
           
-            i2ctarget</a>, 
+            i2ctarget</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/imagecapture">
           
-            imagecapture</a>, 
+            imagecapture</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/io">
           
-            io</a>, 
+            io</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/jpegio">
           
-            jpegio</a>, 
+            jpegio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/json">
           
-            json</a>, 
+            json</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad">
           
-            keypad</a>, 
+            keypad</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad/#keypad.KeyMatrix">
           
-            keypad.KeyMatrix</a>, 
+            keypad.KeyMatrix</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad/#keypad.Keys">
           
-            keypad.Keys</a>, 
+            keypad.Keys</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad/#keypad.ShiftRegisterKeys">
           
-            keypad.ShiftRegisterKeys</a>, 
+            keypad.ShiftRegisterKeys</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad_demux">
           
-            keypad_demux</a>, 
+            keypad_demux</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/keypad_demux/#keypad_demux.DemuxKeyMatrix">
           
-            keypad_demux.DemuxKeyMatrix</a>, 
+            keypad_demux.DemuxKeyMatrix</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/locale">
           
-            locale</a>, 
+            locale</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/math">
           
-            math</a>, 
+            math</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/memorymap">
           
-            memorymap</a>, 
+            memorymap</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/microcontroller">
           
-            microcontroller</a>, 
+            microcontroller</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/msgpack">
           
-            msgpack</a>, 
+            msgpack</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/neopixel_write">
           
-            neopixel_write</a>, 
+            neopixel_write</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/nvm">
           
-            nvm</a>, 
+            nvm</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/onewireio">
           
-            onewireio</a>, 
+            onewireio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os">
           
-            os</a>, 
+            os</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os/#os.getenv">
           
-            os.getenv</a>, 
+            os.getenv</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/paralleldisplaybus">
           
-            paralleldisplaybus</a>, 
+            paralleldisplaybus</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pulseio">
           
-            pulseio</a>, 
+            pulseio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pwmio">
           
-            pwmio</a>, 
+            pwmio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/qrio">
           
-            qrio</a>, 
+            qrio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rainbowio">
           
-            rainbowio</a>, 
+            rainbowio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/random">
           
-            random</a>, 
+            random</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/re">
           
-            re</a>, 
+            re</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rgbmatrix">
           
-            rgbmatrix</a>, 
+            rgbmatrix</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rotaryio">
           
-            rotaryio</a>, 
+            rotaryio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rp2pio">
           
-            rp2pio</a>, 
+            rp2pio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rtc">
           
-            rtc</a>, 
+            rtc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sdcardio">
           
-            sdcardio</a>, 
+            sdcardio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/select">
           
-            select</a>, 
+            select</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sharpdisplay">
           
-            sharpdisplay</a>, 
+            sharpdisplay</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
           
-            storage</a>, 
+            storage</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/struct">
           
-            struct</a>, 
+            struct</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/supervisor">
           
-            supervisor</a>, 
+            supervisor</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/synthio">
           
-            synthio</a>, 
+            synthio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sys">
           
-            sys</a>, 
+            sys</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/terminalio">
           
-            terminalio</a>, 
+            terminalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/tilepalettemapper">
           
-            tilepalettemapper</a>, 
+            tilepalettemapper</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/time">
           
-            time</a>, 
+            time</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/touchio">
           
-            touchio</a>, 
+            touchio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/traceback">
           
-            traceback</a>, 
+            traceback</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ulab">
           
-            ulab</a>, 
+            ulab</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb">
           
-            usb</a>, 
+            usb</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_cdc">
           
-            usb_cdc</a>, 
+            usb_cdc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_hid">
           
-            usb_hid</a>, 
+            usb_hid</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_host">
           
-            usb_host</a>, 
+            usb_host</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_midi">
           
-            usb_midi</a>, 
+            usb_midi</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_video">
           
-            usb_video</a>, 
+            usb_video</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/vectorio">
           
-            vectorio</a>, 
+            vectorio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/warnings">
           
-            warnings</a>, 
+            warnings</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/watchdog">
           
-            watchdog</a>, 
+            watchdog</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/zlib">
@@ -967,7 +966,7 @@
             zlib</a>
           
         </span>
-    </p>
+    </details>
     
     
     
@@ -1028,8 +1027,7 @@
 
 
 
-
-      
+ 
     </div>
   </div>
 </div>

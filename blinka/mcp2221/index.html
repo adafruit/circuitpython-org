@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>MCP2221</h1>
-  <h3>by Adafruit</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/mcp2221.jpg" alt="Image of Board">
-        <p>
-          <p>Wouldn’t it be cool to drive a <a href="https://www.adafruit.com/categories/98">tiny OLED display</a>, read a <a href="https://www.adafruit.com/products/1334">color sensor</a>, or even just flash some LEDs directly from your computer?  Sure you can program an <a href="https://www.adafruit.com/products/50">Arduino</a> or <a href="https://www.adafruit.com/products/2000">Trinket</a> to talk to these devices and your computer, but why can’t your computer just talk to those devices and sensors itself?  Well, now your computer <em>can</em> talk to devices using the Adafruit MCP2221A breakout board!</p>
+        <img src="/assets/images/boards/large/mcp2221.jpg" alt="Image of Board" />
+        <h1>MCP2221 by Adafruit</h1>
+      </div>
+      <div class="section">
+        <p><p>Wouldn’t it be cool to drive a <a href="https://www.adafruit.com/categories/98">tiny OLED display</a>, read a <a href="https://www.adafruit.com/products/1334">color sensor</a>, or even just flash some LEDs directly from your computer?  Sure you can program an <a href="https://www.adafruit.com/products/50">Arduino</a> or <a href="https://www.adafruit.com/products/2000">Trinket</a> to talk to these devices and your computer, but why can’t your computer just talk to those devices and sensors itself?  Well, now your computer <em>can</em> talk to devices using the Adafruit MCP2221A breakout board!</p>
 
 <p>What can the MCP2221 chip do?  This chip from <a href="https://www.microchip.com/wwwproducts/en/MCP2221A">Microchip</a> is similar to a USB to serial converter chips but adds a GPIO and I2C interface as well. The analog/digital GPIO pins can act as 10-bit analog inputs (ADC) and there’s even a 5-bit DAC output. The I2C interface is great for talking to OLEDs, sensors, PWM drivers, its the most popular interface for small devices. You can use the GPIO to do things like flash LEDs, read switches or buttons, and more. The MCP2221A breakout is like adding a little swiss army knife for serial protocols to your computer!</p>
 
@@ -153,15 +150,19 @@
 <ul>
   <li><a href="https://www.adafruit.com/product/4471">Adafruit</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/mcp2221.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/mcp2221.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -181,8 +182,7 @@
   </div>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

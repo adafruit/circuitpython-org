@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>BeagleBone Black Wireless</h1>
-  <h3>by BeagleBoard</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/beaglebone_black_wireless.jpg" alt="Image of Board">
-        <p>
-          <p>Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the popular open source BeagleBone® Black computer now comes with built-in wireless networking capability. Leveraging a partnership with Octavo Systems and designed in CadSoft Eagle, BeagleBone® Black Wireless is the easiest to use and modify credit-card sized IoT Linux computer available.</p>
+        <img src="/assets/images/boards/large/beaglebone_black_wireless.jpg" alt="Image of Board" />
+        <h1>BeagleBone Black Wireless by BeagleBoard</h1>
+      </div>
+      <div class="section">
+        <p><p>Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the popular open source BeagleBone® Black computer now comes with built-in wireless networking capability. Leveraging a partnership with Octavo Systems and designed in CadSoft Eagle, BeagleBone® Black Wireless is the easiest to use and modify credit-card sized IoT Linux computer available.</p>
 
 <ul>
   <li>Processor: Octavo Systems OSD3358 1GHz ARM Cortex-A8</li>
@@ -164,15 +161,19 @@
   <li><a href="https://www.digikey.com/products/en?lang=en&amp;site=us&amp;KeyWords=BBBWL-SC-562-ND">Digi-Key</a></li>
   <li><a href="https://www.arrow.com/en/products/bbwireless/beagleboardorg">Arrow</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/beaglebone_black_wireless.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/beaglebone_black_wireless.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -187,8 +188,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

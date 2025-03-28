@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Orange Pi Zero Plus2 (H5 Version)</h1>
-  <h3>by Shenzhen Xunlong Software CO.,Limited</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/orange_pi_zero_plus2_h5.jpg" alt="Image of Board">
-        <p>
-          <p>What’s Orange Pi Zero Plus2？</p>
+        <img src="/assets/images/boards/large/orange_pi_zero_plus2_h5.jpg" alt="Image of Board" />
+        <h1>Orange Pi Zero Plus2 (H5 Version) by Shenzhen Xunlong Software CO.,Limited</h1>
+      </div>
+      <div class="section">
+        <p><p>What’s Orange Pi Zero Plus2？</p>
 
 <p>It’s an open-source single-board computer. It can run Android 4.4(H3 version)/Android 5.1(H5 version) , Ubuntu, Debian, it uses the AllWinner H3/H5 SoC, and has 512MB DDR3 SDRAM.</p>
 
@@ -191,15 +188,19 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
 <ul>
   <li><a href="https://www.newegg.com/p/285-002U-00005">Newegg</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/orange_pi_zero_plus2_h5.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/orange_pi_zero_plus2_h5.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -214,8 +215,7 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

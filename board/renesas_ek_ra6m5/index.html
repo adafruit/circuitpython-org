@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a  href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>EK-RA6M5 Evaluation Kit</h1>
-  <h3>by Renesas</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/renesas_ek_ra6m5.jpg" alt="Image of Board">
-        <p>
-          <p>The EK-RA6M5 evaluation kit enables users to effortlessly evaluate the features of the <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6m5-200mhz-arm-cortex-m33-trustzone-highest-integration-ethernet-and-can-fd">RA6M5 MCU Group</a> and develop embedded systems applications using the <a href="https://www.renesas.com/en/software-tool/flexible-software-package-fsp">Flexible Software Package (FSP)</a> and <a href="https://www.renesas.com/en/software-tool/e-studio">e2 studio IDE</a>. Utilize rich on-board features along with your choice of popular ecosystem add-ons to bring your big ideas to life.</p>
+        <img src="/assets/images/boards/large/renesas_ek_ra6m5.jpg" alt="Image of Board" />
+        <h1>EK-RA6M5 Evaluation Kit by Renesas</h1>
+      </div>
+      <div class="section">
+        <p><p>The EK-RA6M5 evaluation kit enables users to effortlessly evaluate the features of the <a href="https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6m5-200mhz-arm-cortex-m33-trustzone-highest-integration-ethernet-and-can-fd">RA6M5 MCU Group</a> and develop embedded systems applications using the <a href="https://www.renesas.com/en/software-tool/flexible-software-package-fsp">Flexible Software Package (FSP)</a> and <a href="https://www.renesas.com/en/software-tool/e-studio">e2 studio IDE</a>. Utilize rich on-board features along with your choice of popular ecosystem add-ons to bring your big ideas to life.</p>
 
 <h2 id="features">Features</h2>
 
@@ -212,15 +209,20 @@
 <ul>
   <li><a href="https://www.digikey.com/en/products/detail/renesas-electronics-america/RTK7EKA6M5S00001BE/13918501">Digi-Key</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/renesas_ek_ra6m5.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_board/renesas_ek_ra6m5.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
       
-        
+      
 
 
 
@@ -238,18 +240,14 @@
     
     <p>
       This is the latest <strong>stable</strong> release of CircuitPython that will work with the EK-RA6M5 Evaluation Kit.
-    </p>
-    <p>
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
     
     
-    <div class="release-details">
-      <p>
-        <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
-      </p>
-      
-    </div>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
+    </p>
+
     <div class="download-details">
       
       
@@ -491,44 +489,45 @@
       </div>
     </div>
     
-    <p>
-        Built-in modules available:
+    
+    <details>
+        <summary>Modules included in this download</summary>
         <span class="download-modules stable">
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/digitalio">
           
-            digitalio</a>, 
+            digitalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/microcontroller">
           
-            microcontroller</a>, 
+            microcontroller</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os">
           
-            os</a>, 
+            os</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/random">
           
-            random</a>, 
+            random</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
           
-            storage</a>, 
+            storage</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/struct">
           
-            struct</a>, 
+            struct</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/time">
           
-            time</a>, 
+            time</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/zephyr_serial">
@@ -536,7 +535,7 @@
             zephyr_serial</a>
           
         </span>
-    </p>
+    </details>
     
     
     
@@ -591,8 +590,7 @@
 
 
 
-
-      
+ 
     </div>
   </div>
 </div>

@@ -37,7 +37,8 @@ class LocalLibFunc(Protocol):
 
     def __call__(
         self, lib_path: StrPath, *args: Sequence[Any], **kwargs: dict[str, Any]
-    ) -> Any: ...
+    ) -> Any:
+        ...
 
 
 # pylint: disable=too-few-public-methods
@@ -52,7 +53,8 @@ class RemoteLibFunc(Protocol):
 
     def __call__(
         self, lib_repo: Repository, *args: Sequence[Any], **kwargs: dict[str, Any]
-    ) -> Any: ...
+    ) -> Any:
+        ...
 
 
 def in_lib_path(func: LocalLibFunc) -> LocalLibFunc:

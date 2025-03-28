@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Compute Module 3</h1>
-  <h3>by Raspberry Pi</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/raspberry_pi_cm3.jpg" alt="Image of Board">
-        <p>
-          <p>The Compute Module 3 contains the guts of a Raspberry Pi 3 (the BCM2837 processor and 1GB RAM) as well as an optional 4GB eMMC Flash device (which is the equivalent of the SD card in the Pi). The Pi 3 has a processor speed of 1.2GHz and runs at roughly 10 times the speed of the Pi 1 due to its quad-core CPU. This is all integrated on to a small 67.6mm x 31mm board which fits into a standard DDR2 SODIMM connector (the same type of connector as used for laptop memory). The Flash memory is connected directly to the processor on the board, but the remaining processor interfaces are available to the user via the connector pins. You get the full flexibility of the BCM2837 SoC (which means that many more GPIOs and interfaces are available as compared to the Raspberry Pi), and designing the Module into a custom system should be relatively straightforward as we’ve put all the tricky bits onto the Module itself.</p>
+        <img src="/assets/images/boards/large/raspberry_pi_cm3.jpg" alt="Image of Board" />
+        <h1>Compute Module 3 by Raspberry Pi</h1>
+      </div>
+      <div class="section">
+        <p><p>The Compute Module 3 contains the guts of a Raspberry Pi 3 (the BCM2837 processor and 1GB RAM) as well as an optional 4GB eMMC Flash device (which is the equivalent of the SD card in the Pi). The Pi 3 has a processor speed of 1.2GHz and runs at roughly 10 times the speed of the Pi 1 due to its quad-core CPU. This is all integrated on to a small 67.6mm x 31mm board which fits into a standard DDR2 SODIMM connector (the same type of connector as used for laptop memory). The Flash memory is connected directly to the processor on the board, but the remaining processor interfaces are available to the user via the connector pins. You get the full flexibility of the BCM2837 SoC (which means that many more GPIOs and interfaces are available as compared to the Raspberry Pi), and designing the Module into a custom system should be relatively straightforward as we’ve put all the tricky bits onto the Module itself.</p>
 
 <p>The Compute Module is available for purchase in single units, or in batches of hundreds or thousands. To get started designing a PCB to use the Module, we provide an open-source breakout board with a single Module in an affordable development kit.</p>
 
@@ -151,15 +148,19 @@
 <ul>
   <li><a href="https://www.raspberrypi.org/products/compute-module-io-board-v3/">Raspberry Pi Foundation</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/raspberry_pi_cm3.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/raspberry_pi_cm3.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -179,8 +180,7 @@
   </div>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

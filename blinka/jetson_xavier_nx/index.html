@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Jetson Xavier NX</h1>
-  <h3>by NVIDIA</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/jetson_xavier_nx.jpg" alt="Image of Board">
-        <p>
-          <p>Jetson Xavier NX delivers up to 21 TOPS for running modern AI workloads, consumes as little as 10 watts of power, and has a compact form factor smaller than a credit card. It can run modern neural networks in parallel and process data from multiple high-resolution sensors, opening the door for embedded and edge computing devices that demand increased performance but are constrained by size, weight, and power budgets.</p>
+        <img src="/assets/images/boards/large/jetson_xavier_nx.jpg" alt="Image of Board" />
+        <h1>Jetson Xavier NX by NVIDIA</h1>
+      </div>
+      <div class="section">
+        <p><p>Jetson Xavier NX delivers up to 21 TOPS for running modern AI workloads, consumes as little as 10 watts of power, and has a compact form factor smaller than a credit card. It can run modern neural networks in parallel and process data from multiple high-resolution sensors, opening the door for embedded and edge computing devices that demand increased performance but are constrained by size, weight, and power budgets.</p>
 
 <ul>
   <li>GPU    384-core NVIDIA Volta™ GPU with 48 Tensor Cores</li>
@@ -164,15 +161,19 @@
 <ul>
   <li><a href="https://developer.nvidia.com/embedded/jetson-xavier-nx">NVIDIA</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/jetson_xavier_nx.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/jetson_xavier_nx.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -187,8 +188,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

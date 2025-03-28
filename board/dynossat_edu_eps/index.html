@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a  href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>DynOSSAT-EDU EPS</h1>
-  <h3>by BH Dynamics</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/dynossat_edu_eps.jpg" alt="Image of Board">
-        <p>
-          <p>DynOSSAT-EDU is the first open source PocketQube educational kit compatible with CircuitPython and Arduino.</p>
+        <img src="/assets/images/boards/large/dynossat_edu_eps.jpg" alt="Image of Board" />
+        <h1>DynOSSAT-EDU EPS by BH Dynamics</h1>
+      </div>
+      <div class="section">
+        <p><p>DynOSSAT-EDU is the first open source PocketQube educational kit compatible with CircuitPython and Arduino.</p>
 
 <p>This plaform is equipped with all the necessary modules for the operation of a nanosatellite (PocketQube)
 in Low Earth Orbit (LEO) that would serve as a device for teaching, training, and driving curiosity about the philosophy and technology related to NewSpace.</p>
@@ -179,15 +176,20 @@ including charging through solar panels using flight-proven MPPT electronics.</p
 <ul>
   <li><a href="https://www.tindie.com/products/21832/">Tindie</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/dynossat_edu_eps.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_board/dynossat_edu_eps.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
       
-        
+      
 
 
 
@@ -205,18 +207,14 @@ including charging through solar panels using flight-proven MPPT electronics.</p
     
     <p>
       This is the latest <strong>stable</strong> release of CircuitPython that will work with the DynOSSAT-EDU EPS.
-    </p>
-    <p>
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
     
     
-    <div class="release-details">
-      <p>
-        <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
-      </p>
-      
-    </div>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
+    </p>
+
     <div class="download-details">
       
       
@@ -458,224 +456,225 @@ including charging through solar panels using flight-proven MPPT electronics.</p
       </div>
     </div>
     
-    <p>
-        Built-in modules available:
+    
+    <details>
+        <summary>Modules included in this download</summary>
         <span class="download-modules stable">
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/adafruit_pixelbuf">
           
-            adafruit_pixelbuf</a>, 
+            adafruit_pixelbuf</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/analogio">
           
-            analogio</a>, 
+            analogio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/array">
           
-            array</a>, 
+            array</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiobusio">
           
-            audiobusio</a>, 
+            audiobusio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiocore">
           
-            audiocore</a>, 
+            audiocore</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audioio">
           
-            audioio</a>, 
+            audioio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/board">
           
-            board</a>, 
+            board</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/builtins">
           
-            builtins</a>, 
+            builtins</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busdisplay">
           
-            busdisplay</a>, 
+            busdisplay</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio">
           
-            busio</a>, 
+            busio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.SPI">
           
-            busio.SPI</a>, 
+            busio.SPI</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.UART">
           
-            busio.UART</a>, 
+            busio.UART</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/codeop">
           
-            codeop</a>, 
+            codeop</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/collections">
           
-            collections</a>, 
+            collections</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/digitalio">
           
-            digitalio</a>, 
+            digitalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/displayio">
           
-            displayio</a>, 
+            displayio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/epaperdisplay">
           
-            epaperdisplay</a>, 
+            epaperdisplay</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/errno">
           
-            errno</a>, 
+            errno</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fontio">
           
-            fontio</a>, 
+            fontio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fourwire">
           
-            fourwire</a>, 
+            fourwire</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/i2cdisplaybus">
           
-            i2cdisplaybus</a>, 
+            i2cdisplaybus</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/locale">
           
-            locale</a>, 
+            locale</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/math">
           
-            math</a>, 
+            math</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/microcontroller">
           
-            microcontroller</a>, 
+            microcontroller</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/neopixel_write">
           
-            neopixel_write</a>, 
+            neopixel_write</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/nvm">
           
-            nvm</a>, 
+            nvm</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/onewireio">
           
-            onewireio</a>, 
+            onewireio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os">
           
-            os</a>, 
+            os</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/paralleldisplaybus">
           
-            paralleldisplaybus</a>, 
+            paralleldisplaybus</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pulseio">
           
-            pulseio</a>, 
+            pulseio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pwmio">
           
-            pwmio</a>, 
+            pwmio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rainbowio">
           
-            rainbowio</a>, 
+            rainbowio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/random">
           
-            random</a>, 
+            random</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rtc">
           
-            rtc</a>, 
+            rtc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
           
-            storage</a>, 
+            storage</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/struct">
           
-            struct</a>, 
+            struct</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/supervisor">
           
-            supervisor</a>, 
+            supervisor</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sys">
           
-            sys</a>, 
+            sys</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/terminalio">
           
-            terminalio</a>, 
+            terminalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/time">
           
-            time</a>, 
+            time</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_cdc">
           
-            usb_cdc</a>, 
+            usb_cdc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_hid">
           
-            usb_hid</a>, 
+            usb_hid</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_midi">
           
-            usb_midi</a>, 
+            usb_midi</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/warnings">
@@ -683,7 +682,7 @@ including charging through solar panels using flight-proven MPPT electronics.</p
             warnings</a>
           
         </span>
-    </p>
+    </details>
     
     
     
@@ -736,8 +735,7 @@ including charging through solar panels using flight-proven MPPT electronics.</p
 
 
 
-
-      
+ 
     </div>
   </div>
 </div>

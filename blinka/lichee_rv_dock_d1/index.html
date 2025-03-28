@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Lichee RV Dock D1</h1>
-  <h3>by Sipeed</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/lichee_rv_dock_d1.jpg" alt="Image of Board">
-        <p>
-          <p>Lichee RV Dock is a RISC-V Linux development kit. It expands the module’s usable interfaces by providing an HDMI port with support for up to 4K@30fps output, a 40-pin header with GPIO and power switches, among other things, plus headers and connectors that you can use for speakers, microphones, and more. It supports RGB and MIPI screen interfaces with its screen convert board. There is an onboard 2.4G WIFI+BT module, a 2.4G Patch antenna, an IPEX connector, and a USB Type-A host. The highest network speed is up to 30Mbps (with RTL8723DS), and the average network bandwidth is about 20Mbps.</p>
+        <img src="/assets/images/boards/large/lichee_rv_dock_d1.jpg" alt="Image of Board" />
+        <h1>Lichee RV Dock D1 by Sipeed</h1>
+      </div>
+      <div class="section">
+        <p><p>Lichee RV Dock is a RISC-V Linux development kit. It expands the module’s usable interfaces by providing an HDMI port with support for up to 4K@30fps output, a 40-pin header with GPIO and power switches, among other things, plus headers and connectors that you can use for speakers, microphones, and more. It supports RGB and MIPI screen interfaces with its screen convert board. There is an onboard 2.4G WIFI+BT module, a 2.4G Patch antenna, an IPEX connector, and a USB Type-A host. The highest network speed is up to 30Mbps (with RTL8723DS), and the average network bandwidth is about 20Mbps.</p>
 
 <p>For software, Lichee RV Dock supports Tina Linux, Debian Officially, and also Ubuntu/OpenSUSE, RustSBI community.</p>
 
@@ -153,15 +150,19 @@
 <ul>
   <li><a href="https://www.seeedstudio.com/Lichee-RV-Dock-Allwinner-D1-SoC-RISC-V-Linux-dev-kit-High-Integration-Open-Source-p-5380.html">Seeed Studio</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/lichee_rv_dock_d1.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/lichee_rv_dock_d1.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -176,8 +177,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Compute Module 3+ Lite</h1>
-  <h3>by Raspberry Pi</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/raspberry_pi_cm3pluslite.jpg" alt="Image of Board">
-        <p>
-          <p>The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+ Lite) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is the new heat spreader on the main processor which will let it run at full speed much faster without overheating.</p>
+        <img src="/assets/images/boards/large/raspberry_pi_cm3pluslite.jpg" alt="Image of Board" />
+        <h1>Compute Module 3+ Lite by Raspberry Pi</h1>
+      </div>
+      <div class="section">
+        <p><p>The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application. CM3+ (Compute Module 3+ Lite) is the Raspberry Pi 3 B+-based revision of the original Compute Module. The big update to the CM3+ compared to the CM3 series is the new heat spreader on the main processor which will let it run at full speed much faster without overheating.</p>
 
 <p>The Compute Module contains the guts of a Raspberry Pi 3 B+ (the BCM2837B0 processor and 1GB RAM). The Lite version does not come with on-module eMMC flash found on the Compute Module 3+. It also does not contain the WiFi/Bluetooth chipset that comes with the Pi 3 B+.</p>
 
@@ -155,15 +152,19 @@
 <ul>
   <li><a href="https://www.adafruit.com/product/4093">Adafruit</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/raspberry_pi_cm3pluslite.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/raspberry_pi_cm3pluslite.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -183,8 +184,7 @@
   </div>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

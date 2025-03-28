@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Banana Pi BPI-M5</h1>
-  <h3>by SinoVoip</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/banana_pi_bpi_m5.jpg" alt="Image of Board">
-        <p>
-          <p>Banana Pi BPI-M5 is the next generation single board computer from Banana Pi in 2020. It is powered by Amlogic S905X3 quad-core Cortex-A55 (2.0 XXGHz) processor.Onboard 4GB LPDDR4 memory and 16GB EMMC storage, and supports 4 USB 3.0 interface, a gigabit network port.</p>
+        <img src="/assets/images/boards/large/banana_pi_bpi_m5.jpg" alt="Image of Board" />
+        <h1>Banana Pi BPI-M5 by SinoVoip</h1>
+      </div>
+      <div class="section">
+        <p><p>Banana Pi BPI-M5 is the next generation single board computer from Banana Pi in 2020. It is powered by Amlogic S905X3 quad-core Cortex-A55 (2.0 XXGHz) processor.Onboard 4GB LPDDR4 memory and 16GB EMMC storage, and supports 4 USB 3.0 interface, a gigabit network port.</p>
 
 <ul>
   <li>CPU: Amlogic S905X3 Quad-Core Cortex-A55 (2.0xxGHz)</li>
@@ -167,15 +164,19 @@
   <li><a href="https://amzn.to/3CpbK8X">Amazon</a></li>
   <li><a href="https://www.aliexpress.com/item/3256801685527943.html">Aliexpress</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/banana_pi_bpi_m5.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/banana_pi_bpi_m5.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -190,8 +191,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

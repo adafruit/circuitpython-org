@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>PINE H64</h1>
-  <h3>by Pine64</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/pine_h64.jpg" alt="Image of Board">
-        <p>
-          <p>PINE H64 is latest Single Board Computer by Pine64. Its powered by an Allwinner “H6” Quad-Core ARM Cortex A53 64-Bit Processor with MALI T-722 GPU. The PINE H64 is equipped with up-to 3GB LPDDR3 PC-1600 system memory and 128Mb SPI boot Flash. There is also an optional eMMC module (up to 128GB) and microSD slot for booting. The board is equipped with an onboard build-in 11n Wifi/BT, 1x USB 3.0 Host, 2x USB 2.0 Host, Gigabit Ethernet, PI-2 GPIO Bus, Euler GPIO Bus as well as many other peripheral device interface such as UART, SPI, I2C, for makers to integrate with sensors and other peripherals.</p>
+        <img src="/assets/images/boards/large/pine_h64.jpg" alt="Image of Board" />
+        <h1>PINE H64 by Pine64</h1>
+      </div>
+      <div class="section">
+        <p><p>PINE H64 is latest Single Board Computer by Pine64. Its powered by an Allwinner “H6” Quad-Core ARM Cortex A53 64-Bit Processor with MALI T-722 GPU. The PINE H64 is equipped with up-to 3GB LPDDR3 PC-1600 system memory and 128Mb SPI boot Flash. There is also an optional eMMC module (up to 128GB) and microSD slot for booting. The board is equipped with an onboard build-in 11n Wifi/BT, 1x USB 3.0 Host, 2x USB 2.0 Host, Gigabit Ethernet, PI-2 GPIO Bus, Euler GPIO Bus as well as many other peripheral device interface such as UART, SPI, I2C, for makers to integrate with sensors and other peripherals.</p>
 
 <ul>
   <li>Allwinner H6 Quad-Core SOC with Mali T-722 MP2</li>
@@ -169,15 +166,19 @@
   <li><a href="https://pine64.com/product/pine-h64-model-b-2gb-single-board-computer">pine64 2GB</a></li>
   <li><a href="https://pine64.com/product/pine-h64-model-b-3gb-single-board-computer/">pine64 3GB</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/pine_h64.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/pine_h64.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -192,8 +193,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

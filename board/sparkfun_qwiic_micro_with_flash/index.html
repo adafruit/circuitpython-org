@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a  href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Qwiic Micro with Flash</h1>
-  <h3>by SparkFun</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/sparkfun_qwiic_micro.jpg" alt="Image of Board">
-        <p>
-          <p>The <strong>SparkFun Qwiic Micro</strong> is an <em>1 x 1 inch</em> microcontroller made for the <a href="https://sparkfun.com/qwiic">Qwiic Eco-system</a>.
+        <img src="/assets/images/boards/large/sparkfun_qwiic_micro.jpg" alt="Image of Board" />
+        <h1>Qwiic Micro with Flash by SparkFun</h1>
+      </div>
+      <div class="section">
+        <p><p>The <strong>SparkFun Qwiic Micro</strong> is an <em>1 x 1 inch</em> microcontroller made for the <a href="https://sparkfun.com/qwiic">Qwiic Eco-system</a>.
 It’s SparkFun’s smallest microcontroller to date that’s made for integrating into small projects.
 Onboard is the Atmel ATSAMD21E18 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz.</p>
 
@@ -161,15 +158,20 @@ used for the circuity python build that includes this chip!</li>
 <ul>
   <li><a href="https://www.sparkfun.com/products/15423">SparkFun</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_board/sparkfun_qwiic_micro_with_flash.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_board/sparkfun_qwiic_micro_with_flash.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
       
-        
+      
 
 
 
@@ -187,20 +189,14 @@ used for the circuity python build that includes this chip!</li>
     
     <p>
       This is the latest <strong>stable</strong> release of CircuitPython that will work with the Qwiic Micro with Flash.
-    </p>
-    <p>
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
     
     
-    <div class="release-details">
-      <p>
-        <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
-      </p>
-      
-        <a class="download-button install-instructions-button" target="_blank" href="https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide#circuitpython">HOW TO INSTALL<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
-      
-    </div>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/9.2.6">Release Notes for 9.2.6</a>
+    </p>
+
     <div class="download-details">
       
       
@@ -442,149 +438,152 @@ used for the circuity python build that includes this chip!</li>
       </div>
     </div>
     
-    <p>
-        Built-in modules available:
+      <a class="install-instructions" target="_blank" href="https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro-samd21e-hookup-guide#circuitpython">Learn how to install CircuitPython on this board <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+    
+    
+    <details>
+        <summary>Modules included in this download</summary>
         <span class="download-modules stable">
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/analogio">
           
-            analogio</a>, 
+            analogio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/array">
           
-            array</a>, 
+            array</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/board">
           
-            board</a>, 
+            board</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/builtins">
           
-            builtins</a>, 
+            builtins</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio">
           
-            busio</a>, 
+            busio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.SPI">
           
-            busio.SPI</a>, 
+            busio.SPI</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/busio/#busio.UART">
           
-            busio.UART</a>, 
+            busio.UART</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/collections">
           
-            collections</a>, 
+            collections</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/digitalio">
           
-            digitalio</a>, 
+            digitalio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/math">
           
-            math</a>, 
+            math</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/microcontroller">
           
-            microcontroller</a>, 
+            microcontroller</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/neopixel_write">
           
-            neopixel_write</a>, 
+            neopixel_write</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/nvm">
           
-            nvm</a>, 
+            nvm</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/onewireio">
           
-            onewireio</a>, 
+            onewireio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/os">
           
-            os</a>, 
+            os</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pwmio">
           
-            pwmio</a>, 
+            pwmio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rainbowio">
           
-            rainbowio</a>, 
+            rainbowio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/random">
           
-            random</a>, 
+            random</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rotaryio">
           
-            rotaryio</a>, 
+            rotaryio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rtc">
           
-            rtc</a>, 
+            rtc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
           
-            storage</a>, 
+            storage</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/struct">
           
-            struct</a>, 
+            struct</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/supervisor">
           
-            supervisor</a>, 
+            supervisor</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sys">
           
-            sys</a>, 
+            sys</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/time">
           
-            time</a>, 
+            time</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/touchio">
           
-            touchio</a>, 
+            touchio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_cdc">
           
-            usb_cdc</a>, 
+            usb_cdc</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_hid">
           
-            usb_hid</a>, 
+            usb_hid</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_midi">
@@ -592,7 +591,7 @@ used for the circuity python build that includes this chip!</li>
             usb_midi</a>
           
         </span>
-    </p>
+    </details>
     
     
     
@@ -647,8 +646,7 @@ used for the circuity python build that includes this chip!</li>
 
 
 
-
-      
+ 
     </div>
   </div>
 </div>

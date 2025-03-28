@@ -13,7 +13,6 @@ import requests
 import sh
 from sh.contrib import git
 
-from adabot import REQUESTS_TIMEOUT
 from adabot.lib import common_funcs
 
 
@@ -101,8 +100,7 @@ def get_patches(run_local):
     return_list = []
     if not run_local:
         contents = requests.get(
-            "https://api.github.com/repos/adafruit/adabot/contents/patches",
-            timeout=REQUESTS_TIMEOUT
+            "https://api.github.com/repos/adafruit/adabot/contents/patches"
         )
         if contents.ok:
             for patch in contents.json():

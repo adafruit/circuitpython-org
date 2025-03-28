@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Trinkey QT2040</h1>
-  <h3>by Adafruit</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/adafruit_qt2040_trinkey.jpg" alt="Image of Board">
-        <p>
-          <p>It’s half USB Key, half Adafruit QT Py, and a lotta RP2040<em>…</em>it’s <strong>Trinkey QT2040</strong>, the circuit board with an RP2040 heart and Stemma QT legs. Folks are loving the <a href="https://www.adafruit.com/product/4900">QT Py 2040</a> we made, but maybe you want something plug-and-play. So we thought, hey what if we made something like that plugs right into your computer’s USB port? And this is what we came up with!</p>
+        <img src="/assets/images/boards/large/adafruit_qt2040_trinkey.jpg" alt="Image of Board" />
+        <h1>Trinkey QT2040 by Adafruit</h1>
+      </div>
+      <div class="section">
+        <p><p>It’s half USB Key, half Adafruit QT Py, and a lotta RP2040<em>…</em>it’s <strong>Trinkey QT2040</strong>, the circuit board with an RP2040 heart and Stemma QT legs. Folks are loving the <a href="https://www.adafruit.com/product/4900">QT Py 2040</a> we made, but maybe you want something plug-and-play. So we thought, hey what if we made something like that plugs right into your computer’s USB port? And this is what we came up with!</p>
 
 <p>The PCB is designed to slip into any USB A port on a computer or laptop. There’s an RP2040 microcontroller on board with just enough circuitry to keep it happy. There’s an RGB NeoPixel, a reset and bootloader or user button and a STEMMA QT Port on the end. That’s it!</p>
 
@@ -173,15 +170,19 @@
 <ul>
   <li><a href="https://www.adafruit.com/product/5056">Adafruit</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/adafruit_qt2040_trinkey.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/adafruit_qt2040_trinkey.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -201,8 +202,7 @@
   </div>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Feather RP2040 ThinkInk</h1>
-  <h3>by Adafruit</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/adafruit_feather_rp2040_thinkink.jpg" alt="Image of Board">
-        <p>
-          <p>Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that’s designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you’ve seen one of those new-fangled ‘e-readers’ like the Kindle or Nook. They have gigantic electronic paper ‘static’ displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!</p>
+        <img src="/assets/images/boards/large/adafruit_feather_rp2040_thinkink.jpg" alt="Image of Board" />
+        <h1>Feather RP2040 ThinkInk by Adafruit</h1>
+      </div>
+      <div class="section">
+        <p><p>Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that’s designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you’ve seen one of those new-fangled ‘e-readers’ like the Kindle or Nook. They have gigantic electronic paper ‘static’ displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!</p>
 
 <p>We’ve liked these displays for a long time, and we’ve got Arduino/CircuitPython drivers for tons of the various display chipsets, so wouldn’t an e-paper RP2040 Feather make a ton of sense? Luckily for us, just about every small-medium size EInk display made these days has a standard 24-pin connection. This Feather will add all the power supply support circuitry and level shifting so you can attach your favorite display - we’ve tested it with up to 5.6” sized 7-color ACeP displays.</p>
 
@@ -187,15 +184,19 @@
 <ul>
   <li><a href="https://www.adafruit.com/product/5727">Adafruit</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/adafruit_feather_rp2040_thinkink.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/adafruit_feather_rp2040_thinkink.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -210,8 +211,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

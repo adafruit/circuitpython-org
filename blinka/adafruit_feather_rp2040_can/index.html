@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Feather RP2040 CAN Bus</h1>
-  <h3>by Adafruit</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/adafruit_feather_rp2040_can.jpg" alt="Image of Board">
-        <p>
-          <p>If you’d like quickly get started with CAN bus interfacing, with no soldering required, our <strong>Adafruit RP2040 CAN Bus Feather</strong> comes ready-to-rock with a microcontroller, CAN chipset and terminal blocks for instant gratification. <a href="https://www.microchip.com/en-us/product/MCP2515">The controller used is the MCP26525 (aka a MCP2515 with built-in transciever), an extremely popular and well-supported chipset</a> that has drivers in Arduino and <a href="https://github.com/adafruit/Adafruit_CircuitPython_MCP2515">CircuitPython</a> and only requires an SPI port and two pins for chip-select and IRQ. Use it to send and receive messages in either standard or extended format at up to 1 Mbps.</p>
+        <img src="/assets/images/boards/large/adafruit_feather_rp2040_can.jpg" alt="Image of Board" />
+        <h1>Feather RP2040 CAN Bus by Adafruit</h1>
+      </div>
+      <div class="section">
+        <p><p>If you’d like quickly get started with CAN bus interfacing, with no soldering required, our <strong>Adafruit RP2040 CAN Bus Feather</strong> comes ready-to-rock with a microcontroller, CAN chipset and terminal blocks for instant gratification. <a href="https://www.microchip.com/en-us/product/MCP2515">The controller used is the MCP26525 (aka a MCP2515 with built-in transciever), an extremely popular and well-supported chipset</a> that has drivers in Arduino and <a href="https://github.com/adafruit/Adafruit_CircuitPython_MCP2515">CircuitPython</a> and only requires an SPI port and two pins for chip-select and IRQ. Use it to send and receive messages in either standard or extended format at up to 1 Mbps.</p>
 
 <p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. <a href="https://www.adafruit.com/feather">We have other boards in the Feather family, check’em out here</a>.</p>
 
@@ -196,15 +193,19 @@
 <ul>
   <li><a href="https://www.adafruit.com/product/5724">Adafruit</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/adafruit_feather_rp2040_can.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/adafruit_feather_rp2040_can.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -219,8 +220,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

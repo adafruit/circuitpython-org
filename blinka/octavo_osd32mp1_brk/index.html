@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>OSD32MP1-RED</h1>
-  <h3>by Octavo Systems</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/octavo_osd32mp1_brk.jpg" alt="Image of Board">
-        <p>
-          <p>The OSD32MP1-BRK is a small flexible prototyping platform for the <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html">STM32MP1</a> based SiP, the <a href="https://octavosystems.com/octavo_products/osd32mp15x/">OSD32MP15x</a>. At only 3in X 1.8in (75mm X 46mm), it provides easy access to the I/O of the STM32MP1 through a set of breadboard compatible headers. The OSD32MP1-BRK allows developers to quickly build a proof of concept that more closely resembles their actual system without the need to build their own custom hardware.</p>
+        <img src="/assets/images/boards/large/octavo_osd32mp1_brk.jpg" alt="Image of Board" />
+        <h1>OSD32MP1-RED by Octavo Systems</h1>
+      </div>
+      <div class="section">
+        <p><p>The OSD32MP1-BRK is a small flexible prototyping platform for the <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html">STM32MP1</a> based SiP, the <a href="https://octavosystems.com/octavo_products/osd32mp15x/">OSD32MP15x</a>. At only 3in X 1.8in (75mm X 46mm), it provides easy access to the I/O of the STM32MP1 through a set of breadboard compatible headers. The OSD32MP1-BRK allows developers to quickly build a proof of concept that more closely resembles their actual system without the need to build their own custom hardware.</p>
 
 <p>The OSD32MP1-BRK features the OSD32MP15x System in Package, a microSD slot, 32KHz crystal, a microUSB client port, and two 2×30 100 mill headers. The headers give access to 106 I/O on the STM32MP1 integrated into the OSD32MP15x SiP. It uses a 4 Layer PCB with low cost design rules and has no back side components.</p>
 
@@ -182,15 +179,19 @@
 <ul>
   <li><a href="https://www.digikey.com/en/products/detail/octavo-systems-llc/OSD32MP1-BRK/12144788">Digikey</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/octavo_osd32mp1_brk.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/octavo_osd32mp1_brk.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -205,8 +206,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

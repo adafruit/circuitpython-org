@@ -65,7 +65,7 @@ def get_bundle_updates(full_repo_name: str) -> Tuple[Set[RepoResult], Set[RepoRe
                         x.strip(",") for x in relevant_line.split(" ")[2:]
                     ]
                     for lib in lib_components:
-                        comps = parse.parse("[{name:S}]({link_comp:S})", lib.strip())
+                        comps = parse.parse("[{name:S}]({link_comp:S})", lib)
                         link: str = parse.search(
                             "{link:S}/releases", comps["link_comp"]
                         )["link"]
@@ -80,7 +80,7 @@ def get_bundle_updates(full_repo_name: str) -> Tuple[Set[RepoResult], Set[RepoRe
 
         except pygithub.RateLimitExceededException:
             core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
-            sleep_time = core_rate_limit_reset - datetime.datetime.utcnow()
+            sleep_time = core_rate_limit_reset - datetime.datetime.now()
             logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
             time.sleep(sleep_time.seconds)
             continue

@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Clara AGX Xavier</h1>
-  <h3>by NVIDIA</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/clara_agx_xavier.jpg" alt="Image of Board">
-        <p>
-          <p>The NVIDIA Clara AGX™ developer kit delivers real-time AI and imaging for medical devices. By combining low-powered, NVIDIA Xavier SOC (system on a chip) and RTX GPUs with the NVIDIA Clara AGX SDK and the NVIDIA EGX stack, it’s easy to securely provision and remotely manage fleets of distributed medical instruments.</p>
+        <img src="/assets/images/boards/large/clara_agx_xavier.jpg" alt="Image of Board" />
+        <h1>Clara AGX Xavier by NVIDIA</h1>
+      </div>
+      <div class="section">
+        <p><p>The NVIDIA Clara AGX™ developer kit delivers real-time AI and imaging for medical devices. By combining low-powered, NVIDIA Xavier SOC (system on a chip) and RTX GPUs with the NVIDIA Clara AGX SDK and the NVIDIA EGX stack, it’s easy to securely provision and remotely manage fleets of distributed medical instruments.</p>
 
 <p>The NVIDIA Clara AGX™ developer kit is an embedded AI computer and software development framework for medical devices that need the ability to perform real-time AI and advanced image, video, and signal processing. Powered by ARM-based NVIDIA Xavier™ along with RTX GPUs and running the NVIDIA EGX software stack, Clara AGX securely manages and orchestrates AI application deployments to fleets of medical devices or edge nodes.</p>
 
@@ -151,15 +148,19 @@
 <ul>
   <li><a href="https://developer.nvidia.com/clara-agx-devkit">NVIDIA</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/clara_agx_xavier.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/clara_agx_xavier.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -174,8 +175,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

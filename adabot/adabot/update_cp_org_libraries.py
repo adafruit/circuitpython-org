@@ -21,7 +21,7 @@ from adabot import pypi_requests as pypi
 
 logger = logging.getLogger(__name__)
 ch = logging.StreamHandler(stream=sys.stdout)
-logging.basicConfig(level=logging.DEBUG, format="%(message)s", handlers=[ch])
+logging.basicConfig(format="%(message)s", handlers=[ch])
 
 
 DO_NOT_VALIDATE = [

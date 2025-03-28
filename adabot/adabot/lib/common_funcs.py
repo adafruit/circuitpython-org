@@ -12,7 +12,7 @@ import datetime
 import os
 import re
 import requests
-from adabot import github_requests as gh_reqs, REQUESTS_TIMEOUT
+from adabot import github_requests as gh_reqs
 from adabot import pypi_requests as pypi
 
 CORE_REPO_URL = "/repos/adafruit/circuitpython"
@@ -84,32 +84,20 @@ def parse_gitmodules(input_text):
     return results
 
 
-def get_bundle_submodules(bundle="adafruit"):
+def get_bundle_submodules():
     """Query Adafruit_CircuitPython_Bundle repository for all the submodules
     (i.e. modules included inside) and return a list of the found submodules.
     Each list item is a 2-tuple of submodule name and a dict of submodule
     variables including 'path' (location of submodule in bundle) and
     'url' (URL to git repository with submodule contents).
-
-    :param string bundle: Which bundle to get submodules for, 'adafruit' or 'community'.
     """
     # Assume the bundle repository is public and get the .gitmodules file
     # without any authentication or Github API usage.  Also assumes the
     # master branch of the bundle is the canonical source of the bundle release.
-    if bundle == "adafruit":
-        result = requests.get(
-            "https://raw.githubusercontent.com/adafruit/"
-            "Adafruit_CircuitPython_Bundle/main/.gitmodules",
-            timeout=REQUESTS_TIMEOUT,
-        )
-    elif bundle == "community":
-        result = requests.get(
-            "https://raw.githubusercontent.com/adafruit/"
-            "CircuitPython_Community_Bundle/main/.gitmodules",
-            timeout=REQUESTS_TIMEOUT,
-        )
-    else:
-        raise ValueError("Bundle must be either 'adafruit' or 'community'")
+    result = requests.get(
+        "https://raw.githubusercontent.com/adafruit/Adafruit_CircuitPython_Bundle/main/.gitmodules",
+        timeout=15,
+    )
     if result.status_code != 200:
         # output_handler("Failed to access bundle .gitmodules file from GitHub!", quiet=True)
         raise RuntimeError("Failed to access bundle .gitmodules file from GitHub!")
@@ -232,9 +220,7 @@ def get_docs_link(bundle_path, submodule):
         with open(f"{bundle_path}/{submodule[1]['path']}/README.rst", "r") as readme:
             lines = readme.read().split("\n")
         for i in range(10):
-            if "target" in lines[i] and (
-                "readthedocs" in lines[i] or "docs.circuitpython.org" in lines[i]
-            ):
+            if "target" in lines[i] and "readthedocs" in lines[i]:
                 return lines[i].replace("    :target: ", "")
         return None
     except FileNotFoundError:

@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Onion Omega2+</h1>
-  <h3>by Onion Corporation</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/onion_omega2plus.jpg" alt="Image of Board">
-        <p>
-          <p>Ever wanted your own Linux-based IoT computer? A small one, that can be battery powered? The Onion Omega2 is sort of in-between a microcontroller (like an Arduino/CircuitPython/MakeCode running chip) and a full-fledged microcomputer (like Raspbery Pi). What you get is a bite-sized development board that combines the power-efficiency of the Arduino and the flexibility of the Raspberry Pi!</p>
+        <img src="/assets/images/boards/large/onion_omega2plus.jpg" alt="Image of Board" />
+        <h1>Onion Omega2+ by Onion Corporation</h1>
+      </div>
+      <div class="section">
+        <p><p>Ever wanted your own Linux-based IoT computer? A small one, that can be battery powered? The Onion Omega2 is sort of in-between a microcontroller (like an Arduino/CircuitPython/MakeCode running chip) and a full-fledged microcomputer (like Raspbery Pi). What you get is a bite-sized development board that combines the power-efficiency of the Arduino and the flexibility of the Raspberry Pi!</p>
 
 <p>So, for example, it runs Linux, but isn’t going to replace your desktop computer. It’s low power and has a static filesystem, but still requires some time to boot up. It’s based on the MediaTek MT7688, a WiFi SoC that was initially designed for devices like WiFi routers or complex IoT devices. It comes with a variant of OpenWRT (nicknamed Onion OS) that is a slimmed down version of Linux. It’s not going to run node.js or minecraft but it is Linux. So, you get WiFi built in, and a full TCP/IP stack with SSL/TLS with all the scripting/programming language support that you expect.</p>
 
@@ -157,15 +154,19 @@
 <ul>
   <li><a href="https://www.adafruit.com/product/3808">Adafruit</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/onion_omega2plus.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/onion_omega2plus.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -180,8 +181,7 @@
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

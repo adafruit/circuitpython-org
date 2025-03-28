@@ -6,27 +6,29 @@
     If updates are found the bundle is updated, updates are pushed to the
     remote, and a new release is made.
 """
-import contextlib
+
 from datetime import date
 from io import StringIO
-import json
 import os
-import pathlib
 import shlex
 import subprocess
 
+import redis as redis_py
+
 import sh
-from circuitpython_build_tools.scripts.build_bundles import build_bundles
 from sh.contrib import git
 
 from adabot import github_requests as gh_reqs
 from adabot.lib import common_funcs
 from adabot import circuitpython_library_download_stats as dl_stats
 
+REDIS = None
+if "GITHUB_WORKSPACE" in os.environ:
+    REDIS = redis_py.StrictRedis(port=os.environ["REDIS_PORT"])
+else:
+    REDIS = redis_py.StrictRedis()
 
 BUNDLES = ["Adafruit_CircuitPython_Bundle", "CircuitPython_Community_Bundle"]
-
-CONTRIBUTOR_CACHE = {}
 
 
 def fetch_bundle(bundle, bundle_path):
@@ -140,26 +142,21 @@ def update_download_stats(bundle_path):
 # pylint: disable=too-many-locals
 def check_lib_links_md(bundle_path):
     """Checks and updates the `circuitpython_library_list` Markdown document
-    located in the Adafruit CircuitPython Bundle and Community Bundle.
+    located in the Adafruit CircuitPython Bundle.
     """
-    bundle = None
-    if "Adafruit_CircuitPython_Bundle" in bundle_path:
-        bundle = "adafruit"
-        listfile_name = "circuitpython_library_list.md"
-    elif "CircuitPython_Community_Bundle" in bundle_path:
-        bundle = "community"
-        listfile_name = "circuitpython_community_auto_library_list.md"
-    else:
+    if not "Adafruit_CircuitPython_Bundle" in bundle_path:
         return []
     submodules_list = sorted(
-        common_funcs.get_bundle_submodules(bundle=bundle),
-        key=lambda module: module[1]["path"],
+        common_funcs.get_bundle_submodules(), key=lambda module: module[1]["path"]
     )
+    submodules_list = common_funcs.get_bundle_submodules()
 
     lib_count = len(submodules_list)
     # used to generate commit message by comparing new libs to current list
     try:
-        with open(os.path.join(bundle_path, listfile_name), "r") as lib_list:
+        with open(
+            os.path.join(bundle_path, "circuitpython_library_list.md"), "r"
+        ) as lib_list:
             read_lines = lib_list.read().splitlines()
     except OSError:
         read_lines = []
@@ -202,7 +199,9 @@ def check_lib_links_md(bundle_path):
         "## Drivers:\n",
     ]
 
-    with open(os.path.join(bundle_path, listfile_name), "w") as md_file:
+    with open(
+        os.path.join(bundle_path, "circuitpython_library_list.md"), "w"
+    ) as md_file:
         md_file.write("\n".join(lib_list_header))
         for line in sorted(write_drivers):
             md_file.write(line + "\n")
@@ -267,16 +266,6 @@ def repo_remote_url(repo_path):
 
 def update_bundle(bundle_path):
     """Process all libraries in the bundle, and update their version if necessary."""
-
-    if (
-        "Adafruit_CircuitPython_Bundle" not in bundle_path
-        and "CircuitPython_Community_Bundle" not in bundle_path
-    ):
-        raise ValueError(
-            "bundle_path must be for "
-            "Adafruit_CircuitPython_Bundle or CircuitPython_Community_Bundle"
-        )
-
     working_directory = os.path.abspath(os.getcwd())
     os.chdir(bundle_path)
     git.submodule("foreach", "git", "fetch")
@@ -320,15 +309,12 @@ def update_bundle(bundle_path):
     os.chdir(working_directory)
     lib_list_updates = check_lib_links_md(bundle_path)
     if lib_list_updates:
-        if "Adafruit_CircuitPython_Bundle" in bundle_path:
-            listfile_name = "circuitpython_library_list.md"
-            bundle_url = "https://github.com/adafruit/Adafruit_CircuitPython_Bundle/"
-        elif "CircuitPython_Community_Bundle" in bundle_path:
-            listfile_name = "circuitpython_community_auto_library_list.md"
-            bundle_url = "https://github.com/adafruit/CircuitPython_Community_Bundle/"
         updates.append(
             (
-                f"{bundle_url}{listfile_name}",  # pylint: disable=possibly-used-before-assignment
+                (
+                    "https://github.com/adafruit/Adafruit_CircuitPython_Bundle/"
+                    "circuitpython_library_list.md"
+                ),
                 "NA",
                 "NA",
                 "  > Added the following libraries: {}".format(
@@ -337,6 +323,18 @@ def update_bundle(bundle_path):
             )
         )
         release_required = True
+    if update_download_stats(bundle_path):
+        updates.append(
+            (
+                (
+                    "https://github.com/adafruit/Adafruit_CircuitPython_Bundle/"
+                    "circuitpython_library_list.md"
+                ),
+                "NA",
+                "NA",
+                "  > Updated download stats for the libraries",
+            )
+        )
 
     return updates, release_required
 
@@ -356,7 +354,8 @@ def commit_updates(bundle_path, update_info):
             )
         )
     message = "\n\n".join(message)
-    git.commit("-a", message=message)
+    git.add(".")
+    git.commit(message=message)
     os.chdir(working_directory)
 
 
@@ -381,17 +380,20 @@ def get_contributors(repo, commit_range):
         return contributors
     for log_line in output.split("\n"):
         sha, author_email, committer_email = log_line.split(",")
-        author = CONTRIBUTOR_CACHE.get("github_username:" + author_email, None)
-        committer = CONTRIBUTOR_CACHE.get("github_username:" + committer_email, None)
+        author = REDIS.get("github_username:" + author_email)
+        committer = REDIS.get("github_username:" + committer_email)
         if not author or not committer:
             github_commit_info = gh_reqs.get("/repos/" + repo + "/commits/" + sha)
             github_commit_info = github_commit_info.json()
             if github_commit_info["author"]:
                 author = github_commit_info["author"]["login"]
-                CONTRIBUTOR_CACHE["github_username:" + author_email] = author
+                REDIS.set("github_username:" + author_email, author)
             if github_commit_info["committer"]:
                 committer = github_commit_info["committer"]["login"]
-                CONTRIBUTOR_CACHE["github_username:" + committer_email] = committer
+                REDIS.set("github_username:" + committer_email, committer)
+        else:
+            author = author.decode("utf-8")
+            committer = committer.decode("utf-8")
 
         if committer_email == "noreply@github.com":
             committer = None
@@ -421,26 +423,6 @@ def add_contributors(master_list, additions):
         if contributor not in master_list:
             master_list[contributor] = 0
         master_list[contributor] += additions[contributor]
-
-
-def test_bundle_build(bundle_dir):
-    """
-    Attempts to build the bundle at the given location.
-    Raises system exit status 0 if successful.
-    Raises system exit status >0 if failed to build.
-    """
-    with contextlib.chdir(bundle_dir):
-        build_bundles(
-            [
-                "--filename_prefix",
-                "test-build-bundle",
-                "--library_location",
-                "libraries",
-                "--library_depth",
-                "2",
-            ],
-            standalone_mode=False,
-        )
 
 
 # pylint: disable=too-many-locals,too-many-branches,too-many-statements
@@ -524,7 +506,7 @@ def new_release(bundle, bundle_path):
     release_description.append(
         "The libraries in each release are compiled for all recent major versions of CircuitPython."
         " Please download the one that matches the major version of your CircuitPython. For example"
-        ", if you are running 9.1.1 you should download the `9.x` bundle.\n"
+        ", if you are running 7.0.0 you should download the `7.x` bundle.\n"
     )
 
     release_description.append(
@@ -533,21 +515,7 @@ def new_release(bundle, bundle_path):
         " especially important for non-express boards with limited flash, such as the"
         " [Trinket M0](https://www.adafruit.com/product/3500),"
         " [Gemma M0](https://www.adafruit.com/product/3501) and"
-        " [Feather M0 Basic](https://www.adafruit.com/product/2772).\n"
-    )
-
-    release_description.append(
-        "To automate the use of bundles, including the Adafruit CircuitPython Bundle"
-        " and the Community Bundle, install [circup](https://pypi.org/project/circup/)"
-        " using pip or pipx."
-        " This command-line tool allows you to install packages from the bundle to your CIRCUITPY"
-        " drive without manually downloading anything.\n"
-    )
-
-    release_description.append(
-        "To download the libraries as Python source code, use the link containing 'bundle-py'."
-        " Due to github's technical limitations, the 'Source code (zip)' and 'Source code (tar.gz')"
-        " links do not contain the library source code and cannot be hidden by project admins."
+        " [Feather M0 Basic](https://www.adafruit.com/product/2772)."
     )
 
     release = {
@@ -572,10 +540,6 @@ def new_release(bundle, bundle_path):
 
 
 if __name__ == "__main__":
-    contributor_cache_fn = pathlib.Path("contributors.json").resolve()
-    if contributor_cache_fn.exists():
-        CONTRIBUTOR_CACHE = json.loads(contributor_cache_fn.read_text())
-
     bundles_dir = os.path.abspath(".bundles")
     if "GITHUB_WORKSPACE" in os.environ:
         git.config("--global", "user.name", "adabot")
@@ -585,13 +549,6 @@ if __name__ == "__main__":
         try:
             fetch_bundle(cp_bundle, bundle_dir)
             updates, release_required = update_bundle(bundle_dir)
-
-            # test bundle build and stop if it does not succeed
-            try:
-                test_bundle_build(bundle_dir)
-            except SystemExit as e:
-                if e.code != 0:
-                    raise RuntimeError("Test Build of Bundle Failed") from e
             if release_required:
                 commit_updates(bundle_dir, updates)
                 push_updates(bundle_dir)
@@ -599,6 +556,3 @@ if __name__ == "__main__":
         except RuntimeError as e:
             print("Failed to update and release:", cp_bundle)
             print(e)
-            raise e
-        finally:
-            contributor_cache_fn.write_text(json.dumps(CONTRIBUTOR_CACHE))

@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Orange Pi 5 Plus</h1>
-  <h3>by Shenzhen Xunlong Software CO., Limited</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/orange_pi_5_plus.jpg" alt="Image of Board">
-        <p>
-          <p>Orange Pi 5 Plus uses Rockchip RK3588 8-core 64-bit processor, quad-core A76+quad-core A55, with 8nm process design, up to 2.4GHz main frequency, integrated ARM Mali-G610, built-in 3D GPU, compatible with OpenGL ES1.1/2.0/3.2, OpenCL 2.2 and Vulkan 1.2; embedded NPU supports INT4/INT8/INT16/FP16 mixed computing, with up to 6Tops of computing power, which can meet the edge computing needs of most end devices; 4GB/8GB/16GB LPDDR4/4X memory and eMMC socket, which can be connected with 16GB/32GB/64GB/128GB/256GB eMMC module. Orange Pi 5 Plus supports Orange Pi OS, the official operating system developed by Orange Pi, as well as Android 12, Debian 11, Ubuntu 22.04 and other operating systems.</p>
+        <img src="/assets/images/boards/large/orange_pi_5_plus.jpg" alt="Image of Board" />
+        <h1>Orange Pi 5 Plus by Shenzhen Xunlong Software CO., Limited</h1>
+      </div>
+      <div class="section">
+        <p><p>Orange Pi 5 Plus uses Rockchip RK3588 8-core 64-bit processor, quad-core A76+quad-core A55, with 8nm process design, up to 2.4GHz main frequency, integrated ARM Mali-G610, built-in 3D GPU, compatible with OpenGL ES1.1/2.0/3.2, OpenCL 2.2 and Vulkan 1.2; embedded NPU supports INT4/INT8/INT16/FP16 mixed computing, with up to 6Tops of computing power, which can meet the edge computing needs of most end devices; 4GB/8GB/16GB LPDDR4/4X memory and eMMC socket, which can be connected with 16GB/32GB/64GB/128GB/256GB eMMC module. Orange Pi 5 Plus supports Orange Pi OS, the official operating system developed by Orange Pi, as well as Android 12, Debian 11, Ubuntu 22.04 and other operating systems.</p>
 
 <p>Orange Pi 5 Plus provides abundant interfaces, including two HDMl output ports, one HDMl input port , two PCIe extended 2.5G Ethernet ports, an M.2 M-Key slot that supports installation of NVMe SSDs, and an M.2 E-Key slot that supports Wi-Fi6/BT modules. In addition, Orange Pi 5 Plus has two USB 3.0, two USB 2.0, and two Type-C (one of which is a power connector).
 Orange Pi 5 Plus has a wide range of uses to help embedded system development enthusiasts explore, and is also suitable for enterprises developing mini machine vision systems with multiple Ethernet ports, Orange Pi 5 Plus offers enhanced high-end applications performance experience to meet the needs of product customization in different industries.</p>
@@ -179,15 +176,19 @@ Orange Pi 5 Plus has a wide range of uses to help embedded system development en
 <ul>
   <li><a href="https://amzn.to/46TH8bh">Amazon</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/orange_pi_5_plus.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/orange_pi_5_plus.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -202,8 +203,7 @@ Orange Pi 5 Plus has a wide range of uses to help embedded system development en
   </p>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>

@@ -62,21 +62,21 @@
   <div class="wrapper">
     <div class="content">
       <nav class="site-brand">
-        <div class="site-logo">
-          <a href="/">
-            <img src="/assets/images/logo.png"
-                 srcset="/assets/images/logo.png 1x,
-                         /assets/images/logo@2x.png 2x,
-                         /assets/images/logo@3x.png 3x"
-                                         alt="CircuitPython Logo"
-                                         height="60" width="136">
-          </a>
-        </div>
         <div class="site-navigation">
           <a  href="/downloads">Downloads</a>
           <a  href="/libraries">Libraries</a>
           <a class="active" aria-current="page" href="/blinka">Blinka</a>
           <a href="https://code.circuitpython.org">Code Editor</a>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="/assets/images/logo-dark.png"
+                 srcset="/assets/images/logo-dark.png 1x,
+                         /assets/images/logo-dark@2x.png 2x,
+                         /assets/images/logo-dark3x.png 3x"
+                                         alt="CircuitPython Logo"
+                                         height="60" width="136">
+          </a>
         </div>
         <div class="get-started">
           <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
@@ -84,7 +84,6 @@
       </nav>
     </div>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <header id="mobile-header">
@@ -129,21 +128,19 @@
       </ul>
     </nav>
   </div>
-  <div class="bottom-bar"></div>
 </header>
 
     <div id="main-content" class="wrapper">
       <div id="download-page">
-  <h1>Orange Pi Lite</h1>
-  <h3>by Shenzhen Xunlong Software CO.,Limited</h3>
-
   <div class="download-section">
-    <div class="details">
-      <div class="section">
+    <div>
+      <div class="image-section">
         
-        <img src="/assets/images/boards/large/orange_pi_lite.png" alt="Image of Board">
-        <p>
-          <p>What’s Orange Pi Lite？
+        <img src="/assets/images/boards/large/orange_pi_lite.png" alt="Image of Board" />
+        <h1>Orange Pi Lite by Shenzhen Xunlong Software CO.,Limited</h1>
+      </div>
+      <div class="section">
+        <p><p>What’s Orange Pi Lite？
 It’s an open-source single-board computer. It can run Android 4.4, Ubuntu, Debian Image. It uses the AllWinner H3 SoC, and has 512MB DDR3 SDRAM.</p>
 
 <p>What can I do with Orange Pi Lite?
@@ -193,15 +190,19 @@ Orange Pi Lite is for anyone who wants to start creating with technology – not
 <ul>
   <li><a href="https://www.aliexpress.com/item/32662738571.html?spm=a2g0o.productlist.0.0.756017c14GjaGI&amp;algo_pvid=eb42f805-f4da-4d5b-8e7d-a95ba887558d&amp;algo_expid=eb42f805-f4da-4d5b-8e7d-a95ba887558d-0&amp;btsid=15fd8f3d-5a4c-41da-9cda-329a4cc9f037&amp;ws_ab_test=searchweb0_0,searchweb201602_5,searchweb201603_53">Aliexpress</a></li>
 </ul>
-
-        </p>
+</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/orange_pi_lite.md">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_blinka/orange_pi_lite.md"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      
-        <div class="section stable">
+       <div class="section stable">
   <h3>Adafruit Blinka Installation</h3>
   <p>
     We use a special library called adafruit_blinka (named after Blinka, the
@@ -221,8 +222,7 @@ Orange Pi Lite is for anyone who wants to start creating with technology – not
   </div>
   
 </div>
-
-      
+ 
     </div>
   </div>
 </div>
