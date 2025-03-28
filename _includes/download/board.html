@@ -18,8 +18,6 @@
     {% if version.stable %}
     <p>
       This is the latest <strong>stable</strong> release of CircuitPython that will work with the {{ page.name }}.
-    </p>
-    <p>
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
     {% else %}
@@ -45,14 +43,10 @@
         Older bootloaders cannot load the firmware. See <i>Update UF2 Bootloader</i> below.</b>
       </p>
     {% endif %}
-    <div class="release-details">
-      <p>
-        <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
-      </p>
-      {% if page.download_instructions != nil and page.download_instructions != "" %}
-        <a class="download-button install-instructions-button" target="_blank" href="{{ page.download_instructions }}">HOW TO INSTALL<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
-      {% endif %}
-    </div>
+    <p>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes for {{ version.version }}</a>
+    </p>
+
     <div class="download-details">
       {% comment %}
       Create a list of language codes and names so it can be sorted.
@@ -150,9 +144,12 @@
       {% endif %}
       </div>
     </div>
+    {% if page.download_instructions != nil and page.download_instructions != "" %}
+      <a class="install-instructions" target="_blank" href="{{ page.download_instructions }}">Learn how to install CircuitPython on this board <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+    {% endif %}
     {% if version.modules %}
-    <p>
-        Built-in modules available:
+    <details>
+        <summary>Modules included in this download</summary>
         <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">
           {% for module_name in version.modules %}
           {% if module_name contains "." %}
@@ -160,10 +157,10 @@
           {% else %}
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/{{ module_name }}">
           {% endif %}
-            {{ module_name }}</a>{% unless forloop.last %}, {% endunless %}
+            {{ module_name }}</a>
           {% endfor %}
         </span>
-    </p>
+    </details>
     {% endif %}
     {% if version.frozen_libraries and version.frozen_libraries.size != 0 %}
     <p>

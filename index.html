@@ -3,171 +3,141 @@ layout: home
 ---
 
 <div id="home-page">
-  {% comment %}
-  <div class="promotion-banner">
-      <a
-          href="https://blog.adafruit.com/2022/08/08/circuitpython-day-2022-schedule-circuitpythonday2022-circuitpython-python/">
-        <img class="image-promotion" alt="CircuitPython Day August 19, 2022 Details"
-                                  src="{{ "assets/images/heroes/circuitpython_day_header.jpg" |
-                                          relative_url }}"
-          />
-      </a>
-  </div>
-  {% endcomment %}
-  <div class="headline-banner">
-    <div class="img-overlay"></div>
-      <img class="image-headline" alt="hero image"
-                                  src="{{ "assets/images/heroes/" |
-                                          append: site.hero_image |
-                                          relative_url }}"
-          />
+  <div class="two-column-content">
     <div class="text">
-      <div class="title"><span>The easiest way to program microcontrollers</span></div>
+      <h1>The easiest way to program microcontrollers</h1>
       <div class="tagline">
-        <span>
+        <p>
           CircuitPython is a programming language designed to simplify
           experimenting and learning to code on low-cost microcontroller
           boards.
-        </span>
+        </p>
+      </div>
+      <div class="get-started">
+        <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
       </div>
     </div>
-  </div>
-  <div class="purple banner">
-    <p>
-      With CircuitPython, there are no upfront desktop downloads needed. Once
-      you get your board set up, open any text editor, and start editing code.
-      It's that simple.
-    </p>
+    {% assign learn_block_index = 0 %}
+    {% include index/learn_block.html index=learn_block_index %}
   </div>
 
-  <div class="headline-banner supported-section">
-    <img class="image-headline" alt="hero image"
-                                src="{{ "assets/images/CircuitPython_Boards.jpg" |
-                                relative_url }}"
-         />
+  <div class="one-column-content">
+    <section>
+      <div>
+        <h2>When we say easy, we mean it.</h2>
+        <p>
+          With CircuitPython, no desktop downloads are required. Just set up your board and start coding via <a href="https://code.circuitpython.org">code.circuitpython.org</a> over USB, WiFi, or Bluetooth.
+        </p>
+        <p>
+          Create a file, edit your code, save the file, and it runs immediately. There is no compiling needed.
+        </p>
+      </div>
+      <div class="icon-block">
+        <div>
+          <img alt="Brain Circuit Icon"
+              src="{{ "assets/images/icons/brain-circuit.svg" |
+                        relative_url }}" />
+          <div>
+            <h3>Beginner Friendly</h3>
+            <p>
+              CircuitPython is designed with education in mind. It's an easy way to start learning how to code and you get immediate feedback from the board.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img alt="Microchip Icon"
+              src="{{ "assets/images/icons/microchip.svg" |
+                        relative_url }}" />
+          <div>
+            <h3>File Storage</h3>
+            <p>
+              The internal storage for CircuitPython makes it great for data-logging, playing audio clips, and otherwise interacting with files.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img alt="Files Icon"
+              src="{{ "assets/images/icons/files.svg" |
+                        relative_url }}" />
+          <div>
+            <h3>Easy Code Updates</h3>
+            <p>
+              Since your code lives on the disk drive, you can edit it whenever you
+              like. You can even keep multiple files around for easy experimentation.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img alt="Terminal Icon"
+              src="{{ "assets/images/icons/terminal.svg" |
+                        relative_url }}" />
+          <div>
+            <h3>Serial Console + REPL</h3>
+            <p>
+              These features allow for live feedback from your code and interactive programming.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="two-column-content">
+    {% assign learn_block_index = learn_block_index | plus: 1 %}
+    {% include index/learn_block.html index=learn_block_index %}
     <div class="text">
-      <div class="title"><span>Supported by all of the best microcontrollers</span></div>
+      <h2>Easily manage and use over 500+ Python libraries.</h2>
       <div class="tagline">
-        <span>
-          <a href="/downloads" class="action-link">See them all</a>
-        </span>
+        <p>
+          Python is the fastest growing programming language. It's taught in schools and universities. It's a high-level programming language which means it's designed to be easier to read, write and maintain. It supports modules and packages which means it's easy to reuse your code for other projects. It has a built-in interpreter which means there are no extra steps, like compiling, to get your code to work. And of course, Python is Open Source Software which means it's free for anyone to use, modify or improve upon.
+        </p>
+        <p class="hidden-tablet">
+          CircuitPython adds hardware support to all of these amazing features. If you already have Python knowledge, you can easily apply that to using CircuitPython. If you have no previous experience, it's really simple to get started!
+        </p>
       </div>
     </div>
   </div>
 
-  <div class="content">
-    <section>
-      <h2>More reasons to use CircuitPython</h2>
-      <div class="home-table">
-        <div class="item">
-          <h3>Quick and Easy</h3>
-          <p>
-            Create a file, edit your code, save the file, and it runs immediately.
-            There is no compiling or uploading needed.
-          </p>
-        </div>
-        <div class="item">
-          <h3>Beginner Friendly</h3>
-          <p>
-            CircuitPython is designed with education in mind. It's an easy way to start
-            learning how to code and you get immediate feedback from the board.
-          </p>
-        </div>
-        <div class="item">
-          <h3>Easy Code Updates</h3>
-          <p>
-            Since your code lives on the disk drive, you can edit it whenever you
-            like. You can even keep multiple files around for easy experimentation.
-          </p>
-        </div>
-        <div class="item">
-          <h3>Serial Console + REPL</h3>
-          <p>
-            These features allow for live feedback from your code and interactive programming.
-          </p>
-        </div>
-        <div class="item">
-          <h3>File Storage</h3>
-          <p>
-            The internal storage for CircuitPython makes it great for data-logging,
-            playing audio clips, and otherwise interacting with files.
-          </p>
-        </div>
-        <div class="item">
-          <h3>Strong Hardware Support</h3>
-          <p>
-            There are many libraries and drivers for sensors, breakout boards
-            and other external components.
-          </p>
-        </div>
+  <div class="two-column-content">
+    <div class="text">
+      <h2>Supported by all of the best microcontrollers</h2>
+      <div class="tagline">
+        <p>
+          CircuitPython is now supported by over 550 microcontrollers. With so many to choose from, there is sure to be a perfect board for your next project.
+        </p>
       </div>
-    </section>
-  </div>
-
-  <div class="headline-banner supported-section">
-    <img class="image-headline pinball" alt="hero image"
-                                src="{{ "assets/images/CircuitPython_Pinball.jpg" |
-                                relative_url }}"
-         />
-    <div class="text">
-      <div class="title"><span>The simple way to build something amazing</span></div>
+      <div class="get-started">
+        <a href="{{ "downloads" | relative_url }}">See them all</a>
+      </div>
     </div>
+    {% assign learn_block_index = learn_block_index | plus: 1 %}
+    {% include index/learn_block.html index=learn_block_index %}
   </div>
 
-  <div class="content">
-    <section>
-      <img class="responsive" src="{{ "/assets/images/python.png" | relative_url }}"
-           srcset="{{ "/assets/images/python.png" | relative_url }} 1x,
-                   {{ "/assets/images/python@2x.png" | relative_url }} 2x,
-                   {{ "/assets/images/python@3x.png" | relative_url }} 3x"  alt="Python Logo">
-      <h2>CircuitPython is based on Python</h2>
-      <p>
-        Python is the fastest growing programming language. It's taught in schools
-        and universities. It's a high-level programming language which means it's
-        designed to be easier to read, write and maintain. It supports modules and
-        packages which means it's easy to reuse your code for other projects. It
-        has a built-in interpreter which means there are no extra steps, like
-        compiling, to get your code to work. And of course, Python is Open Source
-        Software which means it's free for anyone to use, modify or improve upon.
-      </p>
-      <p>
-        CircuitPython adds hardware support to all of these amazing features. If you
-        already have Python knowledge, you can easily apply that to using CircuitPython.
-        If you have no previous experience, it's really simple to get started!
-      </p>
-    </section>
-  </div>
-
-  <div class="headline-banner supported-section">
-    <img class="image-headline pinball" alt="hero image"
-                                src="{{ "assets/images/CircuitPython_Sensors.jpg" |
-                                relative_url }}"
-         />
+  <div class="two-column-content">
+    {% assign learn_block_index = learn_block_index | plus: 1 %}
+    {% include index/learn_block.html index=learn_block_index %}
     <div class="text">
-      <div class="title"><span>280+ libraries all written in Python</span></div>
-    </div>
-  </div>
-
-  <div class="content">
-    <section>
-      <img class="responsive" src="{{ "/assets/images/raspberry_pi.png" | relative_url }}"
-           srcset="{{ "/assets/images/raspberry_pi.png" | relative_url }} 1x,
-                   {{ "/assets/images/raspberry_pi@2x.png" | relative_url }} 2x,
-                   {{ "/assets/images/raspberry_pi@3x.png" | relative_url }} 3x"  alt="Raspberry Pi">
       <h2>CircuitPython libraries on single board computers</h2>
-      <p>
-        Most CircuitPython libraries also work on <a href="/blinka">single board computers (SBCs)</a>, such as the Raspberry Pi.
-        Linux runs "desktop" Python (commonly known as CPython) instead of CircuitPython.
-        Our CPython Blinka library provides CircuitPython's low-level hardware APIs, such as `digitalio`.
-      </p>
-      <p>
-        Blinka and CircuitPython libraries are just a `pip install` away.
-      </p>
-    </section>
+      <div class="tagline">
+        <p>
+          Most CircuitPython libraries also work on single board computers (SBCs), such as the Raspberry Pi. Linux runs &quot;desktop&quot; Python (commonly known as CPython) instead of CircuitPython. Our CPython Blinka library provides CircuitPython&apos;s low-level hardware APIs, such as `digitalio`.
+        </p>
+        <p>
+          Blinka and CircuitPython libraries are just a `pip install` away.
+        </p>
+      </div>
+      <div class="get-started">
+        <a href="{{ "blinka" | relative_url }}">Learn More</a>
+      </div>
+    </div>
   </div>
 
-  <div class="purple banner">
-    <div class="content short">
+
+
+
+
+  <div class="one-column-content">
     <h2>Just the beginning...</h2>
     <p>
       CircuitPython continues to evolve, and is constantly being updated. We
@@ -175,34 +145,30 @@ layout: home
       into how we are developing CircuitPython. That's the core of the open source
       concept. This makes CircuitPython better for you and everyone who uses it!
     </p>
-    <p>
-      <a href="https://learn.adafruit.com/welcome-to-circuitpython"
-         class="action-link include-gap">Get Started</a>
-    </p>
+    <div class="get-started">
+      <a href="https://learn.adafruit.com/welcome-to-circuitpython">Get Started</a>
     </div>
   </div>
 
-  <div class="content">
-    <section>
-      <h2>Thanks</h2>
-      <p>
-         CircuitPython wouldn't exist without the awesome work of
-         <a href="https://micropython.org">Damien George and the MicroPython community</a>.
-         They did the hard work to reimplement Python on microcontrollers and
-         continue to push the boundaries of what is possible.
-      </p>
-      <p>
-        Thank you to <a href="https://www.adafruit.com">Adafruit</a> for
-        continuing to support CircuitPython's beginner-focused development.
-        Adafruit supports MicroPython with code contributions and financially
-        via <a href="https://github.com/sponsors/micropython">GitHub sponsorship</a>
-        AND directly to MicroPython.
-      </p>
-      <p>
-        Lastly, thank you to the CircuitPython community members who have spent
-        time testing, triaging, fixing and enhancing CircuitPython, its libraries
-        and its documentation. Together we're all making something incredible.
-      </p>
-    </section>
+  <div class="one-column-content">
+    <h2>Thanks</h2>
+    <p>
+        CircuitPython wouldn't exist without the awesome work of
+        <a href="https://micropython.org">Damien George and the MicroPython community</a>.
+        They did the hard work to reimplement Python on microcontrollers and
+        continue to push the boundaries of what is possible.
+    </p>
+    <p>
+      Thank you to <a href="https://www.adafruit.com">Adafruit</a> for
+      continuing to support CircuitPython's beginner-focused development.
+      Adafruit supports MicroPython with code contributions and financially
+      via <a href="https://github.com/sponsors/micropython">GitHub sponsorship</a>
+      AND directly to MicroPython.
+    </p>
+    <p>
+      Lastly, thank you to the CircuitPython community members who have spent
+      time testing, triaging, fixing and enhancing CircuitPython, its libraries
+      and its documentation. Together we're all making something incredible.
+    </p>
   </div>
 </div>

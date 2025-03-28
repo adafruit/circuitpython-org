@@ -1,8 +1,11 @@
+@use "../base/variables";
+
 #mobile-header {
   background-color: #333;
 
   .header-contents {
     padding: 9px 5px 5px 8px;
+    margin-bottom: 20px;
   }
 
   /* screen reader only */
@@ -13,7 +16,7 @@
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     border: 0;
   }
 
@@ -60,9 +63,8 @@
   }
 }
 
-@media (min-width: $screen-xs-max) {
+@media (min-width: variables.$screen-xs-max) {
   #mobile-header {
     display: none !important;
   }
 }
-

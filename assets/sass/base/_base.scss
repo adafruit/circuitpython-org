@@ -1,6 +1,9 @@
-body  {
-  font-family: "Proxima Nova","Montserrat","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-    background-color: #ebebeb;
+@use "variables";
+
+body {
+  font-family: "Proxima Nova", "Montserrat", "Lucida Grande",
+    "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
 }
 
 a {
@@ -11,7 +14,11 @@ a {
   clear: both;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
@@ -27,7 +34,7 @@ a.purple-button-link {
   color: #fff;
   border-radius: 5px;
   border: none;
-  background-color: $purple;
+  background-color: variables.$purple;
 
   i {
     padding-left: 10px;
@@ -35,14 +42,15 @@ a.purple-button-link {
 }
 
 fieldset {
-    border: 0;
+  border: 0;
 
-    legend {
-      font-size: 1.5em;
-      font-weight: 500;
-    }
+  legend {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
 }
 
-input.filter-checkbox, label {
-    cursor: pointer;
+input.filter-checkbox,
+label {
+  cursor: pointer;
 }

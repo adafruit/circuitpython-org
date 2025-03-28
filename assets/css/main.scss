@@ -1,23 +1,22 @@
 ---
 ---
+
 @charset "utf-8";
 
-@import 'vendors/normalize';
+@use "../sass/vendors/normalize";
 
-@import 'base/variables';
-@import 'base/typography';
-@import 'base/base';
-@import 'base/mixins';
+@use "../sass/base/typography";
+@use "../sass/base/base";
 
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/header_mobile';
+@use "../sass/layout/grid";
+@use "../sass/layout/header";
+@use "../sass/layout/header_mobile";
 
-@import 'pages/home';
-@import 'pages/common';
-@import 'pages/downloads';
-@import 'pages/download';
-@import 'pages/awesome';
-@import 'pages/libraries';
-@import 'pages/contributing';
-@import 'pages/espinstaller';
+@use "../sass/pages/home";
+@use "../sass/pages/common";
+@use "../sass/pages/downloads";
+@use "../sass/pages/download";
+@use "../sass/pages/awesome";
+@use "../sass/pages/libraries";
+@use "../sass/pages/contributing";
+@use "../sass/pages/espinstaller";

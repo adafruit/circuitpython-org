@@ -1,34 +1,41 @@
 ---
 layout: default
 ---
-<div id="download-page">
-  <h1>{{ page.name }}</h1>
-  <h3>by {{ page.manufacturer }}</h3>
 
+<div id="download-page">
   <div class="download-section">
-    <div class="details">
+    <div>
+      <div class="image-section">
+        {% assign large_image = "/assets/images/boards/large/" | append:
+        page.board_image %}
+        <img src="{{ large_image | relative_url }}" alt="Image of Board" />
+        <h1>{{ page.name }} by {{ page.manufacturer }}</h1>
+      </div>
       <div class="section">
-        {% assign large_image = "/assets/images/boards/large/" | append: page.board_image %}
-        <img src="{{ large_image | relative_url }}" alt="Image of Board">
-        <p>
-          {{ content }}
-        </p>
+        <p>{{ content }}</p>
         <h2>Contribute</h2>
-          <p>Have some info to add for this board? Edit the source for this page <a href="https://github.com/adafruit/circuitpython-org/edit/main/{{ page.path }}">here</a>.</p>
+        <p>
+          Have some info to add for this board? Edit the source for this page
+          <a
+            href="https://github.com/adafruit/circuitpython-org/edit/main/{{ page.path }}"
+            >here</a
+          >.
+        </p>
       </div>
     </div>
     <div class="download">
-      {% if page.blinka == true %}
-        {% include download/blinka.html %}
-      {% else %}
-        {% include download/board.html %}
-      {% endif %}
+      {% if page.blinka == true %} {% include download/blinka.html %} {% else %}
+      {% include download/board.html %} {% endif %}
     </div>
   </div>
 </div>
 
-{% if page.family == 'esp32' or page.family == 'esp32s2' or page.family == 'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32c6' %}
-<script src="https://cdn.jsdelivr.net/gh/adafruit/web-firmware-installer-js@2.0.0/dist/cpinstaller.min.js" type="module"></script>
+{% if page.family == 'esp32' or page.family == 'esp32s2' or page.family ==
+'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32c6' %}
+<script
+  src="https://cdn.jsdelivr.net/gh/adafruit/web-firmware-installer-js@2.0.0/dist/cpinstaller.min.js"
+  type="module"
+></script>
 <!--<script src="/assets/javascript/installer/cpinstaller.js" type="module"></script>-->
 {% endif %}
 <script src="/assets/javascript/download.js"></script>

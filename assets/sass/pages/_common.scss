@@ -1,3 +1,5 @@
+@use "../base/variables";
+
 #common-page {
   h1 {
     text-align: center;
@@ -8,8 +10,8 @@
   }
 
   h2 {
-    border-bottom: 1px solid $gray-border;
-    padding-bottom: .3em;
+    border-bottom: 1px solid variables.$gray-border;
+    padding-bottom: 0.3em;
     margin-bottom: 16px;
     margin-top: 24px;
   }
@@ -17,9 +19,7 @@
   ul {
     margin-bottom: 16px;
     li {
-      margin-top: .25em;
+      margin-top: 0.25em;
     }
   }
 }
-
-
