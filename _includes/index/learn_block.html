@@ -1,15 +1,16 @@
 <div class="image">
   {% assign guide = site.data.guides[include.index] %}
-  <img class="image-headline" alt="{{ guide.image_alt_attribute }}"
-                            src="{{ guide.image }}"
-    />
+  <img class="image-headline"
+       alt="{{ guide.image_alt_attribute }}"
+       src="{{ guide.image }}"
+       loading="lazy" />
   <span class="image-title">
     <span>
       <p><a href="{{ guide.guide_url }}">{{ guide.title }} by {{ guide.author }}</a></p>
     </span>
     <img alt="Made with CircuitPython Logo"
-                              src="{{ "assets/images/made_with_circuitpython.svg" |
-                                      relative_url }}"
-      />
+         src="{{ "assets/images/made_with_circuitpython.svg" |
+                    relative_url }}"
+         loading="lazy" />
   </span>
 </div>
