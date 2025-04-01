@@ -405,12 +405,9 @@ label {
   padding: 0 25px;
   margin: 20px 0;
 }
-#site-header a.active {
-  color: rgb(60.3342105263, 28.0763157895, 85.4236842105);
-}
 
 .top-navigation {
-  background-color: #333;
+  background-color: #333333;
   display: grid;
   grid-template-columns: [full-start] minmax(15px, 1fr) [main-start] minmax(0, 1300px) [main-end] minmax(15px, 1fr) [full-end];
 }
@@ -425,6 +422,9 @@ label {
   font-size: 16px;
   color: #aaa;
   margin-right: 40px;
+}
+.top-navigation .navigation a.active {
+  color: #fff;
 }
 .top-navigation .navigation a:hover {
   color: #fff;
@@ -492,11 +492,14 @@ label {
 }
 .site-navigation a {
   margin-right: 30px;
-  color: #63338f;
+  color: #652f8f;
   white-space: nowrap;
 }
+.site-navigation a.active {
+  color: #333333;
+}
 .site-navigation a:hover {
-  color: rgb(60.3342105263, 28.0763157895, 85.4236842105);
+  color: #333333;
 }
 
 @media (max-width: 1365px) {
@@ -512,7 +515,7 @@ label {
   }
 }
 #mobile-header {
-  background-color: #333;
+  background-color: #333333;
   /* screen reader only */
 }
 #mobile-header .header-contents {
@@ -750,8 +753,11 @@ label {
   }
   #home-page .one-column-content section {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(1, 1fr);
     column-gap: 20px;
+  }
+  #home-page .one-column-content section .icon-block {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 #common-page h1 {
@@ -979,7 +985,7 @@ label {
     margin-top: 10px;
   }
   #downloads-page .downloads-section {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 100%);
   }
 }
 #download-page {
@@ -1321,7 +1327,7 @@ label {
   content: " ";
   height: 25px;
   width: 2px;
-  background-color: #333;
+  background-color: #333333;
 }
 .cp-installer-dialog .close-button:before {
   transform: rotate(45deg);
