@@ -1,7 +1,7 @@
 @use "../base/variables";
 
 #mobile-header {
-  background-color: #333;
+  background-color: variables.$dark-gray;
 
   .header-contents {
     padding: 9px 5px 5px 8px;

@@ -19,23 +19,24 @@
     padding: 0 25px;
     margin: 20px 0;
   }
-
-  a.active {
-    color: color.adjust(variables.$purple, $lightness: -15%, $space: hsl);
-  }
 }
 
 .top-navigation {
-  background-color: #333;
+  background-color: variables.$dark-gray;
   @include mixins.readable-content;
 
   .navigation {
     margin-left: 15px;
     padding: 10px;
+
     a {
       font-size: 16px;
       color: #aaa;
       margin-right: 40px;
+
+      &.active {
+        color: #fff;
+      }
 
       &:hover {
         color: #fff;
@@ -100,11 +101,15 @@
 
   a {
     margin-right: 30px;
-    color: #63338f;
+    color: variables.$purple;
     white-space: nowrap;
 
+    &.active {
+      color: variables.$dark-gray;
+    }
+
     &:hover {
-      color: color.adjust(variables.$purple, $lightness: -15%, $space: hsl);
+      color: variables.$dark-gray;
     }
   }
 }

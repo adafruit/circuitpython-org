@@ -1,3 +1,5 @@
+@use "../base/variables";
+
 .cp-installer-dialog {
     min-width: 300px;
     min-height: 100px;
@@ -30,7 +32,7 @@
             content: ' ';
             height: 25px;
             width: 2px;
-            background-color: #333;
+            background-color: variables.$dark-gray;
         }
         &:before {
             transform: rotate(45deg);
