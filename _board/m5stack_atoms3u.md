@@ -17,7 +17,7 @@ features:
   - Bluetooth/BTLE
 ---
 
-`AtomS3U`is a`U disk`form`ESP32-S3`multi-function development board, using Espressif's ESP32S3 main control chip, dual-core Xtensa LX7 processor, main frequency 240MHz, built-in WiFi function. Its interfaces include USB-A port`(support OTG)`,1 Grove port, 6Pin@2.54mm header (including 4 GPIOs); peripherals include 1`PDM microphone`, 1`IR`tube, and 1 programmable`RGB-LED`. The product can be used in scenarios such as human-computer interaction, voice input/recognition (STT), and IO control.
+`AtomS3U` is a `U disk` form `ESP32-S3` multi-function development board, using Espressif's ESP32S3 main control chip, dual-core Xtensa LX7 processor, main frequency 240MHz, built-in WiFi function. Its interfaces include USB-A port `(support OTG)`, 1 Grove port, 6Pin@2.54mm header (including 4 GPIOs); peripherals include 1 `PDM microphone`, 1 `IR` tube, and 1 programmable `RGB-LED`. The product can be used in scenarios such as human-computer interaction, voice input/recognition (STT), and IO control.
 
 ### Features
 
