@@ -9,6 +9,8 @@
 
 import requests
 
+from adabot import REQUESTS_TIMEOUT
+
 
 def _fix_url(url):
     if url.startswith("/"):
@@ -18,4 +20,4 @@ def _fix_url(url):
 
 def get(url, **kwargs):
     """Process a GET request from pypi.org"""
-    return requests.get(_fix_url(url), timeout=30, **kwargs)
+    return requests.get(_fix_url(url), timeout=REQUESTS_TIMEOUT, **kwargs)

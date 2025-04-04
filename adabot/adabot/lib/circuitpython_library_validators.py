@@ -21,7 +21,7 @@ import yaml
 import parse
 
 import github as pygithub
-from adabot import github_requests as gh_reqs
+from adabot import github_requests as gh_reqs, REQUESTS_TIMEOUT
 from adabot.lib import common_funcs
 from adabot.lib import assign_hacktober_label as hacktober
 
@@ -231,7 +231,7 @@ class LibraryValidator:
                 "%20if%20cookiecutter.sphinx_docs%20in%20%5B'y'%2C%20'yes'%5D%20%25"
                 "%7D.readthedocs.yaml%7B%25%20endif%20%25%7D"
             )
-            rtd_yml = requests.get(rtd_yml_dl_url)
+            rtd_yml = requests.get(rtd_yml_dl_url, timeout=REQUESTS_TIMEOUT)
             if rtd_yml.ok:
                 try:
                     self._rtd_yaml_base = yaml.safe_load(rtd_yml.text)
@@ -255,7 +255,7 @@ class LibraryValidator:
                 "circuitpython/main/%7B%7B%20cookiecutter.__dirname%20%7D%7D/.pre-"
                 "commit-config.yaml"
             )
-            pcc_yml = requests.get(pcc_yml_dl_url)
+            pcc_yml = requests.get(pcc_yml_dl_url, timeout=REQUESTS_TIMEOUT)
             if pcc_yml.ok:
                 try:
                     pcc_yaml_base = yaml.safe_load(pcc_yml.text)
@@ -424,8 +424,7 @@ class LibraryValidator:
                         commit_date = datetime.datetime.strptime(
                             commit_date_val, "%Y-%m-%dT%H:%M:%SZ"
                         )
-                        if commit_date < oldest_commit_date:
-                            oldest_commit_date = commit_date
+                        oldest_commit_date = min(oldest_commit_date, commit_date)
 
                     date_diff = datetime.datetime.today() - oldest_commit_date
                     if date_diff.days > datetime.date.today().max.day:
@@ -464,7 +463,7 @@ class LibraryValidator:
     def _validate_readme(self, download_url):
         # We use requests because file contents are hosted by
         # githubusercontent.com, not the API domain.
-        contents = requests.get(download_url, timeout=30)
+        contents = requests.get(download_url, timeout=REQUESTS_TIMEOUT)
         if not contents.ok:
             return [ERROR_README_DOWNLOAD_FAILED]
 
@@ -510,7 +509,7 @@ class LibraryValidator:
         """
         # We use requests because file contents are hosted by
         # githubusercontent.com, not the API domain.
-        contents = requests.get(download_url, timeout=30)
+        contents = requests.get(download_url, timeout=REQUESTS_TIMEOUT)
         if not contents.ok:
             return [ERROR_PYFILE_DOWNLOAD_FAILED]
 
@@ -548,7 +547,7 @@ class LibraryValidator:
         """
 
         download_url = actions_build_info["download_url"]
-        contents = requests.get(download_url, timeout=30)
+        contents = requests.get(download_url, timeout=REQUESTS_TIMEOUT)
         if not contents.ok:
             return [ERROR_PYFILE_DOWNLOAD_FAILED]
 
@@ -558,7 +557,7 @@ class LibraryValidator:
 
     def _validate_pre_commit_config_yaml(self, file_info):
         download_url = file_info["download_url"]
-        contents = requests.get(download_url, timeout=30)
+        contents = requests.get(download_url, timeout=REQUESTS_TIMEOUT)
         if not contents.ok:
             return [ERROR_PYFILE_DOWNLOAD_FAILED]
 
@@ -567,7 +566,7 @@ class LibraryValidator:
         errors = []
 
         black_repo = "repo: https://github.com/python/black"
-        black_version = "rev: 22.3.0"
+        black_version = "rev: 22.4.0"
 
         if black_repo not in text or black_version not in text:
             errors.append(ERROR_BLACK_VERSION)
@@ -595,7 +594,7 @@ class LibraryValidator:
     def _validate_pyproject_toml(self, file_info):
         """Check pyproject.toml for pypi compatibility"""
         download_url = file_info["download_url"]
-        contents = requests.get(download_url, timeout=30)
+        contents = requests.get(download_url, timeout=REQUESTS_TIMEOUT)
         if not contents.ok:
             return [ERROR_TOMLFILE_DOWNLOAD_FAILED]
         return []
@@ -603,7 +602,7 @@ class LibraryValidator:
     def _validate_requirements_txt(self, repo, file_info, check_blinka=True):
         """Check requirements.txt for pypi compatibility"""
         download_url = file_info["download_url"]
-        contents = requests.get(download_url, timeout=30)
+        contents = requests.get(download_url, timeout=REQUESTS_TIMEOUT)
         if not contents.ok:
             return [ERROR_PYFILE_DOWNLOAD_FAILED]
 
@@ -718,7 +717,9 @@ class LibraryValidator:
                 if ".readthedocs.yaml" in files:
                     filename = ".readthedocs.yaml"
                 file_info = content_list[files.index(filename)]
-                rtd_contents = requests.get(file_info["download_url"])
+                rtd_contents = requests.get(
+                    file_info["download_url"], timeout=REQUESTS_TIMEOUT
+                )
                 if rtd_contents.ok:
                     try:
                         rtd_yml = yaml.safe_load(rtd_contents.text)
@@ -736,7 +737,9 @@ class LibraryValidator:
             if len(self._pcc_versions) or self.pcc_versions != "":
                 filename = ".pre-commit-config.yaml"
                 file_info = content_list[files.index(filename)]
-                pcc_contents = requests.get(file_info["download_url"])
+                pcc_contents = requests.get(
+                    file_info["download_url"], timeout=REQUESTS_TIMEOUT
+                )
                 if pcc_contents.ok:
                     try:
                         pcc_yml = yaml.safe_load(pcc_contents.text)
@@ -786,6 +789,11 @@ class LibraryValidator:
         ]
         examples_list = []
         if dirs:
+
+            lib_name_start = repo["name"].rfind("CircuitPython_") + len(
+                "CircuitPython_"
+            )
+            lib_name = repo["name"][lib_name_start:].lower()
             while dirs:
                 # loop through the results to ensure we capture files
                 # in subfolders, and add any files in the current directory
@@ -794,8 +802,19 @@ class LibraryValidator:
                     errors.append(ERROR_UNABLE_PULL_REPO_EXAMPLES)
                     break
                 result_json = result.json()
-                dirs.extend([x["url"] for x in result_json if x["type"] == "dir"])
-                examples_list.extend([x for x in result_json if x["type"] == "file"])
+                for x in result_json:
+                    if x["type"] == "dir":
+                        if x["name"].startswith(lib_name):
+                            continue
+                        if (
+                            x["name"]
+                            .replace("_", "")
+                            .startswith(lib_name.replace("_", ""))
+                        ):
+                            continue
+                        dirs.append(x["url"])
+                    elif x["type"] == "file":
+                        examples_list.append(x)
 
             if len(examples_list) < 1:
                 errors.append(ERROR_MISSING_EXAMPLE_FILES)
@@ -810,9 +829,9 @@ class LibraryValidator:
                     or have additional underscores separating the repo name.
                     """
                     file_names = set()
-                    file_names.add(file_name[9:])
+                    file_names.add(file_name)
 
-                    name_split = file_name[9:].split("_")
+                    name_split = file_name.split("_")
                     name_rebuilt = "".join(
                         (part for part in name_split if ".py" not in part)
                     )
@@ -822,15 +841,12 @@ class LibraryValidator:
 
                     return any(name.startswith(repo_name) for name in file_names)
 
-                lib_name_start = repo["name"].rfind("CircuitPython_") + 14
-                lib_name = repo["name"][lib_name_start:].lower()
-
                 all_have_name = True
                 simpletest_exists = False
                 for example in examples_list:
                     if example["name"].endswith(".py"):
                         check_lib_name = __check_lib_name(
-                            lib_name, example["path"].lower()
+                            lib_name, example["name"].lower()
                         )
                         if not check_lib_name:
                             all_have_name = False
@@ -889,15 +905,16 @@ class LibraryValidator:
             return []
         if not self.rtd_subprojects:
             rtd_response = requests.get(
-                "https://readthedocs.org/api/v2/project/74557/subprojects/", timeout=15
+                "https://readthedocs.org/api/v2/project/74557/subprojects/",
+                timeout=REQUESTS_TIMEOUT,
             )
             if not rtd_response.ok:
                 return [ERROR_RTD_SUBPROJECT_FAILED]
             self.rtd_subprojects = {}
             for subproject in rtd_response.json()["subprojects"]:
-                self.rtd_subprojects[
-                    common_funcs.sanitize_url(subproject["repo"])
-                ] = subproject
+                self.rtd_subprojects[common_funcs.sanitize_url(subproject["repo"])] = (
+                    subproject
+                )
         repo_url = common_funcs.sanitize_url(repo["clone_url"])
         if repo_url not in self.rtd_subprojects:
             return [ERROR_RTD_SUBPROJECT_MISSING]
@@ -916,7 +933,7 @@ class LibraryValidator:
                 break
             except pygithub.RateLimitExceededException:
                 core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
-                sleep_time = core_rate_limit_reset - datetime.datetime.now()
+                sleep_time = core_rate_limit_reset - datetime.datetime.utcnow()
                 logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
                 time.sleep(sleep_time.seconds)
                 continue
@@ -938,7 +955,7 @@ class LibraryValidator:
             url = f"https://readthedocs.org/api/v3/projects/{rtd_slug}/builds/"
             rtd_token = os.environ["RTD_TOKEN"]
             headers = {"Authorization": f"token {rtd_token}"}
-            response = requests.get(url, headers=headers)
+            response = requests.get(url, headers=headers, timeout=REQUESTS_TIMEOUT)
             json_response = response.json()
 
             error_message = json_response.get("detail")
@@ -958,9 +975,10 @@ class LibraryValidator:
 
         # Return the results of the latest run
         doc_build_results = json_response.get("results")
-        if doc_build_results is None:
+        if doc_build_results is None or not doc_build_results:
             errors.append(ERROR_RTD_FAILED_TO_LOAD_BUILD_STATUS_RTD_UNEXPECTED_RETURN)
             return errors
+
         result = doc_build_results[0].get("success")
         time.sleep(3)
         if not result:
@@ -982,7 +1000,7 @@ class LibraryValidator:
                     "https://raw.githubusercontent.com/adafruit/Adafruit_CircuitPython_Bundle/"
                     "main/docs/drivers.rst"
                 ),
-                timeout=15,
+                timeout=REQUESTS_TIMEOUT,
             )
             if not driver_page.ok:
                 return [ERROR_DRIVERS_PAGE_DOWNLOAD_FAILED]
@@ -1275,7 +1293,7 @@ class LibraryValidator:
                 return []
             except pygithub.RateLimitExceededException:
                 core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
-                sleep_time = core_rate_limit_reset - datetime.datetime.now()
+                sleep_time = core_rate_limit_reset - datetime.datetime.utcnow()
                 logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
                 time.sleep(sleep_time.seconds)
 

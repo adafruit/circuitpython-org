@@ -11,7 +11,7 @@ import traceback
 
 import requests
 
-from adabot import github_requests as gh_reqs
+from adabot import github_requests as gh_reqs, REQUESTS_TIMEOUT
 
 logger = logging.getLogger(__name__)
 ch = logging.StreamHandler(stream=sys.stdout)
@@ -86,7 +86,8 @@ def is_arduino_library(repo):
         + repo["name"]
         + "/"
         + repo["default_branch"]
-        + "/library.properties"
+        + "/library.properties",
+        timeout=REQUESTS_TIMEOUT,
     )
     return lib_prop_file.ok
 
@@ -116,7 +117,8 @@ def validate_library_properties(repo):
         + repo["name"]
         + "/"
         + repo["default_branch"]
-        + "/library.properties"
+        + "/library.properties",
+        timeout=REQUESTS_TIMEOUT,
     )
     if not lib_prop_file.ok:
         # print("{} skipped".format(repo["name"]))
@@ -193,7 +195,8 @@ def validate_actions(repo):
         + repo["name"]
         + "/"
         + repo["default_branch"]
-        + "/.github/workflows/githubci.yml"
+        + "/.github/workflows/githubci.yml",
+        timeout=REQUESTS_TIMEOUT,
     )
     return repo_has_actions.ok
 
@@ -309,7 +312,10 @@ def main(verbosity=1, output_file=None):  # pylint: disable=missing-function-doc
         logger.setLevel("CRITICAL")
 
     try:
-        reply = requests.get("http://downloads.arduino.cc/libraries/library_index.json")
+        reply = requests.get(
+            "http://downloads.arduino.cc/libraries/library_index.json",
+            timeout=REQUESTS_TIMEOUT,
+        )
         if not reply.ok:
             logging.error(
                 "Could not fetch http://downloads.arduino.cc/libraries/library_index.json"
@@ -322,8 +328,8 @@ def main(verbosity=1, output_file=None):  # pylint: disable=missing-function-doc
         run_arduino_lib_checks()
     except:
         _, exc_val, exc_tb = sys.exc_info()
-        logger.error("Exception Occurred!", quiet=True)
-        logger.error(("-" * 60), quiet=True)
+        logger.error("Exception Occurred!")
+        logger.error(("-" * 60))
         logger.error("Traceback (most recent call last):")
         trace = traceback.format_tb(exc_tb)
         for line in trace:

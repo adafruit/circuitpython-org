@@ -81,6 +81,7 @@ def run_gh_rest_rerun(
     """
     if not rerun_level:
         return False
+    result = None
     if rerun_level == 1:
         result = (
             run_gh_rest_check(lib_repo, user, branch, workflow_filename) == "success"

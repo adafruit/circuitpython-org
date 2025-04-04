@@ -20,6 +20,7 @@ from typing import Optional
 import requests
 from requests.structures import CaseInsensitiveDict
 
+from adabot import REQUESTS_TIMEOUT
 from adabot.lib.common_funcs import list_repos
 
 
@@ -54,9 +55,9 @@ def compare(git_file: str, token: Optional[str] = None) -> list:
             headers = CaseInsensitiveDict()
             headers["Authorization"] = f"token {token}"
 
-            resp = requests.get(url, headers=headers)
+            resp = requests.get(url, headers=headers, timeout=REQUESTS_TIMEOUT)
         else:
-            resp = requests.get(url)
+            resp = requests.get(url, timeout=REQUESTS_TIMEOUT)
 
         if resp.status_code != 200:
             print(name)
