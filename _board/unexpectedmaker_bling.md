@@ -9,6 +9,7 @@ board_url:
 board_image: "unexpectedmaker_bling.jpg"
 date_added: 2023-11-15
 family: esp32s3
+bootloader_id: unexpectedmaker_bling
 features:
 ---
 

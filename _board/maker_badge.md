@@ -9,6 +9,7 @@ board_url:
 board_image: "maker_badge.jpg"
 date_added: 2022-11-13
 family: esp32s2
+bootloader_id: maker_badge
 features:
   - Wi-Fi
   - USB-C

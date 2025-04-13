@@ -8,6 +8,7 @@ board_url:
 board_image: "unknown.jpg"
 date_added: 2024-08-22
 family: esp32s2
+bootloader_id: adafruit_vindie_s2
 downloads_display: false
 ---
 
