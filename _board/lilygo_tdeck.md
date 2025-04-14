@@ -9,6 +9,7 @@ board_url:
 board_image: "lilygo_tdeck.jpg"
 date_added: 2023-11-15
 family: esp32s3
+bootloader_id: lilygo_tdeck
 features:
   - Wi-Fi
   - Bluetooth/BTLE

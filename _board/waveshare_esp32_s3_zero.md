@@ -9,7 +9,7 @@ board_url:
 board_image: "waveshare_esp32_s3_zero.png"
 date_added: 2023-10-21
 family: esp32s3
-bootloader_id: adafruit_feather_esp32s3
+bootloader_id: waveshare_esp32_s3_zero
 downloads_display: true
 features:
   - Wi-Fi

@@ -9,6 +9,7 @@ board_url:
 board_image: "yd_esp32_s3.jpg"
 date_added: 2023-05-03
 family: esp32s3
+bootloader_id: yd_esp32_s3_n8r8
 features:
   - Breadboard-Friendly
   - USB-C

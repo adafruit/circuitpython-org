@@ -9,6 +9,7 @@ board_url:
 board_image: "m5stack_cores3.jpg"
 date_added: 2024-03-29
 family: esp32s3
+bootloader_id: m5stack_cores3
 features:
   - Speaker
   - Display
