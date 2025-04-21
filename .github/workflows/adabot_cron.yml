@@ -22,6 +22,7 @@ jobs:
     # Only run the build on Adafruit's repository. Forks won't have the secrets.
     # Its necessary to do this here, since 'schedule' events cannot (currently)
     # be limited (they run on all forks' default branches).
+    timeout-minutes: 150  # 2.5 hours
     if: startswith(github.repository, 'adafruit/')
     steps:
     - name: Dump GitHub context
