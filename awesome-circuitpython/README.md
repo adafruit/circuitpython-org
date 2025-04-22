@@ -1,8 +1,9 @@
 # Awesome CircuitPython
 
-<h1 align="center">
-  <img style="width: min(400px, 100%)" src="https://raw.githubusercontent.com/adafruit/awesome-circuitpython/master/awesome_circuitpython.png" alt="Awesome CircuitPython"><br>
-</h1>
+<p align="center">
+  <img style="width: min(400px, 100%)" src="https://raw.githubusercontent.com/adafruit/awesome-circuitpython/master/assets/awesome_circuitpython.png" alt="Awesome CircuitPython">
+<br>
+</p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -18,7 +19,7 @@
 ## Contents
 
 - [CircuitPython.org](#circuitpythonorg)
-- [Guides](#guides)
+- [Adafruit Learning System Guides](#adafruit-learning-system-guides)
 - [Community](#community)
 - [Videos](#Video)
 - [Books](#books)
@@ -37,14 +38,15 @@
 
 ## CircuitPython.org
 
-[CircuitPython.org](https://circuitpython.org/) is the first stop on the information snake highway. Here you can see all the [supported boards and download](https://circuitpython.org/downloads) the specific firmware for each one, including beta, latest, and previous versions. Downloads can be sorted by: maker, features, name, and more. At this time there are approaching 500 boards supported in the CircuitPython family!
+[![CircuitPython.org](./assets/circuitpython-org.png)](https://circuitpython.org/)
 
-## Guides
+[CircuitPython.org](https://circuitpython.org/) is the first stop on the information snake highway. Here you can see all the [supported boards and download](https://circuitpython.org/downloads) the specific firmware for each one, including beta, latest, and previous versions. Downloads can be sorted by: maker, features, name, and more. At this time there are over 500 boards supported in the CircuitPython family!
+
+## Adafruit Learning System Guides
 
 - [Welcome to CircuitPython!](https://learn.adafruit.com/welcome-to-circuitpython/overview) - An overview of CircuitPython and the community.
 - [CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials) - Learning the essential functions of CircuitPython.
-- [learn.adafruit.com CircuitPython](https://learn.adafruit.com/category/circuitpython) - Adafruit Learning Guides on CircuitPython.
-- [learn.adafruit.com CircuitPython & MicroPython](https://learn.adafruit.com/category/micropython-slash-circuitpython) - Guides on both CircuitPython and MicroPython.
+- [learn.adafruit.com CircuitPython](https://learn.adafruit.com/category/circuitpython) - All Adafruit Learning Guides on CircuitPython.
 
 ## Community
 
@@ -59,6 +61,8 @@
 
 ### Educational
 
+- [CircuitPython Parsec](https://www.youtube.com/playlist?list=PLjF7R1fz_OOWFqZfqW9jlvQSIUmwn9lWr) - Adafruit's John Park's lessons on using CircuitPython for a variety of tasks.
+
 - [CircuitPython School](https://www.youtube.com/playlist?list=PLBJJ76R_ry5T3X72OIDkMOXQIdmcvSkue) - lessons and projects in Professor John Gallaugher's course Physical Computing: Art, Robotics, and Tech for Good at Boston College.
 
 - [CircuitPython Projects](https://www.youtube.com/playlist?list=PLBJJ76R_ry5Rz5YgfjpI4eCHmS5o5umL8) - fun maker, electronics programming, and robotics projects, all courtesy of Professor John Gallaugher, who teaches Physical Computing at Boston College.
@@ -69,12 +73,12 @@
 
 ## Books
 
-- [Getting started with Circuit Playground Express by Anne Barela](https://www.amazon.com/Getting-Started-Adafruit-Circuit-Playground-dp-1680454889/dp/1680454889/ref=mt_paperback) (or purchase as part of your order from [the Adafruit store](https://www.adafruit.com/product/3944)) - Introduction and discussion of the Circuit Playground Express including programming via CircuitPython, MakeCode and Arduino.
+- [Getting Started with Circuit Playground Express by Anne Barela](https://www.amazon.com/Getting-Started-Adafruit-Circuit-Playground-dp-1680454889/dp/1680454889/ref=mt_paperback) (or purchase as part of your order from [the Adafruit store](https://www.adafruit.com/product/3944)) - Introduction and discussion of the Circuit Playground Express including programming via CircuitPython, MakeCode and Arduino.
 - [CircuitPython Development Workshop by Agus Kurniawan](https://www.amazon.com/CircuitPython-Development-Workshop-Agus-Kurniawan-ebook/dp/B07H2BDQLD/) - This book helps you to get started with CircuitPython development. This book uses the Adafruit ItsyBitsy M0 Express board for development.
-- [CircuitPython for beginners with Adafruit Circuit Playground Express & Mu](https://twitter.com/AoyamaProd/status/1157775643750232064) - Japanese by author [Aoyama_PROD](https://twitter.com/AoyamaProd) coming in September, 2019 from [TechBookFest](https://techbookfest.org/).
-- [Programming with MicroPython - by Nicholas H. Tollervey, includes CircuitPython](https://www.adafruit.com/product/3706) - Discusses the MicroPython language.
+- [CircuitPython for beginners with Adafruit Circuit Playground Express & Mu](https://steam-tokyo.com/product/cpbook1/) - In Japanese by author [Aoyama_PROD](https://twitter.com/AoyamaProd), September, 2019 from [TechBookFest](https://techbookfest.org/).
+- [Python for Microcontrollers: Getting Started with MicroPython - by Donald Norris](https://www.adafruit.com/product/3325) - Program your own MicroPython projects with ease—no prior programming experience necessary.
+- [Programming with MicroPython - by Nicholas H. Tollervey, includes CircuitPython](https://www.amazon.com/Programming-MicroPython-Embedded-Microcontrollers-Python/dp/1491972734) - Discusses the MicroPython language.
 - [Wearable Tech Projects by Sophy Wong](https://store.rpipress.cc/collections/books/products/wearable-tech-projects-2019) - Contains many wearable projects using CircuitPython.
-- [CircuitPython for beginners with Adafruit Circuit Playground Express & Mu](https://twitter.com/AoyamaProd) - Japanese.
 - [Learning IoT with Python and Raspberry Pi by E.I. Horvath, E.A. Horvath](https://www.barnesandnoble.com/w/learning-iot-with-python-and-raspberry-pi-ei-horvath/1133345171?ean=9780578549361)
 - [Make Music with the Circuit Playground Express by Rick Leander](https://www.amazon.com/author/rleander) - Twelve projects that make music, sound and noise with Circuit Python.
 - [Ten Games for the Circuit Playground Express by Rick Leander](https://www.amazon.com/author/rleander) - Ten classic games adapted for Circuit Python.
@@ -96,10 +100,11 @@
 
 ## Frameworks
 
-- [Glider: An app for editing Python on mobile devices wirelessly](https://github.com/adafruit/glider) - Also a [video](https://youtu.be/NYpcjDBA6xw), in development.
-- [The Mu Editor, IDE, REPL, and plotter for CircuitPython](https://codewith.mu/) - The recommended Python editor for CircuitPython.
+- [code.circuitpython.org - the online CircuitPython code editor](https://code.circuitpython.org/) - edit code and download to your device via WiFi, Bluetooth or USB.
+- [The Mu Editor, IDE, REPL, and plotter for CircuitPython](https://codewith.mu/) - The recommended offline Python editor for CircuitPython.
 - [For developers, Mu: A Python Code Editor](https://mu.readthedocs.io/en/latest/) - The documentation for Mu.
 - [Using Microsoft VSCode for CircuitPython](https://blog.adafruit.com/2019/01/02/using-visual-studio-code-to-program-circuitpython-with-an-adafruit-neotrellis-m4-adafruit-neotrellis-circuitpython/) - Blog post discussing the process.
+- - [Glider: An app for editing Python on mobile devices wirelessly](https://github.com/adafruit/glider) - Also a [video](https://youtu.be/NYpcjDBA6xw), in development.
 - [A helper for CircuitPython development with Atom](https://github.com/s-light/CircuitPython_Atom_helper) - A helper for the [Atom editor](https://atom.io/).
 - [Thonny, a Python IDE for beginners](https://thonny.org/) - An editor with support for CircuitPython and MicroPython.
 - [Microsoft Device Simulator Express](https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress) - Virtual Circuit Playground Express and CircuitPython programming in Visual Studio Code.
@@ -198,22 +203,20 @@ Looking to add a new board to CircuitPython? It's highly encouraged! Adafruit ha
 - [Weekly community chat on Adafruit Discord server CircuitPython channel](https://discord.gg/EAeBY6x) - The Discord chat space for CircuitPython, meetings are usually Mondays at 2pm ET.
 - [Weekly Adafruit Show-and-tell, Wednesday 7:30pm ET on YouTube LIVE](https://www.youtube.com/adafruit/live) - The weekly Adafruit Show-and-tell program often has CircuitPython-related projects on display.
 - [ASK AN ENGINEER, Wednesday 8pm ET on YouTube LIVE](https://www.youtube.com/adafruit/live) - The longest running YouTube live show about electronics, information on CircuitPython each week during "Python on hardware segment".
-- [PyCon 2023](https://us.pycon.org/2023/) - Salt Lake City, Utah USA April 19 - April 27, 2023.
-- [John Park's CircuitPython Parsec, Thursdays 4pm ET on YouTube LIVE](https://www.youtube.com/adafruit/live) - John Park shares CircuitPython tips and tricks.
 
 ## Swag
 
-- [CircuitPython 9 release poster](https://www.adafruit.com/product/5873) - CircuitPython release version 9 poster.
-- [CircuitPython 8 release poster](https://www.adafruit.com/product/5513) - CircuitPython release version 8 poster.
-- [CircuitPython 7 release poster](https://www.adafruit.com/product/5067) - CircuitPython release version 7 poster.
-- [CircuitPython 6 release poster](https://www.adafruit.com/product/4713) - CircuitPython release version 6 poster.
-- [CircuitPython 5 release poster](https://www.adafruit.com/product/4365) - CircuitPython release version 5 poster.
-- [CircuitPython 4 release poster](https://www.adafruit.com/product/4082) - CircuitPython release version 4 poster featuring Nordic.
-- [CircuitPython 3 release poster](https://www.adafruit.com/product/3793) - CircuitPython release version 3 poster.
-- [Blinka the CircuitPython Limited Edition Enamel Pin](https://www.adafruit.com/product/3680) - An enamel pin with the CircuitPython mascot.
+- [CircuitPlayground lanyard](https://www.adafruit.com/product/3987) - CircuitPlayground lanyard featuring Blinka.
 - [Blinka the CircuitPython Sticker](https://www.adafruit.com/product/3725) - A sticker featuring Blinka, the CircuitPython mascot.
 - [Blinka the CircuitPython Temporary Tattoo](https://www.adafruit.com/product/2600) - A temporary tattoo featuring the Blinka character.
-- [CircuitPlayground lanyard](https://www.adafruit.com/product/3987) - CircuitPlayground lanyard featuring Blinka.
+- [CircuitPython 9 release poster](https://www.adafruit.com/product/5873) - CircuitPython release version 9 poster (out of stock).
+- [CircuitPython 8 release poster](https://www.adafruit.com/product/5513) - CircuitPython release version 8 poster (out of stock).
+- [CircuitPython 7 release poster](https://www.adafruit.com/product/5067) - CircuitPython release version 7 poster (out of stock).
+- [CircuitPython 6 release poster](https://www.adafruit.com/product/4713) - CircuitPython release version 6 poster (out of stock).
+- [CircuitPython 5 release poster](https://www.adafruit.com/product/4365) - CircuitPython release version 5 poster (out of stock).
+- [CircuitPython 4 release poster](https://www.adafruit.com/product/4082) - CircuitPython release version 4 poster featuring Nordic (out of stock).
+- [CircuitPython 3 release poster](https://www.adafruit.com/product/3793) - CircuitPython release version 3 poster (out of stock).
+- [Blinka the CircuitPython Limited Edition Enamel Pin](https://www.adafruit.com/product/3680) - An enamel pin with the CircuitPython mascot (out of stock).
 
 ## Talks
 
@@ -264,4 +267,4 @@ Questions? We're happy to [help you to contribute on Discord](https://discord.co
 
 To the extent possible under law, the authors have waived all copyright and related or neighbouring rights to this work.
 
-Last updated: April 11, 2025
+Last updated: April 22, 2025

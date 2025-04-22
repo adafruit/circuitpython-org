@@ -19,6 +19,8 @@ from typing_extensions import TypeAlias
 import github as pygithub
 import parse
 
+from adabot.lib.common_funcs import MAXIMUM_RATE_LIMIT_DELAY
+
 GH_INTERFACE = pygithub.Github(os.environ.get("ADABOT_GITHUB_ACCESS_TOKEN"))
 
 RepoResult: TypeAlias = Tuple[str, str]
@@ -82,7 +84,7 @@ def get_bundle_updates(full_repo_name: str) -> Tuple[Set[RepoResult], Set[RepoRe
             core_rate_limit_reset = GH_INTERFACE.get_rate_limit().core.reset
             sleep_time = core_rate_limit_reset - datetime.datetime.utcnow()
             logging.warning("Rate Limit will reset at: %s", core_rate_limit_reset)
-            time.sleep(sleep_time.seconds)
+            time.sleep(min(sleep_time.seconds, MAXIMUM_RATE_LIMIT_DELAY))
             continue
         except pygithub.GithubException:
             # Secrets may not be available or error occurred - just skip

@@ -103,8 +103,9 @@ def request(method, url, **kwargs):
             logging.warning("Rate Limit will reset at: %s", rate_limit_reset)
             reset_diff = rate_limit_reset - datetime.datetime.now()
 
-            logging.info("Sleeping %s seconds", reset_diff.seconds)
-            time.sleep(reset_diff.seconds + 1)
+            # wait a full extra 60 seconds to avoid time collision
+            logging.info("Sleeping %s seconds", reset_diff.seconds + 60)
+            time.sleep(reset_diff.seconds + 60)
 
     return response
 

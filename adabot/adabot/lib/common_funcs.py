@@ -17,6 +17,8 @@ from adabot import pypi_requests as pypi
 
 CORE_REPO_URL = "/repos/adafruit/circuitpython"
 
+MAXIMUM_RATE_LIMIT_DELAY = 62 * 60  # 62 minutes
+
 
 def parse_gitmodules(input_text):
     # pylint: disable=anomalous-backslash-in-string
