@@ -73,7 +73,7 @@
 
 ## Books
 
-- [Getting Started with Circuit Playground Express by Anne Barela](https://www.amazon.com/Getting-Started-Adafruit-Circuit-Playground-dp-1680454889/dp/1680454889/ref=mt_paperback) (or purchase as part of your order from [the Adafruit store](https://www.adafruit.com/product/3944)) - Introduction and discussion of the Circuit Playground Express including programming via CircuitPython, MakeCode and Arduino.
+- [Getting Started with Circuit Playground Express by Anne Barela](https://www.amazon.com/Getting-Started-Adafruit-Circuit-Playground-dp-1680454889/dp/1680454889/ref=mt_paperback) - Introduction and discussion of the Circuit Playground Express including programming via CircuitPython, MakeCode and Arduino.
 - [CircuitPython Development Workshop by Agus Kurniawan](https://www.amazon.com/CircuitPython-Development-Workshop-Agus-Kurniawan-ebook/dp/B07H2BDQLD/) - This book helps you to get started with CircuitPython development. This book uses the Adafruit ItsyBitsy M0 Express board for development.
 - [CircuitPython for beginners with Adafruit Circuit Playground Express & Mu](https://steam-tokyo.com/product/cpbook1/) - In Japanese by author [Aoyama_PROD](https://twitter.com/AoyamaProd), September, 2019 from [TechBookFest](https://techbookfest.org/).
 - [Python for Microcontrollers: Getting Started with MicroPython - by Donald Norris](https://www.adafruit.com/product/3325) - Program your own MicroPython projects with ease—no prior programming experience necessary.
@@ -86,7 +86,7 @@
 
 ## Code
 
-- CircuitPython Board Software Versions: Select per board at [CircuitPython.org](https://circuitpython.org/downloads). The source for each is also on [GitHub](https://github.com/adafruit/circuitpython/releases).
+- CircuitPython Board Software Versions: Select per board at [CircuitPython.org](https://circuitpython.org/downloads).
 - [CircuitPython API Reference](https://circuitpython.readthedocs.io/en/latest/README.html) - A list of functions and documentation available for CircuitPython.
 - [CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials) - Learning the essential functions of CircuitPython.
 - [Circuit Playground Express CircuitPython API Reference](https://circuitpython.readthedocs.io/projects/circuitplayground/en/latest/) - The functions and documentation specific to the Circuit Playground Express using CircuitPython.
@@ -103,13 +103,11 @@
 - [code.circuitpython.org - the online CircuitPython code editor](https://code.circuitpython.org/) - edit code and download to your device via WiFi, Bluetooth or USB.
 - [The Mu Editor, IDE, REPL, and plotter for CircuitPython](https://codewith.mu/) - The recommended offline Python editor for CircuitPython.
 - [For developers, Mu: A Python Code Editor](https://mu.readthedocs.io/en/latest/) - The documentation for Mu.
-- [Using Microsoft VSCode for CircuitPython](https://blog.adafruit.com/2019/01/02/using-visual-studio-code-to-program-circuitpython-with-an-adafruit-neotrellis-m4-adafruit-neotrellis-circuitpython/) - Blog post discussing the process.
-- - [Glider: An app for editing Python on mobile devices wirelessly](https://github.com/adafruit/glider) - Also a [video](https://youtu.be/NYpcjDBA6xw), in development.
+- [Using Microsoft VSCode for CircuitPython](https://github.com/wmerkens/vscode-circuitpython) (GitHub) and [Microsoft Marketplace](https://marketplace.visualstudio.com/items?itemName=wmerkens.vscode-circuitpython-v2).
+- [Glider: An app for editing Python on mobile devices wirelessly](https://github.com/adafruit/glider) - Also a [video](https://youtu.be/NYpcjDBA6xw), in development.
 - [A helper for CircuitPython development with Atom](https://github.com/s-light/CircuitPython_Atom_helper) - A helper for the [Atom editor](https://atom.io/).
 - [Thonny, a Python IDE for beginners](https://thonny.org/) - An editor with support for CircuitPython and MicroPython.
-- [Microsoft Device Simulator Express](https://marketplace.visualstudio.com/items?itemName=ms-python.devicesimulatorexpress) - Virtual Circuit Playground Express and CircuitPython programming in Visual Studio Code.
-- [Slappy.io, a browser-based IDE and REPL for CircuitPython](https://slappy.io/) - An in-browser editor designed especially for Chromebooks. Works on almost any computer that can run a Chromium-based browser.
-- [CircuitPython extension for VS Code](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython) - A full featured extension for VS Code that downloads the latest CircuitPython bundle automatically, includes access to the serial console, and auto complete.
+- [Microsoft Device Simulator Express](https://github.com/microsoft/vscode-python-devicesimulator) - Virtual Circuit Playground Express and CircuitPython programming in Visual Studio Code (no longer maintained).
 - [PewPew workshops](https://pewpew.rtfd.io) - Materials, examples, libraries and hardware for running Python game programming and electronics workshops with a minimum of problems.
 - The CircuitPython Online IDE [Version 1](https://urfdvw.github.io/CircuitPython-online-IDE/) and [Version 2](https://urfdvw.github.io/CircuitPython-online-IDE2/) - A browser based IDE for CircuitPython by River Wang
 
@@ -152,7 +150,6 @@ Looking to add a new board to CircuitPython? It's highly encouraged! Adafruit ha
 - [PyCon2019 Keynote - Light Up Your Life - With Python and LEDs](https://www.youtube.com/watch?v=35mXD40SvXM) - By Nina Zakharenko. Python opens a whole new world of working with wearable electronics. The slides are [also available](https://speakerdeck.com/nnja/preso-c22944f3-ce78-4ced-8a34-f866656bf6c8).
 - [Learn Hardware Programming with CircuitPython](https://www.codecademy.com/learn/learn-circuitpython?utm_source=adafruit&utm_medium=partners&utm_campaign=circuitplayground&utm_content=blog_home) - A course offered by Codecademy in collaboration with Adafruit.
 - [Use CircuitPython boards on the TI-83 Premium CE calculator](https://blog.adafruit.com/2019/03/31/use-circuitpython-boards-on-the-ti-83-premium-ce-calculator-tiplanetnews-ticalculators-circuitpython-circuitpython/) - CircuitPython runs on Texas Instrument calculators.
-- [Make: Vol. 68 Boards guide](https://blog.adafruit.com/2019/03/23/make-vol-68-april-may-2019-is-here-guide-to-boards-tech-trend-1-the-push-for-python-make-adafruit-circuitpython/) - Make: Magazine names Python the #1 Tech Trend for boards in 2019!
 - [Scott Shawcroft Is Squeezing Python Into Microcontrollers](https://spectrum.ieee.org/scott-shawcroft-is-squeezing-python-into-microcontrollers) - IEEE Spectrum Magazine article on the Python programming language for makers.
 - [Circuit Playground Express 4-H edition approved](https://blog.adafruit.com/2019/03/18/adafruit-circuit-playground-express-4-h-edition-approved-adafruit-4h-4h-4hgrowshere/) - The 4-H branded version was approved by the USDA, this is the first CircuitPython powered board that is also 4-H approved!
 - [CircuitPython in Space](https://blog.adafruit.com/2019/03/17/circuitpython-in-space-pythonaut-circuitpython-adafruit-maholli404-zacinaction-smallsat-kicksat/) - _CircuitPython provides an approachable and logical means of conducting science with hardware. Paired with low-cost hardware shown to work in space, we can enable an new generation to question and explore the unknown. With the necessary “satellite stuff” already baked in, students can spend their time trying something new rather than reinventing the wheel_.
@@ -163,8 +160,7 @@ Looking to add a new board to CircuitPython? It's highly encouraged! Adafruit ha
 - [Python on Hardware Means Choices for Makers](https://www.apress.com/us/blog/all-blog-posts/python-on-hardware-means-choices-for-makers/16332230) - By Liz Clark - Apress. CircuitPython (a fork of MicroPython that is designed from the ground up to be beginner friendly.) This allows end users to use Python for their electronics hardware projects similar to how they may have used C/C++ with the Arduino IDE.
 - [Method's Magazine](https://www.mouser.com/news/methods/2019-1/mobile/index.html#p=35) - Methods eZine: Design Trends & the Transformation of Everything features Python on hardware, page 35 - [PDF](https://www.mouser.com/pdfdocs/Mouser-Methods-v3i1.pdf).
 - [HackSpace Magazine - Issue 15](https://blog.adafruit.com/2019/01/24/issue-15-hackspace-magazine-circuitpython-hackspacemag-by-ben-everard-ben_everard-circuitpython-circuitpython-madewithmu/) - CircuitPython makes the cover on HackSpace Magazine with feature article, and projects.
-- Community call for what is wanted and needed in CircuitPython by year: [2018](https://blog.adafruit.com/2018/01/29/circuitpython-in-2018/), [2019](https://blog.adafruit.com/2018/12/17/what-do-you-want-from-circuitpython-in-2019-circuitpython2019-circuitpython/), [2021](https://blog.adafruit.com/2021/01/01/where-should-circuitpython-go-in-2021-circuitpython2021-circuitpython/), [2022](https://blog.adafruit.com/2022/02/01/the-circuitpython-community-a-round-up-and-a-look-forward-to-202/)
-
+- Community call for what is wanted and needed in CircuitPython by year: [2018](https://blog.adafruit.com/2018/01/29/circuitpython-in-2018/), [2019](https://blog.adafruit.com/2018/12/17/what-do-you-want-from-circuitpython-in-2019-circuitpython2019-circuitpython/), [2020](https://blog.adafruit.com/2020/02/03/circuitpython2020-recap/), [2021](https://blog.adafruit.com/2021/01/01/where-should-circuitpython-go-in-2021-circuitpython2021-circuitpython/), [2022](https://blog.adafruit.com/2022/02/01/the-circuitpython-community-a-round-up-and-a-look-forward-to-202/), [2023](https://blog.adafruit.com/2023/01/23/circuitpython2023-wrap-up/), [2024](https://blog.adafruit.com/2024/01/31/first-circuitpython2024-posts-2-2/), and [2025](https://blog.adafruit.com/2025/01/15/thank-you-for-circuitpython2025/).
 - [CircuitPython in MicroSolutions Digital Magazine](https://blog.adafruit.com/2018/08/27/circuitpython-in-microsolutions-digital-magazine-microchiptech-microchipmakes-circuitpython-adafruit/) - Microchip’s MicroSolutions, “Python on Microcontrollers” in Design Corner article. MicroSolutions is Microchip’s bi-monthly digital magazine.
 - [CircuitPython Snakes its Way onto Adafruit Hardware](https://makezine.com/2017/08/11/circuitpython-snakes-way-adafruit-hardware/) - An article by MAKE on CircuitPython.
 - [Adafruit Circuit Playground Express review](https://hackspace.raspberrypi.com/articles/adafruit-circuit-playground-express-review) - Raspberry Pi reviews the Circuit Playground Express.
