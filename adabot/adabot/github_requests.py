@@ -4,6 +4,7 @@
 
 """Wrapper for GitHub requests."""
 
+import types
 from base64 import b64encode
 import datetime
 import functools
@@ -57,6 +58,23 @@ def _fix_kwargs(kwargs):
     return kwargs
 
 
+def _safe_response_json(self):
+    """
+    overridden response.json() function that will catch JSONDecodeError
+    log it but try to continue on afterward.
+    """
+    try:
+        return self.original_json()
+    except requests.exceptions.JSONDecodeError:
+        exception_text = traceback.format_exc()
+        if "ADABOT_GITHUB_ACCESS_TOKEN" in os.environ:
+            exception_text = exception_text.replace(
+                os.environ["ADABOT_GITHUB_ACCESS_TOKEN"], "[secure]"
+            )
+        logging.warning("%s", exception_text)
+    return {}
+
+
 def request(method, url, **kwargs):
     """Processes request for `url`."""
     try:
@@ -107,6 +125,8 @@ def request(method, url, **kwargs):
             logging.info("Sleeping %s seconds", reset_diff.seconds + 60)
             time.sleep(reset_diff.seconds + 60)
 
+    response.original_json = response.json
+    response.json = types.MethodType(_safe_response_json, response)
     return response
 
 
