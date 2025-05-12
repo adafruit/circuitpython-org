@@ -8,7 +8,11 @@ board_url:
  - "https://ilabs.se/product/challenger-rp2040-sd-rtc/"
 board_image: "challenger_rp2040_sdrtc.jpg"
 date_added: 2022-12-23
+<<<<<<< Updated upstream
 family: rp2040
+=======
+family: raspberrypi
+>>>>>>> Stashed changes
 download_instructions: https://ilabs.se/product/challenger-rp2040-sd-rtc/#tab-getting-started
 features:
   - USB-C

@@ -8,7 +8,11 @@ board_url:
  - "https://www.tindie.com/products/invector/challenger-rp2040-lte/"
 board_image: "challenger_rp2040_lte.jpg"
 date_added: 2021-11-15
+<<<<<<< Updated upstream
 family: rp2040
+=======
+family: raspberrypi
+>>>>>>> Stashed changes
 download_instructions: https://ilabs.se/product/challenger-rp2040-lte/#tab-getting-started
 features:
   - Wi-Fi

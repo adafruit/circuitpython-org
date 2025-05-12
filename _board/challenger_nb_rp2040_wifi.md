@@ -8,7 +8,11 @@ board_url:
  - "https://www.tindie.com/products/invector/challenger-nb-rp2040-wifi/"
 board_image: "challenger_nb_rp2040_wifi.jpg"
 date_added: 2021-11-15
+<<<<<<< Updated upstream
 family: rp2040
+=======
+family: raspberrypi
+>>>>>>> Stashed changes
 download_instructions: https://ilabs.se/product/challenger-nb-rp2040-wifi-with-u-fl-connector/#tab-getting-started
 features:
   - Wi-Fi

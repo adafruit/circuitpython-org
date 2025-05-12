@@ -9,7 +9,11 @@ board_url:
  - "https://www.adafruit.com/product/4144"
 board_image: "pimoroni_keybow2040.jpg"
 date_added: 2021-02-24
+<<<<<<< Updated upstream
 family: rp2040
+=======
+family: raspberrypi
+>>>>>>> Stashed changes
 download_instructions: https://learn.pimoroni.com/article/circuitpython-and-keybow-2040
 features:
   - USB-C

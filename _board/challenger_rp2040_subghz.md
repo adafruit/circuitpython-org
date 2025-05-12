@@ -8,7 +8,11 @@ board_url:
  - "https://ilabs.se/product/challenger-rp2040-subghz-915mhz/"
 board_image: "challenger_rp2040_subghz.jpg"
 date_added: 2022-10-06
+<<<<<<< Updated upstream
 family: rp2040
+=======
+family: raspberrypi
+>>>>>>> Stashed changes
 download_instructions: https://ilabs.se/product/challenger-rp2040-subghz-915mhz/#tab-getting-started
 features:
   - LoRa/Radio

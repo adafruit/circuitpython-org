@@ -8,7 +8,11 @@ board_url:
  - "https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/"
 board_image: "challenger_rp2040_wifi_ble.jpg"
 date_added: 2022-10-06
+<<<<<<< Updated upstream
 family: rp2040
+=======
+family: raspberrypi
+>>>>>>> Stashed changes
 download_instructions: https://ilabs.se/product/challenger-rp2040-wifi-ble-with-chip-antenna/#tab-getting-started
 features:
   - Wi-Fi

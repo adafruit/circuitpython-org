@@ -8,7 +8,11 @@ board_url:
  - "https://shop.pimoroni.com/products/badger-2040"
 board_image: "pimoroni_badger2040.jpg"
 date_added: 2022-02-24
+<<<<<<< Updated upstream
 family: rp2040
+=======
+family: raspberrypi
+>>>>>>> Stashed changes
 download_instructions: https://learn.pimoroni.com/article/getting-started-with-badger-2040
 features:
   - Display
