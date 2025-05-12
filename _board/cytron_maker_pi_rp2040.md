@@ -9,11 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/5129"
 board_image: "cytron_maker_pi_rp2040.jpg"
 date_added: 2021-05-31
-<<<<<<< Updated upstream
 family: rp2040
-=======
-family: raspberrypi
->>>>>>> Stashed changes
 download_instructions: https://github.com/CytronTechnologies/MAKER-PI-RP2040#circuitpython
 features:
   - Battery Charging

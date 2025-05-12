@@ -9,10 +9,7 @@ board_url:
 board_image: "firebeetle2_esp32s3.jpg"
 date_added: 2023-11-21
 family: esp32s3
-<<<<<<< Updated upstream
 bootloader_id: firebeetle2_esp32s3
-=======
->>>>>>> Stashed changes
 download_instructions: https://wiki.dfrobot.com/SKU_DFR0975_FireBeetle_2_Board_ESP32_S3#target_9
 features:
   - Breadboard-Friendly

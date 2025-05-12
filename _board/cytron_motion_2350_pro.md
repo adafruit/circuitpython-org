@@ -8,11 +8,7 @@ board_url:
  - "https://www.cytron.io/p-motion-2350-pro"
 board_image: "cytron_motion_2350_pro.png"
 date_added: 2024-08-08
-<<<<<<< Updated upstream
 family: rp2350
-=======
-family: raspberrypi
->>>>>>> Stashed changes
 download_instructions: https://www.cytron.io/tutorial/getting-started-with-motion-2350-pro-cp
 
 ---

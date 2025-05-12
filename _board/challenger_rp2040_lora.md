@@ -9,11 +9,7 @@ board_url:
  - "https://thepihut.com/products/challenger-rp2040-lora-868mhz"
 board_image: "challenger_rp2040_lora.jpg"
 date_added: 2022-06-09
-<<<<<<< Updated upstream
 family: rp2040
-=======
-family: raspberrypi
->>>>>>> Stashed changes
 download_instructions: https://ilabs.se/product/challenger-rp2040-lora/#tab-getting-started
 features:
   - LoRa/Radio

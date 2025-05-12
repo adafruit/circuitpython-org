@@ -7,7 +7,7 @@ manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/"
 board_image: "adafruit_feather_rp2350_adalogger.jpg"
-date_added: 2025-5-11
+date_added: 2025-05-11
 family: rp2350
 features:
   - Feather-Compatible

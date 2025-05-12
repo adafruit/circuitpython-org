@@ -8,11 +8,7 @@ board_url:
  - "https://shop.pimoroni.com/products/plasma-stick-2040-w"
 board_image: "pimoroni_plasma2040w.jpg"
 date_added: 2023-05-09
-<<<<<<< Updated upstream
 family: rp2040
-=======
-family: raspberrypi
->>>>>>> Stashed changes
 download_instructions: https://learn.pimoroni.com/article/plasma-2040#circuitpython
 tags:
   - picow

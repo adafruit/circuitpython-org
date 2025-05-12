@@ -7,7 +7,7 @@ manufacturer: "WIZnet"
 board_url:
  - "https://docs.wiznet.io/Product/iEthernet/W5500/w5500-evb-pico2"
 board_image: "wiznet_w5500_evb_pico2.jpg"
-date_added: 2025-5-11
+date_added: 2025-05-11
 family: rp2350
 features:
   - Breadboard-Friendly

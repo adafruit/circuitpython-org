@@ -7,7 +7,7 @@ manufacturer: "Blues Inc"
 board_url:
  - "https://shop.blues.com/products/cygnet"
 board_image: "blues_cygnet.jpg"
-date_added: 2025-5-11
+date_added: 2025-05-11
 family: stm
 features:
   - Breadboard-Friendly
