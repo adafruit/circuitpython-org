@@ -37,11 +37,7 @@ The Maker badge board is official badge board for Maker Faire´s in Czech republ
 
 ## Purchase
 
-<<<<<<< Updated upstream
 * [MakerMarket](https://www.makermarket.cz/maker-badge/)
-=======
-* [Maker Market](https://www.makermarket.cz/maker-badge/)
->>>>>>> Stashed changes
 
 ## Resources
 
