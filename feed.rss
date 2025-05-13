@@ -4,9 +4,137 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 13 May 2025 06:04:29 -0400</lastBuildDate>
+<lastBuildDate>Tue, 13 May 2025 14:43:19 -0400</lastBuildDate>
 
 <item>
+    <title>W5500-EVB-Pico2</title>
+    <link>https://circuitpython.org/board/wiznet_w5500_evb_pico2/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/wiznet_w5500_evb_pico2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/wiznet_w5500_evb_pico2.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/wiznet_w5500_evb_pico2.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By WIZnet</p> <p>W5500-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and the fully hardwired TCP/IP controller W5500 enhancing the capabilities of the traditional Raspberry Pi Pico2 board with additional Ethernet functionality via W5500.</p>
+
+<ul>
+  <li>Enhanced Raspberry Pi Pico2 Clone</li>
+  <li>Ethernet (W5500 Hardwired TCP/IP CHIP)</li>
+</ul>
+
+<p><strong>Features</strong></p>
+
+<ul>
+  <li>RP2350 Microcontroller with Integrated 16Mbit Flash
+    <ul>
+      <li>Symmetric dual Arm Cortex-M33 cores at up to 150MHz</li>
+      <li>520kByte multi-bank high performance SRAM</li>
+      <li>External Quad-SPI Flash with eXecute In Place (XIP) capabilities</li>
+      <li>Enhanced performance full-crossbar bus fabric</li>
+      <li>Up to 48 multi-function General Purpose IO (8 can be used for ADC on RP2350-B)
+        <ul>
+          <li>1.8-5.0V IO Voltage</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>W5100S Ethernet Controller
+    <ul>
+      <li>Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE</li>
+      <li>Supports 4 Independent Hardware SOCKETs simultaneously</li>
+      <li>Internal 16 Kbytes Memory for TX/ RX Buffers</li>
+      <li>High Speed Serial Peripheral Interface (SPI MODE 0, 3)</li>
+    </ul>
+  </li>
+  <li>C-Type USB port for power and data (and for reprogramming the Flash)</li>
+  <li>40 pin 21x51 ‘DIP’ style 1mm thick PCB with 0.1” through-hole pins also with edge castellations</li>
+  <li>3-pin ARM Serial Wire Debug (SWD) port</li>
+  <li>10 / 100 Ethernet PHY embedded</li>
+  <li>Supports Auto Negotiation
+    <ul>
+      <li>Full / Half Duplex</li>
+      <li>10 / 100 Based</li>
+    </ul>
+  </li>
+  <li>Built-in RJ45</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://wiznet.io/products/evaluation-boards/w5500-evb-pico2">WIZnet e-shop</a></li>
+</ul>
+
+<h2 id="learn-more">Learn more</h2>
+
+<ul>
+  <li><a href="https://docs.wiznet.io/Product/iEthernet/W5500/w5500-evb-pico2">WIZnet Docs</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sun, 11 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/wiznet_w5500_evb_pico2/</guid>
+  </item><item>
+    <title>Cygnet</title>
+    <link>https://circuitpython.org/board/blues_cygnet/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/blues_cygnet.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/blues_cygnet.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/blues_cygnet.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Blues Inc</p> <p>Cygnet is a Feather-compatible STM32-based MCU, and a lower-cost alternative to our popular Swan MCU. Like the Swan, Cygnet is offered in a Feather standard form factor and uses a STM32L4 part while still providing plenty of flash and RAM to run the majority of your Notecard-powered applications.</p>
+
+<p>The board has three independent power options – USB, battery, or line power – and provides a software-switchable 2 Amp regulator for powering external sensors. When operating in its low-power operating mode, the entire Cygnet board draws only 4uA while retaining all of its memory, making it ideal for battery-powered devices.</p>
+
+<p>Cygnet features support for C/C++ and Arduino, and includes a CORTEX Debug connector, enabling the use of debugging frameworks and tooling such as STLink, JLink, OpenOCD, GDB and more. All of which enable both native and custom integrations into advanced development environments such as Visual Studio Code, IAR, and STM32CUBEIDE.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.blues.com/products/cygnet">Blues Shop</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sun, 11 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/blues_cygnet/</guid>
+  </item><item>
+    <title>Feather RP2350 Adalogger</title>
+    <link>https://circuitpython.org/board/adafruit_feather_rp2350_adalogger/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/adafruit_feather_rp2350_adalogger.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/adafruit_feather_rp2350_adalogger.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/adafruit_feather_rp2350_adalogger.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Adafruit</p> <p>The Feather RP2350 Adalogger is coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href="https://www.youtube.com/adafruit">YouTube</a>.</p>
+
+<h2 id="learn-more">Learn more</h2>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=sPqoNV5Zoy4">YouTube</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sun, 11 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_rp2350_adalogger/</guid>
+  </item><item>
     <title>STM32U575ZIT6Q Discovery Kit</title>
     <link>https://circuitpython.org/board/st_stm32h7b3i_dk/</link>
     <description><![CDATA[  
