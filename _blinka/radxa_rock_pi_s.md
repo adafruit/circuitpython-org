@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "rock_pi_s"
+board_id: "radxa_rock_pi_s"
 title: "Rock Pi S Download"
 name: "Rock Pi S"
 manufacturer: "Radxa Limited"

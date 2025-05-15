@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_kb2040"
-title: "Adafruit KB2040 Download"
-name: "Adafruit KB2040"
+title: "Adafruit KB2040 via U2IF Download"
+name: "Adafruit KB2040 via U2IF"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5302"
@@ -14,6 +14,8 @@ features:
   - STEMMA QT/QWIIC
 
 ---
+
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
 
 A wild Kee Boar appears! It’s a shiny **KB2040**! An Arduino Pro Micro-shaped board for Keebs with RP2040. (#keeblife 4 evah) A lot of folks like using Adafruit parts for their Keeb builds – but with the ItsyBitsy not being pin-compatible with the Pro Micro pinout, it really wasn't very easy without some sort of adapter plate.
 

@@ -1,11 +1,12 @@
 ---
 layout: download
 board_id: "adafruit_feather_rp2040_rfm"
-title: "Feather RP2040 RFM69 Board Download"
-name: "Feather RP2040 RFM69"
+title: "Feather RP2040 RFM69 Board via U2IF Download"
+name: "Feather RP2040 RFM69 via U2IF"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5712"
+download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 board_image: "adafruit_feather_rp2040_rfm69.jpg"
 blinka: true
 date_added: 2023-04-04
@@ -13,6 +14,9 @@ features:
   - Feather-Compatible
   - STEMMA QT/QWIIC
 ---
+
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
+
 This is the Adafruit Feather RP2040 RFM69. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It's an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.
 
 Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check'em out here.

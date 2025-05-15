@@ -6,6 +6,8 @@ name: "Pi 400 Desktop"
 manufacturer: "Raspberry Pi"
 board_url:
  - "https://www.raspberrypi.com/products/raspberry-pi-400-unit"
+ - "https://www.adafruit.com/product/4795"
+ - "https://www.adafruit.com/product/4796"
 board_image: "raspberry_pi_400.jpg"
 download_instructions: "https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi"
 downloads_display: true

@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "rock_pi_4c_plus"
+board_id: "radxa_rock_pi_4c_plus"
 title: "ROCK Pi 4C+ Download"
 name: "ROCK Pi 4C+"
 manufacturer: "Radxa Limited"

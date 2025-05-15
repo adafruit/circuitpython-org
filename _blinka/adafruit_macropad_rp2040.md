@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_macropad_rp2040"
-title: "MacroPad RP2040 Download"
-name: "MacroPad RP2040"
+title: "MacroPad RP2040 via U2IF Download"
+name: "MacroPad RP2040 via U2IF"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5128"
@@ -13,6 +13,8 @@ date_added: 2021-12-06
 features:
   - STEMMA QT/QWIIC
 ---
+
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
 
 Strap yourself in, we're launching in T-minus 10 seconds...Destination? A new Class M planet called MACROPAD! M here, stands for Microcontroller because this 3x4 keyboard controller features the newest technology from the Raspberry Pi sector: say hello to the RP2040. It's speedy little microcontroller with lots of GPIO pins and a 64 times more RAM than the Apollo Guidance Computer. We added 8 MB of flash memory for plenty of storage.
 
