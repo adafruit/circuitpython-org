@@ -238,12 +238,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 14,
   "id": "0xcb_gemini",
   "versions": [
    {
@@ -502,12 +502,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 5,
   "id": "0xcb_helios",
   "versions": [
    {
@@ -766,7 +766,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -1030,7 +1030,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -1168,7 +1168,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -1432,7 +1432,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -1696,7 +1696,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -1938,12 +1938,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 32,
+  "downloads": 44,
   "id": "Seeed_XIAO_nRF52840_Sense",
   "versions": [
    {
@@ -2180,7 +2180,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -2448,12 +2448,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 12,
   "id": "adafruit_esp32s3_camera",
   "versions": [
    {
@@ -2687,12 +2687,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 12,
+  "downloads": 22,
   "id": "adafruit_feather_esp32_v2",
   "versions": [
    {
@@ -2961,12 +2961,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 3,
   "id": "adafruit_feather_esp32c6_4mbflash_nopsram",
   "versions": [
    {
@@ -3206,12 +3206,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 15,
   "id": "adafruit_feather_esp32s2",
   "versions": [
    {
@@ -3481,12 +3481,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 16,
   "id": "adafruit_feather_esp32s2_reverse_tft",
   "versions": [
    {
@@ -3756,12 +3756,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 13,
+  "downloads": 15,
   "id": "adafruit_feather_esp32s2_tft",
   "versions": [
    {
@@ -4031,12 +4031,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 27,
+  "downloads": 34,
   "id": "adafruit_feather_esp32s3_4mbflash_2mbpsram",
   "versions": [
    {
@@ -4197,6 +4197,8 @@
     ],
     "modules": [
      "_asyncio",
+     "_bleio",
+     "_bleio (native)",
      "_pixelmap",
      "adafruit_bus_device",
      "adafruit_pixelbuf",
@@ -4228,6 +4230,7 @@
      "displayio",
      "epaperdisplay",
      "errno",
+     "espcamera",
      "espidf",
      "espnow",
      "espulp",
@@ -4262,9 +4265,11 @@
      "onewireio",
      "os",
      "os.getenv",
+     "paralleldisplaybus",
      "ps2io",
      "pulseio",
      "pwmio",
+     "qrio",
      "rainbowio",
      "random",
      "re",
@@ -4300,12 +4305,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 24,
   "id": "adafruit_feather_esp32s3_nopsram",
   "versions": [
    {
@@ -4580,12 +4585,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 16,
+  "downloads": 25,
   "id": "adafruit_feather_esp32s3_reverse_tft",
   "versions": [
    {
@@ -4849,7 +4854,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -5118,12 +5123,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 22,
   "id": "adafruit_feather_huzzah32",
   "versions": [
    {
@@ -5379,12 +5384,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 95,
+  "downloads": 143,
   "id": "adafruit_feather_rp2040",
   "versions": [
    {
@@ -5643,12 +5648,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 11,
   "id": "adafruit_feather_rp2040_adalogger",
   "versions": [
    {
@@ -5907,12 +5912,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 13,
+  "downloads": 16,
   "id": "adafruit_feather_rp2040_can",
   "versions": [
    {
@@ -6171,12 +6176,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 5,
   "id": "adafruit_feather_rp2040_dvi",
   "versions": [
    {
@@ -6437,12 +6442,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 21,
+  "downloads": 32,
   "id": "adafruit_feather_rp2040_prop_maker",
   "versions": [
    {
@@ -6701,12 +6706,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 12,
   "id": "adafruit_feather_rp2040_rfm",
   "versions": [
    {
@@ -6965,12 +6970,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "adafruit_feather_rp2040_scorpio",
   "versions": [
    {
@@ -7229,7 +7234,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -7493,12 +7498,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 16,
   "id": "adafruit_feather_rp2040_usb_host",
   "versions": [
    {
@@ -7757,12 +7762,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 18,
   "id": "adafruit_feather_rp2350",
   "versions": [
    {
@@ -8025,7 +8030,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -8164,7 +8169,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -8424,12 +8429,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "adafruit_fruit_jam",
   "versions": [
    {
@@ -8692,12 +8697,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "adafruit_funhouse",
   "versions": [
    {
@@ -8949,12 +8954,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 2,
   "id": "adafruit_huzzah32_breakout",
   "versions": [
    {
@@ -9212,12 +9217,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "adafruit_itsybitsy_esp32",
   "versions": [
    {
@@ -9486,12 +9491,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 4,
   "id": "adafruit_itsybitsy_rp2040",
   "versions": [
    {
@@ -9750,12 +9755,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 35,
+  "downloads": 58,
   "id": "adafruit_kb2040",
   "versions": [
    {
@@ -10014,7 +10019,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -10258,12 +10263,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 58,
+  "downloads": 91,
   "id": "adafruit_macropad_rp2040",
   "versions": [
    {
@@ -10522,12 +10527,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 20,
   "id": "adafruit_magtag_2.9_grayscale",
   "versions": [
    {
@@ -10809,12 +10814,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 61,
+  "downloads": 80,
   "id": "adafruit_matrixportal_s3",
   "versions": [
    {
@@ -11087,7 +11092,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -11362,12 +11367,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 12,
+  "downloads": 17,
   "id": "adafruit_metro_esp32s3",
   "versions": [
    {
@@ -11646,12 +11651,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 6,
   "id": "adafruit_metro_m7_1011_sd",
   "versions": [
    {
@@ -11874,12 +11879,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 18,
   "id": "adafruit_metro_rp2040",
   "versions": [
    {
@@ -12138,12 +12143,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 20,
   "id": "adafruit_metro_rp2350",
   "versions": [
    {
@@ -12406,7 +12411,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -12667,12 +12672,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 5,
   "id": "adafruit_neokey_trinkey_m0",
   "versions": [
    {
@@ -12781,12 +12786,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "adafruit_pixel_trinkey_m0",
   "versions": [
    {
@@ -12905,7 +12910,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -13023,12 +13028,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 13,
   "id": "adafruit_qt2040_trinkey",
   "versions": [
    {
@@ -13287,12 +13292,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 6,
   "id": "adafruit_qtpy_esp32_pico",
   "versions": [
    {
@@ -13559,12 +13564,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 19,
   "id": "adafruit_qtpy_esp32c3",
   "versions": [
    {
@@ -13733,7 +13738,6 @@
      "busio.SPI",
      "busio.UART",
      "canio",
-     "codeop",
      "collections",
      "digitalio",
      "displayio",
@@ -13802,12 +13806,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 28,
+  "downloads": 34,
   "id": "adafruit_qtpy_esp32s2",
   "versions": [
    {
@@ -14075,12 +14079,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 20,
+  "downloads": 23,
   "id": "adafruit_qtpy_esp32s3_4mbflash_2mbpsram",
   "versions": [
    {
@@ -14344,12 +14348,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 18,
   "id": "adafruit_qtpy_esp32s3_nopsram",
   "versions": [
    {
@@ -14622,12 +14626,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 52,
+  "downloads": 67,
   "id": "adafruit_qtpy_rp2040",
   "versions": [
    {
@@ -14886,12 +14890,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 19,
+  "downloads": 22,
   "id": "adafruit_qualia_s3_rgb666",
   "versions": [
    {
@@ -15172,7 +15176,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -15288,12 +15292,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 7,
   "id": "adafruit_sht4x_trinkey_m0",
   "versions": [
    {
@@ -15406,12 +15410,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "adafruit_slide_trinkey_m0",
   "versions": [
    {
@@ -15524,7 +15528,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -15785,7 +15789,141 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
+   }
+  ]
+ },
+ {
+  "downloads": 0,
+  "id": "adafruit_sparkle_motion_stick",
+  "versions": [
+   {
+    "extensions": [
+     "bin"
+    ],
+    "frozen_libraries": [],
+    "languages": [
+     "de_DE",
+     "en_GB",
+     "en_US",
+     "en_x_pirate",
+     "es",
+     "fil",
+     "fr",
+     "ID",
+     "it_IT",
+     "ja",
+     "nl",
+     "pl",
+     "pt_BR",
+     "ru",
+     "sv",
+     "tr",
+     "zh_Latn_pinyin"
+    ],
+    "modules": [
+     "_asyncio",
+     "_pixelmap",
+     "adafruit_bus_device",
+     "adafruit_pixelbuf",
+     "aesio",
+     "alarm",
+     "analogbufio",
+     "analogio",
+     "array",
+     "atexit",
+     "audiobusio",
+     "audiocore",
+     "audioio",
+     "audiomixer",
+     "audiomp3",
+     "binascii",
+     "bitbangio",
+     "bitmaptools",
+     "board",
+     "builtins",
+     "builtins.pow3",
+     "busdisplay",
+     "busio",
+     "busio.SPI",
+     "busio.UART",
+     "canio",
+     "codeop",
+     "collections",
+     "countio",
+     "digitalio",
+     "displayio",
+     "epaperdisplay",
+     "errno",
+     "espidf",
+     "espnow",
+     "espulp",
+     "fontio",
+     "fourwire",
+     "framebufferio",
+     "frequencyio",
+     "getpass",
+     "gifio",
+     "hashlib",
+     "i2cdisplaybus",
+     "io",
+     "ipaddress",
+     "jpegio",
+     "json",
+     "keypad",
+     "keypad.KeyMatrix",
+     "keypad.Keys",
+     "keypad.ShiftRegisterKeys",
+     "keypad_demux",
+     "keypad_demux.DemuxKeyMatrix",
+     "locale",
+     "lvfontio",
+     "math",
+     "max3421e",
+     "mdns",
+     "memorymap",
+     "microcontroller",
+     "msgpack",
+     "neopixel_write",
+     "nvm",
+     "onewireio",
+     "os",
+     "os.getenv",
+     "paralleldisplaybus",
+     "ps2io",
+     "pulseio",
+     "pwmio",
+     "rainbowio",
+     "random",
+     "re",
+     "rotaryio",
+     "rtc",
+     "sdcardio",
+     "select",
+     "sharpdisplay",
+     "socketpool",
+     "socketpool.socketpool.AF_INET6",
+     "ssl",
+     "storage",
+     "struct",
+     "supervisor",
+     "synthio",
+     "sys",
+     "terminalio",
+     "tilepalettemapper",
+     "time",
+     "touchio",
+     "traceback",
+     "ulab",
+     "usb",
+     "vectorio",
+     "warnings",
+     "watchdog",
+     "wifi",
+     "zlib"
+    ],
+    "stable": false,
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -15901,7 +16039,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -16174,12 +16312,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 29,
+  "downloads": 35,
   "id": "ai-thinker-esp32-cam",
   "versions": [
    {
@@ -16442,7 +16580,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -16672,7 +16810,6 @@
      "synthio",
      "sys",
      "terminalio",
-     "tilepalettemapper",
      "time",
      "touchio",
      "traceback",
@@ -16685,7 +16822,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -16928,7 +17065,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -17203,7 +17340,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -17442,7 +17579,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -17582,7 +17719,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -17824,7 +17961,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -18064,12 +18201,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 28,
+  "downloads": 38,
   "id": "archi",
   "versions": [
    {
@@ -18352,7 +18489,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -18472,7 +18609,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -18594,12 +18731,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "arduino_nano_33_ble",
   "versions": [
    {
@@ -18834,7 +18971,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -19074,7 +19211,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -19192,12 +19329,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 13,
   "id": "arduino_nano_esp32s3",
   "versions": [
    {
@@ -19472,7 +19609,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -19752,12 +19889,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 6,
   "id": "arduino_nano_rp2040_connect",
   "versions": [
    {
@@ -20018,7 +20155,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -20138,7 +20275,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -20413,7 +20550,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -20694,7 +20831,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -20978,12 +21115,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 7,
   "id": "barduino",
   "versions": [
    {
@@ -21258,7 +21395,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -21378,7 +21515,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -21620,7 +21757,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -21874,7 +22011,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -22123,7 +22260,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -22353,7 +22490,6 @@
      "synthio",
      "sys",
      "terminalio",
-     "tilepalettemapper",
      "time",
      "touchio",
      "traceback",
@@ -22366,7 +22502,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -22608,7 +22744,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -22724,12 +22860,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "bluemicro833",
   "versions": [
    {
@@ -22859,12 +22995,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "bluemicro840",
   "versions": [
    {
@@ -23101,7 +23237,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -23157,12 +23293,12 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 8,
   "id": "boardsource_blok",
   "versions": [
    {
@@ -23425,7 +23561,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -23704,12 +23840,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "bpi_leaf_s3",
   "versions": [
    {
@@ -23992,12 +24128,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 5,
   "id": "bpi_picow_s3",
   "versions": [
    {
@@ -24280,7 +24416,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -24404,7 +24540,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -24690,7 +24826,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -24974,7 +25110,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -25246,12 +25382,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 4,
   "id": "bwshockley_figpi",
   "versions": [
    {
@@ -25510,7 +25646,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -25632,7 +25768,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -25752,7 +25888,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -25997,7 +26133,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -26247,12 +26383,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 15,
   "id": "challenger_nb_rp2040_wifi",
   "versions": [
    {
@@ -26513,12 +26649,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "challenger_rp2040_lora",
   "versions": [
    {
@@ -26783,7 +26919,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -27049,7 +27185,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -27319,7 +27455,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -27589,12 +27725,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 4,
   "id": "challenger_rp2040_wifi",
   "versions": [
    {
@@ -27855,7 +27991,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -28121,7 +28257,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -28397,7 +28533,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -28673,7 +28809,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -28965,7 +29101,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -29120,7 +29256,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -29356,12 +29492,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 63,
+  "downloads": 74,
   "id": "circuitplayground_bluefruit",
   "versions": [
    {
@@ -29598,12 +29734,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 114,
+  "downloads": 249,
   "id": "circuitplayground_express",
   "versions": [
    {
@@ -29756,7 +29892,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -29914,12 +30050,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 5,
   "id": "circuitplayground_express_crickit",
   "versions": [
    {
@@ -30072,7 +30208,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -30230,7 +30366,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -30386,12 +30522,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 22,
+  "downloads": 29,
   "id": "clue_nrf52840_express",
   "versions": [
    {
@@ -30628,7 +30764,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -30908,12 +31044,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "cosmo_pico",
   "versions": [
    {
@@ -31174,7 +31310,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -31423,7 +31559,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -31543,7 +31679,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -31663,12 +31799,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 3,
   "id": "cp_sapling_m0_spiflash",
   "versions": [
    {
@@ -31813,12 +31949,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 33,
   "id": "crcibernetica-ideaboard",
   "versions": [
    {
@@ -32092,7 +32228,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -32367,12 +32503,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 13,
   "id": "cytron_edu_pico_w",
   "versions": [
    {
@@ -32671,7 +32807,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -32959,7 +33095,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -33247,7 +33383,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -33519,12 +33655,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 17,
   "id": "cytron_maker_pi_rp2040",
   "versions": [
    {
@@ -33793,7 +33929,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -34065,12 +34201,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 18,
   "id": "cytron_motion_2350_pro",
   "versions": [
    {
@@ -34343,7 +34479,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -34556,7 +34692,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -34792,7 +34928,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -35060,7 +35196,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -35332,7 +35468,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -35452,12 +35588,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "datum_imu",
   "versions": [
    {
@@ -35572,12 +35708,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 7,
   "id": "datum_light",
   "versions": [
    {
@@ -35692,7 +35828,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -35812,12 +35948,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "deneyap_kart",
   "versions": [
    {
@@ -36079,7 +36215,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -36346,7 +36482,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -36615,7 +36751,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -36858,7 +36994,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -37131,7 +37267,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -37408,7 +37544,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -37606,12 +37742,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "diodes_delight_piunora",
   "versions": [
    {
@@ -37820,12 +37956,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 41,
+  "downloads": 66,
   "id": "doit_esp32_devkit_v1",
   "versions": [
    {
@@ -38083,7 +38219,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -38213,12 +38349,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 3,
   "id": "dynossat_edu_eps",
   "versions": [
    {
@@ -38365,7 +38501,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -38614,12 +38750,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 7,
   "id": "e_fidget",
   "versions": [
    {
@@ -38880,12 +39016,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 5,
   "id": "edgebadge",
   "versions": [
    {
@@ -39113,12 +39249,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "elecfreaks_picoed",
   "versions": [
    {
@@ -39395,12 +39531,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "elecrow_crowpanel_4_2_epaper",
   "versions": [
    {
@@ -39667,7 +39803,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -39933,7 +40069,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -40202,7 +40338,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -40446,7 +40582,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -40688,7 +40824,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -40972,12 +41108,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 5,
   "id": "escornabot_makech",
   "versions": [
    {
@@ -41090,7 +41226,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -41358,12 +41494,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 44,
+  "downloads": 69,
   "id": "espressif_esp32_devkitc_v4_wroom_32e",
   "versions": [
    {
@@ -41621,12 +41757,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 8,
   "id": "espressif_esp32_devkitc_v4_wrover",
   "versions": [
    {
@@ -41891,7 +42027,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -42132,12 +42268,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "espressif_esp32_lyrat",
   "versions": [
    {
@@ -42395,7 +42531,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -42638,7 +42774,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -42889,12 +43025,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 10,
   "id": "espressif_esp32c6_devkitm_1_n4",
   "versions": [
    {
@@ -43131,12 +43267,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 8,
   "id": "espressif_esp32h2_devkitm_1_n4",
   "versions": [
    {
@@ -43371,12 +43507,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 7,
   "id": "espressif_esp32p4_function_ev",
   "versions": [
    {
@@ -43620,7 +43756,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -43891,7 +44027,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -44166,12 +44302,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "espressif_esp32s2_devkitc_1_n8r2",
   "versions": [
    {
@@ -44447,12 +44583,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 3,
   "id": "espressif_esp32s3_box",
   "versions": [
    {
@@ -44727,7 +44863,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -45007,12 +45143,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 15,
+  "downloads": 20,
   "id": "espressif_esp32s3_devkitc_1_n16",
   "versions": [
    {
@@ -45287,12 +45423,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 5,
   "id": "espressif_esp32s3_devkitc_1_n32r8",
   "versions": [
    {
@@ -45571,12 +45707,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 17,
+  "downloads": 26,
   "id": "espressif_esp32s3_devkitc_1_n8",
   "versions": [
    {
@@ -45851,12 +45987,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 7,
   "id": "espressif_esp32s3_devkitc_1_n8r2",
   "versions": [
    {
@@ -46135,12 +46271,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 14,
   "id": "espressif_esp32s3_devkitc_1_n8r8",
   "versions": [
    {
@@ -46419,7 +46555,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -46705,12 +46841,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 5,
   "id": "espressif_esp32s3_devkitm_1_n8",
   "versions": [
    {
@@ -46985,12 +47121,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 12,
   "id": "espressif_esp32s3_eye",
   "versions": [
    {
@@ -47269,7 +47405,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -47555,12 +47691,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 9,
   "id": "espressif_esp32s3_lcd_ev_v1.5",
   "versions": [
    {
@@ -47841,7 +47977,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -48121,7 +48257,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -48353,12 +48489,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "espressif_hmi_devkit_1",
   "versions": [
    {
@@ -48628,7 +48764,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -48903,12 +49039,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 6,
   "id": "espressif_kaluga_1.3",
   "versions": [
    {
@@ -49178,7 +49314,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -49449,7 +49585,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -49724,7 +49860,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -49934,7 +50070,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -50111,7 +50247,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -50323,7 +50459,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -50521,12 +50657,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 14,
   "id": "feather_bluefruit_sense",
   "versions": [
    {
@@ -50763,12 +50899,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "feather_m0_adalogger",
   "versions": [
    {
@@ -50885,12 +51021,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 6,
   "id": "feather_m0_basic",
   "versions": [
    {
@@ -51007,12 +51143,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 16,
   "id": "feather_m0_express",
   "versions": [
    {
@@ -51161,7 +51297,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -51311,7 +51447,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -51427,7 +51563,7 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -51545,7 +51681,7 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -51700,12 +51836,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 7,
   "id": "feather_m4_can",
   "versions": [
    {
@@ -51936,12 +52072,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 52,
+  "downloads": 80,
   "id": "feather_m4_express",
   "versions": [
    {
@@ -52173,7 +52309,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -52409,7 +52545,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -52645,7 +52781,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -52873,12 +53009,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 27,
+  "downloads": 36,
   "id": "feather_nrf52840_express",
   "versions": [
    {
@@ -53115,7 +53251,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -53125,7 +53261,7 @@
   "versions": []
  },
  {
-  "downloads": 7,
+  "downloads": 10,
   "id": "feather_stm32f405_express",
   "versions": [
    {
@@ -53352,7 +53488,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -53640,12 +53776,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 36,
+  "downloads": 63,
   "id": "flipperzero_wifi_dev",
   "versions": [
    {
@@ -53915,7 +54051,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -54035,7 +54171,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -54191,7 +54327,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -54462,7 +54598,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -54737,12 +54873,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 13,
   "id": "gemma_m0",
   "versions": [
    {
@@ -54857,7 +54993,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -54977,12 +55113,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 16,
   "id": "grandcentral_m4_express",
   "versions": [
    {
@@ -55232,7 +55368,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -55503,7 +55639,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -55774,7 +55910,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -56049,7 +56185,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -56324,12 +56460,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 4,
   "id": "hack_club_sprig",
   "versions": [
    {
@@ -56590,7 +56726,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -56752,7 +56888,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -56983,7 +57119,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -57257,7 +57393,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -57535,7 +57671,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -57813,7 +57949,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -58091,7 +58227,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -58371,7 +58507,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -58643,7 +58779,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -58922,12 +59058,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 12,
   "id": "hiibot_bluefi",
   "versions": [
    {
@@ -59164,7 +59300,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -59445,7 +59581,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -59601,12 +59737,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 7,
   "id": "hxr_sao_dmm",
   "versions": [
    {
@@ -59881,7 +60017,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -60123,12 +60259,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 5,
   "id": "imxrt1010_evk",
   "versions": [
    {
@@ -60359,12 +60495,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "imxrt1015_evk",
   "versions": [
    {
@@ -60587,12 +60723,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "imxrt1020_evk",
   "versions": [
    {
@@ -60815,12 +60951,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "imxrt1040_evk",
   "versions": [
    {
@@ -61043,12 +61179,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 8,
   "id": "imxrt1050_evkb",
   "versions": [
    {
@@ -61275,12 +61411,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "imxrt1060_evk",
   "versions": [
    {
@@ -61507,12 +61643,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 8,
   "id": "imxrt1060_evkb",
   "versions": [
    {
@@ -61739,12 +61875,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 10,
   "id": "itsybitsy_m0_express",
   "versions": [
    {
@@ -61893,12 +62029,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 12,
+  "downloads": 17,
   "id": "itsybitsy_m4_express",
   "versions": [
    {
@@ -62126,12 +62262,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 11,
   "id": "itsybitsy_nrf52840_express",
   "versions": [
    {
@@ -62368,12 +62504,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "jpconstantineau_encoderpad_rp2040",
   "versions": [
    {
@@ -62632,7 +62768,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -62898,7 +63034,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -63164,12 +63300,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "jpconstantineau_pykey60",
   "versions": [
    {
@@ -63430,7 +63566,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -63696,7 +63832,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -63858,7 +63994,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -64124,12 +64260,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 13,
   "id": "lilygo_tdeck",
   "versions": [
    {
@@ -64400,12 +64536,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 16,
+  "downloads": 26,
   "id": "lilygo_tdisplay_s3",
   "versions": [
    {
@@ -64684,7 +64820,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -64968,7 +65104,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -65252,7 +65388,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -65536,7 +65672,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -65814,7 +65950,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -66083,7 +66219,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -66329,7 +66465,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -66572,7 +66708,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -66843,7 +66979,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -67118,12 +67254,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 2,
   "id": "lilygo_ttgo_t8_s2_st7789",
   "versions": [
    {
@@ -67393,7 +67529,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -67663,12 +67799,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "lilygo_ttgo_tdisplay_esp32_4m",
   "versions": [
    {
@@ -67926,7 +68062,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -68200,7 +68336,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -68480,7 +68616,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -68612,7 +68748,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -68834,7 +68970,6 @@
      "select",
      "sharpdisplay",
      "socketpool",
-     "socketpool.socketpool.AF_INET6",
      "ssl",
      "storage",
      "struct",
@@ -68842,7 +68977,6 @@
      "synthio",
      "sys",
      "terminalio",
-     "tilepalettemapper",
      "time",
      "touchio",
      "traceback",
@@ -68855,7 +68989,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -69100,12 +69234,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 39,
+  "downloads": 45,
   "id": "lolin_s2_mini",
   "versions": [
    {
@@ -69379,12 +69513,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 6,
   "id": "lolin_s2_pico",
   "versions": [
    {
@@ -69658,7 +69792,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -69938,12 +70072,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "lolin_s3_mini",
   "versions": [
    {
@@ -70209,7 +70343,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -70480,12 +70614,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 4,
   "id": "lolin_s3_pro",
   "versions": [
    {
@@ -70760,7 +70894,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -71003,7 +71137,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -71246,12 +71380,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "m5stack_atom_echo",
   "versions": [
    {
@@ -71509,7 +71643,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -71772,7 +71906,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -72035,7 +72169,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -72298,12 +72432,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "m5stack_atoms3",
   "versions": [
    {
@@ -72578,12 +72712,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 13,
   "id": "m5stack_atoms3_lite",
   "versions": [
    {
@@ -72858,7 +72992,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -73138,12 +73272,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 24,
+  "downloads": 27,
   "id": "m5stack_cardputer",
   "versions": [
    {
@@ -73414,7 +73548,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -73700,7 +73834,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -73970,7 +74104,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -74240,7 +74374,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -74536,12 +74670,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 7,
   "id": "m5stack_dial",
   "versions": [
    {
@@ -74814,7 +74948,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -75084,12 +75218,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "m5stack_stamp_c3",
   "versions": [
    {
@@ -75327,7 +75461,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -75611,12 +75745,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "m5stack_stick_c",
   "versions": [
    {
@@ -75874,7 +76008,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -76137,7 +76271,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -76411,12 +76545,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "m5stack_timer_camera_x",
   "versions": [
    {
@@ -76678,7 +76812,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -76949,7 +77083,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -77238,7 +77372,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -77472,7 +77606,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -77714,12 +77848,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 2,
   "id": "makerdiary_nrf52840_connectkit",
   "versions": [
    {
@@ -77964,7 +78098,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -78206,12 +78340,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "makerdiary_nrf52840_mdk",
   "versions": [
    {
@@ -78448,7 +78582,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -78692,12 +78826,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "makerfabs_tft7",
   "versions": [
    {
@@ -78978,12 +79112,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 31,
+  "downloads": 38,
   "id": "makergo_esp32c3_supermini",
   "versions": [
    {
@@ -79221,12 +79355,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "makergo_esp32c6_supermini",
   "versions": [
    {
@@ -79466,12 +79600,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 3,
   "id": "maple_elite_pi",
   "versions": [
    {
@@ -79730,12 +79864,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 71,
+  "downloads": 113,
   "id": "matrixportal_m4",
   "versions": [
    {
@@ -79977,12 +80111,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 5,
   "id": "max32690evkit",
   "versions": [
    {
@@ -80117,7 +80251,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -80383,12 +80517,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "meowbit_v121",
   "versions": [
    {
@@ -80588,7 +80722,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -80706,12 +80840,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 41,
   "id": "metro_m0_express",
   "versions": [
    {
@@ -80858,7 +80992,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -81097,12 +81231,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 9,
   "id": "metro_m4_express",
   "versions": [
    {
@@ -81334,12 +81468,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "metro_m7_1011",
   "versions": [
    {
@@ -81570,7 +81704,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -81814,12 +81948,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 24,
+  "downloads": 26,
   "id": "microbit_v2",
   "versions": [
    {
@@ -81945,7 +82079,7 @@
      "touchio"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -82175,7 +82309,6 @@
      "synthio",
      "sys",
      "terminalio",
-     "tilepalettemapper",
      "time",
      "touchio",
      "traceback",
@@ -82188,7 +82321,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -82469,12 +82602,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 5,
   "id": "mini_sam_m4",
   "versions": [
    {
@@ -82710,7 +82843,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -83025,7 +83158,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -83343,12 +83476,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "monster_m4sk",
   "versions": [
    {
@@ -83566,7 +83699,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -83837,12 +83970,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 9,
   "id": "mtm_computer",
   "versions": [
    {
@@ -84102,7 +84235,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -84373,7 +84506,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -84648,7 +84781,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -84768,12 +84901,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 5,
   "id": "ndgarage_ndbit6_v2",
   "versions": [
    {
@@ -84888,12 +85021,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 9,
   "id": "neopixel_trinkey_m0",
   "versions": [
    {
@@ -85002,7 +85135,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -85124,12 +85257,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 27,
+  "downloads": 33,
   "id": "nice_nano",
   "versions": [
    {
@@ -85366,7 +85499,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -85598,7 +85731,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -85680,7 +85813,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -85760,7 +85893,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -85848,7 +85981,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -85992,7 +86125,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -86202,12 +86335,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "nucleo_f767zi",
   "versions": [
    {
@@ -86412,7 +86545,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -86618,7 +86751,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -86882,7 +87015,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -87148,7 +87281,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -87414,7 +87547,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -87689,12 +87822,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "odt_rpga_feather",
   "versions": [
    {
@@ -87953,12 +88086,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 6,
   "id": "ohs2020_badge",
   "versions": [
    {
@@ -88195,7 +88328,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -88431,7 +88564,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -88637,7 +88770,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -88907,7 +89040,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -89177,7 +89310,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -89447,7 +89580,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -89717,12 +89850,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "p1am_200",
   "versions": [
    {
@@ -89966,12 +90099,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 5,
   "id": "pajenicko_picopad",
   "versions": [
    {
@@ -90254,7 +90387,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -90496,7 +90629,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -90738,7 +90871,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -90980,7 +91113,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -91224,12 +91357,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 12,
   "id": "pca10059",
   "versions": [
    {
@@ -91468,12 +91601,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "pca10100",
   "versions": [
    {
@@ -91601,7 +91734,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -91843,7 +91976,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -91963,7 +92096,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -92085,7 +92218,7 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -92227,12 +92360,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 7,
   "id": "picoplanet",
   "versions": [
    {
@@ -92347,7 +92480,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -92589,12 +92722,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "pimoroni_badger2040",
   "versions": [
    {
@@ -92851,7 +92984,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -93131,7 +93264,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -93413,7 +93546,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -93693,7 +93826,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -93959,12 +94092,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 15,
+  "downloads": 20,
   "id": "pimoroni_keybow2040",
   "versions": [
    {
@@ -94225,7 +94358,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -94491,12 +94624,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "pimoroni_pga2040",
   "versions": [
    {
@@ -94757,12 +94890,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 21,
+  "downloads": 23,
   "id": "pimoroni_pga2350",
   "versions": [
    {
@@ -95027,12 +95160,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 7,
   "id": "pimoroni_pico_dv_base",
   "versions": [
    {
@@ -95299,7 +95432,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -95583,12 +95716,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 11,
   "id": "pimoroni_pico_plus2",
   "versions": [
    {
@@ -95853,12 +95986,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 10,
   "id": "pimoroni_pico_plus2w",
   "versions": [
    {
@@ -96135,12 +96268,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "pimoroni_picolipo_16mb",
   "versions": [
    {
@@ -96401,12 +96534,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "pimoroni_picolipo_4mb",
   "versions": [
    {
@@ -96667,7 +96800,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -96941,12 +97074,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "pimoroni_plasma2040",
   "versions": [
    {
@@ -97203,7 +97336,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -97481,7 +97614,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -97751,12 +97884,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "pimoroni_plasma2350w",
   "versions": [
    {
@@ -98027,12 +98160,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 15,
   "id": "pimoroni_servo2040",
   "versions": [
    {
@@ -98293,12 +98426,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 13,
+  "downloads": 14,
   "id": "pimoroni_tiny2040",
   "versions": [
    {
@@ -98559,12 +98692,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 5,
   "id": "pimoroni_tiny2040_2mb",
   "versions": [
    {
@@ -98825,12 +98958,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 12,
+  "downloads": 16,
   "id": "pimoroni_tiny2350",
   "versions": [
    {
@@ -99095,7 +99228,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -99357,7 +99490,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -99604,12 +99737,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "proveskit_rp2040_v4",
   "versions": [
    {
@@ -99868,7 +100001,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -100077,12 +100210,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 17,
+  "downloads": 22,
   "id": "pybadge",
   "versions": [
    {
@@ -100310,7 +100443,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -100320,7 +100453,7 @@
   "versions": []
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "pyboard_v11",
   "versions": [
    {
@@ -100547,7 +100680,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -100751,7 +100884,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -100955,7 +101088,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -101159,7 +101292,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -101363,12 +101496,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 8,
   "id": "pygamer",
   "versions": [
    {
@@ -101596,7 +101729,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -101606,7 +101739,7 @@
   "versions": []
  },
  {
-  "downloads": 19,
+  "downloads": 29,
   "id": "pyportal",
   "versions": [
    {
@@ -101866,7 +101999,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -102131,7 +102264,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -102396,7 +102529,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -102516,12 +102649,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 16,
   "id": "qtpy_m0",
   "versions": [
    {
@@ -102636,12 +102769,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 5,
   "id": "qtpy_m0_haxpress",
   "versions": [
    {
@@ -102792,12 +102925,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1471,
+  "downloads": 2114,
   "id": "raspberry_pi_pico",
   "versions": [
    {
@@ -103060,12 +103193,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 221,
+  "downloads": 320,
   "id": "raspberry_pi_pico2",
   "versions": [
    {
@@ -103330,12 +103463,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 299,
+  "downloads": 402,
   "id": "raspberry_pi_pico2_w",
   "versions": [
    {
@@ -103612,12 +103745,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 585,
+  "downloads": 786,
   "id": "raspberry_pi_pico_w",
   "versions": [
    {
@@ -103886,7 +104019,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -104100,7 +104233,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -104314,12 +104447,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 36,
+  "downloads": 41,
   "id": "raspberrypi_pi4b",
   "versions": [
    {
@@ -104528,12 +104661,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 14,
   "id": "raspberrypi_zero",
   "versions": [
    {
@@ -104742,12 +104875,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 39,
+  "downloads": 49,
   "id": "raspberrypi_zero2w",
   "versions": [
    {
@@ -104956,12 +105089,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 17,
+  "downloads": 20,
   "id": "raspberrypi_zero_w",
   "versions": [
    {
@@ -105170,7 +105303,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -105412,12 +105545,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 3,
   "id": "raytac_mdbt50q-rx",
   "versions": [
    {
@@ -105654,7 +105787,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -105925,7 +106058,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -106005,7 +106138,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -106085,7 +106218,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -106177,12 +106310,12 @@
      "time"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "rfguru_rp2040",
   "versions": [
    {
@@ -106443,7 +106576,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -106656,12 +106789,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 13,
   "id": "sam32",
   "versions": [
    {
@@ -106909,7 +107042,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -107146,12 +107279,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 45,
+  "downloads": 49,
   "id": "seeed_xiao_esp32_s3_sense",
   "versions": [
    {
@@ -107430,12 +107563,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 20,
+  "downloads": 25,
   "id": "seeed_xiao_esp32c3",
   "versions": [
    {
@@ -107673,12 +107806,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 20,
+  "downloads": 46,
   "id": "seeed_xiao_esp32c6",
   "versions": [
    {
@@ -107918,12 +108051,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 10,
   "id": "seeeduino_wio_terminal",
   "versions": [
    {
@@ -108153,12 +108286,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 15,
+  "downloads": 25,
   "id": "seeeduino_xiao",
   "versions": [
    {
@@ -108273,7 +108406,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -108397,12 +108530,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 25,
+  "downloads": 38,
   "id": "seeeduino_xiao_rp2040",
   "versions": [
    {
@@ -108661,12 +108794,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 12,
+  "downloads": 13,
   "id": "seeeduino_xiao_rp2350",
   "versions": [
    {
@@ -108929,12 +109062,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 6,
   "id": "sensebox_mcu",
   "versions": [
    {
@@ -109047,7 +109180,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -109322,7 +109455,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -109478,12 +109611,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 12,
   "id": "shirtty",
   "versions": [
    {
@@ -109598,7 +109731,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -109834,7 +109967,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -110098,7 +110231,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -110217,7 +110350,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -110509,7 +110642,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -110793,7 +110926,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -111077,7 +111210,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -111233,7 +111366,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -111503,7 +111636,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -111752,7 +111885,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -112034,7 +112167,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -112318,12 +112451,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 15,
   "id": "solderparty_rp2350_stamp_xl",
   "versions": [
    {
@@ -112602,7 +112735,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -112756,12 +112889,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "sparkfun_micromod_rp2040",
   "versions": [
    {
@@ -113020,7 +113153,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -113262,7 +113395,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -113500,12 +113633,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 9,
   "id": "sparkfun_pro_micro_rp2040",
   "versions": [
    {
@@ -113764,7 +113897,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -114032,7 +114165,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -114152,12 +114285,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 3,
   "id": "sparkfun_qwiic_micro_with_flash",
   "versions": [
    {
@@ -114274,7 +114407,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -114426,7 +114559,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -114546,7 +114679,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -114666,7 +114799,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -114915,12 +115048,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 5,
   "id": "sparkfun_samd51_thing_plus",
   "versions": [
    {
@@ -115164,7 +115297,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -115398,7 +115531,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -115630,12 +115763,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 3,
   "id": "sparkfun_teensy_micromod",
   "versions": [
    {
@@ -115864,12 +115997,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 7,
   "id": "sparkfun_thing_plus_rp2040",
   "versions": [
    {
@@ -116128,12 +116261,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "sparkfun_thing_plus_rp2350",
   "versions": [
    {
@@ -116410,12 +116543,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 5,
   "id": "sparkfun_thingplus_matter_mgm240p_brd2704a",
   "versions": [
    {
@@ -116608,7 +116741,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -116872,7 +117005,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -117115,7 +117248,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -117367,7 +117500,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -117534,7 +117667,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -117797,7 +117930,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -118039,12 +118172,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 1,
   "id": "ssci_isp1807_micro_board",
   "versions": [
    {
@@ -118281,12 +118414,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "st_nucleo_u575zi_q",
   "versions": [
    {
@@ -118361,12 +118494,12 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 4,
   "id": "st_stm32h7b3i_dk",
   "versions": [
    {
@@ -118441,7 +118574,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -118593,12 +118726,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 9,
   "id": "stm32f411ce_blackpill",
   "versions": [
    {
@@ -118805,12 +118938,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 3,
   "id": "stm32f411ce_blackpill_with_flash",
   "versions": [
    {
@@ -119027,7 +119160,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -119224,7 +119357,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -119448,7 +119581,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -119678,7 +119811,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -119888,7 +120021,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -120042,7 +120175,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -120285,12 +120418,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 6,
   "id": "sunton_esp32_2432S024C",
   "versions": [
    {
@@ -120548,12 +120681,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 25,
+  "downloads": 31,
   "id": "sunton_esp32_2432S028",
   "versions": [
    {
@@ -120811,12 +120944,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 8,
   "id": "sunton_esp32_2432S032C",
   "versions": [
    {
@@ -121075,7 +121208,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -121353,7 +121486,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -121631,12 +121764,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 31,
+  "downloads": 40,
   "id": "supermini_nrf52840",
   "versions": [
    {
@@ -121873,12 +122006,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "swan_r5",
   "versions": [
    {
@@ -122086,7 +122219,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -122350,7 +122483,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -122621,12 +122754,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 5,
   "id": "targett_module_clip_wrover",
   "versions": [
    {
@@ -122896,12 +123029,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 7,
   "id": "teensy40",
   "versions": [
    {
@@ -123126,12 +123259,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 22,
+  "downloads": 26,
   "id": "teensy41",
   "versions": [
    {
@@ -123362,7 +123495,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -123604,7 +123737,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -123879,7 +124012,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -124086,7 +124219,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -124291,7 +124424,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -124533,12 +124666,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 7,
   "id": "trellis_m4_express",
   "versions": [
    {
@@ -124765,12 +124898,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 30,
+  "downloads": 45,
   "id": "trinket_m0",
   "versions": [
    {
@@ -124885,7 +125018,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -125039,12 +125172,12 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "ttgo_t8_v1_7",
   "versions": [
    {
@@ -125303,7 +125436,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -125539,7 +125672,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -125661,12 +125794,12 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 4,
+  "downloads": 8,
   "id": "ugame10",
   "versions": [
    {
@@ -125815,7 +125948,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -126089,7 +126222,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -126381,7 +126514,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -126671,12 +126804,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 6,
   "id": "unexpectedmaker_feathers2",
   "versions": [
    {
@@ -126952,7 +127085,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -127231,7 +127364,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -127512,12 +127645,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 11,
+  "downloads": 17,
   "id": "unexpectedmaker_feathers3",
   "versions": [
    {
@@ -127800,7 +127933,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -128088,7 +128221,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -128376,7 +128509,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -128666,12 +128799,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "unexpectedmaker_pros3",
   "versions": [
    {
@@ -128954,7 +129087,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -129244,7 +129377,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -129499,12 +129632,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "unexpectedmaker_tinypico",
   "versions": [
    {
@@ -129766,7 +129899,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -130033,12 +130166,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 5,
   "id": "unexpectedmaker_tinys2",
   "versions": [
    {
@@ -130314,12 +130447,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 24,
   "id": "unexpectedmaker_tinys3",
   "versions": [
    {
@@ -130604,7 +130737,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -130894,12 +131027,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 81,
+  "downloads": 97,
   "id": "vcc_gnd_yd_rp2040",
   "versions": [
    {
@@ -131160,7 +131293,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -131434,7 +131567,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -131676,12 +131809,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 18,
+  "downloads": 27,
   "id": "waveshare_esp32_c6_lcd_1_47",
   "versions": [
    {
@@ -131921,12 +132054,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 42,
   "id": "waveshare_esp32_s2_pico_lcd",
   "versions": [
    {
@@ -132196,7 +132329,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -132480,12 +132613,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 16,
   "id": "waveshare_esp32_s3_geek",
   "versions": [
    {
@@ -132764,12 +132897,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 4,
   "id": "waveshare_esp32_s3_lcd_1_28",
   "versions": [
    {
@@ -133036,12 +133169,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 11,
   "id": "waveshare_esp32_s3_matrix",
   "versions": [
    {
@@ -133307,12 +133440,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 2,
+  "downloads": 6,
   "id": "waveshare_esp32_s3_pico",
   "versions": [
    {
@@ -133591,12 +133724,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 2,
   "id": "waveshare_esp32_s3_tiny",
   "versions": [
    {
@@ -133864,12 +133997,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 9,
+  "downloads": 12,
   "id": "waveshare_esp32_s3_touch_lcd_2",
   "versions": [
    {
@@ -134148,12 +134281,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 27,
+  "downloads": 43,
   "id": "waveshare_esp32_s3_zero",
   "versions": [
    {
@@ -134419,12 +134552,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 1,
+  "downloads": 2,
   "id": "waveshare_esp32s2_pico",
   "versions": [
    {
@@ -134694,12 +134827,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 8,
   "id": "waveshare_rp2040_geek",
   "versions": [
    {
@@ -134960,12 +135093,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 10,
   "id": "waveshare_rp2040_lcd_0_96",
   "versions": [
    {
@@ -135226,12 +135359,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 12,
   "id": "waveshare_rp2040_lcd_1_28",
   "versions": [
    {
@@ -135492,12 +135625,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 8,
   "id": "waveshare_rp2040_one",
   "versions": [
    {
@@ -135758,12 +135891,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 10,
   "id": "waveshare_rp2040_pizero",
   "versions": [
    {
@@ -136022,12 +136155,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 9,
   "id": "waveshare_rp2040_plus_16mb",
   "versions": [
    {
@@ -136288,7 +136421,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -136554,7 +136687,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -136820,12 +136953,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 5,
   "id": "waveshare_rp2040_touch_lcd_1_28",
   "versions": [
    {
@@ -137086,12 +137219,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 132,
+  "downloads": 228,
   "id": "waveshare_rp2040_zero",
   "versions": [
    {
@@ -137352,12 +137485,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 8,
   "id": "waveshare_rp2350_geek",
   "versions": [
    {
@@ -137622,12 +137755,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 8,
+  "downloads": 11,
   "id": "waveshare_rp2350_lcd_0_96",
   "versions": [
    {
@@ -137892,12 +138025,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 7,
+  "downloads": 8,
   "id": "waveshare_rp2350_lcd_1_28",
   "versions": [
    {
@@ -138162,12 +138295,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 5,
+  "downloads": 8,
   "id": "waveshare_rp2350_one",
   "versions": [
    {
@@ -138432,12 +138565,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 6,
+  "downloads": 16,
   "id": "waveshare_rp2350_plus",
   "versions": [
    {
@@ -138702,12 +138835,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 2,
   "id": "waveshare_rp2350_tiny",
   "versions": [
    {
@@ -138972,7 +139105,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -139242,7 +139375,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -139512,7 +139645,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -139754,7 +139887,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -140005,12 +140138,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 14,
+  "downloads": 18,
   "id": "weact_studio_pico",
   "versions": [
    {
@@ -140271,12 +140404,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 3,
+  "downloads": 7,
   "id": "weact_studio_pico_16mb",
   "versions": [
    {
@@ -140537,7 +140670,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -140800,7 +140933,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -140930,7 +141063,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -141114,7 +141247,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -141380,7 +141513,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -141648,12 +141781,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 3,
   "id": "wiznet_w5100s_evb_pico",
   "versions": [
    {
@@ -141912,7 +142045,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -142184,12 +142317,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 10,
+  "downloads": 20,
   "id": "wiznet_w5500_evb_pico",
   "versions": [
    {
@@ -142448,7 +142581,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -142589,7 +142722,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -142861,12 +142994,12 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 0,
+  "downloads": 5,
   "id": "xinabox_cc03",
   "versions": [
    {
@@ -142975,7 +143108,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -143087,12 +143220,12 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
  {
-  "downloads": 77,
+  "downloads": 103,
   "id": "yd_esp32_s3_n16r8",
   "versions": [
    {
@@ -143375,7 +143508,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -143663,7 +143796,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  },
@@ -143935,7 +144068,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-alpha.4"
+    "version": "10.0.0-alpha.5"
    }
   ]
  }
