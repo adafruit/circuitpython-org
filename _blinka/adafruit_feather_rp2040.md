@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_feather_rp2040"
-title: "Feather RP2040 Download"
-name: "Feather RP2040"
+title: "Feather RP2040 via U2IF Download"
+name: "Feather RP2040 via U2IF"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4884"
@@ -14,6 +14,8 @@ features:
   - Feather-Compatible
   - STEMMA QT/QWIIC
 ---
+
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
 
 A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought "this chip is going to be awesome when we give it the Feather Treatment" and so we did! This Feather features the **RP2040**, and all niceties you know and love about Feather.
 

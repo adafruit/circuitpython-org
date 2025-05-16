@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "waveshare_rp2040_one"
-title: "Waveshare RP2040-One Download"
-name: "RP2040-One"
+title: "Waveshare RP2040-One via U2IF Download"
+name: "RP2040-One via U2IF"
 manufacturer: "Waveshare"
 board_url: "https://www.waveshare.com/product/rp2040-one.htm"
 board_image: "waveshare_rp2040_one.jpg"
@@ -13,7 +13,9 @@ date_added: 2024-08-07
 family: rp2040
 ---
 
-A Trinkey-like MCU board based on Raspberry Pi RP2040
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
+
+A Trinkey-like MCU board based on Raspberry Pi RP2040.
 
 **Board specifications**
 

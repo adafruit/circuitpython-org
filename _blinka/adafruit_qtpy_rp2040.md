@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_qtpy_rp2040"
-title: "QT Py RP2040 Download"
-name: "QT Py RP2040"
+title: "QT Py RP2040 via U2IF Download"
+name: "QT Py RP2040 via U2IF"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4900"
@@ -13,6 +13,8 @@ date_added: 2021-12-06
 features:
   - STEMMA QT/QWIIC
 ---
+
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
 
 What a cutie pie! Or is it... a QT Py? This diminutive dev board comes with one of our new favorite chip, the RP2040. It's been made famous in the new [Raspberry Pi Pico](https://www.adafruit.com/pico) *and* our [Feather RP2040](http://www.adafruit.com/product/4884) and [ItsyBitsy RP2040](http://www.adafruit.com/product/4888), but what if we wanted something really *smol?*
 

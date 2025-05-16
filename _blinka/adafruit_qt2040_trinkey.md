@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_qt2040_trinkey"
-title: "Trinkey QT2040 Download"
-name: "Trinkey QT2040"
+title: "Trinkey QT2040 via U2IF Download"
+name: "Trinkey QT2040 via U2IF"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5056"
@@ -14,6 +14,8 @@ features:
   - STEMMA QT/QWIIC
 
 ---
+
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
 
 It's half USB Key, half Adafruit QT Py, and a lotta RP2040*...*it's **Trinkey QT2040**, the circuit board with an RP2040 heart and Stemma QT legs. Folks are loving the [QT Py 2040](https://www.adafruit.com/product/4900) we made, but maybe you want something plug-and-play. So we thought, hey what if we made something like that plugs right into your computer's USB port? And this is what we came up with!
 

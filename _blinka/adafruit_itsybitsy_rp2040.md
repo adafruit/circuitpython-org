@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "adafruit_itsybitsy_rp2040"
-title: "ItsyBitsy RP2040 Download"
-name: "ItsyBitsy RP2040"
+title: "ItsyBitsy RP2040 via U2IF Download"
+name: "ItsyBitsy RP2040 via U2IF"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/4888"
@@ -11,8 +11,9 @@ download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-an
 blinka: true
 date_added: 2021-12-06
 features:
-
 ---
+
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
 
 A new chip means a new ItsyBitsy, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought "this chip is going to be awesome when we give it the ItsyBitsy teensy-weensy Treatment" and so we did! This Itsy' features the RP2040, and all niceties you know and love about the [ItsyBitsy family](https://www.adafruit.com/category/1008).
 

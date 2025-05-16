@@ -1,12 +1,13 @@
 ---
 layout: download
 board_id: "adafruit_feather_rp2040_thinkink"
-title: "Feather RP2040 ThinkInk Download"
-name: "Feather RP2040 ThinkInk"
+title: "Feather RP2040 ThinkInk via U2IF Download"
+name: "Feather RP2040 ThinkInk via U2IF"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5727"
 board_image: "adafruit_feather_rp2040_thinkink.jpg"
+download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico"
 blinka: true
 date_added: 2023-05-02
 tags:
@@ -16,6 +17,8 @@ features:
   - Feather-Compatible
   - STEMMA QT/QWIIC
 ---
+
+**This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**
 
 Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that's designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you've seen one of those new-fangled 'e-readers' like the Kindle or Nook. They have gigantic electronic paper 'static' displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!
 
