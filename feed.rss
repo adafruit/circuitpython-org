@@ -4,9 +4,92 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 15 May 2025 19:12:39 -0400</lastBuildDate>
+<lastBuildDate>Thu, 15 May 2025 20:42:45 -0400</lastBuildDate>
 
 <item>
+    <title>Banana Pi BPI-AI2H with BPI-AI2N Carrier</title>
+    <link>https://circuitpython.org/blinka/banana_pi_bpi_ai2h_ai2n/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/banana_pi_bpi_ai2h_ai2n.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_ai2h_ai2n.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_ai2h_ai2n.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By SinoVoip</p> <p>Banana Pi BPI-AI2N System-on-Module (SoM) and BPI-AI2N carrier board are open-source hardware solutions designed to leverage the advanced capabilities of the RZ/V2N Vision AI MPU. Designed with a flexible, community-driven ecosystem, the BPI-AI2N platform empowers developers to accelerate innovation and streamline application development. Powered by the RZ/V2N MPU, it delivers industry-leading AI acceleration of 15 TOPS (Sparse) and high-performance computing with 4x Arm® Cortex®-A55 processors, making it an ideal choice for creating cutting-edge vision AI solutions.</p>
+
+<ul>
+  <li>Small Form Factor: Compact SO-DIMM 260PINs design (SOM module size: 45x69.6mm)</li>
+  <li>Open-source development kit, including SOM, BPI-AI2N Carrier board and a rich ecosystem of tools and support from the Banana Pi developer community</li>
+  <li>Customizable hardware &amp; software by OEM&amp;ODM</li>
+  <li>Yocto and other open-source software support</li>
+  <li>Memory &amp; storage: 8GB LPDDR4x, 32GB eMMC, 64MB QSPI Flash</li>
+  <li>Wide operating temperature range from -40°C to 85°C</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.alibaba.com/product-detail/Banana-PI-NEW-Powerful-SOM-Module_1601401058111.html">Alibaba</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/banana_pi_bpi_ai2h_ai2n/</guid>
+  </item><item>
+    <title>Adafruit Sparkle Motion</title>
+    <link>https://circuitpython.org/board/adafruit_sparkle_motion_stick/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/adafruit_sparkle_motion_stick.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/adafruit_sparkle_motion_stick.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/adafruit_sparkle_motion_stick.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Adafruit</p> <p>The <strong>Adafruit Sparkle Motion Stick</strong> is part of our series of “Sparkle Motion” boards, which are our attempt to make the best small WLED-friendly smart LED driving board in the whole world. Our resident mermaid, <a href="https://learn.adafruit.com/u/firepixie">firepixie</a> makes a lot of projects with WLED, and she loves it! So, how can we make something powerful enough to drive advanced LED projects that need a compact design?</p>
+
+<p><strong>This version includes both the Sparkle Motion Stick and the enclosure</strong>, which is great if you want to protect your USB dongle from everyday usage, but note that it is not waterproof or weatherproof. There are three pieces: two snap over the PCB to capture it in place, and one can be used as a USB A port cap. We also like there’s a button lever - by default in WLED pin 0 is an on/off mode switcher, but you can program it to do other stuff.</p>
+
+<p>The USB Stick version of the Sparkle Motion is a simpler version of our full-featured Sparkle Motion. <a href="https://www.adafruit.com/product/6176">It even fits into a low cost off-the-shelf case for protection.</a></p>
+
+<ul>
+  <li><strong>Power via USB Type A for up to 5V 2A input -</strong> you can use off-the-shelf USB battery packs for portable operation.</li>
+  <li><strong>2 Amp resetting fuse</strong> to protect from over-current drive</li>
+  <li><strong>ESP32</strong> mini module with built-in antenna port - the classic ESP32 has the best WLED support, even if we’d prefer the ‘S2 or ‘S3. Comes with 4 MB of flash, dual-core 240MHz Tensilica, WiFi, Bluetooth LE, and Bluetooth Classic support.</li>
+  <li><strong>USB-serial converter</strong> with auto-reset</li>
+  <li><strong>Two output signals plus 5V power and ground</strong> - both signal outputs are level shifted to 5V.</li>
+  <li><strong>Built-in I2S microphone</strong> for audio-reactive projects</li>
+  <li><strong>Built-in Infrared receiver</strong> on GPIO 10 for easy remote control integration</li>
+  <li><strong>User button on GPIO 0</strong> which you can press even when its in the snap-on case</li>
+  <li><strong>Red built-in LED</strong> on pin 4</li>
+  <li><strong>Small built-in NeoPixel</strong> on pin 18</li>
+  <li><strong>Screw terminal blocks</strong> for no-solder connectivity</li>
+</ul>
+
+<p>Compared to our <a href="https://www.adafruit.com/product/6100">larger Sparkle Motion board</a>, this only supports 5V and doesn’t have a reset button, there are fewer outputs, and no breakout pads of I2C/GPIO connections for external accessories.
+Compared to our <a href="https://www.adafruit.com/product/6160">Sparkle Motion Mini</a>, this has a USB A port so it’s 2A max power. It does have IR and built-in terminal blocks but does not have GPIO breakout pads.</p>
+
+<p>While we recommend it for use with WLED, it will also work just fine as a compact ESP32 board for use with Arduino, ESP-IDF, MicroPython, CircuitPython, or any other ESP32-supported codebase.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/6332">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_sparkle_motion_stick/</guid>
+  </item><item>
     <title>W5500-EVB-Pico2</title>
     <link>https://circuitpython.org/board/wiznet_w5500_evb_pico2/</link>
     <description><![CDATA[  
@@ -134,6 +217,404 @@
     
     <pubDate>Sun, 11 May 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_rp2350_adalogger/</guid>
+  </item><item>
+    <title>Vicharak Vaaman</title>
+    <link>https://circuitpython.org/blinka/vicharak_vaaman/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/vicharak_vaaman.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/vicharak_vaaman.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/vicharak_vaaman.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Vicharak</p> <p><strong>Vaaman</strong> combines the flexibility of an FPGA with the power of an ARM processor to create something truly unique: a re-configurable computer that adapts to your needs. While traditional computers struggle with the increasing demands of realtime processing and AI workloads, Vaaman takes a different approach. By integrating a powerful six-core ARM processor with an Efinix Trion T20 FPGA with 112k LEs, we’ve created a platform that can dynamically reconfigure itself for optimal performance across diverse computing tasks.</p>
+
+<h3 id="features--specifications">Features &amp; Specifications</h3>
+
+<ul>
+  <li>CPU: Rockchip RK3399
+    <ul>
+      <li>Dual Cortex-A72 + Quad Cortex-A53</li>
+      <li>Mali-T864 GPU with OpenGL ES1.1/2.0/3.0/3.1, OpenCL, DX11 support</li>
+      <li>2 GB or 4 GB LPDDR4 RAM</li>
+    </ul>
+  </li>
+  <li>FPGA: Efinix Trion T120
+    <ul>
+      <li>Logic Elements: 112,128</li>
+      <li>Embedded Memory: 5,407 Kb</li>
+      <li>Embedded Memory Blocks (5 Kb each): 1,056</li>
+      <li>Embedded Multipliers: 320 (18x18 bit)</li>
+      <li>512 MB of DDR3L dedicated RAM, x32 PHY with memory controller hard IP, 25.6 Gbps aggregate bandwidth</li>
+      <li>Supports 1.8, 2.5, and 3.3-V single-ended I/O standards and interfaces</li>
+      <li>Up to 16 PLL-generated global clock signals</li>
+    </ul>
+  </li>
+  <li><strong>Realtime clock (RTC) with battery backup</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.crowdsupply.com/vicharak/vaaman">Crowd Supply</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/vicharak_vaaman/</guid>
+  </item><item>
+    <title>Vicharak Axon</title>
+    <link>https://circuitpython.org/blinka/vicharak_axon/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/vicharak_axon.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/vicharak_axon.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/vicharak_axon.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Vicharak</p> <p>Introducing the AXON 8GB LPDDR4X &amp; 32GB eMMC Variant—a compact powerhouse for seamless multitasking and fast app navigation. With 8GB RAM and 32GB storage, it’s perfect for productivity and entertainment, delivering high-speed performance and reduced loading times.</p>
+
+<p>The RK3588 chip powers Axon with smooth 4K performance, making it perfect for gaming and multitasking. Its built-in AI engine enhances smart applications, and support for four displays opens possibilities for gaming, digital signage, and development.</p>
+
+<h3 id="features--specifications">Features &amp; Specifications</h3>
+
+<ul>
+  <li>Connectivity
+    <ul>
+      <li>Bluetooth 5.2</li>
+      <li>Ethernet</li>
+      <li>WiFi 6</li>
+    </ul>
+  </li>
+  <li>Storage
+    <ul>
+      <li>eMMC 5.1</li>
+      <li>PCIe 3.0 (NVMe M.2)</li>
+      <li>Micro SD Card</li>
+      <li>SATA 3.0</li>
+    </ul>
+  </li>
+  <li>Peripherals
+    <ul>
+      <li>GPIO</li>
+      <li>I2C</li>
+      <li>SPI</li>
+      <li>USB 2.0</li>
+      <li>USB 3.0</li>
+      <li>I2S</li>
+      <li>PWM</li>
+      <li>UART</li>
+      <li>PCIe 2.0</li>
+      <li>PCIe 3.0</li>
+      <li>SARADC</li>
+    </ul>
+  </li>
+  <li>Display Interface
+    <ul>
+      <li>HDMI TX 2.1</li>
+      <li>MIPI DSI 2.0</li>
+      <li>Type-C DP 1.4a</li>
+    </ul>
+  </li>
+  <li>Audio Interface
+    <ul>
+      <li>Audio Jack</li>
+      <li>Speakers</li>
+      <li>Analog Mic</li>
+    </ul>
+  </li>
+  <li>Video Input interface
+    <ul>
+      <li>HDMI RX 2.0</li>
+      <li>MIPI Camera Interface 1.2/2.0</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://store.vicharak.in/?product=axon&amp;post_type=product&amp;name=axon&amp;v=644d99afb936">Vicharak</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/vicharak_axon/</guid>
+  </item><item>
+    <title>Rock 3B</title>
+    <link>https://circuitpython.org/blinka/radxa_rock_3b/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/radxa_rock_3b.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/radxa_rock_3b.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/radxa_rock_3b.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Radxa Limited</p> <p>ROCK 3B features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up to 4K@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN, PCIe 3.0, PCIe 2.0, 40-pin color expansion header, RTC. Also, ROCK 3 supports USB PD and QC powering.</p>
+
+<p><strong>Key Features</strong></p>
+<ul>
+  <li>RK3568(J), Quad A55 up to 2GHz, Mali G52 GPU, 1T NPU</li>
+  <li>eMMC module socket, 2GB/4GB/8GB LPDDR4 3200MT/s, DRAM controller frequency up to 1560MHz</li>
+  <li>uSD slot supports up to 128G uSD card</li>
+  <li>QC/PD power support, with a new generation QC/PD protocol IC</li>
+  <li>Two USB2 same as ROCK Pi 4, two USB3(1x OTG+1x HOST)</li>
+  <li>USB3 can be configured in SATA mode with a SATA breakout cable</li>
+  <li>GbE with PoE support</li>
+  <li>M.2 M key for NVMe with PCIe 3.0 x2 lanes</li>
+  <li>M.2 E key for connectivity with PCIe 2.0 x1/SDIO/UART, support WiFi 6 cards</li>
+  <li>1x MIPI DSI, 1x MIPI CSI, compatible with ROCK Pi 4</li>
+  <li>40P GPIO mostly compatible with ROCK Pi 4</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://radxa.com/products/rock3/3b/">Radxa</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/radxa_rock_3b/</guid>
+  </item><item>
+    <title>Orange Pi 5 Max</title>
+    <link>https://circuitpython.org/blinka/orange_pi_5_max/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/orange_pi_5_max.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/orange_pi_5_max.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/orange_pi_5_max.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Shenzhen Xunlong Software CO., Limited</p> <p>OrangePi 5 Max uses Rockchip RK3588 8-core 64-bit processor with 4 Cortex-A76 (2.4GHz), 4 Cortex-A55 (1.8GHz) and independent NEON coprocessor. Adopting 8nm process design, the main frequency is up to 2.4GHz, integrated ARM Mali-G610, built-in 3D GPU, compatible with OpenGL ES1.1/2.0/3.2, OpenCL 2.2, and Vulkan 1.2; the embedded NPU supports INT4/INT8/INT16/FP16 hybrid computing, with up to 6TOPS of computing power, which can meet the edge computing needs of most terminal devices; it has 4GB/8GB/16GB LPDDR5, with up to 8K display processing capability, supports eMMC socket and onboard eMMC (either one ), and has Wi-Fi 6E+BT 5.3 with BLE support.</p>
+
+<p>OrangePi 5 Max provides abundant interfaces, including HDMI output, GPIO interface, USB2.0, USB3.0, 3.5mm headphone socket, one PCIe extended 2.5G high-speed network port, one M.2 M-Key slot (PCIe 3.0 4-Lane), supporting for the installation of NVMe SSDs or SATA SSDs.
+OrangePi 5 Max is compact, PCB measuring only 89mmX57mmX1.6mm, and powerful enough to be widely used in high-end tablets, edge computing, artificial intelligence, cloud computing, AR/VR, smart security, smart home, etc., covering various industries of AIoT. OrangePi 5 Max supports Orangepi OS（Droid）、Orangepi OS（Arch）、Orangepi OS（OH）、Ubuntu、Debian、Android13 operating system.</p>
+
+<p><strong>Specifications</strong></p>
+<ul>
+  <li>Rockchip RK3588 (8nm LP process)</li>
+  <li>
+    <ul>
+      <li>• 8-core 64-bit processor</li>
+      <li>• 4 Cortex-A76 and 4 Cortex-A55 with independent NEON coprocessor</li>
+      <li>• Cortex-A76 at 2.4GHz, Cortex-A55 at 1.8GHz</li>
+      <li>• Integrated ARM Mali-G610</li>
+      <li>• Built-in 3D GPU</li>
+      <li>• Fully compatible with OpenGL ES1.1/2.0/3.2, OpenCL 2.2 and Vulkan 1.2.</li>
+    </ul>
+  </li>
+  <li>Embedded NPU supports INT4/INT8/INT16/FP16 hybrid computing with up to 6TOPS.
+RK806-1
+LPDDR5 496PIN：4GB, 8GB, 16GB optional</li>
+  <li>
+    <ul>
+      <li>• eMMC Flash Sockets (default)</li>
+      <li>• Onboard eMMC (customizable) <strong>Note: Either eMMC socket or on-board eMMC, support: 32GB, 64GB, 128GB, 256GB optional</strong></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>• QSPI Nor FLASH: 16MB</li>
+      <li>• MicroSD card slot</li>
+      <li>• M.2 M-KEY slot: Support NVMe SSD (PCIe 3.0 4Lane)</li>
+    </ul>
+  </li>
+  <li>2 * USB3.0; 2 * USB2.0</li>
+  <li>
+    <ul>
+      <li>• 2 * HDMI 2.1, up to 8k@60FPS</li>
+      <li>• 1 * MIPI DSI TX 4 Lane</li>
+      <li>• 2 * MIPI CSI 4 Lane</li>
+      <li>• 1 * MIPI D-PHY RX 4 Lane</li>
+    </ul>
+  </li>
+  <li>CODEC：ES8388</li>
+  <li>
+    <ul>
+      <li>• 1 * Audio 3.5mm jack with mic</li>
+      <li>• 1 * MIC In</li>
+      <li>• 1 * HDMI 2.1 eARC</li>
+    </ul>
+  </li>
+  <li>1 * PCIe 2.5G LAN (RTL8125BG)</li>
+  <li>Onboard Wi-Fi 6E+BT 5.3/BLE module: AP6611</li>
+  <li>Wi-Fi interface: SDIO3.0</li>
+  <li>BT interface: UART/PCM</li>
+  <li>Dual-row pin: 2.54mm 40Pin</li>
+  <li>Supports DC 5V and 3.3V power output</li>
+  <li>Configurable UART, PWM, I2C, SPI, CAN, GPIO and other functional interfaces.</li>
+  <li>1 * BOOT key, 1 * On/Off key</li>
+  <li>Supports Type-C power supply, 5V @ 5A</li>
+  <li>RGB LED Side Illumination</li>
+  <li>5V 2PIN 1.25mm socket</li>
+  <li>3V 2PIN 1.25mm socket</li>
+  <li>Debug serial UART included in 40PIN expansion port</li>
+  <li>Orangepi OS (Droid), Orangepi OS (Arch), Orangepi OS (OH), Ubuntu, Debian, Android13</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/4jXUAT7">Amazon</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/orange_pi_5_max/</guid>
+  </item><item>
+    <title>FT4232H</title>
+    <link>https://circuitpython.org/blinka/ft4232h/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/ft4232h.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/ft4232h.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/ft4232h.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Future Technology Devices International Ltd</p> <p>The FT4232H is FTDI’s 5th generation of USB devices. The FT4232H is a USB 2.0 High Speed (480Mb/s) to UART/MPSSE ICs. The device features 4 UARTs. Two of these have an option to independently configure an MPSSE engine. This allows the FT4232H to operate as two UART/Bit-Bang ports plus two MPSSE engines used to emulate JTAG, SPI, I2C, Bit-bang or other synchronous serial modes. The FT4232H has the following advanced features:</p>
+
+<ul>
+  <li>FTDI FT232B style, asynchronous serial UART interface option with full hardware handshaking and modem interface signals.  Fully assisted hardware or X-On / X-Off software handshaking.</li>
+  <li>UART Interface supports 7/8-bit data, 1/2 stop bits, and Odd/Even/Mark/Space/No Parity.</li>
+  <li>Auto-transmit enables control for RS485 serial applications using TXDEN pin.</li>
+  <li>Single chip USB to quad serial ports with a variety of configurations.</li>
+  <li>Entire USB protocol handled on the chip. No USB specific firmware programming required.</li>
+  <li>USB 2.0 High Speed (480Mbits/Second) and Full Speed (12Mbits/Second) compatible.</li>
+  <li>Two Multi-Protocol Synchronous Serial Engine (MPSSE) on channel A and channel B, to simplify synchronous serial protocol (USB to JTAG, I2C, SPI or bit-bang) design.</li>
+  <li>Independent Baud rate generators.</li>
+  <li>RS232/RS422/RS485 UART Transfer Data Rate up to 12Mbaud. (RS232 Data Rate limited by external level shifter).</li>
+  <li>FTDI’s royalty-free Virtual Com Port (VCP) and Direct (D2XX) drivers eliminate the requirement for USB driver development in most cases.</li>
+  <li>Optional traffic TX/RX indicators can be added with LEDs and an external 74HC595 shift register.</li>
+  <li>Adjustable receive buffer timeout.</li>
+  <li>Support for USB suspend and resume conditions via PWREN#, SUSPEND# and RI# pins.</li>
+  <li>Highly integrated design includes +1.8V LDO regulator for VCORE, integrated POR function and on chip clock multiplier PLL (12MHz – 480MHz).</li>
+  <li>Operational configuration mode and USB Description strings configurable in external EEPROM over the USB interface.</li>
+  <li>Low operating and USB suspend current.</li>
+  <li>Configurable I/O drive strength (4, 8, 12 or 16mA) and slew rate.</li>
+  <li>Supports bus powered, self-powered and highpower bus powered USB configurations.</li>
+  <li>UHCI/OHCI/EHCI host controller compatible.</li>
+  <li>USB Bulk data transfer mode (512 byte packets in High-Speed mode).</li>
+  <li>Dedicated Windows DLLs available for USB to JTAG, USB to SPI, and USB to I2C applications.</li>
+  <li>+1.8V (chip core) and +3.3V I/O interfacing (+5V Tolerant).</li>
+  <li>Extended -40°C to 85°C industrial operating temperature range.</li>
+  <li>Compact 64-LD Lead Free LQFP or QFN package</li>
+  <li>Available in compact Pb-free 56 Pin VQFN packages (RoHS compliant)</li>
+  <li>+3.3V single supply operating voltage range.</li>
+  <li>ESD protection for FT4232H IO’s: Human Body Model (HBM) ±2kV,  Machine Mode (MM) ±200V, Charge Device Model (CDM) ±500V,  Latch-up free.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT4232H-56Q-MINI-MDL/5994776">Digi-Key</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/ft4232h/</guid>
+  </item><item>
+    <title>D-Robotics RDK-X3</title>
+    <link>https://circuitpython.org/blinka/d-robotics_rdk-x3/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/d-robotics_rdk-x3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/d-robotics_rdk-x3.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/d-robotics_rdk-x3.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By D-Robotics</p> <p>The RDK X3 series development kits include two products: RDK X3 and RDK X3 Module, both of which are equipped with the Rising Sun 3 intelligent computing solution, have 5TOPs of edge-side inference computing power, and are compatible with Raspberry Pi 4B and CM4 interfaces, making it easy for developers to quickly integrate.</p>
+
+<ul>
+  <li>Quad-core ARM® Cortex® A53@1.5G</li>
+  <li>Dual-core Bernoulli Arch, 5Tops</li>
+  <li>H.265 (HEVC) Encoding and DecodingMain profile, L5.1 4K@60fps, JPEG Encoding and Decoding 16Mpixels</li>
+  <li>2GB/4GB LPDDR4 RAM</li>
+  <li>16GB/32GB/64GB eMMC or Micro SD</li>
+  <li>MIPI CSI 2lane x 2</li>
+  <li>USB Type-A 3.0 x 1 USB Type-A 2.0 x 2</li>
+  <li>Micro USB 2.0 x 1</li>
+  <li>1 x Debug UART</li>
+  <li>1 x HDMI1.4 (up to 1080p60)</li>
+  <li>Wi-Fi 2.4/5GHz Bluetooth 4.2</li>
+  <li>RJ45 interface</li>
+  <li>40 Pin GPIO, I2C, UART, SPI, I2S, PWM</li>
+  <li>5V 3A Power input</li>
+  <li>Ubuntu 20.04/22.04</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/rdk-x3.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/d-robotics_rdk-x3/</guid>
+  </item><item>
+    <title>Banana Pi BPI-F5</title>
+    <link>https://circuitpython.org/blinka/banana_pi_bpi_f5/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/banana_pi_bpi_f5.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_f5.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_f5.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By SinoVoip</p> <p>Banana Pi BPI-F5 design with Allwinner Octa-core ARM Cortex-A55 T527 chip design.have a RISC-V CPU, up to 200 MHz,HiFi4 Audio DSP,ARM G57 MC1 GPU,Up to 2 TOPS NPU, support 2/4G RAM and 8-32G eMMC.</p>
+
+<p>Allwinner T527 Octa-core A55, NPU up to 2Tops for edge intelligent AI applications.</p>
+
+<p>T527 series is a high-performance embedded processor with optional AI function in the field of intelligent industrial control and automotive. It is suitable for embedded devices with media and AI functions such as high-performance industrial robots, display and control all-in-one machines, edge intelligent boxes and vehicle terminals.</p>
+
+<p>T527 is used in commercial display/cash register, cloud computer, robot, industrial intelligence, edge computing gateway, post-installation central control, commercial vehicle, industrial computer and other fields</p>
+
+<ul>
+  <li>SoC: Allwinner T527</li>
+  <li>CPU: Octa-core ARM Cortex-A55 in a DynamlQ big.LITTLE configuration, up to 1.8 GHz</li>
+  <li>GPU: ARM G57 MC1 GPU</li>
+  <li>NPU: Up to 2 TOPS (INT8), Embedded 512KB internal buffer</li>
+  <li>RISC-V MCU for Real-time operating system (etc：RTOS)</li>
+  <li>DSP: 600MHz HiFi4</li>
+  <li>RAM: 2GB/4GB(max 4GB), default 4GB LPDDR4x</li>
+  <li>Storage: 8GB/32GB eMMC, default 32GB eMMC</li>
+  <li>Industrial grade temperature: -40°C to 80°C</li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/banana_pi_bpi_f5/</guid>
   </item><item>
     <title>STM32U575ZIT6Q Discovery Kit</title>
     <link>https://circuitpython.org/board/st_stm32h7b3i_dk/</link>
@@ -833,6 +1314,74 @@
     <pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/adafruit_fruit_jam/</guid>
   </item><item>
+    <title>Orange Pi 3 LTS</title>
+    <link>https://circuitpython.org/blinka/orange_pi_3_lts/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/orange_pi_3_lts.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/orange_pi_3_lts.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/orange_pi_3_lts.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Shenzhen Xunlong Software CO.,Limited</p> <p>Orange Pi 3 LTS is an open-source single-board computer with dual-band wireless WiFi and Bluetooth 5.0 .It is highly compact with a dimension of 56X85mm.</p>
+
+<p>Orange Pi 3 LTS uses the Allwinner H6 SoC, and has 2GB LPDDR3 SDRAM, 8GB EMMC Flash. It can run Android 9,Ubuntu,Debian. Orange Pi 3 LTS offers a range of different ports, including HDMI output, 26pin headers, Gbps Ethernet port,1<em>USB 3.0, 2</em> USB2.0，etc. It is powered through Type-C. It is a good choice for applications that need strong networking perfomance.</p>
+
+<h3 id="hardware-specification">Hardware specification</h3>
+<ul>
+  <li>Allwinner H6
+Quad-core 64-bit 1.8GHz high-performance Cortex-A53 processor</li>
+  <li>
+    <ul>
+      <li>High-performance multi-core GPU Mali T720</li>
+      <li>OpenGL ES3.1/3.0/2.0/1.1</li>
+      <li>Microsoft DirectX 11 FL9_3</li>
+      <li>ASTC(Adaptive Scalable Texture Compression)</li>
+      <li>Floating point operation greater than 70 GFLOPS</li>
+    </ul>
+  </li>
+  <li>AXP805
+2GB LPDDR3 (shared with GPU)</li>
+  <li>
+    <ul>
+      <li>Micro SD card slot</li>
+      <li>8GB EMMC Flash</li>
+      <li>YT8531C Chip</li>
+      <li>Support 10/100M/1000M Ethernet</li>
+      <li>859 Chip</li>
+      <li>Support IEEE 802.11 a/b/g/n/ac</li>
+      <li>Support BT5.0</li>
+      <li>HDMI 2.0a</li>
+      <li>TV CVBS Output</li>
+      <li>HDMI Output</li>
+      <li>3.5mm Audio Port</li>
+    </ul>
+  </li>
+  <li>5V3A Type-C</li>
+  <li>1* USB 3.0 HOST, 2* USB 2.0 HOST</li>
+  <li>26pin connector with1* I2C, 1<em>SPI, 1</em>UART &amp;Multiple GPIO Ports</li>
+  <li>UART-TX, UART-RX &amp; GND</li>
+  <li>Power Button (SW4)</li>
+  <li>Power LED&amp; Status LED</li>
+  <li>Support IR Remote Control</li>
+  <li>Android 9.0, Ubuntu, Debian</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256803390997951.html">Aliexpress</a></li>
+  <li><a href="https://amzn.to/4mziIgD">Amazon</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Fri, 14 Mar 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/orange_pi_3_lts/</guid>
+  </item><item>
     <title>Elecrow CrowPanel 4.2</title>
     <link>https://circuitpython.org/board/elecrow_crowpanel_4_2_epaper/</link>
     <description><![CDATA[  
@@ -1320,6 +1869,146 @@
     
     <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/solderparty_esp32p4_stamp_xl/</guid>
+  </item><item>
+    <title>Compute Module 5 IO Board</title>
+    <link>https://circuitpython.org/blinka/raspberry_pi_cm5io/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberrypi_cm5io.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberrypi_cm5io.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberrypi_cm5io.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>Compute Module 5</p>
+
+<p>Featuring high-quality components made from robust materials and optimised for Compute Module 5, the Raspberry Pi Development Kit for Compute Module 5 provides the perfect environment to prototype embedded solutions.</p>
+
+<ul>
+  <li>55 mm × 40 mm × 4.7 mm module</li>
+  <li>4 × M2.5 mounting holes</li>
+  <li>Broadcom BCM2712 quad-core 64-bit Arm Cortex-A76 (Armv8) SoC @ 2.4GHz</li>
+  <li>Memory options:</li>
+  <li>
+    <ul>
+      <li>2GB, 4GB, 8GB, or 16GB LPDDR4-4267 SDRAM with ECC</li>
+      <li>0GB, 16GB, 32GB or 64GB eMMC flash memory</li>
+    </ul>
+  </li>
+  <li>Options for certified radio module containing:</li>
+  <li>
+    <ul>
+      <li>2.4 GHz, 5.0 GHz IEEE 802.11 b/g/n/ac wireless</li>
+      <li>Bluetooth 5.0, BLE</li>
+      <li>On board electronic switch to select between PCB trace or external antenna</li>
+    </ul>
+  </li>
+  <li>Gigabit Ethernet PHY supporting IEEE 1588</li>
+  <li>1 × PCIe x1 root complex, Gen 2 (5Gbps)</li>
+  <li>1 × USB 2.0 port (high speed)</li>
+  <li>2 × USB 3.0 ports, supporting simultaneous 5Gbps operation</li>
+  <li>Up to 30 × GPIO supporting either 1.8V or 3.3V signalling and peripheral options:</li>
+  <li>
+    <ul>
+      <li>Up to 5 × UART</li>
+      <li>Up to 5 × I2C</li>
+      <li>Up to 5 × SPI</li>
+      <li>1 × SDIO interface</li>
+      <li>1 × DPI (parallel RGB display)</li>
+      <li>1 × I2S</li>
+      <li>Up to 4 × PWM channels</li>
+      <li>Up to 3 × GPCLK outputs</li>
+    </ul>
+  </li>
+  <li>2 × HDMI 2.0 ports (supports up to 4Kp60 on both ports simultaneously)</li>
+  <li>2 × 4-lane MIPI ports supporting both DSI (display port) and CSI-2 (camera port)</li>
+  <li>4Kp60 HEVC decoder</li>
+  <li>OpenGL ES 3.1 graphics, Vulkan 1.2</li>
+  <li>1 × SDIO 2.0 (CM5 Lite)</li>
+</ul>
+
+<p>Compute Module 5 IO Board</p>
+
+<p>The Raspberry Pi Compute Module 5 IO Board provides a starting point for those wishing to integrate Raspberry Pi Compute Module 5 into products, while also serving as an alternative Raspberry Pi form factor for industrial applications. It breaks out the full set of peripheral interfaces provided by Compute Module 5 to the standard connectors used by Raspberry Pi 5 (with full-size HDMI in place of micro-HDMI), enabling design engineers to take full advantage of the processing and interfacing capabilities of our flagship modular product.</p>
+
+<ul>
+  <li>160 mm × 90 mm form factor</li>
+  <li>Standard 40-pin GPIO header</li>
+  <li>Gigabit Ethernet RJ45 with PoE+ HAT+ support</li>
+  <li>2 × USB 3 sockets</li>
+  <li>microSD card socket for CM5 Lite modules</li>
+  <li>M.2 M key PCIe socket</li>
+  <li>4-pin fan connector</li>
+  <li>2 × MIPI DSI/CSI-2 FPC connectors (22-pin 0.5 mm pitch cable)</li>
+  <li>Raspberry Pi HAT+ connector</li>
+  <li>RTC battery socket</li>
+  <li>2 × full-size HDMI 2.0 connectors</li>
+  <li>External +5V USB-C PSU</li>
+  <li>Power button to wake and shut down Compute Module 5</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.raspberrypi.com/products/compute-module-5/">Raspberry Pi - CM5</a></li>
+  <li><a href="https://www.raspberrypi.com/products/compute-module-5-io-board/">Raspberry Pi - IO Board</a></li>
+  <li><a href="https://www.raspberrypi.com/products/cm5-dev-kit/">Raspberry Pi - Dev Kit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 16 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/raspberry_pi_cm5io/</guid>
+  </item><item>
+    <title>Pi 500 Desktop</title>
+    <link>https://circuitpython.org/blinka/raspberry_pi_500/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberry_pi_500.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberry_pi_500.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberry_pi_500.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>The <strong>Raspberry Pi 500</strong> is a fast, powerful computer built into a high-quality keyboard, for the ultimate compact PC experience. It features the same quad-core 64-bit Arm processor and RP1 I/O controller found in <a href="https://www.adafruit.com/product/5813">Raspberry Pi 5</a>. With a one-piece aluminium heatsink built in for improved thermal performance, your Raspberry Pi 500 will run fast and smoothly even under heavy load, while delivering glorious dual 4K display output.</p>
+
+<p>Normally you’d need to pick up a keyboard and other accessories to turn the Pi 5 into a functioning desktop - but since most keyboards have empty space in them, you can just cram the Pi 5 inside to make an all-in-one kit. <a href="https://en.wikipedia.org/wiki/Apple_IIe">Think of it like a modern Apple IIe</a>, but super light and powerful.</p>
+
+<p>There’s 3 USB ports, for adding USB mice, disk drives, or really any accessories that work with Linux. For video output, two HDMI ports can drive driving up to two monitors of any resolution up to 4k! There’s built in Bluetooth and WiFi for internet connectivity, or plug in an Ethernet cable for fast wired networking.</p>
+
+<p>Hackers can rejoice - you still get the classic 2x20 IDC port that can be used to connect to a breadboard or HAT/PHat/Bonnet. <a href="https://www.adafruit.com/product/2028">To connect to a breadboard for wiring up buttons and LED, use our T-Cobbler</a>! To connect to a Bonnet/HAT, <a href="https://www.adafruit.com/product/1988">we recommend a 2x20 IDC cable</a> + <a href="https://www.adafruit.com/product/3182">Mini HAT Hacker</a> (the cable plugs in at the top of the HAT hacker, giving you two spots for accessory HATs. <a href="https://www.adafruit.com/product/4863">Or our CYBERDECK Hat</a> which has a nice angled connector to create a pop-up display</p>
+
+<ul>
+  <li>2.4GHz quad-core 64-bit Arm Cortex-A76 CPU, with cryptography extensions, 512KB per-core L2 caches and a 2MB shared L3 cache</li>
+  <li>8GB LPDDR4X-4267 SDRAM</li>
+  <li>Dual-band (2.4GHz and 5.0GHz) IEEE 802.11b/g/n/ac Wi-Fi®</li>
+  <li>32GB Class A2 microSD included</li>
+  <li>Bluetooth 5.0, BLE</li>
+  <li>Gigabit Ethernet</li>
+  <li>2 × USB 3.0 port and 1 × USB 2.0 port</li>
+  <li>Horizontal 40-pin GPIO header</li>
+  <li>2 × micro HDMI® port (supports up to 4Kp60)</li>
+  <li>H.265 (4Kp60 decode)</li>
+  <li>OpenGL ES 3.0 graphics</li>
+  <li>SD card support: microSD card slot for operating system and data storage</li>
+  <li>Keyboard: 78-, 79- or 83-key compact keyboard (depending on regional variant)</li>
+  <li>Power: 5V DC via USB connector</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/6111">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 16 Jan 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/raspberry_pi_500/</guid>
   </item><item>
     <title>Adafruit Sparkle Motion</title>
     <link>https://circuitpython.org/board/adafruit_sparkle_motion/</link>
@@ -2445,6 +3134,35 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/0xcb_gemini/</guid>
   </item><item>
+    <title>Orange Pi 3B</title>
+    <link>https://circuitpython.org/blinka/orange_pi_3b/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/orange_pi_3b.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/orange_pi_3b.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/orange_pi_3b.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Shenzhen Xunlong Software CO.,Limited</p> <p>Orange Pi 3B is powered by Rockchip RK3566 quad-core 64-bit processor with 22nm advanced process, up to 1.8GHz main frequency, integrated ARM Mali G52 2EE graphics processor with OpenGL ES 1.1/2.0/3.2, OpenCL 2.0, Vulkan 1.1 support, embedded high-performance 2D acceleration module; built-in AI accelerator NPU with 0.8Tops computing power; VPU can achieve 4K@60fps H.265/H.264/VP9 video decoding and 1080P@100fps H.265 video encoding, 1080P@60fps H.264 video encoding, support 8M ISP and HDR; with 2GB/4GB/8GB (LPDDR4/ 4X), supports 16GB/32GB/64GB/128GB/256GB eMMC module, 16MB/32MB SPI Flash, has Wi-Fi5, BT5.0, with BLE support.</p>
+
+<p>Orange Pi 3B references a wealth of interfaces, including HDMI output, M.2 M-KEY（optional）, Micro SD slot, Gigabit LAN port, USB2.0, USB3.0, 3.5mm headphone jack, MIPI DSI port, eDP port, MIPI CSI camera port, multifunctional 40 Pin expansion port, etc., which can be widely applied to TV boxes, high-end tablet, edge computing, face recognition, smart security, smart home and other fields, empowering rich AI applications and IoT scenarios.
+Orange Pi 3B supports Android 11, Ubuntu 22.04, Ubuntu 20.04, Debian 11, Debian 12, OpenHarmony 4.0 Beta1, Orange Pi OS (Arch), Orange Pi OS (OH) based on OpenHarmony and other operating systems.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256805733558464.html">Aliexpress</a></li>
+  <li><a href="https://amzn.to/4dmcwEn">Amazon</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/orange_pi_3b/</guid>
+  </item><item>
     <title>cezerio dev ESP32C6</title>
     <link>https://circuitpython.org/board/cezerio_dev_esp32c6/</link>
     <description><![CDATA[  
@@ -2549,6 +3267,61 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Tue, 08 Oct 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/datanoise_picoadk_v2/</guid>
+  </item><item>
+    <title>INDIEDROID NOVA</title>
+    <link>https://circuitpython.org/blinka/indiedroid_nova/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/indiedroid_nova.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/indiedroid_nova.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/indiedroid_nova.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By INDIEDROID</p> <p>The Indiedroid Nova is the same form factor as Raspberry Pi 4B, but 3+ times faster and supports 16GB RAM, plus 8K video!</p>
+
+<p>The uber-efficient RK3588S SoC uses less energy, generates less heat, and processes more data than less-advanced SoC units used in most other SBCs.</p>
+
+<p>Indiedroid’s goal is to create an active and welcoming community that rewards community members who add value to the ecosystem.</p>
+
+<ul>
+  <li><strong>Amazing 8-core performance</strong></li>
+  <li><strong>Outstanding video and GPU performance</strong>
+    <ul>
+      <li>Able to stream 4K/30 video on web browsers</li>
+      <li>Able to stream 4K/60 video (and up to 8K/60) with video players</li>
+      <li>Heavily accelerated WebGL performance</li>
+      <li>Great retrogaming emulation performance</li>
+    </ul>
+  </li>
+  <li><strong>Dual-monitor output</strong> (microHDMI and USB-C Display Port)</li>
+  <li><strong>MIPI DSI and CSI</strong> connectors (up to 2 cameras)</li>
+  <li><strong>Gigabit Ethernet</strong></li>
+  <li>Built in <strong>WiFi 5 and Bluetooth 5</strong>
+    <ul>
+      <li>On-board antenna, plus external antenna connector for demanding wireless applications</li>
+    </ul>
+  </li>
+  <li><strong>2x USB 3.0</strong> Type-A ports</li>
+  <li><strong>2x USB 2.0</strong> Type-A ports</li>
+  <li><strong>1x USB 3.0</strong> Type-C port</li>
+  <li>1x <strong>4-pin serial</strong> connector</li>
+  <li>Up to <strong>16GB De0645DR4</strong></li>
+  <li><strong>Swappable eMMC</strong></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://ameridroid.com/products/indiedroid-nova">ameriDroid</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/indiedroid_nova/</guid>
   </item><item>
     <title>Maker Go ESP32C6 Supermini</title>
     <link>https://circuitpython.org/board/makergo_esp32c6_supermini/</link>
@@ -2953,6 +3726,126 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     
     <pubDate>Fri, 06 Sep 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/barduino/</guid>
+  </item><item>
+    <title>Banana Pi BPI-M4 Zero</title>
+    <link>https://circuitpython.org/blinka/banana_pi_bpi_m4_zero/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/banana_pi_bpi_m4_zero.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_m4_zero.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_m4_zero.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By SinoVoip</p> <p>Banana Pi BPI-M4 Zero is the successor model of M2 Zero. It has a huge improvement in performance. The SOC is upgraded to H618 and the CPU frequency is increased by 25%. The memory is upgraded to DDR4, the capacity is quadrupled, and 8G eMMC is added. It supports 5G WiFi, and the USB interface has also been upgraded to type-C.</p>
+
+<p>It has same form factor and 40-pin connector as the Raspberry Pi Zero W, and it can fit most of the RPI Zero W cases and accessories.</p>
+
+<ul>
+  <li>Allwinner H618, Quad-core ARM Cortex™-A53 processor</li>
+  <li>ARM Mali G31 GPU</li>
+  <li>2.4G/5G WIFI &amp; Bluetooth 4.2</li>
+  <li>2G LPDDR4 RAM</li>
+  <li>8G eMMC flash memory</li>
+  <li>1x USB2.0 Type-C OTG, 5V power supply</li>
+  <li>1x USB2.0 Type-C</li>
+  <li>1x miniHDMI 2.0a</li>
+  <li>1x 24-pin FPC connector
+    <ul>
+      <li>1x USB2.0</li>
+      <li>1x 100Mbps Ethernet</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3FafJKz">Amazon</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/banana_pi_bpi_m4_zero/</guid>
+  </item><item>
+    <title>Banana Pi BPI-M4 Berry</title>
+    <link>https://circuitpython.org/blinka/banana_pi_bpi_m4_berry/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/banana_pi_bpi_m4_berry.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_m4_berry.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_m4_berry.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By SinoVoip</p> <p>BPI-M4 Berry development board stands as a powerful Single Board Computer (SBC), harnessing the capabilities of the Allwinner H618 System-on-Chip (SoC) to provide developers with impressive performance and a wealth of features. Similar to the Raspberry Pi 4b, the BPI-M4 Berry boasts comparable CPU prowess, 2G LPDDR4 memory and 8G eMMC, integrated WiFi and Bluetooth functionalities, and a familiar 40-pin header layout, alongside 4 USB interfaces and a GbE RJ45 port.</p>
+
+<p>Characterized by its robust performance, versatile features, and remarkable image processing capabilities, stands as an exemplary SBC development platform for professionals within the embedded and computing industries. Equipped with 8GB eMMC flash storage, high-performance decoding and encoding capabilities, and an array of interface options, it caters to a wide spectrum of application domains, including media processing, IoT, and entertainment. Whether catering to novices or seasoned developers, the BPI-M4 Berry development board offers an ideal toolset for realizing creative visions and project objectives.</p>
+
+<ul>
+  <li>Allwinner H618, Quad-core ARM Cortex™-A53 processor</li>
+  <li>ARM Mali G31 GPU</li>
+  <li>WIFI &amp; Bluetooth</li>
+  <li>2G LPDDR4 RAM</li>
+  <li>8G eMMC flash memory</li>
+  <li>1x USB2.0 Type-C OTG, 5V power supply</li>
+  <li>4x USB2.0 Type-A</li>
+  <li>1x HDMI 2.0a</li>
+  <li>1x 3.5mm Audio &amp; TVE jack socket</li>
+  <li>1x GbE Ethernet port</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/3YMdR19">Amazon</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/banana_pi_bpi_m4_berry/</guid>
+  </item><item>
+    <title>Banana Pi BPI-F3</title>
+    <link>https://circuitpython.org/blinka/banana_pi_bpi_f3/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/banana_pi_bpi_f3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_f3.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_f3.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By SinoVoip</p> <p>Banana Pi BPI-F3 is a industrial grade RISC-V development board, it design with SpacemiT K1 8 core RISC-V chip, CPU integrates 2.0 TOPs AI computing power. 2/4/8/16G DDR and 8/16/32/128G eMMC onboard.2x GbE Ethernet prot, 4x USB 3.0 and PCIe for M.2 interface, support HDMI and Dual MIPI-CSI Camera.</p>
+
+<ul>
+  <li>8 core RISC-V chip, CPU integrates 2.0 TOPs AI computing power</li>
+  <li>Single-core general computing power equivalent to 1.3 times Cortex-A55</li>
+  <li>Supports 32-bit LPDDR4/4X, with a maximum of 16GB of memory</li>
+  <li>4K decoding and encoding</li>
+  <li>5-lane PCIE2.1 expansion capability</li>
+  <li>1x USB 3.0 + 2x USB 2.0 interfaces</li>
+  <li>12x UART serial ports</li>
+  <li>Operating temperature range: -40°C to 85°C</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/4j8CMn0">Amazon</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/banana_pi_bpi_f3/</guid>
   </item><item>
     <title>Seeed Studio XIAO ESP32S3 Sense</title>
     <link>https://circuitpython.org/board/seeed_xiao_esp32s3_sense/</link>
@@ -4112,7 +5005,7 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
     <pubDate>Thu, 08 Aug 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/adafruit_feather_rp2350/</guid>
   </item><item>
-    <title>RP2040-One</title>
+    <title>RP2040-One via U2IF</title>
     <link>https://circuitpython.org/blinka/waveshare_rp2040_one/</link>
     <description><![CDATA[  
 <img
@@ -4124,7 +5017,9 @@ obscurity” offered by legacy vendors, allows professional users to integrate R
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Waveshare</p> <p>A Trinkey-like MCU board based on Raspberry Pi RP2040</p>
+<p>By Waveshare</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>A Trinkey-like MCU board based on Raspberry Pi RP2040.</p>
 
 <p><strong>Board specifications</strong></p>
 
@@ -9585,7 +10480,7 @@ https://www.waveshare.net/wiki/ESP32-S3-Zero</p>
     <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/lemaker_banana_pro/</guid>
   </item><item>
-    <title>Adafruit KB2040</title>
+    <title>Adafruit KB2040 via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_kb2040/</link>
     <description><![CDATA[  
 <img
@@ -9597,7 +10492,9 @@ https://www.waveshare.net/wiki/ESP32-S3-Zero</p>
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>A wild Kee Boar appears! It’s a shiny <strong>KB2040</strong>! An Arduino Pro Micro-shaped board for Keebs with RP2040. (#keeblife 4 evah) A lot of folks like using Adafruit parts for their Keeb builds – but with the ItsyBitsy not being pin-compatible with the Pro Micro pinout, it really wasn’t very easy without some sort of adapter plate.</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>A wild Kee Boar appears! It’s a shiny <strong>KB2040</strong>! An Arduino Pro Micro-shaped board for Keebs with RP2040. (#keeblife 4 evah) A lot of folks like using Adafruit parts for their Keeb builds – but with the ItsyBitsy not being pin-compatible with the Pro Micro pinout, it really wasn’t very easy without some sort of adapter plate.</p>
 
 <p>Now we’re seeing lots of people use CircuitPython for keebs, which is awesome! So why not try our hands at spinning up a pro-micro-compatible RP2040 board? The RP2040 is plenty powerful, low-cost, and makes for an excellent keeb driver chip.</p>
 
@@ -11297,7 +12194,7 @@ USB3.0 × 1 USB2.0 × 2 Type-C (USB3.1) ×1</li>
     <guid>https://circuitpython.org/blinka/jetson_orin_nano/</guid>
   </item><item>
     <title>ROCK Pi 4C+</title>
-    <link>https://circuitpython.org/blinka/rock_pi_4c_plus/</link>
+    <link>https://circuitpython.org/blinka/radxa_rock_pi_4c_plus/</link>
     <description><![CDATA[  
 <img
   srcset="https://circuitpython.org/assets/images/boards/small/rock_pi_4c_plus.jpg 300w,
@@ -11360,7 +12257,7 @@ USB3.0 × 1 USB2.0 × 2 Type-C (USB3.1) ×1</li>
     <category>Blinka</category>
     
     <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/blinka/rock_pi_4c_plus/</guid>
+    <guid>https://circuitpython.org/blinka/radxa_rock_pi_4c_plus/</guid>
   </item><item>
     <title>Rock 5B</title>
     <link>https://circuitpython.org/blinka/radxa_rock_5b/</link>
@@ -11911,7 +12808,7 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
     <pubDate>Wed, 03 May 2023 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/lilygo_ttgo_tdisplay_esp32_16m/</guid>
   </item><item>
-    <title>Feather RP2040 ThinkInk</title>
+    <title>Feather RP2040 ThinkInk via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_feather_rp2040_thinkink/</link>
     <description><![CDATA[  
 <img
@@ -11923,7 +12820,9 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that’s designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you’ve seen one of those new-fangled ‘e-readers’ like the Kindle or Nook. They have gigantic electronic paper ‘static’ displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>Easy e-paper and RP2040 finally come to your Feather with this Adafruit RP2040 Feather Think Ink that’s designed to make it a breeze to add almost any common e-Ink/e-Paper display. Chances are you’ve seen one of those new-fangled ‘e-readers’ like the Kindle or Nook. They have gigantic electronic paper ‘static’ displays - that means the image stays on the display even when power is completely disconnected. The image is also high contrast and very daylight readable. It really does look just like printed paper!</p>
 
 <p>We’ve liked these displays for a long time, and we’ve got Arduino/CircuitPython drivers for tons of the various display chipsets, so wouldn’t an e-paper RP2040 Feather make a ton of sense? Luckily for us, just about every small-medium size EInk display made these days has a standard 24-pin connection. This Feather will add all the power supply support circuitry and level shifting so you can attach your favorite display - we’ve tested it with up to 5.6” sized 7-color ACeP displays.</p>
 
@@ -11974,7 +12873,7 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
     <pubDate>Tue, 02 May 2023 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/adafruit_feather_rp2040_thinkink/</guid>
   </item><item>
-    <title>Feather RP2040 CAN Bus</title>
+    <title>Feather RP2040 CAN Bus via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_feather_rp2040_can/</link>
     <description><![CDATA[  
 <img
@@ -11986,7 +12885,9 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>If you’d like quickly get started with CAN bus interfacing, with no soldering required, our <strong>Adafruit RP2040 CAN Bus Feather</strong> comes ready-to-rock with a microcontroller, CAN chipset and terminal blocks for instant gratification. <a href="https://www.microchip.com/en-us/product/MCP2515">The controller used is the MCP26525 (aka a MCP2515 with built-in transciever), an extremely popular and well-supported chipset</a> that has drivers in Arduino and <a href="https://github.com/adafruit/Adafruit_CircuitPython_MCP2515">CircuitPython</a> and only requires an SPI port and two pins for chip-select and IRQ. Use it to send and receive messages in either standard or extended format at up to 1 Mbps.</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>If you’d like quickly get started with CAN bus interfacing, with no soldering required, our <strong>Adafruit RP2040 CAN Bus Feather</strong> comes ready-to-rock with a microcontroller, CAN chipset and terminal blocks for instant gratification. <a href="https://www.microchip.com/en-us/product/MCP2515">The controller used is the MCP26525 (aka a MCP2515 with built-in transciever), an extremely popular and well-supported chipset</a> that has drivers in Arduino and <a href="https://github.com/adafruit/Adafruit_CircuitPython_MCP2515">CircuitPython</a> and only requires an SPI port and two pins for chip-select and IRQ. Use it to send and receive messages in either standard or extended format at up to 1 Mbps.</p>
 
 <p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. <a href="https://www.adafruit.com/feather">We have other boards in the Feather family, check’em out here</a>.</p>
 
@@ -12429,7 +13330,7 @@ connector.</p>
     <pubDate>Fri, 07 Apr 2023 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/waveshare_rp2040_lcd_0_96/</guid>
   </item><item>
-    <title>Feather RP2040 RFM69</title>
+    <title>Feather RP2040 RFM69 via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_feather_rp2040_rfm69/</link>
     <description><![CDATA[  
 <img
@@ -12441,7 +13342,9 @@ connector.</p>
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>This is the Adafruit Feather RP2040 RFM69. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It’s an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>This is the Adafruit Feather RP2040 RFM69. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It’s an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.</p>
 
 <p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check’em out here.</p>
 
@@ -12501,7 +13404,7 @@ connector.</p>
     <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/adafruit_feather_rp2040_rfm69/</guid>
   </item><item>
-    <title>Feather RP2040 RFM9x</title>
+    <title>Feather RP2040 RFM9x via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_feather_rp2040_rfm/</link>
     <description><![CDATA[  
 <img
@@ -12513,7 +13416,9 @@ connector.</p>
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>This is the Adafruit Feather RP2040 RFM9x. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It’s an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>This is the Adafruit Feather RP2040 RFM9x. We call these RadioFruits, our take on a microcontroller with packet radio transceiver with built-in USB and battery charging. It’s an Adafruit Feather RP2040 with a radio module cooked in! Great for making wireless networks that are more flexible than Bluetooth LE and without the high power requirements of WiFi.</p>
 
 <p>Feather is the development board specification from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores. We have other boards in the Feather family, check’em out here.</p>
 
@@ -19237,7 +20142,7 @@ o   o        o   o
     <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/diodes_delight_piunora/</guid>
   </item><item>
-    <title>QT Py RP2040</title>
+    <title>QT Py RP2040 via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_qtpy_rp2040/</link>
     <description><![CDATA[  
 <img
@@ -19249,7 +20154,9 @@ o   o        o   o
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>What a cutie pie! Or is it… a QT Py? This diminutive dev board comes with one of our new favorite chip, the RP2040. It’s been made famous in the new <a href="https://www.adafruit.com/pico">Raspberry Pi Pico</a> <em>and</em> our <a href="http://www.adafruit.com/product/4884">Feather RP2040</a> and <a href="http://www.adafruit.com/product/4888">ItsyBitsy RP2040</a>, but what if we wanted something really <em>smol?</em></p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>What a cutie pie! Or is it… a QT Py? This diminutive dev board comes with one of our new favorite chip, the RP2040. It’s been made famous in the new <a href="https://www.adafruit.com/pico">Raspberry Pi Pico</a> <em>and</em> our <a href="http://www.adafruit.com/product/4884">Feather RP2040</a> and <a href="http://www.adafruit.com/product/4888">ItsyBitsy RP2040</a>, but what if we wanted something really <em>smol?</em></p>
 
 <p>A new chip means a new QT Py, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the cuuutie QT Py Treatment”, and so we did! This QT Py features the RP2040, <a href="https://www.adafruit.com/category/4600">and all niceties you know and love about the original QT Py</a></p>
 
@@ -19308,7 +20215,7 @@ o   o        o   o
     <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/adafruit_qtpy_rp2040/</guid>
   </item><item>
-    <title>Trinkey QT2040</title>
+    <title>Trinkey QT2040 via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_qt2040_trinkey/</link>
     <description><![CDATA[  
 <img
@@ -19320,7 +20227,9 @@ o   o        o   o
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>It’s half USB Key, half Adafruit QT Py, and a lotta RP2040<em>…</em>it’s <strong>Trinkey QT2040</strong>, the circuit board with an RP2040 heart and Stemma QT legs. Folks are loving the <a href="https://www.adafruit.com/product/4900">QT Py 2040</a> we made, but maybe you want something plug-and-play. So we thought, hey what if we made something like that plugs right into your computer’s USB port? And this is what we came up with!</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>It’s half USB Key, half Adafruit QT Py, and a lotta RP2040<em>…</em>it’s <strong>Trinkey QT2040</strong>, the circuit board with an RP2040 heart and Stemma QT legs. Folks are loving the <a href="https://www.adafruit.com/product/4900">QT Py 2040</a> we made, but maybe you want something plug-and-play. So we thought, hey what if we made something like that plugs right into your computer’s USB port? And this is what we came up with!</p>
 
 <p>The PCB is designed to slip into any USB A port on a computer or laptop. There’s an RP2040 microcontroller on board with just enough circuitry to keep it happy. There’s an RGB NeoPixel, a reset and bootloader or user button and a STEMMA QT Port on the end. That’s it!</p>
 
@@ -19357,7 +20266,7 @@ o   o        o   o
     <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/adafruit_qt2040_trinkey/</guid>
   </item><item>
-    <title>MacroPad RP2040</title>
+    <title>MacroPad RP2040 via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_macropad_rp2040/</link>
     <description><![CDATA[  
 <img
@@ -19369,7 +20278,9 @@ o   o        o   o
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>Strap yourself in, we’re launching in T-minus 10 seconds…Destination? A new Class M planet called MACROPAD! M here, stands for Microcontroller because this 3x4 keyboard controller features the newest technology from the Raspberry Pi sector: say hello to the RP2040. It’s speedy little microcontroller with lots of GPIO pins and a 64 times more RAM than the Apollo Guidance Computer. We added 8 MB of flash memory for plenty of storage.</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>Strap yourself in, we’re launching in T-minus 10 seconds…Destination? A new Class M planet called MACROPAD! M here, stands for Microcontroller because this 3x4 keyboard controller features the newest technology from the Raspberry Pi sector: say hello to the RP2040. It’s speedy little microcontroller with lots of GPIO pins and a 64 times more RAM than the Apollo Guidance Computer. We added 8 MB of flash memory for plenty of storage.</p>
 
 <p>Get ready to upgrade your desk’s mission control station with a CircuitPython or Arduino powered Macropad - complete with 12 buttons, OLED display, speaker and rotary encoder. Customize it for your spacecraft to help guide you through the great reaches of the unknown. (Or just have it type out your favorite emojis.)</p>
 
@@ -19408,7 +20319,7 @@ o   o        o   o
     <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/adafruit_macropad_rp2040/</guid>
   </item><item>
-    <title>ItsyBitsy RP2040</title>
+    <title>ItsyBitsy RP2040 via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_itsybitsy_rp2040/</link>
     <description><![CDATA[  
 <img
@@ -19420,7 +20331,9 @@ o   o        o   o
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>A new chip means a new ItsyBitsy, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the ItsyBitsy teensy-weensy Treatment” and so we did! This Itsy’ features the RP2040, and all niceties you know and love about the <a href="https://www.adafruit.com/category/1008">ItsyBitsy family</a>.</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>A new chip means a new ItsyBitsy, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the ItsyBitsy teensy-weensy Treatment” and so we did! This Itsy’ features the RP2040, and all niceties you know and love about the <a href="https://www.adafruit.com/category/1008">ItsyBitsy family</a>.</p>
 
 <p>What’s smaller than a Feather but larger than a Trinket? It’s an Adafruit ItsyBitsy RP2040 featuring the Raspberry Pi RP2040! Small, powerful, with a ultra fast duel Cortex M0+ processor running at 125 MHz - this microcontroller board is perfect when you want something very compact, with lots of horsepower and a bunch of pins. This Itsy has sports car speed, but SUV roominess with 4 MB of FLASH and 264 KB of SRAM.</p>
 
@@ -19504,7 +20417,7 @@ o   o        o   o
     <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/adafruit_itsybitsy_rp2040/</guid>
   </item><item>
-    <title>Feather RP2040</title>
+    <title>Feather RP2040 via U2IF</title>
     <link>https://circuitpython.org/blinka/adafruit_feather_rp2040/</link>
     <description><![CDATA[  
 <img
@@ -19516,7 +20429,9 @@ o   o        o   o
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Adafruit</p> <p>A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the Feather Treatment” and so we did! This Feather features the <strong>RP2040</strong>, and all niceties you know and love about Feather.</p>
+<p>By Adafruit</p> <p><strong>This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.</strong></p>
+
+<p>A new chip means a new Feather, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought “this chip is going to be awesome when we give it the Feather Treatment” and so we did! This Feather features the <strong>RP2040</strong>, and all niceties you know and love about Feather.</p>
 
 <h2 id="technical-details">Technical details</h2>
 
@@ -22304,51 +23219,6 @@ status LED operation.</p>
     <pubDate>Mon, 24 May 2021 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/arduino_nano_rp2040_connect/</guid>
   </item><item>
-    <title>Rock Pi E</title>
-    <link>https://circuitpython.org/blinka/rock_pi_e/</link>
-    <description><![CDATA[  
-<img
-  srcset="https://circuitpython.org/assets/images/boards/small/rock_pi_e.jpg 300w,
-             https://circuitpython.org/assets/images/boards/large/rock_pi_e.jpg 800w"
-  sizes="(max-width: 300px) 300px,
-            800px"
-  src="https://circuitpython.org/assets/images/boards/large/rock_pi_e.jpg"
-  alt="Image of Board"
-  loading="lazy"
-/>
-<p>By Radxa Limited</p> <p>E for Ethernets.</p>
-
-<p>This is the documentation for ROCK Pi E, written by Radxa Team with community contributions.</p>
-
-<p>ROCK Pi E is a Rockchip RK3328 based SBC(Single Board Computer) by Radxa. It equips a 64bits quad core processor, USB 3.0, dual ethernets, wireless connectivity at the size of 2.5x2.2 inch(56x65mm), making it perfect for IoT and network applications. ROCK Pi E comes in various ram sizes from 512MB to 4GB DDR3, and uses uSD card for OS and storage as well as supporting eMMC module. Optionally, ROCK Pi E supports PoE, additional HAT is required.</p>
-
-<ul>
-  <li>Processor: SoC RK3328 Quad Cortex-A53 ARM 64bits processor, frequency up to 1.3GHz</li>
-  <li>Memory: 1GB DDR3</li>
-  <li>Storage MicroSD(TF) up to 128GB</li>
-  <li>High performance eMMC module 16GB / 32GB / 64GB / 128GB</li>
-  <li>Wireless: 802.11 b/g/n wifi</li>
-  <li>Bluetooth 4.0(rtl8723du/rtl8821cu)</li>
-  <li>external antenna</li>
-  <li>USB: USB3.0 Type-A HOST x1</li>
-  <li>Key: Reset key x1</li>
-  <li>Maskrom key x1</li>
-  <li>Ethernet: 1x 1000Mbit ethernet, optional PoE(additional HAT required)</li>
-  <li>1x 100Mbit ethernet</li>
-  <li>IO: 40-pin expansion header</li>
-</ul>
-
-<h2 id="purchase">Purchase</h2>
-<ul>
-  <li><a href="https://www.amazon.com/Rockchip-RK3328-Computer-Support-OpenWRT/dp/B08DG3S7K6">Amazon</a></li>
-</ul>
- ]]></description>
-    
-    <category>Blinka</category>
-    
-    <pubDate>Thu, 20 May 2021 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/blinka/rock_pi_e/</guid>
-  </item><item>
     <title>Pico</title>
     <link>https://circuitpython.org/blinka/raspberry_pi_pico/</link>
     <description><![CDATA[  
@@ -22413,6 +23283,51 @@ status LED operation.</p>
     
     <pubDate>Thu, 20 May 2021 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/raspberry_pi_pico/</guid>
+  </item><item>
+    <title>Rock Pi E</title>
+    <link>https://circuitpython.org/blinka/radxa_rock_pi_e/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/rock_pi_e.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/rock_pi_e.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/rock_pi_e.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Radxa Limited</p> <p>E for Ethernets.</p>
+
+<p>This is the documentation for ROCK Pi E, written by Radxa Team with community contributions.</p>
+
+<p>ROCK Pi E is a Rockchip RK3328 based SBC(Single Board Computer) by Radxa. It equips a 64bits quad core processor, USB 3.0, dual ethernets, wireless connectivity at the size of 2.5x2.2 inch(56x65mm), making it perfect for IoT and network applications. ROCK Pi E comes in various ram sizes from 512MB to 4GB DDR3, and uses uSD card for OS and storage as well as supporting eMMC module. Optionally, ROCK Pi E supports PoE, additional HAT is required.</p>
+
+<ul>
+  <li>Processor: SoC RK3328 Quad Cortex-A53 ARM 64bits processor, frequency up to 1.3GHz</li>
+  <li>Memory: 1GB DDR3</li>
+  <li>Storage MicroSD(TF) up to 128GB</li>
+  <li>High performance eMMC module 16GB / 32GB / 64GB / 128GB</li>
+  <li>Wireless: 802.11 b/g/n wifi</li>
+  <li>Bluetooth 4.0(rtl8723du/rtl8821cu)</li>
+  <li>external antenna</li>
+  <li>USB: USB3.0 Type-A HOST x1</li>
+  <li>Key: Reset key x1</li>
+  <li>Maskrom key x1</li>
+  <li>Ethernet: 1x 1000Mbit ethernet, optional PoE(additional HAT required)</li>
+  <li>1x 100Mbit ethernet</li>
+  <li>IO: 40-pin expansion header</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.amazon.com/Rockchip-RK3328-Computer-Support-OpenWRT/dp/B08DG3S7K6">Amazon</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 20 May 2021 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/radxa_rock_pi_e/</guid>
   </item><item>
     <title>Pimoroni Pico LiPo (4MB)</title>
     <link>https://circuitpython.org/board/pimoroni_picolipo_4mb/</link>
@@ -22793,7 +23708,7 @@ Introducing the new ATMegaZero ESP32-S2</p>
     <guid>https://circuitpython.org/board/sensebox_mcu/</guid>
   </item><item>
     <title>Rock Pi 4C</title>
-    <link>https://circuitpython.org/blinka/rock_pi_4c/</link>
+    <link>https://circuitpython.org/blinka/radxa_rock_pi_4c/</link>
     <description><![CDATA[  
 <img
   srcset="https://circuitpython.org/assets/images/boards/small/rock_pi_4c.jpg 300w,
@@ -22826,7 +23741,7 @@ Introducing the new ATMegaZero ESP32-S2</p>
     <category>Blinka</category>
     
     <pubDate>Tue, 06 Apr 2021 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/blinka/rock_pi_4c/</guid>
+    <guid>https://circuitpython.org/blinka/radxa_rock_pi_4c/</guid>
   </item><item>
     <title>BeagleBone</title>
     <link>https://circuitpython.org/blinka/beaglebone/</link>
@@ -25062,11 +25977,11 @@ Orange Pi Zero Plus2 is for anyone who wants to start creating with technology �
     <link>https://circuitpython.org/blinka/banana_pi_bpi_m2_zero/</link>
     <description><![CDATA[  
 <img
-  srcset="https://circuitpython.org/assets/images/boards/small/banana_pi_m2_zero.jpg 300w,
-             https://circuitpython.org/assets/images/boards/large/banana_pi_m2_zero.jpg 800w"
+  srcset="https://circuitpython.org/assets/images/boards/small/banana_pi_bpi_m2_zero.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_m2_zero.jpg 800w"
   sizes="(max-width: 300px) 300px,
             800px"
-  src="https://circuitpython.org/assets/images/boards/large/banana_pi_m2_zero.jpg"
+  src="https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_m2_zero.jpg"
   alt="Image of Board"
   loading="lazy"
 />
@@ -27327,7 +28242,7 @@ that is non-essential has been removed, and the smallest possible chip is used.<
     <guid>https://circuitpython.org/board/openmv_h7/</guid>
   </item><item>
     <title>Rock Pi S</title>
-    <link>https://circuitpython.org/blinka/rock_pi_s/</link>
+    <link>https://circuitpython.org/blinka/radxa_rock_pi_s/</link>
     <description><![CDATA[  
 <img
   srcset="https://circuitpython.org/assets/images/boards/small/rock_pi_s.jpg 300w,
@@ -27365,7 +28280,7 @@ TrustZone technology support</li>
     <category>Blinka</category>
     
     <pubDate>Wed, 29 Apr 2020 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/blinka/rock_pi_s/</guid>
+    <guid>https://circuitpython.org/blinka/radxa_rock_pi_s/</guid>
   </item><item>
     <title>Simmel Board</title>
     <link>https://circuitpython.org/board/simmel/</link>

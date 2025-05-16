@@ -1516,6 +1516,27 @@
         "description": "<p><a href=\"https://www.adafruit.com/product/6100\">Adafruit Sparkle Motion - All-In-One WLED and xLights Board</a></p><p>We’re designing a board for using WLED - and we want to make like the bestest board in the whole world. Our resident mermaid, firepixie makes a lot of projects with WLED and she loves it! So how can we make something that will be powerful but not too bulky? Here’s some things we’re thinking about asthe design starts to congeal like cranberry sauce:</p><ul>  <li>Power via USB Type C PD with a slide switch that selects between 5, 12 and 20V (24V pixels can usually run fine at 20V) OR via 2.1mm DC jack</li>  <li>Low forward-voltage diodes so its good for up to 5A from either</li>  <li>5 Amp fuse to protect from over-current drive</li>  <li>ESP32 mini module with built in or optionally wFL antenna port (the classic ‘32 has broad support even if we’d prefer the ‘S2 or ‘S3)</li>  <li>Three output signal terminal block sets with power and ground for each - they’ll be level shifted to 5V.</li>  <li>6 GPIO breakout pads with a fourth level-shifted ouput, and 3 more GPIO plus power and ground.</li>  <li>Built-in I2S microphone</li>  <li>Built-in IR receiver</li>  <li>Stemma QT I2C port to connect external sensors/OLED/etc</li>  <li>Separate analog/digital input JST port for analog input, potentiometer, microphone or external IR receiver</li>  <li>Compact enough you can use it for wearable projects - 1.3”x1.75” / 33mm x 45mm size with mounting holes</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/6100\">Adafruit</a></li></ul>"
     },
     {
+        "board_id": "adafruit_sparkle_motion_stick",
+        "title": "Adafruit Sparkle Motion Download",
+        "name": "Adafruit Sparkle Motion",
+        "board_url": [
+            "https://www.adafruit.com/product/6332",
+            "https://www.adafruit.com/product/6333"
+        ],
+        "board_image": "adafruit_sparkle_motion_stick.jpg",
+        "date_added": "2025-05-15",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/adafruit_sparkle_motion_stick/",
+        "description": "<p>The <strong>Adafruit Sparkle Motion Stick</strong> is part of our series of “Sparkle Motion” boards, which are our attempt to make the best small WLED-friendly smart LED driving board in the whole world. Our resident mermaid, <a href=\"https://learn.adafruit.com/u/firepixie\">firepixie</a> makes a lot of projects with WLED, and she loves it! So, how can we make something powerful enough to drive advanced LED projects that need a compact design?</p><p><strong>This version includes both the Sparkle Motion Stick and the enclosure</strong>, which is great if you want to protect your USB dongle from everyday usage, but note that it is not waterproof or weatherproof. There are three pieces: two snap over the PCB to capture it in place, and one can be used as a USB A port cap. We also like there’s a button lever - by default in WLED pin 0 is an on/off mode switcher, but you can program it to do other stuff.</p><p>The USB Stick version of the Sparkle Motion is a simpler version of our full-featured Sparkle Motion. <a href=\"https://www.adafruit.com/product/6176\">It even fits into a low cost off-the-shelf case for protection.</a></p><ul>  <li><strong>Power via USB Type A for up to 5V 2A input -</strong> you can use off-the-shelf USB battery packs for portable operation.</li>  <li><strong>2 Amp resetting fuse</strong> to protect from over-current drive</li>  <li><strong>ESP32</strong> mini module with built-in antenna port - the classic ESP32 has the best WLED support, even if we’d prefer the ‘S2 or ‘S3. Comes with 4 MB of flash, dual-core 240MHz Tensilica, WiFi, Bluetooth LE, and Bluetooth Classic support.</li>  <li><strong>USB-serial converter</strong> with auto-reset</li>  <li><strong>Two output signals plus 5V power and ground</strong> - both signal outputs are level shifted to 5V.</li>  <li><strong>Built-in I2S microphone</strong> for audio-reactive projects</li>  <li><strong>Built-in Infrared receiver</strong> on GPIO 10 for easy remote control integration</li>  <li><strong>User button on GPIO 0</strong> which you can press even when its in the snap-on case</li>  <li><strong>Red built-in LED</strong> on pin 4</li>  <li><strong>Small built-in NeoPixel</strong> on pin 18</li>  <li><strong>Screw terminal blocks</strong> for no-solder connectivity</li></ul><p>Compared to our <a href=\"https://www.adafruit.com/product/6100\">larger Sparkle Motion board</a>, this only supports 5V and doesn’t have a reset button, there are fewer outputs, and no breakout pads of I2C/GPIO connections for external accessories.Compared to our <a href=\"https://www.adafruit.com/product/6160\">Sparkle Motion Mini</a>, this has a USB A port so it’s 2A max power. It does have IR and built-in terminal blocks but does not have GPIO breakout pads.</p><p>While we recommend it for use with WLED, it will also work just fine as a compact ESP32 board for use with Arduino, ESP-IDF, MicroPython, CircuitPython, or any other ESP32-supported codebase.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/6332\">Adafruit</a></li></ul>"
+    },
+    {
         "board_id": "adafruit_trrs_trinkey_m0",
         "title": "TRRS Trinkey Download",
         "name": "TRRS Trinkey",
