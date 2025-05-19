@@ -2,7 +2,7 @@
 layout: download
 board_id: "adafruit_feather_esp32_v2"
 title: "Adafruit Feather ESP32 V2 Download"
-name: "Adafruit Feather ESP32 V2"
+name: "Adafruit Feather ESP32 V2 (HUZZAH32 V2)"
 manufacturer: "Adafruit"
 board_url:
  - "https://www.adafruit.com/product/5400"
@@ -23,9 +23,11 @@ features:
   - STEMMA QT/QWIIC
 ---
 
-One of our star Feathers is the [Adafruit HUZZAH32 ESP32 Feather](https://www.adafruit.com/product/3405) - with the fabulous ESP32 WROOM module on there, it makes quick work of WiFi and Bluetooth projects that take advantage of Espressifs most popular chipset. Recently we had to redesign this feather to move from the obsolete CP2104 to the available CH9102F and one thing led to another and before you know it we made a completely refreshed design: the **Adafruit ESP32 Feather V2**.
+The **Adafruit Feather ESP32 V2** is a new version of the original Adafruit HUZZAH32 ESP32 Feather. Both have the fabulous ESP32 WROOM module on there, which makes quick work of WiFi and Bluetooth projects that take advantage of Espressifs most popular chipset. We completely refreshed the board while moving from the obsolete CP2104 USB-serial chip to the available CH9102F.
 
-The V2 is a significant redesign, enough so we consider it a completely new product. It *still* features the ESP32 chip but has many upgrades and improvements:
+Both boards say "HUZZAH32" on the bottom side, but they are different. Make sure you've chosen the correct download for the your board.
+
+The Feather ESP32 V2 is a significant redesign, enough so we consider it a completely new product. It *still* features the ESP32 chip but has many upgrades and improvements:
 
 - Compared to the original Feather with 4 MB Flash and no PSRAM, the V2 has **8 MB Flash and 2 MB PSRAM**
 - Additional **user button tactile switch** on input pin 38
