@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "lilygo_tdongle_s3"
-title: "T-Display S3 Pro Download"
-name: "T-Display S3 Pro"
+title: "T-Dongle S3 Download"
+name: "T-Dongle S3"
 manufacturer: "LILYGO"
 board_url:
  - "https://lilygo.cc/products/t-dongle-s3"
