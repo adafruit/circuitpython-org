@@ -23,7 +23,7 @@ features:
 
 * ESP32-S3
 * Wi-Fi IEEE 802.11 b/g/n; Bluetooth 5, Bluetooth mesh
-* 1.9-inch IPS color TFT LCD
+* 1.9-inch IPS color TFT LCD (320x170)
 * Rotary encoder + confirmation key in one
 * 2.54 x 8pin GPIO interface
 
