@@ -1,0 +1,25 @@
+From 2ae4e52cee16024261282d9d4b860cd33cc5b35f Mon Sep 17 00:00:00 2001
+From: foamyguy <foamyguy@gmail.com>
+Date: Wed, 4 Jun 2025 10:00:20 -0500
+Subject: [PATCH] update rtd.yml file
+
+---
+ .readthedocs.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.readthedocs.yaml b/.readthedocs.yaml
+index fe4faae..ee38fa0 100644
+--- a/.readthedocs.yaml
++++ b/.readthedocs.yaml
+@@ -12,7 +12,7 @@ sphinx:
+   configuration: docs/conf.py
+ 
+ build:
+-  os: ubuntu-20.04
++  os: ubuntu-lts-latest
+   tools:
+     python: "3"
+ 
+-- 
+2.49.0
+

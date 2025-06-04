@@ -75,7 +75,7 @@ ERROR_MISSING_LIBRARIANS = (
     "CircuitPythonLibrarians team missing or does not have write access"
 )
 ERROR_MISSING_LICENSE = "Missing license."
-ERROR_MISSING_LINT = "Missing lint config"
+ERROR_MISSING_RUFF_CONFIG = "Missing ruff config"
 ERROR_MISSING_CODE_OF_CONDUCT = "Missing CODE_OF_CONDUCT.md"
 ERROR_MISSING_README_RST = "Missing README.rst"
 ERROR_MISSING_READTHEDOCS = "Missing readthedocs.yaml"
@@ -672,8 +672,8 @@ class LibraryValidator:
             return []
 
         errors = []
-        if ".pylintrc" not in files:
-            errors.append(ERROR_MISSING_LINT)
+        if "ruff.toml" not in files:
+            errors.append(ERROR_MISSING_RUFF_CONFIG)
 
         if "CODE_OF_CONDUCT.md" not in files:
             errors.append(ERROR_MISSING_CODE_OF_CONDUCT)
