@@ -6,7 +6,7 @@ name: "Orpheus Pico"
 manufacturer: "Hack Club"
 board_url:
   - "https://orpheuspico.hackclub.com/"
-board_image: "hack_club_orpheus_pico.jpg"
+board_image: "orpheus_pico.jpg"
 date_added: 2025-06-07
 family: rp2040
 features:
