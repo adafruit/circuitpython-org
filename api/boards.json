@@ -8057,6 +8057,27 @@
         "description": "<p>STM32H7 powered OpenMV camera board.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4478\">Adafruit</a></li>  <li><a href=\"https://openmv.io/collections/products/products/openmv-cam-h7\">OpenMV</a></li></ul>"
     },
     {
+        "board_id": "orpheus_pico",
+        "title": "Orpheus Pico Download",
+        "name": "Orpheus Pico",
+        "board_url": [
+            "https://orpheuspico.hackclub.com/"
+        ],
+        "board_image": "orpheus_pico.jpg",
+        "date_added": "2025-06-07",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Raspberry Pi Pico Form Factor",
+            "USB-C"
+        ],
+        "url_path": "/board/orpheus_pico/",
+        "description": "<p>The <a href=\"https://orpheuspico.hackclub.com/\">Orpheus Pico</a> is a drop-in, open-source replacement to the Raspberry Pi Pico with a ton of new features built by teenagers at <a href=\"https://hackclub.com\">Hack Club</a> for their educational programs. It is not for sale.</p><p><strong>Features:</strong></p><ul>  <li><strong>8 MB</strong> of on-board Flash storage</li>  <li><strong>USB Type-C</strong> port and <strong>SWD port</strong></li>  <li>Built-in <strong>LED, button, RGB LED</strong> and a dedicated <strong>reset button</strong></li>  <li>Active USB protection</li>  <li>Same pin configuration as a Raspberry Pi Pico, with <strong>pin labels on both sides</strong></li>  <li>Awesome art!</li></ul>"
+    },
+    {
         "board_id": "oxocard_artwork",
         "title": "Oxocard Artwork Card Download",
         "name": "Oxocard Artwork Card",
