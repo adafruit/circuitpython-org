@@ -47,7 +47,7 @@ def main():
     def get_bootloader(chipfamily, bootloader_id):
         if chipfamily in bootloaders and "version" in bootloaders[chipfamily]:
             bootloader_version = bootloaders[chipfamily]["version"]
-            return f"{BOOTLOADER_URL_PREFIX}/{bootloader_id}/tinyuf2-{bootloader_id}-{bootloader_version}.zip"
+            return f"{BOOTLOADER_URL_PREFIX}{bootloader_id}/tinyuf2-{bootloader_id}-{bootloader_version}.zip"
         return None
 
     def generate_boards(folder):
