@@ -14,7 +14,6 @@ features:
   - Wi-Fi
   - USB-C
   - Bluetooth/BTLE
-  - Camera
   - Battery Charging
 ---
 
@@ -23,6 +22,8 @@ M5Stack's Timer Camera X is an all-in-one camera module based on ESP32, integrat
 You can use the built-in RTC (BM8563) to keep track of time to create custom, specific sleep and wake-up schedules. In deep sleep, the standby current of the entire Camera X can be as low as 10 μA. This camera supports sending images through WiFi and via the USB serial debug port. The bottom HY2.0-4P I2C port output can be connected to other I2C peripherals such as Grove or Stemma QT devices when this cable is in use.
 
 A friendly heads-up: The low-power power management used by the Timer Camera series is different from the CORE and StickC devices. When in use, the PWR button is used as a power-on button (long press 2 seconds). If you need to shut down the device, use the software API or press the Reset button on the PCB.
+
+**Note: as 2025-07-07 there is no documented way to use the camera. Examples using `espcamera` produce initialization errors.** 
 
 ### Features
 - ESP32-based
