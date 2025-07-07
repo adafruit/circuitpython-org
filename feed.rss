@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 07 Jul 2025 06:04:43 -0400</lastBuildDate>
+<lastBuildDate>Mon, 07 Jul 2025 14:23:54 -0400</lastBuildDate>
 
 <item>
     <title>Orpheus Pico</title>
@@ -11631,6 +11631,8 @@ HDMI connector, SD card slot, line level I2S audio and buttons.</p>
 <p>You can use the built-in RTC (BM8563) to keep track of time to create custom, specific sleep and wake-up schedules. In deep sleep, the standby current of the entire Camera X can be as low as 10 μA. This camera supports sending images through WiFi and via the USB serial debug port. The bottom HY2.0-4P I2C port output can be connected to other I2C peripherals such as Grove or Stemma QT devices when this cable is in use.</p>
 
 <p>A friendly heads-up: The low-power power management used by the Timer Camera series is different from the CORE and StickC devices. When in use, the PWR button is used as a power-on button (long press 2 seconds). If you need to shut down the device, use the software API or press the Reset button on the PCB.</p>
+
+<p><strong>Note: as 2025-07-07 there is no documented way to use the camera. Examples using <code class="language-plaintext highlighter-rouge">espcamera</code> produce initialization errors.</strong></p>
 
 <h3 id="features">Features</h3>
 <ul>
