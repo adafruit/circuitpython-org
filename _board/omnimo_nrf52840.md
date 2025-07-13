@@ -1,4 +1,3 @@
-
 ---
 layout: download
 board_id: "omnimo_nrf52840"
