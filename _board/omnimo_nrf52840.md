@@ -60,6 +60,5 @@ With its robust wired and wireless capabilities and user-friendly design, Omnimo
 - [Omnimo nRF52840 Dev Board: BLE-Enabled T&H](https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-ble-enabled-t-h-8fd2e7)
 - [Omnimo nRF52840: Dev Board - Air Quality Monitoring](https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-air-quality-monitoring-d818be) 
 
-
 ## Purchase
 * [Crowdsupply](https://www.crowdsupply.com/eafaq/omnimo-nrf52840)
