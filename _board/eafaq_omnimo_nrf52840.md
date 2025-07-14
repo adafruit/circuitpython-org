@@ -16,8 +16,6 @@ features:
   - Feather-Compatible
   - Battery Charging
   - STEMMA QT/QWIIC
-  - mikroBUS
-  - Pmod
   - USB-C
   - Breadboard-Friendly
 ---
