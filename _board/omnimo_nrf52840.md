@@ -26,33 +26,27 @@ features:
 
 With its robust wired and wireless capabilities and user-friendly design, Omnimo nRF52840 is ideal for projects centered around mobile applications. It is also suitable for a wide range of electronic and IoT projects and is compatible with beginner-friendly environments like CircuitPython and the industrial SDK, nRF Connect.  
 
-## Features & Specifications
+## Features
 
-* Based on Nordic Semiconductor's [nRF52840](https://www.nordicsemi.com/Products/nRF52840) (MDBT50Q-1MV2)
-  * Multi-protocol: Bluetooth LE, Bluetooth Mesh, Thread, NFC, ANT, Zigbee, and 2.4 GHz proprietary protocols
-  * 1 MB Flash and 256KB RAM
-  * 2 MB of QSPI Flash for storing CircuitPython files
-  * Interfaces: SPI, UART, I2C, I2S and USB
-  * 12-bit, 200 KSPS ADC - 8 channels
-  * 4 PWM channels
-  * On-chip NFC-A tag for simplified pairing and payment solutions
-  * 1.8 V to 3.3 V regulated supply for external components
-#### Interfaces
-  * mikroBUS
-  * 26 GPIO pins, Feather-compatible layout
-  * Pmod
-  * Qwiic/Stemma QT
-* Three programming options: USB, SWD debug connector, or OTA
-* Supported programming tools: Arduino IDE, CircuitPython, and Nordic nRF Connect SDK
-#### Power
+* Based on Nordic Semiconductor's nRF52840 SoC, 1 MB Flash and 256KB RAM
+* Multi-protocol: Bluetooth LE, Bluetooth Mesh, Thread, NFC, ANT, Zigbee, and 2.4 GHz proprietary protocols
+* Interfaces: SPI, UART, I2C, I2S and USB
+* 12-bit, 200 KSPS ADC - 8 channels
+* 4 PWM channels
+* On-chip NFC-A tag for simplified pairing and payment solutions
+* 1.8 V to 3.3 V regulated supply for external components
+* 2 MB of QSPI Flash for storing CircuitPython files
+* 26 GPIO pins, Feather-compatible layout
+* Multi-socket: mikroBUS, Pmod and Qwiic/Stemma QT
 * Battery connector to connect 3.7-4.2 V Lithium-polymer battery
 * On-board 3.3 V LDO regulator
 * Switchable VOUT to turn off modules when not in use
-#### Buttons and Indicators
 * Side on/off switch
 * 2 user-programmable LEDs, 1 NeoPixel RGB LED
 * 2 user-programmable buttons
 * Side reset button
+* Three programming options: USB, SWD debug connector, or OTA
+* Supported programming tools: Arduino IDE, CircuitPython, and Nordic nRF Connect SDK
 
 ## Tutorials
 
