@@ -1936,74 +1936,80 @@
 <div class="section unrecommended">
   <h3>Install, Repair, or Update UF2 Bootloader</h3>
   <p>
-    Latest version: 0.21.0
+    Latest version: 0.35.0
   </p>
   <p>
     <strong>The UF2 bootloader allows you to load CircuitPython, MakeCode, and Arduino programs.
-      The bootloader is not CircuitPython.</strong>
-    If a UF2 bootloader is installed, you can check its version by looking in
-    the <b>INFO_UF2.TXT</b> file when the <b>BOOT</b> drive is visible
-    (<b>FTHRS2BOOT</b>, <b>MAGTAGBOOT</b>, <b>HOUSEBOOT</b>, etc.)
+    </strong>
+    The bootloader itself is not CircuitPython.
+    On Espressif boards, the UF2 bootloader is called <em>TinyUF2</em>.
+    If the TinyUF2 bootloader is installed, you can check its version by looking in
+    the <strong>INFO_UF2.TXT</strong> file when the <strong>BOOT</strong> drive is visible
+    (<strong>FTHRS2BOOT</strong>, <strong>MAGTAGBOOT</strong>, <strong>HOUSEBOOT</strong>, etc.)
   </p>
   <p>
-    It is not necessary to reinstall a UF2 bootloader you unless a <b>BOOT</b> drive is not visible
-    when in UF2 bootloader mode, or you know of a problem with your current UF2 bootloader.
+    In general, it is not necessary to update TinyUF2 at every version change.
+    You can read the <a href="https://github.com/adafruit/tinyuf2/releases">release notes on GitHub</a> to see what has been changed.
+    Update if you've been told about a necessary change or a bug fix.
+  </p>
+  <p><strong><em>Note:</em></strong>
+    <em>CircuitPython 10 and later, on Espressif boards with 4MB flash, requires TinyUF2 0.33.0 or later.
+    The flash partition layout has changed (<a href="https://learn.adafruit.com/adafruit-esp32-s3-feather/update-tinyuf2-bootloader-for-circuitpython-10-4mb-boards-only">details</a>).</em>
   </p>
   <p>
-    If a UF2 bootloader has never been installed on the board, or the UF2 bootloader was removed by erasing or overwriting the flash, the UF2 bootloader must be installed in order to flash <b>.uf2</b> files onto the board. <b>.bin</b> files can be uploaded without a UF2 bootloader, using the
-    <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">ESP Web Flasher</a>
-    or <b>esptool.py</b>.
+    If TinyUF2 has never been installed on the board,
+    or it was removed by erasing or overwriting the flash,
+    it must be installed in order to flash <strong>.uf2</strong> files onto the board.
+    But you don't need the TinyUF2 bootloader to upload <strong>.bin</strong> files. They can be uploaded using the
+    built-in ROM bootloader, with the
+    <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a>
+    or <strong>esptool.py</strong>.
   </p>
-
-  <p>
-    <em>Note: <b>update.uf2</b> files are not currently working on ESP32-S2 or ESP32-S3 boards.</em>
+  <p><strong><em>Warning:</em></strong>
+    <em>Installing the TinyUF2 bootloader will erase everything that was previously on the board.
+      Save any files in <strong>CIRCUITPY</strong> for which you don't have backups.</em>
   </p>
-
-  <p><strong><em>Important</em></strong>:
-    <em>this will erase previously flashed firmware and sketches from the board,
-      but needs to be perfomed only once.</em>
+  <p>There are several ways to install the TinyUF2 bootloader on your board.
+      Check to see if your board's manufacturer provides specific instructions.
+      For Adafruit boards, consult the <em>Factory Reset</em> page
+      in the Learn Guide for your particular board (<a href="https://learn.adafruit.com/adafruit-esp32-s3-feather/factory-reset">example</a>).
   </p>
-  <p><em>The instructions here are general.
-      We recommend you consult the manufacturer's board documentation for detailed
-      instructions, which may be different.</em>
+  <p>The easiest way to install TinyUF2 is to use the <strong>OPEN INSTALLER</strong> button
+    (see above, in the CiruitPython sections).
+    You can also use the <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a>, or <strong>esptool.py</strong>,
+    as described in the Factory Reset page.
   </p>
- <ul>
-  <li>Unzip to find the file <b>combined.bin</b>.</li>
-  <li>Place board in bootloader mode:
+  <li>If you are not using the <strong>OPEN INSTALLER</strong> button,
+    download the <strong>combined.bin</strong> file using the <strong>DOWNLOAD BOOTLOADER combined.bin</strong> button below.
+  (If you use <strong>OPEN INSTALLER</strong>, it will do the download itself.)</li>
+  <li>First, place board in ROM bootloader mode:
    <ul>
     <li>Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.</li>
-    <li>Press and <strong>hold down</strong> the <b>BOOT</b> or <b>0</b> button.</li>
-    <li>Press and <strong>release</strong> the <b>RESET</b> or <b>RST</b> button.</li>
-    <li>Release the <b>BOOT</b> button.</li>
+    <li>Press and <em>hold</em> the BOOT button (sometimes marked "B0").</li>
+    <li>Press and <em>release</em> the RESET button (sometimes marked "RST").</li>
+    <li>Release the BOOT button. This starts the ROM bootloader.</li>
    </ul>
   </li>
-  <li>Upload <b>combined.bin</b> (Google Chrome 89 or newer):
-   <ul>
-    <li>Open <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">ESP Web Flasher</a> in a new window/tab.</li>
-    <li>Select <b>460800 Baud</b> from the pull-down menu (top-right).</li>
-    <li>Click <b>Connect</b> (top-right).</li>
-    <li>Select the COM or Serial port from the pop-up window.</li>
-    <li>After successful connection, click <b>Erase</b>.</li>
-    <li>After successful erase, click any <b>Choose a file...</b>, then locate and select the <b>combined.bin</b> file unzipped earlier.</li>
-    <li>After successfully choosing <b>combined.bin</b>, click <b>Program</b>.</li>
-    <li>After the TinyUF2 firmware update is complete, press the <b>RESET</b> button on the board.
-      A new drive <b>BOOT</b> should be visible in your file browser.</li>
+  <li>Then proceed with <strong>OPEN INSTALLER</strong> or one of the other tools.</li>
+  <li>After the TinyUF2 firmware installation is complete, press the RESET button on the board.
+      A new drive <strong>BOOT</strong> drive should be visible in your file browser.</li>
    </ul>
   </li>
  </ul>
  
   <p>
-   After installing the UF2 bootloader, enter the bootloader by double-clicking the reset button.
-   On boards with an RGB status LED, tap reset once, wait for the LED to turn purple, and tap
+   After installing TinyUF2, enter the UF2 bootloader by double-clicking the RESET button.
+   On boards with an RGB status LED, you usually tap reset once, wait for the LED to turn purple, and tap
    again before the purple goes away. On other boards, consult the board documentation.
    </p>
   
  <p>
-   After you update, check <b>INFO_UF2.TXT</b> to verify that the bootloader version has been updated.
-   Then you will need to load or reload CircuitPython using the <b>.uf2</b> file.
+   If you are updating TinyUF2, look at <strong>INFO_UF2.TXT</strong> to verify the new version of TinyUF2,
+   by checking the version number.
+   Then you will need to copy the CircuitPython<strong>.uf2</strong> file to the <strong>BOOT</strong> drive.
  </p>
  <div>
-    <a class="download-button" href="https://github.com/adafruit/tinyuf2/releases/download/0.21.0/tinyuf2-unexpectedmaker_nanos3-0.21.0.zip">DOWNLOAD BOOTLOADER ZIP<i class="fas fa-download" aria-hidden="true"></i></a>
+    <a class="download-button" href="https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/unexpectedmaker_nanos3/tinyuf2-unexpectedmaker_nanos3-0.35.0-combined.bin">DOWNLOAD BOOTLOADER combined.bin<i class="fas fa-download" aria-hidden="true"></i></a>
  </div>
 </div>
 
