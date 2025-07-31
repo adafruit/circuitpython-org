@@ -9,7 +9,7 @@
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
 <title>MagTag - 2.9" Grayscale E-Ink WiFi Display Download</title>
-<meta name="description" content="The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9” grayscale E-Ink display to make a low-power IoT display that can show data on its sc..." />
+<meta name="description" content="UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). CircuitPython 10.0.0-be..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
@@ -19,7 +19,7 @@
 
 
 
-<meta property="og:description" content="The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9” grayscale E-Ink display to make a low-power IoT display that can show data on its screen even when power is removed! The ESP32-S2 is great because it builds on the years of code and support for the ESP32 and also adds native..." />
+<meta property="og:description" content="UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). CircuitPython 10.0.0-beta.1 or later is needed to support the new display, and will still also support the old display on older MagTags. If you want to use 9.2.x o..." />
 
 
 
@@ -140,7 +140,9 @@
         <h1>MagTag - 2.9" Grayscale E-Ink WiFi Display by Adafruit</h1>
       </div>
       <div class="section">
-        <p><p>The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9” grayscale E-Ink display to make a low-power IoT display that can show data on its screen even when power is removed! The ESP32-S2 is great because it builds on the years of code and support for the ESP32 and also adds native USB support so you can use this board with Arduino <em>or</em> CircuitPython!</p>
+        <p><p><strong>UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). CircuitPython 10.0.0-beta.1 or later is needed to support the new display, and will still also support the old display on older MagTags. If you want to use 9.2.x or an older release on an older board, see the <em>Previous Versions of CircuitPython</em> box on this page.</strong></p>
+
+<p>The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9” grayscale E-Ink display to make a low-power IoT display that can show data on its screen even when power is removed! The ESP32-S2 is great because it builds on the years of code and support for the ESP32 and also adds native USB support so you can use this board with Arduino <em>or</em> CircuitPython!</p>
 
 <p>We designed this board to be low-power friendly - with a spot for a 350 or 420 mAh battery and built in battery charging over USB C. During deep sleep, with the NeoPixels and speaker amplifier disabled, we measured 250uA power draw so you can run for a few weeks between charges.</p>
 
@@ -1031,11 +1033,21 @@
   </div>
 
   <div class="section unstable">
-    <h3>CircuitPython 10.0.0-beta.1</h3>
+    <h3>CircuitPython 10.0.0-beta.2</h3>
     
     <p>
       This is the latest development release of CircuitPython that will work with the MagTag - 2.9" Grayscale E-Ink WiFi Display.
     </p>
+    
+      <p>
+        <strong>On Espressif ESP32-S2 and ESP32-S3 boards with 4MB flash,
+          CircuitPython 10.0.0-beta.0 and later require TinyUF2 bootloader version 0.33.0 or later.
+          Older TinyUF2 bootloaders don't provide enough room for the firmware and cannot load it.
+          See the
+          <a href="https://github.com/adafruit/circuitpython/releases/tag/10.0.0-beta.2">Release Notes</a>
+          for more details, and see <em>Update UF2 Bootloader</em> below.</strong>
+      </p>
+    
     <p>
       <strong>Alpha</strong> development releases are early releases.
       They are unfinished, are likely to have bugs, and the features they provide may change.
@@ -1051,7 +1063,7 @@
     
     
     <p>
-      <a href="https://github.com/adafruit/circuitpython/releases/tag/10.0.0-beta.1">Release Notes for 10.0.0-beta.1</a>
+      <a href="https://github.com/adafruit/circuitpython/releases/tag/10.0.0-beta.2">Release Notes for 10.0.0-beta.2</a>
     </p>
 
     <div class="download-details">
@@ -1069,8 +1081,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/zh_Latn_pinyin/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-zh_Latn_pinyin-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/zh_Latn_pinyin/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-zh_Latn_pinyin-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/zh_Latn_pinyin/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-zh_Latn_pinyin-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/zh_Latn_pinyin/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-zh_Latn_pinyin-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/zh_Latn_pinyin/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-zh_Latn_pinyin-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/zh_Latn_pinyin/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-zh_Latn_pinyin-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/zh_Latn_pinyin/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-zh_Latn_pinyin-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/zh_Latn_pinyin/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-zh_Latn_pinyin-10.0.0-beta.2.uf2"
                     data-locale="zh-Latn-pinyin"
                     >
               CHINESE (PINYIN)
@@ -1082,8 +1094,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/nl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-nl-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/nl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-nl-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/nl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-nl-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/nl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-nl-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/nl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-nl-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/nl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-nl-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/nl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-nl-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/nl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-nl-10.0.0-beta.2.uf2"
                     data-locale="nl"
                     >
               DUTCH
@@ -1095,8 +1107,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_GB/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_GB-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_GB/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_GB-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_GB/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_GB-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_GB/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_GB-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_GB/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_GB-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_GB/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_GB-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_GB/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_GB-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_GB/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_GB-10.0.0-beta.2.uf2"
                     data-locale="en-GB"
                     >
               ENGLISH (UK)
@@ -1108,8 +1120,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.2.uf2"
                     data-locale="en-US"
                     selected>
               ENGLISH (US)
@@ -1121,8 +1133,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fil/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fil-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fil/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fil-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fil/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fil-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fil/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fil-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fil/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fil-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fil/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fil-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fil/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fil-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fil/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fil-10.0.0-beta.2.uf2"
                     data-locale="fil"
                     >
               FILIPINO
@@ -1134,8 +1146,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fr-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fr-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fr-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fr-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fr-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fr-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fr-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/fr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-fr-10.0.0-beta.2.uf2"
                     data-locale="fr"
                     >
               FRENCH
@@ -1147,8 +1159,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/de_DE/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-de_DE-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/de_DE/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-de_DE-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/de_DE/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-de_DE-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/de_DE/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-de_DE-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/de_DE/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-de_DE-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/de_DE/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-de_DE-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/de_DE/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-de_DE-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/de_DE/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-de_DE-10.0.0-beta.2.uf2"
                     data-locale="de-DE"
                     >
               GERMAN
@@ -1160,8 +1172,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ID/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ID-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ID/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ID-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ID/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ID-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ID/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ID-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ID/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ID-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ID/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ID-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ID/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ID-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ID/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ID-10.0.0-beta.2.uf2"
                     data-locale="ID"
                     >
               INDONESIAN
@@ -1173,8 +1185,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/it_IT/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-it_IT-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/it_IT/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-it_IT-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/it_IT/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-it_IT-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/it_IT/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-it_IT-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/it_IT/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-it_IT-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/it_IT/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-it_IT-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/it_IT/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-it_IT-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/it_IT/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-it_IT-10.0.0-beta.2.uf2"
                     data-locale="it-IT"
                     >
               ITALIAN
@@ -1186,8 +1198,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ja/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ja-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ja/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ja-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ja/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ja-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ja/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ja-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ja/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ja-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ja/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ja-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ja/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ja-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ja/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ja-10.0.0-beta.2.uf2"
                     data-locale="ja"
                     >
               JAPANESE
@@ -1199,8 +1211,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_x_pirate/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_x_pirate-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_x_pirate/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_x_pirate-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_x_pirate/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_x_pirate-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_x_pirate/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_x_pirate-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_x_pirate/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_x_pirate-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_x_pirate/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_x_pirate-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_x_pirate/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_x_pirate-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_x_pirate/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_x_pirate-10.0.0-beta.2.uf2"
                     data-locale="en-x-pirate"
                     >
               PIRATE (ENGLISH)
@@ -1212,8 +1224,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pl-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pl-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pl-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pl-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pl-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pl-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pl-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pl/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pl-10.0.0-beta.2.uf2"
                     data-locale="pl"
                     >
               POLISH
@@ -1225,8 +1237,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pt_BR/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pt_BR-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pt_BR/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pt_BR-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pt_BR/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pt_BR-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pt_BR/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pt_BR-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pt_BR/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pt_BR-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pt_BR/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pt_BR-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pt_BR/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pt_BR-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/pt_BR/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-pt_BR-10.0.0-beta.2.uf2"
                     data-locale="pt-BR"
                     >
               PORTUGUESE (BRAZILIAN)
@@ -1238,8 +1250,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ru/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ru-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ru/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ru-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ru/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ru-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ru/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ru-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ru/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ru-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ru/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ru-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ru/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ru-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/ru/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-ru-10.0.0-beta.2.uf2"
                     data-locale="ru"
                     >
               RUSSIAN
@@ -1251,8 +1263,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/es/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-es-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/es/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-es-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/es/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-es-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/es/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-es-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/es/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-es-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/es/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-es-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/es/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-es-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/es/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-es-10.0.0-beta.2.uf2"
                     data-locale="es"
                     >
               SPANISH
@@ -1264,8 +1276,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/sv/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-sv-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/sv/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-sv-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/sv/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-sv-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/sv/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-sv-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/sv/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-sv-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/sv/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-sv-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/sv/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-sv-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/sv/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-sv-10.0.0-beta.2.uf2"
                     data-locale="sv"
                     >
               SWEDISH
@@ -1277,8 +1289,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/tr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-tr-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/tr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-tr-10.0.0-beta.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/tr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-tr-10.0.0-beta.1.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/tr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-tr-10.0.0-beta.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/tr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-tr-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/tr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-tr-10.0.0-beta.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/tr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-tr-10.0.0-beta.2.bin,https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/tr/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-tr-10.0.0-beta.2.uf2"
                     data-locale="tr"
                     >
               TURKISH
@@ -1289,18 +1301,18 @@
       <div class="download-buttons">
       
       
-        <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+        <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.2.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       
-        <a class="download-button unstable bin" href="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.1.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+        <a class="download-button unstable bin" href="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.2.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       
       
         <button is="cp-install-button" class="installer-button" boardid="adafruit_magtag_2.9_grayscale"
         
-            binfile="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.1.bin"
+            binfile="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.2.bin"
         
-            uf2file="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.1.uf2"
+            uf2file="https://downloads.circuitpython.org/bin/adafruit_magtag_2.9_grayscale/en_US/adafruit-circuitpython-adafruit_magtag_2.9_grayscale-en_US-10.0.0-beta.2.uf2"
         
-        version="10.0.0-beta.1"
+        version="10.0.0-beta.2"
         >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
       
       </div>
