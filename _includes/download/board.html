@@ -24,6 +24,16 @@
     <p>
       This is the latest development release of CircuitPython that will work with the {{ page.name }}.
     </p>
+    {% if page.family == 'esp32s2' or page.family == 'esp32s3' %}
+      <p>
+        <strong>On Espressif ESP32-S2 and ESP32-S3 boards with 4MB flash,
+          CircuitPython 10.0.0-beta.0 and later require TinyUF2 bootloader version 0.33.0 or later.
+          Older TinyUF2 bootloaders don't provide enough room for the firmware and cannot load it.
+          See the
+          <a href="https://github.com/adafruit/circuitpython/releases/tag/{{ version.version }}">Release Notes</a>
+          for more details, and see <em>Update UF2 Bootloader</em> below.</strong>
+      </p>
+    {% endif %}
     <p>
       <strong>Alpha</strong> development releases are early releases.
       They are unfinished, are likely to have bugs, and the features they provide may change.
@@ -40,7 +50,7 @@
     {% if page.family == 'nrf52840' %}
       <p>
         <strong>On nRF boards, CircuitPython 8.2.0 and later require UF2 bootloader version 0.6.1 or later.
-        Older bootloaders cannot load the firmware. See <i>Update UF2 Bootloader</i> below.</strong>
+        Older bootloaders cannot load the firmware. See <em>Update UF2 Bootloader</em> below.</strong>
       </p>
     {% endif %}
     <p>

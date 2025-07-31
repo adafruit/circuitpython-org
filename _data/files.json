@@ -29,124 +29,6 @@
     ],
     "modules": [
      "_asyncio",
-     "_pixelmap",
-     "adafruit_bus_device",
-     "adafruit_pixelbuf",
-     "analogbufio",
-     "analogio",
-     "array",
-     "atexit",
-     "audiobusio",
-     "audiocore",
-     "audiomixer",
-     "audiomp3",
-     "binascii",
-     "bitbangio",
-     "bitmaptools",
-     "board",
-     "builtins",
-     "builtins.pow3",
-     "busdisplay",
-     "busio",
-     "busio.SPI",
-     "busio.UART",
-     "canio",
-     "codeop",
-     "collections",
-     "digitalio",
-     "displayio",
-     "dualbank",
-     "epaperdisplay",
-     "errno",
-     "espidf",
-     "espnow",
-     "fontio",
-     "fourwire",
-     "framebufferio",
-     "getpass",
-     "gifio",
-     "hashlib",
-     "i2cdisplaybus",
-     "io",
-     "ipaddress",
-     "jpegio",
-     "json",
-     "keypad",
-     "keypad.KeyMatrix",
-     "keypad.Keys",
-     "keypad.ShiftRegisterKeys",
-     "locale",
-     "math",
-     "max3421e",
-     "mdns",
-     "microcontroller",
-     "msgpack",
-     "neopixel_write",
-     "nvm",
-     "onewireio",
-     "os",
-     "os.getenv",
-     "ps2io",
-     "pulseio",
-     "pwmio",
-     "rainbowio",
-     "random",
-     "re",
-     "rgbmatrix",
-     "rtc",
-     "sdcardio",
-     "select",
-     "sharpdisplay",
-     "socketpool",
-     "socketpool.socketpool.AF_INET6",
-     "ssl",
-     "storage",
-     "struct",
-     "supervisor",
-     "synthio",
-     "sys",
-     "terminalio",
-     "tilepalettemapper",
-     "time",
-     "touchio",
-     "traceback",
-     "ulab",
-     "usb",
-     "vectorio",
-     "warnings",
-     "watchdog",
-     "wifi",
-     "zlib"
-    ],
-    "stable": true,
-    "version": "9.2.8"
-   },
-   {
-    "extensions": [
-     "bin"
-    ],
-    "frozen_libraries": [],
-    "languages": [
-     "de_DE",
-     "en_GB",
-     "en_US",
-     "en_x_pirate",
-     "es",
-     "fil",
-     "fr",
-     "ID",
-     "it_IT",
-     "ja",
-     "nl",
-     "pl",
-     "pt_BR",
-     "ru",
-     "sv",
-     "tr",
-     "zh_Latn_pinyin"
-    ],
-    "modules": [
-     "_asyncio",
      "_bleio",
      "_bleio (native)",
      "_eve",
@@ -245,7 +127,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -509,7 +391,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -773,7 +655,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -1037,7 +919,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -1175,7 +1057,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -1439,7 +1321,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -1703,7 +1585,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -1945,7 +1827,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -2187,7 +2069,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -2455,7 +2337,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -2698,7 +2580,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -2970,7 +2852,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -3218,7 +3100,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -3494,7 +3376,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -3770,7 +3652,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -4046,7 +3928,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -4322,7 +4204,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -4601,7 +4483,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -4876,7 +4758,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -5151,7 +5033,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -5415,7 +5297,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -5679,7 +5561,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -5943,7 +5825,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -6207,7 +6089,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -6473,7 +6355,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -6737,7 +6619,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -7001,7 +6883,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -7265,7 +7147,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -7529,7 +7411,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -7793,7 +7675,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -8061,7 +7943,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -8200,7 +8082,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -8460,7 +8342,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -8728,7 +8610,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -8986,7 +8868,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -9251,7 +9133,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -9523,7 +9405,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -9787,7 +9669,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -10051,7 +9933,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -10295,7 +10177,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -10559,7 +10441,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -10848,7 +10730,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -11125,7 +11007,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -11401,7 +11283,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -11684,7 +11566,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -11912,7 +11794,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -12176,7 +12058,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -12444,7 +12326,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -12707,7 +12589,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -12821,7 +12703,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -12945,7 +12827,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -13063,7 +12945,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -13327,7 +13209,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -13597,7 +13479,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -13846,7 +13728,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -14120,7 +14002,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -14393,7 +14275,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -14670,7 +14552,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -14934,7 +14816,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -15219,7 +15101,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -15335,7 +15217,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -15453,7 +15335,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -15571,7 +15453,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -15834,7 +15716,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -15971,7 +15853,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -16087,7 +15969,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -16361,7 +16243,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -16630,7 +16512,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -16880,7 +16762,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -17122,7 +17004,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -17398,7 +17280,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -17637,7 +17519,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -17777,7 +17659,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -18019,7 +17901,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -18259,7 +18141,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -18547,7 +18429,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -18667,7 +18549,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -18789,7 +18671,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -19029,7 +18911,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -19269,7 +19151,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -19387,7 +19269,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -19668,7 +19550,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -19949,7 +19831,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -20215,7 +20097,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -20335,7 +20217,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -20611,7 +20493,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -20890,7 +20772,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -21173,7 +21055,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -21452,7 +21334,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -21572,7 +21454,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -21814,7 +21696,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -22068,7 +21950,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -22317,7 +22199,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -22567,7 +22449,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -22809,7 +22691,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -22925,7 +22807,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -23060,7 +22942,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -23302,7 +23184,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -23358,7 +23240,7 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -23626,7 +23508,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -23906,7 +23788,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -24193,7 +24075,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -24480,7 +24362,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -24604,7 +24486,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -24890,7 +24772,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -25173,7 +25055,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -25445,7 +25327,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -25709,7 +25591,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -25831,7 +25713,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -25951,7 +25833,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -26199,7 +26081,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -26449,7 +26331,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -26715,7 +26597,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -26985,7 +26867,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -27251,7 +27133,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -27521,7 +27403,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -27791,7 +27673,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -28057,7 +27939,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -28323,7 +28205,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -28599,7 +28481,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -28875,7 +28757,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -29166,7 +29048,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -29321,7 +29203,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -29557,7 +29439,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -29799,7 +29681,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -29957,7 +29839,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -30115,7 +29997,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -30273,7 +30155,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -30431,7 +30313,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -30587,7 +30469,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -30829,7 +30711,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -31110,7 +30992,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -31376,7 +31258,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -31625,7 +31507,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -31745,7 +31627,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -31865,7 +31747,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -32015,7 +31897,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -32294,7 +32176,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -32570,7 +32452,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -32874,7 +32756,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -33162,7 +33044,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -33449,7 +33331,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -33721,7 +33603,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -33995,7 +33877,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -34267,7 +34149,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -34545,7 +34427,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -34758,7 +34640,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -34994,7 +34876,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -35262,7 +35144,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -35534,7 +35416,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -35654,7 +35536,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -35774,7 +35656,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -35894,7 +35776,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -36014,7 +35896,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -36283,7 +36165,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -36552,7 +36434,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -36828,7 +36710,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -37078,7 +36960,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -37351,7 +37233,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -37628,7 +37510,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -37826,7 +37708,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -38040,7 +37922,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -38305,7 +38187,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -38435,7 +38317,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -38587,7 +38469,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -38836,7 +38718,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -39102,7 +38984,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -39335,7 +39217,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -39617,7 +39499,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -39756,7 +39638,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -40029,7 +39911,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -40295,7 +40177,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -40566,7 +40448,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -40810,7 +40692,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -41052,7 +40934,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -41335,7 +41217,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -41453,7 +41335,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -41722,7 +41604,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -41987,7 +41869,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -42257,7 +42139,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -42511,7 +42393,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -42778,7 +42660,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -43028,7 +42910,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -43279,7 +43161,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -43526,7 +43408,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -43768,7 +43650,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -44016,7 +43898,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -44288,7 +44170,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -44564,7 +44446,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -44843,7 +44725,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -45124,7 +45006,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -45405,7 +45287,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -45684,7 +45566,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -45967,7 +45849,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -46246,7 +46128,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -46529,7 +46411,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -46675,7 +46557,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -46958,7 +46840,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -47243,7 +47125,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -47522,7 +47404,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -47805,7 +47687,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -48090,7 +47972,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -48375,7 +48257,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -48654,7 +48536,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -48888,7 +48770,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -49164,7 +49046,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -49440,7 +49322,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -49716,7 +49598,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -49988,7 +49870,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -50264,7 +50146,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -50474,7 +50356,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -50651,7 +50533,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -50863,7 +50745,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -51061,7 +50943,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -51303,7 +51185,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -51425,7 +51307,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -51547,7 +51429,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -51701,7 +51583,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -51851,7 +51733,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -51967,7 +51849,7 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -52085,7 +51967,7 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -52240,7 +52122,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -52476,7 +52358,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -52713,7 +52595,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -52949,7 +52831,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -53185,7 +53067,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -53413,7 +53295,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -53655,7 +53537,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -53892,7 +53774,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -54179,7 +54061,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -54455,7 +54337,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -54575,7 +54457,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -54731,7 +54613,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -55003,7 +54885,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -55279,7 +55161,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -55399,7 +55281,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -55519,7 +55401,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -55774,7 +55656,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -56046,7 +55928,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -56318,7 +56200,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -56594,7 +56476,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -56870,7 +56752,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -57136,7 +57018,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -57298,7 +57180,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -57529,7 +57411,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -57801,7 +57683,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -58079,7 +57961,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -58357,7 +58239,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -58634,7 +58516,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -58915,7 +58797,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -59186,7 +59068,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -59466,7 +59348,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -59708,7 +59590,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -59987,7 +59869,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -60143,7 +60025,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -60423,7 +60305,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -60665,7 +60547,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -60901,7 +60783,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -61129,7 +61011,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -61357,7 +61239,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -61585,7 +61467,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -61817,7 +61699,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -62049,7 +61931,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -62281,7 +62163,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -62435,7 +62317,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -62668,7 +62550,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -62910,7 +62792,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -63174,7 +63056,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -63440,7 +63322,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -63706,7 +63588,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -63972,7 +63854,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -64238,7 +64120,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -64400,7 +64282,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -64666,7 +64548,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -64941,7 +64823,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -65224,7 +65106,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -65507,7 +65389,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -65788,7 +65670,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -66071,7 +65953,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -66348,7 +66230,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -66621,7 +66503,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -66872,7 +66754,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -67122,7 +67004,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -67394,7 +67276,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -67670,7 +67552,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -67946,7 +67828,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -68214,7 +68096,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -68479,7 +68361,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -68751,7 +68633,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -69030,7 +68912,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -69162,7 +69044,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -69412,7 +69294,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -69665,7 +69547,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -69945,7 +69827,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -70225,7 +70107,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -70506,7 +70388,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -70785,7 +70667,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -71064,7 +70946,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -71345,7 +71227,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -71595,7 +71477,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -71845,7 +71727,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -72110,7 +71992,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -72375,7 +72257,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -72640,7 +72522,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -72905,7 +72787,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -73184,7 +73066,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -73463,7 +73345,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -73742,7 +73624,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -74017,7 +73899,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -74159,7 +74041,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -74443,7 +74325,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -74711,7 +74593,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -74981,7 +74863,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -75276,7 +75158,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -75553,7 +75435,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -75823,7 +75705,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -76073,7 +75955,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -76356,7 +76238,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -76621,7 +76503,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -76886,7 +76768,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -77158,7 +77040,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -77427,7 +77309,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -77702,7 +77584,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -77992,7 +77874,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -78226,7 +78108,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -78468,7 +78350,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -78718,7 +78600,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -78960,7 +78842,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -79202,7 +79084,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -79446,7 +79328,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -79731,7 +79613,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -79981,7 +79863,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -80229,7 +80111,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -80493,7 +80375,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -80740,7 +80622,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -80880,7 +80762,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -81146,7 +81028,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -81351,7 +81233,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -81469,7 +81351,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -81621,7 +81503,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -81860,7 +81742,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -82097,7 +81979,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -82333,7 +82215,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -82577,7 +82459,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -82708,7 +82590,7 @@
      "touchio"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -82958,7 +82840,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -83237,7 +83119,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -83478,7 +83360,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -83798,7 +83680,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -84120,7 +84002,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -84343,7 +84225,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -84615,7 +84497,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -84880,7 +84762,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -85152,7 +85034,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -85428,7 +85310,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -85548,7 +85430,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -85668,7 +85550,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -85782,7 +85664,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -85904,7 +85786,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -86146,7 +86028,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -86380,7 +86262,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -86462,7 +86344,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -86542,7 +86424,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -86630,7 +86512,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -86774,7 +86656,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -86984,7 +86866,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -87194,7 +87076,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -87400,7 +87282,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -87664,7 +87546,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -87930,7 +87812,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -88196,7 +88078,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -88472,7 +88354,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -88736,7 +88618,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -88978,7 +88860,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -89103,7 +88985,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -89339,7 +89221,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -89545,7 +89427,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -89682,7 +89564,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -89952,7 +89834,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -90222,7 +90104,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -90492,7 +90374,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -90762,7 +90644,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -91011,7 +90893,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -91299,7 +91181,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -91541,7 +91423,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -91783,7 +91665,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -92025,7 +91907,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -92269,7 +92151,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -92513,7 +92395,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -92646,7 +92528,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -92888,7 +92770,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -93008,7 +92890,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -93130,7 +93012,7 @@
      "usb_cdc"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -93272,7 +93154,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -93392,7 +93274,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -93634,7 +93516,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -93896,7 +93778,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -94176,7 +94058,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -94458,7 +94340,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -94738,7 +94620,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -95004,7 +94886,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -95270,7 +95152,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -95536,7 +95418,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -95802,7 +95684,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -96072,7 +95954,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -96344,7 +96226,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -96628,7 +96510,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -96898,7 +96780,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -97180,7 +97062,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -97446,7 +97328,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -97712,7 +97594,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -97986,7 +97868,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -98248,7 +98130,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -98526,7 +98408,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -98796,7 +98678,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -99072,7 +98954,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -99338,7 +99220,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -99604,7 +99486,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -99870,7 +99752,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -100140,7 +100022,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -100402,7 +100284,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -100649,7 +100531,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -100913,7 +100795,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -101122,7 +101004,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -101355,7 +101237,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -101592,7 +101474,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -101796,7 +101678,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -102000,7 +101882,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -102204,7 +102086,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -102408,7 +102290,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -102641,7 +102523,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -102911,7 +102793,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -103176,7 +103058,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -103441,7 +103323,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -103561,7 +103443,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -103681,7 +103563,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -103837,7 +103719,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -104105,7 +103987,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -104375,7 +104257,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -104657,7 +104539,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -104931,7 +104813,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -105145,7 +105027,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -105359,7 +105241,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -105573,7 +105455,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -105787,7 +105669,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -106001,7 +105883,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -106215,7 +106097,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -106457,7 +106339,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -106699,7 +106581,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -106971,7 +106853,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -107051,7 +106933,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -107131,7 +107013,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -107223,7 +107105,7 @@
      "time"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -107489,7 +107371,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -107702,7 +107584,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -107955,7 +107837,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -108192,7 +108074,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -108475,7 +108357,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -108725,7 +108607,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -108973,7 +108855,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -109208,7 +109090,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -109328,7 +109210,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -109452,7 +109334,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -109716,7 +109598,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -109984,7 +109866,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -110131,7 +110013,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -110249,7 +110131,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -110525,7 +110407,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -110681,7 +110563,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -110801,7 +110683,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -111037,7 +110919,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -111301,7 +111183,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -111420,7 +111302,7 @@
      "watchdog"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -111711,7 +111593,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -111994,7 +111876,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -112277,7 +112159,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -112433,7 +112315,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -112703,7 +112585,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -112951,7 +112833,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -113233,7 +113115,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -113517,7 +113399,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -113801,7 +113683,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -113955,7 +113837,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -114219,7 +114101,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -114461,7 +114343,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -114699,7 +114581,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -114963,7 +114845,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -115231,7 +115113,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -115351,7 +115233,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -115473,7 +115355,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -115625,7 +115507,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -115745,7 +115627,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -115865,7 +115747,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -116114,7 +115996,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -116363,7 +116245,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -116597,7 +116479,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -116829,7 +116711,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -117063,7 +116945,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -117327,7 +117209,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -117609,7 +117491,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -117807,7 +117689,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -118071,7 +117953,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -118321,7 +118203,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -118575,7 +118457,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -118742,7 +118624,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -119007,7 +118889,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -119249,7 +119131,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -119491,7 +119373,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -119571,7 +119453,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -119651,7 +119533,7 @@
      "zephyr_serial"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -119803,7 +119685,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -120015,7 +119897,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -120237,7 +120119,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -120434,7 +120316,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -120658,7 +120540,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -120888,7 +120770,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -121098,7 +120980,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -121252,7 +121134,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -121502,7 +121384,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -121767,7 +121649,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -122032,7 +121914,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -122297,7 +122179,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -122574,7 +122456,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -122851,7 +122733,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -123093,7 +122975,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -123306,7 +123188,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -123570,7 +123452,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -123842,7 +123724,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -124118,7 +124000,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -124350,7 +124232,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -124586,7 +124468,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -124828,7 +124710,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -125106,7 +124988,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -125313,7 +125195,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -125518,7 +125400,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -125760,7 +125642,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -125992,7 +125874,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -126112,7 +125994,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -126266,7 +126148,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -126533,7 +126415,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -126769,7 +126651,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -126891,7 +126773,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -127045,7 +126927,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -127319,7 +127201,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -127610,7 +127492,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -127899,7 +127781,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -128045,7 +127927,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -128324,7 +128206,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -128604,7 +128486,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -128883,7 +128765,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -129170,7 +129052,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -129457,7 +129339,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -129744,7 +129626,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -130033,7 +129915,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -130320,7 +130202,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -130609,7 +130491,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -130864,7 +130746,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -131133,7 +131015,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -131402,7 +131284,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -131684,7 +131566,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -131973,7 +131855,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -132262,7 +132144,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -132528,7 +132410,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -132800,7 +132682,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -133042,7 +132924,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -133290,7 +133172,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -133566,7 +133448,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -133849,7 +133731,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -134132,7 +134014,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -134403,7 +134285,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -134548,7 +134430,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -134827,7 +134709,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -135110,7 +134992,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -135387,7 +135269,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -135670,7 +135552,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -135949,7 +135831,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -136225,7 +136107,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -136491,7 +136373,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -136757,7 +136639,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -137023,7 +136905,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -137289,7 +137171,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -137553,7 +137435,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -137819,7 +137701,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -138085,7 +137967,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -138351,7 +138233,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -138617,7 +138499,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -138883,7 +138765,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -139153,7 +139035,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -139423,7 +139305,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -139693,7 +139575,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -139963,7 +139845,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -140233,7 +140115,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -140503,7 +140385,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -140773,7 +140655,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -141043,7 +140925,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -141290,7 +141172,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -141541,7 +141423,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -141807,7 +141689,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -142073,7 +141955,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -142220,7 +142102,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -142485,7 +142367,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -142615,7 +142497,7 @@
      "warnings"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -142799,7 +142681,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -143065,7 +142947,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -143333,7 +143215,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -143596,7 +143478,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -143868,7 +143750,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -144131,7 +144013,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -144272,7 +144154,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -144544,7 +144426,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -144658,7 +144540,7 @@
      "usb_midi"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -144770,7 +144652,7 @@
      "usb_hid"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -145057,7 +144939,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -145344,7 +145226,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  },
@@ -145616,7 +145498,7 @@
      "zlib"
     ],
     "stable": false,
-    "version": "10.0.0-beta.1"
+    "version": "10.0.0-beta.2"
    }
   ]
  }
