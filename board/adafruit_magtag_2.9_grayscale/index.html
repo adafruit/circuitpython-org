@@ -9,7 +9,7 @@
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
 <title>MagTag - 2.9" Grayscale E-Ink WiFi Display Download</title>
-<meta name="description" content="UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). CircuitPython 10.0.0-be..." />
+<meta name="description" content="UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). You must use CircuitPyt..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
@@ -19,7 +19,7 @@
 
 
 
-<meta property="og:description" content="UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). CircuitPython 10.0.0-beta.1 or later is needed to support the new display, and will still also support the old display on older MagTags. If you want to use 9.2.x o..." />
+<meta property="og:description" content="UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). You must use CircuitPython 10.0.0-beta.1 to support the new display. It will also work on older MagTags.The Adafruit MagTag combines the new ESP32-S2 wireless modu..." />
 
 
 
@@ -140,7 +140,7 @@
         <h1>MagTag - 2.9" Grayscale E-Ink WiFi Display by Adafruit</h1>
       </div>
       <div class="section">
-        <p><p><strong>UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). CircuitPython 10.0.0-beta.1 or later is needed to support the new display, and will still also support the old display on older MagTags. If you want to use 9.2.x or an older release on an older board, see the <em>Previous Versions of CircuitPython</em> box on this page.</strong></p>
+        <p><p><strong>UPDATE: The Adafruit MagTag has a new 2025 Edition!</strong> As of July 22, 2025, the display has been updated (the old one was discontinued). <strong>You must use CircuitPython 10.0.0-beta.1 to support the new display.</strong> It will also work on older MagTags.</p>
 
 <p>The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9” grayscale E-Ink display to make a low-power IoT display that can show data on its screen even when power is removed! The ESP32-S2 is great because it builds on the years of code and support for the ESP32 and also adds native USB support so you can use this board with Arduino <em>or</em> CircuitPython!</p>
 
@@ -204,6 +204,12 @@
       This is the latest <strong>stable</strong> release of CircuitPython that will work with the MagTag - 2.9" Grayscale E-Ink WiFi Display.
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
+    
+    <p>
+      <strong>WARNING: The updated Adafruit MagTag 2025 Edition will not work with Circuitpython 9.2.x or earlier</strong>.
+      Use 10.0.0-beta.1 or later, downloaded from below.
+    </p>
+    
     
     
     <p>
@@ -1040,12 +1046,12 @@
     </p>
     
       <p>
-        <strong>On Espressif ESP32-S2 and ESP32-S3 boards with 4MB flash,
-          CircuitPython 10.0.0-beta.0 and later require TinyUF2 bootloader version 0.33.0 or later.
-          Older TinyUF2 bootloaders don't provide enough room for the firmware and cannot load it.
-          See the
-          <a href="https://github.com/adafruit/circuitpython/releases/tag/10.0.0-beta.2">Release Notes</a>
-          for more details, and see <em>Update UF2 Bootloader</em> below.</strong>
+        <strong>WARNING: On Espressif ESP32-S2 and ESP32-S3 boards with 4MB flash,
+          CircuitPython 10.0.0-beta.0 and later require TinyUF2 bootloader version 0.33.0 or later.</strong>
+        Older TinyUF2 bootloaders don't provide enough room for the firmware and cannot load it.
+        See the
+        <a href="https://github.com/adafruit/circuitpython/releases/tag/10.0.0-beta.2">Release Notes</a>
+        for more details, and see <em>Update UF2 Bootloader</em> below.
       </p>
     
     <p>
