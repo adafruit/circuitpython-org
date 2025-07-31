@@ -21,7 +21,7 @@ features:
   - USB-C
 ---
 
-**UPDATE: The Adafruit MagTag has a new 2025 Edition! As of July 22, 2025, the display has been updated (the old one was discontinued). CircuitPython 10.0.0-beta.1 or later is needed to support the new display, and will still also support the old display on older MagTags. If you want to use 9.2.x or an older release on an older board, see the *Previous Versions of CircuitPython* box on this page.**
+**UPDATE: The Adafruit MagTag has a new 2025 Edition!** As of July 22, 2025, the display has been updated (the old one was discontinued). **You must use CircuitPython 10.0.0-beta.1 to support the new display.** It will also work on older MagTags.
 
 The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9" grayscale E-Ink display to make a low-power IoT display that can show data on its screen even when power is removed! The ESP32-S2 is great because it builds on the years of code and support for the ESP32 and also adds native USB support so you can use this board with Arduino _or_ CircuitPython!
 
