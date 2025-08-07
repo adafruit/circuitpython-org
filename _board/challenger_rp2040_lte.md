@@ -43,5 +43,6 @@ This board has been designed with portable applications in mind. By using the po
 
 ## Purchase
 
+* [Ilabs](https://ilabs.se/product/challenger-rp2040-lte/)
 * [Tindie](https://www.tindie.com/products/invector/challenger-rp2040-lte/)
 
