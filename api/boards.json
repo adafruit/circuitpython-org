@@ -3706,6 +3706,30 @@
         "description": "<p>The E-Fidget is a new kind of fidget spinner. It uses haptic feedback in the form of 8 vibrationmotors to simulate the feeling of spinning while not moving at all. This provides several benefits,including being able to be “spun” from inside of a pocket to reduce distraction, and much lower noise levels.It’s equipped with the venerable RP2040, and it’s 100% OSHW! Includes 16 MBits (2 Megabytes) of external QSPI flash.It’ll be available for purchase soon, or you can download the source files and order one today!</p><h2 id=\"more-info\">More Info</h2><p><a href=\"https://e-fidget.xyz\">Documentation</a></p><p><a href=\"https://github.com/2231puppy/E-Fidget\">Design Source</a></p><h2 id=\"purchase\">Purchase</h2><p>Coming soon! In the meantime, you can download the design sources from the link above and make one yourself!</p>"
     },
     {
+        "board_id": "omnimo_nrf52840",
+        "title": "Omnimo nRF52840 Download",
+        "name": "Omnimo nRF52840",
+        "board_url": [
+            "https://www.crowdsupply.com/eafaq/omnimo-nrf52840"
+        ],
+        "board_image": "eafaq_omnimo_nrf52840.jpg",
+        "date_added": "2025-07-10",
+        "family": "nrf52840",
+        "bootloader_id": "omnimo_nrf52840",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Feather-Compatible",
+            "Battery Charging",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/eafaq_omnimo_nrf52840/",
+        "description": "<p><strong>Omnimo nRF52840</strong> is a compact development board that features the Nordic’s <a href=\"https://www.nordicsemi.com/Products/nRF52840\">nRF52840</a> multiprotocol SoC. This chip supports a wide array of wireless protocols, including Bluetooth Low Energy, Bluetooth mesh, NFC, Thread, and Zigbee. The board is compatible with a wide range of add-on boards from the Feather, Qwiic, mikroBUS, and Pmod ecosystems.</p><p>With its robust wired and wireless capabilities and user-friendly design, Omnimo nRF52840 is ideal for projects centered around mobile applications. It is also suitable for a wide range of electronic and IoT projects and is compatible with beginner-friendly environments like CircuitPython and the industrial SDK, nRF Connect.</p><h2 id=\"features\">Features</h2><ul>  <li>Based on Nordic Semiconductor’s nRF52840 SoC, 1 MB Flash and 256KB RAM</li>  <li>Multi-protocol: Bluetooth LE, Bluetooth Mesh, Thread, NFC, ANT, Zigbee, and 2.4 GHz proprietary protocols</li>  <li>Interfaces: SPI, UART, I2C, I2S and USB</li>  <li>12-bit, 200 KSPS ADC - 8 channels</li>  <li>4 PWM channels</li>  <li>On-chip NFC-A tag for simplified pairing and payment solutions</li>  <li>1.8 V to 3.3 V regulated supply for external components</li>  <li>2 MB of QSPI Flash for storing CircuitPython files</li>  <li>26 GPIO pins, Feather-compatible layout</li>  <li>Multi-socket: mikroBUS, Pmod and Qwiic/Stemma QT</li>  <li>Battery connector to connect 3.7-4.2 V Lithium-polymer battery</li>  <li>On-board 3.3 V LDO regulator</li>  <li>Switchable VOUT to turn off modules when not in use</li>  <li>Side on/off switch</li>  <li>2 user-programmable LEDs, 1 NeoPixel RGB LED</li>  <li>2 user-programmable buttons</li>  <li>Side reset button</li>  <li>Three programming options: USB, SWD debug connector, or OTA</li>  <li>Supported programming tools: Arduino IDE, CircuitPython, and Nordic nRF Connect SDK</li></ul><h2 id=\"tutorials\">Tutorials</h2><ul>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-in-home-automation-abdfcd\">Omnimo nRF52840 in Home Automation</a></li>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-ble-enabled-t-h-8fd2e7\">Omnimo nRF52840 Dev Board: BLE-Enabled T&amp;H</a></li>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-air-quality-monitoring-d818be\">Omnimo nRF52840: Dev Board - Air Quality Monitoring</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.crowdsupply.com/eafaq/omnimo-nrf52840\">Crowdsupply</a></li></ul>"
+    },
+    {
         "board_id": "edgebadge",
         "title": "EdgeBadge Download",
         "name": "EdgeBadge",
