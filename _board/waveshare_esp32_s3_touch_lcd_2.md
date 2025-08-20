@@ -8,6 +8,8 @@ board_url:
  - "https://www.waveshare.com/esp32-s3-touch-lcd-2.htm"
 board_image: "waveshare_esp32_s3_touch_lcd_2.jpg"
 date_added: 2024-04-17
+bootloader_id: waveshare_esp32_s3_touch_lcd_2
+downloads_display: true
 family: esp32s3
 features:
   - USB-C
