@@ -7,6 +7,7 @@ manufacturer: "LILYGO"
 board_url:
  - "https://lilygo.cc/products/t-dongle-s3"
 board_image: "lilygo_tdongle_s3.jpg"
+bootloader_id: lilygo_tdongle_s3
 date_added: 2024-07-18
 family: esp32s3
 features:

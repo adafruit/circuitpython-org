@@ -7,6 +7,7 @@ manufacturer: "Waveshare"
 board_url:
  - "https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-matrix.htm"
 board_image: "waveshare_esp32_s3_matrix.jpg"
+bootloader_id: waveshare_esp32_s3_matrix
 date_added: 2025-01-27
 family: esp32s3
 features:
@@ -35,4 +36,3 @@ Waveshare Wiki [link](https://www.waveshare.com/wiki/ESP32-S3-Matrix).
 
 ## Purchase
 * [Waveshare](https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-s3-matrix.htm)
-

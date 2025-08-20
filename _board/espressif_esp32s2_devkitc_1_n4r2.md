@@ -7,6 +7,7 @@ manufacturer: "Espressif"
 board_url:
  - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-s2-devkitc-1.html"
 board_image: "espressif_esp32s2_devkitc_1_n4r2.jpg"
+bootloader_id: espressif_esp32s2_devkitc_1
 date_added: 2022-02-14
 family: esp32s2
 features:
