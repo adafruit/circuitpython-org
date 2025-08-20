@@ -22,7 +22,7 @@ features:
 
 **Omnimo nRF52840** is a compact development board that features the Nordic's [nRF52840](https://www.nordicsemi.com/Products/nRF52840) multiprotocol SoC. This chip supports a wide array of wireless protocols, including Bluetooth Low Energy, Bluetooth mesh, NFC, Thread, and Zigbee. The board is compatible with a wide range of add-on boards from the Feather, Qwiic, mikroBUS, and Pmod ecosystems.
 
-With its robust wired and wireless capabilities and user-friendly design, Omnimo nRF52840 is ideal for projects centered around mobile applications. It is also suitable for a wide range of electronic and IoT projects and is compatible with beginner-friendly environments like CircuitPython and the industrial SDK, nRF Connect.  
+With its robust wired and wireless capabilities and user-friendly design, Omnimo nRF52840 is ideal for projects centered around mobile applications. It is also suitable for a wide range of electronic and IoT projects and is compatible with beginner-friendly environments like CircuitPython and the industrial SDK, nRF Connect.
 
 ## Features
 
@@ -50,7 +50,7 @@ With its robust wired and wireless capabilities and user-friendly design, Omnimo
 
 - [Omnimo nRF52840 in Home Automation](https://www.hackster.io/eafaq/omnimo-nrf52840-in-home-automation-abdfcd)
 - [Omnimo nRF52840 Dev Board: BLE-Enabled T&H](https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-ble-enabled-t-h-8fd2e7)
-- [Omnimo nRF52840: Dev Board - Air Quality Monitoring](https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-air-quality-monitoring-d818be) 
+- [Omnimo nRF52840: Dev Board - Air Quality Monitoring](https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-air-quality-monitoring-d818be)
 
 ## Purchase
 * [Crowdsupply](https://www.crowdsupply.com/eafaq/omnimo-nrf52840)
