@@ -345,6 +345,18 @@
             }
         ]
     },
+    "unexpectedmaker_edges3d": {
+        "name": "Unexpected Maker EdgeS3[D]",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/unexpectedmaker_edges3d/tinyuf2-unexpectedmaker_edges3d-0.35.0.zip",
+        "releases": [
+            {
+                "version": "10.0.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_edges3d/en_US/adafruit-circuitpython-unexpectedmaker_edges3d-en_US-10.0.0-beta.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/unexpectedmaker_edges3d/en_US/adafruit-circuitpython-unexpectedmaker_edges3d-en_US-10.0.0-beta.2.uf2"
+            }
+        ]
+    },
     "m5stack_stick_c_plus2": {
         "name": "M5StickC PLUS ESP32-PICO Mini IoT",
         "chipfamily": "esp32",
@@ -1747,6 +1759,16 @@
             }
         ]
     },
+    "elecrow_crowpanel_3.5": {
+        "name": "Elecrow CrowPanel 3.5",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "10.0.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/elecrow_crowpanel_3.5/en_US/adafruit-circuitpython-elecrow_crowpanel_3.5-en_US-10.0.0-beta.2.bin"
+            }
+        ]
+    },
     "doit_esp32_devkit_v1": {
         "name": "DOIT ESP32 Development Board",
         "chipfamily": "esp32",
@@ -2837,6 +2859,18 @@
             }
         ]
     },
+    "m5stack_cardputer_ros": {
+        "name": "M5Stack CardPuter - M5StampS3 powered mini computer (MicroROS)",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/adafruit_feather_esp32s3_nopsram/tinyuf2-adafruit_feather_esp32s3_nopsram-0.35.0.zip",
+        "releases": [
+            {
+                "version": "10.0.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_cardputer_ros/en_US/adafruit-circuitpython-m5stack_cardputer_ros-en_US-10.0.0-beta.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_cardputer_ros/en_US/adafruit-circuitpython-m5stack_cardputer_ros-en_US-10.0.0-beta.2.uf2"
+            }
+        ]
+    },
     "adafruit_sparkle_motion": {
         "name": "Adafruit Sparkle Motion",
         "chipfamily": "esp32",
@@ -3349,6 +3383,18 @@
             {
                 "version": "10.0.0-beta.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32_devkitc_v4_wroom_32e/en_US/adafruit-circuitpython-espressif_esp32_devkitc_v4_wroom_32e-en_US-10.0.0-beta.2.bin"
+            }
+        ]
+    },
+    "espressif_esp32s3_devkitc_1_n8r2_ros": {
+        "name": "ESP32-S3-DevKitC-1-N8R2 (MicroROS)",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/espressif_esp32s3_devkitc_1/tinyuf2-espressif_esp32s3_devkitc_1-0.35.0.zip",
+        "releases": [
+            {
+                "version": "10.0.0-beta.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_devkitc_1_n8r2_ros/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8r2_ros-en_US-10.0.0-beta.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_devkitc_1_n8r2_ros/en_US/adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8r2_ros-en_US-10.0.0-beta.2.uf2"
             }
         ]
     },

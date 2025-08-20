@@ -3706,30 +3706,6 @@
         "description": "<p>The E-Fidget is a new kind of fidget spinner. It uses haptic feedback in the form of 8 vibrationmotors to simulate the feeling of spinning while not moving at all. This provides several benefits,including being able to be “spun” from inside of a pocket to reduce distraction, and much lower noise levels.It’s equipped with the venerable RP2040, and it’s 100% OSHW! Includes 16 MBits (2 Megabytes) of external QSPI flash.It’ll be available for purchase soon, or you can download the source files and order one today!</p><h2 id=\"more-info\">More Info</h2><p><a href=\"https://e-fidget.xyz\">Documentation</a></p><p><a href=\"https://github.com/2231puppy/E-Fidget\">Design Source</a></p><h2 id=\"purchase\">Purchase</h2><p>Coming soon! In the meantime, you can download the design sources from the link above and make one yourself!</p>"
     },
     {
-        "board_id": "omnimo_nrf52840",
-        "title": "Omnimo nRF52840 Download",
-        "name": "Omnimo nRF52840",
-        "board_url": [
-            "https://www.crowdsupply.com/eafaq/omnimo-nrf52840"
-        ],
-        "board_image": "eafaq_omnimo_nrf52840.jpg",
-        "date_added": "2025-07-10",
-        "family": "nrf52840",
-        "bootloader_id": "omnimo_nrf52840",
-        "tags": [
-        ],
-        "features": [
-            "Bluetooth/BTLE",
-            "Feather-Compatible",
-            "Battery Charging",
-            "STEMMA QT/QWIIC",
-            "USB-C",
-            "Breadboard-Friendly"
-        ],
-        "url_path": "/board/eafaq_omnimo_nrf52840/",
-        "description": "<p><strong>Omnimo nRF52840</strong> is a compact development board that features the Nordic’s <a href=\"https://www.nordicsemi.com/Products/nRF52840\">nRF52840</a> multiprotocol SoC. This chip supports a wide array of wireless protocols, including Bluetooth Low Energy, Bluetooth mesh, NFC, Thread, and Zigbee. The board is compatible with a wide range of add-on boards from the Feather, Qwiic, mikroBUS, and Pmod ecosystems.</p><p>With its robust wired and wireless capabilities and user-friendly design, Omnimo nRF52840 is ideal for projects centered around mobile applications. It is also suitable for a wide range of electronic and IoT projects and is compatible with beginner-friendly environments like CircuitPython and the industrial SDK, nRF Connect.</p><h2 id=\"features\">Features</h2><ul>  <li>Based on Nordic Semiconductor’s nRF52840 SoC, 1 MB Flash and 256KB RAM</li>  <li>Multi-protocol: Bluetooth LE, Bluetooth Mesh, Thread, NFC, ANT, Zigbee, and 2.4 GHz proprietary protocols</li>  <li>Interfaces: SPI, UART, I2C, I2S and USB</li>  <li>12-bit, 200 KSPS ADC - 8 channels</li>  <li>4 PWM channels</li>  <li>On-chip NFC-A tag for simplified pairing and payment solutions</li>  <li>1.8 V to 3.3 V regulated supply for external components</li>  <li>2 MB of QSPI Flash for storing CircuitPython files</li>  <li>26 GPIO pins, Feather-compatible layout</li>  <li>Multi-socket: mikroBUS, Pmod and Qwiic/Stemma QT</li>  <li>Battery connector to connect 3.7-4.2 V Lithium-polymer battery</li>  <li>On-board 3.3 V LDO regulator</li>  <li>Switchable VOUT to turn off modules when not in use</li>  <li>Side on/off switch</li>  <li>2 user-programmable LEDs, 1 NeoPixel RGB LED</li>  <li>2 user-programmable buttons</li>  <li>Side reset button</li>  <li>Three programming options: USB, SWD debug connector, or OTA</li>  <li>Supported programming tools: Arduino IDE, CircuitPython, and Nordic nRF Connect SDK</li></ul><h2 id=\"tutorials\">Tutorials</h2><ul>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-in-home-automation-abdfcd\">Omnimo nRF52840 in Home Automation</a></li>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-ble-enabled-t-h-8fd2e7\">Omnimo nRF52840 Dev Board: BLE-Enabled T&amp;H</a></li>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-air-quality-monitoring-d818be\">Omnimo nRF52840: Dev Board - Air Quality Monitoring</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.crowdsupply.com/eafaq/omnimo-nrf52840\">Crowdsupply</a></li></ul>"
-    },
-    {
         "board_id": "edgebadge",
         "title": "EdgeBadge Download",
         "name": "EdgeBadge",
@@ -3771,6 +3747,29 @@
         ],
         "url_path": "/board/elecfreaks_picoed/",
         "description": "<p>The <strong>Pico:ed</strong> is a development board based on <strong>Raspberry Pi RP2040 MCU</strong>. It uses dual-core Arm Cortex-M0+ processor with 264KB RAM. The front of the board contains two buttons and a 7x17 dot matrix screen, which can be conveniently used for classroom teaching.</p><h2 id=\"so-why-choose-picoed\">So why choose Pico:ed?</h2><ul>  <li>A development board based on RP2040. Make it easier to use our Pico:ed in the classroom.</li>  <li>Wavy edge connector to connect to devices without soldering.</li>  <li>7x17 LED fully programmable display. Can display text, numbers, and images.</li>  <li>Two programmable buttons and logo LED.</li>  <li>There is a button that can be reset directly RP2040.</li>  <li>Designed by Raspberry Pi, RP2040 features a dual-core Arm Cortex-M0+ processor with 264kB internal RAM and support for up to 16MB of off-chip flash.</li>  <li>A buzzer for playing beeps and tones.</li></ul><h2 id=\"features\">Features</h2><ol>  <li>Raspberry Pi RP2040 Chip</li>  <li>7x17 LED matrix screen</li>  <li>Built-in LED</li>  <li>Built-in buzzer</li>  <li>2 programmable buttons</li>  <li>USB &amp; battery connector</li>  <li>Power status LED</li>  <li>Bootsel &amp; reset button</li>  <li>25-pins notched edge connector</li>  <li>Exquisite design</li></ol><h2 id=\"specifications\">Specifications</h2><ul>  <li>MCU: RP2040</li>  <li>SRAM: 264kB</li>  <li>Flash: 2MB</li>  <li>Programmable IO: 19 Pcs</li>  <li>Onboard Device: Buzzer, LED, 7x17 LED matrix, 2 Buttons</li>  <li>Program Language: CircuitPython/MicroPython，C++</li>  <li>Size: About 52mm x 42mm</li>  <li>Net Weight: 10g</li></ul><h2 id=\"documentations\">Documentations</h2><ul>  <li><a href=\"https://www.elecfreaks.com/learn-en/pico-ed/index.html\">Click here for Getting Started with Pico:ed.</a></li>  <li><a href=\"https://docs.circuitpython.org/\">Click here for Getting Started with CircuitPython.</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.elecfreaks.com/elecfreaks-pico-ed-v2.html\">ELECFREAKS</a></li></ul>"
+    },
+    {
+        "board_id": "elecrow_crowpanel_3.5",
+        "title": "Elecrow CrowPanel ESP32 3.5 TFT",
+        "name": "Elecrow CrowPanel 3.5",
+        "board_url": [
+            "https://www.elecrow.com/esp32-display-3-5-inch-hmi-display-spi-tft-lcd-touch-screen.html"
+        ],
+        "board_image": "elecrow_crowpanel_4_2_epaper.jpg",
+        "date_added": "2025-08-16",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Battery Charging",
+            "Display",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/elecrow_crowpanel_3.5/",
+        "description": "<p>CrowPanel ESP32 Display 3.5-inch module is a powerful HMI touch screen with a 480*320 resolution LCD display. It uses the ESP32-WROOM-32 module as the main control processor, with a dual-core 32-bit LX6 microprocessor, integrated WiFi and Bluetooth-compatible wireless functions, a main frequency of up to 240MHz, providing powerful performance and versatile applications, suitable for IoT application devices and other scenes.</p><p>The module includes a 3.5-inch LCD display and a driver board. The display screen uses resistive touch technology and comes with a resistive touch pen, making the screen usage more flexible. In addition, the board has reserved a TF card slot, multiple peripheral interfaces, USB interface, speaker interface, battery interface, etc., providing more expansion possibilities.  It supports development environments such as Arduino IDE, Espressif IDF, Lua RTOS, and Micro Python, and is compatible with the <strong><a href=\"https://lvgl.io/\">LVGL</a></strong> graphics library, supports <strong><a href=\"https://www.openhasp.com/0.7.0/hardware/elecrow/crowpanel-hmi-spi/\">openHASP</a></strong>. This enables developers to not only customize their own UI interfaces but also to create interesting projects quickly and easily, greatly shortening the development cycle.</p><p>The CrowPanel ESP32 Display 3.5-inch module is suitable for a wide range of scenes such as automotive HMI, medical equipment, smart home, industrial control, power, civil electronics, home automation, new energy, and IoT application devices. Its various interfaces and expansion functions make it able to meet the needs of different fields, providing users with a more comprehensive solution. This 3.5” display also supports tactility.</p><h2 id=\"specifications\">Specifications</h2><ul>  <li>Model: 3.5 inches module-CrowPanel ESP32 display</li>  <li>Main Processor: ESP32-WROVER-B</li>  <li>Resolution: 480*320</li>  <li>Touch Type: Resistive Touch Screen</li>  <li>Display Type: TN Panel</li>  <li>Screen: TFT-LCD Screen</li>  <li>Display driver: ILI9488</li>  <li>External power supply: DC5V-2A</li>  <li>Interface: 1<em>TF Card Slot, 1</em> I2C, 1* GPIO, 1<em>Speak, 1</em> UART1, 1*UART0</li>  <li>Button: BOOT Button and Reset Button</li>  <li>Active Area: 48.96<em>73.44mm(W</em>H)</li>  <li>Working Temperature: -20℃～70℃</li>  <li>Storage Temperature: -30℃～80℃</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.elecrow.com/esp32-display-3-5-inch-hmi-display-spi-tft-lcd-touch-screen.html\">Elecrow</a></li></ul>"
     },
     {
         "board_id": "elecrow_crowpanel_4_2_epaper",
@@ -4317,6 +4316,27 @@
             "Breadboard-Friendly"
         ],
         "url_path": "/board/espressif_esp32s3_devkitc_1_n8r2/",
+        "description": "<p>The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. <strong>This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 8MB Flash and 2MB PSRAM.</strong></p><p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there’s a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.</p><p>At the core of the module is an ESP32-S3FN8, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds.</p><p>ESP32-S3FN8 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/Jtag, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1, i.e. CAN Specification 2.0), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p><p>There are three mutually exclusive ways to provide power to the board:</p><ul>  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>  <li>5V and G (GND) pins</li>  <li>3v3 and G (GND) pins</li></ul><p><strong>Components:</strong></p><ul>  <li><strong>ESP32-S3-WROOM-1</strong>: ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-WROOM-1 comes with a PCB antenna.</li>  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href=\"https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks\">Header Block</a>.</li>  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>  <li><strong>Reset Button</strong></li>  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO48.</li>  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5310\">Adafruit</a></li></ul>"
+    },
+    {
+        "board_id": "espressif_esp32s3_devkitc_1_n8r2_ros",
+        "title": "ESP32-S3-DevKitC-1-N8R2 (MicroROS) Download",
+        "name": "ESP32-S3-DevKitC-1-N8R2 (MicroROS)",
+        "board_url": [
+            "https://www.adafruit.com/product/5310"
+        ],
+        "board_image": "espressif_esp32s3_devkitc_1.jpg",
+        "date_added": "2025-08-18",
+        "family": "esp32s3",
+        "bootloader_id": "espressif_esp32s3_devkitc_1",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/espressif_esp32s3_devkitc_1_n8r2_ros/",
         "description": "<p>The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. <strong>This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 8MB Flash and 2MB PSRAM.</strong></p><p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there’s a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.</p><p>At the core of the module is an ESP32-S3FN8, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds.</p><p>ESP32-S3FN8 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/Jtag, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1, i.e. CAN Specification 2.0), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p><p>There are three mutually exclusive ways to provide power to the board:</p><ul>  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>  <li>5V and G (GND) pins</li>  <li>3v3 and G (GND) pins</li></ul><p><strong>Components:</strong></p><ul>  <li><strong>ESP32-S3-WROOM-1</strong>: ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-WROOM-1 comes with a PCB antenna.</li>  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href=\"https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks\">Header Block</a>.</li>  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>  <li><strong>Reset Button</strong></li>  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO48.</li>  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5310\">Adafruit</a></li></ul>"
     },
     {
@@ -6675,6 +6695,30 @@
         "description": "<p>Cardputer is a card-sized portable computer that is perfect for engineers. At the heart of Cardputer is the M5StampS3, a mini development board based on the ESP32-S3 chip. Cardputer features a powerful dual-core processor, supports Wi-Fi functionality and integrates various peripherals and sensors, making it ideal for rapid functional verification, industrial control and home automation systems.</p><p>The device is powered by an internal 120mAh+1400mAh (in the base) lithium battery solution, eliminating concerns about battery life. In addition, Cardputer has built-in battery charging and voltage regulation circuits that automatically adjust voltage and current to protect the battery and the device. The base of the Cardputer incorporates a magnet, allowing it to be attached to metal surfaces such as fridges or whiteboards. What’s more, Cardputer’s structure is compatible with Lego hole extensions, allowing users to create even more interesting designs using Lego bricks.</p><h3 id=\"features\">Features</h3><ul>  <li>Display: IPS LCD, 1,14”, 240x135px</li>  <li>Battery: internal 120mAh + 1400mAh (in the base) lithium battery</li>  <li>TF-Card (MicroSD) slot</li>  <li>1 USB-C OTG in/out</li>  <li>Keyboard: 56 keys, QWERTY type, ortholinear with tactile click switches</li>  <li>Infrared ∠0° : 410cm, &lt; 90° : 66cm, &lt; 45° : 170cm</li>  <li>Digital MEMS Microphone</li>  <li>Sound: I2S-Speaker, 8Ω@1W</li>  <li>HY2.0-4P interface for expanding I2C sensors</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/Cardputer\">Cardputer</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/m5stack-cardputer-kit-w-m5stamps3\">M5Stack</a></li></ul>"
     },
     {
+        "board_id": "m5stack_cardputer_ros",
+        "title": "M5Stack CardPuter - M5StampS3 powered mini computer (MicroROS) Download",
+        "name": "M5Stack CardPuter - M5StampS3 powered mini computer (MicroROS)",
+        "board_url": [
+            "https://docs.m5stack.com/en/core/Cardputer"
+        ],
+        "board_image": "m5stack_cardputer.jpg",
+        "date_added": "2025-08-18",
+        "family": "esp32s3",
+        "bootloader_id": "adafruit_feather_esp32s3_nopsram",
+        "tags": [
+        ],
+        "features": [
+            "Speaker",
+            "Battery Charging",
+            "Display",
+            "Wi-Fi",
+            "USB-C",
+            "Bluetooth/BTLE"
+        ],
+        "url_path": "/board/m5stack_cardputer_ros/",
+        "description": "<p>Cardputer is a card-sized portable computer that is perfect for engineers. At the heart of Cardputer is the M5StampS3, a mini development board based on the ESP32-S3 chip. Cardputer features a powerful dual-core processor, supports Wi-Fi functionality and integrates various peripherals and sensors, making it ideal for rapid functional verification, industrial control and home automation systems.</p><p>The device is powered by an internal 120mAh+1400mAh (in the base) lithium battery solution, eliminating concerns about battery life. In addition, Cardputer has built-in battery charging and voltage regulation circuits that automatically adjust voltage and current to protect the battery and the device. The base of the Cardputer incorporates a magnet, allowing it to be attached to metal surfaces such as fridges or whiteboards. What’s more, Cardputer’s structure is compatible with Lego hole extensions, allowing users to create even more interesting designs using Lego bricks.</p><h3 id=\"features\">Features</h3><ul>  <li>Display: IPS LCD, 1,14”, 240x135px</li>  <li>Battery: internal 120mAh + 1400mAh (in the base) lithium battery</li>  <li>TF-Card (MicroSD) slot</li>  <li>1 USB-C OTG in/out</li>  <li>Keyboard: 56 keys, QWERTY type, ortholinear with tactile click switches</li>  <li>Infrared ∠0° : 410cm, &lt; 90° : 66cm, &lt; 45° : 170cm</li>  <li>Digital MEMS Microphone</li>  <li>Sound: I2S-Speaker, 8Ω@1W</li>  <li>HY2.0-4P interface for expanding I2C sensors</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/Cardputer\">Cardputer</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/m5stack-cardputer-kit-w-m5stamps3\">M5Stack</a></li></ul>"
+    },
+    {
         "board_id": "m5stack_core2",
         "title": "Core2 ESP32 IoT Download",
         "name": "Core2 ESP32 IoT",
@@ -8038,6 +8082,30 @@
         ],
         "url_path": "/board/ohs2020_badge/",
         "description": "<p>This is the badge for the Open Hardware Summit in NYC on on March 13th.<a href=\"https://2020.oshwa.org/\">Conference Link</a></p><p>It is going to be in a wrist watch form factor with several awesome features.</p><ul>  <li>Rigado BMD340 (Nordic nRF52840)</li>  <li>1.54” LCD</li>  <li>4 user buttons</li>  <li>BME680 Temperature, Pressure, and Humidity sensor</li>  <li>APDS-9960 Gesture Sensor</li>  <li>LSM9DS1 9DoF IMU</li>  <li>SPH0645LM4H-B Microphone (Optional)</li>  <li>Sparkfun QWIIC connector</li>  <li>LiPo Charger</li></ul><h2 id=\"purchase\">Purchase</h2><p>Not available for direct purchase.The badge will be given to all attendees of the Open Hardware Summit!</p>"
+    },
+    {
+        "board_id": "omnimo_nrf52840",
+        "title": "Omnimo nRF52840 Download",
+        "name": "Omnimo nRF52840",
+        "board_url": [
+            "https://www.crowdsupply.com/eafaq/omnimo-nrf52840"
+        ],
+        "board_image": "eafaq_omnimo_nrf52840.jpg",
+        "date_added": "2025-07-10",
+        "family": "nrf52840",
+        "bootloader_id": "omnimo_nrf52840",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Feather-Compatible",
+            "Battery Charging",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/omnimo_nrf52840/",
+        "description": "<p><strong>Omnimo nRF52840</strong> is a compact development board that features the Nordic’s <a href=\"https://www.nordicsemi.com/Products/nRF52840\">nRF52840</a> multiprotocol SoC. This chip supports a wide array of wireless protocols, including Bluetooth Low Energy, Bluetooth mesh, NFC, Thread, and Zigbee. The board is compatible with a wide range of add-on boards from the Feather, Qwiic, mikroBUS, and Pmod ecosystems.</p><p>With its robust wired and wireless capabilities and user-friendly design, Omnimo nRF52840 is ideal for projects centered around mobile applications. It is also suitable for a wide range of electronic and IoT projects and is compatible with beginner-friendly environments like CircuitPython and the industrial SDK, nRF Connect.</p><h2 id=\"features\">Features</h2><ul>  <li>Based on Nordic Semiconductor’s nRF52840 SoC, 1 MB Flash and 256KB RAM</li>  <li>Multi-protocol: Bluetooth LE, Bluetooth Mesh, Thread, NFC, ANT, Zigbee, and 2.4 GHz proprietary protocols</li>  <li>Interfaces: SPI, UART, I2C, I2S and USB</li>  <li>12-bit, 200 KSPS ADC - 8 channels</li>  <li>4 PWM channels</li>  <li>On-chip NFC-A tag for simplified pairing and payment solutions</li>  <li>1.8 V to 3.3 V regulated supply for external components</li>  <li>2 MB of QSPI Flash for storing CircuitPython files</li>  <li>26 GPIO pins, Feather-compatible layout</li>  <li>Multi-socket: mikroBUS, Pmod and Qwiic/Stemma QT</li>  <li>Battery connector to connect 3.7-4.2 V Lithium-polymer battery</li>  <li>On-board 3.3 V LDO regulator</li>  <li>Switchable VOUT to turn off modules when not in use</li>  <li>Side on/off switch</li>  <li>2 user-programmable LEDs, 1 NeoPixel RGB LED</li>  <li>2 user-programmable buttons</li>  <li>Side reset button</li>  <li>Three programming options: USB, SWD debug connector, or OTA</li>  <li>Supported programming tools: Arduino IDE, CircuitPython, and Nordic nRF Connect SDK</li></ul><h2 id=\"tutorials\">Tutorials</h2><ul>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-in-home-automation-abdfcd\">Omnimo nRF52840 in Home Automation</a></li>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-ble-enabled-t-h-8fd2e7\">Omnimo nRF52840 Dev Board: BLE-Enabled T&amp;H</a></li>  <li><a href=\"https://www.hackster.io/eafaq/omnimo-nrf52840-dev-board-air-quality-monitoring-d818be\">Omnimo nRF52840: Dev Board - Air Quality Monitoring</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.crowdsupply.com/eafaq/omnimo-nrf52840\">Crowdsupply</a></li></ul>"
     },
     {
         "board_id": "openbook_m4",
@@ -10066,6 +10134,24 @@
         "description": "<p>The XIAO RP2350 packs the power of the Raspberry Pi RP2350 (switchable architecture of dual Arm Cortex-M33 cores running at 150MHz with FPU, and dual open-hardware Hazard3 RISC‑V cores, enhanced security and encryption) into the classic XIAO form factor. Measuring just 21x17.8102010550mm, it features 19 multifunction GPIOs, an RGB LED, and a Battery Management System with ultra-low power consumption of 27μA, battery power supply, and direct battery voltage measurement. Thanks to the XIAO ecosystem, the XIAO RP2350 is compatible with a wide range of add-ons, including displays, LED matrix, Grove modules, CAN Bus, Vision AI sensors, and mmWave sensors. With native support for MicroPython, C, and C++, the XIAO RP2350 is perfect for developers of all levels looking to create compact, battery-powered applications for smart control, wearables, DIY keyboards, and more.</p><p>Interfaces:</p><ul>  <li>19 Pins</li>  <li>3 Analog</li>  <li>19 Digital</li>  <li>2 I²C</li>  <li>2 UART</li>  <li>2 SPI</li>  <li>All PWM</li></ul><h2 id=\"tutorial\">Tutorial</h2><ul>  <li><a href=\"https://wiki.seeedstudio.com/getting-started-xiao-rp2350/#seeed-studio-xiao-rp2350\">Seeed Wiki Getting Started</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.seeedstudio.com/Seeed-XIAO-RP2350-p-5944.html\">Seeed Studio</a></li></ul>"
     },
     {
+        "board_id": "sensebox_eye_esp32s3",
+        "title": "senseBox-eye with ESP32S3 Download",
+        "name": "senseBox-eye with ESP32S3",
+        "board_url": [
+            "https://sensebox.de/"
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2025-08-18",
+        "family": "esp32s3",
+        "bootloader_id": "ESP32S3-senseBox-eye",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/sensebox_eye_esp32s3/",
+        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+    },
+    {
         "board_id": "sensebox_mcu",
         "title": "senseBox MCU Download",
         "name": "senseBox MCU",
@@ -11698,6 +11784,26 @@
         "description": "<p>Coming Soon!</p>"
     },
     {
+        "board_id": "unexpectedmaker_edges3d",
+        "title": "Unexpected Maker EdgeS3[D] Download",
+        "name": "Unexpected Maker EdgeS3[D]",
+        "board_url": [
+            "https://unexpectedmaker.com/shop.html#!/EdgeS3-D"
+        ],
+        "board_image": "unexpectedmaker_edges3d.jpg",
+        "date_added": "2025-08-18",
+        "family": "esp32s3",
+        "bootloader_id": "unexpectedmaker_edges3d",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/unexpectedmaker_edges3d/",
+        "description": "<p>Introducing the EdgeS3[D] - The ultimate REUSABLE ESP32-S3 Development Board</p><p>EdgeS3[D] includes an onboard antenna and a u.FL connector for an external antenna on the same board, and you can switch which antenna to use via the RF switch on the fly from inside your code!</p><p>The onboard antenna is selected by default, so you never need to worry about the RF switch being in a bad state, or the ESP32-S3 getting damaged if you forget to plug in an external antenna.</p><h3 id=\"features--specifications\">Features &amp; Specifications**</h3><ul>  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>  <li>RISC-V Ultra Low Power Co-processor</li>  <li>2.4GHz Wifi - 802.11b/g/n</li>  <li>Bluetooth 5, BLE + Mesh</li>  <li>8MB QSPI Flash</li>  <li><strong>2MB of extra QSPI PSRAM</strong></li>  <li>700mA 3.3V LDO Regulator</li>  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>  <li>Native USB + USB Serial JTAG</li>  <li>LiPo Battery Charging</li>  <li><strong>NEW</strong> I2C Battery Fuel Gauge</li>  <li><strong>NEW</strong> 3D High Gain Antenna AND u.FL connector&lt;</li>  <li>29 + 8 GPIO via IO Expander</li>  <li>M.2 B-Key Edge Connector</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://unexpectedmaker.com/shop.html#!/EdgeS3-D\">Unexpected Maker</a></li></ul>"
+    },
+    {
         "board_id": "unexpectedmaker_feathers2",
         "title": "Unexpected Maker FeatherS2 Download",
         "name": "Unexpected Maker FeatherS2",
@@ -12886,6 +12992,24 @@
         ],
         "url_path": "/board/weact_studio_pico_16mb/",
         "description": "<p>The Raspberry Pi Pico is a microcontroller board based on the Raspberry Pi RP2040 microcontroller chip. It has been designed to be a low-cost, high-performance microcontroller board with flexible digital interfaces. The Raspberry Pi Pico features two ARM Cortex-M0+ cores run up to 133MHz; 256KB RAM; 30 GPIO pins; and a broad range of interfacing options. This is paired with 2MB/4MB/8MB/16MB of onboard QSPI Flash memory for code and data storage.</p><p><strong>Specifications:</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 2MB/4MB/8MB/16MB of on-board Flash memory</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/3256803521775546.html?skuId=12000026898823783\">Aliexpress</a></li></ul>"
+    },
+    {
+        "board_id": "weenoisemakers_noisenugget",
+        "title": "Noise Nugget 2040 Download",
+        "name": "Noise Nugget 2040",
+        "board_url": [
+            "https://weenoisemakers.com/noise-nugget-2040/"
+        ],
+        "board_image": "weenoisemakers_noisenugget.jpg",
+        "date_added": "2025-08-18",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/weenoisemakers_noisenugget/",
+        "description": "<p>Noise Nugget 2040 handles all the complexity of digital HD audio synthesis in a very compact, production friendly, and affordable package. Allowing you to focus on what makes your ideas unique.</p><h2 id=\"features\">Features</h2><ul>  <li>Powerful CPU:    <ul>      <li>Raspberry-Pi RP2040</li>      <li>Dual-core Arm Cortex-M0+ at 200MHz</li>      <li>16MB of flash memory</li>      <li>264KB of RAM</li>      <li>24 GPIO pins (+2 reserved for I2C)</li>      <li>Up to 10 MIDI in and out</li>    </ul>  </li>  <li>Stereo Speaker Amplifier:    <ul>      <li>2.1W per channel into 4Ω at 5V</li>      <li>1.7W per channel into 8Ω at 5V</li>      <li>Gain of 6, 12, 18, or 24 dB</li>    </ul>  </li>  <li>HD Audio Interface:    <ul>      <li>Up to 24-bit at 96kHz</li>      <li>Stereo headphone output</li>      <li>Stereo line output</li>      <li>3 x stereo inputs (line level or microphone)</li>    </ul>  </li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://weenoisemakers.com/noise-nugget-2040/\">Documentation</a></li></ul>"
     },
     {
         "board_id": "wemos_lolin32_lite",

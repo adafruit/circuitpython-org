@@ -4,9 +4,474 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 20 Aug 2025 08:50:10 -0400</lastBuildDate>
+<lastBuildDate>Wed, 20 Aug 2025 08:51:16 -0400</lastBuildDate>
 
 <item>
+    <title>Rock X4</title>
+    <link>https://circuitpython.org/blinka/radxa_x4/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/radxa_x4.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/radxa_x4.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/radxa_x4.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Radxa Limited</p> <p>Intel N100 powered, high performance and competitive priced SBC by RADXA</p>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Intel® Processor N100 (Alder Lake‑N)
+    <ul>
+      <li>Total Cores: 4</li>
+      <li>Total Threads: 4</li>
+      <li>Max Turbo Frequency: 3.40 GHz</li>
+      <li>Cache: 6 MB Intel® Smart Cache</li>
+      <li>Intel® Gaussian &amp; Neural Accelerator 3.0</li>
+      <li>Intel® Image Processing Unit 6.0</li>
+      <li>Support for Intel® Virtualization Technology</li>
+    </ul>
+  </li>
+  <li>Intel® UHD Graphics
+    <ul>
+      <li>Graphics Max Dynamic Frequency: 750 MHz</li>
+      <li>DirectX Support: 12.1</li>
+      <li>OpenGL Support: 4.6</li>
+      <li>OpenCL Support: 3.0</li>
+    </ul>
+  </li>
+  <li>LPDDR5 RAM</li>
+  <li>4GB /8GB /16GB option</li>
+  <li>Optional Onboard eMMC</li>
+  <li>SPI Flash for BIOS</li>
+  <li>Dual Display
+    <ul>
+      <li>output via 2 Micro HDMI ports up to 4Kp60</li>
+    </ul>
+  </li>
+  <li>Audio
+    <ul>
+      <li>3.5mm headphone jack with mic input</li>
+    </ul>
+  </li>
+  <li>Wireless (optional)
+    <ul>
+      <li>IEEE 802.11 a/b/g/n/ac/ax (WiFi 6) and Bluetooth 5.2 with BLE</li>
+      <li>IEEE 802.11 a/b/g/n/ac (WiFi 5) and Bluetooth 5.0 with BLE</li>
+    </ul>
+  </li>
+  <li>1x M.2 M Key Connector with PCIe 3.0 4-lane for M2 2230 NVMe SSD</li>
+  <li>3x USB 3.0 5Gbps Type A HOST Ports</li>
+  <li>1x USB 2.0 Type A HOST port</li>
+  <li>1x 2.5 GbE LAN Port with PoE support (via optional PoE hat)</li>
+  <li>The 40-pin expansion header, provided via RP2040, is compatible with many accessories which where developed for the SBC market.</li>
+  <li>up to 2 x UART</li>
+  <li>up to 2 x SPI</li>
+  <li>up to 2 x I2C</li>
+  <li>up to 16x PWM</li>
+  <li>up to 8 x PIO (Programmable IO)</li>
+  <li>1 x 5V DC power in/out</li>
+  <li>2 x 3.3V DC power out</li>
+  <li>RTC Battery Socket</li>
+  <li>2-pin 1.25mm Fan Header</li>
+  <li>1x power button</li>
+  <li>1x BOOTSEL button for RP2040</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<p><a href="https://radxa.com/products/x/x4/">Radxa</a></p>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/radxa_x4/</guid>
+  </item><item>
+    <title>Particle Tachyon</title>
+    <link>https://circuitpython.org/blinka/particle_tachyon/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/particle_tachyon.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/particle_tachyon.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/particle_tachyon.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Particle</p> <p>Tachyon is a 5G-connected single-board computer (SBC) that takes the technology inside a modern smartphone and packs it into a Raspberry Pi form factor to power portable and remote computing devices. With a powerful Qualcomm Snapdragon SoC, an AI accelerator, and Particle’s edge-to-cloud IoT infrastructure, Tachyon combines all of the edge computing power, connectivity, and software necessary to embed intelligence into anything, anywhere.</p>
+
+<p>At the heart of Tachyon is the Qualcomm Dragonwing QCM6490 — an SoC that takes the power of a Dragonwing and packages it into an IoT-friendly package with upstream Linux support and a 10-year longevity guarantee.</p>
+
+<p>The Dragonwing QCM6490 features an octa-core Qualcomm Kryo CPU, making Tachyon one of the most powerful single-board computers on the market. In addition, Tachyon has a Qualcomm Adreno 643 GPU and a Qualcomm Hexagon 770 DSP containing an AI accelerator capable of delivering 12 TOPS. It can drive 4K displays, consume high resolution video from two cameras, and run powerful AI/ML models to detect objects in video streams, classify sounds in audio streams, and process language.</p>
+
+<p>Tachyon is capable of doing real work wherever you deploy it — at home, at work, or far afield.</p>
+
+<p>Upgrading the processor is only the beginning. We want to make it easy to deploy these things anywhere, and that means blazing-fast 5G connectivity.</p>
+
+<p>Not only does Tachyon come with 5G connectivity operating at up to 2.5Gbs (with LTE fallback and an integrated custom cellular antenna!), but it comes pre-loaded with Particle’s embedded EtherSIM+ with free cellular telemetry and an optional low-cost data plan (more details below).</p>
+
+<p>Sending gobs of data? Don’t worry, Tachyon has a Wi-Fi 6E connection for blazing fast connectivity over your Wi-Fi network, again with a built-in antenna.</p>
+
+<p>Tachyon is a powerful computer in its own right, but it really comes alive when connecting displays, cameras, sensors, and other peripherals.</p>
+
+<p>But where are the usual big blocky USB and Ethernet ports, you ask? Well, don’t let the fancy cellular antenna make you think we forgot about wires and cables. Tachyon has dual USB-C connectors, automatically operating in both device and host modes depending on the attached cable. One of the USB-C 3.1 connections supports Display Port Alt Mode, which means you can connect Tachyon directly to a USB-C capable monitor (up to 4K), or use a USB-C Hub (such as the one we are offering as an add-on!) to add USB ports, HDMI and a gigabit Ethernet port. Oh, and for those familiar with Android development, we are using Fastboot and ADB so you can plug the device straight into your computer to power and control it over a single cable.</p>
+
+<p>Of course, Tachyon also contains a Raspberry Pi-compatible 40-pin connector, plus support for cameras, displays, and PCIe peripherals connected via ribbon cables. Whether you’re using off-the-shelf peripherals, Raspberry Pi HATs, or building Tachyon into a custom PCB, Tachyon can handle whatever you throw at it.</p>
+
+<p>Particle’s application infrastructure includes everything you need to deploy an intelligent device — including device management, OTA software updates, connectivity management, and data automation. Our platform is included for free with Tachyon, for up to 100 devices per account — and that includes a low data rate cellular plan for device management and telemetry!</p>
+
+<p>So how do you actually use that 5G connectivity? Embedded into Tachyon is the next generation of Particle’s EtherSIM — a reprogrammable, 5G-capable eSIM, providing flexible and tailored connectivity options in 40 countries.</p>
+
+<p>Particle’s platform comes with built-in low-bandwidth connectivity to support remote telemetry and device management — free for your first 100 devices.</p>
+
+<h2 id="specifications">Specifications</h2>
+
+<ul>
+  <li>Octa-core Qualcomm® Kryo™ CPU (1x 2.7GHz, 3x 2.4GHz, 4x 1.9GHz).</li>
+  <li>5G sub-6Hz cellular connectivity and Wi-Fi 6E with on-device antennas</li>
+  <li>8GB RAM and 128GB with built-in UFS storage</li>
+  <li>Adreno 643 GPU and 12 TOPS NPU</li>
+  <li>USB-C 3.1 PD with DisplayPort and PD, 2x PCIe lanes, and DSI 4-lane</li>
+  <li>2 x CSI 4-lane with ISP, supporting 20+ pre-integrated camera sensors</li>
+  <li>Powered by USB-C or lithium-ion battery with integrated battery charger</li>
+  <li>Secure boot and encrypted filesystem</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://store.particle.io/products/tachyon-5g-single-board-computer?utm_campaign=&amp;utm_content=store&amp;utm_medium=post&amp;utm_source=kickstarter">Particle</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/particle_tachyon/</guid>
+  </item><item>
+    <title>Orange Pi 5 Pro</title>
+    <link>https://circuitpython.org/blinka/orange_pi_5_pro/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/orange_pi_5_pro.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/orange_pi_5_pro.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/orange_pi_5_pro.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Shenzhen Xunlong Software CO., Limited</p> <p>Orange Pi 5 Pro uses Rockchip RK3588S 8-core 64-bit processor, quad-core A76+quad-core A55, with 8nm process design, up to 2.4GHz main frequency, integrated ARM Mali-G610, built-in 3D GPU, compatible with OpenGL ES1.1/2.0/3.2, OpenCL 2.2 and Vulkan 1.2; embedded NPU supports INT4/INT8/INT16 mixed computing, with up to 6TOPS of computing power, which can meet the edge computing needs of most end devices; with 4GB/8GB/16GB LPDDR5, with up to 8K display processing, and supports for eMMC module or SPI Flash (either one),Wi-Fi5, BT5.0, and BLE support.</p>
+
+<p>The Orange Pi 5 Pro provides abundant interfaces, including HDMI output, GPIO ports, USB2.0, USB3.1, 3.5mm headphone socket,Gigabit LAN port with PoE+ support (PoE+ HAT required), etc., with an M.2 M-key slot that supports the installation of NVMe SSD or SATA SSD.
+Orange Pi 5 Pro is compact, measuring only 89mmX56mmX1.6mm, and powerful enough to be widely used in tablets, edge computing, artificial intelligence, cloud computing, AR/VR, intelligent security, smart home and other fields, covering AIoT various industries.Orange Pi 5 Pro supports Orange Pi OS, the official operating system developed by Orange Pi, as well as Ubuntu, Android 12, Debian and other operating systems.</p>
+
+<p><strong>Specifications</strong></p>
+<ul>
+  <li>Rockchip RK3588S (8nm LP process)</li>
+  <li>8-core 64-bit processor big.LITTLE Architecture: 4-core Cortex-A76 and 4-core Cortex-A55, big core cluster is 2.4GHz, and little core cluster is 1.8GHz frequency.</li>
+  <li>Arm Mali-G610</li>
+  <li>Built-in 3D GPU</li>
+  <li>Compatible with OpenGL ES1.1/2.0/3.2, OpenCL 2.2 and Vulkan 1.2</li>
+  <li>Embedded NPU supports INT4/INT8/INT16 mixed operation, with up to 6TOPS computing power</li>
+  <li>RK806-1</li>
+  <li>LPDDR5 496PIN：4GB/8GB/16GB (optional)</li>
+  <li>eMMC socket: supports eMMC module (optional)</li>
+  <li>SPI Flash (default empty)</li>
+  <li>MicroSD (TF) slot</li>
+  <li>M.2 M-KEY slot: NVMe SSD or SATA SSD</li>
+  <li>USB3.1 Gen1 * 1; USB2.0 *1</li>
+  <li>USB HUB:USB2.0 <em>2（TYPE A）+UAB2.0</em>2 row of pins</li>
+  <li>HDMI2.1 up to 8K @60Hz</li>
+  <li>HDMI2.0, up to 4K @60Hz</li>
+  <li>MIPI DSI 4 Lane, up to 4K @60Hz</li>
+  <li>2 * MIPI 4 Lane</li>
+  <li>CODEC: ES8388</li>
+  <li>3.5mm headphone jack audio input/output</li>
+  <li>Input: onboard MIC</li>
+  <li>HDMI 2.1 eARC</li>
+  <li>10/100/1000Mbps Ethernet with PoE+ support (PoE+ HAT required)</li>
+  <li>Onboard Wi-Fi5+BT 5.0/BLE module: AP6256</li>
+  <li>M.2 M-Key slot supports access to NVMe SSD or SATA SSD</li>
+  <li>Dual-row pin: 2.54mm 40Pin</li>
+  <li>Supports DC 5V and 3.3V power outputs</li>
+  <li>Configurable UART, PWM, I2C, SPI, CAN, GPIO and other functional interfaces</li>
+  <li>1 * MaskROM, 1 * RESET, 1 * POWER</li>
+  <li>Supports Type-C power supply, 5V @ 5A</li>
+  <li>RGB LED tri-color indicator</li>
+  <li>5V 2PIN 1.25mm socket</li>
+  <li>3V 2PIN 1.25mm socket</li>
+  <li>Debug serial port UART included in 40PIN expansion port</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://amzn.to/4lALxr8">Amazon</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/orange_pi_5_pro/</guid>
+  </item><item>
+    <title>Noise Nugget 2040</title>
+    <link>https://circuitpython.org/board/weenoisemakers_noisenugget/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/weenoisemakers_noisenugget.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/weenoisemakers_noisenugget.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/weenoisemakers_noisenugget.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Wee Noise Makers</p> <p>Noise Nugget 2040 handles all the complexity of digital HD audio synthesis in a very compact, production friendly, and affordable package. Allowing you to focus on what makes your ideas unique.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Powerful CPU:
+    <ul>
+      <li>Raspberry-Pi RP2040</li>
+      <li>Dual-core Arm Cortex-M0+ at 200MHz</li>
+      <li>16MB of flash memory</li>
+      <li>264KB of RAM</li>
+      <li>24 GPIO pins (+2 reserved for I2C)</li>
+      <li>Up to 10 MIDI in and out</li>
+    </ul>
+  </li>
+  <li>Stereo Speaker Amplifier:
+    <ul>
+      <li>2.1W per channel into 4Ω at 5V</li>
+      <li>1.7W per channel into 8Ω at 5V</li>
+      <li>Gain of 6, 12, 18, or 24 dB</li>
+    </ul>
+  </li>
+  <li>HD Audio Interface:
+    <ul>
+      <li>Up to 24-bit at 96kHz</li>
+      <li>Stereo headphone output</li>
+      <li>Stereo line output</li>
+      <li>3 x stereo inputs (line level or microphone)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://weenoisemakers.com/noise-nugget-2040/">Documentation</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/weenoisemakers_noisenugget/</guid>
+  </item><item>
+    <title>Unexpected Maker EdgeS3[D]</title>
+    <link>https://circuitpython.org/board/unexpectedmaker_edges3d/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/unexpectedmaker_edges3d.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/unexpectedmaker_edges3d.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/unexpectedmaker_edges3d.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Unexpected Maker</p> <p>Introducing the EdgeS3[D] - The ultimate REUSABLE ESP32-S3 Development Board</p>
+
+<p>EdgeS3[D] includes an onboard antenna and a u.FL connector for an external antenna on the same board, and you can switch which antenna to use via the RF switch on the fly from inside your code!</p>
+
+<p>The onboard antenna is selected by default, so you never need to worry about the RF switch being in a bad state, or the ESP32-S3 getting damaged if you forget to plug in an external antenna.</p>
+
+<h3 id="features--specifications">Features &amp; Specifications**</h3>
+
+<ul>
+  <li>Dual 32bit Xtensa LX7 cores @ up to 240Mhz</li>
+  <li>RISC-V Ultra Low Power Co-processor</li>
+  <li>2.4GHz Wifi - 802.11b/g/n</li>
+  <li>Bluetooth 5, BLE + Mesh</li>
+  <li>8MB QSPI Flash</li>
+  <li><strong>2MB of extra QSPI PSRAM</strong></li>
+  <li>700mA 3.3V LDO Regulator</li>
+  <li><strong>ULTRA LOW Deep Sleep Current</strong></li>
+  <li>Native USB + USB Serial JTAG</li>
+  <li>LiPo Battery Charging</li>
+  <li><strong>NEW</strong> I2C Battery Fuel Gauge</li>
+  <li><strong>NEW</strong> 3D High Gain Antenna AND u.FL connector&lt;</li>
+  <li>29 + 8 GPIO via IO Expander</li>
+  <li>M.2 B-Key Edge Connector</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://unexpectedmaker.com/shop.html#!/EdgeS3-D">Unexpected Maker</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/unexpectedmaker_edges3d/</guid>
+  </item><item>
+    <title>M5Stack CardPuter - M5StampS3 powered mini computer (MicroROS)</title>
+    <link>https://circuitpython.org/board/m5stack_cardputer_ros/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/m5stack_cardputer.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/m5stack_cardputer.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/m5stack_cardputer.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By M5Stack</p> <p>Cardputer is a card-sized portable computer that is perfect for engineers. At the heart of Cardputer is the M5StampS3, a mini development board based on the ESP32-S3 chip. Cardputer features a powerful dual-core processor, supports Wi-Fi functionality and integrates various peripherals and sensors, making it ideal for rapid functional verification, industrial control and home automation systems.</p>
+
+<p>The device is powered by an internal 120mAh+1400mAh (in the base) lithium battery solution, eliminating concerns about battery life. In addition, Cardputer has built-in battery charging and voltage regulation circuits that automatically adjust voltage and current to protect the battery and the device. The base of the Cardputer incorporates a magnet, allowing it to be attached to metal surfaces such as fridges or whiteboards. What’s more, Cardputer’s structure is compatible with Lego hole extensions, allowing users to create even more interesting designs using Lego bricks.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>Display: IPS LCD, 1,14”, 240x135px</li>
+  <li>Battery: internal 120mAh + 1400mAh (in the base) lithium battery</li>
+  <li>TF-Card (MicroSD) slot</li>
+  <li>1 USB-C OTG in/out</li>
+  <li>Keyboard: 56 keys, QWERTY type, ortholinear with tactile click switches</li>
+  <li>Infrared ∠0° : 410cm, &lt; 90° : 66cm, &lt; 45° : 170cm</li>
+  <li>Digital MEMS Microphone</li>
+  <li>Sound: I2S-Speaker, 8Ω@1W</li>
+  <li>HY2.0-4P interface for expanding I2C sensors</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/Cardputer">Cardputer</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/m5stack-cardputer-kit-w-m5stamps3">M5Stack</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_cardputer_ros/</guid>
+  </item><item>
+    <title>ESP32-S3-DevKitC-1-N8R2 (MicroROS)</title>
+    <link>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r2_ros/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/espressif_esp32s3_devkitc_1.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/espressif_esp32s3_devkitc_1.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/espressif_esp32s3_devkitc_1.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Espressif</p> <p>The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-1, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. <strong>This version is equipped with the ESP32-S3-WROOM-1 (PCB antenna) with 8MB Flash and 2MB PSRAM.</strong></p>
+
+<p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there’s a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.</p>
+
+<p>At the core of the module is an ESP32-S3FN8, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds.</p>
+
+<p>ESP32-S3FN8 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/Jtag, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1, i.e. CAN Specification 2.0), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p>
+
+<p>There are three mutually exclusive ways to provide power to the board:</p>
+
+<ul>
+  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>
+  <li>5V and G (GND) pins</li>
+  <li>3v3 and G (GND) pins</li>
+</ul>
+
+<p><strong>Components:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S3-WROOM-1</strong>: ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-WROOM-1 comes with a PCB antenna.</li>
+  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>
+  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#user-guide-s3-devkitc-1-v1-header-blocks">Header Block</a>.</li>
+  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>
+  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>
+  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>
+  <li><strong>Reset Button</strong></li>
+  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>
+  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO48.</li>
+  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5310">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r2_ros/</guid>
+  </item><item>
+    <title>Elecrow CrowPanel 3.5</title>
+    <link>https://circuitpython.org/board/elecrow_crowpanel_3.5/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/elecrow_crowpanel_4_2_epaper.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/elecrow_crowpanel_4_2_epaper.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/elecrow_crowpanel_4_2_epaper.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Elecrow</p> <p>CrowPanel ESP32 Display 3.5-inch module is a powerful HMI touch screen with a 480*320 resolution LCD display. It uses the ESP32-WROOM-32 module as the main control processor, with a dual-core 32-bit LX6 microprocessor, integrated WiFi and Bluetooth-compatible wireless functions, a main frequency of up to 240MHz, providing powerful performance and versatile applications, suitable for IoT application devices and other scenes.</p>
+
+<p>The module includes a 3.5-inch LCD display and a driver board. The display screen uses resistive touch technology and comes with a resistive touch pen, making the screen usage more flexible. In addition, the board has reserved a TF card slot, multiple peripheral interfaces, USB interface, speaker interface, battery interface, etc., providing more expansion possibilities.  It supports development environments such as Arduino IDE, Espressif IDF, Lua RTOS, and Micro Python, and is compatible with the <strong><a href="https://lvgl.io/">LVGL</a></strong> graphics library, supports <strong><a href="https://www.openhasp.com/0.7.0/hardware/elecrow/crowpanel-hmi-spi/">openHASP</a></strong>. This enables developers to not only customize their own UI interfaces but also to create interesting projects quickly and easily, greatly shortening the development cycle.</p>
+
+<p>The CrowPanel ESP32 Display 3.5-inch module is suitable for a wide range of scenes such as automotive HMI, medical equipment, smart home, industrial control, power, civil electronics, home automation, new energy, and IoT application devices. Its various interfaces and expansion functions make it able to meet the needs of different fields, providing users with a more comprehensive solution. This 3.5” display also supports tactility.</p>
+
+<h2 id="specifications">Specifications</h2>
+<ul>
+  <li>Model: 3.5 inches module-CrowPanel ESP32 display</li>
+  <li>Main Processor: ESP32-WROVER-B</li>
+  <li>Resolution: 480*320</li>
+  <li>Touch Type: Resistive Touch Screen</li>
+  <li>Display Type: TN Panel</li>
+  <li>Screen: TFT-LCD Screen</li>
+  <li>Display driver: ILI9488</li>
+  <li>External power supply: DC5V-2A</li>
+  <li>Interface: 1<em>TF Card Slot, 1</em> I2C, 1* GPIO, 1<em>Speak, 1</em> UART1, 1*UART0</li>
+  <li>Button: BOOT Button and Reset Button</li>
+  <li>Active Area: 48.96<em>73.44mm(W</em>H)</li>
+  <li>Working Temperature: -20℃～70℃</li>
+  <li>Storage Temperature: -30℃～80℃</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.elecrow.com/esp32-display-3-5-inch-hmi-display-spi-tft-lcd-touch-screen.html">Elecrow</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/elecrow_crowpanel_3.5/</guid>
+  </item><item>
     <title>ESP32-S3 1.47inch Display Development Board</title>
     <link>https://circuitpython.org/board/waveshare_esp32_s3_lcd_1_47/</link>
     <description><![CDATA[  
@@ -51,7 +516,7 @@
     <guid>https://circuitpython.org/board/waveshare_esp32_s3_lcd_1_47/</guid>
   </item><item>
     <title>Omnimo nRF52840</title>
-    <link>https://circuitpython.org/board/eafaq_omnimo_nrf52840/</link>
+    <link>https://circuitpython.org/board/omnimo_nrf52840/</link>
     <description><![CDATA[  
 <img
   srcset="https://circuitpython.org/assets/images/boards/small/eafaq_omnimo_nrf52840.jpg 300w,
@@ -107,7 +572,7 @@
     <category>CircuitPython</category>
     
     <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/board/eafaq_omnimo_nrf52840/</guid>
+    <guid>https://circuitpython.org/board/omnimo_nrf52840/</guid>
   </item><item>
     <title>Orpheus Pico</title>
     <link>https://circuitpython.org/board/orpheus_pico/</link>
