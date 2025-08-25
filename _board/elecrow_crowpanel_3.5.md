@@ -6,7 +6,7 @@ name: "Elecrow CrowPanel 3.5"
 manufacturer: "Elecrow"
 board_url:
  - "https://www.elecrow.com/esp32-display-3-5-inch-hmi-display-spi-tft-lcd-touch-screen.html"
-board_image: "elecrow_crowpanel_4_2_epaper.jpg"
+board_image: "elecrow_crowpanel_3.5.jpg"
 date_added: 2025-08-16
 family: esp32
 features:
