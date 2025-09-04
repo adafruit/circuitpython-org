@@ -17,8 +17,8 @@ features:
   - STEMMA QT/QWIIC
   - Robotics
 ---
-## What is it?
-This is an ESP32-S3 development board (16 MB flash, 8 MB RAM) that is compatible with CircuitPython. It integrates Ethernet with PoE, a microSD card slot, a camera with WS2812B backlighting LEDs, a Stemma QT connector, and comprehensive battery management. Thanks to the ability to enable and disable peripheral power using onboard MOSFETs, the device consumes less than 25 µA in deep sleep mode!
+
+This is an ESP32-S3 CircuitPython-compatible development board (16 MB flash, 8 MB RAM) that integrates Ethernet with PoE, a microSD card slot, a camera with WS2812B backlighting LEDs, a Stemma QT connector, and comprehensive battery management. Thanks to the ability to enable and disable peripheral power using onboard MOSFETs, the device consumes less than 25 µA in deep sleep mode.
 
 
 ## Technical details
