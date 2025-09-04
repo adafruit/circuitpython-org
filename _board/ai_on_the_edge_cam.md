@@ -4,7 +4,7 @@ board_id: "ai_on_the_edge_cam"
 title: "AI-On-The-Edge-Cam: Esp32-S3 with PoE, SD, Camera Download"
 name: "AI-On-The-Edge-Cam"
 manufacturer: "Prokyber"
-board_url:"https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera"
+board_url: "https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera"
 board_image: "ai_on_the_edge_cam.jpg"
 date_added: 2025-09-03
 family: esp32s3
