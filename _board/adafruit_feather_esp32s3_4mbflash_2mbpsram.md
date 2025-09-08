@@ -17,6 +17,7 @@ features:
   - Battery Charging
   - STEMMA QT/QWIIC
   - Wi-Fi
+  - Bluetooth/BTLE
   - USB-C
   - Breadboard-Friendly
 
