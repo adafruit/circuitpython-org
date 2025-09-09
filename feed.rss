@@ -4,9 +4,50 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 09 Sep 2025 13:46:01 -0400</lastBuildDate>
+<lastBuildDate>Tue, 09 Sep 2025 14:56:02 -0400</lastBuildDate>
 
 <item>
+    <title>AI-On-The-Edge-Cam</title>
+    <link>https://circuitpython.org/board/ai_on_the_edge_cam/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/ai_on_the_edge_cam.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/ai_on_the_edge_cam.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/ai_on_the_edge_cam.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Prokyber</p> <p>This is an ESP32-S3 CircuitPython-compatible development board (16 MB flash, 8 MB RAM) that integrates Ethernet with PoE, a microSD card slot, a camera with WS2812B backlighting LEDs, a Stemma QT connector, and comprehensive battery management. Thanks to the ability to enable and disable peripheral power using onboard MOSFETs, the device consumes less than 25 µA in deep sleep mode.</p>
+
+<h2 id="technical-details">Technical details</h2>
+<ul>
+  <li>Ethernet with PoE handled by W5500</li>
+  <li>OV2640/OV5640 Camera socket with 4 × WS2812B smart LEDs for back-lighting</li>
+  <li>Micro-SD card slot</li>
+  <li>Sleep current: &lt;25 µA</li>
+  <li>Integrated battery charging, protection, and measurement</li>
+  <li>External antenna support</li>
+  <li>Stemma QT I²C connector for external sensors</li>
+  <li>Compatible with Ai-on-the-edge-device Esp32-s3 branch</li>
+  <li>Schematics available</li>
+  <li>3D-printable enclosure available
+All of these features have been tested and verified with CircuitPython, so you can build with confidence.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera">Tindie</a></li>
+</ul>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 03 Sep 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/ai_on_the_edge_cam/</guid>
+  </item><item>
     <title>Rock X4</title>
     <link>https://circuitpython.org/blinka/radxa_x4/</link>
     <description><![CDATA[  

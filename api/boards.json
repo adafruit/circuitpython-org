@@ -1598,6 +1598,31 @@
         "description": "<h3 id=\"more-features\">More features</h3><ul>  <li>Flashlight</li>  <li>MicroSD Card Reader</li>  <li>Optional ESP32-MB expansion board includes buttons and Serial port</li>  <li>8Mb PSRAM</li></ul><p>ESP32-CAM is a small sized ESP32 camera module released by Ai-Thinker. The module can work independently with a size of only 27 x 40.5 x 4.5mm, and a deep sleep current as low as 6mA.</p><p>ESP32-CAM can be widely used in various IoT applications, suitable for home smart devices, industrial wireless control, wireless monitoring, QR wireless identification, wireless positioning system signals and other IoT applications. It is an ideal solution for IoT applications.</p><p>ESP32-CAM adopts DIP package and can be used directly by plugging in the bottom plate, realizing the rapid production of products, providing customers with high-reliability connection methods, which is convenient for application in various IoT hardware terminal occasions.</p><p>Ultra-small 802.11b/g/n Wi-Fi + BT/BLE SoC module</p><h3 id=\"product-features\">Product Features</h3><ul>  <li>Using low-power dual-core 32-bit CPU, can be used as an application processor</li>  <li>Main frequency up to 240MHz, computing power up to 600 DMIPS</li>  <li>Built-in 520 KB SRAM, external 8MB PSRAM included</li>  <li>Support UART/SPI/I2C/PWM/ADC/DAC and other interfaces</li>  <li>Support OV2640 and OV7670 cameras, built-in flashlight</li>  <li>Support picture WiFI upload</li>  <li>Support TF card</li>  <li>Support multiple sleep modes</li>  <li>Embedded Lwip, FreeRTOS, and CircuitPython</li>  <li>Support STA/AP/STA+AP working mode</li>  <li>Support Smart Config/AirKiss one-click network configuration</li>  <li>Support secondary development</li></ul><h3 id=\"application-scenarios\">Application scenarios</h3><ul>  <li>Home smart device image transmission</li>  <li>Wireless monitoring</li>  <li>Smart agriculture</li>  <li>QR wireless recognition</li></ul><h3 id=\"usage-notes\">Usage Notes</h3><p>The serial port on the ESP32-MB adapter which usually ships with these boards has the Serial Request-To-Send (RTS) hardware flow-control line physically connected to the ESP32 Reset (RST) pin, and it also has the Serial Data-Terminal-Ready (DTR) hardware flow-control line physically connected to the ESP32 GPIO pin.</p><p>This allows software which knows this (e.g. Arduino) to automatically perform hardware resets over the serial port by pulsing the RTS-line, and to automatically perform firmware updates by holding the DTR line low while pulsing the RTS line.</p><p>Unfortunately, many serial emulators and even some python libraries which communicate via Serial ports will typically set the state of one of both of these hardware flow control lines - this means that your ESP32-CAM might not be able to boot or be used by some software.  Notable examples include Thonny, ampy, pyboard, and Windows version of Python itself*</p><p>* The work-around for Windows python is to first create the serial port object, without specifying which port to use - this bypasses the Python windows bug which always sets the RTS/DTR pins.  You can then tell the serial object which port, and set the RTS/DTR pins as you like.</p><h2 id=\"circuitpython-on-esp32\">CircuitPython on ESP32</h2><p>Want to learn how to load circuitpython onto this board? check out <a href=\"https://learn.adafruit.com/circuitpython-with-esp32-quick-start/\">this</a> on the Adafruit learning system</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/w/wholesale-esp32%2525252dcam.html\">Aliexpress</a></li>  <li><a href=\"https://www.amazon.com/s?k=esp32-cam\">Amazon</a></li>  <li><a href=\"https://www.ebay.com/sch/i.html?_nkw=esp32-cam\">eBay</a></li></ul>"
     },
     {
+        "board_id": "ai_on_the_edge_cam",
+        "title": "AI-On-The-Edge-Cam: Esp32-S3 with PoE, SD, Camera Download",
+        "name": "AI-On-The-Edge-Cam",
+        "board_url": [
+            "https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera"
+        ],
+        "board_image": "ai_on_the_edge_cam.jpg",
+        "date_added": "2025-09-03",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C",
+            "Battery Charging",
+            "Camera",
+            "STEMMA QT/QWIIC",
+            "Robotics"
+        ],
+        "url_path": "/board/ai_on_the_edge_cam/",
+        "description": "<p>This is an ESP32-S3 CircuitPython-compatible development board (16 MB flash, 8 MB RAM) that integrates Ethernet with PoE, a microSD card slot, a camera with WS2812B backlighting LEDs, a Stemma QT connector, and comprehensive battery management. Thanks to the ability to enable and disable peripheral power using onboard MOSFETs, the device consumes less than 25 µA in deep sleep mode.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Ethernet with PoE handled by W5500</li>  <li>OV2640/OV5640 Camera socket with 4 × WS2812B smart LEDs for back-lighting</li>  <li>Micro-SD card slot</li>  <li>Sleep current: &lt;25 µA</li>  <li>Integrated battery charging, protection, and measurement</li>  <li>External antenna support</li>  <li>Stemma QT I²C connector for external sensors</li>  <li>Compatible with Ai-on-the-edge-device Esp32-s3 branch</li>  <li>Schematics available</li>  <li>3D-printable enclosure availableAll of these features have been tested and verified with CircuitPython, so you can build with confidence.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera\">Tindie</a></li></ul>"
+    },
+    {
         "board_id": "ai_thinker_esp32-c3s-2m",
         "title": "ESP-C3-32S (2M) Download",
         "name": "ESP-C3-32S (2M)",
