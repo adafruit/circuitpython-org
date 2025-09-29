@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "ai_on_the_edge_cam"
+board_id: "prokyber_ai_on_the_edge_cam"
 title: "AI-On-The-Edge-Cam: Esp32-S3 with PoE, SD, Camera Download"
 name: "AI-On-The-Edge-Cam"
 manufacturer: "Prokyber"
