@@ -44,3 +44,8 @@ The ESP32 is great for small projects where you don’t need so many I/Os, proce
 ## Purchase
 
 * [Amazon](https://amzn.to/3wCPfxb)
+
+## Technical
+
+* [Schematic](https://j.lnwfile.com/_/j/_raw/f9/1u/6g.gif)
+* [Advert/Tech Site](https://www.mcucity.com/product/3190/esp32-lolin32-lite)
