@@ -4,9 +4,141 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Sat, 18 Oct 2025 17:11:02 -0400</lastBuildDate>
+<lastBuildDate>Sat, 18 Oct 2025 18:39:46 -0400</lastBuildDate>
 
 <item>
+    <title>Jetson AGX Thor Dev Kit</title>
+    <link>https://circuitpython.org/blinka/jetson_agx_thor/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/jetson_agx_thor.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/jetson_agx_thor.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/jetson_agx_thor.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By NVIDIA</p> <p>The NVIDIA® Jetson AGX Thor™ Developer Kit is the ultimate platform tailored for next-generation humanoid robotics, delivering up to 2070 FP4 TFLOPS AI perfromance with Blackwell GPU and 128 GB of high-speed memory—all in a compact 130W power envelope. Compared to Jetson AGX Orin™, it offers up to 7.5× more AI performance to run the latest generative AI models seamlessly, and 3.5× better energy efficiency, enabling real-time multimodal perception, decision-making, and control, all for accelerating the development of intelligent, responsive, and highly sophisticated robotic systems.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.seeedstudio.com/NVIDIA-Jetson-AGX-Thor-Developer-Kit-p-9965.html">Seeed Studio</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Sat, 18 Oct 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/jetson_agx_thor/</guid>
+  </item><item>
+    <title>M5Stack Din Meter w/ M5StampS3</title>
+    <link>https://circuitpython.org/board/m5stack_dinmeter/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/m5stack_dinmeter.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/m5stack_dinmeter.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/m5stack_dinmeter.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By M5Stack</p> <p>Din Meter is a 1/32 DIN standard embedded development board equipped with a 1.14-inch ST7789 screen and powered by an M5StampS3 as its main controller. It features a built-in rotary encoder for precise knob position tracking. Additionally, it includes an RTC circuit, an onboard buzzer, and buttons below the screen for device interaction and alert notifications. In terms of power supply, the design supports a wide voltage input range of 6-36V DC and has reserved interfaces for a lithium battery and charging circuit to cater to various needs. Moreover, reserved PORTA and PORTB interfaces facilitate the expansion of I2C and GPIO devices. This product is suitable for applications in parameter measurement and detection, smart home control, Internet of Things (IoT) projects, smart wearables, access control, industrial control, and educational maker projects.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li>ST7789v2 screen</li>
+  <li>M5StampS3 as the main control</li>
+  <li>Rotary Encoder</li>
+  <li>Wide voltage input</li>
+  <li>Reserved PORTA and PORTB ports</li>
+  <li>Lithium battery interface (Rechargeable)</li>
+  <li>1/32DIN standard (45*22.5mm)</li>
+  <li>Programming platform: Arduino, UIFlow</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/M5DinMeter">M5Stack Din Meter</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/m5stack-din-meter-w-m5stamps3">M5Stack</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sat, 18 Oct 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_dinmeter/</guid>
+  </item><item>
+    <title>ESP32-C3-Lyra V2.0</title>
+    <link>https://circuitpython.org/board/espressif_esp32c3_lyra_v2/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/espressif_esp32c3_lyra_v2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/espressif_esp32c3_lyra_v2.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/espressif_esp32c3_lyra_v2.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Espressif</p> <p>ESP32-C3-Lyra is an ESP32-C3-based audio development board produced by Espressif for controlling light with audio. The board has control over the microphone, speaker, and LED strip, perfectly matching customers’ product development needs for ultra-low-cost and high-performance audio broadcasters and rhythm light strips.</p>
+
+<h3 id="feature-list">Feature List</h3>
+
+<ul>
+  <li><strong>Module Embedded:</strong> ESP32-C3-WROOM-02 module with a 4 MB external SPI flash</li>
+  <li><strong>Audio:</strong> built-in ECM microphone, speaker power amplifier, speaker connector</li>
+  <li><strong>LED Strip Connector:</strong> support for two types of connections, i.e., connections to addressable LED strips and RGB LED strips</li>
+  <li><strong>Infrared Control:</strong> support for infrared (IR) transmitting and receiving</li>
+  <li><strong>Keys:</strong> boot key, reset key, and six function keys (MODE, COLOR, PLAY/PAUSE, SET, VOL+/LM+, VOL-/LM-)</li>
+  <li><strong>USB:</strong> 1 x USB Power Port, 1 x USB-to-UART Port</li>
+  <li><strong>Power Supply:</strong> 5 V power supply over USB or 12 V DC power supply</li>
+</ul>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>ESP32-C3-WROOM-02 Module</li>
+  <li>Speaker PA Chip</li>
+  <li>Speaker Output Port</li>
+  <li>Function Press Keys</li>
+  <li>Boot/Reset Press Keys</li>
+  <li>USB-to-UART Port</li>
+  <li>USB-to-UART Bridge Chip</li>
+  <li>USB Power Port</li>
+  <li>System Power Switch</li>
+  <li>LED Strip Power Selection Switch</li>
+  <li>12 V DC Power Port</li>
+  <li>12 V to 5 V Buck Chip</li>
+  <li>Addressable LED Strip Port</li>
+  <li>RGB LED Strip Port</li>
+  <li>System Power LED</li>
+  <li>IR Receiver</li>
+  <li>IR Transmitter</li>
+  <li>Microphone</li>
+  <li>System LED</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-LYRA/17883278">DigiKey</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sat, 18 Oct 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32c3_lyra_v2/</guid>
+  </item><item>
     <title>AI-On-The-Edge-Cam</title>
     <link>https://circuitpython.org/board/ai_on_the_edge_cam/</link>
     <description><![CDATA[  

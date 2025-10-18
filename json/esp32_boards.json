@@ -246,6 +246,16 @@
             }
         ]
     },
+    "espressif_esp32c3_lyra_v2": {
+        "name": "ESP32-C3-Lyra V2.0",
+        "chipfamily": "esp32c3",
+        "releases": [
+            {
+                "version": "10.0.3",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32c3_lyra_v2/en_US/adafruit-circuitpython-espressif_esp32c3_lyra_v2-en_US-10.0.3.bin"
+            }
+        ]
+    },
     "sensebox_mcu_esp32s2": {
         "name": "senseBox MCU-S2",
         "chipfamily": "esp32s2",
@@ -2278,6 +2288,17 @@
             {
                 "version": "10.0.3",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deneyap_kart/en_US/adafruit-circuitpython-deneyap_kart-en_US-10.0.3.bin"
+            }
+        ]
+    },
+    "m5stack_dinmeter": {
+        "name": "M5Stack Din Meter w/ M5StampS3",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "10.0.3",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_dinmeter/en_US/adafruit-circuitpython-m5stack_dinmeter-en_US-10.0.3.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_dinmeter/en_US/adafruit-circuitpython-m5stack_dinmeter-en_US-10.0.3.uf2"
             }
         ]
     },

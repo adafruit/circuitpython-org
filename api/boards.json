@@ -4069,6 +4069,27 @@
         "description": "<p>The ESP32-C3-DevKitM-1 is an entry-level <strong>RISC V</strong> development board equipped with the ESP32-C3-MINI-1-N4, a powerful, generic Wi-Fi + Bluetooth LE MCU module that features a rich set of peripherals, yet an optimized size. It’s an ideal choice for a wide variety of application scenarios related to the Internet of Things (IoT), such as embedded systems, smart homes, wearable electronics, etc. ESP32-C3-DevKitM-1 comes with a PCB antenna. <strong>This version is equipped with the ESP32-C3-MINI-1-N4 with 4MB SPI Flash and no PSRAM.</strong></p><p><strong>Please note:</strong> The C<strong>3</strong> is <em>similar</em> to the ESP32 - but uses <strong>RISC V</strong> as a core, not Tensilica, and has Bluetooth LE (not classic!) However, there is minimal support for this dev board. For example, as of the time of this writing, there is no CircuitPython support - only Arduino and ESP IDF! Please purchase if you’re doing development with the C3, and recognize that it’s a different core than the classic ESP32s most folks have used.</p><p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-C3-DevKitM-1 on a breadboard.</p><p>At the core of the module is ESP32-C3, which has a 32-bit RISC-V single-core processor. The ESP32-C3 integrates a rich set of peripherals, ranging from UART, I2C, I2S, remote control peripheral, LED PWM controller, general DMA controller, TWAI controller, USB Serial/JTAG controller, temperature sensor, and ADC. It also includes SPI, Dual SPI, and Quad SPI interfaces.</p><p>There are three mutually exclusive ways to provide power to the board:</p><ul>  <li>Micro-USB Port, default power supply</li>  <li>5V and GND pin headers</li>  <li>3V3 and GND pin headers</li></ul><p>It is recommended to use the first option: Micro-USB Port.</p><p><strong>Components:</strong></p><ul>  <li><strong>ESP32-C3-MINI-1-N4</strong>: ESP32-C3-MINI-1-N4 from Espressif is a powerful and general-purpose RISC V module that offers Wi-Fi and Bluetooth LE coexistence. It has a PCB antenna and 4 MB SPI flash.</li>  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>  <li><strong>5V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href=\"https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html#user-guide-c3-devkitm-1-v1-header-blocks\">Header Block</a>.</li>  <li><strong>Micro-USB Port</strong>: USB interface. Power supply for the board as well as the communication interface between a computer and the ESP32-C3 chip.</li>  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>  <li><strong>Reset Button:</strong> Press this button to restart the system.</li>  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO8.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-DEVKITM-1/13684315\">DigiKey</a></li></ul>"
     },
     {
+        "board_id": "espressif_esp32c3_lyra_v2",
+        "title": "ESP32-C3-Lyra V2.0 Download",
+        "name": "ESP32-C3-Lyra V2.0",
+        "board_url": [
+            "https://docs.espressif.com/projects/esp-adf/en/latest/design-guide/dev-boards/user-guide-esp32-c3-lyra.html"
+        ],
+        "board_image": "espressif_esp32c3_lyra_v2.jpg",
+        "date_added": "2025-10-18",
+        "family": "esp32c3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/espressif_esp32c3_lyra_v2/",
+        "description": "<p>ESP32-C3-Lyra is an ESP32-C3-based audio development board produced by Espressif for controlling light with audio. The board has control over the microphone, speaker, and LED strip, perfectly matching customers’ product development needs for ultra-low-cost and high-performance audio broadcasters and rhythm light strips.</p><h3 id=\"feature-list\">Feature List</h3><ul>  <li><strong>Module Embedded:</strong> ESP32-C3-WROOM-02 module with a 4 MB external SPI flash</li>  <li><strong>Audio:</strong> built-in ECM microphone, speaker power amplifier, speaker connector</li>  <li><strong>LED Strip Connector:</strong> support for two types of connections, i.e., connections to addressable LED strips and RGB LED strips</li>  <li><strong>Infrared Control:</strong> support for infrared (IR) transmitting and receiving</li>  <li><strong>Keys:</strong> boot key, reset key, and six function keys (MODE, COLOR, PLAY/PAUSE, SET, VOL+/LM+, VOL-/LM-)</li>  <li><strong>USB:</strong> 1 x USB Power Port, 1 x USB-to-UART Port</li>  <li><strong>Power Supply:</strong> 5 V power supply over USB or 12 V DC power supply</li></ul><h3 id=\"specifications\">Specifications</h3><ul>  <li>ESP32-C3-WROOM-02 Module</li>  <li>Speaker PA Chip</li>  <li>Speaker Output Port</li>  <li>Function Press Keys</li>  <li>Boot/Reset Press Keys</li>  <li>USB-to-UART Port</li>  <li>USB-to-UART Bridge Chip</li>  <li>USB Power Port</li>  <li>System Power Switch</li>  <li>LED Strip Power Selection Switch</li>  <li>12 V DC Power Port</li>  <li>12 V to 5 V Buck Chip</li>  <li>Addressable LED Strip Port</li>  <li>RGB LED Strip Port</li>  <li>System Power LED</li>  <li>IR Receiver</li>  <li>IR Transmitter</li>  <li>Microphone</li>  <li>System LED</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-LYRA/17883278\">DigiKey</a></li></ul>"
+    },
+    {
         "board_id": "espressif_esp32c6_devkitc_1_n8",
         "title": "ESP32-C6-DevKitC-1-N8 Download",
         "name": "ESP32-C6-DevKitC-1-N8",
@@ -6868,6 +6889,29 @@
         ],
         "url_path": "/board/m5stack_dial/",
         "description": "<p>As a versatile embedded development board, <strong>M5Dial</strong> integrates the necessary features and sensors for various smart home control applications. It features a 1.28-inch round TFT touchscreen, a rotary encoder, an RFID detection module, an RTC circuit, a buzzer, and under-screen buttons, enabling users to easily implement a wide range of creative projects.</p><p>M5Dial provides versatile power supply options to cater to various needs. It accommodates a wide range of input voltages, accepting 6-36V DC input. Additionally, it features a battery port with a built-in charging circuit, enabling seamless connection to external Lithium batteries. This adaptability allows users to power M5Dial via USB-C, the DC interface, or an external battery for on-the-go convenience. M5Dial also reserves two PORTA and PORTB interfaces, supporting the expansion of I2C and GPIO devices. Users can connect various sensors, actuators, displays, and other peripherals through these interfaces, adding more functionality and possibilities.</p><h3 id=\"features\">Features</h3><ul>  <li>Circular TFT touch screen</li>  <li>M5StampS3</li>  <li>Encoder</li>  <li>RFID</li>  <li>6-36V voltage input</li>  <li>Battery charger</li>  <li>Interface extension: reserved PORTA and PORTB interfaces</li>  <li>Programmable button</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/M5Dial\">M5Dial</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/m5stack-dial-esp32-s3-smart-rotary-knob-w-1-28-round-touch-screen\">M5Stack</a></li>  <li><a href=\"https://www.adafruit.com/product/5966\">Adafruit</a></li></ul>"
+    },
+    {
+        "board_id": "m5stack_dinmeter",
+        "title": "M5Stack Din Meter w/ M5StampS3 Download",
+        "name": "M5Stack Din Meter w/ M5StampS3",
+        "board_url": [
+            "https://docs.m5stack.com/en/core/M5DinMeter"
+        ],
+        "board_image": "m5stack_dinmeter.jpg",
+        "date_added": "2025-10-18",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "USB-C",
+            "Bluetooth/BTLE",
+            "Display",
+            "Battery Charging"
+        ],
+        "url_path": "/board/m5stack_dinmeter/",
+        "description": "<p>Din Meter is a 1/32 DIN standard embedded development board equipped with a 1.14-inch ST7789 screen and powered by an M5StampS3 as its main controller. It features a built-in rotary encoder for precise knob position tracking. Additionally, it includes an RTC circuit, an onboard buzzer, and buttons below the screen for device interaction and alert notifications. In terms of power supply, the design supports a wide voltage input range of 6-36V DC and has reserved interfaces for a lithium battery and charging circuit to cater to various needs. Moreover, reserved PORTA and PORTB interfaces facilitate the expansion of I2C and GPIO devices. This product is suitable for applications in parameter measurement and detection, smart home control, Internet of Things (IoT) projects, smart wearables, access control, industrial control, and educational maker projects.</p><h3 id=\"features\">Features</h3><ul>  <li>ST7789v2 screen</li>  <li>M5StampS3 as the main control</li>  <li>Rotary Encoder</li>  <li>Wide voltage input</li>  <li>Reserved PORTA and PORTB ports</li>  <li>Lithium battery interface (Rechargeable)</li>  <li>1/32DIN standard (45*22.5mm)</li>  <li>Programming platform: Arduino, UIFlow</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/M5DinMeter\">M5Stack Din Meter</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/m5stack-din-meter-w-m5stamps3\">M5Stack</a></li></ul>"
     },
     {
         "board_id": "m5stack_m5paper",
