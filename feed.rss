@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 22 Oct 2025 15:00:37 -0400</lastBuildDate>
+<lastBuildDate>Wed, 22 Oct 2025 15:32:46 -0400</lastBuildDate>
 
 <item>
     <title>Jetson AGX Thor Dev Kit</title>
@@ -3993,6 +3993,56 @@ Orange Pi 3B supports Android 11, Ubuntu 22.04, Ubuntu 20.04, Debian 11, Debian 
     
     <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/cezerio_dev_esp32c6/</guid>
+  </item><item>
+    <title>Seeed Studio XIAO ESP32S3</title>
+    <link>https://circuitpython.org/board/seeed_xiao_esp32s3/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/seeed_xiao_esp32s3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/seeed_xiao_esp32s3.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/seeed_xiao_esp32s3.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Seeed Studio</p> <p>XIAO ESP32S3 is an integrated ESP32S3 32-bit, dual core, Xtensa processor chip with a high-performance operating frequency of up to 240 MHz, supporting dual wireless communication transmission(Supports 2.4GHz Wi Fi and BLE), Designed with the thumb-size footprint and a single-sided mount of the XIAO Series,Suitable for high-performance projects in limited spaces,Lithium battery charging management capability, providing 4 power consumption modes, allowing deep sleep mode, with power consumption as low as 14 μ A.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+  <li><strong><em>Powerful MCU Board:</em></strong> Incorporate the ESP32S3 32-bit, dual-core, Xtensa processor chip operating up to 240 MHz, mounted multiple development ports, Arduino / MicroPython supported
+_ <strong><em>Elaborate Power Design</em></strong>: Lithium battery charge management capability, offer 4 power consumption model which allows for deep sleep mode with power consumption as low as 14μA
+_ <strong><em>Great Memory for more Possibilities</em></strong>: Offer 8MB PSRAM and 8MB FLASH, supporting SD card slot for external 32GB FAT memory
+_ <strong><em>Outstanding RF performance</em></strong>: Support 2.4GHz Wi-Fi and BLE dual wireless communication, support 100m+ remote communication when connected with U.FL antenna
+_ <strong><em>Thumb-sized Compact Design</em></strong>: 21 x 17.8mm, adopting the classic form factor of XIAO, suitable for space limited projects like wearable devices</li>
+</ul>
+
+<h3 id="description">Description</h3>
+
+<p>Seeed Studi0 XIAO ESP32S3 adopts a highly integrated ESP32-S3 SoC with built-in <strong><em>Xtensa LX7 dual core, 32-bit processor</em></strong> that operates at <strong><em>up to 240 MHz</em></strong>. The chip has <strong><em>8MB PSRAM and 8MB Flash</em></strong>, which can provide greater programming space and better performance, and bring more possibilities for I0T control scenarios</p>
+
+<p>Wireless stack supports Complete <strong><em>2.4GHz Wi Fi subsystem BLE Bluetooth 5.0, Bluetooth mesh</em></strong>.</p>
+
+<p>This new XIAO is equipped with a <strong><em>high-performance car mounted ceramic antenna</em></strong>, which can reach a maximum range of 80m BLE/Wi Fi, and it also
+Reserved <strong><em>an interface for the external UFL antenna</em></strong>. At the same time, it is also equipped with optimized power management functions. It has four types The power mode and onboard lithium battery charging management circuit can operate in deep sleep mode with a current as <strong><em>low as 14ux</em></strong>, Make it very suitable for current battery powered applications.</p>
+
+<p>XIAO ESP32S3 is still a classic XIAO Design. Its design is suitable for <strong><em>21x17.8mm</em></strong>, XIAO standard size, while maintaining its classic single-sided component safety Install. Even though it is only the size of a thumb, it astonishingly taps a total of <strong><em>15 GPIO pins</em></strong>, including <strong><em>11 digital I/O for PWM pins and analog I/O for 9 ADC pins</em></strong>. It supports UART, IIC, and SPI serial communication ports, all of which make it ideal for space constrained projects such as wearable devices, or for use with Production ready units designed for PCBA.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html">Seeed Studio</a></li>
+</ul>
+
+<h2 id="getting-started">Getting Started</h2>
+<p><a href="https://learn.adafruit.com/circuitpython-with-esp32-quick-start/overview">Here is a complete guide</a> for getting Circuitpython installed onto an ESP32S3 device, and for enabling <a href="https://docs.circuitpython.org/en/latest/docs/workflows.html#web">Web Workflow</a> so you can load your Python code onto it.</p>
+
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/seeed_xiao_esp32s3/</guid>
   </item><item>
     <title>PicoADK v2 - Audio Development Kit</title>
     <link>https://circuitpython.org/board/datanoise_picoadk_v2/</link>
