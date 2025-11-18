@@ -11,6 +11,7 @@ date_added: 2025-11-17
 family: atmel-samd
 bootloader_id: microchip_curiosity_circuitpython
 download_instructions:
+downloads_display: false
 features:
   - Castellated Pads
   - Breadboard-Friendly
