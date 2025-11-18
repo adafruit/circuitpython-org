@@ -124,6 +124,15 @@
       grid-column: main;
       display: grid;
       grid-template-columns: repeat(3, minmax(200px, 1fr));
+
+      .manufacturers {
+        contain: size;
+
+        fieldset {
+          height: 100%;
+          overflow-y: scroll;
+        }
+      }
     }
 
     h2 {
@@ -234,10 +243,6 @@
         margin: 5px 0 5px 0;
       }
     }
-  }
-  .manufacturers ul {
-    max-height: 300px;
-    overflow-y: scroll;
   }
 }
 
