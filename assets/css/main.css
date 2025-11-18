@@ -874,6 +874,13 @@ label {
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, 1fr));
 }
+#downloads-page .downloads-filter-content > div .manufacturers {
+  contain: size;
+}
+#downloads-page .downloads-filter-content > div .manufacturers fieldset {
+  height: 100%;
+  overflow-y: scroll;
+}
 #downloads-page .downloads-filter-content h2 {
   margin: 0 0 10px 0;
 }
@@ -963,10 +970,6 @@ label {
   font-size: 24px;
   font-weight: 500;
   margin: 5px 0 5px 0;
-}
-#downloads-page .manufacturers ul {
-  max-height: 300px;
-  overflow-y: scroll;
 }
 
 @media (max-width: 1024px) {
