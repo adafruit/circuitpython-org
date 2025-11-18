@@ -4,9 +4,139 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 18 Nov 2025 13:13:43 -0500</lastBuildDate>
+<lastBuildDate>Tue, 18 Nov 2025 14:44:49 -0500</lastBuildDate>
 
 <item>
+    <title>ESP32-S3-Touch-LCD-1.47</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_1_47/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_s3_touch_lcd_1_47.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_touch_lcd_1_47.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_touch_lcd_1_47.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Waveshare</p> <p><strong>ESP32-S3-Touch-LCD-1.47</strong> uses ESP32-S3R8 chip with 2.4GHz WiFi and Bluetooth BLE 5 support, integrates high-capacity Flash and PSRAM. Onboard 1.47inch IPS display can smoothly run GUI programs such as LVGL.</p>
+
+<ul>
+  <li>Equipped with high-performance Xtensa 32-bit LX7 dual-core processor, up to 240MHz main frequency</li>
+  <li>Supports 2.4GHz Wi-Fi (802.11 b/g/n) and Bluetooth 5 (LE), with onboard antenna</li>
+  <li>Built-in 512KB SRAM and 384KB ROM, with onboard 16MB Flash and 8MB PSRAM</li>
+  <li>Onboard 1.47inch capacitive touch LCD display, 172×320 resolution, 262K color</li>
+  <li>Adapting multiple IO interfaces, supports full-speed USB standard</li>
+  <li>Onboard TF card slot for external TF card storage of pictures or files</li>
+  <li>Supports accurate control such as flexible clock and multiple power modes to realize low power consumption in different scenarios</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-s3-touch-lcd-1.47.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_1_47/</guid>
+  </item><item>
+    <title>M5Stack Tab5 IoT Development Kit</title>
+    <link>https://circuitpython.org/board/m5stack_tab5/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/m5stack_tab5.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/m5stack_tab5.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/m5stack_tab5.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By M5Stack</p> <p><strong>Tab5</strong> is a developer-oriented, highly extensible portable IoT terminal development device that integrates a dual-SoC architecture and abundant hardware resources. Its main controller is the RISC-V-based <strong>ESP32-P4</strong> SoC, equipped with 16 MB Flash and 32 MB PSRAM; the wireless module uses <strong>ESP32-C6-MINI-1U</strong>, supporting Wi-Fi 6 with an antenna system that can switch between a built-in 3D antenna and an external MMCX antenna port, flexibly adapting to different deployment environments and ensuring high data throughput and low latency.</p>
+
+<p>For visuals and interaction, Tab5 features a 5″ 1280×720 IPS <strong>TFT</strong> display driven over MIPI-DSI, with touch input handled by the GT911 multi-touch controller (I²C) for smooth, precise response. A MIPI-CSI-connected SC2356 2 MP <strong>camera</strong> (1600×1200) enables HD video capture, image processing, and edge AI applications (e.g., face recognition, object tracking).</p>
+
+<p>I/O and expansion include <strong>USB-A</strong> (Host) and <strong>USB-C</strong> (USB 2.0 OTG) ports for traditional peripherals; industrial communication via <strong>RS-485</strong> (SIT3088 with switchable 120 Ω termination); 1 × GROVE, 1 × M5BUS, GPIO_EXT header, and a <strong>Micro SD</strong> slot; plus a STAMP solder-pad for Cat.M/NB-IoT/LoRaWAN modules. A Reset/Boot button allows quick reset and firmware flashing.</p>
+
+<p>Audio/video uses an ES8388 <strong>audio codec</strong> with ES7210 AEC front end, dual-mic array, 3.5 mm jack, and 1 W 8 Ω NS4150B speaker for high-fidelity recording and playback. The onboard BMI270 <strong>six-axis sensor</strong> (accel+gyro, interrupt wakeup) can trigger MCU wakeup on motion.</p>
+
+<p>Time and power management integrate an RX8130CE <strong>real-time clock</strong> (interrupt wakeup); a 2S NP-F550 removable <strong>Li-ion battery</strong>; and IP2326 charging, MP4560 buck-boost, and INA226 real-time monitoring circuits to ensure stable operation without external power. A side-mounted Power button provides one-touch on/off.</p>
+
+<p>Structure-wise, Tab5 features a side-mounted standard <strong>1/4″-20 tripod mount nut</strong> for direct mounting to tripods or other supports, facilitating imaging and deployment.</p>
+
+<p>Tab5 is ideal for smart home control, remote monitoring, industrial automation, IoT prototyping, and educational research, offering developers and enterprises a full-featured, extensible, high-performance platform.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>ESP32-P4 dual-core MCU</li>
+  <li>ESP32-C6 wireless module</li>
+  <li>Wi-Fi 6</li>
+  <li>Built-in 3D antenna &amp; MMCX external antenna port</li>
+  <li>5″ 720P MIPI-DSI display</li>
+  <li>GT911 multi-touch</li>
+  <li>SC2356 2 MP camera</li>
+  <li>USB-A Host + USB-C OTG</li>
+  <li>RS-485 industrial interface</li>
+  <li>Grove &amp; M5BUS expansion</li>
+  <li>Micro SD card slot</li>
+  <li>STAMP expansion pad</li>
+  <li>ES8388 audio codec</li>
+  <li>ES7210 AEC dual microphones</li>
+  <li>1W speaker + 3.5 mm jack</li>
+  <li>BMI270 six-axis sensor</li>
+  <li>RX8130CE real-time clock</li>
+  <li>Reset/Boot &amp; Power buttons</li>
+  <li>NP-F550 2S removable battery</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://docs.m5stack.com/en/core/Tab5">Tab5</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.m5stack.com/products/m5stack-tab5-iot-development-kit-esp32-p4">M5Stack</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/m5stack_tab5/</guid>
+  </item><item>
+    <title>ESP32-C61-DevKitC-1-N8R2</title>
+    <link>https://circuitpython.org/board/espressif_esp32c61_devkitc_1_n8r2/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/espressif_esp32c61_devkitc_1.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/espressif_esp32c61_devkitc_1.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/espressif_esp32c61_devkitc_1.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Espressif</p> <p>The ESP32-C61-DevKitC-1 is an entry-level development board based on ESP32-C61-WROOM-1. The module integrated on this board comes with up to 8 MB of SPI flash and 2 MB of PSRAM. This board integrates complete Wi-Fi, and Bluetooth® Low Energy functions.</p>
+
+<p>Most of the I/O pins are broken out to the pin headers on both sides for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-C61-DevKitC-1 on a breadboard.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c61/esp32-c61-devkitc-1/user_guide.html">Espressif</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 17 Nov 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32c61_devkitc_1_n8r2/</guid>
+  </item><item>
     <title>ESP32S3-TOUCH-LCD-2.8</title>
     <link>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_2_8/</link>
     <description><![CDATA[  

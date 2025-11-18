@@ -4090,6 +4090,27 @@
         "description": "<p>ESP32-C3-Lyra is an ESP32-C3-based audio development board produced by Espressif for controlling light with audio. The board has control over the microphone, speaker, and LED strip, perfectly matching customers’ product development needs for ultra-low-cost and high-performance audio broadcasters and rhythm light strips.</p><h3 id=\"feature-list\">Feature List</h3><ul>  <li><strong>Module Embedded:</strong> ESP32-C3-WROOM-02 module with a 4 MB external SPI flash</li>  <li><strong>Audio:</strong> built-in ECM microphone, speaker power amplifier, speaker connector</li>  <li><strong>LED Strip Connector:</strong> support for two types of connections, i.e., connections to addressable LED strips and RGB LED strips</li>  <li><strong>Infrared Control:</strong> support for infrared (IR) transmitting and receiving</li>  <li><strong>Keys:</strong> boot key, reset key, and six function keys (MODE, COLOR, PLAY/PAUSE, SET, VOL+/LM+, VOL-/LM-)</li>  <li><strong>USB:</strong> 1 x USB Power Port, 1 x USB-to-UART Port</li>  <li><strong>Power Supply:</strong> 5 V power supply over USB or 12 V DC power supply</li></ul><h3 id=\"specifications\">Specifications</h3><ul>  <li>ESP32-C3-WROOM-02 Module</li>  <li>Speaker PA Chip</li>  <li>Speaker Output Port</li>  <li>Function Press Keys</li>  <li>Boot/Reset Press Keys</li>  <li>USB-to-UART Port</li>  <li>USB-to-UART Bridge Chip</li>  <li>USB Power Port</li>  <li>System Power Switch</li>  <li>LED Strip Power Selection Switch</li>  <li>12 V DC Power Port</li>  <li>12 V to 5 V Buck Chip</li>  <li>Addressable LED Strip Port</li>  <li>RGB LED Strip Port</li>  <li>System Power LED</li>  <li>IR Receiver</li>  <li>IR Transmitter</li>  <li>Microphone</li>  <li>System LED</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-LYRA/17883278\">DigiKey</a></li></ul>"
     },
     {
+        "board_id": "espressif_esp32c61_devkitc_1_n8r2",
+        "title": "ESP32-C61-DevKitC-1-N8R2 Download",
+        "name": "ESP32-C61-DevKitC-1-N8R2",
+        "board_url": [
+            "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c61/esp32-c61-devkitc-1/user_guide.html"
+        ],
+        "board_image": "espressif_esp32c61_devkitc_1.jpg",
+        "date_added": "2025-11-17",
+        "family": "esp32c61",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/espressif_esp32c61_devkitc_1_n8r2/",
+        "description": "<p>The ESP32-C61-DevKitC-1 is an entry-level development board based on ESP32-C61-WROOM-1. The module integrated on this board comes with up to 8 MB of SPI flash and 2 MB of PSRAM. This board integrates complete Wi-Fi, and Bluetooth® Low Energy functions.</p><p>Most of the I/O pins are broken out to the pin headers on both sides for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-C61-DevKitC-1 on a breadboard.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c61/esp32-c61-devkitc-1/user_guide.html\">Espressif</a></li></ul>"
+    },
+    {
         "board_id": "espressif_esp32c6_devkitc_1_n8",
         "title": "ESP32-C6-DevKitC-1-N8 Download",
         "name": "ESP32-C6-DevKitC-1-N8",
@@ -7050,6 +7071,29 @@
         "description": "<p><strong>M5StickC PLUS2</strong> is an iterative version of M5StickC PLUS, featuring the ESP32-PICO-V3-02 chip as the main controller with built-in WiFi functionality. The compact device integrates a wealth of hardware resources within its small form factor, including infrared, RTC, microphone, LED, IMU, buttons, buzzer, and more. It boasts a 1.14-inch TFT screen with a resolution of 135*240, driven by the ST7789V2. The battery capacity has been increased to 200mAh, and the interface also supports HAT and Unit series products. This compact and versatile development tool is designed to spark limitless creative possibilities.</p><p><strong>M5StickC PLUS2</strong> facilitates the rapid prototyping of IoT products, streamlining the entire development process. Even beginners in programming can easily build interesting applications and apply them to real-life scenarios using M5StickC PLUS2.</p><h3 id=\"features\">Features</h3><ul>  <li>ESP32-­PICO-­V3-­02-Base,support WiFi</li>  <li>Built-in 6-Axis IMU</li>  <li>IR transmitter</li>  <li>Microphone</li>  <li>RTC</li>  <li>Buttons, LCD(1.14 inch)</li>  <li>Built-in Lithium Polymer Battery@200mAh</li>  <li>Extendable Socket</li>  <li>Built-in Passive Buzzer</li>  <li>Wearable &amp; Wall mounted</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/M5StickC%20PLUS2\">M5StickC PLUS ESP32-PICO Mini IoT</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/m5stickc-plus2-esp32-mini-iot-development-kit\">M5Stack</a></li></ul>"
     },
     {
+        "board_id": "m5stack_tab5",
+        "title": "M5Stack Tab5 IoT Development Kit Download",
+        "name": "M5Stack Tab5 IoT Development Kit",
+        "board_url": [
+            "https://docs.m5stack.com/en/core/Tab5"
+        ],
+        "board_image": "m5stack_tab5.jpg",
+        "date_added": "2025-11-17",
+        "family": "esp32p4",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Speaker",
+            "Battery Charging",
+            "Display",
+            "Wi-Fi",
+            "USB-C"
+        ],
+        "url_path": "/board/m5stack_tab5/",
+        "description": "<p><strong>Tab5</strong> is a developer-oriented, highly extensible portable IoT terminal development device that integrates a dual-SoC architecture and abundant hardware resources. Its main controller is the RISC-V-based <strong>ESP32-P4</strong> SoC, equipped with 16 MB Flash and 32 MB PSRAM; the wireless module uses <strong>ESP32-C6-MINI-1U</strong>, supporting Wi-Fi 6 with an antenna system that can switch between a built-in 3D antenna and an external MMCX antenna port, flexibly adapting to different deployment environments and ensuring high data throughput and low latency.</p><p>For visuals and interaction, Tab5 features a 5″ 1280×720 IPS <strong>TFT</strong> display driven over MIPI-DSI, with touch input handled by the GT911 multi-touch controller (I²C) for smooth, precise response. A MIPI-CSI-connected SC2356 2 MP <strong>camera</strong> (1600×1200) enables HD video capture, image processing, and edge AI applications (e.g., face recognition, object tracking).</p><p>I/O and expansion include <strong>USB-A</strong> (Host) and <strong>USB-C</strong> (USB 2.0 OTG) ports for traditional peripherals; industrial communication via <strong>RS-485</strong> (SIT3088 with switchable 120 Ω termination); 1 × GROVE, 1 × M5BUS, GPIO_EXT header, and a <strong>Micro SD</strong> slot; plus a STAMP solder-pad for Cat.M/NB-IoT/LoRaWAN modules. A Reset/Boot button allows quick reset and firmware flashing.</p><p>Audio/video uses an ES8388 <strong>audio codec</strong> with ES7210 AEC front end, dual-mic array, 3.5 mm jack, and 1 W 8 Ω NS4150B speaker for high-fidelity recording and playback. The onboard BMI270 <strong>six-axis sensor</strong> (accel+gyro, interrupt wakeup) can trigger MCU wakeup on motion.</p><p>Time and power management integrate an RX8130CE <strong>real-time clock</strong> (interrupt wakeup); a 2S NP-F550 removable <strong>Li-ion battery</strong>; and IP2326 charging, MP4560 buck-boost, and INA226 real-time monitoring circuits to ensure stable operation without external power. A side-mounted Power button provides one-touch on/off.</p><p>Structure-wise, Tab5 features a side-mounted standard <strong>1/4″-20 tripod mount nut</strong> for direct mounting to tripods or other supports, facilitating imaging and deployment.</p><p>Tab5 is ideal for smart home control, remote monitoring, industrial automation, IoT prototyping, and educational research, offering developers and enterprises a full-featured, extensible, high-performance platform.</p><h3 id=\"features\">Features</h3><ul>  <li>ESP32-P4 dual-core MCU</li>  <li>ESP32-C6 wireless module</li>  <li>Wi-Fi 6</li>  <li>Built-in 3D antenna &amp; MMCX external antenna port</li>  <li>5″ 720P MIPI-DSI display</li>  <li>GT911 multi-touch</li>  <li>SC2356 2 MP camera</li>  <li>USB-A Host + USB-C OTG</li>  <li>RS-485 industrial interface</li>  <li>Grove &amp; M5BUS expansion</li>  <li>Micro SD card slot</li>  <li>STAMP expansion pad</li>  <li>ES8388 audio codec</li>  <li>ES7210 AEC dual microphones</li>  <li>1W speaker + 3.5 mm jack</li>  <li>BMI270 six-axis sensor</li>  <li>RX8130CE real-time clock</li>  <li>Reset/Boot &amp; Power buttons</li>  <li>NP-F550 2S removable battery</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/Tab5\">Tab5</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/m5stack-tab5-iot-development-kit-esp32-p4\">M5Stack</a></li></ul>"
+    },
+    {
         "board_id": "m5stack_timer_camera_x",
         "title": "M5Stack Timer Camera X Download",
         "name": "M5Stack Timer Camera X",
@@ -7565,6 +7609,26 @@
         ],
         "url_path": "/board/microbit_v2/",
         "description": "<p>Meet the new <strong>BBC micro:bit v2</strong> - Upgraded with a powerful new processor that has tons more capability and also adds more sensing with a new speaker and microphone!</p><p>The latest micro:bit will fit right into your existing lessons and materials; all the existing <strong>MakeCode</strong> blocks and <strong>MicroPython</strong> code will work in the same way as they do on the original micro:bit. More features, including easy ways to take AI and ML into the classroom, will be released throughout 2021.</p><p>It’s the same size and shape as the original micro:bit so you can use the same accessories you already own.</p><p>Some new features of the board:</p><ul>  <li>A more powerful Nordic nRF52833 processor, lots more RAM and Flash so MicroPython works a lot better!</li>  <li>A MEMS microphone, can hear the world around it</li>  <li>A speaker, provide audio feedback, play tones</li>  <li>Capacitive touch sensor, the logo now acts as a button you can boop!</li>  <li>Power saving mode, double click the reset button to enter low power mode.</li></ul><h3 id=\"purchase\">Purchase</h3><ul>  <li><a href=\"https://www.adafruit.com/product/4781\">Adafruit</a></li></ul>"
+    },
+    {
+        "board_id": "microchip_curiosity_circuitpython",
+        "title": "SAM E51 Curiosity Nano Download",
+        "name": "SAM E51 Curiosity Nano",
+        "board_url": [
+            "https://www.microchip.com/en-us/development-tool/ev76s68a"
+        ],
+        "board_image": "microchip_curiosity_circuitpython.jpg",
+        "date_added": "2025-11-17",
+        "family": "atmel-samd",
+        "bootloader_id": "microchip_curiosity_circuitpython",
+        "tags": [
+        ],
+        "features": [
+            "Castellated Pads",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/microchip_curiosity_circuitpython/",
+        "description": "<p>The SAM E51 Curiosity Nano Evaluation Kit is a hardware platform to evaluate the SAME51J20A microcontroller (MCU). This board is supported by MPLAB Integrated tools development environment and MPLAB Harmony.</p><ul>  <li>ARM® Cortex®-M4 processor</li>  <li>One user LED (yellow)</li>  <li>One mechanical user switch</li>  <li>On-board debugger    <ul>      <li>Board identification in MPLAB X IDE</li>      <li>One power/status LED (green)</li>      <li>Programming and debugging</li>      <li>Virtual COM port (CDC)</li>      <li>One logic analyzer (DGI GPIO)</li>    </ul>  </li>  <li>USB powered</li>  <li>Adjustable target voltage    <ul>      <li>MIC5353 LDO regulator controlled by the on-board debugger</li>      <li>1.8-3.6v output voltage</li>      <li>500 mA maximum output current (limited by ambient temperature and output voltage)</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.microchip.com/en-us/development-tool/ev76s68a\">Microchip</a></li></ul>"
     },
     {
         "board_id": "microdev_micro_c3",
@@ -12554,6 +12618,29 @@
         ],
         "url_path": "/board/waveshare_esp32_s3_tiny/",
         "description": "<p>This is a ESP32-S3 Mini Development Board, based on ESP32-S3FH4R2 Dual-Core Processor, 240MHz Running Frequency, USB Port Adapter Board Optional.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Adopts ESP32-S3FH4R2 chip with Xtensa 32-bit LX7 dual-core processor, up to 240MHz main frequency</li>  <li>Built in 512KB of SRAM and 384KB ROM, onboard 2MB PSRAM and 4MB Flash memory</li>  <li>Integrated 2.4GHz Wi-Fi and Bluetooth LE dual-mode wireless communication, with superior RF performance</li>  <li>Onboard FPC 8PIN connector, supports adapting USB Type-C port via adapter board</li>  <li>34 × multi-function GPIO pins</li>  <li>Rich peripheral interfaces, including SPI, I2C, UART, ADC, and PWM, etc. to achieve various functions flexibly</li>  <li>Supports multiple low-power operating states, adjustable balance between communication distance, data rate and power consumption to meet the power requirements of various application scenarios</li></ul><p>Waveshare wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S3-Tiny\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s3-tiny.htm\">Waveshare without USB Adapter</a></li>  <li><a href=\"https://www.waveshare.com/esp32-s3-tiny.htm?sku=27070\">Waveshare with USB Adapter</a></li></ul>"
+    },
+    {
+        "board_id": "waveshare_esp32_s3_touch_lcd_1_47",
+        "title": "ESP32-S3-Touch-LCD-1.47 Download",
+        "name": "ESP32-S3-Touch-LCD-1.47",
+        "board_url": [
+            "https://www.waveshare.com/esp32-s3-touch-lcd-1.47.htm"
+        ],
+        "board_image": "waveshare_esp32_s3_touch_lcd_1_47.jpg",
+        "date_added": "2025-11-17",
+        "family": "esp32s3",
+        "bootloader_id": "waveshare_esp32_s3_touch_lcd_1_47",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Battery Charging",
+            "Display",
+            "Wi-Fi",
+            "Bluetooth/BTLE"
+        ],
+        "url_path": "/board/waveshare_esp32_s3_touch_lcd_1_47/",
+        "description": "<p><strong>ESP32-S3-Touch-LCD-1.47</strong> uses ESP32-S3R8 chip with 2.4GHz WiFi and Bluetooth BLE 5 support, integrates high-capacity Flash and PSRAM. Onboard 1.47inch IPS display can smoothly run GUI programs such as LVGL.</p><ul>  <li>Equipped with high-performance Xtensa 32-bit LX7 dual-core processor, up to 240MHz main frequency</li>  <li>Supports 2.4GHz Wi-Fi (802.11 b/g/n) and Bluetooth 5 (LE), with onboard antenna</li>  <li>Built-in 512KB SRAM and 384KB ROM, with onboard 16MB Flash and 8MB PSRAM</li>  <li>Onboard 1.47inch capacitive touch LCD display, 172×320 resolution, 262K color</li>  <li>Adapting multiple IO interfaces, supports full-speed USB standard</li>  <li>Onboard TF card slot for external TF card storage of pictures or files</li>  <li>Supports accurate control such as flexible clock and multiple power modes to realize low power consumption in different scenarios</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s3-touch-lcd-1.47.htm\">Waveshare</a></li></ul>"
     },
     {
         "board_id": "waveshare_esp32_s3_touch_lcd_2",
