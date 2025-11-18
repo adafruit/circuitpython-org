@@ -58,6 +58,7 @@ def find_missing_boards(folder):
 # List all boards in the _boards folder that are not in the data file
 def find_extra_boards(folder):
     extra_boards = []
+    aliases = {}
     # Start with a list the board_id from all boards in the _boards folder
     for filename in get_files(folder):
         with open(filename, "rt") as f:
@@ -65,6 +66,9 @@ def find_extra_boards(folder):
             board_id = metadata.get('board_id')
             if board_id == "unknown":
                 continue
+            board_alias = metadata.get('board_alias')
+            if board_alias is not None and board_alias != "":
+                aliases[board_id] = board_alias
             extra_boards.append(board_id)
 
     # Remove all board_ids that are in the data file
@@ -73,6 +77,12 @@ def find_extra_boards(folder):
         for board in boards:
             if board["id"] in extra_boards:
                 extra_boards.remove(board["id"])
+
+    # Update any remaining board IDs with an alias to show the alias
+    for i in range(len(extra_boards)):
+        board_id = extra_boards[i]
+        if board_id in aliases:
+            extra_boards[i] = f"{board_id} (alias) --> {aliases[board_id]})"
 
     # Print out remaining board_ids
     print_section("Extra Boards", extra_boards)
