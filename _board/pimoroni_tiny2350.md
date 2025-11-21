@@ -5,6 +5,7 @@ title: "Tiny 2350 Download"
 name: "Tiny 2350"
 manufacturer: "Pimoroni"
 board_url:
+ - "https://www.adafruit.com/product/6248"
  - "https://shop.pimoroni.com/products/tiny-2350"
 board_image: "pimoroni_tiny2350.jpg"
 date_added: 2024-08-22
@@ -50,4 +51,5 @@ You can expect a tasty boost in performance - our "real world" MicroPython tests
 RP2350 comes in two flavours - A (standard) and B (all the pins). The B chip has a stonking 48 usable GPIO pins, including 8 ADCs and 24 PWMs, and features on some of our new products.
 
 ## Purchase
+* [Adafruit](https://www.adafruit.com/product/6248)
 * [Pimoroni](https://shop.pimoroni.com/products/tiny-2350)
