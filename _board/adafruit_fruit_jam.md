@@ -35,7 +35,6 @@ Anyhow, with the extra pins of the QFN-80 RP2350B, we're able to jam a ridonkulo
 - Chunky on-off switch
 - Stemma QT I2C
 - Stemma classic JST 3-pin
-- EYESPI for TFT displays
 - 5x NeoPixels
 - 3x tactile switches
 - 16-pin socket header with 10 A/D GPIO + 5V/3V/GND power pins.
