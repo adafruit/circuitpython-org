@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "espressif_esp8684_devkitc_02_n4"
-title: "ESP8684-DevKitC-2-N4 Download"
-name: "ESP8684-DevKitC-2-N4"
+title: "ESP8684-DevKitC-02C-N4 Download"
+name: "ESP8684-DevKitC-02C-N4"
 manufacturer: "Espressif"
 board_url:
  - "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp8684/esp8684-devkitc-02/user_guide.html"
