@@ -30,8 +30,9 @@ layout: default
   </div>
 </div>
 
-{% if page.family == 'esp32' or page.family == 'esp32s2' or page.family ==
-'esp32c3' or page.family == 'esp32s3' or page.family == 'esp32c6' %}
+{% assign bootloaders = site.data.bootloaders.bootloaders %}
+{% assign bootloader_info = bootloaders[page.family] %}
+{% if bootloader_info and bootloader_info.installer and bootloader_info.installer == true %}
 <script
   src="https://cdn.jsdelivr.net/gh/adafruit/web-firmware-installer-js@2/dist/cpinstaller.min.js"
   type="module"
