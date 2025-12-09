@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "espressif_esp32c6_devkitm_1_n4"
-title: "ESP32-C6-DevKitC-1-N4 Download"
-name: "ESP32-C6-DevKitC-1-N4"
+title: "ESP32-C6-DevKitM-1-N4 Download"
+name: "ESP32-C6-DevKitM-1-N4"
 manufacturer: "Espressif"
 board_url:
  - "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitm-1/user_guide.html"
