@@ -7,21 +7,37 @@
             "version": "v3.16.0"
         },
         "esp32s2": {
-            "version": "0.35.0"
+            "version": "0.35.0",
+            "installer": true
         },
         "esp32s3": {
-            "version": "0.35.0"
+            "version": "0.35.0",
+            "installer": true
         },
         "analog": {},
         "broadcom": {},
         "cxd56": {},
-        "esp32": {},
-        "esp32c2": {},
-        "esp32c3": {},
-        "esp32c6": {},
-        "esp32c61": {},
-        "esp32h2": {},
-        "esp32p4": {},
+        "esp32": {
+            "installer": true
+        },
+        "esp32c2": {
+            "installer": true
+        },
+        "esp32c3": {
+            "installer": true
+        },
+        "esp32c6": {
+            "installer": true
+        },
+        "esp32c61": {
+            "installer": true
+        },
+        "esp32h2": {
+            "installer": true
+        },
+        "esp32p4": {
+            "installer": true
+        },
         "litex": {},
         "mimxrt10xx": {},
         "rp2040": {},
