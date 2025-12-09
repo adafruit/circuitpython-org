@@ -4,9 +4,51 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 09 Dec 2025 05:05:45 -0500</lastBuildDate>
+<lastBuildDate>Tue, 09 Dec 2025 14:43:17 -0500</lastBuildDate>
 
 <item>
+    <title>Pico Expander</title>
+    <link>https://circuitpython.org/board/studiolab_picoexpander/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/studiolab_picoexpander.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/studiolab_picoexpander.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/studiolab_picoexpander.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Studiolab</p> <p>The Pico Expander is an expansion board that features a soldered Raspberry Pi Pico 2W, bringing its powerful RP2350 microcontroller to a more accessible form factor. This board breaks out all the Pico 2W pins to Grove connectors, making it easy to connect sensors and peripherals without soldering.</p>
+
+<p><strong>Key Features:</strong></p>
+
+<ul>
+  <li><strong>Grove Connectors</strong>: All GPIO pins are accessible via standard Grove connectors for quick prototyping</li>
+  <li><strong>Neopixel Status LED</strong>: Built-in addressable LED for visual feedback</li>
+  <li><strong>User Button</strong>: Connected to GPIO 15 for input control</li>
+  <li><strong>Reset Pin</strong>: Dedicated reset functionality for convenient board resets</li>
+  <li><strong>I2C Qwiic Connector</strong>: Native I2C support for connecting Qwiic-compatible sensors and devices</li>
+</ul>
+
+<p>The Pico Expander retains all the performance benefits of the Pico 2W—double the processing power, RAM, and flash memory compared to the original Pico—while providing a developer-friendly interface for rapid prototyping. Whether you’re building IoT projects, sensor networks, or interactive applications, the Pico Expander simplifies hardware integration and accelerates development in CircuitPython or MicroPython.</p>
+
+<h2 id="tutorial">Tutorial</h2>
+<ul>
+  <li><a href="https://id-studiolab.github.io/Connected-Interaction-Kit/">Connected Interaction Kit Getting Started</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.tudelft.nl/io/over-io/labs-en-faciliteiten/pmb">PMB</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 04 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/studiolab_picoexpander/</guid>
+  </item><item>
     <title>ESP32-S3-Touch-LCD-1.47</title>
     <link>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_1_47/</link>
     <description><![CDATA[  

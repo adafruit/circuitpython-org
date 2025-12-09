@@ -11415,6 +11415,33 @@
         "description": "<p>The Cedar Grove StringCar M0 Express is an ATSAMD21-based CircuitPython compatible board used to control a simple string car racer robot. The board is architecturally similar to the Adafruit Trinket M0 and ItsyBitsy M0 Express microcontroller boards with the addition of battery management and a DC motor controller. This board features JST connectors for the racer’s battery, motor output, and sensor input. LiPo battery management charge rate is 500mA. For sensor experimentation, a 3.3-volt Stemma-QT connection is available on-board. The micro-USB connector used for REPL operation, operational status data output, and battery charging. On-board flash memory size is 2MB.</p><p>The StringCar M0 Express board will not be sold. The GitHub repository will contain all design files and links for the BOM and the shared OSH Park project.</p><p>The string car racer is a simple one-motor robot that is suspended from a string using a pulley attached to the motor shaft. Its challenge is to race back and forth from one end of a taut string to the other. The fastest car wins. The controller board uses sensor switches to detect the ends of the string, calculate the string length, then control motor speed and braking to avoid string-end collisions.</p><p>The objective is to create a string car racer that can autonomously learn about its environment and adjust tradeoffs for speed and battery longevity. CircuitPython is used to easily add and interactively adjust performance features such as motor and battery efficiency, end-of-string collision avoidance, string length calculation, and predictive braking. Also, being able to watch its own battery status means that it’ll always return to the home end of the string when battery capacity begins to wane. Circuit Python also supports libraries that abstract string car functions, simplifying the primary code module to make it easier for novice programmers to get involved in customizing  string car racer operation.</p>"
     },
     {
+        "board_id": "studiolab_picoexpander",
+        "title": "Pico Expander Download",
+        "name": "Pico Expander",
+        "board_url": [
+            "https://id-studiolab.github.io/Connected-Interaction-Kit/test/components/pico-expander/pico-expander"
+        ],
+        "board_image": "studiolab_picoexpander.jpg",
+        "date_added": "2025-12-04",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+            "pico 2",
+            "picow",
+            "🥧🐮",
+            "pico 2w",
+            "connected interaction kit",
+            "CIK"
+        ],
+        "features": [
+            "Wi-Fi",
+            "Raspberry Pi Pico Form Factor",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/studiolab_picoexpander/",
+        "description": "<p>The Pico Expander is an expansion board that features a soldered Raspberry Pi Pico 2W, bringing its powerful RP2350 microcontroller to a more accessible form factor. This board breaks out all the Pico 2W pins to Grove connectors, making it easy to connect sensors and peripherals without soldering.</p><p><strong>Key Features:</strong></p><ul>  <li><strong>Grove Connectors</strong>: All GPIO pins are accessible via standard Grove connectors for quick prototyping</li>  <li><strong>Neopixel Status LED</strong>: Built-in addressable LED for visual feedback</li>  <li><strong>User Button</strong>: Connected to GPIO 15 for input control</li>  <li><strong>Reset Pin</strong>: Dedicated reset functionality for convenient board resets</li>  <li><strong>I2C Qwiic Connector</strong>: Native I2C support for connecting Qwiic-compatible sensors and devices</li></ul><p>The Pico Expander retains all the performance benefits of the Pico 2W—double the processing power, RAM, and flash memory compared to the original Pico—while providing a developer-friendly interface for rapid prototyping. Whether you’re building IoT projects, sensor networks, or interactive applications, the Pico Expander simplifies hardware integration and accelerates development in CircuitPython or MicroPython.</p><h2 id=\"tutorial\">Tutorial</h2><ul>  <li><a href=\"https://id-studiolab.github.io/Connected-Interaction-Kit/\">Connected Interaction Kit Getting Started</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.tudelft.nl/io/over-io/labs-en-faciliteiten/pmb\">PMB</a></li></ul>"
+    },
+    {
         "board_id": "sunton_esp32_2424S012",
         "title": "Sunton ESP32-2424S012 Download",
         "name": "Sunton ESP32-2424S012",
