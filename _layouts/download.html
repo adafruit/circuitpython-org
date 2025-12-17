@@ -9,7 +9,7 @@ layout: default
         {% assign large_image = "/assets/images/boards/large/" | append:
         page.board_image %}
         <img src="{{ large_image | relative_url }}" alt="Image of Board" />
-        <h1>{{ page.name }} by {{ page.manufacturer }}</h1>
+        <h1>{{ page.name }} by <a href="/downloads?manufacturers={{ page.manufacturer | url_encode }}">{{ page.manufacturer }}</a></h1>
       </div>
       <div class="section">
         <p>{{ content }}</p>
