@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 19 Dec 2025 09:07:25 -0500</lastBuildDate>
+<lastBuildDate>Fri, 19 Dec 2025 14:10:31 -0500</lastBuildDate>
 
 <item>
     <title>Pico Expander</title>
@@ -7503,7 +7503,7 @@ will go into standby if load is below 45mA for more than 32s.</p>
     <pubDate>Thu, 23 May 2024 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/wemos_lolin32_lite/</guid>
   </item><item>
-    <title>ESP8684-DevKitC-2-N4</title>
+    <title>ESP8684-DevKitC-02C-N4</title>
     <link>https://circuitpython.org/board/espressif_esp8684_devkitc_02_n4/</link>
     <description><![CDATA[  
 <img
@@ -11132,7 +11132,7 @@ version with the CH343 which connects to the USB-C connector.</p>
     <pubDate>Fri, 27 Oct 2023 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32h2_devkitm_1_n4/</guid>
   </item><item>
-    <title>ESP32-C6-DevKitC-1-N4</title>
+    <title>ESP32-C6-DevKitM-1-N4</title>
     <link>https://circuitpython.org/board/espressif_esp32c6_devkitm_1_n4/</link>
     <description><![CDATA[  
 <img
@@ -19963,26 +19963,26 @@ o   o        o   o
     <pubDate>Mon, 14 Feb 2022 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/raspberrypi_zero/</guid>
   </item><item>
-    <title>ESP32-S2-DevKitC-1-N4R2</title>
+    <title>ESP32-S2-DEVKITC-1R (4MB flash/2MB PSRAM)</title>
     <link>https://circuitpython.org/board/espressif_esp32s2_devkitc_1_n4r2/</link>
     <description><![CDATA[  
 <img
-  srcset="https://circuitpython.org/assets/images/boards/small/espressif_esp32s2_devkitc_1_n4r2.jpg 300w,
-             https://circuitpython.org/assets/images/boards/large/espressif_esp32s2_devkitc_1_n4r2.jpg 800w"
+  srcset="https://circuitpython.org/assets/images/boards/small/espressif_esp32s2_devkitc_1r.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/espressif_esp32s2_devkitc_1r.jpg 800w"
   sizes="(max-width: 300px) 300px,
             800px"
-  src="https://circuitpython.org/assets/images/boards/large/espressif_esp32s2_devkitc_1_n4r2.jpg"
+  src="https://circuitpython.org/assets/images/boards/large/espressif_esp32s2_devkitc_1r.jpg"
   alt="Image of Board"
   loading="lazy"
 />
-<p>By Espressif</p> <p>ESP32-S2-DevKitC-1 is an entry-level development board based on ESP32-S2-SOLO (on-board PCB antenna) or ESP32-S2-SOLO-U (external antenna connector), which are two general-purpose modules with a 4 MB SPI flash. This board integrates complete Wi-Fi functions.</p>
+<p>By Espressif</p> <p>The ESP32-S2-DEVKITC-1R Evaluation Board by Espressif Systems is a powerful development platform tailored for RF, RFID, and wireless applications. It features the ESP32-S2 transceiver, which supports 802.11 b/g/n Wi-Fi at 2.4GHz, making it ideal for a broad range of IoT applications. Powered by a 32-bit Xtensa single-core processor running at 240MHz, the board includes 320KB SRAM, 128KB ROM, and 4MB SPI Flash, offering efficient processing for complex tasks.</p>
 
-<p>Most of the I/O pins are broken out to the pin headers on both sides for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S2-DevKitC-1 on a breadboard.</p>
+<p>Additionally, the board is equipped with 43 GPIOs, allowing for versatile interfacing with peripherals and sensors. It also supports multiple communication options, including 4 SPI, 2 UART, 2 I2C, I2S, RMT, USB-OTG, and TWAI (CAN). For analog interfacing, it includes 2 x 8-bit DACs and a 12-bit ADC, making it a comprehensive solution for development and testing of advanced wireless communication systems.</p>
 
 <h2 id="purchase">Purchase</h2>
 
 <ul>
-  <li><a href="https://www.aliexpress.com/item/1005003578116249.html">AliExpress</a></li>
+  <li><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S2-DEVKITC-1R/15222539">Digi-Key</a></li>
 </ul>
  ]]></description>
     
