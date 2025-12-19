@@ -7,6 +7,7 @@
 {% assign stable = board[0].versions | where: "stable", true | sort: "version" %}
 {% assign unstable = board[0].versions | where: "stable", false | sort: "version" %}
 {% assign bootloaders = site.data.bootloaders.bootloaders %}
+{% assign modules = site.data.modules.modules %}
 {% assign bootloader_info = bootloaders[page.family] %}
 {% assign bootloader_version = bootloader_info.version %}
 {% assign bootloader_id = page.bootloader_id %}
@@ -184,7 +185,12 @@
         Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
         <span class="download-modules {% if version.stable %}stable{% else %}unstable{% endif %}">
           {% for module_name in version.frozen_libraries %}
+          {% assign module_link = modules[module_name] %}
+            {% if module_link %}
+          <a target="_blank" class="library-link" href="{{ module_link }}">
+            {% else %}
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/{{ module_name | split: 'adafruit_' | last }}">
+            {% endif %}
             {{ module_name }}</a>{% unless forloop.last %}, {% endunless %}
           {% endfor %}
         </span>
