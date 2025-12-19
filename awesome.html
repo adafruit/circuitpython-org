@@ -6,5 +6,6 @@ permalink: /awesome
 
 <div id="awesome-page">
   {% capture awesome_include %}{% include_relative awesome-circuitpython/README.md %}{% endcapture %}
+  {% assign awesome_include = awesome_include | replace: '](./', ']( /awesome-circuitpython/' %}
   {{ awesome_include | markdownify }}
 </div>
