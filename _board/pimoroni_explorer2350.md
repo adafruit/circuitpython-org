@@ -9,7 +9,6 @@ board_url: "https://shop.pimoroni.com/products/explorer"
 board_image: "pimoroni_explorer2350.jpg"
 date_added: 2024-08-22
 family: rp2350
-bootloader_id: "pimoroni_explorer2350"
 downloads_display: true
 blinka: false
 features:
@@ -24,7 +23,7 @@ features:
 
 An electronic adventure playground for physical computing, built around the high-performance RP2350B chip.
 
-Pimoroni Explorer is designed for playing with circuits, building science experiments, and prototyping tiny robots. It features a large **2.8" IPS LCD screen** surrounded by **six tactile buttons**, making it easy to monitor and control your projects. With an integrated **mini breadboard**, **servo headers**, and **analog-friendly crocodile clip terminals**, it’s a self-contained workstation for tinkering without the mess of loose wires.
+Pimoroni Explorer is designed for playing with circuits, building science experiments, and prototyping tiny robots. It features a large **2.8" IPS LCD screen** surrounded by **six tactile buttons**, making it easy to monitor and control your projects. With an integrated speaker, **mini breadboard**, **servo headers**, and **analog-friendly crocodile clip terminals**, it’s a self-contained workstation for tinkering without the mess of loose wires.
 
 ## Features
 
@@ -41,6 +40,10 @@ Pimoroni Explorer is designed for playing with circuits, building science experi
 - 2-pin JST-PH connector for adding a battery (input voltage 3V to 5.5V)
 - Fully-assembled (no soldering required)
 - Programmable with C/C++ or MicroPython
+
+## Getting Started
+
+See [this Adafruit Playground note](https://adafruit-playground.com/u/tyeth/pages/circuitpython-on-the-pimoroni-explorer) to help you begin your journey!
 
 ## About RP2350
 
