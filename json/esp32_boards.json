@@ -964,6 +964,12 @@
             }
         ]
     },
+    "m5stack_cores3_se": {
+        "name": "CoreS3 SE ESP32S3 IoT",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/m5stack_cores3_se/tinyuf2-m5stack_cores3_se-0.35.0.zip",
+        "releases": []
+    },
     "red-s2-wroom": {
         "name": "Red S2 WROOM Board",
         "chipfamily": "esp32s2",
