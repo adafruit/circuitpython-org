@@ -7,7 +7,7 @@ id: "PIM720"
 manufacturer: "Pimoroni"
 board_url: "https://shop.pimoroni.com/products/explorer"
 board_image: "pimoroni_explorer2350.jpg"
-date_added: 2024-08-22
+date_added: 2026-02-04
 family: rp2350
 downloads_display: true
 blinka: false
