@@ -4,9 +4,69 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 03 Feb 2026 17:23:41 -0500</lastBuildDate>
+<lastBuildDate>Tue, 03 Feb 2026 21:44:07 -0500</lastBuildDate>
 
 <item>
+    <title>Pimoroni Explorer (RP2350)</title>
+    <link>https://circuitpython.org/board/pimoroni_explorer2350/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/pimoroni_explorer2350.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pimoroni_explorer2350.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/pimoroni_explorer2350.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Pimoroni</p> <p>An electronic adventure playground for physical computing, built around the high-performance RP2350B chip.</p>
+
+<p>Pimoroni Explorer is designed for playing with circuits, building science experiments, and prototyping tiny robots. It features a large <strong>2.8” IPS LCD screen</strong> surrounded by <strong>six tactile buttons</strong>, making it easy to monitor and control your projects. With an integrated speaker, <strong>mini breadboard</strong>, <strong>servo headers</strong>, and <strong>analog-friendly crocodile clip terminals</strong>, it’s a self-contained workstation for tinkering without the mess of loose wires.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Powered by RP2350B (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>
+  <li>16MB of QSPI flash supporting XiP</li>
+  <li>2.8” IPS LCD screen (320 x 240 pixels, ST7789V driver)</li>
+  <li>USB-C connector for power and programming</li>
+  <li>Mini breadboard for circuit prototyping</li>
+  <li>Piezo speaker for audio feedback</li>
+  <li>6x user-controllable tactile switches, plus reset and boot buttons</li>
+  <li>2x Qw/ST (Qwiic/STEMMA QT) connectors for I2C breakouts</li>
+  <li>4x 3-pin servo outputs</li>
+  <li>6x crocodile clip terminals (3x ADCs, plus 3.3V and Ground)</li>
+  <li>2-pin JST-PH connector for adding a battery (input voltage 3V to 5.5V)</li>
+  <li>Fully-assembled (no soldering required)</li>
+  <li>Programmable with C/C++ or MicroPython</li>
+</ul>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>See <a href="https://adafruit-playground.com/u/tyeth/pages/circuitpython-on-the-pimoroni-explorer">this Adafruit Playground note</a> to help you begin your journey!</p>
+
+<h2 id="about-rp2350">About RP2350</h2>
+
+<p>The RP2350 chip is the “Double Quarter Pounder &amp; Fries” to the RP2040’s “Double Cheeseburger.” It features upgraded dual-core Arm Cortex-M33 processors and introduces optional RISC-V cores for specialized development.</p>
+
+<p>In addition to the modern M33 ARM cores, you get a significant boost in PIO capability, lower power states for battery-efficient projects, and a robust security architecture.</p>
+
+<p>Performance-wise, you can expect “real world” MicroPython tests to run up to 2x faster than on the RP2040, while floating-point math in C/C++ is up to 20x faster. The extra on-chip RAM and external PSRAM support make a massive difference when working with memory-intensive operations like driving the Explorer’s high-resolution display.</p>
+
+<p>The Pimoroni Explorer uses the <strong>RP2350B</strong> variant, which features 48 usable GPIO pins, enabling the dense integration of the screen, servos, and expansion headers all on one board.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/explorer">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 04 Feb 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_explorer2350/</guid>
+  </item><item>
     <title>CoreS3 SE ESP32S3 IoT</title>
     <link>https://circuitpython.org/board/m5stack_cores3_se/</link>
     <description><![CDATA[  

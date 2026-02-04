@@ -8825,6 +8825,31 @@
         "description": "<p>A programmable badge with fast updating E Ink® display and wireless connectivity powered by the Raspberry Pi Pico W. On the front, you’ll find the black and white 2.9” e-paper screen, a selection of buttons to poke at and a slot to clip it onto a lanyard. On the back, there’s a battery connector, a reset button and a Qw/ST connector for plugging in Qwiic or STEMMA QT breakouts. And now that it’s got a Raspberry Pi Pico W Aboard it can communicate wirelessly with other devices and retrieve tasty data from the internet, hoorah!</p><h2 id=\"features\">Features</h2><ul>  <li>2.9” black and white E Ink® display (296 x 128 pixels)    <ul>      <li>Ultra wide viewing angles</li>      <li>Ultra low power consumption</li>      <li>Dot pitch - 0.227 x 0.226 mm</li>    </ul>  </li>  <li>Raspberry Pi Pico W Aboard    <ul>      <li>Dual Arm Cortex M0+ running at up to 133Mhz with 264kB of SRAM</li>      <li>2MB of QSPI flash supporting XiP</li>      <li>Powered and programmable by USB micro-B</li>      <li>2.4GHz wireless</li>    </ul>  </li>  <li>Five front user buttons</li>  <li>Reset button</li>  <li>White LED</li>  <li>JST-PH connector for attaching a battery (input range 2.7V - 5.5V)</li>  <li>Qw/ST (Qwiic/STEMMA QT) connector</li>  <li>Dedicated RTC chip (PCF85063A) for deep sleep / wake</li></ul><h2 id=\"about-pico-w-aboard\">About Pico W Aboard</h2><p>Our new Pico W Aboard products come with a built in Raspberry Pi Pico W. This means you get all the advantages of a RP2040 microcontroller - a speedy fast dual-core ARM processor, a dynamic, growing ecosystem and a choice of different programming methods to experiment with. Most excitingly though, Pico W has wireless connectivity, so your Pico/RP2040 devices can communicate with each other, and the internet!</p><h2 id=\"misc\">Misc</h2><ul>  <li><a href=\"https://cdn.shopify.com/s/files/1/0174/1800/files/badger_w_schematic.pdf?v=1675859004\">Schematics</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/badger-2040-w\">Pimoroni</a></li></ul>"
     },
     {
+        "board_id": "pimoroni_explorer2350",
+        "title": "Pimoroni Explorer (RP2350) Download",
+        "name": "Pimoroni Explorer (RP2350)",
+        "board_url": [
+            "https://shop.pimoroni.com/products/explorer"
+        ],
+        "board_image": "pimoroni_explorer2350.jpg",
+        "date_added": "2026-02-04",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Display",
+            "Robotics",
+            "Solder-Free Alligator Clip",
+            "Speaker",
+            "STEMMA QT/QWIIC",
+            "USB-C"
+        ],
+        "url_path": "/board/pimoroni_explorer2350/",
+        "description": "<p>An electronic adventure playground for physical computing, built around the high-performance RP2350B chip.</p><p>Pimoroni Explorer is designed for playing with circuits, building science experiments, and prototyping tiny robots. It features a large <strong>2.8” IPS LCD screen</strong> surrounded by <strong>six tactile buttons</strong>, making it easy to monitor and control your projects. With an integrated speaker, <strong>mini breadboard</strong>, <strong>servo headers</strong>, and <strong>analog-friendly crocodile clip terminals</strong>, it’s a self-contained workstation for tinkering without the mess of loose wires.</p><h2 id=\"features\">Features</h2><ul>  <li>Powered by RP2350B (Dual Arm Cortex M33 running at up to 150MHz with 520KB of SRAM)</li>  <li>16MB of QSPI flash supporting XiP</li>  <li>2.8” IPS LCD screen (320 x 240 pixels, ST7789V driver)</li>  <li>USB-C connector for power and programming</li>  <li>Mini breadboard for circuit prototyping</li>  <li>Piezo speaker for audio feedback</li>  <li>6x user-controllable tactile switches, plus reset and boot buttons</li>  <li>2x Qw/ST (Qwiic/STEMMA QT) connectors for I2C breakouts</li>  <li>4x 3-pin servo outputs</li>  <li>6x crocodile clip terminals (3x ADCs, plus 3.3V and Ground)</li>  <li>2-pin JST-PH connector for adding a battery (input voltage 3V to 5.5V)</li>  <li>Fully-assembled (no soldering required)</li>  <li>Programmable with C/C++ or MicroPython</li></ul><h2 id=\"getting-started\">Getting Started</h2><p>See <a href=\"https://adafruit-playground.com/u/tyeth/pages/circuitpython-on-the-pimoroni-explorer\">this Adafruit Playground note</a> to help you begin your journey!</p><h2 id=\"about-rp2350\">About RP2350</h2><p>The RP2350 chip is the “Double Quarter Pounder &amp; Fries” to the RP2040’s “Double Cheeseburger.” It features upgraded dual-core Arm Cortex-M33 processors and introduces optional RISC-V cores for specialized development.</p><p>In addition to the modern M33 ARM cores, you get a significant boost in PIO capability, lower power states for battery-efficient projects, and a robust security architecture.</p><p>Performance-wise, you can expect “real world” MicroPython tests to run up to 2x faster than on the RP2040, while floating-point math in C/C++ is up to 20x faster. The extra on-chip RAM and external PSRAM support make a massive difference when working with memory-intensive operations like driving the Explorer’s high-resolution display.</p><p>The Pimoroni Explorer uses the <strong>RP2350B</strong> variant, which features 48 usable GPIO pins, enabling the dense integration of the screen, servos, and expansion headers all on one board.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/explorer\">Pimoroni</a></li></ul>"
+    },
+    {
         "board_id": "pimoroni_inky_frame_5_7",
         "title": "Inky Frame 5.7\" Download",
         "name": "Inky Frame 5.7\" (Pico W Aboard)",
