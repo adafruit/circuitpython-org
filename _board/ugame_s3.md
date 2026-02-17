@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "ugame-s3"
+board_id: "deshipu_ugame_s3"
 title: "µGame S3 Download"
 name: "µGame S3"
 manufacturer: "Radomir Dopieralski"
