@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "pimoroni_plasma2350w"
-title: "Plasma 2350 Download"
-name: "Plasma 2350"
+title: "Plasma 2350 W Download"
+name: "Plasma 2350 W"
 manufacturer: "Pimoroni"
 board_url:
  - "https://shop.pimoroni.com/products/plasma-2350-w"
