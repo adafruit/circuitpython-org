@@ -20,7 +20,7 @@ features:
   - USB 3.0
 ---
 
-The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that's exactly what they did!
+The Raspberry Pi 4 Model B is the second newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that's exactly what they did!
 
 The Raspberry Pi 4 is the latest product in the Raspberry Pi range, boasting an updated 64-bit quad core processor running at 1.4GHz with built-in metal heatsink, USB 3 ports, dual-band 2.4GHz and 5GHz wireless LAN, faster (300 mbps) Ethernet, and PoE capability via a separate PoE HAT.
 
