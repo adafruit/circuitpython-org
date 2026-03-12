@@ -11844,6 +11844,51 @@
         "description": "<p>The <strong>ScoutMakes Azul</strong> is an open source Bluetooth (BLE) development platform featuring the nRF52840 (32bit ARM Cortex-M4 processor) from Nordic semiconductors enabling excellent Bluetooth development capabilities for your project. It conforms to the Adafruit feather format, runs CircuitPython, Arduino. The platform also has native USB support.</p><p>To enable even more integration, a 128x32 OLED is also built in along with USB-C support and a power switch for ease of use.</p><p>The platform come pre-programmed with a UF2 bootloader and CircuitPython ready to go out of box. You can pair the Azul with Adafruit bluefruit application in iOS or Android to get going. The application includes a color picker, quaternion/accelerometer/gyro/magnetometer or location (GPS), and an 8-button control game pad. This data can be read over BLE and processed directly by the nRF52 microcontroller.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ARM Cortex M4F (with HW floating point acceleration) running at 64 MHz</li>  <li>1 MB flash and 256 KB SRAM</li>  <li>Pre-programmed with UF2 bootloader</li>  <li>Bluetooth Low Energy compatible 2.4 GHz radio (Details available in the <a href=\"https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840\">nRF52840</a> product specification)</li>  <li>Up to +8 dBm output power</li>  <li>Built-in 128-32 OLED display</li>  <li>USB-C connector</li>  <li>ON/OFF power switch</li>  <li>1.7 V to 3.3 V operation with internal linear and DC/DC voltage regulators</li>  <li>21 GPIO, 6 12-bit ADC pins, up to 12 PWM outputs (3 PWM modules with 4 outputs each)</li>  <li>Pin #3 red LED for general purpose blinking, NeoPixel for colorful feedback</li>  <li>4 mounting holes</li>  <li>Reset button</li>  <li>Open source design</li>  <li>Works out of the box with Adafruit’s feather wings    <h2 id=\"tutorial\">Tutorial</h2>  </li>  <li><a href=\"https://scoutmakes.com/blogs/news/scoutmakes-azul\">ScoutMakes Azul Overview</a></li>  <li><a href=\"https://www.youtube.com/channel/UCYcssarGk-M_4w-jmb3To0Q/featured/\">ScoutMakes Youtube Channel</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://scoutmakes.com/blogs/news/scoutmakes-azul\">TinkeringTech</a></li></ul>"
     },
     {
+        "board_id": "tinycircuits_thumby",
+        "title": "Thumby Download",
+        "name": "Thumby",
+        "board_url": [
+            "https://thumby.us/",
+            "https://tinycircuits.com/products/thumby"
+        ],
+        "board_image": "tinycircuits_thumby.jpg",
+        "date_added": "2026-02-24",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Speaker",
+            "Battery Charging"
+        ],
+        "url_path": "/board/tinycircuits_thumby/",
+        "description": "<p>Thumby is the tiniest handheld console - play games at the tips of your thumbs, give yourself a cool keychain accessory, and easily learn to code with this all-in-one piece of tech! This miniature console features a responsive D-pad and two action buttons, offering a fully playable experience.</p><p>When you’re not going for the high score or creating your own games, the super-small system dangles from your keys as a tiny totem of nostalgic gaming. Thumby proves that great things really do come in small packages.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://tinycircuits.com/products/thumby\">TinyCircuits</a></li>  <li><a href=\"https://a.co/d/0gDi0TN7\">Amazon</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://thumby.us/\">Documentation</a></li></ul>"
+    },
+    {
+        "board_id": "tinycircuits_thumby_color",
+        "title": "Thumby Color Download",
+        "name": "Thumby Color",
+        "board_url": [
+            "https://color.thumby.us/",
+            "https://tinycircuits.com/products/thumby-color"
+        ],
+        "board_image": "tinycircuits_thumby_color.jpg",
+        "date_added": "2026-02-24",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Speaker",
+            "Battery Charging",
+            "USB-C"
+        ],
+        "url_path": "/board/tinycircuits_thumby_color/",
+        "description": "<p>Thumby Color is the next generation of Thumby; it’s still fun to play with, easily programmable, and as tiny as ever.</p><p>Built around the new Raspberry Pi RP2350 Processor, the successor to the RP2040 used in the original Thumby, the Thumby Color is significantly more powerful than the original Thumby.  This new powerful processor enables us to implement a vibrant color screen and a highly featured game engine, allowing for the creation of some amazing games!</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://tinycircuits.com/products/thumby-color\">TinyCircuits</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://color.thumby.us/\">Documentation</a></li></ul>"
+    },
+    {
         "board_id": "trellis_m4_express",
         "title": "NeoTrellis M4 Download",
         "name": "NeoTrellis M4",
