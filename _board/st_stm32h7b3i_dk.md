@@ -56,5 +56,5 @@ The STM32H7B3I-DK board comes with the STM32CubeH7 MCU Package, which provides a
 - Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE
 
 ## Purchase
-* [ST](https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32h7b3i-dk.html)
+* [STMicroelectronics](https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32h7b3i-dk.html)
 * [Newark](https://www.newark.com/stmicroelectronics/stm32h7b3i-eval/evaluation-board-32bit-arm-cortex/dp/78AK8714)
