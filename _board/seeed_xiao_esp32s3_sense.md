@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "seeed_xiao_esp32_s3_sense"
+board_id: "seeed_xiao_esp32s3_sense"
 title: "Seeed Studio XIAO ESP32S3 Sense Download"
 name: "Seeed Studio XIAO ESP32S3 Sense"
 manufacturer: "Seeed Studio"
