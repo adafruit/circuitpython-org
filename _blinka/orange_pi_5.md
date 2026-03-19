@@ -42,4 +42,4 @@ Orange Pi 5 provides abundant interfaces, including HDMI output, GPIO interface,
 - 3 Pin debug serial port (UART)
 
 ## Purchase
-* [Amazon](https://amzn.to/3LLi7ql)
+* [Amazon](https://www.amazon.com/dp/B0BN15SS83)

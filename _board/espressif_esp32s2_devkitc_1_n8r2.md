@@ -22,4 +22,4 @@ Most of the I/O pins are broken out to the pin headers on both sides for easy in
 ## Purchase
 
 * [Digi-Key](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S2-DEVKITC-1-N8R2/16688755)
-* [Amazon](https://amzn.to/3rXL5d8)
+* [Amazon](https://www.amazon.com/dp/B0B97K3LJQ)

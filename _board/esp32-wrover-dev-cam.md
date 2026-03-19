@@ -36,4 +36,4 @@ There are RESET and BOOT buttons, which makes it easy to reset the board or put 
 ## Purchase
 
 * [Aliexpress](https://www.aliexpress.com/item/3256804153608796.html)
-* [Amazon](https://amzn.to/4c8Bl51)
+* [Amazon](https://www.amazon.com/dp/B09BC5CNHM)

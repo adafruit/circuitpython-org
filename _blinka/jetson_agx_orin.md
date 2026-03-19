@@ -31,5 +31,5 @@ With the computing capability of more than 8 Jetson AGX Xavier systems in a deve
 
 ## Purchase
 
-* [Amazon](https://amzn.to/3QKDIAt)
+* [Amazon](https://www.amazon.com/dp/B09WGRQP4B)
 * [Arrow](https://www.arrow.com/en/products/945-13730-0000-000/nvidia)

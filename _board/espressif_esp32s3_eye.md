@@ -27,5 +27,5 @@ The ESP32-S3-EYE is a small-sized AI development board produced by Espressif. It
 
 ## Purchase
 
-* [Amazon](https://amzn.to/3wlkuJw)
+* [Amazon](https://www.amazon.com/dp/B09MS6PH7L)
 * [Mouser](https://mou.sr/3KfVSrC)

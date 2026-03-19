@@ -28,4 +28,4 @@ features:
 - Rich IO: 40 Pin GPIO Header (USB, I2C, I2S, UART, ADC etc) 8-ch I2S for Microphone Array application (over M.2 Connector) MIPI-DSI MIPI-CSI Designed with GPIO Extender Chip
 
 ## Purchase
-* [Amazon](https://amzn.to/3NAK98d)
+* [Amazon](https://www.amazon.com/dp/B07WCS4Z6V)

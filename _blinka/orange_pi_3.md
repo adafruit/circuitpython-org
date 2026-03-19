@@ -48,4 +48,4 @@ Orange Pi 3 is for anyone who wants to start creating with technology – not ju
 
 ## Purchase
 * [Aliexpress](https://pt.aliexpress.com/item/1005001804159295.html)
-* [Amazon](https://amzn.to/3qGAtOM)
+* [Amazon](https://www.amazon.com/dp/B08MZJW7N1)

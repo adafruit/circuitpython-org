@@ -53,4 +53,4 @@ Orange Pi 4 LTS uses the Rockchip RK3399(28nm HKMG Process), and has 3 GB /4GB L
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.us/item/3256803525557239.html)
-* [Amazon](https://amzn.to/3fPtK3l)
+* [Amazon](https://www.amazon.com/dp/B09TKQMXNM)

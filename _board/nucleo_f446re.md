@@ -24,4 +24,4 @@ The STM32 Nucleo-64 board comes with the STM32 comprehensive free software libra
 
 ## Purchase
 * [Digi-Key](https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-F446RE/5347712)
-* [Amazon](https://amzn.to/3T5Lo19)
+* [Amazon](https://www.amazon.com/dp/B01I8XLEM8)

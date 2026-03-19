@@ -35,4 +35,4 @@ It has same form factor and 40-pin connector as the Raspberry Pi Zero W, and it 
   - 1x 100Mbps Ethernet
 
 ## Purchase
-* [Amazon](https://amzn.to/3FafJKz)
+* [Amazon](https://www.amazon.com/dp/B0CR68CC45)

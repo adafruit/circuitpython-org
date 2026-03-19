@@ -30,6 +30,6 @@ The developer kit comprises a Jetson Orin™ Nano 8GB module and a reference car
 - Expandable with rich I/Os: USB 3.2 Gen 2 ports(4x), DP 1.2, M.2 key E with pre-installed Wi-Fi module, 2x M.2 Key M for SSD, microSD slot, 2x MIPI CSI-2 connectors, Gigabit Ethernet, 40-pin GPIO
 
 ## Purchase
-* [Amazon](https://amzn.to/42Ay4Xf)
+* [Amazon](https://www.amazon.com/dp/B0BZJTQ5YP)
 * [Arrow](https://www.arrow.com/en/products/945-13766-0000-000/nvidia)
 * [Seeed Studio](https://www.seeedstudio.com/NVIDIAr-Jetson-Orintm-Nano-Developer-Kit-p-5617.html)

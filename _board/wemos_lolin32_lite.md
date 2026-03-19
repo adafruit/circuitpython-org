@@ -43,7 +43,7 @@ The ESP32 is great for small projects where you don’t need so many I/Os, proce
 
 ## Purchase
 
-* [Amazon](https://amzn.to/3wCPfxb)
+* [Amazon](https://www.amazon.com/dp/B07MK1WF91)
 
 ## Technical
 

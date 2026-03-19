@@ -54,4 +54,4 @@ Orange Pi 3 LTS uses the Allwinner H6 SoC, and has 2GB LPDDR3 SDRAM, 8GB EMMC Fl
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.us/item/3256803390997951.html)
-* [Amazon](https://amzn.to/4mziIgD)
+* [Amazon](https://www.amazon.com/dp/B09TQZH4GJ)

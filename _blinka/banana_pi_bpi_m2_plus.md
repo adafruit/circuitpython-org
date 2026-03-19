@@ -38,4 +38,4 @@ Banana Pi BPI-M2+ not support sata port, so you need use USB for hardisk
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.us/item/2252799815676798.html)
-* [Amazon](https://amzn.to/3CFghTl)
+* [Amazon](https://www.amazon.com/dp/B0B9NH5RM6)
