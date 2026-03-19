@@ -1541,6 +1541,25 @@
         "description": "<p>The <strong>Adafruit Sparkle Motion Stick</strong> is part of our series of “Sparkle Motion” boards, which are our attempt to make the best small WLED-friendly smart LED driving board in the whole world. Our resident mermaid, <a href=\"https://learn.adafruit.com/u/firepixie\">firepixie</a> makes a lot of projects with WLED, and she loves it! So, how can we make something powerful enough to drive advanced LED projects that need a compact design?</p><p><strong>This version includes both the Sparkle Motion Stick and the enclosure</strong>, which is great if you want to protect your USB dongle from everyday usage, but note that it is not waterproof or weatherproof. There are three pieces: two snap over the PCB to capture it in place, and one can be used as a USB A port cap. We also like there’s a button lever - by default in WLED pin 0 is an on/off mode switcher, but you can program it to do other stuff.</p><p>The USB Stick version of the Sparkle Motion is a simpler version of our full-featured Sparkle Motion. <a href=\"https://www.adafruit.com/product/6176\">It even fits into a low cost off-the-shelf case for protection.</a></p><ul>  <li><strong>Power via USB Type A for up to 5V 2A input -</strong> you can use off-the-shelf USB battery packs for portable operation.</li>  <li><strong>2 Amp resetting fuse</strong> to protect from over-current drive</li>  <li><strong>ESP32</strong> mini module with built-in antenna port - the classic ESP32 has the best WLED support, even if we’d prefer the ‘S2 or ‘S3. Comes with 4 MB of flash, dual-core 240MHz Tensilica, WiFi, Bluetooth LE, and Bluetooth Classic support.</li>  <li><strong>USB-serial converter</strong> with auto-reset</li>  <li><strong>Two output signals plus 5V power and ground</strong> - both signal outputs are level shifted to 5V.</li>  <li><strong>Built-in I2S microphone</strong> for audio-reactive projects</li>  <li><strong>Built-in Infrared receiver</strong> on GPIO 10 for easy remote control integration</li>  <li><strong>User button on GPIO 0</strong> which you can press even when its in the snap-on case</li>  <li><strong>Red built-in LED</strong> on pin 4</li>  <li><strong>Small built-in NeoPixel</strong> on pin 18</li>  <li><strong>Screw terminal blocks</strong> for no-solder connectivity</li></ul><p>Compared to our <a href=\"https://www.adafruit.com/product/6100\">larger Sparkle Motion board</a>, this only supports 5V and doesn’t have a reset button, there are fewer outputs, and no breakout pads of I2C/GPIO connections for external accessories.Compared to our <a href=\"https://www.adafruit.com/product/6160\">Sparkle Motion Mini</a>, this has a USB A port so it’s 2A max power. It does have IR and built-in terminal blocks but does not have GPIO breakout pads.</p><p>While we recommend it for use with WLED, it will also work just fine as a compact ESP32 board for use with Arduino, ESP-IDF, MicroPython, CircuitPython, or any other ESP32-supported codebase.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/6332\">Adafruit</a></li></ul>"
     },
     {
+        "board_id": "adafruit_tinychad_rp2350",
+        "title": "Adafruit TinyChad RP2350 Download",
+        "name": "Adafruit TinyChad RP2350",
+        "board_url": [
+            "https://www.adafruit.com/"
+        ],
+        "board_image": "adafruit_tinychad_rp2350.jpg",
+        "date_added": "2026-03-18",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C"
+        ],
+        "url_path": "/board/adafruit_tinychad_rp2350/",
+        "description": "<p>Coming soon from Adafruit, check out the weekly “Top Secret” segment on ASK AN ENGINEER or the upcoming new product videos on <a href=\"https://www.youtube.com/adafruit\">YouTube</a>.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.youtube.com/watch?v=oYoRXJZfodg\">YouTube</a></li></ul>"
+    },
+    {
         "board_id": "adafruit_trrs_trinkey_m0",
         "title": "TRRS Trinkey Download",
         "name": "TRRS Trinkey",
@@ -7885,6 +7904,23 @@
         "description": "<p>This is the nanoESP32-S2 board with a WROVER ESP32-S2 module.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Microcontroller: Xtensa single-core 32-bit LX7</li>  <li>Clock Frequency: 160/240 MHz</li>  <li>Co-processor: ULP (RISC-V)</li>  <li>SRAM: 320 KB</li>  <li>ROM: 128 KB</li>  <li>RTC Memory: 16 KB</li>  <li>External SPIRAM: Up to 128 MB</li>  <li>External Flash: Up to 1 GB</li>  <li>Wi-Fi (802.11 b/g/n): HT20</li>  <li>ESP-MESH: Yes</li>  <li>GPIO (total): 43</li>  <li>Touch sensors: 14</li>  <li>SPI: 4 (OSPI)</li>  <li>I2C: 2</li>  <li>I2S: 1</li>  <li>UART: 2</li>  <li>ADC/DAC: 20 (12-bit)/2 (8-bit)</li>  <li>USB OTG: Yes</li>  <li>LCD/Camera interface: Yes/Yes</li>  <li>Temperature/hall sensor: Yes/No</li>  <li>Low Power Consumption: Automatic RF power management 5 uA in idle mode, 24 uA at 1% duty cycle</li></ul><h2 id=\"setup\">Setup</h2><p>This image can be flashed with the <a href=\"https://github.com/adafruit/tinyuf2/releases\">TinyUF2 bootloader</a> or with <code class=\"language-plaintext highlighter-rouge\">esptool</code> using this command:</p><div class=\"language-sh highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>esptool.py <span class=\"nt\">-p</span> <span class=\"o\">(</span>COMPORT<span class=\"o\">)</span> <span class=\"nt\">-b</span> 460800 write_flash <span class=\"nt\">--flash_mode</span> dio <span class=\"se\">\\</span>  <span class=\"nt\">--flash_size</span> detect <span class=\"nt\">--flash_freq</span> 40m 0x00000 <span class=\"se\">\\</span>  adafruit-circuitpython-muselab_nanoesp32_s2_wrover-ll_LL-X.Y.Z.bin</code></pre></div></div><p><strong>NOTE:</strong> This board has 2 USB-C connector, one for Serial (ch340) and one for Native USB (esp32).</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/wuxx/nanoESP32-S2\">User Guide</a></li></ul>"
     },
     {
+        "board_id": "native_native_sim",
+        "title": "Zephyr Native Sim Download",
+        "name": "Zephyr Native Sim",
+        "board_url": [
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2026-03-12",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/native_native_sim/",
+        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+    },
+    {
         "board_id": "ndgarage_ndbit6",
         "title": "FeatherSnow Download",
         "name": "FeatherSnow",
@@ -8025,6 +8061,26 @@
         "description": "<p>The nRF5340 DK is the development kit for the <a href=\"https://www.nordicsemi.com/Products/nRF5340\">nRF5340 System-on-Chip (SoC)</a>, containing everything needed to get started with development, on a single board.</p><p>The DK supports development with an extensive range of wireless protocols. It supports Bluetooth Low Energy with features such as high-throughput 2 Mbps, Advertising Extensions and Long Range. Mesh protocols like Bluetooth mesh, Thread and Zigbee can run concurrently with Bluetooth Low Energy, enabling smartphones to provision, commission, configure and control mesh nodes, which is a prerequisite for <a href=\"https://www.nordicsemi.com/Products/Technologies/Matter\">matter </a>applications. It also supports NFC, ANT, 802.15.4 and 2.4 GHz proprietary protocols.</p><p>The DK is bundled with an NFC antenna that quickly enables testing of nRF5340’s NFC-A tag functionality. A SEGGER J-Link debugger is on the board, enabling full-blown programming and debugging, of both the nRF5340 SoC and external targets.</p><p>All analog and digital interfaces, and GPIOs are available via headers and edge connectors. The kit is Arduino Uno Rev3 hardware compatible, meaning it can be easily interfaced with external device shields.</p><p>Four buttons and four LEDs simplify input and output to and from the nRF5340 SoC, and are all user-programmable. An on-board external memory is connected to the 96 MHz QSPI peripheral in the nRF5340 SoC.</p><p>The nRF5340 DK is typically powered via USB, but can be powered by a wide range of sources, within the supply range of 1.7 to 5.0 V. In addition to USB, it can be powered with external source, but also includes a CR2032 battery holder and a Li-Po battery connector, for in-field testing. Current consumption can be measured by using the dedicated current measurement pins, for example by using Nordic’s <a href=\"https://www.nordicsemi.com/Products/Development-hardware/Power-Profiler-Kit-2\">Power Profiler Kit II</a>.</p><p>The <a href=\"https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK\">nRF Connect SDK</a> is the software development kit for the nRF5340 SoC, and it has board support for the nRF5340 DK. It supports software development of Bluetooth Low Energy, Thread and Zigbee applications. It integrates the Zephyr RTOS, protocol stacks, samples, hardware drivers and much more.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.mouser.com/ProductDetail/Nordic-Semiconductor/NRF5340-DK?qs=T94vaHKWudSvpk%2Fi5MmNkA%3D%3D\">Mouser</a></li></ul>"
     },
     {
+        "board_id": "nordic_nrf54h20dk",
+        "title": "Nordic nRF54H20 Development Kit Download",
+        "name": "Nordic nRF54H20 Development Kit",
+        "board_url": [
+            "https://docs.nordicsemi.com/bundle/ncs-3.0.0/page/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_gs.html"
+        ],
+        "board_image": "nordic_nrf54h20dk.jpg",
+        "date_added": "2026-03-18",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "USB-C"
+        ],
+        "url_path": "/board/nordic_nrf54h20dk/",
+        "description": "<p>The nRF54H20 DK is a single-board development kit for evaluation and development on the Nordic nRF54H20 System-on-Chip (SoC).</p><p>The nRF54H20 is a multicore SoC with:</p><ul>  <li>an Arm Cortex-M33 core with DSP instructions, FPU, and Armv8-M Security Extensions, running at up to 320 MHz, referred to as the <strong>application core</strong></li>  <li>an Arm Cortex-M33 core with DSP instructions, FPU, and Armv8-M Security Extensions, running at up to 256 MHz, referred to as the <strong>radio core</strong>.</li>  <li>a Nordic VPR RISC-V core, referred to as the <strong>ppr core</strong> (Peripheral Processor).</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://docs.nordicsemi.com/bundle/ncs-3.0.0/page/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_gs.html\">Nordic Semiconductor</a></li>  <li><a href=\"https://docs.zephyrproject.org/latest/boards/nordic/nrf54h20dk/doc/index.html\">Zephyr Project</a></li></ul>"
+    },
+    {
         "board_id": "nordic_nrf54l15dk",
         "title": "Nordic nRF54L05 Development Kit Download",
         "name": "Nordic nRF54L05 Development Kit",
@@ -8157,6 +8213,47 @@
         ],
         "url_path": "/board/nullbits_bit_c_pro/",
         "description": "<p>The Bit-C PRO is a microcontroller (MCU) featuring the Raspberry Pi RP2040, designed for DIY keyboards. It features a through-hole USB-C connector that is more rugged than a USB micro B. It’s only 1mm thick, so it sits slim and low. The Bit-C PRO ships with the RP2040 UF2 bootloader, which enumerates as an external USB drive: flashing firmware is as simple as drag and drop, no driver installation required. 100% of Bit-C PRO units are tested before shipping, ensuring you’re spending your time building, not debugging. Best of all, it comes in white!</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://amzn.to/3kW7My2\">Amazon (Black Version)</a></li>  <li><a href=\"https://amzn.to/3HKOzs4\">Amazon (White Version)</a></li></ul>"
+    },
+    {
+        "board_id": "nxp_frdm_mcxn947",
+        "title": "MCXN947 FRDM Development Board Download",
+        "name": "MCXN947 FRDM Development Board",
+        "board_url": [
+            "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947"
+        ],
+        "board_image": "nxp_frdm_mcxn947.jpg",
+        "date_added": "2026-03-18",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C"
+        ],
+        "url_path": "/board/nxp_frdm_mcxn947/",
+        "description": "<p>FRDM-MCXN947 are compact and scalable development boards for rapid prototyping of MCX N94 and N54 MCUs. They offer industry standard headers for easy access to the MCUs I/Os, integrated open-standard serial interfaces, external flash memory and an on-board MCU-Link debugger. MCX N Series are high-performance, low-power microcontrollers with intelligent peripherals and accelerators providing multi-tasking capabilities and performance efficiency.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947\">NXP</a></li>  <li><a href=\"https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxn947/doc/index.html\">Zephyr Project</a></li></ul>"
+    },
+    {
+        "board_id": "nxp_mimxrt1170_evk",
+        "title": "MCXN947 FRDM Development Board Download",
+        "name": "MCXN947 FRDM Development Board",
+        "board_url": [
+            "https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB"
+        ],
+        "board_image": "nxp_mimxrt1170_evk.jpg",
+        "date_added": "2026-03-18",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "External Display",
+            "USB Host",
+            "Arduino Shield Compatible"
+        ],
+        "url_path": "/board/nxp_mimxrt1170_evk/",
+        "description": "<p>The dual core i.MX RT1170 runs on the Cortex-M7 core at 1 GHz and on the Cortex-M4 at 400 MHz. The i.MX RT1170 MCU offers support over a wide temperature range and is qualified for consumer, industrial and automotive markets. Zephyr supports the initial revision of this EVK, as well as rev EVKB.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://docs.zephyrproject.org/latest/boards/nxp/mimxrt1170_evk/doc/index.html\">Zephyr Project</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB\">NXP</a></li>  <li><a href=\"https://www.digikey.com/en/products/detail/nxp-usa-inc/MIMXRT1170-EVK/13536153\">Digi-Key</a></li></ul>"
     },
     {
         "board_id": "odt_bread_2040",
@@ -11289,6 +11386,26 @@
         "description": "<p>This development board includes a Bluetooth Low Energy-enabled ISP1807 from Insight SiP (based on the nRF52840). This board has a 3.3 V regulator, a reset switch, a general purpose LED, and USB-C connector.</p><p>This board is pin compatible with the Arduino Pro Micro.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://ssci.to/6939\">Switch Science, Inc.</a></li></ul>"
     },
     {
+        "board_id": "st_nucleo_n657x0_q",
+        "title": "Nucleo N657X0-Q Download",
+        "name": "Nucleo N657X0-Q",
+        "board_url": [
+            "https://estore.st.com/en/nucleo-n657x0-q-cpn.html"
+        ],
+        "board_image": "st_nucleo_n657x0_q.jpg",
+        "date_added": "2026-03-18",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Arduino Shield Compatible"
+        ],
+        "url_path": "/board/st_nucleo_n657x0_q/",
+        "description": "<p>The NUCLEO-N657X0-Q board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the internal or external SMPS significantly reduces power consumption in Run mode.</p><p>The ST Zio connector, which extends the ARDUINO® Uno V3 connectivity, and the ST morpho headers provide an easy means of expanding the functionality of the Nucleo open development platform with a wide choice of specialized shields.</p><p>The NUCLEO-N657X0-Q board does not require any separate probe as it integrates the ST-LINK debugger/programmer.</p><p>The STM32 Nucleo-144 board comes with the STM32 comprehensive free software libraries and examples available with the STM32Cube MCU Package.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://docs.zephyrproject.org/latest/boards/st/nucleo_n657x0_q/doc/index.html\">Zephyr Project</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/nucleo-n657x0-q-cpn.html\">STMicroelectronics</a></li>  <li><a href=\"https://www.digikey.com/en/products/detail/stmicroelectronics/NUCLEO-N657X0-Q/25724056\">Digi-Key</a></li></ul>"
+    },
+    {
         "board_id": "st_nucleo_u575zi_q",
         "title": "Nucleo 575ZI-Q Download",
         "name": "STM32U575ZIT6Q Nucleo",
@@ -11305,7 +11422,7 @@
             "Arduino Shield Compatible"
         ],
         "url_path": "/board/st_nucleo_u575zi_q/",
-        "description": "<p>The STM32 Nucleo-144 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the internal or external SMPS significantly reduces power consumption in Run mode.</p><p>The ST Zio connector, which extends the ARDUINO® Uno V3 connectivity, and the ST morpho headers provide an easy means of expanding the functionality of the Nucleo open development platform with a wide choice of specialized shields.</p><p>The STM32 Nucleo-144 board does not require any separate probe as it integrates the ST-LINK debugger/programmer.</p><p>The STM32 Nucleo-144 board comes with the STM32 comprehensive free software libraries and examples available with the STM32Cube MCU Package.</p><h2 id=\"features\">Features</h2><ul>  <li>Common features    <ul>      <li>STM32 microcontroller in an LQFP144, TFBGA225, or VFBGA264 package</li>      <li>3 user LEDs</li>      <li>1 user push-button and 1 reset push-button</li>      <li>32.768 kHz crystal oscillator</li>      <li>Board connectors:        <ul>          <li>SWD</li>          <li>ST morpho expansion connector</li>        </ul>      </li>      <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>      <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>      <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li>    </ul>  </li>  <li>Features specific to some of the boards (refer to the ordering information section of the data brief for details)    <ul>      <li>External or internal SMPS to generate Vcore logic supply</li>      <li>Ethernet compliant with IEEE-802.3-2002</li>      <li>USB Device only, USB OTG full speed, or SNK/UFP (full-speed or high-speed mode)</li>      <li>Board connectors:        <ul>          <li>ARDUINO® Uno V3 connector or ST Zio expansion connector including ARDUINO® Uno V3</li>          <li>Camera module FPC</li>          <li>MIPI20 compatible connector with trace signals</li>          <li>USB with Micro-AB or USB Type-C®</li>          <li>Ethernet RJ45</li>        </ul>      </li>      <li>On-board ST-LINK (STLINK/V2-1, STLINK-V3E, or STLINK-V3EC) debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-u575zi-q.html\">ST</a></li></ul>"
+        "description": "<p>The STM32 Nucleo-144 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the internal or external SMPS significantly reduces power consumption in Run mode.</p><p>The ST Zio connector, which extends the ARDUINO® Uno V3 connectivity, and the ST morpho headers provide an easy means of expanding the functionality of the Nucleo open development platform with a wide choice of specialized shields.</p><p>The STM32 Nucleo-144 board does not require any separate probe as it integrates the ST-LINK debugger/programmer.</p><p>The STM32 Nucleo-144 board comes with the STM32 comprehensive free software libraries and examples available with the STM32Cube MCU Package.</p><h2 id=\"features\">Features</h2><ul>  <li>Common features    <ul>      <li>STM32 microcontroller in an LQFP144, TFBGA225, or VFBGA264 package</li>      <li>3 user LEDs</li>      <li>1 user push-button and 1 reset push-button</li>      <li>32.768 kHz crystal oscillator</li>      <li>Board connectors:        <ul>          <li>SWD</li>          <li>ST morpho expansion connector</li>        </ul>      </li>      <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>      <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>      <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li>    </ul>  </li>  <li>Features specific to some of the boards (refer to the ordering information section of the data brief for details)    <ul>      <li>External or internal SMPS to generate Vcore logic supply</li>      <li>Ethernet compliant with IEEE-802.3-2002</li>      <li>USB Device only, USB OTG full speed, or SNK/UFP (full-speed or high-speed mode)</li>      <li>Board connectors:        <ul>          <li>ARDUINO® Uno V3 connector or ST Zio expansion connector including ARDUINO® Uno V3</li>          <li>Camera module FPC</li>          <li>MIPI20 compatible connector with trace signals</li>          <li>USB with Micro-AB or USB Type-C®</li>          <li>Ethernet RJ45</li>        </ul>      </li>      <li>On-board ST-LINK (STLINK/V2-1, STLINK-V3E, or STLINK-V3EC) debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-u575zi-q.html\">STMicroelectronics</a></li></ul>"
     },
     {
         "board_id": "st_stm32h7b3i_dk",
@@ -11326,7 +11443,7 @@
             "STEMMA QT/QWIIC"
         ],
         "url_path": "/board/st_stm32h7b3i_dk/",
-        "description": "<p>The STM32H7B3I-DK Discovery kit is a complete demonstration and development platform for the STMicroelectronics Arm® Cortex®-M7 core-based STM32H7B3LIH6Q microcontroller.</p><p>The STM32H7B3I-DK Discovery kit is used as a reference design for user application development before porting to the final product, thus simplifying the application development.</p><p>The full range of hardware features available on the board helps users enhance their application development by an evaluation of almost all peripherals (such as USB OTG_HS, microSD™, USART, CAN FD, audio DAC stereo with audio jack input and output, camera, SDRAM, Octo‑SPI flash memory, and RGB interfaced LCD with capacitive touch panel). ARDUINO® Uno V3 connectors provide easy connection to extension shields or daughterboards for specific applications.</p><p>STLINK-V3E is integrated into the board, as an embedded in-circuit debugger and programmer for the STM32 MCU and the USB Virtual COM port bridge.</p><p>The STM32H7B3I-DK board comes with the STM32CubeH7 MCU Package, which provides an STM32 comprehensive software HAL library as well as various software examples.</p><h2 id=\"features\">Features</h2><ul>  <li>STM32H7B3LIH6Q Arm®-based microcontroller featuring 2 Mbytes of flash memory and 1.4 Mbytes of RAM in a BGA225 package</li>  <li>4.3” (480x272 pixels) TFT color LCD module including a capacitive touch panel with RGB interface</li>  <li>Wi‑Fi® module compliant with 802.11 b/g/n</li>  <li>USB OTG HS</li>  <li>Audio codec</li>  <li>512‑Mbit Octo‑SPI NOR flash memory</li>  <li>128-Mbit SDRAM</li>  <li>Two user LEDs</li>  <li>User and reset push-buttons</li>  <li>Fanout daughterboard</li>  <li>CAN FD</li>  <li>Board connectors:    <ul>      <li>8‑bit camera</li>      <li>USB with Micro-AB</li>      <li>Stereo headset jack including analog microphone input</li>      <li>Audio jack for external speakers</li>      <li>microSD™ card</li>      <li>Tag‑Connect™ 10-pin footprint</li>      <li>Arm® Cortex® 10-pin 1.27mm-pitch debug connector over STDC14 footprint</li>      <li>ARDUINO® Uno V3 expansion connector</li>      <li>STMod+ expansion connector</li>      <li>Audio daughterboard expansion connector</li>      <li>External I2C expansion connector</li>    </ul>  </li>  <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>  <li>On-board STLINK-V3E debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>  <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>  <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32h7b3i-dk.html\">ST</a></li>  <li><a href=\"https://www.newark.com/stmicroelectronics/stm32h7b3i-eval/evaluation-board-32bit-arm-cortex/dp/78AK8714\">Newark</a></li></ul>"
+        "description": "<p>The STM32H7B3I-DK Discovery kit is a complete demonstration and development platform for the STMicroelectronics Arm® Cortex®-M7 core-based STM32H7B3LIH6Q microcontroller.</p><p>The STM32H7B3I-DK Discovery kit is used as a reference design for user application development before porting to the final product, thus simplifying the application development.</p><p>The full range of hardware features available on the board helps users enhance their application development by an evaluation of almost all peripherals (such as USB OTG_HS, microSD™, USART, CAN FD, audio DAC stereo with audio jack input and output, camera, SDRAM, Octo‑SPI flash memory, and RGB interfaced LCD with capacitive touch panel). ARDUINO® Uno V3 connectors provide easy connection to extension shields or daughterboards for specific applications.</p><p>STLINK-V3E is integrated into the board, as an embedded in-circuit debugger and programmer for the STM32 MCU and the USB Virtual COM port bridge.</p><p>The STM32H7B3I-DK board comes with the STM32CubeH7 MCU Package, which provides an STM32 comprehensive software HAL library as well as various software examples.</p><h2 id=\"features\">Features</h2><ul>  <li>STM32H7B3LIH6Q Arm®-based microcontroller featuring 2 Mbytes of flash memory and 1.4 Mbytes of RAM in a BGA225 package</li>  <li>4.3” (480x272 pixels) TFT color LCD module including a capacitive touch panel with RGB interface</li>  <li>Wi‑Fi® module compliant with 802.11 b/g/n</li>  <li>USB OTG HS</li>  <li>Audio codec</li>  <li>512‑Mbit Octo‑SPI NOR flash memory</li>  <li>128-Mbit SDRAM</li>  <li>Two user LEDs</li>  <li>User and reset push-buttons</li>  <li>Fanout daughterboard</li>  <li>CAN FD</li>  <li>Board connectors:    <ul>      <li>8‑bit camera</li>      <li>USB with Micro-AB</li>      <li>Stereo headset jack including analog microphone input</li>      <li>Audio jack for external speakers</li>      <li>microSD™ card</li>      <li>Tag‑Connect™ 10-pin footprint</li>      <li>Arm® Cortex® 10-pin 1.27mm-pitch debug connector over STDC14 footprint</li>      <li>ARDUINO® Uno V3 expansion connector</li>      <li>STMod+ expansion connector</li>      <li>Audio daughterboard expansion connector</li>      <li>External I2C expansion connector</li>    </ul>  </li>  <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>  <li>On-board STLINK-V3E debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>  <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>  <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32h7b3i-dk.html\">STMicroelectronics</a></li>  <li><a href=\"https://www.newark.com/stmicroelectronics/stm32h7b3i-eval/evaluation-board-32bit-arm-cortex/dp/78AK8714\">Newark</a></li></ul>"
     },
     {
         "board_id": "stackrduino_m0_pro",
@@ -13659,6 +13776,48 @@
         ],
         "url_path": "/board/yd_esp32_s3_n8r8/",
         "description": "<p>The YD-ESP32-S3 core board is designed by VCC-GND Studio. If necessary, you can visit www.vcc-gnd.com for purchase. The device uses the ESP32-S3 chip, which can be used for the test prototype of the Internet of Things application and can also be used for practical applications. It is equipped with two USBs, one is a hardware USB-to-serial port (CH343P WCH Qinheng), and the other is ESP32-S3 usb port.</p><p>YD-ESP32-S3 is an entry-level development board equipped with Wi-Fi + Bluetooth® LE module ESP32-S3-WROOM-1.</p><p>Most of the pins of the modules on the board have been led out to the pin rows on both sides of the development board. Developers can easily connect various peripheral devices through jumpers according to actual needs, or plug the development board into a breadboard for use.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/3256803838808294.html?skuId=12000028793982305\">Aliexpress</a></li></ul><p>Hardware information and example code:</p><ul>  <li><a href=\"https://github.com/vcc-gnd/YD-ESP32-S3\">Github</a></li></ul>"
+    },
+    {
+        "board_id": "yoto_mini_2024",
+        "title": "Yoto Mini (2024 Edition) Download",
+        "name": "Yoto Mini (2024 Edition)",
+        "board_url": [
+            "https://us.yotoplay.com/yoto-mini"
+        ],
+        "board_image": "yoto_mini_2024.jpg",
+        "date_added": "2026-03-18",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Display",
+            "Speaker"
+        ],
+        "url_path": "/board/yoto_mini_2024/",
+        "description": "<p>Yoto Mini brings all the fun of Yoto in a compact, travel-friendly design. With stories, music, and learning on the go, this screen-free audio player is perfect for little hands and big adventures. Just pop in a Yoto card and take the magic anywhere!</p><p>No microphone. No camera. No ads.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://us.yotoplay.com/yoto-mini\">yotoplay.com</a></li>  <li><a href=\"https://amzn.to/4lBCmbm\">Amazon</a></li></ul>"
+    },
+    {
+        "board_id": "yoto_player_v3",
+        "title": "Yoto Player V3 Download",
+        "name": "Yoto Player V3",
+        "board_url": [
+            "https://us.yotoplay.com/yoto-player"
+        ],
+        "board_image": "yoto_player_v3.jpg",
+        "date_added": "2026-03-18",
+        "family": "esp32",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Display",
+            "Speaker"
+        ],
+        "url_path": "/board/yoto_player_v3/",
+        "description": "<p>Yoto Player (3rd Generation) is the ultimate screen-free audio player for kids age 3-12+. Built to inspire imagination and independence, Yoto offers a world of stories, music, learning and adventure in a safe, kid-friendly way. Simply pop in a Yoto card and let the fun begin—anytime, anywhere!</p><p>No microphone. No camera. No ads.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://us.yotoplay.com/yoto-player\">yotoplay.com</a></li>  <li><a href=\"https://amzn.to/4sQ6odX\">Amazon</a></li></ul>"
     },
     {
         "board_id": "zrichard_rp2.65-f",

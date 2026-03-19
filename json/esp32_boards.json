@@ -63,6 +63,20 @@
             }
         ]
     },
+    "yoto_mini_2024": {
+        "name": "Yoto Mini (2024 Edition)",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "10.2.0-alpha.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yoto_mini_2024/en_US/adafruit-circuitpython-yoto_mini_2024-en_US-10.2.0-alpha.1.bin"
+            },
+            {
+                "version": "10.1.4",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yoto_mini_2024/en_US/adafruit-circuitpython-yoto_mini_2024-en_US-10.1.4.bin"
+            }
+        ]
+    },
     "luatos_core_esp32c3_ch343": {
         "name": "Luatos ESP32-C3 Core Board \u2013 CH343 USB UART",
         "chipfamily": "esp32c3",
@@ -1123,6 +1137,20 @@
                 "version": "10.1.4",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/smartbeedesigns_bee_data_logger/en_US/adafruit-circuitpython-smartbeedesigns_bee_data_logger-en_US-10.1.4.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/smartbeedesigns_bee_data_logger/en_US/adafruit-circuitpython-smartbeedesigns_bee_data_logger-en_US-10.1.4.uf2"
+            }
+        ]
+    },
+    "yoto_player_v3": {
+        "name": "Yoto Player V3",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "10.2.0-alpha.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yoto_player_v3/en_US/adafruit-circuitpython-yoto_player_v3-en_US-10.2.0-alpha.1.bin"
+            },
+            {
+                "version": "10.1.4",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/yoto_player_v3/en_US/adafruit-circuitpython-yoto_player_v3-en_US-10.1.4.bin"
             }
         ]
     },
