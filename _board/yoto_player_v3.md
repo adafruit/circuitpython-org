@@ -21,4 +21,4 @@ No microphone. No camera. No ads.
 
 ## Purchase
 * [yotoplay.com](https://us.yotoplay.com/yoto-player)
-* [Amazon](https://amzn.to/4sQ6odX)
+* [Amazon](https://www.amazon.com/dp/B0DCK7H8LV)

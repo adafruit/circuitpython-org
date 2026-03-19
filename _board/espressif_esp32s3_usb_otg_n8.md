@@ -29,4 +29,4 @@ ESP32-S3-USB-OTG is a development board that focuses on USB-OTG function verific
 ## Purchase
 
 * [DigiKey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-USB-OTG/15822449)
-* [Amazon](https://amzn.to/3uTJB4F)
+* [Amazon](https://www.amazon.com/dp/B09JZ8PTLX)

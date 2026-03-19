@@ -30,4 +30,4 @@ Banana Pi BPI-F3 is a industrial grade RISC-V development board, it design with 
 - Operating temperature range: -40°C to 85°C
 
 ## Purchase
-* [Amazon](https://amzn.to/4j8CMn0)
+* [Amazon](https://www.amazon.com/dp/B0D458VPZ2)

@@ -38,4 +38,4 @@ ROCK 3C features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up
 
 ## Purchase
 
-* [Amazon](https://amzn.to/3v01Idv)
+* [Amazon](https://www.amazon.com/dp/B0BS6TPSJF)

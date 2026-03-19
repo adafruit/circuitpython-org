@@ -36,4 +36,4 @@ Features
 - AML-S805X-AC
 
 ## Purchase
-* [Amazon](https://amzn.to/3EO1FUg)
+* [Amazon](https://www.amazon.com/dp/B074P6BNGZ)

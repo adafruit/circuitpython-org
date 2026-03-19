@@ -34,4 +34,4 @@ Characterized by its robust performance, versatile features, and remarkable imag
 - 1x GbE Ethernet port
 
 ## Purchase
-* [Amazon](https://amzn.to/3YMdR19)
+* [Amazon](https://www.amazon.com/dp/B0CN2J4R3S)

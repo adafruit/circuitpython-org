@@ -36,5 +36,5 @@ Banana Pi BPI-M5 is the next generation single board computer from Banana Pi in 
 - OS : Android and Linux
 
 ## Purchase
-* [Amazon](https://amzn.to/3CpbK8X)
+* [Amazon](https://www.amazon.com/dp/B08QSD48N2)
 * [Aliexpress](https://www.aliexpress.com/item/3256801685527943.html)

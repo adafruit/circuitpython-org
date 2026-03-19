@@ -63,4 +63,4 @@ Orange Pi 5 Pro is compact, measuring only 89mmX56mmX1.6mm, and powerful enough 
 - Debug serial port UART included in 40PIN expansion port
 
 ## Purchase
-* [Amazon](https://amzn.to/4lALxr8)
+* [Amazon](https://www.amazon.com/dp/B0CSJVDL5G)

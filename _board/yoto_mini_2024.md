@@ -21,4 +21,4 @@ No microphone. No camera. No ads.
 
 ## Purchase
 * [yotoplay.com](https://us.yotoplay.com/yoto-mini)
-* [Amazon](https://amzn.to/4lBCmbm)
+* [Amazon](https://www.amazon.com/dp/B0D541M5C6)

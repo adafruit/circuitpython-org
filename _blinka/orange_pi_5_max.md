@@ -66,4 +66,4 @@ OrangePi 5 Max is compact, PCB measuring only 89mmX57mmX1.6mm, and powerful enou
 - Orangepi OS (Droid), Orangepi OS (Arch), Orangepi OS (OH), Ubuntu, Debian, Android13
 
 ## Purchase
-* [Amazon](https://amzn.to/4jXUAT7)
+* [Amazon](https://www.amazon.com/dp/B0D9XZLKL5)

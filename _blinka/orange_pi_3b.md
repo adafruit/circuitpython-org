@@ -25,4 +25,4 @@ Orange Pi 3B supports Android 11, Ubuntu 22.04, Ubuntu 20.04, Debian 11, Debian 
 
 ## Purchase
 * [Aliexpress](https://www.aliexpress.us/item/3256805733558464.html)
-* [Amazon](https://amzn.to/4dmcwEn)
+* [Amazon](https://www.amazon.com/dp/B0CDP6R2XR)

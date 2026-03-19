@@ -34,4 +34,4 @@ The ROC-RK3328-CC platform is built on the Rockchip RK3328 system-on-chip optimi
 - Gigabit Ethernet MAC
 
 ## Purchase
-* [Amazon](https://amzn.to/3NYdb3Y)
+* [Amazon](https://www.amazon.com/dp/B078RMQYHS)

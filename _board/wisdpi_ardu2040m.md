@@ -46,6 +46,6 @@ This board is perfect for hobbyists, students, and professional developers looki
 
 ## Purchase
 * [WisdPi](https://www.wisdpi.com/products/ardu2040m-rp2040-arduino-style-dev-board)
-* [Amazon](https://amzn.to/3uLWscH)
+* [Amazon](https://www.amazon.com/dp/B0CJ6VGXVW)
 
 

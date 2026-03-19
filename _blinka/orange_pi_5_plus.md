@@ -51,4 +51,4 @@ Orange Pi 5 Plus has a wide range of uses to help embedded system development en
 - 3 Pin debug serial port (UART)
 
 ## Purchase
-* [Amazon](https://amzn.to/46TH8bh)
+* [Amazon](https://www.amazon.com/dp/B0C5BZLPZN)

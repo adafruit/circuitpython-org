@@ -49,4 +49,4 @@ Orange Pi 4 is an open-source single-board computer with dual-band wireless WiFi
 - Android 8.1, Ubuntu 16.04, Ubuntu 18.04, Debian 9
 
 ## Purchase
-* [Amazon](https://amzn.to/3ypCBiG)
+* [Amazon](https://www.amazon.com/dp/B09W8G67CV)
