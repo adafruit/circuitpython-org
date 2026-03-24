@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/RoboticExplorationLab/sprite"
 board_image: "kicksat-sprite.jpg"
 date_added: 2019-04-13
-family: atmel-samd
+family: samd51
 bootloader_id: itsybitsy_m0
 ---
 

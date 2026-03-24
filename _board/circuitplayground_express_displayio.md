@@ -10,7 +10,7 @@ board_url:
  - "https://www.adafruit.com/product/4428"
 board_image: "circuitplayground_express_displayio.jpg"
 date_added: 2019-10-17
-family: atmel-samd
+family: samd21
 bootloader_id: circuitplay_m0
 download_instructions: https://learn.adafruit.com/adafruit-tft-gizmo/circuitpython-displayio-quickstart
 features:

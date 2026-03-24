@@ -8,7 +8,7 @@ board_url:
  - "https://www.tindie.com/products/oakdevtech/cp-sapling-rev-b-samd21-micro-dev-board/"
 board_image: "cp_sapling_m0_revb.jpg"
 date_added: 2021-06-04
-family: atmel-samd
+family: samd21
 bootloader_id: cp_sapling_m0
 features:
   - STEMMA QT/QWIIC

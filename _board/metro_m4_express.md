@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/3382"
 board_image: "metro_m4_express.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd51
 bootloader_id: metro_m4
 download_instructions: https://learn.adafruit.com/adafruit-metro-m4-express-featuring-atsamd51/circuitpython
 features:

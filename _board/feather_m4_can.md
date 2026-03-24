@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4759"
 board_image: "feather_m4_can.jpg"
 date_added: 2020-09-28
-family: atmel-samd
+family: same51
 bootloader_id: feather_m4_can
 download_instructions: https://learn.adafruit.com/adafruit-feather-m4-can-express/circuitpython-on-feather-m4-can
 features:

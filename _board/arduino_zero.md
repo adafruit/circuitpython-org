@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/2843"
 board_image: "arduino_zero.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd21
 bootloader_id: zero
 features:
   - Arduino Shield Compatible

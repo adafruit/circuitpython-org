@@ -8,7 +8,7 @@ board_url:
  - "https://www.sparkfun.com/products/13664"
 board_image: "sparkfun_samd21_mini.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd21
 bootloader_id: sparkfun-samd21-mini
 features:
   - Breadboard-Friendly

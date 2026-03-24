@@ -8,7 +8,7 @@ board_url:
  - "https://www.aloriumtech.com/evom51"
 board_image: "aloriumtech_evo_m51.jpg"
 date_added: 2020-05-21
-family: atmel-samd
+family: samd51
 downloads_display: true
 blinka: false
 download_instructions: https://aloriumtech.com/evom51-quickstart/

@@ -8,7 +8,7 @@ board_url:
  - "https://bhdyn.com/newspace"
 board_image: "dynossat_edu_eps.jpg"
 date_added: 2020-10-16
-family: atmel-samd
+family: samd21
 downloads_display: true
 
 features:

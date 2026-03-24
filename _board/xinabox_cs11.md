@@ -8,7 +8,7 @@ board_url:
  - "https://drive.google.com/file/d/1ZGZZyPdnp49XdEDqoT0ZOT0FdfJ4DM-z/view"
 board_image: "xinabox_cs11.jpg"
 date_added: 2019-12-17
-family: atmel-samd
+family: samd21
 bootloader_id: CS11
 
 ---

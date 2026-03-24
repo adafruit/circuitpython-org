@@ -7,7 +7,7 @@ manufacturer: "Radomir Dopieralski"
 board_url:
  - "https://pewpew.rtfd.io"
 board_image: "pewpew_lcd.jpg"
-family: atmel-samd
+family: samd21
 bootloader_id: fluff_m0
 date_added: 2022-05-10
 features:

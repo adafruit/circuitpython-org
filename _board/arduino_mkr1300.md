@@ -8,7 +8,7 @@ board_url:
  - "https://www.arduino.cc/en/Guide/MKRWAN1300"
 board_image: "arduino_mkr1300_01.jpg"
 date_added: 2018-12-13
-family: atmel-samd
+family: samd21
 bootloader_id: mkr1300
 features:
   - Breadboard-Friendly

@@ -371,7 +371,7 @@ By the way, boolean operation precedence is right to left! (yeesh)
   </div>
   {% endif %}
 
-  {% if page.family == 'atmel-samd' %}
+  {% if page.family == 'samd21' or page.family == 'samd51' or page.family == 'same51' or page.family == 'same54' %}
   <p>
     To update, first save the contents of <strong>CIRCUITPY</strong>, just in case.
     Then double-click the reset button to show the <strong>BOOT</strong> drive.

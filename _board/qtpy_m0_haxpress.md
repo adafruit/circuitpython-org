@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4600"
 board_image: "qtpy_m0_haxpress.jpg"
 date_added: 2020-09-28
-family: atmel-samd
+family: samd21
 bootloader_id: QTPy_m0
 features:
   - STEMMA QT/QWIIC

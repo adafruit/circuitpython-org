@@ -8,7 +8,7 @@ board_url:
 board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2020-03-31
-family: atmel-samd
+family: samd51
 bootloader_id: uartlogger2
 features:
 ---

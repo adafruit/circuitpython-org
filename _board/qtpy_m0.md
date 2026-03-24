@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4600"
 board_image: "qtpy_m0.jpg"
 date_added: 2020-09-28
-family: atmel-samd
+family: samd21
 bootloader_id: QTPy_m0
 download_instructions: https://learn.adafruit.com/adafruit-qt-py/circuitpython
 features:

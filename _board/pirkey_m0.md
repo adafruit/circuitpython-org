@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/3364"
 board_image: "pirkey_m0.jpg"
 date_added: 2019-03-11
-family: atmel-samd
+family: samd21
 bootloader_id: pirkey
 ---
 

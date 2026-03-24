@@ -8,7 +8,7 @@ board_url:
  - "https://picoplanet.bleeptrack.de"
 board_image: "picoplanet.jpg"
 date_added: 2020-03-31
-family: atmel-samd
+family: samd21
 downloads_display: true
 blinka: false
 download_instructions: ""

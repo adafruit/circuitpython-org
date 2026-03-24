@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/neubauek/CircuitBrains"
 board_image: "circuitbrains_basic.jpg"
 date_added: 2020-02-27
-family: atmel-samd
+family: samd21
 bootloader_id: circuitbrains_basic_m0
 downloads_display: true
 blinka: false

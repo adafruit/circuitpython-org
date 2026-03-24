@@ -10,7 +10,7 @@ board_image: "sol.jpg"
 downloads_display: true
 blinka: false
 date_added: 2019-11-07
-family: atmel-samd
+family: samd51
 download_instructions: https://sol.wntr.dev/
 bootloader_id: winterbloom_sol
 ---

@@ -10,7 +10,7 @@ board_image: "honk.jpg"
 downloads_display: true
 blinka: false
 date_added: 2019-04-10
-family: atmel-samd
+family: samd21
 download_instructions: https://honk.wntr.dev/
 bootloader_id: winterbloom_big_honking_button
 ---

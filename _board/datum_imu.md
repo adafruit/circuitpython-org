@@ -8,7 +8,7 @@ board_url:
  - "https://jandjstudios.io/datum/datum-IMU/"
 board_image: "datum_imu.jpg"
 date_added: 2019-07-12
-family: atmel-samd
+family: samd21
 features:
   - Breadboard-Friendly
 ---

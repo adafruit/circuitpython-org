@@ -8,7 +8,7 @@ board_url:
  - "https://www.sparkfun.com/products/14779"
 board_image: "sparkfun_lumidrive_01.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd21
 download_instructions: https://learn.sparkfun.com/tutorials/lumidrive-hookup-guide
 features:
   - Battery Charging

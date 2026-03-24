@@ -8,7 +8,7 @@ board_url:
  - "https://keithp.com/snek/snekboard"
 board_image: "snekboard.jpg"
 date_added: 2019-07-30
-family: atmel-samd
+family: samd21
 bootloader_id: snekboard
 features:
   - Battery Charging

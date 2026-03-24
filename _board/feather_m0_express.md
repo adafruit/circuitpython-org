@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/3403"
 board_image: "feather_m0_express.jpg"
 date_added: 2019-03-08
-family: atmel-samd
+family: samd21
 bootloader_id: feather_m0_express
 download_instructions: https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/kattni-circuitpython
 features:

@@ -8,7 +8,7 @@ board_url:
  - "https://hackaday.io/project/168684-feathersnow"
 board_image: "ndgarage_ndbit6.jpg"
 date_added: 2020-02-05
-family: atmel-samd
+family: samd21
 bootloader_id: ndbit6
 downloads_display: true
 blinka: false

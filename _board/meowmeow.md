@@ -8,7 +8,7 @@ board_url:
  - "https://electroniccats.com/store/meowmeow/"
 board_image: "meowmeow.jpg"
 date_added: 2019-04-01
-family: atmel-samd
+family: samd21
 bootloader_id: meowmeow
 features:
   - Solder-Free Alligator Clip

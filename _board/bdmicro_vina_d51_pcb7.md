@@ -8,7 +8,7 @@ board_url:
  - "https://bdmicro.com/products/vina-d51"
 board_image: "bdmicro_vina_d51.jpg"
 date_added: 2021-05-26
-family: atmel-samd
+family: samd51
 features:
   - Wi-Fi
 ---

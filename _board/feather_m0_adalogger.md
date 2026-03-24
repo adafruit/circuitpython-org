@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/2796"
 board_image: "feather_m0_adalogger.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd21
 bootloader_id: feather_m0
 features:
   - Feather-Compatible

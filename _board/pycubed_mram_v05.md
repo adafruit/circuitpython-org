@@ -8,7 +8,7 @@ board_url:
  - "https://pycubed.org/"
 board_image: "pycubed_v05.jpg"
 date_added: 2021-09-12
-family: atmel-samd
+family: samd51
 features:
 
 ---
