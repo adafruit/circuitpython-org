@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/4061"
 board_image: "pyportal.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd51
 bootloader_id: pyportal_m4
 download_instructions: https://learn.adafruit.com/adafruit-pyportal/install-circuitpython
 features:

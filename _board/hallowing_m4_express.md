@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4300"
 board_image: "hallowing_m4_express.jpg"
 date_added: 2019-08-30
-family: atmel-samd
+family: samd51
 bootloader_id: hallowing_m4
 download_instructions: https://learn.adafruit.com/adafruit-hallowing-m4/circuitpython
 features:

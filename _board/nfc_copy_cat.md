@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/ElectronicCats/NFC-Copy-Cat"
 board_image: "nfc_copy_cat.jpg"
 date_added: 2020-04-09
-family: atmel-samd
+family: samd21
 features:
   - Robotics
 ---

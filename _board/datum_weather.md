@@ -8,7 +8,7 @@ board_url:
  - "https://jandjstudios.io/datum/datum-Weather/"
 board_image: "datum_weather.jpg"
 date_added: 2019-07-12
-family: atmel-samd
+family: samd21
 features:
   - Breadboard-Friendly
 ---

@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/ElectronicCats/escornabot"
 board_image: "escornabot_makech.jpg"
 date_added: 2019-05-25
-family: atmel-samd
+family: samd21
 features:
   - Robotics
 ---

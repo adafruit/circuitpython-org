@@ -8,7 +8,7 @@ board_url:
  - "https://www.microchip.com/en-us/development-tool/ev76s68a"
 board_image: "microchip_curiosity_circuitpython.jpg"
 date_added: 2025-11-17
-family: atmel-samd
+family: same51
 bootloader_id: microchip_curiosity_circuitpython
 download_instructions:
 downloads_display: false

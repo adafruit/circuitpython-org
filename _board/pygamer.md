@@ -10,7 +10,7 @@ board_url:
  - "https://www.adafruit.com/product/4277"
 board_image: "pygamer.jpg"
 date_added: 2019-05-25
-family: atmel-samd
+family: samd51
 bootloader_id: arcade_pygamer
 download_instructions: https://learn.adafruit.com/adafruit-pygamer/circuitpython
 features:

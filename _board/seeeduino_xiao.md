@@ -8,7 +8,7 @@ board_url:
  - "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
 board_image: "seeeduino_xiao.jpg"
 date_added: 2020-01-17
-family: atmel-samd
+family: samd21
 bootloader_id: XIAO_m0
 download_instructions: https://wiki.seeedstudio.com/Seeeduino-XIAO-CircuitPython/
 features:

@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/TG-Techie/Datalore-IP-M4"
 board_image: "datalore_ip_m4.jpg"
 date_added: 2019-04-05
-family: atmel-samd
+family: samd51
 features:
   - Castellated Pads
 ---

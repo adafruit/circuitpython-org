@@ -8,7 +8,7 @@ board_url:
 board_image: "unknown.jpg"
 downloads_display: false
 date_added: 2020-06-14
-family: atmel-samd
+family: samd51
 features:
 ---
 

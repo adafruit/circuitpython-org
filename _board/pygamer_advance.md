@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/"
 board_image: "pygamer_advance.jpg"
 date_added: 2019-07-01
-family: atmel-samd
+family: samd51
 bootloader_id: arcade_pygamer
 features:
   - Display

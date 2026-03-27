@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/5021"
 board_image: "adafruit_slide_trinkey_m0.jpg"
 date_added: 2021-04-14
-family: atmel-samd
+family: samd21
 bootloader_id: slide_trinkey_m0
 download_instructions: https://learn.adafruit.com/adafruit-slider-trinkey/circuitpython
 features:

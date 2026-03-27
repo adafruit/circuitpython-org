@@ -10,7 +10,7 @@ board_url:
  - "https://www.adafruit.com/product/4514"
 board_image: "serpente.jpg"
 date_added: 2019-09-17
-family: atmel-samd
+family: samd21
 bootloader_id: serpente
 downloads_display: true
 blinka: false

@@ -10,7 +10,7 @@ board_url:
  - "https://www.adafruit.com/product/3778"
 board_image: "gemma_m0.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd21
 bootloader_id: gemma_m0
 download_instructions: https://learn.adafruit.com/adafruit-gemma-m0/circuitpython
 features:

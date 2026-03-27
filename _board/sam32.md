@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/maholli/SAM32"
 board_image: "sam32.jpg"
 date_added: 2019-04-05
-family: atmel-samd
+family: samd51
 bootloader_id: sam32
 features:
   - Feather-Compatible

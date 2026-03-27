@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/3093"
 board_image: "circuitplayground_express_crickit.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd21
 bootloader_id: circuitplay_m0
 download_instructions: https://learn.adafruit.com/adafruit-crickit-creative-robotic-interactive-construction-kit/circuitpython-code
 features:

@@ -7,7 +7,7 @@ manufacturer: "Oak Development Technologies"
 board_url:
 board_image: "cp_sapling_m0.jpg"
 date_added: 2020-11-23
-family: atmel-samd
+family: samd21
 bootloader_id: cp_sapling_m0
 features:
   - STEMMA QT/QWIIC

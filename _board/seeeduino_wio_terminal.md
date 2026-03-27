@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/4707"
 board_image: "seeeduino_wio_terminal.jpg"
 date_added: 2020-07-03
-family: atmel-samd
+family: samd51
 features:
     - Display
     - USB-C

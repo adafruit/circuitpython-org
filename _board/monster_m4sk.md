@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/4281"
 board_image: "monster_m4sk.jpg"
 date_added: 2019-08-30
-family: atmel-samd
+family: samd51
 bootloader_id: hallowing_mask
 features:
   - Display

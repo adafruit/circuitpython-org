@@ -7,7 +7,7 @@ manufacturer: "Bradán Lane STUDIO"
 board_url: https://aosc.cc/eccn2025
 board_image: "bradanlanestudio_coin_m0.jpg"
 date_added: 2024-11-22
-family: atmel-samd
+family: samd21
 features:
   - USB-C
 ---

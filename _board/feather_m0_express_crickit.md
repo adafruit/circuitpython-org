@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/3343"
 board_image: "feather_m0_express_crickit.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd21
 bootloader_id: feather_m0_express
 features:
   - Speaker

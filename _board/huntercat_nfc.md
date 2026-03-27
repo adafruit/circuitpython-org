@@ -8,7 +8,7 @@ board_url:
  - "https://electroniccats.com/store/hunter-cat-nfc/"
 board_image: "huntercat_nfc.jpg"
 date_added: 2021-05-26
-family: atmel-samd
+family: samd21
 features:
   - USB-C
 ---

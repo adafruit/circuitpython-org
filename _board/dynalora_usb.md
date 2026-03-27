@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/BHDynamics/rfm_radio_dongle"
 board_image: "dynalora_usb.jpg"
 date_added: 2021-02-11
-family: atmel-samd
+family: samd21
 features:
   - LoRa/Radio
 downloads_display: true

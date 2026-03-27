@@ -8,7 +8,7 @@ board_url:
  - "https://bdmicro.com/products/vina-d21"
 board_image: "bdmicro_vina_d21.jpg"
 date_added: 2020-09-28
-family: atmel-samd
+family: samd21
 features:
   - Battery Charging
 ---

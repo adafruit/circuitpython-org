@@ -8,7 +8,7 @@ board_url:
  - "https://electroniccats.com/producto/catwan_usb-stick/"
 board_image: "catwan_usbstick.jpg"
 date_added: 2019-04-02
-family: atmel-samd
+family: samd21
 features:
   - LoRa/Radio
 ---

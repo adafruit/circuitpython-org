@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4964"
 board_image: "adafruit_rotary_trinkey_m0.jpg"
 date_added: 2021-04-06
-family: atmel-samd
+family: samd21
 bootloader_id: rotary_trinkey_m0
 download_instructions: https://learn.adafruit.com/adafruit-rotary-trinkey/circuitpython
 features:

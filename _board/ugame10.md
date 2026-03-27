@@ -8,7 +8,7 @@ board_url:
  - "https://ugame.rtfd.io"
 board_image: "ugame_10.jpg"
 date_added: 2019-03-12
-family: atmel-samd
+family: samd21
 bootloader_id: trinket_m0
 features:
   - Display

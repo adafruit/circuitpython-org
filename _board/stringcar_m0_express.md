@@ -8,7 +8,7 @@ board_url:
  - "https://github.com/CedarGroveStudios/StringCar_M0_Express"
 board_image: "stringcar_m0_express.jpg"
 date_added: 2019-10-14
-family: atmel-samd
+family: samd21
 features:
   - Battery Charging
 ---

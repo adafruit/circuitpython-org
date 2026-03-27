@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4000"
 board_image: "metro_m4_airlift_lite.jpg"
 date_added: 2019-04-13
-family: atmel-samd
+family: samd51
 bootloader_id: metro_m4_airlift
 download_instructions: https://learn.adafruit.com/adafruit-metro-m4-express-airlift-wifi/install-circuitpython
 features:

@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4319"
 board_image: "pyruler.jpg"
 date_added: 2019-07-15
-family: atmel-samd
+family: samd21
 bootloader_id: trinket_m0
 download_instructions: https://learn.adafruit.com/adafruit-pyruler/circuitpython
 ---

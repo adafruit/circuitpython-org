@@ -8,7 +8,7 @@ board_url:
  - "https://www.arduino.cc/en/Guide/ArduinoMKRZero"
 board_image: "arduino_mkr_zero.jpg"
 date_added: 2019-03-09
-family: atmel-samd
+family: samd21
 bootloader_id: mkrzero
 features:
   - Battery Charging

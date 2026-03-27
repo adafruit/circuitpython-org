@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/5954"
 board_image: "adafruit_trrs_trinkey_m0.jpg"
 date_added: 2024-05-14
-family: atmel-samd
+family: samd21
 download_instructions: https://learn.adafruit.com/adafruit-trrs-trinkey/install-circuitpython
 features:
 ---

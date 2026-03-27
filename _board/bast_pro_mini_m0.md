@@ -8,7 +8,7 @@ board_url:
  - "https://electroniccats.com/store/bast-pro-mini-m0/"
 board_image: "bast_pro_mini_m0.jpg"
 date_added: 2019-04-13
-family: atmel-samd
+family: samd21
 features:
   - Breadboard-Friendly
 ---

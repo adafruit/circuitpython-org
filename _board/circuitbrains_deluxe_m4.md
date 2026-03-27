@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/4802"
 board_image: "circuitbrains_deluxe.jpg"
 date_added: 2020-02-27
-family: atmel-samd
+family: samd51
 bootloader_id: circuitbrains_deluxe_m4
 downloads_display: true
 blinka: false

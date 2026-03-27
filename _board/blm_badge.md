@@ -9,7 +9,7 @@ board_url:
  - "https://www.adafruit.com/product/4703"
 board_image: "blmbadge.jpg"
 date_added: 2020-09-01
-family: atmel-samd
+family: samd21
 bootloader_id: blm_badge
 download_instructions: https://learn.adafruit.com/black-lives-matter-badge/circuitpython
 features:

@@ -8,7 +8,7 @@ board_url:
  - "https://hackaday.io/project/173537-feathersnow-v2"
 board_image: "ndgarage_ndbit6_v2.jpg"
 date_added: 2020-09-01
-family: atmel-samd
+family: samd21
 bootloader_id: ndbit7
 tags:
  - Ndbit V2

@@ -8,7 +8,7 @@ board_url:
  - "https://pewpew.rtfd.io"
 board_image: "pewpew_10.2.jpg"
 date_added: 2019-03-12
-family: atmel-samd
+family: samd21
 bootloader_id: trinket_m0
 features:
   - Display

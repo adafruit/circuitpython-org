@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/5953"
 board_image: "adafruit_pixel_trinkey_m0.jpg"
 date_added: 2024-05-14
-family: atmel-samd
+family: samd21
 download_instructions: https://learn.adafruit.com/adafruit-pixel-trinkey/install-circuitpython
 features:
 ---

@@ -8,7 +8,7 @@ board_url:
  - "https://www.adafruit.com/product/4400"
 board_image: "edgebadge.jpg"
 date_added: 2019-11-19
-family: atmel-samd
+family: samd51
 bootloader_id: arcade_pybadge
 download_instructions: https://learn.adafruit.com/adafruit-pybadge/installing-circuitpython
 features:

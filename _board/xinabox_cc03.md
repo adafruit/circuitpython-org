@@ -8,7 +8,7 @@ board_url:
  - "https://drive.google.com/file/d/13xfg0SRZEeO-_xMElqdf0Sne8rjAcfyn/view"
 board_image: "xinabox_cc03.jpg"
 date_added: 2019-12-17
-family: atmel-samd
+family: samd21
 bootloader_id: CC03
 
 ---
