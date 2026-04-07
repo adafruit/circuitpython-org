@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "feather_radiofruit_zigbee"
-title: "feather_radiofruit_zigbee Download"
-name: "feather_radiofruit_zigbee"
+title: "Feather Radiofruit Zigbee Download"
+name: "Feather Radiofruit Zigbee"
 manufacturer: "Adafruit"
 board_url:
 board_image: "unknown.jpg"
@@ -13,9 +13,4 @@ downloads_display: false
 features:
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
-
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
-
-## Purchase
-Add any links to purchase the board
+The Feather Radiofruit Zigbee is an unreleased Adafruit prototype from 2019. It was planned as a SAMD21-based Feather with a Zigbee radio module, part of the "RadioFruit" family that includes the Feather M0 RFM69 and RFM9x boards. The board was never publicly released or sold. Adafruit later addressed Zigbee/802.15.4 connectivity via the ESP32-C6 and nRF52840 platforms instead.

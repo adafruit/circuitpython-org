@@ -13,9 +13,4 @@ bootloader_id: uartlogger2
 features:
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
-
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
-
-## Purchase
-Add any links to purchase the board
+The UARTLogger2 is a SAMD51-based board designed for UART data logging. The manufacturer is unknown and no product page, GitHub repository, or documentation has been found. The board has been in the CircuitPython codebase since March 2020.

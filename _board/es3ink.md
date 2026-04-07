@@ -15,5 +15,3 @@ features:
 ---
 
 The ES3ink is an open-source e-ink display controller board based on the ESP32-S3. It was designed by dronecz and is compatible with both Arduino and CircuitPython. The KiCad schematic and PCB layout files are available on [GitHub](https://github.com/dronecz/ES3ink).
-
-This board is not commercially available.

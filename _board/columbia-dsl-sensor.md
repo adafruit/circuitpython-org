@@ -12,5 +12,3 @@ downloads_display: false
 ---
 
 The Columbia DSL Sensor is a custom ESP32-S3 board built for Columbia University's [Digital Storytelling Lab](https://github.com/columbiadsl), which focuses on immersive experience design, IoT for theater, and interactive installations. It was developed by Double Take Labs for use in the lab's IoT sensing projects.
-
-This board is not commercially available.

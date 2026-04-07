@@ -3,7 +3,7 @@ layout: download
 board_id: "renode_cortex_m0plus"
 title: "Renode Cortex M0+ Download"
 name: "Renode Cortex M0+"
-manufacturer: "Renode"
+manufacturer: "Antmicro"
 board_url:
  - "https://renode.readthedocs.io/en/latest/index.html"
 board_image: "unknown.jpg"
@@ -13,6 +13,4 @@ downloads_display: false
 features:
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
-
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
+The Renode Cortex M0+ is not a physical board. It is a virtual board that runs inside the [Renode](https://renode.io/) hardware emulator, an open-source simulation framework by Antmicro for embedded systems. It was added to CircuitPython by Scott Shawcroft to enable easier tracing and debugging of the CircuitPython core without physical hardware, and to serve as a minimal starting template for new CircuitPython ports. The port implements only the bare minimum needed for the CircuitPython core to run and is classified as alpha-level.

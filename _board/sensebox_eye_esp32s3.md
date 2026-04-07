@@ -16,4 +16,4 @@ bootloader_id: ESP32S3-senseBox-eye
 features:
 ---
 
-Oops! Looks like we don't know anything about this board. This means it's likely very new.
+The senseBox-eye is an ESP32-S3-based board with a camera, designed for AI and edge computing use cases. It is made by [senseBox](https://sensebox.de/), a German educational electronics platform. Hardware schematics and demos are available on [GitHub](https://github.com/sensebox/senseBox_Eye). The board does not appear to be available in the senseBox shop yet and may still be in development or limited release.
