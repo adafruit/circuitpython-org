@@ -18,6 +18,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 **Omnimo nRF52840** is a compact development board that features the Nordic's [nRF52840](https://www.nordicsemi.com/Products/nRF52840) multiprotocol SoC. This chip supports a wide array of wireless protocols, including Bluetooth Low Energy, Bluetooth mesh, NFC, Thread, and Zigbee. The board is compatible with a wide range of add-on boards from the Feather, Qwiic, mikroBUS, and Pmod ecosystems.

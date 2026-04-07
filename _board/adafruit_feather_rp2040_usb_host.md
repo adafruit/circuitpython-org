@@ -19,6 +19,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 You're probably really used to microcontroller boards with USB, but what about a dev board with two? Two is more than one, so that makes it twice as good! And the Adafruit Feather RP2040 with USB Host is definitely double-the-fun of our other Feather RP2040 boards, with a USB Type A port on the end for connecting USB devices to.

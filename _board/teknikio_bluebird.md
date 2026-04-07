@@ -10,6 +10,7 @@ board_image: "teknikio_bluebird.jpg"
 date_added: 2019-12-20
 family: nrf52840
 features:
+  - OSHWA Certified
 ---
 A plug-n-play circuit board that can be programmed to send and receive information over Bluetooth and the Internet.
 

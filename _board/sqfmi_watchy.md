@@ -14,6 +14,7 @@ features:
   - Bluetooth/BTLE
   - Wi-Fi
   - Battery Charging
+  - OSHWA Certified
 ---
 
 Watchy is an E-Ink watch with open source hardware and software. It has a barebones design utilizing the PCB as the watch body, allowing it to be worn as-is, or further customized with different 3D printed cases and watch straps. It is a unique timepiece that is also a wearable development platform, allowing users to create their own experience.

@@ -13,6 +13,7 @@ downloads_display: true
 
 features:
   - USB-C
+  - OSHWA Certified
 ---
 
 DynOSSAT-EDU is the first open source PocketQube educational kit compatible with CircuitPython and Arduino.

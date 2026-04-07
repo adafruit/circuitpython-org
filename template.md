@@ -29,6 +29,7 @@ features:
   - Feather-Compatible
   - GPS
   - LoRa/Radio
+  - OSHWA Certified
   - Raspberry Pi Pico Form Factor
   - Robotics
   - Solder-Free Alligator Clip

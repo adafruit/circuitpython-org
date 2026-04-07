@@ -13,6 +13,8 @@ date_added: 2019-11-07
 family: samd51
 download_instructions: https://sol.wntr.dev/
 bootloader_id: winterbloom_sol
+features:
+  - OSHWA Certified
 ---
 
 Winterbloom Sol is a modular synthesizer (Eurorack) module. It is a multi-purpose, scriptable USB MIDI to CV/gate converter. Its code can be modified while in use to change how it processes MIDI data into CV and gate outputs.

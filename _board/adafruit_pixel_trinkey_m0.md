@@ -11,6 +11,7 @@ date_added: 2024-05-14
 family: samd21
 download_instructions: https://learn.adafruit.com/adafruit-pixel-trinkey/install-circuitpython
 features:
+  - OSHWA Certified
 ---
 
 Coming soon from Adafruit, check out the weekly "Top Secret" segment on ASK AN ENGINEER or the upcoming new product videos on [YouTube](https://www.youtube.com/adafruit).

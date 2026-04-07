@@ -18,6 +18,7 @@ features:
   - Speaker
   - Feather-Compatible
   - Battery Charging
+  - OSHWA Certified
 ---
 
 The Adafruit PyGamer is an entry-level gaming handheld for DIY gaming and maybe a little retro-emulation, all in one compact dev board.

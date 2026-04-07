@@ -18,6 +18,7 @@ features:
   - Bluetooth/BTLE
   - Solder-Free Alligator Clip
   - STEMMA QT/QWIIC
+  - OSHWA Certified
 ---
 We wanted to build some projects that have a small screen and a lot of sensors. This board has a 1.3″ 240×240 IPS TFT display, two buttons, and sensors.
 

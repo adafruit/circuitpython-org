@@ -14,6 +14,7 @@ bootloader_id: grandcentral_m4
 download_instructions: https://learn.adafruit.com/adafruit-grand-central/circuitpython
 features:
   - Arduino Shield Compatible
+  - OSHWA Certified
 ---
 
 The **Adafruit Grand Central** features the **Microchip ATSAMD51**. This dev board is so big, it's not named after a Metro train, it's a whole freakin' _station_!

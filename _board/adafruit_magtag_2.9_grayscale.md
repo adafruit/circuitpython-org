@@ -19,6 +19,7 @@ features:
   - Speaker
   - Display
   - USB-C
+  - OSHWA Certified
 ---
 
 **UPDATE: The Adafruit MagTag has a new 2025 Edition!** As of July 22, 2025, the display has been updated (the old one was discontinued). **You must use CircuitPython 10.0.0-beta.1 or later to support the new display.** It will also work on older MagTags.

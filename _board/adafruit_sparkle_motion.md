@@ -16,6 +16,7 @@ features:
   - Wi-Fi
   - USB-C
   - STEMMA QT/QWIIC
+  - OSHWA Certified
 ---
 
 [Adafruit Sparkle Motion - All-In-One WLED and xLights Board](https://www.adafruit.com/product/6100)

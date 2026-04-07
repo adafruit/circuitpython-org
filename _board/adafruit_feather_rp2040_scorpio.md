@@ -16,6 +16,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 If there is one thing Adafruit is known for, its mega-blinky-fun-rainbow-LEDs. [We just love sticking NeoPixels anywhere and everywhere](https://www.adafruit.com/category/168). When we saw the new 'PIO' peripheral on[ the RP2040 from Raspberry Pi](https://www.adafruit.com/category/875), we just knew it would be perfect for driving large quantities of NeoPixels. So we created this board, the **Adafruit Feather RP2040 SCORPIO**, designed specifically for NeoPixel (WS2812) driving but also good for various other PIO-based projects that want to take advantage of the Feather pinout with 8 separate consecutive outputs (or inputs).

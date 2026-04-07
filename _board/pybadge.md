@@ -20,6 +20,7 @@ features:
   - Speaker
   - Feather-Compatible
   - Battery Charging
+  - OSHWA Certified
 ---
 
 The Adafruit PyBadge an all-in-one compact dev board programmable in CircuitPython. Full of features squeezed onto a 3 3⁄8 × 2 1⁄8 inch rounded credit card sized rectangle. It's a perfect wearable badge, but can be used for many projects.

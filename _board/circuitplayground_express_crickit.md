@@ -15,6 +15,7 @@ features:
   - Speaker
   - Robotics
   - Solder-Free Alligator Clip
+  - OSHWA Certified
 ---
 
 **Crickit** is a **C**reative **R**obotics & **I**nteractive **C**onstruction **Kit**. It's an add-on for the popular Circuit Playground Express that lets you **#MakeRobotFriend** using CircuitPython (and more).

@@ -18,6 +18,7 @@ features:
   - Wi-Fi
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 The **Adafruit Feather HUZZAH32** is our original ESP32-based Feather, made with the official WROOM32 module. We packed everything you love about Feathers: built in USB-to-Serial converter, automatic bootloader reset, Lithium Ion/Polymer charger, and just about all of the GPIOs brought out so you can use it with any of our Feather Wings. [We have other boards in the Feather family, check'em out here.](https://www.adafruit.com/feather)

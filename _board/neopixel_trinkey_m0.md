@@ -12,7 +12,7 @@ family: samd21
 bootloader_id: neopixel_trinkey_m0
 download_instructions: https://learn.adafruit.com/adafruit-neo-trinkey/circuitpython
 features:
-
+  - OSHWA Certified
 ---
 
 It's half USB Key, half Adafruit Trinket*...*it's **Neo Trinkey**, the circuit board with a Trinket M0 heart and four RGB NeoPixels for customizable glow. We were inspired by some USB key flashlight boards that would turn any battery pack into an LED torch. So we thought, hey what if we made something like that but with fully programmable color NeoPixels? And this is what we came up with!

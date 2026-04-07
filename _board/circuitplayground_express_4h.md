@@ -16,6 +16,7 @@ download_instructions: https://learn.adafruit.com/adafruit-circuit-playground-ex
 features:
   - Speaker
   - Solder-Free Alligator Clip
+  - OSHWA Certified
 ---
 
 The Circuit Playground Express is Adafruit's flagship educational board designed for CircuitPython.

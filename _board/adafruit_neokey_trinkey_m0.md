@@ -12,6 +12,7 @@ family: samd21
 bootloader_id: neokey_trinkey_m0
 download_instructions: https://learn.adafruit.com/adafruit-neokey-trinkey/circuitpython
 features:
+  - OSHWA Certified
 
 ---
 

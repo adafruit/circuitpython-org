@@ -22,6 +22,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 The Adafruit Feather series gives you lots of options for a small, portable, rechargeable microcontroller board. By picking a feather and stacking on a FeatherWing you can create advanced projects quickly. One popular combo is our [Feather M4](https://www.adafruit.com/product/3857) or [Feather RP2040](https://www.adafruit.com/product/4884) with a [Prop-Maker FeatherWing](https://www.adafruit.com/product/3988) on top to create animatronics or props that boot up instantly and can drive LEDs, and small speakers.

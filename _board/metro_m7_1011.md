@@ -15,6 +15,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Arduino Shield Compatible
+  - OSHWA Certified
 ---
 
 Get ready for our fastest Metro ever - the NXP iMX RT1011 microcontroller powers this board with a 500 MHz ARM Cortex M7 processor. There's 8 MB of execute-in-place QSPI for firmware + disk storage and 128KB of SRAM in-chip, plus a WiFi co-processor using an on-board ESP32 module.

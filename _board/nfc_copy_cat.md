@@ -11,6 +11,7 @@ date_added: 2020-04-09
 family: samd21
 features:
   - Robotics
+  - OSHWA Certified
 ---
 
 NFC Copy Cat, manufactured by Electronic Cats, is a small device that combines two powerful cybersecurity tools, NFCopy and MagSpoof. NFCopy works by reading or emulating a NFC card; depending on the necessities of the researcher. On the other hand, MagSpoof can wirelessly emulate/spoof any magnetic stripe card. So using NFC Copy Cat, the user will have a device capable of storing magnetic stripe data or NFC payment data to be replayed later — known in the cybersecurity world as a replay attack.

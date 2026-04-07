@@ -14,6 +14,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Arduino Shield Compatible
+  - OSHWA Certified
 ---
 
 Your favorite electronics companies have collaborated to make the fastest Metro ever! For this new product, DigiKey, NXP and Adafruit all contributed the stuff they know best: shipping parts fast (DigiKey), designing microcontrollers (NXP) and crafting great products with tutorials (that's us, Adafruit!)

@@ -21,6 +21,7 @@ features:
   - USB-C
   - Breadboard-Friendly
   - STEMMA QT/QWIIC
+  - OSHWA Certified
 ---
 
 The **Adafruit Feather ESP32 V2** is a new version of the original Adafruit HUZZAH32 ESP32 Feather. Both have the fabulous ESP32 WROOM module on there, which makes quick work of WiFi and Bluetooth projects that take advantage of Espressifs most popular chipset. We completely refreshed the board while moving from the obsolete CP2104 USB-serial chip to the available CH9102F.

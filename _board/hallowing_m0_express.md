@@ -18,6 +18,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - Solder-Free Alligator Clip
+  - OSHWA Certified
 ---
 
 This is Hallowing..this is Hallowing... Hallowing! Hallowing! 

@@ -20,6 +20,7 @@ features:
   - Display
   - USB-C
   - Battery Charging
+  - OSHWA Certified
 ---
 
 Make memories, or just a cool camera-based project, with **Adafruit's MEMENTO Camera Board**. It's a development board with everything you need to create programmable camera and vision projects: with a camera module, TFT preview screen, buttons, SD card slot and driven by a powerful ESP32-S3 with 2 MB of PSRAM for buffering 5 MegaPixel camera images.

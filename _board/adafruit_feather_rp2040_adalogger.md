@@ -20,6 +20,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 This is the <b>Adafruit Feather RP2040 Adalogger</b> - our take on an 'all-in-one' RP2040 data-logger (or data-reader) with built-in USB, battery charging, and a microSD holder ready to rock! [We have other boards in the Feather family, check'em out here.](https://www.adafruit.com/feather)

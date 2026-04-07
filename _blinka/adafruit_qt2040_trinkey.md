@@ -12,6 +12,7 @@ blinka: true
 date_added: 2021-12-06
 features:
   - STEMMA QT/QWIIC
+  - OSHWA Certified
 
 ---
 

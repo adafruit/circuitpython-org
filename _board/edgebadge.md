@@ -16,6 +16,7 @@ features:
   - Speaker
   - Feather-Compatible
   - Battery Charging
+  - OSHWA Certified
 ---
 
 Machine learning has come to the 'edge' - small microcontrollers that can run a very miniature version of TensorFlow Lite to do ML computations.

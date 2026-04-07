@@ -18,6 +18,7 @@ features:
   - Wi-Fi
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 
 ---
 

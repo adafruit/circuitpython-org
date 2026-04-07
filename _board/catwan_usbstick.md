@@ -11,6 +11,7 @@ date_added: 2019-04-02
 family: samd21
 features:
   - LoRa/Radio
+  - OSHWA Certified
 ---
 
 Are you interested in learning how LoRa works at the package level? Debugging your own LoRa hardware and trying to detect where something is wrong? Or maybe you’re writing a custom application for your Internet of Things (IoT) network with LoraWAN?

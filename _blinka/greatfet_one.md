@@ -12,6 +12,7 @@ blinka: true
 date_added: 2020-05-15
 features:
   - 40-pin GPIO
+  - OSHWA Certified
 ---
 
 **GreatFET One** from [Great Scott Gadgets](https://greatscottgadgets.com/) is a hardware hacker’s best friend. At the center is a powerful NXP LPC4330 (Cortex M4 @ 204MHz) with two USB ports, one host and one peripheral, so it can act as a 'man in the middle' for USB interfacing. With an extensible, open source design, two USB ports, and 100 expansion pins, GreatFET One is your essential gadget for hacking, making, and reverse engineering. By adding expansion boards called neighbors, you can turn GreatFET One into a USB peripheral that does almost anything.

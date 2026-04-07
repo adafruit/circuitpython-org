@@ -17,6 +17,7 @@ download_instructions: ""
 features:
   - Battery Charging
   - Castellated Pads
+  - OSHWA Certified
 ---
 
 The Stamp was created to allow you to use the **Raspberry Pi RP2040** in your designs without having to solder small-pitch QFN chips or worry about lots of external circuitry.

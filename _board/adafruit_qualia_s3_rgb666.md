@@ -19,6 +19,7 @@ features:
   - Bluetooth/BTLE
   - STEMMA QT/QWIIC
   - USB-C
+  - OSHWA Certified
 ---
 
 There's a few things everyone loves: ice cream, kittens, and honkin' large TFT screens. We're no strangers to small TFT's - [from our itsy 1.14" color display](https://www.adafruit.com/search?q=1.14+tft) that graces many-a-TFT-Feather to [our fancy 3.5" 320x480](https://www.adafruit.com/product/2050) breakout screen. But most people who dabble or engineer with microcontrollers know that you sort of 'top out' at 320x480 - that's the largest resolution you can use with every day SPI or 8-bit 8080 interfaces. After that, you're in TTL-interface TFT land, where displays no longer have an internal memory buffer and instead the controller has to continuously write scanline data over a 16 or 18 or 24 pin interface.

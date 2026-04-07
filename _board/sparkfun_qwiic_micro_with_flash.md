@@ -13,6 +13,7 @@ download_instructions: https://learn.sparkfun.com/tutorials/sparkfun-qwiic-micro
 features:
   - STEMMA QT/QWIIC
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 The **SparkFun Qwiic Micro** is an _1 x 1 inch_ microcontroller made for the [Qwiic Eco-system](https://sparkfun.com/qwiic).
 It's SparkFun's smallest microcontroller to date that's made for integrating into small projects.

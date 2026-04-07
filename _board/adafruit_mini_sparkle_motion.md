@@ -16,6 +16,7 @@ features:
   - Wi-Fi
   - USB-C
   - STEMMA QT/QWIIC
+  - OSHWA Certified
 ---
 
 The [Adafruit Sparkle Motion Mini](https://www.adafruit.com/product/6160) is part of our series of "Sparkle Motion" boards, that are our attempt to make the best small WLED-friendly smart LED driving board in the whole world. Our resident mermaid, firepixie makes a lot of projects with WLED and she loves it! So how can we make something that will be powerful enough to drive advanced LED projects that need a compact design?

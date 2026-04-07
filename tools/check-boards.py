@@ -136,6 +136,7 @@ blinka_features = {
     "USB 3.0",
     "Infrared Receiver",
     "NVME/M.2 Connector",
+    "OSHWA Certified",
 }
 
 if not verify_board_id("_board"):

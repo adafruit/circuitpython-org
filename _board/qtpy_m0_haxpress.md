@@ -16,6 +16,7 @@ features:
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor
   - Castellated Pads
+  - OSHWA Certified
 ---
 
 This is the [QT Py board](https://www.adafruit.com/product/4600) with [the SOIC-8 2MB Flash chip](https://www.adafruit.com/product/4763) soldered on. Both are in the [Adafruit shop](https://adafruit.com).

@@ -16,6 +16,7 @@ features:
   - Arduino Shield Compatible
   - External Display
   - USB Host
+  - OSHWA Certified
 
 ---
 

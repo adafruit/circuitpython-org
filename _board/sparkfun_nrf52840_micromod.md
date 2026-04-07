@@ -13,6 +13,7 @@ bootloader_id: sparkfun_nrf52840_micromod
 download_instructions: https://learn.sparkfun.com/tutorials/nrf52840-development-with-arduino-and-circuitpython#circuitpython-installation
 features:
   - Bluetooth/BTLE
+  - OSHWA Certified
 ---
 
 Featuring the nRF52840 SoC from Nordic Semiconductor, the SparkFun MicroMod nRF52840 Processor offers a powerful combination of ARM Cortex-M4 CPU and 2.4 GHz Bluetooth transceiver in the MicroMod form-factor with the M.2 MicroMod connector to allow you to plug in a compatible MicroMod Carrier Board with any number of peripherals.

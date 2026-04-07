@@ -15,6 +15,7 @@ features:
   - External Display
   - USB Host
   - Speaker
+  - OSHWA Certified
 
 ---
 

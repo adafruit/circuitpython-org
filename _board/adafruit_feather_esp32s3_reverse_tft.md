@@ -22,6 +22,7 @@ features:
   - Bluetooth/BTLE
   - USB-C
   - Display
+  - OSHWA Certified
 ---
 
 Like Missy Elliot, we like to ["put our [Feather\] down, flip it and reverse it"](https://www.youtube.com/watch?v=cjIvu7e6Wq8) and that's exactly what we've done with this new development board. It's basically our **[ESP32-S3 TFT Feather](https://www.adafruit.com/product/5483)** but with the 240x135 color TFT display on the back-side not the front-side. That makes it great for panel-mounted projects, particularly since we've also got some space for 3 buttons to go along. It's like an all-in-one display interface dev board, powered by the fantastic ESP32-S3 WIFI module.

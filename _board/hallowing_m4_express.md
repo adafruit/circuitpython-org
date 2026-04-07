@@ -17,6 +17,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - Solder-Free Alligator Clip
+  - OSHWA Certified
 ---
 
 [This is Hallowing..this is Hallowing... Hallowing! Hallowing! ](https://www.youtube.com/watch?v=kGiYxCUAhks&t=39s)Following up on 2018's [most-successful-skull-shaped development board](https://www.adafruit.com/product/3900), we UPPED our -skull-shaped development board game, and [re-spinned (re-spun?) the HalloWing M0](https://www.adafruit.com/product/3900) into the HalloWing M4 with MORE of everything that makes this the spoooookiest dev board.

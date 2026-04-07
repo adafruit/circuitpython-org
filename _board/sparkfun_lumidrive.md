@@ -13,6 +13,7 @@ download_instructions: https://learn.sparkfun.com/tutorials/lumidrive-hookup-gui
 features:
   - Battery Charging
   - USB-C
+  - OSHWA Certified
 ---
 
 The LumiDrive LED Driver is SparkFun's foray into all things Python on micro-controllers. With the SparkFun LumiDrive you will be able to control and personalize a whole strand of APA102s directly from the board itself. We've broken out a number of analog and digital pins from the on board SAMD21G-AU microcontroller to incorporate your own external buttons, switches, and other interfaces to interact with your addressable LED strip.

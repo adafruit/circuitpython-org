@@ -12,7 +12,7 @@ family: samd21
 bootloader_id: rotary_trinkey_m0
 download_instructions: https://learn.adafruit.com/adafruit-rotary-trinkey/circuitpython
 features:
-
+  - OSHWA Certified
 ---
 
 It's half USB Key, half Adafruit Trinket, half rotary encoder*...*it's **Rotary Trinkey**, the circuit board with a Trinket M0 heart, a NeoPixel glow, and a rotary encoder body. [We were inspired by this project from TodBot where a rotary encoder was soldered onto a QT Py](https://twitter.com/todbot/status/1365107469345648643). So we thought, hey what if we made something like that that plugs right into your computer's USB port, with a fully programmable color NeoPixel? And this is what we came up with!

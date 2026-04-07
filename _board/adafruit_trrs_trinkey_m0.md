@@ -11,6 +11,7 @@ date_added: 2024-05-14
 family: samd21
 download_instructions: https://learn.adafruit.com/adafruit-trrs-trinkey/install-circuitpython
 features:
+  - OSHWA Certified
 ---
 
 It's half USB Key, half TRRS breakout*...* it's the **Adafruit TRRS Trinkey** specifically designed for Assistive Technology hackers and creators as a simple and low cost, but also flexible and extendable AT device.

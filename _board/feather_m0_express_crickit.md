@@ -15,6 +15,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - Robotics
+  - OSHWA Certified
 ---
 
 **Crickit** is Adafruit's **C**reative **R**obotics & **I**nteractive **C**onstruction **Kit**. It's an add-on to popular Feather ecosystem boards that lets you **#MakeRobotFriend **using CircuitPython.

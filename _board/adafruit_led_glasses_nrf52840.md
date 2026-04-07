@@ -18,6 +18,7 @@ features:
   - Battery Charging
   - STEMMA QT/QWIIC
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 This board is designed to be a thin, bluetooth-enabled driver board for our [Adafruit LED Glasses](https://www.adafruit.com/product/5210) RGB LED matrix. That said, it's a perfectly good stand-alone development board for the Nordic nRF52840 chipset, with a very slim design, optional LiPo battery support, a few sensors, and a Stemma QT port for adding other devices or sensors with I2C plug-and-play.

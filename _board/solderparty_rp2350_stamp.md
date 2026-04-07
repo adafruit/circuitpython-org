@@ -11,6 +11,7 @@ date_added: 2024-08-08
 family: rp2350
 features:
   - Castellated Pads
+  - OSHWA Certified
 ---
 The Stamp was created to allow you to use the Raspberry Pi RP2350A in your designs without having to solder small-pitch QFN chips or worry about lots of external circuitry.
 

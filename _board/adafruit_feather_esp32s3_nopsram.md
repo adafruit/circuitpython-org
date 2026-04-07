@@ -20,6 +20,7 @@ features:
   - Bluetooth/BTLE
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 
 ---
 

@@ -21,6 +21,7 @@ features:
   - USB-C
   - Display
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 We've got a new machine here at Adafruit, it can uncover your deepest desires. Don't believe me? I'll turn it on right now to prove it to you! What, you want your very own soft serve ice cream machine? OK well, that's not something we can provide. But we can provide your *second*-deepest desire: an **ESP32-S*3* Feather board with a built in IPS TFT color display**. It's got all the delicious creamy goodness features of a Feather main board, the comforting warmth of an ESP32-S3 WiFi+BLE microcontroller, and the crispness of a 240x135 pixel color TFT display. All that and it will even plug in nicely into a breadboard, [terminal block wing](https://www.adafruit.com/product/2926), or [Feather Doubler](https://www.adafruit.com/product/2890) or even just stack on top of another wing.

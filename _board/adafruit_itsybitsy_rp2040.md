@@ -12,6 +12,7 @@ family: rp2040
 download_instructions: https://learn.adafruit.com/adafruit-itsybitsy-rp2040/circuitpython
 features:
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 A new chip means a new ItsyBitsy, and the Raspberry Pi RP2040 is no exception. When we saw this chip we thought "this chip is going to be awesome when we give it the ItsyBitsy teensy-weensy Treatment" and so we did! This Itsy' features the RP2040, and all niceties you know and love about the [ItsyBitsy family](https://www.adafruit.com/category/1008).

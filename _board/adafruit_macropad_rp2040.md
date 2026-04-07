@@ -14,6 +14,7 @@ download_instructions: https://learn.adafruit.com/adafruit-macropad-rp2040/circu
 features:
   - USB-C
   - STEMMA QT/QWIIC
+  - OSHWA Certified
 ---
 
 Strap yourself in, we're launching in T-minus 10 seconds...Destination? A new Class M planet called MACROPAD! M here, stands for Microcontroller because this 3x4 keyboard controller features technology from the Raspberry Pi sector: say hello to the RP2040. It's speedy little microcontroller with lots of GPIO pins and a 64 times more RAM than the Apollo Guidance Computer. We added 8 MB of flash memory for plenty of storage.
