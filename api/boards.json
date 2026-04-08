@@ -1649,7 +1649,7 @@
         "features": [
         ],
         "url_path": "/board/adafruit_vindie_s2/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<p>The Adafruit Vindie S2 is an internal or unreleased Adafruit ESP32-S2 board. It was added to CircuitPython in August 2024 by Liz Clark (BlitzCityDIY). No product page, store listing, or learn guide exists for this board. The name “Vindie” does not correspond to any known Adafruit product line and may be a codename for a board still in development.</p>"
     },
     {
         "board_id": "ai-thinker-esp32-cam",
@@ -2067,7 +2067,7 @@
         "features": [
         ],
         "url_path": "/board/artisense_rd00/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<p>The Artisense Reference Design RD00 is an ESP32-S2 board by an unknown manufacturer. No company website, product page, or documentation has been found for “Artisense” as a hardware company. The board has been in the CircuitPython codebase since May 2021 and may support camera functionality via the espcamera module.</p>"
     },
     {
         "board_id": "atmegazero_esp32s2",
@@ -3106,8 +3106,8 @@
     },
     {
         "board_id": "columbia-dsl-sensor",
-        "title": "Colombia DSL Sensor Download",
-        "name": "Colombia DSL Sensor",
+        "title": "Columbia DSL Sensor Download",
+        "name": "Columbia DSL Sensor",
         "board_url": [
         ],
         "board_image": "unknown.jpg",
@@ -3119,7 +3119,7 @@
         "features": [
         ],
         "url_path": "/board/columbia-dsl-sensor/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<p>The Columbia DSL Sensor is a custom ESP32-S3 board built for Columbia University’s <a href=\"https://github.com/columbiadsl\">Digital Storytelling Lab</a>, which focuses on immersive experience design, IoT for theater, and interactive installations. It was developed by Double Take Labs for use in the lab’s IoT sensing projects.</p>"
     },
     {
         "board_id": "cosmo_pico",
@@ -3143,12 +3143,12 @@
     },
     {
         "board_id": "cp32-m4",
-        "title": "cp32-m4 Download",
-        "name": "cp32-m4",
+        "title": "CP32-M4 Download",
+        "name": "CP32-M4",
         "board_url": [
             "https://github.com/siddacious/CP32-M4"
         ],
-        "board_image": "unknown.jpg",
+        "board_image": "cp32-m4.jpg",
         "date_added": "2019-04-05",
         "family": "samd51",
         "bootloader_id": "",
@@ -3157,7 +3157,7 @@
         "features": [
         ],
         "url_path": "/board/cp32-m4/",
-        "description": "<p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p><p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p><h2 id=\"purchase\">Purchase</h2><p>Add any links to purchase the board</p>"
+        "description": "<p>The CP32-M4 is an open-source CircuitPython-compatible board that fits an ATSAMD51 (Cortex-M4) microcontroller into an ESP32 module footprint. It was designed by Bryan Siepert, an Adafruit contributor, as a personal hardware project. The KiCad schematic and board layout files are available on <a href=\"https://github.com/siddacious/CP32-M4\">GitHub</a>.</p><h2 id=\"learn-more\">Learn More</h2><p><a href=\"https://github.com/siddacious/CP32-M4\">GitHub</a></p>"
     },
     {
         "board_id": "cp_sapling_m0",
@@ -4019,8 +4019,8 @@
     },
     {
         "board_id": "es3ink",
-        "title": "es3ink Download",
-        "name": "es3ink",
+        "title": "ES3ink Download",
+        "name": "ES3ink",
         "board_url": [
             "https://github.com/dronecz/es3ink"
         ],
@@ -4033,7 +4033,7 @@
         "features": [
         ],
         "url_path": "/board/es3ink/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<p>The ES3ink is an open-source e-ink display controller board based on the ESP32-S3. It was designed by dronecz and is compatible with both Arduino and CircuitPython. The KiCad schematic and PCB layout files are available on <a href=\"https://github.com/dronecz/ES3ink\">GitHub</a>.</p>"
     },
     {
         "board_id": "escornabot_makech",
@@ -5177,8 +5177,8 @@
     },
     {
         "board_id": "feather_radiofruit_zigbee",
-        "title": "feather_radiofruit_zigbee Download",
-        "name": "feather_radiofruit_zigbee",
+        "title": "Feather Radiofruit Zigbee Download",
+        "name": "Feather Radiofruit Zigbee",
         "board_url": [
         ],
         "board_image": "unknown.jpg",
@@ -5190,7 +5190,7 @@
         "features": [
         ],
         "url_path": "/board/feather_radiofruit_zigbee/",
-        "description": "<p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p><p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p><h2 id=\"purchase\">Purchase</h2><p>Add any links to purchase the board</p>"
+        "description": "<p>The Feather Radiofruit Zigbee is an unreleased Adafruit prototype from 2019. It was planned as a SAMD21-based Feather with a Zigbee radio module, part of the “RadioFruit” family that includes the Feather M0 RFM69 and RFM9x boards. The board was never publicly released or sold. Adafruit later addressed Zigbee/802.15.4 connectivity via the ESP32-C6 and nRF52840 platforms instead.</p>"
     },
     {
         "board_id": "feather_stm32f405_express",
@@ -5669,8 +5669,8 @@
     },
     {
         "board_id": "hexky_s2",
-        "title": "hexky_s2 Download",
-        "name": "hexky_s2",
+        "title": "HexKy S2 Download",
+        "name": "HexKy S2",
         "board_url": [
         ],
         "board_image": "unknown.jpg",
@@ -5682,7 +5682,7 @@
         "features": [
         ],
         "url_path": "/board/hexky_s2/",
-        "description": "<p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p><p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p><h2 id=\"purchase\">Purchase</h2><p>Add any links to purchase the board</p>"
+        "description": "<p>The HexKy S2 is an ESP32-S2 board by FutureKeys. No product page, GitHub repository, or web presence has been found for FutureKeys as a hardware company. The name suggests it may have been a keyboard or macropad project that was never publicly released.</p>"
     },
     {
         "board_id": "hiibot_bluefi",
@@ -6501,7 +6501,7 @@
         "features": [
         ],
         "url_path": "/board/loc_ber_m4_base_board/",
-        "description": ""
+        "description": "<p>The LoC BeR M4 is a SAMD51-based board designed by Florin Trutiu. It uses the SAMD51G19 chip and supports SPI, UART, USB, analog I/O, PWM, touch, NeoPixel, alarm, PS/2, and rotary encoder functionality. No product page, GitHub repository, or additional documentation has been found.</p>"
     },
     {
         "board_id": "lolin_c3_mini",
@@ -8011,6 +8011,7 @@
         "title": "Zephyr Native Sim Download",
         "name": "Zephyr Native Sim",
         "board_url": [
+            "https://docs.zephyrproject.org/latest/boards/native/native_sim/doc/index.html"
         ],
         "board_image": "unknown.jpg",
         "date_added": "2026-03-12",
@@ -8021,7 +8022,7 @@
         "features": [
         ],
         "url_path": "/board/native_native_sim/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<p>The Zephyr Native Sim is not a physical board. It is Zephyr’s <a href=\"https://docs.zephyrproject.org/latest/boards/native/native_sim/doc/index.html\">native simulator</a>, which compiles Zephyr applications as a normal Linux executable that runs on the host machine. It is used for development and testing of the CircuitPython Zephyr port without needing physical hardware. The Zephyr port of CircuitPython is currently in alpha.</p>"
     },
     {
         "board_id": "ndgarage_ndbit6",
@@ -10301,7 +10302,7 @@
         "features": [
         ],
         "url_path": "/board/renode_cortex_m0plus/",
-        "description": "<p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p><p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p>"
+        "description": "<p>The Renode Cortex M0+ is not a physical board. It is a virtual board that runs inside the <a href=\"https://renode.io/\">Renode</a> hardware emulator, an open-source simulation framework by Antmicro for embedded systems. It was added to CircuitPython by Scott Shawcroft to enable easier tracing and debugging of the CircuitPython core without physical hardware, and to serve as a minimal starting template for new CircuitPython ports. The port implements only the bare minimum needed for the CircuitPython core to run and is classified as alpha-level.</p>"
     },
     {
         "board_id": "rfguru_rp2040",
@@ -10600,7 +10601,7 @@
         "features": [
         ],
         "url_path": "/board/sensebox_eye_esp32s3/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<p>The senseBox-eye is an ESP32-S3-based board with a camera, designed for AI and edge computing use cases. It is made by <a href=\"https://sensebox.de/\">senseBox</a>, a German educational electronics platform. Hardware schematics and demos are available on <a href=\"https://github.com/sensebox/senseBox_Eye\">GitHub</a>. The board does not appear to be available in the senseBox shop yet and may still be in development or limited release.</p>"
     },
     {
         "board_id": "sensebox_mcu",
@@ -12247,7 +12248,7 @@
         "features": [
         ],
         "url_path": "/board/uartlogger2/",
-        "description": "<p>This board hasn’t been fully documented yet. Please make a pull request adding more info to this file.</p><p>The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.</p><h2 id=\"purchase\">Purchase</h2><p>Add any links to purchase the board</p>"
+        "description": "<p>The UARTLogger2 is a SAMD51-based board designed for UART data logging. The manufacturer is unknown and no product page, GitHub repository, or documentation has been found. The board has been in the CircuitPython codebase since March 2020.</p>"
     },
     {
         "board_id": "uchip",
@@ -12838,6 +12839,7 @@
         "title": "Warmbit BluePixel Download",
         "name": "Warmbit BluePixel",
         "board_url": [
+            "https://github.com/warmbit"
         ],
         "board_image": "unknown.jpg",
         "date_added": "2021-09-03",
@@ -12848,7 +12850,7 @@
         "features": [
         ],
         "url_path": "/board/warmbit_bluepixel/",
-        "description": "<p>Oops! Looks like we don’t know anything about this board. This means it’s likely very new.</p>"
+        "description": "<p>The Warmbit BluePixel is an nRF52840-based BLE pixel/LED controller board by <a href=\"https://github.com/warmbit\">Warmbit</a>, a small Canadian maker based in Red Deer, Alberta. Warmbit creates decorative LED PCB products and related controllers. The BluePixel appears to be discontinued and is no longer available for purchase.</p>"
     },
     {
         "board_id": "waveshare_esp32_c6_lcd_1_47",
