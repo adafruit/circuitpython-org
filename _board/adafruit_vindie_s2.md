@@ -12,4 +12,4 @@ bootloader_id: adafruit_vindie_s2
 downloads_display: false
 ---
 
-Oops! Looks like we don't know anything about this board. This means it's likely very new.
+The Adafruit Vindie S2 is an internal or unreleased Adafruit ESP32-S2 board. It was added to CircuitPython in August 2024 by Liz Clark (BlitzCityDIY). No product page, store listing, or learn guide exists for this board. The name "Vindie" does not correspond to any known Adafruit product line and may be a codename for a board still in development.

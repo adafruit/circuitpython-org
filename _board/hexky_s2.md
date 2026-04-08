@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "hexky_s2"
-title: "hexky_s2 Download"
-name: "hexky_s2"
+title: "HexKy S2 Download"
+name: "HexKy S2"
 manufacturer: "FutureKeys"
 board_url:
 board_image: "unknown.jpg"
@@ -14,9 +14,4 @@ features:
 
 ---
 
-This board hasn't been fully documented yet. Please make a pull request adding more info to this file.
-
-The description should be written to inform a CircuitPython user what makes the board unique and link to relevant info about it.
-
-## Purchase
-Add any links to purchase the board
+The HexKy S2 is an ESP32-S2 board by FutureKeys. No product page, GitHub repository, or web presence has been found for FutureKeys as a hardware company. The name suggests it may have been a keyboard or macropad project that was never publicly released.

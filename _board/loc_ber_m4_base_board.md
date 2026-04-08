@@ -12,4 +12,4 @@ family: samd51
 features:
 ---
 
-
+The LoC BeR M4 is a SAMD51-based board designed by Florin Trutiu. It uses the SAMD51G19 chip and supports SPI, UART, USB, analog I/O, PWM, touch, NeoPixel, alarm, PS/2, and rotary encoder functionality. No product page, GitHub repository, or additional documentation has been found.

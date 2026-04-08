@@ -12,4 +12,4 @@ family: esp32s2
 bootloader_id: artisense_rd00
 ---
 
-Oops! Looks like we don't know anything about this board. This means it's likely very new.
+The Artisense Reference Design RD00 is an ESP32-S2 board by an unknown manufacturer. No company website, product page, or documentation has been found for "Artisense" as a hardware company. The board has been in the CircuitPython codebase since May 2021 and may support camera functionality via the espcamera module.
