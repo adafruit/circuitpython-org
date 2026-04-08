@@ -11,6 +11,7 @@ date_added: 2020-02-27
 family: samd51
 bootloader_id: pycubed
 features:
+  - OSHWA Certified
 ---
 
 ### ⭐ Double-check the your PyCubed board version before updating firmware.

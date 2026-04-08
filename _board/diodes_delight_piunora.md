@@ -18,6 +18,7 @@ features:
   - STEMMA QT/QWIIC
   - Arduino Shield Compatible
   - USB-C
+  - OSHWA Certified
 ---
 
 Piunora is a compact, easy-to-use development board for electronics prototyping with Linux. It has a familiar form factor, legible pin labels, and a design that’s well suited to space-constrained applications.

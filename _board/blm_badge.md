@@ -15,6 +15,7 @@ download_instructions: https://learn.adafruit.com/black-lives-matter-badge/circu
 features:
   - STEMMA QT/QWIIC
   - USB-C
+  - OSHWA Certified
 ---
 
 The Black Lives Matter Education & Workshop Kit is an open-source design the Adafruit team published during the peaceful demonstrations for social justice in the summer of 2020 (https://github.com/adafruit/BLM-Badge-PCB). As a company and culture we came together to make our voices heard, share the pain we all had, the anger, and then work together for equality and justice in our communities (https://www.adafruit.com/blacklivesmatter). We listened to each other, we marched, we donated our time, resources, we distributed PPE at community events, we came together.

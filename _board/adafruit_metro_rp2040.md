@@ -14,6 +14,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Arduino Shield Compatible
+  - OSHWA Certified
 ---
 
 Choo! Choo! This is the RP2040 Metro Line, making all station stops at "Dual Cortex M0+ mountain", "264K RAM round-about" and "16 Megabytes of Flash town". This train is piled high with hardware that complements the Raspberry Pi RP2040 chip to make it an excellent development board for projects that want Arduino-shape-compatibility or just need the extra space and debugging ports.

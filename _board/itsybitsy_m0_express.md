@@ -13,6 +13,7 @@ bootloader_id: itsybitsy_m0
 download_instructions: https://learn.adafruit.com/introducing-itsy-bitsy-m0/circuitpython
 features:
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 What's smaller than a Feather but larger than a Trinket? It's an **Adafruit ItsyBitsy M0 Express**! Small, powerful, with a rockin' ATSAMD21 Cortex M0 processor running at 48 MHz - this microcontroller board is perfect when you want something very compact, but still with a bunch of pins.

@@ -17,6 +17,7 @@ features:
   - Speaker
   - Display
   - Solder-Free Alligator Clip
+  - OSHWA Certified
 ---
 
 Extend and expand your Circuit Playground projects with a bolt on TFT Gizmo that lets you add a lovely color display in a sturdy and reliable fashion. This PCB looks just like a round TFT breakout but has permanently affixed M3 standoffs that act as mechanical and electrical connections.

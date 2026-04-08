@@ -17,6 +17,7 @@ features:
   - STEMMA QT/QWIIC
   - USB-C
   - Arduino Shield Compatible
+  - OSHWA Certified
 ---
 
 What's Metro-shaped and has an ESP32-S3 WiFi module? What has a STEMMA QT connector for I2C devices and a Lipoly charger circuit? What has your favorite Espressif WiFi microcontroller and lots of memory for your next IoT project?

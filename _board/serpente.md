@@ -19,6 +19,7 @@ download_instructions: ""
 features:
   - USB-C
   - Castellated Pads
+  - OSHWA Certified
 ---
 
 There are two Serpente boards, they are both virtually the same, except for the USB connector. The standard Serpente board contains a USB-C connector, and the Serpente Plug uses the board itself as a Type-A USB plug.

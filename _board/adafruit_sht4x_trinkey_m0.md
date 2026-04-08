@@ -12,7 +12,7 @@ date_added: 2024-03-13
 family: samd21
 download_instructions: https://learn.adafruit.com/adafruit-sht4x-trinkey/install-circuitpython
 features:
-
+  - OSHWA Certified
 ---
 
 It's half USB Key, half temperature-humidity sensor*...* it's the **Adafruit SHT41 and SHT45 Trinkey** boards. We wanted to make it super-easy to add one of our most popular combination environmental sensors to any computer with a USB A port.

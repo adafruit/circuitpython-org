@@ -16,6 +16,7 @@ features:
   - Display
   - Speaker
   - Wi-Fi
+  - OSHWA Certified
 ---
 
 **PyPortal**, is Adafruit's easy-to-use IoT device that allows you to create all the things for the “Internet of Things” in minutes. Make custom touch screen interface GUIs, all open-source, and Python-powered using tinyJSON / APIs to get news, stock, weather, cat photos, and more – all over Wi-Fi with the latest technologies. Create little pocket universes of joy that connect to something good. Rotate it 90 degrees, it’s a web-connected conference badge #badgelife.

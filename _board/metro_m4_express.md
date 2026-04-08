@@ -13,6 +13,7 @@ bootloader_id: metro_m4
 download_instructions: https://learn.adafruit.com/adafruit-metro-m4-express-featuring-atsamd51/circuitpython
 features:
   - Arduino Shield Compatible
+  - OSHWA Certified
 ---
 
 The most powerful Metro at this time, the **Adafruit Metro M4** featuring the **Microchip ATSAMD51**. This Metro is like a bullet train, with it's 120 MHz Cortex M4 with floating point support. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.

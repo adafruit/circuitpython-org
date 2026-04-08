@@ -11,6 +11,7 @@ date_added: 2019-04-13
 family: samd21
 features:
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 The Bast Pro Mini M0 features a powerful SAMD21E chip, an ARM Cortex-M0 based microcontroller with low power consumption and high performance, making it ideal for endless applications.

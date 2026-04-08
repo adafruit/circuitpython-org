@@ -12,6 +12,7 @@ blinka: true
 date_added: 2021-12-06
 features:
   - STEMMA QT/QWIIC
+  - OSHWA Certified
 ---
 
 **This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**

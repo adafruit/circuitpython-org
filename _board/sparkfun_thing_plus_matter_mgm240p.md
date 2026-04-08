@@ -16,6 +16,7 @@ features:
   - Breadboard-Friendly
   - STEMMA QT/QWIIC
   - USB-C
+  - OSHWA Certified
 ---
 The SparkFun Thing Plus Matter is the first easily accessible board of its kind that combines Matter and SparkFun’s Qwiic ecosystem for agile development and prototyping of Matter-based IoT devices. The MGM240P wireless module from Silicon Labs® provides secure connectivity for both 802.15.4 with Mesh communication (Thread) and Bluetooth® Low Energy 5.3 protocols. SparkFun's Thing Plus development boards are Feather-compatible and include a Qwiic connector for easy integration into our Qwiic Connect System for solderless I2C circuits.
 

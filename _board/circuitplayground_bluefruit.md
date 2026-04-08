@@ -18,6 +18,7 @@ features:
   - Speaker
   - Solder-Free Alligator Clip
   - Bluetooth/BTLE
+  - OSHWA Certified
 ---
 
 **Circuit Playground Bluefruit** is our third board in the Circuit Playground series, another step towards a perfect introduction to electronics and programming. We've taken the popular Circuit Playground Express and made it even better! Now the main   chip is an nRF52840 microcontroller which is not only more powerful, but also comes with Bluetooth Low Energy support for wireless connectivity.

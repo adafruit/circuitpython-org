@@ -14,6 +14,7 @@ download_instructions: https://learn.adafruit.com/adafruit-metro-m4-express-airl
 features:
   - Wi-Fi
   - Arduino Shield Compatible
+  - OSHWA Certified
 ---
 
 Give your next project a lift with _AirLift_ - Adafruit's witty name for the ESP32 co-processor that graces this Metro M4.

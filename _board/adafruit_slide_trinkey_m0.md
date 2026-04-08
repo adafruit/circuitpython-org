@@ -12,7 +12,7 @@ family: samd21
 bootloader_id: slide_trinkey_m0
 download_instructions: https://learn.adafruit.com/adafruit-slider-trinkey/circuitpython
 features:
-
+  - OSHWA Certified
 ---
 
 It's half USB Key, half Adafruit Trinket, half mini slide pot*...* it's **Slider Trinkey**, the circuit board with a Trinket M0 heart, NeoPixel glow, and a 35mm long 10KΩ slide potentiometer.

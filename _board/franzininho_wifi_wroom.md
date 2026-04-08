@@ -12,6 +12,7 @@ family: esp32s2
 downloads_display: true
 features:
   - Wi-Fi
+  - OSHWA Certified
 ---
 
 Franzininho WiFi Board is a development board to evaluate ESP32-S2 Modules (Wroom and Wrover) and develop the new generation of Franzininho Boards. The Franzininho project was created to develop skills in people in the areas of electronics and programming, through activities in the DIY format and in conjunction with maker culture in Brazil.

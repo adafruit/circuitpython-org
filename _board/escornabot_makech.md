@@ -11,6 +11,7 @@ date_added: 2019-05-25
 family: samd21
 features:
   - Robotics
+  - OSHWA Certified
 ---
 
 Escornabot is an open source/hardware project that aims to bring robotics and programming to children.

@@ -10,6 +10,7 @@ board_image: "upico.jpg"
 date_added: 2023-11-29
 family: rp2040
 features:
+  - OSHWA Certified
 ---
 
 uPico is a RP2040 powered expansion card designed to enhance the capabilities of [Clockwork's uConsole](https://www.clockworkpi.com/uconsole).

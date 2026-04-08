@@ -11,6 +11,7 @@ download_instructions: "https://learn.adafruit.com/circuitpython-libraries-on-an
 blinka: true
 date_added: 2021-12-06
 features:
+  - OSHWA Certified
 ---
 
 **This board uses the U2IF firmware to communicate with Blinka and is run on the attached system via USB. See the Installation Instructions for more info.**

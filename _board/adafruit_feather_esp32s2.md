@@ -18,6 +18,7 @@ features:
   - Wi-Fi
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 What's Feather-shaped and has an ESP32-S2 WiFi module? What has a STEMMA QT connector for I2C devices? What has your favorite Espressif WiFi microcontroller and lots of Flash and RAM memory for your next IoT project? What will make your next IoT project flyyyyy?

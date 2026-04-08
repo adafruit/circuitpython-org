@@ -15,6 +15,7 @@ download_instructions: https://learn.adafruit.com/adafruit-sparkle-motion/instal
 features:
   - Bluetooth/BTLE
   - Wi-Fi
+  - OSHWA Certified
 ---
 
 The **Adafruit Sparkle Motion Stick** is part of our series of "Sparkle Motion" boards, which are our attempt to make the best small WLED-friendly smart LED driving board in the whole world. Our resident mermaid, [firepixie](https://learn.adafruit.com/u/firepixie) makes a lot of projects with WLED, and she loves it! So, how can we make something powerful enough to drive advanced LED projects that need a compact design?

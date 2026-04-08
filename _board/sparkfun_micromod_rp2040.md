@@ -11,6 +11,7 @@ date_added: 2021-05-26
 family: rp2040
 download_instructions: https://learn.sparkfun.com/tutorials/micromod-rp2040-processor-board-hookup-guide
 features:
+  - OSHWA Certified
 ---
 
 The SparkFun MicroMod Pi RP2040 Processor Board is a low-cost, high-performance board with flexible digital interfaces featuring the Raspberry Pi Foundation's RP2040 microcontroller. With the MicroMod M.2 connector, connecting your MicroMod Pi RP2040 Processor Board is a breeze. Simply match up the key on your processor's beveled edge connector to the key on the M.2 connector and secure it with a screw (included with all Carrier Boards).

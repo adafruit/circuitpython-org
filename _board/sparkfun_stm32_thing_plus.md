@@ -15,6 +15,7 @@ features:
   - STEMMA QT/QWIIC
   - Breadboard-Friendly
   - USB-C
+  - OSHWA Certified
 ---
 
 With a 32-bit ARM® Cortex®-M4 RISC core, the SparkFun STM32 Thing Plus brings power and precision to your projects. The STM32 Thing Plus provides you with an economical and easy to use development platform if you're needing more power with a minimal working space. This Thing comes flashed with the DFU bootloader, and to make the Thing Plus even easier to use, we've moved a few pins around to make the board Feather compatible. In addition, it utilizes our handy Qwiic Connect System which means no soldering or shields are required to connect it to the rest of your system!

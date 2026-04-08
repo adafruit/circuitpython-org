@@ -16,6 +16,7 @@ features:
   - Bluetooth/BTLE
   - Display
   - Battery Charging
+  - OSHWA Certified
 ---
 
 This is the badge for the Open Hardware Summit in NYC on on March 13th.

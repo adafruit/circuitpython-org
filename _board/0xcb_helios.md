@@ -12,6 +12,7 @@ family: rp2040
 features:
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 The 0xCB Helios is our Elite-C compatible MicroController, based on the high-performance and affordable RP2040.

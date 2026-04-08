@@ -14,6 +14,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 Feather is thin, light, and lets you fly! Adafruit designed Feather to be a new open standard for portable microcontroller cores.
 

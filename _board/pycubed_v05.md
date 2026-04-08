@@ -10,7 +10,7 @@ board_image: "pycubed_v05.jpg"
 date_added: 2021-09-12
 family: samd51
 features:
-
+  - OSHWA Certified
 ---
 
 ### ⭐ Double-check the your PyCubed board version before updating firmware.

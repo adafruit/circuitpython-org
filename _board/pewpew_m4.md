@@ -15,6 +15,7 @@ features:
   - Display
   - Speaker
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 This board was designed to get you to make games with CircuitPython with

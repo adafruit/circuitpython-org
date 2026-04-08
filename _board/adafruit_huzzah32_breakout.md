@@ -17,6 +17,7 @@ features:
   - Wi-Fi
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 Squeeeeze down your next ESP32 project to its bare-bones essential with the **Adafruit HUZZAH32 Breakout**. This breakout is basically the 'big sister' of our HUZZAH 8266, but instead of an ESP8266 it has the '32! We've pared down our popular [Feather ESP32](https://www.adafruit.com/product/3405), removing the battery charger and USB-serial converter. You just get a regulator, some protection diodes, two buttons and an LED. For some projects, where price and size are at a premium, you can program this board over the 'FTDI cable' breakout when needed, and leave it alone otherwise.

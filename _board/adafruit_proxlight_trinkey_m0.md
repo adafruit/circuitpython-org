@@ -12,6 +12,7 @@ family: samd21
 bootloader_id: proxsense_trinkey_m0
 download_instructions: https://learn.adafruit.com/adafruit-proximity-trinkey/circuitpython
 features:
+  - OSHWA Certified
 
 ---
 

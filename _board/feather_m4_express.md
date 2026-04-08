@@ -16,6 +16,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 This feather is powered by the ATSAMD51J19 -  with its 120 MHz Cortex M4 with floating point support and 512 KB Flash and 192 KB RAM. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset.

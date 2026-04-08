@@ -15,6 +15,7 @@ features:
   - Feather-Compatible
   - Battery Charging
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 The Adafruit Feather M0 Express was one of the first development boards designed for CircuitPython by Adafruit. Unlike the original Feather M0 Basic, it added a NeoPixel status LED and external 2 MB SPI Flash for storing CircuitPython code.

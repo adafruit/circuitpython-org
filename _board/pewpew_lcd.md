@@ -13,6 +13,7 @@ date_added: 2022-05-10
 features:
   - Display
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 PewPew are a family of handheld game devices designed for running Python

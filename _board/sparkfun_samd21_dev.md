@@ -12,6 +12,7 @@ family: samd21
 bootloader_id: sparkfun_samd21_dev
 features:
   - Arduino Shield Compatible
+  - OSHWA Certified
 ---
 
 The SparkFun SAMD21 Dev Breakout is an Arduino-sized breakout for the Atmel ATSAMD21G18, a 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz.

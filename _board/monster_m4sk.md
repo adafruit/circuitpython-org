@@ -14,6 +14,7 @@ bootloader_id: hallowing_mask
 features:
   - Display
   - Battery Charging
+  - OSHWA Certified
 ---
 
 Peep dis! Have you always wanted to have another pair of eyes on the back of your

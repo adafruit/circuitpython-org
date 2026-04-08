@@ -11,6 +11,7 @@ date_added: 2021-05-26
 family: rp2040
 download_instructions: https://learn.adafruit.com/adafruit-trinkey-qt2040/circuitpython
 features:
+  - OSHWA Certified
 
 ---
 

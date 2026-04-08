@@ -16,6 +16,7 @@ features:
   - Wi-Fi
   - Breadboard-Friendly
   - STEMMA QT/QWIIC
+  - OSHWA Certified
 ---
 
 What's smaller than a Feather but larger than a Trinket? It's an Adafruit ItsyBitsy ESP32, a powerful processor PCB with a plethora of pins! It features the ESP32 Pico module, an FCC-certified module that contains an ESP32 chip with dual-core 240MHz Tensilica processor, WiFi, and Bluetooth classic + BLE, configured with 8 MB of Flash memory, and 2 MB of PSRAM.

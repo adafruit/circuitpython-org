@@ -16,6 +16,7 @@ features:
   - Battery Charging
   - USB-C
   - Breadboard-Friendly
+  - OSHWA Certified
 ---
 
 One of our favorite Feathers, the Feather M4 Express, gets a glow-up here with an upgrade to the SAME51 chipset which has built-in CAN bus support! Like its SAMD51 cousin, the ATSAME51J19 comes with a 120 MHz Cortex M4 with floating point support and 512 KB Flash and 192 KB RAM. Your code will zig and zag and zoom, and with a bunch of extra peripherals for support, this will for sure be your favorite new chipset for CAN interfacing projects.

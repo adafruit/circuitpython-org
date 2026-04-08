@@ -15,6 +15,7 @@ features:
   - Speaker
   - Feather-Compatible
   - Battery Charging
+  - OSHWA Certified
 ---
 
 The PyGamer Advance is coming soon from Adafruit, check out the weekly "Top Secret" segment on ASK AN ENGINEER or the upcoming new product videos on [YouTube](https://www.youtube.com/adafruit).
