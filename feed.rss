@@ -4,9 +4,92 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 14 Apr 2026 09:57:42 -0400</lastBuildDate>
+<lastBuildDate>Tue, 14 Apr 2026 16:26:34 -0400</lastBuildDate>
 
 <item>
+    <title>Badger 2350</title>
+    <link>https://circuitpython.org/board/pimoroni_badger2350/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/pimoroni_badger2350.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pimoroni_badger2350.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/pimoroni_badger2350.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Pimoroni</p> <p>Badger 2350 is an all-in-one badge wearable with a fast updating 2.7”
+electronic paper screen, built-in rechargeable battery and sturdy
+polycarbonate case. Hang it round your neck with the (included) Badger
+lanyard or prop it up on your desk - either way it’s ready to go
+straight out of the box. It’s way more than just a event badge too -
+the four-level greyscale screen would also be great for displaying
+charts, signage or QR codes.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Display: 2.7” four-level greyscale electronic paper (264 x 176 pixels)</li>
+  <li>Powered by RP2350A (Dual Arm Cortex M33 running at 250MHz with 520KB of SRAM)</li>
+  <li>16MB of QSPI flash supporting XiP</li>
+  <li>8MB of PSRAM</li>
+  <li>Raspberry Pi RM2 module (CYW43439), supporting IEEE 802.11 b/g/n wireless LAN, and Bluetooth</li>
+  <li>1000mAh LiPo battery:
+    <ul>
+      <li>MCP73831 charger with 455mA charging current (datasheet)</li>
+      <li>XB6096I2S battery protector (datasheet)</li>
+    </ul>
+  </li>
+  <li>PCF85063A real-time clock for waking from sleep (datasheet)</li>
+  <li>Polycarbonate case with teal back</li>
+  <li>4-zone mono LED case lighting</li>
+  <li>Buttons:
+    <ul>
+      <li>Five front user buttons</li>
+      <li>Reset (and sleep) button</li>
+      <li>Home (and boot) button</li>
+    </ul>
+  </li>
+  <li>Connectors:
+    <ul>
+      <li>USB-C connector for charging and programming</li>
+      <li>I2C connector (Qwiic/STEMMA QT) for attaching breakouts</li>
+      <li>SWD debug connector</li>
+    </ul>
+  </li>
+  <li>Comes fully-assembled (no soldering required)</li>
+  <li>Includes matching 2-clip lanyard</li>
+  <li>Dimensions with case: 84mm (W) x 76mm (H) x 20mm (D)</li>
+</ul>
+
+<h2 id="note">Note</h2>
+
+<p>There is no power switch. Since mainline CircuitPython does not
+support low-power modes for the RP2350 (i.e. sleep/deep-sleep), the
+LiPo will be drained fast when running with CircuitPython. So to make
+full use of this board you either have to hack the hardware and add a
+power-switch, or hack CircuitPython and implement the alarm-module for
+the RP2350.</p>
+
+<h2 id="misc">Misc</h2>
+
+<ul>
+  <li><a href="https://github.com/bablokb/circuitpython-examples/tree/main/badger2350">Example code</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.pimoroni.com/products/badger-2350">Pimoroni</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pimoroni_badger2350/</guid>
+  </item><item>
     <title>Yoto Player V3</title>
     <link>https://circuitpython.org/board/yoto_player_v3/</link>
     <description><![CDATA[  

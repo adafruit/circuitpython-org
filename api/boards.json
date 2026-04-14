@@ -9032,6 +9032,29 @@
         "description": "<p>A programmable badge with fast updating E Ink® display and wireless connectivity powered by the Raspberry Pi Pico W. On the front, you’ll find the black and white 2.9” e-paper screen, a selection of buttons to poke at and a slot to clip it onto a lanyard. On the back, there’s a battery connector, a reset button and a Qw/ST connector for plugging in Qwiic or STEMMA QT breakouts. And now that it’s got a Raspberry Pi Pico W Aboard it can communicate wirelessly with other devices and retrieve tasty data from the internet, hoorah!</p><h2 id=\"features\">Features</h2><ul>  <li>2.9” black and white E Ink® display (296 x 128 pixels)    <ul>      <li>Ultra wide viewing angles</li>      <li>Ultra low power consumption</li>      <li>Dot pitch - 0.227 x 0.226 mm</li>    </ul>  </li>  <li>Raspberry Pi Pico W Aboard    <ul>      <li>Dual Arm Cortex M0+ running at up to 133Mhz with 264kB of SRAM</li>      <li>2MB of QSPI flash supporting XiP</li>      <li>Powered and programmable by USB micro-B</li>      <li>2.4GHz wireless</li>    </ul>  </li>  <li>Five front user buttons</li>  <li>Reset button</li>  <li>White LED</li>  <li>JST-PH connector for attaching a battery (input range 2.7V - 5.5V)</li>  <li>Qw/ST (Qwiic/STEMMA QT) connector</li>  <li>Dedicated RTC chip (PCF85063A) for deep sleep / wake</li></ul><h2 id=\"about-pico-w-aboard\">About Pico W Aboard</h2><p>Our new Pico W Aboard products come with a built in Raspberry Pi Pico W. This means you get all the advantages of a RP2040 microcontroller - a speedy fast dual-core ARM processor, a dynamic, growing ecosystem and a choice of different programming methods to experiment with. Most excitingly though, Pico W has wireless connectivity, so your Pico/RP2040 devices can communicate with each other, and the internet!</p><h2 id=\"misc\">Misc</h2><ul>  <li><a href=\"https://cdn.shopify.com/s/files/1/0174/1800/files/badger_w_schematic.pdf?v=1675859004\">Schematics</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/badger-2040-w\">Pimoroni</a></li></ul>"
     },
     {
+        "board_id": "pimoroni_badger2350",
+        "title": "Badger 2350 Download",
+        "name": "Badger 2350",
+        "board_url": [
+            "https://shop.pimoroni.com/products/badger-2350"
+        ],
+        "board_image": "pimoroni_badger2350.jpg",
+        "date_added": "2026-04-13",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "Display",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/pimoroni_badger2350/",
+        "description": "<p>Badger 2350 is an all-in-one badge wearable with a fast updating 2.7”electronic paper screen, built-in rechargeable battery and sturdypolycarbonate case. Hang it round your neck with the (included) Badgerlanyard or prop it up on your desk - either way it’s ready to gostraight out of the box. It’s way more than just a event badge too -the four-level greyscale screen would also be great for displayingcharts, signage or QR codes.</p><h2 id=\"features\">Features</h2><ul>  <li>Display: 2.7” four-level greyscale electronic paper (264 x 176 pixels)</li>  <li>Powered by RP2350A (Dual Arm Cortex M33 running at 250MHz with 520KB of SRAM)</li>  <li>16MB of QSPI flash supporting XiP</li>  <li>8MB of PSRAM</li>  <li>Raspberry Pi RM2 module (CYW43439), supporting IEEE 802.11 b/g/n wireless LAN, and Bluetooth</li>  <li>1000mAh LiPo battery:    <ul>      <li>MCP73831 charger with 455mA charging current (datasheet)</li>      <li>XB6096I2S battery protector (datasheet)</li>    </ul>  </li>  <li>PCF85063A real-time clock for waking from sleep (datasheet)</li>  <li>Polycarbonate case with teal back</li>  <li>4-zone mono LED case lighting</li>  <li>Buttons:    <ul>      <li>Five front user buttons</li>      <li>Reset (and sleep) button</li>      <li>Home (and boot) button</li>    </ul>  </li>  <li>Connectors:    <ul>      <li>USB-C connector for charging and programming</li>      <li>I2C connector (Qwiic/STEMMA QT) for attaching breakouts</li>      <li>SWD debug connector</li>    </ul>  </li>  <li>Comes fully-assembled (no soldering required)</li>  <li>Includes matching 2-clip lanyard</li>  <li>Dimensions with case: 84mm (W) x 76mm (H) x 20mm (D)</li></ul><h2 id=\"note\">Note</h2><p>There is no power switch. Since mainline CircuitPython does notsupport low-power modes for the RP2350 (i.e. sleep/deep-sleep), theLiPo will be drained fast when running with CircuitPython. So to makefull use of this board you either have to hack the hardware and add apower-switch, or hack CircuitPython and implement the alarm-module forthe RP2350.</p><h2 id=\"misc\">Misc</h2><ul>  <li><a href=\"https://github.com/bablokb/circuitpython-examples/tree/main/badger2350\">Example code</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.pimoroni.com/products/badger-2350\">Pimoroni</a></li></ul>"
+    },
+    {
         "board_id": "pimoroni_explorer2350",
         "title": "Pimoroni Explorer (RP2350) Download",
         "name": "Pimoroni Explorer (RP2350)",
