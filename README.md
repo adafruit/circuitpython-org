@@ -12,10 +12,10 @@ versions of this file, in the following sizes and folder locations:
 
 |Size|File|Dimensions (px)|
 |--|--|--|
-|Original|assets/images/orignal/{board_image}|900px+ width and 4:3 ratio width|
+|Original|assets/images/boards/orignal/{board_image}|900px+ width and 4:3 ratio width|
 |||example: 900 x 675|
-|Large|assets/images/large/{board_image}|800 x 600|
-|Small|assets/images/small/{board_image}|300 x 225|
+|Large|assets/images/boards/large/{board_image}|800 x 600|
+|Small|assets/images/boards/small/{board_image}|300 x 225|
 
 > For more information on preferred images or if you prefer or must use 13:10 see
 > [Preparing the Images](https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/preparing-the-images)
