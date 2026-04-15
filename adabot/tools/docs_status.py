@@ -60,7 +60,12 @@ def check_docs_status(
     search_results: parse.Result = parse.search(
         "https://readthedocs.org/projects/{slug:S}/badge", readme_text
     )
-    rtd_slug: str = search_results.named["slug"]
+    try:
+        rtd_slug: str = search_results.named["slug"]
+    except KeyError:
+        print("Possibly missing documentation badge")
+        return None
+
     rtd_slug = rtd_slug.replace("_", "-", -1)
 
     # GET the latest documentation build runs
@@ -75,7 +80,11 @@ def check_docs_status(
     )
     if doc_build_results is None:
         return None
-    result = doc_build_results[0].get("success")
+    try:
+        result = doc_build_results[0].get("success")
+    except (IndexError, AttributeError):
+        print("Could not get success status")
+        return None
     if debug and not result:
         print(f"RTD build failed or unavailable for {lib_repo.name}")
     time.sleep(3)

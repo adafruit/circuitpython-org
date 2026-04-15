@@ -1,0 +1,33 @@
+From eb8b2e4e9b5949d97c664df3278f7782adc348c3 Mon Sep 17 00:00:00 2001
+From: Alec Delaney <tekktrik@gmail.com>
+Date: Thu, 26 Mar 2026 22:56:35 -0400
+Subject: [PATCH] Update pre-commit hooks (except ruff)
+
+---
+ .pre-commit-config.yaml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index ff19dde..59304f3 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -4,7 +4,7 @@
+ 
+ repos:
+   - repo: https://github.com/pre-commit/pre-commit-hooks
+-    rev: v4.5.0
++    rev: v6.0.0
+     hooks:
+       - id: check-yaml
+       - id: end-of-file-fixer
+@@ -16,6 +16,6 @@ repos:
+       - id: ruff
+         args: ["--fix"]
+   - repo: https://github.com/fsfe/reuse-tool
+-    rev: v3.0.1
++    rev: v6.2.0
+     hooks:
+       - id: reuse
+-- 
+2.53.0
+

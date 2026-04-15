@@ -181,7 +181,7 @@ def check_lib_links_md(bundle_path):
         docs_name = ""
         docs_link = common_funcs.get_docs_link(bundle_path, submodule)
         if docs_link:
-            docs_name = f" \([Docs]({docs_link}))"  # pylint: disable=anomalous-backslash-in-string
+            docs_name = f" ([Docs]({docs_link}))"
         title = url_name.replace("_", " ")
         list_line = "* [{0}]({1}){2}{3}".format(title, url, pypi_name, docs_name)
         if list_line not in read_lines:

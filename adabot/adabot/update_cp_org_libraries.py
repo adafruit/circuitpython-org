@@ -86,6 +86,7 @@ def get_open_issues_and_prs(repo):
                 "title": issue_title,
                 "url": issue["html_url"],
                 "labels": issue_labels,
+                "days_open": days_open.days,
             }
 
             open_issues.append(issue_dict)

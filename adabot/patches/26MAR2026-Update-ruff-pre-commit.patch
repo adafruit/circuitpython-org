@@ -1,0 +1,27 @@
+From 7c63930a14ffd4c7e054dd831063326b15f82140 Mon Sep 17 00:00:00 2001
+From: Alec Delaney <tekktrik@gmail.com>
+Date: Thu, 26 Mar 2026 22:58:12 -0400
+Subject: [PATCH] Update ruff pre-commit hook
+
+---
+ .pre-commit-config.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.pre-commit-config.yaml b/.pre-commit-config.yaml
+index 59304f3..0ec3052 100644
+--- a/.pre-commit-config.yaml
++++ b/.pre-commit-config.yaml
+@@ -9,9 +9,9 @@ repos:
+       - id: check-yaml
+       - id: end-of-file-fixer
+       - id: trailing-whitespace
+   - repo: https://github.com/astral-sh/ruff-pre-commit
+-    rev: v0.3.4
++    rev: v0.15.8
+     hooks:
+       - id: ruff-format
+       - id: ruff
+         args: ["--fix"]
+-- 
+2.53.0
+
