@@ -119,10 +119,62 @@ function applySorting() {
     });
   });
 
+  // Sort the library groups by their best matching issue
+  var topList = document.getElementById('libraries-list');
+  if (topList) {
+    var libraryItems = Array.from(topList.querySelectorAll(':scope > li'));
+
+    if (!topList.dataset.originalOrder) {
+      topList.dataset.originalOrder = 'stored';
+      libraryItems.forEach(function(item, index) {
+        item.dataset.originalIndex = index;
+      });
+    }
+
+    libraryItems.sort(function(a, b) {
+      var bestA = getBestDays(a.querySelectorAll('.issues-list > li'), sortOrder);
+      var bestB = getBestDays(b.querySelectorAll('.issues-list > li'), sortOrder);
+      if (sortOrder === 'newest') {
+        return bestA - bestB;
+      } else {
+        return bestB - bestA;
+      }
+    });
+
+    libraryItems.forEach(function(item) {
+      topList.appendChild(item);
+    });
+  }
+
   setParams();
 }
 
+function getBestDays(issues, sortOrder) {
+  var result = sortOrder === 'newest' ? Infinity : 0;
+  issues.forEach(function(issue) {
+    var days = getIssueDays(issue);
+    if (sortOrder === 'newest') {
+      result = Math.min(result, days);
+    } else {
+      result = Math.max(result, days);
+    }
+  });
+  return result === Infinity ? 0 : result;
+}
+
 function restoreOriginalOrder() {
+  // Restore library-level order
+  var topList = document.getElementById('libraries-list');
+  if (topList && topList.dataset.originalOrder) {
+    var libraryItems = Array.from(topList.querySelectorAll(':scope > li'));
+    libraryItems.sort(function(a, b) {
+      return (parseInt(a.dataset.originalIndex) || 0) - (parseInt(b.dataset.originalIndex) || 0);
+    });
+    libraryItems.forEach(function(item) {
+      topList.appendChild(item);
+    });
+  }
+
   // Restore issue-level order within each list
   var issuesLists = document.querySelectorAll('.issues-list');
   issuesLists.forEach(function(list) {
