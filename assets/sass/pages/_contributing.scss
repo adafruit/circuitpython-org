@@ -26,6 +26,21 @@
     }
   }
 
+  .issue-controls {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+
+    p {
+      margin: 0.5em 0;
+    }
+
+    select {
+      margin-left: 0.5em;
+    }
+  }
+
   ul.issues-list {
     li {
       .issue-label {
