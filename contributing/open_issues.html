@@ -17,18 +17,28 @@ permalink: /contributing/open-issues
         {% endfor %}
     {% endfor %}
   {% endfor %}
-  <p>
-    Filter by issue labels
-    <select>
-      {% for label in labels %}
-        {% assign lowerlabel = label | downcase %}
-        {% assign ddlabels = ddlabels | push: lowerlabel | uniq %}
-      {% endfor %}
-      {% for label in ddlabels %}
-        <option value='{{ label | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
-      {% endfor %}
-    <select>
-  </p>
+  <div class="issue-controls">
+    <p>
+      Filter by issue labels
+      <select id="label-filter">
+        {% for label in labels %}
+          {% assign lowerlabel = label | downcase %}
+          {% assign ddlabels = ddlabels | push: lowerlabel | uniq %}
+        {% endfor %}
+        {% for label in ddlabels %}
+          <option value='{{ label | replace: ' ', '-' }}'>{{ label | capitalize }}</option>
+        {% endfor %}
+      </select>
+    </p>
+    <p>
+      Sort by
+      <select id="sort-order">
+        <option value="default">Default</option>
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+      </select>
+    </p>
+  </div>
   <h3>Open Issues</h3>
   <ul>
     {% for library in site.data.libraries.open_issues %}
