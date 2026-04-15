@@ -74,13 +74,7 @@ function issueSelectHandler(event, isPopState) {
 }
 
 function getIssueDays(element) {
-  // Parse "(Open X days)" from the issue title text
-  var text = element.textContent || '';
-  var match = text.match(/\(Open\s+(\d+)\s+days?\)/i);
-  if (match) {
-    return parseInt(match[1], 10);
-  }
-  return 0;
+  return parseInt(element.dataset.daysOpen, 10) || 0;
 }
 
 function applySorting() {
@@ -125,64 +119,10 @@ function applySorting() {
     });
   });
 
-  // Also sort the library-level list items by their oldest/newest issue
-  var topList = document.querySelector('.open-issues > ul');
-  if (topList) {
-    var libraryItems = Array.from(topList.querySelectorAll(':scope > li'));
-
-    if (!topList.dataset.originalOrder) {
-      topList.dataset.originalOrder = 'stored';
-      libraryItems.forEach(function(item, index) {
-        item.dataset.originalIndex = index;
-      });
-    }
-
-    libraryItems.sort(function(a, b) {
-      var issuesA = a.querySelectorAll('.issues-list > li');
-      var issuesB = b.querySelectorAll('.issues-list > li');
-      var maxA = getMaxDays(issuesA, sortOrder);
-      var maxB = getMaxDays(issuesB, sortOrder);
-      if (sortOrder === 'newest') {
-        return maxA - maxB;
-      } else {
-        return maxB - maxA;
-      }
-    });
-
-    libraryItems.forEach(function(item) {
-      topList.appendChild(item);
-    });
-  }
-
   setParams();
 }
 
-function getMaxDays(issues, sortOrder) {
-  var result = sortOrder === 'newest' ? Infinity : 0;
-  issues.forEach(function(issue) {
-    var days = getIssueDays(issue);
-    if (sortOrder === 'newest') {
-      result = Math.min(result, days);
-    } else {
-      result = Math.max(result, days);
-    }
-  });
-  return result === Infinity ? 0 : result;
-}
-
 function restoreOriginalOrder() {
-  // Restore library-level order
-  var topList = document.querySelector('.open-issues > ul');
-  if (topList && topList.dataset.originalOrder) {
-    var libraryItems = Array.from(topList.querySelectorAll(':scope > li'));
-    libraryItems.sort(function(a, b) {
-      return (parseInt(a.dataset.originalIndex) || 0) - (parseInt(b.dataset.originalIndex) || 0);
-    });
-    libraryItems.forEach(function(item) {
-      topList.appendChild(item);
-    });
-  }
-
   // Restore issue-level order within each list
   var issuesLists = document.querySelectorAll('.issues-list');
   issuesLists.forEach(function(list) {
