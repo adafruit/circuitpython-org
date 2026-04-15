@@ -1254,6 +1254,18 @@ label {
 #contributing-page .tabbed-navigation li a.active {
   border-color: #000;
 }
+#contributing-page .issue-controls {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#contributing-page .issue-controls p {
+  margin: 0.5em 0;
+}
+#contributing-page .issue-controls select {
+  margin-left: 0.5em;
+}
 #contributing-page ul.issues-list li .issue-label {
   border-radius: 2em;
   padding: 0 7px;

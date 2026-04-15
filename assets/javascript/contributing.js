@@ -1,11 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
   // only load on open issues page for now
-  var issueSelect = document.querySelector(".open-issues select");
+  var issueSelect = document.querySelector(".open-issues #label-filter");
   if (!issueSelect) {
     return;
   }
 
-  issueSelect.onchange = issueSelectHandler;
+  issueSelect.onchange = function(event) {
+    issueSelectHandler(event);
+    applySorting();
+  };
+
+  var sortSelect = document.querySelector(".open-issues #sort-order");
+  if (sortSelect) {
+    sortSelect.onchange = function() {
+      applySorting();
+    };
+  }
 
   // load issues label when using back button
   window.addEventListener('popstate', loadIssues.bind(null, true));
@@ -17,19 +27,27 @@ document.addEventListener('DOMContentLoaded', function() {
 function loadIssues(isPopState) {
   var params = new URLSearchParams(window.location.search);
   var label = params.get('label');
+  var sort = params.get('sort');
 
-  if (!label) {
-    return;
+  if (sort) {
+    var sortSelect = document.querySelector('.open-issues #sort-order');
+    if (sortSelect) {
+      sortSelect.value = sort;
+    }
   }
 
-  issueSelectHandler(label, isPopState);
-  var issuesList = document.querySelector('.open-issues select');
-  issuesList.value = label;
+  if (label) {
+    issueSelectHandler(label, isPopState);
+    var issuesList = document.querySelector('.open-issues #label-filter');
+    issuesList.value = label;
+  }
+
+  applySorting();
 }
 
 function issueSelectHandler(event, isPopState) {
   if (event.target) {
-    var selectedOption = this.options[this.selectedIndex].value;
+    var selectedOption = event.target.options[event.target.selectedIndex].value;
   } else {
     // page loads will set the event as just the selected label from params
     var selectedOption = event;
@@ -37,7 +55,7 @@ function issueSelectHandler(event, isPopState) {
 
   // don't set params on the back button
   if (!isPopState) {
-    setIssueParams(selectedOption);
+    setParams();
   }
 
   // hide all elements first
@@ -47,17 +65,150 @@ function issueSelectHandler(event, isPopState) {
   });
 
   // show the selected options
-  var selectedOption = selectedOption === 'all' ? 'li' : `.${selectedOption}`;
-  var items = document.querySelectorAll(`.issues-list ${selectedOption}`);
+  var selector = selectedOption === 'all' ? 'li' : '.' + selectedOption;
+  var items = document.querySelectorAll('.issues-list ' + selector);
   items.forEach(function(item) {
-    item.style.display = 'block'
+    item.style.display = 'block';
     item.parentElement.closest('li').style.display = 'block';
   });
 }
 
-function setIssueParams(label) {
+function getIssueDays(element) {
+  return parseInt(element.dataset.daysOpen, 10) || 0;
+}
+
+function applySorting() {
+  var sortSelect = document.querySelector('.open-issues #sort-order');
+  if (!sortSelect) return;
+
+  var sortOrder = sortSelect.value;
+  if (sortOrder === 'default') {
+    // Restore original order by reloading — but simpler to just not sort
+    // We store original order on first run
+    restoreOriginalOrder();
+    setParams();
+    return;
+  }
+
+  // Sort issues within each library's issues-list
+  var issuesLists = document.querySelectorAll('.issues-list');
+  issuesLists.forEach(function(list) {
+    var items = Array.from(list.querySelectorAll(':scope > li'));
+
+    // Store original order if not already stored
+    if (!list.dataset.originalOrder) {
+      list.dataset.originalOrder = 'stored';
+      items.forEach(function(item, index) {
+        item.dataset.originalIndex = index;
+      });
+    }
+
+    items.sort(function(a, b) {
+      var daysA = getIssueDays(a);
+      var daysB = getIssueDays(b);
+      if (sortOrder === 'newest') {
+        return daysA - daysB; // fewer days = newer = first
+      } else {
+        return daysB - daysA; // more days = older = first
+      }
+    });
+
+    // Re-append in sorted order
+    items.forEach(function(item) {
+      list.appendChild(item);
+    });
+  });
+
+  // Sort the library groups by their best matching issue
+  var topList = document.getElementById('libraries-list');
+  if (topList) {
+    var libraryItems = Array.from(topList.querySelectorAll(':scope > li'));
+
+    if (!topList.dataset.originalOrder) {
+      topList.dataset.originalOrder = 'stored';
+      libraryItems.forEach(function(item, index) {
+        item.dataset.originalIndex = index;
+      });
+    }
+
+    libraryItems.sort(function(a, b) {
+      var bestA = getBestDays(a.querySelectorAll('.issues-list > li'), sortOrder);
+      var bestB = getBestDays(b.querySelectorAll('.issues-list > li'), sortOrder);
+      if (sortOrder === 'newest') {
+        return bestA - bestB;
+      } else {
+        return bestB - bestA;
+      }
+    });
+
+    libraryItems.forEach(function(item) {
+      topList.appendChild(item);
+    });
+  }
+
+  setParams();
+}
+
+function getBestDays(issues, sortOrder) {
+  var result = sortOrder === 'newest' ? Infinity : 0;
+  issues.forEach(function(issue) {
+    var days = getIssueDays(issue);
+    if (sortOrder === 'newest') {
+      result = Math.min(result, days);
+    } else {
+      result = Math.max(result, days);
+    }
+  });
+  return result === Infinity ? 0 : result;
+}
+
+function restoreOriginalOrder() {
+  // Restore library-level order
+  var topList = document.getElementById('libraries-list');
+  if (topList && topList.dataset.originalOrder) {
+    var libraryItems = Array.from(topList.querySelectorAll(':scope > li'));
+    libraryItems.sort(function(a, b) {
+      return (parseInt(a.dataset.originalIndex) || 0) - (parseInt(b.dataset.originalIndex) || 0);
+    });
+    libraryItems.forEach(function(item) {
+      topList.appendChild(item);
+    });
+  }
+
+  // Restore issue-level order within each list
+  var issuesLists = document.querySelectorAll('.issues-list');
+  issuesLists.forEach(function(list) {
+    var items = Array.from(list.querySelectorAll(':scope > li'));
+    items.sort(function(a, b) {
+      return (parseInt(a.dataset.originalIndex) || 0) - (parseInt(b.dataset.originalIndex) || 0);
+    });
+    items.forEach(function(item) {
+      list.appendChild(item);
+    });
+  });
+}
+
+function setParams() {
   var params = new URLSearchParams(window.location.search);
-  params.set("label", label);
-  var newUrl = `${window.location.protocol}//${window.location.host}${window.location.pathname}?${params.toString()}`;
-  window.history.pushState({path:newUrl}, '', newUrl);
+
+  var labelSelect = document.querySelector('.open-issues #label-filter');
+  if (labelSelect && labelSelect.value && labelSelect.value !== 'all') {
+    params.set("label", labelSelect.value);
+  } else {
+    params.delete("label");
+  }
+
+  var sortSelect = document.querySelector('.open-issues #sort-order');
+  if (sortSelect && sortSelect.value && sortSelect.value !== 'default') {
+    params.set("sort", sortSelect.value);
+  } else {
+    params.delete("sort");
+  }
+
+  var query = params.toString();
+  var newUrl = window.location.protocol + '//' + window.location.host + window.location.pathname;
+  if (query) {
+    newUrl += '?' + query;
+  }
+  window.history.pushState({path: newUrl}, '', newUrl);
 }
