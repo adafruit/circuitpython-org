@@ -18,6 +18,8 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 Orange Pi 5 Ultra is powered by the Rockchip RK3588 8-core 64-bit processor with 4 Cortex-A76 (2.4GHz) and 4 Cortex-A55 (1.8GHz) cores with independent NEON coprocessor. Adopting 8nm process design, it integrates an ARM Mali-G610 GPU compatible with OpenGL ES 1.1/2.0/3.2, OpenCL 2.2, and Vulkan 1.2. The embedded NPU supports INT4/INT8/INT16/FP16 hybrid computing with up to 6 TOPS of computing power.

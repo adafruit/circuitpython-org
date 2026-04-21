@@ -14,6 +14,8 @@ features:
   - Ethernet
   - Wi-Fi
   - Bluetooth/BLE
+board_usage:
+ - Linux
 ---
 
 LuckFox Pico Ultra is a low-cost Linux micro development board based on the Rockchip RV1106G3 chip. RV1106 is a highly integrated IPC visual processing SoC designed for AI-related applications. It is built on a single-core ARM Cortex-A7 32-bit core with integrated NEON and FPU, and features a built-in NPU that supports INT4/INT8/INT16 mixed operations, with a computing power of up to 1 TOPS.

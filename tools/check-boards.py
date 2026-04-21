@@ -130,7 +130,10 @@ def verify_board_usage(folder, valid_usages):
             if board_id == "unknown":
                 continue
             board_usage = metadata.get('board_usage')
-            if board_usage is not None:
+            if board_usage is None:
+                print(f"{filename}:0: board_usage field is missing for {board_id}")
+                valid = False
+            else:
                 for usage in board_usage:
                     if usage not in valid_usages:
                         print(f"{filename}:0: Non-standard board_usage: {usage}")
