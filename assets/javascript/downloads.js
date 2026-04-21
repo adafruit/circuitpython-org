@@ -392,12 +392,18 @@ function handleSortResults(event) {
         case 'alpha-desc':
           return b.dataset.name.localeCompare(a.dataset.name);
         case 'date-asc':
-          var dateA = new Date(a.dataset.date);
-          var dateB = new Date(b.dataset.date);
-          return dateA.getTime() - dateB.getTime();
         case 'date-desc':
-          var dateA = new Date(a.dataset.date);
-          var dateB = new Date(b.dataset.date);
+          var dateA = a.dataset.date ? new Date(a.dataset.date) : null;
+          var dateB = b.dataset.date ? new Date(b.dataset.date) : null;
+          var validA = dateA && !isNaN(dateA.getTime());
+          var validB = dateB && !isNaN(dateB.getTime());
+          // boards without a valid date go to the end
+          if (!validA && !validB) return 0;
+          if (!validA) return 1;
+          if (!validB) return -1;
+          if (sortType === 'date-asc') {
+            return dateA.getTime() - dateB.getTime();
+          }
           return dateB.getTime() - dateA.getTime();
         default:
           // sort by download count is the default
