@@ -17,4 +17,30 @@
     <div class="clear"></div>
   </div>
   {% endif %}
+  {% if page.features %}
+  <p>Features:
+    <span class="features-list">
+    {% for feature in page.features %}
+      <a class="library-link" href="/blinka?features={{ feature }}">{{feature}}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    </span>
+  </p>
+  {% endif %}
+  {% if page.board_usage %}
+  <p>Board Usage:
+    <span class="features-list">
+    {% for usage in page.board_usage %}
+      {% if usage == "Linux" %}
+        <a class="library-link" href="https://learn.adafruit.com/adding-a-single-board-computer-to-blinka/types-of-boards#linux-single-board-computers-3216284">Linux Single Board Computer</a>
+      {% elsif usage == "Attached" %}
+        <a class="library-link" href="https://learn.adafruit.com/adding-a-single-board-computer-to-blinka/types-of-boards#attached-devices-3216284">Attached Device</a>
+      {% elsif usage == "MicroPython" %}
+        <a class="library-link" href="https://learn.adafruit.com/adding-a-single-board-computer-to-blinka/types-of-boards#micropython-boards-3216284">MicroPython Board</a>
+      {% else %}
+        <span class="library-link">{{ usage }}</span>
+      {% endif %}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    </span>
+  </p>
+  {% endif %}
 </div>
