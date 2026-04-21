@@ -15,6 +15,8 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 Banana Pi BPI-P2 Pro is a compact development board based on the Rockchip RK3308B-S chip. With a high-performance 4-core ARM Cortex-A35 processor, 512MB DDR3 RAM, and 8GB eMMC onboard storage, it supports PoE (Power over Ethernet) functionality. The chip has a wealth of interfaces including I2S, PCM, TDM, I2C, UART, SPDIF, HDMI ARC, and more to meet a variety of application needs.
