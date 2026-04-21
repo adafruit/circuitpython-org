@@ -19,7 +19,7 @@ features:
   - USB 3.0
   - NVME/M.2 Connector
 board_usage:
- - "linux"
+ - Linux
 ---
 
 This is the documentation for ROCK 4 SE, written by Radxa Team with community contributions.

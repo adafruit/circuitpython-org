@@ -19,7 +19,7 @@ features:
   - 40-pin GPIO
   - USB 3.0
 board_usage:
- - "linux"
+ - Linux
 ---
 
  - Powerful Rockchip RK3399 64-bit Hexa-core processor for better multithread application performance

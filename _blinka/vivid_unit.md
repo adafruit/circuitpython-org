@@ -18,7 +18,7 @@ features:
   - 40-pin GPIO
   - USB 3.0
 board_usage:
- - "linux"
+ - Linux
 ---
 
 [**UUGear's Vivid Unit**](https://www.vividunit.com/Main_Page) is a powerful and versatile single-board computer that can be used for a wide range of applications. It features an RK3399 CPU with 4GB RAM and 32GB eMMC storage. It is a palm-sized device with a 5.5″ capacitive touchscreen, speaker, microphone, WiFi/Bluetooth, and various interfaces. It can be powered with DC 5V (via USB-C) or an Ethernet cable (DC 48V via PoE).

@@ -17,7 +17,7 @@ features:
   - Bluetooth/BLE
   - Wi-Fi
 board_usage:
- - "linux"
+ - Linux
 ---
 
 **Vaaman** combines the flexibility of an FPGA with the power of an ARM processor to create something truly unique: a re-configurable computer that adapts to your needs. While traditional computers struggle with the increasing demands of realtime processing and AI workloads, Vaaman takes a different approach. By integrating a powerful six-core ARM processor with an Efinix Trion T20 FPGA with 112k LEs, we’ve created a platform that can dynamically reconfigure itself for optimal performance across diverse computing tasks.

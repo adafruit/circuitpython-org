@@ -14,7 +14,7 @@ features:
   - Ethernet
   - HDMI/DisplayPort
 board_usage:
- - "linux"
+ - Linux
 ---
 
 SIMATIC IOT2050 is a versatile IOT edge device that allows you to connect PLCs on the factory floor to the cloud. A dual core or quad core processor gives you enough horse power to run analytics and decision making on the edge before you send off the data to the Cloud.

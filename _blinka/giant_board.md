@@ -14,7 +14,7 @@ features:
   - Feather-Compatible
   - OSHWA Certified
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The Giant Board is a super tiny single-board computer (SBC) based on the Adafruit Feather form factor. We always want more power in a smaller package, and the Giant Board delivers! It provides a small, powerful platform that is compatible with a wide range of pre-existing accessories. FeatherWing support makes the Giant Board a flexible, drop-in component for most Feather based projects.

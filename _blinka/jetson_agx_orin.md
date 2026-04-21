@@ -16,7 +16,7 @@ features:
   - HDMI/DisplayPort
 
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Bring your next-gen products to life with the world’s most powerful AI computer for energy-efficient autonomous machines. With up to 275 TOPS and 8X the performance of the last generation for multiple concurrent AI inference pipelines, plus high-speed interface support for multiple sensors, NVIDIA Jetson Orin™ modules provide the ideal solution for a new age of robotics.

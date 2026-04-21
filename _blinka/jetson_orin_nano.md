@@ -17,7 +17,7 @@ features:
   - HDMI/DisplayPort
   - NVME/M.2 Connector
 board_usage:
- - "linux"
+ - Linux
 ---
 
 NVIDIA Jetson Orin™ Nano Developer Kit is a compact edge AI board built with Jetson Orin™ Nano 8GB module which delivers up to 40TOPS AI performance and has a rich set of IOs including USB 3.2 Gen 2 ports, 2x M.2 Key M for SSD, pre-installed Wi-Fi module, and more.

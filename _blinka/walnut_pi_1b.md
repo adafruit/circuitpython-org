@@ -19,7 +19,7 @@ features:
   - 40-pin GPIO
   - Infrared Receiver
 board_usage:
- - "linux"
+ - Linux
 ---
 
 WalnutPi is designed, developed and manufactured in China. It is positioned as a cost-effective and fully functional card computer (SBC) with a size compatible with Raspberry Pi. It is a very powerful Linux development board that you can use to surf the Internet, play games, learn programming and create your own electronic products.

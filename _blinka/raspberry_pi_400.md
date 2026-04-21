@@ -21,7 +21,7 @@ features:
   - 40-pin GPIO
   - USB 3.0
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Raspberry Pi 400 is your complete personal computer, built into a compact keyboard. Featuring a quad-core 64-bit processor, 4GB of RAM, wireless networking, dual-display output, and 4K video playback, as well as a 40-pin GPIO header, it's the most powerful and easy-to-use Raspberry Pi computer yet.

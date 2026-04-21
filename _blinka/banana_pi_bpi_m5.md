@@ -17,7 +17,7 @@ features:
   - USB 3.0
   - Infrared Receiver
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Banana Pi BPI-M5 is the next generation single board computer from Banana Pi in 2020. It is powered by Amlogic S905X3 quad-core Cortex-A55 (2.0 XXGHz) processor.Onboard 4GB LPDDR4 memory and 16GB EMMC storage, and supports 4 USB 3.0 interface, a gigabit network port.

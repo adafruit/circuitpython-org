@@ -19,7 +19,7 @@ features:
   - NVME/M.2 Connector
   - OSHWA Certified
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Piunora is a compact, easy-to-use development board for electronics prototyping with Linux. It has a familiar form factor, legible pin labels, and a design that’s well suited to space-constrained applications.

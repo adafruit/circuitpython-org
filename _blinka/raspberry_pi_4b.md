@@ -19,7 +19,7 @@ features:
   - 40-pin GPIO
   - USB 3.0
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The Raspberry Pi 4 Model B is a new Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that's exactly what they did!

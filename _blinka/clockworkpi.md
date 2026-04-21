@@ -16,7 +16,7 @@ features:
   - Bluetooth/BLE
   - HDMI/DisplayPort
 board_usage:
- - "linux"
+ - Linux
 ---
 
 New clockworkPi v3.1 development board:

@@ -17,7 +17,7 @@ features:
   - 40-pin GPIO
   - Infrared Receiver
 board_usage:
- - "linux"
+ - Linux
 ---
 
 ODROID-N2 is a new generation single board computer that is more powerful, more stable, and faster performing than N1.

@@ -17,7 +17,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Banana Pi BPI-F5 design with Allwinner Octa-core ARM Cortex-A55 T527 chip design.have a RISC-V CPU, up to 200 MHz,HiFi4 Audio DSP,ARM G57 MC1 GPU,Up to 2 TOPS NPU, support 2/4G RAM and 8-32G eMMC.

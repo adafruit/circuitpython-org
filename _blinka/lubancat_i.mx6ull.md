@@ -14,7 +14,7 @@ features:
   - Ethernet
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Meet the new i.MX6ULL ARM Cortex A7 processor from NXP, it is a high performance and power-efficient processor with a frequency up to 800MHz!

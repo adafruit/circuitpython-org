@@ -16,7 +16,7 @@ features:
   - 40-pin GPIO
   - USB 3.0
 board_usage:
- - "linux"
+ - Linux
 ---
 
 ODROID-XU4 is powered by ARM® big.LITTLE™ technology, the Heterogeneous Multi-Processing (HMP) solution.

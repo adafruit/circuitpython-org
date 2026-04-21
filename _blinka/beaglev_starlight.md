@@ -16,7 +16,7 @@ features:
   - USB 3.0
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 **The BeagleV™ - Starlight project has concluded and no units beyond the beta prototypes will be produced. This design was never sold as a product.**

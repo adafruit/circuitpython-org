@@ -14,7 +14,7 @@ features:
   - Wi-Fi
   - Breadboard-Friendly
 board_usage:
- - "micropython"
+ - MicroPython
 ---
 
 The **NodeMCU** is an open-source ESP8266 development board that makes working with the popular WiFi-capable microcontroller easy and accessible. It features an onboard USB-to-serial converter for simple programming and power, and breaks out all the useful GPIO pins to breadboard-friendly headers.

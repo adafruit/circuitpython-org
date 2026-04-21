@@ -18,7 +18,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 A development board to quickly prototype on-device ML products. Scale from prototype to production with a removable system-on-module (SOM).

@@ -17,7 +17,7 @@ features:
   - USB 3.0
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 RADXA Zero 3W is an Rockchip RK3566 64bit quad core based Mini SBC in the same form factor as the Raspberry Pi Zero, but with much, much more power. It has quad-core power with up to 8GB LPDDR4 RAM that has similar dimensions to a USB stick.

@@ -17,7 +17,7 @@ features:
   - Wi-Fi
   - Ethernet
 board_usage:
- - "linux"
+ - Linux
 ---
 
 LeMaker Banana Pro is an updated version of its predecessor Banana Pi, a low-cost single-board computer.

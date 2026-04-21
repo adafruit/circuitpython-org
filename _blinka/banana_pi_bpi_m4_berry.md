@@ -17,7 +17,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 BPI-M4 Berry development board stands as a powerful Single Board Computer (SBC), harnessing the capabilities of the Allwinner H618 System-on-Chip (SoC) to provide developers with impressive performance and a wealth of features. Similar to the Raspberry Pi 4b, the BPI-M4 Berry boasts comparable CPU prowess, 2G LPDDR4 memory and 8G eMMC, integrated WiFi and Bluetooth functionalities, and a familiar 40-pin header layout, alongside 4 USB interfaces and a GbE RJ45 port.

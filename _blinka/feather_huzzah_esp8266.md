@@ -16,7 +16,7 @@ features:
   - Wi-Fi
   - Breadboard-Friendly
 board_usage:
- - "micropython"
+ - MicroPython
 ---
 
 Feather is the development board from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores.

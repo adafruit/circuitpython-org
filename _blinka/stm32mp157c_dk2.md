@@ -18,7 +18,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The STM32MP157A-DK1 and STM32MP157C-DK2 Discovery kits leverage the capabilities of STM32MP1 Series microprocessors to allow users easily develop applications using STM32 MPU OpenSTLinux Distribution software for the main processor and STM32CubeMP1 software for the co-processor.

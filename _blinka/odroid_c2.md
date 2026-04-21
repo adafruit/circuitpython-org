@@ -17,7 +17,7 @@ features:
   - 40-pin GPIO
   - Infrared Receiver
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The ODROID-C2 is a 64-bit quad-core single board computer(SBC) that is one of the most cost-effective 64bit development boards available in the ARM world. It can function as a home theater set-top box, a general purpose computer for web browsing, gaming and socializing, a compact tool for college or office work, a prototyping device for hardware tinkering, a controller for home automation, a workstation for software development, and much more.

@@ -16,7 +16,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The Model B+ is the final revision of the original Raspberry Pi. It replaced the Model B in July 2014 and was superseded by the Raspberry Pi 2 Model B

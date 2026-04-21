@@ -18,7 +18,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The Indiedroid Nova is the same form factor as Raspberry Pi 4B, but 3+ times faster and supports 16GB RAM, plus 8K video!

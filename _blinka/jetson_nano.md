@@ -17,7 +17,7 @@ features:
   - USB 3.0
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The NVIDIA® Jetson Nano™ Developer Kit delivers the compute performance to run modern AI workloads at unprecedented size, power, and cost. Developers, learners, and makers can now run AI frameworks and models for applications like image classification, object detection, segmentation, and speech processing.

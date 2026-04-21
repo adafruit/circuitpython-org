@@ -19,7 +19,7 @@ features:
   - USB 3.0
   - NVME/M.2 Connector
 board_usage:
- - "linux"
+ - Linux
 ---
 
 UDOO X86 II is the New PC: the most powerful x86 maker board ever and an Arduino™ Leonardo-compatible platform, all embedded on the same board.

@@ -16,7 +16,7 @@ features:
   - HDMI/DisplayPort
   - OSHWA Certified
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Replacing the 10/100 Ethernet port with onboard 802.11 b/g/n 2.4GHz WiFi and Bluetooth, the popular open source BeagleBone® Black computer now comes with built-in wireless networking capability. Leveraging a partnership with Octavo Systems and designed in CadSoft Eagle, BeagleBone® Black Wireless is the easiest to use and modify credit-card sized IoT Linux computer available.

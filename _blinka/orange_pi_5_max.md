@@ -19,7 +19,7 @@ features:
   - USB 3.0
   - NVME/M.2 Connector
 board_usage:
- - "linux"
+ - Linux
 ---
 
 OrangePi 5 Max uses Rockchip RK3588 8-core 64-bit processor with 4 Cortex-A76 (2.4GHz), 4 Cortex-A55 (1.8GHz) and independent NEON coprocessor. Adopting 8nm process design, the main frequency is up to 2.4GHz, integrated ARM Mali-G610, built-in 3D GPU, compatible with OpenGL ES1.1/2.0/3.2, OpenCL 2.2, and Vulkan 1.2; the embedded NPU supports INT4/INT8/INT16/FP16 hybrid computing, with up to 6TOPS of computing power, which can meet the edge computing needs of most terminal devices; it has 4GB/8GB/16GB LPDDR5, with up to 8K display processing capability, supports eMMC socket and onboard eMMC (either one ), and has Wi-Fi 6E+BT 5.3 with BLE support.

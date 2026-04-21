@@ -17,7 +17,7 @@ features:
   - Ethernet
   - Infrared Receiver
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The ROC-RK3328-CC platform is built on the Rockchip RK3328 system-on-chip optimized for low cost, low power, and high performance IO. It features a high performance native USB 3.0 interface and Gigabit MAC. Libre Computer is one of the few Linux-based software and hardware solutions provider for this chip.

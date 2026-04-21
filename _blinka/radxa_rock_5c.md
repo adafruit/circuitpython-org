@@ -19,7 +19,7 @@ features:
   - 40-pin GPIO
   - USB 3.0
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The ROCK 5 Model C is the latest Radxa SBC.

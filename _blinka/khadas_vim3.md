@@ -20,7 +20,7 @@ features:
   - Infrared Receiver
   - NVME/M.2 Connector
 board_usage:
- - "linux"
+ - Linux
 ---
 
 - High Performance: Amlogic A311D - x4 2.2Ghz Cortex A73, x2 1.8Ghz Cortex A53 12nm SoC fabrication process for low heat 2T2R AC Wi-Fi with RSDB Features Bluetooth 5.0 USB 3.0 Available Gigabit Ethernet with WOL support LPDDR4/X USB-C PD for heavy applications

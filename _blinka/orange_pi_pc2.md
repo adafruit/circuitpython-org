@@ -18,7 +18,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Orange Pi PC2 is for anyone who wants to start creating with technology- not just consuming it. lt's a simple, fun, useful tool that you can use to start taking control of the world around you.

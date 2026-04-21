@@ -13,7 +13,7 @@ date_added: 2021-02-25
 features:
 
 board_usage:
- - "linux"
+ - Linux
 ---
 
 NVIDIA® Jetson™ TX2 NX delivers the next step in AI performance for entry-level embedded and edge products. It provides up to 2.5X the performance of Jetson Nano, and shares form-factor and pin compatibility with Jetson Nano and Jetson Xavier™ NX.

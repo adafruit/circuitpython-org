@@ -17,7 +17,7 @@ features:
   - 40-pin GPIO
   - Infrared Receiver
 board_usage:
- - "linux"
+ - Linux
 ---
 
 **Specifications**

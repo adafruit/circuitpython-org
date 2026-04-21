@@ -17,7 +17,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The OSD32MP1-RED is a full featured Reference, Evaluation and Development platform for the [STM32MP1](https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html) based SiP, the [OSD32MP15x](https://octavosystems.com/octavo_products/osd32mp15x/). It provides access to a number of standard communication interfaces like WiFi and Bluetooth, 1Gb Ethernet, and CAN. It supports HDMI or DSI displays and has a connector for a camera. The OSD32MP1-RED expands easily by providing connectors that are compatible with Raspberry Pi, MikroElektronika mikroBUS™ Click, and STMicroelectronics Motor Control Header.

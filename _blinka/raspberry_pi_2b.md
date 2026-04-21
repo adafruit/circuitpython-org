@@ -16,7 +16,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Didn't think the Raspberry Pi could get any better? You're in for a big surprise! The Raspberry Pi 2 Model B is out and it's amazing! With an upgraded ARM Cortex-A53 quad-core processor, Dual Core VideoCore IV Multimedia coprocessor, and a full Gigabyte of RAM, this pocket computer has moved from being a 'toy' to a real desktop PC!

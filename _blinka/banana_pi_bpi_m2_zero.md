@@ -17,7 +17,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The Banana Pi M2 Zero is an ultra compact single board computer which measures only 60mm*30mm. Its external interfaces are the same as the Raspberry Pi Zero W, and it will fit almost all cases and accessories for the Zero W. It uses the quad-core Cortex A7 Allwinner H2+ processor, with 512MB RAM. It's ideal for light-weight systems and space-limited applications. Like other members of the Banana Pi family, it supports both Linux and Android operating systems.

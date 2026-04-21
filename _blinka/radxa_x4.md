@@ -20,7 +20,7 @@ features:
   - USB 3.0
   - NVME/M.2 Connector
 board_usage:
- - "linux"
+ - Linux
 ---
 
 Intel N100 powered, high performance and competitive priced SBC by RADXA

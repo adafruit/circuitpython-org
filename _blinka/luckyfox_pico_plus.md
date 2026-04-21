@@ -13,7 +13,7 @@ date_added: 2024-07-22
 features:
   - Ethernet
 board_usage:
- - "linux"
+ - Linux
 ---
 
 LuckFox Pico Plus is a cost-effective Linux micro development board, based on the Rockchip RV1103 chip to provide a simple and efficient development platform for developers; Supports a variety of interfaces including MIPI CSI, GPIO, UART, SPI, 12C, USB, etc., which is convenient for developing and debugging quickly.

@@ -19,7 +19,7 @@ features:
   - 40-pin GPIO
   - USB 3.0
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The RDK X3 series development kits include two products: RDK X3 and RDK X3 Module, both of which are equipped with the Rising Sun 3 intelligent computing solution, have 5TOPs of edge-side inference computing power, and are compatible with Raspberry Pi 4B and CM4 interfaces, making it easy for developers to quickly integrate.

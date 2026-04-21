@@ -16,7 +16,7 @@ features:
   - Bluetooth/BLE
 
 board_usage:
- - "linux"
+ - Linux
 ---
 
 LTS - long term support, We will not make any changes to this model and will provide support as long as possible

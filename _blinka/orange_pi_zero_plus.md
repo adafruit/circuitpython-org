@@ -18,7 +18,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 What’s Orange Pi Zero Plus？

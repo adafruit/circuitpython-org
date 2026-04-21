@@ -15,7 +15,7 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
 board_usage:
- - "linux"
+ - Linux
 ---
 
 The Model A+ is the low-cost variant of the Raspberry Pi. It replaced the original Model A in November 2014.
