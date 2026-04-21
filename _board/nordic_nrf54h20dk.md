@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "nordic_nrf54h20dk"
-title: "Nordic nRF54H20 Development Kit Download"
-name: "Nordic nRF54H20 Development Kit"
+title: "Nordic nRF54H20 Development Kit (Zephyr) Download"
+name: "Nordic nRF54H20 Development Kit (Zephyr)"
 manufacturer: "Nordic Semiconductor"
 board_url:
  - "https://docs.nordicsemi.com/bundle/ncs-3.0.0/page/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_gs.html"

@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "renesas_da14695_dk_usb"
-title: "Renesas DA14695 Development Kit USB Download"
-name: "Renesas DA14695 Development Kit USB"
+title: "Renesas DA14695 Development Kit USB (Zephyr) Download"
+name: "Renesas DA14695 Development Kit USB (Zephyr)"
 manufacturer: "Renesas"
 board_url:
  - "https://docs.zephyrproject.org/latest/boards/renesas/da14695_dk_usb/doc/index.html"

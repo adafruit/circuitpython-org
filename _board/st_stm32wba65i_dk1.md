@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "st_stm32wba65i_dk1"
-title: "STM32WBA65I-DK1 Discovery Kit Download"
-name: "STM32WBA65I-DK1 Discovery Kit"
+title: "STM32WBA65I-DK1 Discovery Kit (Zephyr) Download"
+name: "STM32WBA65I-DK1 Discovery Kit (Zephyr)"
 manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/en/evaluation-tools/stm32wba65i-dk1.html"

@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "nxp_frdm_rw612"
-title: "NXP FRDM-RW612 Download"
-name: "NXP FRDM-RW612"
+title: "NXP FRDM-RW612 (Zephyr) Download"
+name: "NXP FRDM-RW612 (Zephyr)"
 manufacturer: "NXP"
 board_url:
  - "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-RW612"

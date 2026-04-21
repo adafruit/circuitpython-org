@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "st_stm32h750b_dk"
-title: "STM32H750B-DK Discovery Kit Download"
-name: "STM32H750B-DK Discovery Kit"
+title: "STM32H750B-DK Discovery Kit (Zephyr) Download"
+name: "STM32H750B-DK Discovery Kit (Zephyr)"
 manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/en/evaluation-tools/stm32h750b-dk.html"
