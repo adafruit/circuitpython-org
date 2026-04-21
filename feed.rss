@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 21 Apr 2026 14:28:30 -0400</lastBuildDate>
+<lastBuildDate>Tue, 21 Apr 2026 15:56:53 -0400</lastBuildDate>
 
 <item>
     <title>Xteink X4</title>
@@ -721,6 +721,192 @@ the RP2350.</p>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/adafruit_tinychad_rp2350/</guid>
   </item><item>
+    <title>Pico W</title>
+    <link>https://circuitpython.org/blinka/raspberry_pi_pico_w/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberry_pi_pico_w.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico_w.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico_w.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>Raspberry Pi Pico W brings WiFi + BLE wireless networking to the Pico platform while retaining complete pin compatibility with its older sibling. It is powered by the <strong>RP2040</strong> microcontroller and adds on-board single-band 2.4GHz wireless interfaces (802.11n) using the Infineon CYW43439 while retaining the Pico form factor.</p>
+
+<p>The on-board 2.4GHz wireless interface has the following features:</p>
+
+<ul>
+  <li>Wireless (802.11n), Single-band (2.4 GHz) WiFi with WPA3 and Soft Access Point supporting up to 4 clients</li>
+  <li>Bluetooth Low Energy (BLE)</li>
+</ul>
+
+<p>The Pico W has the same 0.825” × 2” form factor as the original Pico and can have headers soldered in for use in a breadboard, or be soldered directly onto a PCB with the castellated pads. You get a total of 26 GPIO pins, 3 of which can be used as analog inputs. All GPIO pins are 3.3V logic.</p>
+
+<p>Blinka supports the Pico W via both <a href="https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico">MicroPython</a> and <a href="https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico">u2if (USB-to-IF)</a>, allowing you to use CircuitPython libraries either directly on the board or from a connected computer.</p>
+
+<p><strong>RP2040 Chip features:</strong></p>
+<ul>
+  <li>Dual ARM Cortex-M0+ @ 133MHz</li>
+  <li>264kB on-chip SRAM in six independent banks</li>
+  <li>2MB of on-board QSPI Flash</li>
+  <li>2 UARTs, 2 SPI controllers, 2 I2C controllers</li>
+  <li>16 PWM channels</li>
+  <li>USB 1.1 controller and PHY, with host and device support</li>
+  <li>8 PIO state machines</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/5526">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/raspberry_pi_pico_w/</guid>
+  </item><item>
+    <title>Pico 2 W</title>
+    <link>https://circuitpython.org/blinka/raspberry_pi_pico2_w/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberry_pi_pico2_w.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico2_w.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico2_w.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>Raspberry Pi Pico 2 W combines the power of the <strong>RP2350</strong> microcontroller with on-board wireless connectivity. It is the wireless variant of the Pico 2, adding single-band 2.4GHz WiFi and Bluetooth 5.2 via the Infineon CYW43439 while retaining the same compact Pico form factor.</p>
+
+<p>With a higher core clock speed, double the on-chip SRAM (512KB), double the on-board flash memory (4MB), more powerful Arm M33 cores, and upgraded interfacing capabilities, the Pico 2 W delivers a significant performance and feature boost while retaining hardware and software compatibility with earlier Pico boards.</p>
+
+<p>The unique dual-core, dual-architecture capability of RP2350 allows users to choose between a pair of Arm Cortex-M33 cores and a pair of open-hardware Hazard3 RISC-V cores. The M33 has an FPU and is roughly 2× as fast as the M0+ of the RP2040.</p>
+
+<p>Blinka supports the Pico 2 W via both <a href="https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico">MicroPython</a> and <a href="https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico">u2if (USB-to-IF)</a>, allowing you to use CircuitPython libraries either directly on the board or from a connected computer.</p>
+
+<p><strong>RP2350 Chip features:</strong></p>
+<ul>
+  <li>Dual ARM Cortex-M33 or dual Hazard3 RISC-V @ 150MHz</li>
+  <li>520kB on-chip SRAM</li>
+  <li>4MB of on-board QSPI Flash</li>
+  <li>2 UARTs, 2 SPI controllers, 2 I2C controllers</li>
+  <li>24 PWM channels</li>
+  <li>USB 1.1 controller and PHY, with host and device support</li>
+  <li>12 PIO state machines (3 blocks × 4)</li>
+  <li>HSTX peripheral</li>
+</ul>
+
+<p><strong>Wireless features:</strong></p>
+<ul>
+  <li>802.11n WiFi (2.4 GHz) with WPA3</li>
+  <li>Bluetooth 5.2 / BLE</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/6087">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/raspberry_pi_pico2_w/</guid>
+  </item><item>
+    <title>Pico 2</title>
+    <link>https://circuitpython.org/blinka/raspberry_pi_pico2/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberry_pi_pico2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico2.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico2.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>Raspberry Pi Pico 2 is Raspberry Pi Foundation’s update to their popular RP2040-based Pico board, now built on <strong>RP2350</strong>: their new high-performance, secure microcontroller. With a higher core clock speed, double the on-chip SRAM (512KB), double the on-board flash memory (4MB), more powerful Arm M33 cores, new security and low-power features, and upgraded interfacing capabilities, the Pico 2 delivers a significant performance and feature boost while retaining hardware and software compatibility with the original Pico.</p>
+
+<p>The unique dual-core, dual-architecture capability of RP2350 allows users to choose between a pair of industry-standard Arm Cortex-M33 cores and a pair of open-hardware Hazard3 RISC-V cores. The M33 has an FPU and is roughly 2× as fast as the M0+ of the RP2040.</p>
+
+<p>Not only is the Pico 2 twice as fast, it has twice as much RAM (520KB vs 264KB) and twice as much flash (4MB vs 2MB). There are also 3 PIO blocks with 4 state machines each (up from 2), plus HSTX (high speed transmission) for high-frequency output signals like DVI.</p>
+
+<p>Blinka supports the Pico 2 via both <a href="https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico">MicroPython</a> and <a href="https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-raspberry-pi-pico">u2if (USB-to-IF)</a>, allowing you to use CircuitPython libraries either directly on the board or from a connected computer.</p>
+
+<p><strong>RP2350 Chip features:</strong></p>
+<ul>
+  <li>Dual ARM Cortex-M33 or dual Hazard3 RISC-V @ 150MHz</li>
+  <li>520kB on-chip SRAM</li>
+  <li>4MB of on-board QSPI Flash</li>
+  <li>2 UARTs, 2 SPI controllers, 2 I2C controllers</li>
+  <li>24 PWM channels</li>
+  <li>USB 1.1 controller and PHY, with host and device support</li>
+  <li>12 PIO state machines (3 blocks × 4)</li>
+  <li>HSTX peripheral</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/6083">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/raspberry_pi_pico2/</guid>
+  </item><item>
+    <title>Orange Pi 5 Ultra</title>
+    <link>https://circuitpython.org/blinka/orange_pi_5_ultra/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/orange_pi_5_ultra.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/orange_pi_5_ultra.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/orange_pi_5_ultra.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Shenzhen Xunlong Software CO., Limited</p> <p>Orange Pi 5 Ultra is powered by the Rockchip RK3588 8-core 64-bit processor with 4 Cortex-A76 (2.4GHz) and 4 Cortex-A55 (1.8GHz) cores with independent NEON coprocessor. Adopting 8nm process design, it integrates an ARM Mali-G610 GPU compatible with OpenGL ES 1.1/2.0/3.2, OpenCL 2.2, and Vulkan 1.2. The embedded NPU supports INT4/INT8/INT16/FP16 hybrid computing with up to 6 TOPS of computing power.</p>
+
+<p>It has 4GB/8GB/16GB LPDDR5, up to 8K display processing capability, supports eMMC storage, and has Wi-Fi 6E + BT 5.3 with BLE support. The board provides abundant interfaces including HDMI 2.1 output (8K@60), HDMI 2.0 input (4K@60), GPIO, USB 2.0, USB 3.0, a 3.5mm headphone jack, a PCIe-extended 2.5G Ethernet port, and an M.2 M-Key slot (PCIe 3.0 4-Lane) supporting NVMe or SATA SSDs.</p>
+
+<p>Orange Pi 5 Ultra is compact at just 89mm × 57mm, and supports Orange Pi OS, Ubuntu, Android 13, Debian and other operating systems.</p>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>SoC: Rockchip RK3588 (8nm LP process)</li>
+  <li>CPU: 8-core 64-bit (4× Cortex-A76 @ 2.4GHz, 4× Cortex-A55 @ 1.8GHz)</li>
+  <li>GPU: ARM Mali-G610 (OpenGL ES 3.2, OpenCL 2.2, Vulkan 1.2)</li>
+  <li>NPU: 6 TOPS (INT4/INT8/INT16/FP16)</li>
+  <li>RAM: 4GB/8GB/16GB LPDDR5</li>
+  <li>Storage: eMMC (32/64/128/256GB), 16MB QSPI NOR Flash, MicroSD, M.2 NVMe</li>
+  <li>Video Out: HDMI 2.1 (8K@60), MIPI DSI</li>
+  <li>Video In: HDMI 2.0 (4K@60), 2× MIPI CSI 4-lane, 1× MIPI D-PHY RX 4-lane</li>
+  <li>Network: PCIe 2.5G Ethernet (RTL8125BG)</li>
+  <li>WiFi + BT: Wi-Fi 6E + BT 5.3/BLE (AP6611)</li>
+  <li>USB: 2× USB 3.0, 2× USB 2.0</li>
+  <li>GPIO: 40-pin header</li>
+  <li>Power: Type-C 5V/5A</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5-Ultra.html">Orange Pi</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/orange_pi_5_ultra/</guid>
+  </item><item>
     <title>Thumby Color</title>
     <link>https://circuitpython.org/board/tinycircuits_thumby_color/</link>
     <description><![CDATA[  
@@ -924,6 +1110,49 @@ the RP2350.</p>
     <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/m5stack_cores3_se/</guid>
   </item><item>
+    <title>Banana Pi BPI-P2 Pro</title>
+    <link>https://circuitpython.org/blinka/banana_pi_bpi_p2_pro/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/banana_pi_bpi_p2_pro.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_p2_pro.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/banana_pi_bpi_p2_pro.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By SinoVoip</p> <p>Banana Pi BPI-P2 Pro is a compact development board based on the Rockchip RK3308B-S chip. With a high-performance 4-core ARM Cortex-A35 processor, 512MB DDR3 RAM, and 8GB eMMC onboard storage, it supports PoE (Power over Ethernet) functionality. The chip has a wealth of interfaces including I2S, PCM, TDM, I2C, UART, SPDIF, HDMI ARC, and more to meet a variety of application needs.</p>
+
+<p>RK3308 has rich voice interfaces with its own eight ADC inputs, multi-channel I2S and multi-channel PDM interfaces. This provides a wealth of audio interface choices while reducing hardware design difficulty and cost.</p>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>CPU: 64-bit Quad-core ARM Cortex-A35 Rockchip RK3308B-S</li>
+  <li>RAM: 512MB DDR3</li>
+  <li>Storage: 8GB eMMC onboard, MicroSD card slot (max 64GB)</li>
+  <li>Network: 100M Ethernet LAN</li>
+  <li>PoE: IEEE 802.3af PoE support</li>
+  <li>WiFi + BT: 802.11 a/b/g/n/ac &amp; BT 5.0 (AP6256)</li>
+  <li>GPIO: 40-pin + 12-pin headers</li>
+  <li>USB: 1x USB 2.0, 1x Type-C</li>
+  <li>Audio: Built-in audio CODEC with ADC×8 and DAC×2</li>
+  <li>Power: Type-C 5V/2A or PoE</li>
+  <li>Size: 65mm × 52.5mm</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://wiki.banana-pi.org/Banana_Pi_BPI-P2_Pro">Banana Pi</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Wed, 31 Dec 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/banana_pi_bpi_p2_pro/</guid>
+  </item><item>
     <title>EDU PICO 2 for Pico 2 W</title>
     <link>https://circuitpython.org/board/cytron_edu_v2%20_pico_2w/</link>
     <description><![CDATA[  
@@ -1033,6 +1262,52 @@ the RP2350.</p>
     
     <pubDate>Thu, 04 Dec 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/studiolab_picoexpander/</guid>
+  </item><item>
+    <title>LuckyFox Pico Ultra</title>
+    <link>https://circuitpython.org/blinka/luckyfox_pico_ultra/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/luckyfox_pico_ultra.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/luckyfox_pico_ultra.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/luckyfox_pico_ultra.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By LuckyFox</p> <p>LuckFox Pico Ultra is a low-cost Linux micro development board based on the Rockchip RV1106G3 chip. RV1106 is a highly integrated IPC visual processing SoC designed for AI-related applications. It is built on a single-core ARM Cortex-A7 32-bit core with integrated NEON and FPU, and features a built-in NPU that supports INT4/INT8/INT16 mixed operations, with a computing power of up to 1 TOPS.</p>
+
+<p>It features a hardware-based ISP that supports various algorithm accelerators such as HDR, 3A, LSC, 3DNR, 2DNR, sharpening, haze removal, gamma correction, and more. Additionally, it has a built-in 16-bit DDR3L DRAM to maintain demanding memory bandwidth, as well as built-in POR, audio codec, and MAC PHY.</p>
+
+<p>The board supports multiple interfaces including GPIO, UART, SPI, I2C, USB, and more, facilitating rapid development and debugging. The Ultra variant includes 256MB DDR3L memory, 8GB eMMC onboard storage, a 10/100M Ethernet port, PoE support, and a reserved header for optional WiFi 6 + Bluetooth 5.2 module (available on the Ultra W variant).</p>
+
+<h3 id="specifications">Specifications</h3>
+
+<ul>
+  <li>Processor: Rockchip RV1106G3</li>
+  <li>CPU: Cortex-A7 @ 1.2GHz</li>
+  <li>NPU: 1 TOPS, supports INT4/INT8/INT16</li>
+  <li>ISP: Max input 5M @ 30fps</li>
+  <li>Memory: 256MB DDR3L</li>
+  <li>Storage: 8GB eMMC</li>
+  <li>USB: USB 2.0 Host/Device</li>
+  <li>Camera: MIPI CSI 2-lane</li>
+  <li>Display: RGB666 DPI interface</li>
+  <li>PoE: IEEE 802.3af</li>
+  <li>GPIO: 33 GPIO pins</li>
+  <li>Ethernet: 10/100M Ethernet controller and embedded PHY</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.luckfox.com/Luckfox-Pico/EN-Luckfox-Pico-Ultra">LuckyFox</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 20 Nov 2025 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/luckyfox_pico_ultra/</guid>
   </item><item>
     <title>ESP32-S3-Touch-LCD-1.47</title>
     <link>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_1_47/</link>
