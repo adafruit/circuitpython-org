@@ -13,6 +13,8 @@ blinka: true
 date_added: 2019-06-17
 features:
 - HDMI/DisplayPort
+board_usage:
+ - Linux
 ---
 
 The Raspberry Pi 1 Model A is the original Model A.  In November 2014 It was superseded by the Raspberry Pi 1 Model A+

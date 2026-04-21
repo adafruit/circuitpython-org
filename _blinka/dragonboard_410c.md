@@ -16,6 +16,8 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - GPS
+board_usage:
+ - Linux
 ---
 
 The DragonBoard 410c, a product of Arrow Electronics, is the development board based on the mid-tier Qualcomm® APQ8016E processor. It features advanced processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.

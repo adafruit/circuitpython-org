@@ -13,6 +13,8 @@ blinka: true
 date_added: 2020-04-22
 features:
   - Wi-Fi
+board_usage:
+ - Linux
 ---
 
 Ever wanted your own Linux-based IoT computer? A small one, that can be battery powered? The Onion Omega2 is sort of in-between a microcontroller (like an Arduino/CircuitPython/MakeCode running chip) and a full-fledged microcomputer (like Raspbery Pi). What you get is a bite-sized development board that combines the power-efficiency of the Arduino and the flexibility of the Raspberry Pi!

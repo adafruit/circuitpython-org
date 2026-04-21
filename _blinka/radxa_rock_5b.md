@@ -18,6 +18,8 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - USB 3.0
+board_usage:
+ - Linux
 ---
 
 The ROCK 5 Model B is the latest Radxa SBC with a Pico ITX form factor (2.5 inch, 100 x 72mm). Powered by the all-new powerhouse RK3588 SoC, the ROCK5 Model B offers awesome power-efficient performance in 4GB, 8GB or 16GB RAM configurations.

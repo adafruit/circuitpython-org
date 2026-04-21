@@ -16,6 +16,8 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - Infrared Receiver
+board_usage:
+ - Linux
 ---
 
 Orange Pi 3 is for anyone who wants to start creating with technology – not just consuming it. It's a simple, fun, useful tool that you can use to start taking control of the world around you.

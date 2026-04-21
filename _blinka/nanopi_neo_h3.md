@@ -14,6 +14,8 @@ date_added: 2022-01-04
 features:
   - Ethernet
 
+board_usage:
+ - Linux
 ---
 
 LTS - long term support, We will not make any changes to this model and will provide support as long as possible

@@ -17,6 +17,8 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
   - USB 3.0
+board_usage:
+ - Linux
 ---
 
 Lichee Pi 4A is a high performance RISC-V linux development board using Lichee Module 4A, based on the TH1520 SoC. It contains 4TOPS@int8 AI NPU, supports 16GB LPDDR4X memory and 128G eMMC storage, supports dual 4K resolution screen display, supports 4K mipi camera input, dual POE Gigabit Ethernet ports and multiple USB interfaces. There is an extra RISC-V C906 Core for audio decode.

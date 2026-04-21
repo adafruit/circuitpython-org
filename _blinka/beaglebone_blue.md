@@ -15,6 +15,8 @@ features:
   - Bluetooth/BLE
   - STEMMA QT/QWIIC
   - OSHWA Certified
+board_usage:
+ - Linux
 ---
 
 BeagleBone® Blue is an all-in-one Linux-based computer for robotics, integrating onto a single small (3.5" x 2.15") board the Octavo OSD3358 microprocessor together with wifi/bluetooth, IMU/barometer, power regulation and state-of-charge LEDs for a 2-cell LiPo, H-Bridges, and discrete connectors for 4 DC motors+encoders, 8 servos, and all of the commonly-needed buses for additional peripherals in embedded applications. Fully open source and actively supported by a strong community, the real-time performance, flexible networking, and rich set of robotics-oriented capabilities make building mobile robots with the Blue fast, streamlined, affordable, and fun.

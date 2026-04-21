@@ -20,6 +20,8 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - USB 3.0
+board_usage:
+ - Linux
 ---
 
 The **Raspberry Pi 500** is a fast, powerful computer built into a high-quality keyboard, for the ultimate compact PC experience. It features the same quad-core 64-bit Arm processor and RP1 I/O controller found in [Raspberry Pi 5](https://www.adafruit.com/product/5813). With a one-piece aluminium heatsink built in for improved thermal performance, your Raspberry Pi 500 will run fast and smoothly even under heavy load, while delivering glorious dual 4K display output.

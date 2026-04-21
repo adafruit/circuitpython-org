@@ -16,6 +16,8 @@ features:
   - USB 3.0
   - 40-pin GPIO
   - NVME/M.2 Connector
+board_usage:
+ - Linux
 ---
 
 VisionFive 2 is the world’s first high-performance RISC-V single board computer (SBC) with an integrated GPU. Compared with its last generation, VisionFive 2 has been fully upgraded with significant improvements in the processor work frequency, multimedia processing capabilities, scalability, etc. Its superior performance and reasonable price make VisionFive 2 the best affordable RISC-V development board ever.

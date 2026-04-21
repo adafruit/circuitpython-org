@@ -15,6 +15,8 @@ features:
   - HDMI/DisplayPort
   - USB 3.0
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 The world's first supercomputer on a module, Jetson TX1 is capable of delivering the performance and power efficiency needed for the latest visual computing applications. It's built around the revolutionary NVIDIA Maxwell™ architecture with 256 CUDA cores delivering over 1 TeraFLOPs of performance. 64-bit CPUs, 4K video encode and decode capabilities, and a camera interface capable of 1400 MPix/s make this the best system for embedded deep learning, computer vision, graphics, and GPU computing.

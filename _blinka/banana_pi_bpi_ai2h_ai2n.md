@@ -16,6 +16,8 @@ features:
   - Bluetooth/BLE
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 Banana Pi BPI-AI2N System-on-Module (SoM) and BPI-AI2N carrier board are open-source hardware solutions designed to leverage the advanced capabilities of the RZ/V2N Vision AI MPU. Designed with a flexible, community-driven ecosystem, the BPI-AI2N platform empowers developers to accelerate innovation and streamline application development. Powered by the RZ/V2N MPU, it delivers industry-leading AI acceleration of 15 TOPS (Sparse) and high-performance computing with 4x Arm® Cortex®-A55 processors, making it an ideal choice for creating cutting-edge vision AI solutions.

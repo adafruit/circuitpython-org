@@ -17,6 +17,8 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 The Raspberry Pi 3 Model B+ is the most popular Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 3 better? How about a faster processor, 5 GHz WiFi, and updated Ethernet chip with PoE capability? Good guess - that's exactly what they did!

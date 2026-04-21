@@ -15,6 +15,8 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
 
+board_usage:
+ - Linux
 ---
 
 The NanoPi Duo2("Duo2") is an ARM board designed and developed by FriendlyELEC for makers and hobbyists. It is only 55 x 25.4mm. It features Allwinner quad-core A7 processor H3, and has 256M/512M DDR3 RAM, onboard WiFi & bluetooth module and an OV5640 camera interface. It works with Linux variants such as Ubuntu Core.

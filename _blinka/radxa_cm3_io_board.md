@@ -17,6 +17,8 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - USB 3.0
+board_usage:
+ - Linux
 ---
 
 Radxa CM3 + Raspberry Pi CM4 IO Board is an application board for the ROCK3 Compute Module(CM3) with rich IO features.
