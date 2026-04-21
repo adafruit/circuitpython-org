@@ -17,6 +17,8 @@ features:
   - Bluetooth/BLE
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 Orange Pi 4 is an open-source single-board computer with dual-band wireless WiFi and Bluetooth 5.0. It is highly compact with a dimension of 56 x 91mm.

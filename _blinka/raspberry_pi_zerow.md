@@ -16,6 +16,8 @@ features:
   - Bluetooth/BLE
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 If you didn't think that the Raspberry Pi Zero could possibly get any better, then boy do we have a pleasant surprise for you! The new Raspberry Pi Zero W offers all the benefits of the Pi Zero v1.3, but with one big difference – built-in WiFi!

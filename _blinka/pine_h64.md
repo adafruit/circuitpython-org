@@ -17,6 +17,8 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 PINE H64 is latest Single Board Computer by Pine64. Its powered by an Allwinner “H6” Quad-Core ARM Cortex A53 64-Bit Processor with MALI T-722 GPU. The PINE H64 is equipped with up-to 3GB LPDDR3 PC-1600 system memory and 128Mb SPI boot Flash. There is also an optional eMMC module (up to 128GB) and microSD slot for booting. The board is equipped with an onboard build-in 11n Wifi/BT, 1x USB 3.0 Host, 2x USB 2.0 Host, Gigabit Ethernet, PI-2 GPIO Bus, Euler GPIO Bus as well as many other peripheral device interface such as UART, SPI, I2C, for makers to integrate with sensors and other peripherals.

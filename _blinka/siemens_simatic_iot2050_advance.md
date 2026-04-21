@@ -13,6 +13,8 @@ date_added: 2022-10-06
 features:
   - Ethernet
   - HDMI/DisplayPort
+board_usage:
+ - Linux
 ---
 
 SIMATIC IOT2050 Advance is a versatile IOT edge device that allows you to connect PLCs on the factory floor to the cloud. A quad core ARM processor, 20 digital IOs and 6 analog inputs gives you enough horse power to run analytics and decision making on the edge before you send off the data to the Cloud.

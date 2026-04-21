@@ -10,6 +10,8 @@ board_url:
 board_image: "pcduino3.jpg"
 date_added: 2023-10-27
 
+board_usage:
+ - Linux
 ---
 
 The pcDuino3 is a high performance, cost effective mini PC platform that runs full-featured operating systems such as Ubuntu and Android. In addition to running Linux and Android, the pcDuino3 has support for programming languages such as C, C++, Java, Python, Arduino, and more. You can even use your favorite Arduino shields for added hardware capability. The pcDuino3 has an impressive set of features including an IR receiver, SATA host, USB-OTG, LVDS LCD interface, MIPI camera interface, 3.5mm audio output, battery header, WiFi, Ethernet, and more. If you're looking for the 'kitchen sink' of development boards, look no further.

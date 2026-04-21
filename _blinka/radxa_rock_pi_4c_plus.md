@@ -18,6 +18,8 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - USB 3.0
+board_usage:
+ - Linux
 ---
 
 ROCK Pi 4 Model C+ is a single board computer (SBC) by a Rockchip RK3399-T hexa-core processor @ 1.5 GHz, equipped with 4GB RAM, and two micro HDMI ports to drive up to one 4K display, and one 2K display.

@@ -16,6 +16,8 @@ features:
   - Ethernet
   - Bluetooth/BLE
   - HDMI/DisplayPort
+board_usage:
+ - Linux
 ---
 
 Orange Pi 3 LTS is an open-source single-board computer with dual-band wireless WiFi and Bluetooth 5.0 .It is highly compact with a dimension of 56X85mm.

@@ -11,6 +11,8 @@ downloads_display: true
 blinka: true
 date_added: 2019-12-03
 features:
+board_usage:
+ - Attached
 ---
 
 The Binho Nova brings Multi-Protocol USB Host Adapters into the 21st Century. No more fumbling through development with cumbersome, clunky, out-dated adapters. Let your productivity soar to new heights!
