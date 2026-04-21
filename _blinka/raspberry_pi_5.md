@@ -18,6 +18,8 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - USB 3.0
+board_usage:
+ - "linux"
 ---
 
 The Raspberry Pi 5 is the newest Raspberry Pi computer, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 5 better than the 4? How about a faster processor, USB 3.0 ports, and an updated Gigabit Ethernet chip with PoE capability? Good guess - that's exactly what they did!

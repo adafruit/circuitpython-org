@@ -12,6 +12,8 @@ blinka: true
 date_added: 2019-12-03
 features:
   - Wi-Fi
+board_usage:
+ - "linux"
 ---
 
 SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by BeagleBoard.org and Seeed Studio. It is based on the open-source hardware design of BeagleBone Black and developed into this differentiated version. SeeedStudio BeagleBone Green Wireless has included a high-performance flexible WiFi/Bluetooth interface and two Grove connectors, making it easier to connect to the large family of Grove sensors. The on-board HDMI and Ethernet are removed to make room for these wireless features and Grove connectors.

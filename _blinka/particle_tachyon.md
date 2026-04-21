@@ -13,6 +13,8 @@ blinka: true
 date_added: 2025-08-18
 features:
   - Wi-Fi
+board_usage:
+ - "linux"
 ---
 
 Tachyon is a 5G-connected single-board computer (SBC) that takes the technology inside a modern smartphone and packs it into a Raspberry Pi form factor to power portable and remote computing devices. With a powerful Qualcomm Snapdragon SoC, an AI accelerator, and Particle’s edge-to-cloud IoT infrastructure, Tachyon combines all of the edge computing power, connectivity, and software necessary to embed intelligence into anything, anywhere.

@@ -17,6 +17,8 @@ features:
   - Wi-Fi
   - 40-pin GPIO
   - Bluetooth/BLE
+board_usage:
+ - "linux"
 ---
 
 Compute Module 4

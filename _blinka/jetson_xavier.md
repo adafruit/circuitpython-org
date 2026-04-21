@@ -15,6 +15,8 @@ features:
   - HDMI/DisplayPort
   - USB 3.0
   - 40-pin GPIO
+board_usage:
+ - "linux"
 ---
 
 With the NVIDIA Jetson AGX Xavier developer kit, you can easily create and deploy end-to-end AI robotics applications for manufacturing, delivery, retail, agriculture, and more.

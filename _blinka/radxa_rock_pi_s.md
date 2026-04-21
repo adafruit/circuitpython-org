@@ -15,6 +15,8 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
   - Ethernet
+board_usage:
+ - "linux"
 ---
 
 S is for Small Square.

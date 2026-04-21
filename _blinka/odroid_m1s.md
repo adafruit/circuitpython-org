@@ -16,6 +16,8 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - NVME/M.2 Connector
+board_usage:
+ - "linux"
 ---
 
 We launched ODROID-M1 about 20 months ago and have supplied it to many B2B and B2C customers. Feedback from many customers requested a lower price, more GPIO ports, lower power consumption, a slimmer form factor, and a variety of practical peripherals.

@@ -16,6 +16,8 @@ features:
   - Bluetooth/BLE
   - USB 3.0
   - 40-pin GPIO
+board_usage:
+ - "linux"
 ---
 
 Radxa Zero is an ultra thin SBC in small form factor with powerful performance based on Amlogic S905Y2. It can run Android and selected Linux distributions.

@@ -16,6 +16,8 @@ features:
   - Bluetooth/BLE
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - "linux"
 ---
 
 What's Orange Pi Lite？

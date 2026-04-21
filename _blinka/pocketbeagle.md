@@ -14,6 +14,8 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - OSHWA Certified
+board_usage:
+ - "linux"
 ---
 
 Want a powerful 1GHz AM3358 powered Linux single board that's ultra-tiny and open-source? PocketBeagle offers a wealth of computer power in a small footprint (pawprint?). This board is just like the BeagleBone Black but small enough to fit in your wallet. It has a fully-integrated chip that combines the processor and RAM all on one chip, so it's super small. Despite the compact shape, there are 72 total breakout pads, a microSD card slot for your filesystem and OS, and a native USB connection

@@ -13,6 +13,8 @@ blinka: true
 date_added: 2021-12-06
 features:
 
+board_usage:
+ - "linux"
 ---
 
 The OSD32MP1-BRK is a small flexible prototyping platform for the [STM32MP1](https://www.st.com/en/microcontrollers-microprocessors/stm32mp1-series.html) based SiP, the [OSD32MP15x](https://octavosystems.com/octavo_products/osd32mp15x/). At only 3in X 1.8in (75mm X 46mm), it provides easy access to the I/O of the STM32MP1 through a set of breadboard compatible headers. The OSD32MP1-BRK allows developers to quickly build a proof of concept that more closely resembles their actual system without the need to build their own custom hardware.

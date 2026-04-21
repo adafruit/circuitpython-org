@@ -16,6 +16,8 @@ features:
   - USB 3.0
   - 40-pin GPIO
   - Infrared Receiver
+board_usage:
+ - "linux"
 ---
 
 **Specifications**

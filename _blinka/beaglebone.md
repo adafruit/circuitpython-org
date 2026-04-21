@@ -13,6 +13,8 @@ blinka: true
 date_added: 2021-04-06
 features:
   - Ethernet
+board_usage:
+ - "linux"
 ---
 
 BeagleBone is an $89 MSRP, credit-card-sized Linux computer that connects to the Internet and runs software such as Android 4.0 and Ubuntu. With plenty of I/O and processing power for real-time analysis provided by an AM335x 720MHz ARM® processor, BeagleBone can be complemented with cape plug-in boards to augment functionality.

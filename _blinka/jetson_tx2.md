@@ -15,6 +15,8 @@ features:
   - HDMI/DisplayPort
   - USB 3.0
   - 40-pin GPIO
+board_usage:
+ - "linux"
 ---
 
 The Jetson TX2 Developer Kit gives you a fast, easy way to develop hardware and software for the Jetson TX2 AI supercomputer on a module. It exposes the hardware capabilities and interfaces of the developer board, comes with design guides and other documentation, and is pre-flashed with a Linux development environment.

@@ -15,6 +15,8 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - Infrared Receiver
+board_usage:
+ - "linux"
 ---
 
 ODROID-C4 is a new generation single board computer that is more energy efficient and faster performing than ODROID-C2 which was introduced over four years ago as the world’s first affordable ARM 64bit computer.

@@ -17,6 +17,8 @@ features:
   - 40-pin GPIO
   - Infrared Receiver
   - OSHWA Certified
+board_usage:
+ - "linux"
 ---
 
 A20-OLinuXino-LIME2 looks similar to both [A20-OLinuXino-LIME](https://www.olimex.com/wiki/A20-OLinuXino-LIME) and [A10-OLinuXino-LIME](https://www.olimex.com/wiki/A10-OLinuXino-LIME). The major differences between A20-OLinuXino-LIME2 and A20-OLinuXino-LIME are:

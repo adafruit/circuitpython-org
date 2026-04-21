@@ -16,6 +16,8 @@ features:
   - 40-pin GPIO
   - Ethernet
   - Infrared Receiver
+board_usage:
+ - "linux"
 ---
 
 Le Potato is our flagship hardware platform with support for the latest Android 9/TV, upstream Linux, u-boot, Kodi, and more. Based on a long term supported SoC family with a proven record of mass deployments by the largest regional content providers, Google, and Amazon, AML-S905X-CC is the perfect development platform for projects that require highly performant ARM Cortex-A class CPUs, secure and non-secure 4K media delivery and playback, Widevine CAS DRM, high reliability, and low power.

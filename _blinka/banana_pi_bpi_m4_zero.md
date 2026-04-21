@@ -16,6 +16,8 @@ features:
   - Bluetooth/BLE
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - "linux"
 ---
 
 Banana Pi BPI-M4 Zero is the successor model of M2 Zero. It has a huge improvement in performance. The SOC is upgraded to H618 and the CPU frequency is increased by 25%. The memory is upgraded to DDR4, the capacity is quadrupled, and 8G eMMC is added. It supports 5G WiFi, and the USB interface has also been upgraded to type-C.

@@ -12,6 +12,8 @@ blinka: true
 date_added: 2020-03-25
 features:
 
+board_usage:
+ - "linux"
 ---
 
 Jetson Xavier NX delivers up to 21 TOPS for running modern AI workloads, consumes as little as 10 watts of power, and has a compact form factor smaller than a credit card. It can run modern neural networks in parallel and process data from multiple high-resolution sensors, opening the door for embedded and edge computing devices that demand increased performance but are constrained by size, weight, and power budgets.

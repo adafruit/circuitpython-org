@@ -17,6 +17,8 @@ features:
   - Bluetooth/BLE
   - Wi-Fi
   - NVME/M.2 Connector
+board_usage:
+ - "linux"
 ---
 
 Introducing the AXON 8GB LPDDR4X & 32GB eMMC Variant—a compact powerhouse for seamless multitasking and fast app navigation. With 8GB RAM and 32GB storage, it’s perfect for productivity and entertainment, delivering high-speed performance and reduced loading times.

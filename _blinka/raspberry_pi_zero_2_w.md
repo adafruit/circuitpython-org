@@ -16,6 +16,8 @@ features:
   - Bluetooth/BLE
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - "linux"
 ---
 
 **Raspberry Pi Zero 2 W** is the latest product in Raspberry Pi's most affordable range of single-board computers. The successor to the breakthrough Raspberry Pi Zero W, **Raspberry Pi Zero 2 W** is a form factor–compatible drop-in replacement for the original board.

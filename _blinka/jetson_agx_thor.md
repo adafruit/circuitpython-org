@@ -18,6 +18,8 @@ features:
   - HDMI/DisplayPort
   - NVME/M.2 Connector
   - USB 3.0
+board_usage:
+ - "linux"
 ---
 
 The NVIDIA® Jetson AGX Thor™ Developer Kit is the ultimate platform tailored for next-generation humanoid robotics, delivering up to 2070 FP4 TFLOPS AI perfromance with Blackwell GPU and 128 GB of high-speed memory—all in a compact 130W power envelope. Compared to Jetson AGX Orin™, it offers up to 7.5× more AI performance to run the latest generative AI models seamlessly, and 3.5× better energy efficiency, enabling real-time multimodal perception, decision-making, and control, all for accelerating the development of intelligent, responsive, and highly sophisticated robotic systems.

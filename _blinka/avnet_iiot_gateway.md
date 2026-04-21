@@ -16,6 +16,8 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - "linux"
 ---
 
 Gateways can be as varied as the devices they help connect, with each gateway needing different protocols, connection methodologies and energy requirements to bring together the myriad of distributed parts that make up the IoT whole. Gateways serve critical functions such as data filtering and security and up to application code. Whether an app on a mobile device, a demo board, or even a connected sensor, gateways are critical to the functioning of the IoT—and Avnet’s deep hardware experience help connect your solutions to the cloud smartly and with security in mind.

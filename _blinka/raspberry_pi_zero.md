@@ -14,6 +14,8 @@ date_added: 2019-06-17
 features:
 - HDMI/DisplayPort
 - 40-pin GPIO
+board_usage:
+ - "linux"
 ---
 
 At first glance, the Pi Zero isn't much.  It just looks like a slimmed down version of the Raspberry Pi we know and love.  But when we started to think of the possibilities - and what a well-chosen set of accessories could add - we realized the appeal.  And then we saw the price...could it be true? Yes!

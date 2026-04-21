@@ -15,6 +15,8 @@ features:
   - Wi-Fi
   - Bluetooth/BLE
 
+board_usage:
+ - "linux"
 ---
 
 LTS - long term support, We will not make any changes to this model and will provide support as long as possible
