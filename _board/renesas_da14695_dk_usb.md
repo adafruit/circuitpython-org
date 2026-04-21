@@ -11,7 +11,6 @@ date_added: 2026-04-21
 family: zephyr
 features:
   - Bluetooth/BTLE
-  - USB-A
 ---
 
 The DA14695 Development Kit USB is a small USB dongle-style development board for Renesas' SmartBond DA14695 Bluetooth Low Energy 5.2 SoC. The DA14695 features an Arm Cortex-M33 core, integrated BLE radio, and on-chip memory.
