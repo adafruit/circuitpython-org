@@ -539,6 +539,50 @@
         "description": "<p>The <strong>Adafruit Feather HUZZAH32</strong> is our original ESP32-based Feather, made with the official WROOM32 module. We packed everything you love about Feathers: built in USB-to-Serial converter, automatic bootloader reset, Lithium Ion/Polymer charger, and just about all of the GPIOs brought out so you can use it with any of our Feather Wings. <a href=\"https://www.adafruit.com/feather\">We have other boards in the Feather family, check’em out here.</a></p><p>That module nestled in at the end of this Feather contains a dual-core ESP32 chip, 4 MB of SPI Flash, tuned antenna, and all the passives you need to take advantage of this powerful new processor. The ESP32 has both WiFi <em>and</em> Bluetooth Classic/LE support. That means it’s perfect for just about any wireless or Internet-connected project.</p><p>Don’t confuse this board with the similar, newer, <a href=\"https://circuitpython.org/board/adafruit_feather_esp32_v2/\">Adafruit Feather ESP32 V2</a>. Both boards say “HUZZAH32” on the bottom side, but they are different. Make sure you’ve chosen the correct download for your board.</p><p>Because it’s part of our <a href=\"https://www.adafruit.com/category/814\">Feather eco-system, you can take advantage of the 50+ Wings</a> that we’ve designed to add all sorts of cool accessories.</p><p>The ESP32 is a perfect upgrade from the ESP8266 that has been so popular. In comparison, the ESP32 has way more GPIO, plenty of analog inputs, two analog outputs, multiple extra peripherals (like a spare UART), two cores so you don’t have to yield to the WiFi manager, much higher-speed processor, etc. etc! We think that as the ESP32 gets traction, we’ll see more people move to this chip exclusively, as it is so full-featured.</p><p>Here are <a href=\"https://espressif.com/en/products/hardware/esp32/overview\">specifications from Espressif about the ESP32</a>:</p><ul>  <li>240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS</li>  <li>Integrated 520 KB SRAM</li>  <li>Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP</li>  <li>Integrated dual mode Bluetooth (classic and BLE)</li>  <li>4 MByte flash include in the WROOM32 module</li>  <li>On-board PCB antenna</li>  <li>Ultra-low noise analog amplifier</li>  <li>Hall sensor</li>  <li>10x capacitive touch interface</li>  <li>32 kHz crystal oscillator</li>  <li>3 x UARTs (only two are configured by default in the Feather Arduino IDE support, one UART is used for bootloading/debug)</li>  <li>3 x SPI (only one is configured by default in the Feather Arduino IDE support)</li>  <li>2 x I2C (only one is configured by default in the Feather Arduino IDE support)</li>  <li>12 x ADC input channels</li>  <li>2 x I2S Audio</li>  <li>2 x DAC</li>  <li>PWM/timer input/output available on every GPIO pin</li>  <li>OpenOCD debug interface with 32 kB TRAX buffer</li>  <li>SDIO controller/peripheral 50 MHz</li>  <li>SD-card interface support</li></ul><p>Comes fully assembled and tested, with a USB interface that lets you quickly use it with the Arduino IDE or the low-level ESP32 IDF. We also toss in some header so you can solder it in and plug into a solderless breadboard. <strong>Lipoly battery and USB cable not included</strong> (but we do have lots of options in the shop if you’d like!)</p><p><strong>CircuitPython on ESP32</strong>Want to learn how to load circuitpython onto this board? check out <a href=\"https://learn.adafruit.com/circuitpython-with-esp32-quick-start/\">this</a> on the Adafruit learning systemWant to use the supernew web workflow, <a href=\"https://learn.adafruit.com/getting-started-with-web-workflow-using-the-code-editor\">this</a> tutorial shows you how.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/3707\">Adafruit</a></li></ul>"
     },
     {
+        "board_id": "adafruit_feather_nrf52840_sense_zephyr",
+        "title": "Feather nRF52840 Sense (Zephyr) Download",
+        "name": "Feather nRF52840 Sense (Zephyr)",
+        "board_url": [
+            "https://www.adafruit.com/product/4516"
+        ],
+        "board_image": "feather_bluefruit_sense.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Feather-Compatible",
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/adafruit_feather_nrf52840_sense_zephyr/",
+        "description": "<p>The Adafruit Feather Bluefruit Sense takes the Feather nRF52840 Express and adds a suite of sensors: BME280 temperature/humidity/barometric pressure, LIS3MDL magnetometer, LSM6DS33 accelerometer/gyroscope, APDS9960 proximity/light/color/gesture, PDM microphone, and a NeoPixel LED. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p><p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href=\"/board/feather_bluefruit_sense/\">Feather Bluefruit Sense</a> page.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4516\">Adafruit</a></li></ul>"
+    },
+    {
+        "board_id": "adafruit_feather_nrf52840_zephyr",
+        "title": "Feather nRF52840 Express (Zephyr) Download",
+        "name": "Feather nRF52840 Express (Zephyr)",
+        "board_url": [
+            "https://www.adafruit.com/product/4062"
+        ],
+        "board_image": "feather_nrf52840_express.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Feather-Compatible",
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/adafruit_feather_nrf52840_zephyr/",
+        "description": "<p>The Adafruit Feather nRF52840 Express is the Feather you have been waiting for! It’s the new Adafruit Feather nRF52840 Express with native USB support, built-in NeoPixel, and Bluetooth Low Energy support. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p><p>The Feather nRF52840 Express features the Nordic nRF52840 with native USB, Bluetooth Low Energy support, and built-in battery charging. It has a 2MB QSPI flash for CircuitPython file storage and a NeoPixel LED.</p><p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href=\"/board/feather_nrf52840_express/\">Feather nRF52840 Express</a> page.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4062\">Adafruit</a></li></ul>"
+    },
+    {
         "board_id": "adafruit_feather_rp2040",
         "title": "Feather RP2040 Download",
         "name": "Feather RP2040",
@@ -798,6 +842,29 @@
         ],
         "url_path": "/board/adafruit_feather_rp2040_usb_host/",
         "description": "<p>You’re probably really used to microcontroller boards with USB, but what about a dev board with two? Two is more than one, so that makes it twice as good! And the Adafruit Feather RP2040 with USB Host is definitely double-the-fun of our other Feather RP2040 boards, with a USB Type A port on the end for connecting USB devices to.</p><p>Now you might be thinking “hey waitaminute, the RP2040 doesn’t have two USB port peripherals???” and you’d be correct! But what it does have is a nifty PIO peripheral that can be (ab)used to emulate a USB host peripheral. You get to keep the main USB port for uploading, debugging, and data communication, while at the same time sending and receiving data to just-about-any USB device. This work is originally by sekigon on GitHub, and if you’re using Pico SDK that’s still the recommended library to use.</p><p>Currently, support for the USB Host peripheral is only in Arduino. So check out the TinyUSB ‘dual role’ examples for some things you can do! For example, datalogging to a USB Key. Or reading from another device/microcontroller that has USB CDC serial interface. Or creating an HID re-mapper. Or connecting to weird devices that require firmware-updates like the Cypress EZ-USB based Intellikeys communications board.</p><h2 id=\"tutorials\">Tutorials</h2><ul>  <li><a href=\"https://learn.adafruit.com/adafruit-feather-rp2040-with-usb-type-a-host\">Primary Guide: Adafruit Feather RP2040 with USB Type A Host</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5723\">Adafruit</a></li></ul>"
+    },
+    {
+        "board_id": "adafruit_feather_rp2040_zephyr",
+        "title": "Feather RP2040 (Zephyr) Download",
+        "name": "Feather RP2040 (Zephyr)",
+        "board_url": [
+            "https://www.adafruit.com/product/4884"
+        ],
+        "board_image": "adafruit_feather_rp2040.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Feather-Compatible",
+            "Battery Charging",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/adafruit_feather_rp2040_zephyr/",
+        "description": "<p>The Adafruit Feather RP2040 features the Raspberry Pi RP2040 chip with dual ARM Cortex-M0+ cores running at 133 MHz, 264KB of RAM, 8MB of QSPI flash, a STEMMA QT connector, USB-C, and built-in LiPoly battery charging. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p><p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href=\"/board/adafruit_feather_rp2040/\">Feather RP2040</a> page.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4884\">Adafruit</a></li></ul>"
     },
     {
         "board_id": "adafruit_feather_rp2350",
@@ -8025,6 +8092,24 @@
         "description": "<p>The Zephyr Native Sim is not a physical board. It is Zephyr’s <a href=\"https://docs.zephyrproject.org/latest/boards/native/native_sim/doc/index.html\">native simulator</a>, which compiles Zephyr applications as a normal Linux executable that runs on the host machine. It is used for development and testing of the CircuitPython Zephyr port without needing physical hardware. The Zephyr port of CircuitPython is currently in alpha.</p>"
     },
     {
+        "board_id": "native_nrf5340bsim",
+        "title": "Zephyr nRF5340 BabbleSim Download",
+        "name": "Zephyr nRF5340 BabbleSim",
+        "board_url": [
+            "https://docs.zephyrproject.org/latest/boards/native/nrf_bsim/doc/index.html"
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/native_nrf5340bsim/",
+        "description": "<p>The nRF5340 BabbleSim is not a physical board. It is a Zephyr <a href=\"https://docs.zephyrproject.org/latest/boards/native/nrf_bsim/doc/index.html\">simulated nRF5340 target</a> that runs as a Linux executable using the BabbleSim physical layer simulator. It enables testing of BLE functionality including the <code class=\"language-plaintext highlighter-rouge\">_bleio</code> module without requiring physical hardware. It is used for development and testing of the CircuitPython Zephyr port. The Zephyr port of CircuitPython is currently in alpha.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://docs.zephyrproject.org/latest/boards/native/nrf_bsim/doc/index.html\">Zephyr Project - nRF5340 BabbleSim</a></li>  <li><a href=\"https://BabbleSim.github.io\">BabbleSim</a></li></ul>"
+    },
+    {
         "board_id": "ndgarage_ndbit6",
         "title": "FeatherSnow Download",
         "name": "FeatherSnow",
@@ -8147,8 +8232,8 @@
     },
     {
         "board_id": "nordic_nrf5340dk",
-        "title": "Nordic nRF5340 Development Kit Download",
-        "name": "Nordic nRF5340 Development Kit",
+        "title": "Nordic nRF5340 Development Kit (Zephyr) Download",
+        "name": "Nordic nRF5340 Development Kit (Zephyr)",
         "board_url": [
             "https://www.nordicsemi.com/Products/Development-hardware/nRF5340-DK"
         ],
@@ -8168,8 +8253,8 @@
     },
     {
         "board_id": "nordic_nrf54h20dk",
-        "title": "Nordic nRF54H20 Development Kit Download",
-        "name": "Nordic nRF54H20 Development Kit",
+        "title": "Nordic nRF54H20 Development Kit (Zephyr) Download",
+        "name": "Nordic nRF54H20 Development Kit (Zephyr)",
         "board_url": [
             "https://docs.nordicsemi.com/bundle/ncs-3.0.0/page/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_gs.html"
         ],
@@ -8188,8 +8273,8 @@
     },
     {
         "board_id": "nordic_nrf54l15dk",
-        "title": "Nordic nRF54L05 Development Kit Download",
-        "name": "Nordic nRF54L05 Development Kit",
+        "title": "Nordic nRF54L05 Development Kit (Zephyr) Download",
+        "name": "Nordic nRF54L05 Development Kit (Zephyr)",
         "board_url": [
             "https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-DK"
         ],
@@ -8207,8 +8292,8 @@
     },
     {
         "board_id": "nordic_nrf7002dk",
-        "title": "Nordic nRF7002 Development Kit Download",
-        "name": "Nordic nRF7002 Development Kit",
+        "title": "Nordic nRF7002 Development Kit (Zephyr) Download",
+        "name": "Nordic nRF7002 Development Kit (Zephyr)",
         "board_url": [
             "https://www.nordicsemi.com/Products/Development-hardware/nRF7002-DK"
         ],
@@ -8322,8 +8407,8 @@
     },
     {
         "board_id": "nxp_frdm_mcxn947",
-        "title": "MCXN947 FRDM Development Board Download",
-        "name": "MCXN947 FRDM Development Board",
+        "title": "MCXN947 FRDM Development Board (Zephyr) Download",
+        "name": "MCXN947 FRDM Development Board (Zephyr)",
         "board_url": [
             "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947"
         ],
@@ -8340,9 +8425,31 @@
         "description": "<p>FRDM-MCXN947 are compact and scalable development boards for rapid prototyping of MCX N94 and N54 MCUs. They offer industry standard headers for easy access to the MCUs I/Os, integrated open-standard serial interfaces, external flash memory and an on-board MCU-Link debugger. MCX N Series are high-performance, low-power microcontrollers with intelligent peripherals and accelerators providing multi-tasking capabilities and performance efficiency.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947\">NXP</a></li>  <li><a href=\"https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxn947/doc/index.html\">Zephyr Project</a></li></ul>"
     },
     {
+        "board_id": "nxp_frdm_rw612",
+        "title": "NXP FRDM-RW612 (Zephyr) Download",
+        "name": "NXP FRDM-RW612 (Zephyr)",
+        "board_url": [
+            "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-RW612"
+        ],
+        "board_image": "nxp_frdm_rw612.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C",
+            "Arduino Shield Compatible"
+        ],
+        "url_path": "/board/nxp_frdm_rw612/",
+        "description": "<p>The FRDM-RW612 is a compact and scalable development board for rapid prototyping of the NXP RW61x series of Wi-Fi 6 + Bluetooth Low Energy + 802.15.4 tri-radio wireless MCUs. It features an RW612 Arm Cortex-M33 core running at 260 MHz with 1.2 MB of on-chip SRAM, 512 Mbit QSPI flash, and 64 Mbit QSPI pSRAM.</p><p>The board offers easy access to the MCU’s I/Os and peripherals through Arduino headers, FRDM expansion rows, Pmod and mikroBUS connectors. It includes an Ethernet PHY and RJ45 connector, two USB-C connectors, an on-board MCU-Link debugger with CMSIS-DAP, and a P3T1755 I3C temperature sensor. The Zephyr port of CircuitPython is currently in alpha.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-RW612\">NXP</a></li>  <li><a href=\"https://www.digikey.com/en/products/detail/nxp-usa-inc/FRDM-RW612/21695498\">Digi-Key</a></li>  <li><a href=\"https://www.mouser.com/ProductDetail/NXP-Semiconductors/FRDM-RW612\">Mouser</a></li></ul>"
+    },
+    {
         "board_id": "nxp_mimxrt1170_evk",
-        "title": "MCXN947 FRDM Development Board Download",
-        "name": "MCXN947 FRDM Development Board",
+        "title": "MCXN947 FRDM Development Board (Zephyr) Download",
+        "name": "MCXN947 FRDM Development Board (Zephyr)",
         "board_url": [
             "https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB"
         ],
@@ -10144,6 +10251,92 @@
         "description": "<p><strong>NOTE</strong>: This build is alpha quality and is for experimental use. It is <a href=\"https://github.com/adafruit/circuitpython/labels/broadcom\">missing features and has known issues</a>.</p><p>The Raspberry Pi 4 Model B is the newest Raspberry Pi computer made, and the Pi Foundation knows you can always make a good thing better! And what could make the Pi 4 better than the 3? How about a faster processor, USB 3.0 ports, and updated Gigabit Ethernet chip with PoE capability? Good guess - that’s exactly what they did!</p><p>The Raspberry Pi 4 is the latest product in the Raspberry Pi range, boasting an updated 64-bit quad core processor running at 1.4GHz with built-in metal heatsink, USB 3 ports, dual-band 2.4GHz and 5GHz wireless LAN, faster (300 mbps) Ethernet, and PoE capability via a separate PoE HAT.</p><ul>  <li>Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz</li>  <li>1GB, 2GB or 4GB LPDDR4-2400 SDRAM (depending on model)</li>  <li>2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE</li>  <li>Gigabit Ethernet</li>  <li>2 USB 3.0 ports; 2 USB 2.0 ports.</li>  <li>Raspberry Pi standard 40 pin GPIO header (fully backwards compatible with previous boards)</li>  <li>2 × micro-HDMI ports (up to 4kp60 supported)</li>  <li>2-lane MIPI DSI display port</li>  <li>2-lane MIPI CSI camera port</li>  <li>4-pole stereo audio and composite video port</li>  <li>H.265 (4kp60 decode), H264 (1080p60 decode, 1080p30 encode)</li>  <li>OpenGL ES 3.0 graphics</li>  <li>Micro-SD card slot for loading operating system and data storage</li>  <li>5V DC via USB-C connector (minimum 3A)</li>  <li>5V DC via GPIO header (minimum 3A)</li>  <li>Power over Ethernet (PoE) enabled (requires separate PoE HAT)</li>  <li>Operating temperature: 0 – 50 degrees C ambient</li>  <li>A good quality 2.5A power supply can be used if downstream USB peripherals consume less than 500mA in total.</li></ul><h2 id=\"circuitpython\">CircuitPython</h2><p>These downloads are for CircuitPython standalone on the Raspberry Pi (not Blinka). There is no underlying operating system. It is in early development.</p><p>After installing the disk image on an SD card, the normal CircuitPython USB workflow is available over the USB-C connector used for power-only usually. A powered USB hub is needed to power the Pi while allowing USB data to also connect.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4295\">Adafruit</a></li></ul>"
     },
     {
+        "board_id": "raspberrypi_rpi_pico2_w_zephyr",
+        "title": "Raspberry Pi Pico 2 W (Zephyr) Download",
+        "name": "Raspberry Pi Pico 2 W (Zephyr)",
+        "board_url": [
+            "https://www.raspberrypi.com/products/raspberry-pi-pico-2/"
+        ],
+        "board_image": "raspberry_pi_pico2_w.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Wi-Fi",
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
+        ],
+        "url_path": "/board/raspberrypi_rpi_pico2_w_zephyr/",
+        "description": "<p>The Raspberry Pi Pico 2 W adds Wi-Fi connectivity to the Pico 2 platform, featuring the RP2350 chip with dual ARM Cortex-M33 or dual Hazard3 RISC-V cores and an Infineon CYW43439 wireless chip providing 802.11n Wi-Fi. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p><p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href=\"/board/raspberry_pi_pico2_w/\">Raspberry Pi Pico 2 W</a> page.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/6087\">Adafruit</a></li>  <li><a href=\"https://www.raspberrypi.com/products/raspberry-pi-pico-2/\">Raspberry Pi</a></li></ul>"
+    },
+    {
+        "board_id": "raspberrypi_rpi_pico2_zephyr",
+        "title": "Raspberry Pi Pico 2 (Zephyr) Download",
+        "name": "Raspberry Pi Pico 2 (Zephyr)",
+        "board_url": [
+            "https://www.raspberrypi.com/products/raspberry-pi-pico-2/"
+        ],
+        "board_image": "raspberry_pi_pico2.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
+        ],
+        "url_path": "/board/raspberrypi_rpi_pico2_zephyr/",
+        "description": "<p>The Raspberry Pi Pico 2 features the RP2350 chip with dual ARM Cortex-M33 or dual Hazard3 RISC-V cores running up to 150 MHz, 520KB of SRAM, and 4MB of onboard flash memory. It retains the same Pico form factor while offering improved performance and security features. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p><p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href=\"/board/raspberry_pi_pico2/\">Raspberry Pi Pico 2</a> page.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/6006\">Adafruit</a></li>  <li><a href=\"https://www.raspberrypi.com/products/raspberry-pi-pico-2/\">Raspberry Pi</a></li></ul>"
+    },
+    {
+        "board_id": "raspberrypi_rpi_pico_w_zephyr",
+        "title": "Raspberry Pi Pico W (Zephyr) Download",
+        "name": "Raspberry Pi Pico W (Zephyr)",
+        "board_url": [
+            "https://www.raspberrypi.com/products/raspberry-pi-pico/"
+        ],
+        "board_image": "raspberry_pi_pico_w.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Wi-Fi",
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
+        ],
+        "url_path": "/board/raspberrypi_rpi_pico_w_zephyr/",
+        "description": "<p>The Raspberry Pi Pico W adds Wi-Fi connectivity to the Pico platform, featuring the RP2040 chip with dual ARM Cortex-M0+ cores and an Infineon CYW43439 wireless chip providing 802.11n Wi-Fi. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p><p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href=\"/board/raspberry_pi_pico_w/\">Raspberry Pi Pico W</a> page.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5526\">Adafruit</a></li>  <li><a href=\"https://www.raspberrypi.com/products/raspberry-pi-pico/\">Raspberry Pi</a></li></ul>"
+    },
+    {
+        "board_id": "raspberrypi_rpi_pico_zephyr",
+        "title": "Raspberry Pi Pico (Zephyr) Download",
+        "name": "Raspberry Pi Pico (Zephyr)",
+        "board_url": [
+            "https://www.raspberrypi.com/products/raspberry-pi-pico/"
+        ],
+        "board_image": "raspberry_pi_pico.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor"
+        ],
+        "url_path": "/board/raspberrypi_rpi_pico_zephyr/",
+        "description": "<p>The Raspberry Pi Pico is a low-cost, high-performance microcontroller board featuring the RP2040 chip with dual ARM Cortex-M0+ cores running up to 133 MHz, 264KB of SRAM, and 2MB of onboard flash memory. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p><p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href=\"/board/raspberry_pi_pico/\">Raspberry Pi Pico</a> page.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4883\">Adafruit</a></li>  <li><a href=\"https://www.raspberrypi.com/products/raspberry-pi-pico/\">Raspberry Pi</a></li></ul>"
+    },
+    {
         "board_id": "raspberrypi_zero",
         "title": "Raspberry Pi Zero Download",
         "name": "Zero",
@@ -10268,9 +10461,28 @@
         "description": "<p>ESP 32 Mini minimum system development board, can use Arduino compiler for development, rich function library, and free open source environment, also support other compiler environment, ESP32 module built-in Hall sensor, WIFI is suitable for project or development use.</p><p>ESP32-S2 chip: The ESP32-S2 chip is equipped with the Xtensa R 32-bit LX7 single-core processor and operates at uo to 240 MHz. You can turn off the power to the CPU and use the low-power coprocessor to monitor for state changes in peripherals or whether certain analog amounts exceed thresholds. The ESP32-S2 integrates a wealth of peripherals including SPI, I2S, UART, I2C, LEDPWM, TWAI R controller, ADC, DAC, touch sensor, temperature sensor and up to 43 GPIOs. In addition, the ESP32-S2 has a full-speed USB On-The-Go(OTG) port for USB communication.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256806120950874.html\">AliExpress</a></li></ul>"
     },
     {
+        "board_id": "renesas_da14695_dk_usb",
+        "title": "Renesas DA14695 Development Kit USB (Zephyr) Download",
+        "name": "Renesas DA14695 Development Kit USB (Zephyr)",
+        "board_url": [
+            "https://docs.zephyrproject.org/latest/boards/renesas/da14695_dk_usb/doc/index.html"
+        ],
+        "board_image": "renesas_da14695_dk_usb.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE"
+        ],
+        "url_path": "/board/renesas_da14695_dk_usb/",
+        "description": "<p>The DA14695 Development Kit USB is a small USB dongle-style development board for Renesas’ SmartBond DA14695 Bluetooth Low Energy 5.2 SoC. The DA14695 features an Arm Cortex-M33 core, integrated BLE radio, and on-chip memory.</p><p>The compact USB-A form factor makes it convenient for BLE development and testing — simply plug it into a USB port to get started. It is suitable for prototyping BLE peripherals, beacons, and IoT sensor nodes. The Zephyr port of CircuitPython is currently in alpha.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://docs.zephyrproject.org/latest/boards/renesas/da14695_dk_usb/doc/index.html\">Zephyr Project</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/renesas-electronics-corporation/DA14695-00HQDEVKT-U/9867282\">Digi-Key</a></li>  <li><a href=\"https://www.mouser.com/ProductDetail/Renesas-Dialog-Semiconductor/DA14695-00HQDEVKT-U\">Mouser</a></li></ul>"
+    },
+    {
         "board_id": "renesas_ek_ra6m5",
-        "title": "EK-RA6M5 Evaluation Kit Download",
-        "name": "EK-RA6M5 Evaluation Kit",
+        "title": "EK-RA6M5 Evaluation Kit (Zephyr) Download",
+        "name": "EK-RA6M5 Evaluation Kit (Zephyr)",
         "board_url": [
             "https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m5-evaluation-kit-ra6m5-mcu-group"
         ],
@@ -10289,8 +10501,8 @@
     },
     {
         "board_id": "renesas_ek_ra8d1",
-        "title": "EK-RA8D1 Evaluation Kit Download",
-        "name": "EK-RA8D1 Evaluation Kit",
+        "title": "EK-RA8D1 Evaluation Kit (Zephyr) Download",
+        "name": "EK-RA8D1 Evaluation Kit (Zephyr)",
         "board_url": [
             "https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra8d1-evaluation-kit-ra8d1-mcu-group"
         ],
@@ -11554,8 +11766,8 @@
     },
     {
         "board_id": "st_nucleo_n657x0_q",
-        "title": "Nucleo N657X0-Q Download",
-        "name": "Nucleo N657X0-Q",
+        "title": "Nucleo N657X0-Q (Zephyr) Download",
+        "name": "Nucleo N657X0-Q (Zephyr)",
         "board_url": [
             "https://estore.st.com/en/nucleo-n657x0-q-cpn.html"
         ],
@@ -11575,7 +11787,7 @@
     {
         "board_id": "st_nucleo_u575zi_q",
         "title": "Nucleo 575ZI-Q Download",
-        "name": "STM32U575ZIT6Q Nucleo",
+        "name": "STM32U575ZIT6Q Nucleo (Zephyr)",
         "board_url": [
             "https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html"
         ],
@@ -11592,9 +11804,30 @@
         "description": "<p>The STM32 Nucleo-144 board provides an affordable and flexible way for users to try out new concepts and build prototypes by choosing from the various combinations of performance and power consumption features, provided by the STM32 microcontroller. For the compatible boards, the internal or external SMPS significantly reduces power consumption in Run mode.</p><p>The ST Zio connector, which extends the ARDUINO® Uno V3 connectivity, and the ST morpho headers provide an easy means of expanding the functionality of the Nucleo open development platform with a wide choice of specialized shields.</p><p>The STM32 Nucleo-144 board does not require any separate probe as it integrates the ST-LINK debugger/programmer.</p><p>The STM32 Nucleo-144 board comes with the STM32 comprehensive free software libraries and examples available with the STM32Cube MCU Package.</p><h2 id=\"features\">Features</h2><ul>  <li>Common features    <ul>      <li>STM32 microcontroller in an LQFP144, TFBGA225, or VFBGA264 package</li>      <li>3 user LEDs</li>      <li>1 user push-button and 1 reset push-button</li>      <li>32.768 kHz crystal oscillator</li>      <li>Board connectors:        <ul>          <li>SWD</li>          <li>ST morpho expansion connector</li>        </ul>      </li>      <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>      <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>      <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li>    </ul>  </li>  <li>Features specific to some of the boards (refer to the ordering information section of the data brief for details)    <ul>      <li>External or internal SMPS to generate Vcore logic supply</li>      <li>Ethernet compliant with IEEE-802.3-2002</li>      <li>USB Device only, USB OTG full speed, or SNK/UFP (full-speed or high-speed mode)</li>      <li>Board connectors:        <ul>          <li>ARDUINO® Uno V3 connector or ST Zio expansion connector including ARDUINO® Uno V3</li>          <li>Camera module FPC</li>          <li>MIPI20 compatible connector with trace signals</li>          <li>USB with Micro-AB or USB Type-C®</li>          <li>Ethernet RJ45</li>        </ul>      </li>      <li>On-board ST-LINK (STLINK/V2-1, STLINK-V3E, or STLINK-V3EC) debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-u575zi-q.html\">STMicroelectronics</a></li></ul>"
     },
     {
+        "board_id": "st_stm32h750b_dk",
+        "title": "STM32H750B-DK Discovery Kit (Zephyr) Download",
+        "name": "STM32H750B-DK Discovery Kit (Zephyr)",
+        "board_url": [
+            "https://www.st.com/en/evaluation-tools/stm32h750b-dk.html"
+        ],
+        "board_image": "st_stm32h750b_dk.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Arduino Shield Compatible",
+            "USB-C"
+        ],
+        "url_path": "/board/st_stm32h750b_dk/",
+        "description": "<p>The STM32H750B-DK Discovery kit is a complete demonstration and development platform for the STMicroelectronics Arm Cortex-M7 core-based STM32H750XB microcontroller.</p><p>The board provides a rich set of hardware features including a 4.3” RGB LCD with capacitive touch panel, USB OTG FS, Ethernet 10/100 Mbit/s, eMMC, SDRAM, Quad-SPI flash memory, SAI audio DAC with audio jack, MEMS digital microphone, and Arduino Uno V3 connectors. An integrated STLINK-V3E debugger and programmer is included for development and debugging. The Zephyr port of CircuitPython is currently in alpha.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/stm32h750b-dk-cpn.html\">STMicroelectronics</a></li>  <li><a href=\"https://www.digikey.com/en/products/detail/stmicroelectronics/STM32H750B-DK/10244823\">Digi-Key</a></li>  <li><a href=\"https://www.mouser.com/ProductDetail/STMicroelectronics/STM32H750B-DK\">Mouser</a></li></ul>"
+    },
+    {
         "board_id": "st_stm32h7b3i_dk",
-        "title": "STM32U575ZIT6Q Discovery Kit Download",
-        "name": "STM32U575ZIT6Q Discovery Kit",
+        "title": "STM32U575ZIT6Q Discovery Kit (Zephyr) Download",
+        "name": "STM32U575ZIT6Q Discovery Kit (Zephyr)",
         "board_url": [
             "https://www.st.com/en/evaluation-tools/stm32h7b3i-dk.html"
         ],
@@ -11611,6 +11844,26 @@
         ],
         "url_path": "/board/st_stm32h7b3i_dk/",
         "description": "<p>The STM32H7B3I-DK Discovery kit is a complete demonstration and development platform for the STMicroelectronics Arm® Cortex®-M7 core-based STM32H7B3LIH6Q microcontroller.</p><p>The STM32H7B3I-DK Discovery kit is used as a reference design for user application development before porting to the final product, thus simplifying the application development.</p><p>The full range of hardware features available on the board helps users enhance their application development by an evaluation of almost all peripherals (such as USB OTG_HS, microSD™, USART, CAN FD, audio DAC stereo with audio jack input and output, camera, SDRAM, Octo‑SPI flash memory, and RGB interfaced LCD with capacitive touch panel). ARDUINO® Uno V3 connectors provide easy connection to extension shields or daughterboards for specific applications.</p><p>STLINK-V3E is integrated into the board, as an embedded in-circuit debugger and programmer for the STM32 MCU and the USB Virtual COM port bridge.</p><p>The STM32H7B3I-DK board comes with the STM32CubeH7 MCU Package, which provides an STM32 comprehensive software HAL library as well as various software examples.</p><h2 id=\"features\">Features</h2><ul>  <li>STM32H7B3LIH6Q Arm®-based microcontroller featuring 2 Mbytes of flash memory and 1.4 Mbytes of RAM in a BGA225 package</li>  <li>4.3” (480x272 pixels) TFT color LCD module including a capacitive touch panel with RGB interface</li>  <li>Wi‑Fi® module compliant with 802.11 b/g/n</li>  <li>USB OTG HS</li>  <li>Audio codec</li>  <li>512‑Mbit Octo‑SPI NOR flash memory</li>  <li>128-Mbit SDRAM</li>  <li>Two user LEDs</li>  <li>User and reset push-buttons</li>  <li>Fanout daughterboard</li>  <li>CAN FD</li>  <li>Board connectors:    <ul>      <li>8‑bit camera</li>      <li>USB with Micro-AB</li>      <li>Stereo headset jack including analog microphone input</li>      <li>Audio jack for external speakers</li>      <li>microSD™ card</li>      <li>Tag‑Connect™ 10-pin footprint</li>      <li>Arm® Cortex® 10-pin 1.27mm-pitch debug connector over STDC14 footprint</li>      <li>ARDUINO® Uno V3 expansion connector</li>      <li>STMod+ expansion connector</li>      <li>Audio daughterboard expansion connector</li>      <li>External I2C expansion connector</li>    </ul>  </li>  <li>Flexible power-supply options: ST-LINK USB VBUS, USB connector, or external sources</li>  <li>On-board STLINK-V3E debugger/programmer with USB re-enumeration capability: mass storage, Virtual COM port, and debug port</li>  <li>Comprehensive free software libraries and examples available with the STM32Cube MCU Package</li>  <li>Support of a wide choice of Integrated Development Environments (IDEs) including IAR Embedded Workbench®, MDK-ARM, and STM32CubeIDE</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-discovery-kits/stm32h7b3i-dk.html\">STMicroelectronics</a></li>  <li><a href=\"https://www.newark.com/stmicroelectronics/stm32h7b3i-eval/evaluation-board-32bit-arm-cortex/dp/78AK8714\">Newark</a></li></ul>"
+    },
+    {
+        "board_id": "st_stm32wba65i_dk1",
+        "title": "STM32WBA65I-DK1 Discovery Kit (Zephyr) Download",
+        "name": "STM32WBA65I-DK1 Discovery Kit (Zephyr)",
+        "board_url": [
+            "https://www.st.com/en/evaluation-tools/stm32wba65i-dk1.html"
+        ],
+        "board_image": "st_stm32wba65i_dk1.jpg",
+        "date_added": "2026-04-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Arduino Shield Compatible"
+        ],
+        "url_path": "/board/st_stm32wba65i_dk1/",
+        "description": "<p>The STM32WBA65I-DK1 Discovery kit is a complete demonstration and development platform for the STM32WBA65RIV7 microcontroller, featuring an Arm Cortex-M33 core with Arm TrustZone and mainline security extension, 2 MB of flash memory, and 512 KB of SRAM.</p><p>The board embeds a powerful and ultralow-power radio compliant with Bluetooth LE including isochronous channel support for Bluetooth LE Audio, Matter, and Zigbee. It supports Arduino Uno V3 connectivity for expansion, and integrates an STLINK-V3EC debugger and programmer with USB Virtual COM port bridge. The Zephyr port of CircuitPython is currently in alpha.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://estore.st.com/en/stm32wba65i-dk1-cpn.html\">STMicroelectronics</a></li>  <li><a href=\"https://www.digikey.com/en/products/detail/stmicroelectronics/STM32WBA65I-DK1/26929825\">Digi-Key</a></li>  <li><a href=\"https://www.mouser.com/ProductDetail/STMicroelectronics/STM32WBA65I-DK1\">Mouser</a></li></ul>"
     },
     {
         "board_id": "stackrduino_m0_pro",
@@ -12921,6 +13174,28 @@
         "description": "<p>This is a WiFi development board with compact size, plenty peripheral interfaces, integrated low-power Wi-Fi System-on-Chip (SoC) and mass memory, supporting Raspberry Pi Pico expansion board ecosystem.Equipped with hardware crypto accelerator, RNG, HMAC and Digital Signature module, it can meet the security requirements of the Internet of Things.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li><strong>ESP32-S2FH4</strong> - Xtensa single-core 32-bit LX7 240Mhz microprocessor</li>  <li><strong>Boot &amp; Reset</strong> buttons to get into the bootloader</li>  <li><strong>TPS63000DRCR</strong> on-board 1.8A current high efficiency boost/buck DC-DC power supply IC</li>  <li>Integrated 320KB SRAM, 128KB ROM, 8MB PSRAM, 4MB Flash memory</li>  <li>Support IEEE802.11 b/g/n, on-board 2.4 GHz WiFi ceramic antenna, up to 150 Mbps data transfer rate</li>  <li>USB-C connector, no more plug orientation problem</li>  <li>On-board 0.96inch 160×80 pixels 65K color IPS LCD display.</li>  <li>On-board single 3.7V lithium battery charge/discharge header, suitable for mobile IoT product design.</li></ul><p>Waveshare wiki <a href=\"https://www.waveshare.com/wiki/ESP32-S2-Pico\">link</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s2.htm\">Waveshare</a></li></ul>"
     },
     {
+        "board_id": "waveshare_esp32_s3_amoled_241",
+        "title": "Waveshare ESP32-S3-Touch-AMOLED-2.41 Download",
+        "name": "Waveshare ESP32-S3-Touch-AMOLED-2.41",
+        "board_url": [
+            "https://www.waveshare.com/esp32-s3-touch-amoled-2.41.htm"
+        ],
+        "board_image": "waveshare_esp32_s3_amoled_241.jpg",
+        "date_added": "2026-04-21",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Display",
+            "USB-C"
+        ],
+        "url_path": "/board/waveshare_esp32_s3_amoled_241/",
+        "description": "<p>The Waveshare ESP32-S3-Touch-AMOLED-2.41 is a development board featuring an ESP32-S3R8 with 8MB PSRAM and 16MB flash, paired with a 2.41” AMOLED touch display (600×450 resolution) driven by an RM690B0 controller over QSPI. The capacitive touch panel uses an FT6336 controller.</p><p>The board includes an onboard accelerometer and gyroscope sensor (IMU), RTC, and a TF card slot. It provides I2C, UART, USB, and a 34-pin GPIO header for expansion. A USB-C connector is used for power and programming.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.waveshare.com/esp32-s3-touch-amoled-2.41.htm\">Waveshare</a></li></ul>"
+    },
+    {
         "board_id": "waveshare_esp32_s3_eth",
         "title": "ESP32-S3 ETH Development Board Download",
         "name": "ESP32-S3 ETH Development Board",
@@ -13655,6 +13930,26 @@
         "description": "<p>The Raspberry Pi Pico is a microcontroller board based on the Raspberry Pi RP2040 microcontroller chip. It has been designed to be a low-cost, high-performance microcontroller board with flexible digital interfaces. The Raspberry Pi Pico features two ARM Cortex-M0+ cores run up to 133MHz; 256KB RAM; 30 GPIO pins; and a broad range of interfacing options. This is paired with 2MB/4MB/8MB/16MB of onboard QSPI Flash memory for code and data storage.</p><p><strong>Specifications:</strong></p><ul>  <li>RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom</li>  <li>Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz</li>  <li>264KB of SRAM, and 2MB/4MB/8MB/16MB of on-board Flash memory</li>  <li>USB 1.1 with device and host support</li>  <li>Low-power sleep and dormant modes</li>  <li>Drag-and-drop programming using mass storage over USB</li>  <li>26 × multi-function GPIO pins</li>  <li>2 × SPI, 2 × I2C, 2 × UART, 3 × 12-bit ADC, 16 × controllable PWM channels</li>  <li>Accurate clock and timer on-chip</li>  <li>Temperature sensor</li>  <li>Accelerated floating-point libraries on-chip</li>  <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/item/3256803521775546.html?skuId=12000026898823783\">Aliexpress</a></li></ul>"
     },
     {
+        "board_id": "weact_studio_rp2350b_core",
+        "title": "WeAct Studio RP2350B Core Download",
+        "name": "WeAct Studio RP2350B Core",
+        "board_url": [
+            "https://github.com/WeActStudio"
+        ],
+        "board_image": "weact_studio_rp2350b_core.jpg",
+        "date_added": "2026-04-21",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "Breadboard-Friendly"
+        ],
+        "url_path": "/board/weact_studio_rp2350b_core/",
+        "description": "<p>The WeAct Studio RP2350B Core is a compact development board based on the Raspberry Pi RP2350B microcontroller (B package). It features dual ARM Cortex-M33 or dual Hazard3 RISC-V cores running up to 150 MHz, 520KB of SRAM, 16MB of onboard W25Q128JV QSPI flash, and a PSRAM chip select pin for optional external PSRAM.</p><p>The board uses a USB-C connector for power and programming, and provides access to the RP2350B’s GPIO pins in a breadboard-friendly form factor. It supports drag-and-drop UF2 programming.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/WeActStudio/WeActStudio.RP2350BCoreBoard\">GitHub</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256808218489646.html\">AliExpress</a></li></ul>"
+    },
+    {
         "board_id": "weenoisemakers_noisenugget",
         "title": "Noise Nugget 2040 Download",
         "name": "Noise Nugget 2040",
@@ -13911,6 +14206,27 @@
         ],
         "url_path": "/board/xinabox_cs11/",
         "description": "<p>This xCHIP forms part of the core modules. The SAM D21 is a series of low-power micro controllers using the 32-bit ARM® Cortex® -M0+ processor, with 256 KB Flash and 32KB of SRAM. Compatible with Arduino platform due to the shared architecture with the Arduino M0.</p><h3 id=\"product-highlights\">Product Highlights</h3><ul>  <li>ARM Cortex-M0+ Architecture</li>  <li>48 MHz</li>  <li>256 kB Flash</li>  <li>32 kB SRAM Memory</li>  <li>SWD Debugging with IP03 Interface and Capable Programmer</li>  <li>Low Power Idle and Standby Modes</li></ul><h3 id=\"specifications\">Specifications</h3><ul>  <li>ARM Cortex-M0+ Architecture</li>  <li>48 MHz</li>  <li>256 kB Flash</li>  <li>32 kB SRAM Memory</li>  <li>SWD Debugging with IP03 Interface and Capable Programmer</li>  <li>Low Power Idle and Standby Modes</li>  <li>Five 16-Bit Configurable Timers</li>  <li>Three 24-Bit Timers/Counters</li>  <li>32-Bit Real Time Counter with Clock/Calendar Function</li>  <li>Watchdog Timer</li>  <li>CRC-32 Generator</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://xinabox.cc/products/cs11?_pos=1&amp;_sid=8a988d61c&amp;_ss=r\">XinaBox CS11</a></li></ul>"
+    },
+    {
+        "board_id": "xteink_x4",
+        "title": "Xteink X4 Download",
+        "name": "Xteink X4",
+        "board_url": [
+            "https://xteink.com"
+        ],
+        "board_image": "xteink_x4.jpg",
+        "date_added": "2026-04-21",
+        "family": "esp32c3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Display"
+        ],
+        "url_path": "/board/xteink_x4/",
+        "description": "<p>The Xteink X4 is an ESP32-C3 based board with a built-in 4.26” e-paper display (800×480 resolution) using an SSD1677 controller driving a GDEQ0426T82 e-ink panel. The ESP32-C3 provides Wi-Fi and Bluetooth Low Energy connectivity.</p><p>The board features 16MB of flash storage and uses SPI to communicate with the e-paper display. It includes a boot button for entering safe mode. The display is initialized automatically on boot with CircuitPython’s displayio/epaperdisplay support.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://xteink.com/products/xteink-x4\">Xteink</a></li></ul>"
     },
     {
         "board_id": "yd_esp32_s3_n16r8",

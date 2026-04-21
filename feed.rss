@@ -4,9 +4,426 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 21 Apr 2026 13:06:10 -0400</lastBuildDate>
+<lastBuildDate>Tue, 21 Apr 2026 14:28:30 -0400</lastBuildDate>
 
 <item>
+    <title>Xteink X4</title>
+    <link>https://circuitpython.org/board/xteink_x4/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/xteink_x4.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/xteink_x4.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/xteink_x4.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Xteink</p> <p>The Xteink X4 is an ESP32-C3 based board with a built-in 4.26” e-paper display (800×480 resolution) using an SSD1677 controller driving a GDEQ0426T82 e-ink panel. The ESP32-C3 provides Wi-Fi and Bluetooth Low Energy connectivity.</p>
+
+<p>The board features 16MB of flash storage and uses SPI to communicate with the e-paper display. It includes a boot button for entering safe mode. The display is initialized automatically on boot with CircuitPython’s displayio/epaperdisplay support.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://xteink.com/products/xteink-x4">Xteink</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/xteink_x4/</guid>
+  </item><item>
+    <title>WeAct Studio RP2350B Core</title>
+    <link>https://circuitpython.org/board/weact_studio_rp2350b_core/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/weact_studio_rp2350b_core.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/weact_studio_rp2350b_core.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/weact_studio_rp2350b_core.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By WeAct Studio</p> <p>The WeAct Studio RP2350B Core is a compact development board based on the Raspberry Pi RP2350B microcontroller (B package). It features dual ARM Cortex-M33 or dual Hazard3 RISC-V cores running up to 150 MHz, 520KB of SRAM, 16MB of onboard W25Q128JV QSPI flash, and a PSRAM chip select pin for optional external PSRAM.</p>
+
+<p>The board uses a USB-C connector for power and programming, and provides access to the RP2350B’s GPIO pins in a breadboard-friendly form factor. It supports drag-and-drop UF2 programming.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://github.com/WeActStudio/WeActStudio.RP2350BCoreBoard">GitHub</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256808218489646.html">AliExpress</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/weact_studio_rp2350b_core/</guid>
+  </item><item>
+    <title>Waveshare ESP32-S3-Touch-AMOLED-2.41</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_amoled_241/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_s3_amoled_241.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_amoled_241.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_amoled_241.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Waveshare</p> <p>The Waveshare ESP32-S3-Touch-AMOLED-2.41 is a development board featuring an ESP32-S3R8 with 8MB PSRAM and 16MB flash, paired with a 2.41” AMOLED touch display (600×450 resolution) driven by an RM690B0 controller over QSPI. The capacitive touch panel uses an FT6336 controller.</p>
+
+<p>The board includes an onboard accelerometer and gyroscope sensor (IMU), RTC, and a TF card slot. It provides I2C, UART, USB, and a 34-pin GPIO header for expansion. A USB-C connector is used for power and programming.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-s3-touch-amoled-2.41.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_amoled_241/</guid>
+  </item><item>
+    <title>STM32WBA65I-DK1 Discovery Kit (Zephyr)</title>
+    <link>https://circuitpython.org/board/st_stm32wba65i_dk1/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/st_stm32wba65i_dk1.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/st_stm32wba65i_dk1.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/st_stm32wba65i_dk1.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By STMicroelectronics</p> <p>The STM32WBA65I-DK1 Discovery kit is a complete demonstration and development platform for the STM32WBA65RIV7 microcontroller, featuring an Arm Cortex-M33 core with Arm TrustZone and mainline security extension, 2 MB of flash memory, and 512 KB of SRAM.</p>
+
+<p>The board embeds a powerful and ultralow-power radio compliant with Bluetooth LE including isochronous channel support for Bluetooth LE Audio, Matter, and Zigbee. It supports Arduino Uno V3 connectivity for expansion, and integrates an STLINK-V3EC debugger and programmer with USB Virtual COM port bridge. The Zephyr port of CircuitPython is currently in alpha.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://estore.st.com/en/stm32wba65i-dk1-cpn.html">STMicroelectronics</a></li>
+  <li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/STM32WBA65I-DK1/26929825">Digi-Key</a></li>
+  <li><a href="https://www.mouser.com/ProductDetail/STMicroelectronics/STM32WBA65I-DK1">Mouser</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/st_stm32wba65i_dk1/</guid>
+  </item><item>
+    <title>STM32H750B-DK Discovery Kit (Zephyr)</title>
+    <link>https://circuitpython.org/board/st_stm32h750b_dk/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/st_stm32h750b_dk.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/st_stm32h750b_dk.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/st_stm32h750b_dk.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By STMicroelectronics</p> <p>The STM32H750B-DK Discovery kit is a complete demonstration and development platform for the STMicroelectronics Arm Cortex-M7 core-based STM32H750XB microcontroller.</p>
+
+<p>The board provides a rich set of hardware features including a 4.3” RGB LCD with capacitive touch panel, USB OTG FS, Ethernet 10/100 Mbit/s, eMMC, SDRAM, Quad-SPI flash memory, SAI audio DAC with audio jack, MEMS digital microphone, and Arduino Uno V3 connectors. An integrated STLINK-V3E debugger and programmer is included for development and debugging. The Zephyr port of CircuitPython is currently in alpha.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://estore.st.com/en/stm32h750b-dk-cpn.html">STMicroelectronics</a></li>
+  <li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/STM32H750B-DK/10244823">Digi-Key</a></li>
+  <li><a href="https://www.mouser.com/ProductDetail/STMicroelectronics/STM32H750B-DK">Mouser</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/st_stm32h750b_dk/</guid>
+  </item><item>
+    <title>Renesas DA14695 Development Kit USB (Zephyr)</title>
+    <link>https://circuitpython.org/board/renesas_da14695_dk_usb/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/renesas_da14695_dk_usb.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/renesas_da14695_dk_usb.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/renesas_da14695_dk_usb.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Renesas</p> <p>The DA14695 Development Kit USB is a small USB dongle-style development board for Renesas’ SmartBond DA14695 Bluetooth Low Energy 5.2 SoC. The DA14695 features an Arm Cortex-M33 core, integrated BLE radio, and on-chip memory.</p>
+
+<p>The compact USB-A form factor makes it convenient for BLE development and testing — simply plug it into a USB port to get started. It is suitable for prototyping BLE peripherals, beacons, and IoT sensor nodes. The Zephyr port of CircuitPython is currently in alpha.</p>
+
+<h2 id="learn-more">Learn More</h2>
+
+<ul>
+  <li><a href="https://docs.zephyrproject.org/latest/boards/renesas/da14695_dk_usb/doc/index.html">Zephyr Project</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.digikey.com/en/products/detail/renesas-electronics-corporation/DA14695-00HQDEVKT-U/9867282">Digi-Key</a></li>
+  <li><a href="https://www.mouser.com/ProductDetail/Renesas-Dialog-Semiconductor/DA14695-00HQDEVKT-U">Mouser</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/renesas_da14695_dk_usb/</guid>
+  </item><item>
+    <title>Raspberry Pi Pico (Zephyr)</title>
+    <link>https://circuitpython.org/board/raspberrypi_rpi_pico_zephyr/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberry_pi_pico.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi Pico is a low-cost, high-performance microcontroller board featuring the RP2040 chip with dual ARM Cortex-M0+ cores running up to 133 MHz, 264KB of SRAM, and 2MB of onboard flash memory. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p>
+
+<p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href="/board/raspberry_pi_pico/">Raspberry Pi Pico</a> page.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4883">Adafruit</a></li>
+  <li><a href="https://www.raspberrypi.com/products/raspberry-pi-pico/">Raspberry Pi</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_rpi_pico_zephyr/</guid>
+  </item><item>
+    <title>Raspberry Pi Pico W (Zephyr)</title>
+    <link>https://circuitpython.org/board/raspberrypi_rpi_pico_w_zephyr/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberry_pi_pico_w.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico_w.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico_w.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi Pico W adds Wi-Fi connectivity to the Pico platform, featuring the RP2040 chip with dual ARM Cortex-M0+ cores and an Infineon CYW43439 wireless chip providing 802.11n Wi-Fi. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p>
+
+<p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href="/board/raspberry_pi_pico_w/">Raspberry Pi Pico W</a> page.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5526">Adafruit</a></li>
+  <li><a href="https://www.raspberrypi.com/products/raspberry-pi-pico/">Raspberry Pi</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_rpi_pico_w_zephyr/</guid>
+  </item><item>
+    <title>Raspberry Pi Pico 2 (Zephyr)</title>
+    <link>https://circuitpython.org/board/raspberrypi_rpi_pico2_zephyr/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberry_pi_pico2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico2.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico2.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi Pico 2 features the RP2350 chip with dual ARM Cortex-M33 or dual Hazard3 RISC-V cores running up to 150 MHz, 520KB of SRAM, and 4MB of onboard flash memory. It retains the same Pico form factor while offering improved performance and security features. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p>
+
+<p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href="/board/raspberry_pi_pico2/">Raspberry Pi Pico 2</a> page.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/6006">Adafruit</a></li>
+  <li><a href="https://www.raspberrypi.com/products/raspberry-pi-pico-2/">Raspberry Pi</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_rpi_pico2_zephyr/</guid>
+  </item><item>
+    <title>Raspberry Pi Pico 2 W (Zephyr)</title>
+    <link>https://circuitpython.org/board/raspberrypi_rpi_pico2_w_zephyr/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/raspberry_pi_pico2_w.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico2_w.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/raspberry_pi_pico2_w.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Raspberry Pi</p> <p>The Raspberry Pi Pico 2 W adds Wi-Fi connectivity to the Pico 2 platform, featuring the RP2350 chip with dual ARM Cortex-M33 or dual Hazard3 RISC-V cores and an Infineon CYW43439 wireless chip providing 802.11n Wi-Fi. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p>
+
+<p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href="/board/raspberry_pi_pico2_w/">Raspberry Pi Pico 2 W</a> page.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/6087">Adafruit</a></li>
+  <li><a href="https://www.raspberrypi.com/products/raspberry-pi-pico-2/">Raspberry Pi</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/raspberrypi_rpi_pico2_w_zephyr/</guid>
+  </item><item>
+    <title>NXP FRDM-RW612 (Zephyr)</title>
+    <link>https://circuitpython.org/board/nxp_frdm_rw612/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/nxp_frdm_rw612.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/nxp_frdm_rw612.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/nxp_frdm_rw612.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By NXP</p> <p>The FRDM-RW612 is a compact and scalable development board for rapid prototyping of the NXP RW61x series of Wi-Fi 6 + Bluetooth Low Energy + 802.15.4 tri-radio wireless MCUs. It features an RW612 Arm Cortex-M33 core running at 260 MHz with 1.2 MB of on-chip SRAM, 512 Mbit QSPI flash, and 64 Mbit QSPI pSRAM.</p>
+
+<p>The board offers easy access to the MCU’s I/Os and peripherals through Arduino headers, FRDM expansion rows, Pmod and mikroBUS connectors. It includes an Ethernet PHY and RJ45 connector, two USB-C connectors, an on-board MCU-Link debugger with CMSIS-DAP, and a P3T1755 I3C temperature sensor. The Zephyr port of CircuitPython is currently in alpha.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-RW612">NXP</a></li>
+  <li><a href="https://www.digikey.com/en/products/detail/nxp-usa-inc/FRDM-RW612/21695498">Digi-Key</a></li>
+  <li><a href="https://www.mouser.com/ProductDetail/NXP-Semiconductors/FRDM-RW612">Mouser</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/nxp_frdm_rw612/</guid>
+  </item><item>
+    <title>Feather RP2040 (Zephyr)</title>
+    <link>https://circuitpython.org/board/adafruit_feather_rp2040_zephyr/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/adafruit_feather_rp2040.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/adafruit_feather_rp2040.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/adafruit_feather_rp2040.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Adafruit</p> <p>The Adafruit Feather RP2040 features the Raspberry Pi RP2040 chip with dual ARM Cortex-M0+ cores running at 133 MHz, 264KB of RAM, 8MB of QSPI flash, a STEMMA QT connector, USB-C, and built-in LiPoly battery charging. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p>
+
+<p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href="/board/adafruit_feather_rp2040/">Feather RP2040</a> page.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4884">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_rp2040_zephyr/</guid>
+  </item><item>
+    <title>Feather nRF52840 Express (Zephyr)</title>
+    <link>https://circuitpython.org/board/adafruit_feather_nrf52840_zephyr/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/feather_nrf52840_express.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/feather_nrf52840_express.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/feather_nrf52840_express.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Adafruit</p> <p>The Adafruit Feather nRF52840 Express is the Feather you have been waiting for! It’s the new Adafruit Feather nRF52840 Express with native USB support, built-in NeoPixel, and Bluetooth Low Energy support. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p>
+
+<p>The Feather nRF52840 Express features the Nordic nRF52840 with native USB, Bluetooth Low Energy support, and built-in battery charging. It has a 2MB QSPI flash for CircuitPython file storage and a NeoPixel LED.</p>
+
+<p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href="/board/feather_nrf52840_express/">Feather nRF52840 Express</a> page.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4062">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_nrf52840_zephyr/</guid>
+  </item><item>
+    <title>Feather nRF52840 Sense (Zephyr)</title>
+    <link>https://circuitpython.org/board/adafruit_feather_nrf52840_sense_zephyr/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/feather_bluefruit_sense.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/feather_bluefruit_sense.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/feather_bluefruit_sense.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Adafruit</p> <p>The Adafruit Feather Bluefruit Sense takes the Feather nRF52840 Express and adds a suite of sensors: BME280 temperature/humidity/barometric pressure, LIS3MDL magnetometer, LSM6DS33 accelerometer/gyroscope, APDS9960 proximity/light/color/gesture, PDM microphone, and a NeoPixel LED. This build uses the <strong>Zephyr RTOS</strong> port of CircuitPython, which is currently in alpha.</p>
+
+<p><strong>Note:</strong> This is the Zephyr RTOS port of CircuitPython for this board. For the standard CircuitPython build, see the <a href="/board/feather_bluefruit_sense/">Feather Bluefruit Sense</a> page.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4516">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_feather_nrf52840_sense_zephyr/</guid>
+  </item><item>
     <title>Badger 2350</title>
     <link>https://circuitpython.org/board/pimoroni_badger2350/</link>
     <description><![CDATA[  
@@ -146,7 +563,7 @@ the RP2350.</p>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/yoto_mini_2024/</guid>
   </item><item>
-    <title>Nucleo N657X0-Q</title>
+    <title>Nucleo N657X0-Q (Zephyr)</title>
     <link>https://circuitpython.org/board/st_nucleo_n657x0_q/</link>
     <description><![CDATA[  
 <img
@@ -184,7 +601,7 @@ the RP2350.</p>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/st_nucleo_n657x0_q/</guid>
   </item><item>
-    <title>MCXN947 FRDM Development Board</title>
+    <title>MCXN947 FRDM Development Board (Zephyr)</title>
     <link>https://circuitpython.org/board/nxp_mimxrt1170_evk/</link>
     <description><![CDATA[  
 <img
@@ -216,7 +633,7 @@ the RP2350.</p>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/nxp_mimxrt1170_evk/</guid>
   </item><item>
-    <title>MCXN947 FRDM Development Board</title>
+    <title>MCXN947 FRDM Development Board (Zephyr)</title>
     <link>https://circuitpython.org/board/nxp_frdm_mcxn947/</link>
     <description><![CDATA[  
 <img
@@ -243,7 +660,7 @@ the RP2350.</p>
     <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/nxp_frdm_mcxn947/</guid>
   </item><item>
-    <title>Nordic nRF54H20 Development Kit</title>
+    <title>Nordic nRF54H20 Development Kit (Zephyr)</title>
     <link>https://circuitpython.org/board/nordic_nrf54h20dk/</link>
     <description><![CDATA[  
 <img
@@ -2167,7 +2584,7 @@ LPDDR5 496PIN：4GB, 8GB, 16GB optional</li>
     <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/blinka/banana_pi_bpi_f5/</guid>
   </item><item>
-    <title>STM32U575ZIT6Q Discovery Kit</title>
+    <title>STM32U575ZIT6Q Discovery Kit (Zephyr)</title>
     <link>https://circuitpython.org/board/st_stm32h7b3i_dk/</link>
     <description><![CDATA[  
 <img
@@ -2236,7 +2653,7 @@ LPDDR5 496PIN：4GB, 8GB, 16GB optional</li>
     <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/st_stm32h7b3i_dk/</guid>
   </item><item>
-    <title>STM32U575ZIT6Q Nucleo</title>
+    <title>STM32U575ZIT6Q Nucleo (Zephyr)</title>
     <link>https://circuitpython.org/board/st_nucleo_u575zi_q/</link>
     <description><![CDATA[  
 <img
@@ -2306,7 +2723,7 @@ LPDDR5 496PIN：4GB, 8GB, 16GB optional</li>
     <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/st_nucleo_u575zi_q/</guid>
   </item><item>
-    <title>EK-RA8D1 Evaluation Kit</title>
+    <title>EK-RA8D1 Evaluation Kit (Zephyr)</title>
     <link>https://circuitpython.org/board/renesas_ek_ra8d1/</link>
     <description><![CDATA[  
 <img
@@ -2413,7 +2830,7 @@ LPDDR5 496PIN：4GB, 8GB, 16GB optional</li>
     <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/renesas_ek_ra8d1/</guid>
   </item><item>
-    <title>EK-RA6M5 Evaluation Kit</title>
+    <title>EK-RA6M5 Evaluation Kit (Zephyr)</title>
     <link>https://circuitpython.org/board/renesas_ek_ra6m5/</link>
     <description><![CDATA[  
 <img
@@ -2555,7 +2972,7 @@ LPDDR5 496PIN：4GB, 8GB, 16GB optional</li>
     <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/proveskit_rp2040_v4/</guid>
   </item><item>
-    <title>Nordic nRF7002 Development Kit</title>
+    <title>Nordic nRF7002 Development Kit (Zephyr)</title>
     <link>https://circuitpython.org/board/nordic_nrf7002dk/</link>
     <description><![CDATA[  
 <img
@@ -2591,7 +3008,7 @@ LPDDR5 496PIN：4GB, 8GB, 16GB optional</li>
     <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/nordic_nrf7002dk/</guid>
   </item><item>
-    <title>Nordic nRF54L05 Development Kit</title>
+    <title>Nordic nRF54L05 Development Kit (Zephyr)</title>
     <link>https://circuitpython.org/board/nordic_nrf54l15dk/</link>
     <description><![CDATA[  
 <img
@@ -2621,7 +3038,7 @@ LPDDR5 496PIN：4GB, 8GB, 16GB optional</li>
     <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/nordic_nrf54l15dk/</guid>
   </item><item>
-    <title>Nordic nRF5340 Development Kit</title>
+    <title>Nordic nRF5340 Development Kit (Zephyr)</title>
     <link>https://circuitpython.org/board/nordic_nrf5340dk/</link>
     <description><![CDATA[  
 <img
