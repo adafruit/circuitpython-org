@@ -4,9 +4,97 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 21 Apr 2026 15:56:53 -0400</lastBuildDate>
+<lastBuildDate>Tue, 21 Apr 2026 17:13:27 -0400</lastBuildDate>
 
 <item>
+    <title>NodeMCU ESP8266</title>
+    <link>https://circuitpython.org/blinka/nodemcu/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/nodemcu.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/nodemcu.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/nodemcu.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By NodeMCU</p> <p>The <strong>NodeMCU</strong> is an open-source ESP8266 development board that makes working with the popular WiFi-capable microcontroller easy and accessible. It features an onboard USB-to-serial converter for simple programming and power, and breaks out all the useful GPIO pins to breadboard-friendly headers.</p>
+
+<p>At its core is the <strong>ESP-12E</strong> module containing the ESP8266 SoC — a 32-bit Tensilica L106 running at 80 MHz with full WiFi 802.11 b/g/n support. With 4MB of flash, it has plenty of room for MicroPython firmware and user scripts.</p>
+
+<p><strong>Main features:</strong></p>
+
+<ul>
+  <li>ESP8266 @ 80MHz with 3.3V logic/power</li>
+  <li>4MB of FLASH (32 MBit)</li>
+  <li>Built in WiFi 802.11 b/g/n</li>
+  <li>Onboard USB-to-serial converter (CH340G or CP2102 depending on variant)</li>
+  <li>Micro USB connector for power and programming</li>
+  <li>11 x GPIO pins with I2C, SPI, and UART support</li>
+  <li>1 x ADC input (0–1V)</li>
+  <li>Two buttons: Flash and Reset</li>
+  <li>3.3V onboard regulator</li>
+  <li>Breadboard-friendly form factor</li>
+</ul>
+
+<p>The NodeMCU is one of the most popular boards for IoT projects and can run MicroPython with Adafruit Blinka for CircuitPython library compatibility.</p>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/nodemcu/</guid>
+  </item><item>
+    <title>Feather HUZZAH ESP8266</title>
+    <link>https://circuitpython.org/blinka/feather_huzzah_esp8266/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/feather_huzzah_esp8266.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/feather_huzzah_esp8266.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/feather_huzzah_esp8266.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Adafruit</p> <p>Feather is the development board from Adafruit, and like its namesake, it is thin, light, and lets you fly! We designed Feather to be a new standard for portable microcontroller cores.</p>
+
+<p>This is the <strong>Adafruit Feather HUZZAH ESP8266</strong> - our take on an ‘all-in-one’ ESP8266 WiFi development board with built-in USB and battery charging. It’s an ESP8266 WiFi module with all the extras you need, ready to rock!</p>
+
+<p>At the Feather HUZZAH’s heart is an ESP8266 WiFi microcontroller clocked at 80 MHz and at 3.3V logic. This microcontroller contains a Tensilica chip core as well as a full WiFi stack. You can program the microcontroller using the Arduino IDE for an easy-to-run Internet of Things core. We wired up a high-quality SiLabs CP2104 USB-Serial chip that can upload code at a blistering 921600 baud for fast development time. It also has auto-reset so no noodling with pins and reset button pressings.</p>
+
+<p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built-in battery charging. You don’t need a battery, it will run just fine straight from the micro USB connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available.</p>
+
+<p><strong>Main features:</strong></p>
+
+<ul>
+  <li>Measures 2.0” x 0.9” x 0.28” (51mm x 23mm x 8mm) without headers soldered in</li>
+  <li>Light as a (large?) feather - 6.1 grams</li>
+  <li>ESP8266 @ 80MHz with 3.3V logic/power</li>
+  <li>4MB of FLASH (32 MBit)</li>
+  <li>Built in WiFi 802.11 b/g/n</li>
+  <li>3.3V regulator with 500mA peak current output</li>
+  <li>CP2104 USB-Serial converter onboard with 921600 max baudrate for speedy uploading</li>
+  <li>Auto-reset support for getting into bootload mode before firmware upload</li>
+  <li>9 x GPIO pins - can also be used as I2C and SPI</li>
+  <li>1 x analog inputs 1.0V max</li>
+  <li>Built-in 100mA LiPoly charger with charging status indicator LED</li>
+  <li>Pin #0 red LED for general purpose blinking. Pin #2 blue LED for bootloading debug &amp; activity status</li>
+  <li>Reset button</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.adafruit.com/product/2821">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/feather_huzzah_esp8266/</guid>
+  </item><item>
     <title>Xteink X4</title>
     <link>https://circuitpython.org/board/xteink_x4/</link>
     <description><![CDATA[  
