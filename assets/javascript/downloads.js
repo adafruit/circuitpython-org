@@ -350,8 +350,10 @@ function filterResults() {
     } else {
       download.style.display = 'block';
       board_count++;
-      // exact tag match re-order
-      if (downloadsSearch.searchTerm !== null && downloadsSearch.searchTerm !== undefined) {
+      // exact tag match re-order only for default (downloads) sort
+      var currentSort = document.querySelector("input[name='sort-by']:checked");
+      var currentSortValue = currentSort ? currentSort.value : 'downloads';
+      if (currentSortValue === 'downloads' && downloadsSearch.searchTerm !== null && downloadsSearch.searchTerm !== undefined) {
         let searched = downloadsSearch.searchTerm.toLowerCase();
         let tags = download.dataset.tags?.split(",") || [];
         if (searched !== "" && tags.indexOf(searched) >= 0) {
@@ -376,11 +378,13 @@ function handleSortResults(event) {
   Array.prototype.slice.call(downloads.children)
     .map(function (download) { return downloads.removeChild(download); })
     .sort(function (a, b) {
-      // exact tag match re-order
-      if (searched !== undefined && searched !== "" &&
-          a.dataset.tags.split(",").indexOf(searched) >= 0){
-
-        return -2;
+      // exact tag match re-order only for default (downloads) sort
+      if (sortType === 'downloads' && searched !== undefined && searched !== "") {
+        var aMatch = a.dataset.tags.split(",").indexOf(searched) >= 0;
+        var bMatch = b.dataset.tags.split(",").indexOf(searched) >= 0;
+        if (aMatch !== bMatch) {
+          return aMatch ? -1 : 1;
+        }
       }
       switch(sortType) {
         case 'alpha-asc':
@@ -388,16 +392,22 @@ function handleSortResults(event) {
         case 'alpha-desc':
           return b.dataset.name.localeCompare(a.dataset.name);
         case 'date-asc':
-          dateA = new Date(a.dataset.date)
-          dateB = new Date(b.dataset.date)
-          return dateA.getTime() < dateB.getTime() ? -1 : 1;
         case 'date-desc':
-          dateA = new Date(a.dataset.date)
-          dateB = new Date(b.dataset.date)
-          return dateA.getTime() < dateB.getTime() ? 1 : -1;
+          var dateA = a.dataset.date ? new Date(a.dataset.date) : null;
+          var dateB = b.dataset.date ? new Date(b.dataset.date) : null;
+          var validA = dateA && !isNaN(dateA.getTime());
+          var validB = dateB && !isNaN(dateB.getTime());
+          // boards without a valid date go to the end
+          if (!validA && !validB) return 0;
+          if (!validA) return 1;
+          if (!validB) return -1;
+          if (sortType === 'date-asc') {
+            return dateA.getTime() - dateB.getTime();
+          }
+          return dateB.getTime() - dateA.getTime();
         default:
           // sort by download count is the default
-          return parseInt(a.dataset.downloads, 10) < parseInt(b.dataset.downloads, 10) ? 1 : -1;
+          return parseInt(b.dataset.downloads, 10) - parseInt(a.dataset.downloads, 10);
       }
     })
     .forEach(function (download) { downloads.appendChild(download); });
