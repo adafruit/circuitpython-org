@@ -2,7 +2,7 @@
 layout: download
 board_id: "st_nucleo_u575zi_q"
 title: "Nucleo 575ZI-Q Download"
-name: "STM32U575ZIT6Q Nucleo"
+name: "STM32U575ZIT6Q Nucleo (Zephyr)"
 manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/en/evaluation-tools/nucleo-u575zi-q.html"

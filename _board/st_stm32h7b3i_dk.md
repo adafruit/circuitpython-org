@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "st_stm32h7b3i_dk"
-title: "STM32U575ZIT6Q Discovery Kit Download"
-name: "STM32U575ZIT6Q Discovery Kit"
+title: "STM32U575ZIT6Q Discovery Kit (Zephyr) Download"
+name: "STM32U575ZIT6Q Discovery Kit (Zephyr)"
 manufacturer: "STMicroelectronics"
 board_url:
  - "https://www.st.com/en/evaluation-tools/stm32h7b3i-dk.html"

@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "nxp_frdm_mcxn947"
-title: "MCXN947 FRDM Development Board Download"
-name: "MCXN947 FRDM Development Board"
+title: "MCXN947 FRDM Development Board (Zephyr) Download"
+name: "MCXN947 FRDM Development Board (Zephyr)"
 manufacturer: "NXP"
 board_url:
  - "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947"
