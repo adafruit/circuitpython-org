@@ -16,6 +16,7 @@ features:
   - Bluetooth/BLE
 board_usage:
  - MicroPython
+ - Attached
 ---
 
 Raspberry Pi Pico W brings WiFi + BLE wireless networking to the Pico platform while retaining complete pin compatibility with its older sibling. It is powered by the **RP2040** microcontroller and adds on-board single-band 2.4GHz wireless interfaces (802.11n) using the Infineon CYW43439 while retaining the Pico form factor.

@@ -16,6 +16,7 @@ features:
   - Bluetooth/BLE
 board_usage:
  - MicroPython
+ - Attached
 ---
 
 Raspberry Pi Pico 2 W combines the power of the **RP2350** microcontroller with on-board wireless connectivity. It is the wireless variant of the Pico 2, adding single-band 2.4GHz WiFi and Bluetooth 5.2 via the Infineon CYW43439 while retaining the same compact Pico form factor.

@@ -13,6 +13,7 @@ blinka: true
 date_added: 2026-03-02
 board_usage:
  - MicroPython
+ - Attached
 ---
 
 Raspberry Pi Pico 2 is Raspberry Pi Foundation's update to their popular RP2040-based Pico board, now built on **RP2350**: their new high-performance, secure microcontroller. With a higher core clock speed, double the on-chip SRAM (512KB), double the on-board flash memory (4MB), more powerful Arm M33 cores, new security and low-power features, and upgraded interfacing capabilities, the Pico 2 delivers a significant performance and feature boost while retaining hardware and software compatibility with the original Pico.
