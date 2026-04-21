@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "nordic_nrf7002dk"
-title: "Nordic nRF7002 Development Kit Download"
-name: "Nordic nRF7002 Development Kit"
+title: "Nordic nRF7002 Development Kit (Zephyr) Download"
+name: "Nordic nRF7002 Development Kit (Zephyr)"
 manufacturer: "Nordic Semiconductor"
 board_url:
  - "https://www.nordicsemi.com/Products/Development-hardware/nRF7002-DK"

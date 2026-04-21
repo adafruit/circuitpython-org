@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "renesas_ek_ra8d1"
-title: "EK-RA8D1 Evaluation Kit Download"
-name: "EK-RA8D1 Evaluation Kit"
+title: "EK-RA8D1 Evaluation Kit (Zephyr) Download"
+name: "EK-RA8D1 Evaluation Kit (Zephyr)"
 manufacturer: "Renesas"
 board_url:
  - "https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra8d1-evaluation-kit-ra8d1-mcu-group"

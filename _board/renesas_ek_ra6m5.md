@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "renesas_ek_ra6m5"
-title: "EK-RA6M5 Evaluation Kit Download"
-name: "EK-RA6M5 Evaluation Kit"
+title: "EK-RA6M5 Evaluation Kit (Zephyr) Download"
+name: "EK-RA6M5 Evaluation Kit (Zephyr)"
 manufacturer: "Renesas"
 board_url:
  - "https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m5-evaluation-kit-ra6m5-mcu-group"

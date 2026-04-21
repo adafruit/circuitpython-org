@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "st_nucleo_n657x0_q"
-title: "Nucleo N657X0-Q Download"
-name: "Nucleo N657X0-Q"
+title: "Nucleo N657X0-Q (Zephyr) Download"
+name: "Nucleo N657X0-Q (Zephyr)"
 manufacturer: "STMicroelectronics"
 board_url:
  - "https://estore.st.com/en/nucleo-n657x0-q-cpn.html"

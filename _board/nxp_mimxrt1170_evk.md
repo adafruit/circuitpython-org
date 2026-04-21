@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "nxp_mimxrt1170_evk"
-title: "MCXN947 FRDM Development Board Download"
-name: "MCXN947 FRDM Development Board"
+title: "MCXN947 FRDM Development Board (Zephyr) Download"
+name: "MCXN947 FRDM Development Board (Zephyr)"
 manufacturer: "NXP"
 board_url:
  - "https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB"

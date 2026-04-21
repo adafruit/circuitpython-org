@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "nordic_nrf54l15dk"
-title: "Nordic nRF54L05 Development Kit Download"
-name: "Nordic nRF54L05 Development Kit"
+title: "Nordic nRF54L05 Development Kit (Zephyr) Download"
+name: "Nordic nRF54L05 Development Kit (Zephyr)"
 manufacturer: "Nordic Semiconductor"
 board_url:
  - "https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-DK"

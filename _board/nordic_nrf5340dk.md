@@ -1,8 +1,8 @@
 ---
 layout: download
 board_id: "nordic_nrf5340dk"
-title: "Nordic nRF5340 Development Kit Download"
-name: "Nordic nRF5340 Development Kit"
+title: "Nordic nRF5340 Development Kit (Zephyr) Download"
+name: "Nordic nRF5340 Development Kit (Zephyr)"
 manufacturer: "Nordic Semiconductor"
 board_url:
  - "https://www.nordicsemi.com/Products/Development-hardware/nRF5340-DK"
