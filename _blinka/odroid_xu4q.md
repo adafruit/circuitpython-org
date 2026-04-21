@@ -15,6 +15,8 @@ features:
   - HDMI/DisplayPort
   - 40-pin GPIO
   - USB 3.0
+board_usage:
+ - Linux
 ---
 
 ODROID-XU4Q

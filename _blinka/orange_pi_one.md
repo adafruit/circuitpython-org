@@ -17,6 +17,8 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 What’s Orange Pi One？ It’s an open-source single-board computer. It can run Android 4.4, Ubuntu, Debian Image. It uses the AllWinner H3 SoC, and has 512MB DDR3 SDRAM

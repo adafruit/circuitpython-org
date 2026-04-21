@@ -16,6 +16,8 @@ features:
   - Bluetooth/BLE
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 Banana Pi BPI-F3 is a industrial grade RISC-V development board, it design with SpacemiT K1 8 core RISC-V chip, CPU integrates 2.0 TOPs AI computing power. 2/4/8/16G DDR and 8/16/32/128G eMMC onboard.2x GbE Ethernet prot, 4x USB 3.0 and PCIe for M.2 interface, support HDMI and Dual MIPI-CSI Camera.

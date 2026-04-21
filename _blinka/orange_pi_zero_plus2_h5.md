@@ -17,6 +17,8 @@ features:
   - Ethernet
   - HDMI/DisplayPort
   - 40-pin GPIO
+board_usage:
+ - Linux
 ---
 
 What’s Orange Pi Zero Plus2？

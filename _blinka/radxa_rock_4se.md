@@ -18,6 +18,8 @@ features:
   - 40-pin GPIO
   - USB 3.0
   - NVME/M.2 Connector
+board_usage:
+ - Linux
 ---
 
 This is the documentation for ROCK 4 SE, written by Radxa Team with community contributions.

@@ -16,6 +16,8 @@ features:
   - 40-pin GPIO
   - Wi-Fi
   - Ethernet
+board_usage:
+ - Linux
 ---
 
 LeMaker Banana Pro is an updated version of its predecessor Banana Pi, a low-cost single-board computer.

@@ -12,6 +12,8 @@ blinka: true
 date_added: 2020-10-06
 features:
 
+board_usage:
+ - Linux
 ---
 
 The NVIDIA Clara AGX™ developer kit delivers real-time AI and imaging for medical devices. By combining low-powered, NVIDIA Xavier SOC (system on a chip) and RTX GPUs with the NVIDIA Clara AGX SDK and the NVIDIA EGX stack, it’s easy to securely provision and remotely manage fleets of distributed medical instruments.

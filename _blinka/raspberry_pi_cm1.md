@@ -13,6 +13,8 @@ blinka: true
 date_added: 2019-06-24
 features:
   - HDMI/DisplayPort
+board_usage:
+ - Linux
 ---
 
 The Compute Module is a Raspberry Pi in a more flexible form factor, intended for industrial application.

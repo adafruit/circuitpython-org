@@ -119,6 +119,24 @@ def verify_blinka_board(folder):
                 valid = False
     return valid
 
+def verify_board_usage(folder, valid_usages):
+    valid = True
+    for filename in get_files(folder):
+        with open(filename, "rt") as f:
+            metadata, _ = frontmatter.parse(f.read())
+        downloads_display = metadata.get('downloads_display')
+        if downloads_display is None or downloads_display:
+            board_id = metadata.get('board_id')
+            if board_id == "unknown":
+                continue
+            board_usage = metadata.get('board_usage')
+            if board_usage is not None:
+                for usage in board_usage:
+                    if usage not in valid_usages:
+                        print(f"{filename}:0: Non-standard board_usage: {usage}")
+                        valid = False
+    return valid
+
 if not verify_features("_board", acceptable_features):
     print("Non-standard features found. See https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/adding-to-downloads for acceptable features")
     raise SystemExit(True)
@@ -165,6 +183,16 @@ if not verify_contribute_not_present("_board") or not verify_contribute_not_pres
 
 if not verify_blinka_board("_blinka"):
     print("blinka flag missing or false for some Blinka boards. Are you sure this board runs Blinka?")
+    raise SystemExit(True)
+
+blinka_board_usages = {
+    "Linux",
+    "Attached",
+    "MicroPython",
+}
+
+if not verify_board_usage("_blinka", blinka_board_usages):
+    print("Non-standard board_usage found. Acceptable values: Linux, Attached, MicroPython")
     raise SystemExit(True)
 
 raise SystemExit(False)

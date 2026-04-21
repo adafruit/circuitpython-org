@@ -18,6 +18,8 @@ features:
   - 40-pin GPIO
   - Ethernet
   - Infrared Receiver
+board_usage:
+ - Linux
 ---
 
 Banana PI BPI-M2+ is the open source hardware platform, use Alliwnner H3 (option H2+ chip and H5 chip ) chip on board. and mini size only 65mm*65mm,
