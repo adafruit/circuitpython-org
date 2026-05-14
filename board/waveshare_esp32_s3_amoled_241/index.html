@@ -1901,6 +1901,13 @@
 
 
 
+<!--
+  CryptoJS enables post-flash MD5 verification inside the installer
+  (see adafruit/web-firmware-installer-js#23). Without it, esptool-js
+  silently skips the readback hash check, which can mask flash
+  corruption on some USB-serial bridges.
+-->
+<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.min.js"></script>
 <script
   src="https://cdn.jsdelivr.net/gh/adafruit/web-firmware-installer-js@2/dist/cpinstaller.min.js"
   type="module"
