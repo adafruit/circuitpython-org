@@ -1328,6 +1328,25 @@
         "description": "<p>It’s half USB Key, half Adafruit Trinket, half mechanical keeb<em>…</em>it’s <strong>NeoKey Trinkey</strong>, the circuit board with a Trinket M0 heart, a NeoPixel glow, and a Cherry MX-compatible. We were inspired by single-key macro pads we’ve seen. So we thought, hey what if we made something like that that plugs right into your computer’s USB port, with a fully programmable color NeoPixel? And this is what we came up with!</p><p>The PCB is designed to slip into any USB A port on a computer or laptop. There’s an ATSAMD21 microcontroller on board with just enough circuitry to keep it happy. One pin of the microcontroller connects to a Cherry MX-compatible switch. Another connects to a NeoPixel LED. The third pin can be used as a capacitive touch input. A reset button lets you enter bootloader mode if necessary. That’s it!</p><p>The SAMD21 can run CircuitPython or Arduino very nicely - with existing NeoPixel and our FreeTouch libraries for the capacitive touch input. Over the USB connection you can have serial, MIDI or HID connectivity. The NeoKey Trinkey is perfect for simple projects that can use a few user inputs and colorful output. Maybe you’ll set it up as a macro-controller, or a password-enterer, or an Escape key for your MacBook.</p><p><strong>Please note this board DOES NOT come with a key soldered in - we expect folks to pick their favorite MX-compatible key switch and key cap! Two solder points and you’re done.</strong></p><p>We think it’s just an adorable little board, small and durable and inexpensive enough that it could be a first microcontroller board, or inspiration for advanced developers to make something simple and fun.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ATSAMD21E18 32-bit Cortex M0+ - 48 MHz 32 bit processor with 256KB Flash and 32 KB RAM</li>  <li>Native USB supported by every OS - can be used in <strong>Arduino or CircuitPython</strong> as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>  <li>Can be used with Arduino IDE or CircuitPython</li>  <li>Single reverse-mount RGB NeoPixel LED</li>  <li>1 Capacitive Touch pad</li>  <li>Cherry-MX compatible footprint can be used by nearly any mechanical switch. Note we only have a center-nub hole. If your switch has two mini side-nubs they need to be clipped off.</li>  <li>Reset switch for starting your project code over or entering bootloader mode</li>  <li>Cute &amp; keychain-friendly!</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5020\">Adafruit</a></li></ul>"
     },
     {
+        "board_id": "adafruit_p4gpio",
+        "title": "Adafruit P4 GPIO Download",
+        "name": "Adafruit P4 GPIO",
+        "board_url": [
+            "https://github.com/adafruit/circuitpython/tree/main/ports/espressif/boards/adafruit_p4gpio"
+        ],
+        "board_image": "adafruit_p4gpio.jpg",
+        "date_added": "2026-05-19",
+        "family": "esp32p4",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C"
+        ],
+        "url_path": "/board/adafruit_p4gpio/",
+        "description": "<p>The Adafruit P4 GPIO is a development board based on the Espressif ESP32-P4 (rev 3+) dual-core RISC-V SoC running at up to 400 MHz, paired with 16 MB of QSPI flash and 32 MB of HPI PSRAM. The board breaks out the ESP32-P4 GPIO pins across four 8-pin headers (B1–B4), with a status NeoPixel on GPIO52 and a boot button on GPIO35. Two USB ports are provided: a high-speed USB device on the J1 connector and a full-speed USB on J2.</p><p>This board is not yet available for purchase. Board definition by Scott Shawcroft (<a href=\"https://github.com/tannewt\">@tannewt</a>).</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/adafruit/circuitpython/tree/main/ports/espressif/boards/adafruit_p4gpio\">CircuitPython board definition</a></li>  <li><a href=\"https://github.com/tannewt/p4gpio\">KiCad design files (tannewt/p4gpio)</a></li>  <li><a href=\"https://www.youtube.com/live/mMIY6kds0XM\">Deep Dive w/Scott: Finishing P4HIL</a> (board hardware shown)</li>  <li><a href=\"https://www.youtube.com/watch?v=9de1m5kM4es\">Deep Dive w/Scott: ESP32-P4 Logic Analyzer</a> (KiCad walkthrough)</li></ul>"
+    },
+    {
         "board_id": "adafruit_pixel_trinkey_m0",
         "title": "Pixel Trinkey Download",
         "name": "Pixel Trinkey",
@@ -4376,6 +4395,28 @@
         ],
         "url_path": "/board/espressif_esp32p4_function_ev/",
         "description": "<p>ESP32-P4-Function-EV-Board is a multimedia development board based on the ESP32-P4 chip. ESP32-P4 chip features a dual-core 400 MHz RISC-V processor and supports up to 32 MB PSRAM. In addition, ESP32-P4 supports USB 2.0 specification, MIPI-CSI/DSI, H264 Encoder, and various other peripherals. With all of its outstanding features, the board is an ideal choice for developing low-cost, high-performance, low-power network-connected audio and video products.</p><p>The 2.4 GHz Wi-Fi 6 &amp; Bluetooth 5 (LE) module ESP32-C6-MINI-1 serves as the Wi-Fi and Bluetooth module of the board. The board also includes a 7-inch capacitive touch screen with a resolution of 1024 x 600 and a 2MP camera with MIPI CSI, enriching the user interaction experience. The development board is suitable for prototyping a wide range of products, including visual doorbells, network cameras, smart home central control screens, LCD electronic price tags, two-wheel vehicle dashboards, etc.</p><p>Most of the I/O pins are broken out to the pin headers for easy interfacing. Developers can connect peripherals with jumper wires.</p><p><a href=\"https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32p4/esp32-p4-function-ev-board/user_guide.html\">Hardware User Guide is available here</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256807624599045.html\">AliExpress</a></li></ul>"
+    },
+    {
+        "board_id": "espressif_esp32p4x_function_ev",
+        "title": "ESP32-P4X-Function-EV Download",
+        "name": "ESP32-P4X-Function-EV",
+        "board_url": [
+            "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32p4/esp32-p4-function-ev-board/user_guide.html"
+        ],
+        "board_image": "espressif_esp32p4_function_ev.jpg",
+        "date_added": "2026-05-19",
+        "family": "esp32p4",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C",
+            "External Display"
+        ],
+        "url_path": "/board/espressif_esp32p4x_function_ev/",
+        "description": "<p>The ESP32-P4X-Function-EV is the rev 3 variant of Espressif’s ESP32-P4-Function-EV multimedia development board. ESP32-P4 features a dual-core 400 MHz RISC-V processor and supports up to 32 MB PSRAM. In addition, ESP32-P4 supports USB 2.0 specification, MIPI-CSI/DSI, an H.264 encoder, and various other peripherals. With all of its outstanding features, the board is an ideal choice for developing low-cost, high-performance, low-power network-connected audio and video products.</p><p>The 2.4 GHz Wi-Fi 6 &amp; Bluetooth 5 (LE) module ESP32-C6-MINI-1 serves as the Wi-Fi and Bluetooth module of the board. The board also includes a 7-inch capacitive touch screen with a resolution of 1024 x 600 and a 2 MP camera with MIPI CSI, enriching the user interaction experience. The development board is suitable for prototyping a wide range of products, including visual doorbells, network cameras, smart home central control screens, LCD electronic price tags, two-wheel vehicle dashboards, etc.</p><p>Most of the I/O pins are broken out to the pin headers for easy interfacing. Developers can connect peripherals with jumper wires.</p><p><a href=\"https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32p4/esp32-p4-function-ev-board/user_guide.html\">Hardware User Guide is available here</a></p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.us/item/3256807624599045.html\">AliExpress</a></li></ul>"
     },
     {
         "board_id": "espressif_esp32s2_devkitc_1_n4",
@@ -8185,6 +8226,27 @@
         ],
         "url_path": "/board/nfc_copy_cat/",
         "description": "<p>NFC Copy Cat, manufactured by Electronic Cats, is a small device that combines two powerful cybersecurity tools, NFCopy and MagSpoof. NFCopy works by reading or emulating a NFC card; depending on the necessities of the researcher. On the other hand, MagSpoof can wirelessly emulate/spoof any magnetic stripe card. So using NFC Copy Cat, the user will have a device capable of storing magnetic stripe data or NFC payment data to be replayed later — known in the cybersecurity world as a replay attack.</p><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://github.com/ElectronicCats/NFC-Copy-Cat\">NFC Copy Cat - GitHub</a></li></ul>"
+    },
+    {
+        "board_id": "nhbsystems_jl401_4mbflash_2mbpsram",
+        "title": "NHB Systems JL401-S3 4MB Flash 2MB PSRAM Download",
+        "name": "NHB Systems JL401-S3 4MB Flash 2MB PSRAM",
+        "board_url": [
+            "https://www.tindie.com/stores/nhbsystems/",
+            "https://github.com/NHBSystems"
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2026-05-19",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/nhbsystems_jl401_4mbflash_2mbpsram/",
+        "description": "<p>The NHB Systems JL401-S3 is a datalogger board built around the ESP32-S3-MINI-1 module with 4 MB of flash and 2 MB of PSRAM and a native USB-C interface. The board integrates a rich set of on-board peripherals aimed at field data acquisition:</p><ul>  <li>Analog Devices AD7124-4 24-bit ADC</li>  <li>PCA9546A I²C multiplexer</li>  <li>MCP7940N real-time clock</li>  <li>ST LSM6DSO 6-axis IMU</li>  <li>microSD card slot</li>  <li>Status NeoPixel with switchable power</li>  <li>Switchable I²C and microSD power rails</li></ul><p>This board is not yet released for sale. Board definition by Jaimy Juliano (<a href=\"https://github.com/jjuliano77\">@jjuliano77</a>) of NHB Systems.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.tindie.com/stores/nhbsystems/\">NHB Systems on Tindie</a> (manufacturer’s storefront; JL401-S3 not yet listed)</li>  <li><a href=\"https://github.com/NHBSystems\">NHB Systems on GitHub</a></li>  <li><a href=\"https://github.com/NHBSystems/NHB_CircuitPython_AD7124\">NHB_CircuitPython_AD7124</a> — CircuitPython driver for the on-board 24-bit ADC</li></ul>"
     },
     {
         "board_id": "nice_nano",
