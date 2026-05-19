@@ -5,6 +5,7 @@ title: "NHB Systems JL401-S3 4MB Flash 2MB PSRAM Download"
 name: "NHB Systems JL401-S3 4MB Flash 2MB PSRAM"
 manufacturer: "NHB Systems"
 board_url:
+ - "https://www.tindie.com/stores/nhbsystems/"
  - "https://github.com/NHBSystems"
 board_image: "unknown.jpg"
 date_added: 2026-05-19
@@ -29,4 +30,6 @@ This board is not yet released for sale. Board definition by Jaimy Juliano ([@jj
 
 ## Learn More
 
+* [NHB Systems on Tindie](https://www.tindie.com/stores/nhbsystems/) (manufacturer's storefront; JL401-S3 not yet listed)
 * [NHB Systems on GitHub](https://github.com/NHBSystems)
+* [NHB_CircuitPython_AD7124](https://github.com/NHBSystems/NHB_CircuitPython_AD7124) — CircuitPython driver for the on-board 24-bit ADC
