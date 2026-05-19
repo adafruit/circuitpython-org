@@ -6,10 +6,9 @@ name: "Adafruit P4 GPIO"
 manufacturer: "Adafruit"
 board_url:
  - "https://github.com/adafruit/circuitpython/tree/main/ports/espressif/boards/adafruit_p4gpio"
-board_image: "unknown.jpg"
+board_image: "adafruit_p4gpio.jpg"
 date_added: 2026-05-19
 family: esp32p4
-downloads_display: false
 features:
   - USB-C
 ---
@@ -21,3 +20,6 @@ This board is not yet available for purchase. Board definition by Scott Shawcrof
 ## Learn More
 
 * [CircuitPython board definition](https://github.com/adafruit/circuitpython/tree/main/ports/espressif/boards/adafruit_p4gpio)
+* [KiCad design files (tannewt/p4gpio)](https://github.com/tannewt/p4gpio)
+* [Deep Dive w/Scott: Finishing P4HIL](https://www.youtube.com/live/mMIY6kds0XM) (board hardware shown)
+* [Deep Dive w/Scott: ESP32-P4 Logic Analyzer](https://www.youtube.com/watch?v=9de1m5kM4es) (KiCad walkthrough)
