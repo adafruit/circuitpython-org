@@ -9,6 +9,7 @@ board_url:
 board_image: "unknown.jpg"
 date_added: 2026-05-19
 family: esp32s3
+downloads_display: false
 features:
   - USB-C
   - STEMMA QT/QWIIC
