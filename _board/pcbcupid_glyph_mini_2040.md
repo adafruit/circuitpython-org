@@ -45,7 +45,7 @@ While the Glyph Mini 2040 has 264KB of onboard RAM, flash memory is provided by 
   - Dimensions: 18mm × 23.5mm × 1.8mm
 
 ## Learn More
-* [Documentation](https://learn.pcbcupid.com/boards/glyph_mini/overview-rp_2040)
+* [Documentation](https://learn.pcbcupid.com/documentation/modules/glyph-mini/glyph-mini-2040/overview)
 
 ## Purchase
 * [PCBCupid](https://shop.pcbcupid.com/product/gdm001)
