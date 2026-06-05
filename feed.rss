@@ -4,9 +4,79 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 05 Jun 2026 07:07:44 -0400</lastBuildDate>
+<lastBuildDate>Fri, 05 Jun 2026 12:39:55 -0400</lastBuildDate>
 
 <item>
+    <title>PCBCupid GLYPH S3</title>
+    <link>https://circuitpython.org/board/pcbcupid_glyph_s3/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/pcbcupid_glyph_s3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pcbcupid_glyph_s3.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/pcbcupid_glyph_s3.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By PCBCupid</p> <p>The PCBCupid GLYPH S3 is a compact development board based on the ESP32-S3-MINI-1-N8 module, designed for AIoT, edge computing, and computer vision applications. With dual-core performance, wireless connectivity, and onboard LiPo charging, the GLYPH S3 delivers robust capabilities in a breadboard-friendly footprint.</p>
+
+<p>The board features an onboard GLINK connector — QWIIC/STEMMA QT compatible — making it easy to connect hundreds of sensors and modules from Adafruit and SparkFun without soldering. It also includes auto power switching between USB and battery, battery capacity measurement via IO0, and a slide switch to cut battery power entirely.</p>
+
+<p>The GLYPH S3 uses a built-in USB bootloader. To flash firmware, hold BOOT while plugging in USB — it appears as a COM port. Flash CircuitPython as a .bin using esptool.</p>
+
+<p>For peripherals, the ESP32-S3 exposes two I2C controllers, three SPI controllers, and three UART controllers via the GPIO matrix — check the pinout for default assignments. All 20 GPIO pins support PWM with configurable frequency and duty cycle. The chip also includes vector extension instructions for lightweight on-device ML inference.</p>
+
+<p><strong>Board specifications</strong></p>
+<ul>
+  <li>ESP32-S3-MINI-1-N8 module</li>
+  <li>Dual-core Xtensa LX7 processor up to 240 MHz, 3.3V logic</li>
+  <li>512KB SRAM, 8MB SPI flash (shared between code, files, and OTA)</li>
+  <li>Wi-Fi 802.11 b/g/n (2.4 GHz) with BluFi, ESP-WIFI-MESH</li>
+  <li>Bluetooth 5 LE with ESP-BLE-MESH support</li>
+  <li>USB-C for power, programming, and serial debugging</li>
+  <li>Built-in LiPo/Li-ion charger with charging status LED</li>
+  <li>Auto power switching between USB and battery</li>
+  <li>Reverse voltage protection</li>
+  <li>Onboard slide switch to cut battery power</li>
+  <li>Battery capacity measurement via IO0 (MSR pad)</li>
+  <li>LiPo solder pads on rear of board</li>
+  <li>3.3V regulator, 900mA peak output</li>
+  <li>20 GPIO pins</li>
+  <li>9 × 12-bit ADC1 pins: IO1, IO2, IO4, IO5, IO6, IO7, IO8, IO9, IO10</li>
+  <li>I2C: SDA=IO4, SCL=IO5 (second bus assignable to any GPIO pair)</li>
+  <li>SPI: SCK=IO35, MOSI=IO36, MISO=IO37</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>UART0: TX=IO43, RX=IO44</td>
+          <td>UART1: TX=IO17, RX=IO18</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Onboard LED on GPIO21</li>
+  <li>GLINK connector (QWIIC/STEMMA QT compatible)</li>
+  <li>Dimensions: 50.8mm × 22.8mm × 1.6mm (without headers)</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://learn.pcbcupid.com/documentation/modules/glyph/glyph-esp32s3/glyph-s3-overview">Documentation</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pcbcupid.com/product/gd004">PCBCupid</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pcbcupid_glyph_s3/</guid>
+  </item><item>
     <title>Glyph Mini 2040</title>
     <link>https://circuitpython.org/board/pcbcupid_glyph_mini_2040/</link>
     <description><![CDATA[  
