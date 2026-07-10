@@ -1,9 +1,9 @@
 ---
 layout: download
 board_id: "pcbcupid_glyph_mini_2040"
-title: "PCBCupid Glyph Mini 2040 Download"
+title: "Pcbcupid Glyph Mini 2040 Download"
 name: "Glyph Mini 2040"
-manufacturer: "PCBCupid"
+manufacturer: "Pcbcupid"
 board_url:
  - "https://shop.pcbcupid.com/product/gdm001"
 board_image: "pcbcupid_glyph_mini_2040.jpg"
@@ -13,7 +13,7 @@ features:
   - USB-C
   - Breadboard-Friendly
 ---
-The PCBCupid Glyph Mini 2040 is a compact, high-performance microcontroller board designed for space-constrained embedded and educational projects. Powered by the Raspberry Pi Rp2040 dual-core Arm Cortex-M0+ processor running at up to 133 MHz, it offers 264KB of SRAM and 8MB of external QSPI flash for program storage.
+The Pcbcupid Glyph Mini 2040 is a compact, high-performance microcontroller board designed for space-constrained embedded and educational projects. Powered by the Raspberry Pi Rp2040 dual-core Arm Cortex-M0+ processor running at up to 133 MHz, it offers 264KB of SRAM and 8MB of external QSPI flash for program storage.
 
  It features 20 GPIO pins, 12-bit ADC inputs, I²C, SPI, USB Serial, and UART peripherals for seamless interfacing with sensors, displays, and external modules. Castellated pads allow direct soldering onto carrier boards, and the USB-C connector keeps it modern and easy to use.
 
@@ -48,4 +48,4 @@ While the Glyph Mini 2040 has 264KB of onboard RAM, flash memory is provided by 
 * [Documentation](https://learn.pcbcupid.com/documentation/modules/glyph-mini/glyph-mini-2040/overview)
 
 ## Purchase
-* [PCBCupid](https://shop.pcbcupid.com/product/gdm001)
+* [Pcbcupid](https://shop.pcbcupid.com/product/gdm001)
