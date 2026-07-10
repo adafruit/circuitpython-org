@@ -4,10 +4,187 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Fri, 10 Jul 2026 07:02:02 -0400</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 14:18:13 -0400</lastBuildDate>
 
 <item>
-    <title>PCBCupid GLYPH S3</title>
+    <title>Pcbcupid GLYPH H2</title>
+    <link>https://circuitpython.org/board/pcbcupid_glyph_h2/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/pcbcupid_glyph_h2.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pcbcupid_glyph_h2.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/pcbcupid_glyph_h2.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Pcbcupid</p> <p>The Pcbcupid GLYPH H2 is a compact development board based on the ESP32-H2-MINI-1-N4 module, purpose-built for BLE, Zigbee, and Thread mesh networking applications. Unlike the C3/C6, the H2 has no Wi-Fi radio — it’s optimized specifically for low-power 802.15.4 mesh and BLE connectivity, making it ideal for smart home nodes, sensor mesh networks, and Matter-compatible devices.</p>
+
+<p>The board features an onboard GLINK connector — QWIIC/STEMMA QT compatible — for solder-free sensor and module integration. It includes auto power switching between USB and battery, battery voltage sensing, and a slide switch to cut battery power entirely.</p>
+
+<p>The GLYPH H2 uses a built-in USB bootloader. Hold BOOT while plugging in USB to enter bootloader mode — it appears as a COM port for flashing.</p>
+
+<p>For peripherals, the ESP32-H2 exposes I2C, SPI, and UART via the GPIO matrix. The chip includes a Zero-Cross Detection (ZCD) peripheral on GPIO10/GPIO11, useful for AC dimming and power control applications.</p>
+
+<p><strong>Board specifications</strong></p>
+<ul>
+  <li>ESP32-H2-MINI-1-N4 module</li>
+  <li>Single-core 32-bit RISC-V processor, 3.3V logic</li>
+  <li>4MB SPI flash</li>
+  <li>Bluetooth 5 (LE)</li>
+  <li>802.15.4 radio for Zigbee and Thread</li>
+  <li>No Wi-Fi</li>
+  <li>USB-C for power, programming, and serial debugging</li>
+  <li>Built-in LiPo/Li-ion charger with charging status LED</li>
+  <li>Auto power switching between USB and battery</li>
+  <li>Onboard slide switch to cut battery power</li>
+  <li>Battery voltage sensing</li>
+  <li>LiPo solder pads on rear of board</li>
+  <li>3.3V regulator</li>
+  <li>I2C: SCL=GPIO5, SDA=GPIO4</li>
+  <li>SPI: SCK=GPIO11, MOSI=GPIO2(FSPIWP)/GPIO1(FSPICS0), MISO=GPIO0(FSPIQ)</li>
+  <li>UART0: TX=GPIO24, RX=GPIO23</li>
+  <li>Zero-Cross Detection: ZCD0=GPIO10, ZCD1=GPIO11</li>
+  <li>GLINK connector (QWIIC/STEMMA QT compatible)</li>
+  <li>BOOT and RESET buttons onboard</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://learn.pcbcupid.com">Documentation</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pcbcupid.com/product/gd003">Pcbcupid</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pcbcupid_glyph_h2/</guid>
+  </item><item>
+    <title>Pcbcupid GLYPH C6</title>
+    <link>https://circuitpython.org/board/pcbcupid_glyph_c6/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/pcbcupid_glyph_c6.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pcbcupid_glyph_c6.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/pcbcupid_glyph_c6.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Pcbcupid</p> <p>The Pcbcupid GLYPH C6 is a compact development board based on the ESP32-C6-MINI-1-N4 module, designed for next-gen IoT applications requiring Wi-Fi 6, Bluetooth LE, and Zigbee/Thread (802.15.4) connectivity in one footprint. Onboard LiPo charging makes it ready for portable and battery-backed deployments.</p>
+
+<p>The board features an onboard GLINK connector — QWIIC/STEMMA QT compatible — for solder-free sensor and module integration. It includes auto power switching between USB and battery, battery voltage sensing, and a slide switch to cut battery power entirely.</p>
+
+<p>The GLYPH C6 uses a built-in USB bootloader. Hold BOOT while plugging in USB to enter bootloader mode — it appears as a COM port for flashing.</p>
+
+<p>For peripherals, the ESP32-C6 exposes I2C, SPI (including SDIO-capable pins), and UART via the GPIO matrix. The chip also includes a dedicated low-power (LP) core with its own UART and I2C for ultra-low-power peripheral handling independent of the main processor.</p>
+
+<p><strong>Board specifications</strong></p>
+<ul>
+  <li>ESP32-C6-MINI-1-N4 module</li>
+  <li>Single-core 32-bit RISC-V processor up to 160 MHz, 3.3V logic</li>
+  <li>Dedicated low-power RISC-V core for LP peripherals</li>
+  <li>512KB SRAM, 4MB SPI flash</li>
+  <li>Wi-Fi 6 802.11 ax/b/g/n (2.4 GHz)</li>
+  <li>Bluetooth 5 (LE)</li>
+  <li>802.15.4 radio for Zigbee/Thread</li>
+  <li>USB-C for power, programming, and serial debugging</li>
+  <li>Built-in LiPo/Li-ion charger with charging status LED</li>
+  <li>Auto power switching between USB and battery</li>
+  <li>Onboard slide switch to cut battery power</li>
+  <li>Battery voltage sensing</li>
+  <li>LiPo solder pads on rear of board</li>
+  <li>3.3V regulator</li>
+  <li>I2C: SCL=GPIO5, SDA=GPIO4</li>
+  <li>LP I2C: SDA=GPIO6, SCL=GPIO7</li>
+  <li>UART0: TX=GPIO16, RX=GPIO17</li>
+  <li>LP UART: TX=GPIO3, RX=GPIO2</li>
+  <li>SDIO-capable pins: GPIO18-23</li>
+  <li>GLINK connector (QWIIC/STEMMA QT compatible)</li>
+  <li>BOOT and RESET buttons onboard</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://learn.pcbcupid.com">Documentation</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pcbcupid.com/product/gd002">Pcbcupid</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pcbcupid_glyph_c6/</guid>
+  </item><item>
+    <title>Pcbcupid GLYPH C3</title>
+    <link>https://circuitpython.org/board/pcbcupid_glyph_c3/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/pcbcupid_glyph_c3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/pcbcupid_glyph_c3.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/pcbcupid_glyph_c3.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Pcbcupid</p> <p>The Pcbcupid GLYPH C3 is a compact development board based on the ESP32-C3-MINI-1-N4 module, built for low-power IoT, sensor nodes, and Wi-Fi/BLE connected embedded projects. With a RISC-V core, integrated wireless, and onboard LiPo charging, the GLYPH C3 packs full connectivity into a breadboard-friendly footprint.</p>
+
+<p>The board features an onboard GLINK connector — QWIIC/STEMMA QT compatible — for solder-free sensor and module integration. It includes auto power switching between USB and battery, battery voltage sensing, and a slide switch to cut battery power entirely.</p>
+
+<p>The GLYPH C3 uses a built-in USB bootloader. Hold BOOT while plugging in USB to enter bootloader mode — it appears as a COM port for flashing. Note: CIRCUITPY_USB_DEVICE is disabled at the port level for all C3 boards, so there’s no mass storage drive when running CircuitPython — use <code class="language-plaintext highlighter-rouge">ampy</code> or the serial REPL for file transfer instead.</p>
+
+<p>For peripherals, the ESP32-C3 exposes I2C, SPI, and UART via the GPIO matrix — default pin assignments are silkscreened. All GPIO pins support PWM.</p>
+
+<p><strong>Board specifications</strong></p>
+<ul>
+  <li>ESP32-C3-MINI-1-N4 module</li>
+  <li>Single-core 32-bit RISC-V processor up to 160 MHz, 3.3V logic</li>
+  <li>400KB SRAM, 4MB SPI flash</li>
+  <li>Wi-Fi 802.11 b/g/n (2.4 GHz)</li>
+  <li>Bluetooth 5 (LE)</li>
+  <li>USB-C for power, programming, and serial debugging</li>
+  <li>Built-in LiPo/Li-ion charger with charging status LED</li>
+  <li>Auto power switching between USB and battery</li>
+  <li>Onboard slide switch to cut battery power</li>
+  <li>Battery voltage sensing</li>
+  <li>LiPo solder pads on rear of board</li>
+  <li>3.3V regulator</li>
+  <li>I2C: SCL=GPIO5, SDA=GPIO4</li>
+  <li>SPI: SCK=GPIO10, MOSI=GPIO6, MISO=GPIO7</li>
+  <li>UART0: TX=GPIO21, RX=GPIO20</li>
+  <li>GLINK connector (QWIIC/STEMMA QT compatible)</li>
+  <li>BOOT and RESET buttons onboard</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+<ul>
+  <li><a href="https://learn.pcbcupid.com">Documentation</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shop.pcbcupid.com/product/gd001">Pcbcupid</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/pcbcupid_glyph_c3/</guid>
+  </item><item>
+    <title>Pcbcupid GLYPH S3</title>
     <link>https://circuitpython.org/board/pcbcupid_glyph_s3/</link>
     <description><![CDATA[  
 <img
@@ -19,7 +196,7 @@
   alt="Image of Board"
   loading="lazy"
 />
-<p>By PCBCupid</p> <p>The PCBCupid GLYPH S3 is a compact development board based on the ESP32-S3-MINI-1-N8 module, designed for AIoT, edge computing, and computer vision applications. With dual-core performance, wireless connectivity, and onboard LiPo charging, the GLYPH S3 delivers robust capabilities in a breadboard-friendly footprint.</p>
+<p>By Pcbcupid</p> <p>The Pcbcupid GLYPH S3 is a compact development board based on the ESP32-S3-MINI-1-N8 module, designed for AIoT, edge computing, and computer vision applications. With dual-core performance, wireless connectivity, and onboard LiPo charging, the GLYPH S3 delivers robust capabilities in a breadboard-friendly footprint.</p>
 
 <p>The board features an onboard GLINK connector — QWIIC/STEMMA QT compatible — making it easy to connect hundreds of sensors and modules from Adafruit and SparkFun without soldering. It also includes auto power switching between USB and battery, battery capacity measurement via IO0, and a slide switch to cut battery power entirely.</p>
 
@@ -68,7 +245,7 @@
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://shop.pcbcupid.com/product/gd004">PCBCupid</a></li>
+  <li><a href="https://shop.pcbcupid.com/product/gd004">Pcbcupid</a></li>
 </ul>
  ]]></description>
     
@@ -89,7 +266,7 @@
   alt="Image of Board"
   loading="lazy"
 />
-<p>By PCBCupid</p> <p>The PCBCupid Glyph Mini 2040 is a compact, high-performance microcontroller board designed for space-constrained embedded and educational projects. Powered by the Raspberry Pi Rp2040 dual-core Arm Cortex-M0+ processor running at up to 133 MHz, it offers 264KB of SRAM and 8MB of external QSPI flash for program storage.</p>
+<p>By Pcbcupid</p> <p>The Pcbcupid Glyph Mini 2040 is a compact, high-performance microcontroller board designed for space-constrained embedded and educational projects. Powered by the Raspberry Pi Rp2040 dual-core Arm Cortex-M0+ processor running at up to 133 MHz, it offers 264KB of SRAM and 8MB of external QSPI flash for program storage.</p>
 
 <p>It features 20 GPIO pins, 12-bit ADC inputs, I²C, SPI, USB Serial, and UART peripherals for seamless interfacing with sensors, displays, and external modules. Castellated pads allow direct soldering onto carrier boards, and the USB-C connector keeps it modern and easy to use.</p>
 
@@ -129,7 +306,7 @@
 
 <h2 id="purchase">Purchase</h2>
 <ul>
-  <li><a href="https://shop.pcbcupid.com/product/gdm001">PCBCupid</a></li>
+  <li><a href="https://shop.pcbcupid.com/product/gdm001">Pcbcupid</a></li>
 </ul>
  ]]></description>
     

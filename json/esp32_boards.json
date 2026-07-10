@@ -1588,6 +1588,11 @@
             }
         ]
     },
+    "pcbcupid_glyph_c3": {
+        "name": "Pcbcupid GLYPH C3",
+        "chipfamily": "esp32c3",
+        "releases": []
+    },
     "beetle-esp32-c3": {
         "name": "DFRobot Beetle ESP32-C3",
         "chipfamily": "esp32c3",
@@ -2468,7 +2473,7 @@
         ]
     },
     "pcbcupid_glyph_s3": {
-        "name": "PCBCupid GLYPH S3",
+        "name": "Pcbcupid GLYPH S3",
         "chipfamily": "esp32s3",
         "releases": [
             {
@@ -3611,6 +3616,11 @@
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_stick_c_plus/en_US/adafruit-circuitpython-m5stack_stick_c_plus-en_US-10.3.0-alpha.3.bin"
             }
         ]
+    },
+    "pcbcupid_glyph_c6": {
+        "name": "Pcbcupid GLYPH C6",
+        "chipfamily": "esp32c6",
+        "releases": []
     },
     "lilygo_ttgo_t-01c3": {
         "name": "TTGO T-01C3 ESP32-C3",
