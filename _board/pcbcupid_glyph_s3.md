@@ -1,9 +1,9 @@
 ---
 layout: download
 board_id: "pcbcupid_glyph_s3"
-title: "PCBCupid GLYPH S3 Download"
-name: "PCBCupid GLYPH S3"
-manufacturer: "PCBCupid"
+title: "Pcbcupid GLYPH S3 Download"
+name: "Pcbcupid GLYPH S3"
+manufacturer: "Pcbcupid"
 board_url:
  - "https://shop.pcbcupid.com/product/gd004"
 board_image: "pcbcupid_glyph_s3.jpg"
@@ -16,7 +16,7 @@ features:
   - Battery Charging
   - Breadboard-Friendly
 ---
-The PCBCupid GLYPH S3 is a compact development board based on the ESP32-S3-MINI-1-N8 module, designed for AIoT, edge computing, and computer vision applications. With dual-core performance, wireless connectivity, and onboard LiPo charging, the GLYPH S3 delivers robust capabilities in a breadboard-friendly footprint.
+The Pcbcupid GLYPH S3 is a compact development board based on the ESP32-S3-MINI-1-N8 module, designed for AIoT, edge computing, and computer vision applications. With dual-core performance, wireless connectivity, and onboard LiPo charging, the GLYPH S3 delivers robust capabilities in a breadboard-friendly footprint.
 
 The board features an onboard GLINK connector — QWIIC/STEMMA QT compatible — making it easy to connect hundreds of sensors and modules from Adafruit and SparkFun without soldering. It also includes auto power switching between USB and battery, battery capacity measurement via IO0, and a slide switch to cut battery power entirely.
 
@@ -51,4 +51,4 @@ For peripherals, the ESP32-S3 exposes two I2C controllers, three SPI controllers
 * [Documentation](https://learn.pcbcupid.com/documentation/modules/glyph/glyph-esp32s3/glyph-s3-overview)
 
 ## Purchase
-* [PCBCupid](https://shop.pcbcupid.com/product/gd004)
+* [Pcbcupid](https://shop.pcbcupid.com/product/gd004)
