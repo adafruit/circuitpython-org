@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 23 Jul 2026 13:52:49 -0400</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 14:29:12 -0400</lastBuildDate>
 
 <item>
     <title>Pcbcupid GLYPH H2</title>
@@ -184,6 +184,40 @@
     <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/pcbcupid_glyph_c3/</guid>
   </item><item>
+    <title>senseBox MCU Eye</title>
+    <link>https://circuitpython.org/board/sensebox_mcu_eye_esp32s3/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/sensebox_mcu_eye_esp32s3.png 300w,
+             https://circuitpython.org/assets/images/boards/large/sensebox_mcu_eye_esp32s3.png 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/sensebox_mcu_eye_esp32s3.png"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By senseBox</p> <p>The senseBox MCU Eye is an ESP32-S3 board designed for camera and TinyML
+projects. Its 16 MB of flash and 8 MB of PSRAM provide room for image processing
+and small AI models directly on the board.</p>
+
+<p>The board includes a camera, Wi-Fi and Bluetooth LE, LoRa, a 6-axis
+accelerometer, a microSD card slot, an RGB LED, and a battery charger. A QWIIC
+compatible I2C connector and additional GPIO ports make it easy to add sensors
+and other hardware.</p>
+
+<p>Hardware files, examples, and additional documentation are available in the
+<a href="https://github.com/sensebox/senseBox_Eye">senseBox Eye GitHub repository</a>.</p>
+
+<h2 id="learn-more">Learn more</h2>
+
+<p>See the <a href="https://sensebox.de/en/products-eye">senseBox MCU Eye product page</a>.</p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/sensebox_mcu_eye_esp32s3/</guid>
+  </item><item>
     <title>Pcbcupid GLYPH S3</title>
     <link>https://circuitpython.org/board/pcbcupid_glyph_s3/</link>
     <description><![CDATA[  
@@ -314,6 +348,43 @@
     
     <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/pcbcupid_glyph_mini_2040/</guid>
+  </item><item>
+    <title>Waveshare ESP32-S3-Tiny-N8R8</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_tiny_n8r8/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_s3_tiny.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_tiny.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_tiny.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Waveshare</p> <p>The Waveshare ESP32-S3-Tiny-N8R8 is a compact ESP32-S3 development board with
+8 MB of flash and 8 MB of PSRAM. It exposes 34 GPIOs while keeping the main
+board small by placing USB-C and the BOOT and RESET buttons on a detachable
+adapter board connected by an 8-pin FPC cable.</p>
+
+<p>The board also includes a WS2812 RGB LED and supports 2.4 GHz Wi-Fi and
+Bluetooth LE. It is available with or without the USB adapter board.</p>
+
+<h2 id="learn-more">Learn more</h2>
+
+<p>See the <a href="https://docs.waveshare.com/ESP32-S3-Tiny">Waveshare ESP32-S3-Tiny documentation</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-s3-tiny.htm?sku=33914">Waveshare without USB adapter</a></li>
+  <li><a href="https://www.waveshare.com/esp32-s3-tiny.htm?sku=33915">Waveshare with USB adapter</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_tiny_n8r8/</guid>
   </item><item>
     <title>ESP32-P4X-Function-EV</title>
     <link>https://circuitpython.org/board/espressif_esp32p4x_function_ev/</link>
