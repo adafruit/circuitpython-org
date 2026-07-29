@@ -12459,6 +12459,25 @@
         "description": "<p>This board will allow you to clip in an ESP32-S2 WROOM or WROVER module for programming, prototyping and testing. Slot the module into the pins where it will be held securely while you upload your code.</p><p>The Board has two USB micro sockets: The first is connected to a CP2104 USB to UART to upload of your firmware and receive serial messages. The second is directly connected to GPIO19 &amp; 20 that are the onboard USB - &amp; + pins.</p><p>The board can be powered from either of the USB sockets, the UART USB has a power switch and the S2 USB will directly power the board. These sockets are separated by diodes so neither can reverse power the other. The S2 USB has bridgeable solder pads so that it can be used to supply USB power if acting as OTG Host.</p><p>The CP2104 handles the USB to UART conversion as well as putting the module into “programming mode”.</p><p>Where Espressif have enabled programming via the S2 USB and the module can be put in “programming mode” using the IO_0 and Reset buttons.</p><p>All GPIO pins are broken out to 2.54mm header pins. Caution should be taken as some pins are used by the WROVER module for PSRAM.</p><h2 id=\"purchase\">Purchase</h2><p>You can purchase the S2-MCB from <a href=\"https://www.tindie.com/products/targett/esp32-s2-module-protoprogrammer/\">Tindie</a></p>"
     },
     {
+        "board_id": "teenage_engineering_ep2350",
+        "title": "EP–2350 ting Download",
+        "name": "EP–2350 ting",
+        "board_url": [
+            "https://teenage.engineering/guides/ep-2350"
+        ],
+        "board_image": "teenage_engineering_ep2350.jpg",
+        "date_added": "2026-07-29",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C"
+        ],
+        "url_path": "/board/teenage_engineering_ep2350/",
+        "description": "<p>ting is a standalone handheld microphone, more than just a mic, ting acts as a live performance tool, giving you hands-on control over your vocals.</p><p>Out of the box the EP-2350 runs a custom build of MicroPython made by Teenage Engineering. This download is for a CircuitPython build that replaces the stock firmware. The same process can be used to flash the stock firmware to get the device back to it’s original behavior.</p><p>The hardware features:</p><ul>  <li>RP2350 microcontroller</li>  <li>NAU88L21 audio CODEC</li>  <li>Microphone</li>  <li>3.5mm audio line out</li>  <li>Accelerometer</li>  <li>3 buttons and a volume knob</li>  <li>Handle with two endstop buttons and analog sensing via potentiometer</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://teenage.engineering/store/ep-2350\">teenage.engineering</a></li>  <li><a href=\"https://www.amazon.com/Teenage-Engineering-Handheld-Microphone-Connects/dp/B0FXXTKTDL?ref_=ast_sto_dp\">Amazon</a></li></ul>"
+    },
+    {
         "board_id": "teensy40",
         "title": "Teensy 4.0 Download",
         "name": "Teensy 4.0",
