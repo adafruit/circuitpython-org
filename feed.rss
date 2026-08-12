@@ -4,9 +4,62 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Wed, 12 Aug 2026 06:23:05 -0400</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 14:03:52 -0400</lastBuildDate>
 
 <item>
+    <title>ESP32-S3-DevKitC-1-N32R16</title>
+    <link>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n32r16/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/espressif_esp32s3_devkitc_1.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/espressif_esp32s3_devkitc_1.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/espressif_esp32s3_devkitc_1.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Espressif</p> <p>The ESP32-S3-DevKitC-1 is an entry-level development board equipped with ESP32-S3-WROOM-2, a general-purpose Wi-Fi + Bluetooth LE MCU module that integrates complete Wi-Fi and Bluetooth LE functions. <strong>This version is equipped with the ESP32-S3-WROOM-2 (PCB antenna) with 32MB Flash and 16MB PSRAM.</strong></p>
+
+<p>Most of the I/O pins on the module are broken out to the pin headers on both sides of this board for easy interfacing. Developers can either connect peripherals with jumper wires or mount ESP32-S3-DevKitC-1 on a breadboard. We particularly like that there’s a debug UART/USB port and a separate native USB port, so you can upload/debug/USB all at once.</p>
+
+<p>At the core of the module is an ESP32-S3R16V, an Xtensa® 32-bit LX7 CPU that operates at up to 240 MHz. You can power off the CPU and make use of the low-power co-processor to constantly monitor the peripherals for changes or crossing of thresholds. ESP32-S3 integrates a rich set of peripherals including SPI, LCD, Camera interface, UART, I2C, I2S, remote control, pulse counter, LED PWM, USB Serial/JTAG controller, MCPWM, SDIO host, GDMA, TWAI® controller (compatible with ISO 11898-1), ADC, touch sensor, temperature sensor, timers, and watchdogs, as well as up to 45 GPIOs. It also includes a full-speed USB 1.1 On-The-Go (OTG) interface to enable USB communication</p>
+
+<p>There are three mutually exclusive ways to provide power to the board:</p>
+
+<ul>
+  <li>USB-to-UART Port and ESP32-S3 USB Port (either one or both), default power supply (recommended)</li>
+  <li>5V and G (GND) pins</li>
+  <li>3v3 and G (GND) pins</li>
+</ul>
+
+<p><strong>Components:</strong></p>
+
+<ul>
+  <li><strong>ESP32-S3-WROOM-2</strong>: ESP32-S3-WROOM-2 is a powerful, generic Wi-Fi + Bluetooth LE MCU module that has a rich set of peripherals. It provides acceleration for neural network computing and signal processing workloads. ESP32-S3-WROOM-2 comes with a PCB antenna.</li>
+  <li><strong>5V to 3.3V LDO</strong>: Power regulator that converts a 5V supply into a 3.3V output.</li>
+  <li><strong>Pin Headers</strong>: All available GPIO pins (except for the SPI bus for flash and PSRAM) are broken out to the pin headers on the board for easy interfacing and programming. For details, please see <a href="https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#header-block">Header Block</a>. Note that GPIO35, GPIO36 and GPIO37 are used internally for the octal SPI flash and PSRAM and are not available for external use.</li>
+  <li><strong>USB-to-UART Port</strong>: A Micro-USB port used for power supply to the board, for flashing applications to the chip, as well as for communication with the chip via the on-board USB-to-UART bridge.</li>
+  <li><strong>Native ESP32-S3 USB Port</strong>: ESP32-S3 full-speed USB OTG interface, compliant with the USB 1.1 specification. The interface is used for power supply to the board, for flashing applications to the chip, for communication with the chip using USB 1.1 protocols, as well as for JTAG debugging.</li>
+  <li><strong>Boot Button</strong>: Download button. Holding down <strong>Boot</strong> and then pressing <strong>Reset</strong> initiates Firmware Download mode for downloading firmware through the serial port.</li>
+  <li><strong>Reset Button</strong></li>
+  <li><strong>USB-to-UART Bridge:</strong> Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.</li>
+  <li><strong>RGB LED</strong>: Addressable RGB LED, driven by GPIO38. This board is a v1.1 revision of the ESP32-S3-DevKitC-1; the initial v1.0 revision drove the RGB LED from GPIO48 instead.</li>
+  <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/5364">Adafruit</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n32r16/</guid>
+  </item><item>
     <title>EP–2350 ting</title>
     <link>https://circuitpython.org/board/teenage_engineering_ep2350/</link>
     <description><![CDATA[  
@@ -17492,11 +17545,11 @@ was distributed for free to teenage makers and coders. It is not for sale.</p>
   <li><strong>3.3V Power On LED</strong>: Turns on when the USB power is connected to the board.</li>
 </ul>
 
-<h2 id="purchase">Purchase</h2>
+<h2 id="availability">Availability</h2>
 
-<ul>
-  <li><a href="https://www.adafruit.com/product/5364">Adafruit</a></li>
-</ul>
+<p>The ESP32-S3-WROOM-2-N32R8V module is End of Life, superseded by the ESP32-S3-WROOM-2-N32R16V. See Table 1-1 of the <a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf">ESP32-S3-WROOM-2 datasheet</a>.</p>
+
+<p>Adafruit product 5364 is the N32R16V, not this board. See <a href="/board/espressif_esp32s3_devkitc_1_n32r16/">ESP32-S3-DevKitC-1-N32R16</a>.</p>
  ]]></description>
     
     <category>CircuitPython</category>
