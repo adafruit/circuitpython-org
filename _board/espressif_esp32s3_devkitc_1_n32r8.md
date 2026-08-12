@@ -4,8 +4,6 @@ board_id: "espressif_esp32s3_devkitc_1_n32r8"
 title: "ESP32-S3-DevKitC-1-N32R8 Download"
 name: "ESP32-S3-DevKitC-1-N32R8"
 manufacturer: "Espressif"
-board_url:
- - "https://www.adafruit.com/product/5364"
 board_image: "espressif_esp32s3_devkitc_1.jpg"
 date_added: 2023-01-31
 family: esp32s3
@@ -41,6 +39,8 @@ There are three mutually exclusive ways to provide power to the board:
 - **RGB LED**: Addressable RGB LED, driven by GPIO48.
 - **3.3V Power On LED**: Turns on when the USB power is connected to the board.
 
-## Purchase
+## Availability
 
-* [Adafruit](https://www.adafruit.com/product/5364)
+The ESP32-S3-WROOM-2-N32R8V module is End of Life, superseded by the ESP32-S3-WROOM-2-N32R16V. See Table 1-1 of the [ESP32-S3-WROOM-2 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf).
+
+Adafruit product 5364 is the N32R16V, not this board. See [ESP32-S3-DevKitC-1-N32R16](/board/espressif_esp32s3_devkitc_1_n32r16/).
