@@ -9,6 +9,7 @@ board_url:
 board_image: "espressif_esp32s3_devkitc_1.jpg"
 date_added: 2026-08-12
 family: esp32s3
+bootloader_id: espressif_esp32s3_devkitc_1_n32r16
 features:
   - Wi-Fi
   - Bluetooth/BTLE
