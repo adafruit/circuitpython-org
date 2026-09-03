@@ -12498,6 +12498,25 @@
         "description": "<p>ting is a standalone handheld microphone, more than just a mic, ting acts as a live performance tool, giving you hands-on control over your vocals.</p><p>Out of the box the EP-2350 runs a custom build of MicroPython made by Teenage Engineering. This download is for a CircuitPython build that replaces the stock firmware. The same process can be used to flash the stock firmware to get the device back to it’s original behavior.</p><p>The hardware features:</p><ul>  <li>RP2350 microcontroller</li>  <li>NAU88L21 audio CODEC</li>  <li>Microphone</li>  <li>3.5mm audio line out</li>  <li>Accelerometer</li>  <li>3 buttons and a volume knob</li>  <li>Handle with two endstop buttons and analog sensing via potentiometer</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://teenage.engineering/store/ep-2350\">teenage.engineering</a></li>  <li><a href=\"https://www.amazon.com/Teenage-Engineering-Handheld-Microphone-Connects/dp/B0FXXTKTDL?ref_=ast_sto_dp\">Amazon</a></li></ul>"
     },
     {
+        "board_id": "teenage_engineering_sp1",
+        "title": "SP-1 Download",
+        "name": "SP-1",
+        "board_url": [
+            "https://github.com/timknapen/SP-1-dev/wiki"
+        ],
+        "board_image": "teenage_engineering_sp1.jpg",
+        "date_added": "2026-09-03",
+        "family": "nrf52840",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "USB-C"
+        ],
+        "url_path": "/board/teenage_engineering_sp1/",
+        "description": "<p><strong>The original SP-1 firmware is unpublished. It is not possible to revert back to the stock firmware if you flash CircuitPython on the device. You can change to other 3rd party firmwares, but not back to original.</strong></p><p>The SP-1 was a device that had some get manufactured, but before being officially released the project and partnership around it was scrapped. The ones that did get manufactured eventually became available from 3rd party liquidation and reseller channels. They come “as-is” with absolutely no official support. A community of folks online have documented the on-board peripherals and created 3rd party firmwares to run on the device.</p><p>With CircuitPython the device can play wave or mp3 audio files stored in eMMC storage and control the volume with the fader bars.</p><p>The hardware features:</p><ul>  <li>Nordic nrf52840 microcontroller</li>  <li>CS42L42 audio CODEC</li>  <li>TAS2505 audio amp for speaker</li>  <li>3.5mm audio line out</li>  <li>8 buttons and an up/down rocker</li>  <li>4 analog fader slide bars</li>  <li>4gb emmc storage for audio files</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shopnewrepublic.com/products/yzy-2019-og-unreleased-stem-player-by-teenage-engineering\">2019 Unreleased Stem Player</a></li></ul>"
+    },
+    {
         "board_id": "teensy40",
         "title": "Teensy 4.0 Download",
         "name": "Teensy 4.0",

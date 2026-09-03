@@ -4,9 +4,49 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 03 Sep 2026 06:09:36 -0400</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 14:03:37 -0400</lastBuildDate>
 
 <item>
+    <title>SP-1</title>
+    <link>https://circuitpython.org/board/teenage_engineering_sp1/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/teenage_engineering_sp1.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/teenage_engineering_sp1.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/teenage_engineering_sp1.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Teenage Engineering</p> <p><strong>The original SP-1 firmware is unpublished. It is not possible to revert back to the stock firmware if you flash CircuitPython on the device. You can change to other 3rd party firmwares, but not back to original.</strong></p>
+
+<p>The SP-1 was a device that had some get manufactured, but before being officially released the project and partnership around it was scrapped. The ones that did get manufactured eventually became available from 3rd party liquidation and reseller channels. They come “as-is” with absolutely no official support. A community of folks online have documented the on-board peripherals and created 3rd party firmwares to run on the device.</p>
+
+<p>With CircuitPython the device can play wave or mp3 audio files stored in eMMC storage and control the volume with the fader bars.</p>
+
+<p>The hardware features:</p>
+<ul>
+  <li>Nordic nrf52840 microcontroller</li>
+  <li>CS42L42 audio CODEC</li>
+  <li>TAS2505 audio amp for speaker</li>
+  <li>3.5mm audio line out</li>
+  <li>8 buttons and an up/down rocker</li>
+  <li>4 analog fader slide bars</li>
+  <li>4gb emmc storage for audio files</li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://shopnewrepublic.com/products/yzy-2019-og-unreleased-stem-player-by-teenage-engineering">2019 Unreleased Stem Player</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/teenage_engineering_sp1/</guid>
+  </item><item>
     <title>ESP32-S3-DevKitC-1-N32R16</title>
     <link>https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n32r16/</link>
     <description><![CDATA[  
