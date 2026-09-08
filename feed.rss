@@ -4,9 +4,74 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 08 Sep 2026 06:09:36 -0400</lastBuildDate>
+<lastBuildDate>Tue, 08 Sep 2026 14:15:00 -0400</lastBuildDate>
 
 <item>
+    <title>Challenger RP2040 NFC</title>
+    <link>https://circuitpython.org/board/challenger_rp2040_nfc/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/challenger_rp2040_nfc.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/challenger_rp2040_nfc.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/challenger_rp2040_nfc.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Invector Labs</p> <p>The Challenger RP2040 NFC is an Adafruit Feather format board based on the Raspberry Pi RP2040, with an NXP PN7150 NFC controller on board. Unlike a simple NFC tag, the PN7150 is a full reader/writer: it polls for NFC-A, NFC-B, NFC-F and NFC-V targets and speaks NCI over I2C, so CircuitPython can read and write NDEF messages on NTAG/Ultralight, MIFARE Classic, DESFire and ISO15693 tags.</p>
+
+<p>It shares its layout with the rest of the Challenger RP2040 family (USB-C, 8 MByte of flash, a LiPo connector and charger, and a NeoPixel), so it drops into a Feather-shaped project like any other board in the series.</p>
+
+<h3 id="using-the-nfc-controller">Using the NFC controller</h3>
+
+<p>The PN7150 sits on its own I2C bus, exposed as <code class="language-plaintext highlighter-rouge">board.NFC_SDA</code> and <code class="language-plaintext highlighter-rouge">board.NFC_SCL</code>, with <code class="language-plaintext highlighter-rouge">board.NFC_IRQ</code> and <code class="language-plaintext highlighter-rouge">board.NFC_RESET</code> for the interrupt and VEN lines. That bus is internal to the board and does not appear on the headers; <code class="language-plaintext highlighter-rouge">board.I2C()</code> is the separate header bus on GPIO0/GPIO1.</p>
+
+<p><a href="https://github.com/TheFilipcom4607/circuitpython-pn7150">circuitpython-pn7150</a> is a single-file driver for the controller that imports nothing outside the core modules. It reads NTAG/Ultralight, Mifare Classic, DESFire/ISO-DEP, ISO15693 and FeliCa, decodes and writes NDEF, and can emulate a Type 4 tag so that tapping a phone on the board opens a URL. It recognises this board’s pin names, so <code class="language-plaintext highlighter-rouge">PN7150.from_board(board)</code> wires itself up:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">board</span>
+<span class="kn">from</span> <span class="n">pn7150</span> <span class="kn">import</span> <span class="n">PN7150</span>
+
+<span class="n">nfc</span> <span class="o">=</span> <span class="n">PN7150</span><span class="p">.</span><span class="nf">from_board</span><span class="p">(</span><span class="n">board</span><span class="p">)</span>
+<span class="k">with</span> <span class="n">nfc</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">tag</span> <span class="ow">in</span> <span class="n">nfc</span><span class="p">.</span><span class="nf">scan</span><span class="p">():</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">tag</span><span class="p">.</span><span class="nb">type</span><span class="p">,</span> <span class="n">tag</span><span class="p">.</span><span class="n">uid_hex</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">tag</span><span class="p">.</span><span class="n">ndef</span><span class="p">:</span>
+            <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">  -&gt;</span><span class="sh">"</span><span class="p">,</span> <span class="n">tag</span><span class="p">.</span><span class="n">ndef</span><span class="p">.</span><span class="n">value</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>It is in the <a href="https://github.com/adafruit/CircuitPython_Community_Bundle">CircuitPython Community Bundle</a>, so <code class="language-plaintext highlighter-rouge">circup install pn7150</code> fetches it, or you can copy <code class="language-plaintext highlighter-rouge">pn7150.mpy</code> from the latest release into <code class="language-plaintext highlighter-rouge">CIRCUITPY/lib/</code>. <a href="https://github.com/ElectronicCats/ElectronicCats_CircuitPython_PN7150">ElectronicCats_CircuitPython_PN7150</a> is the other driver for this chip; it covers tag detection, and its example needs <code class="language-plaintext highlighter-rouge">frequency</code> lowered from 400000 to 100000 to run here.</p>
+
+<p>The on-board bus has no external pull-up resistors, so this board is built with <code class="language-plaintext highlighter-rouge">CIRCUITPY_I2C_ALLOW_INTERNAL_PULL_UP</code> and <code class="language-plaintext highlighter-rouge">busio.I2C</code> enables the RP2040’s internal pull-ups on it. Those are weak, so <strong>construct the NFC bus at 100 kHz</strong>. 400 kHz will time out. Note also that <code class="language-plaintext highlighter-rouge">i2c.scan()</code> does not list the PN7150: it ignores the zero-length write that <code class="language-plaintext highlighter-rouge">scan()</code> uses and only answers real NCI frames.</p>
+
+<h3 id="technical-details">Technical details</h3>
+
+<ul>
+  <li>Raspberry Pi RP2040 dual core Cortex-M0+ @ 133 MHz</li>
+  <li>264 KByte SRAM, 8 MByte flash</li>
+  <li>NXP PN7150 NFC controller with integrated firmware, on a dedicated I2C bus</li>
+  <li>Reader/writer for NFC-A, NFC-B, NFC-F and NFC-V targets</li>
+  <li>1 hardware I2C, 1 hardware SPI and 1 hardware UART on the headers</li>
+  <li>4 x 12-bit ADC inputs</li>
+  <li>NeoPixel and a red user LED</li>
+  <li>LiPo charger and standard LiPo battery connector</li>
+  <li>USB-C connector</li>
+</ul>
+
+<p>The board ships without an NFC antenna. iLabs sells it as a kit with one, or you can attach your own to the antenna pads.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://ilabs.se/product/challenger-rp2040-nfc/">Invector Labs</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/challenger_rp2040_nfc/</guid>
+  </item><item>
     <title>SP-1</title>
     <link>https://circuitpython.org/board/teenage_engineering_sp1/</link>
     <description><![CDATA[  
