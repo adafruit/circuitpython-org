@@ -38,7 +38,7 @@ with nfc:
             print("  ->", tag.ndef.value)
 ```
 
-Install it with `circup bundle-add TheFilipcom4607/circuitpython-pn7150` followed by `circup install pn7150`, or copy `pn7150.mpy` from the latest release into `CIRCUITPY/lib/`. [ElectronicCats_CircuitPython_PN7150](https://github.com/ElectronicCats/ElectronicCats_CircuitPython_PN7150) is the other driver for this chip; it covers tag detection, and its example needs `frequency` lowered from 400000 to 100000 to run here.
+It is in the [CircuitPython Community Bundle](https://github.com/adafruit/CircuitPython_Community_Bundle), so `circup install pn7150` fetches it, or you can copy `pn7150.mpy` from the latest release into `CIRCUITPY/lib/`. [ElectronicCats_CircuitPython_PN7150](https://github.com/ElectronicCats/ElectronicCats_CircuitPython_PN7150) is the other driver for this chip; it covers tag detection, and its example needs `frequency` lowered from 400000 to 100000 to run here.
 
 The on-board bus has no external pull-up resistors, so this board is built with `CIRCUITPY_I2C_ALLOW_INTERNAL_PULL_UP` and `busio.I2C` enables the RP2040's internal pull-ups on it. Those are weak, so **construct the NFC bus at 100 kHz**. 400 kHz will time out. Note also that `i2c.scan()` does not list the PN7150: it ignores the zero-length write that `scan()` uses and only answers real NCI frames.
 
