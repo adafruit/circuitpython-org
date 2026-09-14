@@ -629,6 +629,18 @@
             }
         ]
     },
+    "seeed_xiao_esp32_s3_trmnl_diy_kit": {
+        "name": "Seeed Studio XIAO ESP32-S3 TRMNL DIY Kit",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/seeed_xiao_esp32s3/tinyuf2-seeed_xiao_esp32s3-0.35.0.zip",
+        "releases": [
+            {
+                "version": "10.3.0",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/seeed_xiao_esp32_s3_trmnl_diy_kit/en_US/adafruit-circuitpython-seeed_xiao_esp32_s3_trmnl_diy_kit-en_US-10.3.0.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/seeed_xiao_esp32_s3_trmnl_diy_kit/en_US/adafruit-circuitpython-seeed_xiao_esp32_s3_trmnl_diy_kit-en_US-10.3.0.uf2"
+            }
+        ]
+    },
     "morpheans_morphesp-240": {
         "name": "MorphESP 240",
         "chipfamily": "esp32s2",
