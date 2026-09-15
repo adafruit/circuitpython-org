@@ -6,7 +6,7 @@ name: "Xiaomao"
 manufacturer: "SecuringHardware.com"
 board_url: "https://tigard-tools.org/xiaomao"
 board_image: "securinghardware_xiaomao.jpg"
-date_added: "2026-09-15"
+date_added: "2026-9-15"
 family: "rp2040"
 features:
   - USB-C
