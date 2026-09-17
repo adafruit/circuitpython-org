@@ -41,4 +41,7 @@ With its state-of-the-art power and RF performance, this SoC is an ideal choice 
 
 ## Purchase
 
-* [Aliexpress](https://www.aliexpress.us/item/3256804679132291.html)
+* [Aliexpress](https://www.aliexpress.us/item/3256810418961218.html)
+
+Hardware information and example code:
+* [Github](https://github.com/01Space/ESP32-C3-0.42LCD)
