@@ -17,11 +17,7 @@ Xiǎomāo (小猫) means 'small cat' and gets its name from the original revisio
 
 All the GPIO pins have 200 ohm current limiting resistors that should protect both the target and the device. If you have a Tigard, you can re-use the wiring harnesses. You should be able to tap power and ground from your target system to get your device running in standalone implant mode.
 
-<<<<<<<< HEAD:_board/xiaomao.md
-Alongside a logic analyzer and an I/O interface board, a simple microcontroller board rounds out a basic hardware hacking toolkit, allowing you to bitbang proprietary protocols, search for disabled interfaces, log data, drop payloads, and act as an implant-in-the-middle. For example, [Hecate](https://github.com/tigard-tools/hecate) is a CircuitPython framework for UART logging, payloads, and interdiction. It will work on any board but was built with Xiǎomāo in mind.
-========
 Alongside a logic analyzer and an I/O interface board, a simple microcontroller board rounds out a basic hardware hacking toolkit, allowing you to bitbang proprietary protocols, search for disabled interfaces, log data, drop payloads, and act as an implant-in-the-middle. For example, [Hecate](https://tigard-tools.org/hecate) is a CircuitPython framework for UART logging, payloads, and interdiction. It will work on any board but was built with Xiǎomāo in mind.
->>>>>>>> 7257695b735dfe9bca3c8b05386acdc31b402e0d:_board/securinghw-xiaomao.md
 
 ## Purchase
 * Not planned for sale, but as a freebie with some workshops
