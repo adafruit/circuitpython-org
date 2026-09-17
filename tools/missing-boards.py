@@ -42,15 +42,16 @@ def find_missing_boards(folder):
             if not os.path.exists(f"./_boards/{board}.md"):
                 missing_boards.append(board["id"])
 
-    # Scan through files and remove board_ids from list
+    # Scan through files and remove the data-file IDs they represent. Aliased
+    # pages use board_alias for their data-file ID and board_id for their page ID.
     for filename in get_files(folder):
         with open(filename, "rt") as f:
             metadata, _ = frontmatter.parse(f.read())
-            board_id = metadata.get('board_id')
-            if board_id == "unknown":
+            data_file_id = metadata.get('board_alias') or metadata.get('board_id')
+            if data_file_id == "unknown":
                 continue
-            if board_id in missing_boards:
-                missing_boards.remove(board_id)
+            if data_file_id in missing_boards:
+                missing_boards.remove(data_file_id)
 
     # Print out remaining board_ids
     print_section("Missing Boards", missing_boards)

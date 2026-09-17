@@ -8,29 +8,29 @@
 <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
 <meta name="msapplication-TileColor" content="#1a1919">
 <meta name="msapplication-TileImage" content="https://cdn-shop.adafruit.com/static/mstile-144x144.png" />
-<title>PicoMo V3 Download</title>
-<meta name="description" content="The PicoMo, based on a Raspberry Pi Pico microcontroller chip, has been developed by HEIA-FR’s Electrical Engineering and Computer Science and Communication ..." />
+<title>Flipper Zero WiFi Dev Board Download</title>
+<meta name="description" content="The developer board with Wi-Fi connectivity made specially for Flipper Zero. Based on the ESP32-S2 module, this devboard allows:  Wireless Flipper Zero firmw..." />
 
 <!-- Twitter and Open Graph cards -->
 <meta name="twitter:site" content="@circuitpython" />
-<meta property="og:url" content="https://circuitpython.org/board/picomo_v3/" />
+<meta property="og:url" content="https://circuitpython.org/board/flipperzero_wifi_dev/" />
 
-<meta property="og:title"   content="CircuitPython - PicoMo V3 Download" />
+<meta property="og:title"   content="CircuitPython - Flipper Zero WiFi Dev Board Download" />
 
 
 
-<meta property="og:description" content="The PicoMo, based on a Raspberry Pi Pico microcontroller chip, has been developed by HEIA-FR’s Electrical Engineering and Computer Science and Communication Systems departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.This ..." />
+<meta property="og:description" content="The developer board with Wi-Fi connectivity made specially for Flipper Zero. Based on the ESP32-S2 module, this devboard allows:  Wireless Flipper Zero firmware update  Advanced in-circuit debugging via USB or Wi-Fi using the Black Magic Probe open source project  As a bonus, ESP32-S2 allows Wi-F..." />
 
 
 
 <meta name="twitter:card"  content="summary_large_image" />
-<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/picomo_v3.jpg" />
+<meta property="og:image" content="https://circuitpython.org/assets/images/boards/large/flipper-zero_wifi_devboard.jpg" />
 
 <meta property="og:type" content="website" />
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="https://circuitpython.org/board/picomo_v3/">
+  <link rel="canonical" href="https://circuitpython.org/board/flipperzero_wifi_dev/">
   <!-- CircuitPython RSS Feed -->
   <link rel="alternate"
         type="application/rss+xml"
@@ -136,47 +136,75 @@
     <div>
       <div class="image-section">
         
-        <img src="/assets/images/boards/large/picomo_v3.jpg" alt="Image of Board" />
-        <h1>PicoMo V3 by <a href="/downloads?manufacturers=HEIA-FR">HEIA-FR</a></h1>
+        <img src="/assets/images/boards/large/flipper-zero_wifi_devboard.jpg" alt="Image of Board" />
+        <h1>Flipper Zero WiFi Dev by <a href="/downloads?manufacturers=Flipper+Zero">Flipper Zero</a></h1>
       </div>
       <div class="section">
-        <p><p>The <a href="https://go.heia-fr.ch/picomo">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href="https://www.heia-fr.ch/en/">HEIA-FR</a>’s <a href="https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/">Electrical Engineering</a> and <a href="https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p>
+        <p><p>The developer board with Wi-Fi connectivity made specially for Flipper Zero. Based on the <a href="https://www.espressif.com/en/products/socs/esp32-s2">ESP32-S2</a> module, this devboard allows:</p>
 
-<p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p>
-
-<p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p>
+<ul>
+  <li>Wireless Flipper Zero firmware update</li>
+  <li>Advanced in-circuit debugging via USB or Wi-Fi using the <a href="https://github.com/blackmagic-debug/blackmagic">Black Magic Probe</a> open source project</li>
+  <li>As a bonus, ESP32-S2 allows Wi-Fi penetration testing (PMKID capturing, deauth, and more) and connects Flipper Zero to the Internet. These functions are not supplied with the module and must be implemented additionally.</li>
+</ul>
 
 <h2 id="technical-details">Technical details</h2>
 
 <ul>
-  <li>RP2040 Dual Arm Cortex-M0+</li>
-  <li>264kB of SRAM</li>
-  <li>2 MB of flash memory</li>
-  <li>ST7789 1.69 inch display with a resolution of 240x280</li>
-  <li>Temperature and humidity sensor (SHTC3)</li>
-  <li>7 buttons</li>
-  <li>Speaker (buzzer)</li>
-  <li>Onboard LED (RGB)</li>
-  <li>USB-C power</li>
+  <li>ESP32-S2-WROVER Xtensa® single-core 32-bit LX7 CPU, frequency up to 240MHz</li>
+  <li>2.4 GHz Wi-Fi (802.11 b/g/n)</li>
+  <li>USB-C</li>
+  <li>128 KB ROM</li>
+  <li>320 KB SRAM</li>
+  <li>16 KB RTCSRAM</li>
+  <li>4 MB Flash</li>
+  <li>2 MB PSRAM</li>
+  <li>Working Voltage: 3 V to 3.6 V</li>
+  <li>Up to 36 GPIOs</li>
+  <li>3 strapping GPIOs</li>
+  <li>7 GPIOs need for flash/PSRAM</li>
+  <li>2*12-bit ADC (up to 20 channels)</li>
+  <li>Communication interfaces
+    <ul>
+      <li>2 I2C interfaces</li>
+      <li>1 I2S interface</li>
+      <li>4 SPI interfaces</li>
+      <li>2 UART interfaces</li>
+      <li>1 USB OTG interface</li>
+    </ul>
+  </li>
+  <li>Security
+    <ul>
+      <li>4096 bit OTP</li>
+      <li>AES, SHA, RSA, ECC, RNG</li>
+      <li>Secure Boot, Flash Encryption, Digital signature, HMAC module</li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="schematic">Schematic</h2>
+<h2 id="tutorials">Tutorials</h2>
 
 <ul>
-  <li><a href="https://github.com/heia-picomo/hardware/blob/main/schematic/P095V3_PicoMo_Schematic.pdf">PicoMo Github repository</a></li>
+  <li><a href="https://docs.flipper.net/development/hardware/wifi-developer-board">Flipper Docs Wi-Fi Developer Page</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://shop.flipperzero.one/products/wifi-devboard">Flipper Zero</a></li>
 </ul>
 
 <h2 id="learn-more">Learn More</h2>
 
 <ul>
-  <li><a href="https://go.heia-fr.ch/picomo">PicoMo home page</a></li>
+  <li><a href="https://products.espressif.com/#/product-selector?language=en&amp;names=ESP32-S2-WROVER-N4R2">ESP32-S2-WROVER Product page</a></li>
 </ul>
 </p>
         <h2>Contribute</h2>
         <p>
           Have some info to add for this board? Edit the source for this page
           <a
-            href="https://github.com/adafruit/circuitpython-org/edit/main/_board/picomo_v3.md"
+            href="https://github.com/adafruit/circuitpython-org/edit/main/_board/flipperzero_wifi_dev.md"
             >here</a
           >.
         </p>
@@ -203,7 +231,7 @@
     <h3>CircuitPython 10.3.1</h3>
     
     <p>
-      This is the latest <strong>stable</strong> release of CircuitPython that will work with the PicoMo V3.
+      This is the latest <strong>stable</strong> release of CircuitPython that will work with the Flipper Zero WiFi Dev.
       <strong>Use this release</strong> if you are new to CircuitPython.
     </p>
     
@@ -228,8 +256,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/zh_Latn_pinyin/adafruit-circuitpython-heiafr_picomo_v3-zh_Latn_pinyin-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/zh_Latn_pinyin/adafruit-circuitpython-heiafr_picomo_v3-zh_Latn_pinyin-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/zh_Latn_pinyin/adafruit-circuitpython-flipperzero_wifi_dev-zh_Latn_pinyin-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/zh_Latn_pinyin/adafruit-circuitpython-flipperzero_wifi_dev-zh_Latn_pinyin-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/zh_Latn_pinyin/adafruit-circuitpython-flipperzero_wifi_dev-zh_Latn_pinyin-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/zh_Latn_pinyin/adafruit-circuitpython-flipperzero_wifi_dev-zh_Latn_pinyin-10.3.1.uf2"
                     data-locale="zh-Latn-pinyin"
                     >
               CHINESE (PINYIN)
@@ -241,8 +269,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/nl/adafruit-circuitpython-heiafr_picomo_v3-nl-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/nl/adafruit-circuitpython-heiafr_picomo_v3-nl-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/nl/adafruit-circuitpython-flipperzero_wifi_dev-nl-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/nl/adafruit-circuitpython-flipperzero_wifi_dev-nl-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/nl/adafruit-circuitpython-flipperzero_wifi_dev-nl-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/nl/adafruit-circuitpython-flipperzero_wifi_dev-nl-10.3.1.uf2"
                     data-locale="nl"
                     >
               DUTCH
@@ -254,8 +282,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_GB/adafruit-circuitpython-heiafr_picomo_v3-en_GB-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_GB/adafruit-circuitpython-heiafr_picomo_v3-en_GB-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_GB/adafruit-circuitpython-flipperzero_wifi_dev-en_GB-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_GB/adafruit-circuitpython-flipperzero_wifi_dev-en_GB-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_GB/adafruit-circuitpython-flipperzero_wifi_dev-en_GB-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_GB/adafruit-circuitpython-flipperzero_wifi_dev-en_GB-10.3.1.uf2"
                     data-locale="en-GB"
                     >
               ENGLISH (UK)
@@ -267,8 +295,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_US/adafruit-circuitpython-heiafr_picomo_v3-en_US-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_US/adafruit-circuitpython-heiafr_picomo_v3-en_US-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.uf2"
                     data-locale="en-US"
                     selected>
               ENGLISH (US)
@@ -280,8 +308,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/fil/adafruit-circuitpython-heiafr_picomo_v3-fil-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/fil/adafruit-circuitpython-heiafr_picomo_v3-fil-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fil/adafruit-circuitpython-flipperzero_wifi_dev-fil-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fil/adafruit-circuitpython-flipperzero_wifi_dev-fil-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fil/adafruit-circuitpython-flipperzero_wifi_dev-fil-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fil/adafruit-circuitpython-flipperzero_wifi_dev-fil-10.3.1.uf2"
                     data-locale="fil"
                     >
               FILIPINO
@@ -293,8 +321,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/fr/adafruit-circuitpython-heiafr_picomo_v3-fr-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/fr/adafruit-circuitpython-heiafr_picomo_v3-fr-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fr/adafruit-circuitpython-flipperzero_wifi_dev-fr-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fr/adafruit-circuitpython-flipperzero_wifi_dev-fr-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fr/adafruit-circuitpython-flipperzero_wifi_dev-fr-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fr/adafruit-circuitpython-flipperzero_wifi_dev-fr-10.3.1.uf2"
                     data-locale="fr"
                     >
               FRENCH
@@ -306,8 +334,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/de_DE/adafruit-circuitpython-heiafr_picomo_v3-de_DE-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/de_DE/adafruit-circuitpython-heiafr_picomo_v3-de_DE-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/de_DE/adafruit-circuitpython-flipperzero_wifi_dev-de_DE-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/de_DE/adafruit-circuitpython-flipperzero_wifi_dev-de_DE-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/de_DE/adafruit-circuitpython-flipperzero_wifi_dev-de_DE-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/de_DE/adafruit-circuitpython-flipperzero_wifi_dev-de_DE-10.3.1.uf2"
                     data-locale="de-DE"
                     >
               GERMAN
@@ -319,8 +347,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ID/adafruit-circuitpython-heiafr_picomo_v3-ID-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ID/adafruit-circuitpython-heiafr_picomo_v3-ID-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ID/adafruit-circuitpython-flipperzero_wifi_dev-ID-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ID/adafruit-circuitpython-flipperzero_wifi_dev-ID-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ID/adafruit-circuitpython-flipperzero_wifi_dev-ID-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ID/adafruit-circuitpython-flipperzero_wifi_dev-ID-10.3.1.uf2"
                     data-locale="ID"
                     >
               INDONESIAN
@@ -332,8 +360,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/it_IT/adafruit-circuitpython-heiafr_picomo_v3-it_IT-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/it_IT/adafruit-circuitpython-heiafr_picomo_v3-it_IT-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/it_IT/adafruit-circuitpython-flipperzero_wifi_dev-it_IT-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/it_IT/adafruit-circuitpython-flipperzero_wifi_dev-it_IT-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/it_IT/adafruit-circuitpython-flipperzero_wifi_dev-it_IT-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/it_IT/adafruit-circuitpython-flipperzero_wifi_dev-it_IT-10.3.1.uf2"
                     data-locale="it-IT"
                     >
               ITALIAN
@@ -345,8 +373,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ja/adafruit-circuitpython-heiafr_picomo_v3-ja-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ja/adafruit-circuitpython-heiafr_picomo_v3-ja-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ja/adafruit-circuitpython-flipperzero_wifi_dev-ja-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ja/adafruit-circuitpython-flipperzero_wifi_dev-ja-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ja/adafruit-circuitpython-flipperzero_wifi_dev-ja-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ja/adafruit-circuitpython-flipperzero_wifi_dev-ja-10.3.1.uf2"
                     data-locale="ja"
                     >
               JAPANESE
@@ -358,8 +386,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_x_pirate/adafruit-circuitpython-heiafr_picomo_v3-en_x_pirate-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_x_pirate/adafruit-circuitpython-heiafr_picomo_v3-en_x_pirate-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_x_pirate/adafruit-circuitpython-flipperzero_wifi_dev-en_x_pirate-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_x_pirate/adafruit-circuitpython-flipperzero_wifi_dev-en_x_pirate-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_x_pirate/adafruit-circuitpython-flipperzero_wifi_dev-en_x_pirate-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_x_pirate/adafruit-circuitpython-flipperzero_wifi_dev-en_x_pirate-10.3.1.uf2"
                     data-locale="en-x-pirate"
                     >
               PIRATE (ENGLISH)
@@ -371,8 +399,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/pl/adafruit-circuitpython-heiafr_picomo_v3-pl-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/pl/adafruit-circuitpython-heiafr_picomo_v3-pl-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pl/adafruit-circuitpython-flipperzero_wifi_dev-pl-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pl/adafruit-circuitpython-flipperzero_wifi_dev-pl-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pl/adafruit-circuitpython-flipperzero_wifi_dev-pl-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pl/adafruit-circuitpython-flipperzero_wifi_dev-pl-10.3.1.uf2"
                     data-locale="pl"
                     >
               POLISH
@@ -384,8 +412,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/pt_BR/adafruit-circuitpython-heiafr_picomo_v3-pt_BR-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/pt_BR/adafruit-circuitpython-heiafr_picomo_v3-pt_BR-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pt_BR/adafruit-circuitpython-flipperzero_wifi_dev-pt_BR-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pt_BR/adafruit-circuitpython-flipperzero_wifi_dev-pt_BR-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pt_BR/adafruit-circuitpython-flipperzero_wifi_dev-pt_BR-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pt_BR/adafruit-circuitpython-flipperzero_wifi_dev-pt_BR-10.3.1.uf2"
                     data-locale="pt-BR"
                     >
               PORTUGUESE (BRAZILIAN)
@@ -397,8 +425,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ru/adafruit-circuitpython-heiafr_picomo_v3-ru-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ru/adafruit-circuitpython-heiafr_picomo_v3-ru-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ru/adafruit-circuitpython-flipperzero_wifi_dev-ru-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ru/adafruit-circuitpython-flipperzero_wifi_dev-ru-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ru/adafruit-circuitpython-flipperzero_wifi_dev-ru-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ru/adafruit-circuitpython-flipperzero_wifi_dev-ru-10.3.1.uf2"
                     data-locale="ru"
                     >
               RUSSIAN
@@ -410,8 +438,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/es/adafruit-circuitpython-heiafr_picomo_v3-es-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/es/adafruit-circuitpython-heiafr_picomo_v3-es-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/es/adafruit-circuitpython-flipperzero_wifi_dev-es-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/es/adafruit-circuitpython-flipperzero_wifi_dev-es-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/es/adafruit-circuitpython-flipperzero_wifi_dev-es-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/es/adafruit-circuitpython-flipperzero_wifi_dev-es-10.3.1.uf2"
                     data-locale="es"
                     >
               SPANISH
@@ -423,8 +451,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/sv/adafruit-circuitpython-heiafr_picomo_v3-sv-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/sv/adafruit-circuitpython-heiafr_picomo_v3-sv-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/sv/adafruit-circuitpython-flipperzero_wifi_dev-sv-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/sv/adafruit-circuitpython-flipperzero_wifi_dev-sv-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/sv/adafruit-circuitpython-flipperzero_wifi_dev-sv-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/sv/adafruit-circuitpython-flipperzero_wifi_dev-sv-10.3.1.uf2"
                     data-locale="sv"
                     >
               SWEDISH
@@ -436,8 +464,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/tr/adafruit-circuitpython-heiafr_picomo_v3-tr-10.3.1.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/tr/adafruit-circuitpython-heiafr_picomo_v3-tr-10.3.1.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/tr/adafruit-circuitpython-flipperzero_wifi_dev-tr-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/tr/adafruit-circuitpython-flipperzero_wifi_dev-tr-10.3.1.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/tr/adafruit-circuitpython-flipperzero_wifi_dev-tr-10.3.1.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/tr/adafruit-circuitpython-flipperzero_wifi_dev-tr-10.3.1.uf2"
                     data-locale="tr"
                     >
               TURKISH
@@ -448,8 +476,19 @@
       <div class="download-buttons">
       
       
-        <a class="download-button stable uf2" href="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_US/adafruit-circuitpython-heiafr_picomo_v3-en_US-10.3.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+        <a class="download-button stable uf2" href="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       
+        <a class="download-button stable bin" href="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      
+        <button is="cp-install-button" class="installer-button" boardid="flipperzero_wifi_dev"
+        
+            binfile="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.bin"
+        
+            uf2file="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.uf2"
+        
+        version="10.3.1"
+        >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
       
       </div>
     </div>
@@ -463,16 +502,6 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_asyncio">
           
             _asyncio</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_bleio">
-          
-            _bleio</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_bleio (HCI co-processor)">
-          
-            _bleio (HCI co-processor)</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_eve">
@@ -535,29 +564,19 @@
             audiocore</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiodelays">
-          
-            audiodelays</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiofilewriter">
           
             audiofilewriter</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiofilters">
-          
-            audiofilters</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiofreeverb">
-          
-            audiofreeverb</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audioi2sin">
           
             audioi2sin</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audioio">
+          
+            audioio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiomixer">
@@ -568,16 +587,6 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiomp3">
           
             audiomp3</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiopwmio">
-          
-            audiopwmio</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiospeed">
-          
-            audiospeed</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/binascii">
@@ -598,11 +607,6 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitmaptools">
           
             bitmaptools</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitops">
-          
-            bitops</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/board">
@@ -640,6 +644,11 @@
             busio.UART</a>
           
           
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/canio">
+          
+            canio</a>
+          
+          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/codeop">
           
             codeop</a>
@@ -675,9 +684,24 @@
             errno</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/floppyio">
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espcamera">
           
-            floppyio</a>
+            espcamera</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espidf">
+          
+            espidf</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espnow">
+          
+            espnow</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espulp">
+          
+            espulp</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fontio">
@@ -693,6 +717,11 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/framebufferio">
           
             framebufferio</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/frequencyio">
+          
+            frequencyio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/getpass">
@@ -715,19 +744,14 @@
             i2cdisplaybus</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/i2ctarget">
-          
-            i2ctarget</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/imagecapture">
-          
-            imagecapture</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/io">
           
             io</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ipaddress">
+          
+            ipaddress</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/jpegio">
@@ -785,6 +809,16 @@
             math</a>
           
           
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/max3421e">
+          
+            max3421e</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/mdns">
+          
+            mdns</a>
+          
+          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/memorymap">
           
             memorymap</a>
@@ -830,6 +864,11 @@
             paralleldisplaybus</a>
           
           
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ps2io">
+          
+            ps2io</a>
+          
+          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pulseio">
           
             pulseio</a>
@@ -870,11 +909,6 @@
             rotaryio</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rp2pio">
-          
-            rp2pio</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rtc">
           
             rtc</a>
@@ -893,6 +927,21 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sharpdisplay">
           
             sharpdisplay</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/socketpool">
+          
+            socketpool</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/socketpool/#socketpool.socketpool.AF_INET6">
+          
+            socketpool.socketpool.AF_INET6</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ssl">
+          
+            ssl</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
@@ -960,11 +1009,6 @@
             usb</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_audio">
-          
-            usb_audio</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_cdc">
           
             usb_cdc</a>
@@ -975,19 +1019,9 @@
             usb_hid</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_host">
-          
-            usb_host</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_midi">
           
             usb_midi</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_video">
-          
-            usb_video</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/vectorio">
@@ -1005,6 +1039,11 @@
             watchdog</a>
           
           
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/wifi">
+          
+            wifi</a>
+          
+          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/zlib">
           
             zlib</a>
@@ -1013,50 +1052,11 @@
     </details>
     
     
-    <p>
-        Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
-        <span class="download-modules stable">
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/display_shapes">
-            
-            adafruit_display_shapes</a>, 
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/display_text">
-            
-            adafruit_display_text</a>, 
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/progressbar">
-            
-            adafruit_progressbar</a>, 
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/register">
-            
-            adafruit_register</a>, 
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/st7789">
-            
-            adafruit_st7789</a>
-          
-        </span>
-    </p>
-    
     
     <p>Features:
       <span class="features-list">
       
-        <a class="library-link" href="/downloads?features=Speaker">Speaker</a>, 
-      
-        <a class="library-link" href="/downloads?features=Display">Display</a>, 
+        <a class="library-link" href="/downloads?features=Wi-Fi">Wi-Fi</a>, 
       
         <a class="library-link" href="/downloads?features=USB-C">USB-C</a>
       
@@ -1069,8 +1069,17 @@
     <h3>CircuitPython 10.4.0-alpha.2</h3>
     
     <p>
-      This is the latest development release of CircuitPython that will work with the PicoMo V3.
+      This is the latest development release of CircuitPython that will work with the Flipper Zero WiFi Dev.
     </p>
+    
+      <p>
+        <strong>WARNING: On Espressif ESP32-S2 and ESP32-S3 boards with 4MB flash,
+          CircuitPython 10.0.0-beta.0 and later require TinyUF2 bootloader version 0.33.0 or later.</strong>
+        Older TinyUF2 bootloaders don't provide enough room for the firmware and cannot load it.
+        See the
+        <a href="https://github.com/adafruit/circuitpython/releases/tag/10.4.0-alpha.2">Release Notes</a>
+        for more details, and see <em>Update UF2 Bootloader</em> below.
+      </p>
     
     <p>
       <strong>Alpha</strong> development releases are early releases.
@@ -1105,8 +1114,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/zh_Latn_pinyin/adafruit-circuitpython-heiafr_picomo_v3-zh_Latn_pinyin-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/zh_Latn_pinyin/adafruit-circuitpython-heiafr_picomo_v3-zh_Latn_pinyin-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/zh_Latn_pinyin/adafruit-circuitpython-flipperzero_wifi_dev-zh_Latn_pinyin-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/zh_Latn_pinyin/adafruit-circuitpython-flipperzero_wifi_dev-zh_Latn_pinyin-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/zh_Latn_pinyin/adafruit-circuitpython-flipperzero_wifi_dev-zh_Latn_pinyin-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/zh_Latn_pinyin/adafruit-circuitpython-flipperzero_wifi_dev-zh_Latn_pinyin-10.4.0-alpha.2.uf2"
                     data-locale="zh-Latn-pinyin"
                     >
               CHINESE (PINYIN)
@@ -1118,8 +1127,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/nl/adafruit-circuitpython-heiafr_picomo_v3-nl-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/nl/adafruit-circuitpython-heiafr_picomo_v3-nl-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/nl/adafruit-circuitpython-flipperzero_wifi_dev-nl-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/nl/adafruit-circuitpython-flipperzero_wifi_dev-nl-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/nl/adafruit-circuitpython-flipperzero_wifi_dev-nl-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/nl/adafruit-circuitpython-flipperzero_wifi_dev-nl-10.4.0-alpha.2.uf2"
                     data-locale="nl"
                     >
               DUTCH
@@ -1131,8 +1140,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_GB/adafruit-circuitpython-heiafr_picomo_v3-en_GB-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_GB/adafruit-circuitpython-heiafr_picomo_v3-en_GB-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_GB/adafruit-circuitpython-flipperzero_wifi_dev-en_GB-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_GB/adafruit-circuitpython-flipperzero_wifi_dev-en_GB-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_GB/adafruit-circuitpython-flipperzero_wifi_dev-en_GB-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_GB/adafruit-circuitpython-flipperzero_wifi_dev-en_GB-10.4.0-alpha.2.uf2"
                     data-locale="en-GB"
                     >
               ENGLISH (UK)
@@ -1144,8 +1153,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_US/adafruit-circuitpython-heiafr_picomo_v3-en_US-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_US/adafruit-circuitpython-heiafr_picomo_v3-en_US-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.uf2"
                     data-locale="en-US"
                     selected>
               ENGLISH (US)
@@ -1157,8 +1166,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/fil/adafruit-circuitpython-heiafr_picomo_v3-fil-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/fil/adafruit-circuitpython-heiafr_picomo_v3-fil-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fil/adafruit-circuitpython-flipperzero_wifi_dev-fil-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fil/adafruit-circuitpython-flipperzero_wifi_dev-fil-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fil/adafruit-circuitpython-flipperzero_wifi_dev-fil-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fil/adafruit-circuitpython-flipperzero_wifi_dev-fil-10.4.0-alpha.2.uf2"
                     data-locale="fil"
                     >
               FILIPINO
@@ -1170,8 +1179,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/fr/adafruit-circuitpython-heiafr_picomo_v3-fr-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/fr/adafruit-circuitpython-heiafr_picomo_v3-fr-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fr/adafruit-circuitpython-flipperzero_wifi_dev-fr-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fr/adafruit-circuitpython-flipperzero_wifi_dev-fr-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fr/adafruit-circuitpython-flipperzero_wifi_dev-fr-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/fr/adafruit-circuitpython-flipperzero_wifi_dev-fr-10.4.0-alpha.2.uf2"
                     data-locale="fr"
                     >
               FRENCH
@@ -1183,8 +1192,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/de_DE/adafruit-circuitpython-heiafr_picomo_v3-de_DE-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/de_DE/adafruit-circuitpython-heiafr_picomo_v3-de_DE-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/de_DE/adafruit-circuitpython-flipperzero_wifi_dev-de_DE-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/de_DE/adafruit-circuitpython-flipperzero_wifi_dev-de_DE-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/de_DE/adafruit-circuitpython-flipperzero_wifi_dev-de_DE-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/de_DE/adafruit-circuitpython-flipperzero_wifi_dev-de_DE-10.4.0-alpha.2.uf2"
                     data-locale="de-DE"
                     >
               GERMAN
@@ -1196,8 +1205,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ID/adafruit-circuitpython-heiafr_picomo_v3-ID-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ID/adafruit-circuitpython-heiafr_picomo_v3-ID-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ID/adafruit-circuitpython-flipperzero_wifi_dev-ID-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ID/adafruit-circuitpython-flipperzero_wifi_dev-ID-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ID/adafruit-circuitpython-flipperzero_wifi_dev-ID-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ID/adafruit-circuitpython-flipperzero_wifi_dev-ID-10.4.0-alpha.2.uf2"
                     data-locale="ID"
                     >
               INDONESIAN
@@ -1209,8 +1218,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/it_IT/adafruit-circuitpython-heiafr_picomo_v3-it_IT-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/it_IT/adafruit-circuitpython-heiafr_picomo_v3-it_IT-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/it_IT/adafruit-circuitpython-flipperzero_wifi_dev-it_IT-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/it_IT/adafruit-circuitpython-flipperzero_wifi_dev-it_IT-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/it_IT/adafruit-circuitpython-flipperzero_wifi_dev-it_IT-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/it_IT/adafruit-circuitpython-flipperzero_wifi_dev-it_IT-10.4.0-alpha.2.uf2"
                     data-locale="it-IT"
                     >
               ITALIAN
@@ -1222,8 +1231,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ja/adafruit-circuitpython-heiafr_picomo_v3-ja-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ja/adafruit-circuitpython-heiafr_picomo_v3-ja-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ja/adafruit-circuitpython-flipperzero_wifi_dev-ja-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ja/adafruit-circuitpython-flipperzero_wifi_dev-ja-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ja/adafruit-circuitpython-flipperzero_wifi_dev-ja-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ja/adafruit-circuitpython-flipperzero_wifi_dev-ja-10.4.0-alpha.2.uf2"
                     data-locale="ja"
                     >
               JAPANESE
@@ -1235,8 +1244,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_x_pirate/adafruit-circuitpython-heiafr_picomo_v3-en_x_pirate-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_x_pirate/adafruit-circuitpython-heiafr_picomo_v3-en_x_pirate-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_x_pirate/adafruit-circuitpython-flipperzero_wifi_dev-en_x_pirate-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_x_pirate/adafruit-circuitpython-flipperzero_wifi_dev-en_x_pirate-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_x_pirate/adafruit-circuitpython-flipperzero_wifi_dev-en_x_pirate-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_x_pirate/adafruit-circuitpython-flipperzero_wifi_dev-en_x_pirate-10.4.0-alpha.2.uf2"
                     data-locale="en-x-pirate"
                     >
               PIRATE (ENGLISH)
@@ -1248,8 +1257,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/pl/adafruit-circuitpython-heiafr_picomo_v3-pl-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/pl/adafruit-circuitpython-heiafr_picomo_v3-pl-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pl/adafruit-circuitpython-flipperzero_wifi_dev-pl-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pl/adafruit-circuitpython-flipperzero_wifi_dev-pl-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pl/adafruit-circuitpython-flipperzero_wifi_dev-pl-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pl/adafruit-circuitpython-flipperzero_wifi_dev-pl-10.4.0-alpha.2.uf2"
                     data-locale="pl"
                     >
               POLISH
@@ -1261,8 +1270,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/pt_BR/adafruit-circuitpython-heiafr_picomo_v3-pt_BR-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/pt_BR/adafruit-circuitpython-heiafr_picomo_v3-pt_BR-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pt_BR/adafruit-circuitpython-flipperzero_wifi_dev-pt_BR-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pt_BR/adafruit-circuitpython-flipperzero_wifi_dev-pt_BR-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pt_BR/adafruit-circuitpython-flipperzero_wifi_dev-pt_BR-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/pt_BR/adafruit-circuitpython-flipperzero_wifi_dev-pt_BR-10.4.0-alpha.2.uf2"
                     data-locale="pt-BR"
                     >
               PORTUGUESE (BRAZILIAN)
@@ -1274,8 +1283,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ru/adafruit-circuitpython-heiafr_picomo_v3-ru-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/ru/adafruit-circuitpython-heiafr_picomo_v3-ru-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ru/adafruit-circuitpython-flipperzero_wifi_dev-ru-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ru/adafruit-circuitpython-flipperzero_wifi_dev-ru-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ru/adafruit-circuitpython-flipperzero_wifi_dev-ru-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/ru/adafruit-circuitpython-flipperzero_wifi_dev-ru-10.4.0-alpha.2.uf2"
                     data-locale="ru"
                     >
               RUSSIAN
@@ -1287,8 +1296,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/es/adafruit-circuitpython-heiafr_picomo_v3-es-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/es/adafruit-circuitpython-heiafr_picomo_v3-es-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/es/adafruit-circuitpython-flipperzero_wifi_dev-es-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/es/adafruit-circuitpython-flipperzero_wifi_dev-es-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/es/adafruit-circuitpython-flipperzero_wifi_dev-es-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/es/adafruit-circuitpython-flipperzero_wifi_dev-es-10.4.0-alpha.2.uf2"
                     data-locale="es"
                     >
               SPANISH
@@ -1300,8 +1309,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/sv/adafruit-circuitpython-heiafr_picomo_v3-sv-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/sv/adafruit-circuitpython-heiafr_picomo_v3-sv-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/sv/adafruit-circuitpython-flipperzero_wifi_dev-sv-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/sv/adafruit-circuitpython-flipperzero_wifi_dev-sv-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/sv/adafruit-circuitpython-flipperzero_wifi_dev-sv-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/sv/adafruit-circuitpython-flipperzero_wifi_dev-sv-10.4.0-alpha.2.uf2"
                     data-locale="sv"
                     >
               SWEDISH
@@ -1313,8 +1322,8 @@
             
             
             
-            <option value="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/tr/adafruit-circuitpython-heiafr_picomo_v3-tr-10.4.0-alpha.2.uf2"
-                    data-files="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/tr/adafruit-circuitpython-heiafr_picomo_v3-tr-10.4.0-alpha.2.uf2"
+            <option value="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/tr/adafruit-circuitpython-flipperzero_wifi_dev-tr-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/tr/adafruit-circuitpython-flipperzero_wifi_dev-tr-10.4.0-alpha.2.uf2"
+                    data-files="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/tr/adafruit-circuitpython-flipperzero_wifi_dev-tr-10.4.0-alpha.2.bin,https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/tr/adafruit-circuitpython-flipperzero_wifi_dev-tr-10.4.0-alpha.2.uf2"
                     data-locale="tr"
                     >
               TURKISH
@@ -1325,8 +1334,19 @@
       <div class="download-buttons">
       
       
-        <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/heiafr_picomo_v3/en_US/adafruit-circuitpython-heiafr_picomo_v3-en_US-10.4.0-alpha.2.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+        <a class="download-button unstable uf2" href="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.uf2">DOWNLOAD .UF2 NOW <i class="fas fa-download" aria-hidden="true"></i></a>
       
+        <a class="download-button unstable bin" href="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.bin">DOWNLOAD .BIN NOW <i class="fas fa-download" aria-hidden="true"></i></a>
+      
+      
+        <button is="cp-install-button" class="installer-button" boardid="flipperzero_wifi_dev"
+        
+            binfile="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.bin"
+        
+            uf2file="https://downloads.circuitpython.org/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.uf2"
+        
+        version="10.4.0-alpha.2"
+        >OPEN INSTALLER <i class="fas fa-magic" aria-hidden="true"></i></button>
       
       </div>
     </div>
@@ -1340,16 +1360,6 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_asyncio">
           
             _asyncio</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_bleio">
-          
-            _bleio</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_bleio (HCI co-processor)">
-          
-            _bleio (HCI co-processor)</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/_eve">
@@ -1412,29 +1422,19 @@
             audiocore</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiodelays">
-          
-            audiodelays</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiofilewriter">
           
             audiofilewriter</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiofilters">
-          
-            audiofilters</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiofreeverb">
-          
-            audiofreeverb</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audioi2sin">
           
             audioi2sin</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audioio">
+          
+            audioio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiomixer">
@@ -1445,16 +1445,6 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiomp3">
           
             audiomp3</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiopwmio">
-          
-            audiopwmio</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/audiospeed">
-          
-            audiospeed</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/binascii">
@@ -1475,11 +1465,6 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitmaptools">
           
             bitmaptools</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/bitops">
-          
-            bitops</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/board">
@@ -1517,6 +1502,11 @@
             busio.UART</a>
           
           
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/canio">
+          
+            canio</a>
+          
+          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/codeop">
           
             codeop</a>
@@ -1552,9 +1542,24 @@
             errno</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/floppyio">
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espcamera">
           
-            floppyio</a>
+            espcamera</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espidf">
+          
+            espidf</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espnow">
+          
+            espnow</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/espulp">
+          
+            espulp</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/fontio">
@@ -1570,6 +1575,11 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/framebufferio">
           
             framebufferio</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/frequencyio">
+          
+            frequencyio</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/getpass">
@@ -1592,19 +1602,14 @@
             i2cdisplaybus</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/i2ctarget">
-          
-            i2ctarget</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/imagecapture">
-          
-            imagecapture</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/io">
           
             io</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ipaddress">
+          
+            ipaddress</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/jpegio">
@@ -1662,6 +1667,16 @@
             math</a>
           
           
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/max3421e">
+          
+            max3421e</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/mdns">
+          
+            mdns</a>
+          
+          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/memorymap">
           
             memorymap</a>
@@ -1707,6 +1722,11 @@
             paralleldisplaybus</a>
           
           
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ps2io">
+          
+            ps2io</a>
+          
+          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/pulseio">
           
             pulseio</a>
@@ -1747,11 +1767,6 @@
             rotaryio</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rp2pio">
-          
-            rp2pio</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/rtc">
           
             rtc</a>
@@ -1770,6 +1785,21 @@
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/sharpdisplay">
           
             sharpdisplay</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/socketpool">
+          
+            socketpool</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/socketpool/#socketpool.socketpool.AF_INET6">
+          
+            socketpool.socketpool.AF_INET6</a>
+          
+          
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/ssl">
+          
+            ssl</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/storage">
@@ -1837,11 +1867,6 @@
             usb</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_audio">
-          
-            usb_audio</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_cdc">
           
             usb_cdc</a>
@@ -1852,19 +1877,9 @@
             usb_hid</a>
           
           
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_host">
-          
-            usb_host</a>
-          
-          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_midi">
           
             usb_midi</a>
-          
-          
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/usb_video">
-          
-            usb_video</a>
           
           
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/vectorio">
@@ -1882,6 +1897,11 @@
             watchdog</a>
           
           
+          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/wifi">
+          
+            wifi</a>
+          
+          
           <a target="_blank" class="library-link" href="https://docs.circuitpython.org/en/latest/shared-bindings/zlib">
           
             zlib</a>
@@ -1890,50 +1910,11 @@
     </details>
     
     
-    <p>
-        Included frozen<sup><a href="https://docs.circuitpython.org/en/latest/docs/reference/glossary.html?highlight=frozen#term-frozen-module" title="What is a frozen module">(?)</a></sup> modules:
-        <span class="download-modules unstable">
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/display_shapes">
-            
-            adafruit_display_shapes</a>, 
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/display_text">
-            
-            adafruit_display_text</a>, 
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/progressbar">
-            
-            adafruit_progressbar</a>, 
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/register">
-            
-            adafruit_register</a>, 
-          
-          
-            
-          <a target="_blank" class="library-link" href="https://docs.circuitpython.org/projects/st7789">
-            
-            adafruit_st7789</a>
-          
-        </span>
-    </p>
-    
     
     <p>Features:
       <span class="features-list">
       
-        <a class="library-link" href="/downloads?features=Speaker">Speaker</a>, 
-      
-        <a class="library-link" href="/downloads?features=Display">Display</a>, 
+        <a class="library-link" href="/downloads?features=Wi-Fi">Wi-Fi</a>, 
       
         <a class="library-link" href="/downloads?features=USB-C">USB-C</a>
       
@@ -1954,7 +1935,9 @@
     feeling daring or want to see if a problem has been fixed.
   </p>
   <div>
-    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/heiafr_picomo_v3/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/flipperzero_wifi_dev/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    
+    <a class="download-button-unrecommended" href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">OPEN WEBSERIAL ESPTOOL<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
     
     <div class="clear"></div>
   </div>
@@ -1973,13 +1956,95 @@
     Otherwise we recommend using the latest stable release.
   </p>
   <div class="previous-versions-buttons">
-    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/heiafr_picomo_v3/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+    <a class="download-button-unrecommended" href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/flipperzero_wifi_dev/">BROWSE S3<i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
     <a class="download-button-unrecommended" href="https://github.com/adafruit/circuitpython/releases">BROWSE GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
   </div>
 </div>
 
 
 
+
+
+
+<div class="section unrecommended">
+  <h3>Install, Repair, or Update UF2 Bootloader</h3>
+  <p>
+    Latest version: 0.35.0
+  </p>
+  <p>
+    <strong>The UF2 bootloader allows you to load CircuitPython, MakeCode, and Arduino programs.
+    </strong>
+    The bootloader itself is not CircuitPython.
+    On Espressif boards, the UF2 bootloader is called <em>TinyUF2</em>.
+    If the TinyUF2 bootloader is installed, you can check its version by looking in
+    the <strong>INFO_UF2.TXT</strong> file when the <strong>BOOT</strong> drive is visible
+    (<strong>FTHRS2BOOT</strong>, <strong>MAGTAGBOOT</strong>, <strong>HOUSEBOOT</strong>, etc.)
+  </p>
+  <p>
+    In general, it is not necessary to update TinyUF2 at every version change.
+    You can read the <a href="https://github.com/adafruit/tinyuf2/releases">release notes on GitHub</a> to see what has been changed.
+    Update if you've been told about a necessary change or a bug fix.
+  </p>
+  <p><strong><em>Note:</em></strong>
+    <em>CircuitPython 10 and later, on Espressif boards with 4MB flash, requires TinyUF2 0.33.0 or later.
+    The flash partition layout has changed (<a href="https://learn.adafruit.com/adafruit-esp32-s3-feather/update-tinyuf2-bootloader-for-circuitpython-10-4mb-boards-only">details</a>).</em>
+  </p>
+  <p>
+    If TinyUF2 has never been installed on the board,
+    or it was removed by erasing or overwriting the flash,
+    it must be installed in order to flash <strong>.uf2</strong> files onto the board.
+    But you don't need the TinyUF2 bootloader to upload <strong>.bin</strong> files. They can be uploaded using the
+    built-in ROM bootloader, with the
+    <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a>
+    or <strong>esptool.py</strong>.
+  </p>
+  <p><strong><em>Warning:</em></strong>
+    <em>Installing the TinyUF2 bootloader will erase everything that was previously on the board.
+      Save any files in <strong>CIRCUITPY</strong> for which you don't have backups.</em>
+  </p>
+  <p>There are several ways to install the TinyUF2 bootloader on your board.
+      Check to see if your board's manufacturer provides specific instructions.
+      For Adafruit boards, consult the <em>Factory Reset</em> page
+      in the Learn Guide for your particular board (<a href="https://learn.adafruit.com/adafruit-esp32-s3-feather/factory-reset">example</a>).
+  </p>
+  <p>The easiest way to install TinyUF2 is to use the <strong>OPEN INSTALLER</strong> button
+    (see above, in the CiruitPython sections).
+    You can also use the <a href="https://adafruit.github.io/Adafruit_WebSerial_ESPTool/">Adafruit WebSerial ESPTool</a>, or <strong>esptool.py</strong>,
+    as described in the Factory Reset page.
+  </p>
+  <li>If you are not using the <strong>OPEN INSTALLER</strong> button,
+    download the <strong>combined.bin</strong> file using the <strong>DOWNLOAD BOOTLOADER combined.bin</strong> button below.
+  (If you use <strong>OPEN INSTALLER</strong>, it will do the download itself.)</li>
+  <li>First, place board in ROM bootloader mode:
+   <ul>
+    <li>Plug board into a USB port on your computer using a data/sync cable. Make sure it is the only board plugged in, and that a charge-only cable is not being used.</li>
+    <li>Press and <em>hold</em> the BOOT button (sometimes marked "B0").</li>
+    <li>Press and <em>release</em> the RESET button (sometimes marked "RST").</li>
+    <li>Release the BOOT button. This starts the ROM bootloader.</li>
+   </ul>
+  </li>
+  <li>Then proceed with <strong>OPEN INSTALLER</strong> or one of the other tools.</li>
+  <li>After the TinyUF2 firmware installation is complete, press the RESET button on the board.
+      A new drive <strong>BOOT</strong> drive should be visible in your file browser.</li>
+   </ul>
+  </li>
+ </ul>
+ 
+  <p>
+   After installing TinyUF2, enter the UF2 bootloader by double-clicking the RESET button.
+   On boards with an RGB status LED, you usually tap reset once, wait for the LED to turn purple, and tap
+   again before the purple goes away. On other boards, consult the board documentation.
+   </p>
+  
+ <p>
+   If you are updating TinyUF2, look at <strong>INFO_UF2.TXT</strong> to verify the new version of TinyUF2,
+   by checking the version number.
+   Then you will need to copy the CircuitPython<strong>.uf2</strong> file to the <strong>BOOT</strong> drive.
+ </p>
+ <div>
+    <a class="download-button" href="https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/espressif_saola_1_wrover/tinyuf2-espressif_saola_1_wrover-0.35.0-combined.bin">DOWNLOAD BOOTLOADER combined.bin<i class="fas fa-download" aria-hidden="true"></i></a>
+ </div>
+</div>
 
 
  
@@ -1989,6 +2054,19 @@
 
 
 
+
+<!--
+  CryptoJS enables post-flash MD5 verification inside the installer
+  (see adafruit/web-firmware-installer-js#23). Without it, esptool-js
+  silently skips the readback hash check, which can mask flash
+  corruption on some USB-serial bridges.
+-->
+<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/crypto-js.min.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/gh/adafruit/web-firmware-installer-js@2/dist/cpinstaller.min.js"
+  type="module"
+></script>
+<!--<script src="/assets/javascript/installer/cpinstaller.js" type="module"></script>-->
 
 <script src="/assets/javascript/download.js"></script>
 

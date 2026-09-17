@@ -206,27 +206,6 @@
         "description": "<p>Why buy an Apple watch when you can spend your weekends building a microcontroller based “smart” watch instead? The TG-Watch is an open source, not-dumb watch meant for makers who want to hack on their watch, people who want to bring Python with them everywhere, or as a great starting point to learn about programming.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>240x240, 1.54” LCD</li>  <li>capacitive touchscreen</li>  <li>USB-C port (2.0)</li>  <li>Step counter and pedometer</li>  <li>Vibration motor and haptic motor driver</li>  <li>Bluetooth 5, Bluetooth mesh, Thread, ZigBee</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/TG-Techie/TG-Watch02-PCB\">Download PCB Files on Github</a></li></ul>"
     },
     {
-        "board_id": "thingpulse_pendrive_s3",
-        "title": "ThingPulse Pendrive S3 Download",
-        "name": "ThingPulse Pendrive S3",
-        "board_url": [
-            "https://thingpulse.com/product/esp32-s3-pendrive-s3-128mb/"
-        ],
-        "board_image": "ThingPulse_Pendrive_S3.jpg",
-        "date_added": "2024-06-06",
-        "family": "esp32s3",
-        "bootloader_id": "thingpulse_pendrive_s3",
-        "tags": [
-        ],
-        "features": [
-            "Wi-Fi",
-            "Bluetooth/BTLE",
-            "USB-C"
-        ],
-        "url_path": "/board/ThingPulse_PendriveS3/",
-        "description": "<p>The ThingPulse Pendrive S3 is a ESP32-S3 board which fits neatly into a USB pendrive</p><ul>  <li>Wi-Fi</li>  <li>Bluetooth/BTLE</li>  <li>USB-C</li>  <li>128MB Built-In SD-card-like flash memory</li>  <li>WS2812B RGB status LED</li>  <li>Capacitive touch button</li>  <li>Compact Pendrive Enclosure</li></ul><h2 id=\"applications-badusb\">Applications: BadUSB</h2><p>Imagine having full control over any computer in seconds, simply by plugging in a device. That’s the power of tools that emulate a USB keyboard. Because computers inherently trust keyboards, these devices can take command with lightning speed.</p><p>Meet the Pendrive S3, a device that pretends to be a keyboard, bombarding the computer with hundreds of keystrokes per second—far faster than any human could type. By utilizing a straightforward scripting language, you can program the Pendrive S3 to execute any commands you want.</p><p>Now, take this concept to the next level with the Super WiFi Duck. This innovative tool lets you manage all your scripts wirelessly through a user-friendly web interface. No need for app installations, logging in, or tedious script transfers. With the Super WiFi Duck, everything is at your fingertips, making it easier than ever to unleash the full potential of a BadUSB device.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://thingpulse.com/product/esp32-s3-pendrive-s3-128mb/\">ThingPulse</a></li></ul>"
-    },
-    {
         "board_id": "adafruit_esp32s3_camera",
         "title": "MEMENTO - Python Programmable DIY Camera Download",
         "name": "MEMENTO - Python Programmable DIY Camera",
@@ -715,7 +694,7 @@
         "description": "<p>The Adafruit Feather series gives you lots of options for a small, portable, rechargeable microcontroller board. By picking a feather and stacking on a FeatherWing you can create advanced projects quickly. One popular combo is our <a href=\"https://www.adafruit.com/product/3857\">Feather M4</a> or <a href=\"https://www.adafruit.com/product/4884\">Feather RP2040</a> with a <a href=\"https://www.adafruit.com/product/3988\">Prop-Maker FeatherWing</a> on top to create animatronics or props that boot up instantly and can drive LEDs, and small speakers.</p><p>We’ve used the <a href=\"https://www.adafruit.com/product/3988\">Prop-Maker FeatherWing</a> to make lots of lil robots, swords, and other prop projects. However, what if we made it <em>even easier</em> for people to make props? What if we made it so many projects can be built with minimal or no soldering at all? Yeah that would be pretty nice!</p><p>Thus, the creation of the <strong>Adafruit RP2040 Prop-Maker Feather</strong>: an all-in-one combination of the <a href=\"https://www.adafruit.com/product/4884\">Feather RP2040</a> with a <a href=\"https://www.adafruit.com/product/3988\">Prop-Maker FeatherWing</a> with a few tweaks based on feedback from expert prop-builders. Perfect for fitting into your next prop build! This Feather will <a href=\"https://en.wikipedia.org/wiki/Imagineering\">unlock the ‘Imagineer’ inside all of us</a>, with tons of stuff packed in to make sabers &amp; swords, props, toys, mini robots, cosplay pieces, and more.</p><p>We looked at hundreds of prop builds, and thought about what would make for a great low-cost (but well-designed) add-on for our Feather boards. Here’s what we came up with:</p><ul>  <li><strong>Terminal Block NeoPixel Port -</strong> With easy-to-use screw terminals you can quickly connect and disconnect your NeoPixel strips and rings. This port provides high current drive from either the Feather Lipoly or USB port, whichever is higher. A 5V level up-shifter gives you a clean voltage signal to reduce glitchiness no matter what LED chip you’re using. You can also cut power to the entire strip instantly to reduce quiescent power, thanks to a separate control transistor. <a href=\"https://www.adafruit.com/category/168\">Works with any and all NeoPixels</a> (SK6812 / WS2812 family)</li>  <li><strong>MAX98357 I2S 3 Watt Class D Audio Amplifier</strong> - Drive any 4-8Ω speaker, up to 3 Watts, for sound effects. Audio comes out on two of the terminal blocks so you can screw in any wires to a speaker you like - <a href=\"https://www.adafruit.com/product/3968\">we’re partial to this small 3W speaker</a> or <a href=\"https://www.adafruit.com/product/4445\">this enclosed style 3W speaker</a>, both come with pre-attached wires. <a href=\"https://www.adafruit.com/product/3006\">Thanks to the I2S digital inputs</a>, you’ll get excellent audio quality</li>  <li><strong>Triple-Axis Accelerometer with Tap Detection</strong> - The LIS3DH is our favorite accelerometer, you can use this for detection motion, tilt, or taps. <a href=\"https://learn.adafruit.com/hallowing-lightsaber\">Here’s an example of a lightsaber that makes sounds when swung or hit.</a> We have code for this chip in both Arduino and CircuitPython.</li>  <li><strong>Extra Button or Output Pin</strong> - One more pin on the terminal screw block can be used for button input or digital output, for activation or a simple LED.</li>  <li><strong>Servo Connection</strong> - <a href=\"https://www.adafruit.com/search?q=servo\">Plug any hobby servo with 3 wires</a> into the 0.1” spaced header, and you can have quick motion control.</li>  <li><strong>Low power mode!</strong> The power system for the NeoPixels and speaker amplifier can be controlled by a pin to cut power to them, so you have lower power usage when the prop is in sleep or off mode (but can wake up fast by listening to the button press or accelerometer data).</li></ul><p>At the Feather’s heart is an RP2040 chip, clocked at 133 MHz and at 3.3V logic, the same one used in the <a href=\"https://www.adafruit.com/product/4864\">Raspberry Pi Pico</a>. This chip has a whopping 8 MB of onboard QSPI FLASH and 264K of RAM! There’s even room left over for a STEMMA QT connector for plug-and-play of I2C devices.</p><p>To make it easy to use for portable projects, we added a connector for any of our 3.7V Lithium polymer batteries and built in battery charging. You don’t need a battery, it will run just fine straight from the USB Type C connector. But, if you do have a battery, you can take it on the go, then plug in the USB to recharge. The Feather will automatically switch over to USB power when it’s available.</p><p><strong>Here’re some handy specs! You get:</strong></p><ul>  <li>Measures 52.1mm x 22.8mm x 12.2mm / 2.1” x 0.9” x 0.5 without headers soldered in</li>  <li>Light as a (large?) feather - ~7grams</li>  <li>RP2040 32-bit Cortex M0+ dual core running at ~133 MHz @ 3.3V logic and power</li>  <li>264 KB RAM</li>  <li><strong>8 MB SPI FLASH</strong> chip for storing files, images, and CircuitPython/MicroPython code storage. No EEPROM</li>  <li>Tons of GPIO! 21 x GPIO pins with following capabilities:    <ul>      <li><strong>Four</strong> 12-bit ADCs (one more than Pico)</li>      <li>Two I2C, Two SPI, and two UART peripherals, we label one for the ‘main’ interface in standard Feather locations</li>      <li>16 x PWM outputs - for servos, LEDs, etc</li>    </ul>  </li>  <li><strong>Built-in 200mA+ lipoly charger</strong> with charging status indicator LED</li>  <li><strong>Pin #13 red LED</strong> for general purpose blinking</li>  <li><strong>RGB NeoPixel</strong> for full-color indication.</li>  <li>On-board <strong>STEMMA QT connector</strong> that lets you quickly connect any Qwiic, STEMMA QT or Grove I2C devices with no soldering!</li>  <li><strong>Both Reset button and Bootloader select button for quick restarts</strong> (no unplugging-replugging to relaunch code)</li>  <li><strong>USB Type C connector</strong> lets you access built-in ROM USB bootloader and serial port debugging</li>  <li>3.3V regulator with 500mA peak current output and power enable pin</li>  <li>4 mounting holes</li>  <li>12 MHz crystal for perfect timing.</li>  <li><strong>Prop-Making section with I2S 3W audio amplifier, 5V NeoPixel level shifting, accelerometer, servo port, and terminal blocks for fast solder-free connections.</strong></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5768\">Adafruit</a></li></ul>"
     },
     {
-        "board_id": "adafruit_feather_rp2040_rfm",
+        "board_id": "adafruit_feather_rp2040_rfm69",
         "title": "Feather RP2040 RFM69 Board Download",
         "name": "Feather RP2040 RFM69",
         "board_url": [
@@ -1760,31 +1739,6 @@
         "description": "<h3 id=\"more-features\">More features</h3><ul>  <li>Flashlight</li>  <li>MicroSD Card Reader</li>  <li>Optional ESP32-MB expansion board includes buttons and Serial port</li>  <li>8Mb PSRAM</li></ul><p>ESP32-CAM is a small sized ESP32 camera module released by Ai-Thinker. The module can work independently with a size of only 27 x 40.5 x 4.5mm, and a deep sleep current as low as 6mA.</p><p>ESP32-CAM can be widely used in various IoT applications, suitable for home smart devices, industrial wireless control, wireless monitoring, QR wireless identification, wireless positioning system signals and other IoT applications. It is an ideal solution for IoT applications.</p><p>ESP32-CAM adopts DIP package and can be used directly by plugging in the bottom plate, realizing the rapid production of products, providing customers with high-reliability connection methods, which is convenient for application in various IoT hardware terminal occasions.</p><p>Ultra-small 802.11b/g/n Wi-Fi + BT/BLE SoC module</p><h3 id=\"product-features\">Product Features</h3><ul>  <li>Using low-power dual-core 32-bit CPU, can be used as an application processor</li>  <li>Main frequency up to 240MHz, computing power up to 600 DMIPS</li>  <li>Built-in 520 KB SRAM, external 8MB PSRAM included</li>  <li>Support UART/SPI/I2C/PWM/ADC/DAC and other interfaces</li>  <li>Support OV2640 and OV7670 cameras, built-in flashlight</li>  <li>Support picture WiFI upload</li>  <li>Support TF card</li>  <li>Support multiple sleep modes</li>  <li>Embedded Lwip, FreeRTOS, and CircuitPython</li>  <li>Support STA/AP/STA+AP working mode</li>  <li>Support Smart Config/AirKiss one-click network configuration</li>  <li>Support secondary development</li></ul><h3 id=\"application-scenarios\">Application scenarios</h3><ul>  <li>Home smart device image transmission</li>  <li>Wireless monitoring</li>  <li>Smart agriculture</li>  <li>QR wireless recognition</li></ul><h3 id=\"usage-notes\">Usage Notes</h3><p>The serial port on the ESP32-MB adapter which usually ships with these boards has the Serial Request-To-Send (RTS) hardware flow-control line physically connected to the ESP32 Reset (RST) pin, and it also has the Serial Data-Terminal-Ready (DTR) hardware flow-control line physically connected to the ESP32 GPIO pin.</p><p>This allows software which knows this (e.g. Arduino) to automatically perform hardware resets over the serial port by pulsing the RTS-line, and to automatically perform firmware updates by holding the DTR line low while pulsing the RTS line.</p><p>Unfortunately, many serial emulators and even some python libraries which communicate via Serial ports will typically set the state of one of both of these hardware flow control lines - this means that your ESP32-CAM might not be able to boot or be used by some software.  Notable examples include Thonny, ampy, pyboard, and Windows version of Python itself*</p><p>* The work-around for Windows python is to first create the serial port object, without specifying which port to use - this bypasses the Python windows bug which always sets the RTS/DTR pins.  You can then tell the serial object which port, and set the RTS/DTR pins as you like.</p><h2 id=\"circuitpython-on-esp32\">CircuitPython on ESP32</h2><p>Want to learn how to load circuitpython onto this board? check out <a href=\"https://learn.adafruit.com/circuitpython-with-esp32-quick-start/\">this</a> on the Adafruit learning system</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.aliexpress.com/w/wholesale-esp32%2525252dcam.html\">Aliexpress</a></li>  <li><a href=\"https://www.amazon.com/s?k=esp32-cam\">Amazon</a></li>  <li><a href=\"https://www.ebay.com/sch/i.html?_nkw=esp32-cam\">eBay</a></li></ul>"
     },
     {
-        "board_id": "prokyber_ai_on_the_edge_cam",
-        "title": "AI-On-The-Edge-Cam: Esp32-S3 with PoE, SD, Camera Download",
-        "name": "AI-On-The-Edge-Cam",
-        "board_url": [
-            "https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera"
-        ],
-        "board_image": "ai_on_the_edge_cam.jpg",
-        "date_added": "2025-09-03",
-        "family": "esp32s3",
-        "bootloader_id": "",
-        "tags": [
-        ],
-        "features": [
-            "Wi-Fi",
-            "Bluetooth/BTLE",
-            "USB-C",
-            "Battery Charging",
-            "Camera",
-            "STEMMA QT/QWIIC",
-            "Robotics"
-        ],
-        "url_path": "/board/ai_on_the_edge_cam/",
-        "description": "<p>This is an ESP32-S3 CircuitPython-compatible development board (16 MB flash, 8 MB RAM) that integrates Ethernet with PoE, a microSD card slot, a camera with WS2812B backlighting LEDs, a Stemma QT connector, and comprehensive battery management. Thanks to the ability to enable and disable peripheral power using onboard MOSFETs, the device consumes less than 25 µA in deep sleep mode.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Ethernet with PoE handled by W5500</li>  <li>OV2640/OV5640 Camera socket with 4 × WS2812B smart LEDs for back-lighting</li>  <li>Micro-SD card slot</li>  <li>Sleep current: &lt;25 µA</li>  <li>Integrated battery charging, protection, and measurement</li>  <li>External antenna support</li>  <li>Stemma QT I²C connector for external sensors</li>  <li>Compatible with Ai-on-the-edge-device Esp32-s3 branch</li>  <li>Schematics available</li>  <li>3D-printable enclosure availableAll of these features have been tested and verified with CircuitPython, so you can build with confidence.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera\">Tindie</a></li></ul>"
-    },
-    {
         "board_id": "ai_thinker_esp32-c3s-2m",
         "title": "ESP-C3-32S (2M) Download",
         "name": "ESP-C3-32S (2M)",
@@ -2006,7 +1960,8 @@
         ],
         "features": [
             "Bluetooth/BTLE",
-            "Breadboard-Friendly"
+            "Breadboard-Friendly",
+            "Castellated Pads"
         ],
         "url_path": "/board/arduino_nano_33_ble/",
         "description": "<p>Please note that the pictured board is a Nano 33 BLE Sense. This build works with both the Nano 33 BLE and the Sense.</p><p>This compact and reliable NANO board is built around the u-blox NINA-B306 module, based on the Nordic nRF52840 and containing a powerful Cortex-M4F core. Its architecture, fully compatible with Arduino IDE Online and Offline, has a 9-axis Inertial Measurement Unit (IMU) and a reduced power consumption compared to other same size boards.This allows the design of wearable devices and movement sensing projects that need to communicate to other devices at a close range. Arduino NANO 33 BLE is also ideal for automation projects thanks to the multiprotocol BT 5.0 radio.</p><p>The NANO 33 BLE Sense adds an APDS-9960 light, colour, gesture and proximity sensor; an LPS22HB pressure and temperature sensor; an HTS221 humidity sensor; and a MP34DT05 microphone.</p><p>To use this board with CircuitPython you must <a href=\"https://forums.adafruit.com/viewtopic.php?f=60&amp;t=158279\">replace the existing bootloader</a> with the Adafruit UF2 bootloader. You need to restore the original bootloader to use the board again with Arduino.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://store-usa.arduino.cc/products/arduino-nano-33-ble\">Arduino - Nano 33 BLE</a></li>  <li><a href=\"https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense\">Arduino - Nano 33 BLE Sense</a></li></ul>"
@@ -2703,7 +2658,7 @@
             "USB-C",
             "Wi-Fi"
         ],
-        "url_path": "/board/cezerio_dev_esp32c6/",
+        "url_path": "/board/cezerio_dev_ESP32C6/",
         "description": "<p>cezerio dev ESP32C6 based on ESP32-C6FH4 SoC from Espressif, RISC-V single-core processor, 4 MB flash memory, and a diverse selection of wireless connectivity options: 2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee 3.0 and Thread 1.3 (802.15.4). Moreover, Wi-Fi 6’s Target Wake Time (TWT) technology effectively reduces device power consumption, extending battery life and ensuring long-lasting device performance.</p><p>The footprint is Feather-compatible. I2C connector seamlessly integrates the vast ecosystem of sensors, actuators, and more.</p><p>This development board also includes a LiPo battery charger, 6-axis IMU (3-axis Accelerometer &amp; 3-axis Gyroscope), 5x5 RGB LED matrix, an addressable RGB LED and more.</p><p>For primary power and programming, the board is also equipped with a USB-C connector and a 2-pin JST connector for a LiPo battery.</p><p>The ESP32-C6 includes 20 GPIO pins with a wide range of peripheral options including SPI, UART, I2C, I2S, LED PWM, USB Serial/JTAG controller, ADC and more.</p><p><strong>Features &amp; Specifications</strong>-32-bit High Performance RISC-V processor up to 160MHz-32-bit Low Power RISC-V processor at 20Mhz-2.4GHz WiFi 6 - 802.11ax-Bluetooth 5.3 (LE) + Mesh-Zigbee and Thread (802.15.4)-4MB QSPI Flash-6-axis IMU (3-axis Accelerometer &amp; 3-axis Gyroscope) LSM6DS3TR-C-Temperature Sensor-USB-C Connector-Reverse USB back-feed protection-1A step-down buck DC-DC converter-Ultra low deep sleep current-BQ21040DBVR 800mAh 1-cell Li-ion and Li-polymer Battery Charging-Power and Charge LEDs-20 x Multifunctional GPIO (Digital, 12-bit SAR ADC, SPI, I2C, UART, I2S, LED PWM, PCNT, TWAI, USB Serial/JTAG, SDIO, Motor Control PWM, RMT, PARLIO, DMA, ETM)-3D High Gain Antenna-Board Dimensions: 50,8mm x 22.86mm-Max Thickness: 6.6mm at JST PH battery connector-4 Mounting Holes-4-pin Qwiic Connector-2-pin JST PH Connector for LiPo Battery-2835 Addressable RGB LED-Two Buttons (Boot &amp; Reset)-25 x WS2812B 1010 RGB LED</p><h2 id=\"purchase\">Purchase</h2><p>You can purchase your very own cezerio dev ESP32C6 from:</p><ul>  <li><a href=\"https://cezerio.com/cezerio_dev_esp32c6\">cezerio</a></li></ul>"
     },
     {
@@ -2726,7 +2681,7 @@
             "USB-C",
             "Wi-Fi"
         ],
-        "url_path": "/board/cezerio_mini_dev_esp32c6/",
+        "url_path": "/board/cezerio_mini_dev_ESP32C6/",
         "description": "<p>cezerio mini dev ESP32C6 based on ESP32-C6FH4 SoC from Espressif, RISC-V single-core processor, 4 MB flash memory, and a diverse selection of wireless connectivity options: 2.4 GHz WiFi 6, Bluetooth® 5.3, Zigbee 3.0 and Thread 1.3 (802.15.4). Moreover, Wi-Fi 6’s Target Wake Time (TWT) technology effectively reduces device power consumption, extending battery life and ensuring long-lasting device performance.</p><p>The footprint is compatible with Adafruit QT Py and Seeed Studio XIAO. This development board also includes 5x5 RGB LED matrix, an addressable RGB LED.</p><p>I2C connector seamlessly integrates the vast ecosystem of sensors, actuators, and more. It is also compatible with STEMMA QT and Qwiic.</p><p>For primary power and programming, the board is equipped with a USB-Type C connector.</p><p>The ESP32-C6 includes 15 GPIO pins with a wide range of peripheral options including SPI, UART, I2C, I2S, LED PWM, USB Serial/JTAG controller, ADC and more.</p><p><strong>Features &amp; Specifications</strong>-32-bit High Performance RISC-V processor up to 160MHz-32-bit Low Power RISC-V processor at 20Mhz-2.4GHz WiFi 6 - 802.11ax-Bluetooth 5.3 (LE) + Mesh-Zigbee and Thread (802.15.4)-4MB QSPI Flash-Temperature Sensor-Ultra low deep sleep current-15 x Multifunctional GPIO (Digital, 12-bit SAR ADC, SPI, I2C, UART, I2S, LED PWM, PCNT, TWAI, USB Serial/JTAG, SDIO, Motor Control PWM, RMT, PARLIO, DMA, ETM)-USB-Type C Connector-4-pin I2C Connector-Reverse USB back-feed protection-25 x WS2812B 1010 RGB LED-2835 Addressable RGB LED-Power LED-2 x Button (Boot &amp; Reset)-3D High Gain Antenna-Board Dimensions: 22,86mm x 17.78mm-Max Thickness: 7.95mm between USB-Type C and I2C connectors</p><h2 id=\"purchase\">Purchase</h2><p>You can purchase your very own cezerio dev ESP32C6 from:</p><ul>  <li><a href=\"https://cezerio.com/cezerio_mini_dev_esp32c6\">cezerio</a></li></ul>"
     },
     {
@@ -3000,8 +2955,8 @@
             "Display",
             "Camera"
         ],
-        "url_path": "/board/circuitart_esp32s3_zero/",
-        "description": "<p>A new ESP32S3 Dev board in a RaspberryPI zero footprint, The board has an additional tiny SPI/I2C connector for a 1.3” IPS display + AHT20 sensor.</p><p>That’s not all, This board comes with native USB, Debug USB, and <strong>16 MB Flash + 8 MB of PSRAM</strong>, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi and Camera means it’s awesome for IoT projects. And the PI ZERO footprint makes the expandability super easy.</p><p><strong>Features:</strong></p><ul>  <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>  <li><strong>huge data buffers</strong> the board comes with 16 MByte of Flash and 8 MByte of PSRAM</li>  <li><strong>Color 1.3” IPS TFT</strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle angle.</li>  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>  <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>  <li><strong>USB-c debug port</strong> the board has CP2102 serial chip (optional, for checking the hardware serial debug console)</li>  <li><strong>Micro I2C</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>  <li><strong>Charge &amp; User</strong> LEDs + status</li>  <li><strong>NeoPixel</strong> 4 tiny neopixel led next to the camera so they  can act as cam light or flash.</li>  <li><strong>Low Power friendly</strong>! In deep sleep mode, we can get down to 80~100uA of current draw from the battery</li>  <li><strong>Works with Arduino or CircuitPython</strong></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/CircuitART/ESP32S3zero\">GitHub</a></li></ul>"
+        "url_path": "/board/circuitart_zero_s3/",
+        "description": "<p>A new ESP32S3 Dev board in a RaspberryPI zero footprint, The board has an additional tiny SPI/I2C connector for a 1.3” IPS display + AHT20 sensor.</p><p>That’s not all, This board comes with native USB, Debug USB, and <strong>16 MB Flash + 8 MB of PSRAM</strong>, so it is perfect for use with CircuitPython or Arduino with low-cost WiFi. Native USB means it can act like a keyboard or a disk drive. WiFi and Camera means it’s awesome for IoT projects. And the PI ZERO footprint makes the expandability super easy.</p><p><strong>Features:</strong></p><ul>  <li><strong>ESP32-S3 Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>  <li><strong>huge data buffers</strong> the board comes with 16 MByte of Flash and 8 MByte of PSRAM</li>  <li><strong>Color 1.3” IPS TFT</strong> - bright and colorful display with ST7789 chipset that can be viewed at any angle.</li>  <li><strong>Power options</strong> - USB type C <strong>or</strong> Lipoly battery</li>  <li><strong>Built-in battery charging</strong> when powered over USB-C</li>  <li><strong>LiPoly battery monitor</strong> - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C</li>  <li><strong>Reset and DFU</strong> (BOOT0) buttons to get into the ROM bootloader (which is a USB serial port so you don’t need a separate cable!)</li>  <li><strong>USB-c debug port</strong> the board has CP2102 serial chip (optional, for checking the hardware serial debug console)</li>  <li><strong>Micro I2C</strong> connector for I2C devices, with switchable power, so you can go into low power mode.</li>  <li><strong>Charge &amp; User</strong> LEDs + status</li>  <li><strong>NeoPixel</strong> 4 tiny neopixel led next to the camera so they  can act as cam light or flash.</li>  <li><strong>Low Power friendly</strong>! In deep sleep mode, we can get down to 80~100uA of current draw from the battery</li>  <li><strong>Works with Arduino or CircuitPython</strong></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/CircuitART/ESP32S3zero\">GitHub</a></li></ul>"
     },
     {
         "board_id": "circuitbrains_basic_m0",
@@ -3343,7 +3298,7 @@
             "Wi-Fi",
             "USB-C"
         ],
-        "url_path": "/board/crcibernetica_ideaboard/",
+        "url_path": "/board/crcibernetica-ideaboard/",
         "description": "<p>The CRCibernetica IdeaBoard is an educational Internet of Things and Robotics development board based on the ESP32 microcontroller.Easily connect multiple dc motors, servos and sensors to power your experiments!</p><h2 id=\"features\">Features</h2><ul>  <li>240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS</li>  <li>Integrated 520 KB SRAM</li>  <li>Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP</li>  <li>Integrated dual mode Bluetooth (classic and BLE)</li>  <li>16 MByte FLASH</li>  <li>Two motor drivers (800mA each motor)</li>  <li>STEMMA QT connector for easy expansion</li>  <li>Standard .1” headers for convenient interfacing with GND and Vcc for each pin</li>  <li>Direct DC power for battery or power supply (5VDC - 9VDC)</li>  <li>7 pins for servos or other applications that require direct power</li>  <li>14 General Purpose I/O pins in total (7 direct power – 7 with 3.3v logic)</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.crcibernetica.com/crcibernetica-ideaboard/\">CRCibernetica (Costa Rica)</a></li></ul>"
     },
     {
@@ -3828,6 +3783,27 @@
         ],
         "url_path": "/board/deneyap_mini_v2/",
         "description": "<h2 id=\"technical-specs\">Technical Specs</h2><ul>  <li>Espressif ESP32-S2FN4R2 SoC    <ul>      <li>240 MHz Single-Core Xtensa 32-bit LX7 CPU (Espressif ESP32-S2)</li>      <li>Two Ultra Low Power (ULP) Co-processor (ULP­-RISC-­V and ULP-FSM)</li>      <li>320 KB SRAM</li>      <li>128 KB ROM</li>      <li>4 MB Flash</li>      <li>2 MB PSRAM</li>      <li>802.11b/g/n 2.4 GHz Wi-Fi</li>      <li>Temperature Sensor</li>    </ul>  </li>  <li>Addressable RGB LED</li>  <li>21 x Digital Input/Output Pins</li>  <li>9 x Analog Input Pins (two 13-bit SAR ADCs)</li>  <li>2 x Analog Output Pins (two 8-bit DACs)</li>  <li>6 x Capacitive-Sensing Pins</li>  <li>PWM, I2C, SPI, UART, I2S, PCNT, RMT, TWAI and JTAG Interface</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://magaza.deneyapkart.org/tr/product/detail/deneyap-mini-v2-type-c\">DENEYAPMINIV2</a></li></ul>"
+    },
+    {
+        "board_id": "deshipu_ugame_s3",
+        "title": "µGame S3 Download",
+        "name": "µGame S3",
+        "board_url": [
+            "https://deshipu.art/projects/project-178061/"
+        ],
+        "board_image": "ugame-s3.jpg",
+        "date_added": "2026-02-17",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Speaker",
+            "Battery Charging"
+        ],
+        "url_path": "/board/deshipu_ugame_s3/",
+        "description": "<p>A comfortable gaming handheld for CircuitPython. A large 3.2” screen, an ESP32-S3 microcontroller, 8MB of RAM, 16MB of flash memory, and a small speaker, all in a convenient form factor, with comfortable buttons and a replaceable LiPO battery.</p><h2 id=\"learn-more\">Learn More</h2><p>More information about the project is available at <a href=\"https://deshipu.art/projects/project-178061/\">project page</a>.</p>"
     },
     {
         "board_id": "diodes_delight_piunora",
@@ -5408,7 +5384,7 @@
             "Wi-Fi",
             "USB-C"
         ],
-        "url_path": "/board/flipper-zero_wifi_devboard/",
+        "url_path": "/board/flipperzero_wifi_dev/",
         "description": "<p>The developer board with Wi-Fi connectivity made specially for Flipper Zero. Based on the <a href=\"https://www.espressif.com/en/products/socs/esp32-s2\">ESP32-S2</a> module, this devboard allows:</p><ul>  <li>Wireless Flipper Zero firmware update</li>  <li>Advanced in-circuit debugging via USB or Wi-Fi using the <a href=\"https://github.com/blackmagic-debug/blackmagic\">Black Magic Probe</a> open source project</li>  <li>As a bonus, ESP32-S2 allows Wi-Fi penetration testing (PMKID capturing, deauth, and more) and connects Flipper Zero to the Internet. These functions are not supplied with the module and must be implemented additionally.</li></ul><h2 id=\"technical-details\">Technical details</h2><ul>  <li>ESP32-S2-WROVER Xtensa® single-core 32-bit LX7 CPU, frequency up to 240MHz</li>  <li>2.4 GHz Wi-Fi (802.11 b/g/n)</li>  <li>USB-C</li>  <li>128 KB ROM</li>  <li>320 KB SRAM</li>  <li>16 KB RTCSRAM</li>  <li>4 MB Flash</li>  <li>2 MB PSRAM</li>  <li>Working Voltage: 3 V to 3.6 V</li>  <li>Up to 36 GPIOs</li>  <li>3 strapping GPIOs</li>  <li>7 GPIOs need for flash/PSRAM</li>  <li>2*12-bit ADC (up to 20 channels)</li>  <li>Communication interfaces    <ul>      <li>2 I2C interfaces</li>      <li>1 I2S interface</li>      <li>4 SPI interfaces</li>      <li>2 UART interfaces</li>      <li>1 USB OTG interface</li>    </ul>  </li>  <li>Security    <ul>      <li>4096 bit OTP</li>      <li>AES, SHA, RSA, ECC, RNG</li>      <li>Secure Boot, Flash Encryption, Digital signature, HMAC module</li>    </ul>  </li></ul><h2 id=\"tutorials\">Tutorials</h2><ul>  <li><a href=\"https://docs.flipper.net/development/hardware/wifi-developer-board\">Flipper Docs Wi-Fi Developer Page</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.flipperzero.one/products/wifi-devboard\">Flipper Zero</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://products.espressif.com/#/product-selector?language=en&amp;names=ESP32-S2-WROVER-N4R2\">ESP32-S2-WROVER Product page</a></li></ul>"
     },
     {
@@ -5746,6 +5722,48 @@
         ],
         "url_path": "/board/hardkernel_odroid_go/",
         "description": "<p><strong>The original ODROID Go has been discontinued</strong></p><p><strong>To celebrate ODROID’s 10th anniversary,</strong> we present the ODROID-GO Game Kit! It includes a special anniversary board with all the parts to put together your own game kit and see the workings behind such a device. It is not only a fun assembly project but also an educational tool to learn about all the hardware and software that goes into building such a device.</p><p><strong>Assembly and learning WHY</strong>Have fun building your own handheld game kit while learning about the internal functions of each part and its purpose. Learn how each button is attached to a PCB switch pad, what materials are used, and how to put it all together to create a button control pad to play games! Learn how to connect power, speakers and how to download and install an OS. Learn why certain pieces are made of particular materials and why you need certain connectors. Since the device is clear, all the internal components and all the lights are visible.</p><p><strong>PLAY GAMES</strong>Once you have assembled the ODROID-GO, you can download and install games. Enjoy your gaming device (that you built)!</p><p><strong>CODING CAMP</strong>Install Arduino and learn some basic coding. We will provide online guides to code some simple, yet cool, tasks. Then, add a weather station<em>, learn how to check the battery life, test the speaker, add an ultrasonic distance meter</em> and more.* Parts sold separately.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.hardkernel.com/shop/odroid-go/\">Hard Kernel</a></li></ul>"
+    },
+    {
+        "board_id": "heiafr_picomo_v2",
+        "title": "PicoMo V2 Download",
+        "name": "PicoMo V2",
+        "board_url": [
+            "https://go.heia-fr.ch/picomo"
+        ],
+        "board_image": "picomo_v2.jpg",
+        "date_added": "2024-01-25",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Speaker",
+            "Display",
+            "USB-C"
+        ],
+        "url_path": "/board/heiafr_picomo_v2/",
+        "description": "<p>The <a href=\"https://go.heia-fr.ch/picomo\">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href=\"https://www.heia-fr.ch/en/\">HEIA-FR</a>’s <a href=\"https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/\">Electrical Engineering</a> and <a href=\"https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/\">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p><p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p><p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>RP2040 Dual Arm Cortex-M0+</li>  <li>264kB of SRAM</li>  <li>2 MB of flash memory</li>  <li>ST7789 1.69 inch display with a resolution of 240x280</li>  <li>Temperature and humidity sensor (SHTC3)</li>  <li>7 buttons</li>  <li>Speaker (buzzer)</li>  <li>Onboard LED (RGB)</li>  <li>USB-C power</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/heia-picomo/hardware/blob/main/schematic/P095V2_PicoSalon_Schematic.pdf\">PicoMo Github repository</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://go.heia-fr.ch/picomo\">PicoMo home page</a></li></ul>"
+    },
+    {
+        "board_id": "heiafr_picomo_v3",
+        "title": "PicoMo V3 Download",
+        "name": "PicoMo V3",
+        "board_url": [
+            "https://go.heia-fr.ch/picomo"
+        ],
+        "board_image": "picomo_v3.jpg",
+        "date_added": "2025-01-13",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Speaker",
+            "Display",
+            "USB-C"
+        ],
+        "url_path": "/board/heiafr_picomo_v3/",
+        "description": "<p>The <a href=\"https://go.heia-fr.ch/picomo\">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href=\"https://www.heia-fr.ch/en/\">HEIA-FR</a>’s <a href=\"https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/\">Electrical Engineering</a> and <a href=\"https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/\">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p><p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p><p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>RP2040 Dual Arm Cortex-M0+</li>  <li>264kB of SRAM</li>  <li>2 MB of flash memory</li>  <li>ST7789 1.69 inch display with a resolution of 240x280</li>  <li>Temperature and humidity sensor (SHTC3)</li>  <li>7 buttons</li>  <li>Speaker (buzzer)</li>  <li>Onboard LED (RGB)</li>  <li>USB-C power</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/heia-picomo/hardware/blob/main/schematic/P095V3_PicoMo_Schematic.pdf\">PicoMo Github repository</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://go.heia-fr.ch/picomo\">PicoMo home page</a></li></ul>"
     },
     {
         "board_id": "heltec_esp32s3_wifi_lora_v3",
@@ -7592,7 +7610,8 @@
         ],
         "features": [
             "Bluetooth/BTLE",
-            "Breadboard-Friendly"
+            "Breadboard-Friendly",
+            "Castellated Pads"
         ],
         "url_path": "/board/makerdiary_nrf52840_mdk_usb_dongle/",
         "description": "<p>The nRF52840 Micro Dev Kit USB Dongle is a small and low-cost development platform enabled by the nRF52840 multi-protocol SoC in a convenient USB dongle form factor.</p><p>The nRF52840 Micro Dev Kit USB Dongle features a programmable user button, RGB LED, up to 12 GPIOs and 2.4G Chip antenna on board.</p><p>The USB Dongle can be used as a low-cost Bluetooth5/Tread/802.15.4/ANT/2.4GHz multi-protocol node or development board. Alternatively the USB Dongle can be used as a Network Co-Processor (NCP) with a simple connection to a PC or other USB enabled device.</p><p>It could be required that you have to <a href=\"https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/programming/#upgrade-to-uf2-bootloader-from-open-bootloader\">switch from the Open Bootloader to the UF2 Bootloader</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://store.makerdiary.com/collections/frontpage/products/nrf52840-mdk-usb-dongle\">MakerDiary</a></li></ul>"
@@ -9007,7 +9026,8 @@
         ],
         "features": [
             "Bluetooth/BTLE",
-            "Breadboard-Friendly"
+            "Breadboard-Friendly",
+            "Castellated Pads"
         ],
         "url_path": "/board/pca10059/",
         "description": "<p>The nRF52840 dongle from Nordic Semiconductor is a small, low-cost USB dongle for Bluetooth Low Energy, Bluetooth mesh, Thread, ZigBee, 802.15.4, ANT, and 2.4 GHz proprietary applications using the nRF52840 SoC. The dongle has been designed to be used as a wireless hardware device together with nRF Connect for Desktop.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Bluetooth 5.2 ready multiprotocol radio (2 Mbps, Long Range, Advertising Extensions, Channel Selection Algorithm #2)</li>  <li>IEEE 802.15.4 radio support (Thread, Zigbee)</li>  <li>Arm Cortex-M4 with floating point support</li>  <li>DSP instruction set</li>  <li>Arm CryptoCell CC310 cryptographic accelerator</li>  <li>15 GPIO available via edge castellation</li>  <li>USB interface direct to nRF52840 SoC</li>  <li>Integrated 2.4 GHz PCB antenna</li>  <li>1 user-programmable button</li>  <li>1 user-programmable RGB LED</li>  <li>1 user-programmable LED</li>  <li>1.7-5.5 V operation from USB or external</li></ul><h2 id=\"misc\">Misc</h2><ul>  <li><a href=\"https://infocenter.nordicsemi.com/index.jsp?topic=/ug_nrf52840_dongle/UG/nrf52840_Dongle/getting_started.html\">Getting started guide</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.nordicsemi.com/About-us/BuyOnline?search_token=nRF52840DONGLE\">Price Comparison</a></li>  <li><a href=\"https://www.semiconductorstore.com/cart/pc/viewPrd.asp?idproduct=94964&amp;utm_source=OemSecrets&amp;utm_medium=compref&amp;utm_campaign=OemSecrets&amp;utm_term=NRF52840-DONGLE\">Symmetry Electronics</a></li>  <li><a href=\"https://www.digikey.com/product-detail/en/nordic-semiconductor-asa/NRF52840-DONGLE/1490-1073-ND/9491124?utm_source=oemsecrets&amp;utm_medium=aggregator&amp;utm_campaign=buynow\">Digi-Key</a></li>  <li><a href=\"https://www.arrow.com/en/products/nrf52840-dongle/nordic-semiconductor?utm_source=oemsecrets&amp;utm_medium=aggregator&amp;utm_campaign=oemsecrets_2019_arrow&amp;utm_content=inv_listing&amp;utm_keyword=NRF52840-DONGLE\">Arrow Electronics</a></li>  <li><a href=\"https://www.avnet.com/shop/us/products/nordic-semiconductor/nrf52840-dongle-3074457345635709668?CMP=EMA_OEMSecrets_inventoryfeed_VSE\">Avnet America</a></li>  <li><a href=\"https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF52840-Dongle?qs=gTYE2QTfZfTbdrOaMHWEZg==&amp;utm_source=OEMSECRETS&amp;utm_medium=aggregator&amp;utm_campaign=nRF52840-Dongle&amp;utm_term=nRF52840DONGLE&amp;utm_content=Nordic+Semiconductor\">Mouser</a></li>  <li><a href=\"https://sg.element14.com/nordic-semiconductor/nrf52840-dongle/bluetooth-module-v5-2mbps/dp/2902521?CMP=GRHB-OEMSECRETS\">element14 Farnell</a></li>  <li><a href=\"https://www.avnet.com/shop/emea/products/nordic-semiconductor/nrf52840-dongle-3074457345635584192?c=EUR&amp;r=EMEA&amp;CMP=EMEA_OEMSecrets_inventoryfeed_VSE\">Avnet Europe/Middle East/Africa</a></li>  <li><a href=\"https://www.tme.eu/en/details/nrf52840-dongle/development-kits-for-data-transmission/nordic-semiconductor/?utm_source=oemsecrets.com&amp;utm_medium=cpc&amp;utm_campaign=compare-2020-01\">TME</a></li></ul>"
@@ -9224,48 +9244,6 @@
         ],
         "url_path": "/board/pewpew_m4/",
         "description": "<p>This board was designed to get you to make games with CircuitPython withminimal fuss and also minimal cost. It comes with a powerful SAMD51 Cortex M4microcontroller already loaded with CircuitPython and some example games,a 160x128 display, and seven buttons arranged in a familiar way. Just plug itinto USB and you can modify the example games or write your own.</p><h2 id=\"updating-warning\">Updating Warning</h2><p>If you update this board from version 5.x or older to version 6.x or newer, youhave to replace the <code class=\"language-plaintext highlighter-rouge\">main.py</code> file with a <a href=\"https://github.com/pewpew-game/game-m4-menu\">newer version obtained from therepository</a>, otherwise the gameselection menu will not work with the new version of CircuitPython.</p><h2 id=\"learn-more\">Learn More</h2><p>More information is available at <a href=\"https://pewpew.rtfd.io\">pewpew.rtfd.io</a>and <a href=\"https://hackaday.io/project/165032-pewpew-m4\">Hackaday.io</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://makerfabs.com/circuitpython-pewpew-m4.html\">Makerfabs</a></li></ul>"
-    },
-    {
-        "board_id": "heiafr_picomo_v2",
-        "title": "PicoMo V2 Download",
-        "name": "PicoMo V2",
-        "board_url": [
-            "https://go.heia-fr.ch/picomo"
-        ],
-        "board_image": "picomo_v2.jpg",
-        "date_added": "2024-01-25",
-        "family": "rp2040",
-        "bootloader_id": "",
-        "tags": [
-        ],
-        "features": [
-            "Speaker",
-            "Display",
-            "USB-C"
-        ],
-        "url_path": "/board/picomo_v2/",
-        "description": "<p>The <a href=\"https://go.heia-fr.ch/picomo\">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href=\"https://www.heia-fr.ch/en/\">HEIA-FR</a>’s <a href=\"https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/\">Electrical Engineering</a> and <a href=\"https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/\">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p><p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p><p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>RP2040 Dual Arm Cortex-M0+</li>  <li>264kB of SRAM</li>  <li>2 MB of flash memory</li>  <li>ST7789 1.69 inch display with a resolution of 240x280</li>  <li>Temperature and humidity sensor (SHTC3)</li>  <li>7 buttons</li>  <li>Speaker (buzzer)</li>  <li>Onboard LED (RGB)</li>  <li>USB-C power</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/heia-picomo/hardware/blob/main/schematic/P095V2_PicoSalon_Schematic.pdf\">PicoMo Github repository</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://go.heia-fr.ch/picomo\">PicoMo home page</a></li></ul>"
-    },
-    {
-        "board_id": "heiafr_picomo_v3",
-        "title": "PicoMo V3 Download",
-        "name": "PicoMo V3",
-        "board_url": [
-            "https://go.heia-fr.ch/picomo"
-        ],
-        "board_image": "picomo_v3.jpg",
-        "date_added": "2025-01-13",
-        "family": "rp2040",
-        "bootloader_id": "",
-        "tags": [
-        ],
-        "features": [
-            "Speaker",
-            "Display",
-            "USB-C"
-        ],
-        "url_path": "/board/picomo_v3/",
-        "description": "<p>The <a href=\"https://go.heia-fr.ch/picomo\">PicoMo</a>, based on a Raspberry Pi Pico microcontroller chip, has been developed by <a href=\"https://www.heia-fr.ch/en/\">HEIA-FR</a>’s <a href=\"https://www.heia-fr.ch/en/education/bachelor/electrical-engineering/\">Electrical Engineering</a> and <a href=\"https://www.heia-fr.ch/en/education/bachelor/computer-science-and-communication-systems/\">Computer Science and Communication Systems</a> departments. With its display, temperature and humidity sensor, multicolor LED and buzzer, it can be used in a variety of ways.</p><p>This module has no battery to promote durability: you need to connect it to your smartphone or computer with a USB cable to make it work.</p><p>To flash a new .uf2 file and enter bootloader mode, turn on your PicoMo while pressing and holding the S7 button. This should make it appear as a drive named RPI-RP2 on your computer.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>RP2040 Dual Arm Cortex-M0+</li>  <li>264kB of SRAM</li>  <li>2 MB of flash memory</li>  <li>ST7789 1.69 inch display with a resolution of 240x280</li>  <li>Temperature and humidity sensor (SHTC3)</li>  <li>7 buttons</li>  <li>Speaker (buzzer)</li>  <li>Onboard LED (RGB)</li>  <li>USB-C power</li></ul><h2 id=\"schematic\">Schematic</h2><ul>  <li><a href=\"https://github.com/heia-picomo/hardware/blob/main/schematic/P095V3_PicoMo_Schematic.pdf\">PicoMo Github repository</a></li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://go.heia-fr.ch/picomo\">PicoMo home page</a></li></ul>"
     },
     {
         "board_id": "picoplanet",
@@ -9937,6 +9915,31 @@
         ],
         "url_path": "/board/pitaya_go/",
         "description": "<p>BLE and Wifi board in a small for factor.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://store.makerdiary.com/products/pitaya-go\">MakerDiary</a></li></ul>"
+    },
+    {
+        "board_id": "prokyber_ai_on_the_edge_cam",
+        "title": "AI-On-The-Edge-Cam: Esp32-S3 with PoE, SD, Camera Download",
+        "name": "AI-On-The-Edge-Cam",
+        "board_url": [
+            "https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera"
+        ],
+        "board_image": "ai_on_the_edge_cam.jpg",
+        "date_added": "2025-09-03",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C",
+            "Battery Charging",
+            "Camera",
+            "STEMMA QT/QWIIC",
+            "Robotics"
+        ],
+        "url_path": "/board/prokyber_ai_on_the_edge_cam/",
+        "description": "<p>This is an ESP32-S3 CircuitPython-compatible development board (16 MB flash, 8 MB RAM) that integrates Ethernet with PoE, a microSD card slot, a camera with WS2812B backlighting LEDs, a Stemma QT connector, and comprehensive battery management. Thanks to the ability to enable and disable peripheral power using onboard MOSFETs, the device consumes less than 25 µA in deep sleep mode.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Ethernet with PoE handled by W5500</li>  <li>OV2640/OV5640 Camera socket with 4 × WS2812B smart LEDs for back-lighting</li>  <li>Micro-SD card slot</li>  <li>Sleep current: &lt;25 µA</li>  <li>Integrated battery charging, protection, and measurement</li>  <li>External antenna support</li>  <li>Stemma QT I²C connector for external sensors</li>  <li>Compatible with Ai-on-the-edge-device Esp32-s3 branch</li>  <li>Schematics available</li>  <li>3D-printable enclosure availableAll of these features have been tested and verified with CircuitPython, so you can build with confidence.</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.tindie.com/products/allexok/ai-on-the-edge-cam-esp32-s3-with-poe-sd-camera\">Tindie</a></li></ul>"
     },
     {
         "board_id": "proveskit_rp2040_v4",
@@ -11203,7 +11206,7 @@
         "description": "<p>A CircuitPython compatible, SAMD21 shitty addon with IR transmit/receive and RGB LED.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/sarfata/shirtty-addon\">Github</a></li></ul>"
     },
     {
-        "board_id": "devkit_xg24_brd2601b",
+        "board_id": "silabs_devkit_xg24_brd2601b",
         "title": "EFR32xG24 Dev Kit Download",
         "name": "EFR32xG24 Dev Kit",
         "board_url": [
@@ -11225,7 +11228,7 @@
         "description": "<p>The xG24 Dev Kit is a low-cost, small form factor developmentand evaluation platform for the EFR32MG24 Wireless Gecko System-on-Chip</p><p>The board is a small and cost-effective, feature-rich, prototype and development platformbased on the EFR32™ Wireless Gecko System-on-Chip. The xG24 Dev Kit is an idealplatform for developing energy-friendly connected IoT devices.</p><p>A built-in SEGGER J-Link debugger ensures easy debugging through the USB Micro-Bconnector.</p><h2 id=\"features\">Features</h2><ul>  <li>EFR32 Wireless Gecko System-on-Chip(EFR32MG24B310F1536IM48-B)</li>  <li>High-performance 2.4 GHz radio</li>  <li>32-bit ARM® Cortex®-M33 with 78.0 MHz maximum operating frequency</li>  <li>1536 flash and 256 kB RAM</li>  <li>32 Mbit external flash</li>  <li>2.4 GHz ceramic chip antenna</li>  <li>Relative humidity and temperature sensor</li>  <li>Ambient light sensor</li>  <li>Hall effect sensor</li>  <li>6-axis inertial sensor</li>  <li>Pressure sensor</li>  <li>RGB LED and two push buttons</li>  <li>20-pin 2.54 mm breakout pads</li>  <li>Qwiic® connector</li>  <li>SEGGER J-Link on-board debugger</li>  <li>Virtual COM port</li>  <li>Packet Trace Interface (PTI)</li>  <li>USB or coin cell battery powered</li>  <li>External battery connector</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=getting-started\">Getting Started</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit?tab=overview\">Silicon Labs</a></li></ul>"
     },
     {
-        "board_id": "explorerkit_xg24_brd2703a",
+        "board_id": "silabs_explorerkit_xg24_brd2703a",
         "title": "EFR32xG24 Explorer Kit Download",
         "name": "EFR32xG24 Explorer Kit",
         "board_url": [
@@ -11828,30 +11831,6 @@
         "description": "<p>The SparkFun MicroMod Teensy Processor leverages the awesome computing power of the NXP iMXRT1062 chip and pairs it with the M.2 MicroMod connector to allow you to plug it into your choice of compatible MicroMod Carrier Board. With the M.2 MicroMod connector, connecting your Teensy Processor is a breeze. Simply match up the key on your processor’s beveled edge connector to the key on the M.2 connector and secure it with a screw (included with all Carrier Boards). Adding a Teensy to your desired project has never been easier!</p><p>The Teensy Processor Board boasts some impressive computing power with an ARM Cortex-M7 processor operating at clock speeds up to 600MHz, 16MB Flash Memory and 1024K RAM Memory. On top of all that processing power, the board features <em>seven</em> serial UART ports, four I2C buses, two SPI ports, CAN-Bus, 12 GPIO, dedicated digital, analog, and PWM pins, USB Host and Device capability up to 480Mbit/s, digital audio and since many of the pins on the iMXRT1062 support multiple signal types you can customize it even further depending on your project’s needs.</p><p>Teensy is a registered trademark of <a href=\"https://www.pjrc.com/\">PJRC</a>. The MicroMod Teensy is a collaboration between <a href=\"https://www.pjrc.com/\">PJRC</a> and SparkFun.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.sparkfun.com/products/16402\">SparkFun</a></li></ul>"
     },
     {
-        "board_id": "sparkfun_thingplus_matter_mgm240p_brd2704a",
-        "title": "SparkFun Thing Plus Matter MGM240P Download",
-        "name": "SparkFun Thing Plus Matter MGM240P",
-        "board_url": [
-            "https://www.sparkfun.com/products/20270"
-        ],
-        "board_image": "sparkfun_thing_plus_matter_mgm240p.jpg",
-        "date_added": "2023-04-20",
-        "family": "silabs",
-        "bootloader_id": "",
-        "tags": [
-        ],
-        "features": [
-            "Battery Charging",
-            "Bluetooth/BTLE",
-            "Breadboard-Friendly",
-            "STEMMA QT/QWIIC",
-            "USB-C",
-            "OSHWA Certified"
-        ],
-        "url_path": "/board/sparkfun_thing_plus_matter_mgm240p/",
-        "description": "<p>The SparkFun Thing Plus Matter is the first easily accessible board of its kind that combines Matter and SparkFun’s Qwiic ecosystem for agile development and prototyping of Matter-based IoT devices. The MGM240P wireless module from Silicon Labs® provides secure connectivity for both 802.15.4 with Mesh communication (Thread) and Bluetooth® Low Energy 5.3 protocols. SparkFun’s Thing Plus development boards are Feather-compatible and include a Qwiic connector for easy integration into our Qwiic Connect System for solderless I2C circuits.</p><p>The Thing Plus Matter - MGM240P includes Qwiic and LiPo battery connectors, and multiple GPIO pins capable of complete multiplexing through software. The board also features the MCP73831 single-cell LiPo charger as well as the MAX17048 fuel gauge to charge and monitor a connected battery. Lastly, we’ve included a µSD card slot for any external memory needs.</p><p>The MGM240P wireless module is built around the EFR32MG24 Wireless SoC with a 32-bit ARM Cortext-M33 core processor running at 39 MHz with 1536 kb Flash memory and 256 kb RAM.</p><h2 id=\"features\">Features</h2><ul>  <li>MGM240P Wireless Module</li>  <li>32-bit ARM® Cortex®-M33 core at 39 MHz</li>  <li>1536/256 kB of Flash/RAM memory</li>  <li>User LEDs and reset button</li>  <li>MC73831 Single-Cell LiPo Charger</li>  <li>MAX17048 Single-Cell LiPo Fuel Gauge</li>  <li>µSD Card Slot</li>  <li>Feather-compatible</li>  <li>Qwiic® connector</li>  <li>SEGGER J-Link on-board debugger</li>  <li>USB-C powered</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-modules/device.mgm240pb32vna?tab=specs\">MGM240P Wireless Module</a></li>  <li><a href=\"https://www.sparkfun.com/products/20270\">SparkFun Thing Plus Matter - MGM240P</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.sparkfun.com/products/20270\">SparkFun</a></li></ul>"
-    },
-    {
         "board_id": "sparkfun_thing_plus_rp2040",
         "title": "Thing Plus - RP2040 Download",
         "name": "Thing Plus - RP2040",
@@ -11897,6 +11876,30 @@
         ],
         "url_path": "/board/sparkfun_thing_plus_rp2350/",
         "description": "<p>The SparkFun Thing Plus - RP2350 is a dynamic and powerful wireless development platform in the Thing Plus form factor. Built around the RP2350 microcontroller from the Raspberry Pi Foundation, this board includes their radio module for single-band 2.4 GHz WiFi 4 (802.11n) and Bluetooth® 5.2 along with standard hardware components found on all Thing Plus Boards. This includes on-board Lithium Ion (LiPo) battery charging and fuel gauge circuits, µSD card socket, Qwiic connector, and the Thing Plus pinout, allowing use of the RP2350 Thing Plus in a wide variety of both local and remote applications.</p><p>The RP3250 is a unique dual-core microcontroller with two ARM® Cortex® M33 processors and two Hazard3 RISC-V processors, all running at up to 150 MHz! Now, this doesn’t mean the RP2350 is a quad-core microcontroller. Instead, users can select which two processors to run on boot. You can run two processors of the same type or one of each. The RP2350 also features 520kB SRAM in ten banks, a host of peripherals including two UARTs, two SPI and two I2C controllers, and a USB 1.1 controller for host and device support.</p><p>The RP2350 contains two ARM Cortex-M3 and Hazard3 RISC-V processors and features:</p><ul>  <li>Dual ARM CortexM3 and Hazard3 RISC-V Processors    <ul>      <li>User-selectable for dual-cores</li>    </ul>  </li>  <li>520kB integrated SRAM in 10 banks</li>  <li>5V-tolerant GPIO (powered) with 3.3V failsafe (unpowered)</li>  <li>Peripherals    <ul>      <li>2x UART</li>      <li>2x SPI</li>      <li>2x I2C</li>      <li>4 HSTX Pins (Rasbperry Pi’s High-speed transmit interface)</li>      <li>24x PWM Channels</li>      <li>12x PIO State Machines</li>    </ul>  </li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.sparkfun.com/products/25134\">SparkFun</a></li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.sparkfun.com/SparkFun_Thing_Plus_RP2350/hardware_overview/\">Hardware Overview</a></li></ul>"
+    },
+    {
+        "board_id": "sparkfun_thingplus_matter_mgm240p_brd2704a",
+        "title": "SparkFun Thing Plus Matter MGM240P Download",
+        "name": "SparkFun Thing Plus Matter MGM240P",
+        "board_url": [
+            "https://www.sparkfun.com/products/20270"
+        ],
+        "board_image": "sparkfun_thing_plus_matter_mgm240p.jpg",
+        "date_added": "2023-04-20",
+        "family": "silabs",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Battery Charging",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "OSHWA Certified"
+        ],
+        "url_path": "/board/sparkfun_thingplus_matter_mgm240p_brd2704a/",
+        "description": "<p>The SparkFun Thing Plus Matter is the first easily accessible board of its kind that combines Matter and SparkFun’s Qwiic ecosystem for agile development and prototyping of Matter-based IoT devices. The MGM240P wireless module from Silicon Labs® provides secure connectivity for both 802.15.4 with Mesh communication (Thread) and Bluetooth® Low Energy 5.3 protocols. SparkFun’s Thing Plus development boards are Feather-compatible and include a Qwiic connector for easy integration into our Qwiic Connect System for solderless I2C circuits.</p><p>The Thing Plus Matter - MGM240P includes Qwiic and LiPo battery connectors, and multiple GPIO pins capable of complete multiplexing through software. The board also features the MCP73831 single-cell LiPo charger as well as the MAX17048 fuel gauge to charge and monitor a connected battery. Lastly, we’ve included a µSD card slot for any external memory needs.</p><p>The MGM240P wireless module is built around the EFR32MG24 Wireless SoC with a 32-bit ARM Cortex-M33 core processor running at 39 MHz with 1536 kb Flash memory and 256 kb RAM.</p><h2 id=\"features\">Features</h2><ul>  <li>MGM240P Wireless Module</li>  <li>32-bit ARM® Cortex®-M33 core at 39 MHz</li>  <li>1536/256 kB of Flash/RAM memory</li>  <li>User LEDs and reset button</li>  <li>MC73831 Single-Cell LiPo Charger</li>  <li>MAX17048 Single-Cell LiPo Fuel Gauge</li>  <li>µSD Card Slot</li>  <li>Feather-compatible</li>  <li>Qwiic® connector</li>  <li>SEGGER J-Link on-board debugger</li>  <li>USB-C powered</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-modules/device.mgm240pb32vna?tab=specs\">MGM240P Wireless Module</a></li>  <li><a href=\"https://www.sparkfun.com/products/20270\">SparkFun Thing Plus Matter - MGM240P</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.sparkfun.com/products/20270\">SparkFun</a></li></ul>"
     },
     {
         "board_id": "splitkb_liatris",
@@ -12640,6 +12643,27 @@
         "description": "<p>A plug-n-play circuit board that can be programmed to send and receive information over Bluetooth and the Internet.</p><p>Bluebirds can form a network to send and receive data to one another.</p><p>The Flock.io App provides a plug-n-play entry for users to get up and running with Bluebird with an intuitive and engaging block based visual coding interface.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.teknikio.com/pages/bluebird\">Teknikio</a></li></ul>"
     },
     {
+        "board_id": "thingpulse_pendrive_s3",
+        "title": "ThingPulse Pendrive S3 Download",
+        "name": "ThingPulse Pendrive S3",
+        "board_url": [
+            "https://thingpulse.com/product/esp32-s3-pendrive-s3-128mb/"
+        ],
+        "board_image": "ThingPulse_Pendrive_S3.jpg",
+        "date_added": "2024-06-06",
+        "family": "esp32s3",
+        "bootloader_id": "thingpulse_pendrive_s3",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "USB-C"
+        ],
+        "url_path": "/board/thingpulse_pendrive_s3/",
+        "description": "<p>The ThingPulse Pendrive S3 is a ESP32-S3 board which fits neatly into a USB pendrive</p><ul>  <li>Wi-Fi</li>  <li>Bluetooth/BTLE</li>  <li>USB-C</li>  <li>128MB Built-In SD-card-like flash memory</li>  <li>WS2812B RGB status LED</li>  <li>Capacitive touch button</li>  <li>Compact Pendrive Enclosure</li></ul><h2 id=\"applications-badusb\">Applications: BadUSB</h2><p>Imagine having full control over any computer in seconds, simply by plugging in a device. That’s the power of tools that emulate a USB keyboard. Because computers inherently trust keyboards, these devices can take command with lightning speed.</p><p>Meet the Pendrive S3, a device that pretends to be a keyboard, bombarding the computer with hundreds of keystrokes per second—far faster than any human could type. By utilizing a straightforward scripting language, you can program the Pendrive S3 to execute any commands you want.</p><p>Now, take this concept to the next level with the Super WiFi Duck. This innovative tool lets you manage all your scripts wirelessly through a user-friendly web interface. No need for app installations, logging in, or tedious script transfers. With the Super WiFi Duck, everything is at your fingertips, making it easier than ever to unleash the full potential of a BadUSB device.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://thingpulse.com/product/esp32-s3-pendrive-s3-128mb/\">ThingPulse</a></li></ul>"
+    },
+    {
         "board_id": "thunderpack_v11",
         "title": "Thunderpack v1.1 Download",
         "name": "Thunderpack v1.1",
@@ -12906,27 +12930,6 @@
         ],
         "url_path": "/board/ugame22/",
         "description": "<p>A comfortable gaming handheld for CircuitPython, continuing the work started with <a href=\"https://hackaday.io/project/27629\">#µGame</a>, through <a href=\"https://hackaday.io/project/165032\">#PewPew M4</a> and <a href=\"https://hackaday.io/project/178061\">#PewPew S2</a>. A large 3.2” screen, an RP2040 microcontroller, 2MB of flash memory and a small speaker, all in a convenient form factor, with a laser-cut case and two AAA batteries for power.</p><h2 id=\"learn-more\">Learn More</h2><p>More information about the project is available at <a href=\"https://hackaday.io/project/186921-game-22\">hackaday.io</a>.</p>"
-    },
-    {
-        "board_id": "deshipu_ugame_s3",
-        "title": "µGame S3 Download",
-        "name": "µGame S3",
-        "board_url": [
-            "https://deshipu.art/projects/project-178061/"
-        ],
-        "board_image": "ugame-s3.jpg",
-        "date_added": "2026-02-17",
-        "family": "esp32s3",
-        "bootloader_id": "",
-        "tags": [
-        ],
-        "features": [
-            "Display",
-            "Speaker",
-            "Battery Charging"
-        ],
-        "url_path": "/board/ugame_s3/",
-        "description": "<p>A comfortable gaming handheld for CircuitPython. A large 3.2” screen, an ESP32-S3 microcontroller, 8MB of RAM, 16MB of flash memory, and a small speaker, all in a convenient form factor, with comfortable buttons and a replaceable LiPO battery.</p><h2 id=\"learn-more\">Learn More</h2><p>More information about the project is available at <a href=\"https://deshipu.art/projects/project-178061/\">project page</a>.</p>"
     },
     {
         "board_id": "unexpectedmaker_bling",

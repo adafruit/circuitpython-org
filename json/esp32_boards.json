@@ -145,11 +145,6 @@
             }
         ]
     },
-    "cezerio_mini_dev_ESP32C6": {
-        "name": "cezerio mini dev ESP32C6",
-        "chipfamily": "esp32c6",
-        "releases": []
-    },
     "ttgo_t8_v1_7": {
         "name": "TTGO T8 V1.7 ESP32",
         "chipfamily": "esp32",
@@ -177,6 +172,23 @@
                 "version": "10.4.0-alpha.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_s3_lcd_1_47/en_US/adafruit-circuitpython-waveshare_esp32_s3_lcd_1_47-en_US-10.4.0-alpha.2.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/waveshare_esp32_s3_lcd_1_47/en_US/adafruit-circuitpython-waveshare_esp32_s3_lcd_1_47-en_US-10.4.0-alpha.2.uf2"
+            }
+        ]
+    },
+    "flipperzero_wifi_dev": {
+        "name": "Flipper Zero WiFi Dev",
+        "chipfamily": "esp32s2",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/espressif_saola_1_wrover/tinyuf2-espressif_saola_1_wrover-0.35.0.zip",
+        "releases": [
+            {
+                "version": "10.3.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.uf2"
+            },
+            {
+                "version": "10.4.0-alpha.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.uf2"
             }
         ]
     },
@@ -380,22 +392,6 @@
             }
         ]
     },
-    "prokyber_ai_on_the_edge_cam": {
-        "name": "AI-On-The-Edge-Cam",
-        "chipfamily": "esp32s3",
-        "releases": [
-            {
-                "version": "10.3.1",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/prokyber_ai_on_the_edge_cam/en_US/adafruit-circuitpython-prokyber_ai_on_the_edge_cam-en_US-10.3.1.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/prokyber_ai_on_the_edge_cam/en_US/adafruit-circuitpython-prokyber_ai_on_the_edge_cam-en_US-10.3.1.uf2"
-            },
-            {
-                "version": "10.4.0-alpha.2",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/prokyber_ai_on_the_edge_cam/en_US/adafruit-circuitpython-prokyber_ai_on_the_edge_cam-en_US-10.4.0-alpha.2.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/prokyber_ai_on_the_edge_cam/en_US/adafruit-circuitpython-prokyber_ai_on_the_edge_cam-en_US-10.4.0-alpha.2.uf2"
-            }
-        ]
-    },
     "ai_thinker_esp_12k_nodemcu": {
         "name": "NodeMCU ESP-12K",
         "chipfamily": "esp32s2",
@@ -565,6 +561,20 @@
             {
                 "version": "10.4.0-alpha.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/sqfmi_watchy/en_US/adafruit-circuitpython-sqfmi_watchy-en_US-10.4.0-alpha.2.bin"
+            }
+        ]
+    },
+    "cezerio_dev_ESP32C6": {
+        "name": "cezerio dev ESP32C6",
+        "chipfamily": "esp32c6",
+        "releases": [
+            {
+                "version": "10.3.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/cezerio_dev_ESP32C6/en_US/adafruit-circuitpython-cezerio_dev_ESP32C6-en_US-10.3.1.bin"
+            },
+            {
+                "version": "10.4.0-alpha.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/cezerio_dev_ESP32C6/en_US/adafruit-circuitpython-cezerio_dev_ESP32C6-en_US-10.4.0-alpha.2.bin"
             }
         ]
     },
@@ -1281,6 +1291,20 @@
             }
         ]
     },
+    "crcibernetica-ideaboard": {
+        "name": "CRCibernetica IdeaBoard",
+        "chipfamily": "esp32",
+        "releases": [
+            {
+                "version": "10.3.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/crcibernetica-ideaboard/en_US/adafruit-circuitpython-crcibernetica-ideaboard-en_US-10.3.1.bin"
+            },
+            {
+                "version": "10.4.0-alpha.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/crcibernetica-ideaboard/en_US/adafruit-circuitpython-crcibernetica-ideaboard-en_US-10.4.0-alpha.2.bin"
+            }
+        ]
+    },
     "m5stack_atom_matrix": {
         "name": "ATOM Matrix ESP32",
         "chipfamily": "esp32",
@@ -1408,6 +1432,23 @@
                 "version": "10.4.0-alpha.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_eye/en_US/adafruit-circuitpython-espressif_esp32s3_eye-en_US-10.4.0-alpha.2.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_eye/en_US/adafruit-circuitpython-espressif_esp32s3_eye-en_US-10.4.0-alpha.2.uf2"
+            }
+        ]
+    },
+    "circuitart_zero_s3": {
+        "name": "CircuitArt ESP32S3 Zero",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/circuitart_zero_s3/tinyuf2-circuitart_zero_s3-0.35.0.zip",
+        "releases": [
+            {
+                "version": "10.3.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/circuitart_zero_s3/en_US/adafruit-circuitpython-circuitart_zero_s3-en_US-10.3.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/circuitart_zero_s3/en_US/adafruit-circuitpython-circuitart_zero_s3-en_US-10.3.1.uf2"
+            },
+            {
+                "version": "10.4.0-alpha.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/circuitart_zero_s3/en_US/adafruit-circuitpython-circuitart_zero_s3-en_US-10.4.0-alpha.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/circuitart_zero_s3/en_US/adafruit-circuitpython-circuitart_zero_s3-en_US-10.4.0-alpha.2.uf2"
             }
         ]
     },
@@ -1720,23 +1761,6 @@
             }
         ]
     },
-    "circuitart_zero_s3": {
-        "name": "CircuitArt ESP32S3 Zero",
-        "chipfamily": "esp32s3",
-        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/circuitart_zero_s3/tinyuf2-circuitart_zero_s3-0.35.0.zip",
-        "releases": [
-            {
-                "version": "10.3.1",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/circuitart_zero_s3/en_US/adafruit-circuitpython-circuitart_zero_s3-en_US-10.3.1.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/circuitart_zero_s3/en_US/adafruit-circuitpython-circuitart_zero_s3-en_US-10.3.1.uf2"
-            },
-            {
-                "version": "10.4.0-alpha.2",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/circuitart_zero_s3/en_US/adafruit-circuitpython-circuitart_zero_s3-en_US-10.4.0-alpha.2.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/circuitart_zero_s3/en_US/adafruit-circuitpython-circuitart_zero_s3-en_US-10.4.0-alpha.2.uf2"
-            }
-        ]
-    },
     "espressif_esp32s3_devkitc_1_n8r8_hacktablet": {
         "name": "ESP32-S3 HackTablet",
         "chipfamily": "esp32s3",
@@ -1839,6 +1863,22 @@
             {
                 "version": "10.4.0-alpha.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/m5stack_core2/en_US/adafruit-circuitpython-m5stack_core2-en_US-10.4.0-alpha.2.bin"
+            }
+        ]
+    },
+    "prokyber_ai_on_the_edge_cam": {
+        "name": "AI-On-The-Edge-Cam",
+        "chipfamily": "esp32s3",
+        "releases": [
+            {
+                "version": "10.3.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/prokyber_ai_on_the_edge_cam/en_US/adafruit-circuitpython-prokyber_ai_on_the_edge_cam-en_US-10.3.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/prokyber_ai_on_the_edge_cam/en_US/adafruit-circuitpython-prokyber_ai_on_the_edge_cam-en_US-10.3.1.uf2"
+            },
+            {
+                "version": "10.4.0-alpha.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/prokyber_ai_on_the_edge_cam/en_US/adafruit-circuitpython-prokyber_ai_on_the_edge_cam-en_US-10.4.0-alpha.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/prokyber_ai_on_the_edge_cam/en_US/adafruit-circuitpython-prokyber_ai_on_the_edge_cam-en_US-10.4.0-alpha.2.uf2"
             }
         ]
     },
@@ -1969,22 +2009,6 @@
                 "version": "10.4.0-alpha.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_box/en_US/adafruit-circuitpython-espressif_esp32s3_box-en_US-10.4.0-alpha.2.bin",
                 "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/espressif_esp32s3_box/en_US/adafruit-circuitpython-espressif_esp32s3_box-en_US-10.4.0-alpha.2.uf2"
-            }
-        ]
-    },
-    "deshipu_ugame_s3": {
-        "name": "\u00b5Game S3",
-        "chipfamily": "esp32s3",
-        "releases": [
-            {
-                "version": "10.3.1",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deshipu_ugame_s3/en_US/adafruit-circuitpython-deshipu_ugame_s3-en_US-10.3.1.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deshipu_ugame_s3/en_US/adafruit-circuitpython-deshipu_ugame_s3-en_US-10.3.1.uf2"
-            },
-            {
-                "version": "10.4.0-alpha.2",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deshipu_ugame_s3/en_US/adafruit-circuitpython-deshipu_ugame_s3-en_US-10.4.0-alpha.2.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deshipu_ugame_s3/en_US/adafruit-circuitpython-deshipu_ugame_s3-en_US-10.4.0-alpha.2.uf2"
             }
         ]
     },
@@ -2488,22 +2512,10 @@
             }
         ]
     },
-    "flipperzero_wifi_dev": {
-        "name": "Flipper Zero WiFi Dev",
-        "chipfamily": "esp32s2",
-        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/espressif_saola_1_wrover/tinyuf2-espressif_saola_1_wrover-0.35.0.zip",
-        "releases": [
-            {
-                "version": "10.3.1",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.3.1.uf2"
-            },
-            {
-                "version": "10.4.0-alpha.2",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/flipperzero_wifi_dev/en_US/adafruit-circuitpython-flipperzero_wifi_dev-en_US-10.4.0-alpha.2.uf2"
-            }
-        ]
+    "cezerio_mini_dev_ESP32C6": {
+        "name": "cezerio mini dev ESP32C6",
+        "chipfamily": "esp32c6",
+        "releases": []
     },
     "red-s2-wroom": {
         "name": "Red S2 WROOM Board",
@@ -2864,17 +2876,19 @@
             }
         ]
     },
-    "cezerio_dev_ESP32C6": {
-        "name": "cezerio dev ESP32C6",
-        "chipfamily": "esp32c6",
+    "deshipu_ugame_s3": {
+        "name": "\u00b5Game S3",
+        "chipfamily": "esp32s3",
         "releases": [
             {
                 "version": "10.3.1",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/cezerio_dev_ESP32C6/en_US/adafruit-circuitpython-cezerio_dev_ESP32C6-en_US-10.3.1.bin"
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deshipu_ugame_s3/en_US/adafruit-circuitpython-deshipu_ugame_s3-en_US-10.3.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deshipu_ugame_s3/en_US/adafruit-circuitpython-deshipu_ugame_s3-en_US-10.3.1.uf2"
             },
             {
                 "version": "10.4.0-alpha.2",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/cezerio_dev_ESP32C6/en_US/adafruit-circuitpython-cezerio_dev_ESP32C6-en_US-10.4.0-alpha.2.bin"
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deshipu_ugame_s3/en_US/adafruit-circuitpython-deshipu_ugame_s3-en_US-10.4.0-alpha.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/deshipu_ugame_s3/en_US/adafruit-circuitpython-deshipu_ugame_s3-en_US-10.4.0-alpha.2.uf2"
             }
         ]
     },
@@ -3096,23 +3110,6 @@
             }
         ]
     },
-    "thingpulse_pendrive_s3": {
-        "name": "ThingPulse Pendrive S3",
-        "chipfamily": "esp32s3",
-        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/thingpulse_pendrive_s3/tinyuf2-thingpulse_pendrive_s3-0.35.0.zip",
-        "releases": [
-            {
-                "version": "10.3.1",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/thingpulse_pendrive_s3/en_US/adafruit-circuitpython-thingpulse_pendrive_s3-en_US-10.3.1.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/thingpulse_pendrive_s3/en_US/adafruit-circuitpython-thingpulse_pendrive_s3-en_US-10.3.1.uf2"
-            },
-            {
-                "version": "10.4.0-alpha.2",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/thingpulse_pendrive_s3/en_US/adafruit-circuitpython-thingpulse_pendrive_s3-en_US-10.4.0-alpha.2.bin",
-                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/thingpulse_pendrive_s3/en_US/adafruit-circuitpython-thingpulse_pendrive_s3-en_US-10.4.0-alpha.2.uf2"
-            }
-        ]
-    },
     "adafruit_qualia_s3_rgb666": {
         "name": "Qualia ESP32-S3 for TTL RGB-666 Displays",
         "chipfamily": "esp32s3",
@@ -3273,6 +3270,23 @@
             }
         ]
     },
+    "thingpulse_pendrive_s3": {
+        "name": "ThingPulse Pendrive S3",
+        "chipfamily": "esp32s3",
+        "bootloader": "https://adafruit-circuit-python.s3.amazonaws.com/bootloaders/esp32/thingpulse_pendrive_s3/tinyuf2-thingpulse_pendrive_s3-0.35.0.zip",
+        "releases": [
+            {
+                "version": "10.3.1",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/thingpulse_pendrive_s3/en_US/adafruit-circuitpython-thingpulse_pendrive_s3-en_US-10.3.1.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/thingpulse_pendrive_s3/en_US/adafruit-circuitpython-thingpulse_pendrive_s3-en_US-10.3.1.uf2"
+            },
+            {
+                "version": "10.4.0-alpha.2",
+                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/thingpulse_pendrive_s3/en_US/adafruit-circuitpython-thingpulse_pendrive_s3-en_US-10.4.0-alpha.2.bin",
+                "uf2file": "https://adafruit-circuit-python.s3.amazonaws.com/bin/thingpulse_pendrive_s3/en_US/adafruit-circuitpython-thingpulse_pendrive_s3-en_US-10.4.0-alpha.2.uf2"
+            }
+        ]
+    },
     "muselab_nanoesp32_s2_wrover": {
         "name": "NanoESP32 S2 w/WROVER",
         "chipfamily": "esp32s2",
@@ -3331,20 +3345,6 @@
             {
                 "version": "10.4.0-alpha.2",
                 "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/elecrow_crowpanel_3.5/en_US/adafruit-circuitpython-elecrow_crowpanel_3.5-en_US-10.4.0-alpha.2.bin"
-            }
-        ]
-    },
-    "crcibernetica-ideaboard": {
-        "name": "CRCibernetica IdeaBoard",
-        "chipfamily": "esp32",
-        "releases": [
-            {
-                "version": "10.3.1",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/crcibernetica-ideaboard/en_US/adafruit-circuitpython-crcibernetica-ideaboard-en_US-10.3.1.bin"
-            },
-            {
-                "version": "10.4.0-alpha.2",
-                "binfile": "https://adafruit-circuit-python.s3.amazonaws.com/bin/crcibernetica-ideaboard/en_US/adafruit-circuitpython-crcibernetica-ideaboard-en_US-10.4.0-alpha.2.bin"
             }
         ]
     },
