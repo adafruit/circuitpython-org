@@ -66,18 +66,22 @@ excerpt: CircuitPython supported boards.
       {% assign board_count = 0 %}
       {% assign boards = site.data.files %}
       {% for board in boards %}
-        {% assign info = site.board | where: 'board_id', board.id %}
-        {% if info.size == 0 %}
-          {% assign info = site.board | where: 'board_id', 'unknown' %}
+        {% assign direct_info = site.board | where: 'board_id', board.id %}
+        {% assign alias_info = site.board | where: 'board_alias', board.id %}
+        {% assign board_info = direct_info | concat: alias_info | uniq %}
+        {% if board_info.size == 0 %}
+          {% assign board_info = site.board | where: 'board_id', 'unknown' %}
         {% endif %}
-        {% assign info = info[0] %}
-        {% if info.downloads_display == false %}
-          {% continue %}
-        {% endif %}
-        {% assign board_count = board_count | plus: 1 %}
+        {% for info in board_info %}
+          {% if info.downloads_display == false %}
+            {% continue %}
+          {% endif %}
+          {% assign board_count = board_count | plus: 1 %}
+        {% endfor %}
       {% endfor %}
       {% for board in site.board %}
-        {% assign info = site.data.files | where: 'id', board.board_id | first %}
+        {% assign data_id = board.board_alias | default: board.board_id %}
+        {% assign info = site.data.files | where: 'id', data_id | first %}
         {% if info == nil and board.board_id != 'unknown' %}
           {% if board.downloads_display == false %}
             {% continue %}
@@ -94,14 +98,12 @@ excerpt: CircuitPython supported boards.
     {% endcomment %}
     {% assign boards = site.data.files | sort: "downloads" | reverse %}
     {% for board in boards %}
-      {% assign info = site.board | where: 'board_id', board.id %}
-      {% assign info_name = info[0].name %}
-      {% if info.size == 0 %}
-        {% assign info = site.board | where: 'board_id', 'unknown' %}
-        {% assign info_name = board.id %}
+      {% assign direct_info = site.board | where: 'board_id', board.id %}
+      {% assign alias_info = site.board | where: 'board_alias', board.id %}
+      {% assign board_info = direct_info | concat: alias_info | uniq %}
+      {% if board_info.size == 0 %}
+        {% assign board_info = site.board | where: 'board_id', 'unknown' %}
       {% endif %}
-
-      {% assign info = info[0] %}
 
       {% assign stable = board.versions | where: "stable", true | sort: "version" %}
       {% assign unstable = board.versions | where: "stable", false | sort: "version" %}
@@ -114,37 +116,43 @@ excerpt: CircuitPython supported boards.
       {% else %}
         {% assign modules = '' | split: '' %}
       {% endif %}
-      {% if info.downloads_display == false %}
-        {% continue %}
-      {% endif %}
+      {% for info in board_info %}
+        {% if info.downloads_display == false %}
+          {% continue %}
+        {% endif %}
 
-      {% if info.board_id != 'unknown' %}
-        {% assign download_url = info.url %}
-      {% else %}
-        {% capture download_url %}{{ info.url }}?unknown_id={{ board.id }}{% endcapture %}
-      {% endif %}
+        {% assign card_id = info.board_id %}
+        {% assign info_name = info.name %}
+        {% if info.board_id != 'unknown' %}
+          {% assign download_url = info.url %}
+        {% else %}
+          {% assign card_id = board.id %}
+          {% assign info_name = board.id %}
+          {% capture download_url %}{{ info.url }}?unknown_id={{ board.id }}{% endcapture %}
+        {% endif %}
 
-      <div class="download" data-id="{{ board.id }}"
-                            data-name="{{ info.name | default: board.id }}"
-                            data-downloads="{{ board.downloads }}"
-                            data-manufacturer="{{ info.manufacturer }}"
-                            data-mcufamily="{{ info.family }}"
-                            data-features="{{ info.features | join: ','}}"
-                            data-tags="{{ info.tags | join: ','}}"
-                            data-modules="{{ modules | join: ', ' }}"
-                            data-date="{{ info.date_added }}">
-        <a href="{{ download_url | relative_url }}">
-          <div>
-            <div class="img-responsive-4by3">
-              {% include downloads/board_image.html board_image=info.board_image %}
+        <div class="download" data-id="{{ card_id }}"
+                              data-name="{{ info_name | default: board.id }}"
+                              data-downloads="{{ board.downloads }}"
+                              data-manufacturer="{{ info.manufacturer }}"
+                              data-mcufamily="{{ info.family }}"
+                              data-features="{{ info.features | join: ','}}"
+                              data-tags="{{ info.tags | join: ','}}"
+                              data-modules="{{ modules | join: ', ' }}"
+                              data-date="{{ info.date_added }}">
+          <a href="{{ download_url | relative_url }}">
+            <div>
+              <div class="img-responsive-4by3">
+                {% include downloads/board_image.html board_image=info.board_image %}
+              </div>
+              <div class="details">
+                <h3>{{ info_name | default: board.id }}</h3>
+                By {{ info.manufacturer }}
+              </div>
             </div>
-            <div class="details">
-              <h3>{{ info_name | default: board.id }}</h3>
-              By {{ info.manufacturer }}
-            </div>
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
+      {% endfor %}
     {% endfor %}
 
     {% comment %}
@@ -152,7 +160,8 @@ excerpt: CircuitPython supported boards.
       process and have no downloads.
     {% endcomment %}
     {% for board in site.board %}
-      {% assign info = site.data.files | where: 'id', board.board_id | first %}
+      {% assign data_id = board.board_alias | default: board.board_id %}
+      {% assign info = site.data.files | where: 'id', data_id | first %}
       {% if info == nil and board.board_id != 'unknown' %}
         {% if board.downloads_display == false %}
           {% continue %}

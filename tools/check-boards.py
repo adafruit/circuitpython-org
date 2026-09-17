@@ -14,7 +14,19 @@ with open('template.md', "rt") as f:
 def get_files(folder):
     return sorted(Path(folder).glob("*.md"), key=os.path.basename)
 
+def check_header_formatting(folder):
+    """Verify front matter starts on the first line of every page."""
+    valid = True
+    for filename in get_files(folder):
+        with open(filename, "rt") as f:
+            first_line = f.readline().rstrip("\r\n")
+        if first_line != "---":
+            print(f"{filename}:1: Front matter must start with '---'.")
+            valid = False
+    return valid
+
 def verify_board_id(folder):
+    """Verify displayed boards have a board ID matching their filename."""
     valid = True
     for filename in get_files(folder):
         with open(filename, "rt") as f:
@@ -26,6 +38,12 @@ def verify_board_id(folder):
                 continue
             if not board_id:
                 print(f"board_id should be set for {filename}")
+                valid = False
+            elif board_id != filename.stem:
+                print(
+                    f"board_id '{board_id}' does not match filename "
+                    f"'{filename.name}' for {filename}"
+                )
                 valid = False
 
     return valid
@@ -140,6 +158,12 @@ def verify_board_usage(folder, valid_usages):
                         valid = False
     return valid
 
+board_headers_valid = check_header_formatting("_board")
+blinka_headers_valid = check_header_formatting("_blinka")
+if not board_headers_valid or not blinka_headers_valid:
+    print("Front matter must start on the first line of every board page.")
+    raise SystemExit(True)
+
 if not verify_features("_board", acceptable_features):
     print("Non-standard features found. See https://learn.adafruit.com/how-to-add-a-new-board-to-the-circuitpython-org-website/adding-to-downloads for acceptable features")
     raise SystemExit(True)
@@ -161,11 +185,11 @@ blinka_features = {
 }
 
 if not verify_board_id("_board"):
-    print("board_id missing for some boards. This is a required field.")
+    print("board_id missing or does not match the filename for some boards.")
     raise SystemExit(True)
 
 if not verify_board_id("_blinka"):
-    print("board_id missing for some boards. This is a required field.")
+    print("board_id missing or does not match the filename for some boards.")
     raise SystemExit(True)
 
 if not verify_features("_blinka", blinka_features):

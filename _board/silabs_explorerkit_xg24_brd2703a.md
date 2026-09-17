@@ -1,6 +1,7 @@
 ---
 layout: download
-board_id: "explorerkit_xg24_brd2703a"
+board_id: "silabs_explorerkit_xg24_brd2703a"
+board_alias: "explorerkit_xg24_brd2703a"
 title: "EFR32xG24 Explorer Kit Download"
 name: "EFR32xG24 Explorer Kit"
 manufacturer: "Silicon Labs"

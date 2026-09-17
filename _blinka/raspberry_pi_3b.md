@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "raspberry_pi_3bplus"
+board_id: "raspberry_pi_3b"
 title: "Raspberry Pi 3 Model B Download"
 name: "Pi 3 Model B"
 manufacturer: "Raspberry Pi"

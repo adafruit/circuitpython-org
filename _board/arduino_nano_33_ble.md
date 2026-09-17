@@ -13,6 +13,7 @@ bootloader_id: arduino_nano_33_ble
 features:
   - Bluetooth/BTLE
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 Please note that the pictured board is a Nano 33 BLE Sense. This build works with both the Nano 33 BLE and the Sense.

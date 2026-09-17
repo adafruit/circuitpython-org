@@ -1,6 +1,7 @@
 ---
 layout: download
-board_id: "devkit_xg24_brd2601b"
+board_id: silabs_devkit_xg24_brd2601b
+board_alias: "devkit_xg24_brd2601b"
 title: "EFR32xG24 Dev Kit Download"
 name: "EFR32xG24 Dev Kit"
 manufacturer: "Silicon Labs"
