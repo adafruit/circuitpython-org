@@ -4,11 +4,11 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 17 Sep 2026 06:09:43 -0400</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 16:56:29 -0400</lastBuildDate>
 
 <item>
     <title>Xiaomao</title>
-    <link>https://circuitpython.org/board/securinghardware_xiaomao/</link>
+    <link>https://circuitpython.org/board/securinghw-xiaomao/</link>
     <description><![CDATA[  
 <img
   srcset="https://circuitpython.org/assets/images/boards/small/securinghardware_xiaomao.jpg 300w,
@@ -25,7 +25,7 @@
 
 <p>All the GPIO pins have 200 ohm current limiting resistors that should protect both the target and the device. If you have a Tigard, you can re-use the wiring harnesses. You should be able to tap power and ground from your target system to get your device running in standalone implant mode.</p>
 
-<p>Alongside a logic analyzer and an I/O interface board, a simple microcontroller board rounds out a basic hardware hacking toolkit, allowing you to bitbang proprietary protocols, search for disabled interfaces, log data, drop payloads, and act as an implant-in-the-middle. For example, <a href="http://tigard-tools/hecate">Hecate</a> is a CircuitPython framework for UART logging, payloads, and interdiction. It will work on any board but was built with Xiǎomāo in mind.</p>
+<p>Alongside a logic analyzer and an I/O interface board, a simple microcontroller board rounds out a basic hardware hacking toolkit, allowing you to bitbang proprietary protocols, search for disabled interfaces, log data, drop payloads, and act as an implant-in-the-middle. For example, <a href="https://tigard-tools.org/hecate">Hecate</a> is a CircuitPython framework for UART logging, payloads, and interdiction. It will work on any board but was built with Xiǎomāo in mind.</p>
 
 <h2 id="purchase">Purchase</h2>
 <ul>
@@ -34,14 +34,14 @@
 
 <h2 id="learn-more">Learn More</h2>
 <ul>
-  <li><a href="https://github.com/tigard-tools/xiaomao">Documentation</a> includes all the board files, as well as some recommended use cases and code samples.</li>
+  <li><a href="https://tigard-tools.org/xiaomao">Documentation</a> includes all the board files, as well as some recommended use cases and code samples.</li>
 </ul>
  ]]></description>
     
     <category>CircuitPython</category>
     
     <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-    <guid>https://circuitpython.org/board/securinghardware_xiaomao/</guid>
+    <guid>https://circuitpython.org/board/securinghw-xiaomao/</guid>
   </item><item>
     <title>Challenger RP2040 NFC</title>
     <link>https://circuitpython.org/board/challenger_rp2040_nfc/</link>
