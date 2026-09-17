@@ -22,7 +22,7 @@ The SparkFun Thing Plus Matter is the first easily accessible board of its kind 
 
 The Thing Plus Matter - MGM240P includes Qwiic and LiPo battery connectors, and multiple GPIO pins capable of complete multiplexing through software. The board also features the MCP73831 single-cell LiPo charger as well as the MAX17048 fuel gauge to charge and monitor a connected battery. Lastly, we've included a µSD card slot for any external memory needs.
 
-The MGM240P wireless module is built around the EFR32MG24 Wireless SoC with a 32-bit ARM Cortext-M33 core processor running at 39 MHz with 1536 kb Flash memory and 256 kb RAM.
+The MGM240P wireless module is built around the EFR32MG24 Wireless SoC with a 32-bit ARM Cortex-M33 core processor running at 39 MHz with 1536 kb Flash memory and 256 kb RAM.
 
 ## Features
 * MGM240P Wireless Module
