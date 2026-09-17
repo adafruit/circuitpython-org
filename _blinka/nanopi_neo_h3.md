@@ -1,6 +1,6 @@
 ---
 layout: download
-board_id: "nanopi_neo"
+board_id: "nanopi_neo_h3"
 title: "NanoPi NEO Download"
 name: "NanoPi NEO"
 manufacturer: "FriendlyElec"

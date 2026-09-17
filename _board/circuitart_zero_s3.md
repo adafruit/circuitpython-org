@@ -27,7 +27,7 @@ That's not all, This board comes with native USB, Debug USB, and **16 MB Flash +
 
 - **ESP32-S3 Dual Core 240MHz Tensilica processor** - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!
 - **huge data buffers** the board comes with 16 MByte of Flash and 8 MByte of PSRAM
-- **Color 1.3" IPS TFT** - bright and colorful display with ST7789 chipset that can be viewed at any angle angle.
+- **Color 1.3" IPS TFT** - bright and colorful display with ST7789 chipset that can be viewed at any angle.
 - **Power options** - USB type C **or** Lipoly battery
 - **Built-in battery charging** when powered over USB-C
 - **LiPoly battery monitor** - LC709203 chip actively monitors your battery for voltage and state of charge / percentage reporting over I2C

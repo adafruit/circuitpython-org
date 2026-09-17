@@ -13,6 +13,7 @@ bootloader_id: mdk_nrf52840_dongle
 features:
   - Bluetooth/BTLE
   - Breadboard-Friendly
+  - Castellated Pads
 ---
 
 The nRF52840 Micro Dev Kit USB Dongle is a small and low-cost development platform enabled by the nRF52840 multi-protocol SoC in a convenient USB dongle form factor.
