@@ -8,8 +8,10 @@ layout: default
       <div class="image-section">
         {% assign large_image = "/assets/images/boards/large/" | append:
         page.board_image %}
+	{% if page.blinka == true %}{% assign manufacturer_url = "/blinka?manufacturers=" %}{% else %}
+	{% assign manufacturer_url = "/downloads?manufacturers=" %}{% endif %}
         <img src="{{ large_image | relative_url }}" alt="Image of Board" />
-        <h1>{{ page.name }} by <a href="/downloads?manufacturers={{ page.manufacturer | url_encode }}">{{ page.manufacturer }}</a></h1>
+	<h1>{{ page.name }} by <a href="{{ manufacturer_url }}{{ page.manufacturer | url_encode }}">{{ page.manufacturer }}</a></h1>
       </div>
       <div class="section">
         <p>{{ content }}</p>
