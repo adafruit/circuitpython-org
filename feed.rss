@@ -4,9 +4,55 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 17 Sep 2026 20:26:07 -0400</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 20:26:36 -0400</lastBuildDate>
 
 <item>
+    <title>Tigard</title>
+    <link>https://circuitpython.org/blinka/securinghw_tigard/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/securinghw_tigard.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/securinghw_tigard.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/securinghw_tigard.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By SecuringHardware.com</p> <p>Tigard is an FTDI FT2232H-based multi-protocol tool for hardware hacking. It’s designed to be easy to use, with individually labelled wire harnesses and built-in level shifting.</p>
+
+<p>Highlights:</p>
+<ul>
+  <li>Dual-port, with one dedicated to UART and the second shared with other interfaces</li>
+  <li>High-performance directional level shifters for 1.8 to 5.5v operation</li>
+  <li>Switch to choose between on-board 1.8, 3.3, and 5.0v supplies and vTarget</li>
+  <li>Switch to choose between SPI/JTAG and I2C/SWD modes</li>
+  <li>Logic analyser port to observe device-level signals</li>
+  <li>Indicator lights to aid debugging</li>
+</ul>
+
+<h2 id="learn-more">Learn More</h2>
+<p>Adafruit’s <a href="https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h">Blinka-on-FT232H</a> guide covers most of what you’ll need to use it with Tigard, but keep in mind:</p>
+<ul>
+  <li>Tigard uses the FT2232H with two separate interfaces, so you’ll need to:<code class="language-plaintext highlighter-rouge">export BLINKA_FT2232H=1</code></li>
+  <li>Tigard has unidirectional level shifters - only certain pins can be in or out</li>
+  <li>UART header is connected to the first interface on the AC# and AD# pins</li>
+  <li>I2C, SPI, and JTAG headers use the second interface on the BC#, BD#, and SDA1, SCL1, SCLK1, etc pins.</li>
+  <li><a href="https://tigard-tools.org/tigard">Documentation</a></li>
+</ul>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://1bitsquared.com/products/tigard">1BitSquared</a></li>
+  <li><a href="https://www.crowdsupply.com/securinghw/tigard#products">Crowd Supply</a></li>
+</ul>
+ ]]></description>
+    
+    <category>Blinka</category>
+    
+    <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/blinka/securinghw_tigard/</guid>
+  </item><item>
     <title>Xiaomao</title>
     <link>https://circuitpython.org/board/securinghw-xiaomao/</link>
     <description><![CDATA[  
