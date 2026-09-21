@@ -39,8 +39,9 @@ def find_missing_boards(folder):
     with open('./_data/files.json') as board_file:
         boards = json.load(board_file)
         for board in boards:
-            if not os.path.exists(f"./_boards/{board}.md"):
-                missing_boards.append(board["id"])
+            board_id = board["id"]
+            if not os.path.exists(f"{folder}/{board_id}.md"):
+                missing_boards.append(board_id)
 
     # Scan through files and remove the data-file IDs they represent. Aliased
     # pages use board_alias for their data-file ID and board_id for their page ID.
@@ -83,7 +84,7 @@ def find_extra_boards(folder):
     for i in range(len(extra_boards)):
         board_id = extra_boards[i]
         if board_id in aliases:
-            extra_boards[i] = f"{board_id} (alias) --> {aliases[board_id]})"
+            extra_boards[i] = f"{board_id} (alias) --> {aliases[board_id]}"
 
     # Print out remaining board_ids
     print_section("Extra Boards", extra_boards)
