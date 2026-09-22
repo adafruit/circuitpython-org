@@ -4,9 +4,97 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 21 Sep 2026 14:18:10 -0400</lastBuildDate>
+<lastBuildDate>Mon, 21 Sep 2026 23:35:55 -0400</lastBuildDate>
 
 <item>
+    <title>W55RP20-EVB-Pico</title>
+    <link>https://circuitpython.org/board/wiznet_w55rp20_evb_pico/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/wiznet_w55rp20_evb_pico.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/wiznet_w55rp20_evb_pico.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/wiznet_w55rp20_evb_pico.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By WIZnet</p> <p>The W55RP20-EVB-Pico combines an RP2040 microcontroller and WIZnet’s W5500 Ethernet controller in one W55RP20 package. The board keeps a Pico-compatible GPIO layout while adding a 10/100 Ethernet jack, USB-C connection, and optional Power over Ethernet module footprint.</p>
+
+<p>It is useful for CircuitPython projects that need wired networking alongside RP2040 GPIO and PIO. See the <a href="https://docs.wiznet.io/Product/Chip/MCU/W55RP20/w55rp20-evb-pico">WIZnet documentation</a> for pinout and hardware details.</p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/wiznet_w55rp20_evb_pico/</guid>
+  </item><item>
+    <title>SiWx917 Wi-Fi 6 and Bluetooth LE Dev Kit</title>
+    <link>https://circuitpython.org/board/silabs_siwx917_dk2605a/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/silabs_siwx917_dk2605a.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/silabs_siwx917_dk2605a.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/silabs_siwx917_dk2605a.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Silicon Labs</p> <p>The SiWx917-DK2605A is a compact development kit for Silicon Labs’ SiWx917 Wi-Fi 6 and Bluetooth LE wireless SoC. It offers two Qwiic connectors, breakout pads, user buttons and LEDs, onboard sensors, a USB-C connection, and an integrated debugger for rapid wireless prototyping.</p>
+
+<p>See the <a href="https://www.silabs.com/development-tools/wireless/wi-fi/siwx917-dk2605a-wifi-6-bluetooth-le-soc-dev-kit">Silicon Labs product page</a> and <a href="https://www.silabs.com/documents/public/user-guides/ug581-brd2605a-user-guide.pdf">user guide</a> for hardware details and programming connections.</p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/silabs_siwx917_dk2605a/</guid>
+  </item><item>
+    <title>Nordic nRF54LM20 Development Kit (Zephyr)</title>
+    <link>https://circuitpython.org/board/nordic_nrf54lm20dk/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/nordic_nrf54lm20dk.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/nordic_nrf54lm20dk.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/nordic_nrf54lm20dk.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Nordic Semiconductor</p> <p>The nRF54LM20 DK is Nordic’s development kit for the nRF54LM20A and nRF54LM20B wireless SoCs. It exposes the SoC’s interfaces on headers and includes a built-in SEGGER J-Link programmer/debugger, four user buttons and LEDs, power-measurement points, and 8 MB of external flash.</p>
+
+<p>This CircuitPython download uses the experimental Zephyr port. See <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF54LM20-DK">Nordic’s development-kit page</a> and <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF54LM20-DK/Get-Started">getting-started instructions</a> for the board’s connectors and programming setup.</p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/nordic_nrf54lm20dk/</guid>
+  </item><item>
+    <title>Nordic nRF54L15 Tag (Zephyr)</title>
+    <link>https://circuitpython.org/board/nordic_nrf54l15tag/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/nordic_nrf54l15tag.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/nordic_nrf54l15tag.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/nordic_nrf54l15tag.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Nordic Semiconductor</p> <p>The nRF54L15 Tag is a compact, battery-powered prototyping platform built around Nordic’s nRF54L15 wireless SoC. Its two antennas support Bluetooth Channel Sounding experiments, making the tag useful for asset-tracking and proximity projects. It also has a user button and RGB LED.</p>
+
+<p>This CircuitPython download is an experimental Zephyr-port build. Programming and debugging the tag require compatible external hardware, such as an nRF54L Series development kit connected to its debug header. Follow <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-Tag/GetStarted">Nordic’s getting-started guide</a> for the hardware setup.</p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/nordic_nrf54l15tag/</guid>
+  </item><item>
     <title>ESP32-S3 Box 3</title>
     <link>https://circuitpython.org/board/espressif_esp32s3_box_3/</link>
     <description><![CDATA[  
@@ -39,6 +127,56 @@
     
     <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/espressif_esp32s3_box_3/</guid>
+  </item><item>
+    <title>ESP32-C5-DevKitC-1-N8R8</title>
+    <link>https://circuitpython.org/board/espressif_esp32c5_devkitc_1_n8r8/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/espressif_esp32c5_devkitc_1_n8r8.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/espressif_esp32c5_devkitc_1_n8r8.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/espressif_esp32c5_devkitc_1_n8r8.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Espressif</p> <p>The ESP32-C5-DevKitC-1 is Espressif’s development board for the ESP32-C5-WROOM-1 module. This N8R8 variant has 8 MB of flash and 8 MB of PSRAM. The ESP32-C5 provides dual-band Wi-Fi 6, Bluetooth Low Energy, and an IEEE 802.15.4 radio for Thread and Zigbee development.</p>
+
+<p>Most GPIO pins are broken out along both sides of the board for breadboard or jumper-wire prototyping. It includes USB-C connections for power, programming, and serial communication, plus BOOT and RESET buttons. Check the <a href="https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/user_guide.html">Espressif user guide</a> for the correct port and flashing procedure.</p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/espressif_esp32c5_devkitc_1_n8r8/</guid>
+  </item><item>
+    <title>Adafruit CLUE (Zephyr)</title>
+    <link>https://circuitpython.org/board/adafruit_clue_nrf52840_zephyr/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/clue_nrf52840_express.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/clue_nrf52840_express.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/clue_nrf52840_express.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Adafruit</p> <p>This is the CircuitPython <strong>Zephyr-port build</strong> for the Adafruit CLUE. The CLUE has an nRF52840, a 1.3-inch color display, buttons, and onboard motion and environmental sensors. This build is separate from the <a href="/board/clue_nrf52840_express/">standard CLUE CircuitPython download</a>; use that page if you want the established nRF port.</p>
+
+<p>The Zephyr port is experimental, and its available modules and flashing process may differ from the standard CLUE build. See the <a href="https://learn.adafruit.com/adafruit-clue">CLUE hardware guide</a> before programming the board.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.adafruit.com/product/4500">Adafruit CLUE</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/adafruit_clue_nrf52840_zephyr/</guid>
   </item><item>
     <title>Tigard</title>
     <link>https://circuitpython.org/blinka/securinghw_tigard/</link>

@@ -206,6 +206,28 @@
         "description": "<p>Why buy an Apple watch when you can spend your weekends building a microcontroller based “smart” watch instead? The TG-Watch is an open source, not-dumb watch meant for makers who want to hack on their watch, people who want to bring Python with them everywhere, or as a great starting point to learn about programming.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>240x240, 1.54” LCD</li>  <li>capacitive touchscreen</li>  <li>USB-C port (2.0)</li>  <li>Step counter and pedometer</li>  <li>Vibration motor and haptic motor driver</li>  <li>Bluetooth 5, Bluetooth mesh, Thread, ZigBee</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://github.com/TG-Techie/TG-Watch02-PCB\">Download PCB Files on Github</a></li></ul>"
     },
     {
+        "board_id": "adafruit_clue_nrf52840_zephyr",
+        "title": "Adafruit CLUE (Zephyr) Download",
+        "name": "Adafruit CLUE (Zephyr)",
+        "board_url": [
+            "https://www.adafruit.com/product/4500"
+        ],
+        "board_image": "clue_nrf52840_express.jpg",
+        "date_added": "2026-09-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Display",
+            "Bluetooth/BTLE",
+            "Solder-Free Alligator Clip",
+            "STEMMA QT/QWIIC"
+        ],
+        "url_path": "/board/adafruit_clue_nrf52840_zephyr/",
+        "description": "<p>This is the CircuitPython <strong>Zephyr-port build</strong> for the Adafruit CLUE. The CLUE has an nRF52840, a 1.3-inch color display, buttons, and onboard motion and environmental sensors. This build is separate from the <a href=\"/board/clue_nrf52840_express/\">standard CLUE CircuitPython download</a>; use that page if you want the established nRF port.</p><p>The Zephyr port is experimental, and its available modules and flashing process may differ from the standard CLUE build. See the <a href=\"https://learn.adafruit.com/adafruit-clue\">CLUE hardware guide</a> before programming the board.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/4500\">Adafruit CLUE</a></li></ul>"
+    },
+    {
         "board_id": "adafruit_esp32s3_camera",
         "title": "MEMENTO - Python Programmable DIY Camera Download",
         "name": "MEMENTO - Python Programmable DIY Camera",
@@ -4288,6 +4310,28 @@
         "description": "<p>ESP32-C3-Lyra is an ESP32-C3-based audio development board produced by Espressif for controlling light with audio. The board has control over the microphone, speaker, and LED strip, perfectly matching customers’ product development needs for ultra-low-cost and high-performance audio broadcasters and rhythm light strips.</p><h3 id=\"feature-list\">Feature List</h3><ul>  <li><strong>Module Embedded:</strong> ESP32-C3-WROOM-02 module with a 4 MB external SPI flash</li>  <li><strong>Audio:</strong> built-in ECM microphone, speaker power amplifier, speaker connector</li>  <li><strong>LED Strip Connector:</strong> support for two types of connections, i.e., connections to addressable LED strips and RGB LED strips</li>  <li><strong>Infrared Control:</strong> support for infrared (IR) transmitting and receiving</li>  <li><strong>Keys:</strong> boot key, reset key, and six function keys (MODE, COLOR, PLAY/PAUSE, SET, VOL+/LM+, VOL-/LM-)</li>  <li><strong>USB:</strong> 1 x USB Power Port, 1 x USB-to-UART Port</li>  <li><strong>Power Supply:</strong> 5 V power supply over USB or 12 V DC power supply</li></ul><h3 id=\"specifications\">Specifications</h3><ul>  <li>ESP32-C3-WROOM-02 Module</li>  <li>Speaker PA Chip</li>  <li>Speaker Output Port</li>  <li>Function Press Keys</li>  <li>Boot/Reset Press Keys</li>  <li>USB-to-UART Port</li>  <li>USB-to-UART Bridge Chip</li>  <li>USB Power Port</li>  <li>System Power Switch</li>  <li>LED Strip Power Selection Switch</li>  <li>12 V DC Power Port</li>  <li>12 V to 5 V Buck Chip</li>  <li>Addressable LED Strip Port</li>  <li>RGB LED Strip Port</li>  <li>System Power LED</li>  <li>IR Receiver</li>  <li>IR Transmitter</li>  <li>Microphone</li>  <li>System LED</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3-LYRA/17883278\">DigiKey</a></li></ul>"
     },
     {
+        "board_id": "espressif_esp32c5_devkitc_1_n8r8",
+        "title": "ESP32-C5-DevKitC-1-N8R8 Download",
+        "name": "ESP32-C5-DevKitC-1-N8R8",
+        "board_url": [
+            "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/user_guide.html"
+        ],
+        "board_image": "espressif_esp32c5_devkitc_1_n8r8.jpg",
+        "date_added": "2026-09-21",
+        "family": "esp32c5",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "USB-C"
+        ],
+        "url_path": "/board/espressif_esp32c5_devkitc_1_n8r8/",
+        "description": "<p>The ESP32-C5-DevKitC-1 is Espressif’s development board for the ESP32-C5-WROOM-1 module. This N8R8 variant has 8 MB of flash and 8 MB of PSRAM. The ESP32-C5 provides dual-band Wi-Fi 6, Bluetooth Low Energy, and an IEEE 802.15.4 radio for Thread and Zigbee development.</p><p>Most GPIO pins are broken out along both sides of the board for breadboard or jumper-wire prototyping. It includes USB-C connections for power, programming, and serial communication, plus BOOT and RESET buttons. Check the <a href=\"https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c5/esp32-c5-devkitc-1/user_guide.html\">Espressif user guide</a> for the correct port and flashing procedure.</p>"
+    },
+    {
         "board_id": "espressif_esp32c61_devkitc_1_n8r2",
         "title": "ESP32-C61-DevKitC-1-N8R2 Download",
         "name": "ESP32-C61-DevKitC-1-N8R2",
@@ -5962,6 +6006,24 @@
         ],
         "url_path": "/board/hxr_sao_dmm/",
         "description": "<p>This is a Digital Multimeter in the shape of an SAO (Shitty Add-On/Simple Add-on), designed specifically to assist in electronic badge and SAO development.</p><p>This follows the 1.69bis version of the SAO standard (<a href=\"https://hackaday.io/project/52950-shitty-add-ons\">Shitty Add-on standard</a>, <a href=\"https://hackaday.io/project/175182-simple-add-ons-sao\">Simple Add-on standard</a>)</p><p>It is based on the RP2040 chip, includes a small OLED display, a rotary encoder for the main knob, a function button for sub functionality selection and two 2mm banana terminals for connecting probes for resistance, LED and continuity testing.</p><p>A USB-C connector on the side allows easy modification of the firmware, and boot and reset buttons are also included for convenience, when updating or replacing CircuitPython.</p><p><strong>CAUTION! THIS IS NOT A NORMAL MULTIMETER, AND DOES NOT INCLUDE THE PROTECTION FEATURES NORMALLY FOUND IN A DMM</strong></p><p>If you would like to probe a live circuit, please check <a href=\"https://github.com/flummer/dmm-sao/blob/main/DMM%20SAO%20Schematics.pdf\">the schematic</a> first, and proceed only if you understand the implications, as improper use might result in a short circuit and harm either the multimeter, the device under test, a connected computer or a combination of those.</p><p><strong>VOLTAGE OR CURRENT SHOULD NEVER BE MEASURED WITH THE PROBES OR TERMINALS ON THE FRONT</strong></p><h2 id=\"features\">Features</h2><ul>  <li>Resistance measurement (not the most precise, but should be OK in the range of 50-10K ohm)</li>  <li>LED Tester (this will lit up the LED if the polarity is correct and show the voltage across it on the screen, 100 ohm resistor in series to 3.3v)</li>  <li>Continuity tester with buzzer to indicate very low resistance</li>  <li>Measurement of input voltage on the SAO port</li>  <li>SAO Port GPIO monitoring (shown as either digital high/low or an analog voltage reading)</li>  <li>I2C monitor (monitor or scan the I2C bus on the SAO port)</li></ul><h2 id=\"technical-details\">Technical Details</h2><ul>  <li>Raspberry Pi RP2040 controller</li>  <li>16MB SPI flash (W25Q128JVxQ)</li>  <li>SSD1306 128x64 pixel 0.96” OLED display (white on black)</li>  <li>Automatic power switching from SAO port to USB-C (both can be connected at the same time)</li>  <li>Voltage boost circuit for operation on lower than 3.3v on the SAO port</li>  <li>Maximum input voltage on the SAO port is 3.3v</li>  <li>UART RX + TX connected to SBU pins on USB-C connector</li></ul><h2 id=\"links\">Links</h2><ul>  <li><a href=\"https://hackaday.io/project/198892-sao-digital-multimeter\">hackaday.io page</a></li>  <li><a href=\"https://github.com/flummer/dmm-sao\">Github repository</a></li></ul>"
+    },
+    {
+        "board_id": "ikea_alpstuga_esp32_s3",
+        "title": "ALPSTUGA Drop-In ESP32-S3 Download",
+        "name": "ALPSTUGA Drop-In ESP32-S3",
+        "board_url": [
+            "https://github.com/adafruit/circuitpython/tree/main/ports/espressif/boards/ikea_alpstuga_esp32_s3"
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2026-09-21",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/ikea_alpstuga_esp32_s3/",
+        "description": "<p>This build is for a <strong>custom ESP32-S3 drop-in board</strong> associated with the IKEA ALPSTUGA air-quality sensor. It is not firmware for the stock IKEA sensor. The <a href=\"https://github.com/adafruit/circuitpython/blob/main/ports/espressif/boards/ikea_alpstuga_esp32_s3/mpconfigboard.h\">CircuitPython board definition</a> identifies 4 MB of flash and 2 MB of PSRAM.</p><p>The listing is hidden until the replacement hardware, its maker, and installation instructions can be documented and photographed. Do not flash this build to an unmodified ALPSTUGA.</p>"
     },
     {
         "board_id": "ikigaisense_vita",
@@ -8217,6 +8279,24 @@
         "description": "<p>The Zephyr Native Sim is not a physical board. It is Zephyr’s <a href=\"https://docs.zephyrproject.org/latest/boards/native/native_sim/doc/index.html\">native simulator</a>, which compiles Zephyr applications as a normal Linux executable that runs on the host machine. It is used for development and testing of the CircuitPython Zephyr port without needing physical hardware. The Zephyr port of CircuitPython is currently in alpha.</p>"
     },
     {
+        "board_id": "native_native_sim_asan",
+        "title": "Zephyr Native Simulator (ASan) Download",
+        "name": "Zephyr Native Simulator (ASan)",
+        "board_url": [
+            "https://docs.zephyrproject.org/latest/boards/native/native_sim/doc/index.html"
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2026-09-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/native_native_sim_asan/",
+        "description": "<p>This is an AddressSanitizer-enabled variant of the Zephyr native simulator used to test CircuitPython on a host computer. It is a development target, not firmware for a physical board, so it is hidden from the public downloads list.</p>"
+    },
+    {
         "board_id": "native_nrf5340bsim",
         "title": "Zephyr nRF5340 BabbleSim Download",
         "name": "Zephyr nRF5340 BabbleSim",
@@ -8233,6 +8313,24 @@
         ],
         "url_path": "/board/native_nrf5340bsim/",
         "description": "<p>The nRF5340 BabbleSim is not a physical board. It is a Zephyr <a href=\"https://docs.zephyrproject.org/latest/boards/native/nrf_bsim/doc/index.html\">simulated nRF5340 target</a> that runs as a Linux executable using the BabbleSim physical layer simulator. It enables testing of BLE functionality including the <code class=\"language-plaintext highlighter-rouge\">_bleio</code> module without requiring physical hardware. It is used for development and testing of the CircuitPython Zephyr port. The Zephyr port of CircuitPython is currently in alpha.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://docs.zephyrproject.org/latest/boards/native/nrf_bsim/doc/index.html\">Zephyr Project - nRF5340 BabbleSim</a></li>  <li><a href=\"https://BabbleSim.github.io\">BabbleSim</a></li></ul>"
+    },
+    {
+        "board_id": "native_nrf54lm20bsim",
+        "title": "nRF54LM20B Simulator Download",
+        "name": "nRF54LM20B Simulator",
+        "board_url": [
+            "https://docs.zephyrproject.org/latest/boards/native/native_sim/doc/index.html"
+        ],
+        "board_image": "unknown.jpg",
+        "date_added": "2026-09-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+        ],
+        "url_path": "/board/native_nrf54lm20bsim/",
+        "description": "<p>This Zephyr simulator target is used to develop and test the CircuitPython nRF54LM20B port without a physical development kit. It is a host executable rather than a flashable board image, so it is hidden from the public downloads list. For hardware, see the <a href=\"/board/nordic_nrf54lm20dk/\">nRF54LM20 DK</a>.</p>"
     },
     {
         "board_id": "ndgarage_ndbit6",
@@ -8435,6 +8533,45 @@
         ],
         "url_path": "/board/nordic_nrf54l15dk/",
         "description": "<p>The nRF54L15 DK is the development kit for all three wireless SoC (System-on-Chip) options in the nRF54L Series. The nRF54L15 sits on the development board, while the nRF54L10 and nRF54L05 can be emulated. The affordable single-board development kit makes all features of the wireless SoC available to the developer.</p><p>The nRF54L15 DK is supported by a comprehensive set of nRF Connect tools and has support in the nRF Connect SDK. Developers can explore the full potential of the nRF54L15 using the extensive range of software samples, modules, and libraries available within the nRF Connect SDK.</p><p>The nRF Connect SDK Fundamentals and Bluetooth Low Energy Fundamentals courses in Nordic Developer Academy support the nRF54L15 DK. These courses have enrolled more than 15,000 developers, have received an average rating of 9.1/10, and provide more than 20 hours of in-depth training.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF54L15-DK/25601516\">Digi-Key</a></li></ul>"
+    },
+    {
+        "board_id": "nordic_nrf54l15tag",
+        "title": "Nordic nRF54L15 Tag (Zephyr) Download",
+        "name": "Nordic nRF54L15 Tag (Zephyr)",
+        "board_url": [
+            "https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-Tag"
+        ],
+        "board_image": "nordic_nrf54l15tag.jpg",
+        "date_added": "2026-09-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE"
+        ],
+        "url_path": "/board/nordic_nrf54l15tag/",
+        "description": "<p>The nRF54L15 Tag is a compact, battery-powered prototyping platform built around Nordic’s nRF54L15 wireless SoC. Its two antennas support Bluetooth Channel Sounding experiments, making the tag useful for asset-tracking and proximity projects. It also has a user button and RGB LED.</p><p>This CircuitPython download is an experimental Zephyr-port build. Programming and debugging the tag require compatible external hardware, such as an nRF54L Series development kit connected to its debug header. Follow <a href=\"https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-Tag/GetStarted\">Nordic’s getting-started guide</a> for the hardware setup.</p>"
+    },
+    {
+        "board_id": "nordic_nrf54lm20dk",
+        "title": "Nordic nRF54LM20 Development Kit (Zephyr) Download",
+        "name": "Nordic nRF54LM20 Development Kit (Zephyr)",
+        "board_url": [
+            "https://www.nordicsemi.com/Products/Development-hardware/nRF54LM20-DK"
+        ],
+        "board_image": "nordic_nrf54lm20dk.jpg",
+        "date_added": "2026-09-21",
+        "family": "zephyr",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "USB-C"
+        ],
+        "url_path": "/board/nordic_nrf54lm20dk/",
+        "description": "<p>The nRF54LM20 DK is Nordic’s development kit for the nRF54LM20A and nRF54LM20B wireless SoCs. It exposes the SoC’s interfaces on headers and includes a built-in SEGGER J-Link programmer/debugger, four user buttons and LEDs, power-measurement points, and 8 MB of external flash.</p><p>This CircuitPython download uses the experimental Zephyr port. See <a href=\"https://www.nordicsemi.com/Products/Development-hardware/nRF54LM20-DK\">Nordic’s development-kit page</a> and <a href=\"https://www.nordicsemi.com/Products/Development-hardware/nRF54LM20-DK/Get-Started\">getting-started instructions</a> for the board’s connectors and programming setup.</p>"
     },
     {
         "board_id": "nordic_nrf7002dk",
@@ -11272,6 +11409,29 @@
         ],
         "url_path": "/board/silabs_explorerkit_xg24_brd2703a/",
         "description": "<p>The EFR32xG24 Explorer Kit is an ultra-low-cost, small form factordevelopment and evaluation platform for the EFR32MG24 Wireless Gecko System-on-Chip.</p><p>The EFR32xG24 Explorer Kit is focused on rapid prototyping and concept creation of IoTapplications. It is designed around the EFR32MG24 SoC, which is an ideal device familyfor developing energy-friendly connected IoT applications.</p><p>Key features of the board includes a USB interface, an on-board SEGGER J-Link debugger, Packet Trace Interface, push buttons, and support for hardware add-on boards via a mikroBus socket and a Qwiic® connector. The hardware add-on support allows developers to create and prototype applications using a virtually endless combination of off-the-shelf boards from mikroE, sparkfun, AdaFruit, and Seeed Studios.</p><h2 id=\"features\">Features</h2><ul>  <li>EFR32MG24 Wireless Gecko System-onChip (EFR32MG24B210F1536IM48)</li>  <li>High-performance 2.4 GHz radio</li>  <li>32-bit ARM® Cortex®-M33 with 78 MHz maximum operating frequency</li>  <li>1536 kB flash and 256 kB RAM</li>  <li>User LEDs and push buttons</li>  <li>20-pin 2.54 mm breakout pads</li>  <li>mikroBUS™ socket</li>  <li>Qwiic® connector</li>  <li>SEGGER J-Link on-board debugger</li>  <li>Virtual COM port</li>  <li>Packet Trace Interface (PTI)</li>  <li>USB-C powered</li></ul><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=getting-started\">Getting Started</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview\">Silicon Labs</a></li></ul>"
+    },
+    {
+        "board_id": "silabs_siwx917_dk2605a",
+        "title": "SiWx917 Wi-Fi 6 and Bluetooth LE Dev Kit Download",
+        "name": "SiWx917 Wi-Fi 6 and Bluetooth LE Dev Kit",
+        "board_url": [
+            "https://www.silabs.com/development-tools/wireless/wi-fi/siwx917-dk2605a-wifi-6-bluetooth-le-soc-dev-kit"
+        ],
+        "board_image": "silabs_siwx917_dk2605a.jpg",
+        "date_added": "2026-09-21",
+        "family": "silabs",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "STEMMA QT/QWIIC",
+            "USB-C"
+        ],
+        "url_path": "/board/silabs_siwx917_dk2605a/",
+        "description": "<p>The SiWx917-DK2605A is a compact development kit for Silicon Labs’ SiWx917 Wi-Fi 6 and Bluetooth LE wireless SoC. It offers two Qwiic connectors, breakout pads, user buttons and LEDs, onboard sensors, a USB-C connection, and an integrated debugger for rapid wireless prototyping.</p><p>See the <a href=\"https://www.silabs.com/development-tools/wireless/wi-fi/siwx917-dk2605a-wifi-6-bluetooth-le-soc-dev-kit\">Silicon Labs product page</a> and <a href=\"https://www.silabs.com/documents/public/user-guides/ug581-brd2605a-user-guide.pdf\">user guide</a> for hardware details and programming connections.</p>"
     },
     {
         "board_id": "silicognition-m4-shim",
@@ -14519,6 +14679,28 @@
         ],
         "url_path": "/board/wiznet_w5500_evb_pico2/",
         "description": "<p>W5500-EVB-Pico2 is a microcontroller evaluation board based on the Raspberry Pi RP2350 and the fully hardwired TCP/IP controller W5500 enhancing the capabilities of the traditional Raspberry Pi Pico2 board with additional Ethernet functionality via W5500.</p><ul>  <li>Enhanced Raspberry Pi Pico2 Clone</li>  <li>Ethernet (W5500 Hardwired TCP/IP CHIP)</li></ul><p><strong>Features</strong></p><ul>  <li>RP2350 Microcontroller with Integrated 16Mbit Flash    <ul>      <li>Symmetric dual Arm Cortex-M33 cores at up to 150MHz</li>      <li>520kByte multi-bank high performance SRAM</li>      <li>External Quad-SPI Flash with eXecute In Place (XIP) capabilities</li>      <li>Enhanced performance full-crossbar bus fabric</li>      <li>Up to 48 multi-function General Purpose IO (8 can be used for ADC on RP2350-B)        <ul>          <li>1.8-5.0V IO Voltage</li>        </ul>      </li>    </ul>  </li>  <li>W5100S Ethernet Controller    <ul>      <li>Supports Hardwired Internet Protocols: TCP, UDP, WOL over UDP, ICMP, IGMPv1/v2, IPv4, ARP, PPPoE</li>      <li>Supports 4 Independent Hardware SOCKETs simultaneously</li>      <li>Internal 16 Kbytes Memory for TX/ RX Buffers</li>      <li>High Speed Serial Peripheral Interface (SPI MODE 0, 3)</li>    </ul>  </li>  <li>C-Type USB port for power and data (and for reprogramming the Flash)</li>  <li>40 pin 21x51 ‘DIP’ style 1mm thick PCB with 0.1” through-hole pins also with edge castellations</li>  <li>3-pin ARM Serial Wire Debug (SWD) port</li>  <li>10 / 100 Ethernet PHY embedded</li>  <li>Supports Auto Negotiation    <ul>      <li>Full / Half Duplex</li>      <li>10 / 100 Based</li>    </ul>  </li>  <li>Built-in RJ45</li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://wiznet.io/products/evaluation-boards/w5500-evb-pico2\">WIZnet e-shop</a></li></ul><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://docs.wiznet.io/Product/iEthernet/W5500/w5500-evb-pico2\">WIZnet Docs</a></li></ul>"
+    },
+    {
+        "board_id": "wiznet_w55rp20_evb_pico",
+        "title": "W55RP20-EVB-Pico Download",
+        "name": "W55RP20-EVB-Pico",
+        "board_url": [
+            "https://docs.wiznet.io/Product/Chip/MCU/W55RP20/w55rp20-evb-pico"
+        ],
+        "board_image": "wiznet_w55rp20_evb_pico.jpg",
+        "date_added": "2026-09-21",
+        "family": "rp2040",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Breadboard-Friendly",
+            "Castellated Pads",
+            "Raspberry Pi Pico Form Factor",
+            "USB-C"
+        ],
+        "url_path": "/board/wiznet_w55rp20_evb_pico/",
+        "description": "<p>The W55RP20-EVB-Pico combines an RP2040 microcontroller and WIZnet’s W5500 Ethernet controller in one W55RP20 package. The board keeps a Pico-compatible GPIO layout while adding a 10/100 Ethernet jack, USB-C connection, and optional Power over Ethernet module footprint.</p><p>It is useful for CircuitPython projects that need wired networking alongside RP2040 GPIO and PIO. See the <a href=\"https://docs.wiznet.io/Product/Chip/MCU/W55RP20/w55rp20-evb-pico\">WIZnet documentation</a> for pinout and hardware details.</p>"
     },
     {
         "board_id": "wk-50",
