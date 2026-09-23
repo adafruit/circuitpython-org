@@ -1,12 +1,12 @@
 ---
 layout: download
-board_id: "studiolab_picoexpander"
-title: "Pico Expander Download"
-name: "Pico Expander"
+board_id: "ide_tudelft_realpicoexpander"
+title: "Real Pico Expander Download"
+name: "Real Pico Expander"
 manufacturer: "StudioLab"
 board_url:
   - "https://id-studiolab.github.io/Connected-Interaction-Kit/test/components/pico-expander/pico-expander"
-board_image: "studiolab_picoexpander.jpg"
+board_image: "ide_tudelft_realpicoexpander.jpg"
 date_added: 2025-12-04
 family: rp2350
 tags:
@@ -22,7 +22,7 @@ features:
   - STEMMA QT/QWIIC
 ---
 
-The Pico Expander is an expansion board that features a soldered Raspberry Pi Pico 2W, bringing its powerful RP2350 microcontroller to a more accessible form factor. This board breaks out all the Pico 2W pins to Grove connectors, making it easy to connect sensors and peripherals without soldering.
+The Real Pico Expander is an expansion board that features a RP2350 with wifi controller. This board breaks out all the same pins are the Pico 2W pins to Grove connectors, making it easy to connect sensors and peripherals without soldering.
 
 **Key Features:**
 
