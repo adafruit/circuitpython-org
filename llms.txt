@@ -1,0 +1,30 @@
+# CircuitPython
+
+> CircuitPython is Adafruit's version of Python for microcontrollers. This file is a starting point for coding agents: where the documentation, guides, libraries and board information live.
+
+## Documentation
+
+- [Core API index](https://docs.circuitpython.org/en/latest/llms.txt): every page of the core documentation with a one-line summary, generated on each docs build
+- [Core documentation](https://docs.circuitpython.org/en/stable/): request any page with `Accept: text/markdown` to get Markdown instead of HTML
+- [Learn guides](https://learn.adafruit.com/llms.txt): the Adafruit Learning System index; add `.md` to a guide URL for Markdown, `?view=all` for the whole guide in one response
+
+## Boards and libraries
+
+- [Downloads](https://circuitpython.org/downloads): firmware for each board; a board's page, `https://circuitpython.org/board/<board_id>/`, lists the modules built into its firmware
+- [Libraries](https://circuitpython.org/libraries): the Adafruit and Community bundles; use the bundle that matches the firmware's major version, since `.mpy` files are version-specific
+- [Library documentation](https://docs.circuitpython.org/projects/bundle/en/latest/drivers.html): Adafruit publishes a CircuitPython driver for most of its breakouts
+
+## Common pitfalls
+
+- A board's built-in display is `supervisor.runtime.display`; not every board has `board.DISPLAY`, and it is `None` when there is no display. Reuse it rather than releasing it and building a new one; on DVI boards its size comes from `CIRCUITPY_DISPLAY_WIDTH`, `_HEIGHT` and `_COLOR_DEPTH` in `settings.toml`. [supervisor](https://docs.circuitpython.org/en/latest/shared-bindings/supervisor/index.html)
+- To tell a power-on or reset from a reload, check `supervisor.runtime.run_reason == supervisor.RunReason.STARTUP`; saving `code.py` or pressing Ctrl-D also restarts the program. [supervisor](https://docs.circuitpython.org/en/latest/shared-bindings/supervisor/index.html)
+- To pace an animation, set `display.auto_refresh = False` and call `display.refresh(target_frames_per_second=N)`. Without a target, `refresh()` returns at once, so counting loop iterations does not count frames. [framebufferio](https://docs.circuitpython.org/en/latest/shared-bindings/framebufferio/index.html)
+- `time.monotonic()` is a float that keeps millisecond precision only for about the first hour after start-up; use `time.monotonic_ns()` to measure short intervals. [time](https://docs.circuitpython.org/en/latest/shared-bindings/time/index.html)
+- Show a group with `display.root_group = group`; `display.show()` was removed in CircuitPython 9. Text on a display comes from the `adafruit_display_text` library (`from adafruit_display_text import label`, then `label.Label(terminalio.FONT, text=...)`); `displayio` itself has no text class. [displayio](https://docs.circuitpython.org/en/latest/shared-bindings/displayio/index.html)
+- CircuitPython is not CPython: there is no `os.path`, no `json.JSONDecodeError` (bad JSON raises `ValueError`) and no `FileNotFoundError` (catch `OSError`). Check the module page before using a standard-library feature. [Core modules](https://docs.circuitpython.org/en/latest/shared-bindings/index.html)
+- By default `code.py` cannot write to the CIRCUITPY drive, because the computer has write access to it; `boot.py` can give write access to CircuitPython instead with `storage.remount("/", readonly=False)`. For a few bytes that must survive a restart, use `microcontroller.nvm`. [storage](https://docs.circuitpython.org/en/latest/shared-bindings/storage/index.html)
+- Not every board has the `wifi` module. Boards whose Wi-Fi is an ESP32 co-processor (AirLift, Fruit Jam, PyPortal) use the `adafruit_esp32spi` library instead; the board page lists which modules the firmware has.
+
+## Running code on a device
+
+- [Agent skills for CircuitPython](https://github.com/adafruit/LLM-Recipes/tree/main/circuitpython): copy a script to a connected board over USB or the web workflow and read its output, write and run hardware tests
