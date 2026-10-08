@@ -4,9 +4,50 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 08 Oct 2026 06:11:03 -0400</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 13:23:01 -0400</lastBuildDate>
 
 <item>
+    <title>ESP32-S3-Touch-LCD-2.1</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_2_1/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_s3_touch_lcd_2_1.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_touch_lcd_2_1.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_touch_lcd_2_1.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Waveshare</p> <p>The ESP32-S3-Touch-LCD-2.1 is a round 2.1 inch 480×480 touch display development board built on the ESP32-S3R8 (dual-core Xtensa LX7 at 240 MHz, 8 MB octal PSRAM) with 16 MB flash, 2.4 GHz Wi-Fi and Bluetooth 5 LE. The IPS panel is driven over a 16-bit RGB bus by an ST7701S and has a CST820 capacitive touch controller.</p>
+
+<p><strong>Technical details</strong></p>
+
+<ul>
+  <li>ESP32-S3R8 with 8 MB PSRAM and 16 MB flash, onboard antenna with an IPEX option</li>
+  <li>2.1 inch round IPS display, 480×480, ST7701S controller on a 16-bit RGB565 bus, PWM backlight</li>
+  <li>CST820 capacitive touch with gesture support (I2C)</li>
+  <li>QMI8658 6-axis IMU and PCF85063 RTC (I2C)</li>
+  <li>TCA9554 I/O expander for the display and touch resets, SD card select and the onboard buzzer</li>
+  <li>microSD card slot, 3.7 V lithium battery header with charging, battery voltage sense</li>
+  <li>Two USB-C ports: native USB (CircuitPython REPL and CIRCUITPY drive) and a CH343 USB-UART</li>
+  <li>12-pin header with GPIO0, UART, I2C and USB signals</li>
+</ul>
+
+<p>In CircuitPython, <code class="language-plaintext highlighter-rouge">board.DISPLAY</code> is ready at boot and the touch controller, IMU, RTC and I/O expander share <code class="language-plaintext highlighter-rouge">board.I2C()</code>. The expander bit numbers are exported as <code class="language-plaintext highlighter-rouge">board.EXIO_*</code> constants.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-s3-touch-lcd-2.1.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_2_1/</guid>
+  </item><item>
     <title>W55RP20-EVB-Pico</title>
     <link>https://circuitpython.org/board/wiznet_w55rp20_evb_pico/</link>
     <description><![CDATA[  
