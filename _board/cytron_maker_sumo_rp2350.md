@@ -6,7 +6,7 @@ name: "Maker Sumo RP2350"
 manufacturer: "Cytron Technologies"
 board_url: "https://my.cytron.io/p-maker-sumo-rp2350-controller"
 board_image: "cytron_maker_sumo_rp2350.jpg"
-date_added: 2026-10-9
+date_added: 2026-10-09
 family: rp2350
 download instructions: "https://my.cytron.io/tutorial/getting-started-with-maker-sumo-rp2350"
 features:
