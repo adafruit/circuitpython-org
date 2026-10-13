@@ -4,9 +4,52 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Tue, 13 Oct 2026 06:11:36 -0400</lastBuildDate>
+<lastBuildDate>Tue, 13 Oct 2026 13:35:16 -0400</lastBuildDate>
 
 <item>
+    <title>Maker Sumo RP2350</title>
+    <link>https://circuitpython.org/board/cytron_maker_sumo_rp2350/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/cytron_maker_sumo_rp2350.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/cytron_maker_sumo_rp2350.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/cytron_maker_sumo_rp2350.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Cytron Technologies</p> <p>The Maker Sumo RP2350 is a sumo robot controller from Cytron Technologies. Everything a mini sumo robot needs is on the board: a dual-channel DC motor driver, inputs for five opponent sensors and two edge sensors, an IR start module input, two servo outputs, and a buzzer, button, DIP switches and potentiometer.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Raspberry Pi RP2350A: dual-core Arm Cortex-M33 at 150 MHz, 520 KB RAM</li>
+  <li>2 MB flash</li>
+  <li>Dual-channel DC motor driver with PWM + DIR control and fault outputs</li>
+  <li>Over-current (OC) and fault indicator LEDs for the motor driver</li>
+  <li>5 digital opponent sensor inputs (left, front-left, front-centre, front-right, right)</li>
+  <li>2 analog edge sensor inputs</li>
+  <li>IR start module input</li>
+  <li>2 servo outputs</li>
+  <li>Potentiometer, 3-way DIP switch, user button, user LED and piezo buzzer</li>
+  <li>Motor supply voltage monitoring</li>
+  <li>USB-C for programming and power</li>
+</ul>
+
+<h2 id="learn-more">Learn more</h2>
+
+<ul>
+  <li><a href="https://my.cytron.io/p-maker-sumo-rp2350-controller">Product page</a></li>
+  <li><a href="https://my.cytron.io/tutorial/getting-started-with-maker-sumo-rp2350">Getting started tutorial</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/cytron_maker_sumo_rp2350/</guid>
+  </item><item>
     <title>ESP32-S3-Touch-LCD-2.1</title>
     <link>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_2_1/</link>
     <description><![CDATA[  

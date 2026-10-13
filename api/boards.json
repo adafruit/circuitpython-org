@@ -3472,6 +3472,26 @@
         "description": "<p>Cytron Maker Pi RP2040 features the RP2040 chip, embedded on a robot controller board. The board also comes with 2-channel DC motor driver, 4 servo motor ports and 7 Grove I/O connectors, ready for your next DIY robot/motion control projects.</p><p>The DC motor driver onboard is able to control two brushed DC motors or single bipolar/unipolar stepper motor from 3.6 V to 6 V, providing up to 1 A current per channel continuously. The built-in Quick Test buttons and motor output LEDs allow functional test of the motor driver in a quick and convenient way without the need of writing any test code. Vmotor for both DC and servo motors depends on the input voltage supplied to the board.</p><p>Maker Pi RP2040 has lots of LEDs for troubleshooting and visual effects, is able to make quite some noise with the onboard piezo buzzer and comes with push buttons ready to detect your touch.</p><p>There are three ways to supply power to the Maker Pi RP2040 - via USB (5 V) socket, with a single cell LiPo/Li-Ion battery or through the VIN (3.6-6 V) terminals. However only one power source is needed to power up both controller board and motors at a time. Power supply from all these power sources can all be controlled with the power on/off switch onboard.</p><p>CircuitPython is preloaded on the Maker Pi RP2040 and it runs a simple demo program right out-of-the-box. It can also be programmed with C/C++ (natively or with Arduino IDE support) or MicroPython.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Dual-core Arm Cortex-M0+ processor</li>  <li>264 KB internal RAM</li>  <li>2 MB of Flash memory</li>  <li>Robot controller board    <ul>      <li>4x Servo motors (<code class=\"language-plaintext highlighter-rouge\">GPIO12</code>. <code class=\"language-plaintext highlighter-rouge\">GPIO13</code>, <code class=\"language-plaintext highlighter-rouge\">GPIO14</code>, <code class=\"language-plaintext highlighter-rouge\">GPIO15</code>)</li>      <li>2x DC motors with quick test buttons (Dual-channel H-bridge)</li>    </ul>  </li>  <li>Versatile power circuit    <ul>      <li>7 Automatic power selection: USB 5 V, LiPo (1-cell) or Vin (3.6-6 V)</li>      <li>Built-in 1-cell LiPo/Li-Ion charger (over-charged &amp; over-discharged protection)</li>      <li>Power on/off switch</li>    </ul>  </li>  <li>13x Status indicator LEDs for GPIO pins</li>  <li>1x Piezo buzzer with mute switch</li>  <li>2x Push button</li>  <li>22x RGB LED (Neopixel)</li>  <li>7x Grove ports (flexible I/O options: digital, analog, I2C, SPI, UART)</li>  <li>Mouting holes    <ul>      <li>4x 4.8 mm mounting hole (LEGO® pin compatible)</li>      <li>6x M3 screw hole</li>    </ul>  </li></ul><h2 id=\"resources\">Resources</h2><ul>  <li><a href=\"https://github.com/CytronTechnologies/MAKER-PI-RP2040\">Getting Started with Maker Pi RP2040 &amp; Example Code</a></li>  <li><a href=\"https://docs.google.com/document/d/1DJASwxgbattM37V4AIlJVR4pxukq0up25LppA8-z_AY/edit\">Maker Pi RP2040 Datasheet</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.adafruit.com/product/5129\">Adafruit</a></li>  <li><a href=\"https://www.cytron.io/p-maker-pi-rp2040\">Cytron</a></li></ul>"
     },
     {
+        "board_id": "cytron_maker_sumo_rp2350",
+        "title": "Maker Sumo RP2350 Download",
+        "name": "Maker Sumo RP2350",
+        "board_url": [
+            "https://my.cytron.io/p-maker-sumo-rp2350-controller"
+        ],
+        "board_image": "cytron_maker_sumo_rp2350.jpg",
+        "date_added": "2026-10-09",
+        "family": "rp2350",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Robotics",
+            "USB-C"
+        ],
+        "url_path": "/board/cytron_maker_sumo_rp2350/",
+        "description": "<p>The Maker Sumo RP2350 is a sumo robot controller from Cytron Technologies. Everything a mini sumo robot needs is on the board: a dual-channel DC motor driver, inputs for five opponent sensors and two edge sensors, an IR start module input, two servo outputs, and a buzzer, button, DIP switches and potentiometer.</p><h2 id=\"technical-details\">Technical details</h2><ul>  <li>Raspberry Pi RP2350A: dual-core Arm Cortex-M33 at 150 MHz, 520 KB RAM</li>  <li>2 MB flash</li>  <li>Dual-channel DC motor driver with PWM + DIR control and fault outputs</li>  <li>Over-current (OC) and fault indicator LEDs for the motor driver</li>  <li>5 digital opponent sensor inputs (left, front-left, front-centre, front-right, right)</li>  <li>2 analog edge sensor inputs</li>  <li>IR start module input</li>  <li>2 servo outputs</li>  <li>Potentiometer, 3-way DIP switch, user button, user LED and piezo buzzer</li>  <li>Motor supply voltage monitoring</li>  <li>USB-C for programming and power</li></ul><h2 id=\"learn-more\">Learn more</h2><ul>  <li><a href=\"https://my.cytron.io/p-maker-sumo-rp2350-controller\">Product page</a></li>  <li><a href=\"https://my.cytron.io/tutorial/getting-started-with-maker-sumo-rp2350\">Getting started tutorial</a></li></ul>"
+    },
+    {
         "board_id": "cytron_maker_uno_rp2040",
         "title": "Maker Uno RP2040 Download",
         "name": "Maker Uno RP2040",
