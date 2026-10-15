@@ -4,7 +4,7 @@ board_id: "generic_esp32s3_supermini"
 title: "Generic ESP32S3 SuperMini Download"
 name: "Generic ESP32S3 SuperMini"
 manufacturer: "Generic"
-board_url: "https://www.espboards.dev/esp32/esp32-s3-super-mini/
+board_url: "https://www.espboards.dev/esp32/esp32-s3-super-mini/"
 board_image: "generic_esp32s3_supermini.jpg"
 date_added: 2026-10-13
 family: esp32s3
