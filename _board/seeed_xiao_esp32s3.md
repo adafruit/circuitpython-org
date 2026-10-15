@@ -10,6 +10,7 @@ board_url:
 board_image: "seeed_xiao_esp32s3.jpg"
 date_added: 2024-10-15
 family: esp32s3
+bootloader_id: seeed_xiao_esp32s3
 features:
   - Breadboard-Friendly
   - Xiao / QTPy Form Factor
