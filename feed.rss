@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 19 Oct 2026 12:54:56 -0400</lastBuildDate>
+<lastBuildDate>Mon, 19 Oct 2026 13:09:15 -0400</lastBuildDate>
 
 <item>
     <title>Generic ESP32S3 SuperMini</title>
@@ -102,6 +102,46 @@ Press it and then press the RESET button to enter download mode</li>
     
     <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/cytron_maker_sumo_rp2350/</guid>
+  </item><item>
+    <title>ESP32-S3-Touch-LCD-1.69</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_1_69/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_s3_touch_lcd_1_69.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_touch_lcd_1_69.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_s3_touch_lcd_1_69.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Waveshare</p> <p>The ESP32-S3-Touch-LCD-1.69 is a watch-sized development board built on the ESP32-S3 (dual-core Xtensa LX7 at 240 MHz, 8 MB PSRAM, 16 MB flash) with a 1.69 inch 240×280 IPS touch display, 2.4 GHz Wi-Fi and Bluetooth 5 LE.</p>
+
+<p><strong>Technical details</strong></p>
+
+<ul>
+  <li>ESP32-S3 with 8 MB octal PSRAM and 16 MB flash, onboard antenna</li>
+  <li>1.69 inch IPS display, 240×280, ST7789V2 controller over SPI, PWM backlight</li>
+  <li>CST816T capacitive touch with gesture support (I2C)</li>
+  <li>QMI8658C 6-axis IMU and PCF85063A RTC with an RTC battery header (I2C)</li>
+  <li>ETA6098 lithium battery charger, MX1.25 battery connector, battery voltage sense</li>
+  <li>Passive buzzer, BOOT and RST buttons, and a PWR key with a power-hold circuit for battery operation</li>
+  <li>USB-C (native USB: CircuitPython REPL and CIRCUITPY drive)</li>
+</ul>
+
+<p>In CircuitPython, <code class="language-plaintext highlighter-rouge">board.DISPLAY</code> is ready at boot, the touch controller, IMU and RTC share <code class="language-plaintext highlighter-rouge">board.I2C()</code>, and the power-hold line is asserted automatically so the board runs from its battery; <code class="language-plaintext highlighter-rouge">board.PWR_BUTTON</code> reads the key.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-s3-touch-lcd-1.69.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_1_69/</guid>
   </item><item>
     <title>ESP32-S3-Touch-LCD-2.1</title>
     <link>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_2_1/</link>
