@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 19 Oct 2026 13:09:56 -0400</lastBuildDate>
+<lastBuildDate>Mon, 19 Oct 2026 13:10:07 -0400</lastBuildDate>
 
 <item>
     <title>Generic ESP32S3 SuperMini</title>
@@ -183,6 +183,48 @@ Press it and then press the RESET button to enter download mode</li>
     
     <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
     <guid>https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_2_1/</guid>
+  </item><item>
+    <title>ESP32-C5 1.47inch Display Development Board</title>
+    <link>https://circuitpython.org/board/waveshare_esp32_c5_lcd_1_47/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/waveshare_esp32_c5_lcd_1_47.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/waveshare_esp32_c5_lcd_1_47.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/waveshare_esp32_c5_lcd_1_47.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Waveshare</p> <p>ESP32-C5 1.47inch Display Development Board, 172×320, 262K Color, RISC-V 32-bit Processor up to 240MHz, Supports 2.4GHz/5GHz Wi-Fi 6 &amp; Bluetooth 5 (LE), With TF Card Slot and RGB LED.</p>
+
+<p>ESP32-C5-LCD-1.47 is a microcontroller development board powered by the ESP32-C5, supporting dual-band 2.4GHz and 5GHz Wi-Fi 6, Bluetooth 5 (LE), and IEEE 802.15.4 (Zigbee 3.0 and Thread). It integrates 4MB Flash and multiple peripheral interfaces. The onboard 1.47inch LCD screen smoothly runs GUI programs, making it suitable for quick development of HMI and other AIoT applications.</p>
+
+<h2 id="technical-details">Technical details</h2>
+
+<ul>
+  <li>Powered by a high-performance 32-bit RISC-V processor and a low-power 32-bit RISC-V processor, with a main frequency up to 240MHz</li>
+  <li>Supports dual-band 2.4GHz / 5GHz Wi-Fi 6 (802.11 b/g/n) and Bluetooth 5 (LE)</li>
+  <li>Built-in 4MB Flash memory</li>
+  <li>Onboard 1.47inch LCD display, 172×320 resolution, 262K color (ST7789)</li>
+  <li>Onboard TF card slot for external storage of pictures or files</li>
+  <li>Reversible USB Type-C interface for power, programming, and debugging</li>
+  <li>Built-in WS2812 RGB LED with clear acrylic sandwich panel</li>
+  <li>Adapts multiple GPIO pins for flexible expansion</li>
+</ul>
+
+<p>Waveshare Wiki <a href="https://docs.waveshare.com/ESP32-C5-LCD-1.47">link</a>.</p>
+
+<h2 id="purchase">Purchase</h2>
+<ul>
+  <li><a href="https://www.waveshare.com/esp32-c5-lcd-1.47.htm">Waveshare</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/waveshare_esp32_c5_lcd_1_47/</guid>
   </item><item>
     <title>W55RP20-EVB-Pico</title>
     <link>https://circuitpython.org/board/wiznet_w55rp20_evb_pico/</link>
