@@ -4,9 +4,62 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 19 Oct 2026 06:09:01 -0400</lastBuildDate>
+<lastBuildDate>Mon, 19 Oct 2026 12:54:13 -0400</lastBuildDate>
 
 <item>
+    <title>Generic ESP32S3 SuperMini</title>
+    <link>https://circuitpython.org/board/generic_esp32s3_supermini/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/generic_esp32s3_supermini.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/generic_esp32s3_supermini.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/generic_esp32s3_supermini.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By Generic</p> <p>This is a tiny ESP32S3 board exposing a wealth of GPIO connections – 35 in total.  It has 4MB Flash and 2MB PSRAM.  It is available in a number of sites without a listed manufacturer which is why it is listed as a Generic ESP32S3 Supermini.</p>
+
+<ul>
+  <li>ESP32-S3FH4R2 dual-core Xtensa® 32-bit LX7 processor - up to 240MHz</li>
+  <li>USB Type-C Port</li>
+  <li>WS2812 RGB LED</li>
+  <li>BOOT button
+Press it and then press the RESET button to enter download mode</li>
+  <li>RESET button</li>
+  <li>35 GPIO contacts (15 available on breadboard friendly castelated edges, 20 on the bottom of the board through exposed pads)</li>
+  <li>2.4G ceramic antenna
+    <ul>
+      <li>Supports 2.4GHz Wi-Fi (802.11 b/g/n) and Bluetooth® 5 (LE)</li>
+    </ul>
+  </li>
+  <li>Built in 512KB of SRAM and 384KB ROM, onboard 4MB Flash memory and 2MB PSRAM</li>
+  <li>Castellated module and onboard ceramic antenna, allows soldering direct to carrier boards</li>
+  <li>Supports flexible clock, module power supply independent setting, and other controls to realize low power consumption in different scenarios</li>
+</ul>
+
+<h2 id="learn-more">Learn more</h2>
+<p>For more information please see the <a href="https://www.espboards.dev/esp32/esp32-s3-super-mini/">ESPboards blog page</a></p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://www.aliexpress.us/item/3256810386456708.html">Aliexpress</a></li>
+  <li><a href="https://www.amazon.com/DWEII-Development-Ultra-Small-ESP32-S3FH4R2-Micropython/dp/B0GRNC5MFC">Amazon</a></li>
+  <li><a href="https://esp32s.com/product/esp32-s3-supermini-development-board/">esp32s.com</a></li>
+</ul>
+
+<p>Amazon search in case previous link doesn’t work (may pick up XIAO and others which is are different boards so read carefully):</p>
+
+<p><a href="https://www.amazon.com/s?k=esp32s3+supermini">Amazon search ESP32S3 Supermini</a></p>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/generic_esp32s3_supermini/</guid>
+  </item><item>
     <title>Maker Sumo RP2350</title>
     <link>https://circuitpython.org/board/cytron_maker_sumo_rp2350/</link>
     <description><![CDATA[  
