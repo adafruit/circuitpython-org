@@ -5,7 +5,7 @@ title: "ESP32-C6 1.47inch Display Development Board Download"
 name: "ESP32-C6 1.47inch Display Development Board"
 manufacturer: "Waveshare"
 board_url:
- - "https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-c6-lcd-1.47.htm"
+ - "https://www.waveshare.com/esp32-c6-lcd-1.47.htm"
 board_image: "waveshare_esp32_c6_lcd_1_47.jpg"
 date_added: 2025-01-29
 family: esp32c6
@@ -31,8 +31,8 @@ ESP32-C6-LCD-1.47 is a microcontroller development board with 2.4GHz Wi-Fi 6 and
 - Supports accurate control such as flexible clock and multiple power modes to realize low power consumption in different scenarios
 - Built-in RGB LED with clear acrylic sandwich panel for cool lighting effect
 
-Waveshare Wiki [link](http://www.waveshare.com/wiki/ESP32-C6-LCD-1.47).
+Waveshare Wiki [link](https://docs.waveshare.com/ESP32-C6-LCD-1.47).
 
 ## Purchase
-* [Waveshare](https://www.waveshare.com/product/arduino/boards-kits/esp32/esp32-c6-lcd-1.47.htm)
+* [Waveshare](https://www.waveshare.com/esp32-c6-lcd-1.47.htm)
 
