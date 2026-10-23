@@ -23,6 +23,8 @@ features:
 ESP32C3 SuperMini is an IoT mini development board based on the Espressif ESP32C3 WiFi/Bluetooth dual mode chip. ESP32-C3 is a 32-bit RISC-V CPU that includes an FPU (floating point unit) that can perform 32-bit single precision operations and has powerful computing power. It has excellent RF performance and supports IEEE 802.11 b/g/n WiFi and Bluetooth 5 (LE) protocols. This board comes with an external antenna to enhance the signal strength of wireless applications. It also has a compact and exquisite appearance combined with a single surface mount design. It is equipped with rich interfaces, with 11 digital I/Os that can be used as PWM pins and 4 analog I/Os that can be used as ADC pins. It supports four serial interfaces: UART, I2C, and SPI. There is also a small reset button and a boot loader mode button on the board.
 Based on the above characteristics, ESP32C3SuperMini is positioned as a high-performance, low-power, and cost-effective IoT mini development board, suitable for low-power IoT applications and wireless wearable applications.
 
+The ESP32-C3 SuperMini does not have native USB support, meaning it cannot pop up as a standard `CIRCUITPY` USB drive on your computer. One way to get started quickly, is to use the [CircuitPython Code Editor](https://code.circuitpython.org/).
+
 ## Technical Details
  - Powerful CPU: ESP32-C3, 32-bit RISC-V single core processor, running at frequencies up to 160 MHz
  - WiFi: 802.11b/g/n protocol, 2.4GhHz, supports Station mode, SoftAP mode, SoftAP Station mode, hybrid mode
