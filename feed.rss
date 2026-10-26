@@ -4,7 +4,7 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 26 Oct 2026 12:41:17 -0400</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 12:44:35 -0400</lastBuildDate>
 
 <item>
     <title>Eliobot</title>
@@ -10553,6 +10553,8 @@ It has been inspired by Adafruit’s Circuit Express series.</p>
 />
 <p>By Maker Go</p> <p>ESP32C3 SuperMini is an IoT mini development board based on the Espressif ESP32C3 WiFi/Bluetooth dual mode chip. ESP32-C3 is a 32-bit RISC-V CPU that includes an FPU (floating point unit) that can perform 32-bit single precision operations and has powerful computing power. It has excellent RF performance and supports IEEE 802.11 b/g/n WiFi and Bluetooth 5 (LE) protocols. This board comes with an external antenna to enhance the signal strength of wireless applications. It also has a compact and exquisite appearance combined with a single surface mount design. It is equipped with rich interfaces, with 11 digital I/Os that can be used as PWM pins and 4 analog I/Os that can be used as ADC pins. It supports four serial interfaces: UART, I2C, and SPI. There is also a small reset button and a boot loader mode button on the board.
 Based on the above characteristics, ESP32C3SuperMini is positioned as a high-performance, low-power, and cost-effective IoT mini development board, suitable for low-power IoT applications and wireless wearable applications.</p>
+
+<p>The ESP32-C3 SuperMini does not have native USB support, meaning it cannot pop up as a standard <code class="language-plaintext highlighter-rouge">CIRCUITPY</code> USB drive on your computer. One way to get started quickly, is to use the <a href="https://code.circuitpython.org/">CircuitPython Code Editor</a>.</p>
 
 <h2 id="technical-details">Technical Details</h2>
 <ul>
