@@ -4144,6 +4144,29 @@
         "description": "<p>Papyr is a connected e-paper display powered by Nordic Semiconductor’s nRF52840 chip. You can read more details on the hardware, and installation instructions for Circuitpython on the <a href=\"https://docs.electronut.in/papyr/circuitpython/\">docs site</a> for <a href=\"https://electronut.in\">Electronut Labs</a>.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://gitlab.com/electronutlabs-public/papyr#buy-papyr\">Papyr purchase information</a></li></ul>"
     },
     {
+        "board_id": "elio_eliobot_s3",
+        "title": "Eliobot Download",
+        "name": "Eliobot",
+        "board_url": [
+            "https://eliobot.com/products/eliobot"
+        ],
+        "board_image": "elio_eliobot_s3.jpg",
+        "date_added": "2026-10-24",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "Bluetooth/BTLE",
+            "Battery Charging",
+            "USB-C",
+            "Robotics"
+        ],
+        "url_path": "/board/elio_eliobot_s3/",
+        "description": "<p>Eliobot is an educational robot designed in France to teach children programming, from graphical blocks to Python. It is built around an ESP32-S3 with 4MB of flash and 2MB of PSRAM, and runs CircuitPython natively.</p><p>On board:</p><ul>  <li>Two DC motors with a DRV8833 driver</li>  <li>LED matrix eyes behind a clear dome, and a NeoPixel status LED</li>  <li>Four infrared obstacle sensors</li>  <li>Five line-following sensors</li>  <li>A buzzer</li>  <li>Battery voltage sensing</li>  <li>Expansion connectors for I2C, SPI and UART add-ons</li></ul><p>The <a href=\"https://github.com/Eliobot/Eliobot-Python-Library\">Eliobot Python library</a> drives the motors, sensors, eyes and buzzer. Children can also program the robot with blocks in <a href=\"https://app.eliobot.com\">Elioblocs</a>, which uploads code over USB or Bluetooth.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://eliobot.com/products/eliobot\">Eliobot</a></li></ul>"
+    },
+    {
         "board_id": "es3ink",
         "title": "ES3ink Download",
         "name": "ES3ink",

@@ -4,9 +4,49 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Mon, 26 Oct 2026 06:11:50 -0400</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 12:41:17 -0400</lastBuildDate>
 
 <item>
+    <title>Eliobot</title>
+    <link>https://circuitpython.org/board/elio_eliobot_s3/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/elio_eliobot_s3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/elio_eliobot_s3.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/elio_eliobot_s3.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By ELIO</p> <p>Eliobot is an educational robot designed in France to teach children programming, from graphical blocks to Python. It is built around an ESP32-S3 with 4MB of flash and 2MB of PSRAM, and runs CircuitPython natively.</p>
+
+<p>On board:</p>
+
+<ul>
+  <li>Two DC motors with a DRV8833 driver</li>
+  <li>LED matrix eyes behind a clear dome, and a NeoPixel status LED</li>
+  <li>Four infrared obstacle sensors</li>
+  <li>Five line-following sensors</li>
+  <li>A buzzer</li>
+  <li>Battery voltage sensing</li>
+  <li>Expansion connectors for I2C, SPI and UART add-ons</li>
+</ul>
+
+<p>The <a href="https://github.com/Eliobot/Eliobot-Python-Library">Eliobot Python library</a> drives the motors, sensors, eyes and buzzer. Children can also program the robot with blocks in <a href="https://app.eliobot.com">Elioblocs</a>, which uploads code over USB or Bluetooth.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://eliobot.com/products/eliobot">Eliobot</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/elio_eliobot_s3/</guid>
+  </item><item>
     <title>Generic ESP32S3 SuperMini</title>
     <link>https://circuitpython.org/board/generic_esp32s3_supermini/</link>
     <description><![CDATA[  
