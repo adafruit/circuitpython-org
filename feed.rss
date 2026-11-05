@@ -4,9 +4,50 @@
     <title>CircuitPython.org Boards</title>
 <link>https://circuitpython.org/</link>
 <description>A list of CircuitPython and Blinka supported boards</description>
-<lastBuildDate>Thu, 05 Nov 2026 05:06:10 -0500</lastBuildDate>
+<lastBuildDate>Thu, 05 Nov 2026 08:21:04 -0500</lastBuildDate>
 
 <item>
+    <title>Baguette S3</title>
+    <link>https://circuitpython.org/board/thepihut_baguette_s3/</link>
+    <description><![CDATA[  
+<img
+  srcset="https://circuitpython.org/assets/images/boards/small/thepihut_baguette_s3.jpg 300w,
+             https://circuitpython.org/assets/images/boards/large/thepihut_baguette_s3.jpg 800w"
+  sizes="(max-width: 300px) 300px,
+            800px"
+  src="https://circuitpython.org/assets/images/boards/large/thepihut_baguette_s3.jpg"
+  alt="Image of Board"
+  loading="lazy"
+/>
+<p>By ThePiHut</p> <p>The Baguette S3 is a compact ESP32-S3 prototyping board from The Pi Hut. All of its pins sit in a single row, so it fits a half-size breadboard while leaving the other side free for your circuit.</p>
+
+<p>Features:</p>
+
+<ul>
+  <li>ESP32-S3-MINI-1-N8 module with 8MB flash</li>
+  <li>2.4GHz Wi-Fi and Bluetooth 5 (LE)</li>
+  <li>27 GPIO on a single 30-pin header, including UART (TX/RX) and I2C (SDA/SCL)</li>
+  <li>Qwiic / STEMMA QT connector (3.3V)</li>
+  <li>MicroSD card slot</li>
+  <li>WS2812C RGB LED</li>
+  <li>RESET and BOOT buttons</li>
+  <li>USB-C for power and programming</li>
+</ul>
+
+<p>In CircuitPython, the header pins are named after the labels printed on the board, such as <code class="language-plaintext highlighter-rouge">board.IO5</code> and <code class="language-plaintext highlighter-rouge">board.RX</code>. The Qwiic port is available as <code class="language-plaintext highlighter-rouge">board.STEMMA_I2C()</code>, and the SD card has its own bus, <code class="language-plaintext highlighter-rouge">board.SD_SPI()</code>, with <code class="language-plaintext highlighter-rouge">board.SD_CS</code> as chip select.</p>
+
+<h2 id="purchase">Purchase</h2>
+
+<ul>
+  <li><a href="https://thepihut.com/products/baguette-s3-esp32-s3-prototyping-board">The Pi Hut</a></li>
+</ul>
+ ]]></description>
+    
+    <category>CircuitPython</category>
+    
+    <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    <guid>https://circuitpython.org/board/thepihut_baguette_s3/</guid>
+  </item><item>
     <title>Metro ESP32-P4</title>
     <link>https://circuitpython.org/board/adafruit_metro_esp32p4/</link>
     <description><![CDATA[  

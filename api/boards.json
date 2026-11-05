@@ -12916,6 +12916,29 @@
         "description": "<p>A plug-n-play circuit board that can be programmed to send and receive information over Bluetooth and the Internet.</p><p>Bluebirds can form a network to send and receive data to one another.</p><p>The Flock.io App provides a plug-n-play entry for users to get up and running with Bluebird with an intuitive and engaging block based visual coding interface.</p><h2 id=\"learn-more\">Learn More</h2><ul>  <li><a href=\"https://www.teknikio.com/pages/bluebird\">Teknikio</a></li></ul>"
     },
     {
+        "board_id": "thepihut_baguette_s3",
+        "title": "Baguette S3 Download",
+        "name": "Baguette S3",
+        "board_url": [
+            "https://thepihut.com/products/baguette-s3-esp32-s3-prototyping-board"
+        ],
+        "board_image": "thepihut_baguette_s3.jpg",
+        "date_added": "2026-10-28",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Breadboard-Friendly",
+            "STEMMA QT/QWIIC",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/thepihut_baguette_s3/",
+        "description": "<p>The Baguette S3 is a compact ESP32-S3 prototyping board from The Pi Hut. All of its pins sit in a single row, so it fits a half-size breadboard while leaving the other side free for your circuit.</p><p>Features:</p><ul>  <li>ESP32-S3-MINI-1-N8 module with 8MB flash</li>  <li>2.4GHz Wi-Fi and Bluetooth 5 (LE)</li>  <li>27 GPIO on a single 30-pin header, including UART (TX/RX) and I2C (SDA/SCL)</li>  <li>Qwiic / STEMMA QT connector (3.3V)</li>  <li>MicroSD card slot</li>  <li>WS2812C RGB LED</li>  <li>RESET and BOOT buttons</li>  <li>USB-C for power and programming</li></ul><p>In CircuitPython, the header pins are named after the labels printed on the board, such as <code class=\"language-plaintext highlighter-rouge\">board.IO5</code> and <code class=\"language-plaintext highlighter-rouge\">board.RX</code>. The Qwiic port is available as <code class=\"language-plaintext highlighter-rouge\">board.STEMMA_I2C()</code>, and the SD card has its own bus, <code class=\"language-plaintext highlighter-rouge\">board.SD_SPI()</code>, with <code class=\"language-plaintext highlighter-rouge\">board.SD_CS</code> as chip select.</p><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://thepihut.com/products/baguette-s3-esp32-s3-prototyping-board\">The Pi Hut</a></li></ul>"
+    },
+    {
         "board_id": "thingpulse_pendrive_s3",
         "title": "ThingPulse Pendrive S3 Download",
         "name": "ThingPulse Pendrive S3",
