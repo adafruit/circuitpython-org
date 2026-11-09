@@ -50,13 +50,13 @@ Amazon search in case previous link doesn't work (may pick up XIAO and others wh
 
 ## Alternate RGB order V0.0.2 variant note
 
-A variant of this board more commonly available from various sellers on Amazon commonly marked `HW747 V0.0.2` uses the less common Neopixel order `RGB` instead of `GRB`.  The result of this is that the UF2 Bootloader will indicate bootloader mode with a red pixel rather than the normal green and when initializing the Neopixel library you will need to pass `pixel_order="RGB"` as a parameter.  Additionally some of CircuitPython's status indications may have the color switched.
+A variant of this board available from various sellers on Amazon often marked `HW747 V0.0.2` uses the less common Neopixel order `RGB` instead of `GRB`.  The result of this is that the UF2 Bootloader will indicate bootloader mode with a red pixel rather than the normal green and when initializing the Neopixel library you will need to pass `pixel_order="RGB"` as a parameter.  Additionally some of CircuitPython's status indications may have the color switched.
 
-The latest releases of CircuitPython in the 11.0.x series have a settings.toml variable to correct the operation of the CircuitPython's status displays for these boards.
+The latest releases of CircuitPython in the 11.0.x series have a settings.toml variable to correct the operation of the CircuitPython's status indication for these boards.
 
 ```
 CIRCUITPY_BOARD_VARIANT="rgb_led"
 ``` 
 
-However the UF2 Bootloader will still indicate red rather than green and you must define `pixel_order="RGB"` when initializing Neopixel in your code.
+The TinyUF2 Bootloader will still turn red rather than green and you must also define `pixel_order="RGB"` when initializing Neopixel in your code.
 
