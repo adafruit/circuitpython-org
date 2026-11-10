@@ -18,7 +18,9 @@ features:
   - Castellated Pads
 ---
 
-This is a tiny ESP32S3 board exposing a wealth of GPIO connections -- 35 in total.  It has 4MB Flash and 2MB PSRAM.  It is available in a number of sites without a listed manufacturer which is why it is listed as a Generic ESP32S3 Supermini.
+This is a tiny ESP32S3 board exposing a wealth of GPIO connections -- 35 in total.  It has 4MB Flash and 2MB PSRAM.  It is available at a number of sites without a listed manufacturer which is why it is listed as a Generic ESP32S3 Supermini.
+
+**Variant Note:** Please note that there are multiple variants of this Generic board.  The variants marked with a version number commonly `HW747 V0.0.2` have a different Neopixel order of `RGB` instead of the more common `GRB`.  See a more detailed note below.  There is even an early variant with 8M Flash and no PSRAM.
 
  * ESP32-S3FH4R2 dual-core Xtensa® 32-bit LX7 processor - up to 240MHz
  * USB Type-C Port
@@ -36,13 +38,24 @@ This is a tiny ESP32S3 board exposing a wealth of GPIO connections -- 35 in tota
 ## Learn more
 For more information please see the [ESPboards blog page](https://www.espboards.dev/esp32/esp32-s3-super-mini/)
 
-
 ## Purchase
 
-* [Aliexpress](https://www.aliexpress.us/item/3256810386456708.html)
+* [Aliexpress](https://www.aliexpress.us/item/3256807337822466.html)
 * [Amazon](https://www.amazon.com/DWEII-Development-Ultra-Small-ESP32-S3FH4R2-Micropython/dp/B0GRNC5MFC)
 * [esp32s.com](https://esp32s.com/product/esp32-s3-supermini-development-board/)
 
 Amazon search in case previous link doesn't work (may pick up XIAO and others which is are different boards so read carefully):
 
 [Amazon search ESP32S3 Supermini](https://www.amazon.com/s?k=esp32s3+supermini)
+
+## Alternate RGB order V0.0.2 variant note
+
+A variant of this board available from various sellers on Amazon often marked `HW747 V0.0.2` uses the less common Neopixel order `RGB` instead of `GRB`.  The result of this is that the UF2 Bootloader will indicate bootloader mode with a red Neopixel rather than the normal green and when initializing the Neopixel library you will need to pass `pixel_order="RGB"` as a parameter.
+
+CircuitPython 11.0.0 and later has a settings.toml variable to correct the operation of CircuitPython's status indication which takes effect upon reset or first boot.
+
+```
+CIRCUITPY_BOARD_VARIANT="rgb_led"
+``` 
+
+When entering UF2 bootloader mode the LED will still turn red rather than green and you must define `pixel_order="RGB"` when initializing Neopixel in your code.
