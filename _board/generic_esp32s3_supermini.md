@@ -40,7 +40,7 @@ For more information please see the [ESPboards blog page](https://www.espboards.
 
 ## Purchase
 
-* [Aliexpress](https://www.aliexpress.us/item/3256810386456708.html)
+* [Aliexpress](https://www.aliexpress.us/item/3256807337822466.html)
 * [Amazon](https://www.amazon.com/DWEII-Development-Ultra-Small-ESP32-S3FH4R2-Micropython/dp/B0GRNC5MFC)
 * [esp32s.com](https://esp32s.com/product/esp32-s3-supermini-development-board/)
 
