@@ -97,9 +97,11 @@
 - [Awesome List for the RP2040 Macropad](https://github.com/prcutler/awesome-macropad) - A list of awesome Macropad applications, macros, 3D printed plans, and more.
 - [Tod Kurt's CircuitPython Tips and Tricks](https://github.com/todbot/circuitpython-tricks) - A collection of tips and tricks for CircuitPython. Also available as an Adafruit [Learn Guide](https://learn.adafruit.com/todbot-circuitpython-tricks?view=all).
 - [Tod Kurt's CircuitPython `synthio` Tips and Tricks](https://github.com/todbot/circuitpython-synthio-tricks) - More tips and tricks from Tod Kurt about CircuitPython's `synthio` library.
+- [CircuitPython RV565](https://github.com/elixpo/CircuitPython_RV565) - Play video clips on CircuitPython displays: RV565 stores each frame as zlib-compressed RGB565, so playback is inflate and blit, through `displayio` or straight to an ST7789 (16.5 FPS on a Raspberry Pi Pico 2).
 
 ## Frameworks
 
+- [CircuitPython Pin Audit](https://github.com/birudarajushiva/circuitpython-pin-audit) - An early static checker for potential pin allocation conflicts, with explicit resource lifetime tracking and JSON/GitHub Actions output; runs on a desktop without executing firmware.
 - [code.circuitpython.org - the online CircuitPython code editor](https://code.circuitpython.org/) - edit code and download to your device via WiFi, Bluetooth or USB.
 - [The Mu Editor, IDE, REPL, and plotter for CircuitPython](https://codewith.mu/) - The recommended offline Python editor for CircuitPython.
 - [For developers, Mu: A Python Code Editor](https://mu.readthedocs.io/en/latest/) - The documentation for Mu.
