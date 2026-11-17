@@ -7251,6 +7251,28 @@
         "description": "<p>ATOMS3 Liteis anAtom Series Programmable Controllerin the M5Stack Development Kit series using ESP32-S3.</p><p>The ESP32-S3 is a highly-integrated, low-power, 2.4 GHz Wi-Fi System-on-Chip (SoC) solution that now has <strong>WiFi</strong> and <strong>BLE</strong> support, <strong>built-in native USB</strong> as well as some other interesting new technologies like Time of Flight distance measurements. With its state-of-the-art power and RF performance, this SoC is an ideal choice for a wide variety of application scenarios relating to the <a href=\"https://www.adafruit.com/category/342\">Internet of Things (IoT)</a>, <a href=\"https://www.adafruit.com/category/65\">wearable electronics</a>, and smart homes.</p><ul>  <li>Small size is only 24x24x9.5mm,</li>  <li><strong>USB Type C connector</strong> - <a href=\"https://www.adafruit.com/product/4299\">If you have only Micro B cables, this adapter will come in handy</a>!</li>  <li><strong>ESP32-S3 (ESP32-S3FN8) Dual Core 240MHz Tensilica processor</strong> - the next generation of ESP32-Sx, with native USB so it can act like a keyboard/mouse, MIDI device, disk drive, etc!</li>  <li>Comes with <strong>8MB Flash, 512KB SRAM, no PSRAM</strong></li>  <li>Native USB supported by every OS - can be used in Arduino or CircuitPython as USB serial console, MIDI, Keyboard/Mouse HID, even a little disk drive for storing Python scripts.</li>  <li>Can be used with <strong>Arduino IDE</strong> or <strong>CircuitPython</strong></li>  <li><strong>Built-in user button with RGB NeoPixel LED</strong></li>  <li>Infrared LED</li>  <li>6 GPIO pins</li>  <li>1 GROVE/HY2.0-4P interfaces</li>  <li>Built-in 3D antenna</li>  <li>An M2 screw holeis provided on the back for fixing</li>  <li><strong>Reset switch</strong> for starting your project code over. Hold the reset switch for 2 second to enter bootloader mode</li>  <li>Hold <strong>Button A</strong> and tap <strong>Reset switch</strong> for entering UF2 bootloader drive</li></ul><h3 id=\"features\">Features</h3><ul>  <li>ESP32-based</li>  <li>RGB LED(SK6812)</li>  <li>Programmable button</li>  <li>Built-in Infra-red</li>  <li>Extendable Pins &amp; Holes</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/AtomS3%20Lite\">AtomS3 Lite</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit\">M5Stack</a></li></ul>"
     },
     {
+        "board_id": "m5stack_atoms3r",
+        "title": "AtomS3R Download",
+        "name": "AtomS3R",
+        "board_url": [
+            "https://docs.m5stack.com/en/core/AtomS3R"
+        ],
+        "board_image": "m5stack_atoms3r.jpg",
+        "date_added": "2026-11-12",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Wi-Fi",
+            "USB-C",
+            "Bluetooth/BTLE",
+            "Display"
+        ],
+        "url_path": "/board/m5stack_atoms3r/",
+        "description": "<p>The AtomS3R is a 24 x 24 x 12.9 mm programmable controller built on the ESP32-S3-PICO-1-N8R8, with 8 MB of flash and8 MB of octal PSRAM. It has a 0.85-inch 128 x 128 color IPS screen, a programmable button under the screen, a BMI2706-axis IMU with a BMM150 3-axis magnetometer, an infrared transmitter, and an RGB LED driver. Power and programming areover USB Type-C, with one HY2.0-4P Grove port and six GPIOs on the bottom for expansion.</p><h3 id=\"features\">Features</h3><ul>  <li>ESP32-S3-PICO-1-N8R8, dual-core Xtensa LX7 at 240 MHz</li>  <li>8 MB flash, 8 MB octal PSRAM</li>  <li>0.85-inch 128 x 128 color IPS LCD</li>  <li>BMI270 6-axis IMU with a BMM150 magnetometer</li>  <li>Infrared transmitter</li>  <li>Programmable button</li>  <li>HY2.0-4P Grove port and six bottom GPIOs (G5, G6, G7, G8, G38, G39)</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://docs.m5stack.com/en/core/AtomS3R\">AtomS3R</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://shop.m5stack.com/products/atoms3r-dev-kit\">M5Stack</a></li></ul>"
+    },
+    {
         "board_id": "m5stack_atoms3u",
         "title": "AtomS3U ESP32S3 Dev Kit Download",
         "name": "AtomS3U ESP32S3 Dev Kit",
