@@ -4041,6 +4041,29 @@
         "description": "<p>The <strong>Pico:ed</strong> is a development board based on <strong>Raspberry Pi RP2040 MCU</strong>. It uses dual-core Arm Cortex-M0+ processor with 264KB RAM. The front of the board contains two buttons and a 7x17 dot matrix screen, which can be conveniently used for classroom teaching.</p><h2 id=\"so-why-choose-picoed\">So why choose Pico:ed?</h2><ul>  <li>A development board based on RP2040. Make it easier to use our Pico:ed in the classroom.</li>  <li>Wavy edge connector to connect to devices without soldering.</li>  <li>7x17 LED fully programmable display. Can display text, numbers, and images.</li>  <li>Two programmable buttons and logo LED.</li>  <li>There is a button that can be reset directly RP2040.</li>  <li>Designed by Raspberry Pi, RP2040 features a dual-core Arm Cortex-M0+ processor with 264kB internal RAM and support for up to 16MB of off-chip flash.</li>  <li>A buzzer for playing beeps and tones.</li></ul><h2 id=\"features\">Features</h2><ol>  <li>Raspberry Pi RP2040 Chip</li>  <li>7x17 LED matrix screen</li>  <li>Built-in LED</li>  <li>Built-in buzzer</li>  <li>2 programmable buttons</li>  <li>USB &amp; battery connector</li>  <li>Power status LED</li>  <li>Bootsel &amp; reset button</li>  <li>25-pins notched edge connector</li>  <li>Exquisite design</li></ol><h2 id=\"specifications\">Specifications</h2><ul>  <li>MCU: RP2040</li>  <li>SRAM: 264kB</li>  <li>Flash: 2MB</li>  <li>Programmable IO: 19 Pcs</li>  <li>Onboard Device: Buzzer, LED, 7x17 LED matrix, 2 Buttons</li>  <li>Program Language: CircuitPython/MicroPython，C++</li>  <li>Size: About 52mm x 42mm</li>  <li>Net Weight: 10g</li></ul><h2 id=\"documentations\">Documentations</h2><ul>  <li><a href=\"https://www.elecfreaks.com/learn-en/pico-ed/index.html\">Click here for Getting Started with Pico:ed.</a></li>  <li><a href=\"https://docs.circuitpython.org/\">Click here for Getting Started with CircuitPython.</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.elecfreaks.com/elecfreaks-pico-ed-v2.html\">ELECFREAKS</a></li></ul>"
     },
     {
+        "board_id": "elecrow_crowpanel_2_13_epaper",
+        "title": "Elecrow CrowPanel ESP32S3 2.13 Epaper",
+        "name": "Elecrow CrowPanel 2.13",
+        "board_url": [
+            "https://www.elecrow.com/crowpanel-esp32-2-13-e-paper-hmi-display-with-122-250-resolution-black-white-color-driven-by-spi-interface.html"
+        ],
+        "board_image": "elecrow_crowpanel_2_13_epaper.jpg",
+        "date_added": "2026-11-12",
+        "family": "esp32s3",
+        "bootloader_id": "",
+        "tags": [
+        ],
+        "features": [
+            "Bluetooth/BTLE",
+            "Battery Charging",
+            "Display",
+            "USB-C",
+            "Wi-Fi"
+        ],
+        "url_path": "/board/elecrow_crowpanel_2_13_epaper/",
+        "description": "<p>The CrowPanel 2.13” is an ESP32-S3 board with a 250 x 122 black-and-white e-paper screen, 8 MB of flash and 8 MB ofPSRAM. It has a three-way rotary switch, MENU and EXIT buttons, a two-pin GPIO header (IO40, IO41), a UART0 header anda battery socket.</p><p>It has no native USB: CircuitPython’s console is on the CH340K USB-serial port, and files go over web workflow or theserial REPL. <code class=\"language-plaintext highlighter-rouge\">board.DISPLAY</code> is not set up at boot; the panel’s pins and SPI bus are in <code class=\"language-plaintext highlighter-rouge\">board</code> (<code class=\"language-plaintext highlighter-rouge\">EPD_SPI</code>, <code class=\"language-plaintext highlighter-rouge\">EPD_CS</code>,<code class=\"language-plaintext highlighter-rouge\">EPD_DC</code>, <code class=\"language-plaintext highlighter-rouge\">EPD_RES</code>, <code class=\"language-plaintext highlighter-rouge\">EPD_BUSY</code>).</p><h2 id=\"specifications\">Specifications</h2><ul>  <li>MCU: ESP32-S3, up to 240 MHz</li>  <li>8 MB flash, 8 MB PSRAM</li>  <li>2.13-inch e-paper display, 122 x 250 pixels, black and white, SPI</li>  <li>Buttons: rotary switch, MENU, EXIT, RESET, BOOT</li>  <li>Interfaces: UART0, battery (SH1.0 2-pin), GPIO header</li>  <li>Power: USB Type-C or a lithium battery</li></ul><h2 id=\"documentation\">Documentation</h2><ul>  <li><a href=\"https://www.elecrow.com/wiki/CrowPanel_ESP32_E-Paper_HMI_2.13-inch_Display.html\">Elecrow wiki</a></li></ul><h2 id=\"purchase\">Purchase</h2><ul>  <li><a href=\"https://www.elecrow.com/crowpanel-esp32-2-13-e-paper-hmi-display-with-122-250-resolution-black-white-color-driven-by-spi-interface.html\">Elecrow</a></li></ul>"
+    },
+    {
         "board_id": "elecrow_crowpanel_3.5",
         "title": "Elecrow CrowPanel ESP32 3.5 TFT",
         "name": "Elecrow CrowPanel 3.5",
