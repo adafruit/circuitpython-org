@@ -1,39 +1,44 @@
 ---
 layout: download
 board_id: "microchip_curiosity_circuitpython"
-title: "SAM E51 Curiosity Nano Download"
-name: "SAM E51 Curiosity Nano"
+title: "Microchip PyKit Explorer Download"
+name: "Microchip PyKit Explorer"
 manufacturer: "Microchip"
 board_url:
- - "https://www.microchip.com/en-us/development-tool/ev76s68a"
+ - "https://www.microchip.com/en-us/about/media-center/blog/2026/pykit-explorer-circuitpython-development-kit"
 board_image: "microchip_curiosity_circuitpython.jpg"
-date_added: 2025-11-17
+date_added: 2026-11-25
 family: same51
-bootloader_id: microchip_curiosity_circuitpython
+bootloader_id: microchip_pykit_explorer
 download_instructions:
-downloads_display: false
+downloads_display: true
 features:
-  - Castellated Pads
+  - Bluetooth/BTLE
   - Breadboard-Friendly
+  - Display
+  - Speaker
+  - STEMMA QT/QWIIC
+  - USB-C
 ---
+The Microchip PyKit Explorer is a CircuitPython development kit built in the shape of a 12-inch ruler, so it can stay on your desk instead of in a drawer. It pairs the CircuitPython PyKit development board, based on the 32-bit SAM E51 microcontroller, with the PyKit Ruler baseboard through a solderless, friction-fit header connection.
 
-The SAM E51 Curiosity Nano Evaluation Kit is a hardware platform to evaluate the SAME51J20A microcontroller (MCU). This board is supported by MPLAB Integrated tools development environment and MPLAB Harmony.
+The kit was designed for hands-on workshops at schools, universities and makerspaces, taking learners from blinking an LED all the way to building complete games. The back of the ruler doubles as a reference card, with a resistor color code chart, a decimal/binary/hexadecimal conversion table, and formulas for Ohm's law, power, and series and parallel resistors and capacitors.
 
-- ARM® Cortex®-M4 processor
-- One user LED (yellow)
-- One mechanical user switch
-- On-board debugger
-  - Board identification in MPLAB X IDE
-  - One power/status LED (green)
-  - Programming and debugging
-  - Virtual COM port (CDC)
-  - One logic analyzer (DGI GPIO)
-- USB powered
-- Adjustable target voltage
-  - MIC5353 LDO regulator controlled by the on-board debugger
-  - 1.8-3.6v output voltage
-  - 500 mA maximum output current (limited by ambient temperature and output voltage)
+- SAME51J20A Arm® Cortex®-M4F microcontroller
+- 4 MB of flash for user programs and libraries
+- 1.14" color TFT display
+- Class-D audio amplifier and 8 Ω speaker
+- Five NeoPixel RGB LEDs
+- 9-DoF IMU for motion and magnetic field sensing
+- microSD card slot
+- CAN bus support
+- Microchip RNBD451 Bluetooth® Low Energy module
+- STEMMA QT/QWIIC connector for I²C breakout boards
+- USB-C connector
+- Full pinout printed on the front and back of the development board and on the back of the ruler
 
-## Purchase
+The kit also includes BME680 (temperature, humidity, pressure and gas) and APDS-9999 (color, lux and proximity) sensor breakouts with a STEMMA QT cable.
 
-* [Microchip](https://www.microchip.com/en-us/development-tool/ev76s68a)
+## Learn More
+
+* [Microchip](https://www.microchip.com/en-us/about/media-center/blog/2026/pykit-explorer-circuitpython-development-kit)
